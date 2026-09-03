@@ -1,0 +1,329 @@
+{
+  "id": "gwangju_bukgu",
+  "name": "광주북구",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "광주북구창",
+  "functions": [
+    {
+      "id": "gwangju_bukgu.광주북구간담개최",
+      "name": "광주북구간담개최",
+      "method": "광주북구간담개최",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구간담결과",
+      "name": "광주북구간담결과",
+      "method": "광주북구간담결과",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구네모",
+      "name": "광주북구네모",
+      "method": "광주북구네모",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구당구",
+      "name": "광주북구당구",
+      "method": "광주북구당구",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구동그라미",
+      "name": "광주북구동그라미",
+      "method": "광주북구동그라미",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구동향보고",
+      "name": "광주북구동향보고",
+      "method": "광주북구동향보고",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구메모보고",
+      "name": "광주북구메모보고",
+      "method": "광주북구메모보고",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구민원처리",
+      "name": "광주북구민원처리",
+      "method": "광주북구민원처리",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구바",
+      "name": "광주북구바",
+      "method": "광주북구바",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구방문결과",
+      "name": "광주북구방문결과",
+      "method": "광주북구방문결과",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구보고전제목",
+      "name": "광주북구보고전제목",
+      "method": "광주북구보고전제목",
+      "parameters": [
+        "제목",
+        "소제목",
+        "크기"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구보도대책",
+      "name": "광주북구보도대책",
+      "method": "광주북구보도대책",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구보도대책표",
+      "name": "광주북구보도대책표",
+      "method": "광주북구보도대책표",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구보도자료",
+      "name": "광주북구보도자료",
+      "method": "광주북구보도자료",
+      "parameters": [
+        "그림1",
+        "그림2"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구사진",
+      "name": "광주북구사진",
+      "method": "광주북구사진",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구장소안내",
+      "name": "광주북구장소안내",
+      "method": "광주북구장소안내",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구참석자명단",
+      "name": "광주북구참석자명단",
+      "method": "광주북구참석자명단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구취재동향",
+      "name": "광주북구취재동향",
+      "method": "광주북구취재동향",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구취재동향표",
+      "name": "광주북구취재동향표",
+      "method": "광주북구취재동향표",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준3단계획",
+      "name": "광주북구표준3단계획",
+      "method": "광주북구표준3단계획",
+      "parameters": [
+        "그림1",
+        "그림2",
+        "그림3"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준3단계획상단",
+      "name": "광주북구표준3단계획상단",
+      "method": "광주북구표준3단계획상단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준5단계획",
+      "name": "광주북구표준5단계획",
+      "method": "광주북구표준5단계획",
+      "parameters": [
+        "그림1",
+        "그림2",
+        "그림3"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준5단계획상단",
+      "name": "광주북구표준5단계획상단",
+      "method": "광주북구표준5단계획상단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준대제목",
+      "name": "광주북구표준대제목",
+      "method": "광주북구표준대제목",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준로고",
+      "name": "광주북구표준로고",
+      "method": "광주북구표준로고",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준붙임",
+      "name": "광주북구표준붙임",
+      "method": "광주북구표준붙임",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준사전검토",
+      "name": "광주북구표준사전검토",
+      "method": "광주북구표준사전검토",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준서론",
+      "name": "광주북구표준서론",
+      "method": "광주북구표준서론",
+      "parameters": [
+        "그림",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준소제목",
+      "name": "광주북구표준소제목",
+      "method": "광주북구표준소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구표준중제목",
+      "name": "광주북구표준중제목",
+      "method": "광주북구표준중제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구행사개요",
+      "name": "광주북구행사개요",
+      "method": "광주북구행사개요",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구행사계획",
+      "name": "광주북구행사계획",
+      "method": "광주북구행사계획",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju_bukgu.광주북구행사계획세부내용",
+      "name": "광주북구행사계획세부내용",
+      "method": "광주북구행사계획세부내용",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

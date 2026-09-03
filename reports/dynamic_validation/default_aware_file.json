@@ -1,0 +1,74 @@
+{
+  "category": "file_fixture",
+  "selected": 2,
+  "start": 0,
+  "completed": 2,
+  "results": [
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남청소제목",
+      "args": [
+        "Ⅰ",
+        "추진 개요",
+        ""
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "760143ed18854b54494c7865e64a6580b08d841dfb7e48324e3cfc4057952efb",
+        "hwpml_length": 35999,
+        "hwpml_sha256": "4b8d434e4073a9e7962bdb48d4671bb6648c49f09fdab771f48fb1c89f26f5ac"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "760143ed18854b54494c7865e64a6580b08d841dfb7e48324e3cfc4057952efb",
+        "hwpml_length": 35999,
+        "hwpml_sha256": "4b8d434e4073a9e7962bdb48d4671bb6648c49f09fdab771f48fb1c89f26f5ac"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남도붙임",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "붙임1",
+        "붙임 제목"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "411e7c448fe0741d177febb8f9c3c872a4587c68bf1e7233b63b74cb4b1b210f",
+        "hwpml_length": 35151,
+        "hwpml_sha256": "562f8e7def8df0b86f23180c6f9ef77573dfced373af8c3f8037ca317cdaf2d0"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "411e7c448fe0741d177febb8f9c3c872a4587c68bf1e7233b63b74cb4b1b210f",
+        "hwpml_length": 35151,
+        "hwpml_sha256": "562f8e7def8df0b86f23180c6f9ef77573dfced373af8c3f8037ca317cdaf2d0"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

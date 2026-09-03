@@ -1,0 +1,31 @@
+{
+  "category": "blank_document_valid_input",
+  "method": "JSON에서변환",
+  "module": "한컴라이브러리_기본",
+  "fixture": "새 한글 문서에 JSON을 삽입하고 전체 선택 후 변환",
+  "payload": "{\"제목\": {\"항목\": 1}, \"목록\": [\"값\"]}",
+  "legacy": {
+    "ok": true,
+    "return_value": null,
+    "text_length": 19,
+    "text_sha256": "d08fd7c9af017e51a42d2eb006d338b90c9882d62714f940b947dc89997a7724",
+    "hwpml_length": 27817,
+    "hwpml_sha256": "0eeed73f9fc2eaa81870570bd6991e3f898c30f5a9a327ffd392abdccdbe8638"
+  },
+  "recovered": {
+    "ok": true,
+    "return_value": null,
+    "text_length": 19,
+    "text_sha256": "d08fd7c9af017e51a42d2eb006d338b90c9882d62714f940b947dc89997a7724",
+    "hwpml_length": 27817,
+    "hwpml_sha256": "0eeed73f9fc2eaa81870570bd6991e3f898c30f5a9a327ffd392abdccdbe8638"
+  },
+  "comparison": {
+    "both_ok": true,
+    "outcome_equal": true,
+    "text_equal": true,
+    "hwpml_equal": true,
+    "return_equal": true
+  },
+  "note": "빈 문서 fixture에서 원본이 예외를 냈던 결과와 별개로, 유효한 JSON 입력에서는 실제 한글 문서 대조가 완전 일치한다."
+}

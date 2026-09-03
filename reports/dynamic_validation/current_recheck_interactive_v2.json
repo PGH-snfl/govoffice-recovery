@@ -1,0 +1,36 @@
+{
+  "category": "isolated_interactive",
+  "selected": 1,
+  "completed": 1,
+  "fixture": "new_project/reports/dynamic_validation/fixtures/1 해경채증.png",
+  "results": [
+    {
+      "module": "한컴라이브러리_2",
+      "method": "해경채증사진",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 132,
+        "text_sha256": "af2baab7ea97aaf095c8d2449bd9ae21d584994f355c1e5afe86d67b343d2769",
+        "hwpml_length": 45089,
+        "hwpml_sha256": "0535505a7cd6dc23ae6f4fa3f2bfa47a1e14e2e9e6dca07b61027fe19f59ef22"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 132,
+        "text_sha256": "af2baab7ea97aaf095c8d2449bd9ae21d584994f355c1e5afe86d67b343d2769",
+        "hwpml_length": 45089,
+        "hwpml_sha256": "0535505a7cd6dc23ae6f4fa3f2bfa47a1e14e2e9e6dca07b61027fe19f59ef22"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true
+      }
+    }
+  ]
+}

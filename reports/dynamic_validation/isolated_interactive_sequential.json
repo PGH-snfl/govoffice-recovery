@@ -1,0 +1,68 @@
+{
+  "category": "isolated_interactive",
+  "selected": 2,
+  "start": 0,
+  "completed": 2,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "그림용량옵션",
+      "args": [
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "1ad86d925a61e6a582b4064d4c29ab924fa28a227999d58f081d11ae28175c2a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "1ad86d925a61e6a582b4064d4c29ab924fa28a227999d58f081d11ae28175c2a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "그림용량지정",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "1ad86d925a61e6a582b4064d4c29ab924fa28a227999d58f081d11ae28175c2a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "1ad86d925a61e6a582b4064d4c29ab924fa28a227999d58f081d11ae28175c2a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

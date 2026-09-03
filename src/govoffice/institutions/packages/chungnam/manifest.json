@@ -1,0 +1,585 @@
+{
+  "id": "chungnam",
+  "name": "충남",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "충남창",
+  "functions": [
+    {
+      "id": "chungnam.충남CI",
+      "name": "충남CI",
+      "method": "충남CI",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남JSON공문변환",
+      "name": "충남JSON공문변환",
+      "method": "충남JSON공문변환",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남계획서프롬프트",
+      "name": "충남계획서프롬프트",
+      "method": "충남계획서프롬프트",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남관련부처",
+      "name": "충남관련부처",
+      "method": "충남관련부처",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남궁극의정리",
+      "name": "충남궁극의정리",
+      "method": "충남궁극의정리",
+      "parameters": [
+        "이미지",
+        "모드"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남궁극의정리범위",
+      "name": "충남궁극의정리범위",
+      "method": "충남궁극의정리범위",
+      "parameters": [
+        "이미지",
+        "모드"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남궁극의정리범위글머리",
+      "name": "충남궁극의정리범위글머리",
+      "method": "충남궁극의정리범위글머리",
+      "parameters": [
+        "특수문자",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남끝장원",
+      "name": "충남끝장원",
+      "method": "충남끝장원",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남단축키",
+      "name": "충남단축키",
+      "method": "충남단축키",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남딸깍보고서",
+      "name": "충남딸깍보고서",
+      "method": "충남딸깍보고서",
+      "parameters": [
+        "내용",
+        "이미지",
+        "예시",
+        "표지배경"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남맨앞제거",
+      "name": "충남맨앞제거",
+      "method": "충남맨앞제거",
+      "parameters": [
+        "개수"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남명패생성",
+      "name": "충남명패생성",
+      "method": "충남명패생성",
+      "parameters": [
+        "사진",
+        "사이즈"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남미니명패생성",
+      "name": "충남미니명패생성",
+      "method": "충남미니명패생성",
+      "parameters": [
+        "사진"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남보도자료",
+      "name": "충남보도자료",
+      "method": "충남보도자료",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남보도자료본문",
+      "name": "충남보도자료본문",
+      "method": "충남보도자료본문",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남보도자료부제",
+      "name": "충남보도자료부제",
+      "method": "충남보도자료부제",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남보도자료제목",
+      "name": "충남보도자료제목",
+      "method": "충남보도자료제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남붙임",
+      "name": "충남붙임",
+      "method": "충남붙임",
+      "parameters": [
+        "내용",
+        "색상"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남붙임사진",
+      "name": "충남붙임사진",
+      "method": "충남붙임사진",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남블록변환범위",
+      "name": "충남블록변환범위",
+      "method": "충남블록변환범위",
+      "parameters": [
+        "내용",
+        "종류"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남사진2단",
+      "name": "충남사진2단",
+      "method": "충남사진2단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남사진3단",
+      "name": "충남사진3단",
+      "method": "충남사진3단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남서론",
+      "name": "충남서론",
+      "method": "충남서론",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남소제목",
+      "name": "충남소제목",
+      "method": "충남소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남시간계획표",
+      "name": "충남시간계획표",
+      "method": "충남시간계획표",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남시간계획표기본",
+      "name": "충남시간계획표기본",
+      "method": "충남시간계획표기본",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남시군자료예제",
+      "name": "충남시군자료예제",
+      "method": "충남시군자료예제",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남연간계획",
+      "name": "충남연간계획",
+      "method": "충남연간계획",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남의회명패170",
+      "name": "충남의회명패170",
+      "method": "충남의회명패170",
+      "parameters": [
+        "사진"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남의회명패200",
+      "name": "충남의회명패200",
+      "method": "충남의회명패200",
+      "parameters": [
+        "사진"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남의회미니명패",
+      "name": "충남의회미니명패",
+      "method": "충남의회미니명패",
+      "parameters": [
+        "사진"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남의회참석명단",
+      "name": "충남의회참석명단",
+      "method": "충남의회참석명단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남제목2개단어명단",
+      "name": "충남제목2개단어명단",
+      "method": "충남제목2개단어명단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남제목2개작은명찰",
+      "name": "충남제목2개작은명찰",
+      "method": "충남제목2개작은명찰",
+      "parameters": [
+        "사진"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남제목2개큰명찰",
+      "name": "충남제목2개큰명찰",
+      "method": "충남제목2개큰명찰",
+      "parameters": [
+        "사진"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남주자개인정보동의서",
+      "name": "충남주자개인정보동의서",
+      "method": "충남주자개인정보동의서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남주자사업계획서",
+      "name": "충남주자사업계획서",
+      "method": "충남주자사업계획서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남주자사업신청서",
+      "name": "충남주자사업신청서",
+      "method": "충남주자사업신청서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남주자서식",
+      "name": "충남주자서식",
+      "method": "충남주자서식",
+      "parameters": [
+        "숫자",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남주자실적보고서",
+      "name": "충남주자실적보고서",
+      "method": "충남주자실적보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남주자주민참여명부",
+      "name": "충남주자주민참여명부",
+      "method": "충남주자주민참여명부",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남중제목",
+      "name": "충남중제목",
+      "method": "충남중제목",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남지도통계",
+      "name": "충남지도통계",
+      "method": "충남지도통계",
+      "parameters": [
+        "색단계"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남지사님하실일",
+      "name": "충남지사님하실일",
+      "method": "충남지사님하실일",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남참고",
+      "name": "충남참고",
+      "method": "충남참고",
+      "parameters": [
+        "내용",
+        "색상"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남참석명단",
+      "name": "충남참석명단",
+      "method": "충남참석명단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청보도자료",
+      "name": "충남청보도자료",
+      "method": "충남청보도자료",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청보도자료본문서식",
+      "name": "충남청보도자료본문서식",
+      "method": "충남청보도자료본문서식",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청보도자료부제",
+      "name": "충남청보도자료부제",
+      "method": "충남청보도자료부제",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청보도자료제목",
+      "name": "충남청보도자료제목",
+      "method": "충남청보도자료제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청서론",
+      "name": "충남청서론",
+      "method": "충남청서론",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청소제목",
+      "name": "충남청소제목",
+      "method": "충남청소제목",
+      "parameters": [
+        "번호",
+        "내용",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청중제목",
+      "name": "충남청중제목",
+      "method": "충남청중제목",
+      "parameters": [
+        "이미지",
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청표지",
+      "name": "충남청표지",
+      "method": "충남청표지",
+      "parameters": [
+        "이미지",
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남청한장제목",
+      "name": "충남청한장제목",
+      "method": "충남청한장제목",
+      "parameters": [
+        "이미지",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남표서식변환",
+      "name": "충남표서식변환",
+      "method": "충남표서식변환",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남표지",
+      "name": "충남표지",
+      "method": "충남표지",
+      "parameters": [
+        "내용",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남표지워터마크",
+      "name": "충남표지워터마크",
+      "method": "충남표지워터마크",
+      "parameters": [
+        "제목",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungnam.충남한장제목",
+      "name": "충남한장제목",
+      "method": "충남한장제목",
+      "parameters": [
+        "이미지",
+        "제목",
+        "부서",
+        "직위1",
+        "이름1",
+        "번호1",
+        "직위2",
+        "이름2",
+        "번호2",
+        "직위3",
+        "이름3",
+        "번호3"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

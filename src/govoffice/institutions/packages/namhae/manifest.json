@@ -1,0 +1,336 @@
+{
+  "id": "namhae",
+  "name": "남해",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "남해창",
+  "functions": [
+    {
+      "id": "namhae.남해건의자료제목",
+      "name": "남해건의자료제목",
+      "method": "남해건의자료제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해건의자료표지",
+      "name": "남해건의자료표지",
+      "method": "남해건의자료표지",
+      "parameters": [
+        "이미지0",
+        "이미지1"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해결재선",
+      "name": "남해결재선",
+      "method": "남해결재선",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해결재선기획표지",
+      "name": "남해결재선기획표지",
+      "method": "남해결재선기획표지",
+      "parameters": [
+        "이미지1",
+        "이미지2",
+        "이미지3"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해결재선없음",
+      "name": "남해결재선없음",
+      "method": "남해결재선없음",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해결재없는기획표지",
+      "name": "남해결재없는기획표지",
+      "method": "남해결재없는기획표지",
+      "parameters": [
+        "이미지0",
+        "이미지1",
+        "이미지2",
+        "이미지3"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해과명",
+      "name": "남해과명",
+      "method": "남해과명",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해기본",
+      "name": "남해기본",
+      "method": "남해기본",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해기본계획",
+      "name": "남해기본계획",
+      "method": "남해기본계획",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해기획네모",
+      "name": "남해기획네모",
+      "method": "남해기획네모",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해기획보고서내용",
+      "name": "남해기획보고서내용",
+      "method": "남해기획보고서내용",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해기획서론박스",
+      "name": "남해기획서론박스",
+      "method": "남해기획서론박스",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해기획표",
+      "name": "남해기획표",
+      "method": "남해기획표",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해네모내용",
+      "name": "남해네모내용",
+      "method": "남해네모내용",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해대제목",
+      "name": "남해대제목",
+      "method": "남해대제목",
+      "parameters": [
+        "이미지1",
+        "이미지2"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해마크",
+      "name": "남해마크",
+      "method": "남해마크",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해마크2",
+      "name": "남해마크2",
+      "method": "남해마크2",
+      "parameters": [
+        "이미지",
+        "부처"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해목차",
+      "name": "남해목차",
+      "method": "남해목차",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해바내용",
+      "name": "남해바내용",
+      "method": "남해바내용",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해보도자료",
+      "name": "남해보도자료",
+      "method": "남해보도자료",
+      "parameters": [
+        "이미지0"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해보도자료상단",
+      "name": "남해보도자료상단",
+      "method": "남해보도자료상단",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해복지찾기",
+      "name": "남해복지찾기",
+      "method": "남해복지찾기",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해상단이중",
+      "name": "남해상단이중",
+      "method": "남해상단이중",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해서론박스",
+      "name": "남해서론박스",
+      "method": "남해서론박스",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해소제목",
+      "name": "남해소제목",
+      "method": "남해소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해소제목2",
+      "name": "남해소제목2",
+      "method": "남해소제목2",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해시간",
+      "name": "남해시간",
+      "method": "남해시간",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해심플표",
+      "name": "남해심플표",
+      "method": "남해심플표",
+      "parameters": [
+        "행"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해원내용",
+      "name": "남해원내용",
+      "method": "남해원내용",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해좌측표어",
+      "name": "남해좌측표어",
+      "method": "남해좌측표어",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해주요내용",
+      "name": "남해주요내용",
+      "method": "남해주요내용",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해행사요약서",
+      "name": "남해행사요약서",
+      "method": "남해행사요약서",
+      "parameters": [
+        "이미지0",
+        "이미지1",
+        "이미지2"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해행사요약서제목",
+      "name": "남해행사요약서제목",
+      "method": "남해행사요약서제목",
+      "parameters": [
+        "이미지1",
+        "이미지2"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "namhae.남해행사진행",
+      "name": "남해행사진행",
+      "method": "남해행사진행",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

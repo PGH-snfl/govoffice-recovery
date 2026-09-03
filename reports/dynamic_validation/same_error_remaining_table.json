@@ -1,0 +1,177 @@
+{
+  "category": "table_fixture",
+  "selected": 6,
+  "start": 0,
+  "completed": 6,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "소제목",
+      "args": [
+        1,
+        "항목1",
+        1
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 3150, in 소제목\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1821, in 소제목\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 881, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남해소제목",
+      "args": [
+        1,
+        "항목1"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 1877, in 남해소제목\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 1302, in 남해소제목\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 881, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울소제목",
+      "args": [
+        1,
+        "항목1"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 2892, in 서울소제목\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 2229, in 서울소제목\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 881, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울소제목블랙",
+      "args": [
+        1,
+        "항목1"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 2916, in 서울소제목블랙\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 2253, in 서울소제목블랙\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 881, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구표준붙임",
+      "args": [
+        1,
+        "항목1"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 14998, in 광주북구표준붙임\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 9828, in 광주북구표준붙임\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 881, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "합천본문큰제목",
+      "args": [
+        1,
+        "항목1"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 16285, in 합천본문큰제목\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 187, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 11047, in 합천본문큰제목\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 881, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    }
+  ]
+}

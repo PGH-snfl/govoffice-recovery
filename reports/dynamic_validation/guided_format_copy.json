@@ -1,0 +1,29 @@
+{
+  "feature": "guided_format_copy",
+  "ok": true,
+  "file_new": true,
+  "security_module_registered": true,
+  "source_shape": {
+    "text_color": 1973980,
+    "height": 1800,
+    "bold": 1,
+    "align_type": 3
+  },
+  "target_shape": {
+    "text_color": 1973980,
+    "height": 1800,
+    "bold": 1,
+    "align_type": 3
+  },
+  "comparisons": {
+    "text_color": true,
+    "height": true,
+    "bold": true,
+    "align_type": true
+  },
+  "content_preserved": true,
+  "captured_stage": "captured",
+  "applied_stage": "applied",
+  "clear_ok": true,
+  "quit_ok": true
+}

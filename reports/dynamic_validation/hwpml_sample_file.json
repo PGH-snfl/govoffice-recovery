@@ -1,0 +1,70 @@
+{
+  "category": "file_fixture",
+  "selected": 2,
+  "start": 0,
+  "completed": 2,
+  "results": [
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남보도자료",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 1674,
+        "text_sha256": "e3418f247d12dd9c686aa0f911370cabf3390e5eaa2ac6bdb7e1eeb47b10ddef",
+        "hwpml_length": 54615,
+        "hwpml_sha256": "922a5e7e6a9013cfe163b94026aeb5a5d3c511357a31eb2e343b5bb5b5315ea2"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 1674,
+        "text_sha256": "e3418f247d12dd9c686aa0f911370cabf3390e5eaa2ac6bdb7e1eeb47b10ddef",
+        "hwpml_length": 54615,
+        "hwpml_sha256": "922a5e7e6a9013cfe163b94026aeb5a5d3c511357a31eb2e343b5bb5b5315ea2"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울표어",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 30574,
+        "hwpml_sha256": "9dd5d4287296406c560259ba9a535edc21144582e16e1a3875059c5cfe1ecf14"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 30574,
+        "hwpml_sha256": "9dd5d4287296406c560259ba9a535edc21144582e16e1a3875059c5cfe1ecf14"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

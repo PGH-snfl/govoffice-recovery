@@ -1,0 +1,44 @@
+{
+  "category": "file_fixture",
+  "selected": 87,
+  "start": 0,
+  "completed": 2,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "글자취급이미지",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "could not convert string to float: '테스트'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 2378, in 글자취급이미지\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 1683, in 표만들기\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 528, in MiliToHwpUnit\n    return self._oleobj_.InvokeTypes(30005, LCID, 1, (3, 0), ((5, 1),),mili\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\nValueError: could not convert string to float: '테스트'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "could not convert string to float: '테스트'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1769, in 글자취급이미지\n    self.표만들기([가로], [세로])\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1448, in 표만들기\n    self.대상.HParameterSet.HTableCreation.ColWidth.SetItem(i, self.대상.MiliToHwpUnit(가로크기[i]))\n                                                               ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 528, in MiliToHwpUnit\n    return self._oleobj_.InvokeTypes(30005, LCID, 1, (3, 0), ((5, 1),),mili\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\nValueError: could not convert string to float: '테스트'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "로고절대값",
+      "timed_out": true,
+      "timeout_seconds": 30.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"로고절대값\"}\n"
+    }
+  ]
+}

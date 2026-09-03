@@ -1,0 +1,39 @@
+{
+  "category": "argument_fixture",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "글자폰트바꾸기간격",
+      "args": [
+        "함초롬바탕",
+        "맑은 고딕",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 196, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 478, in 글자폰트바꾸기간격\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpAction.py\", line 42, in Execute\n    return self._oleobj_.InvokeTypes(15002, LCID, 1, (11, 0), ((9, 1),),param\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": false,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 27739,
+        "hwpml_sha256": "64c95cd1b619bfe06bc57ed9060f0903c6d062c99172308d8ebe8734383bfa92"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

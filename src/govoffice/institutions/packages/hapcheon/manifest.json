@@ -1,0 +1,332 @@
+{
+  "id": "hapcheon",
+  "name": "합천",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "합천창",
+  "functions": [
+    {
+      "id": "hapcheon.합천개요글상자",
+      "name": "합천개요글상자",
+      "method": "합천개요글상자",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천건의검토",
+      "name": "합천건의검토",
+      "method": "합천건의검토",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천경조사",
+      "name": "합천경조사",
+      "method": "합천경조사",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천계속사업",
+      "name": "합천계속사업",
+      "method": "합천계속사업",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천기본검토",
+      "name": "합천기본검토",
+      "method": "합천기본검토",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천기본결과",
+      "name": "합천기본결과",
+      "method": "합천기본결과",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천기본서식",
+      "name": "합천기본서식",
+      "method": "합천기본서식",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천네모",
+      "name": "합천네모",
+      "method": "합천네모",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천네모지정",
+      "name": "합천네모지정",
+      "method": "합천네모지정",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천단어",
+      "name": "합천단어",
+      "method": "합천단어",
+      "parameters": [
+        "종류"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천대안제시",
+      "name": "합천대안제시",
+      "method": "합천대안제시",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천동그라미",
+      "name": "합천동그라미",
+      "method": "합천동그라미",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천바",
+      "name": "합천바",
+      "method": "합천바",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천발생보고",
+      "name": "합천발생보고",
+      "method": "합천발생보고",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천방문보고",
+      "name": "합천방문보고",
+      "method": "합천방문보고",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천본문큰제목",
+      "name": "합천본문큰제목",
+      "method": "합천본문큰제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천상단",
+      "name": "합천상단",
+      "method": "합천상단",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천상황보고",
+      "name": "합천상황보고",
+      "method": "합천상황보고",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천선진지",
+      "name": "합천선진지",
+      "method": "합천선진지",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천설명회",
+      "name": "합천설명회",
+      "method": "합천설명회",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천설명회결과",
+      "name": "합천설명회결과",
+      "method": "합천설명회결과",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천소제목",
+      "name": "합천소제목",
+      "method": "합천소제목",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천언론검토",
+      "name": "합천언론검토",
+      "method": "합천언론검토",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천요지",
+      "name": "합천요지",
+      "method": "합천요지",
+      "parameters": [
+        "종류",
+        "중요도",
+        "요지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천제도검토",
+      "name": "합천제도검토",
+      "method": "합천제도검토",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천제목",
+      "name": "합천제목",
+      "method": "합천제목",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천제목글상자",
+      "name": "합천제목글상자",
+      "method": "합천제목글상자",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천진단분석",
+      "name": "합천진단분석",
+      "method": "합천진단분석",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천진행순서",
+      "name": "합천진행순서",
+      "method": "합천진행순서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천평가결과",
+      "name": "합천평가결과",
+      "method": "합천평가결과",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천행사결과",
+      "name": "합천행사결과",
+      "method": "합천행사결과",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천행사회의",
+      "name": "합천행사회의",
+      "method": "합천행사회의",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "hapcheon.합천홍보행사",
+      "name": "합천홍보행사",
+      "method": "합천홍보행사",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

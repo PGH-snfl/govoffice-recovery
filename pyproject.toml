@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "govoffice"
+version = "0.1.0"
+description = "범피스 분석 결과를 바탕으로 재구성하는 범정부오피스"
+requires-python = ">=3.13"
+
+[project.scripts]
+govoffice = "govoffice.presentation.launcher:실행"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"govoffice.institutions" = ["packages/*/manifest.json", "packages/*/icons/*", "packages/*/templates/*"]
+"govoffice.runtime.recovered_hwp" = ["catalog/*.json"]

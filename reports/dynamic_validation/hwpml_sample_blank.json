@@ -1,0 +1,37 @@
+{
+  "category": "blank_document",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "내용만붙이기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 35,
+        "text_sha256": "9af9cc4fc4ca4c23d5964d03b62e896595d6ca0aea847495f8d77f86b8985624",
+        "hwpml_length": 28162,
+        "hwpml_sha256": "4ec05c819ec36a2c10e5a026abce289d22bfc9eaf3c352b7087850a4b8b28419"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 35,
+        "text_sha256": "9af9cc4fc4ca4c23d5964d03b62e896595d6ca0aea847495f8d77f86b8985624",
+        "hwpml_length": 28162,
+        "hwpml_sha256": "4ec05c819ec36a2c10e5a026abce289d22bfc9eaf3c352b7087850a4b8b28419"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

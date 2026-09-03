@@ -1,0 +1,47 @@
+{
+  "category": "table_fixture",
+  "selected": 3,
+  "completed": 3,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "서식자기개발",
+      "legacy": {"ok": false, "error_type": "NameError", "error": "name '랜덤선택' is not defined"},
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 203,
+        "text_sha256": "7b96bb6d0d7a80eba72e4ae26775c120c8d381e7a9fb8716ef7c9a456ddafd3f",
+        "hwpml_sha256": "2d67932a7609e15f60bb522f00c6aee50b34590e04fae9de2b4073965d229906"
+      },
+      "comparison": {"outcome_equal": false, "classification": "compatibility_improvement"}
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "마크다운",
+      "legacy": {"ok": false, "error_type": "AttributeError", "error": "'NoneType' object has no attribute 'CreateSet'"},
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_sha256": "3fd7e91122a5842485c1bd574e5be5dd5c03e356ab559c01ab3e242a4fa9a487"
+      },
+      "comparison": {"outcome_equal": false, "classification": "compatibility_improvement"}
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식마크다운",
+      "legacy": {"ok": false, "error_type": "AttributeError", "error": "'NoneType' object has no attribute 'CreateSet'"},
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_sha256": "ffdf7268b97f62ae2f168b7124712a4af97b92f2ef4c2b483b5179214fc3bd7d"
+      },
+      "comparison": {"outcome_equal": false, "classification": "compatibility_improvement"}
+    }
+  ],
+  "note": "원본의 개발환경 오류를 복구본에서 안전 반환·문서 생성으로 개선했다. 원본 출력과의 완전 동등으로 승격하지 않는다."
+}

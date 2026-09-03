@@ -1,0 +1,146 @@
+{
+  "id": "incheon",
+  "name": "인천",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "인천창",
+  "functions": [
+    {
+      "id": "incheon.인천검토보고서",
+      "name": "인천검토보고서",
+      "method": "인천검토보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천기본",
+      "name": "인천기본",
+      "method": "인천기본",
+      "parameters": [
+        "내용",
+        "플래그"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천대제목",
+      "name": "인천대제목",
+      "method": "인천대제목",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천로고",
+      "name": "인천로고",
+      "method": "인천로고",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천보고서제목",
+      "name": "인천보고서제목",
+      "method": "인천보고서제목",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천상황보고서",
+      "name": "인천상황보고서",
+      "method": "인천상황보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천요지",
+      "name": "인천요지",
+      "method": "인천요지",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천점선박스",
+      "name": "인천점선박스",
+      "method": "인천점선박스",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천정책보고서",
+      "name": "인천정책보고서",
+      "method": "인천정책보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천진행순서",
+      "name": "인천진행순서",
+      "method": "인천진행순서",
+      "parameters": [
+        "플래그"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천참고",
+      "name": "인천참고",
+      "method": "인천참고",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천표준보고서",
+      "name": "인천표준보고서",
+      "method": "인천표준보고서",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천행사보고서",
+      "name": "인천행사보고서",
+      "method": "인천행사보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천회의개최보고서",
+      "name": "인천회의개최보고서",
+      "method": "인천회의개최보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "incheon.인천회의결과보고서",
+      "name": "인천회의결과보고서",
+      "method": "인천회의결과보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

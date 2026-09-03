@@ -1,0 +1,35 @@
+{
+  "category": "argument_fixture",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "마크다운응용",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 7257, in 마크다운응용\n  File \"한컴오피스\\한컴라이브러리.py\", line 7042, in 마크다운\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 324, in 글자스타일\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 5840, in 마크다운응용\n    self.마크다운()\n    ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4474, in 마크다운\n    return Legacy기본한컴.마크다운(self)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"한컴오피스\\한컴라이브러리.py\", line 7042, in 마크다운\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 314, in 글자스타일\n    총알 = 총.CreateSet()\n           ^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    }
+  ]
+}

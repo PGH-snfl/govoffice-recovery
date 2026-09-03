@@ -1,0 +1,41 @@
+{
+  "id": "chungju",
+  "name": "충주",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "충주창",
+  "functions": [
+    {
+      "id": "chungju.충주로고1",
+      "name": "충주로고1",
+      "method": "충주로고1",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungju.충주로고2",
+      "name": "충주로고2",
+      "method": "충주로고2",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "chungju.충주로고3",
+      "name": "충주로고3",
+      "method": "충주로고3",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

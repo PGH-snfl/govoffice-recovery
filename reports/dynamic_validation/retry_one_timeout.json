@@ -1,0 +1,37 @@
+{
+  "category": "blank_document",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "견고딕",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 29473,
+        "hwpml_sha256": "73013b19f6b19a494e249a1eb0c21c6670358040d77b937a081465dde2700728"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 29473,
+        "hwpml_sha256": "73013b19f6b19a494e249a1eb0c21c6670358040d77b937a081465dde2700728"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

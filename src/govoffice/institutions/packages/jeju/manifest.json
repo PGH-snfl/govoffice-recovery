@@ -1,0 +1,512 @@
+{
+  "id": "jeju",
+  "name": "제주",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "제주창",
+  "functions": [
+    {
+      "id": "jeju.제주교검토보고",
+      "name": "제주교검토보고",
+      "method": "제주교검토보고",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교기본표",
+      "name": "제주교기본표",
+      "method": "제주교기본표",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교네모",
+      "name": "제주교네모",
+      "method": "제주교네모",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교당구",
+      "name": "제주교당구",
+      "method": "제주교당구",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교동그라미",
+      "name": "제주교동그라미",
+      "method": "제주교동그라미",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교동향보고",
+      "name": "제주교동향보고",
+      "method": "제주교동향보고",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교목차",
+      "name": "제주교목차",
+      "method": "제주교목차",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교목차새창",
+      "name": "제주교목차새창",
+      "method": "제주교목차새창",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교민원처리",
+      "name": "제주교민원처리",
+      "method": "제주교민원처리",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교바",
+      "name": "제주교바",
+      "method": "제주교바",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교방문결과",
+      "name": "제주교방문결과",
+      "method": "제주교방문결과",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교방문계획",
+      "name": "제주교방문계획",
+      "method": "제주교방문계획",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교부서",
+      "name": "제주교부서",
+      "method": "제주교부서",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교사진대장",
+      "name": "제주교사진대장",
+      "method": "제주교사진대장",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교세부일정",
+      "name": "제주교세부일정",
+      "method": "제주교세부일정",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교소제목",
+      "name": "제주교소제목",
+      "method": "제주교소제목",
+      "parameters": [
+        "이미지",
+        "번호",
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교순서도",
+      "name": "제주교순서도",
+      "method": "제주교순서도",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교언론검토",
+      "name": "제주교언론검토",
+      "method": "제주교언론검토",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교업무흐름도",
+      "name": "제주교업무흐름도",
+      "method": "제주교업무흐름도",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교재난발생",
+      "name": "제주교재난발생",
+      "method": "제주교재난발생",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교점",
+      "name": "제주교점",
+      "method": "제주교점",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교제목",
+      "name": "제주교제목",
+      "method": "제주교제목",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교제목날없작",
+      "name": "제주교제목날없작",
+      "method": "제주교제목날없작",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교제목날없큰",
+      "name": "제주교제목날없큰",
+      "method": "제주교제목날없큰",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교주요내용",
+      "name": "제주교주요내용",
+      "method": "제주교주요내용",
+      "parameters": [
+        "문장1",
+        "문장2",
+        "문장3",
+        "문장4"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교진행순서",
+      "name": "제주교진행순서",
+      "method": "제주교진행순서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교참고자료",
+      "name": "제주교참고자료",
+      "method": "제주교참고자료",
+      "parameters": [
+        "붙임",
+        "종류",
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교참석등록부",
+      "name": "제주교참석등록부",
+      "method": "제주교참석등록부",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교추진개요",
+      "name": "제주교추진개요",
+      "method": "제주교추진개요",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교추진계획",
+      "name": "제주교추진계획",
+      "method": "제주교추진계획",
+      "parameters": [
+        "이미지1",
+        "이미지2",
+        "이미지3"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교표서식",
+      "name": "제주교표서식",
+      "method": "제주교표서식",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교표어",
+      "name": "제주교표어",
+      "method": "제주교표어",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교행사계획",
+      "name": "제주교행사계획",
+      "method": "제주교행사계획",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교회의결과",
+      "name": "제주교회의결과",
+      "method": "제주교회의결과",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교회의계획",
+      "name": "제주교회의계획",
+      "method": "제주교회의계획",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주교회의록",
+      "name": "제주교회의록",
+      "method": "제주교회의록",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주꺽쇠박스",
+      "name": "제주꺽쇠박스",
+      "method": "제주꺽쇠박스",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대대제목",
+      "name": "제주대대제목",
+      "method": "제주대대제목",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대로고",
+      "name": "제주대로고",
+      "method": "제주대로고",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대목차",
+      "name": "제주대목차",
+      "method": "제주대목차",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대목차제목",
+      "name": "제주대목차제목",
+      "method": "제주대목차제목",
+      "parameters": [
+        "배경"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대붙임",
+      "name": "제주대붙임",
+      "method": "제주대붙임",
+      "parameters": [
+        "번호",
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대안건",
+      "name": "제주대안건",
+      "method": "제주대안건",
+      "parameters": [
+        "번호",
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대요청사항",
+      "name": "제주대요청사항",
+      "method": "제주대요청사항",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대제목",
+      "name": "제주대제목",
+      "method": "제주대제목",
+      "parameters": [
+        "배경"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대중제목",
+      "name": "제주대중제목",
+      "method": "제주대중제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대표지",
+      "name": "제주대표지",
+      "method": "제주대표지",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주대표지제목",
+      "name": "제주대표지제목",
+      "method": "제주대표지제목",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주로고",
+      "name": "제주로고",
+      "method": "제주로고",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주벗",
+      "name": "제주벗",
+      "method": "제주벗",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주소제목",
+      "name": "제주소제목",
+      "method": "제주소제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주순서표",
+      "name": "제주순서표",
+      "method": "제주순서표",
+      "parameters": [
+        "화살표"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주유의사항",
+      "name": "제주유의사항",
+      "method": "제주유의사항",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "jeju.제주청렴",
+      "name": "제주청렴",
+      "method": "제주청렴",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

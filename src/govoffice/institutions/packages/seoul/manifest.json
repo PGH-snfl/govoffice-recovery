@@ -1,0 +1,184 @@
+{
+  "id": "seoul",
+  "name": "서울",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "서울창",
+  "functions": [
+    {
+      "id": "seoul.서울긴소제목",
+      "name": "서울긴소제목",
+      "method": "서울긴소제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울답변박스",
+      "name": "서울답변박스",
+      "method": "서울답변박스",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울대제목",
+      "name": "서울대제목",
+      "method": "서울대제목",
+      "parameters": [
+        "제목상단",
+        "제목하단"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울목차",
+      "name": "서울목차",
+      "method": "서울목차",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울보고서",
+      "name": "서울보고서",
+      "method": "서울보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울보고서제목",
+      "name": "서울보고서제목",
+      "method": "서울보고서제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울보고서제목날짜",
+      "name": "서울보고서제목날짜",
+      "method": "서울보고서제목날짜",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울서론박스",
+      "name": "서울서론박스",
+      "method": "서울서론박스",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울소제목",
+      "name": "서울소제목",
+      "method": "서울소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울소제목블랙",
+      "name": "서울소제목블랙",
+      "method": "서울소제목블랙",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울심플표",
+      "name": "서울심플표",
+      "method": "서울심플표",
+      "parameters": [
+        "행"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울약식보고서",
+      "name": "서울약식보고서",
+      "method": "서울약식보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울유의사항",
+      "name": "서울유의사항",
+      "method": "서울유의사항",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울의원질문답변",
+      "name": "서울의원질문답변",
+      "method": "서울의원질문답변",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울작성자",
+      "name": "서울작성자",
+      "method": "서울작성자",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울제목",
+      "name": "서울제목",
+      "method": "서울제목",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울질문박스",
+      "name": "서울질문박스",
+      "method": "서울질문박스",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울참고",
+      "name": "서울참고",
+      "method": "서울참고",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울추진일정",
+      "name": "서울추진일정",
+      "method": "서울추진일정",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "seoul.서울표어",
+      "name": "서울표어",
+      "method": "서울표어",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

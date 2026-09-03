@@ -1,0 +1,15 @@
+{
+  "category": "argument_fixture",
+  "selected": 79,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "글자간격",
+      "timed_out": true,
+      "timeout_seconds": 30.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"글자간격\"}\n{\"phase\": \"recovered\", \"method\": \"글자간격\"}\n"
+    }
+  ]
+}

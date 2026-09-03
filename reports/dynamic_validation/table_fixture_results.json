@@ -1,0 +1,44 @@
+{
+  "category": "table_fixture",
+  "selected": 77,
+  "start": 0,
+  "completed": 2,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표전체",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "상단캡션",
+      "timed_out": true,
+      "timeout_seconds": 30.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"상단캡션\"}\n"
+    }
+  ]
+}

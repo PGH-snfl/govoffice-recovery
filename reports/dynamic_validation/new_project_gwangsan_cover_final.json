@@ -1,0 +1,42 @@
+{
+  "category": "file_fixture",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "광주광산표지",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 110,
+        "text_sha256": "d8ee347357c913dc1187c3962088deb900e10da1ff0ed972491b156eab8c5b0e",
+        "hwpml_length": 63135,
+        "hwpml_sha256": "dd43375600291f93f4670a0fa8e79008e06d1a8a73fb773220b7012f7552661b"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 110,
+        "text_sha256": "d8ee347357c913dc1187c3962088deb900e10da1ff0ed972491b156eab8c5b0e",
+        "hwpml_length": 63135,
+        "hwpml_sha256": "dd43375600291f93f4670a0fa8e79008e06d1a8a73fb773220b7012f7552661b"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

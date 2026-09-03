@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+*.log
+.pytest_cache/
+
+# Local user settings and document-derived presets
+config/user_profile.json
+config/user_profile.dat
+config/favorites.json
+config/style_presets/
+config/*.tmp
+config/*.bak
+
+# Runtime-only diagnostics
+reports/runtime/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

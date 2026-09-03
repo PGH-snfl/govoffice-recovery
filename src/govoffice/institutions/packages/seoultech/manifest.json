@@ -1,0 +1,18 @@
+{
+  "id": "seoultech",
+  "name": "서울과학기술대학교",
+  "type": "university",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": null,
+  "custom_features": [
+    {
+      "id": "seoultech.style_preset_manager",
+      "name": "전체 디자인 서식 프리셋",
+      "action": "style_preset_manager",
+      "placement": "top"
+    }
+  ],
+  "functions": []
+}

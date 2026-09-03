@@ -1,0 +1,98 @@
+{
+  "id": "gwangju",
+  "name": "광주광역",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "광주광역창",
+  "functions": [
+    {
+      "id": "gwangju.광주광역보도사실",
+      "name": "광주광역보도사실",
+      "method": "광주광역보도사실",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju.광주광역보도사실박스",
+      "name": "광주광역보도사실박스",
+      "method": "광주광역보도사실박스",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju.광주광역보도사진",
+      "name": "광주광역보도사진",
+      "method": "광주광역보도사진",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju.광주광역보도양식",
+      "name": "광주광역보도양식",
+      "method": "광주광역보도양식",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju.광주광역보도자료상단",
+      "name": "광주광역보도자료상단",
+      "method": "광주광역보도자료상단",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju.광주광역한장보고",
+      "name": "광주광역한장보고",
+      "method": "광주광역한장보고",
+      "parameters": [
+        "이미지",
+        "이미지2"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju.광주광역한장보고대제목",
+      "name": "광주광역한장보고대제목",
+      "method": "광주광역한장보고대제목",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju.광주광역한장보고상단",
+      "name": "광주광역한장보고상단",
+      "method": "광주광역한장보고상단",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gwangju.광주광역한장보고진행순서",
+      "name": "광주광역한장보고진행순서",
+      "method": "광주광역한장보고진행순서",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

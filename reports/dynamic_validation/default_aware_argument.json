@@ -1,0 +1,366 @@
+{
+  "category": "argument_fixture",
+  "selected": 11,
+  "start": 0,
+  "completed": 11,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "글자폰트바꾸기간격",
+      "args": [
+        "함초롬바탕",
+        "맑은 고딕",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 196, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 478, in 글자폰트바꾸기간격\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpAction.py\", line 42, in Execute\n    return self._oleobj_.InvokeTypes(15002, LCID, 1, (11, 0), ((9, 1),),param\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 196, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\new_project\\src\\govoffice\\runtime\\recovered_hwp\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 466, in 글자폰트바꾸기간격\n    총.Execute(총알)\n    ~~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpAction.py\", line 42, in Execute\n    return self._oleobj_.InvokeTypes(15002, LCID, 1, (11, 0), ((9, 1),),param\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "문서테두리",
+      "args": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28124,
+        "hwpml_sha256": "88e872fd0980d92c4c9c91459a827c483603ed5b1f4bd9fb69e20a1d8e0caba4"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28124,
+        "hwpml_sha256": "88e872fd0980d92c4c9c91459a827c483603ed5b1f4bd9fb69e20a1d8e0caba4"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "강원소제목",
+      "args": [
+        "Ⅰ",
+        "운영 개요"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "f395da3b469cc96d4512851bf4971a650e66b57dbbf9f6abc9f8a27c866c4cd5",
+        "hwpml_length": 33586,
+        "hwpml_sha256": "f53cad7622daef647f7db325e56102a4249fd213f0f4fd02b73fccee50b0d10b"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "f395da3b469cc96d4512851bf4971a650e66b57dbbf9f6abc9f8a27c866c4cd5",
+        "hwpml_length": 33586,
+        "hwpml_sha256": "f53cad7622daef647f7db325e56102a4249fd213f0f4fd02b73fccee50b0d10b"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남소제목",
+      "args": [
+        "Ⅰ",
+        "추진 개요"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "760143ed18854b54494c7865e64a6580b08d841dfb7e48324e3cfc4057952efb",
+        "hwpml_length": 34853,
+        "hwpml_sha256": "f6278add8f4e631ddfb95bbb206c23df744611fe68472c4b4d8f7c92d937ddc6"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "760143ed18854b54494c7865e64a6580b08d841dfb7e48324e3cfc4057952efb",
+        "hwpml_length": 34853,
+        "hwpml_sha256": "f6278add8f4e631ddfb95bbb206c23df744611fe68472c4b4d8f7c92d937ddc6"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "부여소제목",
+      "args": [
+        "Ⅰ",
+        "추진방향"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "ee17bc051ed64fed5be26baa4e7da9da83588846ce7e1339b758c8044ae53f3e",
+        "hwpml_length": 34977,
+        "hwpml_sha256": "ac0de0cd5498e962466b9bf19d778fd5039f34e36b14836189dcde939de3f5c6"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "ee17bc051ed64fed5be26baa4e7da9da83588846ce7e1339b758c8044ae53f3e",
+        "hwpml_length": 34977,
+        "hwpml_sha256": "ac0de0cd5498e962466b9bf19d778fd5039f34e36b14836189dcde939de3f5c6"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "세종소제목",
+      "args": [
+        "Ⅰ",
+        "운영 개요"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "f395da3b469cc96d4512851bf4971a650e66b57dbbf9f6abc9f8a27c866c4cd5",
+        "hwpml_length": 35438,
+        "hwpml_sha256": "a8441205561fa0bee0507f945aa759ca2f304e8237f45c52b3729daec8212329"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "f395da3b469cc96d4512851bf4971a650e66b57dbbf9f6abc9f8a27c866c4cd5",
+        "hwpml_length": 35438,
+        "hwpml_sha256": "a8441205561fa0bee0507f945aa759ca2f304e8237f45c52b3729daec8212329"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남해소제목2",
+      "args": [
+        "Ⅰ",
+        " 사업 개요"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "e2b8ee1c76d72101b601d01182b255058bf9d4bf41ad2d9eb06cadbbd0c2bab6",
+        "hwpml_length": 34908,
+        "hwpml_sha256": "bb972838497f009f68ab6a9410383f823f24e22a01fb4a6f485c2cfd68534430"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "e2b8ee1c76d72101b601d01182b255058bf9d4bf41ad2d9eb06cadbbd0c2bab6",
+        "hwpml_length": 34908,
+        "hwpml_sha256": "bb972838497f009f68ab6a9410383f823f24e22a01fb4a6f485c2cfd68534430"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구표준소제목",
+      "args": [
+        "Ⅰ",
+        " 추진근거"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 7,
+        "text_sha256": "aa807d340881d3e12e0a33423c3f9fb2ba2c0c5da942af93922c52914ad1cbc0",
+        "hwpml_length": 33623,
+        "hwpml_sha256": "2677ebd69f06c2a5c21b989882d517e5b59ccfc4020983b4d72720ebe55804cf"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 7,
+        "text_sha256": "aa807d340881d3e12e0a33423c3f9fb2ba2c0c5da942af93922c52914ad1cbc0",
+        "hwpml_length": 33623,
+        "hwpml_sha256": "2677ebd69f06c2a5c21b989882d517e5b59ccfc4020983b4d72720ebe55804cf"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남양주소제목",
+      "args": [
+        "1",
+        "소제목"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 5,
+        "text_sha256": "985276c3cd0c2fac93fc8ec019e96c7610f7dd884c3003f7bb7dc179c30cb78d",
+        "hwpml_length": 32283,
+        "hwpml_sha256": "97b70042091b977803c9e6e1aa0e1bfeb91e6f63cafbbd20430da36942bc9211"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 5,
+        "text_sha256": "985276c3cd0c2fac93fc8ec019e96c7610f7dd884c3003f7bb7dc179c30cb78d",
+        "hwpml_length": 32283,
+        "hwpml_sha256": "97b70042091b977803c9e6e1aa0e1bfeb91e6f63cafbbd20430da36942bc9211"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식참고",
+      "args": [
+        "1",
+        "항목1"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 22,
+        "text_sha256": "833565f3442bf910ca4220887c4486908768779e875ff74d584d814eeaaff459",
+        "hwpml_length": 33492,
+        "hwpml_sha256": "fb2ab8ca7fc15e3a52040e3457c20967c152611b7fdd9393c1fcb53797f0ba14"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 22,
+        "text_sha256": "833565f3442bf910ca4220887c4486908768779e875ff74d584d814eeaaff459",
+        "hwpml_length": 33492,
+        "hwpml_sha256": "fb2ab8ca7fc15e3a52040e3457c20967c152611b7fdd9393c1fcb53797f0ba14"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남도소제목",
+      "args": [
+        "Ⅰ",
+        "추진 개요"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "6ddb21cda22d75b7ba7169fdb8ae23e55b35c809928d4e628f09c8be905d45e7",
+        "hwpml_length": 34014,
+        "hwpml_sha256": "c58191e915e56da679b26f9cfb5d096409e69367cfef5b2e4c18e2a705a8a476"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "6ddb21cda22d75b7ba7169fdb8ae23e55b35c809928d4e628f09c8be905d45e7",
+        "hwpml_length": 34014,
+        "hwpml_sha256": "c58191e915e56da679b26f9cfb5d096409e69367cfef5b2e4c18e2a705a8a476"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

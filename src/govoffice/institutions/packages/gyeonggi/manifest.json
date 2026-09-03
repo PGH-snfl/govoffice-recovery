@@ -1,0 +1,435 @@
+{
+  "id": "gyeonggi",
+  "name": "경기",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "경기창",
+  "functions": [
+    {
+      "id": "gyeonggi.경기궁극의정리",
+      "name": "경기궁극의정리",
+      "method": "경기궁극의정리",
+      "parameters": [
+        "이미지",
+        "옵션"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기궁극의정리범위",
+      "name": "경기궁극의정리범위",
+      "method": "경기궁극의정리범위",
+      "parameters": [
+        "이미지",
+        "옵션"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기궁극의정리범위글머리",
+      "name": "경기궁극의정리범위글머리",
+      "method": "경기궁극의정리범위글머리",
+      "parameters": [
+        "특수문자",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기기본계획프롬프트",
+      "name": "경기기본계획프롬프트",
+      "method": "경기기본계획프롬프트",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기목차",
+      "name": "경기목차",
+      "method": "경기목차",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기문재1단",
+      "name": "경기문재1단",
+      "method": "경기문재1단",
+      "parameters": [
+        "번호",
+        "제목"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기문재일반궁극의정리",
+      "name": "경기문재일반궁극의정리",
+      "method": "경기문재일반궁극의정리",
+      "parameters": [
+        "이미지",
+        "옵션"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기문재일반궁극의정리범위",
+      "name": "경기문재일반궁극의정리범위",
+      "method": "경기문재일반궁극의정리범위",
+      "parameters": [
+        "이미지",
+        "옵션"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기문재일반궁극의정리범위글머리",
+      "name": "경기문재일반궁극의정리범위글머리",
+      "method": "경기문재일반궁극의정리범위글머리",
+      "parameters": [
+        "특수문자",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기문제점",
+      "name": "경기문제점",
+      "method": "경기문제점",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기붙임",
+      "name": "경기붙임",
+      "method": "경기붙임",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기사업계획프롬프트",
+      "name": "경기사업계획프롬프트",
+      "method": "경기사업계획프롬프트",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기선택범위가로용지",
+      "name": "경기선택범위가로용지",
+      "method": "경기선택범위가로용지",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기소제목",
+      "name": "경기소제목",
+      "method": "경기소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기순서표",
+      "name": "경기순서표",
+      "method": "경기순서표",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기시간계획",
+      "name": "경기시간계획",
+      "method": "경기시간계획",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보3단순서",
+      "name": "경기신보3단순서",
+      "method": "경기신보3단순서",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보3단표",
+      "name": "경기신보3단표",
+      "method": "경기신보3단표",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보4단순서",
+      "name": "경기신보4단순서",
+      "method": "경기신보4단순서",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보5단표",
+      "name": "경기신보5단표",
+      "method": "경기신보5단표",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보검토안프롬프트",
+      "name": "경기신보검토안프롬프트",
+      "method": "경기신보검토안프롬프트",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보궁극의정리",
+      "name": "경기신보궁극의정리",
+      "method": "경기신보궁극의정리",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보궁극의정리범위",
+      "name": "경기신보궁극의정리범위",
+      "method": "경기신보궁극의정리범위",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보궁극의정리범위글머리",
+      "name": "경기신보궁극의정리범위글머리",
+      "method": "경기신보궁극의정리범위글머리",
+      "parameters": [
+        "특수문자",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보사진2단",
+      "name": "경기신보사진2단",
+      "method": "경기신보사진2단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보사진3단",
+      "name": "경기신보사진3단",
+      "method": "경기신보사진3단",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보시간계획",
+      "name": "경기신보시간계획",
+      "method": "경기신보시간계획",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보예산표",
+      "name": "경기신보예산표",
+      "method": "경기신보예산표",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보제목",
+      "name": "경기신보제목",
+      "method": "경기신보제목",
+      "parameters": [
+        "제목",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보제목2",
+      "name": "경기신보제목2",
+      "method": "경기신보제목2",
+      "parameters": [
+        "제목",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보참고자료",
+      "name": "경기신보참고자료",
+      "method": "경기신보참고자료",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보추진일정",
+      "name": "경기신보추진일정",
+      "method": "경기신보추진일정",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보표서식변환",
+      "name": "경기신보표서식변환",
+      "method": "경기신보표서식변환",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기신보회색박스",
+      "name": "경기신보회색박스",
+      "method": "경기신보회색박스",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기연간계획",
+      "name": "경기연간계획",
+      "method": "경기연간계획",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기요약",
+      "name": "경기요약",
+      "method": "경기요약",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기요지",
+      "name": "경기요지",
+      "method": "경기요지",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기인사말씀",
+      "name": "경기인사말씀",
+      "method": "경기인사말씀",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기제목",
+      "name": "경기제목",
+      "method": "경기제목",
+      "parameters": [
+        "내용",
+        "이미지",
+        "옵션",
+        "이미지너비",
+        "이미지높이"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기참고",
+      "name": "경기참고",
+      "method": "경기참고",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기참고점선박스",
+      "name": "경기참고점선박스",
+      "method": "경기참고점선박스",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기추진계획프롬프트",
+      "name": "경기추진계획프롬프트",
+      "method": "경기추진계획프롬프트",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기표",
+      "name": "경기표",
+      "method": "경기표",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기표서식변환",
+      "name": "경기표서식변환",
+      "method": "경기표서식변환",
+      "parameters": [],
+      "ui_ready": true,
+      "recovery_status": "legacy-compatible"
+    },
+    {
+      "id": "gyeonggi.경기표지",
+      "name": "경기표지",
+      "method": "경기표지",
+      "parameters": [
+        "내용",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "recovery_status": "legacy-compatible"
+    }
+  ]
+}

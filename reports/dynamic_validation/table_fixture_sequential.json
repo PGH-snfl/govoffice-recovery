@@ -1,0 +1,1955 @@
+{
+  "category": "table_fixture",
+  "selected": 77,
+  "start": 0,
+  "completed": 66,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표전체",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "상단캡션",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "8f2bbad94fe99df6b473e13a4fb1d58861aa26a40be7fbbb4cf7b6bb898b5225",
+        "hwpml_length": 30683,
+        "hwpml_sha256": "94c694421ef5dac9e353259ef94d22af73998a431e9311176f1dba3f6a60fd50"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "8f2bbad94fe99df6b473e13a4fb1d58861aa26a40be7fbbb4cf7b6bb898b5225",
+        "hwpml_length": 30683,
+        "hwpml_sha256": "94c694421ef5dac9e353259ef94d22af73998a431e9311176f1dba3f6a60fd50"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀나누기",
+      "args": [
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147352571, '형식이 일치하지 않습니다.', None, 1)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 1117, in 셀나누기\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 600, in __setattr__\n    self._oleobj_.Invoke(*(args + (value,) + defArgs))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npywintypes.com_error: (-2147352571, '형식이 일치하지 않습니다.', None, 1)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147352571, '형식이 일치하지 않습니다.', None, 1)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 978, in 셀나누기\n    self.대상.HParameterSet.HTableSplitCell.Rows = 열수\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 600, in __setattr__\n    self._oleobj_.Invoke(*(args + (value,) + defArgs))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npywintypes.com_error: (-2147352571, '형식이 일치하지 않습니다.', None, 1)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀높이넓이복사",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀높이붙여넣기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "de6f5dbf4e082047939e059126b1aada52e4b695ecc93d9aaf89d4e41db17d31"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "de6f5dbf4e082047939e059126b1aada52e4b695ecc93d9aaf89d4e41db17d31"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀넓이붙여넣기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "93f739a72cec38d3693a89d9fe8b23252ee0f28e26967be01ea4dbd65d751bd0"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "93f739a72cec38d3693a89d9fe8b23252ee0f28e26967be01ea4dbd65d751bd0"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀여백제로",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30303,
+        "hwpml_sha256": "24f1f233f1a2c39cba5a6dc12ffc29109a40175b05839c0abf07a5f7bc4b9867"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30303,
+        "hwpml_sha256": "24f1f233f1a2c39cba5a6dc12ffc29109a40175b05839c0abf07a5f7bc4b9867"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀세로정렬",
+      "args": [
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀한줄",
+      "args": [
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30313,
+        "hwpml_sha256": "7f9fd3b3d78468d5042a8f817a9db977994a39bd76bf170f1066db7be237e5b8"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30313,
+        "hwpml_sha256": "7f9fd3b3d78468d5042a8f817a9db977994a39bd76bf170f1066db7be237e5b8"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "줄칸뒤집기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30700,
+        "hwpml_sha256": "e3f806675ba20112464a0fc7b38bd1927675055d0a36a22659994cb04adf111e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30700,
+        "hwpml_sha256": "e3f806675ba20112464a0fc7b38bd1927675055d0a36a22659994cb04adf111e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표내부선색",
+      "args": [
+        "테스트",
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "invalid literal for int() with base 10: '테스트'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 1613, in 표내부선색\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 632, in RGBColor\n    return self._oleobj_.InvokeTypes(30007, LCID, 1, (3, 0), ((17, 1), (17, 1), (17, 1)),red\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, green, blue)\n     ^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '테스트'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "invalid literal for int() with base 10: '테스트'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1377, in 표내부선색\n    총알.SetItem('ColorHorz', self.대상.RGBColor(빨강, 초록, 파랑))\n                              ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 632, in RGBColor\n    return self._oleobj_.InvokeTypes(30007, LCID, 1, (3, 0), ((17, 1), (17, 1), (17, 1)),red\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, green, blue)\n     ^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '테스트'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표내부선굵기",
+      "args": [
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표내부선타입",
+      "args": [
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표단일선",
+      "args": [
+        1,
+        "테스트",
+        "숫자만"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표배경색",
+      "args": [
+        "테스트",
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "invalid literal for int() with base 10: '테스트'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 1761, in 표배경색\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 632, in RGBColor\n    return self._oleobj_.InvokeTypes(30007, LCID, 1, (3, 0), ((17, 1), (17, 1), (17, 1)),red\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, green, blue)\n     ^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '테스트'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "invalid literal for int() with base 10: '테스트'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1503, in 표배경색\n    self.대상.HParameterSet.HCellBorderFill.FillAttr.WinBrushFaceColor = self.대상.RGBColor(빨강, 초록, 파랑)\n                                                                         ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 632, in RGBColor\n    return self._oleobj_.InvokeTypes(30007, LCID, 1, (3, 0), ((17, 1), (17, 1), (17, 1)),red\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, green, blue)\n     ^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '테스트'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표배경제거",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표문장변환",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 6,
+        "text_sha256": "e4bbfc9688b061b3a4afc8c37cea67045b73c552eafd71cbf47d094dd527c598",
+        "hwpml_length": 27716,
+        "hwpml_sha256": "9a2b4e899dabc10e168f02c921f61b774002583b112a0923b152d0bf8019c49c"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 6,
+        "text_sha256": "e4bbfc9688b061b3a4afc8c37cea67045b73c552eafd71cbf47d094dd527c598",
+        "hwpml_length": 27716,
+        "hwpml_sha256": "9a2b4e899dabc10e168f02c921f61b774002583b112a0923b152d0bf8019c49c"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표테두리굵기",
+      "args": [
+        "테스트",
+        "테스트",
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 31388,
+        "hwpml_sha256": "b05f5ca6fdd87ce420cd9195bb4cf40618799b7f114b9ebb88c0b57c6c85f001"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 31388,
+        "hwpml_sha256": "b05f5ca6fdd87ce420cd9195bb4cf40618799b7f114b9ebb88c0b57c6c85f001"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표테두리단일선",
+      "args": [
+        "숫자만",
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표테두리색",
+      "args": [
+        "테스트",
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "invalid literal for int() with base 10: '테스트'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 1850, in 표테두리색\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 632, in RGBColor\n    return self._oleobj_.InvokeTypes(30007, LCID, 1, (3, 0), ((17, 1), (17, 1), (17, 1)),red\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, green, blue)\n     ^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '테스트'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "invalid literal for int() with base 10: '테스트'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1592, in 표테두리색\n    총알.SetItem('BorderColorTop', self.대상.RGBColor(빨강, 초록, 파랑))\n                                   ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 632, in RGBColor\n    return self._oleobj_.InvokeTypes(30007, LCID, 1, (3, 0), ((17, 1), (17, 1), (17, 1)),red\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, green, blue)\n     ^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '테스트'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표테두리타입",
+      "args": [
+        "테스트",
+        "테스트",
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 31400,
+        "hwpml_sha256": "0c85f45f0f81b0554e329fbc0b1f46b4566871c9928278d818ac8e3f8d77a52d"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 31400,
+        "hwpml_sha256": "0c85f45f0f81b0554e329fbc0b1f46b4566871c9928278d818ac8e3f8d77a52d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "소제목",
+      "args": [
+        1,
+        "항목1\n항목2\n100",
+        1
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 3150, in 소제목\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1815, in 소제목\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 875, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "전체셀보호해제",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "경기표서식변환",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 33038,
+        "hwpml_sha256": "1b2e0d5390b4083f82298ce353276acebd2e0efb520c5bb19ddab5c926116a99"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 33038,
+        "hwpml_sha256": "1b2e0d5390b4083f82298ce353276acebd2e0efb520c5bb19ddab5c926116a99"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남표서식변환",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 35284,
+        "hwpml_sha256": "4bfb23b404d63c94b2c279356eeb56a394833c42ff8424d27f20b12603cebd48"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 35284,
+        "hwpml_sha256": "4bfb23b404d63c94b2c279356eeb56a394833c42ff8424d27f20b12603cebd48"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "홍성표서식변환",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 35284,
+        "hwpml_sha256": "485ce560c19c7b00caf0525a5742950a3532480cdf913ee3b10774086678e3cb"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 35284,
+        "hwpml_sha256": "485ce560c19c7b00caf0525a5742950a3532480cdf913ee3b10774086678e3cb"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "산인공조직도늘리기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "eeb9d7bc27d03d165e8e36b65b36725d7b842e4a039fbaf47a9d7fb0524aad23",
+        "hwpml_length": 33131,
+        "hwpml_sha256": "b77e06957c053f32e7724105b8b11665278d418b0eed6a7b4467f4d83be90a2d"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "eeb9d7bc27d03d165e8e36b65b36725d7b842e4a039fbaf47a9d7fb0524aad23",
+        "hwpml_length": 33131,
+        "hwpml_sha256": "b77e06957c053f32e7724105b8b11665278d418b0eed6a7b4467f4d83be90a2d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남상단바",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 21,
+        "text_sha256": "8dfbc65f55bdea065ead43650183e1f7a9be7eac918936dc4adf88f59469d332",
+        "hwpml_length": 36295,
+        "hwpml_sha256": "c4169103d043f83ef3dfcdfc09c3c1bcc4cd55fabbc5adb6218162c2995820b8"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 21,
+        "text_sha256": "8dfbc65f55bdea065ead43650183e1f7a9be7eac918936dc4adf88f59469d332",
+        "hwpml_length": 36295,
+        "hwpml_sha256": "c4169103d043f83ef3dfcdfc09c3c1bcc4cd55fabbc5adb6218162c2995820b8"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남해소제목",
+      "args": [
+        1,
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 1877, in 남해소제목\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 1302, in 남해소제목\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 875, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남해심플표",
+      "args": [
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147352571, '형식이 일치하지 않습니다.', None, 1)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 1944, in 남해심플표\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 1118, in 셀나누기\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 600, in __setattr__\n    self._oleobj_.Invoke(*(args + (value,) + defArgs))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npywintypes.com_error: (-2147352571, '형식이 일치하지 않습니다.', None, 1)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147352571, '형식이 일치하지 않습니다.', None, 1)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 1366, in 남해심플표\n    self.셀나누기(행, 0)\n    ~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 979, in 셀나누기\n    self.대상.HParameterSet.HTableSplitCell.Cols = 행수\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 600, in __setattr__\n    self._oleobj_.Invoke(*(args + (value,) + defArgs))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npywintypes.com_error: (-2147352571, '형식이 일치하지 않습니다.', None, 1)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남해시간",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 154,
+        "text_sha256": "e9c69068ef5cd158808d12ff9a507563d0bf9458955e6ba7e0d621a30ab0ccfb",
+        "hwpml_length": 46911,
+        "hwpml_sha256": "c356a34056f4b13699abfd49c32e838f275e5a327822bb11c47f56fb0104a43b"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 154,
+        "text_sha256": "e9c69068ef5cd158808d12ff9a507563d0bf9458955e6ba7e0d621a30ab0ccfb",
+        "hwpml_length": 46911,
+        "hwpml_sha256": "c356a34056f4b13699abfd49c32e838f275e5a327822bb11c47f56fb0104a43b"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남해목차",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 110,
+        "text_sha256": "8b0c8bdafffaac1d293a6c4ff551342f95335b8559f8ad675929867d1098c41a",
+        "hwpml_length": 38739,
+        "hwpml_sha256": "ff959a312b5fc7b645420c09442803421f7aac236ecefc5bd48189232319796f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 110,
+        "text_sha256": "8b0c8bdafffaac1d293a6c4ff551342f95335b8559f8ad675929867d1098c41a",
+        "hwpml_length": 38739,
+        "hwpml_sha256": "ff959a312b5fc7b645420c09442803421f7aac236ecefc5bd48189232319796f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울작성자",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 59,
+        "text_sha256": "18cd07a454c0b0f53b422fbee3f3a4632a972203b835daa798e64419b335cff7",
+        "hwpml_length": 36036,
+        "hwpml_sha256": "0064107abdb01098cf3d774d5e3534e4264ca4c926d7d118153fe6bc2881eaa5"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 59,
+        "text_sha256": "18cd07a454c0b0f53b422fbee3f3a4632a972203b835daa798e64419b335cff7",
+        "hwpml_length": 36036,
+        "hwpml_sha256": "0064107abdb01098cf3d774d5e3534e4264ca4c926d7d118153fe6bc2881eaa5"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울참고",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 19,
+        "text_sha256": "a0b655297c13b4deefc4c6d0cb91c366ba005e67854d5db83daaaf9730866789",
+        "hwpml_length": 37175,
+        "hwpml_sha256": "d76d986b27c81fb265e0630223d72ed88c3e48942c0c771f7f182a4888927c5c"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 19,
+        "text_sha256": "a0b655297c13b4deefc4c6d0cb91c366ba005e67854d5db83daaaf9730866789",
+        "hwpml_length": 37175,
+        "hwpml_sha256": "d76d986b27c81fb265e0630223d72ed88c3e48942c0c771f7f182a4888927c5c"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울대제목",
+      "args": [
+        "항목1\n항목2\n100",
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "dbf43cafc9b4832d8051ada2f6a1127457e747949532ee23ca3822fcc1a82a2d",
+        "hwpml_length": 35820,
+        "hwpml_sha256": "56d541e18a6f88fbff4df409468514cedab37a3dc3990ad92e3149b1838406bf"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "dbf43cafc9b4832d8051ada2f6a1127457e747949532ee23ca3822fcc1a82a2d",
+        "hwpml_length": 35820,
+        "hwpml_sha256": "56d541e18a6f88fbff4df409468514cedab37a3dc3990ad92e3149b1838406bf"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울목차",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 154,
+        "text_sha256": "6bc640925639e22e0d3fa0c0d36d786bffc212cf1b0b3ab3d4f910b4e339316e",
+        "hwpml_length": 58337,
+        "hwpml_sha256": "a79a726f6ff705e5fb275e4c95c6e2646a06d89d0fe67fdaf9e3637458baf892"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 154,
+        "text_sha256": "6bc640925639e22e0d3fa0c0d36d786bffc212cf1b0b3ab3d4f910b4e339316e",
+        "hwpml_length": 58337,
+        "hwpml_sha256": "a79a726f6ff705e5fb275e4c95c6e2646a06d89d0fe67fdaf9e3637458baf892"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울심플표",
+      "args": [
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147352571, '형식이 일치하지 않습니다.', None, 1)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 2665, in 서울심플표\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 1118, in 셀나누기\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 600, in __setattr__\n    self._oleobj_.Invoke(*(args + (value,) + defArgs))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npywintypes.com_error: (-2147352571, '형식이 일치하지 않습니다.', None, 1)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147352571, '형식이 일치하지 않습니다.', None, 1)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 2010, in 서울심플표\n    self.셀나누기(행, 0)\n    ~~~~~~~~~~~~~^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 979, in 셀나누기\n    self.대상.HParameterSet.HTableSplitCell.Cols = 행수\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 600, in __setattr__\n    self._oleobj_.Invoke(*(args + (value,) + defArgs))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npywintypes.com_error: (-2147352571, '형식이 일치하지 않습니다.', None, 1)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울보고서제목",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 89,
+        "text_sha256": "653811ad6524ca8b1ef7852367f8a5f6b68ae62022c7bffcc29082256efdbda4",
+        "hwpml_length": 40409,
+        "hwpml_sha256": "7c88791a38c919b638dced90626d14fc18b458b4afa85fb9381b257ba8ebf58f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 89,
+        "text_sha256": "653811ad6524ca8b1ef7852367f8a5f6b68ae62022c7bffcc29082256efdbda4",
+        "hwpml_length": 40409,
+        "hwpml_sha256": "7c88791a38c919b638dced90626d14fc18b458b4afa85fb9381b257ba8ebf58f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울답변박스",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 90,
+        "text_sha256": "f0551e9d40df5e49a7aca859224009ec942970ec1cede392bda7eaebbf93fd65",
+        "hwpml_length": 50334,
+        "hwpml_sha256": "9f9b9824adc0babcf824baf18636952762dca4d47785c48f8fe70aecbf98e210"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 90,
+        "text_sha256": "f0551e9d40df5e49a7aca859224009ec942970ec1cede392bda7eaebbf93fd65",
+        "hwpml_length": 50334,
+        "hwpml_sha256": "9f9b9824adc0babcf824baf18636952762dca4d47785c48f8fe70aecbf98e210"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울소제목",
+      "args": [
+        1,
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 2892, in 서울소제목\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 2229, in 서울소제목\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 875, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울소제목블랙",
+      "args": [
+        1,
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 2916, in 서울소제목블랙\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 2253, in 서울소제목블랙\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 875, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울유의사항",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 76,
+        "text_sha256": "1e4d0021dfd861b5399739606b766549ac407914c78153ef6c97a138ea7e0691",
+        "hwpml_length": 40089,
+        "hwpml_sha256": "f927671718aa84871d43de3f3c9f80d83d61ff6fca81390c8f70cb11769d5f0e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 76,
+        "text_sha256": "1e4d0021dfd861b5399739606b766549ac407914c78153ef6c97a138ea7e0691",
+        "hwpml_length": 40089,
+        "hwpml_sha256": "f927671718aa84871d43de3f3c9f80d83d61ff6fca81390c8f70cb11769d5f0e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울긴소제목",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 13,
+        "text_sha256": "186e61160d2091c33ba02d1b55d607d2e124c9149a11cc3687e3f585a60bcc3f",
+        "hwpml_length": 36766,
+        "hwpml_sha256": "2d3380676ce6a867a7f0987739384d96b47e774058b9dce3ab4ac6e9b4d2ae28"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 13,
+        "text_sha256": "186e61160d2091c33ba02d1b55d607d2e124c9149a11cc3687e3f585a60bcc3f",
+        "hwpml_length": 36766,
+        "hwpml_sha256": "2d3380676ce6a867a7f0987739384d96b47e774058b9dce3ab4ac6e9b4d2ae28"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울추진일정",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 110,
+        "text_sha256": "2a63af897b3d7b8f7886027f19523f838c878110b89b424d7ed20cc4d17c7d8f",
+        "hwpml_length": 42325,
+        "hwpml_sha256": "1652cd89f6bd82be8c2bdab70bff12d39b83f852c2dc2d41668c233535ef681f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 110,
+        "text_sha256": "2a63af897b3d7b8f7886027f19523f838c878110b89b424d7ed20cc4d17c7d8f",
+        "hwpml_length": 42325,
+        "hwpml_sha256": "1652cd89f6bd82be8c2bdab70bff12d39b83f852c2dc2d41668c233535ef681f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "인천진행순서",
+      "args": [
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 32,
+        "text_sha256": "498aa7eab070a72825a8cee0bd34f8897afc62d97f128f3c4af4eccce1585edf",
+        "hwpml_length": 44876,
+        "hwpml_sha256": "3ea400e1a4245abb17242d1544c8df715d92bee6c6082c1933926bffe1a0e38b"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 32,
+        "text_sha256": "498aa7eab070a72825a8cee0bd34f8897afc62d97f128f3c4af4eccce1585edf",
+        "hwpml_length": 44876,
+        "hwpml_sha256": "3ea400e1a4245abb17242d1544c8df715d92bee6c6082c1933926bffe1a0e38b"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "인천참고",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 16,
+        "text_sha256": "3253124f4f3d6e90df40dda051956ac3014694e3da16bcb16d977f7480a4599b",
+        "hwpml_length": 35686,
+        "hwpml_sha256": "a65ba3318fd01bce86ea31fa29b1e21de3244d81a8b26c29c0e95ed00d90439e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 16,
+        "text_sha256": "3253124f4f3d6e90df40dda051956ac3014694e3da16bcb16d977f7480a4599b",
+        "hwpml_length": 35686,
+        "hwpml_sha256": "a65ba3318fd01bce86ea31fa29b1e21de3244d81a8b26c29c0e95ed00d90439e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인빨파제목",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 16,
+        "text_sha256": "3ed04aa20a0a7e36cc3ed8f0dc8981c36ce41b456f5b03c87183167c7145a863",
+        "hwpml_length": 38495,
+        "hwpml_sha256": "8e4ee85ad30352cbb291d77e0e32018efe3f185e87c49edc7e170a1a82f01b5b"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 16,
+        "text_sha256": "3ed04aa20a0a7e36cc3ed8f0dc8981c36ce41b456f5b03c87183167c7145a863",
+        "hwpml_length": 38495,
+        "hwpml_sha256": "8e4ee85ad30352cbb291d77e0e32018efe3f185e87c49edc7e170a1a82f01b5b"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인기본표",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 13,
+        "text_sha256": "61f7ff8ab27a5dd13880e7406b5a990cc4cba17ed656c0644c990821755881a2",
+        "hwpml_length": 44222,
+        "hwpml_sha256": "96684ffa989116b9f521674a8612a9afab7440491b070996619bbbf97abdeae9"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 13,
+        "text_sha256": "61f7ff8ab27a5dd13880e7406b5a990cc4cba17ed656c0644c990821755881a2",
+        "hwpml_length": 44222,
+        "hwpml_sha256": "96684ffa989116b9f521674a8612a9afab7440491b070996619bbbf97abdeae9"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인소제목",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 13,
+        "text_sha256": "186e61160d2091c33ba02d1b55d607d2e124c9149a11cc3687e3f585a60bcc3f",
+        "hwpml_length": 36748,
+        "hwpml_sha256": "d1e512313c0a507425b8828e6091295cab823e3dc1bbc8acd42b48e9c4eadf87"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 13,
+        "text_sha256": "186e61160d2091c33ba02d1b55d607d2e124c9149a11cc3687e3f585a60bcc3f",
+        "hwpml_length": 36748,
+        "hwpml_sha256": "d1e512313c0a507425b8828e6091295cab823e3dc1bbc8acd42b48e9c4eadf87"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인결재선",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 98,
+        "text_sha256": "9637573e070a53715319a205eaf2c6efe4b196d8c5f727a49670be18681ace41",
+        "hwpml_length": 50098,
+        "hwpml_sha256": "fcba5bad702fa88ccfec08efd77b1223432e24c79335639ff3df7c8a2e9dcb0f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 98,
+        "text_sha256": "9637573e070a53715319a205eaf2c6efe4b196d8c5f727a49670be18681ace41",
+        "hwpml_length": 50098,
+        "hwpml_sha256": "fcba5bad702fa88ccfec08efd77b1223432e24c79335639ff3df7c8a2e9dcb0f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인목차",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 370,
+        "text_sha256": "922ea7f58bed08f28f75eb12fde309205c1ad59263a70c05a58562bdad53e953",
+        "hwpml_length": 44695,
+        "hwpml_sha256": "c77d7e12b84aa517bddd0e6da695a5087574f2552b9eaa1e5b77db619cf2e11a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 370,
+        "text_sha256": "922ea7f58bed08f28f75eb12fde309205c1ad59263a70c05a58562bdad53e953",
+        "hwpml_length": 44695,
+        "hwpml_sha256": "c77d7e12b84aa517bddd0e6da695a5087574f2552b9eaa1e5b77db619cf2e11a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "해수제목1",
+      "args": [
+        "항목1\n항목2\n100",
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "4f6230276e560542464ee5e8b3db35c6cce0e535784f52b87b4a22bc40384a1e",
+        "hwpml_length": 35809,
+        "hwpml_sha256": "6f55c5fac2491fadc5d766cc6a99075b2cd673cee1dced7c4013c286098c10ec"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "4f6230276e560542464ee5e8b3db35c6cce0e535784f52b87b4a22bc40384a1e",
+        "hwpml_length": 35809,
+        "hwpml_sha256": "6f55c5fac2491fadc5d766cc6a99075b2cd673cee1dced7c4013c286098c10ec"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주소제목",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 14,
+        "text_sha256": "570f1dd9c6568560362063316521d0e6e9d074055d44bb415bffb4a60d0b3f90",
+        "hwpml_length": 38215,
+        "hwpml_sha256": "c8354c2659fc63fc07358c00d4db521b80f28026f5de55cd07ed141835d33773"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 14,
+        "text_sha256": "570f1dd9c6568560362063316521d0e6e9d074055d44bb415bffb4a60d0b3f90",
+        "hwpml_length": 38215,
+        "hwpml_sha256": "c8354c2659fc63fc07358c00d4db521b80f28026f5de55cd07ed141835d33773"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주꺽쇠박스",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 45,
+        "text_sha256": "1ab69a7070265aeecd4e227f92708c397b8308b7ec122c2af157325d247e6b88",
+        "hwpml_length": 42099,
+        "hwpml_sha256": "1b45720462c39ffbf6c3e2a2f6395226a16ac94f2cb5d1c584d0cc11aee0420f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 45,
+        "text_sha256": "1ab69a7070265aeecd4e227f92708c397b8308b7ec122c2af157325d247e6b88",
+        "hwpml_length": 42099,
+        "hwpml_sha256": "1b45720462c39ffbf6c3e2a2f6395226a16ac94f2cb5d1c584d0cc11aee0420f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주유의사항",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 38,
+        "text_sha256": "62622c42c7c1c8139e950918d2c3a39a1a5b3f8de5828044a30ff1fb06998163",
+        "hwpml_length": 39622,
+        "hwpml_sha256": "03bb96d0fb2afc29b6d1eda8fc4a49d77f106d080711ac36a577f1002c4936dc"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 38,
+        "text_sha256": "62622c42c7c1c8139e950918d2c3a39a1a5b3f8de5828044a30ff1fb06998163",
+        "hwpml_length": 39622,
+        "hwpml_sha256": "03bb96d0fb2afc29b6d1eda8fc4a49d77f106d080711ac36a577f1002c4936dc"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주순서표",
+      "args": [
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 38905,
+        "hwpml_sha256": "89ef0d007b430486da8c89a84d9e0a80399646a7c475084cc08d60f4f2e1c540"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 38905,
+        "hwpml_sha256": "89ef0d007b430486da8c89a84d9e0a80399646a7c475084cc08d60f4f2e1c540"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "영덕시간",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 94,
+        "text_sha256": "94414f3e14b11ff2beb005e1dbce03145cff491f6a127b45c14b6bc8c9d58690",
+        "hwpml_length": 42725,
+        "hwpml_sha256": "79b00266e17f057edd9f96000776cd5eda61b2066e4a6be4fc2f6696b0ba89ab"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 94,
+        "text_sha256": "94414f3e14b11ff2beb005e1dbce03145cff491f6a127b45c14b6bc8c9d58690",
+        "hwpml_length": 42725,
+        "hwpml_sha256": "79b00266e17f057edd9f96000776cd5eda61b2066e4a6be4fc2f6696b0ba89ab"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "영덕요지",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 197,
+        "text_sha256": "95a079a08bc7b69d236d2b544b0f9c2a95dc1c7beb5c2caba6d04a0d836e241f",
+        "hwpml_length": 40735,
+        "hwpml_sha256": "37b5765fe1c3ae26dacd410e8ff236f31367b694c63eb322712b8e5652f96366"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 197,
+        "text_sha256": "95a079a08bc7b69d236d2b544b0f9c2a95dc1c7beb5c2caba6d04a0d836e241f",
+        "hwpml_length": 40735,
+        "hwpml_sha256": "37b5765fe1c3ae26dacd410e8ff236f31367b694c63eb322712b8e5652f96366"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공표서식",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 35077,
+        "hwpml_sha256": "97f149f59fdcc2a03ed075dddc11d4c11c8db3a0eb7cdbb70529a2dc76e9e93e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 35077,
+        "hwpml_sha256": "97f149f59fdcc2a03ed075dddc11d4c11c8db3a0eb7cdbb70529a2dc76e9e93e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금천기본표",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 22,
+        "text_sha256": "4fd3e100c93b00eb9adfd35e09a9ddf6009bd9a2039c16cdb49d377980146b68",
+        "hwpml_length": 41698,
+        "hwpml_sha256": "c16a3d5f14999f49e7a0511c7426fac97e0d7bf1a8e9d8e639eee15ebf7b650e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 22,
+        "text_sha256": "4fd3e100c93b00eb9adfd35e09a9ddf6009bd9a2039c16cdb49d377980146b68",
+        "hwpml_length": 41698,
+        "hwpml_sha256": "c16a3d5f14999f49e7a0511c7426fac97e0d7bf1a8e9d8e639eee15ebf7b650e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구표준3단계획상단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 70,
+        "text_sha256": "d857b639fe988a77f926a682588bfa9f536d42cc57c2c684aa7279921e94abde",
+        "hwpml_length": 45747,
+        "hwpml_sha256": "a17941864d2beeed66d85c5671501f51fcd6bf53198f4d973fd420f78e215c7a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 70,
+        "text_sha256": "d857b639fe988a77f926a682588bfa9f536d42cc57c2c684aa7279921e94abde",
+        "hwpml_length": 45747,
+        "hwpml_sha256": "a17941864d2beeed66d85c5671501f51fcd6bf53198f4d973fd420f78e215c7a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구표준5단계획상단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 74,
+        "text_sha256": "407e106a23520034c6d726bc3d9c2f84c922f0b126a24a2b0f98ee78706fe627",
+        "hwpml_length": 47363,
+        "hwpml_sha256": "0d05a867828b23c094a7fff8bc231b81eef2026eeba69aae41b48a235fad00b9"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 74,
+        "text_sha256": "407e106a23520034c6d726bc3d9c2f84c922f0b126a24a2b0f98ee78706fe627",
+        "hwpml_length": 47363,
+        "hwpml_sha256": "0d05a867828b23c094a7fff8bc231b81eef2026eeba69aae41b48a235fad00b9"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구표준사전검토",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 950,
+        "text_sha256": "8eb29ca0d6d08c29ede8523f644c15ed65d305a7dbe7bf2e8055e4a990edd151",
+        "hwpml_length": 75949,
+        "hwpml_sha256": "ddd729723826d93b645cb5d69bf7e975c25aa324ffd422ab2c8efee62455010b"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 950,
+        "text_sha256": "8eb29ca0d6d08c29ede8523f644c15ed65d305a7dbe7bf2e8055e4a990edd151",
+        "hwpml_length": 75949,
+        "hwpml_sha256": "ddd729723826d93b645cb5d69bf7e975c25aa324ffd422ab2c8efee62455010b"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구표준붙임",
+      "args": [
+        1,
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 14998, in 광주북구표준붙임\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 961, in 문장\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 9828, in 광주북구표준붙임\n    self.문장(번호)\n    ~~~~~~~~~^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 875, in 문장\n    총알.SetItem('Text', 내용)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpParameterSet.py\", line 93, in SetItem\n    return self._oleobj_.InvokeTypes(15010, LCID, 1, (24, 0), ((8, 1), (12, 1)),itemid\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, newVal)\n     ^^^^^^^^^\npywintypes.com_error: (-2147417851, '서버에서 예외 오류가 발생했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구행사계획세부내용",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 253,
+        "text_sha256": "6cbb8836ea77f923475bde62b32a2c6126aea2dda6b9c123b21f903f21105bb5",
+        "hwpml_length": 57057,
+        "hwpml_sha256": "ca21088373ca471edf093cbd19b470377d14ca75f2f16e654fcffb056b89f811"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 253,
+        "text_sha256": "6cbb8836ea77f923475bde62b32a2c6126aea2dda6b9c123b21f903f21105bb5",
+        "hwpml_length": 57057,
+        "hwpml_sha256": "ca21088373ca471edf093cbd19b470377d14ca75f2f16e654fcffb056b89f811"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구사진",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 20,
+        "text_sha256": "c50e4f9ae3c58f7be30f62d69a393213ae4e82d0811d473973a140bbfa648533",
+        "hwpml_length": 33990,
+        "hwpml_sha256": "e39737bd3c66ec27fcf474f7c218764d2981add8252b4cfae815c35c6f10d416"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 20,
+        "text_sha256": "c50e4f9ae3c58f7be30f62d69a393213ae4e82d0811d473973a140bbfa648533",
+        "hwpml_length": 33990,
+        "hwpml_sha256": "e39737bd3c66ec27fcf474f7c218764d2981add8252b4cfae815c35c6f10d416"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}
