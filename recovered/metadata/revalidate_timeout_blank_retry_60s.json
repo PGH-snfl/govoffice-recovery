@@ -1,0 +1,131 @@
+{
+  "category": "blank_document",
+  "selected": 7,
+  "start": 2,
+  "completed": 7,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "금감원페이지",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 460,
+        "text_sha256": "45c281fb2fbe7ce3765be82702407a509bddda49bc88ad1cc3b4dfc5cf1b2ac4",
+        "hwpml_length": 81040,
+        "hwpml_sha256": "c0ce7d5bbbbee5c0a9c1eee4672b9cbb712170e321b2bf932e6e76ce0f3b8bae"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 460,
+        "text_sha256": "45c281fb2fbe7ce3765be82702407a509bddda49bc88ad1cc3b4dfc5cf1b2ac4",
+        "hwpml_length": 81040,
+        "hwpml_sha256": "c0ce7d5bbbbee5c0a9c1eee4672b9cbb712170e321b2bf932e6e76ce0f3b8bae"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "산인공관리대장",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 425,
+        "text_sha256": "f4e0ee1615697c4fceb9c322e12901475c917a798390fc9cf6574025eef5c15f",
+        "hwpml_length": 120872,
+        "hwpml_sha256": "93300818cc3e5e00f73b08c3ea0dada7a69807e8afd8629616ea2e8f7b6947e0"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 425,
+        "text_sha256": "f4e0ee1615697c4fceb9c322e12901475c917a798390fc9cf6574025eef5c15f",
+        "hwpml_length": 120872,
+        "hwpml_sha256": "93300818cc3e5e00f73b08c3ea0dada7a69807e8afd8629616ea2e8f7b6947e0"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주교행사계획",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 592,
+        "text_sha256": "90669874297e10db0b979ee49169ac641a9668e92153ead4bdfeb9076011b4af",
+        "hwpml_length": 68793,
+        "hwpml_sha256": "a4e2cfa9a78165174e0b1a9914373211536533b265fa3d93ee80b033dd087f68"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 592,
+        "text_sha256": "90669874297e10db0b979ee49169ac641a9668e92153ead4bdfeb9076011b4af",
+        "hwpml_length": 68793,
+        "hwpml_sha256": "a4e2cfa9a78165174e0b1a9914373211536533b265fa3d93ee80b033dd087f68"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "인국공개인정보",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 1364,
+        "text_sha256": "3e185b61c3887e449f48c61359a25fa411f7429b0b8370ca5dc01d5e1d19e53c",
+        "hwpml_length": 84410,
+        "hwpml_sha256": "edb08a15e30515616ba00c329c99d3c6b202c0dda2b27c8b1c7e613abd8dc892"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 35,
+        "text_sha256": "cdbfb55dae1f3b36dceeb7c2bf688c196889ac92c07fd02d2bbee5d2d80976ae",
+        "hwpml_length": 37249,
+        "hwpml_sha256": "f18c374a9acdf98bb93f399a68bbecc66dfe42c0a598abd859638a02497ba1b2"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "AI행정지원계획서간단서식",
+      "timed_out": true,
+      "timeout_seconds": 60.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"AI행정지원계획서간단서식\"}\n오류 발생 : 'NoneType' object has no attribute 'CreateSet'\n{\"phase\": \"recovered\", \"method\": \"AI행정지원계획서간단서식\"}\n"
+    }
+  ]
+}

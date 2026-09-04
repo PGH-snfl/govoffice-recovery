@@ -1,0 +1,1062 @@
+
+====================================================================================================
+<module>
+file='한컴오피스\\한컴라이브러리.py' line=26564 args=3 locals=8
+26564           RESUME                   0
+
+26565           LOAD_FAST                0 (self)
+                LOAD_ATTR                1 (현재위치 + NULL|self)
+                CALL                     0
+                STORE_FAST               3 (현위치)
+
+26566           LOAD_FAST                0 (self)
+                LOAD_ATTR                3 (머릿말 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26567           LOAD_FAST                1 (종류)
+                LOAD_CONST               1 ('1단보고자')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE      142 (to L1)
+
+26568           LOAD_FAST                0 (self)
+                LOAD_ATTR                5 (문서여백 + NULL|self)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               3 (15)
+                LOAD_CONST               3 (15)
+                LOAD_CONST               4 (10)
+                LOAD_CONST               4 (10)
+                CALL                     6
+                POP_TOP
+
+26569           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26570           LOAD_FAST                0 (self)
+                LOAD_ATTR                9 (표만들기 + NULL|self)
+                LOAD_CONST               5 (130)
+                BUILD_LIST               1
+                LOAD_CONST               6 (6)
+                BUILD_LIST               1
+                CALL                     2
+                POP_TOP
+
+26571           LOAD_FAST                0 (self)
+                LOAD_ATTR               11 (폰트 + NULL|self)
+                LOAD_CONST               7 ('맑은 고딕')
+                CALL                     1
+                POP_TOP
+
+26572           LOAD_FAST                0 (self)
+                LOAD_ATTR               13 (글자크기 + NULL|self)
+                LOAD_CONST               8 (13)
+                CALL                     1
+                POP_TOP
+
+26573           LOAD_FAST                0 (self)
+                LOAD_ATTR               15 (가운데정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26574           LOAD_FAST                0 (self)
+                LOAD_ATTR               17 (글자간격 + NULL|self)
+                LOAD_CONST               9 (-10)
+                CALL                     1
+                POP_TOP
+
+26575           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              10 ('디지털정부혁신실 행정제도과 / 공무원 사무관(010-1234-5678)')
+                CALL                     1
+                POP_TOP
+
+26577   L1:     LOAD_FAST                1 (종류)
+                LOAD_CONST              11 ('1단보고자날짜')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE      158 (to L2)
+
+26578           LOAD_FAST                0 (self)
+                LOAD_ATTR                5 (문서여백 + NULL|self)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               3 (15)
+                LOAD_CONST               3 (15)
+                LOAD_CONST               4 (10)
+                LOAD_CONST               4 (10)
+                CALL                     6
+                POP_TOP
+
+26579           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26580           LOAD_FAST                0 (self)
+                LOAD_ATTR                9 (표만들기 + NULL|self)
+                LOAD_CONST              12 (110)
+                BUILD_LIST               1
+                LOAD_CONST               6 (6)
+                BUILD_LIST               1
+                CALL                     2
+                POP_TOP
+
+26581           LOAD_FAST                0 (self)
+                LOAD_ATTR               11 (폰트 + NULL|self)
+                LOAD_CONST               7 ('맑은 고딕')
+                CALL                     1
+                POP_TOP
+
+26582           LOAD_FAST                0 (self)
+                LOAD_ATTR               13 (글자크기 + NULL|self)
+                LOAD_CONST               8 (13)
+                CALL                     1
+                POP_TOP
+
+26583           LOAD_FAST                0 (self)
+                LOAD_ATTR               15 (가운데정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26584           LOAD_FAST                0 (self)
+                LOAD_ATTR               17 (글자간격 + NULL|self)
+                LOAD_CONST               9 (-10)
+                CALL                     1
+                POP_TOP
+
+26585           LOAD_FAST                0 (self)
+                LOAD_ATTR               21 (오늘날짜 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26586           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              13 (', 행정제도과 공무원 사무관(행 2255)')
+                CALL                     1
+                POP_TOP
+
+26588   L2:     LOAD_FAST                1 (종류)
+                LOAD_CONST              14 ('2단보고자날짜')
+                COMPARE_OP              88 (bool(==))
+                EXTENDED_ARG             1
+                POP_JUMP_IF_FALSE      480 (to L3)
+
+26589           LOAD_FAST                0 (self)
+                LOAD_ATTR                5 (문서여백 + NULL|self)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               2 (20)
+                LOAD_CONST              15 (8)
+                LOAD_CONST               3 (15)
+                LOAD_CONST              16 (17)
+                LOAD_CONST               4 (10)
+                CALL                     6
+                POP_TOP
+
+26590           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26591           LOAD_FAST                0 (self)
+                LOAD_ATTR                9 (표만들기 + NULL|self)
+                BUILD_LIST               0
+                LOAD_CONST              17 ((32, 39, 49))
+                LIST_EXTEND              1
+                LOAD_CONST               6 (6)
+                LOAD_CONST               6 (6)
+                BUILD_LIST               2
+                CALL                     2
+                POP_TOP
+
+26592           LOAD_FAST                0 (self)
+                LOAD_ATTR               23 (표전체 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26593           LOAD_FAST                0 (self)
+                LOAD_ATTR               11 (폰트 + NULL|self)
+                LOAD_CONST               7 ('맑은 고딕')
+                CALL                     1
+                POP_TOP
+
+26594           LOAD_FAST                0 (self)
+                LOAD_ATTR               13 (글자크기 + NULL|self)
+                LOAD_CONST               8 (13)
+                CALL                     1
+                POP_TOP
+
+26595           LOAD_FAST                0 (self)
+                LOAD_ATTR               15 (가운데정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26596           LOAD_FAST                0 (self)
+                LOAD_ATTR               17 (글자간격 + NULL|self)
+                LOAD_CONST               9 (-10)
+                CALL                     1
+                POP_TOP
+
+26597           LOAD_FAST                0 (self)
+                LOAD_ATTR               25 (캔슬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26598           LOAD_FAST                0 (self)
+                LOAD_ATTR               27 (표처음 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26599           LOAD_FAST                0 (self)
+                LOAD_ATTR               29 (셀선택 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26600           LOAD_FAST                0 (self)
+                LOAD_ATTR               31 (표아래쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26601           LOAD_FAST                0 (self)
+                LOAD_ATTR               33 (셀병합 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26602           LOAD_FAST                0 (self)
+                LOAD_ATTR               21 (오늘날짜 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26603           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26604           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26605           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              19 ('정부혁신국장')
+                CALL                     1
+                POP_TOP
+
+26606           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26607           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26608           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              20 ('공무원(010-1234-5678)')
+                CALL                     1
+                POP_TOP
+
+26609           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              18 (1)
+                CALL                     4
+                POP_TOP
+
+26610           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              22 (2)
+                CALL                     1
+                POP_TOP
+
+26611           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26612           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              23 ('행정제도과장')
+                CALL                     1
+                POP_TOP
+
+26613           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26614           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26615           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              20 ('공무원(010-1234-5678)')
+                CALL                     1
+                POP_TOP
+
+26616           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              18 (1)
+                CALL                     4
+                POP_TOP
+
+26618   L3:     LOAD_FAST                1 (종류)
+                LOAD_CONST              24 ('2단보고자')
+                COMPARE_OP              88 (bool(==))
+                EXTENDED_ARG             1
+                POP_JUMP_IF_FALSE      398 (to L4)
+
+26619           LOAD_FAST                0 (self)
+                LOAD_ATTR                5 (문서여백 + NULL|self)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               2 (20)
+                LOAD_CONST              15 (8)
+                LOAD_CONST               3 (15)
+                LOAD_CONST              16 (17)
+                LOAD_CONST               4 (10)
+                CALL                     6
+                POP_TOP
+
+26620           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26621           LOAD_FAST                0 (self)
+                LOAD_ATTR                9 (표만들기 + NULL|self)
+                LOAD_CONST              25 (39)
+                LOAD_CONST              26 (44)
+                BUILD_LIST               2
+                LOAD_CONST               6 (6)
+                LOAD_CONST               6 (6)
+                BUILD_LIST               2
+                CALL                     2
+                POP_TOP
+
+26622           LOAD_FAST                0 (self)
+                LOAD_ATTR               23 (표전체 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26623           LOAD_FAST                0 (self)
+                LOAD_ATTR               11 (폰트 + NULL|self)
+                LOAD_CONST               7 ('맑은 고딕')
+                CALL                     1
+                POP_TOP
+
+26624           LOAD_FAST                0 (self)
+                LOAD_ATTR               13 (글자크기 + NULL|self)
+                LOAD_CONST               8 (13)
+                CALL                     1
+                POP_TOP
+
+26625           LOAD_FAST                0 (self)
+                LOAD_ATTR               15 (가운데정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26626           LOAD_FAST                0 (self)
+                LOAD_ATTR               17 (글자간격 + NULL|self)
+                LOAD_CONST               9 (-10)
+                CALL                     1
+                POP_TOP
+
+26627           LOAD_FAST                0 (self)
+                LOAD_ATTR               25 (캔슬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26628           LOAD_FAST                0 (self)
+                LOAD_ATTR               27 (표처음 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26629           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26630           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              27 ('디지털정부혁신실장')
+                CALL                     1
+                POP_TOP
+
+26631           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26632           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26633           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              20 ('공무원(010-1234-5678)')
+                CALL                     1
+                POP_TOP
+
+26634           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              18 (1)
+                CALL                     4
+                POP_TOP
+
+26635           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26636           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26637           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              23 ('행정제도과장')
+                CALL                     1
+                POP_TOP
+
+26638           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26639           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26640           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              20 ('공무원(010-1234-5678)')
+                CALL                     1
+                POP_TOP
+
+26641           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              18 (1)
+                CALL                     4
+                POP_TOP
+
+26643   L4:     LOAD_FAST                1 (종류)
+                LOAD_CONST              28 ('3단보고자')
+                COMPARE_OP              88 (bool(==))
+                EXTENDED_ARG             2
+                POP_JUMP_IF_FALSE      520 (to L5)
+
+26644           LOAD_FAST                0 (self)
+                LOAD_ATTR                5 (문서여백 + NULL|self)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               2 (20)
+                LOAD_CONST              29 (3)
+                LOAD_CONST               3 (15)
+                LOAD_CONST              30 (22)
+                LOAD_CONST               4 (10)
+                CALL                     6
+                POP_TOP
+
+26645           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26646           LOAD_FAST                0 (self)
+                LOAD_ATTR                9 (표만들기 + NULL|self)
+                LOAD_CONST              25 (39)
+                LOAD_CONST              26 (44)
+                BUILD_LIST               2
+                LOAD_CONST              31 (5.5)
+                BUILD_LIST               1
+                LOAD_CONST              29 (3)
+                BINARY_OP                5 (*)
+                CALL                     2
+                POP_TOP
+
+26647           LOAD_FAST                0 (self)
+                LOAD_ATTR               23 (표전체 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26648           LOAD_FAST                0 (self)
+                LOAD_ATTR               11 (폰트 + NULL|self)
+                LOAD_CONST               7 ('맑은 고딕')
+                CALL                     1
+                POP_TOP
+
+26649           LOAD_FAST                0 (self)
+                LOAD_ATTR               13 (글자크기 + NULL|self)
+                LOAD_CONST               8 (13)
+                CALL                     1
+                POP_TOP
+
+26650           LOAD_FAST                0 (self)
+                LOAD_ATTR               15 (가운데정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26651           LOAD_FAST                0 (self)
+                LOAD_ATTR               17 (글자간격 + NULL|self)
+                LOAD_CONST               9 (-10)
+                CALL                     1
+                POP_TOP
+
+26652           LOAD_FAST                0 (self)
+                LOAD_ATTR               25 (캔슬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26653           LOAD_FAST                0 (self)
+                LOAD_ATTR               27 (표처음 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26654           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26655           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              27 ('디지털정부혁신실장')
+                CALL                     1
+                POP_TOP
+
+26656           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26657           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26658           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              20 ('공무원(010-1234-5678)')
+                CALL                     1
+                POP_TOP
+
+26659           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              18 (1)
+                CALL                     4
+                POP_TOP
+
+26660           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26661           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26662           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              23 ('행정제도과장')
+                CALL                     1
+                POP_TOP
+
+26663           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26664           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26665           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              20 ('공무원(010-1234-5678)')
+                CALL                     1
+                POP_TOP
+
+26666           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              18 (1)
+                CALL                     4
+                POP_TOP
+
+26667           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26668           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26669           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              23 ('행정제도과장')
+                CALL                     1
+                POP_TOP
+
+26670           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26671           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26672           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              20 ('공무원(010-1234-5678)')
+                CALL                     1
+                POP_TOP
+
+26673           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              18 (1)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              18 (1)
+                CALL                     4
+                POP_TOP
+
+26676   L5:     LOAD_FAST                1 (종류)
+                LOAD_CONST              32 ('상단붙임')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE      160 (to L6)
+
+26677           LOAD_FAST                0 (self)
+                LOAD_ATTR                5 (문서여백 + NULL|self)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               3 (15)
+                LOAD_CONST               3 (15)
+                LOAD_CONST               4 (10)
+                LOAD_CONST               4 (10)
+                CALL                     6
+                POP_TOP
+
+26678           LOAD_FAST                0 (self)
+                LOAD_ATTR               39 (기본정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26679           LOAD_FAST                0 (self)
+                LOAD_ATTR                9 (표만들기 + NULL|self)
+                LOAD_CONST              33 (19)
+                BUILD_LIST               1
+                LOAD_CONST               6 (6)
+                BUILD_LIST               1
+                CALL                     2
+                POP_TOP
+
+26680           LOAD_FAST                0 (self)
+                LOAD_ATTR               11 (폰트 + NULL|self)
+                LOAD_CONST               7 ('맑은 고딕')
+                CALL                     1
+                POP_TOP
+
+26681           LOAD_FAST                0 (self)
+                LOAD_ATTR               13 (글자크기 + NULL|self)
+                LOAD_CONST               8 (13)
+                CALL                     1
+                POP_TOP
+
+26682           LOAD_FAST                0 (self)
+                LOAD_ATTR               41 (진하게 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26683           LOAD_FAST                0 (self)
+                LOAD_ATTR               15 (가운데정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26684           LOAD_FAST                0 (self)
+                LOAD_ATTR               43 (글자색 + NULL|self)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              34 (255)
+                CALL                     3
+                POP_TOP
+
+26685           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              35 ('<붙임1>')
+                CALL                     1
+                POP_TOP
+
+26687   L6:     LOAD_FAST                1 (종류)
+                LOAD_CONST              36 ('보도자료')
+                COMPARE_OP              88 (bool(==))
+                EXTENDED_ARG             3
+                POP_JUMP_IF_FALSE      883 (to L7)
+
+26688           LOAD_FAST                0 (self)
+                LOAD_ATTR                5 (문서여백 + NULL|self)
+                LOAD_CONST               2 (20)
+                LOAD_CONST               2 (20)
+                LOAD_CONST              15 (8)
+                LOAD_CONST               3 (15)
+                LOAD_CONST              16 (17)
+                LOAD_CONST               4 (10)
+                CALL                     6
+                POP_TOP
+
+26689           LOAD_FAST                0 (self)
+                LOAD_ATTR               39 (기본정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26690           LOAD_FAST                0 (self)
+                LOAD_ATTR                9 (표만들기 + NULL|self)
+                BUILD_LIST               0
+                LOAD_CONST              37 ((40, 11, 22, 81.5))
+                LIST_EXTEND              1
+                LOAD_CONST               6 (6)
+                LOAD_CONST               6 (6)
+                BUILD_LIST               2
+                CALL                     2
+                POP_TOP
+
+26691           LOAD_FAST                0 (self)
+                LOAD_ATTR               23 (표전체 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26692           LOAD_FAST                0 (self)
+                LOAD_ATTR               11 (폰트 + NULL|self)
+                LOAD_CONST               7 ('맑은 고딕')
+                CALL                     1
+                POP_TOP
+
+26693           LOAD_FAST                0 (self)
+                LOAD_ATTR               13 (글자크기 + NULL|self)
+                LOAD_CONST              38 (12)
+                CALL                     1
+                POP_TOP
+
+26694           LOAD_FAST                0 (self)
+                LOAD_ATTR               17 (글자간격 + NULL|self)
+                LOAD_CONST               9 (-10)
+                CALL                     1
+                POP_TOP
+
+26695           LOAD_FAST                0 (self)
+                LOAD_ATTR               45 (셀한줄 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26696           LOAD_FAST                0 (self)
+                LOAD_ATTR               25 (캔슬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26697           LOAD_FAST                0 (self)
+                LOAD_ATTR               27 (표처음 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26698           LOAD_FAST                0 (self)
+                LOAD_ATTR               29 (셀선택 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26699           LOAD_FAST                0 (self)
+                LOAD_ATTR               31 (표아래쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26700           LOAD_FAST                0 (self)
+                LOAD_ATTR               33 (셀병합 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26701           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              15 (8)
+                LOAD_CONST              15 (8)
+                LOAD_CONST              15 (8)
+                LOAD_CONST              15 (8)
+                CALL                     4
+                POP_TOP
+
+26702           LOAD_FAST                0 (self)
+                LOAD_ATTR               47 (표테두리굵기 + NULL|self)
+                LOAD_CONST               6 (6)
+                LOAD_CONST               6 (6)
+                LOAD_CONST               6 (6)
+                LOAD_CONST               6 (6)
+                CALL                     4
+                POP_TOP
+
+26703           BUILD_LIST               0
+                LOAD_CONST              39 (('월', '화', '수', '목', '금', '토', '일'))
+                LIST_EXTEND              1
+                STORE_FAST               4 (임시요일)
+
+26704           LOAD_GLOBAL             48 (datetime)
+                LOAD_ATTR               50 (today)
+                PUSH_NULL
+                CALL                     0
+                STORE_FAST               5 (임시오늘)
+
+26705           LOAD_FAST                5 (임시오늘)
+                LOAD_GLOBAL             53 (timedelta + NULL)
+                LOAD_FAST                2 (숫자)
+                LOAD_CONST              18 (1)
+                BINARY_OP               10 (-)
+                CALL                     1
+                BINARY_OP                0 (+)
+                STORE_FAST               6 (임시인터넷)
+
+26706           LOAD_FAST                5 (임시오늘)
+                LOAD_GLOBAL             53 (timedelta + NULL)
+                LOAD_FAST                2 (숫자)
+                CALL                     1
+                BINARY_OP                0 (+)
+                STORE_FAST               7 (임시조간)
+
+26707           LOAD_FAST                0 (self)
+                LOAD_ATTR               13 (글자크기 + NULL|self)
+                LOAD_CONST              40 (13.5)
+                CALL                     1
+                POP_TOP
+
+26708           LOAD_FAST                0 (self)
+                LOAD_ATTR               15 (가운데정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26709           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              41 ('【보도자료(')
+                LOAD_GLOBAL             55 (str + NULL)
+                LOAD_FAST                7 (임시조간)
+                LOAD_ATTR               56 (month)
+                CALL                     1
+                BINARY_OP                0 (+)
+                LOAD_CONST              42 ('.')
+                BINARY_OP                0 (+)
+                LOAD_GLOBAL             55 (str + NULL)
+                LOAD_FAST                7 (임시조간)
+                LOAD_ATTR               58 (day)
+                CALL                     1
+                BINARY_OP                0 (+)
+                LOAD_CONST              43 ('. 조간)】')
+                BINARY_OP                0 (+)
+                CALL                     1
+                POP_TOP
+
+26710           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26711           LOAD_FAST                0 (self)
+                LOAD_ATTR               29 (셀선택 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26712           LOAD_FAST                0 (self)
+                LOAD_ATTR               31 (표아래쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26713           LOAD_FAST                0 (self)
+                LOAD_ATTR               33 (셀병합 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26714           LOAD_FAST                0 (self)
+                LOAD_ATTR               37 (표테두리타입 + NULL|self)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              21 (0)
+                LOAD_CONST              15 (8)
+                LOAD_CONST              18 (1)
+                CALL                     4
+                POP_TOP
+
+26715           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26716           LOAD_FAST                0 (self)
+                LOAD_ATTR               29 (셀선택 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26717           LOAD_FAST                0 (self)
+                LOAD_ATTR               31 (표아래쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26718           LOAD_FAST                0 (self)
+                LOAD_ATTR               33 (셀병합 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26719           LOAD_FAST                0 (self)
+                LOAD_ATTR               15 (가운데정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26720           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              44 ('’')
+                LOAD_GLOBAL             55 (str + NULL)
+                LOAD_GLOBAL             48 (datetime)
+                LOAD_ATTR               50 (today)
+                PUSH_NULL
+                CALL                     0
+                LOAD_ATTR               60 (year)
+                CALL                     1
+                LOAD_CONST              45 (-2)
+                LOAD_CONST               0 (None)
+                BINARY_SLICE
+                BINARY_OP                0 (+)
+                LOAD_CONST              42 ('.')
+                BINARY_OP                0 (+)
+                LOAD_GLOBAL             55 (str + NULL)
+                LOAD_GLOBAL             48 (datetime)
+                LOAD_ATTR               50 (today)
+                PUSH_NULL
+                CALL                     0
+                LOAD_ATTR               56 (month)
+                CALL                     1
+                BINARY_OP                0 (+)
+                LOAD_CONST              42 ('.')
+                BINARY_OP                0 (+)
+                LOAD_GLOBAL             55 (str + NULL)
+                LOAD_GLOBAL             48 (datetime)
+                LOAD_ATTR               50 (today)
+                PUSH_NULL
+                CALL                     0
+                LOAD_ATTR               58 (day)
+                CALL                     1
+                BINARY_OP                0 (+)
+                LOAD_CONST              46 ('.(')
+                BINARY_OP                0 (+)
+                LOAD_FAST                4 (임시요일)
+                LOAD_GLOBAL             48 (datetime)
+                LOAD_ATTR               50 (today)
+                PUSH_NULL
+                CALL                     0
+                LOAD_ATTR               63 (weekday + NULL|self)
+                CALL                     0
+                BINARY_SUBSCR
+                BINARY_OP                0 (+)
+                LOAD_CONST              47 (')')
+                BINARY_OP                0 (+)
+                CALL                     1
+                POP_TOP
+
+26721           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              18 (1)
+                CALL                     1
+                POP_TOP
+
+26722           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26723           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              48 ('디지털정부혁신실장 김실장 010-1234-5678')
+                CALL                     1
+                POP_TOP
+
+26724           LOAD_FAST                0 (self)
+                LOAD_ATTR               35 (표오른쪽 + NULL|self)
+                LOAD_CONST              49 (4)
+                CALL                     1
+                POP_TOP
+
+26725           LOAD_FAST                0 (self)
+                LOAD_ATTR                7 (오른쪽정렬 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+26726           LOAD_FAST                0 (self)
+                LOAD_ATTR               19 (문장 + NULL|self)
+                LOAD_CONST              50 ('행정제도과장 김과장 010-1234-5678')
+                CALL                     1
+                POP_TOP
+
+26729   L7:     LOAD_FAST                1 (종류)
+                LOAD_CONST              51 ('제거2')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE        1 (to L8)
+
+26730           NOP
+
+26733   L8:     LOAD_FAST                1 (종류)
+                LOAD_CONST              52 ('제거')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       37 (to L9)
+
+26734           LOAD_FAST                0 (self)
+                LOAD_ATTR               64 (대상)
+                LOAD_ATTR               66 (HAction)
+                LOAD_ATTR               69 (Run + NULL|self)
+                LOAD_CONST              53 ('HeaderFooterDelete')
+                CALL                     1
+                POP_TOP
+
+26736   L9:     LOAD_FAST                0 (self)
+                LOAD_ATTR               64 (대상)
+                LOAD_ATTR               71 (SetPosBySet + NULL|self)
+                LOAD_FAST                3 (현위치)
+                CALL                     1
+                POP_TOP
+                RETURN_CONST             0 (None)

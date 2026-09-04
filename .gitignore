@@ -2,21 +2,6 @@ __pycache__/
 *.py[cod]
 *.log
 .pytest_cache/
+new_project/config/user_profile.json
 
-# Local user settings and document-derived presets
-config/user_profile.json
-config/user_profile.dat
-config/favorites.json
-config/style_presets/
-config/*.tmp
-config/*.bak
-
-# Runtime-only diagnostics
-reports/runtime/
-
-# Editor and operating-system files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
+# 원본과 대형 자동 산출물은 별도 보존 정책을 정한 뒤 버전 관리한다.

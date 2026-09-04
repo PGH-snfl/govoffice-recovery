@@ -1,0 +1,321 @@
+{
+  "category": "argument_fixture",
+  "selected": 10,
+  "start": 0,
+  "completed": 10,
+  "results": [
+    {
+      "module": "한컴라이브러리_1",
+      "method": "산인공대제목",
+      "args": [
+        "숫자만",
+        "테스트",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 43,
+        "text_sha256": "89821ab7f84a5bb7741c7e5dd217025544cc77d9ab9f6797bb7ee409477dc05a",
+        "hwpml_length": 36341,
+        "hwpml_sha256": "dc19e590a8436221cd482cb59b5b5ba206b4ad6305144660eb66c69328e65999"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 43,
+        "text_sha256": "89821ab7f84a5bb7741c7e5dd217025544cc77d9ab9f6797bb7ee409477dc05a",
+        "hwpml_length": 36341,
+        "hwpml_sha256": "c783584eb82de1a16ec673ec955ed57f23ecfcf860afa106c0aab777707fcc9c"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "공항공제목",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 32,
+        "text_sha256": "540fdb7373dc1b02daf75c79bce0abd6b6cb5d23ffe9b871df8f5177de8c6285",
+        "hwpml_length": 37804,
+        "hwpml_sha256": "c52be10a20ff4a5a749a7394b01c343b131cbf386d3bcd9ba86db45040604909"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 32,
+        "text_sha256": "540fdb7373dc1b02daf75c79bce0abd6b6cb5d23ffe9b871df8f5177de8c6285",
+        "hwpml_length": 37804,
+        "hwpml_sha256": "2e1e8f1a847a7365d03333e76e2e777b8fbb7fb05fdefac365600318d5109d68"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "공틀현수막",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 228,
+        "text_sha256": "03a5c363774c79677fb6cd89165e75ed4a949ee0d59e01d090ef41485fd18347",
+        "hwpml_length": 30296,
+        "hwpml_sha256": "8ee270188b68f92f9e8be8483e3be62a9eaaf40b09e6bbc91bd74007544c3663"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 228,
+        "text_sha256": "03a5c363774c79677fb6cd89165e75ed4a949ee0d59e01d090ef41485fd18347",
+        "hwpml_length": 30296,
+        "hwpml_sha256": "8ee270188b68f92f9e8be8483e3be62a9eaaf40b09e6bbc91bd74007544c3663"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남결재선",
+      "args": [
+        "-"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 126,
+        "text_sha256": "60f739fecf8527c574f21433f585495b4f0a2acf38e233bdc7f60e821ebd409d",
+        "hwpml_length": 56026,
+        "hwpml_sha256": "e2ff399e372a283bd88f78864432397585ea5e2d263f7b758777be115f499824"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 126,
+        "text_sha256": "60f739fecf8527c574f21433f585495b4f0a2acf38e233bdc7f60e821ebd409d",
+        "hwpml_length": 56026,
+        "hwpml_sha256": "16ad8734c3af6afa8eaf67504d8afe047d00bcd2a29ec2aed62252771aa4587a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "해수메모보고",
+      "args": [
+        "항목1\n항목2\n100",
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 95,
+        "text_sha256": "c6cb9572e1edffc4b2662d9ce7345c149b27e3bfb12b72cdc2968cd41a3572fc",
+        "hwpml_length": 55572,
+        "hwpml_sha256": "fbd83c27c833681e0089b7a98d4f02923d742fc8d64ba2a7717ad95653438152"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 95,
+        "text_sha256": "c6cb9572e1edffc4b2662d9ce7345c149b27e3bfb12b72cdc2968cd41a3572fc",
+        "hwpml_length": 55572,
+        "hwpml_sha256": "a0a2591333aeaa8ecd710af4bc280e5be2df5b4c51863ba9ea7adc6dca479bc1"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "산인공기본보고서제목",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 36,
+        "text_sha256": "31ed8e4d4a71e4bda4b5c9a268c7e737e8d10e5cf6e42b8c40058654aae1ccbb",
+        "hwpml_length": 37989,
+        "hwpml_sha256": "5e1cce83c1fabec2ed31514ffb7295d1e98777428976dee8f9a49a83fc9c5fa5"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 36,
+        "text_sha256": "31ed8e4d4a71e4bda4b5c9a268c7e737e8d10e5cf6e42b8c40058654aae1ccbb",
+        "hwpml_length": 37989,
+        "hwpml_sha256": "4a0e49d6f6c084bf75a90b3f1bcce89bcd7e39ff68f7acf30d6413493bb5101f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주교제목",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 133,
+        "text_sha256": "76e4271aaa8325d385c4c43b18bf6034e7d6b647eaa2d30b092c51bdcdd0c649",
+        "hwpml_length": 39515,
+        "hwpml_sha256": "c3354c33f68e58bf0d8ef71d48619fa194d132adc7c9f070cb2f89c514a8128a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 133,
+        "text_sha256": "76e4271aaa8325d385c4c43b18bf6034e7d6b647eaa2d30b092c51bdcdd0c649",
+        "hwpml_length": 39515,
+        "hwpml_sha256": "704869fcbc5093164901285a270674491f7e3d9e3f3b42dbcf0c92c9cae2ea47"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주대대제목",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 49,
+        "text_sha256": "2f2dd656fc4c2773db354f39112caa0a7747387c65c014ecf235cbe245ebedec",
+        "hwpml_length": 39044,
+        "hwpml_sha256": "781e5683040bd149e67009257632c0bd7249a66e84e18ada65f91c4da2da6069"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 49,
+        "text_sha256": "2f2dd656fc4c2773db354f39112caa0a7747387c65c014ecf235cbe245ebedec",
+        "hwpml_length": 39044,
+        "hwpml_sha256": "9c9ee30f4ab955cd6da5237f1f1ea76d1ebea7484644964b9006cbcb3c0c96a6"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남도상단날짜",
+      "args": [
+        "-"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 26,
+        "text_sha256": "377ea8d8733eef49b6b648c8ccff26c0216a2848ab363e63f846446593b33c5a",
+        "hwpml_length": 32968,
+        "hwpml_sha256": "eda7bf07bcab2c9a8d740557eb04a918641c5c3d5154550513dbeaca415e569d"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 26,
+        "text_sha256": "377ea8d8733eef49b6b648c8ccff26c0216a2848ab363e63f846446593b33c5a",
+        "hwpml_length": 32968,
+        "hwpml_sha256": "ed066b02cdc6c2b6a396f1689e85abf348871102c3e94b15bbe81bb72702414e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "울항기본보고서제목",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 36,
+        "text_sha256": "31ed8e4d4a71e4bda4b5c9a268c7e737e8d10e5cf6e42b8c40058654aae1ccbb",
+        "hwpml_length": 37989,
+        "hwpml_sha256": "686971d0cc70cbbc29ea8cfafb104a0198c8672c1edcfc04d4e9adb7157dbee4"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 36,
+        "text_sha256": "31ed8e4d4a71e4bda4b5c9a268c7e737e8d10e5cf6e42b8c40058654aae1ccbb",
+        "hwpml_length": 37989,
+        "hwpml_sha256": "16c662a14bec479877b05e95768cecfb4d6ad34d3eb9e78025627daca99b1ae9"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "category": "file_fixture",
+  "selected": 10,
+  "completed": 10,
+  "results": [
+    {
+      "module": "한컴라이브러리_1",
+      "method": "행안궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28937,
+        "hwpml_sha256": "1bf29ccd87c3a29a26e26374bf04dfb7df5974cfe92fd92e370286f70f99f5ce"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28958,
+        "hwpml_sha256": "18dafecd6f9e0696461ecac348c88a7ff2e45b640750da4b4c378b00dc0c0dc5"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "경기신보제목2",
+      "args": [
+        "항목1\n항목2\n100",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 112,
+        "text_sha256": "1d79d75ea4561ed36ec45401e47462d7d6f75da8cb49264a81d601fa7a14f25f",
+        "hwpml_length": 44972,
+        "hwpml_sha256": "14ab8d27cb53096aadbc7b105b55db032a5f9f463b1e35f570bf0722be107248"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 112,
+        "text_sha256": "1d79d75ea4561ed36ec45401e47462d7d6f75da8cb49264a81d601fa7a14f25f",
+        "hwpml_length": 44972,
+        "hwpml_sha256": "14ab8d27cb53096aadbc7b105b55db032a5f9f463b1e35f570bf0722be107248"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "우본궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28940,
+        "hwpml_sha256": "9e933198b4b2a037512b45dfad2c5eb34f7fc1070ee8416548fea21c8ab3fa90"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28961,
+        "hwpml_sha256": "c95e02911683e45c38e8137d579b04960b45e813a88958a45a9168497b2fd52a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "부교공궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28937,
+        "hwpml_sha256": "1a37a77b44680d11bdc2737892f10f74c81be80afb12c55baa0a3211b42bd216"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28958,
+        "hwpml_sha256": "b49a7e3ada2e63ed66687dc75004e5c62705f84f85a32cbb2d319f9c2a86010a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "여광항궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28937,
+        "hwpml_sha256": "1a37a77b44680d11bdc2737892f10f74c81be80afb12c55baa0a3211b42bd216"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28958,
+        "hwpml_sha256": "b49a7e3ada2e63ed66687dc75004e5c62705f84f85a32cbb2d319f9c2a86010a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "석유공궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28937,
+        "hwpml_sha256": "1a37a77b44680d11bdc2737892f10f74c81be80afb12c55baa0a3211b42bd216"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28958,
+        "hwpml_sha256": "b49a7e3ada2e63ed66687dc75004e5c62705f84f85a32cbb2d319f9c2a86010a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "공항공궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28937,
+        "hwpml_sha256": "1a37a77b44680d11bdc2737892f10f74c81be80afb12c55baa0a3211b42bd216"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28958,
+        "hwpml_sha256": "b49a7e3ada2e63ed66687dc75004e5c62705f84f85a32cbb2d319f9c2a86010a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "가스공궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28937,
+        "hwpml_sha256": "1a37a77b44680d11bdc2737892f10f74c81be80afb12c55baa0a3211b42bd216"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28958,
+        "hwpml_sha256": "b49a7e3ada2e63ed66687dc75004e5c62705f84f85a32cbb2d319f9c2a86010a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "토주공궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28937,
+        "hwpml_sha256": "1a37a77b44680d11bdc2737892f10f74c81be80afb12c55baa0a3211b42bd216"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28958,
+        "hwpml_sha256": "b49a7e3ada2e63ed66687dc75004e5c62705f84f85a32cbb2d319f9c2a86010a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "전남교궁극의정리",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28940,
+        "hwpml_sha256": "6037bb0568196f1b96106c99d122a545894ca0ba827b216bee62f8d79f977026"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28958,
+        "hwpml_sha256": "b49a7e3ada2e63ed66687dc75004e5c62705f84f85a32cbb2d319f9c2a86010a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

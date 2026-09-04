@@ -1,0 +1,37 @@
+{
+  "category": "blank_document",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리_2",
+      "method": "충남주자사업계획서",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 1215,
+        "text_sha256": "0ce79bad40b21ea8692627a1f6f377a5acbfe9d1eb1cd746fb1aa3ca6655763f",
+        "hwpml_length": 90208,
+        "hwpml_sha256": "3aec87ef1babfe4285886f2c60d4db87e99507229696f795afc80c9f6562ca4b"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 1098,
+        "text_sha256": "79eef8c22622806054aff9f9146d3a9cb40fb0f32f6da076a312d33f0599c7cb",
+        "hwpml_length": 84881,
+        "hwpml_sha256": "1527bddab5be5c13614572c422714c1d512c0609faf244eaf8f077869b670c39"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

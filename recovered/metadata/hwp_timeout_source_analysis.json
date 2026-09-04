@@ -1,0 +1,4087 @@
+{
+  "total": 77,
+  "risk_counts": {
+    "document_clone": 45,
+    "large_function": 29,
+    "hwp_com_or_fixture_wait": 17,
+    "loop": 17,
+    "scan": 8,
+    "unbounded_while": 3,
+    "dialog": 1
+  },
+  "methods": [
+    {
+      "module": "한컴라이브러리_기본",
+      "class": "한컴기본",
+      "method": "불러오기",
+      "category": "isolated_interactive",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\connection.py",
+      "line": 78,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          2
+        ],
+        [
+          "print",
+          1
+        ],
+        [
+          "_com확인",
+          1
+        ],
+        [
+          "_새한글",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "class": "한컴2",
+      "method": "인진되돌리기",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 3688,
+      "risks": [
+        "document_clone",
+        "large_function",
+        "scan",
+        "unbounded_while"
+      ],
+      "top_calls": [
+        [
+          "sub",
+          8
+        ],
+        [
+          "Run",
+          7
+        ],
+        [
+          "startswith",
+          7
+        ],
+        [
+          "strip",
+          5
+        ],
+        [
+          "match",
+          4
+        ],
+        [
+          "SetPosBySet",
+          3
+        ],
+        [
+          "replace",
+          2
+        ],
+        [
+          "딜리트",
+          2
+        ],
+        [
+          "현재위치",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "블록스캔",
+          2
+        ],
+        [
+          "문서처음",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "전체표스타일제거",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\document_cleanup.py",
+      "line": 191,
+      "risks": [
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          7
+        ],
+        [
+          "SetMessageBoxMode",
+          2
+        ],
+        [
+          "GetDefault",
+          2
+        ],
+        [
+          "Execute",
+          2
+        ],
+        [
+          "MovePos",
+          1
+        ],
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "글자취급",
+          1
+        ],
+        [
+          "GetPosBySet",
+          1
+        ],
+        [
+          "range",
+          1
+        ],
+        [
+          "CreateAction",
+          1
+        ],
+        [
+          "CreateSet",
+          1
+        ],
+        [
+          "SetItem",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "인천표준보고서",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4697,
+      "risks": [
+        "large_function",
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          14
+        ],
+        [
+          "줄간격",
+          5
+        ],
+        [
+          "글자크기",
+          5
+        ],
+        [
+          "인천표준보고기본",
+          5
+        ],
+        [
+          "문단위",
+          4
+        ],
+        [
+          "폰트",
+          3
+        ],
+        [
+          "range",
+          3
+        ],
+        [
+          "문장",
+          3
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "인천대제목",
+          1
+        ],
+        [
+          "인천로고",
+          1
+        ],
+        [
+          "인천요지",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "서식자기개발",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 5410,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          36
+        ],
+        [
+          "표오른쪽",
+          23
+        ],
+        [
+          "문장",
+          21
+        ],
+        [
+          "MovePos",
+          13
+        ],
+        [
+          "랜덤선택",
+          6
+        ],
+        [
+          "표단일선",
+          4
+        ],
+        [
+          "표만들기",
+          2
+        ],
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "표테두리타입",
+          2
+        ],
+        [
+          "표내부선타입",
+          2
+        ],
+        [
+          "새창",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "마크다운",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4397,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "마크다운응용",
+          1
+        ],
+        [
+          "블록텍스트",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "서교공궁극예시",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 6289,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "sleep",
+          1
+        ],
+        [
+          "서교공궁극의정리전체",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "서교공표지보고서",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 6663,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "글자크기",
+          25
+        ],
+        [
+          "문장",
+          23
+        ],
+        [
+          "폰트",
+          22
+        ],
+        [
+          "표오른쪽",
+          20
+        ],
+        [
+          "표테두리타입",
+          14
+        ],
+        [
+          "가운데정렬",
+          9
+        ],
+        [
+          "오른쪽정렬",
+          5
+        ],
+        [
+          "엔터",
+          5
+        ],
+        [
+          "진하게",
+          3
+        ],
+        [
+          "표만들기",
+          2
+        ],
+        [
+          "표전체",
+          2
+        ],
+        [
+          "표내부선타입",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "서교공의원요구자료",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 6893,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "문장",
+          32
+        ],
+        [
+          "표오른쪽",
+          22
+        ],
+        [
+          "글자크기",
+          18
+        ],
+        [
+          "폰트",
+          15
+        ],
+        [
+          "줄간격",
+          5
+        ],
+        [
+          "진하게",
+          5
+        ],
+        [
+          "기본글자",
+          5
+        ],
+        [
+          "표만들기",
+          4
+        ],
+        [
+          "표전체",
+          3
+        ],
+        [
+          "표테두리타입",
+          3
+        ],
+        [
+          "가운데정렬",
+          3
+        ],
+        [
+          "캔슬",
+          3
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "금천보도자료",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4863,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "글자크기",
+          5
+        ],
+        [
+          "문장",
+          5
+        ],
+        [
+          "Run",
+          4
+        ],
+        [
+          "줄간격",
+          3
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "금천보도자료상단표",
+          1
+        ],
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "표나가기2",
+          1
+        ],
+        [
+          "문단여백측정",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "금감원페이지",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 8035,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          102
+        ],
+        [
+          "문장",
+          29
+        ],
+        [
+          "글자크기",
+          25
+        ],
+        [
+          "폰트",
+          19
+        ],
+        [
+          "휴먼명조",
+          13
+        ],
+        [
+          "내어쓰기",
+          10
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "today",
+          3
+        ],
+        [
+          "줄간격",
+          2
+        ],
+        [
+          "금감원페이지중제목",
+          2
+        ],
+        [
+          "금감원페이지소제목",
+          2
+        ],
+        [
+          "새창",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "금감보고서",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4348,
+      "risks": [
+        "document_clone",
+        "large_function",
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          15
+        ],
+        [
+          "range",
+          4
+        ],
+        [
+          "글자크기",
+          3
+        ],
+        [
+          "문장",
+          3
+        ],
+        [
+          "기본반복",
+          3
+        ],
+        [
+          "today",
+          3
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "금감보고서중제목2",
+          2
+        ],
+        [
+          "금감보고서기본박스",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "쪽번호",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "금감보도자료",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4866,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "Run",
+          2
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "금감보도자료상단표",
+          1
+        ],
+        [
+          "쪽번호",
+          1
+        ],
+        [
+          "줄간격",
+          1
+        ],
+        [
+          "금감보도자료하단",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "가이드물품구매필요서류",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4510,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "int",
+          3
+        ],
+        [
+          "sub",
+          2
+        ],
+        [
+          "_가이드행",
+          1
+        ],
+        [
+          "sum",
+          1
+        ],
+        [
+          "마크다운응용",
+          1
+        ],
+        [
+          "join",
+          1
+        ],
+        [
+          "len",
+          1
+        ],
+        [
+          "enumerate",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "가이드승낙사항",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4518,
+      "risks": [
+        "document_clone",
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "문장",
+          4
+        ],
+        [
+          "글자크기",
+          3
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "_가이드행",
+          1
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "기본정렬",
+          1
+        ],
+        [
+          "len",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "가이드서류",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4524,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "Run",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "진하게",
+          1
+        ],
+        [
+          "기본정렬",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "가이드품의공문",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4527,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "_가이드행",
+          1
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "len",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "가이드이자계산",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4530,
+      "risks": [
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "float",
+          3
+        ],
+        [
+          "sub",
+          3
+        ],
+        [
+          "_가이드행",
+          1
+        ],
+        [
+          "마크다운응용",
+          1
+        ],
+        [
+          "len",
+          1
+        ],
+        [
+          "append",
+          1
+        ],
+        [
+          "join",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "가이드유류비공문생성",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4538,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "len",
+          4
+        ],
+        [
+          "int",
+          2
+        ],
+        [
+          "sub",
+          2
+        ],
+        [
+          "_가이드행",
+          1
+        ],
+        [
+          "sum",
+          1
+        ],
+        [
+          "join",
+          1
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "float",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구보고전제목",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 9920,
+      "risks": [
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          16
+        ],
+        [
+          "문장",
+          8
+        ],
+        [
+          "표오른쪽",
+          7
+        ],
+        [
+          "MovePos",
+          6
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "폰트",
+          3
+        ],
+        [
+          "글자크기",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "표테두리타입",
+          2
+        ],
+        [
+          "글자색",
+          2
+        ],
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "셀여백제로",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구취재동향표",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10057,
+      "risks": [
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          17
+        ],
+        [
+          "표오른쪽",
+          11
+        ],
+        [
+          "문장",
+          7
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "today",
+          3
+        ],
+        [
+          "MovePos",
+          2
+        ],
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구보도대책표",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10120,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          14
+        ],
+        [
+          "표오른쪽",
+          8
+        ],
+        [
+          "문장",
+          6
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "today",
+          3
+        ],
+        [
+          "MovePos",
+          2
+        ],
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구민원처리",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10176,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "광주북구동그라미",
+          8
+        ],
+        [
+          "Run",
+          5
+        ],
+        [
+          "광주북구네모",
+          4
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "today",
+          3
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "광주북구보고전제목",
+          1
+        ],
+        [
+          "광주북구표준서론",
+          1
+        ],
+        [
+          "광주북구당구",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구행사개요",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10200,
+      "risks": [
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          19
+        ],
+        [
+          "문장",
+          7
+        ],
+        [
+          "표테두리단일선",
+          7
+        ],
+        [
+          "표오른쪽",
+          5
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "글자크기",
+          3
+        ],
+        [
+          "MovePos",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "표테두리타입",
+          1
+        ],
+        [
+          "표내부선타입",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구간담개최",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10252,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "광주북구동그라미",
+          6
+        ],
+        [
+          "Run",
+          4
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "광주북구네모",
+          3
+        ],
+        [
+          "광주북구바",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "광주북구보고전제목",
+          1
+        ],
+        [
+          "광주북구표준서론",
+          1
+        ],
+        [
+          "광주북구당구",
+          1
+        ],
+        [
+          "weekday",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구행사계획",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10407,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "광주북구동그라미",
+          5
+        ],
+        [
+          "Run",
+          4
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "광주북구네모",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "광주북구보고전제목",
+          1
+        ],
+        [
+          "광주북구표준서론",
+          1
+        ],
+        [
+          "광주북구바",
+          1
+        ],
+        [
+          "광주북구행사계획세부내용",
+          1
+        ],
+        [
+          "광주북구당구",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구메모보고",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10451,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          80
+        ],
+        [
+          "문장",
+          46
+        ],
+        [
+          "표오른쪽",
+          30
+        ],
+        [
+          "글자크기",
+          27
+        ],
+        [
+          "폰트",
+          24
+        ],
+        [
+          "셀한줄",
+          12
+        ],
+        [
+          "today",
+          12
+        ],
+        [
+          "str",
+          9
+        ],
+        [
+          "표만들기",
+          3
+        ],
+        [
+          "MovePos",
+          3
+        ],
+        [
+          "weekday",
+          3
+        ],
+        [
+          "새창",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구보도자료",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10683,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          30
+        ],
+        [
+          "문장",
+          12
+        ],
+        [
+          "표오른쪽",
+          7
+        ],
+        [
+          "폰트",
+          6
+        ],
+        [
+          "표테두리타입",
+          5
+        ],
+        [
+          "글자크기",
+          5
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "사진넣기배경",
+          2
+        ],
+        [
+          "MovePos",
+          2
+        ],
+        [
+          "표테두리굵기",
+          2
+        ],
+        [
+          "줄간격",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주북구장소안내",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 10763,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          4
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "문장",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백A4가로",
+          1
+        ],
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "표테두리굵기",
+          1
+        ],
+        [
+          "표테두리색",
+          1
+        ],
+        [
+          "사진넣기배경",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "역학날짜매기기",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 5193,
+      "risks": [
+        "loop",
+        "scan"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          3
+        ],
+        [
+          "range",
+          2
+        ],
+        [
+          "len",
+          2
+        ],
+        [
+          "print",
+          2
+        ],
+        [
+          "strptime",
+          1
+        ],
+        [
+          "셀정보",
+          1
+        ],
+        [
+          "블록리스트생성",
+          1
+        ],
+        [
+          "strftime",
+          1
+        ],
+        [
+          "SetPosBySet",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "셀위치",
+          1
+        ],
+        [
+          "InitScan",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "역학수인성식품역학조사",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4542,
+      "risks": [
+        "document_clone",
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "진하게",
+          1
+        ],
+        [
+          "기본정렬",
+          1
+        ],
+        [
+          "Run",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "역학유행곡선만들기1",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4547,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "_선택표텍스트",
+          1
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "진하게",
+          1
+        ],
+        [
+          "기본정렬",
+          1
+        ],
+        [
+          "Run",
+          1
+        ],
+        [
+          "join",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "역학rror계산",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4833,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "len",
+          2
+        ],
+        [
+          "sub",
+          2
+        ],
+        [
+          "_선택표텍스트",
+          1
+        ],
+        [
+          "마크다운응용",
+          1
+        ],
+        [
+          "int",
+          1
+        ],
+        [
+          "_역학결과텍스트",
+          1
+        ],
+        [
+          "float",
+          1
+        ],
+        [
+          "_역학2x2계산",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "역학rror다중계산",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4840,
+      "risks": [
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "len",
+          2
+        ],
+        [
+          "_선택표텍스트",
+          1
+        ],
+        [
+          "range",
+          1
+        ],
+        [
+          "sort",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "join",
+          1
+        ],
+        [
+          "_역학2x2계산",
+          1
+        ],
+        [
+          "append",
+          1
+        ],
+        [
+          "float",
+          1
+        ],
+        [
+          "sub",
+          1
+        ],
+        [
+          "isinstance",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "역학조사본문",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\document_cleanup.py",
+      "line": 52,
+      "risks": [
+        "document_clone",
+        "scan",
+        "unbounded_while"
+      ],
+      "top_calls": [
+        [
+          "ReleaseScan",
+          3
+        ],
+        [
+          "sub",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "SetPosBySet",
+          2
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "strip",
+          2
+        ],
+        [
+          "print",
+          2
+        ],
+        [
+          "블록첫위치",
+          1
+        ],
+        [
+          "InitScan",
+          1
+        ],
+        [
+          "현재위치",
+          1
+        ],
+        [
+          "Run",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "의정부보도자료",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 13456,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          36
+        ],
+        [
+          "표오른쪽",
+          15
+        ],
+        [
+          "문장",
+          14
+        ],
+        [
+          "표테두리단일선",
+          7
+        ],
+        [
+          "MovePos",
+          6
+        ],
+        [
+          "글자크기",
+          5
+        ],
+        [
+          "폰트",
+          4
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "표만들기",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "농어촌우선보고",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 13766,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          23
+        ],
+        [
+          "문장",
+          9
+        ],
+        [
+          "폰트",
+          8
+        ],
+        [
+          "글자크기",
+          8
+        ],
+        [
+          "표테두리단일선",
+          8
+        ],
+        [
+          "표오른쪽",
+          7
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "MovePos",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "표만들기",
+          2
+        ],
+        [
+          "표테두리타입",
+          2
+        ],
+        [
+          "새창",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "농어촌두셀비교",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4868,
+      "risks": [
+        "document_clone",
+        "large_function",
+        "loop",
+        "scan"
+      ],
+      "top_calls": [
+        [
+          "ReleaseScan",
+          4
+        ],
+        [
+          "GetText",
+          3
+        ],
+        [
+          "Run",
+          3
+        ],
+        [
+          "set",
+          3
+        ],
+        [
+          "len",
+          3
+        ],
+        [
+          "GetPosBySet",
+          2
+        ],
+        [
+          "InitScan",
+          2
+        ],
+        [
+          "split",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "append",
+          2
+        ],
+        [
+          "print",
+          2
+        ],
+        [
+          "MovePos",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "농어촌맞춤정렬",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4915,
+      "risks": [
+        "document_clone",
+        "large_function",
+        "scan",
+        "unbounded_while"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          4
+        ],
+        [
+          "len",
+          3
+        ],
+        [
+          "GetPosBySet",
+          2
+        ],
+        [
+          "InitScan",
+          2
+        ],
+        [
+          "GetText",
+          2
+        ],
+        [
+          "range",
+          2
+        ],
+        [
+          "Item",
+          2
+        ],
+        [
+          "MovePos",
+          1
+        ],
+        [
+          "sorted",
+          1
+        ],
+        [
+          "insert",
+          1
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "농어촌변경계약",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4593,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "진하게",
+          1
+        ],
+        [
+          "기본정렬",
+          1
+        ],
+        [
+          "Run",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "농어촌보도자료",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 13907,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          37
+        ],
+        [
+          "문장",
+          22
+        ],
+        [
+          "표오른쪽",
+          17
+        ],
+        [
+          "today",
+          8
+        ],
+        [
+          "글자크기",
+          7
+        ],
+        [
+          "폰트",
+          6
+        ],
+        [
+          "str",
+          6
+        ],
+        [
+          "표만들기",
+          5
+        ],
+        [
+          "MovePos",
+          5
+        ],
+        [
+          "표테두리타입",
+          4
+        ],
+        [
+          "사진넣기배경",
+          2
+        ],
+        [
+          "weekday",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "농어촌의원요구",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 14020,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          36
+        ],
+        [
+          "문장",
+          13
+        ],
+        [
+          "글자크기",
+          11
+        ],
+        [
+          "표테두리단일선",
+          7
+        ],
+        [
+          "폰트",
+          6
+        ],
+        [
+          "str",
+          6
+        ],
+        [
+          "today",
+          6
+        ],
+        [
+          "표오른쪽",
+          5
+        ],
+        [
+          "표만들기",
+          3
+        ],
+        [
+          "MovePos",
+          3
+        ],
+        [
+          "표테두리굵기",
+          2
+        ],
+        [
+          "신명조",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "농어촌업무보고",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4596,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "사진넣기절대값",
+          2
+        ],
+        [
+          "폰트",
+          2
+        ],
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "기본정렬",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "농어촌원페이지",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4599,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "폰트",
+          2
+        ],
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "사진넣기절대값",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "기본정렬",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주광산증감",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 14504,
+      "risks": [
+        "large_function",
+        "scan"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          9
+        ],
+        [
+          "InitScan",
+          3
+        ],
+        [
+          "GetText",
+          3
+        ],
+        [
+          "ReleaseScan",
+          3
+        ],
+        [
+          "SetPosBySet",
+          3
+        ],
+        [
+          "문장",
+          3
+        ],
+        [
+          "셀위치",
+          3
+        ],
+        [
+          "Item",
+          3
+        ],
+        [
+          "float",
+          2
+        ],
+        [
+          "sub",
+          2
+        ],
+        [
+          "str",
+          2
+        ],
+        [
+          "round",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "광주광산결재선",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4602,
+      "risks": [
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "표전체",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ],
+        [
+          "캔슬",
+          1
+        ],
+        [
+          "표처음",
+          1
+        ],
+        [
+          "표나가기2",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "표오른쪽",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "질병표지",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 15393,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "str",
+          4
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "엔터",
+          3
+        ],
+        [
+          "글자크기",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "질병대제목",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "질병문장",
+          1
+        ],
+        [
+          "글자취급이미지2",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "질병보도자료",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 15861,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "표오른쪽",
+          13
+        ],
+        [
+          "today",
+          8
+        ],
+        [
+          "글자크기",
+          6
+        ],
+        [
+          "표테두리타입",
+          6
+        ],
+        [
+          "str",
+          6
+        ],
+        [
+          "셀선택",
+          5
+        ],
+        [
+          "셀병합",
+          5
+        ],
+        [
+          "문장",
+          5
+        ],
+        [
+          "폰트",
+          4
+        ],
+        [
+          "사진넣기",
+          2
+        ],
+        [
+          "가운데정렬",
+          2
+        ],
+        [
+          "진하게",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "질병장문보고",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 15929,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "질병문장",
+          31
+        ],
+        [
+          "문장",
+          17
+        ],
+        [
+          "엔터",
+          13
+        ],
+        [
+          "탭",
+          9
+        ],
+        [
+          "폰트",
+          8
+        ],
+        [
+          "글자크기",
+          4
+        ],
+        [
+          "str",
+          4
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "질병네모휴명",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "질병대제목",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "질병지도",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4614,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "len",
+          3
+        ],
+        [
+          "max",
+          2
+        ],
+        [
+          "sub",
+          2
+        ],
+        [
+          "range",
+          2
+        ],
+        [
+          "_선택표텍스트",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "float",
+          1
+        ],
+        [
+          "min",
+          1
+        ],
+        [
+          "join",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "학교감염병개학전가정통신",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 16078,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "글자크기",
+          10
+        ],
+        [
+          "문장",
+          10
+        ],
+        [
+          "폰트",
+          8
+        ],
+        [
+          "today",
+          8
+        ],
+        [
+          "표오른쪽",
+          7
+        ],
+        [
+          "학교감염병가정통신원",
+          7
+        ],
+        [
+          "str",
+          7
+        ],
+        [
+          "학교감염병가정통신네모",
+          6
+        ],
+        [
+          "셀선택",
+          4
+        ],
+        [
+          "셀병합",
+          4
+        ],
+        [
+          "엔터",
+          4
+        ],
+        [
+          "가운데정렬",
+          3
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "기본서식신문고정보공개자동완성",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4622,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "get",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "str",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "기본서식제목목차",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 17712,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          35
+        ],
+        [
+          "문장",
+          10
+        ],
+        [
+          "문장풀",
+          6
+        ],
+        [
+          "표배경색",
+          4
+        ],
+        [
+          "str",
+          4
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "엔터",
+          3
+        ],
+        [
+          "표만들기",
+          3
+        ],
+        [
+          "표테두리타입",
+          2
+        ],
+        [
+          "표테두리굵기",
+          2
+        ],
+        [
+          "표테두리색",
+          2
+        ],
+        [
+          "표나가기",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "기본서식머릿말",
+      "category": "argument_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4625,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "Run",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "도형나가기",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "기본서식마크다운",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4394,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "마크다운응용",
+          1
+        ],
+        [
+          "블록텍스트",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "기본서식보도자료",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 18061,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "표오른쪽",
+          12
+        ],
+        [
+          "문장",
+          9
+        ],
+        [
+          "기본서식보도자료네모",
+          8
+        ],
+        [
+          "표테두리타입",
+          7
+        ],
+        [
+          "셀선택",
+          6
+        ],
+        [
+          "셀병합",
+          6
+        ],
+        [
+          "폰트",
+          6
+        ],
+        [
+          "글자크기",
+          6
+        ],
+        [
+          "str",
+          6
+        ],
+        [
+          "기본서식보도자료원",
+          5
+        ],
+        [
+          "진하게",
+          4
+        ],
+        [
+          "글자색",
+          4
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "기본서식간담회명판",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4715,
+      "risks": [
+        "document_clone",
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "len",
+          5
+        ],
+        [
+          "글자크기",
+          3
+        ],
+        [
+          "문장",
+          3
+        ],
+        [
+          "가운데정렬",
+          2
+        ],
+        [
+          "range",
+          2
+        ],
+        [
+          "표오른쪽",
+          2
+        ],
+        [
+          "_선택표텍스트",
+          1
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백A4가로",
+          1
+        ],
+        [
+          "enumerate",
+          1
+        ],
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "표전체",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "차트단일막대",
+      "category": "table_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4655,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "_차트대체",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "산인공관리대장",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 18484,
+      "risks": [
+        "large_function",
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "문장",
+          23
+        ],
+        [
+          "표오른쪽",
+          17
+        ],
+        [
+          "셀선택",
+          13
+        ],
+        [
+          "표아래쪽",
+          9
+        ],
+        [
+          "글자크기",
+          7
+        ],
+        [
+          "캔슬",
+          7
+        ],
+        [
+          "표처음",
+          7
+        ],
+        [
+          "셀병합",
+          7
+        ],
+        [
+          "표오른쪽끝",
+          5
+        ],
+        [
+          "폰트",
+          4
+        ],
+        [
+          "가운데정렬",
+          3
+        ],
+        [
+          "엔터",
+          3
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "산인공수당명세",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 20229,
+      "risks": [
+        "document_clone",
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "엔터",
+          10
+        ],
+        [
+          "문장",
+          8
+        ],
+        [
+          "str",
+          6
+        ],
+        [
+          "today",
+          6
+        ],
+        [
+          "글자크기",
+          4
+        ],
+        [
+          "진하게",
+          3
+        ],
+        [
+          "기본글자",
+          3
+        ],
+        [
+          "산인공수당제목",
+          2
+        ],
+        [
+          "가운데정렬",
+          2
+        ],
+        [
+          "기본정렬",
+          2
+        ],
+        [
+          "산인공수당표4",
+          2
+        ],
+        [
+          "산인공하단로고1",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "제주교행사계획",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 21351,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "제주교동그라미",
+          7
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "엔터",
+          3
+        ],
+        [
+          "제주교네모",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "제주교제목",
+          1
+        ],
+        [
+          "제주교주요내용",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ],
+        [
+          "제주교바",
+          1
+        ],
+        [
+          "제주교진행순서",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "제주교추진계획",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 21479,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "제주교소제목",
+          7
+        ],
+        [
+          "엔터",
+          4
+        ],
+        [
+          "페이지엔터",
+          3
+        ],
+        [
+          "제주교네모",
+          2
+        ],
+        [
+          "제주교동그라미",
+          2
+        ],
+        [
+          "제주교바",
+          2
+        ],
+        [
+          "제주교참고자료",
+          2
+        ],
+        [
+          "str",
+          2
+        ],
+        [
+          "today",
+          2
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "제주교표어",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "제주교사진대장",
+      "category": "isolated_interactive",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 21567,
+      "risks": [
+        "dialog",
+        "document_clone",
+        "large_function",
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "표오른쪽",
+          6
+        ],
+        [
+          "문장",
+          5
+        ],
+        [
+          "가운데정렬",
+          3
+        ],
+        [
+          "폰트",
+          3
+        ],
+        [
+          "글자크기",
+          3
+        ],
+        [
+          "표전체",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "today",
+          3
+        ],
+        [
+          "표만들기",
+          2
+        ],
+        [
+          "엔터",
+          2
+        ],
+        [
+          "캔슬",
+          2
+        ],
+        [
+          "표처음",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "제주대표지",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 21929,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "엔터",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "today",
+          3
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ],
+        [
+          "제주대표지제목",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "진하게",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "제주대로고",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "경남도머릿말",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 22300,
+      "risks": [
+        "large_function"
+      ],
+      "top_calls": [
+        [
+          "today",
+          4
+        ],
+        [
+          "표오른쪽",
+          3
+        ],
+        [
+          "문장",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "문서여백",
+          2
+        ],
+        [
+          "표만들기",
+          2
+        ],
+        [
+          "표전체",
+          2
+        ],
+        [
+          "캔슬",
+          2
+        ],
+        [
+          "표처음",
+          2
+        ],
+        [
+          "셀선택",
+          2
+        ],
+        [
+          "표아래쪽",
+          2
+        ],
+        [
+          "셀병합",
+          2
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "경남도명패",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4667,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "기본서식명판생성",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "경남도표지결재선없음",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 23219,
+      "risks": [
+        "document_clone"
+      ],
+      "top_calls": [
+        [
+          "엔터",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "today",
+          3
+        ],
+        [
+          "새창",
+          1
+        ],
+        [
+          "문서여백",
+          1
+        ],
+        [
+          "경남도이름번호",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ],
+        [
+          "경남대제목",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "가운데정렬",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "경남경상남도과",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "경남도행사장",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4849,
+      "risks": [
+        "document_clone",
+        "large_function",
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "표오른쪽",
+          5
+        ],
+        [
+          "글자크기",
+          4
+        ],
+        [
+          "표처음",
+          4
+        ],
+        [
+          "표만들기",
+          3
+        ],
+        [
+          "표전체",
+          3
+        ],
+        [
+          "가운데정렬",
+          3
+        ],
+        [
+          "폰트",
+          3
+        ],
+        [
+          "표내부선타입",
+          3
+        ],
+        [
+          "표테두리타입",
+          3
+        ],
+        [
+          "캔슬",
+          3
+        ],
+        [
+          "문장",
+          3
+        ],
+        [
+          "표나가기2",
+          3
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "인국공제목",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py",
+      "line": 24078,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "표오른쪽",
+          4
+        ],
+        [
+          "today",
+          4
+        ],
+        [
+          "글자크기",
+          3
+        ],
+        [
+          "str",
+          3
+        ],
+        [
+          "오른쪽정렬",
+          2
+        ],
+        [
+          "표배경색",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "len",
+          2
+        ],
+        [
+          "표만들기",
+          2
+        ],
+        [
+          "문단여백측정",
+          2
+        ],
+        [
+          "셀여백제로",
+          1
+        ],
+        [
+          "표전체",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "인국공궁극의정리",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4383,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "MovePos",
+          1
+        ],
+        [
+          "Run",
+          1
+        ],
+        [
+          "인국공궁극의정리범위",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "인국공궁극의정리범위",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\range_format.py",
+      "line": 145,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "_궁극의정리범위공통",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "인국공궁극의정리범위글머리",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\range_format.py",
+      "line": 154,
+      "risks": [
+        "loop",
+        "scan"
+      ],
+      "top_calls": [
+        [
+          "Item",
+          6
+        ],
+        [
+          "MovePos",
+          4
+        ],
+        [
+          "GetPosBySet",
+          3
+        ],
+        [
+          "SetPosBySet",
+          2
+        ],
+        [
+          "Run",
+          2
+        ],
+        [
+          "compile",
+          2
+        ],
+        [
+          "문장",
+          2
+        ],
+        [
+          "인국공궁극의정리",
+          2
+        ],
+        [
+          "블록스캔",
+          2
+        ],
+        [
+          "start",
+          2
+        ],
+        [
+          "search",
+          2
+        ],
+        [
+          "블록첫위치",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "인국공개인정보",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4669,
+      "risks": [
+        "loop"
+      ],
+      "top_calls": [
+        [
+          "표만들기",
+          1
+        ],
+        [
+          "표전체",
+          1
+        ],
+        [
+          "폰트",
+          1
+        ],
+        [
+          "글자크기",
+          1
+        ],
+        [
+          "캔슬",
+          1
+        ],
+        [
+          "표처음",
+          1
+        ],
+        [
+          "표나가기2",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "표오른쪽",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "AI행정지원계획서간단서식",
+      "category": "blank_document",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 5165,
+      "risks": [
+        "loop",
+        "scan"
+      ],
+      "top_calls": [
+        [
+          "ReleaseScan",
+          3
+        ],
+        [
+          "sub",
+          3
+        ],
+        [
+          "GetText",
+          2
+        ],
+        [
+          "현재위치",
+          2
+        ],
+        [
+          "SetPosBySet",
+          2
+        ],
+        [
+          "print",
+          2
+        ],
+        [
+          "InitScan",
+          1
+        ],
+        [
+          "백스페이스",
+          1
+        ],
+        [
+          "문장",
+          1
+        ],
+        [
+          "Run",
+          1
+        ],
+        [
+          "기본서식마크다운",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "울항궁극의정리",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\institution_features.py",
+      "line": 4386,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "MovePos",
+          1
+        ],
+        [
+          "Run",
+          1
+        ],
+        [
+          "울항궁극의정리범위",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "울항궁극의정리범위",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\range_format.py",
+      "line": 242,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "_궁극의정리범위공통",
+          1
+        ]
+      ]
+    },
+    {
+      "module": "한컴라이브러리",
+      "class": "기본한컴",
+      "method": "울항궁극의정리범위글머리",
+      "category": "file_fixture",
+      "status": "timeout",
+      "source": "recovered\\한컴오피스\\recovered_source\\common\\range_cleanup.py",
+      "line": 129,
+      "risks": [
+        "hwp_com_or_fixture_wait"
+      ],
+      "top_calls": [
+        [
+          "_궁극의정리범위글머리공통",
+          1
+        ]
+      ]
+    }
+  ]
+}

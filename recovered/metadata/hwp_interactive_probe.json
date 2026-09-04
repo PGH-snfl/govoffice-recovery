@@ -1,0 +1,34 @@
+{
+  "category": "isolated_interactive",
+  "selected": 1,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "파일목록",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": "('C:\\\\Users\\\\skyla\\\\바탕 화면\\\\범정부오피스\\\\범피스1303_분석\\\\extracted\\\\resources\\\\아이콘\\\\표탭\\\\그림4.png',)",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1343, in 파일목록\n    return filedialog.askopenfilenames(title='Open File', filetypes=[('All Files', '*.*')])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

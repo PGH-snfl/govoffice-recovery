@@ -1,0 +1,1420 @@
+[
+  {
+    "qualified_name": "<module>",
+    "name": "<module>",
+    "qualname": "<module>",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 1,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 370,
+    "instruction_count": 140,
+    "names": [
+      "tkinter",
+      "os",
+      "sys",
+      "설명창변수",
+      "이미지",
+      "Label",
+      "배경",
+      "Button",
+      "버튼",
+      "버튼더블클릭",
+      "토글버튼",
+      "Entry",
+      "입력창",
+      "입력창넓이",
+      "Text",
+      "입력창넓이높이",
+      "입력창넓이크기",
+      "Frame",
+      "프레임",
+      "프레임색",
+      "상단바",
+      "Toplevel",
+      "새탭",
+      "우측새탭",
+      "설명창",
+      "설명버튼"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.이미지",
+    "name": "이미지",
+    "qualname": "이미지",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 13,
+    "arg_count": 1,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 2,
+    "flags": 3,
+    "bytecode_size": 222,
+    "instruction_count": 21,
+    "names": [
+      "getattr",
+      "sys",
+      "os",
+      "path",
+      "dirname",
+      "abspath",
+      "__file__",
+      "join"
+    ],
+    "variables": [
+      "파일이름",
+      "기본경로"
+    ],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.배경",
+    "name": "배경",
+    "qualname": "배경",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 19,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.배경.배경.__init__",
+    "name": "__init__",
+    "qualname": "배경.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 20,
+    "arg_count": 5,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 5,
+    "flags": 3,
+    "bytecode_size": 192,
+    "instruction_count": 49,
+    "names": [
+      "super",
+      "__init__",
+      "PhotoImage",
+      "이미지",
+      "아이콘",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "이미지경로"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.버튼",
+    "name": "버튼",
+    "qualname": "버튼",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 33,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.버튼.버튼.__init__",
+    "name": "__init__",
+    "qualname": "버튼.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 34,
+    "arg_count": 6,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 6,
+    "flags": 3,
+    "bytecode_size": 210,
+    "instruction_count": 56,
+    "names": [
+      "super",
+      "__init__",
+      "PhotoImage",
+      "이미지",
+      "아이콘",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "이미지경로",
+      "함수"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.버튼더블클릭",
+    "name": "버튼더블클릭",
+    "qualname": "버튼더블클릭",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 50,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 50,
+    "instruction_count": 25,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "마지막버튼",
+      "__init__",
+      "클릭처리",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.버튼더블클릭.버튼더블클릭.__init__",
+    "name": "__init__",
+    "qualname": "버튼더블클릭.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 53,
+    "arg_count": 8,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 8,
+    "flags": 3,
+    "bytecode_size": 304,
+    "instruction_count": 82,
+    "names": [
+      "super",
+      "__init__",
+      "PhotoImage",
+      "이미지",
+      "아이콘",
+      "클릭처리",
+      "place",
+      "함수1",
+      "함수2",
+      "실행여부"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "이미지경로",
+      "함수1",
+      "함수2",
+      "실행여부"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": [
+      "함수1",
+      "함수2",
+      "실행여부"
+    ]
+  },
+  {
+    "qualified_name": "<module>.버튼더블클릭.버튼더블클릭.__init__.버튼더블클릭.__init__.<locals>.<lambda>",
+    "name": "<lambda>",
+    "qualname": "버튼더블클릭.__init__.<locals>.<lambda>",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 65,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 19,
+    "bytecode_size": 18,
+    "instruction_count": 6,
+    "names": [],
+    "variables": [],
+    "freevars": [
+      "함수1"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.버튼더블클릭.버튼더블클릭.__init__.버튼더블클릭.__init__.<locals>.<lambda>",
+    "name": "<lambda>",
+    "qualname": "버튼더블클릭.__init__.<locals>.<lambda>",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 66,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 19,
+    "bytecode_size": 18,
+    "instruction_count": 6,
+    "names": [],
+    "variables": [],
+    "freevars": [
+      "함수2"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.버튼더블클릭.버튼더블클릭.__init__.버튼더블클릭.__init__.<locals>.<lambda>",
+    "name": "<lambda>",
+    "qualname": "버튼더블클릭.__init__.<locals>.<lambda>",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 67,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 19,
+    "bytecode_size": 18,
+    "instruction_count": 6,
+    "names": [],
+    "variables": [],
+    "freevars": [
+      "실행여부"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.버튼더블클릭.버튼더블클릭.클릭처리",
+    "name": "클릭처리",
+    "qualname": "버튼더블클릭.클릭처리",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 69,
+    "arg_count": 1,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 2,
+    "flags": 3,
+    "bytecode_size": 172,
+    "instruction_count": 29,
+    "names": [
+      "실행여부",
+      "마지막버튼",
+      "함수2",
+      "함수1"
+    ],
+    "variables": [
+      "self",
+      "실행여부값"
+    ],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.토글버튼",
+    "name": "토글버튼",
+    "qualname": "토글버튼",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 81,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 52,
+    "instruction_count": 26,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "검정",
+      "하양",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.토글버튼.토글버튼.__init__",
+    "name": "__init__",
+    "qualname": "토글버튼.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 82,
+    "arg_count": 6,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 6,
+    "flags": 3,
+    "bytecode_size": 248,
+    "instruction_count": 61,
+    "names": [
+      "super",
+      "__init__",
+      "PhotoImage",
+      "이미지",
+      "아이콘",
+      "아이콘2",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "이미지경로",
+      "이미지경로2"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.토글버튼.토글버튼.검정",
+    "name": "검정",
+    "qualname": "토글버튼.검정",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 94,
+    "arg_count": 1,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 1,
+    "flags": 3,
+    "bytecode_size": 34,
+    "instruction_count": 7,
+    "names": [
+      "아이콘2"
+    ],
+    "variables": [
+      "self"
+    ],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.토글버튼.토글버튼.하양",
+    "name": "하양",
+    "qualname": "토글버튼.하양",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 96,
+    "arg_count": 1,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 1,
+    "flags": 3,
+    "bytecode_size": 34,
+    "instruction_count": 7,
+    "names": [
+      "아이콘"
+    ],
+    "variables": [
+      "self"
+    ],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.입력창",
+    "name": "입력창",
+    "qualname": "입력창",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 99,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.입력창.입력창.__init__",
+    "name": "__init__",
+    "qualname": "입력창.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 100,
+    "arg_count": 4,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 4,
+    "flags": 3,
+    "bytecode_size": 106,
+    "instruction_count": 32,
+    "names": [
+      "super",
+      "__init__",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.입력창넓이",
+    "name": "입력창넓이",
+    "qualname": "입력창넓이",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 108,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.입력창넓이.입력창넓이.__init__",
+    "name": "__init__",
+    "qualname": "입력창넓이.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 109,
+    "arg_count": 5,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 5,
+    "flags": 3,
+    "bytecode_size": 104,
+    "instruction_count": 31,
+    "names": [
+      "super",
+      "__init__",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "넓이"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.입력창넓이높이",
+    "name": "입력창넓이높이",
+    "qualname": "입력창넓이높이",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 117,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.입력창넓이높이.입력창넓이높이.__init__",
+    "name": "__init__",
+    "qualname": "입력창넓이높이.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 118,
+    "arg_count": 6,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 6,
+    "flags": 3,
+    "bytecode_size": 102,
+    "instruction_count": 30,
+    "names": [
+      "super",
+      "__init__",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "넓이",
+      "높이"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.입력창넓이크기",
+    "name": "입력창넓이크기",
+    "qualname": "입력창넓이크기",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 126,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.입력창넓이크기.입력창넓이크기.__init__",
+    "name": "__init__",
+    "qualname": "입력창넓이크기.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 127,
+    "arg_count": 6,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 6,
+    "flags": 3,
+    "bytecode_size": 134,
+    "instruction_count": 37,
+    "names": [
+      "super",
+      "__init__",
+      "str",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "넓이",
+      "크기"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.프레임",
+    "name": "프레임",
+    "qualname": "프레임",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 138,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.프레임.프레임.__init__",
+    "name": "__init__",
+    "qualname": "프레임.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 139,
+    "arg_count": 6,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 6,
+    "flags": 3,
+    "bytecode_size": 120,
+    "instruction_count": 32,
+    "names": [
+      "윈도우x",
+      "윈도우y",
+      "super",
+      "__init__",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "가로",
+      "세로"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.프레임색",
+    "name": "프레임색",
+    "qualname": "프레임색",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 148,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.프레임색.프레임색.__init__",
+    "name": "__init__",
+    "qualname": "프레임색.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 149,
+    "arg_count": 7,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 7,
+    "flags": 3,
+    "bytecode_size": 118,
+    "instruction_count": 31,
+    "names": [
+      "윈도우x",
+      "윈도우y",
+      "super",
+      "__init__",
+      "place"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "가로",
+      "세로",
+      "배경색"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.상단바",
+    "name": "상단바",
+    "qualname": "상단바",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 158,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 62,
+    "instruction_count": 31,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "무빙시작",
+      "무빙끝",
+      "무빙",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.상단바.상단바.__init__",
+    "name": "__init__",
+    "qualname": "상단바.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 159,
+    "arg_count": 7,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 7,
+    "flags": 3,
+    "bytecode_size": 286,
+    "instruction_count": 52,
+    "names": [
+      "윈도우x",
+      "윈도우y",
+      "super",
+      "__init__",
+      "place",
+      "bind",
+      "무빙시작",
+      "무빙끝",
+      "무빙"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "가로",
+      "세로",
+      "배경"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.상단바.상단바.무빙시작",
+    "name": "무빙시작",
+    "qualname": "상단바.무빙시작",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 171,
+    "arg_count": 2,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 2,
+    "flags": 3,
+    "bytecode_size": 72,
+    "instruction_count": 10,
+    "names": [
+      "x",
+      "윈도우x",
+      "y",
+      "윈도우y"
+    ],
+    "variables": [
+      "self",
+      "event"
+    ],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.상단바.상단바.무빙끝",
+    "name": "무빙끝",
+    "qualname": "상단바.무빙끝",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 175,
+    "arg_count": 2,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 2,
+    "flags": 3,
+    "bytecode_size": 32,
+    "instruction_count": 8,
+    "names": [
+      "윈도우x",
+      "윈도우y"
+    ],
+    "variables": [
+      "self",
+      "event"
+    ],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.상단바.상단바.무빙",
+    "name": "무빙",
+    "qualname": "상단바.무빙",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 179,
+    "arg_count": 2,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 6,
+    "flags": 3,
+    "bytecode_size": 286,
+    "instruction_count": 40,
+    "names": [
+      "x",
+      "윈도우x",
+      "y",
+      "윈도우y",
+      "master",
+      "winfo_x",
+      "winfo_y",
+      "geometry"
+    ],
+    "variables": [
+      "self",
+      "event",
+      "델타x",
+      "델타y",
+      "x",
+      "y"
+    ],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.새탭",
+    "name": "새탭",
+    "qualname": "새탭",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 188,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.새탭.새탭.__init__",
+    "name": "__init__",
+    "qualname": "새탭.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 189,
+    "arg_count": 6,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 8,
+    "flags": 3,
+    "bytecode_size": 360,
+    "instruction_count": 77,
+    "names": [
+      "super",
+      "__init__",
+      "overrideredirect",
+      "wm_attributes",
+      "configure",
+      "geometry",
+      "str",
+      "버튼",
+      "상단바"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "가로",
+      "세로",
+      "탭닫기버튼",
+      "탭상단바"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": [
+      "self"
+    ]
+  },
+  {
+    "qualified_name": "<module>.새탭.새탭.__init__.새탭.__init__.<locals>.<lambda>",
+    "name": "<lambda>",
+    "qualname": "새탭.__init__.<locals>.<lambda>",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 197,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 19,
+    "bytecode_size": 36,
+    "instruction_count": 6,
+    "names": [
+      "destroy"
+    ],
+    "variables": [],
+    "freevars": [
+      "self"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.우측새탭",
+    "name": "우측새탭",
+    "qualname": "우측새탭",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 200,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 40,
+    "instruction_count": 20,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.우측새탭.우측새탭.__init__",
+    "name": "__init__",
+    "qualname": "우측새탭.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 201,
+    "arg_count": 6,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 8,
+    "flags": 3,
+    "bytecode_size": 360,
+    "instruction_count": 77,
+    "names": [
+      "super",
+      "__init__",
+      "overrideredirect",
+      "wm_attributes",
+      "configure",
+      "geometry",
+      "str",
+      "버튼",
+      "상단바"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "가로",
+      "세로",
+      "탭닫기버튼",
+      "탭상단바"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": [
+      "self"
+    ]
+  },
+  {
+    "qualified_name": "<module>.우측새탭.우측새탭.__init__.우측새탭.__init__.<locals>.<lambda>",
+    "name": "<lambda>",
+    "qualname": "우측새탭.__init__.<locals>.<lambda>",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 209,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 19,
+    "bytecode_size": 36,
+    "instruction_count": 6,
+    "names": [
+      "destroy"
+    ],
+    "variables": [],
+    "freevars": [
+      "self"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.설명창",
+    "name": "설명창",
+    "qualname": "설명창",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 213,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 50,
+    "instruction_count": 25,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "내용갱신",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.설명창.설명창.__init__",
+    "name": "__init__",
+    "qualname": "설명창.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 214,
+    "arg_count": 3,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 5,
+    "flags": 3,
+    "bytecode_size": 478,
+    "instruction_count": 93,
+    "names": [
+      "super",
+      "__init__",
+      "overrideredirect",
+      "wm_attributes",
+      "configure",
+      "geometry",
+      "버튼",
+      "상단바",
+      "Text",
+      "설명",
+      "place",
+      "delete",
+      "END",
+      "insert",
+      "str"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "내용",
+      "탭닫기버튼",
+      "탭상단바"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": [
+      "self",
+      "설명창닫기"
+    ]
+  },
+  {
+    "qualified_name": "<module>.설명창.설명창.__init__.설명창.__init__.<locals>.설명창닫기",
+    "name": "설명창닫기",
+    "qualname": "설명창.__init__.<locals>.설명창닫기",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 220,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 19,
+    "bytecode_size": 42,
+    "instruction_count": 9,
+    "names": [
+      "설명창변수",
+      "destroy"
+    ],
+    "variables": [],
+    "freevars": [
+      "self"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.설명창.설명창.__init__.설명창.__init__.<locals>.<lambda>",
+    "name": "<lambda>",
+    "qualname": "설명창.__init__.<locals>.<lambda>",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 224,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 19,
+    "bytecode_size": 18,
+    "instruction_count": 6,
+    "names": [],
+    "variables": [],
+    "freevars": [
+      "설명창닫기"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.설명창.설명창.내용갱신",
+    "name": "내용갱신",
+    "qualname": "설명창.내용갱신",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 233,
+    "arg_count": 2,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 2,
+    "flags": 3,
+    "bytecode_size": 142,
+    "instruction_count": 18,
+    "names": [
+      "설명",
+      "delete",
+      "END",
+      "insert",
+      "str"
+    ],
+    "variables": [
+      "self",
+      "새내용"
+    ],
+    "freevars": [],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.설명버튼",
+    "name": "설명버튼",
+    "qualname": "설명버튼",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 242,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 0,
+    "bytecode_size": 44,
+    "instruction_count": 22,
+    "names": [
+      "__name__",
+      "__module__",
+      "__qualname__",
+      "__firstlineno__",
+      "__init__",
+      "__static_attributes__",
+      "__classcell__"
+    ],
+    "variables": [],
+    "freevars": [],
+    "cellvars": [
+      "__class__"
+    ]
+  },
+  {
+    "qualified_name": "<module>.설명버튼.설명버튼.__init__",
+    "name": "__init__",
+    "qualname": "설명버튼.__init__",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 243,
+    "arg_count": 7,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 7,
+    "flags": 3,
+    "bytecode_size": 274,
+    "instruction_count": 76,
+    "names": [
+      "super",
+      "__init__",
+      "PhotoImage",
+      "이미지",
+      "아이콘",
+      "place",
+      "bind"
+    ],
+    "variables": [
+      "self",
+      "master",
+      "x좌표",
+      "y좌표",
+      "이미지경로",
+      "함수",
+      "설명"
+    ],
+    "freevars": [
+      "__class__"
+    ],
+    "cellvars": [
+      "master",
+      "설명",
+      "설명창확인"
+    ]
+  },
+  {
+    "qualified_name": "<module>.설명버튼.설명버튼.__init__.설명버튼.__init__.<locals>.설명창확인",
+    "name": "설명창확인",
+    "qualname": "설명버튼.__init__.<locals>.설명창확인",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 256,
+    "arg_count": 0,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 0,
+    "flags": 19,
+    "bytecode_size": 94,
+    "instruction_count": 18,
+    "names": [
+      "설명창변수",
+      "내용갱신",
+      "설명창"
+    ],
+    "variables": [],
+    "freevars": [
+      "master",
+      "설명"
+    ],
+    "cellvars": []
+  },
+  {
+    "qualified_name": "<module>.설명버튼.설명버튼.__init__.설명버튼.__init__.<locals>.<lambda>",
+    "name": "<lambda>",
+    "qualname": "설명버튼.__init__.<locals>.<lambda>",
+    "filename": "인터페이스\\인터페이스.py",
+    "first_line": 262,
+    "arg_count": 1,
+    "positional_only": 0,
+    "keyword_only": 0,
+    "locals": 1,
+    "flags": 19,
+    "bytecode_size": 18,
+    "instruction_count": 6,
+    "names": [],
+    "variables": [
+      "e"
+    ],
+    "freevars": [
+      "설명창확인"
+    ],
+    "cellvars": []
+  }
+]

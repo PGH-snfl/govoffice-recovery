@@ -1,0 +1,38 @@
+{
+  "category": "argument_fixture",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식머릿말",
+      "args": [
+        "숫자만",
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28023,
+        "hwpml_sha256": "683ebc8156dbd8beeac29f04fedcfa4c002c0babf08b90bc20ff6b00fc480a72"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 167, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4669, in 기본서식머릿말\n    self.대상.HAction.Run(\"HeaderFooter\"); self.폰트(\"맑은 고딕\"); self.글자크기(9); self.가운데정렬(); self.문장(f\"{종류} {숫자}\"); self.도형나가기(); return None\n    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\HAction.py\", line 50, in Run\n    return self._oleobj_.InvokeTypes(15003, LCID, 1, (11, 0), ((8, 1),),actname\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\npywintypes.com_error: (-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

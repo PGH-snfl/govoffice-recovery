@@ -1,0 +1,1236 @@
+{
+  "category": "table_fixture",
+  "selected": 73,
+  "start": 0,
+  "completed": 67,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "한컴열기",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateBindCtx'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 47, in 한컴열기\n    방금처리 = 0\n    \nAttributeError: 'NoneType' object has no attribute 'CreateBindCtx'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "RuntimeError",
+        "error": "한글 Automation 보안 모듈을 등록하지 못했습니다. RegisterModule의 이름과 레지스트리 값 이름이 같은지, DLL이 한글과 동일한 32비트인지 확인하세요.",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\connection.py\", line 68, in 한컴열기\n    self._보안모듈등록()\n    ~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\connection.py\", line 51, in _보안모듈등록\n    raise RuntimeError(\n    ...<3 lines>...\n    )\nRuntimeError: 한글 Automation 보안 모듈을 등록하지 못했습니다. RegisterModule의 이름과 레지스트리 값 이름이 같은지, DLL이 한글과 동일한 32비트인지 확인하세요.\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표너비줄이기",
+      "args": [
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "4518d845ed041e9325674650c89926aac55274b871317055f7a0b7c63f42a300"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "5836c845abeecfb519b881842b7e5da5036c384e4cbcc8adf1307b43addfa088"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표높이줄이기",
+      "args": [
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "27632bd4ad605b5b5e0cd9f4cf462d88bf9a79b20738521b5759321efe768f21"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "3229ab6b2e403a96c45b42c647dfe8b759c71a1c68ace34a0a5942574078d87b"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표오른쪽",
+      "args": [
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "f30e6c9a563ccf7c6e879a3c4d6a29b97123966bebc5b2fe8f141af9b294ba5c"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "94d3af5c7dbe81154632391b41abe42c84c13ee2b7d2c0491494289f7ed401d7"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "표왼쪽",
+      "args": [
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "f591f22adb1b46c9eb8e89442ef4911ca4d4da89cd2b48ee204b2afcd53ae842"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "151342f72f9cf323aa8077c5fc8ccf682581a0bf3cd738f694f5558c39b7b306"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀전체크기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30193,
+        "hwpml_sha256": "9eb897060bf855d6e9d8c6259e86c1d63e47ba8d882d182a554ed86ad705b8c3"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30193,
+        "hwpml_sha256": "87ed5c405f2b0bafbb12f8bca4ef6dda9a3b6f58ef352c3315bc5e7547e37863"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀정보",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": "(0, 2, 1, 1, 0, '1', 'A', '1', 'A')",
+        "text_length": 51,
+        "text_sha256": "f8b1aef893fb8cc8b48d8125534e0a845a5e3ee28ba2ca2e93f7ae145c89c3c1",
+        "hwpml_length": 29386,
+        "hwpml_sha256": "4ac2670f0204ce3c4dc59508664d24dfb98b94ff11c58778aeee1cb1af60806d"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": "(0, 2, 1, 1, -2, '1', 'A', '1', 'A')",
+        "text_length": 51,
+        "text_sha256": "f8b1aef893fb8cc8b48d8125534e0a845a5e3ee28ba2ca2e93f7ae145c89c3c1",
+        "hwpml_length": 29386,
+        "hwpml_sha256": "4ac2670f0204ce3c4dc59508664d24dfb98b94ff11c58778aeee1cb1af60806d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀공백제거",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "ac7967ce3c8df3d967aa0af40d6665d45efbcbf702060562f4f126d7ec32dbfc"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "b21f085f53ee4ed92a72efea3ddcf6efcfadc2405e8cc19001f7d929e4699626"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀숫자오른쪽정렬",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30729,
+        "hwpml_sha256": "3c8a6dfa6d057e03937830e49db531322a45bad50467190525ee44ff9b88a6ef"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30729,
+        "hwpml_sha256": "ea33e097a2b63b7fe6a2c313e5ffb544ce38e996e0e0dadd9d9ef1f05f566f04"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀엔터변환",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "ab07084465a159ce84623ad048f0477954cec6870cd367c9da38be523ae8d3a0"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "b3761755300e8e87fd88918b00c7c6cf9d09fc28bd137add7a36ba012b1f6195"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀너비자동조절",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30194,
+        "hwpml_sha256": "0afff58fbffe1eb89f2a1d7daaf6f6e1d945d54971994238dd55a11b099e9f1f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30194,
+        "hwpml_sha256": "009ebe2d856d8808496198b597675c78c392c18fb2a2b9388d0d7064fc1c0a27"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "제목목차",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 184,
+        "text_sha256": "bbe0f99aeef02ecdb500905e2b8cfc88988669a58d56dc5691391f1674749dec",
+        "hwpml_length": 45110,
+        "hwpml_sha256": "28907a14791e5f14d18c76ce2d75d67ad19270f532e889bce89074dccb2dbc78"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 2057, in 제목목차\n    self.문장풀('HY헤드라인M', 30, 0, 1, (str(datetime.today().year) + '년 사업계획'))\n                                              ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "강원지도통계",
+      "args": [
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "could not convert string to float: ''",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_1.py\", line 1365, in 강원지도통계\nValueError: could not convert string to float: ''\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "79aae79cff7825242db946bc074d33ceafbf88c82749a57f7d1fcabeb43fbd56"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남지도통계",
+      "args": [
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "could not convert string to float: ''",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_1.py\", line 11035, in 충남지도통계\nValueError: could not convert string to float: ''\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "f36f955fb82121c04930cc516261de30e39f500ccdbf0313cd86e2a9fee84fa7"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "보기변환",
+      "args": [
+        "숫자만"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "213517fc0d538158ea7243a847f022841623eda8ec17b00980339a29bc4295b3"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "8331ce6616d696f4329194d3934fe2cd831b78fc6c9e40edecd3c096cdb3f1fd"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "지문",
+      "args": [
+        "숫자만"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "c80fd15a624ee92db0567d8c0912985c62bd1018f1c3eec2c6717bfc18fa6f2a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "c4dd8759092f6e147d0a2ef226b849ecd7ab369938450ac2842eb822df815e3a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "점수합산",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 28,
+        "text_sha256": "46a753faf3e5c154d509a038436d063b1ef5e85ea41188b7ee1a3fc91e55ad44",
+        "hwpml_length": 33003,
+        "hwpml_sha256": "927a62d14469d8a1ed1d290009bc3bd120edf567933b6b264658765c734bd588"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 28,
+        "text_sha256": "46a753faf3e5c154d509a038436d063b1ef5e85ea41188b7ee1a3fc91e55ad44",
+        "hwpml_length": 33003,
+        "hwpml_sha256": "19868bf47590d3f09c710ce1de08840be96f49f21b3bd52a21d52621953305f3"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "행안부단일추출",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name '엑셀' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_1.py\", line 17405, in 행안부단일추출\nNameError: name '엑셀' is not defined\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "ModuleNotFoundError",
+        "error": "No module named '엑셀'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 2043, in 행안부단일추출\n    임시엑셀 = self._행안부엑셀시작()\n               ~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 50, in _행안부엑셀시작\n    from 엑셀.엑셀라이브러리 import 엑셀\nModuleNotFoundError: No module named '엑셀'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "행안부전체추출",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name '엑셀' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_1.py\", line 17432, in 행안부전체추출\nNameError: name '엑셀' is not defined\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "ModuleNotFoundError",
+        "error": "No module named '엑셀'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 2058, in 행안부전체추출\n    임시엑셀 = self._행안부엑셀시작()\n               ~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 50, in _행안부엑셀시작\n    from 엑셀.엑셀라이브러리 import 엑셀\nModuleNotFoundError: No module named '엑셀'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남상단2",
+      "args": [
+        "-"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 65,
+        "text_sha256": "c807d1c10781de9a5c8944d973cc010954939aef82bb8f968a379c0c339c59b1",
+        "hwpml_length": 36855,
+        "hwpml_sha256": "53772fd2107cfa3ef15b18bf15691d737509859b85196ec861a51d3a2910c445"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 412, in 경남상단2\n    self.문장((((((((str(datetime.today().year) + '.') + str(datetime.today().month)) + '.') + str(datetime.today().day)) + '.(') + 임시요일[datetime.today().weekday()]) + ')'))\n                         ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남상단날짜",
+      "args": [
+        "-"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 19,
+        "text_sha256": "4c8eddbdc734971e39c55ac3cfd22b49c9ebf3458b807d9920d0b7563d084422",
+        "hwpml_length": 35032,
+        "hwpml_sha256": "e3f7bb5a05d42368808546a62e4c3374978be308553821365d1eccf04627ffcc"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 451, in 경남상단날짜\n    self.문장((((((str(datetime.today().year) + '. ') + str(datetime.today().month)) + '. ') + str(datetime.today().day)) + '.'))\n                       ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남한장보고상단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 36006,
+        "hwpml_sha256": "6f99ae5bf16230efdb905a451d2dd1293f1a65d33d3f00f7a227dc8ff6449625"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 689, in 경남한장보고상단\n    self.문장((((((((str(datetime.today().year) + '.') + str(datetime.today().month)) + '.') + str(datetime.today().day)) + '.(') + 임시요일[datetime.today().weekday()]) + ')'))\n                         ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남해복지찾기",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "IndexError",
+        "error": "string index out of range",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 1299, in 남해복지찾기\nIndexError: string index out of range\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30190,
+        "hwpml_sha256": "e2a51bd64f644d8c1ddb4820ca0264ab82e647b1b5863057d7529315b42fa1a7"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서울보고서제목날짜",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 104,
+        "text_sha256": "b9dfc7698cf1750bba00c37df5d0ebff398a0d697d94e08b3e4fae8e68684e11",
+        "hwpml_length": 41636,
+        "hwpml_sha256": "5ef1436b9dc81a959a494d140ef0457b648b89484fc5ab9590bee34a1259170a"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 2039, in 서울보고서제목날짜\n    self.문장(((((((((\"'\" + str(datetime.today().year)[2:4]) + '. ') + str(datetime.today().month)) + '. ') + str(datetime.today().day)) + '.(') + 임시요일[datetime.today().weekday()]) + ')'))\n                                ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "인천요지",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 122,
+        "text_sha256": "970f451b34226319a6d1a0a05912abf59c333314a578e1f9a67662282b2b5a61",
+        "hwpml_length": 45512,
+        "hwpml_sha256": "d0cde8be2a90dad0ecf7d1813284f116f9805eca4baaa23061ca2b5a755e4d91"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 91,
+        "text_sha256": "c107b4f8f32ec4ccfb21baca8a0ce843fa02a39412824c5898f63967d906c0a0",
+        "hwpml_length": 45126,
+        "hwpml_sha256": "9ea8b7d55dd4536df59067d36736093e097aa5ab653e8bfa4c29a526e8dada13"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인전자결재표",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 26,
+        "text_sha256": "34570f5734bd3cbcc15501758c804561ffe9d0005427ae90cd4d5101037da879",
+        "hwpml_length": 35104,
+        "hwpml_sha256": "95c380a39e47d476a8ce5ba04f2f57161f316b1649cfc482afcbdeb437013a8b"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 2947, in 용인전자결재표\n    self.문장((((((('‘' + str(datetime.today().year)[2:4]) + '. ') + str(datetime.today().month)) + '. ') + str(datetime.today().day)) + '.'))\n                              ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인날짜표",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 78,
+        "text_sha256": "c0f73e38da887de6348ff4d47a355c9a4878dc0ee1ff2e75e711d22e17da1eee",
+        "hwpml_length": 39730,
+        "hwpml_sha256": "466bcc8cae532c3b6aa4b5f3908fb6721f38f4c8dcaff65c711502d6e1f4478c"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 2975, in 용인날짜표\n    self.문장((((((((('‘' + str(datetime.today().year)[2:4]) + '. ') + str(datetime.today().month)) + '. ') + str(datetime.today().day)) + '. (') + 임시요일[datetime.today().weekday()]) + ')'))\n                                ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "관세결재선",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 71,
+        "text_sha256": "ca15a75bb7eede4e65f619b7ae0828e385c30e2dfbede7b199a5445fa03e1613",
+        "hwpml_length": 43951,
+        "hwpml_sha256": "2cb50cc0ed7f71ff6cdfcde55079638c49bd0e43b4f422d4f64949f0bd1d771d"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 3687, in 관세결재선\n    self.문장((((str(datetime.today().year) + '. ') + str(datetime.today().month)) + '. '))\n                     ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "병무결재선",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 94,
+        "text_sha256": "c37e45582710685aebb7aed68ccd18378c155163ea9061c1dc7cf7d71efc4a35",
+        "hwpml_length": 49643,
+        "hwpml_sha256": "f8181cfc5510f3ac612375b02bbe99648951e628ea64cc0a261284e5387dc222"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 4361, in 병무결재선\n    self.문장((((((str(datetime.today().year) + '. ') + str(datetime.today().month)) + '. ') + str(datetime.today().day)) + '.'))\n                       ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서식자기개발",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name '랜덤선택' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 6554, in 서식자기개발\nNameError: name '랜덤선택' is not defined\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 5404, in 서식자기개발\n    self.문장((str(datetime.today().year) + '년 개인별 능력개발 계획서'))\n                   ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "충북교대제목",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 36,
+        "text_sha256": "8d446c9db81baac5efa37d26aa062e7afa4019dd22e10bd8d73c4cf65620e4d1",
+        "hwpml_length": 39211,
+        "hwpml_sha256": "c3afcf97dea683c3880af701ea4ef20d62db86411b1523ecda142b92709dd28d"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 5538, in 충북교대제목\n    self.문장((str(datetime.today().year) + '. 학교로 찾아가는 운영 계획'))\n                   ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "충북교중제목",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 44,
+        "text_sha256": "ff65498ce6b5507492a90c2bfbf69fd9ceffb6b5b66293d7964b3fbf74f89f6c",
+        "hwpml_length": 42084,
+        "hwpml_sha256": "3dbdb7bb43b8778e949d04a7068116e2647bcd89fbfcf473c0bf2d104f0c9273"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 5577, in 충북교중제목\n    self.문장((str(datetime.today().year) + '. 학교로 찾아가는 운영 계획'))\n                   ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "마크다운",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공궁극제목",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 72,
+        "text_sha256": "79c048368d2b6f281a65f13e8bb4397048c2a4086e8edb6bb6fd5e8286a63b0b",
+        "hwpml_length": 41336,
+        "hwpml_sha256": "25088c08c12aad150f9b406a268d738e52cdccfbc2f9ecccc3326d73f9d5c83d"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 6258, in 서교공궁극제목\n    self.문장((((((((str(datetime.today().year)[2:4] + '.') + str(datetime.today().month)) + '.') + str(datetime.today().day)) + '.(') + 임시요일[datetime.today().weekday()]) + ')'))\n                         ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공제목날짜",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 83,
+        "text_sha256": "99500e52aaf31aeb568a9a8872c34cd7daa518d4339a2d5a8b721b3a07ac935f",
+        "hwpml_length": 41399,
+        "hwpml_sha256": "68f33fdcd7611341c321003bbd9457b79fd5339aecdb0d4ec90cb2b0a74a971b"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 6550, in 서교공제목날짜\n    self.문장((((((((str(datetime.today().year)[2:4] + '.') + str(datetime.today().month)) + '.') + str(datetime.today().day)) + '.(') + 임시요일[datetime.today().weekday()]) + ')'))\n                         ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금천원페이지작성자",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 82,
+        "text_sha256": "d73059df243eb114c0fc883f3082c6af5517e654bd6b118683e610d27718515c",
+        "hwpml_length": 39488,
+        "hwpml_sha256": "2199478df667b7ba32ad6ab8662f614e619d95f4f731e740117eeb1b37ff1559"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 7497, in 금천원페이지작성자\n    self.문장(((((str(datetime.today().year) + '.') + str(datetime.today().month)) + '.') + str(datetime.today().day)))\n                      ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금천꺽쇠박스",
+      "args": [
+        [
+          "항목1",
+          "항목2"
+        ]
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 26,
+        "text_sha256": "4c2ede420dbe84cae6c05c6fe02bfe04ce806cf547696fa9e58c12a082c7d6a2",
+        "hwpml_length": 39113,
+        "hwpml_sha256": "a2e401d847c08d9ade6c161635ea73b57590aeb745c030ace6400822576528bf"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 26,
+        "text_sha256": "4c2ede420dbe84cae6c05c6fe02bfe04ce806cf547696fa9e58c12a082c7d6a2",
+        "hwpml_length": 39113,
+        "hwpml_sha256": "9afc7cd4c9f085b3eaf7ea99a5af21e477926db54b0dea086f47247fca58277d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금감원장상단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 93,
+        "text_sha256": "527471967b6a74854bd2e2dcd79b9139915c938360fbdaca5d07f49e88b3f5bb",
+        "hwpml_length": 42280,
+        "hwpml_sha256": "b09b3173f32205d2dfc496ddee331611cb2cb98fbb13337f04732366feed6a27"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'datetime' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 106, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 8928, in 금감원장상단\n    self.문장((((((('(' + str(datetime.today().year)) + '. ') + str(datetime.today().month)) + '. ') + str(datetime.today().day)) + '.)'))\n                              ^^^^^^^^\nNameError: name 'datetime' is not defined. Did you forget to import 'datetime'?\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드물품구매필요서류",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드승낙사항",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드서류",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드품의공문",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드이자계산",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드유류비공문생성",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구보고전제목",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구취재동향표",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구보도대책표",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구행사개요",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구메모보고",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학날짜매기기",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학수인성식품역학조사",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학유행곡선만들기1",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학rror계산",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학rror다중계산",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "의정부목차",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌우선보고",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌두셀비교",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌맞춤정렬",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌변경계약",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌의원요구",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주광산증감",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주광산결재선",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "질병지도",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식신문고정보공개자동완성",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식마크다운",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식간담회명판",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "차트단일막대",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    }
+  ]
+}

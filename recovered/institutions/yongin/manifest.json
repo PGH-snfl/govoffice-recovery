@@ -1,0 +1,177 @@
+{
+  "id": "yongin",
+  "name": "용인",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "용인창",
+  "functions": [
+    {
+      "id": "yongin.용인간이보고서",
+      "name": "용인간이보고서",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인간이보고서",
+      "parameters": [
+        "이미지1"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인간이전자보고서",
+      "name": "용인간이전자보고서",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인간이전자보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인결재선",
+      "name": "용인결재선",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인결재선",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인글상자",
+      "name": "용인글상자",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인글상자",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인기본표",
+      "name": "용인기본표",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인기본표",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인날짜표",
+      "name": "용인날짜표",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인날짜표",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인대제목",
+      "name": "용인대제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인대제목",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인로고",
+      "name": "용인로고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인로고",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인르네상스",
+      "name": "용인르네상스",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인르네상스",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인목차",
+      "name": "용인목차",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인목차",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인보고서",
+      "name": "용인보고서",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인보고서",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인빅르네상스",
+      "name": "용인빅르네상스",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인빅르네상스",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인빨파제목",
+      "name": "용인빨파제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인빨파제목",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인소제목",
+      "name": "용인소제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인소제목",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인요약",
+      "name": "용인요약",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인요약",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인전자결재표",
+      "name": "용인전자결재표",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인전자결재표",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "yongin.용인표지",
+      "name": "용인표지",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "용인표지",
+      "parameters": [
+        "이미지1",
+        "이미지2"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    }
+  ]
+}

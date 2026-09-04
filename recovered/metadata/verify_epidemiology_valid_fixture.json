@@ -1,0 +1,37 @@
+{
+  "category": "blank_document",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "역학조사본문",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 25,
+        "text_sha256": "449bac2b960aa7d033cea4b0789f53f6bb32847179ca161a5708860c39c9ab6c",
+        "hwpml_length": 30187,
+        "hwpml_sha256": "0748e8d67894db8ba7f56df04266d05b470db4efb36513c1f04ea394c66d56dd"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 25,
+        "text_sha256": "449bac2b960aa7d033cea4b0789f53f6bb32847179ca161a5708860c39c9ab6c",
+        "hwpml_length": 30187,
+        "hwpml_sha256": "0748e8d67894db8ba7f56df04266d05b470db4efb36513c1f04ea394c66d56dd"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

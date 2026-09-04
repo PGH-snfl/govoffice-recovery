@@ -1,0 +1,44 @@
+{
+  "category": "blank_document",
+  "selected": 2,
+  "start": 0,
+  "completed": 2,
+  "results": [
+    {
+      "module": "한컴라이브러리_2",
+      "method": "인진되돌리기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 30070,
+        "hwpml_sha256": "d5bccf3b5d35864899d145118f494237b9189c541af791712ce5dc15bf88fd66"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27637,
+        "hwpml_sha256": "00105ec2b7b7760ed86382170638a323eac0266691148faf8280fd32c45d7f12"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학조사본문",
+      "timed_out": true,
+      "timeout_seconds": 45.0,
+      "worker_output": ""
+    }
+  ]
+}

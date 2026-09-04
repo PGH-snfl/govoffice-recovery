@@ -1,0 +1,257 @@
+{
+  "id": "hongseong",
+  "name": "홍성",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "홍성창",
+  "functions": [
+    {
+      "id": "hongseong.홍성궁극의정리",
+      "name": "홍성궁극의정리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성궁극의정리",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성궁극의정리범위",
+      "name": "홍성궁극의정리범위",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성궁극의정리범위",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성궁극의정리범위글머리",
+      "name": "홍성궁극의정리범위글머리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성궁극의정리범위글머리",
+      "parameters": [
+        "특수문자",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성끝장",
+      "name": "홍성끝장",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성끝장",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성동향제목",
+      "name": "홍성동향제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성동향제목",
+      "parameters": [
+        "이미지",
+        "제목",
+        "부서",
+        "직위1",
+        "직급1",
+        "이름1",
+        "번호1",
+        "직위2",
+        "직급2",
+        "이름2",
+        "번호2"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성명패생성",
+      "name": "홍성명패생성",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성명패생성",
+      "parameters": [
+        "사진"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성보도자료",
+      "name": "홍성보도자료",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성보도자료",
+      "parameters": [
+        "사진"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성보도자료본문서식",
+      "name": "홍성보도자료본문서식",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성보도자료본문서식",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성보도자료제목서식",
+      "name": "홍성보도자료제목서식",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성보도자료제목서식",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성붙임",
+      "name": "홍성붙임",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성붙임",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성소제목",
+      "name": "홍성소제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성소제목",
+      "parameters": [
+        "숫자",
+        "제목"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성순기표",
+      "name": "홍성순기표",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성순기표",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성앞으로",
+      "name": "홍성앞으로",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성앞으로",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성예산",
+      "name": "홍성예산",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성예산",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성예시",
+      "name": "홍성예시",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성예시",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성요약",
+      "name": "홍성요약",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성요약",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성제목",
+      "name": "홍성제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성제목",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성중점추진",
+      "name": "홍성중점추진",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성중점추진",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성참고",
+      "name": "홍성참고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성참고",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성참석명단",
+      "name": "홍성참석명단",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성참석명단",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성표서식변환",
+      "name": "홍성표서식변환",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성표서식변환",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성표지",
+      "name": "홍성표지",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성표지",
+      "parameters": [
+        "내용",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "hongseong.홍성협조사항",
+      "name": "홍성협조사항",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "홍성협조사항",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    }
+  ]
+}

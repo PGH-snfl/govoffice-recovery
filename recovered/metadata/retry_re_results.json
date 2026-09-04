@@ -1,0 +1,83 @@
+{
+  "category": "blank_document",
+  "selected": 3,
+  "start": 0,
+  "completed": 3,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "경남네모지정",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'start'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 435, in 경남네모지정\nAttributeError: 'NoneType' object has no attribute 'start'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'start'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 247, in 경남네모지정\n    글꼬리 = 텍스트[한글찾기.search(텍스트).start():len(텍스트)]\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'start'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남해기획네모",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'start'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 1211, in 남해기획네모\nAttributeError: 'NoneType' object has no attribute 'start'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'start'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 997, in 남해기획네모\n    글꼬리 = 텍스트[한글찾기.search(텍스트).start():len(텍스트)]\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'start'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "합천네모지정",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'start'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 16572, in 합천네모지정\nAttributeError: 'NoneType' object has no attribute 'start'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'start'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 11307, in 합천네모지정\n    글꼬리 = 텍스트[한글찾기.search(텍스트).start():len(텍스트)]\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'start'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    }
+  ]
+}

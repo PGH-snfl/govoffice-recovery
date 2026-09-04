@@ -1,0 +1,807 @@
+{
+  "category": "table_fixture",
+  "selected": 29,
+  "start": 0,
+  "completed": 29,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "서식자기개발",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name '랜덤선택' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 6554, in 서식자기개발\nNameError: name '랜덤선택' is not defined\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name '랜덤선택' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 5483, in 서식자기개발\n    self.문장(랜덤선택(랜덤언어))\n              ^^^^^^^^\nNameError: name '랜덤선택' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "마크다운",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 7042, in 마크다운\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 324, in 글자스타일\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4446, in 마크다운\n    return Legacy기본한컴.마크다운(self)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"한컴오피스\\한컴라이브러리.py\", line 7042, in 마크다운\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 314, in 글자스타일\n    총알 = 총.CreateSet()\n           ^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드물품구매필요서류",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30351,
+        "hwpml_sha256": "a88f37f5cb7ff6476318bbd3490b4171872ad308613e5946b7df31bc926efd1a"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4564, in 가이드물품구매필요서류\n    self.마크다운응용(\"소제목 : 필요서류 및 안내\\r\\n\" + \"\\r\\n\".join(f\"표: {i} : {x} : 확인\" for i, x in enumerate(서류, 1))); return None\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 5840, in 마크다운응용\n    self.마크다운()\n    ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4446, in 마크다운\n    return Legacy기본한컴.마크다운(self)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"한컴오피스\\한컴라이브러리.py\", line 7042, in 마크다운\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 314, in 글자스타일\n    총알 = 총.CreateSet()\n           ^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드승낙사항",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30351,
+        "hwpml_sha256": "a88f37f5cb7ff6476318bbd3490b4171872ad308613e5946b7df31bc926efd1a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 195,
+        "text_sha256": "f0c44dc20f2e13b23da7d4f6ff702ba5d5f39e8cb5a9314d417c1572a5f776d0",
+        "hwpml_length": 33423,
+        "hwpml_sha256": "6afb3d2fc844a104fa806f8d65b1a4216117eb9cd9b7d90e655faee5630cfa39"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드서류",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30351,
+        "hwpml_sha256": "a88f37f5cb7ff6476318bbd3490b4171872ad308613e5946b7df31bc926efd1a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 55,
+        "text_sha256": "bd248cff2eb59c81b26d3dd076e1a5db226996179afecfa56dfdd9ebab0c2e8b",
+        "hwpml_length": 30759,
+        "hwpml_sha256": "12492439bc658039fe8d10e3ccb15baaef7c13f9fc65be73f07130e430223bda"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드품의공문",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30351,
+        "hwpml_sha256": "a88f37f5cb7ff6476318bbd3490b4171872ad308613e5946b7df31bc926efd1a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 108,
+        "text_sha256": "7cbe129e636665274439ea104cbe41bd644538684ded462bceba4bdd3c99c54e",
+        "hwpml_length": 30079,
+        "hwpml_sha256": "16471c533844899ac3b7faeb823f4bc520869ea7f1bb101a9149a24cac29d0a2"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드이자계산",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 14149, in 가이드이자계산\n  File \"한컴오피스\\한컴라이브러리.py\", line 7257, in 마크다운응용\n  File \"한컴오피스\\한컴라이브러리.py\", line 7042, in 마크다운\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 324, in 글자스타일\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4584, in 가이드이자계산\n    self.마크다운응용(\"소제목 : 이자 계산 결과\\r\\n\" + \"\\r\\n\".join(\"□ \" + x for x in 결과)); return None\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 5840, in 마크다운응용\n    self.마크다운()\n    ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4446, in 마크다운\n    return Legacy기본한컴.마크다운(self)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"한컴오피스\\한컴라이브러리.py\", line 7042, in 마크다운\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 314, in 글자스타일\n    총알 = 총.CreateSet()\n           ^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드유류비공문생성",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30351,
+        "hwpml_sha256": "a88f37f5cb7ff6476318bbd3490b4171872ad308613e5946b7df31bc926efd1a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 111,
+        "text_sha256": "71b1411d29cd1d1a3eb61950560331ecbb7eba825673197852f6fc395d956949",
+        "hwpml_length": 30031,
+        "hwpml_sha256": "756f3ec8a5028af9a26dcb77132c0faa1430cbdca151e624a532e6d7585599ab"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구보고전제목",
+      "args": [
+        "항목1\n항목2\n100",
+        "항목1\n항목2\n100",
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 64,
+        "text_sha256": "f42e78fe8bd68a48c1048030d43fafb7e82fd0e59a71ac012fd42cd8d753918f",
+        "hwpml_length": 40893,
+        "hwpml_sha256": "79ccc20d0182022d572389f0f75e5299b0d155ce66034c650317e3e36d46694e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 64,
+        "text_sha256": "f42e78fe8bd68a48c1048030d43fafb7e82fd0e59a71ac012fd42cd8d753918f",
+        "hwpml_length": 40893,
+        "hwpml_sha256": "79ccc20d0182022d572389f0f75e5299b0d155ce66034c650317e3e36d46694e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구취재동향표",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 55,
+        "text_sha256": "52d4119e8041aeed3ac73c543fa2f92962bb3516dc1edb8421b74ea3f4fe11a2",
+        "hwpml_length": 36521,
+        "hwpml_sha256": "ac41e1207cc15560e2654bbc5485775f05ce0bdfab98f1cf57e4e153efd5354e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 55,
+        "text_sha256": "52d4119e8041aeed3ac73c543fa2f92962bb3516dc1edb8421b74ea3f4fe11a2",
+        "hwpml_length": 36521,
+        "hwpml_sha256": "ac41e1207cc15560e2654bbc5485775f05ce0bdfab98f1cf57e4e153efd5354e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구보도대책표",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 52,
+        "text_sha256": "e2c45f59b47a7ab74d79a75b0d02d54ffb04eb56bc0dc54e3f6df511d6bfd298",
+        "hwpml_length": 35681,
+        "hwpml_sha256": "1998c7af61f4ce417395533912210f3a2bda98d0ed9802f0183f1cea267f323a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 52,
+        "text_sha256": "e2c45f59b47a7ab74d79a75b0d02d54ffb04eb56bc0dc54e3f6df511d6bfd298",
+        "hwpml_length": 35681,
+        "hwpml_sha256": "1998c7af61f4ce417395533912210f3a2bda98d0ed9802f0183f1cea267f323a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구행사개요",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 145,
+        "text_sha256": "16c748a0166860c777b0141e83bc11651574e479f66f6f74b5ba16bf8cac0c9d",
+        "hwpml_length": 38283,
+        "hwpml_sha256": "d489a458c0d26b0473e69a2f07b25a8bd4dab6e392cc8bb4c6f4cc21a8ebcec8"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 145,
+        "text_sha256": "16c748a0166860c777b0141e83bc11651574e479f66f6f74b5ba16bf8cac0c9d",
+        "hwpml_length": 38283,
+        "hwpml_sha256": "d489a458c0d26b0473e69a2f07b25a8bd4dab6e392cc8bb4c6f4cc21a8ebcec8"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주북구메모보고",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 663,
+        "text_sha256": "c02ea905176d5663772921d66996cf33ade0790b249f3ce2868186570f5910a8",
+        "hwpml_length": 48168,
+        "hwpml_sha256": "a1e3445b8ff35c024859c02e64c5861838b6e86261e7a4853792dc11810631fd"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 663,
+        "text_sha256": "c02ea905176d5663772921d66996cf33ade0790b249f3ce2868186570f5910a8",
+        "hwpml_length": 48168,
+        "hwpml_sha256": "a1e3445b8ff35c024859c02e64c5861838b6e86261e7a4853792dc11810631fd"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학날짜매기기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 51,
+        "text_sha256": "f8b1aef893fb8cc8b48d8125534e0a845a5e3ee28ba2ca2e93f7ae145c89c3c1",
+        "hwpml_length": 29533,
+        "hwpml_sha256": "ba9abbd3666611c5196960844c234bc051fb67957447c4f533efc69c85333f93"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 51,
+        "text_sha256": "f8b1aef893fb8cc8b48d8125534e0a845a5e3ee28ba2ca2e93f7ae145c89c3c1",
+        "hwpml_length": 29533,
+        "hwpml_sha256": "ba9abbd3666611c5196960844c234bc051fb67957447c4f533efc69c85333f93"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학수인성식품역학조사",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8850,
+        "text_sha256": "7f3d07c767e49240171ec04334731676f16d48a96a452bac41adb1db0480c022",
+        "hwpml_length": 182959,
+        "hwpml_sha256": "429edf651cf852f16241fbd179443d2a1c151ab6d9e672fcecb6546d2091fe0a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 146,
+        "text_sha256": "3c826c5f1318f40b0ca3bd1e1fb509ef2709676d446a685764e34ddfbd7165a3",
+        "hwpml_length": 31978,
+        "hwpml_sha256": "f1b12f3a9dd2d69cbf40962897e983631c7a93f702d8d80ffb18afe34afd383d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학유행곡선만들기1",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147221005, '잘못된 클래스 문자열입니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 81, in _GetGoodDispatch\n    IDispatch = pythoncom.connect(IDispatch)\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 18857, in 역학유행곡선만들기1\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\gencache.py\", line 640, in EnsureDispatch\n    disp = win32com.client.Dispatch(prog_id)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 116, in Dispatch\n    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 101, in _GetGoodDispatchAndUserName\n    return (_GetGoodDispatch(IDispatch, clsctx), userName)\n            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 83, in _GetGoodDispatch\n    IDispatch = pythoncom.CoCreateInstance(\n        IDispatch, None, clsctx, pythoncom.IID_IDispatch\n    )\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 19,
+        "text_sha256": "a7bdcdf193fef1cb94f0c674737dd4f56419d6065563d38bd7a5245824f6ee7c",
+        "hwpml_length": 29661,
+        "hwpml_sha256": "ee254086334db76094486e0907ae5f5a1f6a6acf33472cc53c91c875b9961594"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학rror계산",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "IndexError",
+        "error": "list index out of range",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 18974, in 역학rror계산\nIndexError: list index out of range\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "역학rror다중계산",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 19141, in 역학rror다중계산\n  File \"한컴오피스\\한컴라이브러리.py\", line 7257, in 마크다운응용\n  File \"한컴오피스\\한컴라이브러리.py\", line 7042, in 마크다운\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 324, in 글자스타일\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30311,
+        "hwpml_sha256": "d5b3fc1a80d741d107f2550e8ecdfb0dba280b9327d756f9e41c917908dec441"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌우선보고",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 81,
+        "text_sha256": "aa1eb72561675f5ef5f0a8d424878515d33dda9308ab367d690267fa4670673f",
+        "hwpml_length": 45736,
+        "hwpml_sha256": "77db9911189e983747de93bcc8611369b531235224d6920a98bb2826a22ab86f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 81,
+        "text_sha256": "aa1eb72561675f5ef5f0a8d424878515d33dda9308ab367d690267fa4670673f",
+        "hwpml_length": 45736,
+        "hwpml_sha256": "77db9911189e983747de93bcc8611369b531235224d6920a98bb2826a22ab86f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌두셀비교",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 29790,
+        "hwpml_sha256": "1807451caeb80ac8b01e629fbc860e62aae2744a3d58cc2b8af7e0e3ce4aee2c"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 29790,
+        "hwpml_sha256": "1807451caeb80ac8b01e629fbc860e62aae2744a3d58cc2b8af7e0e3ce4aee2c"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌변경계약",
+      "timed_out": true,
+      "timeout_seconds": 60.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"농어촌변경계약\"}\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌의원요구",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 207,
+        "text_sha256": "fff6b34c34296a45d1d82221f80a767406dec75d5bec794ce0b25b2e94d9d11a",
+        "hwpml_length": 51162,
+        "hwpml_sha256": "210354a863dbd69919dbdde43498c887548b964f8e127e0dfe49198fdc6d950a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 207,
+        "text_sha256": "fff6b34c34296a45d1d82221f80a767406dec75d5bec794ce0b25b2e94d9d11a",
+        "hwpml_length": 51162,
+        "hwpml_sha256": "210354a863dbd69919dbdde43498c887548b964f8e127e0dfe49198fdc6d950a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주광산증감",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "could not convert string to float: ''",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 21719, in 광주광산증감\nValueError: could not convert string to float: ''\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "could not convert string to float: ''",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 14527, in 광주광산증감\n    내용2 = float(re.sub('[^0-9]', '', 블록스캔[1]))\n            ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: could not convert string to float: ''\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주광산결재선",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 56,
+        "text_sha256": "617176c8e87c331f5a30bbb691209a0c2e641b10582bbe9619c2392e5406cad9",
+        "hwpml_length": 51976,
+        "hwpml_sha256": "f5015293f24be6346fe40a66085e2fdb32342b753c60609cc1140347a7362a55"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 21,
+        "text_sha256": "46a6bbfe39247906af8352d6f0a92d0dc74677a4d26abe26d95683a0a7aaf6ee",
+        "hwpml_length": 39744,
+        "hwpml_sha256": "9e4f41c6f5a022d0a8dfa81ce117bfbb8e2466fb871eff882523b5d610443f46"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "질병지도",
+      "args": [
+        "테스트"
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "could not convert string to float: ''",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 23534, in 질병지도\nValueError: could not convert string to float: ''\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 53,
+        "text_sha256": "aa79f8482df678fe77cd073f78f679a8fb424830bf22c81d8ea5dbcf4a05c05c",
+        "hwpml_length": 30377,
+        "hwpml_sha256": "f19b1462a7e117cb440984d8713f2425228232f58f99de560b36e6e73f346532"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식신문고정보공개자동완성",
+      "args": [
+        "숫자만"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 30005,
+        "hwpml_sha256": "75cdfd0e912b00a7c99c71c56ffca82755952139c2437f00a2116475bf006450"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 80,
+        "text_sha256": "abd48a0f0d8378c086028a671dd57c2d7cf826e56f693c47afd4de62399ca2a3",
+        "hwpml_length": 30650,
+        "hwpml_sha256": "9d002414fb1a2cb89fef65fdb13f879eb41034fcf5051d3b954e8d6c94663b4f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식마크다운",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 26980, in 기본서식마크다운\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 324, in 글자스타일\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'NoneType' object has no attribute 'CreateSet'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4442, in 기본서식마크다운\n    return Legacy기본한컴.기본서식마크다운(self)\n           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"한컴오피스\\한컴라이브러리.py\", line 26980, in 기본서식마크다운\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 314, in 글자스타일\n    총알 = 총.CreateSet()\n           ^^^^^^^^^^^^\nAttributeError: 'NoneType' object has no attribute 'CreateSet'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식간담회명판",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "c42b1190bc2aafad1394d617c45c40105e3c64986c5d234d8b7053968d58f48e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "c42b1190bc2aafad1394d617c45c40105e3c64986c5d234d8b7053968d58f48e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "차트단일막대",
+      "args": [
+        1
+      ],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147221005, '잘못된 클래스 문자열입니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 81, in _GetGoodDispatch\n    IDispatch = pythoncom.connect(IDispatch)\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 172, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 29025, in 차트단일막대\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\gencache.py\", line 640, in EnsureDispatch\n    disp = win32com.client.Dispatch(prog_id)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 116, in Dispatch\n    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 101, in _GetGoodDispatchAndUserName\n    return (_GetGoodDispatch(IDispatch, clsctx), userName)\n            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 83, in _GetGoodDispatch\n    IDispatch = pythoncom.CoCreateInstance(\n        IDispatch, None, clsctx, pythoncom.IID_IDispatch\n    )\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "a05ef1beabc1ef8d12695706dfdb69c6875e024afdb57f2a7eff2923e6da81e6",
+        "hwpml_length": 30872,
+        "hwpml_sha256": "1c052454abc96b2d83ab632949fc5e9d90aebbcc8ef84ac980d4ee65a1be4864"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

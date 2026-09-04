@@ -1,0 +1,155 @@
+{
+  "id": "gangwon",
+  "name": "강원",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "강원창",
+  "functions": [
+    {
+      "id": "gangwon.강원궁극의정리",
+      "name": "강원궁극의정리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원궁극의정리",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원궁극의정리범위",
+      "name": "강원궁극의정리범위",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원궁극의정리범위",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원궁극의정리범위글머리",
+      "name": "강원궁극의정리범위글머리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원궁극의정리범위글머리",
+      "parameters": [
+        "특수문자",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원보고자",
+      "name": "강원보고자",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원보고자",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원붙임",
+      "name": "강원붙임",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원붙임",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원소제목",
+      "name": "강원소제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원시군자료예제",
+      "name": "강원시군자료예제",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원시군자료예제",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원요약",
+      "name": "강원요약",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원요약",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원제목",
+      "name": "강원제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원제목",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원중제목",
+      "name": "강원중제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원중제목",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원지도통계",
+      "name": "강원지도통계",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원지도통계",
+      "parameters": [
+        "색단계"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원참고",
+      "name": "강원참고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원참고",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gangwon.강원표지",
+      "name": "강원표지",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "강원표지",
+      "parameters": [
+        "내용",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    }
+  ]
+}

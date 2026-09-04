@@ -1,0 +1,66 @@
+{
+  "category": "blank_document",
+  "selected": 6,
+  "start": 4,
+  "completed": 6,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "메모블록메모",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 28002,
+        "hwpml_sha256": "08d70fae8758f0c15239ae72375dac8a93a4ad14197c3e2e98f72b5cb3d10958"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 28002,
+        "hwpml_sha256": "08d70fae8758f0c15239ae72375dac8a93a4ad14197c3e2e98f72b5cb3d10958"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "인국공개인정보",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 1364,
+        "text_sha256": "3e185b61c3887e449f48c61359a25fa411f7429b0b8370ca5dc01d5e1d19e53c",
+        "hwpml_length": 84410,
+        "hwpml_sha256": "edb08a15e30515616ba00c329c99d3c6b202c0dda2b27c8b1c7e613abd8dc892"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 35,
+        "text_sha256": "cdbfb55dae1f3b36dceeb7c2bf688c196889ac92c07fd02d2bbee5d2d80976ae",
+        "hwpml_length": 37249,
+        "hwpml_sha256": "f18c374a9acdf98bb93f399a68bbecc66dfe42c0a598abd859638a02497ba1b2"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

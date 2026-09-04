@@ -1,0 +1,37 @@
+{
+  "category": "table_fixture",
+  "selected": 3,
+  "start": 2,
+  "completed": 3,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드물품구매필요서류",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30351,
+        "hwpml_sha256": "a88f37f5cb7ff6476318bbd3490b4171872ad308613e5946b7df31bc926efd1a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 137,
+        "text_sha256": "1a45c9e64656bdf67809e807a2e61d1c2bd7cd23736e065a3f1c132713f133c5",
+        "hwpml_length": 46572,
+        "hwpml_sha256": "d399849cd308c3e141c4a4f34b951f56c04eb205c850412c03f7fc697c52b3d4"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

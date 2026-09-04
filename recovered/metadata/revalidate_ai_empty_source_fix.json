@@ -1,0 +1,37 @@
+{
+  "category": "blank_document",
+  "selected": 7,
+  "start": 6,
+  "completed": 7,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "AI행정지원계획서간단서식",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "1ad86d925a61e6a582b4064d4c29ab924fa28a227999d58f081d11ae28175c2a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "1ad86d925a61e6a582b4064d4c29ab924fa28a227999d58f081d11ae28175c2a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

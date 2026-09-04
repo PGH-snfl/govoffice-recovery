@@ -1,0 +1,44 @@
+{
+  "category": "blank_document",
+  "selected": 2,
+  "start": 0,
+  "completed": 2,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "전체표스타일제거",
+      "timed_out": true,
+      "timeout_seconds": 60.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"전체표스타일제거\"}\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공궁극예시",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 869,
+        "text_sha256": "2dd44bc61f99a684cd7ac92db3700baac1db0bffaf40c69663398dab53884bf1",
+        "hwpml_length": 50239,
+        "hwpml_sha256": "cb7d4920c3149f153130f9e77f5c1c85a2e5aef8d22d2c8b7bcb674477c3fbde"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 722,
+        "text_sha256": "ffe607c1104dc3bee1a71ad3f689eed7593c3d6b37ff7464cda64d40b783a1f3",
+        "hwpml_length": 30124,
+        "hwpml_sha256": "d23d490a02bdaa10f881c6fe68401dfd5ab7621388bc706af0585b4bf81ee81c"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

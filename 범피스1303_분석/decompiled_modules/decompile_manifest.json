@@ -1,0 +1,1108 @@
+[
+  {
+    "input": "argparse.marshal",
+    "output": "argparse.py",
+    "exit_code": 1,
+    "source_bytes": 21299,
+    "error_bytes": 464
+  },
+  {
+    "input": "ast.marshal",
+    "output": "ast.py",
+    "exit_code": 1,
+    "source_bytes": 74,
+    "error_bytes": 160
+  },
+  {
+    "input": "base64.marshal",
+    "output": "base64.py",
+    "exit_code": 0,
+    "source_bytes": 28164,
+    "error_bytes": 1040
+  },
+  {
+    "input": "bisect.marshal",
+    "output": "bisect.py",
+    "exit_code": 1,
+    "source_bytes": 139,
+    "error_bytes": 135
+  },
+  {
+    "input": "bz2.marshal",
+    "output": "bz2.py",
+    "exit_code": 0,
+    "source_bytes": 17387,
+    "error_bytes": 350
+  },
+  {
+    "input": "calendar.marshal",
+    "output": "calendar.py",
+    "exit_code": 1,
+    "source_bytes": 28974,
+    "error_bytes": 1876
+  },
+  {
+    "input": "commctrl.marshal",
+    "output": "commctrl.py",
+    "exit_code": 0,
+    "source_bytes": 42011,
+    "error_bytes": 0
+  },
+  {
+    "input": "contextlib.marshal",
+    "output": "contextlib.py",
+    "exit_code": 1,
+    "source_bytes": 2609,
+    "error_bytes": 48
+  },
+  {
+    "input": "contextvars.marshal",
+    "output": "contextvars.py",
+    "exit_code": 0,
+    "source_bytes": 211,
+    "error_bytes": 0
+  },
+  {
+    "input": "copy.marshal",
+    "output": "copy.py",
+    "exit_code": 1,
+    "source_bytes": 6065,
+    "error_bytes": 498
+  },
+  {
+    "input": "csv.marshal",
+    "output": "csv.py",
+    "exit_code": 0,
+    "source_bytes": 20343,
+    "error_bytes": 586
+  },
+  {
+    "input": "dataclasses.marshal",
+    "output": "dataclasses.py",
+    "exit_code": 1,
+    "source_bytes": 1002,
+    "error_bytes": 124
+  },
+  {
+    "input": "datetime.marshal",
+    "output": "datetime.py",
+    "exit_code": 0,
+    "source_bytes": 344,
+    "error_bytes": 0
+  },
+  {
+    "input": "decimal.marshal",
+    "output": "decimal.py",
+    "exit_code": 0,
+    "source_bytes": 3024,
+    "error_bytes": 0
+  },
+  {
+    "input": "dis.marshal",
+    "output": "dis.py",
+    "exit_code": 1,
+    "source_bytes": 12582,
+    "error_bytes": 488
+  },
+  {
+    "input": "email.marshal",
+    "output": "email.py",
+    "exit_code": 0,
+    "source_bytes": 1619,
+    "error_bytes": 0
+  },
+  {
+    "input": "fnmatch.marshal",
+    "output": "fnmatch.py",
+    "exit_code": 0,
+    "source_bytes": 4887,
+    "error_bytes": 60
+  },
+  {
+    "input": "fractions.marshal",
+    "output": "fractions.py",
+    "exit_code": 1,
+    "source_bytes": 1437,
+    "error_bytes": 108
+  },
+  {
+    "input": "getopt.marshal",
+    "output": "getopt.py",
+    "exit_code": 1,
+    "source_bytes": 8709,
+    "error_bytes": 378
+  },
+  {
+    "input": "gettext.marshal",
+    "output": "gettext.py",
+    "exit_code": 3221226356,
+    "source_bytes": 16908,
+    "error_bytes": 1050
+  },
+  {
+    "input": "glob.marshal",
+    "output": "glob.py",
+    "exit_code": 1,
+    "source_bytes": 15449,
+    "error_bytes": 364
+  },
+  {
+    "input": "gzip.marshal",
+    "output": "gzip.py",
+    "exit_code": 1,
+    "source_bytes": 22020,
+    "error_bytes": 338
+  },
+  {
+    "input": "hashlib.marshal",
+    "output": "hashlib.py",
+    "exit_code": 0,
+    "source_bytes": 8672,
+    "error_bytes": 44
+  },
+  {
+    "input": "importlib.marshal",
+    "output": "importlib.py",
+    "exit_code": 0,
+    "source_bytes": 4104,
+    "error_bytes": 0
+  },
+  {
+    "input": "inspect.marshal",
+    "output": "inspect.py",
+    "exit_code": 1,
+    "source_bytes": 58102,
+    "error_bytes": 1222
+  },
+  {
+    "input": "ipaddress.marshal",
+    "output": "ipaddress.py",
+    "exit_code": 1,
+    "source_bytes": 15369,
+    "error_bytes": 80
+  },
+  {
+    "input": "json.marshal",
+    "output": "json.py",
+    "exit_code": 0,
+    "source_bytes": 17990,
+    "error_bytes": 246
+  },
+  {
+    "input": "logging.marshal",
+    "output": "logging.py",
+    "exit_code": 1,
+    "source_bytes": 11344,
+    "error_bytes": 268
+  },
+  {
+    "input": "lzma.marshal",
+    "output": "lzma.py",
+    "exit_code": 0,
+    "source_bytes": 18954,
+    "error_bytes": 513
+  },
+  {
+    "input": "numbers.marshal",
+    "output": "numbers.py",
+    "exit_code": 0,
+    "source_bytes": 6766,
+    "error_bytes": 54
+  },
+  {
+    "input": "opcode.marshal",
+    "output": "opcode.py",
+    "exit_code": 0,
+    "source_bytes": 2344,
+    "error_bytes": 240
+  },
+  {
+    "input": "pathlib.marshal",
+    "output": "pathlib.py",
+    "exit_code": 0,
+    "source_bytes": 364,
+    "error_bytes": 0
+  },
+  {
+    "input": "pickle.marshal",
+    "output": "pickle.py",
+    "exit_code": 1,
+    "source_bytes": 11068,
+    "error_bytes": 206
+  },
+  {
+    "input": "pprint.marshal",
+    "output": "pprint.py",
+    "exit_code": 1,
+    "source_bytes": 1795,
+    "error_bytes": 135
+  },
+  {
+    "input": "pythoncom.marshal",
+    "output": "pythoncom.py",
+    "exit_code": 0,
+    "source_bytes": 129,
+    "error_bytes": 0
+  },
+  {
+    "input": "pywin.marshal",
+    "output": "pywin.py",
+    "exit_code": 0,
+    "source_bytes": 114,
+    "error_bytes": 0
+  },
+  {
+    "input": "pywintypes.marshal",
+    "output": "pywintypes.py",
+    "exit_code": 0,
+    "source_bytes": 2511,
+    "error_bytes": 64
+  },
+  {
+    "input": "py_compile.marshal",
+    "output": "py_compile.py",
+    "exit_code": 0,
+    "source_bytes": 10053,
+    "error_bytes": 32
+  },
+  {
+    "input": "quopri.marshal",
+    "output": "quopri.py",
+    "exit_code": 0,
+    "source_bytes": 13549,
+    "error_bytes": 561
+  },
+  {
+    "input": "random.marshal",
+    "output": "random.py",
+    "exit_code": 3221225477,
+    "source_bytes": 21007,
+    "error_bytes": 608
+  },
+  {
+    "input": "selectors.marshal",
+    "output": "selectors.py",
+    "exit_code": 1,
+    "source_bytes": 20430,
+    "error_bytes": 288
+  },
+  {
+    "input": "shutil.marshal",
+    "output": "shutil.py",
+    "exit_code": 1,
+    "source_bytes": 21158,
+    "error_bytes": 523
+  },
+  {
+    "input": "signal.marshal",
+    "output": "signal.py",
+    "exit_code": 1,
+    "source_bytes": 1330,
+    "error_bytes": 48
+  },
+  {
+    "input": "socket.marshal",
+    "output": "socket.py",
+    "exit_code": 1,
+    "source_bytes": 29856,
+    "error_bytes": 348
+  },
+  {
+    "input": "statistics.marshal",
+    "output": "statistics.py",
+    "exit_code": 1,
+    "source_bytes": 12683,
+    "error_bytes": 946
+  },
+  {
+    "input": "string.marshal",
+    "output": "string.py",
+    "exit_code": 1,
+    "source_bytes": 9848,
+    "error_bytes": 48
+  },
+  {
+    "input": "stringprep.marshal",
+    "output": "stringprep.py",
+    "exit_code": 0,
+    "source_bytes": 3106,
+    "error_bytes": 60
+  },
+  {
+    "input": "subprocess.marshal",
+    "output": "subprocess.py",
+    "exit_code": 0,
+    "source_bytes": 103341,
+    "error_bytes": 1893
+  },
+  {
+    "input": "tarfile.marshal",
+    "output": "tarfile.py",
+    "exit_code": 1,
+    "source_bytes": 26631,
+    "error_bytes": 1099
+  },
+  {
+    "input": "tempfile.marshal",
+    "output": "tempfile.py",
+    "exit_code": 1,
+    "source_bytes": 8526,
+    "error_bytes": 209
+  },
+  {
+    "input": "textwrap.marshal",
+    "output": "textwrap.py",
+    "exit_code": 1,
+    "source_bytes": 3792,
+    "error_bytes": 137
+  },
+  {
+    "input": "threading.marshal",
+    "output": "threading.py",
+    "exit_code": 1,
+    "source_bytes": 37763,
+    "error_bytes": 285
+  },
+  {
+    "input": "tkinter.marshal",
+    "output": "tkinter.py",
+    "exit_code": 1,
+    "source_bytes": 4619,
+    "error_bytes": 333
+  },
+  {
+    "input": "token.marshal",
+    "output": "token.py",
+    "exit_code": 0,
+    "source_bytes": 1995,
+    "error_bytes": 0
+  },
+  {
+    "input": "tokenize.marshal",
+    "output": "tokenize.py",
+    "exit_code": 1,
+    "source_bytes": 7162,
+    "error_bytes": 294
+  },
+  {
+    "input": "tracemalloc.marshal",
+    "output": "tracemalloc.py",
+    "exit_code": 1,
+    "source_bytes": 13884,
+    "error_bytes": 168
+  },
+  {
+    "input": "typing.marshal",
+    "output": "typing.py",
+    "exit_code": 1,
+    "source_bytes": 3499,
+    "error_bytes": 135
+  },
+  {
+    "input": "urllib.marshal",
+    "output": "urllib.py",
+    "exit_code": 0,
+    "source_bytes": 77,
+    "error_bytes": 0
+  },
+  {
+    "input": "win32com.marshal",
+    "output": "win32com.py",
+    "exit_code": 0,
+    "source_bytes": 2963,
+    "error_bytes": 0
+  },
+  {
+    "input": "win32con.marshal",
+    "output": "win32con.py",
+    "exit_code": 0,
+    "source_bytes": 114939,
+    "error_bytes": 0
+  },
+  {
+    "input": "win32traceutil.marshal",
+    "output": "win32traceutil.py",
+    "exit_code": 0,
+    "source_bytes": 697,
+    "error_bytes": 0
+  },
+  {
+    "input": "winerror.marshal",
+    "output": "winerror.py",
+    "exit_code": 0,
+    "source_bytes": 291947,
+    "error_bytes": 0
+  },
+  {
+    "input": "zipfile.marshal",
+    "output": "zipfile.py",
+    "exit_code": 1,
+    "source_bytes": 1722,
+    "error_bytes": 174
+  },
+  {
+    "input": "_colorize.marshal",
+    "output": "_colorize.py",
+    "exit_code": 1,
+    "source_bytes": 1680,
+    "error_bytes": 196
+  },
+  {
+    "input": "_compat_pickle.marshal",
+    "output": "_compat_pickle.py",
+    "exit_code": 0,
+    "source_bytes": 4822,
+    "error_bytes": 212
+  },
+  {
+    "input": "_compression.marshal",
+    "output": "_compression.py",
+    "exit_code": 1,
+    "source_bytes": 1787,
+    "error_bytes": 125
+  },
+  {
+    "input": "_opcode_metadata.marshal",
+    "output": "_opcode_metadata.py",
+    "exit_code": 0,
+    "source_bytes": 3533,
+    "error_bytes": 0
+  },
+  {
+    "input": "_pydatetime.marshal",
+    "output": "_pydatetime.py",
+    "exit_code": 1,
+    "source_bytes": 25542,
+    "error_bytes": 1984
+  },
+  {
+    "input": "_pydecimal.marshal",
+    "output": "_pydecimal.py",
+    "exit_code": 1,
+    "source_bytes": 55962,
+    "error_bytes": 738
+  },
+  {
+    "input": "_py_abc.marshal",
+    "output": "_py_abc.py",
+    "exit_code": 0,
+    "source_bytes": 8247,
+    "error_bytes": 184
+  },
+  {
+    "input": "_strptime.marshal",
+    "output": "_strptime.py",
+    "exit_code": 1,
+    "source_bytes": 17605,
+    "error_bytes": 562
+  },
+  {
+    "input": "_threading_local.marshal",
+    "output": "_threading_local.py",
+    "exit_code": 1,
+    "source_bytes": 2289,
+    "error_bytes": 129
+  },
+  {
+    "input": "__future__.marshal",
+    "output": "__future__.py",
+    "exit_code": 0,
+    "source_bytes": 4350,
+    "error_bytes": 0
+  },
+  {
+    "input": "email\\base64mime.marshal",
+    "output": "email\\base64mime.py",
+    "exit_code": 0,
+    "source_bytes": 4295,
+    "error_bytes": 60
+  },
+  {
+    "input": "email\\charset.marshal",
+    "output": "email\\charset.py",
+    "exit_code": 0,
+    "source_bytes": 13519,
+    "error_bytes": 120
+  },
+  {
+    "input": "email\\contentmanager.marshal",
+    "output": "email\\contentmanager.py",
+    "exit_code": 1,
+    "source_bytes": 2615,
+    "error_bytes": 399
+  },
+  {
+    "input": "email\\encoders.marshal",
+    "output": "email\\encoders.py",
+    "exit_code": 0,
+    "source_bytes": 1515,
+    "error_bytes": 0
+  },
+  {
+    "input": "email\\errors.marshal",
+    "output": "email\\errors.py",
+    "exit_code": 1,
+    "source_bytes": 1859,
+    "error_bytes": 48
+  },
+  {
+    "input": "email\\feedparser.marshal",
+    "output": "email\\feedparser.py",
+    "exit_code": 1,
+    "source_bytes": 18951,
+    "error_bytes": 426
+  },
+  {
+    "input": "email\\generator.marshal",
+    "output": "email\\generator.py",
+    "exit_code": 1,
+    "source_bytes": 872,
+    "error_bytes": 144
+  },
+  {
+    "input": "email\\header.marshal",
+    "output": "email\\header.py",
+    "exit_code": 1,
+    "source_bytes": 5529,
+    "error_bytes": 328
+  },
+  {
+    "input": "email\\headerregistry.marshal",
+    "output": "email\\headerregistry.py",
+    "exit_code": 0,
+    "source_bytes": 24003,
+    "error_bytes": 376
+  },
+  {
+    "input": "email\\iterators.marshal",
+    "output": "email\\iterators.py",
+    "exit_code": 0,
+    "source_bytes": 3218,
+    "error_bytes": 0
+  },
+  {
+    "input": "email\\message.marshal",
+    "output": "email\\message.py",
+    "exit_code": 3221226356,
+    "source_bytes": 50544,
+    "error_bytes": 3064
+  },
+  {
+    "input": "email\\parser.marshal",
+    "output": "email\\parser.py",
+    "exit_code": 1,
+    "source_bytes": 507,
+    "error_bytes": 141
+  },
+  {
+    "input": "email\\policy.marshal",
+    "output": "email\\policy.py",
+    "exit_code": 1,
+    "source_bytes": 12175,
+    "error_bytes": 199
+  },
+  {
+    "input": "email\\quoprimime.marshal",
+    "output": "email\\quoprimime.py",
+    "exit_code": 0,
+    "source_bytes": 10875,
+    "error_bytes": 90
+  },
+  {
+    "input": "email\\utils.marshal",
+    "output": "email\\utils.py",
+    "exit_code": 1,
+    "source_bytes": 10961,
+    "error_bytes": 644
+  },
+  {
+    "input": "email\\_encoded_words.marshal",
+    "output": "email\\_encoded_words.py",
+    "exit_code": 1,
+    "source_bytes": 1166,
+    "error_bytes": 133
+  },
+  {
+    "input": "email\\_header_value_parser.marshal",
+    "output": "email\\_header_value_parser.py",
+    "exit_code": 1,
+    "source_bytes": 33493,
+    "error_bytes": 352
+  },
+  {
+    "input": "email\\_parseaddr.marshal",
+    "output": "email\\_parseaddr.py",
+    "exit_code": 0,
+    "source_bytes": 18712,
+    "error_bytes": 570
+  },
+  {
+    "input": "email\\_policybase.marshal",
+    "output": "email\\_policybase.py",
+    "exit_code": 1,
+    "source_bytes": 2515,
+    "error_bytes": 172
+  },
+  {
+    "input": "importlib\\abc.marshal",
+    "output": "importlib\\abc.py",
+    "exit_code": 0,
+    "source_bytes": 7239,
+    "error_bytes": 189
+  },
+  {
+    "input": "importlib\\machinery.marshal",
+    "output": "importlib\\machinery.py",
+    "exit_code": 0,
+    "source_bytes": 975,
+    "error_bytes": 0
+  },
+  {
+    "input": "importlib\\metadata.marshal",
+    "output": "importlib\\metadata.py",
+    "exit_code": 1,
+    "source_bytes": 11598,
+    "error_bytes": 606
+  },
+  {
+    "input": "importlib\\readers.marshal",
+    "output": "importlib\\readers.py",
+    "exit_code": 0,
+    "source_bytes": 422,
+    "error_bytes": 0
+  },
+  {
+    "input": "importlib\\resources.marshal",
+    "output": "importlib\\resources.py",
+    "exit_code": 0,
+    "source_bytes": 743,
+    "error_bytes": 0
+  },
+  {
+    "input": "importlib\\util.marshal",
+    "output": "importlib\\util.py",
+    "exit_code": 1,
+    "source_bytes": 9910,
+    "error_bytes": 200
+  },
+  {
+    "input": "importlib\\_abc.marshal",
+    "output": "importlib\\_abc.py",
+    "exit_code": 0,
+    "source_bytes": 1126,
+    "error_bytes": 0
+  },
+  {
+    "input": "importlib\\_bootstrap.marshal",
+    "output": "importlib\\_bootstrap.py",
+    "exit_code": 3221225477,
+    "source_bytes": 25314,
+    "error_bytes": 138
+  },
+  {
+    "input": "importlib\\_bootstrap_external.marshal",
+    "output": "importlib\\_bootstrap_external.py",
+    "exit_code": 1,
+    "source_bytes": 1583,
+    "error_bytes": 204
+  },
+  {
+    "input": "json\\decoder.marshal",
+    "output": "json\\decoder.py",
+    "exit_code": 0,
+    "source_bytes": 17826,
+    "error_bytes": 987
+  },
+  {
+    "input": "json\\encoder.marshal",
+    "output": "json\\encoder.py",
+    "exit_code": 1,
+    "source_bytes": 10842,
+    "error_bytes": 135
+  },
+  {
+    "input": "json\\scanner.marshal",
+    "output": "json\\scanner.py",
+    "exit_code": 1,
+    "source_bytes": 424,
+    "error_bytes": 48
+  },
+  {
+    "input": "pathlib\\_abc.marshal",
+    "output": "pathlib\\_abc.py",
+    "exit_code": 1,
+    "source_bytes": 11825,
+    "error_bytes": 404
+  },
+  {
+    "input": "pathlib\\_local.marshal",
+    "output": "pathlib\\_local.py",
+    "exit_code": 3221226356,
+    "source_bytes": 8481,
+    "error_bytes": 226
+  },
+  {
+    "input": "pywin\\dialogs.marshal",
+    "output": "pywin\\dialogs.py",
+    "exit_code": 0,
+    "source_bytes": 78,
+    "error_bytes": 0
+  },
+  {
+    "input": "pywin\\mfc.marshal",
+    "output": "pywin\\mfc.py",
+    "exit_code": 0,
+    "source_bytes": 74,
+    "error_bytes": 0
+  },
+  {
+    "input": "tkinter\\commondialog.marshal",
+    "output": "tkinter\\commondialog.py",
+    "exit_code": 0,
+    "source_bytes": 1365,
+    "error_bytes": 136
+  },
+  {
+    "input": "tkinter\\constants.marshal",
+    "output": "tkinter\\constants.py",
+    "exit_code": 0,
+    "source_bytes": 1382,
+    "error_bytes": 0
+  },
+  {
+    "input": "tkinter\\dialog.marshal",
+    "output": "tkinter\\dialog.py",
+    "exit_code": 0,
+    "source_bytes": 1585,
+    "error_bytes": 88
+  },
+  {
+    "input": "tkinter\\filedialog.marshal",
+    "output": "tkinter\\filedialog.py",
+    "exit_code": 0,
+    "source_bytes": 19868,
+    "error_bytes": 598
+  },
+  {
+    "input": "tkinter\\messagebox.marshal",
+    "output": "tkinter\\messagebox.py",
+    "exit_code": 0,
+    "source_bytes": 4953,
+    "error_bytes": 0
+  },
+  {
+    "input": "tkinter\\simpledialog.marshal",
+    "output": "tkinter\\simpledialog.py",
+    "exit_code": 0,
+    "source_bytes": 14433,
+    "error_bytes": 71
+  },
+  {
+    "input": "urllib\\parse.marshal",
+    "output": "urllib\\parse.py",
+    "exit_code": 1,
+    "source_bytes": 5520,
+    "error_bytes": 48
+  },
+  {
+    "input": "win32com\\client.marshal",
+    "output": "win32com\\client.py",
+    "exit_code": 1,
+    "source_bytes": 8811,
+    "error_bytes": 360
+  },
+  {
+    "input": "win32com\\server.marshal",
+    "output": "win32com\\server.py",
+    "exit_code": 0,
+    "source_bytes": 77,
+    "error_bytes": 0
+  },
+  {
+    "input": "win32com\\universal.marshal",
+    "output": "win32com\\universal.py",
+    "exit_code": 1,
+    "source_bytes": 9816,
+    "error_bytes": 230
+  },
+  {
+    "input": "win32com\\util.marshal",
+    "output": "win32com\\util.py",
+    "exit_code": 0,
+    "source_bytes": 1048,
+    "error_bytes": 0
+  },
+  {
+    "input": "zipfile\\_path.marshal",
+    "output": "zipfile\\_path.py",
+    "exit_code": 1,
+    "source_bytes": 1917,
+    "error_bytes": 48
+  },
+  {
+    "input": "엑셀\\엑셀라이브러리.marshal",
+    "output": "엑셀\\엑셀라이브러리.py",
+    "exit_code": 0,
+    "source_bytes": 214727,
+    "error_bytes": 8444
+  },
+  {
+    "input": "인터페이스\\인터페이스.marshal",
+    "output": "인터페이스\\인터페이스.py",
+    "exit_code": 1,
+    "source_bytes": 343,
+    "error_bytes": 48
+  },
+  {
+    "input": "피피티\\피피티라이브러리.marshal",
+    "output": "피피티\\피피티라이브러리.py",
+    "exit_code": 1,
+    "source_bytes": 1691,
+    "error_bytes": 140
+  },
+  {
+    "input": "한컴오피스\\한컴라이브러리.marshal",
+    "output": "한컴오피스\\한컴라이브러리.py",
+    "exit_code": 1,
+    "source_bytes": 4270513,
+    "error_bytes": 12164
+  },
+  {
+    "input": "한컴오피스\\한컴라이브러리_1.marshal",
+    "output": "한컴오피스\\한컴라이브러리_1.py",
+    "exit_code": 0,
+    "source_bytes": 1808945,
+    "error_bytes": 28010
+  },
+  {
+    "input": "한컴오피스\\한컴라이브러리_2.marshal",
+    "output": "한컴오피스\\한컴라이브러리_2.py",
+    "exit_code": 0,
+    "source_bytes": 965097,
+    "error_bytes": 27664
+  },
+  {
+    "input": "한컴오피스\\한컴라이브러리_기본.marshal",
+    "output": "한컴오피스\\한컴라이브러리_기본.py",
+    "exit_code": 0,
+    "source_bytes": 374533,
+    "error_bytes": 3648
+  },
+  {
+    "input": "zipfile\\_path\\glob.marshal",
+    "output": "zipfile\\_path\\glob.py",
+    "exit_code": 0,
+    "source_bytes": 4141,
+    "error_bytes": 0
+  },
+  {
+    "input": "win32com\\client\\build.marshal",
+    "output": "win32com\\client\\build.py",
+    "exit_code": 1,
+    "source_bytes": 1681,
+    "error_bytes": 134
+  },
+  {
+    "input": "win32com\\client\\CLSIDToClass.marshal",
+    "output": "win32com\\client\\CLSIDToClass.py",
+    "exit_code": 0,
+    "source_bytes": 1903,
+    "error_bytes": 0
+  },
+  {
+    "input": "win32com\\client\\dynamic.marshal",
+    "output": "win32com\\client\\dynamic.py",
+    "exit_code": 0,
+    "source_bytes": 24269,
+    "error_bytes": 845
+  },
+  {
+    "input": "win32com\\client\\gencache.marshal",
+    "output": "win32com\\client\\gencache.py",
+    "exit_code": 0,
+    "source_bytes": 30850,
+    "error_bytes": 850
+  },
+  {
+    "input": "win32com\\client\\genpy.marshal",
+    "output": "win32com\\client\\genpy.py",
+    "exit_code": 1,
+    "source_bytes": 33707,
+    "error_bytes": 1307
+  },
+  {
+    "input": "win32com\\client\\makepy.marshal",
+    "output": "win32com\\client\\makepy.py",
+    "exit_code": 0,
+    "source_bytes": 14881,
+    "error_bytes": 916
+  },
+  {
+    "input": "win32com\\client\\selecttlb.marshal",
+    "output": "win32com\\client\\selecttlb.py",
+    "exit_code": 0,
+    "source_bytes": 8757,
+    "error_bytes": 492
+  },
+  {
+    "input": "win32com\\client\\util.marshal",
+    "output": "win32com\\client\\util.py",
+    "exit_code": 0,
+    "source_bytes": 4516,
+    "error_bytes": 0
+  },
+  {
+    "input": "win32com\\server\\dispatcher.marshal",
+    "output": "win32com\\server\\dispatcher.py",
+    "exit_code": 0,
+    "source_bytes": 8281,
+    "error_bytes": 27
+  },
+  {
+    "input": "win32com\\server\\exception.marshal",
+    "output": "win32com\\server\\exception.py",
+    "exit_code": 0,
+    "source_bytes": 4542,
+    "error_bytes": 0
+  },
+  {
+    "input": "win32com\\server\\policy.marshal",
+    "output": "win32com\\server\\policy.py",
+    "exit_code": 1,
+    "source_bytes": 28732,
+    "error_bytes": 672
+  },
+  {
+    "input": "win32com\\server\\util.marshal",
+    "output": "win32com\\server\\util.py",
+    "exit_code": 0,
+    "source_bytes": 8117,
+    "error_bytes": 0
+  },
+  {
+    "input": "pywin\\dialogs\\list.marshal",
+    "output": "pywin\\dialogs\\list.py",
+    "exit_code": 0,
+    "source_bytes": 5329,
+    "error_bytes": 101
+  },
+  {
+    "input": "pywin\\dialogs\\status.marshal",
+    "output": "pywin\\dialogs\\status.py",
+    "exit_code": 0,
+    "source_bytes": 8920,
+    "error_bytes": 0
+  },
+  {
+    "input": "pywin\\mfc\\dialog.marshal",
+    "output": "pywin\\mfc\\dialog.py",
+    "exit_code": 1,
+    "source_bytes": 10623,
+    "error_bytes": 129
+  },
+  {
+    "input": "pywin\\mfc\\object.marshal",
+    "output": "pywin\\mfc\\object.py",
+    "exit_code": 0,
+    "source_bytes": 2232,
+    "error_bytes": 0
+  },
+  {
+    "input": "pywin\\mfc\\thread.marshal",
+    "output": "pywin\\mfc\\thread.py",
+    "exit_code": 0,
+    "source_bytes": 1077,
+    "error_bytes": 0
+  },
+  {
+    "input": "pywin\\mfc\\window.marshal",
+    "output": "pywin\\mfc\\window.py",
+    "exit_code": 0,
+    "source_bytes": 1966,
+    "error_bytes": 0
+  },
+  {
+    "input": "importlib\\metadata\\_adapters.marshal",
+    "output": "importlib\\metadata\\_adapters.py",
+    "exit_code": 0,
+    "source_bytes": 3297,
+    "error_bytes": 32
+  },
+  {
+    "input": "importlib\\metadata\\_collections.marshal",
+    "output": "importlib\\metadata\\_collections.py",
+    "exit_code": 0,
+    "source_bytes": 1196,
+    "error_bytes": 74
+  },
+  {
+    "input": "importlib\\metadata\\_functools.marshal",
+    "output": "importlib\\metadata\\_functools.py",
+    "exit_code": 1,
+    "source_bytes": 3220,
+    "error_bytes": 48
+  },
+  {
+    "input": "importlib\\metadata\\_itertools.marshal",
+    "output": "importlib\\metadata\\_itertools.py",
+    "exit_code": 0,
+    "source_bytes": 2765,
+    "error_bytes": 0
+  },
+  {
+    "input": "importlib\\metadata\\_meta.marshal",
+    "output": "importlib\\metadata\\_meta.py",
+    "exit_code": 0,
+    "source_bytes": 2316,
+    "error_bytes": 74
+  },
+  {
+    "input": "importlib\\metadata\\_text.marshal",
+    "output": "importlib\\metadata\\_text.py",
+    "exit_code": 0,
+    "source_bytes": 2592,
+    "error_bytes": 0
+  },
+  {
+    "input": "importlib\\resources\\abc.marshal",
+    "output": "importlib\\resources\\abc.py",
+    "exit_code": 0,
+    "source_bytes": 6890,
+    "error_bytes": 138
+  },
+  {
+    "input": "importlib\\resources\\readers.marshal",
+    "output": "importlib\\resources\\readers.py",
+    "exit_code": 0,
+    "source_bytes": 8121,
+    "error_bytes": 210
+  },
+  {
+    "input": "importlib\\resources\\_adapters.marshal",
+    "output": "importlib\\resources\\_adapters.py",
+    "exit_code": 1,
+    "source_bytes": 5882,
+    "error_bytes": 450
+  },
+  {
+    "input": "importlib\\resources\\_common.marshal",
+    "output": "importlib\\resources\\_common.py",
+    "exit_code": 1,
+    "source_bytes": 421,
+    "error_bytes": 48
+  },
+  {
+    "input": "importlib\\resources\\_functional.marshal",
+    "output": "importlib\\resources\\_functional.py",
+    "exit_code": 0,
+    "source_bytes": 2817,
+    "error_bytes": 0
+  },
+  {
+    "input": "importlib\\resources\\_itertools.marshal",
+    "output": "importlib\\resources\\_itertools.py",
+    "exit_code": 0,
+    "source_bytes": 1659,
+    "error_bytes": 0
+  }
+]

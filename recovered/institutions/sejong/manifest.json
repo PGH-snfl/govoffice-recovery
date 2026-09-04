@@ -1,0 +1,208 @@
+{
+  "id": "sejong",
+  "name": "세종",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "세종창",
+  "functions": [
+    {
+      "id": "sejong.세종검토보고프롬프트",
+      "name": "세종검토보고프롬프트",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종검토보고프롬프트",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종교궁극의정리",
+      "name": "세종교궁극의정리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종교궁극의정리",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종교궁극의정리범위",
+      "name": "세종교궁극의정리범위",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종교궁극의정리범위",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종교궁극의정리범위글머리",
+      "name": "세종교궁극의정리범위글머리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종교궁극의정리범위글머리",
+      "parameters": [
+        "특수문자",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종교연수회의행사명",
+      "name": "세종교연수회의행사명",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종교연수회의행사명",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종교제목",
+      "name": "세종교제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종교제목",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종교표지",
+      "name": "세종교표지",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종교표지",
+      "parameters": [
+        "내용",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종궁극의정리",
+      "name": "세종궁극의정리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종궁극의정리",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종궁극의정리범위",
+      "name": "세종궁극의정리범위",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종궁극의정리범위",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종궁극의정리범위글머리",
+      "name": "세종궁극의정리범위글머리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종궁극의정리범위글머리",
+      "parameters": [
+        "특수문자",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종글상자",
+      "name": "세종글상자",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종글상자",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종기본계획프롬프트",
+      "name": "세종기본계획프롬프트",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종기본계획프롬프트",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종붙임",
+      "name": "세종붙임",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종붙임",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종소제목",
+      "name": "세종소제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종요약",
+      "name": "세종요약",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종요약",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종제목",
+      "name": "세종제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종제목",
+      "parameters": [
+        "제목",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종참고",
+      "name": "세종참고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종참고",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "sejong.세종추진계획프롬프트",
+      "name": "세종추진계획프롬프트",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "세종추진계획프롬프트",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    }
+  ]
+}

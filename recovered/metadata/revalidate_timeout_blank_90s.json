@@ -1,0 +1,133 @@
+{
+  "category": "blank_document",
+  "selected": 7,
+  "start": 0,
+  "completed": 7,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "전체표스타일제거",
+      "timed_out": true,
+      "timeout_seconds": 90.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"전체표스타일제거\"}\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공궁극예시",
+      "harness_error": "{\"phase\": \"legacy\", \"method\": \"서교공궁극예시\"}\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 294, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 266, in main\n    legacy = execute_isolated(legacy_class, row, method_args, args.category, args.max_hwp, args.include_content)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 221, in execute_isolated\n    hwp = new_hwp()\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 54, in new_hwp\n    if not hwp.RegisterModule(\"FilePathCheckDLL\", \"FilePathCheckerModuleExample\"):\n           ^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 631, in __getattr__\n    raise AttributeError(f\"{self._username_}.{attr}\")\nAttributeError: HWPFrame.HwpObject.RegisterModule\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금감원페이지",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 460,
+        "text_sha256": "45c281fb2fbe7ce3765be82702407a509bddda49bc88ad1cc3b4dfc5cf1b2ac4",
+        "hwpml_length": 81040,
+        "hwpml_sha256": "c0ce7d5bbbbee5c0a9c1eee4672b9cbb712170e321b2bf932e6e76ce0f3b8bae"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 460,
+        "text_sha256": "45c281fb2fbe7ce3765be82702407a509bddda49bc88ad1cc3b4dfc5cf1b2ac4",
+        "hwpml_length": 81040,
+        "hwpml_sha256": "c0ce7d5bbbbee5c0a9c1eee4672b9cbb712170e321b2bf932e6e76ce0f3b8bae"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "산인공관리대장",
+      "harness_error": "{\"phase\": \"legacy\", \"method\": \"산인공관리대장\"}\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 294, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 266, in main\n    legacy = execute_isolated(legacy_class, row, method_args, args.category, args.max_hwp, args.include_content)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 221, in execute_isolated\n    hwp = new_hwp()\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 54, in new_hwp\n    if not hwp.RegisterModule(\"FilePathCheckDLL\", \"FilePathCheckerModuleExample\"):\n           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IHwpObject.py\", line 637, in RegisterModule\n    return self._oleobj_.InvokeTypes(10036, LCID, 1, (11, 0), ((8, 1), (12, 1)),ModuleType\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t, ModuleData)\n     ^^^^^^^^^^^^^\npywintypes.com_error: (-2147023174, 'RPC 서버를 사용할 수 없습니다.', None, None)\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주교행사계획",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 148, in execute\n    hwp.HAction.Run(\"FileNew\")\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\HAction.py\", line 50, in Run\n    return self._oleobj_.InvokeTypes(15003, LCID, 1, (11, 0), ((8, 1),),actname\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\npywintypes.com_error: (-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 592,
+        "text_sha256": "90669874297e10db0b979ee49169ac641a9668e92153ead4bdfeb9076011b4af",
+        "hwpml_length": 68793,
+        "hwpml_sha256": "a4e2cfa9a78165174e0b1a9914373211536533b265fa3d93ee80b033dd087f68"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "인국공개인정보",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "CreateAction.CreateSet",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 167, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 38071, in 인국공개인정보\n  File \"한컴오피스\\한컴라이브러리_기본.py\", line 959, in 문장\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 631, in __getattr__\n    raise AttributeError(f\"{self._username_}.{attr}\")\nAttributeError: CreateAction.CreateSet\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147023174, 'RPC 서버를 사용할 수 없습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 167, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4714, in 인국공개인정보\n    for x in (\"성명\", \"\", \"소속\", \"\", \"연락처\", \"\", \"이메일\", \"\", \"개인정보 수집·이용 동의\", \"\", \"서명\", \"\"): self.문장(x); self.표오른쪽(1)\n                                                                                                              ~~~~~~~~~^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 873, in 문장\n    총알 = 총.CreateSet()\n           ~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\IDHwpAction.py\", line 35, in CreateSet\n    ret = self._oleobj_.InvokeTypes(15001, LCID, 1, (9, 0), (),)\npywintypes.com_error: (-2147023174, 'RPC 서버를 사용할 수 없습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "AI행정지원계획서간단서식",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27582,
+        "hwpml_sha256": "1ad86d925a61e6a582b4064d4c29ab924fa28a227999d58f081d11ae28175c2a"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 148, in execute\n    hwp.HAction.Run(\"FileNew\")\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\HAction.py\", line 50, in Run\n    return self._oleobj_.InvokeTypes(15003, LCID, 1, (11, 0), ((8, 1),),actname\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\npywintypes.com_error: (-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

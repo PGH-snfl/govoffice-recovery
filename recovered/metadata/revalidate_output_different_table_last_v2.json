@@ -1,0 +1,363 @@
+{
+  "category": "table_fixture",
+  "selected": 12,
+  "start": 0,
+  "completed": 12,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀정보",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": "(0, 2, 1, 1, 0, '1', 'A', '1', 'A')",
+        "text_length": 51,
+        "text_sha256": "f8b1aef893fb8cc8b48d8125534e0a845a5e3ee28ba2ca2e93f7ae145c89c3c1",
+        "hwpml_length": 29588,
+        "hwpml_sha256": "80c41c6401e79141656adf37f0a35015a0530781d6975204388ff0e553977f84"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": "(0, 2, 1, 1, 0, '1', 'A', '1', 'A')",
+        "text_length": 51,
+        "text_sha256": "f8b1aef893fb8cc8b48d8125534e0a845a5e3ee28ba2ca2e93f7ae145c89c3c1",
+        "hwpml_length": 29588,
+        "hwpml_sha256": "80c41c6401e79141656adf37f0a35015a0530781d6975204388ff0e553977f84"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "인천요지",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 122,
+        "text_sha256": "970f451b34226319a6d1a0a05912abf59c333314a578e1f9a67662282b2b5a61",
+        "hwpml_length": 45762,
+        "hwpml_sha256": "9ff341093cfc4ae49da78215960bfb47904168acc96c494614a71053963a01fb"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 91,
+        "text_sha256": "c107b4f8f32ec4ccfb21baca8a0ce843fa02a39412824c5898f63967d906c0a0",
+        "hwpml_length": 45376,
+        "hwpml_sha256": "39f9fe39a81ef432dca2af44debd11bc439c32ee7bcbb45be5fed2eb572e0c61"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인날짜표",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 78,
+        "text_sha256": "2484eaa5304e278681cf61ee50b9d1e14b18092e707288ee5c57e0e076d5463a",
+        "hwpml_length": 39944,
+        "hwpml_sha256": "fcf18e1bc8ad5d5ee50ffb0a3eee49aef654b4856913144c17fab6ba6877ef6f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 78,
+        "text_sha256": "2484eaa5304e278681cf61ee50b9d1e14b18092e707288ee5c57e0e076d5463a",
+        "hwpml_length": 39944,
+        "hwpml_sha256": "fcf18e1bc8ad5d5ee50ffb0a3eee49aef654b4856913144c17fab6ba6877ef6f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "관세결재선",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 71,
+        "text_sha256": "ca15a75bb7eede4e65f619b7ae0828e385c30e2dfbede7b199a5445fa03e1613",
+        "hwpml_length": 44161,
+        "hwpml_sha256": "2250993700fcad0cc938de7d9b537928dfdd4ff5d4015eb180e49b1e69cd9eaa"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 71,
+        "text_sha256": "ca15a75bb7eede4e65f619b7ae0828e385c30e2dfbede7b199a5445fa03e1613",
+        "hwpml_length": 44161,
+        "hwpml_sha256": "2250993700fcad0cc938de7d9b537928dfdd4ff5d4015eb180e49b1e69cd9eaa"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "병무결재선",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 94,
+        "text_sha256": "09e3820aeb72ca1f22ed5ebf881696d189f10d78be883ee59df18ff56cb7bc2b",
+        "hwpml_length": 49875,
+        "hwpml_sha256": "4aa16ec1c94a71c8000c64c461e1e36109225d36b2bdd347418eac3b0af2736d"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 94,
+        "text_sha256": "09e3820aeb72ca1f22ed5ebf881696d189f10d78be883ee59df18ff56cb7bc2b",
+        "hwpml_length": 49875,
+        "hwpml_sha256": "4aa16ec1c94a71c8000c64c461e1e36109225d36b2bdd347418eac3b0af2736d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "충북교대제목",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 36,
+        "text_sha256": "8d446c9db81baac5efa37d26aa062e7afa4019dd22e10bd8d73c4cf65620e4d1",
+        "hwpml_length": 39427,
+        "hwpml_sha256": "d186bdd5cb6094d5b493f484135eabee7093b140de72cc4df2180def3c994bba"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 36,
+        "text_sha256": "8d446c9db81baac5efa37d26aa062e7afa4019dd22e10bd8d73c4cf65620e4d1",
+        "hwpml_length": 39427,
+        "hwpml_sha256": "d186bdd5cb6094d5b493f484135eabee7093b140de72cc4df2180def3c994bba"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "충북교중제목",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 44,
+        "text_sha256": "ff65498ce6b5507492a90c2bfbf69fd9ceffb6b5b66293d7964b3fbf74f89f6c",
+        "hwpml_length": 42326,
+        "hwpml_sha256": "a79cf04ed2db53bc63ef986335d2a4cc568bc04d8ab63126d56ef6156b7689e1"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 44,
+        "text_sha256": "ff65498ce6b5507492a90c2bfbf69fd9ceffb6b5b66293d7964b3fbf74f89f6c",
+        "hwpml_length": 42326,
+        "hwpml_sha256": "a79cf04ed2db53bc63ef986335d2a4cc568bc04d8ab63126d56ef6156b7689e1"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공궁극제목",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 72,
+        "text_sha256": "11d15dfe0afb6cd71d67710745c1c3192d7ab94a529f46a0e21a8ed067ea2313",
+        "hwpml_length": 41594,
+        "hwpml_sha256": "0da9c4998ffc0a70c0c59e88b6858e686cd93bd6464c0c6ebfbdefc6183d9bc5"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 72,
+        "text_sha256": "11d15dfe0afb6cd71d67710745c1c3192d7ab94a529f46a0e21a8ed067ea2313",
+        "hwpml_length": 41594,
+        "hwpml_sha256": "0da9c4998ffc0a70c0c59e88b6858e686cd93bd6464c0c6ebfbdefc6183d9bc5"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공제목날짜",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 83,
+        "text_sha256": "5ae39512387d9aacfa85602570f844c545e67fb0f2429b94230d7fe157326c68",
+        "hwpml_length": 41657,
+        "hwpml_sha256": "fe63ea47db69bb70cd7c24783f0a59286e397199386be990c4fb410a0c582c6c"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 83,
+        "text_sha256": "5ae39512387d9aacfa85602570f844c545e67fb0f2429b94230d7fe157326c68",
+        "hwpml_length": 41657,
+        "hwpml_sha256": "fe63ea47db69bb70cd7c24783f0a59286e397199386be990c4fb410a0c582c6c"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금천원페이지작성자",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 82,
+        "text_sha256": "5505906823b081c45be116978c10566822d206fd6088956eac0f8ae95de7d4ac",
+        "hwpml_length": 39698,
+        "hwpml_sha256": "4915fa32c946c9c5f494445c1139fde53eb517fc0587bec5321e810c6a0c87d5"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 82,
+        "text_sha256": "5505906823b081c45be116978c10566822d206fd6088956eac0f8ae95de7d4ac",
+        "hwpml_length": 39698,
+        "hwpml_sha256": "4915fa32c946c9c5f494445c1139fde53eb517fc0587bec5321e810c6a0c87d5"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금천꺽쇠박스",
+      "args": [
+        [
+          "항목1",
+          "항목2"
+        ]
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 26,
+        "text_sha256": "4c2ede420dbe84cae6c05c6fe02bfe04ce806cf547696fa9e58c12a082c7d6a2",
+        "hwpml_length": 39329,
+        "hwpml_sha256": "7fc647d83f02184eb0c96b3ebc551e376587bc2e60c8a06c5b461621bdc8a140"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 26,
+        "text_sha256": "4c2ede420dbe84cae6c05c6fe02bfe04ce806cf547696fa9e58c12a082c7d6a2",
+        "hwpml_length": 39329,
+        "hwpml_sha256": "7fc647d83f02184eb0c96b3ebc551e376587bc2e60c8a06c5b461621bdc8a140"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금감원장상단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 93,
+        "text_sha256": "fd1dd5385a64cc9d823d239e94db8386bb7d4f12245d793ebfa6d744905488f1",
+        "hwpml_length": 42524,
+        "hwpml_sha256": "eb8406191feb54d18539448ae525773978d5391f36d536806d08dda0c2e0769d"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 93,
+        "text_sha256": "fd1dd5385a64cc9d823d239e94db8386bb7d4f12245d793ebfa6d744905488f1",
+        "hwpml_length": 42524,
+        "hwpml_sha256": "eb8406191feb54d18539448ae525773978d5391f36d536806d08dda0c2e0769d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

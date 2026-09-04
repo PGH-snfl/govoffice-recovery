@@ -1,0 +1,147 @@
+{
+  "category": "blank_document",
+  "selected": 5,
+  "completed": 5,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "새창",
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "bb2c6dbaa4c5ae19484cc65e4c90db2fef1e8b846299ba439a76ffe48813b8ed"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "bb2c6dbaa4c5ae19484cc65e4c90db2fef1e8b846299ba439a76ffe48813b8ed"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "블록전체스캔",
+      "legacy": {
+        "ok": true,
+        "return_value": "[]",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": "[]",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "블록문장스캔",
+      "legacy": {
+        "ok": true,
+        "return_value": "",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": "",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "블록텍스트",
+      "legacy": {
+        "ok": true,
+        "return_value": "",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": "",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "답번호기본",
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

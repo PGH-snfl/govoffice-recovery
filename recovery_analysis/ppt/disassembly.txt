@@ -1,0 +1,3374 @@
+
+====================================================================================================
+<module>
+file='피피티\\피피티라이브러리.py' line=1 args=0 locals=0
+  0           RESUME                   0
+
+  1           LOAD_CONST               0 (0)
+              LOAD_CONST               1 (('GetActiveObject',))
+              IMPORT_NAME              0 (win32com.client)
+              IMPORT_FROM              1 (GetActiveObject)
+              STORE_NAME               1 (GetActiveObject)
+              POP_TOP
+
+  2           LOAD_CONST               0 (0)
+              LOAD_CONST               2 (('EnsureDispatch',))
+              IMPORT_NAME              2 (win32com.client.gencache)
+              IMPORT_FROM              3 (EnsureDispatch)
+              STORE_NAME               3 (EnsureDispatch)
+              POP_TOP
+
+  3           LOAD_CONST               0 (0)
+              LOAD_CONST               3 (('datetime', 'timedelta'))
+              IMPORT_NAME              4 (datetime)
+              IMPORT_FROM              4 (datetime)
+              STORE_NAME               4 (datetime)
+              IMPORT_FROM              5 (timedelta)
+              STORE_NAME               5 (timedelta)
+              POP_TOP
+
+  7           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST               4 (<code object 피피티 at 0x00000138AAD01030, file "피피티\피피티라이브러리.py", line 7>)
+              MAKE_FUNCTION
+              LOAD_CONST               5 ('피피티')
+              CALL                     2
+              STORE_NAME               6 (피피티)
+              RETURN_CONST             6 (None)
+
+====================================================================================================
+<module>.피피티
+file='피피티\\피피티라이브러리.py' line=7 args=0 locals=0
+  7           RESUME                   0
+              LOAD_NAME                0 (__name__)
+              STORE_NAME               1 (__module__)
+              LOAD_CONST               0 ('피피티')
+              STORE_NAME               2 (__qualname__)
+              LOAD_CONST               1 (7)
+              STORE_NAME               3 (__firstlineno__)
+
+  8           LOAD_CONST               2 (None)
+              STORE_NAME               4 (피피티)
+
+  9           BUILD_LIST               0
+              LOAD_CONST               3 (('월', '화', '수', '목', '금', '토', '일'))
+              LIST_EXTEND              1
+              STORE_NAME               5 (임시요일)
+
+ 11           LOAD_CONST               4 (0)
+              STORE_NAME               6 (객체높이)
+
+ 13           LOAD_CONST               5 (<code object 시작 at 0x00000138AABA2F70, file "피피티\피피티라이브러리.py", line 13>)
+              MAKE_FUNCTION
+              STORE_NAME               7 (시작)
+
+ 36           BUILD_LIST               0
+              LOAD_CONST               4 (0)
+              LOAD_CONST               6 (False)
+              LOAD_CONST               7 (1)
+              LOAD_CONST               8 (16777215)
+              BUILD_TUPLE              5
+              LOAD_CONST               9 (<code object 도형 at 0x00000138AA8664B0, file "피피티\피피티라이브러리.py", line 36>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME               8 (도형)
+
+ 51           LOAD_CONST              40 ((0, 0, 500, 30, '행정안전부', '맑은 고딕', 32, True, 5658198, 1))
+              LOAD_CONST              10 (<code object 문장 at 0x00000138AABA3B70, file "피피티\피피티라이브러리.py", line 51>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME               9 (문장)
+
+ 62           LOAD_CONST              41 ((0, 0, 500, 30, '행정안전부', '맑은 고딕', 32, True, 5658198, 5658198))
+              LOAD_CONST              11 (<code object 문장음영 at 0x00000138AABB6C80, file "피피티\피피티라이브러리.py", line 62>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              10 (문장음영)
+
+ 73           LOAD_CONST              42 ((0, 0, 100, 100, 0))
+              LOAD_CONST              12 (<code object 사각형 at 0x00000138AAAD4C00, file "피피티\피피티라이브러리.py", line 73>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              11 (사각형)
+
+ 79           LOAD_CONST              43 ((0, 0, 100, 100, 16711680, 16711680))
+              LOAD_CONST              13 (<code object 사각형그라데이션 at 0x00000138AABA0C20, file "피피티\피피티라이브러리.py", line 79>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              12 (사각형그라데이션)
+
+ 93           LOAD_CONST              44 ((0, 0, 30, 30))
+              LOAD_CONST              14 (<code object 이미지 at 0x00000138AAD58450, file "피피티\피피티라이브러리.py", line 93>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              13 (이미지)
+
+ 97           LOAD_CONST              15 (<code object 중심정렬 at 0x00000138AAA62EB0, file "피피티\피피티라이브러리.py", line 97>)
+              MAKE_FUNCTION
+              STORE_NAME              14 (중심정렬)
+
+102           LOAD_CONST              45 (('기본',))
+              LOAD_CONST              16 (<code object 화면 at 0x00000138AAD156B0, file "피피티\피피티라이브러리.py", line 102>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              15 (화면)
+
+107           LOAD_CONST              17 (<code object 다음페이지 at 0x00000138AAAD8FB0, file "피피티\피피티라이브러리.py", line 107>)
+              MAKE_FUNCTION
+              STORE_NAME              16 (다음페이지)
+
+117           LOAD_CONST              46 ((1, 1, 0))
+              LOAD_CONST              18 (<code object 셀테두리 at 0x00000138AABA6230, file "피피티\피피티라이브러리.py", line 117>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              17 (셀테두리)
+
+138           LOAD_CONST              47 ((0, 0, 100, 100, 0, '홍성군'))
+              LOAD_CONST              19 (<code object 홍성둥근사각형 at 0x00000138AABA6600, file "피피티\피피티라이브러리.py", line 138>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              18 (홍성둥근사각형)
+
+158           LOAD_CONST              20 (<code object 홍성표 at 0x00000138AABB2F40, file "피피티\피피티라이브러리.py", line 158>)
+              MAKE_FUNCTION
+              STORE_NAME              19 (홍성표)
+
+270           LOAD_CONST              48 ((18,))
+              LOAD_CONST              21 (<code object 홍성표텍스트추가 at 0x00000138AACF1D70, file "피피티\피피티라이브러리.py", line 270>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              20 (홍성표텍스트추가)
+
+275           LOAD_CONST              48 ((18,))
+              LOAD_CONST              22 (<code object 홍성표텍스트추가옵션 at 0x00000138AAD58710, file "피피티\피피티라이브러리.py", line 275>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              21 (홍성표텍스트추가옵션)
+
+279           LOAD_CONST              23 (<code object 홍성표줄간격지정 at 0x00000138AABA7590, file "피피티\피피티라이브러리.py", line 279>)
+              MAKE_FUNCTION
+              STORE_NAME              22 (홍성표줄간격지정)
+
+310           LOAD_CONST              24 (<code object 부처명 at 0x00000138AAD5CD40, file "피피티\피피티라이브러리.py", line 310>)
+              MAKE_FUNCTION
+              STORE_NAME              23 (부처명)
+
+315           LOAD_CONST              25 (<code object 볼펜테마제목페이지배경 at 0x00000138AAAC6140, file "피피티\피피티라이브러리.py", line 315>)
+              MAKE_FUNCTION
+              STORE_NAME              24 (볼펜테마제목페이지배경)
+
+321           LOAD_CONST              49 (('2024~2025년',))
+              LOAD_CONST              26 (<code object 볼펜테마제목페이지날짜 at 0x00000138AAD4AE30, file "피피티\피피티라이브러리.py", line 321>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              25 (볼펜테마제목페이지날짜)
+
+324           LOAD_CONST              50 (('일하는 방식 개선',))
+              LOAD_CONST              27 (<code object 볼펜테마제목페이지제목1 at 0x00000138AAD4B030, file "피피티\피피티라이브러리.py", line 324>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              26 (볼펜테마제목페이지제목1)
+
+327           LOAD_CONST              51 (('공무원 업무 효율화',))
+              LOAD_CONST              28 (<code object 볼펜테마제목페이지제목2 at 0x00000138AAD4B730, file "피피티\피피티라이브러리.py", line 327>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              27 (볼펜테마제목페이지제목2)
+
+330           LOAD_CONST              51 (('공무원 업무 효율화',))
+              LOAD_CONST              29 (<code object 볼펜테마제목페이지발표자 at 0x00000138AAD4B830, file "피피티\피피티라이브러리.py", line 330>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              28 (볼펜테마제목페이지발표자)
+
+333           LOAD_CONST              30 (<code object 볼펜테마목차페이지 at 0x00000138AAD44B10, file "피피티\피피티라이브러리.py", line 333>)
+              MAKE_FUNCTION
+              STORE_NAME              29 (볼펜테마목차페이지)
+
+342           LOAD_CONST              52 (('사업배경',))
+              LOAD_CONST              31 (<code object 볼펜테마목차 at 0x00000138AAD3CFF0, file "피피티\피피티라이브러리.py", line 342>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              30 (볼펜테마목차)
+
+346           LOAD_CONST              32 (<code object 볼펜테마다음페이지 at 0x00000138AAD5CFA0, file "피피티\피피티라이브러리.py", line 346>)
+              MAKE_FUNCTION
+              STORE_NAME              31 (볼펜테마다음페이지)
+
+351           LOAD_CONST              52 (('사업배경',))
+              LOAD_CONST              33 (<code object 볼펜테마소제목 at 0x00000138AAD2A430, file "피피티\피피티라이브러리.py", line 351>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              32 (볼펜테마소제목)
+
+354           LOAD_CONST              53 (('주제입니다',))
+              LOAD_CONST              34 (<code object 볼펜테마주제 at 0x00000138AAAE5F70, file "피피티\피피티라이브러리.py", line 354>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              33 (볼펜테마주제)
+
+359           LOAD_CONST              54 (('설명입니다',))
+              LOAD_CONST              35 (<code object 볼펜테마설명 at 0x00000138AAD3D290, file "피피티\피피티라이브러리.py", line 359>)
+              MAKE_FUNCTION
+              SET_FUNCTION_ATTRIBUTE   1 (defaults)
+              STORE_NAME              34 (볼펜테마설명)
+
+367           LOAD_CONST              36 (<code object 마크다운 at 0x00000138AABB49B0, file "피피티\피피티라이브러리.py", line 367>)
+              MAKE_FUNCTION
+              STORE_NAME              35 (마크다운)
+
+399           LOAD_CONST              37 (<code object 홍성주간업무표지생성 at 0x00000138AABB5320, file "피피티\피피티라이브러리.py", line 399>)
+              MAKE_FUNCTION
+              STORE_NAME              36 (홍성주간업무표지생성)
+
+422           LOAD_CONST              38 (<code object 홍성주간업무마크다운 at 0x00000138AA8E6850, file "피피티\피피티라이브러리.py", line 422>)
+              MAKE_FUNCTION
+              STORE_NAME              37 (홍성주간업무마크다운)
+              LOAD_CONST              39 (('객체높이', '피피티'))
+              STORE_NAME              38 (__static_attributes__)
+              RETURN_CONST             2 (None)
+
+====================================================================================================
+<module>.피피티.피피티.시작
+file='피피티\\피피티라이브러리.py' line=13 args=1 locals=3
+  13            RESUME                   0
+
+  14            NOP
+
+  15    L1:     LOAD_GLOBAL              1 (GetActiveObject + NULL)
+                LOAD_CONST               1 ('PowerPoint.Application')
+                CALL                     1
+                LOAD_FAST                0 (self)
+                STORE_ATTR               1 (피피티)
+        L2:     RETURN_CONST             0 (None)
+
+  --    L3:     PUSH_EXC_INFO
+
+  17            LOAD_GLOBAL              4 (ValueError)
+                CHECK_EXC_MATCH
+                POP_JUMP_IF_FALSE      155 (to L7)
+                STORE_FAST               1 (e)
+
+  18    L4:     LOAD_GLOBAL              7 (print + NULL)
+                LOAD_CONST               2 ('값 오류 : ')
+                LOAD_FAST                1 (e)
+                FORMAT_SIMPLE
+                BUILD_STRING             2
+                CALL                     1
+                POP_TOP
+
+  19            LOAD_GLOBAL              9 (EnsureDispatch + NULL)
+                LOAD_CONST               1 ('PowerPoint.Application')
+                CALL                     1
+                LOAD_FAST                0 (self)
+                STORE_ATTR               1 (피피티)
+
+  20            LOAD_CONST               3 (True)
+                LOAD_FAST                0 (self)
+                LOAD_ATTR                2 (피피티)
+                STORE_ATTR               5 (Visible)
+
+  21            LOAD_FAST                0 (self)
+                LOAD_ATTR                2 (피피티)
+                LOAD_ATTR               12 (Presentations)
+                LOAD_ATTR               15 (Add + NULL|self)
+                CALL                     0
+                STORE_FAST               2 (현재피피티)
+
+  22            LOAD_FAST                2 (현재피피티)
+                LOAD_ATTR               16 (Slides)
+                LOAD_ATTR               15 (Add + NULL|self)
+                LOAD_CONST               4 (1)
+                LOAD_CONST               5 (12)
+                CALL                     2
+                POP_TOP
+
+  23            LOAD_CONST               6 (960)
+                LOAD_FAST                2 (현재피피티)
+                LOAD_ATTR               18 (PageSetup)
+                STORE_ATTR              10 (SlideWidth)
+
+  24            LOAD_CONST               7 (540)
+                LOAD_FAST                2 (현재피피티)
+                LOAD_ATTR               18 (PageSetup)
+                STORE_ATTR              11 (SlideHeight)
+        L5:     POP_EXCEPT
+                LOAD_CONST               0 (None)
+                STORE_FAST               1 (e)
+                DELETE_FAST              1 (e)
+                RETURN_CONST             0 (None)
+
+  --    L6:     LOAD_CONST               0 (None)
+                STORE_FAST               1 (e)
+                DELETE_FAST              1 (e)
+                RERAISE                  1
+
+  25    L7:     LOAD_GLOBAL             24 (Exception)
+                CHECK_EXC_MATCH
+                POP_JUMP_IF_FALSE      155 (to L11)
+                STORE_FAST               1 (e)
+
+  26    L8:     LOAD_GLOBAL              7 (print + NULL)
+                LOAD_CONST               8 ('오류 발생 : ')
+                LOAD_FAST                1 (e)
+                FORMAT_SIMPLE
+                BUILD_STRING             2
+                CALL                     1
+                POP_TOP
+
+  27            LOAD_GLOBAL              9 (EnsureDispatch + NULL)
+                LOAD_CONST               1 ('PowerPoint.Application')
+                CALL                     1
+                LOAD_FAST                0 (self)
+                STORE_ATTR               1 (피피티)
+
+  28            LOAD_CONST               3 (True)
+                LOAD_FAST                0 (self)
+                LOAD_ATTR                2 (피피티)
+                STORE_ATTR               5 (Visible)
+
+  29            LOAD_FAST                0 (self)
+                LOAD_ATTR                2 (피피티)
+                LOAD_ATTR               12 (Presentations)
+                LOAD_ATTR               15 (Add + NULL|self)
+                CALL                     0
+                STORE_FAST               2 (현재피피티)
+
+  30            LOAD_FAST                2 (현재피피티)
+                LOAD_ATTR               16 (Slides)
+                LOAD_ATTR               15 (Add + NULL|self)
+                LOAD_CONST               4 (1)
+                LOAD_CONST               5 (12)
+                CALL                     2
+                POP_TOP
+
+  31            LOAD_CONST               6 (960)
+                LOAD_FAST                2 (현재피피티)
+                LOAD_ATTR               18 (PageSetup)
+                STORE_ATTR              10 (SlideWidth)
+
+  32            LOAD_CONST               7 (540)
+                LOAD_FAST                2 (현재피피티)
+                LOAD_ATTR               18 (PageSetup)
+                STORE_ATTR              11 (SlideHeight)
+        L9:     POP_EXCEPT
+                LOAD_CONST               0 (None)
+                STORE_FAST               1 (e)
+                DELETE_FAST              1 (e)
+                RETURN_CONST             0 (None)
+
+  --   L10:     LOAD_CONST               0 (None)
+                STORE_FAST               1 (e)
+                DELETE_FAST              1 (e)
+                RERAISE                  1
+
+  25   L11:     RERAISE                  0
+
+  --   L12:     COPY                     3
+                POP_EXCEPT
+                RERAISE                  1
+ExceptionTable:
+  L1 to L2 -> L3 [0]
+  L3 to L4 -> L12 [1] lasti
+  L4 to L5 -> L6 [1] lasti
+  L6 to L8 -> L12 [1] lasti
+  L8 to L9 -> L10 [1] lasti
+  L10 to L12 -> L12 [1] lasti
+
+====================================================================================================
+<module>.피피티.피피티.도형
+file='피피티\\피피티라이브러리.py' line=36 args=6 locals=11
+ 36           RESUME                   0
+
+ 37           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (View)
+              LOAD_ATTR                6 (Slide)
+              STORE_FAST               6 (현재슬라이드)
+
+ 38           LOAD_FAST                6 (현재슬라이드)
+              LOAD_ATTR                8 (Shapes)
+              LOAD_ATTR               11 (BuildFreeform + NULL|self)
+              LOAD_CONST               1 (1)
+              LOAD_FAST                1 (포인트)
+              LOAD_CONST               2 (0)
+              BINARY_SUBSCR
+              LOAD_CONST               2 (0)
+              BINARY_SUBSCR
+              LOAD_FAST                1 (포인트)
+              LOAD_CONST               2 (0)
+              BINARY_SUBSCR
+              LOAD_CONST               1 (1)
+              BINARY_SUBSCR
+              LOAD_CONST               3 (('EditingType', 'X1', 'Y1'))
+              CALL_KW                  3
+              STORE_FAST               7 (도형포인트)
+
+ 39           LOAD_FAST                1 (포인트)
+              LOAD_CONST               1 (1)
+              LOAD_CONST               0 (None)
+              BINARY_SLICE
+              GET_ITER
+      L1:     FOR_ITER                22 (to L2)
+              UNPACK_SEQUENCE          2
+              STORE_FAST_STORE_FAST  137 (x, y)
+
+ 40           LOAD_FAST                7 (도형포인트)
+              LOAD_ATTR               13 (AddNodes + NULL|self)
+              LOAD_CONST               1 (1)
+              LOAD_CONST               1 (1)
+              LOAD_FAST_LOAD_FAST    137 (x, y)
+              LOAD_CONST               4 (('SegmentType', 'EditingType', 'X1', 'Y1'))
+              CALL_KW                  4
+              POP_TOP
+              JUMP_BACKWARD           24 (to L1)
+
+ 39   L2:     END_FOR
+              POP_TOP
+
+ 41           LOAD_FAST                7 (도형포인트)
+              LOAD_ATTR               15 (ConvertToShape + NULL|self)
+              CALL                     0
+              STORE_FAST              10 (도형모양)
+
+ 42           LOAD_FAST_LOAD_FAST     42 (색상, 도형모양)
+              LOAD_ATTR               16 (Fill)
+              LOAD_ATTR               18 (ForeColor)
+              STORE_ATTR              10 (RGB)
+
+ 43           LOAD_FAST_LOAD_FAST     58 (라인, 도형모양)
+              LOAD_ATTR               22 (Line)
+              STORE_ATTR              12 (Visible)
+
+ 44           LOAD_FAST_LOAD_FAST     74 (굵기, 도형모양)
+              LOAD_ATTR               22 (Line)
+              STORE_ATTR              13 (Weight)
+
+ 45           LOAD_FAST_LOAD_FAST     90 (테두리색, 도형모양)
+              LOAD_ATTR               22 (Line)
+              LOAD_ATTR               18 (ForeColor)
+              STORE_ATTR              10 (RGB)
+
+ 46           LOAD_FAST               10 (도형모양)
+              RETURN_VALUE
+
+====================================================================================================
+<module>.피피티.피피티.문장
+file='피피티\\피피티라이브러리.py' line=51 args=11 locals=13
+ 51           RESUME                   0
+
+ 52           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (View)
+              LOAD_ATTR                6 (Slide)
+              STORE_FAST              11 (현재슬라이드)
+
+ 53           LOAD_FAST               11 (현재슬라이드)
+              LOAD_ATTR                8 (Shapes)
+              LOAD_ATTR               11 (AddTextbox + NULL|self)
+              LOAD_CONST               1 (1)
+              LOAD_FAST_LOAD_FAST     18 (왼쪽, 위쪽)
+              LOAD_FAST_LOAD_FAST     52 (너비, 높이)
+              LOAD_CONST               2 (('Orientation', 'Left', 'Top', 'Width', 'Height'))
+              CALL_KW                  5
+              STORE_FAST              12 (글상자)
+
+ 54           LOAD_FAST_LOAD_FAST     92 (글자, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              STORE_ATTR               8 (Text)
+
+ 55           LOAD_FAST_LOAD_FAST    108 (폰트, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              STORE_ATTR              10 (NameFarEast)
+
+ 56           LOAD_FAST_LOAD_FAST    108 (폰트, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              STORE_ATTR              11 (Name)
+
+ 57           LOAD_FAST_LOAD_FAST    124 (크기, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              STORE_ATTR              12 (Size)
+
+ 58           LOAD_FAST_LOAD_FAST    140 (볼드, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              STORE_ATTR              13 (Bold)
+
+ 59           LOAD_FAST_LOAD_FAST    156 (색상, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              LOAD_ATTR               28 (Color)
+              STORE_ATTR              15 (RGB)
+
+ 60           LOAD_FAST_LOAD_FAST    172 (정렬, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              17 (Alignment)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.문장음영
+file='피피티\\피피티라이브러리.py' line=62 args=11 locals=13
+ 62           RESUME                   0
+
+ 63           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (View)
+              LOAD_ATTR                6 (Slide)
+              STORE_FAST              11 (현재슬라이드)
+
+ 64           LOAD_FAST               11 (현재슬라이드)
+              LOAD_ATTR                8 (Shapes)
+              LOAD_ATTR               11 (AddTextbox + NULL|self)
+              LOAD_CONST               1 (1)
+              LOAD_FAST_LOAD_FAST     18 (왼쪽, 위쪽)
+              LOAD_FAST_LOAD_FAST     52 (너비, 높이)
+              LOAD_CONST               2 (('Orientation', 'Left', 'Top', 'Width', 'Height'))
+              CALL_KW                  5
+              STORE_FAST              12 (글상자)
+
+ 65           LOAD_FAST_LOAD_FAST     92 (글자, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              STORE_ATTR               8 (Text)
+
+ 66           LOAD_FAST_LOAD_FAST    108 (폰트, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              STORE_ATTR              10 (Name)
+
+ 67           LOAD_FAST_LOAD_FAST    124 (크기, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              STORE_ATTR              11 (Size)
+
+ 68           LOAD_FAST_LOAD_FAST    140 (볼드, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              STORE_ATTR              12 (Bold)
+
+ 69           LOAD_FAST_LOAD_FAST    172 (배경색, 글상자)
+              LOAD_ATTR               26 (Fill)
+              LOAD_ATTR               28 (ForeColor)
+              STORE_ATTR              15 (RGB)
+
+ 70           LOAD_FAST_LOAD_FAST    156 (색상, 글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               18 (Font)
+              LOAD_ATTR               32 (Color)
+              STORE_ATTR              15 (RGB)
+
+ 71           LOAD_CONST               1 (1)
+              LOAD_FAST               12 (글상자)
+              LOAD_ATTR               12 (TextFrame)
+              LOAD_ATTR               14 (TextRange)
+              LOAD_ATTR               34 (ParagraphFormat)
+              STORE_ATTR              18 (Alignment)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.사각형
+file='피피티\\피피티라이브러리.py' line=73 args=6 locals=8
+ 73           RESUME                   0
+
+ 74           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (View)
+              LOAD_ATTR                6 (Slide)
+              STORE_FAST               6 (현재슬라이드)
+
+ 75           LOAD_FAST                6 (현재슬라이드)
+              LOAD_ATTR                8 (Shapes)
+              LOAD_ATTR               11 (AddShape + NULL|self)
+              LOAD_CONST               1 (1)
+              LOAD_FAST_LOAD_FAST     18 (왼쪽, 위쪽)
+              LOAD_FAST_LOAD_FAST     52 (너비, 높이)
+              CALL                     5
+              STORE_FAST               7 (도형)
+
+ 76           LOAD_CONST               2 (0)
+              LOAD_FAST                7 (도형)
+              LOAD_ATTR               12 (Line)
+              STORE_ATTR               7 (Visible)
+
+ 77           LOAD_FAST_LOAD_FAST     87 (색상, 도형)
+              LOAD_ATTR               16 (Fill)
+              LOAD_ATTR               18 (ForeColor)
+              STORE_ATTR              10 (RGB)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.사각형그라데이션
+file='피피티\\피피티라이브러리.py' line=79 args=7 locals=10
+ 79           RESUME                   0
+
+ 80           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (View)
+              LOAD_ATTR                6 (Slide)
+              STORE_FAST               7 (현재슬라이드)
+
+ 81           LOAD_FAST                7 (현재슬라이드)
+              LOAD_ATTR                8 (Shapes)
+              LOAD_ATTR               11 (AddShape + NULL|self)
+              LOAD_CONST               1 (1)
+              LOAD_FAST_LOAD_FAST     18 (왼쪽, 위쪽)
+              LOAD_FAST_LOAD_FAST     52 (너비, 높이)
+              CALL                     5
+              STORE_FAST               8 (도형)
+
+ 82           LOAD_CONST               2 (0)
+              LOAD_FAST                8 (도형)
+              LOAD_ATTR               12 (Line)
+              STORE_ATTR               7 (Visible)
+
+ 83           LOAD_FAST                8 (도형)
+              LOAD_ATTR               16 (Fill)
+              STORE_FAST               9 (채우기)
+
+ 84           LOAD_CONST               3 (True)
+              LOAD_FAST                9 (채우기)
+              STORE_ATTR               7 (Visible)
+
+ 85           LOAD_FAST                9 (채우기)
+              LOAD_ATTR               19 (TwoColorGradient + NULL|self)
+              LOAD_CONST               4 (2)
+              LOAD_CONST               1 (1)
+              CALL                     2
+              POP_TOP
+
+ 86           LOAD_FAST_LOAD_FAST     89 (색상1, 채우기)
+              LOAD_ATTR               20 (ForeColor)
+              STORE_ATTR              11 (RGB)
+
+ 87           LOAD_FAST_LOAD_FAST    105 (색상2, 채우기)
+              LOAD_ATTR               24 (BackColor)
+              STORE_ATTR              11 (RGB)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.이미지
+file='피피티\\피피티라이브러리.py' line=93 args=6 locals=7
+ 93           RESUME                   0
+
+ 94           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (View)
+              LOAD_ATTR                6 (Slide)
+              STORE_FAST               6 (현재슬라이드)
+
+ 95           LOAD_FAST                6 (현재슬라이드)
+              LOAD_ATTR                8 (Shapes)
+              LOAD_ATTR               11 (AddPicture + NULL|self)
+              LOAD_FAST                1 (이미지)
+              LOAD_CONST               1 (False)
+              LOAD_CONST               2 (True)
+              LOAD_FAST_LOAD_FAST     35 (왼쪽, 위쪽)
+              LOAD_FAST_LOAD_FAST     69 (너비, 높이)
+              LOAD_CONST               3 (('FileName', 'LinkToFile', 'SaveWithDocument', 'Left', 'Top', 'Width', 'Height'))
+              CALL_KW                  7
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.중심정렬
+file='피피티\\피피티라이브러리.py' line=97 args=1 locals=2
+ 97           RESUME                   0
+
+ 98           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (Selection)
+              STORE_FAST               1 (선택)
+
+ 99           LOAD_FAST                1 (선택)
+              LOAD_ATTR                6 (ShapeRange)
+              LOAD_ATTR                9 (Align + NULL|self)
+              LOAD_CONST               1 (1)
+              LOAD_CONST               2 (0)
+              LOAD_CONST               3 (('AlignCmd', 'RelativeTo'))
+              CALL_KW                  2
+              POP_TOP
+
+100           LOAD_FAST                1 (선택)
+              LOAD_ATTR                6 (ShapeRange)
+              LOAD_ATTR                9 (Align + NULL|self)
+              LOAD_CONST               4 (4)
+              LOAD_CONST               2 (0)
+              LOAD_CONST               3 (('AlignCmd', 'RelativeTo'))
+              CALL_KW                  2
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.화면
+file='피피티\\피피티라이브러리.py' line=102 args=2 locals=3
+102           RESUME                   0
+
+103           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActivePresentation)
+              STORE_FAST               2 (현재피피티)
+
+104           LOAD_CONST               1 (960)
+              LOAD_FAST                2 (현재피피티)
+              LOAD_ATTR                4 (PageSetup)
+              STORE_ATTR               3 (SlideWidth)
+
+105           LOAD_CONST               2 (540)
+              LOAD_FAST                2 (현재피피티)
+              LOAD_ATTR                4 (PageSetup)
+              STORE_ATTR               4 (SlideHeight)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.다음페이지
+file='피피티\\피피티라이브러리.py' line=107 args=1 locals=2
+107           RESUME                   0
+
+108           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActivePresentation)
+              STORE_FAST               1 (현재피피티)
+
+109           LOAD_FAST                1 (현재피피티)
+              LOAD_ATTR                4 (Slides)
+              LOAD_ATTR                7 (Add + NULL|self)
+              LOAD_FAST                1 (현재피피티)
+              LOAD_ATTR                4 (Slides)
+              LOAD_ATTR                8 (Count)
+              LOAD_CONST               1 (1)
+              BINARY_OP                0 (+)
+              LOAD_CONST               2 (12)
+              CALL                     2
+              POP_TOP
+
+110           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR               10 (ActiveWindow)
+              LOAD_ATTR               12 (View)
+              LOAD_ATTR               15 (GotoSlide + NULL|self)
+              LOAD_FAST                1 (현재피피티)
+              LOAD_ATTR                4 (Slides)
+              LOAD_ATTR                8 (Count)
+              CALL                     1
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.셀테두리
+file='피피티\\피피티라이브러리.py' line=117 args=5 locals=5
+117           RESUME                   0
+
+118           LOAD_CONST               1 (True)
+              LOAD_FAST                1 (셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               2 (1)
+              CALL                     1
+              STORE_ATTR               1 (Visible)
+
+119           LOAD_CONST               1 (True)
+              LOAD_FAST                1 (셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               3 (2)
+              CALL                     1
+              STORE_ATTR               1 (Visible)
+
+120           LOAD_CONST               1 (True)
+              LOAD_FAST                1 (셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               4 (3)
+              CALL                     1
+              STORE_ATTR               1 (Visible)
+
+121           LOAD_CONST               1 (True)
+              LOAD_FAST                1 (셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               5 (4)
+              CALL                     1
+              STORE_ATTR               1 (Visible)
+
+122           LOAD_FAST_LOAD_FAST     33 (선종류, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               2 (1)
+              CALL                     1
+              STORE_ATTR               2 (DashStyle)
+
+123           LOAD_FAST_LOAD_FAST     33 (선종류, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               3 (2)
+              CALL                     1
+              STORE_ATTR               2 (DashStyle)
+
+124           LOAD_FAST_LOAD_FAST     33 (선종류, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               4 (3)
+              CALL                     1
+              STORE_ATTR               2 (DashStyle)
+
+125           LOAD_FAST_LOAD_FAST     33 (선종류, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               5 (4)
+              CALL                     1
+              STORE_ATTR               2 (DashStyle)
+
+126           LOAD_FAST_LOAD_FAST     49 (굵기, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               2 (1)
+              CALL                     1
+              STORE_ATTR               3 (Weight)
+
+127           LOAD_FAST_LOAD_FAST     49 (굵기, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               3 (2)
+              CALL                     1
+              STORE_ATTR               3 (Weight)
+
+128           LOAD_FAST_LOAD_FAST     49 (굵기, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               4 (3)
+              CALL                     1
+              STORE_ATTR               3 (Weight)
+
+129           LOAD_FAST_LOAD_FAST     49 (굵기, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               5 (4)
+              CALL                     1
+              STORE_ATTR               3 (Weight)
+
+130           LOAD_FAST_LOAD_FAST     65 (색상, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               2 (1)
+              CALL                     1
+              LOAD_ATTR                8 (ForeColor)
+              STORE_ATTR               5 (RGB)
+
+131           LOAD_FAST_LOAD_FAST     65 (색상, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               3 (2)
+              CALL                     1
+              LOAD_ATTR                8 (ForeColor)
+              STORE_ATTR               5 (RGB)
+
+132           LOAD_FAST_LOAD_FAST     65 (색상, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               4 (3)
+              CALL                     1
+              LOAD_ATTR                8 (ForeColor)
+              STORE_ATTR               5 (RGB)
+
+133           LOAD_FAST_LOAD_FAST     65 (색상, 셀)
+              LOAD_ATTR                1 (Borders + NULL|self)
+              LOAD_CONST               5 (4)
+              CALL                     1
+              LOAD_ATTR                8 (ForeColor)
+              STORE_ATTR               5 (RGB)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.홍성둥근사각형
+file='피피티\\피피티라이브러리.py' line=138 args=7 locals=11
+138           RESUME                   0
+
+139           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (View)
+              LOAD_ATTR                6 (Slide)
+              STORE_FAST               7 (현재슬라이드)
+
+140           LOAD_FAST                7 (현재슬라이드)
+              LOAD_ATTR                8 (Shapes)
+              LOAD_ATTR               11 (AddShape + NULL|self)
+              LOAD_CONST               1 (5)
+              LOAD_FAST_LOAD_FAST     18 (왼쪽, 위쪽)
+              LOAD_FAST_LOAD_FAST     52 (너비, 높이)
+              CALL                     5
+              STORE_FAST               8 (도형)
+
+141           LOAD_CONST               2 (0)
+              LOAD_FAST                8 (도형)
+              LOAD_ATTR               12 (Line)
+              STORE_ATTR               7 (Visible)
+
+142           LOAD_FAST_LOAD_FAST     88 (색상, 도형)
+              LOAD_ATTR               16 (Fill)
+              LOAD_ATTR               18 (ForeColor)
+              STORE_ATTR              10 (RGB)
+
+143           LOAD_FAST                8 (도형)
+              LOAD_ATTR               22 (Shadow)
+              STORE_FAST               9 (그림자)
+
+144           LOAD_CONST               3 (True)
+              LOAD_FAST                9 (그림자)
+              STORE_ATTR               7 (Visible)
+
+145           LOAD_CONST               2 (0)
+              LOAD_FAST                9 (그림자)
+              STORE_ATTR              12 (Blur)
+
+146           LOAD_CONST               2 (0)
+              LOAD_FAST                9 (그림자)
+              STORE_ATTR              13 (Transparency)
+
+147           LOAD_CONST               4 (8421504)
+              LOAD_FAST                9 (그림자)
+              LOAD_ATTR               18 (ForeColor)
+              STORE_ATTR              10 (RGB)
+
+148           LOAD_CONST               5 (2)
+              LOAD_FAST                9 (그림자)
+              STORE_ATTR              14 (OffsetX)
+
+149           LOAD_CONST               5 (2)
+              LOAD_FAST                9 (그림자)
+              STORE_ATTR              15 (OffsetY)
+
+150           LOAD_FAST                8 (도형)
+              LOAD_ATTR               32 (TextFrame)
+              STORE_FAST              10 (텍스트)
+
+151           LOAD_FAST_LOAD_FAST    106 (내용, 텍스트)
+              LOAD_ATTR               34 (TextRange)
+              STORE_ATTR              18 (Text)
+
+152           LOAD_CONST               6 (16777215)
+              LOAD_FAST               10 (텍스트)
+              LOAD_ATTR               34 (TextRange)
+              LOAD_ATTR               38 (Font)
+              LOAD_ATTR               40 (Color)
+              STORE_ATTR              10 (RGB)
+
+153           LOAD_CONST               7 ('HY헤드라인M')
+              LOAD_FAST               10 (텍스트)
+              LOAD_ATTR               34 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              21 (Name)
+
+154           LOAD_CONST               7 ('HY헤드라인M')
+              LOAD_FAST               10 (텍스트)
+              LOAD_ATTR               34 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              22 (NameFarEast)
+
+155           LOAD_CONST               8 (25)
+              LOAD_FAST               10 (텍스트)
+              LOAD_ATTR               34 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              23 (Size)
+
+156           LOAD_CONST               5 (2)
+              LOAD_FAST               10 (텍스트)
+              LOAD_ATTR               34 (TextRange)
+              LOAD_ATTR               48 (ParagraphFormat)
+              STORE_ATTR              25 (Alignment)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.홍성표
+file='피피티\\피피티라이브러리.py' line=158 args=3 locals=9
+158           RESUME                   0
+
+159           LOAD_CONST               1 (<code object 여덜글자자르기 at 0x00000138AAAD4DB0, file "피피티\피피티라이브러리.py", line 159>)
+              MAKE_FUNCTION
+              STORE_FAST               3 (여덜글자자르기)
+
+170           LOAD_CONST               2 (<code object 여덜글자묶기 at 0x00000138AABA0A10, file "피피티\피피티라이브러리.py", line 170>)
+              MAKE_FUNCTION
+              STORE_FAST               4 (여덜글자묶기)
+
+192           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (피피티)
+              LOAD_ATTR                2 (ActiveWindow)
+              LOAD_ATTR                4 (View)
+              LOAD_ATTR                6 (Slide)
+              STORE_FAST               5 (현재슬라이드)
+
+193           LOAD_FAST                5 (현재슬라이드)
+              LOAD_ATTR                8 (Shapes)
+              LOAD_ATTR               11 (AddTable + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               4 (10)
+              LOAD_CONST               5 (130)
+              LOAD_CONST               6 (600)
+              LOAD_CONST               7 (500)
+              CALL                     6
+              STORE_FAST               6 (테이블)
+
+194           LOAD_FAST                6 (테이블)
+              LOAD_ATTR               12 (Table)
+              STORE_FAST               7 (옵션)
+
+195           LOAD_CONST               8 (178)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               15 (Columns + NULL|self)
+              LOAD_CONST               9 (1)
+              CALL                     1
+              STORE_ATTR               8 (Width)
+
+196           LOAD_CONST              10 (522)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               15 (Columns + NULL|self)
+              LOAD_CONST               3 (2)
+              CALL                     1
+              STORE_ATTR               8 (Width)
+
+197           LOAD_CONST              11 (38)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               19 (Rows + NULL|self)
+              LOAD_CONST               9 (1)
+              CALL                     1
+              STORE_ATTR              10 (Height)
+
+198           LOAD_CONST              12 (330)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               19 (Rows + NULL|self)
+              LOAD_CONST               3 (2)
+              CALL                     1
+              STORE_ATTR              10 (Height)
+
+199           LOAD_CONST              13 ('제     목')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              STORE_ATTR              15 (Text)
+
+200           LOAD_CONST               3 (2)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              17 (Alignment)
+
+201           LOAD_CONST              14 (3)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              STORE_ATTR              18 (VerticalAnchor)
+
+202           LOAD_CONST              15 (18)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              20 (Size)
+
+203           LOAD_CONST              16 ('굴림')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              21 (Name)
+
+204           LOAD_CONST              16 ('굴림')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              22 (NameFarEast)
+
+205           LOAD_CONST              17 (True)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              23 (Bold)
+
+206           LOAD_CONST              18 (0)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              LOAD_ATTR               48 (Color)
+              STORE_ATTR              25 (RGB)
+
+207           LOAD_CONST              19 (15463165)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               52 (Fill)
+              LOAD_ATTR               54 (ForeColor)
+              STORE_ATTR              25 (RGB)
+
+208           LOAD_FAST                0 (self)
+              LOAD_ATTR               57 (셀테두리 + NULL|self)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              CALL                     1
+              POP_TOP
+
+210           LOAD_CONST              20 ('내          용')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              STORE_ATTR              15 (Text)
+
+211           LOAD_CONST               3 (2)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              17 (Alignment)
+
+212           LOAD_CONST              14 (3)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              STORE_ATTR              18 (VerticalAnchor)
+
+213           LOAD_CONST              15 (18)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              20 (Size)
+
+214           LOAD_CONST              16 ('굴림')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              21 (Name)
+
+215           LOAD_CONST              16 ('굴림')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              22 (NameFarEast)
+
+216           LOAD_CONST              17 (True)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              23 (Bold)
+
+217           LOAD_CONST              18 (0)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              LOAD_ATTR               48 (Color)
+              STORE_ATTR              25 (RGB)
+
+218           LOAD_CONST              19 (15463165)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               52 (Fill)
+              LOAD_ATTR               54 (ForeColor)
+              STORE_ATTR              25 (RGB)
+
+219           LOAD_FAST                0 (self)
+              LOAD_ATTR               57 (셀테두리 + NULL|self)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               9 (1)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              CALL                     1
+              POP_TOP
+
+222           LOAD_FAST                3 (여덜글자자르기)
+              PUSH_NULL
+              LOAD_FAST                1 (제목)
+              CALL                     1
+              STORE_FAST               1 (제목)
+
+223           LOAD_FAST                4 (여덜글자묶기)
+              PUSH_NULL
+              LOAD_FAST                1 (제목)
+              CALL                     1
+              STORE_FAST               1 (제목)
+
+224           LOAD_GLOBAL             59 (len + NULL)
+              LOAD_FAST                1 (제목)
+              CALL                     1
+              STORE_FAST               8 (줄개수)
+
+225           LOAD_CONST              21 ('\r\n   ')
+              LOAD_ATTR               61 (join + NULL|self)
+              LOAD_FAST                1 (제목)
+              CALL                     1
+              STORE_FAST               1 (제목)
+
+226           LOAD_GLOBAL             63 (str + NULL)
+              LOAD_FAST                2 (번호)
+              CALL                     1
+              LOAD_CONST              22 ('. ')
+              BINARY_OP                0 (+)
+              LOAD_FAST                1 (제목)
+              BINARY_OP                0 (+)
+              STORE_FAST               1 (제목)
+
+229           LOAD_CONST              23 ('\r\n')
+              LOAD_FAST                1 (제목)
+              BINARY_OP                0 (+)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              STORE_ATTR              15 (Text)
+
+230           LOAD_CONST               9 (1)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              17 (Alignment)
+
+231           LOAD_CONST               9 (1)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              STORE_ATTR              18 (VerticalAnchor)
+
+232           LOAD_CONST              15 (18)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              20 (Size)
+
+233           LOAD_CONST              24 ('HY헤드라인M')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              21 (Name)
+
+234           LOAD_CONST              24 ('HY헤드라인M')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              22 (NameFarEast)
+
+235           LOAD_CONST              17 (True)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              23 (Bold)
+
+236           LOAD_CONST              18 (0)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              LOAD_ATTR               48 (Color)
+              STORE_ATTR              25 (RGB)
+
+237           LOAD_CONST              25 (-1)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              32 (LineRuleWithin)
+
+238           LOAD_CONST              26 (1.0)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              33 (SpaceWithin)
+
+240           LOAD_FAST                8 (줄개수)
+              LOAD_CONST               3 (2)
+              COMPARE_OP              88 (bool(==))
+              POP_JUMP_IF_FALSE      158 (to L1)
+
+241           LOAD_CONST              27 (11)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               69 (Paragraphs + NULL|self)
+              LOAD_CONST               3 (2)
+              CALL                     1
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              35 (SpaceAfter)
+
+242           LOAD_CONST              27 (11)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               69 (Paragraphs + NULL|self)
+              LOAD_CONST              14 (3)
+              CALL                     1
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              35 (SpaceAfter)
+              EXTENDED_ARG             1
+              JUMP_FORWARD           304 (to L3)
+
+243   L1:     LOAD_FAST                8 (줄개수)
+              LOAD_CONST              14 (3)
+              COMPARE_OP              88 (bool(==))
+              POP_JUMP_IF_FALSE      235 (to L2)
+
+244           LOAD_CONST              28 (8)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               69 (Paragraphs + NULL|self)
+              LOAD_CONST               3 (2)
+              CALL                     1
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              35 (SpaceAfter)
+
+245           LOAD_CONST              28 (8)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               69 (Paragraphs + NULL|self)
+              LOAD_CONST              14 (3)
+              CALL                     1
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              35 (SpaceAfter)
+
+246           LOAD_CONST              28 (8)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               69 (Paragraphs + NULL|self)
+              LOAD_CONST              29 (4)
+              CALL                     1
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              35 (SpaceAfter)
+              JUMP_FORWARD            63 (to L3)
+
+247   L2:     LOAD_CONST              18 (0)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              35 (SpaceAfter)
+
+248   L3:     LOAD_CONST              18 (0)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              STORE_ATTR              36 (MarginTop)
+
+249           LOAD_CONST              30 (16777215)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               52 (Fill)
+              LOAD_ATTR               54 (ForeColor)
+              STORE_ATTR              25 (RGB)
+
+250           LOAD_FAST                0 (self)
+              LOAD_ATTR               57 (셀테두리 + NULL|self)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               9 (1)
+              CALL                     2
+              CALL                     1
+              POP_TOP
+
+254           LOAD_CONST               9 (1)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              17 (Alignment)
+
+255           LOAD_CONST               9 (1)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              STORE_ATTR              18 (VerticalAnchor)
+
+256           LOAD_CONST              15 (18)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              20 (Size)
+
+257           LOAD_CONST              31 ('굴림체')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              21 (Name)
+
+258           LOAD_CONST              31 ('굴림체')
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              22 (NameFarEast)
+
+259           LOAD_CONST              17 (True)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              STORE_ATTR              23 (Bold)
+
+260           LOAD_CONST              18 (0)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               38 (Font)
+              LOAD_ATTR               48 (Color)
+              STORE_ATTR              25 (RGB)
+
+261           LOAD_CONST              25 (-1)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              32 (LineRuleWithin)
+
+262           LOAD_CONST              26 (1.0)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              LOAD_ATTR               28 (TextRange)
+              LOAD_ATTR               32 (ParagraphFormat)
+              STORE_ATTR              33 (SpaceWithin)
+
+263           LOAD_CONST              32 (20)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               26 (TextFrame)
+              STORE_ATTR              36 (MarginTop)
+
+264           LOAD_CONST              30 (16777215)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              LOAD_ATTR               24 (Shape)
+              LOAD_ATTR               52 (Fill)
+              LOAD_ATTR               54 (ForeColor)
+              STORE_ATTR              25 (RGB)
+
+265           LOAD_FAST                0 (self)
+              LOAD_ATTR               57 (셀테두리 + NULL|self)
+              LOAD_FAST                7 (옵션)
+              LOAD_ATTR               23 (Cell + NULL|self)
+              LOAD_CONST               3 (2)
+              LOAD_CONST               3 (2)
+              CALL                     2
+              CALL                     1
+              POP_TOP
+
+267           LOAD_FAST                6 (테이블)
+              RETURN_VALUE
+
+====================================================================================================
+<module>.피피티.피피티.홍성표.피피티.홍성표.<locals>.여덜글자자르기
+file='피피티\\피피티라이브러리.py' line=159 args=1 locals=4
+159           RESUME                   0
+
+160           LOAD_FAST                0 (텍스트)
+              LOAD_ATTR                1 (split + NULL|self)
+              LOAD_CONST               1 (' ')
+              CALL                     1
+              STORE_FAST               1 (단어들)
+
+161           BUILD_LIST               0
+              STORE_FAST               2 (쪼갠단어들)
+
+162           LOAD_FAST                1 (단어들)
+              GET_ITER
+      L1:     FOR_ITER                86 (to L5)
+              STORE_FAST               3 (단어)
+
+163           LOAD_GLOBAL              3 (len + NULL)
+              LOAD_FAST                3 (단어)
+              CALL                     1
+              LOAD_CONST               2 (8)
+              COMPARE_OP             148 (bool(>))
+              POP_JUMP_IF_FALSE       42 (to L3)
+
+164   L2:     LOAD_FAST                2 (쪼갠단어들)
+              LOAD_ATTR                5 (append + NULL|self)
+              LOAD_FAST                3 (단어)
+              LOAD_CONST               0 (None)
+              LOAD_CONST               2 (8)
+              BINARY_SLICE
+              CALL                     1
+              POP_TOP
+
+165           LOAD_FAST                3 (단어)
+              LOAD_CONST               2 (8)
+              LOAD_CONST               0 (None)
+              BINARY_SLICE
+              STORE_FAST               3 (단어)
+
+163           LOAD_GLOBAL              3 (len + NULL)
+              LOAD_FAST                3 (단어)
+              CALL                     1
+              LOAD_CONST               2 (8)
+              COMPARE_OP             148 (bool(>))
+              POP_JUMP_IF_FALSE        2 (to L3)
+              JUMP_BACKWARD           42 (to L2)
+
+166   L3:     LOAD_FAST                3 (단어)
+              TO_BOOL
+              POP_JUMP_IF_TRUE         2 (to L4)
+              JUMP_BACKWARD           69 (to L1)
+
+167   L4:     LOAD_FAST                2 (쪼갠단어들)
+              LOAD_ATTR                5 (append + NULL|self)
+              LOAD_FAST                3 (단어)
+              CALL                     1
+              POP_TOP
+              JUMP_BACKWARD           88 (to L1)
+
+162   L5:     END_FOR
+              POP_TOP
+
+168           LOAD_FAST                2 (쪼갠단어들)
+              RETURN_VALUE
+
+====================================================================================================
+<module>.피피티.피피티.홍성표.피피티.홍성표.<locals>.여덜글자묶기
+file='피피티\\피피티라이브러리.py' line=170 args=1 locals=6
+170           RESUME                   0
+
+171           BUILD_LIST               0
+              STORE_FAST               1 (묶은단어들)
+
+172           BUILD_LIST               0
+              STORE_FAST               2 (현재단어묶음)
+
+173           LOAD_CONST               1 (0)
+              STORE_FAST               3 (현재크기)
+
+175           LOAD_FAST                0 (단어들)
+              GET_ITER
+      L1:     FOR_ITER               103 (to L5)
+              STORE_FAST               4 (단어)
+
+176           LOAD_GLOBAL              1 (len + NULL)
+              LOAD_FAST                4 (단어)
+              CALL                     1
+              LOAD_FAST                2 (현재단어묶음)
+              TO_BOOL
+              POP_JUMP_IF_FALSE        2 (to L2)
+              LOAD_CONST               2 (1)
+              JUMP_FORWARD             1 (to L3)
+      L2:     LOAD_CONST               1 (0)
+      L3:     BINARY_OP                0 (+)
+              STORE_FAST               5 (더할크기)
+
+178           LOAD_FAST_LOAD_FAST     53 (현재크기, 더할크기)
+              BINARY_OP                0 (+)
+              LOAD_CONST               3 (8)
+              COMPARE_OP              58 (bool(<=))
+              POP_JUMP_IF_FALSE       23 (to L4)
+
+179           LOAD_FAST                2 (현재단어묶음)
+              LOAD_ATTR                3 (append + NULL|self)
+              LOAD_FAST                4 (단어)
+              CALL                     1
+              POP_TOP
+
+180           LOAD_FAST_LOAD_FAST     53 (현재크기, 더할크기)
+              BINARY_OP               13 (+=)
+              STORE_FAST               3 (현재크기)
+              JUMP_BACKWARD           57 (to L1)
+
+182   L4:     LOAD_FAST                1 (묶은단어들)
+              LOAD_ATTR                3 (append + NULL|self)
+              LOAD_CONST               4 (' ')
+              LOAD_ATTR                5 (join + NULL|self)
+              LOAD_FAST                2 (현재단어묶음)
+              CALL                     1
+              CALL                     1
+              POP_TOP
+
+183           LOAD_FAST                4 (단어)
+              BUILD_LIST               1
+              STORE_FAST               2 (현재단어묶음)
+
+184           LOAD_GLOBAL              1 (len + NULL)
+              LOAD_FAST                4 (단어)
+              CALL                     1
+              STORE_FAST               3 (현재크기)
+              JUMP_BACKWARD          105 (to L1)
+
+175   L5:     END_FOR
+              POP_TOP
+
+185           LOAD_FAST                2 (현재단어묶음)
+              TO_BOOL
+              POP_JUMP_IF_FALSE       32 (to L6)
+
+186           LOAD_FAST                1 (묶은단어들)
+              LOAD_ATTR                3 (append + NULL|self)
+              LOAD_CONST               4 (' ')
+              LOAD_ATTR                5 (join + NULL|self)
+              LOAD_FAST                2 (현재단어묶음)
+              CALL                     1
+              CALL                     1
+              POP_TOP
+
+187   L6:     LOAD_FAST                1 (묶은단어들)
+              RETURN_VALUE
+
+====================================================================================================
+<module>.피피티.피피티.홍성표텍스트추가
+file='피피티\\피피티라이브러리.py' line=270 args=5 locals=5
+270           RESUME                   0
+
+271           LOAD_FAST                1 (셀)
+              LOAD_ATTR                0 (Shape)
+              LOAD_ATTR                2 (TextFrame)
+              LOAD_ATTR                4 (TextRange)
+              LOAD_ATTR                7 (InsertAfter + NULL|self)
+              LOAD_FAST                3 (내용)
+              LOAD_CONST               1 ('\r\n')
+              BINARY_OP                0 (+)
+              CALL                     1
+              STORE_FAST               3 (내용)
+
+272           LOAD_FAST_LOAD_FAST     67 (크기, 내용)
+              LOAD_ATTR                8 (Font)
+              STORE_ATTR               5 (Size)
+
+273           LOAD_FAST                3 (내용)
+              LOAD_ATTR               12 (ParagraphFormat)
+              LOAD_ATTR               14 (Bullet)
+              LOAD_ATTR               17 (Picture + NULL|self)
+              LOAD_FAST                2 (이미지)
+              CALL                     1
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.홍성표텍스트추가옵션
+file='피피티\\피피티라이브러리.py' line=275 args=5 locals=5
+275           RESUME                   0
+
+276           LOAD_FAST                1 (셀)
+              LOAD_ATTR                0 (Shape)
+              LOAD_ATTR                2 (TextFrame)
+              LOAD_ATTR                4 (TextRange)
+              LOAD_ATTR                7 (InsertAfter + NULL|self)
+              LOAD_FAST_LOAD_FAST     35 (옵션, 내용)
+              BINARY_OP                0 (+)
+              LOAD_CONST               1 ('\r\n')
+              BINARY_OP                0 (+)
+              CALL                     1
+              STORE_FAST               3 (내용)
+
+277           LOAD_FAST_LOAD_FAST     67 (크기, 내용)
+              LOAD_ATTR                8 (Font)
+              STORE_ATTR               5 (Size)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.홍성표줄간격지정
+file='피피티\\피피티라이브러리.py' line=279 args=3 locals=5
+279           RESUME                   0
+
+280           LOAD_FAST                1 (셀)
+              LOAD_ATTR                0 (Shape)
+              LOAD_ATTR                2 (TextFrame)
+              LOAD_ATTR                4 (TextRange)
+              STORE_FAST               3 (텍스트)
+
+281           LOAD_FAST                3 (텍스트)
+              LOAD_ATTR                7 (Characters + NULL|self)
+              CALL                     0
+              LOAD_ATTR                8 (Count)
+              STORE_FAST               4 (텍스트카운트)
+
+283           LOAD_FAST                4 (텍스트카운트)
+              LOAD_CONST               1 (0)
+              COMPARE_OP             148 (bool(>))
+              POP_JUMP_IF_FALSE       31 (to L1)
+
+284           LOAD_FAST                3 (텍스트)
+              LOAD_ATTR                7 (Characters + NULL|self)
+              LOAD_FAST                4 (텍스트카운트)
+              CALL                     1
+              LOAD_ATTR               11 (Delete + NULL|self)
+              CALL                     0
+              POP_TOP
+
+286   L1:     LOAD_FAST                2 (번호)
+              LOAD_CONST               2 (7)
+              COMPARE_OP              58 (bool(<=))
+              POP_JUMP_IF_FALSE       48 (to L2)
+
+287           LOAD_CONST               3 (20)
+              LOAD_FAST                1 (셀)
+              LOAD_ATTR                0 (Shape)
+              LOAD_ATTR                2 (TextFrame)
+              LOAD_ATTR                4 (TextRange)
+              LOAD_ATTR               12 (ParagraphFormat)
+              STORE_ATTR               7 (SpaceAfter)
+              RETURN_CONST             0 (None)
+
+288   L2:     LOAD_FAST                2 (번호)
+              LOAD_CONST               4 (8)
+              COMPARE_OP              88 (bool(==))
+              POP_JUMP_IF_FALSE       48 (to L3)
+
+289           LOAD_CONST               5 (16)
+              LOAD_FAST                1 (셀)
+              LOAD_ATTR                0 (Shape)
+              LOAD_ATTR                2 (TextFrame)
+              LOAD_ATTR                4 (TextRange)
+              LOAD_ATTR               12 (ParagraphFormat)
+              STORE_ATTR               7 (SpaceAfter)
+              RETURN_CONST             0 (None)
+
+290   L3:     LOAD_FAST                2 (번호)
+              LOAD_CONST               6 (9)
+              COMPARE_OP              88 (bool(==))
+              POP_JUMP_IF_FALSE       48 (to L4)
+
+291           LOAD_CONST               7 (11)
+              LOAD_FAST                1 (셀)
+              LOAD_ATTR                0 (Shape)
+              LOAD_ATTR                2 (TextFrame)
+              LOAD_ATTR                4 (TextRange)
+              LOAD_ATTR               12 (ParagraphFormat)
+              STORE_ATTR               7 (SpaceAfter)
+              RETURN_CONST             0 (None)
+
+292   L4:     LOAD_FAST                2 (번호)
+              LOAD_CONST               8 (10)
+              COMPARE_OP              88 (bool(==))
+              POP_JUMP_IF_FALSE       48 (to L5)
+
+293           LOAD_CONST               4 (8)
+              LOAD_FAST                1 (셀)
+              LOAD_ATTR                0 (Shape)
+              LOAD_ATTR                2 (TextFrame)
+              LOAD_ATTR                4 (TextRange)
+              LOAD_ATTR               12 (ParagraphFormat)
+              STORE_ATTR               7 (SpaceAfter)
+              RETURN_CONST             0 (None)
+
+292   L5:     RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.부처명
+file='피피티\\피피티라이브러리.py' line=310 args=2 locals=2
+310           RESUME                   0
+
+311           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (이미지 + NULL|self)
+              LOAD_FAST                1 (이미지1)
+              LOAD_CONST               1 (30)
+              LOAD_CONST               1 (30)
+              LOAD_CONST               2 (50)
+              LOAD_CONST               2 (50)
+              CALL                     5
+              POP_TOP
+
+312           LOAD_FAST                0 (self)
+              LOAD_ATTR                3 (문장 + NULL|self)
+              LOAD_CONST               3 (78)
+              LOAD_CONST               4 (32)
+              LOAD_CONST               5 (350)
+              LOAD_CONST               6 (40)
+              LOAD_CONST               7 ('행정안전부')
+              LOAD_CONST               8 ('맑은 고딕')
+              LOAD_CONST               4 (32)
+              LOAD_CONST               9 (True)
+              LOAD_CONST              10 (5658198)
+              CALL                     9
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마제목페이지배경
+file='피피티\\피피티라이브러리.py' line=315 args=1 locals=1
+315           RESUME                   0
+
+316           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               1 (((64, 160), (87, 160), (87, 348), (64, 348), (64, 160)))
+              LIST_EXTEND              1
+              LOAD_CONST               2 (0)
+              CALL                     2
+              POP_TOP
+
+317           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               3 (((64, 379), (87, 379), (87, 440), (64, 440), (64, 379)))
+              LIST_EXTEND              1
+              LOAD_CONST               4 (14277081)
+              CALL                     2
+              POP_TOP
+
+318           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               5 (((871, 160), (893, 160), (893, 348), (871, 348), (871, 160)))
+              LIST_EXTEND              1
+              LOAD_CONST               4 (14277081)
+              CALL                     2
+              POP_TOP
+
+319           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               6 (((871, 379), (893, 379), (893, 440), (871, 440), (871, 379)))
+              LIST_EXTEND              1
+              LOAD_CONST               2 (0)
+              CALL                     2
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마제목페이지날짜
+file='피피티\\피피티라이브러리.py' line=321 args=2 locals=2
+321           RESUME                   0
+
+322           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (문장 + NULL|self)
+              LOAD_CONST               1 (100)
+              LOAD_CONST               2 (150)
+              LOAD_CONST               3 (750)
+              LOAD_CONST               4 (40)
+              LOAD_FAST                1 (날짜)
+              LOAD_CONST               5 ('맑은 고딕')
+              LOAD_CONST               6 (36)
+              LOAD_CONST               7 (True)
+              LOAD_CONST               8 (0)
+              CALL                     9
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마제목페이지제목1
+file='피피티\\피피티라이브러리.py' line=324 args=2 locals=2
+324           RESUME                   0
+
+325           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (문장 + NULL|self)
+              LOAD_CONST               1 (90)
+              LOAD_CONST               2 (200)
+              LOAD_CONST               3 (760)
+              LOAD_CONST               4 (70)
+              LOAD_FAST                1 (제목)
+              LOAD_CONST               5 ('맑은 고딕')
+              LOAD_CONST               6 (60)
+              LOAD_CONST               7 (True)
+              LOAD_CONST               8 (0)
+              CALL                     9
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마제목페이지제목2
+file='피피티\\피피티라이브러리.py' line=327 args=2 locals=2
+327           RESUME                   0
+
+328           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (문장 + NULL|self)
+              LOAD_CONST               1 (90)
+              LOAD_CONST               2 (270)
+              LOAD_CONST               3 (760)
+              LOAD_CONST               4 (70)
+              LOAD_FAST                1 (제목)
+              LOAD_CONST               5 ('맑은 고딕')
+              LOAD_CONST               6 (60)
+              LOAD_CONST               7 (True)
+              LOAD_CONST               8 (0)
+              CALL                     9
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마제목페이지발표자
+file='피피티\\피피티라이브러리.py' line=330 args=2 locals=2
+330           RESUME                   0
+
+331           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (문장 + NULL|self)
+              LOAD_CONST               1 (90)
+              LOAD_CONST               2 (383)
+              LOAD_CONST               3 (780)
+              LOAD_CONST               4 (40)
+              LOAD_FAST                1 (제목)
+              LOAD_CONST               5 ('맑은 고딕')
+              LOAD_CONST               6 (36)
+              LOAD_CONST               7 (True)
+              LOAD_CONST               8 (0)
+              LOAD_CONST               9 (3)
+              CALL                    10
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마목차페이지
+file='피피티\\피피티라이브러리.py' line=333 args=1 locals=1
+333           RESUME                   0
+
+334           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (다음페이지 + NULL|self)
+              CALL                     0
+              POP_TOP
+
+335           LOAD_CONST               1 (0)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               1 (객체높이)
+
+336           LOAD_FAST                0 (self)
+              LOAD_ATTR                5 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               2 (((30, 20), (53, 20), (53, 90), (30, 90), (30, 20)))
+              LIST_EXTEND              1
+              LOAD_CONST               1 (0)
+              CALL                     2
+              POP_TOP
+
+337           LOAD_FAST                0 (self)
+              LOAD_ATTR                5 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               3 (((905, 20), (928, 20), (928, 90), (905, 90), (905, 20)))
+              LIST_EXTEND              1
+              LOAD_CONST               4 (14277081)
+              CALL                     2
+              POP_TOP
+
+338           LOAD_FAST                0 (self)
+              LOAD_ATTR                5 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               5 (((30, 120), (53, 120), (53, 520), (30, 520), (30, 120)))
+              LIST_EXTEND              1
+              LOAD_CONST               4 (14277081)
+              CALL                     2
+              POP_TOP
+
+339           LOAD_FAST                0 (self)
+              LOAD_ATTR                5 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               6 (((905, 120), (928, 120), (928, 520), (905, 520), (905, 120)))
+              LIST_EXTEND              1
+              LOAD_CONST               1 (0)
+              CALL                     2
+              POP_TOP
+
+340           LOAD_FAST                0 (self)
+              LOAD_ATTR                7 (문장 + NULL|self)
+              LOAD_CONST               7 (60)
+              LOAD_CONST               8 (20)
+              LOAD_CONST               9 (200)
+              LOAD_CONST               7 (60)
+              LOAD_CONST              10 ('목차')
+              LOAD_CONST              11 ('맑은 고딕')
+              LOAD_CONST               7 (60)
+              LOAD_CONST              12 (True)
+              LOAD_CONST               1 (0)
+              CALL                     9
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마목차
+file='피피티\\피피티라이브러리.py' line=342 args=2 locals=2
+342           RESUME                   0
+
+343           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (문장 + NULL|self)
+              LOAD_CONST               1 (60)
+              LOAD_CONST               2 (110)
+              LOAD_FAST                0 (self)
+              LOAD_ATTR                2 (객체높이)
+              BINARY_OP                0 (+)
+              LOAD_CONST               3 (800)
+              LOAD_CONST               4 (40)
+              LOAD_CONST               5 ('■ ')
+              LOAD_FAST                1 (제목)
+              BINARY_OP                0 (+)
+              LOAD_CONST               6 ('맑은 고딕')
+              LOAD_CONST               4 (40)
+              LOAD_CONST               7 (True)
+              LOAD_CONST               8 (0)
+              CALL                     9
+              POP_TOP
+
+344           LOAD_FAST                0 (self)
+              LOAD_ATTR                2 (객체높이)
+              LOAD_CONST               1 (60)
+              BINARY_OP                0 (+)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               1 (객체높이)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마다음페이지
+file='피피티\\피피티라이브러리.py' line=346 args=1 locals=1
+346           RESUME                   0
+
+347           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (다음페이지 + NULL|self)
+              CALL                     0
+              POP_TOP
+
+348           LOAD_CONST               1 (0)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               1 (객체높이)
+
+349           LOAD_FAST                0 (self)
+              LOAD_ATTR                5 (도형 + NULL|self)
+              BUILD_LIST               0
+              LOAD_CONST               2 (((30, 120), (53, 120), (53, 520), (30, 520), (30, 120)))
+              LIST_EXTEND              1
+              LOAD_CONST               3 (14277081)
+              CALL                     2
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마소제목
+file='피피티\\피피티라이브러리.py' line=351 args=2 locals=2
+351           RESUME                   0
+
+352           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (문장음영 + NULL|self)
+              LOAD_CONST               1 (30)
+              LOAD_CONST               1 (30)
+              LOAD_GLOBAL              3 (len + NULL)
+              LOAD_FAST                1 (제목)
+              CALL                     1
+              LOAD_CONST               2 (52)
+              BINARY_OP                5 (*)
+              LOAD_CONST               3 (40)
+              LOAD_FAST                1 (제목)
+              LOAD_CONST               4 ('맑은 고딕')
+              LOAD_CONST               5 (48)
+              LOAD_CONST               6 (True)
+              LOAD_CONST               7 (16777215)
+              LOAD_CONST               8 (0)
+              CALL                    10
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마주제
+file='피피티\\피피티라이브러리.py' line=354 args=2 locals=2
+354           RESUME                   0
+
+355           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (객체높이)
+              LOAD_CONST               1 (65)
+              BINARY_OP                0 (+)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               0 (객체높이)
+
+356           LOAD_FAST                0 (self)
+              LOAD_ATTR                3 (문장음영 + NULL|self)
+              LOAD_CONST               2 (80)
+              LOAD_CONST               3 (55)
+              LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (객체높이)
+              BINARY_OP                0 (+)
+              LOAD_GLOBAL              5 (len + NULL)
+              LOAD_FAST                1 (제목)
+              CALL                     1
+              LOAD_CONST               4 (40)
+              BINARY_OP                5 (*)
+              LOAD_CONST               4 (40)
+              LOAD_FAST                1 (제목)
+              LOAD_CONST               5 ('맑은 고딕')
+              LOAD_CONST               6 (36)
+              LOAD_CONST               7 (True)
+              LOAD_CONST               8 (16777215)
+              LOAD_CONST               9 (0)
+              CALL                    10
+              POP_TOP
+
+357           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (객체높이)
+              LOAD_CONST              10 (10)
+              BINARY_OP                0 (+)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               0 (객체높이)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.볼펜테마설명
+file='피피티\\피피티라이브러리.py' line=359 args=2 locals=2
+359           RESUME                   0
+
+360           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (객체높이)
+              LOAD_CONST               1 (40)
+              BINARY_OP                0 (+)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               0 (객체높이)
+
+361           LOAD_FAST                0 (self)
+              LOAD_ATTR                3 (문장 + NULL|self)
+              LOAD_CONST               2 (80)
+              LOAD_CONST               3 (60)
+              LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (객체높이)
+              BINARY_OP                0 (+)
+              LOAD_CONST               4 (800)
+              LOAD_CONST               1 (40)
+              LOAD_CONST               5 ('■ ')
+              LOAD_FAST                1 (제목)
+              BINARY_OP                0 (+)
+              LOAD_CONST               6 ('맑은 고딕')
+              LOAD_CONST               7 (32)
+              LOAD_CONST               8 (True)
+              LOAD_CONST               9 (0)
+              CALL                     9
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.마크다운
+file='피피티\\피피티라이브러리.py' line=367 args=3 locals=6
+367            RESUME                   0
+
+368            LOAD_FAST                0 (self)
+               LOAD_ATTR                1 (시작 + NULL|self)
+               CALL                     0
+               POP_TOP
+
+369            LOAD_FAST                0 (self)
+               LOAD_ATTR                2 (피피티)
+               LOAD_ATTR                4 (Presentations)
+               LOAD_ATTR                7 (Add + NULL|self)
+               CALL                     0
+               STORE_FAST               3 (현재피피티)
+
+370            LOAD_FAST                3 (현재피피티)
+               LOAD_ATTR                8 (Slides)
+               LOAD_ATTR                7 (Add + NULL|self)
+               LOAD_CONST               1 (1)
+               LOAD_CONST               2 (12)
+               CALL                     2
+               POP_TOP
+
+371            LOAD_CONST               3 (960)
+               LOAD_FAST                3 (현재피피티)
+               LOAD_ATTR               10 (PageSetup)
+               STORE_ATTR               6 (SlideWidth)
+
+372            LOAD_CONST               4 (540)
+               LOAD_FAST                3 (현재피피티)
+               LOAD_ATTR               10 (PageSetup)
+               STORE_ATTR               7 (SlideHeight)
+
+373            LOAD_CONST               5 ('볼펜')
+               STORE_FAST               4 (테마)
+
+374            LOAD_FAST                1 (배열)
+               GET_ITER
+       L1:     EXTENDED_ARG             1
+               FOR_ITER               490 (to L15)
+               STORE_FAST               5 (아이템)
+
+375            LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST               7 ('테마')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       19 (to L2)
+
+376            LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               STORE_FAST               4 (테마)
+
+378    L2:     LOAD_FAST                4 (테마)
+               LOAD_CONST               5 ('볼펜')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_TRUE         2 (to L3)
+               JUMP_BACKWARD           40 (to L1)
+
+379    L3:     LOAD_GLOBAL             19 (print + NULL)
+               LOAD_FAST                5 (아이템)
+               CALL                     1
+               POP_TOP
+
+380            LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST               8 ('제목페이지')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       33 (to L4)
+
+381            LOAD_FAST                0 (self)
+               LOAD_ATTR               21 (부처명 + NULL|self)
+               LOAD_FAST                2 (이미지1)
+               CALL                     1
+               POP_TOP
+
+382            LOAD_FAST                0 (self)
+               LOAD_ATTR               23 (볼펜테마제목페이지배경 + NULL|self)
+               CALL                     0
+               POP_TOP
+
+383    L4:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST               9 ('날짜')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       34 (to L5)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               25 (볼펜테마제목페이지날짜 + NULL|self)
+               LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               CALL                     1
+               POP_TOP
+
+384    L5:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              10 ('제목1')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       34 (to L6)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               27 (볼펜테마제목페이지제목1 + NULL|self)
+               LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               CALL                     1
+               POP_TOP
+
+385    L6:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              11 ('제목2')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       34 (to L7)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               29 (볼펜테마제목페이지제목2 + NULL|self)
+               LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               CALL                     1
+               POP_TOP
+
+386    L7:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              12 ('발표자')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       34 (to L8)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               31 (볼펜테마제목페이지발표자 + NULL|self)
+               LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               CALL                     1
+               POP_TOP
+
+387    L8:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              13 ('목차페이지')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       16 (to L9)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               33 (볼펜테마목차페이지 + NULL|self)
+               CALL                     0
+               POP_TOP
+
+388    L9:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              14 ('목차')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       34 (to L10)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               35 (볼펜테마목차 + NULL|self)
+               LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               CALL                     1
+               POP_TOP
+
+389   L10:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              15 ('다음페이지')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       16 (to L11)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               37 (볼펜테마다음페이지 + NULL|self)
+               CALL                     0
+               POP_TOP
+
+390   L11:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              16 ('소제목')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       34 (to L12)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               39 (볼펜테마소제목 + NULL|self)
+               LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               CALL                     1
+               POP_TOP
+
+391   L12:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              17 ('주제')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_FALSE       34 (to L13)
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               41 (볼펜테마주제 + NULL|self)
+               LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               CALL                     1
+               POP_TOP
+
+392   L13:     LOAD_FAST                5 (아이템)
+               LOAD_CONST               6 (0)
+               BINARY_SUBSCR
+               LOAD_CONST              18 ('설명')
+               COMPARE_OP              88 (bool(==))
+               POP_JUMP_IF_TRUE         3 (to L14)
+               EXTENDED_ARG             1
+               JUMP_BACKWARD          456 (to L1)
+      L14:     LOAD_FAST                0 (self)
+               LOAD_ATTR               43 (볼펜테마설명 + NULL|self)
+               LOAD_FAST                5 (아이템)
+               LOAD_CONST               1 (1)
+               BINARY_SUBSCR
+               LOAD_ATTR               17 (strip + NULL|self)
+               CALL                     0
+               CALL                     1
+               POP_TOP
+               EXTENDED_ARG             1
+               JUMP_BACKWARD          493 (to L1)
+
+374   L15:     END_FOR
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.홍성주간업무표지생성
+file='피피티\\피피티라이브러리.py' line=399 args=2 locals=5
+399           RESUME                   0
+
+400           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (시작 + NULL|self)
+              CALL                     0
+              POP_TOP
+
+401           LOAD_FAST                0 (self)
+              LOAD_ATTR                2 (피피티)
+              LOAD_ATTR                4 (Presentations)
+              LOAD_ATTR                7 (Add + NULL|self)
+              CALL                     0
+              STORE_FAST               2 (현재피피티)
+
+402           LOAD_FAST                2 (현재피피티)
+              LOAD_ATTR                8 (Slides)
+              LOAD_ATTR                7 (Add + NULL|self)
+              LOAD_CONST               1 (1)
+              LOAD_CONST               2 (12)
+              CALL                     2
+              POP_TOP
+
+403           LOAD_CONST               3 (720)
+              LOAD_FAST                2 (현재피피티)
+              LOAD_ATTR               10 (PageSetup)
+              STORE_ATTR               6 (SlideWidth)
+
+404           LOAD_CONST               4 (540)
+              LOAD_FAST                2 (현재피피티)
+              LOAD_ATTR               10 (PageSetup)
+              STORE_ATTR               7 (SlideHeight)
+
+406           LOAD_FAST                0 (self)
+              LOAD_ATTR               17 (이미지 + NULL|self)
+              LOAD_FAST                1 (이미지1)
+              LOAD_CONST               5 (602)
+              LOAD_CONST               6 (15)
+              LOAD_CONST               7 (110)
+              LOAD_CONST               8 (50)
+              CALL                     5
+              POP_TOP
+
+407           LOAD_FAST                0 (self)
+              LOAD_ATTR               19 (사각형그라데이션 + NULL|self)
+              LOAD_CONST               9 (0)
+              LOAD_CONST              10 (68)
+              LOAD_CONST               3 (720)
+              LOAD_CONST              11 (6)
+              LOAD_CONST              12 (2497516)
+              LOAD_CONST              13 (9518886)
+              CALL                     6
+              POP_TOP
+
+408           LOAD_FAST                0 (self)
+              LOAD_ATTR               19 (사각형그라데이션 + NULL|self)
+              LOAD_CONST               9 (0)
+              LOAD_CONST              14 (506)
+              LOAD_CONST               3 (720)
+              LOAD_CONST              11 (6)
+              LOAD_CONST              13 (9518886)
+              LOAD_CONST              12 (2497516)
+              CALL                     6
+              POP_TOP
+
+409           LOAD_FAST                0 (self)
+              LOAD_ATTR               21 (사각형 + NULL|self)
+              LOAD_CONST              15 (560)
+              LOAD_CONST              16 (153)
+              LOAD_CONST              17 (143)
+              LOAD_CONST              18 (2)
+              LOAD_CONST               9 (0)
+              CALL                     5
+              POP_TOP
+
+411           LOAD_GLOBAL             22 (datetime)
+              LOAD_ATTR               24 (today)
+              PUSH_NULL
+              CALL                     0
+              STORE_FAST               3 (오늘)
+
+412           LOAD_FAST                3 (오늘)
+              LOAD_GLOBAL             27 (timedelta + NULL)
+              LOAD_CONST              19 (7)
+              LOAD_FAST                3 (오늘)
+              LOAD_ATTR               29 (weekday + NULL|self)
+              CALL                     0
+              BINARY_OP               10 (-)
+              CALL                     1
+              BINARY_OP                0 (+)
+              STORE_FAST               4 (다음주월)
+
+413           LOAD_GLOBAL             31 (str + NULL)
+              LOAD_FAST                4 (다음주월)
+              LOAD_ATTR               32 (year)
+              CALL                     1
+              LOAD_CONST              20 ('. ')
+              BINARY_OP                0 (+)
+              LOAD_GLOBAL             31 (str + NULL)
+              LOAD_FAST                4 (다음주월)
+              LOAD_ATTR               34 (month)
+              CALL                     1
+              BINARY_OP                0 (+)
+              LOAD_CONST              20 ('. ')
+              BINARY_OP                0 (+)
+              LOAD_GLOBAL             31 (str + NULL)
+              LOAD_FAST                4 (다음주월)
+              LOAD_ATTR               36 (day)
+              CALL                     1
+              BINARY_OP                0 (+)
+              LOAD_CONST              21 ('.(')
+              BINARY_OP                0 (+)
+              LOAD_FAST                0 (self)
+              LOAD_ATTR               38 (임시요일)
+              LOAD_FAST                4 (다음주월)
+              LOAD_ATTR               29 (weekday + NULL|self)
+              CALL                     0
+              BINARY_SUBSCR
+              BINARY_OP                0 (+)
+              LOAD_CONST              22 (')')
+              BINARY_OP                0 (+)
+              STORE_FAST               4 (다음주월)
+
+415           LOAD_FAST                0 (self)
+              LOAD_ATTR               41 (문장 + NULL|self)
+              LOAD_CONST              23 (548)
+              LOAD_CONST              24 (120)
+              LOAD_CONST              25 (160)
+              LOAD_CONST              26 (40)
+              LOAD_FAST                4 (다음주월)
+              LOAD_CONST              27 ('HY헤드라인M')
+              LOAD_CONST              28 (18)
+              LOAD_CONST              29 (True)
+              LOAD_CONST               9 (0)
+              LOAD_CONST              30 (3)
+              CALL                    10
+              POP_TOP
+
+416           LOAD_FAST                0 (self)
+              LOAD_ATTR               41 (문장 + NULL|self)
+              LOAD_CONST              23 (548)
+              LOAD_CONST              25 (160)
+              LOAD_CONST              25 (160)
+              LOAD_CONST              26 (40)
+              LOAD_CONST              31 ('업 무 보 고')
+              LOAD_CONST              27 ('HY헤드라인M')
+              LOAD_CONST              32 (20)
+              LOAD_CONST              29 (True)
+              LOAD_CONST               9 (0)
+              LOAD_CONST              30 (3)
+              CALL                    10
+              POP_TOP
+
+417           LOAD_FAST                0 (self)
+              LOAD_ATTR               41 (문장 + NULL|self)
+              LOAD_CONST               9 (0)
+              LOAD_CONST              33 (200)
+              LOAD_CONST               3 (720)
+              LOAD_CONST               8 (50)
+              LOAD_CONST              34 ('주 간 업 무 보 고')
+              LOAD_CONST              27 ('HY헤드라인M')
+              LOAD_CONST              35 (44)
+              LOAD_CONST              29 (True)
+              LOAD_CONST               9 (0)
+              LOAD_CONST              18 (2)
+              CALL                    10
+              POP_TOP
+
+418           LOAD_FAST                0 (self)
+              LOAD_ATTR               41 (문장 + NULL|self)
+              LOAD_CONST               9 (0)
+              LOAD_CONST              36 (400)
+              LOAD_CONST               3 (720)
+              LOAD_CONST               8 (50)
+              LOAD_CONST              37 ('홍     성     군')
+              LOAD_CONST              27 ('HY헤드라인M')
+              LOAD_CONST              38 (32)
+              LOAD_CONST              29 (True)
+              LOAD_CONST               9 (0)
+              LOAD_CONST              18 (2)
+              CALL                    10
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.피피티.피피티.홍성주간업무마크다운
+file='피피티\\피피티라이브러리.py' line=422 args=4 locals=18
+ 422            RESUME                   0
+
+ 423            LOAD_FAST                0 (self)
+                LOAD_ATTR                1 (시작 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+ 424            LOAD_FAST                0 (self)
+                LOAD_ATTR                2 (피피티)
+                LOAD_ATTR                4 (Presentations)
+                LOAD_ATTR                7 (Add + NULL|self)
+                CALL                     0
+                STORE_FAST               4 (현재피피티)
+
+ 425            LOAD_FAST                4 (현재피피티)
+                LOAD_ATTR                8 (Slides)
+                LOAD_ATTR                7 (Add + NULL|self)
+                LOAD_CONST               1 (1)
+                LOAD_CONST               2 (12)
+                CALL                     2
+                POP_TOP
+
+ 426            LOAD_CONST               3 (720)
+                LOAD_FAST                4 (현재피피티)
+                LOAD_ATTR               10 (PageSetup)
+                STORE_ATTR               6 (SlideWidth)
+
+ 427            LOAD_CONST               4 (540)
+                LOAD_FAST                4 (현재피피티)
+                LOAD_ATTR               10 (PageSetup)
+                STORE_ATTR               7 (SlideHeight)
+
+ 428            LOAD_CONST               5 ('')
+                STORE_FAST               5 (부서명)
+
+ 429            LOAD_CONST               6 (0)
+                STORE_FAST               6 (순번)
+
+ 430            LOAD_CONST               6 (0)
+                STORE_FAST               7 (내용카운트)
+
+ 431            LOAD_CONST               0 (None)
+                STORE_FAST               8 (표)
+
+ 433            LOAD_CONST               6 (0)
+                STORE_FAST               9 (마지막제목인덱스)
+
+ 434            LOAD_GLOBAL             17 (enumerate + NULL)
+                LOAD_FAST                1 (배열)
+                CALL                     1
+                GET_ITER
+                LOAD_FAST_AND_CLEAR     10 (index)
+                LOAD_FAST_AND_CLEAR     11 (item)
+                SWAP                     3
+        L1:     BUILD_LIST               0
+                SWAP                     2
+                GET_ITER
+        L2:     FOR_ITER                18 (to L5)
+                UNPACK_SEQUENCE          2
+                STORE_FAST_STORE_FAST  171 (index, item)
+                LOAD_FAST               11 (item)
+                LOAD_CONST               6 (0)
+                BINARY_SUBSCR
+                LOAD_CONST               7 ('제목')
+                COMPARE_OP              88 (bool(==))
+        L3:     POP_JUMP_IF_TRUE         2 (to L4)
+                JUMP_BACKWARD           16 (to L2)
+        L4:     LOAD_FAST               10 (index)
+                LIST_APPEND              2
+                JUMP_BACKWARD           20 (to L2)
+        L5:     END_FOR
+                POP_TOP
+        L6:     STORE_FAST              12 (제목인덱스)
+                STORE_FAST              10 (index)
+                STORE_FAST              11 (item)
+
+ 435            LOAD_FAST               12 (제목인덱스)
+                TO_BOOL
+                POP_JUMP_IF_FALSE        5 (to L7)
+                LOAD_FAST               12 (제목인덱스)
+                LOAD_CONST               8 (-1)
+                BINARY_SUBSCR
+                STORE_FAST               9 (마지막제목인덱스)
+
+ 437    L7:     LOAD_GLOBAL             17 (enumerate + NULL)
+                LOAD_FAST                1 (배열)
+                CALL                     1
+                GET_ITER
+        L8:     EXTENDED_ARG             3
+                FOR_ITER               978 (to L20)
+                UNPACK_SEQUENCE          2
+                STORE_FAST_STORE_FAST  222 (인덱스, 아이템)
+
+ 438            LOAD_FAST               14 (아이템)
+                LOAD_CONST               6 (0)
+                BINARY_SUBSCR
+                LOAD_CONST               9 ('부서')
+                COMPARE_OP              88 (bool(==))
+                EXTENDED_ARG             1
+                POP_JUMP_IF_FALSE      456 (to L12)
+
+ 439            LOAD_FAST               14 (아이템)
+                LOAD_CONST               1 (1)
+                BINARY_SUBSCR
+                LOAD_ATTR               19 (strip + NULL|self)
+                CALL                     0
+                STORE_FAST              15 (부서)
+
+ 440            LOAD_FAST               15 (부서)
+                STORE_FAST               5 (부서명)
+
+ 441            LOAD_GLOBAL             21 (len + NULL)
+                LOAD_FAST               15 (부서)
+                CALL                     1
+                LOAD_CONST              10 (3)
+                COMPARE_OP              58 (bool(<=))
+                POP_JUMP_IF_FALSE       18 (to L9)
+                LOAD_CONST              11 ('     ')
+                LOAD_ATTR               23 (join + NULL|self)
+                LOAD_FAST               15 (부서)
+                CALL                     1
+                STORE_FAST              15 (부서)
+                JUMP_FORWARD            50 (to L11)
+
+ 442    L9:     LOAD_GLOBAL             21 (len + NULL)
+                LOAD_FAST               15 (부서)
+                CALL                     1
+                LOAD_CONST              12 (4)
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       18 (to L10)
+                LOAD_CONST              13 ('  ')
+                LOAD_ATTR               23 (join + NULL|self)
+                LOAD_FAST               15 (부서)
+                CALL                     1
+                STORE_FAST              15 (부서)
+                JUMP_FORWARD            17 (to L11)
+
+ 443   L10:     LOAD_CONST              14 (' ')
+                LOAD_ATTR               23 (join + NULL|self)
+                LOAD_FAST               15 (부서)
+                CALL                     1
+                STORE_FAST              15 (부서)
+
+ 445   L11:     LOAD_FAST                0 (self)
+                LOAD_ATTR               25 (이미지 + NULL|self)
+                LOAD_FAST                2 (이미지1)
+                LOAD_CONST              15 (602)
+                LOAD_CONST              16 (15)
+                LOAD_CONST              17 (110)
+                LOAD_CONST              18 (50)
+                CALL                     5
+                POP_TOP
+
+ 446            LOAD_FAST                0 (self)
+                LOAD_ATTR               27 (사각형그라데이션 + NULL|self)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              19 (68)
+                LOAD_CONST               3 (720)
+                LOAD_CONST              20 (6)
+                LOAD_CONST              21 (2497516)
+                LOAD_CONST              22 (9518886)
+                CALL                     6
+                POP_TOP
+
+ 447            LOAD_FAST                0 (self)
+                LOAD_ATTR               27 (사각형그라데이션 + NULL|self)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              23 (506)
+                LOAD_CONST               3 (720)
+                LOAD_CONST              20 (6)
+                LOAD_CONST              22 (9518886)
+                LOAD_CONST              21 (2497516)
+                CALL                     6
+                POP_TOP
+
+ 448            LOAD_FAST                0 (self)
+                LOAD_ATTR               29 (사각형 + NULL|self)
+                LOAD_CONST              24 (560)
+                LOAD_CONST              25 (153)
+                LOAD_CONST              26 (143)
+                LOAD_CONST              27 (2)
+                LOAD_CONST               6 (0)
+                CALL                     5
+                POP_TOP
+
+ 450            LOAD_GLOBAL             30 (datetime)
+                LOAD_ATTR               32 (today)
+                PUSH_NULL
+                CALL                     0
+                STORE_FAST              16 (오늘)
+
+ 451            LOAD_FAST               16 (오늘)
+                LOAD_GLOBAL             35 (timedelta + NULL)
+                LOAD_CONST              28 (7)
+                LOAD_FAST               16 (오늘)
+                LOAD_ATTR               37 (weekday + NULL|self)
+                CALL                     0
+                BINARY_OP               10 (-)
+                CALL                     1
+                BINARY_OP                0 (+)
+                STORE_FAST              17 (다음주월)
+
+ 452            LOAD_GLOBAL             39 (str + NULL)
+                LOAD_FAST               17 (다음주월)
+                LOAD_ATTR               40 (year)
+                CALL                     1
+                LOAD_CONST              29 ('. ')
+                BINARY_OP                0 (+)
+                LOAD_GLOBAL             39 (str + NULL)
+                LOAD_FAST               17 (다음주월)
+                LOAD_ATTR               42 (month)
+                CALL                     1
+                BINARY_OP                0 (+)
+                LOAD_CONST              29 ('. ')
+                BINARY_OP                0 (+)
+                LOAD_GLOBAL             39 (str + NULL)
+                LOAD_FAST               17 (다음주월)
+                LOAD_ATTR               44 (day)
+                CALL                     1
+                BINARY_OP                0 (+)
+                LOAD_CONST              30 ('.(')
+                BINARY_OP                0 (+)
+                LOAD_FAST                0 (self)
+                LOAD_ATTR               46 (임시요일)
+                LOAD_FAST               17 (다음주월)
+                LOAD_ATTR               37 (weekday + NULL|self)
+                CALL                     0
+                BINARY_SUBSCR
+                BINARY_OP                0 (+)
+                LOAD_CONST              31 (')')
+                BINARY_OP                0 (+)
+                STORE_FAST              17 (다음주월)
+
+ 454            LOAD_FAST                0 (self)
+                LOAD_ATTR               49 (문장 + NULL|self)
+                LOAD_CONST              32 (548)
+                LOAD_CONST              33 (120)
+                LOAD_CONST              34 (160)
+                LOAD_CONST              35 (40)
+                LOAD_FAST               17 (다음주월)
+                LOAD_CONST              36 ('HY헤드라인M')
+                LOAD_CONST              37 (18)
+                LOAD_CONST              38 (True)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              10 (3)
+                CALL                    10
+                POP_TOP
+
+ 455            LOAD_FAST                0 (self)
+                LOAD_ATTR               49 (문장 + NULL|self)
+                LOAD_CONST              32 (548)
+                LOAD_CONST              34 (160)
+                LOAD_CONST              34 (160)
+                LOAD_CONST              35 (40)
+                LOAD_CONST              39 ('업 무 보 고')
+                LOAD_CONST              36 ('HY헤드라인M')
+                LOAD_CONST              40 (20)
+                LOAD_CONST              38 (True)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              10 (3)
+                CALL                    10
+                POP_TOP
+
+ 456            LOAD_FAST                0 (self)
+                LOAD_ATTR               49 (문장 + NULL|self)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              41 (200)
+                LOAD_CONST               3 (720)
+                LOAD_CONST              18 (50)
+                LOAD_CONST              42 ('주 간 업 무 보 고')
+                LOAD_CONST              36 ('HY헤드라인M')
+                LOAD_CONST              43 (44)
+                LOAD_CONST              38 (True)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              27 (2)
+                CALL                    10
+                POP_TOP
+
+ 457            LOAD_FAST                0 (self)
+                LOAD_ATTR               49 (문장 + NULL|self)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              44 (400)
+                LOAD_CONST               3 (720)
+                LOAD_CONST              18 (50)
+                LOAD_FAST               15 (부서)
+                LOAD_CONST              36 ('HY헤드라인M')
+                LOAD_CONST              45 (32)
+                LOAD_CONST              38 (True)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              27 (2)
+                CALL                    10
+                POP_TOP
+                EXTENDED_ARG             1
+                JUMP_BACKWARD          472 (to L8)
+
+ 459   L12:     LOAD_FAST               14 (아이템)
+                LOAD_CONST               6 (0)
+                BINARY_SUBSCR
+                LOAD_CONST               7 ('제목')
+                COMPARE_OP              88 (bool(==))
+                EXTENDED_ARG             1
+                POP_JUMP_IF_FALSE      301 (to L16)
+
+ 460            LOAD_FAST                8 (표)
+                LOAD_CONST               0 (None)
+                COMPARE_OP             119 (bool(!=))
+                POP_JUMP_IF_FALSE       44 (to L13)
+                LOAD_FAST                0 (self)
+                LOAD_ATTR               51 (홍성표줄간격지정 + NULL|self)
+                LOAD_FAST                8 (표)
+                LOAD_ATTR               52 (Table)
+                LOAD_ATTR               55 (Cell + NULL|self)
+                LOAD_CONST              27 (2)
+                LOAD_CONST              27 (2)
+                CALL                     2
+                LOAD_FAST                7 (내용카운트)
+                CALL                     2
+                POP_TOP
+
+ 461   L13:     LOAD_CONST               6 (0)
+                STORE_FAST               7 (내용카운트)
+
+ 462            LOAD_FAST                0 (self)
+                LOAD_ATTR               57 (다음페이지 + NULL|self)
+                CALL                     0
+                POP_TOP
+
+ 463            LOAD_FAST                0 (self)
+                LOAD_ATTR               25 (이미지 + NULL|self)
+                LOAD_FAST                2 (이미지1)
+                LOAD_CONST              15 (602)
+                LOAD_CONST              16 (15)
+                LOAD_CONST              17 (110)
+                LOAD_CONST              18 (50)
+                CALL                     5
+                POP_TOP
+
+ 464            LOAD_FAST                0 (self)
+                LOAD_ATTR               27 (사각형그라데이션 + NULL|self)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              19 (68)
+                LOAD_CONST               3 (720)
+                LOAD_CONST              20 (6)
+                LOAD_CONST              21 (2497516)
+                LOAD_CONST              22 (9518886)
+                CALL                     6
+                POP_TOP
+
+ 465            LOAD_FAST                0 (self)
+                LOAD_ATTR               27 (사각형그라데이션 + NULL|self)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              23 (506)
+                LOAD_CONST               3 (720)
+                LOAD_CONST              20 (6)
+                LOAD_CONST              22 (9518886)
+                LOAD_CONST              21 (2497516)
+                CALL                     6
+                POP_TOP
+
+ 466            LOAD_FAST                0 (self)
+                LOAD_ATTR               59 (홍성둥근사각형 + NULL|self)
+                LOAD_CONST              46 (225)
+                LOAD_CONST              40 (20)
+                LOAD_CONST              47 (270)
+                LOAD_CONST              35 (40)
+                LOAD_CONST              48 (9518884)
+                LOAD_FAST                5 (부서명)
+                CALL                     6
+                POP_TOP
+
+ 467            LOAD_FAST                0 (self)
+                LOAD_ATTR               49 (문장 + NULL|self)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              49 (90)
+                LOAD_CONST              34 (160)
+                LOAD_CONST              35 (40)
+                LOAD_CONST              50 ('■ 주간계획')
+                LOAD_CONST              36 ('HY헤드라인M')
+                LOAD_CONST              40 (20)
+                LOAD_CONST              38 (True)
+                LOAD_CONST               6 (0)
+                LOAD_CONST               1 (1)
+                CALL                    10
+                POP_TOP
+
+ 468            LOAD_FAST                6 (순번)
+                LOAD_CONST               1 (1)
+                BINARY_OP                0 (+)
+                STORE_FAST               6 (순번)
+
+ 469            LOAD_FAST_LOAD_FAST    217 (인덱스, 마지막제목인덱스)
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       45 (to L14)
+
+ 470            LOAD_FAST                0 (self)
+                LOAD_ATTR               49 (문장 + NULL|self)
+                LOAD_CONST              51 (515)
+                LOAD_CONST              52 (511)
+                LOAD_CONST              41 (200)
+                LOAD_CONST              35 (40)
+                LOAD_FAST                5 (부서명)
+                LOAD_CONST              53 (' - ')
+                BINARY_OP                0 (+)
+                LOAD_GLOBAL             39 (str + NULL)
+                LOAD_FAST                6 (순번)
+                CALL                     1
+                BINARY_OP                0 (+)
+                LOAD_CONST              54 ('[E]')
+                BINARY_OP                0 (+)
+                LOAD_CONST              36 ('HY헤드라인M')
+                LOAD_CONST              16 (15)
+                LOAD_CONST              38 (True)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              10 (3)
+                CALL                    10
+                POP_TOP
+                JUMP_FORWARD            41 (to L15)
+
+ 472   L14:     LOAD_FAST                0 (self)
+                LOAD_ATTR               49 (문장 + NULL|self)
+                LOAD_CONST              51 (515)
+                LOAD_CONST              52 (511)
+                LOAD_CONST              41 (200)
+                LOAD_CONST              35 (40)
+                LOAD_FAST                5 (부서명)
+                LOAD_CONST              53 (' - ')
+                BINARY_OP                0 (+)
+                LOAD_GLOBAL             39 (str + NULL)
+                LOAD_FAST                6 (순번)
+                CALL                     1
+                BINARY_OP                0 (+)
+                LOAD_CONST              36 ('HY헤드라인M')
+                LOAD_CONST              16 (15)
+                LOAD_CONST              38 (True)
+                LOAD_CONST               6 (0)
+                LOAD_CONST              10 (3)
+                CALL                    10
+                POP_TOP
+
+ 473   L15:     LOAD_FAST                0 (self)
+                LOAD_ATTR               61 (홍성표 + NULL|self)
+                LOAD_FAST               14 (아이템)
+                LOAD_CONST               1 (1)
+                BINARY_SUBSCR
+                LOAD_FAST                6 (순번)
+                CALL                     2
+                STORE_FAST               8 (표)
+                EXTENDED_ARG             3
+                JUMP_BACKWARD          783 (to L8)
+
+ 475   L16:     LOAD_FAST               14 (아이템)
+                LOAD_CONST               6 (0)
+                BINARY_SUBSCR
+                LOAD_CONST              55 ('원')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       55 (to L17)
+
+ 476            LOAD_FAST                7 (내용카운트)
+                LOAD_CONST               1 (1)
+                BINARY_OP                0 (+)
+                STORE_FAST               7 (내용카운트)
+
+ 477            LOAD_FAST                0 (self)
+                LOAD_ATTR               63 (홍성표텍스트추가 + NULL|self)
+                LOAD_FAST                8 (표)
+                LOAD_ATTR               52 (Table)
+                LOAD_ATTR               55 (Cell + NULL|self)
+                LOAD_CONST              27 (2)
+                LOAD_CONST              27 (2)
+                CALL                     2
+                LOAD_FAST_LOAD_FAST     62 (이미지2, 아이템)
+                LOAD_CONST               1 (1)
+                BINARY_SUBSCR
+                CALL                     3
+                POP_TOP
+                EXTENDED_ARG             3
+                JUMP_BACKWARD          847 (to L8)
+
+ 478   L17:     LOAD_FAST               14 (아이템)
+                LOAD_CONST               6 (0)
+                BINARY_SUBSCR
+                LOAD_CONST              56 ('바')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_FALSE       56 (to L18)
+
+ 479            LOAD_FAST                7 (내용카운트)
+                LOAD_CONST               1 (1)
+                BINARY_OP                0 (+)
+                STORE_FAST               7 (내용카운트)
+
+ 480            LOAD_FAST                0 (self)
+                LOAD_ATTR               65 (홍성표텍스트추가옵션 + NULL|self)
+                LOAD_FAST                8 (표)
+                LOAD_ATTR               52 (Table)
+                LOAD_ATTR               55 (Cell + NULL|self)
+                LOAD_CONST              27 (2)
+                LOAD_CONST              27 (2)
+                CALL                     2
+                LOAD_CONST              53 (' - ')
+                LOAD_FAST               14 (아이템)
+                LOAD_CONST               1 (1)
+                BINARY_SUBSCR
+                CALL                     3
+                POP_TOP
+                EXTENDED_ARG             3
+                JUMP_BACKWARD          912 (to L8)
+
+ 481   L18:     LOAD_FAST               14 (아이템)
+                LOAD_CONST               6 (0)
+                BINARY_SUBSCR
+                LOAD_CONST              57 ('당구장')
+                COMPARE_OP              88 (bool(==))
+                POP_JUMP_IF_TRUE         3 (to L19)
+                EXTENDED_ARG             3
+                JUMP_BACKWARD          924 (to L8)
+
+ 482   L19:     LOAD_FAST                7 (내용카운트)
+                LOAD_CONST               1 (1)
+                BINARY_OP                0 (+)
+                STORE_FAST               7 (내용카운트)
+
+ 483            LOAD_FAST                0 (self)
+                LOAD_ATTR               65 (홍성표텍스트추가옵션 + NULL|self)
+                LOAD_FAST                8 (표)
+                LOAD_ATTR               52 (Table)
+                LOAD_ATTR               55 (Cell + NULL|self)
+                LOAD_CONST              27 (2)
+                LOAD_CONST              27 (2)
+                CALL                     2
+                LOAD_CONST              58 ('   ※ ')
+                LOAD_FAST               14 (아이템)
+                LOAD_CONST               1 (1)
+                BINARY_SUBSCR
+                LOAD_CONST              59 (14)
+                CALL                     4
+                POP_TOP
+                EXTENDED_ARG             3
+                JUMP_BACKWARD          981 (to L8)
+
+ 437   L20:     END_FOR
+                POP_TOP
+
+ 485            LOAD_FAST                8 (표)
+                LOAD_CONST               0 (None)
+                COMPARE_OP             119 (bool(!=))
+                POP_JUMP_IF_FALSE       45 (to L21)
+                LOAD_FAST                0 (self)
+                LOAD_ATTR               51 (홍성표줄간격지정 + NULL|self)
+                LOAD_FAST                8 (표)
+                LOAD_ATTR               52 (Table)
+                LOAD_ATTR               55 (Cell + NULL|self)
+                LOAD_CONST              27 (2)
+                LOAD_CONST              27 (2)
+                CALL                     2
+                LOAD_FAST                7 (내용카운트)
+                CALL                     2
+                POP_TOP
+                RETURN_CONST             0 (None)
+       L21:     RETURN_CONST             0 (None)
+
+  --   L22:     SWAP                     2
+                POP_TOP
+
+ 434            SWAP                     3
+                STORE_FAST              11 (item)
+                STORE_FAST              10 (index)
+                RERAISE                  0
+ExceptionTable:
+  L1 to L3 -> L22 [3]
+  L4 to L6 -> L22 [3]

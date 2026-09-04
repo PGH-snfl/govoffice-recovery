@@ -1,0 +1,44 @@
+{
+  "category": "isolated_interactive",
+  "selected": 2,
+  "start": 0,
+  "completed": 2,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "불러오기",
+      "timed_out": true,
+      "timeout_seconds": 60.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"불러오기\"}\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주교사진대장",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 58,
+        "text_sha256": "668bed13c38cbff8a2cfbfacea2ca83335e98dbd33492cefed9c8affbcdac95b",
+        "hwpml_length": 43162,
+        "hwpml_sha256": "d150d4d9462177c1299cc53aaa11250a696349c27869d5d19a8dc9135bd5e712"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 58,
+        "text_sha256": "668bed13c38cbff8a2cfbfacea2ca83335e98dbd33492cefed9c8affbcdac95b",
+        "hwpml_length": 43162,
+        "hwpml_sha256": "d150d4d9462177c1299cc53aaa11250a696349c27869d5d19a8dc9135bd5e712"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

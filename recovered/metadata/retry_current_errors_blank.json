@@ -1,0 +1,35 @@
+{
+  "category": "blank_document",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리_2",
+      "method": "충남주자사업계획서",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 1215,
+        "text_sha256": "0ce79bad40b21ea8692627a1f6f377a5acbfe9d1eb1cd746fb1aa3ca6655763f",
+        "hwpml_length": 90208,
+        "hwpml_sha256": "3aec87ef1babfe4285886f2c60d4db87e99507229696f795afc80c9f6562ca4b"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "TypeError",
+        "error": "Generated한컴2CompositionMixin.충남주자서식() missing 1 required positional argument: '내용'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 3665, in 충남주자사업계획서\n    self.새창(); self.문서여백(20, 20, 10, 10, 10, 10); self.충남주자서식(2); self.가운데정렬(); self.폰트(\"휴먼명조\"); self.글자크기(16); self.진하게(); self.문장(\"충청남도 주민자치회 제안사업 사업계획서\\r\\n\\r\\n\")\n                                                        ~~~~~~~~~~~~~~~~~^^^\nTypeError: Generated한컴2CompositionMixin.충남주자서식() missing 1 required positional argument: '내용'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

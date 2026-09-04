@@ -1,0 +1,134 @@
+{
+  "category": "argument_fixture",
+  "selected": 4,
+  "start": 0,
+  "completed": 4,
+  "results": [
+    {
+      "module": "한컴라이브러리_1",
+      "method": "경기신보회색박스",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 16,
+        "text_sha256": "0caa15a6f731980e6fcbba8a4c770e68f3aab12c255c7a026cf2c77b4c679680",
+        "hwpml_length": 31964,
+        "hwpml_sha256": "78afd9de270e5316cc8ab80530c2c946ae1f9cc989c776b665d62d5a91706d80"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 14,
+        "text_sha256": "7bb8f5b90be28cf1974c6ec73c2cf0c45019aff8a91bcf39c42203284e609a5e",
+        "hwpml_length": 31944,
+        "hwpml_sha256": "e9154ff2560889b4ed6a201835eeae2d32272894db97ea33bbb6dddaea77f9d0"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공궁극의정리",
+      "args": [
+        "숫자만"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28884,
+        "hwpml_sha256": "41335a1459abb238fb6770140a5dd72ee6d8ef0e9dca2a634dd10ca60af934af"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 27739,
+        "hwpml_sha256": "0ecd89d9e85cb0f28c4df61c73e2ca8210dbd7c1d47a494aed29234a0502d54d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "법무담당관궁극의정리",
+      "args": [
+        "숫자만",
+        1,
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 27739,
+        "hwpml_sha256": "64c95cd1b619bfe06bc57ed9060f0903c6d062c99172308d8ebe8734383bfa92"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 29646,
+        "hwpml_sha256": "e5fba97f51152e4f9d38ed728f0d7b66d294765e14af465deade42f6b44fa19a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "산인공시간계획표",
+      "args": [
+        "항목1\n항목2\n100"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 55,
+        "text_sha256": "94403c2c78c0edb4d4619b6ab140ecc3e25b5d33e8d6080740c78b7defbf68a1",
+        "hwpml_length": 37998,
+        "hwpml_sha256": "eff7e708c5603f46235c5bf0e70fce47337c1480f50b332776153b81e0b29758"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 28,
+        "text_sha256": "66c928910382dbfb8dad1ba6b858f109a70d545d155d562fd757c98e86551331",
+        "hwpml_length": 32511,
+        "hwpml_sha256": "142b72de0db114efb283f1f82a008e7483ad54d8f90871ae0573bcbaa2831682"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

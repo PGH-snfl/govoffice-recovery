@@ -1,0 +1,335 @@
+{
+  "category": "isolated_interactive",
+  "selected": 12,
+  "start": 0,
+  "completed": 12,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "파일목록",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": "('C:\\\\Users\\\\skyla\\\\바탕 화면\\\\범정부오피스\\\\범피스1303_분석\\\\extracted\\\\resources\\\\아이콘\\\\표탭\\\\그림4.png',)",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": "('C:\\\\Users\\\\skyla\\\\바탕 화면\\\\범정부오피스\\\\범피스1303_분석\\\\extracted\\\\resources\\\\아이콘\\\\표탭\\\\그림4.png',)",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "파일목록사진",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": "('C:\\\\Users\\\\skyla\\\\바탕 화면\\\\범정부오피스\\\\범피스1303_분석\\\\extracted\\\\resources\\\\아이콘\\\\표탭\\\\그림4.png',)",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": "('C:\\\\Users\\\\skyla\\\\바탕 화면\\\\범정부오피스\\\\범피스1303_분석\\\\extracted\\\\resources\\\\아이콘\\\\표탭\\\\그림4.png',)",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "PDF를한컴으로",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 11528,
+        "hwpml_sha256": "66a492064b3efa2a27b77e383ea1f9154e5894207b16e01c23ab7ebb6616fdcd"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 11528,
+        "hwpml_sha256": "c49be78d51fc9f4cc194e59bac33ab7585b33a750494670fa51f0715edae2f88"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "우본사진2단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 24,
+        "text_sha256": "1ca321bb6bff17ef8c8372e4d2f68659a04657baec256c8b9eb04187f9d1634c",
+        "hwpml_length": 38346,
+        "hwpml_sha256": "01274889cde76756b40326aededd2265bc6b736a3371bbad6e8e403dc50da2c4"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 24,
+        "text_sha256": "1ca321bb6bff17ef8c8372e4d2f68659a04657baec256c8b9eb04187f9d1634c",
+        "hwpml_length": 38346,
+        "hwpml_sha256": "5762593cf5f25efa76a6d431e0473b8c08fb0d7ca357599c2015166b14626107"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남붙임사진",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "99d2c037b431fec0779252db9cbd49bc627bbd99a471d859fe5ee8596e8cd5bb",
+        "hwpml_length": 40064,
+        "hwpml_sha256": "24c221f74f6abb277a48634267bb58f41c09b3e3fbab07c27b5387ef3c820487"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "99d2c037b431fec0779252db9cbd49bc627bbd99a471d859fe5ee8596e8cd5bb",
+        "hwpml_length": 40064,
+        "hwpml_sha256": "76278ae4f4913478f2aaa9962574573788512c918bad0b7c5d17d7ee6aa2080c"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "산인공사진1단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 2,
+        "text_sha256": "08b17e433630742bc70022e9e0e1e11a91bd43383b33226afab9a5bdaf778bbf",
+        "hwpml_length": 36430,
+        "hwpml_sha256": "765bef3b78a2cdf7c8d0615ecf2d34c6e776f0a8a8ff8166b315b3abccf479a8"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 2,
+        "text_sha256": "08b17e433630742bc70022e9e0e1e11a91bd43383b33226afab9a5bdaf778bbf",
+        "hwpml_length": 36430,
+        "hwpml_sha256": "dd0526c6b12b331c5aa25804e83048b0ba01639502fe65af5157d0c779977b81"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "산인공사진2단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 5,
+        "text_sha256": "13ce6b57b06c92ce14e787e548f13fe9c182fb6bc8c8469107c9aa92f5374f79",
+        "hwpml_length": 37262,
+        "hwpml_sha256": "f50f345bee8a03393b3ce7afc8dc185e185930a1dac431093cc0092eaab4d1c7"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 5,
+        "text_sha256": "13ce6b57b06c92ce14e787e548f13fe9c182fb6bc8c8469107c9aa92f5374f79",
+        "hwpml_length": 37262,
+        "hwpml_sha256": "926d236ca3685601eccf4df6f9ed755fb02c2e994d91021ef70631e07dc3c2fc"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "산인공사진3단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "3a61b6497673438574e3346c1fe7106c6e656f9c2f8ccca56b3d25eebed6e6c5",
+        "hwpml_length": 38093,
+        "hwpml_sha256": "913ec39022ea6406d8ad5b2ba6b128afec2ea4fdc4d20ca4f4f51e0c3bc1280f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "3a61b6497673438574e3346c1fe7106c6e656f9c2f8ccca56b3d25eebed6e6c5",
+        "hwpml_length": 38093,
+        "hwpml_sha256": "2d99ca4c5590a70b6f9bf7054c8d04d5a61f8707ba069e5d0fc6ca3c26c47fbe"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "기본서식선택파일끼워넣기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 31291,
+        "hwpml_sha256": "e722eaec86ad26911538e94194fd0d1411483476aaafc15c1856c6a3dfc72c53"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 31291,
+        "hwpml_sha256": "b5cc34b7ba4e132d4352c22b00fda78f0c4b9928633a184a28b87599a689a3ba"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식샌드위치사진",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 34060,
+        "hwpml_sha256": "b6ffee04eca9cba396a5db426e4ca82fde46537a83181e9ed1de92a622db4210"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 34060,
+        "hwpml_sha256": "04d7a7a154537d70f95ecf6fff2ea038090bc801f85df341c00cb8ec6f64b9c1"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주교사진대장",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남도붙임사진",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "6dadd77f5fe3bea1c9a4b84469e279381fc42e6de64f83ec180cf044c07e9754",
+        "hwpml_length": 40029,
+        "hwpml_sha256": "8d0dc8ac8c4a9b65166cf6edb5180973313edd6777ceb785a22c722c6b5b2eca"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "6dadd77f5fe3bea1c9a4b84469e279381fc42e6de64f83ec180cf044c07e9754",
+        "hwpml_length": 40029,
+        "hwpml_sha256": "a3a6a6fd1aa1e9a5b7ac794f9153b49c78a7d92f0826252567e31ff92d388855"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

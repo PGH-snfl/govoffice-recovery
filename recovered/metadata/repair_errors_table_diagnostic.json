@@ -1,0 +1,65 @@
+{
+  "category": "table_fixture",
+  "selected": 3,
+  "start": 0,
+  "completed": 3,
+  "results": [
+    {
+      "module": "한컴라이브러리_1",
+      "method": "행안부단일추출",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name '엑셀' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_1.py\", line 17405, in 행안부단일추출\nNameError: name '엑셀' is not defined\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147221005, '잘못된 클래스 문자열입니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\엑셀\\엑셀라이브러리.py\", line 13, in 시작\n    self.엑셀 = GetActiveObject(\"Excel.Application\")\n                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 93, in GetActiveObject\n    resultCLSID = pywintypes.IID(Class)\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 81, in _GetGoodDispatch\n    IDispatch = pythoncom.connect(IDispatch)\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 2043, in 행안부단일추출\n    임시엑셀 = self._행안부엑셀시작()\n               ~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 53, in _행안부엑셀시작\n    임시엑셀.시작()\n    ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\엑셀\\엑셀라이브러리.py\", line 15, in 시작\n    self.엑셀 = EnsureDispatch(\"Excel.Application\")\n                ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\gencache.py\", line 640, in EnsureDispatch\n    disp = win32com.client.Dispatch(prog_id)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 116, in Dispatch\n    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 101, in _GetGoodDispatchAndUserName\n    return (_GetGoodDispatch(IDispatch, clsctx), userName)\n            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 83, in _GetGoodDispatch\n    IDispatch = pythoncom.CoCreateInstance(\n        IDispatch, None, clsctx, pythoncom.IID_IDispatch\n    )\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "행안부전체추출",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name '엑셀' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_1.py\", line 17432, in 행안부전체추출\nNameError: name '엑셀' is not defined\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147221005, '잘못된 클래스 문자열입니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\엑셀\\엑셀라이브러리.py\", line 13, in 시작\n    self.엑셀 = GetActiveObject(\"Excel.Application\")\n                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 93, in GetActiveObject\n    resultCLSID = pywintypes.IID(Class)\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 81, in _GetGoodDispatch\n    IDispatch = pythoncom.connect(IDispatch)\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 2058, in 행안부전체추출\n    임시엑셀 = self._행안부엑셀시작()\n               ~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 53, in _행안부엑셀시작\n    임시엑셀.시작()\n    ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\엑셀\\엑셀라이브러리.py\", line 15, in 시작\n    self.엑셀 = EnsureDispatch(\"Excel.Application\")\n                ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\gencache.py\", line 640, in EnsureDispatch\n    disp = win32com.client.Dispatch(prog_id)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 116, in Dispatch\n    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 101, in _GetGoodDispatchAndUserName\n    return (_GetGoodDispatch(IDispatch, clsctx), userName)\n            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 83, in _GetGoodDispatch\n    IDispatch = pythoncom.CoCreateInstance(\n        IDispatch, None, clsctx, pythoncom.IID_IDispatch\n    )\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "가이드물품구매필요서류",
+      "timed_out": true,
+      "timeout_seconds": 60.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"가이드물품구매필요서류\"}\n{\"phase\": \"recovered\", \"method\": \"가이드물품구매필요서류\"}\n"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "category": "blank_document",
+  "selected": 1,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공사장요청사항",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 726,
+        "text_sha256": "63914fb9cf2f7df0e582616555eaaa3da753045c3d3731ac9ef8e14c92ece1de",
+        "hwpml_length": 84200,
+        "hwpml_sha256": "6ba174ba9d3b27704ec1c85b3db9c4fa50b94d16c267ae9df8c529e0f4d5b407"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 726,
+        "text_sha256": "63914fb9cf2f7df0e582616555eaaa3da753045c3d3731ac9ef8e14c92ece1de",
+        "hwpml_length": 84200,
+        "hwpml_sha256": "6ba174ba9d3b27704ec1c85b3db9c4fa50b94d16c267ae9df8c529e0f4d5b407"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

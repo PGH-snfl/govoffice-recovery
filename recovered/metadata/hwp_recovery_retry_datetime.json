@@ -1,0 +1,790 @@
+{
+  "category": "blank_document",
+  "selected": 27,
+  "completed": 27,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 15,
+        "text_sha256": "d45d87c644066ed498d7d0b620468a9a4d7cc0aa40a977bc61a897bc96a1d748",
+        "hwpml_length": 27480,
+        "hwpml_sha256": "2e59792d1a3b6d0b96ff46bf19930889ea49d011cf0e176f76bb4aafe45a1f50"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 15,
+        "text_sha256": "d45d87c644066ed498d7d0b620468a9a4d7cc0aa40a977bc61a897bc96a1d748",
+        "hwpml_length": 27480,
+        "hwpml_sha256": "2e59792d1a3b6d0b96ff46bf19930889ea49d011cf0e176f76bb4aafe45a1f50"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜점생략",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 14,
+        "text_sha256": "93ae28541e20ca43ee250694be8a250fce7e78e2563002297f345d815678435f",
+        "hwpml_length": 27479,
+        "hwpml_sha256": "754a772c9ce295d957de8742921b927aa83901bfc3cd4f13533223d8debbb6e7"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 14,
+        "text_sha256": "93ae28541e20ca43ee250694be8a250fce7e78e2563002297f345d815678435f",
+        "hwpml_length": 27479,
+        "hwpml_sha256": "754a772c9ce295d957de8742921b927aa83901bfc3cd4f13533223d8debbb6e7"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘분기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "a5bb2557cc0bac13f5adf7d998876f194dcd8a04d71c6e91ea14500cfa5b8f7a",
+        "hwpml_length": 27476,
+        "hwpml_sha256": "8c7d54f828475576c955553480e3a351c9d83a8bfeb8641a2282459dc004a9df"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "a5bb2557cc0bac13f5adf7d998876f194dcd8a04d71c6e91ea14500cfa5b8f7a",
+        "hwpml_length": 27476,
+        "hwpml_sha256": "8c7d54f828475576c955553480e3a351c9d83a8bfeb8641a2282459dc004a9df"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜분리월일요일",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "140bb01e9159a4d8cf47fde11f0a19796a098c488886745a61e6e85bdf9a9220",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "763531a61853f147c898dfd98f6500345484c20a3743c135df5f8beb3711f143"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "140bb01e9159a4d8cf47fde11f0a19796a098c488886745a61e6e85bdf9a9220",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "763531a61853f147c898dfd98f6500345484c20a3743c135df5f8beb3711f143"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "내일날짜분리년",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 5,
+        "text_sha256": "c541bade790755b12f6b0e012a753af7680754a0f1b7c5104dae61efe4ef1d55",
+        "hwpml_length": 27471,
+        "hwpml_sha256": "49d6a47bfffc9b0ca4060e5bc64e9d790e214643144958da7fc989e902a814c0"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 5,
+        "text_sha256": "c541bade790755b12f6b0e012a753af7680754a0f1b7c5104dae61efe4ef1d55",
+        "hwpml_length": 27471,
+        "hwpml_sha256": "49d6a47bfffc9b0ca4060e5bc64e9d790e214643144958da7fc989e902a814c0"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "내일날짜분리월일요일",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "df4a39987eb22896642f7880cf17883966009977d9832744192f30fd171de036",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "9c618c299f34e11360a5a173b6c6107d7ec93f69a421acecde032df1d0f1e517"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "df4a39987eb22896642f7880cf17883966009977d9832744192f30fd171de036",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "9c618c299f34e11360a5a173b6c6107d7ec93f69a421acecde032df1d0f1e517"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜월일",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "f0ccce00dc2b440d3441d7453578ed24b147513af0f36de5abc09eaada86d32d",
+        "hwpml_length": 27473,
+        "hwpml_sha256": "0027ca196fb63bd65919e3c8da4899f45fe9acc6a34f34e840ed8dc9a9569505"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "f0ccce00dc2b440d3441d7453578ed24b147513af0f36de5abc09eaada86d32d",
+        "hwpml_length": 27473,
+        "hwpml_sha256": "0027ca196fb63bd65919e3c8da4899f45fe9acc6a34f34e840ed8dc9a9569505"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜슬래쉬",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "fb408e5fa0ab18d1eb2e68798f51b7e97cab3dd592fe12830d5e40b56c131991",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "26d4768d74d82b3f3a6ff0153758301f168e4f40ce564db79e48b00f7a2d59ad"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "fb408e5fa0ab18d1eb2e68798f51b7e97cab3dd592fe12830d5e40b56c131991",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "26d4768d74d82b3f3a6ff0153758301f168e4f40ce564db79e48b00f7a2d59ad"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜년",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 4,
+        "text_sha256": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+        "hwpml_length": 27469,
+        "hwpml_sha256": "e2695ad2ff5cabb64e113482a18982d16eab537cfbb37c24ff0fc6dea653057e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 4,
+        "text_sha256": "158a323a7ba44870f23d96f1516dd70aa48e9a72db4ebb026b0a89e212a208ab",
+        "hwpml_length": 27469,
+        "hwpml_sha256": "e2695ad2ff5cabb64e113482a18982d16eab537cfbb37c24ff0fc6dea653057e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜년월",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "c661520c7a22c6a7f2ace4eb52b8cf2bae6a3d8b64c5ba875ff2a8d85e781ab3",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "47c078ba3a1c46a9b936dddcd73ac70ea6b32a08f359ead310ed09d0466d5aab"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "c661520c7a22c6a7f2ace4eb52b8cf2bae6a3d8b64c5ba875ff2a8d85e781ab3",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "47c078ba3a1c46a9b936dddcd73ac70ea6b32a08f359ead310ed09d0466d5aab"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜기준",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 15,
+        "text_sha256": "b6b9b2edd5957298acf9432a07e2092ff0b5999a17e54cd1a669931fb28e174a",
+        "hwpml_length": 27480,
+        "hwpml_sha256": "11880b6fafc45616932aab1c1a60ee525668a99e9f94da259da46dd9dbecefa1"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 15,
+        "text_sha256": "b6b9b2edd5957298acf9432a07e2092ff0b5999a17e54cd1a669931fb28e174a",
+        "hwpml_length": 27480,
+        "hwpml_sha256": "11880b6fafc45616932aab1c1a60ee525668a99e9f94da259da46dd9dbecefa1"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜무공백",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 13,
+        "text_sha256": "73305acda6185d1399dcff3d675b7e0cfc57e4b3a7c3e0acd643de45af5a7cda",
+        "hwpml_length": 27478,
+        "hwpml_sha256": "382083a6af9100fb56b3ca18b2867c7edba487a425eb7bfb32006fb30c32540a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 13,
+        "text_sha256": "73305acda6185d1399dcff3d675b7e0cfc57e4b3a7c3e0acd643de45af5a7cda",
+        "hwpml_length": 27478,
+        "hwpml_sha256": "382083a6af9100fb56b3ca18b2867c7edba487a425eb7bfb32006fb30c32540a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜바",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "e1f81bae36dfc356a5cca94be68f9e23b13fbe2bd1a20cd13032135cab88f2d6",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "f12e3813d984a3273d050938e3ad31a04d0d8ccb28d2321ea8ea0705bf92754c"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "e1f81bae36dfc356a5cca94be68f9e23b13fbe2bd1a20cd13032135cab88f2d6",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "f12e3813d984a3273d050938e3ad31a04d0d8ccb28d2321ea8ea0705bf92754c"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜숫자만",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "f878daef6e10331101b1afd2ff590b96dc642459ca63dec85eef7c468ed5b065",
+        "hwpml_length": 27477,
+        "hwpml_sha256": "42c425b6f6b966d7a24f2c1c3dce8e0ae0b521a397023e751a4ce817214292c1"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "f878daef6e10331101b1afd2ff590b96dc642459ca63dec85eef7c468ed5b065",
+        "hwpml_length": 27477,
+        "hwpml_sha256": "42c425b6f6b966d7a24f2c1c3dce8e0ae0b521a397023e751a4ce817214292c1"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜숫자만무공백",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "042d267dfc43a990ff9120d032d5e9d57fc184b8ba6b898cb015ba3d1b3af796",
+        "hwpml_length": 27475,
+        "hwpml_sha256": "2adcbd0fba7a13d306133f70468e6f14c7fc799f77ffd6e7651ea700baba193f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "042d267dfc43a990ff9120d032d5e9d57fc184b8ba6b898cb015ba3d1b3af796",
+        "hwpml_length": 27475,
+        "hwpml_sha256": "2adcbd0fba7a13d306133f70468e6f14c7fc799f77ffd6e7651ea700baba193f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜월일요일무공백",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "f0ccce00dc2b440d3441d7453578ed24b147513af0f36de5abc09eaada86d32d",
+        "hwpml_length": 27473,
+        "hwpml_sha256": "0027ca196fb63bd65919e3c8da4899f45fe9acc6a34f34e840ed8dc9a9569505"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "f0ccce00dc2b440d3441d7453578ed24b147513af0f36de5abc09eaada86d32d",
+        "hwpml_length": 27473,
+        "hwpml_sha256": "0027ca196fb63bd65919e3c8da4899f45fe9acc6a34f34e840ed8dc9a9569505"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜한글숫자만",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "31bc1a2187abfad2dab0d0dc52d77470d8459ae711bfe7b7bf95ad5538b76e8c",
+        "hwpml_length": 27477,
+        "hwpml_sha256": "114da4b621d8d712066bfbb17860aca904cec34bebc9baa5e51f97d84c74402d"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "31bc1a2187abfad2dab0d0dc52d77470d8459ae711bfe7b7bf95ad5538b76e8c",
+        "hwpml_length": 27477,
+        "hwpml_sha256": "114da4b621d8d712066bfbb17860aca904cec34bebc9baa5e51f97d84c74402d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜축약",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "06b9a76dc1d33ebef4abad873fdbd789dc58f60dc1c49eaa90f2b83f67f39128",
+        "hwpml_length": 27477,
+        "hwpml_sha256": "1c660a555f09bd781a84a1616b660044955e1a55be595a4901271e69bea6a83f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "06b9a76dc1d33ebef4abad873fdbd789dc58f60dc1c49eaa90f2b83f67f39128",
+        "hwpml_length": 27477,
+        "hwpml_sha256": "1c660a555f09bd781a84a1616b660044955e1a55be595a4901271e69bea6a83f"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜축약요없",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "ee56da7342f0f596dd2f386f19457e7fab86c003bf7220e0b315b6014ca1d6b6",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "67047c6dfaf2b7e200634627e025700bf0f1782c574c828624222c960042cc7e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "ee56da7342f0f596dd2f386f19457e7fab86c003bf7220e0b315b6014ca1d6b6",
+        "hwpml_length": 27474,
+        "hwpml_sha256": "67047c6dfaf2b7e200634627e025700bf0f1782c574c828624222c960042cc7e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜축약공백",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 14,
+        "text_sha256": "eac031c446f595ce637e7cef5be77efba63419d4f31c02555e286762e81a6679",
+        "hwpml_length": 27479,
+        "hwpml_sha256": "3e5f622fe71029a4bf7cfcff3882f758619239f0a31f9c45d6becc6f5d41e02e"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 14,
+        "text_sha256": "eac031c446f595ce637e7cef5be77efba63419d4f31c02555e286762e81a6679",
+        "hwpml_length": 27479,
+        "hwpml_sha256": "3e5f622fe71029a4bf7cfcff3882f758619239f0a31f9c45d6becc6f5d41e02e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜축약무공백열콤마",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "6883c7e15a7c1f98a4d9b06bd8f0141636391b78852119d5ac00a8f86771d060",
+        "hwpml_length": 27477,
+        "hwpml_sha256": "6d9f6ab10ae54ce5092f5a5a31034ca6973c318d6ae548d51fcea7d4e626ebfe"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 12,
+        "text_sha256": "6883c7e15a7c1f98a4d9b06bd8f0141636391b78852119d5ac00a8f86771d060",
+        "hwpml_length": 27477,
+        "hwpml_sha256": "6d9f6ab10ae54ce5092f5a5a31034ca6973c318d6ae548d51fcea7d4e626ebfe"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘날짜축약요없열콤마",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "432ce5c898d4163781c99b551b5d10f011865c1638561e344f70bc87c1c9e2fe",
+        "hwpml_length": 27476,
+        "hwpml_sha256": "82af1e9c56842306b04ee58b2c43ceee4a8910d11f0468b0c838205d10d6dfe0"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "432ce5c898d4163781c99b551b5d10f011865c1638561e344f70bc87c1c9e2fe",
+        "hwpml_length": 27476,
+        "hwpml_sha256": "82af1e9c56842306b04ee58b2c43ceee4a8910d11f0468b0c838205d10d6dfe0"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "오늘학기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "c1af55e6891b3b0930de0aca151793c25fe09a8d7235357d0e1eac8072b0a28b",
+        "hwpml_length": 27476,
+        "hwpml_sha256": "ad6c7490e9519658565706e5c8f524c4479d0b4e32fb89e1118405f809ad8622"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "c1af55e6891b3b0930de0aca151793c25fe09a8d7235357d0e1eac8072b0a28b",
+        "hwpml_length": 27476,
+        "hwpml_sha256": "ad6c7490e9519658565706e5c8f524c4479d0b4e32fb89e1118405f809ad8622"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "다음주간",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 23,
+        "text_sha256": "1bba8bb8b4141d05af406f74d8f73f8478115af995819de0204b42c5dcfc0684",
+        "hwpml_length": 27488,
+        "hwpml_sha256": "54bbd8d313df6717e5e2612bbe73be240ffb2b135eae3f020fa6474a0904225a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 23,
+        "text_sha256": "1bba8bb8b4141d05af406f74d8f73f8478115af995819de0204b42c5dcfc0684",
+        "hwpml_length": 27488,
+        "hwpml_sha256": "54bbd8d313df6717e5e2612bbe73be240ffb2b135eae3f020fa6474a0904225a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "다음주간월일요일",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 18,
+        "text_sha256": "ef865a35a3eaa8a19a271113ced908bd3d8bf8f0c31a55a4be8d5d4c07ecd3a8",
+        "hwpml_length": 27483,
+        "hwpml_sha256": "c9d39190360be9a858407f86609ea5a6fefb97c3f66bdd269b332e036bbc1980"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 18,
+        "text_sha256": "ef865a35a3eaa8a19a271113ced908bd3d8bf8f0c31a55a4be8d5d4c07ecd3a8",
+        "hwpml_length": 27483,
+        "hwpml_sha256": "c9d39190360be9a858407f86609ea5a6fefb97c3f66bdd269b332e036bbc1980"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "다다음주간월일요일",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 18,
+        "text_sha256": "93469a8b0ef60a2c9754b8e83bfcfac1e0568c0fac6e23997d68d6e0026ae1a5",
+        "hwpml_length": 27483,
+        "hwpml_sha256": "cbf150920a3f210463fae8b290b83a270470943503b823c20670fceb0376f343"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 18,
+        "text_sha256": "93469a8b0ef60a2c9754b8e83bfcfac1e0568c0fac6e23997d68d6e0026ae1a5",
+        "hwpml_length": 27483,
+        "hwpml_sha256": "cbf150920a3f210463fae8b290b83a270470943503b823c20670fceb0376f343"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "다음월간월일요일",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 18,
+        "text_sha256": "7d6efc04ccfd4b324b9d741bcba420f241c1a34a18a607800807adc182b6b038",
+        "hwpml_length": 27483,
+        "hwpml_sha256": "84e4f0f7b4534be2b5b2c076d76e56b816587f706b9b394a8e150d4108d8f73d"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 18,
+        "text_sha256": "7d6efc04ccfd4b324b9d741bcba420f241c1a34a18a607800807adc182b6b038",
+        "hwpml_length": 27483,
+        "hwpml_sha256": "84e4f0f7b4534be2b5b2c076d76e56b816587f706b9b394a8e150d4108d8f73d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

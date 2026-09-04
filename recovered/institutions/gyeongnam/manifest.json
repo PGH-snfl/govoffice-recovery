@@ -1,0 +1,423 @@
+{
+  "id": "gyeongnam",
+  "name": "경남도",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "경남도창",
+  "functions": [
+    {
+      "id": "gyeongnam.경남도건의자료",
+      "name": "경남도건의자료",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도건의자료",
+      "parameters": [
+        "이미지1",
+        "이미지2"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도결재선",
+      "name": "경남도결재선",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도결재선",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도궁극의정리",
+      "name": "경남도궁극의정리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도궁극의정리",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도궁극의정리범위",
+      "name": "경남도궁극의정리범위",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도궁극의정리범위",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도궁극의정리범위글머리",
+      "name": "경남도궁극의정리범위글머리",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도궁극의정리범위글머리",
+      "parameters": [
+        "특수문자"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도글상자",
+      "name": "경남도글상자",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도글상자",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도기획제목",
+      "name": "경남도기획제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도기획제목",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도단표",
+      "name": "경남도단표",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도단표",
+      "parameters": [
+        "단"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도딸깍보고서",
+      "name": "경남도딸깍보고서",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도딸깍보고서",
+      "parameters": [
+        "이미지",
+        "내용",
+        "예시"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도머릿말",
+      "name": "경남도머릿말",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도머릿말",
+      "parameters": [
+        "종류",
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도명패",
+      "name": "경남도명패",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도명패",
+      "parameters": [
+        "이미지",
+        "종류"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도보도자료",
+      "name": "경남도보도자료",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도보도자료",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도본관회의",
+      "name": "경남도본관회의",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도본관회의",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도붙임",
+      "name": "경남도붙임",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도붙임",
+      "parameters": [
+        "사진1",
+        "번호",
+        "제목"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도붙임사진",
+      "name": "경남도붙임사진",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도붙임사진",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도사진2단",
+      "name": "경남도사진2단",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도사진2단",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도사진3단",
+      "name": "경남도사진3단",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도사진3단",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도상단날짜",
+      "name": "경남도상단날짜",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도상단날짜",
+      "parameters": [
+        "표어"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도서론",
+      "name": "경남도서론",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도서론",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도서부회의",
+      "name": "경남도서부회의",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도서부회의",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도소제목",
+      "name": "경남도소제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도소회의실가로",
+      "name": "경남도소회의실가로",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도소회의실가로",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도소회의실세로",
+      "name": "경남도소회의실세로",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도소회의실세로",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도시군서식",
+      "name": "경남도시군서식",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도시군서식",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도시도서식",
+      "name": "경남도시도서식",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도시도서식",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도원형탁자",
+      "name": "경남도원형탁자",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도원형탁자",
+      "parameters": [
+        "번호",
+        "내용",
+        "색상"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도이름번호",
+      "name": "경남도이름번호",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도이름번호",
+      "parameters": [
+        "표어"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도재난안전대책본부",
+      "name": "경남도재난안전대책본부",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도재난안전대책본부",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도정리예시",
+      "name": "경남도정리예시",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도정리예시",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도제목",
+      "name": "경남도제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도제목",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도진행순서표",
+      "name": "경남도진행순서표",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도진행순서표",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도참고점선박스",
+      "name": "경남도참고점선박스",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도참고점선박스",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도참석자명단",
+      "name": "경남도참석자명단",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도참석자명단",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도표서식1",
+      "name": "경남도표서식1",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도표서식1",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도표서식2",
+      "name": "경남도표서식2",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도표서식2",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도표지결재선없음",
+      "name": "경남도표지결재선없음",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도표지결재선없음",
+      "parameters": [
+        "이미지1",
+        "이미지2",
+        "이미지3",
+        "이미지4"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도표지결재선있음",
+      "name": "경남도표지결재선있음",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도표지결재선있음",
+      "parameters": [
+        "이미지1",
+        "이미지2",
+        "이미지3",
+        "이미지4"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "gyeongnam.경남도행사장",
+      "name": "경남도행사장",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "경남도행사장",
+      "parameters": [
+        "이미지",
+        "단수",
+        "행수"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    }
+  ]
+}

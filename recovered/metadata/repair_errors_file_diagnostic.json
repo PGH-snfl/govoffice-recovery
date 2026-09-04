@@ -1,0 +1,100 @@
+{
+  "category": "file_fixture",
+  "selected": 3,
+  "start": 0,
+  "completed": 3,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공표지보고서",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 548,
+        "text_sha256": "270eb2f7e8bb0b37fdc09ff3a730d13240c2589aaeb9298c16be34a6656743e1",
+        "hwpml_length": 100788,
+        "hwpml_sha256": "6099692d164899b685ddf2438fc15c8b12238ae3fc374ec0ff80133c78f6a8f7"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "TypeError",
+        "error": "MainInstitutionFeatureMixin.서교공궁극의정리() missing 1 required positional argument: '종류'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 6825, in 서교공표지보고서\n    self.서교공궁극의정리범위()\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\range_format.py\", line 139, in 서교공궁극의정리범위\n    return self._궁극의정리범위공통(\n           ~~~~~~~~~~~~~~~~~~~~~~~~^\n        self.서교공궁극의정리,\n        ^^^^^^^^^^^^^^^^^^^^^^\n        초기화필드=(),\n        ^^^^^^^^^^^^^^\n        보정대상=(\"컨트롤엔터\",),\n        ^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\range_format.py\", line 30, in _궁극의정리범위공통\n    정리(*정리인수)\n    ~~~~^^^^^^^^^^^\nTypeError: MainInstitutionFeatureMixin.서교공궁극의정리() missing 1 required positional argument: '종류'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금천보도자료",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 461,
+        "text_sha256": "46abd58a22411f59001e7e0c78c434735d9989692054a0e918ee8fc2216948fb",
+        "hwpml_length": 64695,
+        "hwpml_sha256": "55a936922d9b45bc8ed0e4c2d9fb79430a3caf4a2ee0f69f25c99829bc8389fd"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'기본한컴' object has no attribute '금천보도자료상단표'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4975, in 금천보도자료\n    self.새창(); self.문서여백(20, 20, 15, 15, 10, 10); self.금천보도자료상단표(이미지1, 이미지2); self.표만들기([204 - self.문단여백측정()], [50]); self.폰트(\"HY견고딕\"); self.줄간격(130); self.글자크기(24); self.대상.HAction.Run(\"ParagraphShapeAlignCenter\"); self.문장(\"제목(견고딕 24pt, 줄간격 130%)\"); self.대상.HAction.Run(\"BreakPara\"); self.글자크기(14); self.문장(\"- 부제목 (견고딕 14pt, 줄간격 130%) -\"); self.대상.HAction.Run(\"BreakPara\"); self.대상.HAction.Run(\"ParagraphShapeAlignJustify\"); self.폰트(\"맑은 고딕\"); self.줄간격(160); self.글자크기(13); self.문장(\" - 맑은 고딕 13pt 줄간격 160%\\r\\n - 본문 내용 중 주요 내용 기입\"); self.표나가기2(); self.줄간격(180); self.글자크기(13.5); self.문장(\" - 본문, 맑은 고딕 13.5pt, 줄간격 180%\\r\\n - 핵심을 앞쪽에 부연 설명은 뒤쪽\\r\\n - 문장은 되도록 간결하게 단문으로 작성\\r\\n - 마지막은 문의할 수 있는 곳 기입\\r\\n - 참고할 수 있는 자료(계획서 등)와 사진(이미지) 파일 별도 첨부\"); self.글자크기(12); self.문장(\"\\r\\n< (사진 설명) 맑은 고딕 12pt, 원본 사진은 별첨 >\"); return None\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: '기본한컴' object has no attribute '금천보도자료상단표'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금감보도자료",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 391,
+        "text_sha256": "c0de5b95f142b9f1a9c6a731eea434c8b53b30c60b85d9a7bb5141861df4697b",
+        "hwpml_length": 70043,
+        "hwpml_sha256": "3fffcd410e5b73360530afc4dabcfcefe89f587255e47101447140f3f93757c8"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "'기본한컴' object has no attribute '금감보도자료상단표'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 173, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4978, in 금감보도자료\n    self.새창(); self.문서여백(18, 18, 15, 15, 10, 10); self.금감보도자료상단표(이미지1, 이미지2); self.쪽번호(); self.줄간격(160); self.글자크기(12); self.대상.HAction.Run(\"BreakPara\"); self.폰트(\"HY헤드라인M\"); self.글자크기(16); self.문장(\"1. HY헤드라인M 16p\"); self.대상.HAction.Run(\"BreakPara\"); self.폰트(\"휴먼명조\"); self.문장(\"□ 금융감독원은 ~\\r\\n ◦ 휴먼명조 16p\"); self.금감보도자료하단(); return None\n                                                        ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: '기본한컴' object has no attribute '금감보도자료상단표'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

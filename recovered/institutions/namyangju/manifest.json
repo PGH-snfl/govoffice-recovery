@@ -1,0 +1,80 @@
+{
+  "id": "namyangju",
+  "name": "남양주",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "남양주창",
+  "functions": [
+    {
+      "id": "namyangju.남양주개요",
+      "name": "남양주개요",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "남양주개요",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "namyangju.남양주보고서식",
+      "name": "남양주보고서식",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "남양주보고서식",
+      "parameters": [
+        "그림1",
+        "그림2"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "namyangju.남양주소제목",
+      "name": "남양주소제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "남양주소제목",
+      "parameters": [
+        "번호",
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "namyangju.남양주제목",
+      "name": "남양주제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "남양주제목",
+      "parameters": [
+        "그림1",
+        "그림2"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "namyangju.남양주쪽지보고서식",
+      "name": "남양주쪽지보고서식",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "남양주쪽지보고서식",
+      "parameters": [
+        "그림1",
+        "그림2"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "namyangju.남양주쪽지제목",
+      "name": "남양주쪽지제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "남양주쪽지제목",
+      "parameters": [
+        "그림1",
+        "그림2"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    }
+  ]
+}

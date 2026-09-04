@@ -1,0 +1,40 @@
+{
+  "category": "argument_fixture",
+  "selected": 1,
+  "start": 0,
+  "completed": 1,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식머릿말",
+      "args": [
+        "숫자만",
+        1
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28023,
+        "hwpml_sha256": "683ebc8156dbd8beeac29f04fedcfa4c002c0babf08b90bc20ff6b00fc480a72"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 28023,
+        "hwpml_sha256": "683ebc8156dbd8beeac29f04fedcfa4c002c0babf08b90bc20ff6b00fc480a72"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

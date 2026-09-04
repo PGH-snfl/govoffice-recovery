@@ -1,0 +1,111 @@
+{
+  "category": "blank_document",
+  "selected": 7,
+  "start": 0,
+  "completed": 7,
+  "results": [
+    {
+      "module": "한컴라이브러리",
+      "method": "전체표스타일제거",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 167, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 269, in 전체표스타일제거\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\HAction.py\", line 50, in Run\n    return self._oleobj_.InvokeTypes(15003, LCID, 1, (11, 0), ((8, 1),),actname\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\npywintypes.com_error: (-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "AttributeError",
+        "error": "HTableCreation.RowHeight",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 167, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\document_cleanup.py\", line 209, in 전체표스타일제거\n    self.표만들기([1], [1])\n    ~~~~~~~~~~~~~^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1451, in 표만들기\n    self.대상.HParameterSet.HTableCreation.RowHeight.SetItem(i, self.대상.MiliToHwpUnit(세로크기[i]))\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 631, in __getattr__\n    raise AttributeError(f\"{self._username_}.{attr}\")\nAttributeError: HTableCreation.RowHeight\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "서교공궁극예시",
+      "harness_error": "{\"phase\": \"legacy\", \"method\": \"서교공궁극예시\"}\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 294, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 266, in main\n    legacy = execute_isolated(legacy_class, row, method_args, args.category, args.max_hwp, args.include_content)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 221, in execute_isolated\n    hwp = new_hwp()\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 53, in new_hwp\n    hwp = win32com.client.DispatchEx(\"HWPFrame.HwpObject\")\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 142, in DispatchEx\n    dispatch = pythoncom.CoCreateInstanceEx(\n               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        clsid, None, clsctx, serverInfo, (pythoncom.IID_IDispatch,)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )[0]\n    ^\npywintypes.com_error: (-2146959355, '서버 실행이 실패했습니다.', None, None)\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "금감원페이지",
+      "harness_error": "{\"phase\": \"legacy\", \"method\": \"금감원페이지\"}\n{\"phase\": \"recovered\", \"method\": \"금감원페이지\"}\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 294, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 268, in main\n    recovered = execute_isolated(recovered_class, row, method_args, args.category, args.max_hwp, args.include_content)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 221, in execute_isolated\n    hwp = new_hwp()\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 53, in new_hwp\n    hwp = win32com.client.DispatchEx(\"HWPFrame.HwpObject\")\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 142, in DispatchEx\n    dispatch = pythoncom.CoCreateInstanceEx(\n               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        clsid, None, clsctx, serverInfo, (pythoncom.IID_IDispatch,)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )[0]\n    ^\npywintypes.com_error: (-2146959355, '서버 실행이 실패했습니다.', None, None)\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "산인공관리대장",
+      "harness_error": "{\"phase\": \"legacy\", \"method\": \"산인공관리대장\"}\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 294, in <module>\n    main()\n    ~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 266, in main\n    legacy = execute_isolated(legacy_class, row, method_args, args.category, args.max_hwp, args.include_content)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 221, in execute_isolated\n    hwp = new_hwp()\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 53, in new_hwp\n    hwp = win32com.client.DispatchEx(\"HWPFrame.HwpObject\")\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 142, in DispatchEx\n    dispatch = pythoncom.CoCreateInstanceEx(\n               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n        clsid, None, clsctx, serverInfo, (pythoncom.IID_IDispatch,)\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )[0]\n    ^\npywintypes.com_error: (-2146959355, '서버 실행이 실패했습니다.', None, None)\n"
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주교행사계획",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 148, in execute\n    hwp.HAction.Run(\"FileNew\")\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\AppData\\Local\\Temp\\gen_py\\3.13\\7D2B6F3C-1D95-4E0C-BF5A-5EE564186FBCx0x1x0\\HAction.py\", line 50, in Run\n    return self._oleobj_.InvokeTypes(15003, LCID, 1, (11, 0), ((8, 1),),actname\n           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    \t)\n     ^\npywintypes.com_error: (-2147023170, '원격 프로시저를 호출하지 못했습니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 592,
+        "text_sha256": "90669874297e10db0b979ee49169ac641a9668e92153ead4bdfeb9076011b4af",
+        "hwpml_length": 68793,
+        "hwpml_sha256": "a4e2cfa9a78165174e0b1a9914373211536533b265fa3d93ee80b033dd087f68"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "인국공개인정보",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 1364,
+        "text_sha256": "3e185b61c3887e449f48c61359a25fa411f7429b0b8370ca5dc01d5e1d19e53c",
+        "hwpml_length": 84410,
+        "hwpml_sha256": "edb08a15e30515616ba00c329c99d3c6b202c0dda2b27c8b1c7e613abd8dc892"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 35,
+        "text_sha256": "cdbfb55dae1f3b36dceeb7c2bf688c196889ac92c07fd02d2bbee5d2d80976ae",
+        "hwpml_length": 37249,
+        "hwpml_sha256": "f18c374a9acdf98bb93f399a68bbecc66dfe42c0a598abd859638a02497ba1b2"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "AI행정지원계획서간단서식",
+      "timed_out": true,
+      "timeout_seconds": 60.0,
+      "worker_output": "{\"phase\": \"legacy\", \"method\": \"AI행정지원계획서간단서식\"}\n오류 발생 : 'NoneType' object has no attribute 'CreateSet'\n{\"phase\": \"recovered\", \"method\": \"AI행정지원계획서간단서식\"}\n"
+    }
+  ]
+}

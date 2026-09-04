@@ -1,0 +1,630 @@
+{
+  "category": "isolated_interactive",
+  "selected": 23,
+  "start": 0,
+  "completed": 23,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "불러오기",
+      "timed_out": true,
+      "timeout_seconds": 15.0
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "사진",
+      "args": [
+        "숫자만"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "파일목록",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": "('C:\\\\Users\\\\skyla\\\\바탕 화면\\\\범정부오피스\\\\범피스1303_분석\\\\extracted\\\\resources\\\\아이콘\\\\표탭\\\\그림4.png',)",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1343, in 파일목록\n    return filedialog.askopenfilenames(title='Open File', filetypes=[('All Files', '*.*')])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "파일목록사진",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": "('C:\\\\Users\\\\skyla\\\\바탕 화면\\\\범정부오피스\\\\범피스1303_분석\\\\extracted\\\\resources\\\\아이콘\\\\표탭\\\\그림4.png',)",
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 27459,
+        "hwpml_sha256": "80a33e6f43542c1e8d4a2a03f5573970a33a7b38beb172703782aa440424e943"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1346, in 파일목록사진\n    return filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "사진표만들기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 35797,
+        "hwpml_sha256": "312eacca6e54515af5ae6b36b337fed636d71837a56a1004f026a0980e303c23"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 35797,
+        "hwpml_sha256": "f5f856de8c5dd9d9fd49b7cc65125850550c83f3127824816847042365e3b772"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "PDF를한컴으로",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 11528,
+        "hwpml_sha256": "1d98ee7b499e957ea6e25b23e60080fc45aee7fc74065bd9b5505dd9dad60772"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 2252, in PDF를한컴으로\n    파일목록 = self.파일목록()\n               ~~~~~~~~~~~~~^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\common\\compositions.py\", line 1343, in 파일목록\n    return filedialog.askopenfilenames(title='Open File', filetypes=[('All Files', '*.*')])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "경기신보사진3단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 36292,
+        "hwpml_sha256": "df57ed34fd66cbd80be2a3f2ad3d10109e7f47f3bf6917c93b252d52b6be0d73"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 36292,
+        "hwpml_sha256": "d1687ce17d7aa8b87638a3ce9ea5fe69a37bcdd38673f49cb4f3f2b9189bc9fe"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "경기신보사진2단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 35489,
+        "hwpml_sha256": "36d5dc5e526b4a237b38e02e2daaa90877495776f6c1ae88035899d9263e5cdc"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 35489,
+        "hwpml_sha256": "630e6cc02fe9c87f1edfb48c795e5c751432ae4e81f1fcf3c92874f27e54b5c1"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "우본사진2단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 24,
+        "text_sha256": "1ca321bb6bff17ef8c8372e4d2f68659a04657baec256c8b9eb04187f9d1634c",
+        "hwpml_length": 38346,
+        "hwpml_sha256": "725dae66e3b5cf3c65e333b98f0ad169c8a1bd4a16d34a30f59662d9308d0bfb"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\hwp1\\compositions.py\", line 2182, in 우본사진2단\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남사진3단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 37936,
+        "hwpml_sha256": "59052ca90b3c5170dc5934690b4fc0ba6e3c653dd19e5fbcf11b8f8e72c76a12"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 37936,
+        "hwpml_sha256": "3945ecbfb5223cc2c23321164d472c2ad436a0b947edb5057347e1b06e07bfb6"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남사진2단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 37133,
+        "hwpml_sha256": "f0b0fe2dcaa167be29589bb36b08d6c2054582217055723eb79d5c26ee1fdc5a"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 37133,
+        "hwpml_sha256": "2136f406f695d8c75d5ff744110086cac137689ea85dcdbdf13c2f630bbef570"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "충남붙임사진",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 9,
+        "text_sha256": "99d2c037b431fec0779252db9cbd49bc627bbd99a471d859fe5ee8596e8cd5bb",
+        "hwpml_length": 40064,
+        "hwpml_sha256": "a6216c9028f2029e2d04ec0774ad953554e489fc98ce009cc511e8dddb9eec45"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\hwp1\\compositions.py\", line 4684, in 충남붙임사진\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "산인공사진1단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 2,
+        "text_sha256": "08b17e433630742bc70022e9e0e1e11a91bd43383b33226afab9a5bdaf778bbf",
+        "hwpml_length": 36430,
+        "hwpml_sha256": "c83522cd9e0aade25102cd18a531e15cd1e4480d78c2911c0c67126a22d371b6"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\hwp1\\compositions.py\", line 6497, in 산인공사진1단\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "산인공사진2단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 5,
+        "text_sha256": "13ce6b57b06c92ce14e787e548f13fe9c182fb6bc8c8469107c9aa92f5374f79",
+        "hwpml_length": 37262,
+        "hwpml_sha256": "8e57f3a31edbd0ca4512ac98a1d6ea1227720b92a3d91276e8acb2e85a6d1eca"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\hwp1\\compositions.py\", line 6541, in 산인공사진2단\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "산인공사진3단",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 8,
+        "text_sha256": "3a61b6497673438574e3346c1fe7106c6e656f9c2f8ccca56b3d25eebed6e6c5",
+        "hwpml_length": 38093,
+        "hwpml_sha256": "b0efd744f2b7dbb8db36fb782f676637dbda0f3f04d605ba4b5aaf42fd502e92"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\hwp1\\compositions.py\", line 6573, in 산인공사진3단\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_1",
+      "method": "기본서식선택파일끼워넣기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 31291,
+        "hwpml_sha256": "c3c2ca8472654b39b6ff3768c233119c94b133264312bb3556402c02f066dc65"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\hwp1\\compositions.py\", line 6922, in 기본서식선택파일끼워넣기\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('한컴 파일', ('.hwp', '.hwpx'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_2",
+      "method": "해경채증사진",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "invalid literal for int() with base 10: 'C:\\\\Users\\\\skyla\\\\바탕'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리_2.py\", line 3663, in 해경채증사진\n  File \"한컴오피스\\한컴라이브러리_2.py\", line 3663, in <lambda>\nValueError: invalid literal for int() with base 10: 'C:\\\\Users\\\\skyla\\\\바탕'\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "ValueError",
+        "error": "invalid literal for int() with base 10: 'C:\\\\Users\\\\skyla\\\\바탕'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4133, in 해경채증사진\n    재정렬이름 = sorted(이름, key=lambda x: int(x.split(\"/\")[-1].split(\" \")[0]))\n                 ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\common\\institution_features.py\", line 4133, in <lambda>\n    재정렬이름 = sorted(이름, key=lambda x: int(x.split(\"/\")[-1].split(\" \")[0]))\n                                            ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: 'C:\\\\Users\\\\skyla\\\\바탕'\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": true
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식샌드위치사진",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 34060,
+        "hwpml_sha256": "ec101353f3877c89725063112b16d4f295def6d7fd7636d798646b3399a883ed"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 18418, in 기본서식샌드위치사진\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식사진표3단",
+      "args": [
+        "숫자만",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 33454,
+        "hwpml_sha256": "0398b23923a106a8d693ca6c5199d0a0691e504f0e82e901bf84dae4b983eaff"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 37177,
+        "hwpml_sha256": "734257fd1f2162af2ead41955b18f815c87f19adf75b22e3573fd354bcf487c9"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "기본서식사진표2단",
+      "args": [
+        "숫자만",
+        "테스트"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 32644,
+        "hwpml_sha256": "9f6477e0837bed80a047236e95ef42cc737fd4c72bca0370b06c67000b493190"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 36368,
+        "hwpml_sha256": "fe7ae82d963ce222a8345eb624d9ab699016172ba5b0d6b427be72ff3bac2b87"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "산인공시외출장",
+      "args": [],
+      "legacy": {
+        "ok": false,
+        "error_type": "com_error",
+        "error": "(-2147221005, '잘못된 클래스 문자열입니다.', None, None)",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 81, in _GetGoodDispatch\n    IDispatch = pythoncom.connect(IDispatch)\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"한컴오피스\\한컴라이브러리.py\", line 32432, in 산인공시외출장\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\gencache.py\", line 640, in EnsureDispatch\n    disp = win32com.client.Dispatch(prog_id)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\__init__.py\", line 116, in Dispatch\n    dispatch, userName = dynamic._GetGoodDispatchAndUserName(dispatch, userName, clsctx)\n                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 101, in _GetGoodDispatchAndUserName\n    return (_GetGoodDispatch(IDispatch, clsctx), userName)\n            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\python313\\win32com\\client\\dynamic.py\", line 83, in _GetGoodDispatch\n    IDispatch = pythoncom.CoCreateInstance(\n        IDispatch, None, clsctx, pythoncom.IID_IDispatch\n    )\npywintypes.com_error: (-2147221005, '잘못된 클래스 문자열입니다.', None, None)\n"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'EnsureDispatch' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 20307, in 산인공시외출장\n    엑셀 = EnsureDispatch('Excel.Application')\n           ^^^^^^^^^^^^^^\nNameError: name 'EnsureDispatch' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": true,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "제주교사진대장",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 58,
+        "text_sha256": "5819468951eca74f5913687e3c53a70cad6f1dc46dcba8fbc7ce3f2ecc8cecb8",
+        "hwpml_length": 42999,
+        "hwpml_sha256": "5544d3857f5427c9b7a30fad3f8823bfbb81349d52b353d60f296e85af833287"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 21550, in 제주교사진대장\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "경남도붙임사진",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 10,
+        "text_sha256": "6dadd77f5fe3bea1c9a4b84469e279381fc42e6de64f83ec180cf044c07e9754",
+        "hwpml_length": 40029,
+        "hwpml_sha256": "cac142d366c20133c5453d128b9a7f4dbdd07f75474883043874b8feec2efd26"
+      },
+      "recovered": {
+        "ok": false,
+        "error_type": "NameError",
+        "error": "name 'filedialog' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\tools\\validate_hwp_equivalence_batch.py\", line 163, in execute\n    returned = getattr(instance, row[\"method\"])(*method_args)\n  File \"C:\\Users\\skyla\\바탕 화면\\범정부오피스\\recovered\\한컴오피스\\recovered_source\\generated\\main\\compositions.py\", line 23178, in 경남도붙임사진\n    이름 = filedialog.askopenfilenames(title='Open File', filetypes=[('image files', ('.png', '.jpg'))])\n           ^^^^^^^^^^\nNameError: name 'filedialog' is not defined\n"
+      },
+      "comparison": {
+        "both_ok": false,
+        "outcome_equal": false,
+        "text_equal": false,
+        "hwpml_equal": false,
+        "return_equal": false,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

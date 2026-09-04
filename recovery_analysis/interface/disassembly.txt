@@ -1,0 +1,1925 @@
+
+====================================================================================================
+<module>
+file='인터페이스\\인터페이스.py' line=1 args=0 locals=0
+  0           RESUME                   0
+
+  1           LOAD_CONST               0 (0)
+              LOAD_CONST               1 (('*',))
+              IMPORT_NAME              0 (tkinter)
+              CALL_INTRINSIC_1         2 (INTRINSIC_IMPORT_STAR)
+              POP_TOP
+
+  2           LOAD_CONST               0 (0)
+              LOAD_CONST               2 (None)
+              IMPORT_NAME              1 (os)
+              STORE_NAME               1 (os)
+
+  3           LOAD_CONST               0 (0)
+              LOAD_CONST               2 (None)
+              IMPORT_NAME              2 (sys)
+              STORE_NAME               2 (sys)
+
+  9           LOAD_CONST               2 (None)
+              STORE_GLOBAL             3 (설명창변수)
+
+ 13           LOAD_CONST               3 (<code object 이미지 at 0x000002569BD34C00, file "인터페이스\인터페이스.py", line 13>)
+              MAKE_FUNCTION
+              STORE_NAME               4 (이미지)
+
+ 19           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST               4 (<code object 배경 at 0x000002569BF95A70, file "인터페이스\인터페이스.py", line 19>)
+              MAKE_FUNCTION
+              LOAD_CONST               5 ('배경')
+              LOAD_NAME                5 (Label)
+              CALL                     3
+              STORE_NAME               6 (배경)
+
+ 33           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST               6 (<code object 버튼 at 0x000002569BF94A80, file "인터페이스\인터페이스.py", line 33>)
+              MAKE_FUNCTION
+              LOAD_CONST               7 ('버튼')
+              LOAD_NAME                7 (Button)
+              CALL                     3
+              STORE_NAME               8 (버튼)
+
+ 50           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST               8 (<code object 버튼더블클릭 at 0x000002569BFAAC30, file "인터페이스\인터페이스.py", line 50>)
+              MAKE_FUNCTION
+              LOAD_CONST               9 ('버튼더블클릭')
+              LOAD_NAME                7 (Button)
+              CALL                     3
+              STORE_NAME               9 (버튼더블클릭)
+
+ 81           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              10 (<code object 토글버튼 at 0x000002569BFAAE30, file "인터페이스\인터페이스.py", line 81>)
+              MAKE_FUNCTION
+              LOAD_CONST              11 ('토글버튼')
+              LOAD_NAME                7 (Button)
+              CALL                     3
+              STORE_NAME              10 (토글버튼)
+
+ 99           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              12 (<code object 입력창 at 0x000002569BF95F20, file "인터페이스\인터페이스.py", line 99>)
+              MAKE_FUNCTION
+              LOAD_CONST              13 ('입력창')
+              LOAD_NAME               11 (Entry)
+              CALL                     3
+              STORE_NAME              12 (입력창)
+
+108           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              14 (<code object 입력창넓이 at 0x000002569BF96010, file "인터페이스\인터페이스.py", line 108>)
+              MAKE_FUNCTION
+              LOAD_CONST              15 ('입력창넓이')
+              LOAD_NAME               11 (Entry)
+              CALL                     3
+              STORE_NAME              13 (입력창넓이)
+
+117           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              16 (<code object 입력창넓이높이 at 0x000002569BF96100, file "인터페이스\인터페이스.py", line 117>)
+              MAKE_FUNCTION
+              LOAD_CONST              17 ('입력창넓이높이')
+              LOAD_NAME               14 (Text)
+              CALL                     3
+              STORE_NAME              15 (입력창넓이높이)
+
+126           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              18 (<code object 입력창넓이크기 at 0x000002569BF961F0, file "인터페이스\인터페이스.py", line 126>)
+              MAKE_FUNCTION
+              LOAD_CONST              19 ('입력창넓이크기')
+              LOAD_NAME               11 (Entry)
+              CALL                     3
+              STORE_NAME              16 (입력창넓이크기)
+
+138           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              20 (<code object 프레임 at 0x000002569BF962E0, file "인터페이스\인터페이스.py", line 138>)
+              MAKE_FUNCTION
+              LOAD_CONST              21 ('프레임')
+              LOAD_NAME               17 (Frame)
+              CALL                     3
+              STORE_NAME              18 (프레임)
+
+148           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              22 (<code object 프레임색 at 0x000002569BF963D0, file "인터페이스\인터페이스.py", line 148>)
+              MAKE_FUNCTION
+              LOAD_CONST              23 ('프레임색')
+              LOAD_NAME               17 (Frame)
+              CALL                     3
+              STORE_NAME              19 (프레임색)
+
+158           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              24 (<code object 상단바 at 0x000002569BF5A120, file "인터페이스\인터페이스.py", line 158>)
+              MAKE_FUNCTION
+              LOAD_CONST              25 ('상단바')
+              LOAD_NAME               17 (Frame)
+              CALL                     3
+              STORE_NAME              20 (상단바)
+
+188           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              26 (<code object 새탭 at 0x000002569BF966A0, file "인터페이스\인터페이스.py", line 188>)
+              MAKE_FUNCTION
+              LOAD_CONST              27 ('새탭')
+              LOAD_NAME               21 (Toplevel)
+              CALL                     3
+              STORE_NAME              22 (새탭)
+
+200           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              28 (<code object 우측새탭 at 0x000002569BF96880, file "인터페이스\인터페이스.py", line 200>)
+              MAKE_FUNCTION
+              LOAD_CONST              29 ('우측새탭')
+              LOAD_NAME               21 (Toplevel)
+              CALL                     3
+              STORE_NAME              23 (우측새탭)
+
+213           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              30 (<code object 설명창 at 0x000002569BFAB730, file "인터페이스\인터페이스.py", line 213>)
+              MAKE_FUNCTION
+              LOAD_CONST              31 ('설명창')
+              LOAD_NAME               21 (Toplevel)
+              CALL                     3
+              STORE_NAME              24 (설명창)
+
+242           LOAD_BUILD_CLASS
+              PUSH_NULL
+              LOAD_CONST              32 (<code object 설명버튼 at 0x000002569BFAB830, file "인터페이스\인터페이스.py", line 242>)
+              MAKE_FUNCTION
+              LOAD_CONST              33 ('설명버튼')
+              LOAD_NAME                7 (Button)
+              CALL                     3
+              STORE_NAME              25 (설명버튼)
+              RETURN_CONST             2 (None)
+
+====================================================================================================
+<module>.이미지
+file='인터페이스\\인터페이스.py' line=13 args=1 locals=2
+ 13           RESUME                   0
+
+ 14           LOAD_GLOBAL              1 (getattr + NULL)
+              LOAD_GLOBAL              2 (sys)
+              LOAD_CONST               1 ('_MEIPASS')
+              LOAD_GLOBAL              4 (os)
+              LOAD_ATTR                6 (path)
+              LOAD_ATTR                9 (dirname + NULL|self)
+              LOAD_GLOBAL              4 (os)
+              LOAD_ATTR                6 (path)
+              LOAD_ATTR               11 (abspath + NULL|self)
+              LOAD_GLOBAL             12 (__file__)
+              CALL                     1
+              CALL                     1
+              CALL                     3
+              STORE_FAST               1 (기본경로)
+
+ 15           LOAD_GLOBAL              4 (os)
+              LOAD_ATTR                6 (path)
+              LOAD_ATTR               15 (join + NULL|self)
+              LOAD_FAST_LOAD_FAST     16 (기본경로, 파일이름)
+              CALL                     2
+              RETURN_VALUE
+
+====================================================================================================
+<module>.배경
+file='인터페이스\\인터페이스.py' line=19 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+  19           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('배경')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (19)
+               STORE_NAME               3 (__firstlineno__)
+
+  20           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BD45F70, file "인터페이스\인터페이스.py", line 20>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (('아이콘',))
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.배경.배경.__init__
+file='인터페이스\\인터페이스.py' line=20 args=5 locals=5
+  --           COPY_FREE_VARS           1
+
+  20           RESUME                   0
+
+  21           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               5 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+  22           LOAD_GLOBAL              5 (PhotoImage + NULL)
+               LOAD_GLOBAL              7 (이미지 + NULL)
+               LOAD_FAST                4 (이미지경로)
+               CALL                     1
+               LOAD_CONST               1 (('file',))
+               CALL_KW                  1
+               LOAD_FAST                0 (self)
+               STORE_ATTR               4 (아이콘)
+
+  23           LOAD_FAST                0 (self)
+               LOAD_ATTR                8 (아이콘)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('image')
+               STORE_SUBSCR
+
+  24           LOAD_FAST                0 (self)
+               LOAD_ATTR               11 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST               3 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+
+  25           LOAD_CONST               4 ('flat')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('relief')
+               STORE_SUBSCR
+
+  26           LOAD_CONST               6 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               7 ('borderwidth')
+               STORE_SUBSCR
+
+  27           LOAD_CONST               6 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               8 ('highlightthickness')
+               STORE_SUBSCR
+
+  28           LOAD_CONST               6 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               8 ('highlightthickness')
+               STORE_SUBSCR
+
+  29           LOAD_CONST               9 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST              10 ('bg')
+               STORE_SUBSCR
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.버튼
+file='인터페이스\\인터페이스.py' line=33 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+  33           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('버튼')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (33)
+               STORE_NAME               3 (__firstlineno__)
+
+  34           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BF51F10, file "인터페이스\인터페이스.py", line 34>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (('아이콘',))
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.버튼.버튼.__init__
+file='인터페이스\\인터페이스.py' line=34 args=6 locals=6
+  --           COPY_FREE_VARS           1
+
+  34           RESUME                   0
+
+  35           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               6 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+  36           LOAD_CONST               1 ('flat')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('relief')
+               STORE_SUBSCR
+
+  37           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               4 ('borderwidth')
+               STORE_SUBSCR
+
+  38           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('highlightthickness')
+               STORE_SUBSCR
+
+  39           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('highlightthickness')
+               STORE_SUBSCR
+
+  40           LOAD_CONST               6 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               7 ('bg')
+               STORE_SUBSCR
+
+  41           LOAD_CONST               6 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               8 ('activebackground')
+               STORE_SUBSCR
+
+  42           LOAD_GLOBAL              5 (PhotoImage + NULL)
+               LOAD_GLOBAL              7 (이미지 + NULL)
+               LOAD_FAST                4 (이미지경로)
+               CALL                     1
+               LOAD_CONST               9 (('file',))
+               CALL_KW                  1
+               LOAD_FAST                0 (self)
+               STORE_ATTR               4 (아이콘)
+
+  43           LOAD_FAST                0 (self)
+               LOAD_ATTR                8 (아이콘)
+               LOAD_FAST                0 (self)
+               LOAD_CONST              10 ('image')
+               STORE_SUBSCR
+
+  44           LOAD_FAST_LOAD_FAST     80 (함수, self)
+               LOAD_CONST              11 ('command')
+               STORE_SUBSCR
+
+  45           LOAD_FAST                0 (self)
+               LOAD_ATTR               11 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST              12 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.버튼더블클릭
+file='인터페이스\\인터페이스.py' line=50 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+  50           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('버튼더블클릭')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (50)
+               STORE_NAME               3 (__firstlineno__)
+
+  51           LOAD_CONST               2 (None)
+               STORE_NAME               4 (마지막버튼)
+
+  53           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               3 (<code object __init__ at 0x000002569BF60E30, file "인터페이스\인터페이스.py", line 53>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               5 (__init__)
+
+  69           LOAD_CONST               4 (<code object 클릭처리 at 0x000002569BCC2EB0, file "인터페이스\인터페이스.py", line 69>)
+               MAKE_FUNCTION
+               STORE_NAME               6 (클릭처리)
+               LOAD_CONST               5 (('마지막버튼', '실행여부', '아이콘', '함수1', '함수2'))
+               STORE_NAME               7 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               8 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.버튼더블클릭.버튼더블클릭.__init__
+file='인터페이스\\인터페이스.py' line=53 args=8 locals=8
+  --           COPY_FREE_VARS           1
+               MAKE_CELL                5 (함수1)
+               MAKE_CELL                6 (함수2)
+               MAKE_CELL                7 (실행여부)
+
+  53           RESUME                   0
+
+  54           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               8 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+  55           LOAD_CONST               1 ('flat')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('relief')
+               STORE_SUBSCR
+
+  56           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               4 ('borderwidth')
+               STORE_SUBSCR
+
+  57           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('highlightthickness')
+               STORE_SUBSCR
+
+  58           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('highlightthickness')
+               STORE_SUBSCR
+
+  59           LOAD_CONST               6 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               7 ('bg')
+               STORE_SUBSCR
+
+  60           LOAD_CONST               6 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               8 ('activebackground')
+               STORE_SUBSCR
+
+  61           LOAD_GLOBAL              5 (PhotoImage + NULL)
+               LOAD_GLOBAL              7 (이미지 + NULL)
+               LOAD_FAST                4 (이미지경로)
+               CALL                     1
+               LOAD_CONST               9 (('file',))
+               CALL_KW                  1
+               LOAD_FAST                0 (self)
+               STORE_ATTR               4 (아이콘)
+
+  62           LOAD_FAST                0 (self)
+               LOAD_ATTR                8 (아이콘)
+               LOAD_FAST                0 (self)
+               LOAD_CONST              10 ('image')
+               STORE_SUBSCR
+
+  63           LOAD_FAST                0 (self)
+               LOAD_ATTR               10 (클릭처리)
+               LOAD_FAST                0 (self)
+               LOAD_CONST              11 ('command')
+               STORE_SUBSCR
+
+  64           LOAD_FAST                0 (self)
+               LOAD_ATTR               13 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST              12 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+
+  65           LOAD_FAST                5 (함수1)
+               BUILD_TUPLE              1
+               LOAD_CONST              13 (<code object <lambda> at 0x000002569BCEA870, file "인터페이스\인터페이스.py", line 65>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               7 (함수1)
+
+  66           LOAD_FAST                6 (함수2)
+               BUILD_TUPLE              1
+               LOAD_CONST              14 (<code object <lambda> at 0x000002569BFD41F0, file "인터페이스\인터페이스.py", line 66>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               8 (함수2)
+
+  67           LOAD_FAST                7 (실행여부)
+               BUILD_TUPLE              1
+               LOAD_CONST              15 (<code object <lambda> at 0x000002569BFD42D0, file "인터페이스\인터페이스.py", line 67>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               9 (실행여부)
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.버튼더블클릭.버튼더블클릭.__init__.버튼더블클릭.__init__.<locals>.<lambda>
+file='인터페이스\\인터페이스.py' line=65 args=0 locals=0
+  --           COPY_FREE_VARS           1
+
+  65           RESUME                   0
+               LOAD_DEREF               0 (함수1)
+               PUSH_NULL
+               CALL                     0
+               RETURN_VALUE
+
+====================================================================================================
+<module>.버튼더블클릭.버튼더블클릭.__init__.버튼더블클릭.__init__.<locals>.<lambda>
+file='인터페이스\\인터페이스.py' line=66 args=0 locals=0
+  --           COPY_FREE_VARS           1
+
+  66           RESUME                   0
+               LOAD_DEREF               0 (함수2)
+               PUSH_NULL
+               CALL                     0
+               RETURN_VALUE
+
+====================================================================================================
+<module>.버튼더블클릭.버튼더블클릭.__init__.버튼더블클릭.__init__.<locals>.<lambda>
+file='인터페이스\\인터페이스.py' line=67 args=0 locals=0
+  --           COPY_FREE_VARS           1
+
+  67           RESUME                   0
+               LOAD_DEREF               0 (실행여부)
+               PUSH_NULL
+               CALL                     0
+               RETURN_VALUE
+
+====================================================================================================
+<module>.버튼더블클릭.버튼더블클릭.클릭처리
+file='인터페이스\\인터페이스.py' line=69 args=1 locals=2
+ 69           RESUME                   0
+
+ 70           LOAD_FAST                0 (self)
+              LOAD_ATTR                1 (실행여부 + NULL|self)
+              CALL                     0
+              STORE_FAST               1 (실행여부값)
+
+ 72           LOAD_FAST                0 (self)
+              LOAD_ATTR                2 (마지막버튼)
+              LOAD_FAST                0 (self)
+              COMPARE_OP              88 (bool(==))
+              POP_JUMP_IF_FALSE       30 (to L1)
+              LOAD_FAST                1 (실행여부값)
+              LOAD_CONST               1 (1)
+              COMPARE_OP              88 (bool(==))
+              POP_JUMP_IF_FALSE       24 (to L1)
+
+ 73           LOAD_FAST                0 (self)
+              LOAD_ATTR                5 (함수2 + NULL|self)
+              CALL                     0
+              POP_TOP
+
+ 74           LOAD_CONST               0 (None)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               1 (마지막버튼)
+              RETURN_CONST             0 (None)
+
+ 76   L1:     LOAD_FAST                0 (self)
+              LOAD_ATTR                7 (함수1 + NULL|self)
+              CALL                     0
+              POP_TOP
+
+ 77           LOAD_FAST_LOAD_FAST      0 (self, self)
+              STORE_ATTR               1 (마지막버튼)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.토글버튼
+file='인터페이스\\인터페이스.py' line=81 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+  81           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('토글버튼')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (81)
+               STORE_NAME               3 (__firstlineno__)
+
+  82           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569B8CFD70, file "인터페이스\인터페이스.py", line 82>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+
+  94           LOAD_CONST               3 (<code object 검정 at 0x000002569BF956B0, file "인터페이스\인터페이스.py", line 94>)
+               MAKE_FUNCTION
+               STORE_NAME               5 (검정)
+
+  96           LOAD_CONST               4 (<code object 하양 at 0x000002569BF95E30, file "인터페이스\인터페이스.py", line 96>)
+               MAKE_FUNCTION
+               STORE_NAME               6 (하양)
+               LOAD_CONST               5 (('아이콘', '아이콘2'))
+               STORE_NAME               7 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               8 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.토글버튼.토글버튼.__init__
+file='인터페이스\\인터페이스.py' line=82 args=6 locals=6
+  --           COPY_FREE_VARS           1
+
+  82           RESUME                   0
+
+  83           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               6 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+  84           LOAD_CONST               1 ('flat')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('relief')
+               STORE_SUBSCR
+
+  85           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               4 ('borderwidth')
+               STORE_SUBSCR
+
+  86           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('highlightthickness')
+               STORE_SUBSCR
+
+  87           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('highlightthickness')
+               STORE_SUBSCR
+
+  88           LOAD_CONST               6 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               7 ('bg')
+               STORE_SUBSCR
+
+  89           LOAD_CONST               6 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               8 ('activebackground')
+               STORE_SUBSCR
+
+  90           LOAD_GLOBAL              5 (PhotoImage + NULL)
+               LOAD_GLOBAL              7 (이미지 + NULL)
+               LOAD_FAST                4 (이미지경로)
+               CALL                     1
+               LOAD_CONST               9 (('file',))
+               CALL_KW                  1
+               LOAD_FAST                0 (self)
+               STORE_ATTR               4 (아이콘)
+
+  91           LOAD_GLOBAL              5 (PhotoImage + NULL)
+               LOAD_GLOBAL              7 (이미지 + NULL)
+               LOAD_FAST                5 (이미지경로2)
+               CALL                     1
+               LOAD_CONST               9 (('file',))
+               CALL_KW                  1
+               LOAD_FAST                0 (self)
+               STORE_ATTR               5 (아이콘2)
+
+  92           LOAD_FAST                0 (self)
+               LOAD_ATTR                8 (아이콘)
+               LOAD_FAST                0 (self)
+               LOAD_CONST              10 ('image')
+               STORE_SUBSCR
+
+  93           LOAD_FAST                0 (self)
+               LOAD_ATTR               13 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST              11 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.토글버튼.토글버튼.검정
+file='인터페이스\\인터페이스.py' line=94 args=1 locals=1
+ 94           RESUME                   0
+
+ 95           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (아이콘2)
+              LOAD_FAST                0 (self)
+              LOAD_CONST               1 ('image')
+              STORE_SUBSCR
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.토글버튼.토글버튼.하양
+file='인터페이스\\인터페이스.py' line=96 args=1 locals=1
+ 96           RESUME                   0
+
+ 97           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (아이콘)
+              LOAD_FAST                0 (self)
+              LOAD_CONST               1 ('image')
+              STORE_SUBSCR
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.입력창
+file='인터페이스\\인터페이스.py' line=99 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+  99           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('입력창')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (99)
+               STORE_NAME               3 (__firstlineno__)
+
+ 100           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BF75430, file "인터페이스\인터페이스.py", line 100>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (())
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.입력창.입력창.__init__
+file='인터페이스\\인터페이스.py' line=100 args=4 locals=4
+  --           COPY_FREE_VARS           1
+
+ 100           RESUME                   0
+
+ 101           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               4 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 102           LOAD_CONST               1 ('#d4d9fc')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('bg')
+               STORE_SUBSCR
+
+ 103           LOAD_CONST               3 (11)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               4 ('width')
+               STORE_SUBSCR
+
+ 104           LOAD_CONST               5 ('맑은고딕 20 bold')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               6 ('font')
+               STORE_SUBSCR
+
+ 105           LOAD_CONST               7 ('center')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               8 ('justify')
+               STORE_SUBSCR
+
+ 106           LOAD_FAST                0 (self)
+               LOAD_ATTR                5 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST               9 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.입력창넓이
+file='인터페이스\\인터페이스.py' line=108 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 108           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('입력창넓이')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (108)
+               STORE_NAME               3 (__firstlineno__)
+
+ 109           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BFBC750, file "인터페이스\인터페이스.py", line 109>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (())
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.입력창넓이.입력창넓이.__init__
+file='인터페이스\\인터페이스.py' line=109 args=5 locals=5
+  --           COPY_FREE_VARS           1
+
+ 109           RESUME                   0
+
+ 110           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               5 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 111           LOAD_CONST               1 ('#d4d9fc')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('bg')
+               STORE_SUBSCR
+
+ 112           LOAD_FAST_LOAD_FAST     64 (넓이, self)
+               LOAD_CONST               3 ('width')
+               STORE_SUBSCR
+
+ 113           LOAD_CONST               4 ('맑은고딕 20 bold')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('font')
+               STORE_SUBSCR
+
+ 114           LOAD_CONST               6 ('center')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               7 ('justify')
+               STORE_SUBSCR
+
+ 115           LOAD_FAST                0 (self)
+               LOAD_ATTR                5 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST               8 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.입력창넓이높이
+file='인터페이스\\인터페이스.py' line=117 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 117           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('입력창넓이높이')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (117)
+               STORE_NAME               3 (__firstlineno__)
+
+ 118           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BFBCC10, file "인터페이스\인터페이스.py", line 118>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (())
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.입력창넓이높이.입력창넓이높이.__init__
+file='인터페이스\\인터페이스.py' line=118 args=6 locals=6
+  --           COPY_FREE_VARS           1
+
+ 118           RESUME                   0
+
+ 119           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               6 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 120           LOAD_CONST               1 ('#d4d9fc')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('bg')
+               STORE_SUBSCR
+
+ 121           LOAD_FAST_LOAD_FAST     64 (넓이, self)
+               LOAD_CONST               3 ('width')
+               STORE_SUBSCR
+
+ 122           LOAD_FAST_LOAD_FAST     80 (높이, self)
+               LOAD_CONST               4 ('height')
+               STORE_SUBSCR
+
+ 123           LOAD_CONST               5 ('맑은고딕 20 bold')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               6 ('font')
+               STORE_SUBSCR
+
+ 124           LOAD_FAST                0 (self)
+               LOAD_ATTR                5 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST               7 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.입력창넓이크기
+file='인터페이스\\인터페이스.py' line=126 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 126           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('입력창넓이크기')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (126)
+               STORE_NAME               3 (__firstlineno__)
+
+ 127           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BF9CAB0, file "인터페이스\인터페이스.py", line 127>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (())
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.입력창넓이크기.입력창넓이크기.__init__
+file='인터페이스\\인터페이스.py' line=127 args=6 locals=6
+  --           COPY_FREE_VARS           1
+
+ 127           RESUME                   0
+
+ 128           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               6 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 129           LOAD_CONST               1 ('#d4d9fc')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('bg')
+               STORE_SUBSCR
+
+ 130           LOAD_FAST_LOAD_FAST     64 (넓이, self)
+               LOAD_CONST               3 ('width')
+               STORE_SUBSCR
+
+ 131           LOAD_CONST               4 ('맑은고딕 ')
+               LOAD_GLOBAL              5 (str + NULL)
+               LOAD_FAST                5 (크기)
+               CALL                     1
+               BINARY_OP                0 (+)
+               LOAD_CONST               5 (' bold')
+               BINARY_OP                0 (+)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               6 ('font')
+               STORE_SUBSCR
+
+ 132           LOAD_CONST               7 ('center')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               8 ('justify')
+               STORE_SUBSCR
+
+ 133           LOAD_FAST                0 (self)
+               LOAD_ATTR                7 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST               9 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.프레임
+file='인터페이스\\인터페이스.py' line=138 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 138           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('프레임')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (138)
+               STORE_NAME               3 (__firstlineno__)
+
+ 139           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BF75570, file "인터페이스\인터페이스.py", line 139>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (('윈도우x', '윈도우y'))
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.프레임.프레임.__init__
+file='인터페이스\\인터페이스.py' line=139 args=6 locals=6
+  --           COPY_FREE_VARS           1
+
+ 139           RESUME                   0
+
+ 140           LOAD_CONST               0 (None)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               0 (윈도우x)
+
+ 141           LOAD_CONST               0 (None)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               1 (윈도우y)
+
+ 142           LOAD_GLOBAL              4 (super)
+               LOAD_DEREF               6 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR         13 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 143           LOAD_CONST               1 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('bg')
+               STORE_SUBSCR
+
+ 144           LOAD_FAST_LOAD_FAST     64 (가로, self)
+               LOAD_CONST               3 ('width')
+               STORE_SUBSCR
+
+ 145           LOAD_FAST_LOAD_FAST     80 (세로, self)
+               LOAD_CONST               4 ('height')
+               STORE_SUBSCR
+
+ 146           LOAD_FAST                0 (self)
+               LOAD_ATTR                9 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST               5 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.프레임색
+file='인터페이스\\인터페이스.py' line=148 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 148           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('프레임색')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (148)
+               STORE_NAME               3 (__firstlineno__)
+
+ 149           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BF757F0, file "인터페이스\인터페이스.py", line 149>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (('윈도우x', '윈도우y'))
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.프레임색.프레임색.__init__
+file='인터페이스\\인터페이스.py' line=149 args=7 locals=7
+  --           COPY_FREE_VARS           1
+
+ 149           RESUME                   0
+
+ 150           LOAD_CONST               0 (None)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               0 (윈도우x)
+
+ 151           LOAD_CONST               0 (None)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               1 (윈도우y)
+
+ 152           LOAD_GLOBAL              4 (super)
+               LOAD_DEREF               7 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR         13 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 153           LOAD_FAST_LOAD_FAST     96 (배경색, self)
+               LOAD_CONST               1 ('bg')
+               STORE_SUBSCR
+
+ 154           LOAD_FAST_LOAD_FAST     64 (가로, self)
+               LOAD_CONST               2 ('width')
+               STORE_SUBSCR
+
+ 155           LOAD_FAST_LOAD_FAST     80 (세로, self)
+               LOAD_CONST               3 ('height')
+               STORE_SUBSCR
+
+ 156           LOAD_FAST                0 (self)
+               LOAD_ATTR                9 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST               4 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.상단바
+file='인터페이스\\인터페이스.py' line=158 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 158           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('상단바')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (158)
+               STORE_NAME               3 (__firstlineno__)
+
+ 159           LOAD_CONST               7 (('#aeb7f9',))
+               LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BD38FB0, file "인터페이스\인터페이스.py", line 159>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               SET_FUNCTION_ATTRIBUTE   1 (defaults)
+               STORE_NAME               4 (__init__)
+
+ 171           LOAD_CONST               3 (<code object 무빙시작 at 0x000002569BF59DF0, file "인터페이스\인터페이스.py", line 171>)
+               MAKE_FUNCTION
+               STORE_NAME               5 (무빙시작)
+
+ 175           LOAD_CONST               4 (<code object 무빙끝 at 0x000002569BF964C0, file "인터페이스\인터페이스.py", line 175>)
+               MAKE_FUNCTION
+               STORE_NAME               6 (무빙끝)
+
+ 179           LOAD_CONST               5 (<code object 무빙 at 0x000002569BD391A0, file "인터페이스\인터페이스.py", line 179>)
+               MAKE_FUNCTION
+               STORE_NAME               7 (무빙)
+               LOAD_CONST               6 (('윈도우x', '윈도우y'))
+               STORE_NAME               8 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               9 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.상단바.상단바.__init__
+file='인터페이스\\인터페이스.py' line=159 args=7 locals=7
+  --           COPY_FREE_VARS           1
+
+ 159           RESUME                   0
+
+ 160           LOAD_CONST               0 (None)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               0 (윈도우x)
+
+ 161           LOAD_CONST               0 (None)
+               LOAD_FAST                0 (self)
+               STORE_ATTR               1 (윈도우y)
+
+ 162           LOAD_GLOBAL              4 (super)
+               LOAD_DEREF               7 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR         13 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 163           LOAD_FAST_LOAD_FAST     96 (배경, self)
+               LOAD_CONST               1 ('bg')
+               STORE_SUBSCR
+
+ 164           LOAD_FAST_LOAD_FAST     64 (가로, self)
+               LOAD_CONST               2 ('width')
+               STORE_SUBSCR
+
+ 165           LOAD_FAST_LOAD_FAST     80 (세로, self)
+               LOAD_CONST               3 ('height')
+               STORE_SUBSCR
+
+ 166           LOAD_FAST                0 (self)
+               LOAD_ATTR                9 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST               4 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+
+ 167           LOAD_FAST                0 (self)
+               LOAD_ATTR               11 (bind + NULL|self)
+               LOAD_CONST               5 ('<ButtonPress-1>')
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               12 (무빙시작)
+               CALL                     2
+               POP_TOP
+
+ 168           LOAD_FAST                0 (self)
+               LOAD_ATTR               11 (bind + NULL|self)
+               LOAD_CONST               6 ('<ButtonRelease-1>')
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               14 (무빙끝)
+               CALL                     2
+               POP_TOP
+
+ 169           LOAD_FAST                0 (self)
+               LOAD_ATTR               11 (bind + NULL|self)
+               LOAD_CONST               7 ('<B1-Motion>')
+               LOAD_FAST                0 (self)
+               LOAD_ATTR               16 (무빙)
+               CALL                     2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.상단바.상단바.무빙시작
+file='인터페이스\\인터페이스.py' line=171 args=2 locals=2
+171           RESUME                   0
+
+172           LOAD_FAST                1 (event)
+              LOAD_ATTR                0 (x)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               1 (윈도우x)
+
+173           LOAD_FAST                1 (event)
+              LOAD_ATTR                4 (y)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               3 (윈도우y)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.상단바.상단바.무빙끝
+file='인터페이스\\인터페이스.py' line=175 args=2 locals=2
+175           RESUME                   0
+
+176           LOAD_CONST               0 (None)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               0 (윈도우x)
+
+177           LOAD_CONST               0 (None)
+              LOAD_FAST                0 (self)
+              STORE_ATTR               1 (윈도우y)
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.상단바.상단바.무빙
+file='인터페이스\\인터페이스.py' line=179 args=2 locals=6
+179           RESUME                   0
+
+180           LOAD_FAST                1 (event)
+              LOAD_ATTR                0 (x)
+              LOAD_FAST                0 (self)
+              LOAD_ATTR                2 (윈도우x)
+              BINARY_OP               10 (-)
+              STORE_FAST               2 (델타x)
+
+181           LOAD_FAST                1 (event)
+              LOAD_ATTR                4 (y)
+              LOAD_FAST                0 (self)
+              LOAD_ATTR                6 (윈도우y)
+              BINARY_OP               10 (-)
+              STORE_FAST               3 (델타y)
+
+182           LOAD_FAST                0 (self)
+              LOAD_ATTR                8 (master)
+              LOAD_ATTR               11 (winfo_x + NULL|self)
+              CALL                     0
+              LOAD_FAST                2 (델타x)
+              BINARY_OP                0 (+)
+              STORE_FAST               4 (x)
+
+183           LOAD_FAST                0 (self)
+              LOAD_ATTR                8 (master)
+              LOAD_ATTR               13 (winfo_y + NULL|self)
+              CALL                     0
+              LOAD_FAST                3 (델타y)
+              BINARY_OP                0 (+)
+              STORE_FAST               5 (y)
+
+184           LOAD_FAST                0 (self)
+              LOAD_ATTR                8 (master)
+              LOAD_ATTR               15 (geometry + NULL|self)
+              LOAD_CONST               1 ('+')
+              LOAD_FAST                4 (x)
+              FORMAT_SIMPLE
+              LOAD_CONST               1 ('+')
+              LOAD_FAST                5 (y)
+              FORMAT_SIMPLE
+              BUILD_STRING             4
+              CALL                     1
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.새탭
+file='인터페이스\\인터페이스.py' line=188 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 188           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('새탭')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (188)
+               STORE_NAME               3 (__firstlineno__)
+
+ 189           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BAC8960, file "인터페이스\인터페이스.py", line 189>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (())
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.새탭.새탭.__init__
+file='인터페이스\\인터페이스.py' line=189 args=6 locals=8
+  --           COPY_FREE_VARS           1
+               MAKE_CELL                0 (self)
+
+ 189           RESUME                   0
+
+ 190           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               8 (__class__)
+               LOAD_DEREF               0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 191           LOAD_DEREF               0 (self)
+               LOAD_ATTR                5 (overrideredirect + NULL|self)
+               LOAD_CONST               1 (True)
+               CALL                     1
+               POP_TOP
+
+ 192           LOAD_DEREF               0 (self)
+               LOAD_ATTR                7 (wm_attributes + NULL|self)
+               LOAD_CONST               2 ('-topmost')
+               LOAD_CONST               3 (2)
+               CALL                     2
+               POP_TOP
+
+ 193           LOAD_DEREF               0 (self)
+               LOAD_ATTR                9 (configure + NULL|self)
+               LOAD_CONST               4 ('#ffffff')
+               LOAD_CONST               5 (('bg',))
+               CALL_KW                  1
+               POP_TOP
+
+ 195           LOAD_DEREF               0 (self)
+               LOAD_ATTR               11 (geometry + NULL|self)
+               LOAD_GLOBAL             13 (str + NULL)
+               LOAD_FAST                4 (가로)
+               CALL                     1
+               LOAD_CONST               6 ('x')
+               BINARY_OP                0 (+)
+               LOAD_GLOBAL             13 (str + NULL)
+               LOAD_FAST                5 (세로)
+               CALL                     1
+               BINARY_OP                0 (+)
+               LOAD_CONST               7 ('+')
+               BINARY_OP                0 (+)
+               LOAD_GLOBAL             13 (str + NULL)
+               LOAD_FAST                2 (x좌표)
+               CALL                     1
+               BINARY_OP                0 (+)
+               LOAD_CONST               7 ('+')
+               BINARY_OP                0 (+)
+               LOAD_GLOBAL             13 (str + NULL)
+               LOAD_FAST                3 (y좌표)
+               CALL                     1
+               BINARY_OP                0 (+)
+               CALL                     1
+               POP_TOP
+
+ 197           LOAD_GLOBAL             15 (버튼 + NULL)
+               LOAD_DEREF               0 (self)
+               LOAD_FAST                4 (가로)
+               LOAD_CONST               8 (50)
+               BINARY_OP               10 (-)
+               LOAD_CONST               9 (0)
+               LOAD_CONST              10 ('아이콘\\상단바\\닫기.PNG')
+               LOAD_FAST                0 (self)
+               BUILD_TUPLE              1
+               LOAD_CONST              11 (<code object <lambda> at 0x000002569BF965B0, file "인터페이스\인터페이스.py", line 197>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               CALL                     5
+               STORE_FAST               6 (탭닫기버튼)
+
+ 198           LOAD_GLOBAL             17 (상단바 + NULL)
+               LOAD_DEREF               0 (self)
+               LOAD_CONST               9 (0)
+               LOAD_CONST               9 (0)
+               LOAD_FAST                4 (가로)
+               LOAD_CONST               8 (50)
+               BINARY_OP               10 (-)
+               LOAD_CONST               8 (50)
+               CALL                     5
+               STORE_FAST               7 (탭상단바)
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.새탭.새탭.__init__.새탭.__init__.<locals>.<lambda>
+file='인터페이스\\인터페이스.py' line=197 args=0 locals=0
+  --           COPY_FREE_VARS           1
+
+ 197           RESUME                   0
+               LOAD_DEREF               0 (self)
+               LOAD_ATTR                1 (destroy + NULL|self)
+               CALL                     0
+               RETURN_VALUE
+
+====================================================================================================
+<module>.우측새탭
+file='인터페이스\\인터페이스.py' line=200 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 200           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('우측새탭')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (200)
+               STORE_NAME               3 (__firstlineno__)
+
+ 201           LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BAC8BA0, file "인터페이스\인터페이스.py", line 201>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (())
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.우측새탭.우측새탭.__init__
+file='인터페이스\\인터페이스.py' line=201 args=6 locals=8
+  --           COPY_FREE_VARS           1
+               MAKE_CELL                0 (self)
+
+ 201           RESUME                   0
+
+ 202           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               8 (__class__)
+               LOAD_DEREF               0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 203           LOAD_DEREF               0 (self)
+               LOAD_ATTR                5 (overrideredirect + NULL|self)
+               LOAD_CONST               1 (True)
+               CALL                     1
+               POP_TOP
+
+ 204           LOAD_DEREF               0 (self)
+               LOAD_ATTR                7 (wm_attributes + NULL|self)
+               LOAD_CONST               2 ('-topmost')
+               LOAD_CONST               3 (2)
+               CALL                     2
+               POP_TOP
+
+ 205           LOAD_DEREF               0 (self)
+               LOAD_ATTR                9 (configure + NULL|self)
+               LOAD_CONST               4 ('#ffffff')
+               LOAD_CONST               5 (('bg',))
+               CALL_KW                  1
+               POP_TOP
+
+ 207           LOAD_DEREF               0 (self)
+               LOAD_ATTR               11 (geometry + NULL|self)
+               LOAD_GLOBAL             13 (str + NULL)
+               LOAD_FAST                4 (가로)
+               CALL                     1
+               LOAD_CONST               6 ('x')
+               BINARY_OP                0 (+)
+               LOAD_GLOBAL             13 (str + NULL)
+               LOAD_FAST                5 (세로)
+               CALL                     1
+               BINARY_OP                0 (+)
+               LOAD_CONST               7 ('-')
+               BINARY_OP                0 (+)
+               LOAD_GLOBAL             13 (str + NULL)
+               LOAD_FAST                2 (x좌표)
+               CALL                     1
+               BINARY_OP                0 (+)
+               LOAD_CONST               8 ('+')
+               BINARY_OP                0 (+)
+               LOAD_GLOBAL             13 (str + NULL)
+               LOAD_FAST                3 (y좌표)
+               CALL                     1
+               BINARY_OP                0 (+)
+               CALL                     1
+               POP_TOP
+
+ 209           LOAD_GLOBAL             15 (버튼 + NULL)
+               LOAD_DEREF               0 (self)
+               LOAD_FAST                4 (가로)
+               LOAD_CONST               9 (50)
+               BINARY_OP               10 (-)
+               LOAD_CONST              10 (0)
+               LOAD_CONST              11 ('아이콘\\상단바\\닫기.PNG')
+               LOAD_FAST                0 (self)
+               BUILD_TUPLE              1
+               LOAD_CONST              12 (<code object <lambda> at 0x000002569BF96790, file "인터페이스\인터페이스.py", line 209>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               CALL                     5
+               STORE_FAST               6 (탭닫기버튼)
+
+ 210           LOAD_GLOBAL             17 (상단바 + NULL)
+               LOAD_DEREF               0 (self)
+               LOAD_CONST              10 (0)
+               LOAD_CONST              10 (0)
+               LOAD_FAST                4 (가로)
+               LOAD_CONST               9 (50)
+               BINARY_OP               10 (-)
+               LOAD_CONST               9 (50)
+               CALL                     5
+               STORE_FAST               7 (탭상단바)
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.우측새탭.우측새탭.__init__.우측새탭.__init__.<locals>.<lambda>
+file='인터페이스\\인터페이스.py' line=209 args=0 locals=0
+  --           COPY_FREE_VARS           1
+
+ 209           RESUME                   0
+               LOAD_DEREF               0 (self)
+               LOAD_ATTR                1 (destroy + NULL|self)
+               CALL                     0
+               RETURN_VALUE
+
+====================================================================================================
+<module>.설명창
+file='인터페이스\\인터페이스.py' line=213 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 213           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('설명창')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (213)
+               STORE_NAME               3 (__firstlineno__)
+
+ 214           LOAD_CONST               5 (('',))
+               LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569BD95C70, file "인터페이스\인터페이스.py", line 214>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               SET_FUNCTION_ATTRIBUTE   1 (defaults)
+               STORE_NAME               4 (__init__)
+
+ 233           LOAD_CONST               3 (<code object 내용갱신 at 0x000002569BC7BE10, file "인터페이스\인터페이스.py", line 233>)
+               MAKE_FUNCTION
+               STORE_NAME               5 (내용갱신)
+               LOAD_CONST               4 (('설명',))
+               STORE_NAME               6 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               7 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.설명창.설명창.__init__
+file='인터페이스\\인터페이스.py' line=214 args=3 locals=5
+  --           COPY_FREE_VARS           1
+               MAKE_CELL                0 (self)
+               MAKE_CELL                5 (설명창닫기)
+
+ 214           RESUME                   0
+
+ 215           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               6 (__class__)
+               LOAD_DEREF               0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_FAST                1 (master)
+               CALL                     1
+               POP_TOP
+
+ 216           LOAD_DEREF               0 (self)
+               LOAD_ATTR                5 (overrideredirect + NULL|self)
+               LOAD_CONST               1 (True)
+               CALL                     1
+               POP_TOP
+
+ 217           LOAD_DEREF               0 (self)
+               LOAD_ATTR                7 (wm_attributes + NULL|self)
+               LOAD_CONST               2 ('-topmost')
+               LOAD_CONST               3 (2)
+               CALL                     2
+               POP_TOP
+
+ 218           LOAD_DEREF               0 (self)
+               LOAD_ATTR                9 (configure + NULL|self)
+               LOAD_CONST               4 ('#ffffff')
+               LOAD_CONST               5 (('bg',))
+               CALL_KW                  1
+               POP_TOP
+
+ 219           LOAD_DEREF               0 (self)
+               LOAD_ATTR               11 (geometry + NULL|self)
+               LOAD_CONST               6 ('300x400-400+50')
+               CALL                     1
+               POP_TOP
+
+ 220           LOAD_FAST                0 (self)
+               BUILD_TUPLE              1
+               LOAD_CONST               7 (<code object 설명창닫기 at 0x000002569BFAB030, file "인터페이스\인터페이스.py", line 220>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_DEREF              5 (설명창닫기)
+
+ 224           LOAD_GLOBAL             13 (버튼 + NULL)
+               LOAD_DEREF               0 (self)
+               LOAD_CONST               8 (250)
+               LOAD_CONST               9 (0)
+               LOAD_CONST              10 ('아이콘\\상단바\\닫기.PNG')
+               LOAD_FAST                5 (설명창닫기)
+               BUILD_TUPLE              1
+               LOAD_CONST              11 (<code object <lambda> at 0x000002569BFD4490, file "인터페이스\인터페이스.py", line 224>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               CALL                     5
+               STORE_FAST               3 (탭닫기버튼)
+
+ 225           LOAD_GLOBAL             15 (상단바 + NULL)
+               LOAD_DEREF               0 (self)
+               LOAD_CONST               9 (0)
+               LOAD_CONST               9 (0)
+               LOAD_CONST               8 (250)
+               LOAD_CONST              12 (50)
+               CALL                     5
+               STORE_FAST               4 (탭상단바)
+
+ 227           LOAD_GLOBAL             17 (Text + NULL)
+               LOAD_DEREF               0 (self)
+               LOAD_CONST              13 ('맑은고딕 13 bold')
+               LOAD_CONST              14 (30)
+               LOAD_CONST              15 (17)
+               LOAD_CONST              16 (('font', 'width', 'height'))
+               CALL_KW                  4
+               LOAD_DEREF               0 (self)
+               STORE_ATTR               9 (설명)
+
+ 228           LOAD_DEREF               0 (self)
+               LOAD_ATTR               18 (설명)
+               LOAD_ATTR               21 (place + NULL|self)
+               LOAD_CONST              17 (10)
+               LOAD_CONST              18 (60)
+               LOAD_CONST              19 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+
+ 229           LOAD_DEREF               0 (self)
+               LOAD_ATTR               18 (설명)
+               LOAD_ATTR               23 (delete + NULL|self)
+               LOAD_CONST              20 ('1.0')
+               LOAD_GLOBAL             24 (END)
+               CALL                     2
+               POP_TOP
+
+ 230           LOAD_DEREF               0 (self)
+               LOAD_ATTR               18 (설명)
+               LOAD_ATTR               27 (insert + NULL|self)
+               LOAD_CONST              20 ('1.0')
+               LOAD_GLOBAL             29 (str + NULL)
+               LOAD_FAST                2 (내용)
+               CALL                     1
+               CALL                     2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.설명창.설명창.__init__.설명창.__init__.<locals>.설명창닫기
+file='인터페이스\\인터페이스.py' line=220 args=0 locals=0
+  --           COPY_FREE_VARS           1
+
+ 220           RESUME                   0
+
+ 222           LOAD_CONST               0 (None)
+               STORE_GLOBAL             0 (설명창변수)
+
+ 223           LOAD_DEREF               0 (self)
+               LOAD_ATTR                3 (destroy + NULL|self)
+               CALL                     0
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.설명창.설명창.__init__.설명창.__init__.<locals>.<lambda>
+file='인터페이스\\인터페이스.py' line=224 args=0 locals=0
+  --           COPY_FREE_VARS           1
+
+ 224           RESUME                   0
+               LOAD_DEREF               0 (설명창닫기)
+               PUSH_NULL
+               CALL                     0
+               RETURN_VALUE
+
+====================================================================================================
+<module>.설명창.설명창.내용갱신
+file='인터페이스\\인터페이스.py' line=233 args=2 locals=2
+233           RESUME                   0
+
+234           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (설명)
+              LOAD_ATTR                3 (delete + NULL|self)
+              LOAD_CONST               1 ('1.0')
+              LOAD_GLOBAL              4 (END)
+              CALL                     2
+              POP_TOP
+
+235           LOAD_FAST                0 (self)
+              LOAD_ATTR                0 (설명)
+              LOAD_ATTR                7 (insert + NULL|self)
+              LOAD_CONST               1 ('1.0')
+              LOAD_GLOBAL              9 (str + NULL)
+              LOAD_FAST                1 (새내용)
+              CALL                     1
+              CALL                     2
+              POP_TOP
+              RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.설명버튼
+file='인터페이스\\인터페이스.py' line=242 args=0 locals=0
+  --           MAKE_CELL                0 (__class__)
+
+ 242           RESUME                   0
+               LOAD_NAME                0 (__name__)
+               STORE_NAME               1 (__module__)
+               LOAD_CONST               0 ('설명버튼')
+               STORE_NAME               2 (__qualname__)
+               LOAD_CONST               1 (242)
+               STORE_NAME               3 (__firstlineno__)
+
+ 243           LOAD_CONST               4 (('',))
+               LOAD_FAST                0 (__class__)
+               BUILD_TUPLE              1
+               LOAD_CONST               2 (<code object __init__ at 0x000002569B8EBE10, file "인터페이스\인터페이스.py", line 243>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               SET_FUNCTION_ATTRIBUTE   1 (defaults)
+               STORE_NAME               4 (__init__)
+               LOAD_CONST               3 (('아이콘',))
+               STORE_NAME               5 (__static_attributes__)
+               LOAD_FAST                0 (__class__)
+               COPY                     1
+               STORE_NAME               6 (__classcell__)
+               RETURN_VALUE
+
+====================================================================================================
+<module>.설명버튼.설명버튼.__init__
+file='인터페이스\\인터페이스.py' line=243 args=7 locals=7
+  --           COPY_FREE_VARS           1
+               MAKE_CELL                1 (master)
+               MAKE_CELL                6 (설명)
+               MAKE_CELL                7 (설명창확인)
+
+ 243           RESUME                   0
+
+ 244           LOAD_GLOBAL              0 (super)
+               LOAD_DEREF               8 (__class__)
+               LOAD_FAST                0 (self)
+               LOAD_SUPER_ATTR          5 (__init__ + NULL|self)
+               LOAD_DEREF               1 (master)
+               CALL                     1
+               POP_TOP
+
+ 245           LOAD_CONST               1 ('flat')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               2 ('relief')
+               STORE_SUBSCR
+
+ 246           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               4 ('borderwidth')
+               STORE_SUBSCR
+
+ 247           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('highlightthickness')
+               STORE_SUBSCR
+
+ 248           LOAD_CONST               3 (0)
+               LOAD_FAST                0 (self)
+               LOAD_CONST               5 ('highlightthickness')
+               STORE_SUBSCR
+
+ 249           LOAD_CONST               6 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               7 ('bg')
+               STORE_SUBSCR
+
+ 250           LOAD_CONST               6 ('#ffffff')
+               LOAD_FAST                0 (self)
+               LOAD_CONST               8 ('activebackground')
+               STORE_SUBSCR
+
+ 251           LOAD_GLOBAL              5 (PhotoImage + NULL)
+               LOAD_GLOBAL              7 (이미지 + NULL)
+               LOAD_FAST                4 (이미지경로)
+               CALL                     1
+               LOAD_CONST               9 (('file',))
+               CALL_KW                  1
+               LOAD_FAST                0 (self)
+               STORE_ATTR               4 (아이콘)
+
+ 252           LOAD_FAST                0 (self)
+               LOAD_ATTR                8 (아이콘)
+               LOAD_FAST                0 (self)
+               LOAD_CONST              10 ('image')
+               STORE_SUBSCR
+
+ 253           LOAD_FAST_LOAD_FAST     80 (함수, self)
+               LOAD_CONST              11 ('command')
+               STORE_SUBSCR
+
+ 254           LOAD_FAST                0 (self)
+               LOAD_ATTR               11 (place + NULL|self)
+               LOAD_FAST_LOAD_FAST     35 (x좌표, y좌표)
+               LOAD_CONST              12 (('x', 'y'))
+               CALL_KW                  2
+               POP_TOP
+
+ 256           LOAD_FAST                1 (master)
+               LOAD_FAST                6 (설명)
+               BUILD_TUPLE              2
+               LOAD_CONST              13 (<code object 설명창확인 at 0x000002569BFBCD40, file "인터페이스\인터페이스.py", line 256>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               STORE_DEREF              7 (설명창확인)
+
+ 262           LOAD_FAST                0 (self)
+               LOAD_ATTR               13 (bind + NULL|self)
+               LOAD_CONST              14 ('<Button-3>')
+               LOAD_FAST                7 (설명창확인)
+               BUILD_TUPLE              1
+               LOAD_CONST              15 (<code object <lambda> at 0x000002569BFD4570, file "인터페이스\인터페이스.py", line 262>)
+               MAKE_FUNCTION
+               SET_FUNCTION_ATTRIBUTE   8 (closure)
+               CALL                     2
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.설명버튼.설명버튼.__init__.설명버튼.__init__.<locals>.설명창확인
+file='인터페이스\\인터페이스.py' line=256 args=0 locals=0
+  --           COPY_FREE_VARS           2
+
+ 256           RESUME                   0
+
+ 258           LOAD_GLOBAL              0 (설명창변수)
+               LOAD_CONST               0 (None)
+               COMPARE_OP             119 (bool(!=))
+               POP_JUMP_IF_FALSE       22 (to L1)
+               LOAD_GLOBAL              0 (설명창변수)
+               LOAD_ATTR                3 (내용갱신 + NULL|self)
+               LOAD_DEREF               1 (설명)
+               CALL                     1
+               POP_TOP
+               RETURN_CONST             0 (None)
+
+ 259   L1:     LOAD_GLOBAL              5 (설명창 + NULL)
+               LOAD_DEREF               0 (master)
+               LOAD_DEREF               1 (설명)
+               CALL                     2
+               STORE_GLOBAL             0 (설명창변수)
+               RETURN_CONST             0 (None)
+
+====================================================================================================
+<module>.설명버튼.설명버튼.__init__.설명버튼.__init__.<locals>.<lambda>
+file='인터페이스\\인터페이스.py' line=262 args=1 locals=1
+  --           COPY_FREE_VARS           1
+
+ 262           RESUME                   0
+               LOAD_DEREF               1 (설명창확인)
+               PUSH_NULL
+               CALL                     0
+               RETURN_VALUE

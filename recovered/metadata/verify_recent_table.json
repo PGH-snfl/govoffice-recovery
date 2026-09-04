@@ -1,0 +1,95 @@
+{
+  "category": "table_fixture",
+  "selected": 3,
+  "start": 0,
+  "completed": 3,
+  "results": [
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "한컴열기",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30365,
+        "hwpml_sha256": "34aff9401d15df40a0b1c0da5b1acc753dd84eb8ec88569d3b07722ad4265e56"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 3,
+        "text_sha256": "ad57366865126e55649ecb23ae1d48887544976efea46a48eb5d85a6eeb4d306",
+        "hwpml_length": 30365,
+        "hwpml_sha256": "34aff9401d15df40a0b1c0da5b1acc753dd84eb8ec88569d3b07722ad4265e56"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리_기본",
+      "method": "셀정보",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": "(0, 2, 1, 1, 0, '1', 'A', '1', 'A')",
+        "text_length": 51,
+        "text_sha256": "f8b1aef893fb8cc8b48d8125534e0a845a5e3ee28ba2ca2e93f7ae145c89c3c1",
+        "hwpml_length": 29588,
+        "hwpml_sha256": "80c41c6401e79141656adf37f0a35015a0530781d6975204388ff0e553977f84"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": "(0, 2, 1, 1, 0, '1', 'A', '1', 'A')",
+        "text_length": 51,
+        "text_sha256": "f8b1aef893fb8cc8b48d8125534e0a845a5e3ee28ba2ca2e93f7ae145c89c3c1",
+        "hwpml_length": 29588,
+        "hwpml_sha256": "80c41c6401e79141656adf37f0a35015a0530781d6975204388ff0e553977f84"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "농어촌맞춤정렬",
+      "args": [],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 29975,
+        "hwpml_sha256": "4d5d2c601c7095637d8425300c6984ca04efe3def5e4b729100b89752e8d5fda"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 0,
+        "text_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "hwpml_length": 29975,
+        "hwpml_sha256": "4d5d2c601c7095637d8425300c6984ca04efe3def5e4b729100b89752e8d5fda"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": true,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "category": "file_fixture",
+  "selected": 10,
+  "start": 0,
+  "completed": 10,
+  "results": [
+    {
+      "module": "한컴라이브러리_1",
+      "method": "경기신보제목2",
+      "args": [
+        "항목1\n항목2\n100",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 112,
+        "text_sha256": "2cd10ba257960599a1133883a328a2001e106d24a2d246c41bf485c09fe91a21",
+        "hwpml_length": 44748,
+        "hwpml_sha256": "d7e715b0ac38b3ad5406d1d031da50edc90c69289dc6b69856d909c5ca64acd5"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 112,
+        "text_sha256": "2cd10ba257960599a1133883a328a2001e106d24a2d246c41bf485c09fe91a21",
+        "hwpml_length": 44748,
+        "hwpml_sha256": "d4028d6dee525b96f896b00d201998729d05c8611bcf4b97efbc95089392712e"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "용인표지",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 199,
+        "text_sha256": "3d4fcfe1da662834786c47a07951bbd07c79aa42b672fcdf5e4ba1ec1cd7db8e",
+        "hwpml_length": 64665,
+        "hwpml_sha256": "f679e87324787333907f7361a8e1d874c5d7aca8de168e710fea029259422a92"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 199,
+        "text_sha256": "3d4fcfe1da662834786c47a07951bbd07c79aa42b672fcdf5e4ba1ec1cd7db8e",
+        "hwpml_length": 64665,
+        "hwpml_sha256": "929bfea67e94cd146d00f155ea514b5288fae29990860875ee9ab0634383c487"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "영덕복합중제목",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 39,
+        "text_sha256": "ad22e831128822ec69f0ada7777cde76d24480ecfd0d8f55d45f38b33a1cc334",
+        "hwpml_length": 38657,
+        "hwpml_sha256": "f7437b4faef7c532a729e46f94501cfd0ebdb4f1580a2c8145c63c15bd76d830"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 39,
+        "text_sha256": "ad22e831128822ec69f0ada7777cde76d24480ecfd0d8f55d45f38b33a1cc334",
+        "hwpml_length": 38657,
+        "hwpml_sha256": "3826230e1010f65b150413ba06c5e096fb533a9a3718ab145bb1cd5897d77ac8"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "영덕결재선",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 127,
+        "text_sha256": "f88f8570d2be9bf75a034583e0be670b4056c1186c6cfddb91285745fb4515ec",
+        "hwpml_length": 51937,
+        "hwpml_sha256": "fc865ec87dfabe100e9d6cd8707aada3eeece2d25cad80f35feed5a492d2361f"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 127,
+        "text_sha256": "f88f8570d2be9bf75a034583e0be670b4056c1186c6cfddb91285745fb4515ec",
+        "hwpml_length": 51937,
+        "hwpml_sha256": "7dc34cbe9e646db4a5c34c206ef1cd0358b9caccc5c4ec862117f93607b5a940"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "외교표지",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 75,
+        "text_sha256": "bfe4b638ff08a2904d01ec59ac7366d294639c8d3535009f03210879e52a1766",
+        "hwpml_length": 43649,
+        "hwpml_sha256": "0623a083cdf60887648acc63e23d164fdae4ebcd6c1fcacd365563dc576699f1"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 75,
+        "text_sha256": "bfe4b638ff08a2904d01ec59ac7366d294639c8d3535009f03210879e52a1766",
+        "hwpml_length": 43649,
+        "hwpml_sha256": "2588ed764f338a7c69c99ff4711682c4856c93d6d5396ff5adced829c8f27ea2"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남양주제목",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 93,
+        "text_sha256": "925759612b43a9ade037a731f364752fc1ec28a2555135379ed332e71e699f75",
+        "hwpml_length": 39413,
+        "hwpml_sha256": "f4773fa3e8e81682fc864672e8e1b4edefb746e426b20ec7cba4eba9d232dfd8"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 93,
+        "text_sha256": "925759612b43a9ade037a731f364752fc1ec28a2555135379ed332e71e699f75",
+        "hwpml_length": 39413,
+        "hwpml_sha256": "ade72c603d227a7a9455d2ec562350ff0aa05aa6d08108ea6b1c1170eb5fadd1"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "남양주쪽지제목",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png",
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 93,
+        "text_sha256": "bc202e3fb749c3f6a8a62d0e3d40efa4af12742e654414b880017d8d8671730b",
+        "hwpml_length": 39412,
+        "hwpml_sha256": "b385d78fb622310a788e7cc85d699b209b1b488d2663a2c006840602f41a5bbb"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 93,
+        "text_sha256": "bc202e3fb749c3f6a8a62d0e3d40efa4af12742e654414b880017d8d8671730b",
+        "hwpml_length": 39412,
+        "hwpml_sha256": "10a4f8c4bfdfc33ce7145cf395de1d7283a862f4b82b946587d1963fe292a890"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "합천상단",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 40466,
+        "hwpml_sha256": "507a655456c83c4118f6b2dd972baa7ed5d1ed51078ef6b0d3be49187fe478eb"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 40466,
+        "hwpml_sha256": "494aaa852c6d73a654b74c262d633263f5126e5509d3d271fcc023545d5f6fe7"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주광역한장보고상단",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 36143,
+        "hwpml_sha256": "c2be65286a1839a74ae13e2e8d653a632ed4f3ade2be7ed8f33c5024ebfed5ab"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 11,
+        "text_sha256": "b3dc89216657baff56b40ad69542e8c2d93265375c48ddbaba1f21fdf5e4ccd9",
+        "hwpml_length": 36143,
+        "hwpml_sha256": "c9837b711bf3617bdb0b4196cb0995e972b62f3a384ed448464a7da0f3ffd151"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    },
+    {
+      "module": "한컴라이브러리",
+      "method": "광주광역보도자료상단",
+      "args": [
+        "C:\\Users\\skyla\\바탕 화면\\범정부오피스\\범피스1303_분석\\extracted\\resources\\아이콘\\표탭\\그림4.png"
+      ],
+      "legacy": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 126,
+        "text_sha256": "e7796164b9a1e0da8e5750a4e9185a5ab9c21c79cc8518857d85bccd2d009116",
+        "hwpml_length": 43877,
+        "hwpml_sha256": "eb068c2548153c05c8c48476e21dc34b67c846ab2a3f7772c071db5c39d45742"
+      },
+      "recovered": {
+        "ok": true,
+        "return_value": null,
+        "text_length": 126,
+        "text_sha256": "e7796164b9a1e0da8e5750a4e9185a5ab9c21c79cc8518857d85bccd2d009116",
+        "hwpml_length": 43877,
+        "hwpml_sha256": "7c1125856c29e0af974d8f04c56187104d413012e4c1895279817d8fb423a62a"
+      },
+      "comparison": {
+        "both_ok": true,
+        "outcome_equal": true,
+        "text_equal": true,
+        "hwpml_equal": false,
+        "return_equal": true,
+        "error_type_equal": false
+      }
+    }
+  ]
+}

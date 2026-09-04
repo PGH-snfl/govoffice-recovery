@@ -1,0 +1,120 @@
+{
+  "id": "geumcheon",
+  "name": "금천",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "금천창",
+  "functions": [
+    {
+      "id": "geumcheon.금천기본표",
+      "name": "금천기본표",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천기본표",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천꺽쇠박스",
+      "name": "금천꺽쇠박스",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천꺽쇠박스",
+      "parameters": [
+        "텍스트배열"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천동향보고",
+      "name": "금천동향보고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천동향보고",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천박스",
+      "name": "금천박스",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천박스",
+      "parameters": [
+        "제목",
+        "색상"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천보도자료",
+      "name": "금천보도자료",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천보도자료",
+      "parameters": [
+        "이미지1",
+        "이미지2"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천원페이지배경",
+      "name": "금천원페이지배경",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천원페이지배경",
+      "parameters": [
+        "제목"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천원페이지작성자",
+      "name": "금천원페이지작성자",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천원페이지작성자",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천정책보고",
+      "name": "금천정책보고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천정책보고",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천행사계획",
+      "name": "금천행사계획",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천행사계획",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천회의결과",
+      "name": "금천회의결과",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천회의결과",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "geumcheon.금천회의계획",
+      "name": "금천회의계획",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "금천회의계획",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    }
+  ]
+}

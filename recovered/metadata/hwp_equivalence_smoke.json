@@ -1,0 +1,27 @@
+{
+  "methods": {
+    "질병좌따": {
+      "legacy": {
+        "ok": true,
+        "text": "‘",
+        "text_length": 1,
+        "text_sha256": "ba29466502cd10866097bea469d1f99cd94cf150a3b719986b8d8ae6908dea3c",
+        "hwpml_length": 29351,
+        "hwpml_sha256": "4b76efd9637710075ab3300cea037633da9f94222b584a661eb04747299929d8"
+      },
+      "recovered": {
+        "ok": true,
+        "text": "‘",
+        "text_length": 1,
+        "text_sha256": "ba29466502cd10866097bea469d1f99cd94cf150a3b719986b8d8ae6908dea3c",
+        "hwpml_length": 29351,
+        "hwpml_sha256": "9eb0e6c368690fe926b9578c83a5b18777942ceb17684d1e391a86ca1a85e77d"
+      },
+      "comparison": {
+        "both_ok": true,
+        "text_equal": true,
+        "hwpml_equal": false
+      }
+    }
+  }
+}

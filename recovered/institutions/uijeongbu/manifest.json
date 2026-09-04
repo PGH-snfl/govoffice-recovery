@@ -1,0 +1,202 @@
+{
+  "id": "uijeongbu",
+  "name": "의정부",
+  "type": "local-government",
+  "version": "0.1.0",
+  "api_version": "1",
+  "enabled": true,
+  "legacy_window": "의정부창",
+  "functions": [
+    {
+      "id": "uijeongbu.의정부개요",
+      "name": "의정부개요",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부개요",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부결재선",
+      "name": "의정부결재선",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부결재선",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부공백",
+      "name": "의정부공백",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부공백",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부네모",
+      "name": "의정부네모",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부네모",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부당구",
+      "name": "의정부당구",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부당구",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부동그라미",
+      "name": "의정부동그라미",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부동그라미",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부목차",
+      "name": "의정부목차",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부목차",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부바",
+      "name": "의정부바",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부바",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부보도자료",
+      "name": "의정부보도자료",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부보도자료",
+      "parameters": [
+        "이미지1"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부비전",
+      "name": "의정부비전",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부비전",
+      "parameters": [
+        "이미지"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부상단",
+      "name": "의정부상단",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부상단",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부상황보고",
+      "name": "의정부상황보고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부상황보고",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부정책보고",
+      "name": "의정부정책보고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부정책보고",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부제목",
+      "name": "의정부제목",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부제목",
+      "parameters": [
+        "내용"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부표준보고",
+      "name": "의정부표준보고",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부표준보고",
+      "parameters": [
+        "그림1"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부표지",
+      "name": "의정부표지",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부표지",
+      "parameters": [
+        "그림"
+      ],
+      "ui_ready": false,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부행사계획",
+      "name": "의정부행사계획",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부행사계획",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부회의결과",
+      "name": "의정부회의결과",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부회의결과",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    },
+    {
+      "id": "uijeongbu.의정부회의계획",
+      "name": "의정부회의계획",
+      "handler": "functions.legacy:실행",
+      "legacy_method": "의정부회의계획",
+      "parameters": [],
+      "ui_ready": true,
+      "status": "legacy-compatible"
+    }
+  ]
+}
