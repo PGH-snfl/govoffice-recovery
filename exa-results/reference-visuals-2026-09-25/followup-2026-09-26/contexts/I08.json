@@ -1,0 +1,267 @@
+[
+  {
+    "visual_id": "I08-V0001",
+    "caption": "5G 가상화 기지국 기능 분리 및 관리 표준화 목표 및 범위",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "1. 최종 목표 및 연도별 연구내용\n가. 최종 목표\no 2020년 5G 서비스 도입에 있어 국내 중소기업 및 스타트업을 포함한 다양한 주\n체가 5G 기지국 기능 개발 및 사업화에 참여할 수 있는 새로운 5G 생태계 구축\n을 지원하기 위해, - 단기적으로는 기지국을 분리하여 각 모듈 별 특화 기능의 독자 개발을 가능하\n게 하는 가상화 및 모듈 간 개방형 인터페이스를 위한 표준 규격을 제조사 및\n통신사업자 합의를 통해 TTA 국내 표준으로 개발하고 (TTA, `18~19),",
+    "caption_and_following_text": "- 중장기적으로는 국내 제조사 및 통신사업자 합의를 통해 선점한 특허 기반 기\n술을 국제 표준에 반영하여 세계 5G 기술시장을 선도함 (3GPP, `19~20, 표준특\n허 발굴 연계)\n(그림 1) 5G 가상화 기지국 기능 분리 및 관리 표준화 목표 및 범위\nC-RAN BBU\n(DU-H + CU)\n5G\n코어\nAAU\nDU-L",
+    "section_context_candidate": "1. 최종 목표 및 연도별 연구내용",
+    "heading_candidates": [
+      "1. 최종 목표 및 연도별 연구내용",
+      "가. 최종 목표"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          266.01,
+          266.16,
+          419.23,
+          350.59
+        ],
+        "page_area_fraction": 0.0259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.92,
+          340.95,
+          289.51,
+          439.04
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          275.54,
+          353.26,
+          419.23,
+          442.09
+        ],
+        "page_area_fraction": 0.0255
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          275.54,
+          353.26,
+          419.23,
+          442.09
+        ],
+        "page_area_fraction": 0.0255
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -157.68,
+          148.75,
+          -27.09,
+          246.84
+        ],
+        "page_area_fraction": 0.0256
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I08-V0002",
+    "caption": "개방형 5G 기지국 국내 표준 범위 및 적용 구간",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 4 -\n나. 1차년도 연구결과",
+    "caption_and_following_text": "① 개방형 5G 기지국 기능분리 국내 표준 제안\n※ TTA 단체표준명 : 개방형 5G 프론트홀 인터페이스\n- TTA SPG31(5G무선접속)/SPG32(5G네트워크) 2018-5차 정기회의 제안 (12/6) - SKT, KT, LG U+ 등 통신사업자 및 국내 기지국(DU) 제조사등과 공동개발\n(그림 2) 개방형 5G 기지국 국내 표준 범위 및 적용 구간\n② 3GPP RAN3 개방형 기지국 및 5G 네트워크 제어 국제표준 개발\n※ 3GPP TS38.300 (NR and NG-RAN Overall Description; Stage 2) 표준 개발\n※ 3GPP TS38.413 (NG-RAN; NG Application Protocol (NGAP)) 표준 개발\n- 3GPP RAN3 5G 가상화 기지국 상위 계층 모듈간 연동 – Inter-system 핸드오버를\n위한 데이터 포워딩 및 end-marker 처리방법 (기고 4건 제안 및 1건 반영) Ÿ Handling of End Markers in 4G/5G to 5G/4G Handovers 기고 외\nŸ 삼성, LG전자, KT, Nokia, 화웨이 등과 공동기고",
+    "section_context_candidate": "나. 1차년도 연구결과",
+    "heading_candidates": [
+      "나. 1차년도 연구결과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.77,
+          397.02,
+          193.4,
+          570.7
+        ],
+        "page_area_fraction": 0.0405
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.61,
+          380.39,
+          528.5,
+          566.72
+        ],
+        "page_area_fraction": 0.115
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.61,
+          380.39,
+          528.5,
+          566.72
+        ],
+        "page_area_fraction": 0.115
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I08-V0003",
+    "caption": "Inter-system 핸드오버 처리 방법",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 5 -\n(a) 5G->4G\n(b) 4G->5G\n(그림 3) Inter-system 핸드오버 처리 방법\n- 3GPP RAN3 – MN과 SN 사이의 DRB ID 할당을 위한 Stage-3 규격 내용 (기고 1건\n제안 및 반영) Ÿ TP for NR BL CR for TS 38.423): Refinement of stage-3 behaviors for\nunique DRB ID assignment between MN and SN 기고\nŸ 인텔 등과 공동기고\n③ 3GPP 5G 가상화 지원 네트워크 슬라이싱 국제표준 개발\n※ 3GPP TS 23.502 (Procedures for the 5G system) 표준개발",
+    "section_context_candidate": "나. 1차년도 연구결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.73,
+          644.41,
+          461.03,
+          756.01
+        ],
+        "page_area_fraction": 0.073
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.37,
+          509.08,
+          458.51,
+          619.0
+        ],
+        "page_area_fraction": 0.0708
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I08-V0004",
+    "caption": "3GPP RAN3 제안된 Intra-AMF/UPF 핸드오버 절차",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 8 -\n(그림 4) 3GPP RAN3 제안된 Intra-AMF/UPF 핸드오버 절차\n- ETSI NFV 5G 가상화 기능 관리 기고 3건 제안 및 반영완료\nŸ NFVSOL(19)000053_SOL002ed261 Modification on\nVnfLcmOperationOccurrenceNotification\nŸ NFVSOL(19)000105_SOL002ed261 Update API version fields 외\n※ ETSI GR TST007ed261 (MANO IoP Testing Guidelines) 표준 개발\n- MANO 기능블럭별 시험 기능에 대한 Interoperability Features Statement 다이어그램\n기고 1건 제안 및 반영\nŸ NFVTST(19)000106 Annex IFS Diagram",
+    "section_context_candidate": "라. 2차년도 연구결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.18,
+          559.43,
+          399.86,
+          768.6
+        ],
+        "page_area_fraction": 0.0935
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I08-V0005",
+    "caption": "O-RAN 기반 개방형 5G 프론트홀 인터페이스 표준",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 10 -\n바. 3차년도 연구결과\n① 개방형 5G 기지국 프론트홀 인터페이스 국내표준 제정완료\n- TTA 단체표준명 : O-RAN 기반 개방형 5G 프론트홀 인터페이스 (표준번호\nTTAK.KO-06.0518) (’20.6) 승인\nŸ TTA 개방형 기지국 프론트홀 인터페이스 ad-hoc 그룹 신설 및 총 8회 회의 진\n행을 통한 통신3사 및 제조사간 합의기반 표준개발 (의장- 신명기 책연, 에디터- 안병준 책연)\nŸ SKT, KT, LG U+ 등 통신사업자 및 국내외 기지국 제조사 (삼성전자, 노키아, 에\n릭슨) 등과 공동 표준 개발\n(그림 5) O-RAN 기반 개방형 5G 프론트홀 인터페이스 표준",
+    "section_context_candidate": "바. 3차년도 연구결과",
+    "heading_candidates": [
+      "바. 3차년도 연구결과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.04,
+          132.57,
+          503.49,
+          261.91
+        ],
+        "page_area_fraction": 0.1097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.38,
+          327.48,
+          327.66,
+          494.34
+        ],
+        "page_area_fraction": 0.0491
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I08-V0006",
+    "caption": "개방형 5G 프론트홀 인터페이스 구조 및 적용 사례",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 10 -\n바. 3차년도 연구결과\n① 개방형 5G 기지국 프론트홀 인터페이스 국내표준 제정완료\n- TTA 단체표준명 : O-RAN 기반 개방형 5G 프론트홀 인터페이스 (표준번호\nTTAK.KO-06.0518) (’20.6) 승인\nŸ TTA 개방형 기지국 프론트홀 인터페이스 ad-hoc 그룹 신설 및 총 8회 회의 진\n행을 통한 통신3사 및 제조사간 합의기반 표준개발 (의장- 신명기 책연, 에디터- 안병준 책연)",
+    "caption_and_following_text": "Ÿ SKT, KT, LG U+ 등 통신사업자 및 국내외 기지국 제조사 (삼성전자, 노키아, 에\n릭슨) 등과 공동 표준 개발\n(그림 5) O-RAN 기반 개방형 5G 프론트홀 인터페이스 표준\n(그림 6) 개방형 5G 프론트홀 인터페이스 구조 및 적용 사례\n표준번호 표준명 제정일 에디터 및 저자\nTTAK.KO-0\n6.0518\nO-RAN기반 개방형 5G 프론트홀\n인터페이스\n‘20.6 ETRI, SKT. KT,",
+    "section_context_candidate": "바. 3차년도 연구결과",
+    "heading_candidates": [
+      "바. 3차년도 연구결과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.04,
+          132.57,
+          503.49,
+          261.91
+        ],
+        "page_area_fraction": 0.1097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.38,
+          327.48,
+          327.66,
+          494.34
+        ],
+        "page_area_fraction": 0.0491
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I08-V0007",
+    "caption": "NPN 망에서의 핸드오버 처리 및 방법에 대한 제안 특허",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "- 5G NPN 망에서의 RAN 핸드오버 기술 관련 국제특허 1건 출원 완료 (’20.12)\nŸ 특허명 : HANDOVER PERFORMING METHOD IN NON PUBLIC NETWORK (미국\n출원번호 17/092908, ‘20.12)\n- 5G 기지국내 핸드오버 처리기술 관련 국내특허 2건 출원 완료 (‘20.9)\nŸ 특허명 : 핸드오버 시 유틸리티 슬라이스 기반의 서비스 연속성 보장 방법 (출원\n번호 10-2020-0124052, 국제출원 ETRI내 심의 진행중) Ÿ 특허명 : 슬라이스 맵핑 기반의 핸드오버 처리 방법 (출원번호: 10-2020-0124063,\n국제출원 ETRI내 심의 진행중)",
+    "caption_and_following_text": "- 국제특허 2건 출원 예정 및 표준특허후보 2건 추진중 (국제특허출원진행중) Ÿ 표준특허후보명 : 슬라이스 혼잡도를 고려한 페이징 제어 방법 및 장치 (국제특\n허출원 진행중) Ÿ 표준특허후보명 : 핸드오버 시 유틸리티 슬라이스 기반의 서비스 연속성 보장 방\n법 (국제특허출원 진행중)\n(그림 7) NPN 망에서의 핸드오버 처리 및 방법에 대한 제안 특허\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "바. 3차년도 연구결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.35,
+          107.88,
+          400.94,
+          255.32
+        ],
+        "page_area_fraction": 0.07
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

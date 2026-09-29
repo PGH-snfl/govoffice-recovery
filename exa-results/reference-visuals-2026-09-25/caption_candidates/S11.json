@@ -1,0 +1,412 @@
+[
+  {
+    "pdf_page": 9,
+    "text": "<그림 11. 반도체 시장에서 logic device와 programmable logic device의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "(그림 13, 14) 는 강력하고 유연한 embedded SoC 구현, 적은 하드웨어 자원으로 고성능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "<그림 12. XILINX 社의 대표적인 FPGA",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "<그림 13. ALTERA (now Intel)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "<그림 14. Design project에서 각각의 logic device가 차지하는 비중,",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "<그림 15. 2007~2008년 FPGA/PLD 각 업체의 세계 시장에서의 점유율",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 1. 벡터 행렬 연산기의 블럭도 그림 2. switched-capacitor 적분기",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 2에서 제안된 인버터 기반의 적분기를 이용하여 벡터 행렬 연산기를 구현함",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 3. W = 0, ±32, ±64, ±96, ±127 에 대해 출력한 그래프",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 4 재구성 가능한",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 6. Slope table 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 7 Planar non-volatile memory 구조 및 program/erasure 동작 전압",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 8 Gate tunneling leakage (a) 측정값, (b) Verilog-A를",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 9 Program/Erasure 동작확인을 위한 (a) schematic 및 (b) simulation",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 10 General architecture for",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 11 3-bit부터 6-bit input 까지 처리 가능한",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 12 제안하는 3-bit multiplier의 회로도. § 그림 13은 구현한 3-bit multiplier의 출력에 대해 DNL을 측정한 시뮬레이션 결과로, 모든 경우의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 13 3-bit MUL의 Differential",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 14. DAC 2개로 구성된 neural network 연산기 및 동작 타이밍",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 15. 세부 회로도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 16. VCO 기반의 VMM의 핵심 모듈",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 17. 비선형적 입출력 특성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 30은 이에 해당. DAC part의 전력소모를 줄이기 위해 Charge based 구조를 채택함. - CAB 개발 2: 전하영역계산을 이용한 재구성 가능 혼성신호 벡터 연산기 설계 (28nm 공",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 19. 벡터곱셈기의 전제구조 그림 20. 구현된 벡터곱셈기 회로의 layout § 전체 구조: VMM을 위한 벡터곱셈기(dot-product)의 구조는 연산 16개의 CDAC을 기반으로 한 전",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 21. 전하영역 곱셈기의 상세 schematic",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 22. SAR ADC 회로도 그림 23. SAR ADC의 상세 schematic",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 24. 샘플링시 신호의 왜곡을 줄이기",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 25. Worse case bit error 그림 26. 시뮬레이션 결과 (선형성 분석) § 시뮬레이션 결과: 그림 38의 그래프는 축차비교형 아날로그 디지털 신호변환기의 선형성을 분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 27. 벡터행렬곱 연산기의 레이아웃",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 28. 재설계한 벡터행렬곱 연산기의 시뮬레이션 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "표 1. 재설계한 회로의 전력 소모 분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 31. Log2 양자화 기법",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 32. 비트 수에 따른 Log2 양자화 기법의 정확도 결과 (LeNet) § 하지만, cuda-convnet의 경우에는 dynamic-fixed 양자화 기법 대비 3배 낮은 정확도를 보였음. 이",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "그림 33. Caffe와 유기적으로 연동되는 SW 테스트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "그림 34. Xilinx 사의 FPGA를 활용한 재구성 아키텍처의 RTL수준 시스템 구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 31,
+    "text": "그림 37 시뮬레이션 플랫폼에서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 38. 재구성 시뮬레이션 순서도 그림 39. 타겟 응용 매핑 및 시뮬레이션 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 40. 응용 3가지에 대한 재구성 로직",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 41. NEM 기반의 재구성소자",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "그림 42. 나노소자 기반의 configuration cell § 나노소자 동작 모델링: 제1세부 과제에서 개발하는 나노소자 중 ReRAM 소자 기반의 나노소자의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "그림 43. CLB 구조 예 그림 44. CLB를 구성하는 LUT의 상세 구조 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "그림 45. VTR 기반의 응용 매핑 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "그림 46. NEM 나노 스위치와 소자의 전기적 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 48. FPGA의 지연시간 분포 그림 49. FPGA 지연시간 분석에 포함된 경로의 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 47. FPGA 아키텍처의 면적 분포",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 50. ReRAM을 이용한 행렬-벡터 곱 연산 (행렬은 ReRAM",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 51. ReRAM crossbar array의 위치 및 선저항 값에 따른 전류 관측값의 차이",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "그림 52. ReRAM의 동작특성을 학습에 반영함에 따른 BNN 정확도의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "그림 53. ReRAM crossbar array의 아키텍처 탐색 (왼쪽",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 55. 전압 강하를 고려한 DNN 모델 훈련",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 57. 선저항을 고려한 DNN 시뮬레이션 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 58 I-V 비선형성 예측 모델(실",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 59 ReRAM 어레이의 비이상성을 고려한",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 60. FPAA 전체구조 그림 61. 구현된 FPAA의 layout § 전체 구조: Prototype FPAA는 각 소자들을 연결시켜주는 switch들을 프로그래밍하기 위한",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 62. CAB 어레이의 회로도 그림 63. 구현된 CAB 어레이의 layout § CAB (Configurable Analog Block) 어레이: CAB는 Operational Amplifier, 2종의 resistor, 그리고",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 64. Prototype FPAA 측정을 위한 PCB",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 65. PCIe기반 재구성 아키텍처 시스템",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 66. 측정된 아날로그 벡터-행렬곱",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 71. 보드 사진 및 제작된 Chip의 Layout § 16kByte의 크기를 갖는 SRAM기반의 어레이로 28nm CMOS공정으로 설계되었고, 가중치 재구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 72. 측정 셋업의 구성도 그림 73. 측정 셋업의 실제 사진",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "그림 74 전압 기반 ReRAM 연산기의 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "그림 75 (a)1T-1R 셀의 구조(b)입력과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 76 (a)MAC 연산 결과값에 따른 BL 전압(b)LRS variation에 따른",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 77 (a)Forming/set/reset/read시 WL/BL/SL driver의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "그림 78. CNN을 실행하는 FPGA 기반 가속기의 성능 모델링 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "그림 79. 간소화된 딥 러닝 프레임워크의 실행 순서도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "그림 83. IACC 회로 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 84. 레이어 수준의 MAW 선택 과정 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 85 일반적인 ReRAM 기반의 Sparse Matrix",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 86 Blocked Sparse Matrix",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 87 Bit-indexing 최적화 이후의 meta data",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "그림 88 (a) I-V converter (b) LRS 비율 별 흐르는 (b) 전",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 89 Inference 시스템 분할",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 90 Twin Array 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 91 I2C architecture",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 1. (a) 제작된 칩과 보드 (b) 측정 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 2. 제작된 재구성 가능한 신경망 연산기 칩과 보드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 3: (a) 시뮬레이션 결과 (b) 예상되는 성능 지표",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 1. IACC(전류보상회로)만을 적용했을 때, 병렬성 증가에 따른 Accuracy 손실률 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 2. 레이어 단위의 MAW 튜닝을 통해 Accuracy 손실을 최소화했을 시, 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 1에서는 IACC를 사용한 ReRAM Array가 Baseline 대비 병렬성에 따른 Accuracy 손상률을 대폭",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 2에서는 이러한 문제를 해결하기 위해 DNN의 레이어 수준 MAW (Maximum number of",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

@@ -1,0 +1,233 @@
+[
+  {
+    "visual_id": "I01-V0001",
+    "caption": "6G 초연결‧초정밀 네트워크의 미션크리티컬 서비스형태 모식도",
+    "pdf_page_candidate": 4,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 28,
+    "prefix_match_only": false,
+    "text_before": "하는 인공지능 기술로서, 컴퓨터 비전, 음성인식, 생명공학, 전력제어, 로봇공학 분야 등 다양한 분야에\n서 성공적으로 적용되고 있다. 본 연구에서는 구체적으로 심층신경망을 활용한 1) 초정밀 데이터 전송\n을 위한 모바일 스케줄링 기법, 2) 초연결 네트워크를 위한 무선 액세스 자동화 기법, 3) 초정밀 네트\n워크를 위한 지능형 반사평면 통신 기법, 4) 초연결 네트워크를 위한 모바일 엣지 컴퓨팅 기법을 개발\n한다. 본 연구는 단순히 종래 4G LTE와 5G NR의 핵심 요소인 랜덤 액세스, 자원할당 및 스케줄링, 채\n널추정 등의 기술을 부분적으로 개선하는 것이 아니라, 초연결 네트워크에서 생산되는 빅데이터를 통해\n학습된 심층신경망을 활용하여 무선 이동통신의 근본적인 패러다임 변화를 추구하는 데 있다. 본 연구",
+    "caption_and_following_text": "에서 얻어진 성과는 다가오는 6G 초연결‧초정밀 네트워크 시대의 핵심 인프라로 활용되어 초연결 시대\n에 생겨나는 다양한 서비스를 뒷받침하는 밑거름 역할을 할 것이다.\n그림 1. 6G 초연결‧초정밀 네트워크의 미션크리티컬 서비스\n형태 모식도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I01-V0002",
+    "caption": "네트워크 슬라이싱을 위한 액션 제거 기능을 갖춘 심층 Q 네트워크",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 5 -\n2. 연구개발과제의 수행 과정 및 수행 내용\n(1) 초정밀 데이터 전송을 위한 모바일 스케줄링 기법 연구\n그림 2. 네트워크 슬라이싱을 위한 액션 제거 기능을 갖춘 심층 Q 네트워크. 본 연구에서는 초정밀 데이터 전송을 위한 네트워크 슬라이싱 기법을 연구하였다. 본 연구의 목표는 다양한 서비\n스(eMBB, URLLC, mMTC 등)를 지원하면서 시스템 처리량을 향상시킬 수 있는 심층강화학습(Deep\nreinforcement learning; DRL) 기반 네트워크 슬라이싱(DRL-based network slicing; DRL-NS)이라고 불리는 네\n트워크 슬라이싱 기법을 제안하는 것이다. 본 연구에서는 순차적인 의사결정 문제를 해결하는 데 특화된 효율적인\n학습 기반 기법인 DRL을 사용하여 gNB(에이전트)가 채널 상태, 데이터 속도 제약, 지연 요구사항(상태)을 관찰한\n다음 각 자원 블록(RB)을 특정 서비스(작업)에 할당하여 전체 시스템의 처리량(보상)을 최대화한다. 네트워크 슬\n라이싱 문제에서 행동 공간의 크기(즉, 가능한 행동의 조합)는 순차적인 네트워크 슬라이싱 결정의 수에 비례하기",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I01-V0003",
+    "caption": "D-STiCE 구조",
+    "pdf_page_candidate": 6,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 63,
+    "prefix_match_only": false,
+    "text_before": "\n≤ min\n   ⋯\n제안된 DRL-NS의 필수적인 부분은 네트워크 매개변수 세트 를 최적화하는 훈련 프로세스이다. 이때 DQN 손실\n함수는 아래와 같이 주어진다.    max∈  \n 학습 단계에서 DQN 손실 함수를 최소화하기 위해 네트워크 매개변수가 업데이트된다. 학습 단계의 각 반복에서 재\n생 메모리에서 미니 배치 데이터를 무작위로 샘플링하고 의 손실 값을 최소화하는 방향으로 DQN의 가중치를",
+    "caption_and_following_text": "업데이트한다.\n(2) 초연결 네트워크를 위한 심층신경망 기반 무선 접속 자동화 기법 연구\n2.1. 환경인지(environment-aware) 기반 빔 분할(beam division) 단말 식별 기법\n그림 3. D-STiCE 구조\n현재 서비스하는 5G NR의 경우 기기 및 센서들이 기지국과 통신하기 위해서는 단말이 랜덤 액세스 절차를 통해\n접속할 수 있는 자원을 할당받아야 한다. 본 연구에서는 빔 각도를 통해 단말을 식별하는 빔 분할 단말 식별 기법\n을 연구하였다. mmWave/THz 통신에서는 경로 희소성 때문에 수신한 신호로부터 출발각과 도래각을 추정하는 문\n제는 희소 신호 복원 모델로 변환할 수 있다. 하지만 기존 희소 신호 복원 알고리즘의 단점은 출발각과 도래각을\n이산화된 각도에서 추정하기 때문에 이산화 오류를 피할 수 없다는 문제가 존재한다. 본 연구에서는 각도 추정에서\n이산화로 인한 오차를 줄이고자 딥러닝 기반 알고리즘을 제안하였다. 각도 추정에서 이러한 시간에 따른 상관성을",
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I01-V0004",
+    "caption": "PST 전송 기법의 모식도",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 66,
+    "prefix_match_only": false,
+    "text_before": "⋯\n )을 받고 각 입력에 대한 각도를 추정한다. D-STiCE의 모식도는 [그림2]와 같다. D-STiCE의 핵심인 LSTM 네트워크는 여러 게이트들(입력 게이트, 출력 게이트, 망각 게이트)과 이전 입력에 대\n한 정보를 현재 입력에 활용할 수 있도록 하는 cell로 구성되어 있다. 구체적으로 입력 게이트와 망각 게이트는 각\n각 과거 출력과 현재 수신한 파일럿 신호를 받아 현재 입력을 얼마나 반영할지 혹은 과거 정보를 얼마나 반영할지\n를 결정한다. LSTM 네트워크는 순차적으로 수신한 파일럿 신호로부터 시간에 따른 변화를 학습하여 각도 정보를\n포함한 특성 벡터(feature vector)를 출력한다. 이후, LSTM 네트워크를 통해 얻은 특성 벡터는 완전 연결 네트워\n크(fully connected network)를 통해 전파경로의 출발각과 도래각으로 맵핑(mapping)된다. 결과적으로 D-STiCE",
+    "caption_and_following_text": "는 수신한 파일럿 신호로부터 출발갹과 도래각을 추정하기 때문에, 추정한 출발각과 도래각으로부터 단말의 위치를\n특정하고 단말을 식별할 수 있다. 또한 시뮬레이션을 통해 파일럿 신호로부터 접속한 단말에 전송되는 비트 오류율\n(bit error rate; BER)이 기존 기법에 비해 향상됨을 확인할 수 있다. 2.2.2 딥러닝 기반 동기 신호 생략 및 충돌 해소 전송 기법\n그림 4. PST 전송 기법의 모식도\n그림 4. 딥러닝 기반 희소 신호 복원 알고리즘 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          196.81,
+          199.94,
+          397.95,
+          277.98
+        ],
+        "page_area_fraction": 0.0314
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.48,
+          97.93,
+          446.28,
+          176.09
+        ],
+        "page_area_fraction": 0.0465
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I01-V0005",
+    "caption": "딥러닝 기반 희소 신호 복원 알고리즘 구조",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 67,
+    "prefix_match_only": false,
+    "text_before": " )을 받고 각 입력에 대한 각도를 추정한다. D-STiCE의 모식도는 [그림2]와 같다. D-STiCE의 핵심인 LSTM 네트워크는 여러 게이트들(입력 게이트, 출력 게이트, 망각 게이트)과 이전 입력에 대\n한 정보를 현재 입력에 활용할 수 있도록 하는 cell로 구성되어 있다. 구체적으로 입력 게이트와 망각 게이트는 각\n각 과거 출력과 현재 수신한 파일럿 신호를 받아 현재 입력을 얼마나 반영할지 혹은 과거 정보를 얼마나 반영할지\n를 결정한다. LSTM 네트워크는 순차적으로 수신한 파일럿 신호로부터 시간에 따른 변화를 학습하여 각도 정보를\n포함한 특성 벡터(feature vector)를 출력한다. 이후, LSTM 네트워크를 통해 얻은 특성 벡터는 완전 연결 네트워\n크(fully connected network)를 통해 전파경로의 출발각과 도래각으로 맵핑(mapping)된다. 결과적으로 D-STiCE\n는 수신한 파일럿 신호로부터 출발갹과 도래각을 추정하기 때문에, 추정한 출발각과 도래각으로부터 단말의 위치를",
+    "caption_and_following_text": "특정하고 단말을 식별할 수 있다. 또한 시뮬레이션을 통해 파일럿 신호로부터 접속한 단말에 전송되는 비트 오류율\n(bit error rate; BER)이 기존 기법에 비해 향상됨을 확인할 수 있다. 2.2.2 딥러닝 기반 동기 신호 생략 및 충돌 해소 전송 기법\n그림 4. PST 전송 기법의 모식도\n그림 4. 딥러닝 기반 희소 신호 복원 알고리즘 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          196.81,
+          199.94,
+          397.95,
+          277.98
+        ],
+        "page_area_fraction": 0.0314
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.48,
+          97.93,
+          446.28,
+          176.09
+        ],
+        "page_area_fraction": 0.0465
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I01-V0006",
+    "caption": "Two-stage IRS 채널 추정 기법 구조",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 33,
+    "prefix_match_only": false,
+    "text_before": "지 않는다는 성질을 이용할 수 있다. 기기는 희소 벡터에서 원소의 값이 아닌 원소의 위치에 데이터를 맵핑하였기\n때문에, 위의 성질을 통해 인접한 개의 열벡터만 선택하면 원 데이터를 복호화할 수 있다. 즉, 수신기 측에서는\n반드시 첫 번째 샘플부터 전부 수신하여 복호화할 필요 없이, 어느 샘플에서 시작하더라도 연속된 개의 샘플만\n수신하면 원 데이터를 복호화 할 수 있다. 전체적인 PST 전송 기법의 모식도는 [그림 3]와 같다. 또한, 본 연구에서는 동기 신호 전송 생략 기법에서 희소 신호 복원 알고리즘을 고도화하기 위해 딥러닝 기반 희\n소 신호 복원 알고리즘을 제안하였다. 딥러닝 기반 희소 신호 복원 알고리즘은 여러 개의 은닉층(hidden layer)으\n로 구성되고, 각 은닉층에서 수신한 신호를 더 넓은 차원으로 맵핑하여 기존 희소 신호 처리 방법에서 단점인 열벡\n터 간 상관도가 높은 경우의 성능 열화를 해소할 수 있다. 전체적인 딥러닝 기반 희소 신호 복원 알고리즘은 [그림",
+    "caption_and_following_text": "4]와 같다.\n(3) 초정밀 네트워크를 위한 심층강화학습 기반 지능형 반사평면 통신 기법 연구\n3.2.1 Fast-time varying V2X 채널을 위한 two-stage IRS 채널 추정 기법\n그림 6. Two-stage IRS 채널 추정 기법 구조 그림 7. L-PSCV 구조\n최근 지능형 교통 시스템(ITS)의 성장과 함께, 많은 차량용 애플리케이션이 큰 관심을 받았다. 다양한 차량용 애플리케\n이션 중, 군집 주행, 안전 경보, 자율 주행과 같은 차량 서비스들은 미래 ITS의 청사진에 핵심적인 역할을 한다. 이러한\n서비스는 차량 대 차량(V2V), 차량 대 인프라(V2I) 및 차량 대 네트워크(V2N)를 포함한 vehicle-to-everything\n(V2X) 통신의 필요성을 가속화하고 있다. 차량은 정확하고 신속하게 정보를 교환해야 하므로 V2X 시스템의 서비스 품\n질(QoS)을 보장하기 위해서는 높은 신뢰성과 낮은 지연시간이 매우 중요하다.\nV2X 애플리케이션의 엄격한 요구사항을 충족하기 위한 수단으로, 재구성 가능한 지능형 표면(IRS)이 최근 많은 주목",
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.96,
+          209.53,
+          291.68,
+          381.78
+        ],
+        "page_area_fraction": 0.0777
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.32,
+          294.76,
+          523.16,
+          373.87
+        ],
+        "page_area_fraction": 0.0357
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.32,
+          215.64,
+          523.16,
+          294.76
+        ],
+        "page_area_fraction": 0.0357
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I01-V0007",
+    "caption": "L-PSCV 구조",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 33,
+    "prefix_match_only": false,
+    "text_before": "지 않는다는 성질을 이용할 수 있다. 기기는 희소 벡터에서 원소의 값이 아닌 원소의 위치에 데이터를 맵핑하였기\n때문에, 위의 성질을 통해 인접한 개의 열벡터만 선택하면 원 데이터를 복호화할 수 있다. 즉, 수신기 측에서는\n반드시 첫 번째 샘플부터 전부 수신하여 복호화할 필요 없이, 어느 샘플에서 시작하더라도 연속된 개의 샘플만\n수신하면 원 데이터를 복호화 할 수 있다. 전체적인 PST 전송 기법의 모식도는 [그림 3]와 같다. 또한, 본 연구에서는 동기 신호 전송 생략 기법에서 희소 신호 복원 알고리즘을 고도화하기 위해 딥러닝 기반 희\n소 신호 복원 알고리즘을 제안하였다. 딥러닝 기반 희소 신호 복원 알고리즘은 여러 개의 은닉층(hidden layer)으\n로 구성되고, 각 은닉층에서 수신한 신호를 더 넓은 차원으로 맵핑하여 기존 희소 신호 처리 방법에서 단점인 열벡\n터 간 상관도가 높은 경우의 성능 열화를 해소할 수 있다. 전체적인 딥러닝 기반 희소 신호 복원 알고리즘은 [그림",
+    "caption_and_following_text": "4]와 같다.\n(3) 초정밀 네트워크를 위한 심층강화학습 기반 지능형 반사평면 통신 기법 연구\n3.2.1 Fast-time varying V2X 채널을 위한 two-stage IRS 채널 추정 기법\n그림 6. Two-stage IRS 채널 추정 기법 구조 그림 7. L-PSCV 구조\n최근 지능형 교통 시스템(ITS)의 성장과 함께, 많은 차량용 애플리케이션이 큰 관심을 받았다. 다양한 차량용 애플리케\n이션 중, 군집 주행, 안전 경보, 자율 주행과 같은 차량 서비스들은 미래 ITS의 청사진에 핵심적인 역할을 한다. 이러한\n서비스는 차량 대 차량(V2V), 차량 대 인프라(V2I) 및 차량 대 네트워크(V2N)를 포함한 vehicle-to-everything\n(V2X) 통신의 필요성을 가속화하고 있다. 차량은 정확하고 신속하게 정보를 교환해야 하므로 V2X 시스템의 서비스 품\n질(QoS)을 보장하기 위해서는 높은 신뢰성과 낮은 지연시간이 매우 중요하다.\nV2X 애플리케이션의 엄격한 요구사항을 충족하기 위한 수단으로, 재구성 가능한 지능형 표면(IRS)이 최근 많은 주목",
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.96,
+          209.53,
+          291.68,
+          381.78
+        ],
+        "page_area_fraction": 0.0777
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.32,
+          294.76,
+          523.16,
+          373.87
+        ],
+        "page_area_fraction": 0.0357
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.32,
+          215.64,
+          523.16,
+          294.76
+        ],
+        "page_area_fraction": 0.0357
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I01-V0008",
+    "caption": "다중 에이전트 심층강화학습 기반 사용자 연결 기법 세부 구조",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 46,
+    "prefix_match_only": false,
+    "text_before": "log \n\n\n \n \n \n",
+    "caption_and_following_text": " m in \n(4) 초연결 네트워크를 위한 연합학습 기반 모바일 엣지 컴퓨팅 기법 연구\n4.2 연구 결과\n그림 8. 다중 에이전트 심층강화학습 기반 사용자 연결 기법 세부 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "4.2 연구 결과",
+    "heading_candidates": [
+      "4.2 연구 결과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.49,
+          100.33,
+          470.27,
+          374.59
+        ],
+        "page_area_fraction": 0.1895
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

@@ -1,0 +1,492 @@
+[
+  {
+    "pdf_page": 15,
+    "text": "그림 2. 어플리케이션 레벨에서 End-to-End 지연시간을",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 4. CWND 값을 어플리케이션 단에서 읽어올 수 있도록 설계된 kernel level system",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 3. 각 혼잡 제어 기법의 어플리케이션 간 지연성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 5. 일반적인 소켓 프로그래밍에 사용되는",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 6. 네트워크 상태를 반영하여 동작하는",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 7. 전송계층-인지 스트리밍을 가능케 하는 어플리케이션 통신 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 8. 초저지연 TCP 기술과 제안된 저지연 소켓버퍼 직접 통신",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 9. N-frame 을 특정 ms 이내에 전송할 수 있도록 보장하는",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "[그림 10] 이동통신 환경에 최적화된 저지연 전송 프로토콜 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "[그림 11] 혼잡 윈도우 크기 이내의 프레임이 네트워크에 전송될 때",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "[그림 12] 혼잡 윈도우 크기를 상회하는 프레임이 네트워크에 전송될 때",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "[그림 13] 송수신단에 존재하는 동기화된 파일을 실시간 비디오 인코더가",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "[그림 14] Quality Smoothing을 위해 설계된 동기화 기반",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "[그림 15] ExLLPlayer의 디코더 프레임 버퍼에 버퍼링되는 프레임을 제거하도록 구현된",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "[그림 16] ExLLPlayer의 프레임 by 프레임 처리 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "[그림 17] AR 보조 정보 시각화 시스템에서 발생하는 지연요소 분석 위한 프로토타이핑 시스템 개요도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "[그림 18] (Left) YOLO 라이브러리를 활용한 모바일 디바이스 상의 물체 인식 기술. 현재 모니터, 키보드, 마우스가 인식됨. (Right) OCR 기술기반 텍스트 인식. 쇼핑백의 브랜드가 인식됨.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "[그림 19] 모바일 디바이스 상의 AR 시각화 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "[그림 20] “Fertility Rate”이 전송 된 신문 기사에 대한 주요 컨텍스트로 선정이 되어, 이와 관련한 데이터가 AR로 시각화 됨. 우상단의 데이터의 경우, data.org 에서 검색 된",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "[그림 21] 시선 실측 데이터를 활용한 시선 예측 시뮬레이터 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "[그림 22] 사용자 시선 영역 시뮬레이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "[그림 23] 영상 품질 개선 측정을 위한 시뮬레이션",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "[그림 24] (왼쪽) 캡춰된 프레임 예측 실패 상황, (오른쪽) 캡춰된 프레임 예측",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "[그림 25] 양방향 저지연 스트리밍 시스템 프로토타입 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "[표 1] 네트워크별 최대 전송률 및 최소 단방향 지연 추정 기법",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "[그림 26] 지연시간 증가를 보상하는 가변 bitrate 결정 알고리즘 의사 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "[그림 27] 전송계층-인지 양방향 스트리밍 시스템에 적용된 지연시간 증가를 보상하는",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "[그림 28] 네트워크 변동 상황에서 필수적인 프레임 추가 압축 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "[그림 29] Quality Smoothing을 위해 설계된 동기화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "[그림 30] Quality Smoothing을 위해 설계된 동기화 기반",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "[그림 31] (왼쪽) 축구 하이라이트 영상에 대한 개발된 영상 압축 기법 (SyncCoding)과 H.265의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "[그림 32] 전송계층 인지 데이터 스트리밍 및 시각화 기술의 의사코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "[그림 34] 시스템 아키텍처의 각 단을 정량적으로 측정한 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "[그림 33] 개선된 AR 보조 정보 시각화 시스템 아키텍처",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "[그림 35] ARIMA 모델을 이용한 네트워크 전송률(throughput) 예측 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "[그림 36] 자동회귀 모델의 차수 예측 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "[그림 37] 비디오 스트리밍 시스템에서의 저지연 스트리밍 모듈 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "[그림 39] 송수신단에서 캡춰되는 바코드를 포함한 실제",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "[그림 38] 전송계층-인지 스트리밍 시스템 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "[그림 40] 제안하는 실시간 비디오 스트리밍 평가 장치의 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "[그림 41] 비디오 스트리밍의 고정밀 성능 평가 기법의 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "[그림 42] 저지연 AR 정보 시각화 시스템 아키텍쳐",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "[그림 43] AR 교통정보 시각화 시스템의 스크린샷",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "[그림 44] 점진적 데이터 시각화 알고리즘 의사 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "[그림 45] 시각화 지연시간 비교 그래프",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "[표 2] 설문을 통한 AR 시스템을 통해 확인하고자 하는 데이터 파악 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "[그림 46] 실제 사용 시나리오",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "[그림 47] 사용성 평가의 정량적 평가 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "[그림 48] LSTM 모델의 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "[그림 49] LSTM 모델을 적용한 예측 알고리즘 Pseudo 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "[그림 50] 채널 성능 예측 결과 (LTE 이동채널)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "[그림 51] 사용자 시선 영역 비교 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "[표 4]와 같이 나타내었으며 그 결과 Rolllercoaster 와 Venice 영상이 오차가 높게 나타남.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "[표 3] RMSE를 이용한 여러 기계학습 모델의 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "[표 4] 여러 동영상에 대한 예측 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "[표 5] 예측 시간 간격에 따른 모델의 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "[표 6] ARIMA 모델과 LSTM 모델의 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "[그림 52] Predictive Caching의 동작 개념",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "[그림 53] Low-Complexity Item Selection 알고리즘 Pseudo 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "[그림 54] Approximate Gradient Coding의 동작 개념",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 55. 전송계층-인지 스트리밍 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 56. GPU 기반으로 설계된 전송계층-인지 인코더의 구현 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 57. 인코딩 프레임이 1 RTT 안에 전송되는 것을 보장하기 위한 인코더의 구현 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 58. 수신단 어플리케이션에 구현된 dummy trimmer 및 안드로이드 FFmpeg",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 59. 웹캠을 사용한 스크린 캡춰와 네트워크를 통한 모바일 기기의 비디오",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 60. 웹캠에서 프레임을 캡춰한 시점부터 수신단에서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "[그림 62] LTE 네트워크 기반의 실측 테스트베드 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "그림 61. 전송계층-인지 스트리밍 기술 데모 프레임 캡춰",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "[그림 63] (왼쪽)고정 상황에서의 저지연 전송 프로토콜 (ExLL)과 다른 전송 프로토콜의 성능 비교,",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "[그림 64] 웹캠을 사용한 스크린 캡춰와 네트워크를 통한 모바일 기기의 비디오",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "[그림 65] 웹캠에서 프레임을 캡춰한 시점부터 수신단에서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "[그림 66] 디코더 프레임 버퍼를 사용하지 않는 전송계층-인지 스트리밍 기술의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "[그림 67] Bitrate에 따른 프레임 품질 변화 (파란선 : 예측 적용, 초록선 : 예측 미적용)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "[그림 68] 영상 재생 시 품질 변화 (-선 : 예측 적용, · 선 : 예측 미적용)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "[그림 69] 웹캠을 사용한 스크린 캡춰와 네트워크를 통한 클라이언트 기기의 비디오",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "[그림 70] 송신단 웹캠에서 프레임을 캡춰한 시점부터 수신단에",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 76,
+    "text": "[그림 71] 수신된 패킷의 RTT 정보를 나타내는 그래프",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 76,
+    "text": "[그림 72] 연속되는 두 프레임 간의 프레임 크기를 비교한 영상 품질 변동폭",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "[그림 73] 2018년 1분기 전국 미세먼지 데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "[표 7] 실험에 사용한 이미지 데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 78,
+    "text": "[표 8] 병렬, 압축 전송기법 테스트 결과 (버퍼 크기 : 1MB)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "[그림 74] AR 어플리케이션 실행 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "[그림 75] Bitrate에 따른 프레임 품질 변화 (파란선 : 예측 적용, 초록선 : 예측 미적용)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "[그림 76] 영상 재생 시 품질 변화 (-선 : 예측 적용, · 선 : 예측 미적용)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "[그림 77] 회귀분석법을 이용한 자동회귀 모델의 차수 예측",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "[그림 78] 시간에 따른 네트워크 전송률 예측 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "[그림 79] 비디오 스트리밍의 고정밀 성능 평가 테스트베드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "[그림 80] 영상 품질 개선 측정을 위한 시뮬레이션",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 83,
+    "text": "[그림 81] 캡쳐보드를 활용하여 측정한 프레임 지연 시간 및 프레임 지연시간의 누적분포함수 (CDF)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "[그림 82] 패킷별 종단간 왕복 지연시간 측정치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "[그림 83] 프레임별 raw 프레임과 수신단에서 캡쳐된 프레임의 PSNR 측정치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 85,
+    "text": "[그림 84] Bitrate에 따른 프레임 품질 변화 (파란선 : 예측 적용, 초록선 : 예측 미적용)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 97,
+    "text": "그림 1. 전송계층-인지 스트리밍 시스템 개요",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 97,
+    "text": "그림 2. 양방향 저지연 전송계층-인지 스트리밍 시스템 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 102,
+    "text": "그림 88 AR 교통 정보 시각화 시스템 아키텍쳐",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 102,
+    "text": "그림 89 시스템의 스크린샷",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 107,
+    "text": "그림 1. 시계열 데이터의 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 107,
+    "text": "그림 2. 시계열 데이터 예측 시스템 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

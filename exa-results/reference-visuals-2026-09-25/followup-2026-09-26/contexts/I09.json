@@ -1,0 +1,498 @@
+[
+  {
+    "visual_id": "I09-V0001",
+    "caption": "Transport SDN 기술 진화 흐름",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "기술이 포함되어 개발되었음\n❍ 인공지능, 로봇, 사물 인터넷 등의 다양한 산업들이 결합되는 4차 산업혁명(Industry\n4.0)을 위한 초연결사회를 선도적으로 건설하기 위해서는 고품질 대용량 데이터를\n신속하게 전달할 수 있도록 실시간 가상 네트워크를 제공하는 T-SDN 기술 개발이\n필요함\n❍ T-SDN 기술은 차세대 이동통신(5G)과 빅데이터 수집을 위한 클라우드 백본망을\n사용자의 QoS 요구에 따라서 실시간으로 네트워크 자원을 분할할 수 네트워크",
+    "caption_and_following_text": "슬라이싱 기술을 제공하므로 관련 산업을 선도하기 위한 핵심 기술로서 개발 필요\n제 2 절 국내·외 관련 기술 및 시장의 현황\n1. 국내 기술 현황\n[그림 1] Transport SDN 기술 진화 흐름\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 1 절 개발기술의 중요성 및 필요성",
+    "heading_candidates": [
+      "제 1 절 개발기술의 중요성 및 필요성"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.07,
+          97.93,
+          507.69,
+          350.02
+        ],
+        "page_area_fraction": 0.2119
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0002",
+    "caption": "Ciena Blue Print 구성 개념도",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 27 -\n[그림 2] Ciena Blue Print 구성 개념도\n❍ Alcatel Lucent를 합병한 Nokia는 멀티벤더, 멀티계층, 다중도메인을 통합 제어할 수\n있는 T-SDN 컨트롤러(NSP: Network Service Platform)를 제공하고 있음: NSP의 특징은\n다양한 인터페이스를 갖는 시스템들을 제어할 수 있도록 다양한 프로토콜(BGP-LS,\nPCEP, NETCONF, SNMP)을 지원하는 SBI 모듈을 가지고 있음\n❍ (T-SDN 표준화 기구) T-SDN 표준화를 선도하기 위해서 표준 기구(IETF vs. ONF)\n사이에 치열한 경쟁이 진행되고 있음: ONF는 여러 표준 단체(OIF, MEF, ITU-T)들과\n연합하여 T-SDN 범용 표준화를 추진 중에 있으며, IETF는 YANG 데이터 모델링을\n포함한 기존 IETF 표준 프로토콜을 확장하여 T-SDN 표준화를 추진하고 있음",
+    "section_context_candidate": "제 1 절 개발기술의 중요성 및 필요성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.0,
+          596.83,
+          464.75,
+          764.52
+        ],
+        "page_area_fraction": 0.1072
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0003",
+    "caption": "Transport SDN 시장 규모 추정",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "3. 시장 현황\n❍ T-SDN 시장(광전송장비/ 스위치/라우터의 SDN/NFV 시장1))은 2016년 기준으로 세계\n시장 규모는 약 28억 달러로 예상되며, 2020년까지 연평균 27.9%로 증가하여 약 75억\n달러에 이를 것으로 전망되며, 국내 시장 규모는 전세계 시장 규모의 약 1%정도로\n추정됨 (ETRI 산업전략그룹 분석)\n(단위: $M)\n구 분 2016 2017 2018 2019 2020 CAGR",
+    "caption_and_following_text": "(`16-`20)\n세계 2,785 4,135 5,895 7,236 7,455 27.9%\n자료: Gartner, Communications Service Provider Operational Technology, Worldwide, 2014-2020, 4Q16 Update, 2016.12\n[표 1] Transport SDN 시장 규모 추정\n제 3 절 기술개발 시 예상되는 기술적·경제적 파급효과\n1. 기술적 파급효과\n❍ T-SDN 기술은 실시간 네트워크 연결 및 자원 분배를 제공하는 기술로서 차세대\n이동통신 기술(5G)의 네트워크 슬라이싱 서비스를 제공하는 핵심 기술로서 활용될\n예정임\n❍ SDN 기술은 중앙 집중 방식으로 네트워크 자원을 관리하여 제어하기 때문에 네트워크",
+    "section_context_candidate": "제 3 절 기술개발 시 예상되는 기술적·경제적 파급효과",
+    "heading_candidates": [
+      "제 3 절 기술개발 시 예상되는 기술적·경제적 파급효과",
+      "1. 기술적 파급효과"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0004",
+    "caption": "Transport SDN 기술 연구수행에 따른 국내 산업적 효과",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "개발로 창출되는 국내 산업적 효과는 2018년부터 2022년2)까지 총 8,421억 원의\n생산유발, 2,217억 원의 부가가치유발, 약 1,717명의 고용유발 효과3)가 발생할 것으로\n예상(ETRI 산업전략그룹 분석)\n(단위: 억원, 명)\n구 분 2018년 2019년 2020년 2021년 2022년\n누적\n(`18-`22)",
+    "caption_and_following_text": "생산유발 1,215 1,491 1,536 1,874 2,304 8,421\n부가가치유발 320 393 405 494 607 2,217\n고용유발 248 304 313 382 470 1,717\n[표 2] Transport SDN 기술 연구수행에 따른 국내 산업적 효과\n2) ’21년 이후 직접시장은 ’17년부터 4년동안의 증가율에 대한 가중이동평균을 고려하여 추정, 환율 $1→￦1,100\n3) 한국은행 산업 연관표를 이용하여 생산/부가가치/고용유발 계수 산출:\n생산유발계수(1.873411), 부가가치유발계수(0.493269), 고용유발계수(3.820797/10억원)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 경제적 파급효과",
+    "heading_candidates": [
+      "2. 경제적 파급효과"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0005",
+    "caption": "기술 개념도 및 사업범위",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "제 2 절 연차별 개발 내용 및 개발 범위\n다중 도메인으로 구성된 트랜스포트 네트워크에서 E2E 연결 서비스를 제공하면서 T-SDN\n컨트롤러의 모듈별 기능을 신속하게 검증할 수 있는 다음과 같은 소프트웨어 기술과 표준\n기술이 개발되었다. ❍ 다중 도메인 End-to-end 서비스를 위한 T-SDN 컨트롤러의 다중 도메인 세그먼트 VPN\n기술 개발과 T-SDN 컨트롤러 SBI인터페이스를 제공하는 사우스바운드 플러그인 기술\n개발\n❍ T-SDN 컨트롤러 및 사우스바운드 플러그인 신뢰성 및 유지보수 검증 기술",
+    "caption_and_following_text": "❍ 가상 네트워크 서비스는 사용자에게 실시간으로 네트워크을 제공할 수 있도록 IETF에\n표준을 제안하고 표준 규격에 준하여 사용자와 통신사업자 (T-SDN 컨트롤러) 사이의\n인터페이스 및 동작 상세 설계\n[그림 3] 기술 개념도 및 사업범위\n1. 트랜스포트 네트워크 E2E 서비스\n트랜스포트 네트워크 E2E(End-to-End) 서비스란 End-to-End 슈도와이어 서비스를 의미한다. 슈도와이어란 T1, FR 같은 회선 서비스를 PSN을 사용하여 에뮬레이션 해주는 서비스를 PW\n레이블이 pseudowire가 시작하는 PE부터 끝나는 PE까지 동일하면 Single-segment\npseudowire(SS-PW), SS-PW 설정이 어려운 경우 여러 개의 pseudowire를 연결해서 하나의\npseudowire 처럼 서비스를 제공하는 것을 MS-PW라 함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 2 절 연차별 개발 내용 및 개발 범위",
+    "heading_candidates": [
+      "제 2 절 연차별 개발 내용 및 개발 범위"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.76,
+          237.22,
+          524.12,
+          490.62
+        ],
+        "page_area_fraction": 0.2296
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0006",
+    "caption": "Multi-Segment PW Service",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 33 -\n가. 다중 도메인 세그먼트 VPN 기술 개발 (T-SDN 컨트롤러)\n[그림 4] Multi-Segment PW Service\n❍ Transport 네트워크에서의 e2e 서비스 추가를 위해, restconf에서 POST operation 을\n통해 service manager에 구현되어 있는 RPC를 호출한다. ❍ service 매니저에서 입력받은 내용을 service data store tree에 입력하고, 자신의 DB에\n업데이트하여 유지 관리하고, e2e 서비스 제공을 위해서 해당되는 노드들 각각에\n전달되어야 하는 RPC를 호출한다. ❍ SB plugin에 구현되어 있는 필요한 RPC들의 조합을 호출한 후, 노드마다 진행되는\n서비스 설정 완료 상태가 SB plugin으로 전달되면, 이를 notification을 통해 inventory\n매니저로 전달한다. ❍ inventory 매니저는 해당 notification을 구현하여, 자신의 DB에 해당 수정사항을\n업데이트하여 유지 관리하고, 또한 MD-SAL의 inventory data store tree 를 수정한다. 토폴로지 매니저와 서비스 매니저는 onDataChange로 invnetory data store tree의 필요",
+    "section_context_candidate": "가. 다중 도메인 세그먼트 VPN 기술 개발 (T-SDN 컨트롤러)",
+    "heading_candidates": [
+      "가. 다중 도메인 세그먼트 VPN 기술 개발 (T-SDN 컨트롤러)"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.0,
+          529.34,
+          511.88,
+          727.72
+        ],
+        "page_area_fraction": 0.17
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0007",
+    "caption": "MS-PW 서비스 관련 기술문서 및 설계문서 산출물",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 34 -\n다. 기술 개발 결과물\n(1) 기술문서 및 설계문서\n구분 관리번호 문서 명칭 R&D\n프로세스\nTDP 2200-2018-01883 표준기반가상 네트워크 서비스를 위한 Transport",
+    "caption_and_following_text": "SDN 컨트롤러 기술 개발: 요구사항 정의서 설계\nTDP 2200-2018-00233 트랜스포트 네트워크 E2E 서비스 상세 설계서 설계\nTM 2200-2018-01853 트랜스포트 E2E 서비스 시험절차 및 결과서 시험/검증\n[표 3] MS-PW 서비스 관련 기술문서 및 설계문서 산출물\n(2) 소프트웨어\n구분 SW 명칭 R&D\n프로세스\nSW 트랜스포트 에스디엔 네트워크에서 멀티세그먼트 서비스 모듈 구현\n[표 4] MS-PW 서비스 관련 소프트웨어 산출물\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 기술 개발 결과물",
+    "heading_candidates": [
+      "다. 기술 개발 결과물"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0008",
+    "caption": "MS-PW 서비스 관련 소프트웨어 산출물",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "프로세스\nTDP 2200-2018-01883 표준기반가상 네트워크 서비스를 위한 Transport\nSDN 컨트롤러 기술 개발: 요구사항 정의서 설계\nTDP 2200-2018-00233 트랜스포트 네트워크 E2E 서비스 상세 설계서 설계\nTM 2200-2018-01853 트랜스포트 E2E 서비스 시험절차 및 결과서 시험/검증\n[표 3] MS-PW 서비스 관련 기술문서 및 설계문서 산출물\n(2) 소프트웨어",
+    "caption_and_following_text": "구분 SW 명칭 R&D\n프로세스\nSW 트랜스포트 에스디엔 네트워크에서 멀티세그먼트 서비스 모듈 구현\n[표 4] MS-PW 서비스 관련 소프트웨어 산출물\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 기술 개발 결과물",
+    "heading_candidates": [
+      "다. 기술 개발 결과물"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0009",
+    "caption": "Maven과 T-SDN 간 Unit-Test 구조도",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 35 -\n2. T-SDN 컨트롤러의 신뢰성 및 유지보수 검증 기술\nRESTful API는 HTTP를 사용하기 때문에 테스트 하기가 단순하며 반복적이다. 컨트롤러가\n제공하는 API Endpoint의 수가 적고, 향후 증가될 가능성이 적은 경우 직접 쉘 스크립트를\n작성하거나 특정 프로그래밍 언어를 사용해 테스트를 진행할 수 있다. 그러나 Endpoint의 수가",
+    "caption_and_following_text": "많아지거나, 향후 증가될 가능성이 큰 경우 반복되는 작업을 단순화 및 최소화 하기 위한\n노력이 필요하다. RESTful API 테스트를 쉽게 하기 위해 테스트 자동화 프레임워크를\n만들었고, RESTful API를 테스트 하는 코드는 모듈화해 AAT Plugin 형태로 개발하였다\n[그림 5] Maven과 T-SDN 간 Unit-Test 구조도\n가. T-SDN 컨트롤러 시험 소프트웨어 기술 개발\n❍ 컨트롤러는 REST 프레임워크를 사용하여 검증할 수 있다. ❍ AAT REST Plugin은 사용자가 작성한 스크립트에 따라 다양한 HTTP Client 기능과\n제약조건을 제공하며, Json Schema 라이브러리를 사용해 응답으로 받은 Data JSON이\n사용자가 예상한 모델과 일치하는지 확인한다. ❍ 구체적으로 REST Plugin은 YAML 형식을 사용해 다음과 같은 조건을 설정 및 제약할\n수 있다. 나. 사우스바운드 플러그인 모듈 시험 소프트웨어 기술\n❍ 사우스바운드 플러그인에 유닛 테스트를 적용하면 소프트웨어 검증이 효율화된다. Junit",
+    "section_context_candidate": "2. T-SDN 컨트롤러의 신뢰성 및 유지보수 검증 기술",
+    "heading_candidates": [
+      "2. T-SDN 컨트롤러의 신뢰성 및 유지보수 검증 기술",
+      "가. T-SDN 컨트롤러 시험 소프트웨어 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.1,
+          431.41,
+          500.73,
+          610.25
+        ],
+        "page_area_fraction": 0.1418
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0010",
+    "caption": "Transport SDN 컨트롤러 테스팅 관련 기술문서 및 설계문서 산출물",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 36 -\n다. 기술 개발 결과물\n(1) 기술문서 및 설계문서\n구분 관리번호 문서 명칭 R&D\n프로세스\nTDP 2200-2017-07935 트랜스포트 컨트롤러 신뢰성 및 유지보수 검증",
+    "caption_and_following_text": "기술 상세 설계서\nTM 2200-2018-01852 트랜스포트 컨트롤러 신뢰성 및 유지보수 검증\n기술 시험 절차 및 결과서\n[표 5] Transport SDN 컨트롤러 테스팅 관련 기술문서 및 설계문서 산출물\n(2) 소프트웨어\n구분 SW 명칭 R&D\n프로세스\nSW 트랜스포트 에스디엔 네트워크에서 멀티세그먼트 서비스 검증을\n위한 플러그인 모듈 구현\n[표 6] Transport SDN 컨트롤러 테스팅 관련 소프트웨어 산출물",
+    "section_context_candidate": "다. 기술 개발 결과물",
+    "heading_candidates": [
+      "다. 기술 개발 결과물"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0011",
+    "caption": "Transport SDN 컨트롤러 테스팅 관련 소프트웨어 산출물",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "TDP 2200-2017-07935 트랜스포트 컨트롤러 신뢰성 및 유지보수 검증\n기술 상세 설계서\nTM 2200-2018-01852 트랜스포트 컨트롤러 신뢰성 및 유지보수 검증\n기술 시험 절차 및 결과서\n[표 5] Transport SDN 컨트롤러 테스팅 관련 기술문서 및 설계문서 산출물\n(2) 소프트웨어\n구분 SW 명칭 R&D",
+    "caption_and_following_text": "프로세스\nSW 트랜스포트 에스디엔 네트워크에서 멀티세그먼트 서비스 검증을\n위한 플러그인 모듈 구현\n[표 6] Transport SDN 컨트롤러 테스팅 관련 소프트웨어 산출물\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 기술 개발 결과물",
+    "heading_candidates": [
+      "다. 기술 개발 결과물"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0012",
+    "caption": "가상 네트워크 서비스 절차",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "❍ IETF에서 규정하는 가상 네트워크 서비스(VN: Virtual Network)를 제공하기 위해서\n사용자 컨트롤러(CNC: Customer Network Controller)와 통신사업자 컨트롤러 (MDSC:\nMulti-domain Service Coordinator) 사이는 IETF YANG 데이터 모델을 사용한다. － A Yang Data Model for ACTN VN Operation (draft-lee-teas-actn-vn-yang).\n❍ 가상 네트워크 서비스는 두 개의 종류로 구분 한다: (1) 터널 기반으로 네트워크 END\n지점만을 연결하는 방식과 (2) 가상 링크와 노드로 구성되는 토폴로지 방식\n❍ 다음 그림처럼 사용자(CNC)가 Yang 모델 기반의 Restconf 프로토콜을 사용하여\nsource, destination, bandwidth, latency, Policy 등의 패러미터와 함께 T-SDN",
+    "caption_and_following_text": "컨트롤러에게 가상네트워크 서비스 설정을 요청하면, T-SDN 컨트롤러는 가상\n네트워크서비스 설정을 완료한 다음 사용자에게 회신(Notification)한다. ❍ 본 설계서에는 가상 네트워크 Yang 데이터 모델, 가상 네트워크 서비스 종류, SDN\n컨트롤러 구조 및 인터페이스, 가상 네트워크 서비스 상세 처리 절차(설정, 업데이트, 삭제)를 포함한다.\n[그림 6] 가상 네트워크 서비스 절차\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 기술 개발 결과물",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.81,
+          110.64,
+          473.15,
+          366.08
+        ],
+        "page_area_fraction": 0.1742
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0013",
+    "caption": "Transport SDN 표준화 관련 기술문서 및 설계문서 산출물",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "나. 가상 네트워크 서비스를 위한 해외 표준 기술 동향 분석 및 기고\n❍ 사용자가 통신사업자에게 가상 네트워크 서비스를 요청할 때 사용되는 가상 네트워크\n서비스 Yang 데이터 모델을 규정하는 기고서를 IETF에 제안하였음. ❍ 5G 네트워크 슬라이싱 서비스를 위해서 가상 네트워크를 기반으로 트랜스포트\n네트워크 슬라이싱에 대한 요구 사항을 ITU-T SG15 제안함. 다. 기술 개발 결과물\n(1) 기술문서 및 설계문서\n구분 관리번호 문서 명칭 R&D\n프로세스",
+    "caption_and_following_text": "TDP 2200-2018-01883 트랜스포트 컨트롤러 신뢰성 및 유지보수 검증\n기술 상세 설계서 설계\nTM 2200-2018-01857 5G transport 국내외 표준화 동향\n[표 7] Transport SDN 표준화 관련 기술문서 및 설계문서 산출물\n(2) 표준기고서(국제)\n구분 기고서 명칭 표준화기구\n기고서 ACTN (Abstraction and Control of Traffic Engineered (TE)\nnetworks draft-lee-teas-actn-vn-yang-05)\nIETF\n(TEAS)",
+    "section_context_candidate": "나. 가상 네트워크 서비스를 위한 해외 표준 기술 동향 분석 및 기고",
+    "heading_candidates": [
+      "나. 가상 네트워크 서비스를 위한 해외 표준 기술 동향 분석 및 기고"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0014",
+    "caption": "Transport SDN 컨트롤러 테스팅 관련 소프트웨어 산출물",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "(2) 표준기고서(국제)\n구분 기고서 명칭 표준화기구\n기고서 ACTN (Abstraction and Control of Traffic Engineered (TE)\nnetworks draft-lee-teas-actn-vn-yang-05)\nIETF\n(TEAS)\n기고서 Enhanced VPN for 5G network slicing",
+    "caption_and_following_text": "(SG15-C484)\nITU-T\n(SG15)\n[표 8] Transport SDN 컨트롤러 테스팅 관련 소프트웨어 산출물\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 가상 네트워크 서비스를 위한 해외 표준 기술 동향 분석 및 기고",
+    "heading_candidates": [
+      "나. 가상 네트워크 서비스를 위한 해외 표준 기술 동향 분석 및 기고"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0015",
+    "caption": "T-SDN 기술 사업화 현황 및 전망",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 41 -\n3. 사업화 실적\n구분 사업화 내용 수요업체 사업화 완료일\n(예정일)\n매출액",
+    "caption_and_following_text": "(백만원) 비고\n1 Carrier SDN 플랫폼 SK텔레콤 2018.12.31 320 수행 중\n2 NaaS 플랫폼 SK텔레콤 2018.12.31 180 수행 중\n[표 9] T-SDN 기술 사업화 현황 및 전망\n❍ 과제 수행 및 연구협약을 담보로 SK텔레콤 Carrier SDN 플랫폼 구축 사업 수주에 성공\n❍ 플랫폼 구축사업을 경험과 노하우를 바탕으로 플랫폼 상위에서 동작하는 네트워크\n어플리케이션 시장에 진입 및 부가가치 창출\n4. 연구력 강화 및 고용 창출\n❍ 주관기관의 SDN 분야의 전문 연구 수행 능력 강화\n－ 참여기관인 ETRI에서 수행한 기술 교육(2회) 참석을 통한 단기간에 주관기관 참여",
+    "section_context_candidate": "1 Carrier SDN 플랫폼 SK텔레콤 2018.12.31 320 수행 중",
+    "heading_candidates": [
+      "1 Carrier SDN 플랫폼 SK텔레콤 2018.12.31 320 수행 중",
+      "2 NaaS 플랫폼 SK텔레콤 2018.12.31 180 수행 중",
+      "4. 연구력 강화 및 고용 창출"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0016",
+    "caption": "고용 창출 효과",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 26,
+    "prefix_match_only": false,
+    "text_before": "❍ 고용창출\n－ 주관기관의 사업화 추진을 위해 전담 연구개발인력 4명을 추가 고용함\n항목 세부 항목 성 과\n고용효과\n개발 전\n연구인력 8 명\n생산인력 명",
+    "caption_and_following_text": "개발 후\n연구인력 14(+4) 명\n생산인력 명\n[표 10] 고용 창출 효과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1 Carrier SDN 플랫폼 SK텔레콤 2018.12.31 320 수행 중",
+    "heading_candidates": [
+      "1 Carrier SDN 플랫폼 SK텔레콤 2018.12.31 320 수행 중",
+      "2 NaaS 플랫폼 SK텔레콤 2018.12.31 180 수행 중",
+      "4. 연구력 강화 및 고용 창출"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0017",
+    "caption": "연구팀 구성 및 담당업무",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 42 -\n제 2 절 연구개발 추진 체계\n1. 연구팀 구성 및 담당업무\n[그림 7] 연구팀 구성 및 담당업무\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 2 절 연구개발 추진 체계",
+    "heading_candidates": [
+      "제 2 절 연구개발 추진 체계",
+      "1. 연구팀 구성 및 담당업무"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          104.65,
+          536.11,
+          694.4
+        ],
+        "page_area_fraction": 0.5651
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0018",
+    "caption": "연구·개발 수행 흐름도",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "성능 평가 항목 및 방안\n도출\n표준 모델, 기능 개발 및\n자체시험\n기능 및 성능 보완\n개발\n타겟 제품에 표준",
+    "caption_and_following_text": "및 상용기술 적용\n사업화 전략 수립/실행\n모색\n[그림 8] 연구·개발 수행 흐름도\n❍ 관련 기관의 명확한 역할 분담 및 협조로 효율적인 연구개발 수행\n－ 신규기능 개발 및 표준화 기술은 국가 출연연인 ETRI에서 수행하고, 기능 통합 및\n검증은 주관기관 기업체 ((주)모비젠)에서 주관으로 출연연(ETRI)과 공동으로 진행\n－ 주관기관((주)모비젠)은 서비스 제공자 및 시장 요구사항 도출, 기술이 적용될 환경\n및 성능 목표치 제시, 개발하는 기술에 대한 상용시제품화, 기능 통합 및 검증과\n사업화 방안을 도출",
+    "section_context_candidate": "2. 기술개발 추진 전략",
+    "heading_candidates": [
+      "2. 기술개발 추진 전략"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0019",
+    "caption": "기술개발 추진 체계",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 44 -\n[그림 9] 기술개발 추진 체계\n제 3 절 시장현황 및 사업화 전망\n1. 국·내외 산업 현황\n❍ SDN의 등장으로 소수 글로벌 벤더 중심의 기존 네트워크 장비 시장이 수평적인\n시장구조로 전환될 것으로 전망했던것과 달리 현재 SDN 시장은 기존 글로벌 벤더\n중심으로 활성화 되고 있음\n－ 당초 글로벌 벤더들은 SDN이 자사 수익을 저해할 위험요소로 보고 자사의\n수익구조를 지키기 위해 SDN 제품기술 개발 관망하고 있었음\n－ 그러나 최근 클라우드, IoT, 5G 서비스에 대한 수요 폭증과 SDN에 대한 관심이",
+    "section_context_candidate": "2. 기술개발 추진 전략",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.82,
+          517.47,
+          538.27,
+          764.52
+        ],
+        "page_area_fraction": 0.211
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0020",
+    "caption": "국내 SDN 시장 전망",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 24,
+    "prefix_match_only": false,
+    "text_before": "－ SKT는 모비젠과 공동연구를 추진하여 국내 T-SDN 표준 기술을 기반으로 PTN과\nOTN 장비를 제어할 수 있는 SDN 컨트롤러 기술을 개발하여 시험망에 적용하였음\n❍ 국내 산업체(우리넷, 텔레필드, 코위버)의 경우, 기존의 EMS를 그대로 사용하면서 외부\nSDN 컨트롤러로부터 제어가 가능하도록 Plug-in 형태의 EMS API 기술을 ETRI와\n국책연구 사업(스마트네트워킹 핵심 기술 개발 사업)으로 개발함\n2. 시장 전망\n❍ 한국 IDC 에 의하면 데이터센터의 효율적 운영을 위한 SDN 도입증가가 예상되며 국내",
+    "caption_and_following_text": "SDN 시장이 향후 5년간 연평균(CAGR) 56.6%로 성장해 2019년 1,390억 원 규모에 이를\n것으로 전망함\n(단위: 억원)\n[그림 10] 국내 SDN 시장 전망\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 기술개발 추진 전략",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          98.17,
+          538.27,
+          226.67
+        ],
+        "page_area_fraction": 0.1134
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0021",
+    "caption": "T-SDN 시장 SWOT 분석을 통한 사업화 전략 수립",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 49,
+    "prefix_match_only": false,
+    "text_before": "투입을 통해 기술변화 대응, 더 나아가 ODL Project에\nContribution을 통해 기술 선도\nW1T1. 국제 표준 호환 모델\n추가 확장을 통한 위협 타계\nW2T2. 소규모 협의체의\n기민한 의사결정을 통한 작은\n단위의 전문분야 선정(전송망)",
+    "caption_and_following_text": "및 전문성 확보에 주력하는\nDivide and Conquer 방식의\n기술 수용\n[표 11] T-SDN 시장 SWOT 분석을 통한 사업화 전략 수립\n본 연구과제의 사업화 아이템은 상대적으로 기술 성숙도가 낮으나 수요가 많은 배경을\n갖고 있다. 따라서 본 연구 과제를 통한 기술력 제고를 바탕으로 Transport SDN 분야에서\n전문성을 강점을 내세운 SO/ST전략을 토대로 초기 사업화를 진행한다. 이후 기술 성숙에 따른\n위협 대응과 관련 생태계 구축을 위해 WO/WT 전략을 취함으로 사업안정화를 도모한다. 또한 표준화 이후의 사업성을 관련 시장 규모, 사업화 가능 시기 및 유관 업계 협업 가능성\n등을 고려하여 사업 진행 계획을 수립/조정하도록 한다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 기술개발 추진 전략",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0022",
+    "caption": "멀티도메인 환경에서의 single-segment pseudowire 방식과 multi-segment pseudowire 방식 비교",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "제 5 절 연구개발결과의 활용계획\n본 사업을 통해 개발한 Multi-Segment Pseudowire 기술을 활용하여 향상된 VLL(Virtual\nLeased Line) 서비스를 개발, 통신사 등 네트워크 제공자가 고객사에게 전용 회선 서비스를\n유연하게 제공할 수 있도록 함. ❍ 해당 기술 없이는 VLL 서비스를 개통함에 있어 회선의 양측 종단을 하나의\nPseudowire로 연결해야 하는 제약이 존재함\n❍ 또한, 서로 다른 AS(Autonomous System)에 속한 종단끼리의 연결은 IGP/EGP 혼용 등\n문제의 복잡도가 높음",
+    "caption_and_following_text": "❍ 서로 다른 도메인에 속한 종단끼리의 연결은 EMS가 서로 다를 수 있다는 점 등으로\n인해 서비스 개통에 어려움이 있음\n[그림 11] 멀티도메인 환경에서의 single-segment pseudowire 방식과\nmulti-segment pseudowire 방식 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 5 절 연구개발결과의 활용계획",
+    "heading_candidates": [
+      "제 5 절 연구개발결과의 활용계획"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.18,
+          113.52,
+          489.7,
+          518.55
+        ],
+        "page_area_fraction": 0.3112
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I09-V0023",
+    "caption": "IP 네트워크에서의 백홀(backhaul) / 백본(backbone) 개념",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "❍ 그 밖에 트랜스포트 네트워크 사우스바운드 플러그인은 현재 개발 중인 PTN 제어\n기능에 적용 예정이며, T-SDN 플랫폼 구축 이후 3\nrd party 네트워크 응용 프로그램\n검증을 위해 사용\n－ T-SDN 컨트롤러 기능 검증용 시험 소프트웨어 및 T-SDN 컨트롤러 사우스바운드\n플러그인 기능 검증용 시험 소프트웨어는 위 기능 개발 진행 시 테스트 용도로\n사용할 계획임.",
+    "caption_and_following_text": "－ 향후 T-SDN 플랫폼 도입에 따른, 3\nrd Party 네트워크 응용 프로그램에 대한 의\nCompliance&Conformance 시험을 통해 신뢰성 및 안정성 검증에 활용할 계획임\n[그림 12] IP 네트워크에서의 백홀(backhaul) / 백본(backbone) 개념\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 5 절 연구개발결과의 활용계획",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          312.02,
+          538.27,
+          550.8
+        ],
+        "page_area_fraction": 0.2298
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

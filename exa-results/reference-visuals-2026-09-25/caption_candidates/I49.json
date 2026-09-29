@@ -1,0 +1,902 @@
+[
+  {
+    "pdf_page": 10,
+    "text": "그림 2.1.1.1. 실내 3D 지도 생성 장치 및 데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 2.1.1.2. KAIST HRTF 측정 장면 및 인체 계측 내용",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 2.1.2.1. Pix4Dmapper의 point cloud 생성 소프트웨어",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 2.1.2.2. TU Berlin 대학의 HRTF 측정 위치, 옆면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 2.1.1.3. OSRF의 Gazebo 시뮬레이션 환경",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 2.1.2.4. Microsoft의 Airsim 구조 및 가상 내비게이션 환경",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 2.1.3.1. 자유도에 따른 단계적 표준화 계획",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 3.1.4.1. 연구개발 추진체계도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "그림 3.2.1.1 에서와 같이 반투명 거울을 포함하는 거울 박스를 장착할 수 있는",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 3.2.1.1. 전동식 카메라 구조체 설계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 3.2.1.2. 반투명거울을 이용한",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 3.2.1.3. 수평식 배열을 통한",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 3.2.1.4. 실시간 UWV 촬영 모니터링",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "그림 3.2.1.5. 국내 엔터테인먼트 공연 중계의 UWV 실시간 모니터링",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "그림 3.2.1.6은 멀티카메라 자세조정을 하는 실시간 모니터링 화면이다. 모니터링",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 3.2.1.6. 광축보정값 향상을 위한 렌즈왜곡 보정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 3.2.1.7의 줌 오차 및 색차 자동 측정 기능은 매칭점 정보를 바탕으로 줌 크기",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 3.2.1.7. 멀티카메라 색감보정 실시간 모니터링 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 3.2.1.8. 원격제어 컨트롤러 운영 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 3.2.1.9. UWV 단편영화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 3.2.1.10. 줌지원 액티브 멀티카메라 시스템 운용 시험",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "표 3.2.1.1 자세 안정화 시험",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "표 3.2.1.2 픽셀밀집도 산출",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "표 3.2.1.2와 같이 촬영 영상은 촬영환경 및 피사체에 특징에 따라 다양할 수",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 3.2.2.1과 같이 UWV 영상 실시간 생성 시스템은 영상 입출력 모듈, 이미지",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 3.2.2.1 UWV 영상 실시간 생성 시스템 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 3.2.2.2는 실시간 UWV 영상 생성 절차를 보여주고 있다. 참고로, 스티칭",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 3.2.2.2. 실시간 UWV 영상 생성 절차",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "그림 3.2.2.3. 스티칭 정보 생성 과정. (a) 분할된 입력영상에서의 제어점(control",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "그림 3.2.2.4. 실시간 스티칭 시스템의 동작 예. (a) 스티칭 캘리브래이션 과정, (b)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 3.2.2.6은 시차최소화 기능의 순서도를 나타낸다. 순서도에서, Ek(i,j)는 수식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 3.2.2.5. 시차발생의 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "그림 3.2.2.6. 시차최소화 기능 순서도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 3.2.2.7. 카메라에서 20m 거리에서 중복영역내 사람이 움직이는 경우",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 3.2.2.8. 카메라에서 30m 거리에서 중복영역내 사람이 움직이는 경우",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 3.2.2.9는 UWV 실황중계 과정에서 실시간 UWV 영상 생성 장면 및 결과를",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 3.2.2.9. UWV 실황중계 시험 중 실시간 UWV 영상 생성 장면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 3.2.2.10. 멀티영상 기반 UWV 영상 생성속도 확인 (a) 강릉아트센터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 3.2.3.1. UWV 부호화 및 전송 시스템 형상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 3.2.3.2. UWV 부호화 및 전송 시스템 성과지표 검증 시험 환경 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 3.2.3.3. UWV 부호화 및 전송 시스템 성과지표 검증 시험 장비",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "그림 3.2.3.4. 4K 영상 재생기",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 3.2.3.5. UWV 부호화 및 전송 시스템 설정 화면 - 102 Mbps",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 3.2.3.6. 스트림 분석화면 - 102 Mbps",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "그림 3.2.3.7. UWV 부호화 및 전송 시스템 설정화면 – 96 Mbps",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "그림 3.2.3.8. 스트림 분석화면 - 96Mbps",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "그림 3.2.3.9. UWV 수신/재생 검증용 단말 설정과 재생 결과 확인 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "그림 3.2.4.1은 UWV 복호화 및 재생시스템 구조도를 나타낸다. UWV 복호화 및",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "그림 3.2.4.1. UWV 복호화 및 재생시스템 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 65,
+    "text": "그림 3.2.4.2. 실시간/비실시간 비트스트림(TS) 수신/입력 기능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 65,
+    "text": "표 3.2.4.1. 그래픽 카드별 사양 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 3.2.4.3. HEVC TS 분석기",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 3.2.4.4. 수동 동기화 구현 개념도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 3.2.4.6은 수동 동기화 및 자동 동기화를 지원하기 위한 GUI를 나타낸다.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 3.2.4.5. 자동 동기화 구현 개념도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 3.2.4.6. 수동 동기화 및 자동 동기화 지원을 위한 GUI",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 3.2.4.7. 자동 동기화 구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "표 3.2.4.2. 멀티프로젝션 보정 시간",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "그림 3.2.4.8. 패턴 영상 획득 시간 (1분 이내)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "그림 3.2.4.9. 멀티프로젝션 캘리브레이션 시간 (7분 내외)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "그림 3.2.4.10. 주야간 캘리브레이션을 지원하기 위한 GUI",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "그림 3.2.4.11. 그리기 모드, 매트릭스 필터 적용 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 3.2.4.12. 컬러보정 필름의 프로그램별/프로그램 구간 별 대응 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 3.2.4.13. 컬러보정 필름 설정 UI",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "그림 3.2.4.14. 자동 캘리브레이션 UI",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "그림 3.2.4.15. 자동 캘리브레이션 패턴분석 실험 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "그림 3.2.4.15는 자동 캘리브레이션을 위한 패턴 투사 및 획득 실험 예를",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "그림 3.2.4.16. UWV 재생시스템의 내부 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "그림 3.2.4.17. UWV 재생시스템의 GUI",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 76,
+    "text": "그림 3.2.4.17은 2차년도(2017년)에 개발된, 실시간 스트림(12Kx2K@30fps) 및",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 76,
+    "text": "그림 3.2.4.18. 48개의 멀티패널을 이용한 12Kx2K UWV 재생 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 76,
+    "text": "그림 3.2.4.19. 9대의 멀티프로젝터를 이용한 12Kx2K UWV 재생 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 3.2.4.20. UWV 영상 재생속도 확인 성과지표 검증",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 78,
+    "text": "표 3.2.4.3. 자동 캘리브레이션 소요 시간",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 78,
+    "text": "그림 3.2.4.21. 자동 캘리브레이션 설정 UI",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "그림 3.2.5.1. UWV 중계 부스 설치 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "그림 3.2.5.2. UWV 실황중계 라이브 테스트 획득",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 3.2.5.3. UWV 스티칭 보정 작업",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 3.2.5.4. UWV 부호화기 및 송출모니터링 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "그림 3.2.5.5. UWV 재생관",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 83,
+    "text": "그림 3.2.5.7. UWV 실황중계 테스트베드 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 83,
+    "text": "그림 3.2.5.6. SBS 스포츠 프로그램 연동 시험",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "그림 3.2.5.8. 획득 서브시스템",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "그림 3.2.5.9. 획득 서브시스템 - 12K UWV 간이중계 장비 (UWV 스위칭 모듈)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "그림 3.2.5.10. UWV 생성 서브시스템 그림 3.2.5.11. UWV 전송 서브시스템",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 85,
+    "text": "그림 3.2.5.12. UWV 재생 서브시스템",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 86,
+    "text": "그림 3.2.5.13. 재생 서브시스템 동기화 확인 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 87,
+    "text": "그림 3.2.5.14. “평창 문화ICT관” 과 인천공항 “ICT라운지” UWV 서비스 시연",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 88,
+    "text": "그림 3.2.5.15. UWV 실황중계 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 89,
+    "text": "그림 3.2.5.16. 공연장 – UWV 획득시스템 및 싱글 카메라 설치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 90,
+    "text": "그림 3.2.5.17. 중계실 – UWV 중계 장비 구축",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 90,
+    "text": "그림 3.2.5.18. 인천공항 – UWV 재생시스템 동기 테스트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 91,
+    "text": "그림 3.2.5.19. 인천공항 – UWV 실황중계 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 92,
+    "text": "그림 3.2.5.21. UWV 실황중계 시스템 설치 장면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 92,
+    "text": "그림 3.2.5.20. UWV 해외 실황중계 시험 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 93,
+    "text": "그림 3.2.5.22. 스카이박스내 UWV 실황중계 재생 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 93,
+    "text": "그림 3.2.5.23. KISTI내 UWV 콘텐츠 대륙간 수신 후 재생 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 100,
+    "text": "그림 3.3.1.1. 공간데이터와 공간영상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 102,
+    "text": "그림 3.3.1.2. 공간데이터 획득시스템 촬영 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 103,
+    "text": "그림 3.3.1.3과 같이 카메라로부터 획득한 영상과 ‘COLMAP’이라는 공간데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 103,
+    "text": "그림 3.3.1.3. 객체 형상(질감, 컬러, 조명)에 따른 공간데이터 생성 결과 분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 105,
+    "text": "그림 3.3.1.4. 객체 형상(중복영역 비율)에 따른 공간데이터 생성 결과 분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 106,
+    "text": "그림 3.3.1.5. 공간데이터 획득시스템 프로토타입",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 107,
+    "text": "그림 3.3.1.6은 검증툴을 통해 특징점 추출/표현 결과를 보여준다. 각 영상의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 107,
+    "text": "그림 3.3.1.7은 검증툴을 통해 특징점이 매칭된 결과를 보여준다. 매칭쌍에 대한",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 108,
+    "text": "그림 3.3.1.6. 특징점 추출/표현 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 108,
+    "text": "그림 3.3.1.7. 특징점 매칭 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 109,
+    "text": "그림 3.3.1.8과 같은 3008x2000 해상도를 가지는 61개의 영상을 사용하여",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 109,
+    "text": "그림 3.3.1.9. ETRI 특징점 기술을 활용하여 추출된 공간데이터를 사용한 시각화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 109,
+    "text": "그림 3.3.1.8. 테스트 영상 (출처: VisualSFM)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 110,
+    "text": "그림 3.3.1.10은 Keras로 구현한 SuperPoint의 결과를 보여주고 있다.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 111,
+    "text": "표 3.3.1.1. 특징점 반복 추출 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 111,
+    "text": "그림 3.3.1.10. SuperPoint를 이용한 특징점 추출 결과. 빨간색, 그린, 파란색은",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 112,
+    "text": "그림 3.3.1.12. MatchNet, TFeat의 매칭 성능 비교. Implemented-20K와",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 112,
+    "text": "그림 3.3.1.11. MatchNet과 TFeat 레이어 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 114,
+    "text": "그림 3.3.2.1. 액티브 센서 기반의 공간영상 획득/생성/재현 개요",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 115,
+    "text": "그림 3.3.2.2. 공간데이터 획득 장치의 분류",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 117,
+    "text": "표 3.3.2.1.에서 표 3.3.2.3. 까지는 장비의 도입을 위해 조사한 상용 고정형",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 117,
+    "text": "표 3.3.2.1. 위치고정/mirror 회전 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 118,
+    "text": "표 3.3.2.2. Lidar 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 118,
+    "text": "표 3.3.2.3. Desktop형",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 119,
+    "text": "표 3.3.2.4. 객체 아이템 리스트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 120,
+    "text": "그림 3.3.2.3. 촬영 환경 및 아이템 배치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 120,
+    "text": "표 3.3.2.5. 실험 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 120,
+    "text": "표 3.3.2.5에서 해상도는 수평 및 수직 방향의 획득 포인트의 수를 설정하는",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 121,
+    "text": "그림 3.3.2.4. 회차별 Points Cloud + RGB 영상 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 122,
+    "text": "그림 3.3.2.5. 공간데이터 획득 위치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 122,
+    "text": "표 3.3.2.6. 실험 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 123,
+    "text": "그림 3.3.2.6. 5개 지점 처리 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 124,
+    "text": "그림 3.3.2.7. 최종 합성 공간영상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 124,
+    "text": "그림 3.3.2.8은 최종 합성 공간영상의 내비게이션 예를 나타낸다. 액티브센서에",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 125,
+    "text": "그림 3.3.2.8. 최종 합성 공간영상 내비게이션",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 125,
+    "text": "그림 3.3.2.9에서 보이는 바와 같이 브라키오사우루스 공룡 골격이 전시된",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 126,
+    "text": "그림 3.3.2.9. 1층 로비 공룡 골격 전시품",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 126,
+    "text": "그림 3.3.2.10. 1층 로비 공룡 골격 전시품 촬영 위치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 126,
+    "text": "표 3.3.2.7에서는 3회에 걸쳐 생성된 포인트의 합과 최종 생성된 공간영상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 127,
+    "text": "표 3.3.2.7. 공간영상 생성 포인트 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 127,
+    "text": "그림 3.3.2.11. Correspondence view scans",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 127,
+    "text": "그림 3.3.2.12. 최종 합성 공간영상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 128,
+    "text": "그림 3.3.2.13. 노토사우루스 모형 전시품",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 128,
+    "text": "그림 3.3.2.14. 전시품 촬영 위치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 128,
+    "text": "그림 3.3.2.15. 최종 합성 공간영상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 129,
+    "text": "표 3.3.2.8. 공간영상 생성 포인트 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 129,
+    "text": "표 3.3.2.8에서 각 촬영 회차별 생성 포인트의 합과 최종 합성 공간영상의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 129,
+    "text": "그림 3.3.2.16은 액티브센서로 단일 촬영하여 획득한 공간영상과 다중 촬영하여",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 130,
+    "text": "그림 3.3.2.16. 최종 합성 공간영상 내비게이션",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 132,
+    "text": "표 3.4.1.1. 공간음향 특성 연구의 목표 및 내용",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 133,
+    "text": "그림 3.4.1.1과 같은 기법들이 있다.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 133,
+    "text": "그림 3.4.1.1. 공간 구조 단순화 기법 분류",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 134,
+    "text": "그림 3.4.1.2. 공간음향 모델링 기술 분류",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 136,
+    "text": "그림 3.4.1.3. 3차 앰비소닉의 spherical harmonics",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 137,
+    "text": "그림 3.4.1.4. 정5각형 재생 포맷에서의 채널별 1차(좌) 및 2차(우) 앰비소닉 재생",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 138,
+    "text": "그림 3.4.1.5. 기존의 3차원(좌) 및 COA(우)의 spherical harmonics 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 140,
+    "text": "그림 3.4.1.6. 공간음향 재현 플랫폼 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 141,
+    "text": "그림 3.4.1.7. 공간음향 재현 검증 환경 구축",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 143,
+    "text": "그림 3.4.2.1. HRTF 측정 방법 및 실측 응답의 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 145,
+    "text": "그림 3.4.2.2. TU Berlin 대학의 HRTF 측정 위치와 측정 장비",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 149,
+    "text": "그림 3.4.3.1. SK텔레콤 옥수수 소셜 VR 개념도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 150,
+    "text": "그림 3.4.3.2. 소셜 VR로 제공하는 VIP석 야구 관람 경험의 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 150,
+    "text": "그림 3.4.3.3. 소셜 VR 참여자들의 아바타 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 153,
+    "text": "그림 3.5.1.1 Pixhawk - radio receiver 간 연결을 통한 transmitter 신호 수신",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 154,
+    "text": "그림 3.5.1.2 QGroundControl 툴을 통한 무인이동체 Airframe 설정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 155,
+    "text": "그림 3.5.1.3 QGroundControl 툴을 통한 무인이동체 조종기 및 비행모드 설정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 156,
+    "text": "그림 3.5.1.4 SILS 방식의 드론 시뮬레이터 제어 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 157,
+    "text": "그림 3.5.1.5 DJI S900형상 디자인 및 dynamics 구현 blueprint 예제",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 159,
+    "text": "그림 3.5.2.1 사이버 드론 시험장 및 Hexacoptor의 무인이동체 시뮬레이터 통합",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 160,
+    "text": "그림 3.5.2.2 사이버 드론 시험장 외부 전경 디자인",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 160,
+    "text": "그림 3.5.2.3 사이버 드론 시험장 내부 광원(light source) 배치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 161,
+    "text": "그림 3.5.2.4 Hexacoptor pawn에 대한 Box collision 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 163,
+    "text": "그림 3.5.3.1 드론 시뮬레이터의 quadrotor 이동체 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 163,
+    "text": "표 3.5.3.1 드론 시뮬레이터의 quadrotor 물리 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 164,
+    "text": "그림 3.5.3.2 사이버 ETRI 드론 시험장의 실내 문에 대한 collision area 설계 및",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 166,
+    "text": "그림 3.5.3.3 모든 vehicle을 하나의 view에 디스플레이하는 multi-vehicle",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 168,
+    "text": "그림 3.5.4.1 무인이동체 시뮬레이터 구조와 API에 의한 연구",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 168,
+    "text": "표 3.5.4.1 무인이동체 시뮬레이터 API 요약",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 169,
+    "text": "그림 3.5.4.2 심층신경망을 이용한 DQN 및 A2C 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 169,
+    "text": "그림 3.5.4.3 무인이동체 시뮬레이터와 강화학습 모델과의 연동 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 170,
+    "text": "그림 3.5.4.4 DQN, A2C 강화학습과 일대일 연결 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 170,
+    "text": "그림 3.5.4.5 A3C 강화학습과 일대다 연결 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 170,
+    "text": "그림 3.5.4.6 도심 환경에서의 자율비행 강화학습 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

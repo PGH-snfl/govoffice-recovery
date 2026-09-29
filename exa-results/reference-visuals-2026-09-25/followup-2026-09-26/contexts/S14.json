@@ -1,0 +1,364 @@
+[
+  {
+    "visual_id": "S14-V0001",
+    "caption": "연구 변경 사항 요약",
+    "pdf_page_candidate": 4,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 25,
+    "prefix_match_only": false,
+    "text_before": "단독 투여만으로는 종양을 완전히 제거할 수 없었고, tumor antigen을 표적으로 하는 CAR-T와 동시에 투여한 경우에 치료\n효과가 가장 좋았다고 보고하였다. 따라서 상피세포에서 기원하는 거의 모든 종양의 stromal cell에 발현하는 FAP를 표적으로\n하는 CAR(FAPCAR)를 제작하고, CLDN18.2CAR와 FAPCAR를 동시에 발현하는 CAR-T를 제작하여 효용성을 확인하고자 한다. 클라우딘18.2(CLDN18.2)는 위를 제외한 정상 조직에서는 발현되지 않으며, 대부분의 위암 조직에서 과발현되며, 췌장암, 식도암, 담도암 및 폐 선암에서도 유의한 수준으로 발현된다. 이에 CLDN18.2는 비교적 특이도가 높은 종양연관항원으로\n항암치료의 이상적인 표적항원이 될 수 있다. 2) 연구과제의 최종 목표\n고형암의 면역억제 TME에서도 effector function을 유지할 수 있는 CAR-T를 개발하고자 한다. 위암, 췌장암, 비소세포폐암, 식도암, 담도암 등에 발현하는 CLDN18.2와 FAP를 동시에 표적으로 하는 ① dual CAR-T, ② tandem CAR-T, 그리고 ③\n“AND” logic-gated dual CAR-T를 제작하고 효과를 확인하고자 한다. 이를 통해 고형암에서 다항원을 표적으로 하는 CAR-T의\n효과를 확인하고, 고형암의 TME를 극복하는 방법을 모색하고자 한다. 또한 “AND” logic-gated dual CAR-T의 연구를 통해 on",
+    "caption_and_following_text": "target off tumor effect를 차단하기 위한 전략을 제시하고자 한다. 2. 연구개발과제의 수행 과정 및 수행 내용\n1) 주요 연구 변경사항\n“OR” logic-gated dual CAR 대신에 Looped tandem CAR를 제작하여 효과를 평가하였음\n[표 1] 연구 변경 사항 요약\n변경 전 변경 후\n1년차\nTandem CAR Tandem CAR\nDual CAR Looped tandem CAR\n2년차 “AND” logic-gated dual CAR “AND” logic-gated dual CAR\n2) 연구과제의 수행 과정 및 수행 내용",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1) 연구과제의 필요성",
+      "1) 주요 연구 변경사항",
+      "2) 연구과제의 수행 과정 및 수행 내용"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0002",
+    "caption": "Tandem CAR와 looped CAR의 구조",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 2 -\n[그림 1] Tandem CAR와 looped CAR의 구조\nŸ 4-1BB를 포함하는 2세대 CAR로 설계함(그림 2)\n[그림 2] Tandem CAR와 looped tandem CAR의 scFv 배열\nŸ FAP, CLDN18.2와 반응하는 Dual CAR를 설계함(그림 3)\n[그림 3] “AND” logic-gated dual CAR의 scFv 배열\n② 표적세포주 확보\nŸ (Fibroblast Activation Protein (FAP)과 Claudin18.2 (CLDN18.2) 과발현 293T 세포) FAP와 CLDN18.2를 각각 혹은\n동시에 특이적으로 결합하여 세포 사멸을 유도할 수 있는 Tandem / Looped tandem / “AND” logic-gated CAR-T\n세포의 기능을 검증하기 위하여 FAP 또는 CLDN18.2를 발현하는 293T 세포와 CLDN18.2와 FAP를 동시에 발현하는",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          217.44,
+          618.04,
+          351.77,
+          766.08
+        ],
+        "page_area_fraction": 0.0397
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          477.92,
+          530.35,
+          564.7
+        ],
+        "page_area_fraction": 0.0808
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0003",
+    "caption": "Tandem CAR와 looped tandem CAR의 scFv 배열",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 2 -\n[그림 1] Tandem CAR와 looped CAR의 구조\nŸ 4-1BB를 포함하는 2세대 CAR로 설계함(그림 2)\n[그림 2] Tandem CAR와 looped tandem CAR의 scFv 배열\nŸ FAP, CLDN18.2와 반응하는 Dual CAR를 설계함(그림 3)\n[그림 3] “AND” logic-gated dual CAR의 scFv 배열\n② 표적세포주 확보\nŸ (Fibroblast Activation Protein (FAP)과 Claudin18.2 (CLDN18.2) 과발현 293T 세포) FAP와 CLDN18.2를 각각 혹은\n동시에 특이적으로 결합하여 세포 사멸을 유도할 수 있는 Tandem / Looped tandem / “AND” logic-gated CAR-T\n세포의 기능을 검증하기 위하여 FAP 또는 CLDN18.2를 발현하는 293T 세포와 CLDN18.2와 FAP를 동시에 발현하는",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          217.44,
+          618.04,
+          351.77,
+          766.08
+        ],
+        "page_area_fraction": 0.0397
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          477.92,
+          530.35,
+          564.7
+        ],
+        "page_area_fraction": 0.0808
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0004",
+    "caption": "“AND” logic-gated dual CAR의 scFv 배열",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 2 -\n[그림 1] Tandem CAR와 looped CAR의 구조",
+    "caption_and_following_text": "Ÿ 4-1BB를 포함하는 2세대 CAR로 설계함(그림 2)\n[그림 2] Tandem CAR와 looped tandem CAR의 scFv 배열\nŸ FAP, CLDN18.2와 반응하는 Dual CAR를 설계함(그림 3)\n[그림 3] “AND” logic-gated dual CAR의 scFv 배열\n② 표적세포주 확보\nŸ (Fibroblast Activation Protein (FAP)과 Claudin18.2 (CLDN18.2) 과발현 293T 세포) FAP와 CLDN18.2를 각각 혹은\n동시에 특이적으로 결합하여 세포 사멸을 유도할 수 있는 Tandem / Looped tandem / “AND” logic-gated CAR-T\n세포의 기능을 검증하기 위하여 FAP 또는 CLDN18.2를 발현하는 293T 세포와 CLDN18.2와 FAP를 동시에 발현하는\n세포를 제작하였음 Ÿ 타깃 유전자의 도입을 확인하기 위하여 형광 유전자를, cytotoxicity를 확인하기 위한 Luciferase를 발현하도록 하였음\n③ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          217.44,
+          618.04,
+          351.77,
+          766.08
+        ],
+        "page_area_fraction": 0.0397
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          477.92,
+          530.35,
+          564.7
+        ],
+        "page_area_fraction": 0.0808
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0005",
+    "caption": "FAP-CLDN18.2 Tandem CAR와 CLDN18.2-FAP looped tandem CAR의 Transduction efficiency 확인",
+    "pdf_page_candidate": 6,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 3 -\n[그림 4] FAP-CLDN18.2 Tandem CAR와 CLDN18.2-FAP looped tandem CAR의 Transduction efficiency 확인\n⑤ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 세포 독성 검증\nŸ CAR-T 세포가 타겟 세포상에서 발현되는 FAP 또는 CLDN18.2를 인지하는 경우에 세포 독성을 유발할 수 있는\nTandem CAR 유전자 (FAP-CLDN18.2 tandem CAR)를 포함하는 렌티바이러스 벡터 플라스미드를 제작함 Ÿ 이 플라스미드를 293T 세포에 transfection 하여 렌티바이러스를 생산하였고, spinoculation을 통해 렌티바이러스의\nCAR 유전자를 T 세포에 전달하였음\nŸ 세포 독성을 확인하기 위하여 타겟 세포로서 본 연구를 위해 제작한 FAP 과발현 293T 세포주 (FAP O/E 293T),\nCLDN18.2 과발현 293T (CLDN18.2 O/E 293T), FAP와 CLDN18.2를 동시에 과발현하는 293T (FAP+CLDN18.2\nO/E 293T) 그리고 FAP와 CLDN18.2를 발현하지 않는 것으로 알려져있는 293T 세포주를 통해 본 연구에서\n디자인한 FAP-CLDN18.2 tandem CAR가 타겟 특이적으로 세포 독성을 유도할 수 있는지를 검증하였음",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0006",
+    "caption": "FAP-CLDN18.2 Tandem CAR와 Looped FAP-CLDN18.2 Tandem CAR의 세포 독성 검증",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 4 -\n[그림 5] FAP-CLDN18.2 Tandem CAR와 Looped FAP-CLDN18.2 Tandem CAR의 세포 독성 검증\n⑦ “AND” logic-gated dual CAR-T의 세포 독성 검증\nŸ Dual CAR-T, FAP CAR-T, CLDN18.2 CAR-T, Mock-T를 배양하여 실험을 진행함\nŸ 준비한 4개의 CAR-T와 FAP O/E 293T를 함께 배양하여 cytotoxicity assay를 시행함 이 in vitro assay에서\n확인하고자 한 것은 FAP 항원만 존재하는 경우에 dual CAR-T가 활성화 되는가이다. 실험 결과를 보면 FAP\nCAR-T는 FAP-293T cell과 반응하여 증식하고 있어 CAR-T 제작에 이용한 anti-FAP scFv가 FAP 항원과 잘\n반응하는 것을 알 수 있음 이에 반해 dual CAR-T, CLDN18.2.CAR-T, Mock-T는 FAP-293T cell과 반응하지\n않음(그림 6A) Ÿ 두 개의 target cell (FAP 293T, CLDN18.2 293T)을 4개의 CAR-T와 함께 배양하여 cytotoxicity assay를 시행함 이\nin vitro assay에서는 FAP 항원과 CLDN18.2 항원이 같이 존재하는 경우에 dual CAR-T가 CLDN18.2.CAR-T보다",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.45,
+          450.59,
+          472.43,
+          766.08
+        ],
+        "page_area_fraction": 0.2207
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.94,
+          103.69,
+          483.82,
+          262.27
+        ],
+        "page_area_fraction": 0.1182
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0007",
+    "caption": "“AND” logic-gated dual CAR의 세포 독성 검증",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "⑦ “AND” logic-gated dual CAR-T의 세포 독성 검증\nŸ Dual CAR-T, FAP CAR-T, CLDN18.2 CAR-T, Mock-T를 배양하여 실험을 진행함\nŸ 준비한 4개의 CAR-T와 FAP O/E 293T를 함께 배양하여 cytotoxicity assay를 시행함 이 in vitro assay에서\n확인하고자 한 것은 FAP 항원만 존재하는 경우에 dual CAR-T가 활성화 되는가이다. 실험 결과를 보면 FAP\nCAR-T는 FAP-293T cell과 반응하여 증식하고 있어 CAR-T 제작에 이용한 anti-FAP scFv가 FAP 항원과 잘\n반응하는 것을 알 수 있음 이에 반해 dual CAR-T, CLDN18.2.CAR-T, Mock-T는 FAP-293T cell과 반응하지\n않음(그림 6A) Ÿ 두 개의 target cell (FAP 293T, CLDN18.2 293T)을 4개의 CAR-T와 함께 배양하여 cytotoxicity assay를 시행함 이",
+    "caption_and_following_text": "in vitro assay에서는 FAP 항원과 CLDN18.2 항원이 같이 존재하는 경우에 dual CAR-T가 CLDN18.2.CAR-T보다\ntarget cell을 더 효과적으로 제거할 수 있는가를 확인하고자 함 Killing curve에서 dual CAR-T가\nCLDN18.2.CAR-T보다 유의하게 효과적으로 target cell을 제거하였음을 알 수 있음(그림 6B)\n[그림 6] “AND” logic-gated dual CAR의 세포 독성 검증\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.45,
+          450.59,
+          472.43,
+          766.08
+        ],
+        "page_area_fraction": 0.2207
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.94,
+          103.69,
+          483.82,
+          262.27
+        ],
+        "page_area_fraction": 0.1182
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0008",
+    "caption": "FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Activation 확인",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 실험 결과 , Tandem CAR-T는 FAP O/E 293T에서 28.8%, CLDN18.2 O/E 293T에서 30.6%, FAP+CLDN18.2\nO/E에서 39.5%로 CAR-T의 activation을 유발하였고, 293T 세포에서는 activation을 유발하지 못하였음(그림 7A)\n이를 통해 “OR”logic-gated FAP-CLDN18.2 tandem CAR-T는 타겟 특이적으로 CAR-T의 activation을 유발하는\n것으로 확인되었음\n⑨ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Activation 확인\nŸ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 activation 수준을 확인하였음 Ÿ Looped tandem CAR-T도 FAP O/E 293T에서 36.8%, CLDN18.2 O/E 293T에서 27.5%, FAP+CLDN18.2 O/E에서\n50.3%로 CAR-T의 activation을 유발하였고, 293T 세포에서는 activation을 유발하지 못하였음(그림 7B) 이를 통해",
+    "caption_and_following_text": "“OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T는 FAP O/E 293T, CLDN18.2 O/E 293T에서 Tandem\nCAR-T와 비슷한 수준으로, FAP+CLDN18.2 O/E에서는 Tandem CAR-T보다 더 높은 수준으로 타겟 특이적으로\nCAR-T의 activation을 유발하는 것으로 확인되었음\n[그림 7] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Activation 확인\n⑩ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 Degranulation 확인\nŸ Activation assay 실험 결과 Tandem CAR-T의 타겟 특이적인 activation을 확인할 수 있었고 Activation 이후\nCAR-T의 도움 T 세포(CD4+)와 세포 독성 T 세포(CD8+)에서의 실제 타겟 특이적인 deganulation을 확인하기 위해\n실험을 진행함\nŸ 실험 결과 , 도움 T 세포에서 Tandem CAR-T는 FAP O/E 293T에서 38.1%, CLDN18.2 O/E 293T에서 37.5%,\nFAP+CLDN18.2 O/E에서 38.7%로 CAR-T의 degranulation을 확인할 수 있었고, 293T 세포에서는 4.29%로 매우",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.0,
+          280.49,
+          523.88,
+          563.5
+        ],
+        "page_area_fraction": 0.2561
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0009",
+    "caption": "FAP-CLDN18.2 Tandem CAR와 Looped FAP-CLDN18.2 Tandem CAR의 도움 T 세포(CD4+)와 세포 독성 T 세포(CD8+)에서의 Degranulation 확인",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 6 -\n[그림 8] FAP-CLDN18.2 Tandem CAR와 Looped FAP-CLDN18.2 Tandem CAR의 도움 T 세포(CD4+)와\n세포 독성 T 세포(CD8+)에서의 Degranulation 확인\n⑪ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Degranulation 확인\nŸ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 degranulation 수준을 확인하였음\nŸ 도움 T 세포에서 Looped Tandem CAR-T는 FAP O/E 293T에서 23.5%, CLDN18.2 O/E 293T에서 20.5%,\nFAP+CLDN18.2 O/E에서 41.8%로 CAR-T의 degranulation을 확인할 수 있었고, 293T 세포에서는 9.73%로 낮은\n수준의 degranulation을 확인하였음 (그림 8B) Ÿ 세포 독성 T 세포에서 Looped Tandem CAR-T는 FAP O/E 293T에서 20.5%, CLDN18.2 O/E 293T에서 18.3%,\nFAP+CLDN18.2 O/E에서 36.6%로 CAR-T의 degranulation을 확인할 수 있었고, 293T 세포에서는 5.1%로 매우\n낮은 수준의 degranulation을 확인하였음 (그림 8D. Ÿ 이를 통해“OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T는 FAP O/E 293T, CLDN18.2 O/E 293T에서",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          531.14,
+          510.08,
+          766.08
+        ],
+        "page_area_fraction": 0.2092
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          296.2,
+          510.08,
+          531.14
+        ],
+        "page_area_fraction": 0.2092
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0010",
+    "caption": "FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Proliferation 확인",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 7 -\nŸ 앞선 실험 결과 Tandem CAR-T의 타겟 특이적인 기능을 확인할 수 있었고 세포독성을 효과적으로 하기 위해 타겟\n특이적으로 T세포의 증식이 일어나는지 확인하기 위해 실험을 진행함\nŸ 실험 결과, Tandem CAR-T는 일반적인 T세포에 비해 FAP O/E 293T에서 33.2%, CLDN18.2 O/E 293T에서\n29.9%, FAP+CLDN18.2 O/E에서 50.6%로 CAR-T의 증식을 확인할 수 있었고, negative 293T 세포에서는\n5.88%로 매우 낮은 수준의 증식을 확인하였음(그림 9A)\n⑬ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Proliferation 확인",
+    "caption_and_following_text": "Ÿ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 증식 수준을 확인하였음 Ÿ Looped Tandem CAR-T는 FAP O/E 293T에서 44.6%, CLDN18.2 O/E 293T에서 56.8%, FAP+CLDN18.2\nO/E에서 60.3%로 CAR-T의 증식을 확인할 수 있었고, negative 293T 세포에서는 7.76%로 낮은 수준의 증식을\n확인하였음 (그림 9B)\n[그림 9] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Proliferation 확인\n⑭ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 사이토카인 발현\nŸ Tandem CAR-T가 세포 독성을 타겟 특이적으로 유발하는 것을 확인하였음 Ÿ 이 과정에서 CAR-T의 세포 독성에 관여하는 사이토카인인 종양괴사인자-α (TNF-α)와 인터페론 γ (IFN-γ)의 발현\n수준을 검증하고자 효소결합면역흡착검사(ELISA)를 진행하였음 Ÿ 그 결과, tandem CAR-T는 세포 독성 확인 실험 결과와 마찬가지로 FAP O/E 293T, CLDN18.2 O/E 293T,\nFAP+CLDN18.2 O/E 293T에서 TNF-α와 IFN-γ를 분비하였고, 293T 세포에서는 TNF-α와 IFN-γ를 분비하지\n않았음(그림 10A)\n[그림 10] FAP-CLDN18.2 / Looped FAP-CLDN18.2 CAR-T 세포에서의 사이토카인 발현량 검증",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0011",
+    "caption": "FAP-CLDN18.2 / Looped FAP-CLDN18.2 CAR-T 세포에서의 사이토카인 발현량 검증",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "⑬ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Proliferation 확인\nŸ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 증식 수준을 확인하였음 Ÿ Looped Tandem CAR-T는 FAP O/E 293T에서 44.6%, CLDN18.2 O/E 293T에서 56.8%, FAP+CLDN18.2\nO/E에서 60.3%로 CAR-T의 증식을 확인할 수 있었고, negative 293T 세포에서는 7.76%로 낮은 수준의 증식을\n확인하였음 (그림 9B)\n[그림 9] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Proliferation 확인\n⑭ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 사이토카인 발현\nŸ Tandem CAR-T가 세포 독성을 타겟 특이적으로 유발하는 것을 확인하였음 Ÿ 이 과정에서 CAR-T의 세포 독성에 관여하는 사이토카인인 종양괴사인자-α (TNF-α)와 인터페론 γ (IFN-γ)의 발현",
+    "caption_and_following_text": "수준을 검증하고자 효소결합면역흡착검사(ELISA)를 진행하였음 Ÿ 그 결과, tandem CAR-T는 세포 독성 확인 실험 결과와 마찬가지로 FAP O/E 293T, CLDN18.2 O/E 293T,\nFAP+CLDN18.2 O/E 293T에서 TNF-α와 IFN-γ를 분비하였고, 293T 세포에서는 TNF-α와 IFN-γ를 분비하지\n않았음(그림 10A)\n[그림 10] FAP-CLDN18.2 / Looped FAP-CLDN18.2 CAR-T 세포에서의 사이토카인 발현량 검증\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0012",
+    "caption": "“AND” logic-gated dual CAR-T 세포에서의 사이토카인 발현량 검증",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 8 -\n⑮ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 사이토카인 발현\nŸ Looped tandem CAR-T에서도 같은 방식으로 사이토카인 분비 수준을 검증하였음 Ÿ Looped tandem tandem CAR-T도 세포 독성 확인 실험 결과와 마찬가지로 FAP O/E 293T, CLDN18.2 O/E 293T,\nFAP+CLDN18.2 O/E 293T에서 TNF-α와 IFN-γ를 분비하였고, 293T 세포에서는 TNF-α와 IFN-γ를 분비하지\n않았음(그림 10B) Ÿ Tandem CAR-T 대비 looped tandem CAR-T에서 TNF-α와 IFN-γ의 분비량이 상대적으로 많은 것이 확인되었음\n⑯ “AND” logic-gated dual CAR-T의 사이토카인 발현\nŸ “AND” logic-gated dual CAR-T에는 IL-2와 IFN-γ 의 분비량을 확인하였음",
+    "caption_and_following_text": "Ÿ FAP O/E 293T에서 FAP CAR-T가 target cell에 의해 활성화되어 IFN-r, IL-2의 분비가 유의하게 증가하였고(그림\n11A), FAP+CLDN18.2 O/E 293T에서 IFN-r, IL-2의 분비가 Mock-T와 비교하여 유의하게 증가하였으나 dual\nCAR-T와 CLDN18.2.CAR-T 사이에 유의한 차이는 없음(그림 11B)\n[그림 11] “AND” logic-gated dual CAR-T 세포에서의 사이토카인 발현량 검증\n⑰ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T의 RCL\n여부 확인\nŸ 제작된 CAR-T에 잔존하는 바이러스로 인해 감염 능력이 있는지 확인하기 위해 RCL(Replication competent\nlentivirus)을 VSV-G 발현 분석을 통해 확인함\nŸ CAR-T cell과 감염되지 않은 T-cell을 negative control로 사용하고, 키트 내에 있는 positive control을 사용하여\nqPCR 실험을 통해 확인함 Ÿ 확인 결과 positive control은 standard curve 내에서 확인이 되었지만(그림 12A) negative control과 tandem",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          405.88,
+          467.27,
+          605.46
+        ],
+        "page_area_fraction": 0.1355
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.75,
+          87.98,
+          500.13,
+          232.55
+        ],
+        "page_area_fraction": 0.1171
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S14-V0013",
+    "caption": "FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR의 RCL 여부 확인",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "CAR-T와 CLDN18.2.CAR-T 사이에 유의한 차이는 없음(그림 11B)\n[그림 11] “AND” logic-gated dual CAR-T 세포에서의 사이토카인 발현량 검증\n⑰ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T의 RCL\n여부 확인\nŸ 제작된 CAR-T에 잔존하는 바이러스로 인해 감염 능력이 있는지 확인하기 위해 RCL(Replication competent\nlentivirus)을 VSV-G 발현 분석을 통해 확인함\nŸ CAR-T cell과 감염되지 않은 T-cell을 negative control로 사용하고, 키트 내에 있는 positive control을 사용하여",
+    "caption_and_following_text": "qPCR 실험을 통해 확인함 Ÿ 확인 결과 positive control은 standard curve 내에서 확인이 되었지만(그림 12A) negative control과 tandem\nCAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T 모두 음성으로 확인됨(그림 12B) Ÿ 결과적으로 제작된 tandem CAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T는 감염 능력이\n없음을 확인함\n[그림 12] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR의 RCL 여부 확인\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          405.88,
+          467.27,
+          605.46
+        ],
+        "page_area_fraction": 0.1355
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.75,
+          87.98,
+          500.13,
+          232.55
+        ],
+        "page_area_fraction": 0.1171
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

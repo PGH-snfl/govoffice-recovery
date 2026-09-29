@@ -1,0 +1,452 @@
+[
+  {
+    "pdf_page": 1,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "모델 기반의 초대형 복잡 시스템 분석 및 검증 SW 개발\r\nSoftware R&D for Model-based Analysis and\r\nVerification of Higher-order Large Complex System\r\n2017. 11. 30.\r\n주관기관 한국과학기술원\r\n과학기술정보통신부"
+  },
+  {
+    "pdf_page": 2,
+    "width": 595.0591430664062,
+    "height": 841.1761474609375,
+    "text": "광공포변호는 - 기재불필요 1 ;;'\\\" '-\";'1;써'-'1 ;- -----1 R0126-17-1101 \r\n정보톨신 · 방솥 연구개발 [3 연차 . 1 단계I 보고서 \r\n3) 보안둥급 보안과제( ), 일반과제( -/ ) \r\n4) 과제 성격 기초( ), 응용( ), 개발( \r\n되 총팔과제명 총괄/세부과제로 이루어진 병렬형 과제인 경우 기재 \r\n국 문 \r\n(SW 스타랩) 모델 기반의 초대형 복잡 시스템 분석 및 검증 SW \r\n개발 이과제명 (SW Star Lab) Software R&D for Model-based Analysis and ~、 τ rrj \r\nVerification of Higher-order Large Complex System \r\n기관명 한국과학기술원 사업자등록변호 314-82-01980 주관기관 주 소 ( 34141 ) 대전 유성구 대학로 291 한국과학기술원 \r\n성 명 배두환 직위/직급 교수 \r\n전화번호 042-350-3539 부서 전산학부 \r\n이 총괄책 임자 휴대전화번호 팩스번호 042-350-8488 \r\n주민등록번호 전자우편 ba잊꿇e. t. ac kr (괴획기 안동록변획 (1005 3172) \r\n% 수행기간 2015. ffi. 01 ~ 2. 12. 31 ( 94 개월/ 2 단계 ) \r\n이 협약기칸 2017. ffi. 01 ~ 2017. 12. 31 ( 10 개월/ 1 단계 ) \r\n연도 출 정연부금 민간부담금 출 정부연외금 합 계 \r\n현금 현물 소계 \r\n11) 사업비현황 \r\n댐웹 ('15 .1사 '2 21231) αxl 0 483,993 483,993 0 2,853,993 \r\n해당연도 27 αm 0 53，없6 53，없6 0 323,846 ('17.3.1 17.1231) \r\n서。 며 백영민 부서/직위 전산학부 박사과정 \r\n12 주관기관 전화번호 2-35α7839 전자우편 ymbaek@se.kaist.ac.kr 실무담당자 \r\n휴대전화번호 팩스번호 042-350-8488 \r\n1(3 당 과사항제 모특두체성크) • 기술공콘개비sw징수 0 정업 화책비지적정용 표준연계 \r\n병 경렬쟁형과 총제괄 I 렬자형산 세뱅부크 0 일반형 0 \r\n에 1RL둥급 2 ~ 7 15) 성격구분 창의( 닝 ), 전략( ), 혁신( ) \r\n동 연차 보고서상의 기재 내용이 사실임을 확약하며/ 만약/ 사실이 아닐 경우 \r\n정보통신·방송 연구개발사업 관련 법령 및 규정에 따라 중단·협약해약·환수 동의 \r\n어떠한 불이익도 감수하겠습니다. \r\n2017 년 11 월 30 일 \r\n총괄책임자: 배두환 \r\n과학기술정보통신부 장관 귀하 주관기관장: 신성철 \r\n*******\r\n*******\r\n*******"
+  },
+  {
+    "pdf_page": 3,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "1) 공고번호 기재 불필요 2) 과제번호 R0126-17-1101\r\n정보통신·방송 연구개발 (○연차·○단계) 보고서\r\n3) 보안 등급 보안과제( ), 일반과제( √ )\r\n4) 과제 성격 기초( √ ), 응용( ), 개발( )\r\n5) 총괄과제명 총괄/세부과제로 이루어진 병렬형 과제인 경우 기재\r\n6) 과제명 \r\n국 문\r\n(SW 스타랩) 모델 기반의 초대형 복잡 시스템 분석 및 검증 SW \r\n개발\r\n영 문 (SW Star Lab) Software R&D for Model-based Analysis and \r\nVerification of Higher-order Large Complex System\r\n7) 주관기관\r\n기관명 한국과학기술원 사업자등록번호 314-82-01980\r\n주 소 ( 34141 ) 대전 유성구 대학로 291 한국과학기술원\r\n8) 총괄책임자\r\n성 명 배 두 환 직위/직급 교수\r\n전화번호 042-350-3539 부서 전산학부\r\n휴대전화번호 팩스번호 042-350-8488\r\n주민등록번호\r\n(과학기술인등록번호) (1005 3172) 전자우편 bae@se.kaist.ac.kr\r\n9) 총수행기간 2015. 03. 01 ~ 2022. 12. 31 ( 94 개월/ 2 단계 )\r\n10) 협약기간 2017. 03. 01 ~ 2017. 12. 31 ( 10 개월/ 1 단계 )\r\n11)사업비현황\r\n(천원)\r\n연도 정부 \r\n출연금\r\n민간부담금 정부외 \r\n출연금 합 계\r\n현금 현물 소계\r\n총사업기간 (‘15.3.1.∼’22.12.31) 2,370,000 0 483,993 483,993 0 2,853,993\r\n해당연도 (‘17.3.1∼’17.12.31) 270,000 0 53,846 53,846 0 323,846\r\n12)주관기관 \r\n실무담당자\r\n성 명 백영민 부서/직위 전산학부/박사과정\r\n전화번호 042-350-7839 전자우편 ymbaek@se.kaist.ac.kr\r\n휴대전화번호 팩스번호 042-350-8488\r\n13) 과제특성\r\n(해당사항 모두체크)\r\n기술료비징수 ○ 사업화비적용 표준연계 경쟁과제 SW자산뱅크\r\n공개SW ○ 정책지정 일반형 ○ 병렬형 총괄 병렬형 세부\r\n14) TRL등급 2 ∼ 7 15) 성격구분 창의( √ ), 전략( ), 혁신( )\r\n동 연차 보고서상의 기재 내용이 사실임을 확약하며, 만약, 사실이 아닐 경우 \r\n정보통신·방송 연구개발사업 관련 법령 및 규정에 따라 중단·협약해약·환수 등의 \r\n어떠한 불이익도 감수하겠습니다.\r\n2017 년 11 월 30 일\r\n총괄책임자 : 배 두 환 (서명)\r\n과학기술정보통신부 장관 귀하 주관기관장 : 신 성 철 (인감)/(직인)\r\n*******\r\n*******\r\n*******"
+  },
+  {
+    "pdf_page": 4,
+    "width": 595.083984375,
+    "height": 841.0120239257812,
+    "text": "제 출 \r\n과학기술정보통신부 장관 귀하 \r\n“ (SW 스타랩) 모델 기반의 초대형 복잡 시스템 분석 및 검증 sw 개발\" (수행기 \r\n간 : 2017. 03. - 2017. 12.) 과제 의 연 차 보고서 10부를 제 출합니 다 \r\n주관기관명 : 신 성 철 \r\n총괄책임자 : 배 두 환 \r\n정보통신·방송연구개발 관리규정 35 조에 따른 \r\n보고서 활용에 동의 합니 다. \r\n2017. 11. 30 "
+  },
+  {
+    "pdf_page": 5,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 1 -\r\n제 출 문\r\n과학기술정보통신부 장관 귀하\r\n“모델 기반의 초대형 복잡 시스템 분석 및 검증 SW 개발”(수행기간：2017. 03. \r\n~ 2017. 12.)과제의 연차 보고서 10부를 제출합니다.\r\n2017. 11. 30\r\n 주관기관명 ː 신 성 철 (인) \r\n \r\n 총괄책임자 : 배 두 환\r\n정보통신․방송연구개발 관리규정 제35조에 따른\r\n보고서 활용에 동의 합니다."
+  },
+  {
+    "pdf_page": 6,
+    "width": 595.1564331054688,
+    "height": 841.1004028320312,
+    "text": "연차보고서 \r\n사업명 째컴퓨탱산업원헌기술개벨째스타댐) I 과쩨번호 I R0126-1 101 \r\n(국뭔 (SW 스타랩) 모텔 기반의 초대형 복잡 시스템 분석 및 검증 sw 개발 \r\n과제명 (영뭔 (SW Star la이 Softw않'e R&D for Model-based Analysis 때 Verification of \r\nHi험ler-order rge Cornplex Systern \r\n주관기관 한국과학기술원 총괄책임자 배두환 \r\n참여기관 \r\n(헥임자) \r\n총수행기간 2015. æ. 01 ~ 2022. 12. 31 ( 94 개월 ) \r\n협약기간 2017. æ. 01 ~ 2017. 12. 31 ( 10 개월 ) \r\n해당년도 2017. 03. 01 ~ 2017. 12. 31 ( 10 개월 ) 수행기간 \r\n협약기간 정 부 민 간 현금 0 \r\n총사업비(천훤) 출연금 ，370 αm 부담금 계 2,853,993 \r\n현물 993 \r\n해당연도 정 부 민 간 현금 0 \r\n사업비(천훤) 출연금 270 αm 부담금 계 323，없6 \r\n→언;，]론l:1 53,846 \r\n키워드 \r\n(6 - 10개) \r\n정보통신·방송연구개발 관리규정 33조에 의거하여 연차보고서 10부를 제출합니다. \r\n2017년 11 월 30 일 \r\n총괄책임자 배 두환 \r\n주관기관장: 신 성 철 "
+  },
+  {
+    "pdf_page": 7,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 2 -\r\n연 차 보 고 서\r\n사업명 SW컴퓨팅산업원천기술개발(SW스타랩) 과제번호 R0126-17-1101\r\n과제명\r\n(국문) (SW 스타랩) 모델 기반의 초대형 복잡 시스템 분석 및 검증 SW 개발\r\n(영문) (SW Star Lab) Software R&D for Model-based Analysis and Verification of\r\nHigher-order Large Complex System\r\n주관기관 한국과학기술원 총괄책임자 배두환\r\n참여기관\r\n(책임자)\r\n총 수행기간 2015. 03. 01 ~ 2022. 12. 31 ( 94 개월 )\r\n협약기간 2017. 03. 01 ~ 2017. 12. 31 ( 10 개월 )\r\n해당년도\r\n수행기간 2017. 03. 01 ~ 2017. 12. 31 ( 10 개월 )\r\n협약기간\r\n총사업비(천원)\r\n정 부\r\n출연금 2,370,000 민 간\r\n부담금\r\n현금 0\r\n계 2,853,993\r\n현물 483,993\r\n해당연도\r\n사업비(천원)\r\n정 부\r\n출연금 270,000 민 간\r\n부담금\r\n현금 0\r\n계 323,846\r\n현물 53,846\r\n키워드\r\n(6 ~ 10개)\r\n소프트웨어 공학, 시스템 오브 시스템즈, 모델 기반 개발방법론,\r\n소프트웨어 검증, 소프트웨어 요구공학, 소프트웨어 진화\r\n정보통신·방송연구개발 관리규정 제33조에 의거하여 연차보고서 10부를 제출합니다.\r\n2017 년 11 월 30 일\r\n총괄책임자: 배 두 환 (인)\r\n주관기관장: 신 성 철 (직인/인감)\r\n미래창조과학부 장관 귀하"
+  },
+  {
+    "pdf_page": 8,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "〈 연 구 성 과 요 약 문 〉\r\n세계 최고 수준의 시스템-오브-시스템즈(System-of-Systems, SoS) \r\n모델링 및 검증 기술 개발\r\n구분 내용\r\n핵심개발기술 \r\n및\r\n개발내용\r\n1) 세부 연구 별 핵심 개발 기술 및 개발 내용\r\n① SoS 모델링 기술 개발 및 SoS 모델링 지원 공개SW 개발\r\nŸ SoS 개발을 위한 메타모델(Meta-model for System-of-Systems, M2SoS)을 SoS \r\n사례에 기반해 개선하고 단계별 요소를 재정의함. 또한 다중 에이전트 시스템 \r\n대상의 메타모델 기반 기법들과 시스템 구성 요소의 표현력을 비교함 (연구 \r\n그림 1-1. 참조) Ÿ 소프트웨어 시스템의 불확정성(unceratinty)을 표현하기 위해 개발된 기존의 \r\n불확정성 모델링 연구를 조사 및 분석하고, 조사 내용을 바탕으로 불확정성을 \r\n포함한 SoS 수준 환경과 시스템 행위 모델링 요구사항을 SoS 분석 단계와 설\r\n계 단계로 구분하여 정의함\r\nŸ 자율성(autonomy)을 가진 구성 시스템(CS)들의 의사 결정 매커니즘을 모델링\r\n하고, CS 간 메시지 기반의 직접적인 통신을 표현하기 위해 MAPE-k에 기반한 \r\nABC+ 모델링 기법을 개발하고, 검증 통합 도구의 시뮬레이션 기반 통계적 검\r\n증 기법에서 활용할 수 있도록 구현함\r\nŸ CS의 자율성 등으로 인한 불확정성을 포함한 SoS 수준의 목표 달성을 위해 \r\nSoS 정책(SoS policy)을 정의하고 명세 기법을 제안함. 또한 SoS의 진화적 개발\r\n에 대응하기 위해 탐색 기반(search-based) 기법과 시뮬레이션 기반 통계적 검\r\n증 기법을 활용한 정책 제안 프로토타입 도구를 개발함 (연구 그림 1-2. 참조)\r\n② SoS 모델 기반 검증 기술 개발 및 SoS 검증 공개SW 개발\r\nŸ SoS 수준의 목표 달성 여부에 대한 정량적인 검증을 수행하고자 SoS 검증 속\r\n성을 22가지로 분류하고 목표 명세와의 관계를 분석하였으며, 이를 기반으로 \r\nSoS 통계적 검증 프로토타입 도구의 한계점 개선을 위해 목표 명세 유형을 확\r\n장하고 모델링 기법을 확장함\r\nŸ 시뮬레이션 기반 SoS 통계적 검증 프로토타입 도구의 SoS 목표 유형 커버리\r\n지 분석 절차를 정의하여 분석하였음. 개발된 SoS 시나리오가 나타낼 수 있는 \r\n7가지 SoS 목표 명세 유형 중, 4개를 검증할 수 있음을 확인했고, 각 유형별 \r\n트레이스 분석 알고리즘을 정의함\r\nŸ SoS 통계적 검증 프로토타입 도구에서 사용하던 ABC(Action-Benefit-Cost) 모\r\n델링 기술을 BDI(Belief-Desire-Intention) 에이전트 모델, 메시지 기반 상호작용\r\n이 가능하도록 확장함. 이 기술을 ABC+ 모델링 이라는 이름으로 명명하고, 기\r\n존 기법과 비교하여 ABC+ 모델의 목표 성취 수준이 높음을 확인함\r\n③ SoS 실행환경 변화 대응 기술 및 SoS 변화대응 검증 대상 도출 공개SW 개발\r\nŸ SoS의 변화 단위를 설명하기 위해 대형 시스템 메타모델링 기법 문헌 조사를 \r\n수행하였고, MAS에서의 동적 변화 카테고리를 정의한 기존 문헌을 조사함. \r\nSoS 변화 단위로 AMADEOS 메타 모델 구성 요소를 변화 단위로 지정하고, 변\r\n화 종류는 시스템 구성요소의 추가, 삭제, 변경으로 분류함\r\nŸ 선정된 목표로부터 변화와 관련된 모든 목표를 찾아내기 위해 역방향으로 재\r\n귀적 슬라이싱을 수행하는 SoS 목표 모델 슬라이싱 알고리즘을 개발하고, 본 "
+  },
+  {
+    "pdf_page": 9,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 4 -\r\n알고리즘을 SoS 변화 관련 목표 산출 프로토타입 도구로 구현하여 예제 시나\r\n리오인 MCI 대응 SoS 시나리오에 적용함(연구 그림 3-1 참조) Ÿ 슬라이싱 알고리즘을 적용할 사례 SoS 시나리오로 MCI 대응 SoS 시나리오를 \r\n선정하고, 사례 시나리오를 PRISM으로 모델링함. MCI 대응 SoS PRISM 모델을 \r\n대상으로 제어 의존 그래프와 데이터의존 그래프를 포함하는 시스템 의존 그\r\n래프를 생성하고 슬라이싱을 수행함(연구 그림 3-2 참조)\r\n2) 통합 검증 도구 개발: SIMVA-SoS (SIMulation-based Verification and Analysis for SoS) - SoS의 불확실성을 고려한 SoS 수준의 목표 달성 분석을 위한 시뮬레이\r\n션 기반 통계적 검증도구인 SIMVA-SoS를 개발하기 위해 요구사항을 정\r\n의하고 3개의 연구기술이 통합된 환경에서 SoS를 연구할 수 있도록 아\r\n키텍쳐를 및 개발 도구를 설계함. 뿐만 아니라 해당 도구를 공개하고 \r\n공개SW R&D 전략에 따라 활성화 노력을 수행함\r\n공개SW 그림 1. 공개SW 개발 및 관리 단계\r\n성과 항목 정량적 성과 목표 달성 공개SW SW 공인 \r\n논문 실적 SW등록 기술문서 시험 성적서\r\n평가 달성(6/7) 달성(2/3) 달성(1/1) 평가 지표 달성 2건 완료\r\n파급 효과\r\no IoT, 무인자동차 등 다양한 ICT 시스템들이 상호 연결되는 초연결 시대를 \r\n대비함으로써, SoS 관련 기술선점을 통한 미래 국가경쟁력 제고에 기여함\r\no 독립적으로 개발/관리되는 다수의 시스템을 상호 연결하여 활용할 때 발\r\n생 가능한 문제점들을 사전에 검증함으로써 사회적 비용을 획기적으로 단\r\n축시킬 수 있었으며, 2025년 예상되는 311조원 규모의 세계 SoS 관련 시\r\n장에서 선도적인 역할 수행 가능할 것으로 기대됨\r\n보도 자료 없음\r\n공개SW\r\n확산 노력\r\n1) 공개SW 활성화를 위한 평가 진행\r\n① 공개SW 사용 적합도 평가: 목표 달성 - <중상>\r\nŸ License(만족), Compliance with standards(만족), Implementation language(적정), \r\nInternationalization support(만족)를 기준으로 평가\r\n② 공개SW 코드 및 문서 수준 평가: 목표 달성 - <상>\r\nŸ 공개SW 커미트 수(325), CC 점수(평균 2.53), 코드 커버리지 / 뮤테이션 점수(평\r\n가중), 산출물 간 일치도를 기준으로 평가(만족)\r\n③ 공개SW 커뮤니티 활성화: 목표 달성 - <상>\r\nŸ 공개SW커뮤니티 컨텐츠 게시(3건), 논문에 오픈소스 저장소 홍보(2건), OSS 세\r\n미나 참석 혹은 개최(3건)을 기준으로 평가\r\n2) 공개SW R&D 전략에 따른 연구 수행 (공개SW 그림 1 참조) 및 활성화 노력"
+  },
+  {
+    "pdf_page": 10,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 5 -\r\n- 수립된 단계별 공개SW 추진 전략에 맞추어 각 세부연구에서 공개SW \r\n개발 및 확산을 활발하게 수행함\r\n- 세부연구1과 세부연구3은 1단계 전략에 따라서 기법과 알고리즘을 개\r\n발하였으며, 세부연구2는 2단계 전략에 따라서 프로토타입 도구를 개발 \r\n및 공개하였음\r\n- 국내외 학회지(APSEC2017, KCC2017)를 통해 개발된 공개SW 저장소 및 \r\n연구 성과를 홍보하고, KAIST 외부 기관 및 대학의 전문가를 초청한 \r\n워크샵을 개최하였음. 또한, 국내외 공개SW 워크샵/교육(NEMO2017, \r\nAgile Korea Conference 2017, SOSCON2017)에 적극 참여하여 개발된 \r\n공개SW를 홍보하고 최신 공개SW 기술을 습득함\r\n연구 그림 1-1. SoS 개발을 위한 메타모델\r\nM2SoS (Meta-model for System-of-Systems)\r\n연구 그림 1-2. SoS의 진화적 개발을 위한\r\n탐색 기반 정책 제안 기법 도구의 구조\r\n연구 그림 2-1. SoS 통계적 검증 프로토타입 도구 연구 그림 2-2. 확장된 ABC+ 모델링 기술을\r\n기반으로 한 시뮬레이션 개요\r\n연구 그림 3-1. 예제 목표 모델 \r\n슬라이싱 후의 모습\r\n연구 그림 3-2. 슬라이스 된\r\nMCI SoS PRISM 모델 의존 그래프\r\n공개SW 그림 1. 공개SW 개발 및 관리 단계"
+  },
+  {
+    "pdf_page": 11,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 6 -\r\n목 차\r\nⅠ. 해당연도 추진현황 ······························································································7\r\n 가. 기술개발 추진일정 ····························································································7\r\nⅡ. 기술개발 결과 ··············································································8 \r\n 가. 당해 기술개발 성과 목표 및 달성도 ································································8\r\n 나. 당해 정량적 성과목표 및 달성도 ······································································9\r\n 다. 인력양성 성과 ····································································································10\r\n 라. 해당연도 기술개발 결과 ···················································································12\r\nⅢ. 공개SW R&D 전략 및 활성화 성과 ······································50 \r\n 가. 공개SW 활성화 성과요약 ···············································································50\r\n 나. 공개SW R&D 전략의 적절성 및 활성화 노력 ···············································52\r\n Ⅳ. 예산 사용실적 ············································································62 \r\n \r\n 가. 당해연도 사업비 사용실적 ···············································································62\r\n 기타 ·····································································································63 \r\nⅤ. 유형적 발생품(연구시설, 연구장비 등) 구입 및 관리 현황 ····················63\r\n 붙임1. 자체 보안관리 진단표 ··············································································67\r\n 붙임2. 연구실 안전조치 이행표 ··········································································69"
+  },
+  {
+    "pdf_page": 12,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 7 -\r\nⅠ. 해당 연도 추진 현황\r\n 가. 기술개발 추진 일정\r\n일련\r\n번호 개발 내용\r\n추진 일정(개월) 달성도\r\n(%) 1 2 3 4 5 6 7 8 9 10\r\n1 불확정성을 갖는 SoS 운용 환경 \r\n행위 모델링 기법 개발 100%\r\n2 불확정성을 갖는 SoS 요소 \r\n시스템 행위 모델링 기법 개발 100%\r\n3 불확정성을 포함한 정책기반 SoS 목표 명세 기법 보완 100%\r\n4 SoS 검증을 위한 목표 명세 \r\n유형 분류 100%\r\n5 통계적 검증 프로토타입 도구의 SoS 목표 명세 유형 커버리지 \r\n평가 및 개선사항 도출\r\n100%\r\n6 SoS 행위 모델 기반 통계적 \r\n검증 기술 및 도구 개선 100%\r\n7 변화된 SoS 요소와 관련 있는 \r\n검증 속성 선별 100%\r\n8 검증 속성과 분할된 SoS 모델 \r\n간 연관성 도출 100%\r\n9 변화된 구성 요소의 검증 최소 \r\n대상 모델을 추출 100%\r\n당초계획\r\n개발내용"
+  },
+  {
+    "pdf_page": 13,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 8 -\r\nⅡ. 기술개발결과 \r\n<주요 연구 성과 요약>\r\n가. 당해 기술개발 성과 목표 및 달성도\r\n평가 항목\r\n(주요성능\r\nSpec1)) 단위\r\n전체 항목\r\n에서 \r\n차지하는\r\n비중2) (%)\r\n세계최고 \r\n수준보유국\r\n/보유기업\r\n( / )\r\n연구개발 전 \r\n국내수준 목표치 달성도 평가방법3)\r\n성능수준 성능수준\r\n1. SoS\r\n핵심 특성 \r\n커버리지\r\n% 15\r\n미국, INCOSE - 40 40 자체평가\r\n75*\r\n2.\r\n정책기반 SoS 목표 \r\n명세 완성도\r\n% 10 - - 40 40 자체평가\r\n3. SoS\r\n검증 \r\n커버리지\r\n% 10\r\n유럽연합, LSCITS - 70 71 공인 \r\n시험성적(확인)서 10*\r\n4. SoS\r\n통계적 검증 \r\n오류검출 \r\n정확도\r\n% 10\r\n유럽연합, LSCITS - 80 100 공인 \r\n시험성적(확인)서\r\n80*\r\n5. SoS\r\n변화 탐지 \r\n정확도\r\n% 10 - - 70 100 공인 \r\n시험성적(확인)서\r\n가-1. 선진국 상대 기술수준 비교표 \r\n기술구분(중분류·소분류) 기술1)\r\n(단위)\r\n기술상대수준 격차 및 개선목표(B)\r\n(수치로 기재)\r\n미국 한국\r\n(기초) 현재\r\n수준(‘17년) 4년차\r\n(목표) 6년차\r\n(목표) 최종\r\n(목표)\r\nSW 시스템SW SW공학도구\r\nSoS 핵심 \r\n특성 커버리지 100 50 70 80 90 100\r\n정책기반 SoS\r\n목표 명세 \r\n완성도\r\n100 50 70 80 90 95\r\nSoS 검증 \r\n커버리지 100 40 60 70 80 90\r\nSoS 통계적 \r\n검증 오류검출 \r\n정확도\r\n100 70 95 95 100 100\r\nSoS 변화 \r\n탐지 정확도 100 70 80 90 95 100"
+  },
+  {
+    "pdf_page": 14,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 9 -\r\n나. 당해 정량적 성과목표 및 달성도 \r\n(단위 : 건, 명, 천원 등)\r\n구분 1차년도(‘15) 2차년도(‘16) 3차년도(‘17) 합계\r\n특\r\n허\r\n실\r\n적\r\n출\r\n원\r\n국내 1 / 0 1 / 0\r\n국제 1 / 0 1 / 0\r\n합계\r\n등\r\n록\r\n국내\r\n국제\r\n합계\r\n논\r\n문\r\n실\r\n적\r\n논문\r\nSCI\r\nSCIE 1 / 0 2 / 1 2 / 3 5 / 4\r\n소계 (a) 1 / 0 2 / 1 2 / 3 5 / 4\r\n기타\r\n저널\r\n국내 0 / 2 0 / 2 0 / 1 0 / 5\r\n국제\r\nLNCS/LNAI\r\n소계 (b) 0 / 2 0 / 2 0 / 1\r\n컨퍼런스 \r\n발표논문\r\n국내 2 / 2 2 / 3 2 / 1 6 / 6\r\n국제 1 / 1 2 / 5 2 / 2 5 / 8\r\n소계 (c) 3 / 3 4 / 8 4 / 3 11 / 14\r\n합계(d=a+b+c) 4 / 5 6 / 11 6 / 7 16 / 23\r\n표\r\n준\r\n화\r\n국\r\n제\r\n기고서제출\r\n기고서채택\r\n표준안채택\r\n국\r\n내\r\n기고서제출\r\n기고서채택\r\n표준안채택\r\n기\r\n타\r\nS/W 등록건수 1 / 1 1 / 2 2 / 3\r\n시제품 제작실적\r\n성과홍보\r\n기술문서 1 / 1 1 / 1 1 / 1 3 / 3\r\n기술이전/기술료"
+  },
+  {
+    "pdf_page": 15,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 10 -\r\n다. 인력양성 성과\r\n □ 참여인력 구성\r\n(단위 : 명)\r\n구분 소 속\r\n기관명\r\n연 구\r\n책임자\r\n참여\r\n교수\r\n참여학생 연구\r\n전담\r\n교수\r\npost- doc 산업체 기타 계 학사\r\n과정\r\n박사\r\n과정\r\n석사\r\n과정\r\n남 여 남 여 남 여 남 여 남 여 남 여 남 여 남 여 남 여 남 여\r\n1차\r\n년도\r\n(’15)\r\nKAIST 1 0 0 0 0 0 5 0 4 1 0 1 0 0 0 0 0 0 10 2\r\n소계\r\n2차\r\n년도\r\n(’16)\r\nKAIST 1 0 0 0 0 0 3 1 3 2 0 1 0 0 0 0 1 1 8 5\r\n소계\r\n3차\r\n년도\r\n(’17)\r\nKAIST 1 0 0 0 0 0 4 1 3 1 0 1 0 0 0 0 1 1 9 4\r\n소계\r\n0차\r\n년도\r\n(’00)\r\n소계"
+  },
+  {
+    "pdf_page": 16,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 11 -\r\n□ 배출인력현황\r\n 1) 배출인력 총괄\r\n구분\r\n학사 석사 박사 계\r\n목표 실적 목표 실적 목표 실적 목표 실적\r\n1차년도(’15) 0 0 2 2 0 0 2 2\r\n2차년도(’16) 0 0 3 3 2 2 5 5\r\n3차년도(’17) 0 0 2 2 1 1 3 3\r\n합계 7 7 3 3 10 10\r\n 2) 배출인력 진출현황\r\n사업\r\n연도\r\n산업체\r\n석사\r\n진학\r\n(B)\r\n박사\r\n진학\r\n(C)\r\n연구소\r\n(D)\r\nPost- Doc\r\n(E)\r\n정부\r\n기관\r\n(F)\r\n학계\r\n(G)\r\n기타\r\n취업\r\n(H)\r\n창업\r\n(I)\r\n군입대\r\n(J) 미취업\r\n(K)\r\n배출\r\n인원\r\n합계\r\nL:A~K\r\n취업대\r\n상\r\nM: L-B-C- E-J\r\n취업률\r\n(M-K/ M)\r\n전공\r\n분야\r\n취업\r\n인원\r\n(N)\r\n전공\r\n취업률\r\n(N/(M\r\n-K)) 대기\r\n업\r\n중소\r\n․\r\n중견\r\n기업\r\n소계\r\n(A)\r\n1차년도 0 0 0 0 2 0 0 0 0 0 0 0 0 2 0 0 0 0\r\n2차년도 1 2 3 0 0 1 0 0 0 0 0 0 1 5 5 0.8 4 1\r\n3차년도 0 1 1 0 0 0 1 0 0 0 0 0 1 3 2 0.5 1 1\r\n합계 0 3 4 0 2 1 1 0 0 0 0 0 2 10 7 0.78 5 1"
+  },
+  {
+    "pdf_page": 17,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 12 -\r\n 라. 해당연도 기술개발 결과\r\n연구 내용 세부 연구 개발 내용\r\n[세부연구1-1]\r\n불확정성을 \r\n갖는 SoS \r\n운용 환경 \r\n행위 모델링 \r\n기법 개발\r\n❍ SoS 개발을 위한 메타 모델 기반의 불확정성을 갖는 환경 요소 \r\n도출\r\n­2차년도 연구 결과 중 SoS 개발을 위한 메타 모델로 정의한 M2SoS \r\n(Meta-model for SoS) 개선 및 구성 요소 정의\r\nŸ M2SoS의 기본 구성 요소(building blocks) 정의\r\n그림 13. M2SoS에서 정의한 SoS의 기본 구성 요소\r\nSoS-level \r\nTarget \r\nProblem\r\n§ 개발될(된) SoS가 CS들의 역량을 바탕으로 해결하고자 \r\n하는 상위 수준의 문제를 말하며, SoS 개발 및 운영의 목\r\n표(goal)로 연결되는 요소\r\n§ SoS-level Target Problem은 독립적인 하나의 시스템으\r\n로 해결이 어려운 문제\r\nSoS-level \r\nInfrastructure\r\n§ SoS가 SoS-level Target Problem을 해결하고 상위 수준\r\n의 목표(goal)를 달성하기 위해 개발된 가상의 기반 시설\r\n이며, 이는 여러 CS를 통합(integrate)하고 조정 및 지휘\r\n(orchestrate)하는 역할을 수행\r\n§ SoS의 경계(boundary)를 결정하는 역할을 하며, CS들의 \r\n상호작용을 위한 네트워크와 시설을 제공\r\nConstituent \r\nSystem\r\n§ SoS를 이루는 구성 시스템의 기본 단위이며, SoS 수준 \r\n서비스를 제공하기 위한 역할을 수행\r\n§ SoS를 구성하기 위해 통합되는 CS는 이미 존재하는 레\r\n거시 시스템(legacy system)과 새로 개발될 시스템 모두 \r\n고려\r\n§ 각 CS는 이미 시스템 수준에서 완전하고 독립적인 운영 \r\n및 관리(managerial & operational independence) 하에 독\r\n립적인 목표를 갖고 서비스를 제공하며, 본래 상위 수준\r\n(SoS 수준)의 시스템에 구성되기 위해 개발되지 않음\r\nSoS-level \r\nEnvironment § SoS-level Infrastructure 외부에서 상호작용하는 물리적, 가상의 요소\r\n표 1. M2SoS에서 정의한 SoS 주요 구성 요소 및 설명"
+  },
+  {
+    "pdf_page": 18,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 13 -\r\nŸ M2SoS의 SoS 수준 요소(SoS-level entities) 정의\r\n그림 14. M2SoS에서 정의한 SoS 수준 요소(SoS-level entities) Ÿ M2SoS의 CS 수준 요소(CS-level entities) 정의\r\n그림 15. M2SoS에서 정의한 SoS 수준 요소(SoS-level entities)와 \r\nCS 수준 요소(CS-level entities)"
+  },
+  {
+    "pdf_page": 19,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 14 -\r\nŸ 온톨로지 형식의 SoS 개발을 위한 메타모델(M2SoS) 정의\r\n그림 16. SoS 개발을 위한 메타모델"
+  },
+  {
+    "pdf_page": 20,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 15 -\r\n­M2SoS를 기반으로 한 불확정성 분석 및 사례 기반 SoS 모델링 연구 개\r\n요에 따라 연구 진행\r\n그림 17. M2SoS를 기반으로 한 불확정성 분석 및 사례 기반 SoS \r\n모델링 ­불확정성의 정의 및 불확정성 모델링 기법 조사\r\nŸ 불확정성의 정의 및 불확정성을 발생시키는 원인 조사\r\n불확정성 관련 연구 불확정성 정의\r\nObject Management \r\nGroup (OMG) Ÿ 확신의 부족(lack of confidence) Ÿ 지식의 부족(lack of knowledge)\r\nSaroj Koul1) Ÿ 지식의 부재(absence of knowledge) Ÿ 불충분한 정보(inadequate information) Ÿ 완전한 결정성의 도달 불가능한 \r\n상태로부터의 시작선\r\nvan Asselt2) Ÿ 지식의 부족(lack of knowledge)\r\n표 26. 관련 연구에서 정의한 불확정성(uncertainty)\r\n불확절성의 원인 발생 가능한 불확정성\r\n가변성\r\n(variability)\r\nŸ 자연에 내재되어 있는 무작위성(inherent \r\nrandomness of nature) Ÿ 값의 다양성(value diversity) Ÿ 인간 행동의 비결정성(nondeterminism of \r\nhuman behavior) Ÿ 사회적 무작위성 및 기술적 \r\n무작위성(societal randomness and \r\ntechnological randomness)\r\n지식의 부족\r\n(lack of \r\nknowledge)\r\nŸ 시스템 비신뢰성(unreliability) Ÿ 시스템의 구조적 불확실성(structural \r\nuncertainty)\r\n표 27. 불확정성을 발생시키는 시스템의 내재적인 원인 분석\r\nŸ 불확정성 모델링 기법 조사: Object Management Group (OMG)의 \r\n가상물리시스템(Cyber-Physical System, CPS) 불확실성 모델링"
+  },
+  {
+    "pdf_page": 21,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 16 -\r\n1) Saroj Koul et al., “System Dynamics, Uncertainty and Hydrocarbon Resources Modelling: A Systematic Review,” \r\nRenewable and Sustainable Energy Reviews, 2016.\r\n2) van Asselt, M. (2000). Perspectives on uncertainty and risk: the PRIMA approach to decision\r\nsupport. Kluwer Academic : Dordrecht. 1, 2, 3, 4, 5\r\n3) Figueira, J., S. Greco, and M. Ehrgott, “Multiple criteria decision analysis: state of the art surveys.” International \r\nSeries in Operations Research and Management Science. New York: Springer. 1045p. 6, 2005.\r\n4) Man Zhang, Shaukat Ali, Tao Yue, “Uncertainty Modeling Framework for the Integration Level V.4,” Simula \r\nResearch Laboratory, Technical Report 2016-01, 2017.\r\n(Uncertainty Modeling) 연구\r\nü Belief model: 불확정성을 다루기 위해 지식의 개념에서 벗어나 \r\n믿음(Belief) 요소를 정의하고, 이와 관련있는 에이전트\r\n(BeliefAgent), 증거(Evidence), 주제(Topic)와의 관계를 정의\r\n그림 18. Belief model (Uncertainty Modeling by OMG)\r\nTopic § 믿음(belief)의 대상이 되는 객관적인 \r\n현상(phenomenon) 혹은 개념(concept)\r\nEvidence § 믿음(belief)을 정당화 하는데에 사용되는 \r\n객관적인 정보\r\nBeliefAgent § 본인이 갖고 있는 하나 혹은 그 이상의 \r\n믿음(belief)을 행동하거나 추론할 수 있는 \r\n개인, 그룹, 혹은 매커니즘\r\nBelief § BeliefAgent가 소유한 암시적이거나 명시적인 \r\n의견 혹은 신념\r\nBelief\r\nStatement § 믿음(belief)의 명시적인 작성(formulation) (예. 자연 언어, 수학적 표현, 바이너리 코드 등)\r\n표 28. Belief model의 구성 요소\r\nü Uncertainty model: 특정 믿음 진술(Belief Statement)에 대한 불\r\n확정성을 정의하고, 불확정성 요소를 표현하기 위한 원인\r\n(Indeterminacy Source)과 불확정성의 측정(Uncertainty Measure) \r\n요소와의 관계를 표현"
+  },
+  {
+    "pdf_page": 22,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 17 -\r\n그림 19. Uncertainty model\r\nUncertainty\r\n§ BeliefAgent가 BeliefStatement의 \r\n정확성(진실성)에 대한 확신 부족(lack of \r\nconfidence)\r\nUncertainty\r\nMeasure\r\n§ BeliefAgent에 의해 명시적으로 명세된 정성적 \r\n혹은 정량적 표현이며, BeliefStatement에 대한 \r\nUncertainty 정도를 표현\r\nIndeterminacy\r\nSource\r\n§ BeliefStatement의 Uncertainty를 제공한 \r\n직접적 원인\r\nUncertainty\r\nType\r\n§ IndeterminacySource에 기반한 Uncertainty의 \r\n속성 묘사\r\n표 29. Uncertainty model의 구성 요소\r\n­개선된 M2SoS가 포함하고 있는 모델링 대상 컴포넌트 중, 불확정성을 \r\n갖는 환경 요소 분석\r\nŸ 다중손상사고(Mass Casualty Incident, MCI) 사례 기반 M2SoS 내의 \r\n불확정성을 포함한 환경 요소 분석\r\nü MCI 관련 문헌 분석(30편 이상의 공개 문서, 논문 참조)을 통해 \r\n확인한 불확정성을 가질 수 있는 환경 요소 도출"
+  },
+  {
+    "pdf_page": 23,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 18 -\r\n그림 20. 다중손상사고(MCI) 문헌 분석을 통해 확인한 환경 요소\r\nü 사례 기반 M2SoS의 불확정성 환경 요소 도출 및 분석\r\n그림 21. MCI 문헌 조사를 바탕으로 얻은 환경 요소의 M2SoS 내 정의\r\n❍ 불확정성(uncertainty)을 갖는 소프트웨어 환경 모델링 기법 조사 \r\n및 SoS 사례 기반 모델링\r\n­소프트웨어 모델링 기법이 적용될 수 있는 실제 SoS 사례를 기준으로 \r\n불확정성을 갖는 환경 요소 분석\r\nŸ 소프트웨어 시스템 컨텍스트(software system context)에 대한 정의: \r\n시스템 외부에서 대상 시스템에게 영향을 미치거나 서로 상호작용"
+  },
+  {
+    "pdf_page": 24,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 19 -\r\n할 수 있는 환경 요소\r\nŸ 유사 시스템(퍼베이시브 컴퓨팅, pervasive computing) 분야에서 분\r\n석한 컨텍스트 정보의 특성\r\nü 컨텍스트 정보가 포함하고 있는 시간 범위 속성\r\nü 컨텍스트 정보의 불완전성\r\nü 다양한 컨텍스트 정보의 표현 방법 및 가능성\r\nü 컨텍스트 요소 간 밀접한 상호 연관성(interrelation) Ÿ 소프트웨어 시스템 컨텍스트 모델링 기법 조사(1/2): 기존 개발된 \r\n기법의 개요 및 활용성 분석\r\nü Context Model (Henricksen, 2002): 모바일 컴퓨팅, 퍼베이시브 \r\n컴퓨팅, 사물 인터넷, 에이전트 기반 시스템 등 다양한 연구 분\r\n야에서 활용 가능한 기술이며, 컨텍스트 정보(context \r\ninformation)를 요소(entity)의 집합과 속성(attribute)을 정의함으\r\n로써 모델링을 수행. 컨텍스트 요소 간 관계(association)와 컨텍\r\n스트 퀄리티(context quality)를 정의함으로써 표현력을 확장함. ü 키-값 모델(Key-value Model): 환경에 존재하는 데이터 구조를 \r\n정의하기 위해 키와 값의 쌍을 이용한 모델링 기법이며, 서비스\r\n의 상호운용성(interoperability)을 위한 컨텍스트 분석에 사용됨. Context Ontology Language (CoOL)는 키-값 모델링 기법에 기반\r\n해 개발된 XML 컨텍스트 명세 언어이며, 다양한 시스템 분야의 \r\n기본적인 컨텍스트 요소 모델링이 가능함. ü 객체-기반(Object-Based/Oriented) 그래픽 모델: 시스템의 환경 \r\n및 컨텍스트 요소(개체)는 객체와 동일하게 속성(attribute)과 기\r\n능(operation)으로 표현할 수 있으며, 다른 요소와 상호작용 하는 \r\n특성을 갖는다는 것에 근거하여 활용됨. 객체 기반 기법의 은닉\r\n화(encapsulation)을 통해 환경 요소 정보를 선택적으로 표현하고, 도메인 모델링 결과 등을 재사용(reuse)할 수 있음. Unified \r\nModeling Language (UML), System Modeling Language (SysML), \r\nPetri Net, Object-Role Modeling (ORM) 등의 기법이 존재하며, 각 모델링 언어들은 불확정성을 표현하기 위한 확장(extension)이 \r\n다수 이루어짐. ü 시스템 다이나믹스(System Dynamics, SD): 복잡한 시스템의 비선\r\n형적 행동을 이해하기 위한 모델링 및 시뮬레이션 기법이며, 분\r\n석 결과를 통해 시스템 개발자의 의사 결정과 정책 향상을 위해 \r\n활용됨. SD는 소프트웨어 시스템 뿐만 아니라 다양한 물리적 환"
+  },
+  {
+    "pdf_page": 25,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 20 -\r\n경 요소, 사회적/경제적 현상을 예측하고 관찰하기 위해서도 사\r\n용됨. 관련 연구로는 SD를 활용해 실제 자연 환경(환경 시스템) \r\n상에 존재하는 비선형적 행동을 모델링하고, 행동 패턴을 분석하\r\n고 시뮬레이션하기도 함. Ÿ 소프트웨어 시스템 컨텍스트 모델링 기법 조사(2/2): 컨텍스트 불확\r\n정성 모델링 및 검증 가능성 분석\r\n환경/컨텍스트 \r\n모델링 기법 불확정성 모델링 및 검증 가능성 분석\r\n컨텍스트 모델\r\n(Context Model)\r\nŸ 컨텍스트 퀄리티(context quality)를 정의하고, 각 \r\n퀄리티 요소에 대해 퀄리티 파라미터(quality \r\nparameter)와 퀄리티 측정법(metric)을 정의\r\nŸ 컨텍스트 퀄리티 측정법을 확률로 정의함으로써 \r\n정보에 대한 신뢰성을 평가\r\nŸ 하지만, SoS의 전체적인 컨텍스트 요소와 \r\n속성값이 포함하고 있는 불확실성 및 불확정성에 \r\n대해서는 명시적으로 표현하는 데에는 한계가 \r\n존재\r\n키-값 모델\r\n(Key-Value Model)\r\nŸ 컨텍스트 정보에 대한 확실성의 정도(degree of \r\ncertainty)를 정의함으로써 센서에서 얻은 \r\n데이터가 갖는 불확정성을 제한적으로 표현\r\nŸ 컨텍스트 정보를 정의하는 과정에서 가질 수 \r\n있는 불확정성에 대해서는 표현력에 한계가 \r\n존재함. 그 이유는, 여러 구성 시스템(에이전트 \r\n등)이 하나의 큰 시스템을 이루는 MAS, SoS, \r\nIoT와 같은 시스템의 운용 환경에서 상위 수준의 \r\n불확정성을 다루기에는 한계가 존재\r\nŸ SoS 수준의 환경이 갖는 불확정성은 단일 \r\n센서들의 확실성 정도 수준으로 표현 불가능\r\n객체 기반 그래픽 \r\n모델\r\n(Object-based \r\nGraphical Model)\r\nŸ UML 및 SysML에서 사용하는 상태 기반 \r\n모델(state-based model) 및 활동 모델(activity \r\nmodel)에 비결정성 및 확률적 요소를 포함하여 \r\n확장이 이루어짐\r\nŸ 객체-역할 모델(Object-Role Model, ORM)은 사실 \r\n요소에 근거한 모델링을 수행하여, 사실 타입과 \r\n역할을 분석하고 표현함. 하지만, ORM은 \r\n동적으로 행동하는 환경 내의 요소를 모델링하는 \r\n목적보다, 환경 내에 존재하는 요소와 역할을 \r\n정의함으로써 도메인 모델링하는 목적으로 \r\n활용됨\r\nŸ 객체와 객체 사이의 관계 표현 시 확률적 요소를 \r\n추가함으로써 불확정성을 단순하게 표현할 수 \r\n있음\r\n시스템 다이나믹스\r\n(System Dynamics)\r\nŸ SD 자체적으로는 불확정성 및 비결정성을 포함한 \r\n행동을 표현하는 데에 한계가 있음\r\nŸ SD를 타 기술과 접목하여 불확정성 표현력을 \r\n향상시키고자 하는 몇 연구가 진행되고 있는데, 모델링되는 파라미터와 구조의 변화 가능성을 \r\n표 30. 조사한 컨텍스트 모델링 기법의 불확정성 모델링 및 검증 가능성"
+  },
+  {
+    "pdf_page": 26,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 21 -\r\n포함시키거나 다변수 민감도 분석(multivariate \r\nsensitivity analysis), 정성적 평가(qualitative \r\nanalysis) 등을 수행함으로써 불확정성을 파악하고 \r\n분석함\r\nŸ 또 다른 연구에서는 SD를 다중 기준 결정 \r\n분석3)(Multiple Criteria Decision Analysis, MCDA), \r\n다중 목표 분석(Multi-objective Analysis), 탐색 \r\n모델링(Exploratory Modeling) 기법과 결합하기도 \r\n함\r\n[세부연구1-2]\r\n불확정성을 \r\n갖는 SoS \r\n요소 시스템 \r\n행위 모델링 \r\n기법 개발\r\n❍ SoS 개발을 위한 메타 모델 기반의 불확정성을 갖는 시스템 행위 \r\n요소 도출\r\n­2차년도 연구 결과 중 SoS 개발을 위한 메타 모델로 정의한 M2SoS \r\n(Meta-model for SoS)가 포함하고 있는 모델링 대상 컴포넌트 중, 불확\r\n정성을 갖는 시스템 요소 분석\r\nŸ M2SoS에서 정의한 SoS 수준 시스템 행위 요소 분석\r\n그림 22. M2SoS에서 정의한 SoS 수준 행위 요소\r\nŸ M2SoS에서 정의한 CS 수준 시스템 행위 요소 분석\r\n그림 23. M2SoS 내에 정의된 CS 수준의 요소 ­M2SoS를 기반으로 유사 시스템(MAS 등)과 SoS의 요소 시스템 행위 모\r\n델링 및 검증 가능성 분석\r\nŸ 메타모델 기반 MAS 모델링 기법 분석을 통해 M2SoS를 정의하였으\r\n며, MAS의 주요 특성 뿐만 아니라 SoS 특징적인(SoS-specific) 특징"
+  },
+  {
+    "pdf_page": 27,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 22 -\r\n을 포괄할 수 있도록 정의함\r\nŸ MAS 연구 분야의 가장 기초가 되었던 두 가지 메타모델 기반의 모\r\n델링 방법론 연구를 조사함\r\n시스템 \r\n구성 요소\r\nMAS methodology Metamodel-for SoS\r\nGaia O-MaSE (M2SoS)\r\n컴포넌트 \r\n시스템 - Agent (Organizational Agent) - Constituent System\r\n컴포넌트 \r\n시스템 \r\n요소\r\n- Role\r\n- AgentType - Role - CS-level Role\r\n× × - CS-level Goal - Service\r\n- Activity\r\n- Action\r\n- Responsibility\r\n- Permission\r\n- Action - CS-level Service\r\n× - Capability - CS-level Capability\r\n× × - CS-level Interface\r\n- Permission - Plan\r\n- Action\r\n- CS-level Decision Making \r\nMechanism\r\n× × - CS-level Stakeholder\r\n× - Domain Model - CS-level Domain\r\n× × - CS-level Lifecycle\r\n- Environment - Environment \r\nObject - Environment \r\nProperty\r\n- CS-level Environment\r\n상위 수준 \r\n시스템\r\n- Multi-agent System (MAS) - System-of-Systems (SoS) - Organization ×\r\n시스템 \r\n조직\r\n- Organizational \r\nRule\r\n- Organizational \r\nStructure\r\n- Organization (SoS-level Infrastructure)\r\n상위 수준 \r\n시스템 \r\n인프라\r\n× × SoS-level Infrastructure\r\n상위 수준 \r\n시스템 \r\n행위\r\n× ×\r\n- SoS-level Service\r\nŸ SoS-level Behaviors Ÿ SoS-level \r\nCommunications\r\n상위 수준 \r\n시스템 \r\n통신\r\n- Communication\r\n- Protocol\r\n- Proocol - Internet \r\nProtocol & \r\nMessage\r\n- External \r\nProtocol\r\n- SoS-level Communication\r\n상위 \r\n시스템 \r\n관리자\r\n× - (Actor) - SoS-level \r\nManaging/Engineering Team\r\n상위 수준 \r\n시스템 \r\n목표\r\n× - Goal\r\n- SoS-level Goal Ÿ (based on) SoS-level \r\nTarget Problem\r\nŸ (based on) SoS-level \r\nRequirements\r\n시스템 × - Policy - SoS-level Policy"
+  },
+  {
+    "pdf_page": 28,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 23 -\r\n❍ 불확정성(uncertainty)을 갖는 소프트웨어 시스템 모델링 기법 조\r\n사 및 SoS 사례 기반 모델링\r\n­소프트웨어 시스템 행위 모델링 기법 조사\r\nŸ 소프트웨어 시스템 행위 모델링 기법 조사(1/2): 기존 개발된 기법\r\n의 개요 및 모델링 방법론 조사\r\nü Gaia 방법론(Gaia Methodology, 2000, 2003) 조사: 다중 에이전트 \r\n시스템 연구의 기본이 된 메타모델 기반의 방법론 연구이며, Gaia v1과 확장된 버전의 Gaia v2가 제안되었음. Gaia는 에이전\r\n트로 이루어진 시스템 조직(organization)을 분석 및 설계하기 위\r\n한 모델링 방법을 설명하며, 역할 모델(Role Model), 상호작용 모\r\n델(Interaction Model), 조직 규칙 모델(Organizational Rules), 조직 \r\n구조 모델(Organizational Structure), 에이전트 모델(Agent Model), \r\n서비스 모델(Services Model)을 제안함. ü MAPE-K 기반 제어 루프(control loop) 모델링 연구: IBM에 의해 \r\n처음 제안된 MAPE-K는 모니터링(Monitor), 분석(Analyze), 계획\r\n(Plan), 실행(Execute)을 따라 실행되는 제어 루프이며, 각 단계의 \r\n프로세싱 과정에서 지식(Knowledge) 저장소에 접근이 가능하기 \r\n때문에 MAPE-K라는 이름이 붙음. 에이전트 기반의 시스템이 행\r\n동을 결정하고 수행하는 단계를 네 단계로 구분하여 설명하고 \r\n있으며, 첫 단계인 모니터링 단계에서는 자원 및 환경 정보를 수\r\n집하고 분석해야 할 데이터를 통합시키고 상관관계를 분석하며 \r\n필터링함. 두 번째 분석 단계에서는 수집된 데이터를 분석하고, 데이터로부터 의미있는 현상을 추론해 내며 이 때 지식(K) 데이\r\n정책\r\n상위 수준 \r\n시스템 \r\n도메인\r\n× × - SoS-level Domain\r\n상위 수준 \r\n시스템 \r\n환경\r\n× ×\r\n- SoS-level Environment Ÿ SoS-level Resource\r\nŸ SoS-level Society\r\nŸ SoS-level Physical \r\nEnvironment\r\n상위 수준 \r\n시스템 \r\n관리\r\n× ×\r\n- CS Management - Resource Management - Planning\r\n- Dynamic Management - Risk Management - Verification and Validation\r\n- Monitoring\r\n시스템 \r\n위험 × ×\r\n- SoS-level Risk\r\n- SoS-level Hazards"
+  },
+  {
+    "pdf_page": 29,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 24 -\r\n터를 활용함. 계획 단계에서는 분석 단계의 결과를 바탕으로 본\r\n인의 목적을 달성하기 위한 행동(action)을 계획하며, 이를 위해 \r\n특정 절차(procedure)를 생성하거나 선택함. 마지막 실행 단계에\r\n서는 계획 단계에서 결정한 행동을 실행기(effector)를 통해 실제\r\n로 실행시키는 단계이며, 특정 자원에 대해 처리할 행동을 변경\r\n하는 등의 기능을 수행함. ü CPS Uncertainty Modeling Framework4): 본 연구는 OMG의 UM \r\n연구에 근거하여 U-Model을 구현한 가상물리시스템(CPS)을 위한 \r\n불확정성 모델링 프레임워크이다. U-Model은 UML profile (UML \r\nUncertainty Profile, UUP)을 이용하여 구현되며, 개발된 profile은 \r\n(a) Belief Profile, (b) Uncertainty Profile, (c) \r\nIndeterminacySource Profile, (d) Measurement Profile을 포함한\r\n다. 그리고 이러한 불확정성을 어플리케이션 수준(application \r\nlevel), 인프라 수준(infrastructure level), 통합 수준(integration \r\nlevel)에서 분석하고 모델링 할 수 있는 프레임워크를 제공한다. 즉, 불확정성을 세 가지 수준의 행동(어플리케이션 행동, 통합환\r\n경 행동, 인프라 수준 행동)으로 모델링하고 분석한다.\r\n그림 24. OMG의 Uncertainty Modeling Framework (UMF) Ÿ 소프트웨어 시스템 행위 모델링 기법 조사(2/2): 컨텍스트 불확정성 \r\n모델링 및 검증 가능성 분석\r\n시스템 행위\r\n모델링 기법 불확정성 모델링 및 검증 가능성 분석\r\nUncertainty Modeling \r\nFramework (UMF) &\r\nUML Uncertainty \r\nProfile (UUP) \r\nŸ 전반적으로 가상-물리 시스템(Cyber Physical \r\nSystem, CPS)의 세 가지 수준을 모두 포괄한 \r\n불확정성 모델링을 지원하는 연구를 진행함. 따라서 \r\n시스템 행위 상에 존재하는 불확정성 뿐만 아니라, \r\n표 32. 조사한 행위 모델링 기법의 불확정성 모델링 및 검증 가능성"
+  },
+  {
+    "pdf_page": 30,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 25 -\r\n­기존 소프트웨어 모델링 기법을 SoS의 불확정성 요소의 모델링에 적용\r\n해 본 결과를 바탕으로, 기존 기법의 불확정성 모델링 능력의 한계점을 \r\n분석하고 SoS 모델링 기법의 요구사항 도출\r\nŸ 불확정성 분석 단계 1: SoS 요구 공학 및 분석 단계(requirements \r\nengineering & analysis phase)에서의 불확정성 분석\r\nü 목표 및 요구사항의 유동성으로 인한 불확정성: 각 구성 시스템\r\n의 협업을 통해 달성하고자 하는 상위 수준의 목표(goal)와 요구\r\n사항(requirements)이 진화함. 분석 단계에서 목표와 요구사항의 \r\n변화 범위 및 대상을 명세하여, 런타임에서 변화가 요구될 경우 \r\n적응(adaptation)이 가능해야 함\r\nü 이해관계자 커뮤니티의 불확정성: SoS 개발 시 CS들의 관리적 독\r\n립성으로 인해 목표(goal), 정책(policy), 규칙(rule) 등을 정의하는 \r\n과정에서 불확정성이 존재하기 때문에 하향식(top-down) 접근을 \r\n활용하기 어려움. 또한 런타임에 CS 집합의 변화로 인해 이해관\r\n계자들 간 관계(협력 및 분리) 역시 동적으로 변화가 가능함\r\nü 기술적 불확정성: 이종의(heterogeneous) CS들로 구성된 SoS는 \r\nby OMG\r\n인프라 및 통합 수준에서의 불확정성도 다루기 위한 \r\n목적의 모델링 방법론을 설명하고 있음. 각 \r\n단계에서의 불확정성 모델링 기법은 다음과 같음: ·어플리케이션 수준(application-level) 불확정성: \r\n개발될 어플리케이션 수준의 클래스 다이어그램과 \r\n상태 기계 모델을 생성한 후, UUP 표기법(UML \r\nUncertainty Profile notation)을 적용함\r\n·인프라 수준(infrastructure-level) 불확정성: 개발될 \r\n인프라 수준의 클래스 다이어그램과 상태 기계 \r\n모델을 생성한 후 UUP 표기법을 적용하여 \r\n불확정성을 표현함\r\n·통합 수준(integration-level) 불확정성: \r\n어플리케이션과 인프라 사이의 상호작용을 포함한 \r\n통합 수준의 클래스 다이어그램을과 상태 기계 \r\n모댈을 생성한 후 UUP를 적용함 (필수적인 \r\n단계는 아님) ·UUP를 적용하기 위해서는 믿음 요소(belief \r\nelement)를 상태 기계 모델의 개체에 적용하고, 믿음 요소의 일부 속성을 명세함. 선택적으로 \r\n믿음 에이전트(belief agent)를 모델 한 후 믿음 \r\n정도(belief degree)를 모델링함. 이렇게 모델링 된 \r\n믿음 요소의 불확정성 모델을 생성함\r\nŸ 더불어 불확정성 측정(measurement)을 명세하기 \r\n위해서 측정 패키지를 생성한 후, 선택적으로 그에 \r\n대한 증거(evidence)를 명세함. 이후 \r\n측정법(measure)와 측정(measurement) 모델을 \r\n생성함"
+  },
+  {
+    "pdf_page": 31,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 26 -\r\n일반적으로 단일 기술로 구현되지 않으며 각 기술은 진화하는 \r\n특성을 가지므로 SoS 내부 상호운용성을 고려한 기술적 요소의 \r\n불확정성 분석이 요구됨\r\nü CS 개발 정보 획득의 한계로 인한 불확정성: SoS 구성 시 CS 수\r\n준 요소들에 대한 정보가 부족한 상황으로 인해 SoS 설계시 필\r\n요한 구체적인 기능, 설계, 구현 방식 및 기술에 대한 불확정성\r\n이 존재할 수 있음. SoS의 상호운용성 및 상위 수준 목표 달성을 \r\n위한 서비스를 제공하기 위해 아키텍쳐 기반 분석\r\n(architecture-based analysis)이 요구됨\r\nü 시스템 장애(system failure) 발생의 불확정성: SoS의 운용 중 서\r\n비스를 제공하는 과정에서 시스템 결함으로 인한 장애 발생이 \r\n가능하며, 이는 구체적인 정보가 없는 내부의 CS 혹은 외부 환\r\n경에 의존적임. 이러한 문제를 해결하고자 결함 모델링(fault \r\nmodeling) 기법을 활용하여 SoS 운용 중 발생/발견 가능한 결함\r\n(fault), 오류(error), 장애/실패(failure) 간 관계를 정의한 결함 전\r\n파(fault propagation) 분석이 필요함\r\nü 실행 중 환경(runtime environment)의 불확정성: SoS가 상황 인\r\n식(context-aware) 시스템으로서 동작하기 위해 운용 환경 및 컨\r\n텍스트를 하나의 시스템으로 인식하고 환경 시스템이 갖는 불확\r\n정성을 분석할 수 있어야 함. 동시에 시스템 장애 발생이 가능한 \r\n상황을 시나리오로 모델링하여 시뮬레이션 등에 활용할 수 있도\r\n록 사전 분석이 필요함\r\nŸ 불확정성 분석 단계 2: SoS 시스템 설계 단계(system design phase)\r\n에서의 불확정성 분석\r\nü SoS 수준 아키텍쳐의 불확정성: 단일 시스템과 다르게, SoS는 구\r\n성 시스템의 행동/상태, 시스템 간 상호작용, 시스템과 환경 사\r\n이의 상호작용에 따라 SoS 수준 아키텍쳐가 결정됨. 그렇기 때문\r\n에 불확정성을 내포하고 있는 상위 수준 아키텍쳐를 유연하게 \r\n설계하여 운용 중 실제 시스템이 적절한 아키텍쳐를 선택할 수 \r\n있어야 함\r\nü 런타임 데이터(runtime data)의 불확정성: SoS 설계 단계에서는 \r\nSoS가 런타임에서 서비스를 제공하는 동안 일어날 수 있는 실행 \r\n중 시스템에 대한 정보와 데이터에 대해 불확정성을 가짐. 설계 \r\n단계에서는 런타임에 변할 수 있는 데이터 요소를 일정 범위 값\r\n으로 정의하여 시뮬레이션 및 검증에 활용할 수 있어야 함. 앞 "
+  },
+  {
+    "pdf_page": 32,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 27 -\r\n분석 단계에서의 도메인 분석을 통해 발생 가능한 데이터의 종\r\n류와 값에 대한 통계적 지식을 바탕으로 런타임 데이터를 명세\r\n할 수 있어야 함\r\nü 환경 및 컨텍스트의 불확정성: SoS 수준 환경은 설계 단계에서 \r\n각 시스템 요소가 가장 중요하게 고려해야 할 요소이며, 동시에 \r\n가장 높은 불확정성을 가짐. 상황 인식 시스템을 개발하기 위해 \r\n적응 함수(adaptive function)를 올바르게 구현하기 위해서는 입\r\n력으로 주어질 환경 및 컨텍스트에 대한 철저한 설계가 필요함\r\n­소프트웨어 시스템 행위 요소 불확정성 모델링 \r\nŸ OMG의 Uncertainty Modeling (UM) 기법에 근거하여 MCI 사례 시나\r\n리오의 불확정성 모델링\r\nŸ 구성 시스템의 독립적인 행동 결정 매커니즘 모델링 기법 개발: \r\nAction-Benefit-Cost (ABC) Modeling\r\nü ABC 모델링의 기본 아이디어: SoS 수준 관리자는 CS의 구체적\r\n인 의사 결정 매커니즘에 접근 권한이 없기 때문에, 상위 수준에\r\n서 CS의 자율적인 행동을 분석하기 위해서 행동(action), 이익\r\n(benefit), 비용(cost) 측면에서 분석할 수 있어야 함\r\nü 구성 시스템(CS) 및 구성 시스템의 행동(action) 정의:\r\nCS = a set of observable Actions\r\nAction ai = (bi, ci, sbi)\r\nsb: social benefit\r\nü 이전 버전의 ABC 모델링이 갖는 가정 및 한계점\r\n·ABC 정보는 도메인 전문가(domain expert)에 의해 결정되며, 실행 도중 고정되어 있음: CS는 단순한 기능과 같이 동작하\r\n며 결정적(determinism) 행동을 보임. 또한 이로 인해 CS가 동\r\n적 환경에 대해 자율적으로 적응하는 과정에서 이익과 비용\r\n을 수정할 수 없음\r\n·CS 모델 간 통신을 모델링할 수 없음: 모든 상호 작용이 사\r\n전에 평가되어 행동, 이익, 비용으로 사전에 표현되는 것을 \r\n가정함으로써 CS들 간 통신을 표현하는 데에 한계가 존재하\r\n며 비결정적인 행동을 사전에 예측해야 한다는 단점이 존재\r\nü ABC+: SoS를 시뮬레이션하기 위해 SoS의 특성(CS의 자율성, SoS \r\n수준 상호운용성)과 CS의 상호 작용을 모델링하기 위한 기법\r\n·ABC+는 지식 기반(knowledge-based) 의사 결정 모델이며 동\r\n시에 메시지 기반(message-based) 상호작용 모델을 포함함"
+  },
+  {
+    "pdf_page": 33,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 28 -\r\nü ABC+는 다음과 같은 CS의 세 단계 행위를 모델링함\r\n지식 업데이트 단계\r\n(Knowledge Update) →\r\n비용-이익 분석 단계\r\n(Cost-Benefit \r\nAnalysis) →\r\n행동 선택 단계\r\n(Action Selection)\r\n환경 관찰/모니터링\r\n통신 및 상호작용\r\n지식을 기반으로 \r\n실행 가능 행동의 \r\n비용/이익 수정\r\n수행할 행동(기능) \r\n선택\r\nü ABC+는 다음과 같이 CS 간 상호작용을 모델링함\r\n·ABC+ 모델의 상호작용: SoS의 운용 중(시뮬레이션 중) CS 간 \r\n각자의 지식(knowledge)를 메시지 기반으로 교환하는 과정이\r\n며, 주고받은 메시지를 바탕으로 각자의 지식(K) 저장소를 업\r\n데이트하고 의사를 결정\r\n·메시지 컴포넌트(message components)의 정의\r\n메시지 요소 설명\r\nIdentification 송신자(sender) 혹은 수신자(receiver)\r\nLocation 수신자에 해당하는 위치\r\nPurposes 요청, 데이터 전송 등의 메시지 전송 목적\r\nData 메시지가 주고받는 실제 정보\r\nBenefit/Cost 요청에 따른 보상(reward) 혹은 불이익(penalty)\r\nTimestamp 메시지가 만들어지고 보내는 시간 정보\r\nü MCI 대응 SoS 시나리오 기반의 ABC+ 의사 결정 모델링\r\n·지식 업데이트 단계: 건물 내에 구조를 필요로 하는 환자를 \r\n관찰하고 다른 환자 구조 CS (본 예제에서는 firefighter)과 정\r\n보를 공유하여 환경 정보를 획득\r\n·비용-이익 분석 단계: CS의 내부 지식을 바탕으로 CS의 행동\r\n을 위한 이익 및 행동 정보를 업데이트"
+  },
+  {
+    "pdf_page": 34,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 29 -\r\n·행동 선택 단계: CS 본인의 비용-이익 분석에 근거한 효용 \r\n함수(utility function)를 이용해 가능한 행동들의 효용(utility)을 \r\n계산하고 최선의 행동을 결정 및 선택\r\nü MCI 대응 SoS 시나리오 기반의 ABC+ 상호작용 모델링\r\nü 네 가지 SoS 타입에 대한 CS 상호작용 유형 분석\r\nVirtual Collaborative Acknowledged Directed\r\n명시적인 \r\n상호작용 및 \r\n메시지 전송이 \r\n없음\r\nCS 간 메시지 \r\n전송은 있으나 \r\nSoS 관리자가 \r\n존재하지 않음\r\nCS 간 메시지 \r\n전송도 존재하며, SoS 관리자와의 \r\n상호작용이 \r\n존재함\r\nSoS 관리자의 \r\n메시지에 의해 \r\nCS의 행동이 \r\n직접적으로 \r\n결정됨\r\nü ABC+ 모델링 기법을 바탕으로 세부연구2의 통계적 검증 도구\r\n(SIMVA-SoS)의 시뮬레이션 가능 SoS 모델을 만들고 시뮬레이션\r\n을 진행: [세부연구 2-3] 참조\r\n[세부연구1-3]\r\n불확정성을 \r\n포함한 \r\n정책기반 SoS \r\n목표 명세 \r\n❍ 사례 기반의 SoS 모델링 결과를 바탕으로 기존 목표 명세 기법 \r\n적용 및 불확정성 표현 능력 분석\r\n­SoS 수준 정책(SoS-level Policy)의 필요성 분석 \r\nŸ CS들의 다양성(diversity), 독립성(independence), 자율성(autonomy)으\r\n로 인해 SoS 수준 목표를 달성할 수 있도록 CS를 관리하고 행동에 "
+  },
+  {
+    "pdf_page": 35,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 30 -\r\n기법 보완\r\n제약을 주기 위한 상위 수준 정책 필요\r\nŸ 불확정성을 포함하는 SoS의 요구사항 및 환경의 변화로 시스템의 \r\n진화(evolution)가 발생하면서, SoS의 지속적 개발 및 운영 중 효과\r\n적인 정책 관리 기법이 필요\r\n그림 34 CS의 자율성으로 나타날 수 있는 상황 ­SoS 정책(SoS Policy) 정의 및 정책 모델링\r\nŸ SoS 정책을 통해 SoS 관리자는 CS가 어떤 상황에 어떤 행동을 하거\r\n나 하지 말아야 할지 권고함. 각 정책은 환경 속성에 근거한 행동 \r\n지침인 조건과 조건에 따라 취해야 할 행동으로 정의되며, CS는 정\r\n책 순응도(compliance value)에 따라 SoS 수준 정책을 따르는 정도\r\n를 표현\r\nŸ CS의 자율성을 고려하여 조건과 행동을 포함할 수 있도록 (a)행동 \r\n지침 정책(Action policy)과 순응도 지침 정책(Compliance policy)을 \r\n모델링(아래 그림 및 표 참조)\r\n그림 35. 행동 지침 정책(Action policy) 모델\r\n그림 36. 순응도 지침 정책 (Compliance Policy) 모델\r\n정책 정의 요소 의미 및 입력값\r\nCondition\r\nSoS 작동환경에서 관찰 가능한 CS공통 환경변수 \r\n(global) 또는 CS영역 내 환경변수(local) 집합. 값은 \r\n변수의 도메인에 따라 다양한 값을 가짐\r\nex)’MCI단계‘라는 조건은 CS공통 환경변수이며, 값의 범위는 {1, 2, 3, 4, 5}\r\nRole SoS 수준 목표를 기반으로 나눠진 CS들의 역할\r\nAction 역할을 기반으로 CS가 실제 시행할 수 있는 행동\r\nEnforce\r\nDirected 또는 Acknowledged SoS에게 정책 전달 시 \r\n사용하는 구분자이며, 값은 True 또는 False\r\nex) Enforce = True (Directed SoS Policy)\r\nex) Enforce = False (Acknowledged SoS Policy)\r\nMin. compliance 관리자가 CS에게 요구하는 최소 순응도 값. 범위는 \r\n(0.0, 1.0] 이며 0.1 단위로 사용\r\n표 37. 정책 모델링을 위해 정의한 정책 구성 요소 "
+  },
+  {
+    "pdf_page": 36,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 31 -\r\n❍ 불확정성을 갖는 SoS의 운용 환경에 따른 진화적 개발\r\n(evolutionary development) 방법론 개발\r\n­탐색 기반 기법을 활용한 진화적 대응 방법론 개발\r\nŸ 군집 기반(population-based) 문제 해결법을 사용하고, 유전 알고리\r\n즘(genetic algorithm)을 활용해 정책 집합에 포함되어있는 정책을 \r\n변경하고 좋은 해를 찾을 때 까지 정책 조작 및 평가\r\nŸ 예제 시나리오를 활용해 SIMVA-SoS의 시뮬레이션 기반 통계적 검\r\n증 결과를 적합성 함수(fitness function)로 활용\r\nü 유전 알고리즘에서 생성된 정책 집합을 관찰하고자 하는 SoS 모\r\n델에 적용시켜 어떻게 동작하는지 시뮬레이션 트레이스를 사용\r\n해 통계적 검증 수행\r\nü 특정 시나리오에 기반해 명세된 SoS 목표(예. MCI 상황에서 총 \r\n사상자 중 70% 이상의 환자가 생존해야 한다)의 정량적 달성 정\r\n도를 산출해 정책 적합성 평가\r\n­SoS의 진화적 개발을 위한 탐색 기반 기법 정책 제안 기법의 프로토타\r\n입 도구 개발(아래 그림 참조) Ÿ 도구 입력\r\nü (이전 세대의) 정책 모델(Policy model, P)\r\nü 통계적 검증 속성 정의를 위한 SoS 수준 목표(Goal)\r\nü MCI 시나리오에 해당하는 실행(시뮬레이션) 가능 SoS 모델(SoS \r\nmodel, SoS4MCI)과 환경 모델(SoS Environment model) Ÿ 도구 내부 컴포넌트\r\nü 탐색기반 정책 모델 생성(Search-based policy model generation): \r\n입력받은 이전 세대의 정책 집합을 바탕으로 내부의 속성을 변\r\n형시켜 새로운 정책 집합을 생성함. 반복적으로 유전 알고리즘을 \r\n통해 정책을 변형시키고 시뮬레이션 기반의 통계적 검증 결과에 \r\n기반해 정책을 평가함\r\nü 시뮬레이터(Simulator): SoS의 실행 가능한 모델을 기반으로 앞서 \r\n생성한 정책 집합이 적용된 SoS의 행동을 관찰할 수 있도록 시\r\n뮬레이션을 수행함\r\nü 통계적 모델 체커(Statistical model checker): 시뮬레이터로부터 \r\n추출된 시뮬레이션 트레이스 값을 바탕으로 통계적 검증(SPRT)\r\n을 수행함. 검증을 위해 사용되는 검증 속성은 본 도구의 입력으\r\n로 주어진 목표로부터 정의되며, 해당 목표 달성률을 정량적으로 \r\n평가가 가능함."
+  },
+  {
+    "pdf_page": 37,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 32 -\r\nŸ 도구 출력\r\nü 제안된(업데이트된) 정책 모델(Policy model, P’)\r\n그림 37. SoS 진화적 개발을 위한 탐색기반 정책 제안 기법 도구의 \r\n구조\r\n[세부연구2-1]\r\nSoS 검증을 \r\n위한 목표 \r\n명세 유형 \r\n분류\r\n❍ SoS 검증 속성과 목표 명세 사이의 관계 분석\r\n­SoS 검증 속성 및 SoS 목표 명세 개요\r\n§ 목표 명세(goal specification)란, 시스템 혹은 소프트웨어를 통\r\n하여 달성하고자 하는 목표를 명확하게 작성한 것\r\n§ 검증 속성과 목표 명세는 서로 다른 목적으로 사용되나, SoS \r\n수준의 목표 달성 여부에 대한 정량적인 검증을 수행하고자 \r\n할 때 검증 속성과 목표 명세 사이의 관계를 찾아 볼 필요가 \r\n있음\r\n­SoS 검증 속성 분류\r\n대분류 중분류 세부유형\r\nOccurrence\r\nAbsence Absence\r\nUniversality Universality\r\nExistence Existence\r\nBounded Existence\r\nState Transient State Probability\r\nSteady State Probability\r\nDuration Minimum Duration\r\nMaximum Duration\r\nRecurrence Recurrence\r\nOrder\r\nPrecedence\r\nPrecedence\r\nPrecedence Chain 1-N\r\nPrecedence Chain N-1\r\nConstrained Precedence Chain 1-N\r\nConstrained Precedence Chain N-1\r\nResponse Response\r\n표 5. 검증 속성 유형 분류"
+  },
+  {
+    "pdf_page": 38,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 33 -\r\n­SoS 검증 속성과 목표 명세의 관계\r\n§ 자연어를 이용하여 하나 이상의 사건이 발생하는 시간관계를 \r\n고려할 수 있는 모든 경우의 수가 22가지로 제한됨\r\n§ 한편, SoS 목표 명세는 ‘~해야 한다’의 형식을 사용한다는 \r\n점에서 SoS 검증 속성과 다르지만, 자연어로 표현된다는 점에\r\n서 결국 22가지 분류를 적용할 수 있음\r\n§ 하나의 SoS 목표 명세가 하나의 SoS 검증 속성으로 변환될 수 \r\n있으며 결과적으로, SoS 검증 속성과 SoS 목표 명세 사이에는 \r\n1:1 대응 관계가 있음\r\n❍ SoS 검증을 위한 목표 명세 유형 수립\r\n­검증 속성 유형별 SoS 목표 명세 정의\r\n§ SoS 목표 명세 유형은 SoS 검증 속성 유형과 1:1 대응관계를 \r\n생각할 수 있음을 정리하으며, 이에 따라서 22가지 SoS 목표 \r\n명세 상세 유형을 생각할 수 있음\r\nResponse Chain 1-N\r\nResponse Chain N-1\r\nConstrained Response\r\nConstrained Response Chain 1-N\r\nConstrained Response Chain N-1\r\nResponse Invariance\r\nUntil Until\r\nSoS 목표 명세 유형 SoS 목표 명세 예시\r\nAbsence 사건 X가 절대로 일어나지 않아야 한다. Universality 상태 X가 항상 만족되어야 한다. Existence 사건 X가 발생해야 한다. Bounded Existence 사건 X가 Y시간 안에 발생해야 한다. Transient State \r\nProbability 상태 X에 Y시간동안 머무를 확률이 Z여아 한다. Steady State \r\nProbability\r\n상태 X에 오랜 시간동안 머무를 확률이 Y여야 \r\n한다. Minimum Duration 상태 X가 지속되는 최소 시간이 Y여야 한다. Maximum Duration 상태 X가 지속되는 최대 시간이 Y여야 한다. Recurrence 사건 X가 Y시간 간격으로 반복해서 발생해야 \r\n한다. Precedence 사건 X가 사건 Y 이전에 발생해야 한다. Precedence Chain 1-N 사건 X가 사건 Y1,...,Yn 이전에 발생해야 한다. Precedence Chain N-1 사건 X1,...,Xn이 사건 Y 이전에 발생해야 한다. Constrained \r\nPrecedence Chain 1-N\r\n사건 X가 사건 Y1,...,Yn보다 Z시간 이전에 \r\n발생해야 한다. Constrained \r\nPrecedence Chain N-1\r\n사건 X1,...,Xn이 사건 Y보다 Z시간 이전에 \r\n발생해야 한다.\r\n표 6. SoS 목표 명세 유형 및 예시"
+  },
+  {
+    "pdf_page": 39,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 34 -\r\nResponse 사건 X가 발생한다면 사건 Y 이전에 발생해야 \r\n한다. Response Chain 1-N 사건 X가 발생한다면 사건 Y1,...,Yn 이전에 \r\n발생해야 한다. Response Chain N-1 사건 X1,...,Xn이 발생한다면 사건 Y 이전에 \r\n발생해야 한다. Constrained Response 사건 X가 발생한다면 사건 Y보다 Z시간 이전에 \r\n발생해야 한다. Constrained Response \r\nChain 1-N\r\n사건 X가 발생한다면 사건 Y1,...,Yn보다 Z시간 \r\n이전에 발생해야 한다. Constrained Response \r\nChain N-1\r\n사건 X1,...,Xn이 발생한다면 사건 Y보다 Z시간 \r\n이전에 발생해야 한다. Response Invariance 사건 X가 발생한다면 사건 Y 이전에 발생하는 \r\n것이 반복되어야 한다. Until 사건 X가 발생한 이후 상태 Y가 지속되어야 \r\n한다.\r\n[세부연구2-2]\r\n통계적 검증 \r\n프로토타입 \r\n도구의 SoS 목표 \r\n명세 유형 \r\n커버리지 평가 \r\n및 개선사항 \r\n도출\r\n❍ SoS 통계적 검증 프로토타입 도구의 SoS 목표 유형 커버리지 분\r\n석\r\n­SoS 통계적 검증 프로토타입 도구 개요\r\n§ SoS 수준의 목표달성 여부를 정량적으로 검증할 수 있는 SoS \r\n통계적 검증 프로토타입 도구를 개발함\r\n§ SoS 통계적 검증 프로토타입 도구는 (1) 시뮬레이션 엔진, (2) \r\n검증 속성 체커(checker), (3) 통계적 가설 시험 모듈로 구성\r\n그림 38. SoS 통계적 검증 프로토타입 도구 개요 ­프로토타입 도구의 SoS 목표 유형 커버리지 분석\r\n§ 현재 개발된 SoS 시나리오는 Existence, Absence, Universality, \r\nTransient state probability, Steady state probability, Maximum \r\nduration, Minimum duration의 7가지 SoS 목표 명세 유형을 나\r\n타낼 수 있는 것으로 분석됨\r\n§ 체계적인 커버리지 분석 절차를 정의"
+  },
+  {
+    "pdf_page": 40,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 35 -\r\n절차 세부내용\r\n1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요\r\n한 파라미터를 입력한다. 3 시험하고자 하는 목표 명세 유형에 대하여 SoS 통계적 검증 \r\n프로토타입 도구를 실행한다. 4 프로토타입 도구의 검증 결과를 확인한다. 5\r\nSoS 시나리오에서 표현 가능한 7가지 목표 유형에 대하여 같\r\n은 절차를 반복한다.\r\n표 7. 커버리지 분석 절차\r\n❍ SoS 통계적 검증 프로토타입 도구의 한계점 분석 및 개선사항 도\r\n출\r\n­도구에서 검증 가능한 목표 명세 유형과 표현 가능한 유형의 한\r\n계\r\n§ 평가에 사용된 시뮬레이션 시나리오 분석을 통해 시뮬레이션 \r\n시나리오가 본 검증 도구 내에서 표현할 수 있는 목표 명세 \r\n유형에서 보이는 한계점을 발견함\r\n§ 평가에 사용된 시뮬레이션 시나리오는 도구 내의 시뮬레이션\r\n을 통해 Existence, Absence, Universality, transient state \r\nprobability, Steady state probability, Maximum duration, \r\nMinimum duration 등 7개의 목표 유형을 표현하고 있음\r\n§ 본 SoS 검증 도구는 이 중 Existence, Absence, Universality, \r\nTransient state probability 등의 4개 유형만 검증 가능한 한계\r\n점을 지니고 있음\r\n§ 아래 표와 같이 4개 유형에 대하여 시뮬레이션 트레이스\r\n(trace) 결과 분석 알고리즘이 정의되었고, 이들 알고리즘에 따\r\n라 도구에서 구현됨으로써 해당 유형의 목표 달성 여부가 검\r\n증 가능함\r\n알고리즘 1 Existence 유형 트레이스 분석 알고리즘\r\n : Trace in the form of 2-dimentional array [Tick, Properties]\r\n : The property to be verified\r\n : The value for the property\r\n1: function checkExistence(, , exp\r\n)\r\n2: for each  for  in  do\r\n3: if   exp then\r\n4: return \r\n5: return \r\n표 8. 유형별 트레이스 분석 알고리즘"
+  },
+  {
+    "pdf_page": 41,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 36 -\r\n­다양한 목표 유형 검증 지원 및 모델링 기술 확장을 위한 개선 \r\n방향\r\n§ 시나리오가 표현 가능한 Steady state probability, Maximum \r\nduration, Minimum duration 중, Transient state probability와 \r\n가장 비슷한 Steady state probability 유형을 검증하는 것이 필\r\n요\r\n§ BC 모델링 기술을 확장함으로써 각 CS가 얻을 수 있는 정보 \r\n내에서 합리적으로 행동할 수 있도록 의사결정 과정을 보완하\r\n고, 다수의 CS가 메시지 등을 통한 직접적인 상호작용을 할 수 \r\n있도록 개선이 필요\r\n알고리즘 2 Absence 유형 트레이스 분석 알고리즘\r\n1: function checkAbsence(, , \r\n)\r\n2: for each  for  in  do\r\n3: if  ≠  then\r\n4: return \r\n5: return \r\n알고리즘 3 Universality 유형 트레이스 분석 알고리즘\r\n1: function checkUniversality(, , exp\r\n)\r\n2: for each  for  in  do\r\n3: if  ≠ exp then\r\n4: return \r\n5: return \r\n알고리즘 4 Transient state probability 유형 트레이스 분석 알\r\n고리즘\r\n : The time when  starts to be expected to be \r\n : The probability that  satisfies  after \r\n1: function checkTransientStateProbability(, , \r\n, , )\r\n2:   \r\n3: for each  for  in  after  do\r\n4: if    then\r\n5:   \r\n6: if  ≧  then\r\n7: return \r\n8: return \r\n[세부연구2-3] ❍ SoS 통계적 검증 기술 확장\r\n­검증 가능한 목표 명세 유형의 확장"
+  },
+  {
+    "pdf_page": 42,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 37 -\r\nSoS 행위 \r\n모델 기반 \r\n통계적 검증 \r\n기술 및 도구 \r\n개선\r\n§ Transient state probability는 특정 시점을 지정하기만 하면 그 \r\n이후 범위에 대해서 Universality를 정량적으로 측정하는 방법\r\n으로 검증 속성의 만족 여부를 확인할 수 있음\r\n§ Steady state probability는 “긴 시간 동안 (in the long run)” \r\n이라는 표현으로 인해 목표 명세를 정량적이고 분명하게 작성\r\n하기 어려움\r\n§ “긴 시간 동안” 이라는 표현을 SoS가 운영되는 전체 시스템 \r\n운영 시간 범위로 치환하고, 전체 시간 범위에서 특정 상태가 \r\n만족되는 비율 혹은 확률을 측정\r\n­ABC 모델링 기술의 확장\r\n§ Belief-Desire-Intention 에이전트 모델 (BDI 모델)\r\n개별 에이전트 시스템의 의사결정 과정을 나타내는 한 방법으\r\n로, 사람의 의사결정 과정에서 포착할 수 있는 일련의 정신적 \r\n상태로서 믿음(Belief), 욕구(Desire), 의도(Intention)의 세 단계\r\n를 나타냄\r\nBDI 모델이 제시하는 일련의 과정은 CS의 자율성과 독립성을 \r\n표현하기에 적합하다. SoS와 별개로 CS가 독립적으로 갖는 CS \r\n수준의 목표와 수행 가능한 행동의 목록은 BDI 모델 상에서 \r\nDesire와 Intention 과정으로 표현됨\r\n§ 메시지 기반 상호작용\r\nAgent-based Modeling에서 중요한 요소 중 하나는, 다수의 에\r\n이전트가 일정한 규약에 따라 정보를 주고받는 상호작용\r\nSoS 내에서 주고받는 메시지는 정보 전달에 참여하는 주체(발\r\n신자와 수신자)와 목적, 그리고 데이터의 의미와 해석 방법에 \r\n대하여 명확하게 기술할 필요가 있으며, 메시지가 전달되는 \r\n시점(Time)과 데이터에 대한 소유권이 분명해야 함\r\n기존에 존재하는 다수의 CS라는 점을 감안할 때, 정보에 대한 \r\n신뢰도(Trustfulness)와 시간적 특성(Temporal aspects)인 생성\r\n된 시간, 효용 가치를 잃어버리는 시간 등에 대한 정보도 중\r\n요"
+  },
+  {
+    "pdf_page": 43,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 38 -\r\n그림 39. 확장된 ABC 모델링 기술\r\n❍ SoS 통계적 검증 지원 프로토타입 도구 개선\r\n­비기능적 개선 요구사항\r\n§ SoS 검증 도구를 사용하는 데 있어서 기술적 한계뿐 아니라 \r\n사용자를 위한 개선사항 또한 수집\r\n§ 현재 커맨드라인 인터페이스(CLI)를 통해 입력과 출력이 이루\r\n어지는 형태에서, 그래픽 유저 인터페이스(GUI)를 통한 조작을 \r\n할 수 있게끔 개선할 필요가 있음\r\n­SoS 통계적 검증 지원 도구의 개선\r\n§ 앞서 도출한 도구 개선 방향에 따라 검증 속성 중 Steady \r\nstate probability 유형의 트레이스 분석 알고리즘을 아래 표와 \r\n같이 도출\r\n§ 해당 알고리즘을 실제 구현하여 최신 버전의 SIMVA-SoS에 적\r\n용하였으며, 이에 대해 일련의 절차에 따라 외부 평가를 통하\r\n여 해당 유형의 검증 가능 여부를 확인함\r\n알고리즘 5 Steady state probability 유형 트레이스 분석 알고리즘\r\n : Trace in the form of 2-dimentional array [Tick, Properties]\r\n : The property to be verified\r\n : The value for the property\r\n : The probability that  satisfies  after \r\n1: function checkSteadyStateProbability(, , \r\n, )\r\n2:   \r\n3: for each  for  in  do\r\n4: if    then\r\n5:   \r\n6: if  ≧  then\r\n7: return \r\n8: return \r\n표 9. Steady state probability 유형 트레이스 분석 알고리즘"
+  },
+  {
+    "pdf_page": 44,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 39 -\r\n§ 시뮬레이션 기반의 SoS 검증을 위한 모델링 방법으로 기 제안\r\n된 ABC 모델링 기법을 확장\r\n§ ABC+ 모델링 이라는 이름으로 명명된 확장된 모델링 기법은 \r\n보다 현실적인 CS의 의사 결정 과정과 메시지 형태 기반의 \r\nCS간의 상호작용을 모델링하는 방법을 제공\r\n그림 40. 확장된 ABC 모델링 기술 § ABC 모델은 획일화된 의사 결정으로 인해 일정 시간 이후로\r\n는 SoS 수준 목표 성취가 더 이상 증가하지 않는 모습을 보여\r\n주는 반면 ABC+ 모델은 시간에 따라 목표 성취가 지속적으로 \r\n증가하는 것을 확인함\r\n그림 41. 의사 결정 과정 모델에 따른 SoS 목표 성취 시뮬레이션 결과 비교\r\n§ 상호작용하는 방식이 달라짐에 따라 그들이 SoS 목표를 성취\r\n하는 결과는 확연히 다름을 확인함"
+  },
+  {
+    "pdf_page": 45,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 40 -\r\n그림 42. 상호 작용 모델에 따른 SoS 목표 성취 시뮬레이션 결과 비교\r\n[세부연구3-1]\r\n변화된 SoS \r\n요소와 관련 \r\n있는 검증 \r\n속성 선별\r\n❍ 기존 변화된 SoS 요소와 관련 있는 검증 속성 선별 관련 문헌 조사\r\n­변화 단위 설명을 위한 대형 시스템 메타모델 관련 문헌 조사 수행\r\n­기존 모델내 변화의 종류 조사\r\n❍ SoS 변화 요소와 관련 있는 검증 속성 선별\r\n­SoS 관리자는 실시간으로 SoS의 변화를 모니터링하고, 변화가 발\r\n생할 경우 변화와 관련된 목표를 선정\r\n­선정된 목표로부터 변화와 관련된 모든 목표들을 찾아내기 위해\r\n서 SoS 목표 모델 슬라이싱 알고리즘을 수행\r\n­슬라이싱 알고리즘은 선정된 목표로부터 상위 목표를 역방향으로 \r\n재귀적으로 슬라이싱\r\n­아래와 같은 SoS 목표 모델 슬라이싱 알고리즘 생성\r\n1 /**---- goal model slicer ----**/\r\n2 GOAL-MODEL-SLICER(goal_model, slicing_criterion)\r\n3\r\nInput: goal_model, a csv file which includes SoS goals, formal \r\n specification, parent goals, subject systems, an explanation \r\n of each goal; slicing_criterion, a txt file which includes slicing criterion \r\n of goal model\r\n4 Output: sliced_goal_model, a csv file which represents sliced SoS \r\n goals\r\n5 Local: target_goals, target goals where the slicing starts\r\n6 parsingGoalModel (goal_model);\r\n7 target_goals ← getTargetGoal (slicing_criterion);\r\n8 for (target_goal: target_goals)\r\n9\r\n sliced_goal_model ← sliced_goal_model ∪ recursiveSlicer( target_goal);"
+  },
+  {
+    "pdf_page": 46,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 41 -\r\n­아래와 같은 목표 모델 슬라이싱 도구 구현\r\n­\r\n그림 43 예제 목표 모델 슬라이싱 전\r\n10 endfor\r\n11 return sliced_goal_model;\r\n12 /**---- recursiveSlicer ----**/\r\n13 RECURSIVE-SLICER(target_goal)\r\n14 Input: target_goal, a target goal where the slicing starts\r\n15 Output: goal_list, a list which includes goals\r\n16 Local: higher_goal, a parent goal of the target_goal\r\n17 goal_list ← goal_list∪target_goal;\r\n18 higher_goal ← getHigherGoal(target_goal); \r\n19 if (higer_goal = null)\r\n20 return goal_list;\r\n21 else\r\n22 RECURSIVE-SLICER(higher_goal);\r\n23 endif"
+  },
+  {
+    "pdf_page": 47,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 42 -\r\n­\r\n그림 44 예제 목표 모델 슬라이싱 후\r\n[세부연구3-2]\r\n검증 속성과 \r\n분할된 SoS \r\n모델간 \r\n연관성 도출\r\n❍ 기존 시스템의 검증 속성과 분할된 모델 간 연관성 조사 및 분석\r\n­기존 대형 복잡 시스템의 검증 속성과 분할된 모델 간에 어떤 연관성이 \r\n있는지 연구한 논문들에 대해서 조사 및 분석 수행\r\n­조사 및 분석 내용 기술 보고서에 작성 및 정리\r\n❍ 검증 속성 기반 SoS 모델 분할 연관성 도출\r\n­검증 속성 기반 SoS 모델 분할 연관성을 도출하기 위해서 SoS 목표 모\r\n델과 검증 속성의 관계를 정의\r\n­선택된 검증 속성이 SoS 모델과 어떻게 연관성이 있는지를 살펴봄\r\n­SoS 목표 모델은 아래 그림과 같이 SoS의 관련 목표들의 관계들로 나타\r\n나며, SoS 목표 모델이 SoS 검증 속성의 집합이 됨"
+  },
+  {
+    "pdf_page": 48,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 43 -\r\n­\r\n그림 45. SoS 목표 모델과 SoS 모델 간 연관성 ­관련 검증 속성들과 관련 있는 SoS 모델을 슬라이싱하여 SoS 최소 검증 \r\n모델을 생성한 후 검증을 수행하면, 슬라이싱 전 모델에 대하여 검증한 \r\n것과 같은 검증 결과를 출력으로 주면서도 검증에 드는 비용 즉, 컴퓨터 \r\n메모리, 시간을 효과적으로 줄일 수 있음\r\n[세부연구3-3]\r\n변화된 구성 \r\n요소의 검증 \r\n최소 대상 \r\n모델을 추출\r\n❍ 슬라이싱 알고리즘을 활용하여 사례 SoS 시나리오의 검증 최소 \r\n대상 모델을 추출\r\n­슬라이싱 알고리즘을 적용할 사례 SoS 시나리오로 심화 MCI 대응 SoS \r\n시나리오 선정\r\n­SoS 모델링 언어 PRISM으로 사례 SoS 시나리오 모델링을 수행\r\n­MCI 대응 SoS PRISM 모델을 대상으로 아래 그림과 같이 제어 의존 그\r\n래프(Control dependency graph)와 데이터 의존 그래프(Data dependency \r\ngraph)를 포함하는 시스템 디펜던시 그래프(System dependency graph)를 \r\n생성"
+  },
+  {
+    "pdf_page": 49,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 44 -\r\n­\r\n그림 46 MCI SoS PRISM 모델 의존 그래프 ­아래 그림과 같이 슬라이싱 기준이 되는 SoS 목표에 따라 시스템 의존 \r\n그래프 슬라이싱을 수행\r\n­\r\n그림 47 슬라이스된 MCI SoS PRISM 모델 의존 그래프\r\n[도구 개발]\r\n시뮬레이션 \r\n기반 통계적 \r\n검증 도구 \r\n개발\r\n❍ 개발 목적\r\n­시스템 오브 시스템즈(System of Systems, SoS)는 자율성과 독립\r\n성을 갖는 구성 시스템(Constituent System, CS)들로 구성되며, CS\r\n들의 상호작용과 협력을 통해 SoS 수준의 목표를 달성\r\n­각 CS의 자율성 및 독립성에 의하여 능동적으로 다른 CS 및 주\r\n변 환경과 복잡하게 상호작용하며, SoS가 동작함에 따라서 발생"
+  },
+  {
+    "pdf_page": 50,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 45 -\r\n하는 다양한 사건들은 매우 불확실성이 높음\r\n­SoS의 불확실성을 고려하여 SoS 수준의 목표 달성을 분석하기 위\r\n하여 SoS 행위에 대한 시뮬레이션 기술이 필수적\r\n­SIMVA-SoS(Simulation-based Verification and Analysis for SoS)는 \r\n전체 SoS 연구의 기반이 되는 SoS 시뮬레이션 엔진과 SoS 통계적 \r\n검증 모듈을 포함하는 시뮬레이션 기반 SoS 통계적 검증 분석 지\r\n원 도구\r\n❍ 개발 요구 사항\r\n­기능적 요구사항\r\n§ 입력: SoS 모델, SoS 정책, SoS 환경 등\r\n§ 출력: SoS 돌아가는 모습 (execution traces / snapshots) § 실행: 논리적 time tick 기반 실행, 확률적 실행\r\n§ GUI: 사용자 편의를 위한 수준, 시뮬레이션 시각화, Property \r\n변화 그래프, 데모 보여줄 수 있는 수준\r\n­비기능적 요구사항\r\n§ 시뮬레이션 엔진 수행시간을 가능한 줄임\r\n§ 재사용성을 높이기 위하여 구조적 설계를 수행\r\n§ 재사용성을 높이기 위하여 모든 클래스 및 함수에 주석을 사\r\n용한 설명 기술\r\n❍ 아키텍쳐 설계\r\n­아키텍쳐 전체적인 개요\r\n§ SIMVA-SoS가 세부 연구 기술(1~3)의 적용을 지원하기 위해 설\r\n계한 전체적인 아키텍쳐\r\n그림 48. SIMVA-SoS 아키텍쳐 설계"
+  },
+  {
+    "pdf_page": 51,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 46 -\r\n­시뮬레이션 엔진\r\n§ SoS 시뮬레이션 엔진은 주어진 SoS 입력 정보를 이용하여 SoS\r\n를 시뮬레이션 할 수 있도록 구현\r\n§ SoS 분석을 위한 시뮬레이션 엔진의 설계 및 구현, 품질 관리 \r\n방안에 대해서는 기술보고서의 부록 A.1을 참조\r\n­통계적 검증 모듈\r\n§ 가설 시험 모듈 (Hypothesis testing)\r\n통계적 가설 시험은 반복 시행된 시뮬레이션의 수행 결과를 \r\n샘플 데이터로 삼고 통계적 분석을 통해 실제 SoS에서 해당 \r\n검증 속성이 만족될 확률을 추정\r\nSIMVA-SoS는 순차 확률비 시험(Sequential Probability Ratio \r\nTest, SPRT)을 통해 목표 달성 여부에 해당하는 통계적 가설\r\n을 검증\r\n§ 검증 속성 체커 (Property checker)\r\nSoS에서 보고자 하는 검증 속성이 만족하는지 확인하기 위해\r\n서는, 시뮬레이션 수행 결과인 트레이스 (trace)를 분석함으로\r\n써 해당 시뮬레이션 결과가 SoS 수준의 검증 목표를 달성했는\r\n지 판단하고, 검증 속성 체커는 주어진 어느 시점의 스냅샷을 \r\n분석하여 유형별 검증 속성 만족 여부를 판별\r\n❍ 연구 기술 연계\r\n­SoS 모델링 기술(연구 기술 1)의 활용 및 연계\r\n§ SoS의 목표 달성을 통계적으로 검증하기 위한 시뮬레이터인 \r\nSIMVA-SoS는 기본적으로 M2SoS에 기반하여 작성된 모델을 입\r\n력으로 받아 시뮬레이션 및 통계적 모델 체킹(Statistical Model \r\nChecking, SMC)을 수행\r\n­SoS 변화대응 기술(연구 기술 3)의 활용 및 연계\r\n§ [연구 기술 3]은 대형 복잡 시스템인 SoS를 적은 비용과 짧은 \r\n시간을 들여 효과적으로 검증하기 위해 슬라이싱이라는 기술\r\n을 사용\r\n§ 슬라이싱 기술을 SIMVA-SoS에 적용하여 효율적 검증에 이용"
+  },
+  {
+    "pdf_page": 52,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 47 -\r\n그림 49. [연구 기술 1] SoS \r\n모델링 기술의 시뮬레이션 및 검증 \r\n활용\r\n그림 50. [연구 기술 3] SoS 변화 \r\n대응 기술의 시뮬레이션 및 검증 \r\n활용"
+  },
+  {
+    "pdf_page": 53,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 48 -\r\n□ 과년도 평가의견에 대한 개선실적\r\n평가명 지적사항 개선내용\r\n선정평가\r\n(2015.3월)\r\nㅇ 공개SW 개발체계 및 커뮤니티 구성 \r\n계획의 적절성 측면에서 적극적인 활용을 \r\n전제로 한 구체적인 전략이 필요하고, 공\r\n개SW라는 특성을 고려해 구체적인 활성\r\n화 전략 보완이 필요\r\nㅇ 사업화 계획에 6-3. 공개SW 보급,\r\n커뮤니티 확산 및 활성화 계획 추가\r\n(1) 공개SW 개발 추진 전략에서 구\r\n체적인 공개SW 개발 추진 절차\r\n에 대해 설명\r\n(2) 공개SW 보급 방안에서 도구 개\r\n발 후 보급 방안에 대한 구체적 \r\n설명\r\n(3) 공개SW 커뮤니티 확산 및 활성\r\n화에서 관련 학회 도구 발표,\r\n온/오프라인 교육 지원, 국내외 \r\n공개SW 커뮤니티 홍보로 나누\r\n어 구체적 설명\r\nㅇ 정량적 평가방법을 모두 자체평가로 \r\n설정했는데, 한국산업기술시험원 같은 외\r\n부 인증기관의 평가로 보강 필요\r\nㅇ 정량적 평가항목에 대해 외부인증\r\n기관의 평가를 받을 수 있는 항목들\r\n을 면밀히 검토하였으나, 원천기술개\r\n발을 목표로 하는 본 과제의 특성상 \r\n기존에 존재하는 기준으로 평가하여 \r\n공인시험인증서를 받을 수 있는 평가\r\n항목이 없는 것으로 판단되어 기존대\r\n로 모두 자체평가로 진행\r\nㅇ 2단계 사업 전략에서 해당 개발 방법\r\n론에 대한 신뢰성 확보 방안 및 표준화 \r\n방안에 고려가 필요\r\nㅇ 개발방법론에 대해 설정한 정량적 \r\n평가 항목 달성과 저명한 국제 논문\r\n지/학회 논문 게재를 통해 신뢰성을 \r\n확보하고자 함.\r\nㅇ 본 과제는 표준화 대상과제가 아\r\n니라 사업계획서 상에 표준화 계획을 \r\n명시하지는 않음. 2단계에서 표준화 \r\n가능성을 열어두고 과제를 진행할 예\r\n정임.\r\nㅇ 향후 연구내용에 대한 산업별, 국가별 \r\n표준화 계획 및 활용 계획에 대해서도 보\r\n완 필요\r\n전년도 연차평가\r\n(2017.1월)\r\nㅇ 모델 기반의 초대형 복잡 시스템 분석 \r\n및 검증 SW의 우수성을 확인할 수 있는 \r\n구체적인 방안이 필요함\r\nㅇ 정량적 목표와 정적 분석 및 뮤테\r\n이션 스코어 등의 객관적 공개SW 성\r\n과 지표에 근거하여 세부연구 별 개\r\n발 예정 혹은 개발 중인 도구(공개\r\nSW)를 평가\r\nㅇ 개발된 프로토타입 도구의 외부 \r\n기관을 통한 점진적 공인 인증 평가 \r\n진행\r\nㅇ 공개SW 연구개발을 추진한다는 측면\r\n에서 연구에 참여하는 참여연구원들이 GitHub에 개별 계정을 만들어 커미트하\r\n도록 하는 것과 이외 공개SW 활성화 관\r\n련 객관적 지표 필요\r\n(참여원의 Contribution 횟수, 참여원 이\r\n외의 Contributor 인원수, User Guide /\r\nInstallation Guide 필수작성 등)\r\nㅇ 연구실 내 연구원들의 체계적인 \r\n공개SW 연구개발 추진을 위한 <참여 \r\n연구원의 개발 참여 방안>을 통해 개\r\n발 코드 및 artifact 작성에 기여\r\nㅇ 논문 및 커뮤니티를 활용한 홍보\r\n를 통해 추후 프로토타입 도구의 활\r\n성화 및 참여원 이외의 커뮤니티 성\r\n장 도모\r\nㅇ 공개SW R&D 전략이 잘 정리되어 있\r\n으며, 현재 제안한 시나리오 외에 개발될 \r\n기술의 다양하고 구체적인 응용 사례에 \r\n대한 확장이 필요하며, 소스코드 이외에\r\n도 개발문서와 기술문서를 함께 공개하여 \r\nㅇ 1단계(1~4차년도)와 2단계(5~8차년\r\n도)의 단계별 개발 목표를 선정하고, 1단계에서 개발한 프로토타입 기법 \r\n및 지원 도구를 바탕으로 2단계의 실\r\n사례 적용 연구를 수행"
+  },
+  {
+    "pdf_page": 54,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 49 -\r\n관련 연구 커뮤니티 활성화에 기여필요\r\nㅇ 요구사항/시나리오, 모델/메타모\r\n델, 기술 문서 및 개발 문서 등의 공\r\n개SW 부속 산출물을 정의하고 각 산\r\n출물 별 관리 방안에 대한 구체적인 \r\n계획 수립\r\nㅇ 모델링의 일반화를 집중적으로 연구하\r\n면서 도메인별로 완성도제고가 바람직할 \r\n것으로 사료됨. MAS와 SoS가 근본적이고 \r\n깊이 있게 차별화되어야 함\r\nㅇ SoS 모델링 기법 및 지원도구 개\r\n발을 위해 M2SoS를 기반으로 유사 \r\n시스템(MAS 등)과 SoS의 모델링 및 \r\n검증 가능성을 체계적으로 분석\r\nㅇ 1단계(1~4차년도) 연구를 통해 모\r\n델링의 일반화 연구를 진행하고, 2단\r\n계 연구를 통해 도메인 적용 및 기법 \r\n개선을 수행\r\nㅇ 검증은 한 시점에서 그 방법이 결정될 \r\n수 없으므로 지속적으로 발전시킬 방안이 \r\n필요하며, SoS라는 대규모 특수한 시스템\r\n을 검증하기 위한 새로운 방법 제시 필요\r\nㅇ 본 연구 과제의 세부연구3(SoS 변\r\n화 대응 검증 기술 / 대규모 소프트\r\n웨어 시스템의 slicing 기술)을 심도 \r\n있게 연구 및 활용하여 진화적 개발\r\n과 동적 재구성이 필연적으로 일어나\r\n는 SoS의 검증 기법에 대응\r\nㅇ 세부연구2의 통계적 검증 기법의 \r\n지원 도구에 세부연구3의 변화 대응 \r\n기술을 적용함으로써 대규모 시스템 \r\n검증 기법 제시"
+  },
+  {
+    "pdf_page": 55,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 50 -\r\nⅢ. 공개SW R&D 전략 및 활성화 성과\r\n가. 공개SW 활성화 성과요약 (지표 3개 이내로 기재)\r\n구분 지표1) 결과2) 내용(자체평가사유)\r\n공개 SW 내부 \r\n품질 및 활성화 \r\n수준 평가\r\n공개 SW 사용 \r\n적합도 평가 \r\n(target usage \r\nassessment)\r\n목표: 중상 이상\r\n중상\r\nTaibi의 OSS 연구 논문5)의 공개SW 사용 적합도 \r\n기준: 다음 4개 항목에 대하여 자체 평가 후 네 \r\n가지 항목을 모두 만족시키면 공개SW 사용 \r\n적합도 ‘상’, 세 가지 항목을 만족시키면 ‘중상’, 두 가지 항목을 만족시키면 ‘중’, \r\n하나 이하인 경우 ‘하’로 평가함\r\n평가 기준 평가 내용\r\nLicense - 평가 결과: 만족\r\nApache License 2.0\r\nCompliance \r\nwith standards\r\n- 평가 결과: 만족\r\nJava code convention에 따\r\n른 프로젝트 표준(code \r\ncompliance) 및 규격 준수\r\nŸ Package 수: 15개\r\nŸ Java Filfe 수: 40\r\nŸ 소스코드 LOC: 2211\r\nŸ 평균 LOC: 55.275\r\nImplementation \r\nlanguage\r\n- 평과 결과: 적정\r\nJava 기반 SIMVA-SoS 개발 \r\n(기능과 목적에 적합) Ÿ 다중 운영제체 지원\r\nŸ 객체 지향 및 에이전트 \r\n기반(Agent-based) 프로\r\n그래밍 구현 용이성\r\nInternationali￾zation support\r\n- 평가 결과: 만족\r\n모든 도구 및 문서의 영어 \r\n지원\r\n일부 문서 한글 일부 지원\r\n최종 평가 결과 4개 항목 중 3.5 만족\r\n공개 SW 코드 \r\n및 문서 수준 \r\n평가\r\n(CC, 코드 \r\n커버리지, 뮤테이션 점수, 문서 일치도)\r\n목표: 상 이상\r\n상\r\nTaibi 논문 내 공개SW의 내/외적 질 항목에 근\r\n거하여 다음 세 가지 항목을 만족시키도록 함. 세 가지 항목을 모두 만족시키면 코드 및 문서 \r\n수준 ‘상’, 두가지 항목을 만족시키면 ‘중’, \r\n하나 이하인 경우 ‘하’로 평가함\r\n평가 기준 평가 내용\r\n공개SW - 평가 결과: 만족"
+  },
+  {
+    "pdf_page": 56,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 51 -\r\n구분 지표1) 결과2) 내용(자체평가사유)\r\n커미트 수\r\n공개SW명: SIMVA-SoS (SIMSoS)\r\n공개SW 개발 참여자 수: 5\r\nGitHub 총 커미트 수: 325 \r\nCC 점수 \r\n20점 이하 \r\n- 평가 결과: 만족\r\nCC 측정 도구: MetricsReloaded\r\nCC 측정값: 평균 2.53, 최대 15\r\n코드 \r\n커버리지 \r\n30%이상 \r\n혹은 \r\n뮤테이션 \r\n점수 60점 \r\n이상 \r\n- 평가 결과: 평가중\r\n평가중\r\n산출물간 \r\n일치도 \r\n80% 이상 \r\n- 평가 결과: 만족\r\n요구사항 문서, 기술보고서, 설계 \r\n문서 등의 산출물과 구현 결과물\r\n의 일치도 100%, 모델 기반 방법\r\n론에 근거한 도구 분석, 설계에 \r\n근거한 구현 프로세스 수행\r\n최종 평가 \r\n결과\r\n평가 결과 측정중(뮤테이션 점수) - 평가 보고서에 반영 예정\r\n공개 SW\r\n커뮤니티 활동 \r\n수준 평가\r\n공개 SW \r\n커뮤니티 활성화 \r\n(웹사이트 내 \r\n컨텐츠 게시 및 \r\n업데이트 건수, 논문 내 \r\n오픈소스 인용 \r\n건수, 세미나 \r\n참석 건수)\r\n목표: 상 이상\r\n‘상’\r\n공개SW의 서버 및 웹사이트 관리와 OSS learning \r\ncommunity를 위한 가이드 및 튜토리얼이 필요함. 이에 근거하여 다음 세가지 항목에 대한 목표를 \r\n설정함. 세 가지 항목을 모두 만족시키면 커뮤니\r\n티 활성도 ‘상’, 두가지 항목을 만족시키면 ‘중’, 하나 이하인 경우 ‘하’로 평가함. 평가 기준 평가 내용\r\n공개SW \r\n커뮤니티 \r\n웹사이트에 \r\n컨텐츠 게시 \r\n3건 이상\r\n- 평가 결과: 만족\r\n3건의 공개 컨텐츠 업로드\r\n1. 공개SW 요구사항 문서(한\r\n글)\r\n2. 공개SW 모델(class diagram, \r\nsequence diagram)\r\n3. 공개SW 구동 환경 설명 및 \r\n사용법: (기술보고서 부록, GitHub)\r\n논문에 \r\n오픈소스 \r\n저장소 홍보 \r\n2건 이상\r\n- 평가 결과: 만족\r\n2건의 국내/국제 논문에 저장\r\n소 홍보\r\nŸ KCC 2017 논문 발표"
+  },
+  {
+    "pdf_page": 57,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 52 -\r\n나. 공개SW R&D 전략의 적절성 및 활성화 노력 \r\n □ 공개SW R&D 전략의 적절성\r\n 1) 단계 별 개발 및 관리 전략 \r\n그림 51 공개SW R&D를 위한 개발 및 관리 단계\r\n본 연구실은, 연구 산출물 도구의 개발과 공개를 위해 위 그림과 같은 R&D 전\r\n략을 수립함. 그림과 같이, 연구 개발되고 있는 지원 도구의 개발을 위한 네 단\r\n계6)를 정의하였으며, 각 단계별 개발 및 관리 전략을 구체적으로 수립하였음. \r\n [단계 1] 기법(알고리즘) 개발. 도구 개발을 위한 단계 1에서는 선행 연구 및 도\r\n구 조사를 기반으로 프로토타입 기법(알고리즘)을 개발하며, 이를 위해 기존 기\r\n법 중 적용 가능한 소프트웨어 공학(SE) 기술을 선정한다. 각 기법별로 사례 시\r\n나리오를 개발하여 개발 대상 기법을 적용하고, 선정된 SE 기술을 기반으로 SoS \r\n모델링 및 검증에 최적화된 기법을 연구 개발함. [단계 2] 프로토타입 도구 개발 및 공개. 본 단계에서는 알고리즘이 요구하는 \r\n기능적/비기능적 요구사항을 명세함. 본격적인 프로토타입을 개발하기 전에 공개\r\nSW에 적합한 라이선스, 저장소 및 품질 관리 전략을 분석하고 선정함. 동시에, 1\r\n5) Taibi Davide, Luigi Lavazza, and Sandro Morasca. \"OpenBQR: a framework for the assessment of OSS.\" IFIP International \r\nConference on Open Source Systems. Springer US, 2007.\r\n6) Kogut, Bruce, and Anca Metiu. \"Open‐source software development and distributed innovation.\" Oxford review of \r\neconomic policy 17.2 (2001): 248-264.\r\n구분 지표1) 결과2) 내용(자체평가사유) Ÿ APSEC 2017 논문 발표\r\nOSS 세미나 \r\n참석 혹은 \r\n개최 \r\n1건 이상\r\n- 평가 결과: 만족\r\n총 3회의 국내/국제 OSS 세미\r\n나 및 워크샵 참석\r\nŸ NEMO 2017 (2017.07) Ÿ Agile Korea Conference \r\n(2017.9) Ÿ SOSCON (2017.10)\r\n최종 평가 \r\n결과 3개 항목 중 3개 만족"
+  },
+  {
+    "pdf_page": 58,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 53 -\r\n단계에서 개발된 사례 시나리오 중 선정된 SoS 사례를 대상으로 요구사항의 구\r\n체화와 이를 위한 모델링을 진행하며, 소프트웨어 공학 개발 방법론 및 기법을 \r\n적용하여 프로토타입 도구를 실질적으로 개발함. 최종적으로 도구를 공개SW화하\r\n고 커뮤니티에 대한 홍보를 수행함. [단계 3] 프로토타입 도구 평가 및 개선. 본 단계에서는 도구평가 계획 수립, 도\r\n구 평가 계획 검토, 도구 대상 검증 및 테스팅, 공개SW 개선, 최신 버전 공개SW \r\n평가와 같은 프로세스를 반복적으로 수행함으로써 프로토타입 도구 평가 및 개\r\n선 기간 내에 공개SW를 점진적으로 개선함. 평가 결과에 따라 공개SW를 개선하\r\n고, 개선된 최신버전의 공개SW의 내용과 튜토리얼을 홈페이지에 게시함으로 커\r\n뮤니티에 홍보함. [단계 4] 도구 안정화 및 커뮤니티 활성화. 본 단계를 통해 공개SW 홍보 및 커\r\n뮤니티 활성화는 연구 커뮤니티 내 활동을 통한 공개SW 홍보와 관련 연구자들\r\n의 참여를 권장할 수 있음. 또한, 연구 결과를 공식 홈페이지에 문서화 하고, 메\r\n일링 리스트를 통해 등록한 회원들의 관리 및 교육 자료를 제공함. 2) 공개SW 추진 전략에 기반한 세부연구 별 진행 상황 \r\n[세부연구 1] SoS 모델링 지원 프로토타입 도구를 개발하는 세부연구 1에\r\n서는 1~3차년도 기간 동안 기법(알고리즘)의 개발에 초점을 맞추어 연구를 \r\n진행하였다. 모델링 도구를 개발하기 위해서는 도구에서 지원할 모델링 언어\r\n그림 52 공개SW 개발 및 관리 단계별 전략"
+  },
+  {
+    "pdf_page": 59,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 54 -\r\n에 대해 정의가 필요한데, 이를 위해 기존 연구들을 (a)상호작용, (b)불확정\r\n성 측면에서 분석하고 모델링 도구가 가져야 할 요구사항을 정의하였다. 특\r\n히 3차년도 연구에서는 구체적인 SoS 사례인 다중손상사고(Mass Casualty \r\nIncident, MCI) 시나리오에 기반해 SoS가 가질 수 있는 상호작용과 불확정성\r\n을 환경과 시스템 관점에서 분석하였다. 동시에 사례 기반 모델링 결과를 바\r\n탕으로 2차년도 까지 개발했던 SoS 메타모델(Meta-model for SoS, M2SoS)을 \r\n추가 개선하였으며 단계별 구성 요소를 정의하였다. \r\n4차년도 세부연구 1의 모델링 프로토타입 도구는 공개 모델(Open Model) \r\n플랫폼에 기반해 개발될 예정이다. OMiLab의 ADOxx 메타모델링 플랫폼7)은 \r\n모델링 도구의 개발 및 공개 환경을 지원하는데, 이는 일반 공개SW와 다르\r\n게 소스코드가 아닌 모델링 기법 수준에서의 자산에 가치를 인정하는 것이\r\n다. 도구를 개발하는 단계에 앞서 우선적으로 M2SoS 메타모델에 정의된 모\r\n델 요소들을 설계할 수 있도록 메타 모델 및 구체적인 모델링 언어(Modeling \r\nLanguage, ML)를 개발할 예정이다. 그리고 개발된 각 모델 요소의 ML을 바\r\n탕으로 시각적 모델링(visual modeling)을 지원하는 모델링 툴킷(modeling \r\ntoolkit)의 프로토타입 버전 도구가 개발 및 공개될 예정이다. \r\n[세부연구 2] SoS 통계적 검증 지원 프로토타입 도구를 개발하는 세부연\r\n구 2에서는 공개SW 추진 전략 2단계에 따라서 프로토타입 도구를 개발 및 \r\n공개하였다. 구체적으로 SoS 통계적 검증 지원 프로토타입 도구를 개발하기 \r\n위한 기능적 요구사항과 비기능적 요구사항을 명세하였으며, UML을 사용하\r\n여 해당 요구사항을 Use Case Diagram으로 작성하였다. 또한, Class Diagram\r\n7) ADOxx Metamodeling Platform by OMiLab: (https://www.adoxx.org/) \r\n그림 53 세부연구 산출 도구의 단계별 개발 전략"
+  },
+  {
+    "pdf_page": 60,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 55 -\r\n과 Sequence Diagram을 작성하여 프로토타입 도구의 설계를 수행함으로써 \r\n소프트웨어 공학적 개발 방법론을 적용하여 도구 개발을 수행하였다. 한편, 공개SW 라이선스와 저장소에 대한 비교분석을 수행하였으며, 결과적으로 \r\nSoS 통계적 검증 지원 프로토타입 도구에 적합한 공개SW 라이선스는 \r\nApahce 라이선스를 채택하였고 공개 저장소는 GitHub으로 확정하였다. 실제 \r\n도구를 구현하는 단계에서 지속적인 공개SW 품질 관리를 위하여 디렉토리 \r\n구조, 파일 네이밍, 코딩 표준, 시험 및 검증 표준 등을 포함하는 개발 표준\r\n을 수립하고 이에 맞추어 체계적으로 개발하였다. 개발된 코드의 경우 품질 \r\n수준을 정량적으로 평가 및 개선하기 위하여 CC 점수를 지속적으로 측정 및 \r\n관리하였으며, 추가적으로 더 강력한 뮤테이션 분석을 통하여 뮤테이션 점수\r\n를 측정 및 관리할 계획이다. 요구사항 및 설계 문서와 개발된 소프트웨어 코드를 포함하여 전체적인 \r\nSoS 통계적 검증 지원 프로토타입 도구의 산출물을 모두 GitHub 저장소 및 \r\n홈페이지에 공개하였으며, SW 자산뱅크에도 해당 도구를 등록하였다. 공개 \r\n저장소 및 홈페이지에 대한 홍보를 위하여 관련 연구 게재 시 해당 저장소\r\n의 위치를 명시하여 더 많은 연구자들이 참여할 수 있도록 유도하였다. 이어\r\n지는 4차년도에는 공개SW 추진 전략 3단계에 진입하여 SoS 통계적 검증 지\r\n원 프로토타입 도구에 대한 평가 및 개선을 진행할 예정이다.\r\n[세부연구 3] SoS 변화 대응 검증 대상 산출 프로토타입 도구를 개발하는 \r\n세부연구 3에서는 1단계를 거치며 도구 개발을 위한 SoS 목표 모델과 SoS \r\n검증모델 슬라이싱 알고리즘을 개발하였다. 알고리즘을 개발하기위해 기존 \r\n기법 중 적용가능한 소프트웨어 공학 기술로 슬라이싱 기법을 선정하였으며 \r\n기법별로 MCI 대응 SoS 시나리오에 대해 슬라이싱 알고리즘 기법을 적용하\r\n였다. SoS 목표 모델 슬라이싱 알고리즘은 SoS 변화에 영향을 받는 SoS 목표\r\n들을 SoS 목표 모델 내에서 슬라이싱을 수행한다. 알고리즘의 출력인 변화에 \r\n영향을 받는다고 판단되는 목표들을 기반으로 SoS 검증 모델 슬라이싱 알고\r\n리즘이 수행된다. 당해 연도에는 위와 같은 알고리즘 개발을 마무리 지었으며, 프로토타입 \r\n도구 개발 및 공개를 수행하는 2단계 진입하기 위해 SoS 목표 모델 슬라이\r\n싱 알고리즘을 일부 구현하였다. 알고리즘 개발에 앞서 알고리즘이 요구하는 \r\n기능적/비기능적 요구사항을 정리하고 있으며, 공개SW에 적합한 라이선스, 저장소 및 품질 관리 전략을 분석중에 있다. 1단계에서 개발된 사례 시나리\r\n오를 대상으로 요구사항의 구체화하고, 소프트웨어 공학 개발 방법론 및 기\r\n법을 적용하여 프로토타입 도구를 개발하면 4차년도 말에 산출물로써 SoS \r\n변화 대응 검증 대상 산출 프로토타입 도구가 완성될 예정이다."
+  },
+  {
+    "pdf_page": 61,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 56 -\r\n □ 공개SW 활성화 노력\r\n 1) 공개SW 관련 문서 홈페이지 업로드\r\nl SIMVA-SoS (SIMulation-based Verification and Analysis for SoS) 도구 문서\r\n - 공개SW 요구 사항 문서\r\n오픈소스 요구사항\r\n개발 관련\r\nŸ Gradle 3.1 사용\r\nŸ JUnit 5.0 사용, 테스팅\r\nŸ Java 코딩 규약(Sun style 준수)\r\n설계 및 부가 \r\n결과물\r\nŸ StarUML 사용\r\nŸ 유스 케이스 다이어그램\r\nŸ 클래스 다이어그램\r\nŸ 시퀀스 다이어그램\r\n테스팅 Ÿ 유닛 테스트 케이스 품질: 코드 커버리지 30% 이상\r\nŸ Mutation Score 60 이상\r\n사용 편의성\r\nŸ GitHub에 업로드 및 사용 가이드 한글과 영어 버전 \r\n제공\r\nŸ 사용자 편의를 위한 최소한의 UI\r\n - 공개SW 설계 모델\r\n* 클래스 다이어그램(class diagram)\r\n그림 55 SIMVA-SoS의 클래스 다이어그램\r\n그림 56 SIMVA-SoS의 시퀀스 다이어그램(1/2)"
+  },
+  {
+    "pdf_page": 62,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 57 -\r\n* 시퀀스 \r\n다이어그램(sequen\r\nce diagram): \r\n그림 참조\r\n - 공개SW 구동 환경 설\r\n명 및 사용법\r\nSIMVA-SoS는 자바 \r\n기반 시뮬레이션 엔진\r\n이며 오픈 소스 저장소\r\n인 GitHub에 공개되어 \r\n있다. 이는 다음 주소에\r\n서 확인할 수 있다. https://github.com/SESoS\r\n/SIMVA-SoS. SIMVA-SoS\r\n는 JVM 1.8 이상, Gradle 3.1 이상의 환경\r\n에서 사용할 수 있으며, \r\nIntelliJ를 이용할 경우 \r\n쉽게 설치와 사용이 가\r\n능하다. 자세한 설치 및 \r\n사용 방법과 예제는 GitHub 홈페이지에서 확인 할 수 있다. $ git clone \r\nhttps://github.com/SESoS/SIMVA-SoS.git 명령으로 프로젝트를 복사할 수 있\r\n다.\r\n 2) 논문을 통한 공개SW 저장소 및 프로젝트 홈페이지 홍보\r\n한국컴퓨터종합학술대회(KCC 2017)에 발표한 논문인 “시스템 오브 시스\r\n템즈 수준의 목표 달성 검증 도구”는 모델 기반 SoS 통계적 검증 도구의 \r\n구조와 배경 기술을 분석하고, 유형에 대한 확장 가능성을 확인한 논문이다. 정보통신 기술의 발달과 사회 복잡도의 증가에 따라, 단일 시스템으로 만족\r\n하기 힘든 복잡한 요구사항이 등장하였으며, 이를 해결하기 위해 시스템 오\r\n브 시스템즈(System of Systems, SoS)는 자율성과 독립성을 갖고 있는 구성 \r\n시스템들로 이루어져 있어, 복잡한 상호작용을 고려하여 SoS 수준의 요구사\r\n항 만족 여부를 검증하는 것은 매우 중요하다. SoS 수준의 목표 달성 여부를 \r\n통계적으로 검증하는 공개 도구인 SIMSoS를 소개하고, 기술적 분석을 통하\r\n그림 57 SIMVA-SoS의 시퀀스 다이어그램(2/2)"
+  },
+  {
+    "pdf_page": 63,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 58 -\r\n여 다양한 검증 속성 유형에 대한 확장 가능성을 알아본다. 또한, 일부 검증 \r\n목표 유형에 대하여 트레이스 분석 알고리즘을 제안하고 실제 검증 가능여\r\n부를 확인한다. 본 논문에서 소개하는 도구의 소스코드를 아래 그림에서 보여주는 바와 \r\n같이 오픈소스 커뮤니티인 GitHub에 공개하였음을 밝히고 많은 연구원들의 \r\n관심과 참여를 유도했다.\r\n그림 58. KCC 2017 논문 발표를 통한 오픈소스 커뮤니티 홍보 증빙\r\nl APSEC 2017에 발표한 논문을 통한 프로젝트 홈페이지 홍보\r\nAPSEC 2017에 발표한 논문인 “SoS GaP Slicer: Slicing SoS Goal and \r\nPRISM Models for Change-Responsive Verification of SoS”은 SoS 검증을 효\r\n율적으로 하기 위한 슬라이싱 기법을 제시한 논문이다. SoS는 높은 수준의 \r\n목표를 달성하기 위하여 독립적인 구성시스템으로 구성된 시스템 집합이다. \r\nSoS가 외부 및 내부 요소로 인해 끊임없이 변화하기 때문에 동적 재구성 및 \r\n진화에 대한 대응이 효과적으로 수행되어야한다. 이러한 특성을 가진 SoS를 \r\n관리하려면 SoS 매니저와 엔지니어가 변경사항을 수용할 수 있는 SoS 모델\r\n링 및 검증 기법이 필요하다. 이에 본 연구에서는 지속적으로 변화하는 SoS \r\n특징과 SoS의 크기와 복잡성을 고려한 검증 기법인 SoS GaP slicer를 제안하\r\n였다. SoS GaP slice는 SoS에 대한 효율적인 통계 모델 검사를 통해 전체 \r\nSoS 모델을 검증하는 비용을 절감할 수 있으며, 논문에서 보이는 실험 결과\r\n는 제안된 기법의 정확성과 효율성을 보여준다. 본 논문에서 제안한 기법을 구현한 도구에 대한 내용을 아래 그림에서 보"
+  },
+  {
+    "pdf_page": 64,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 59 -\r\n여주는 바와 같이 SW스타랩 프로젝트 홈페이지에 올릴 예정임을 밝히고, 스\r\n타랩 사사표기 문구를 작성하여 논문을 통한 프로젝트 홈페이지 홍보를 수\r\n행하였다. \r\n그림 59 APSEC 2017 논문 발표를 통한 프로젝트 홈페이지 홍보 증빙\r\n 3) 내부 SW스타랩 워크샵 개최(2017.06, 2017.11)\r\n1차 SW스타랩 워크샵(2017.06) 2차 SW스타랩 워크샵(2017.11)\r\n(SW스타랩) 모델 기반의 초대형 복잡 \r\n시스템 분석 및 검증 SW 개발 워크샵 - 1차\r\n(SW스타랩) 모델 기반의 초대형 복잡 \r\n시스템 분석 및 검증 SW 개발 워크샵 - 2차\r\n모델 기반의 초대형 복잡 시스템 분석 및 \r\n검증 SW 개발 워크샵을 KAIST N1 110호에\r\n서 2017년 6월 2일에 진행하였다(KAIST 10\r\n명, 외부 대학 및 기관 6명 참석). 1세부 SoS \r\n모델링 및 목표 명세 기술 진행 보고, 2세부 \r\nSoS 검증 기술 진행 보고, 3세부 SoS 변화 \r\n대응 기술 진행 보고, 협력 연구 방향 논의 \r\n순서로 진행되었다. 1세부 연구 기술에서는 \r\nSoS 메타 모델, 사례 기반 SoS 모델링 등에 \r\n대해 논의하였다. 2세부 연구 기술에서는 통\r\n계적 검증 도구, ABC-모델, 상호작용 모델 \r\n등에 대해 논의하였다. 3세부 연구 기술에서\r\n모델 기반의 초대형 복잡 시스템 분석 및 \r\n검증 SW 개발 워크샵을 KAIST N1 111호에\r\n서 2017년 11월 17일에 진행하였다(KAIST 10\r\n명, 외부 기관 3명 참석). 1세부 SoS 모델링 \r\n및 목표 명세 기술 진행 보고, 2세부 SoS 검\r\n증 기술 진행 보고, 3세부 SoS 변화 대응 기\r\n술 진행 보고, SoS 시뮬레이터 기반 통합 검\r\n증도구(SIMVA-SoS) 구현 진행 보고 순서로 \r\n진행되었다. 1세부 연구 기술에서는 SoS \r\nPolicy 모델링, 검색 기반 policy 추천 등에 \r\n대해 논의하였다. 2세부 연구 기술에서는 \r\nABC+ 모델, 상호작용 모델, 시뮬레이션 결과 "
+  },
+  {
+    "pdf_page": 65,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 60 -\r\n 4) 공개SW(OSS) 관련 교육/워크샵 참석\r\nl NEMO 2017 (Next Generation Enterprise Modelling in the Age of Internet \r\nof Things) - Summer School\r\n2017년 7월에 OMiLab의 주최로 2주 동안 오스트리아 비엔나 대학교에서 \r\n진행된 2017 NEMO 여름학교8)에서는 Enterprise Modelling을 주제로 개념화\r\n(conceptualization), 설계(design), 아키텍쳐(architecture), 모델-기반 방법론\r\n(model-based/model-driven methodologies) 등에 대한 강연 및 실습이 진행되\r\n었다. 또한 모델 기반 소프트웨어 공학(model-based software engineering, \r\nMBSE)과 관련된 다양한 도메인의 세션들을 통해 다양한 모델링 언어 및 도\r\n구를 체험할 수 있었다. 본 연구실은 “System-of-Systems Engineering”의 \r\n주제로 SW스타랩 연구 실적과 내용을 소개하였으며, 타 도메인 전문가들과 \r\n해당 주제와 관련된 내용의 토론 및 토의를 진행했다. 또한 OMiLab에서 개\r\n발한 ADOxx 메타모델링 플랫폼 강연과 실습을 통해 MBSE를 실제로 적용한 \r\n8) OMiLab NEMO 2017 Summer School: http://nemo.omilab.org/2018/previous-editions/\r\n는 SoS 변화 표현 명세, Slicing에 대해 논의\r\n하였다. 등에 대해 논의하였다. 3세부 연구 기술에서\r\n는 SoS 목표 모델 Slicing, Slicing 도구에 대\r\n해 논의하였다. SoS 시뮬레이터 진행 보고에\r\n서는 SIMVA-SoS의 개요 및 구현 계획에 대\r\n해 논의하였다."
+  },
+  {
+    "pdf_page": 66,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 61 -\r\n모델링 도구를 개발해 볼 기회도 있었는데, 4차년도 세부연구 1의 <모델링 \r\n지원 프로토타입 도구>의 개발 플랫폼으로 활용될 예정이다. l SOSCON (Samsung Open Source \r\nCONference, 삼성 오픈소스 컨퍼런스)\r\n본 연구에서는 공개 소프트웨어 활용과 활\r\n성화 노력의 일환으로, 삼성에서 주최하는 오\r\n픈 소스 개발자 모임인 SOSCON에 참석하였\r\n다. 해당 컨퍼런스는 오픈소스 개발자들이 오\r\n픈소스의 중요성과 가치를 알리고 그 가치를 \r\n알릴 수 있는 방법에 대한 고민과 의견을 공\r\n유하는 자리다. 2017년 10월 25, 26일 양일에 \r\n걸쳐 SOSCON에 참가하여, 다수의 세미나를 \r\n통해 오픈소스 프로젝트에서는 단순히 ‘프\r\n로그램 공개’라는 것에만 의미가 있는 것이 아니며, 소프트웨어 생태계의 \r\n공생을 목적으로 갖는다는 프로젝트의 본질에 대해 생각해 볼 수 있었다. 뿐\r\n만 아니라, 오픈소스 커뮤니티를 활성화를 위한 개발자들의 노력과 시행착오\r\n로부터 다른 개발자들과 기획자들이 생각해보아야 할 것들에 대한 의견들을 \r\n공유할 수 있었다. l Agile Korea Conference 2017\r\n본 연구에서는 공개 소프트웨어 활용과 \r\n활성화 노력의 일환으로, Agile Korea에서 주\r\n최하는 Agile Korea 컨퍼런스에 참석하였다. 사실 해당 컨퍼런스는 5년 만에 다시 열린 컨\r\n퍼런스다. 이 컨퍼런스에서는 여러 세션으로 \r\n발표도 존재하였지만, 실제 목적은 개발자, 실\r\n무자들 간의 대화를 목적으로 한다고 생각된\r\n다. 실제로 자신들의 지식을 남들과 공유를 \r\n하는 동시에 배움을 얻고, 더 나은 방법에 대\r\n한 생각을 할 수 있는 토론장도 존재하였다. 비록 강연에서는 Agile에 대한 많은 세션이 \r\n존재하지는 않았지만, agile을 더 잘 사용하기 \r\n위해서 어떠한 기술이 필요한지에 관한 내용은 많이 존재하였으며, 많은 배움\r\n을 얻을 수 있었던 컨퍼런스였다. 단순히 앉아서 세션을 들으면서 사람들을 보\r\n는 것보다, 실제로 참여하여 대화를 통해 많은 것을 느낄 수 있는 자리였다.\r\n그림 64 SOSCON 참가"
+  },
+  {
+    "pdf_page": 67,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 62 -\r\nⅣ. 예산 사용 실적\r\n가. 당해연도 사업비 사용 실적 \r\n ① 주관기관 : 한국과학기술원\r\n(단위: 천원)\r\n구 분\r\n비 목\r\n당 초 계 획(A) 사 용 금 액(B) 잔액(A-B)\r\n증감사유\r\n현 금 현 물 현 금 현 물 현 금 현 물\r\n1. 직접비 213,574 53,846 179,012 48,461 34,562 5,385\r\n1.1 인건비 64,218 53,846 53,588 48,461 10,630 5,385 * 참여연구원(지은경연구조교수)\r\n의 타과제 참여로 본과제에서 5 월부터 제외됨에 따라 내부인건\r\n비(직-지급)를 학생인건비로 증\r\n액 변경됨.(2017.04.27.승인)\r\n* 참여연구원(지은경연구조교수)의 8 월부터 재참여로 인해, 학생인건비를 \r\n감액하여 내부인건비로 증액 변경\r\n함.(2017.07.21. 승인)\r\n* 연구활동비/연구과제추진비/연구장\r\n비.재료비내의 세세목간의 예산 조정\r\n함.\r\n*‘17.11.30일기준 작성함.\r\n12월말까지 전액 집행예정임.\r\n1.2 학생인건비 90,000 - 79,030 - 10,970 -\r\n1.3 연구장비· 재료비 7,000 - 6,450 - 550 -\r\n1.4 연구활동비 33,556 - 32,774 - 782 -\r\n1.5 연구과제추진비 7,800 - 7,170 - 630 -\r\n1.6 연구수당 11,000 - - - 11,000 -\r\n1.7 위탁연구개발비 - - - - - -\r\n2. 간접비 56,426 - 50,783 - 5,643 -\r\n2.1 인력지원비 - - - - - -\r\n2.2 연구지원비 - - - - - -\r\n2.3 성과활용지원비 - - - - - -\r\n2.4 간접비\r\n(비영리기관은 일괄기입) 56,426 - 50,783 - 5,643 -\r\n3. 이 자 - - - - - -\r\n4. 전년도 이월금 - - - - - - 합 계 270,000 53,846 229,795 48,461 40,205 5,385\r\n※ 1. 사후환급금(부가세, 관세 등)은 제외함을 원칙으로 함\r\n 2. 당초 계획 대비 사용 금액이 변경된 사항에 대해서는 증감 사유란에 구체적 표기 \r\n 3. 해당년도 사업 시작부터 진도실적보고서 제출 시점까지의 사업비 집행 내역 작성"
+  },
+  {
+    "pdf_page": 68,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 63 -\r\nⅤ. 유형적 발생품(연구시설, 연구장비 등) 구입 및 관리 현황\r\n ※구매 금액이 3천만원 이상인 연구시설ㆍ장비 구축 현황\r\n ※ 해당연도 연구개발 수행 시작부터 현 작성 시점까지 현금으로 구입한 1개(건)당 \r\n3,000만원 이상의 모든 유형적 발생품 표기\r\n연구시설 ․ 장비명 구축 금액\r\n(천원) 구축일 활용 용도 설치 장소 NTIS\r\n시설 장비 등록 번호"
+  },
+  {
+    "pdf_page": 69,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "<차년도 계획(요약서)>\r\n1. 과 제 명 (SW 스타랩) 모델 기반의 초대형 복잡 시스템 분석 및 검증 SW 개발\r\n2. 총수행기간 2015. 03. 01. - 2022. 12. 31.\r\n(94 개월) 3. 총 투입인원 총 8명\r\n4. 사업비\r\n총연구비: 2,869,028 천원\r\n정부출연금: 2,370,000 천원, 민간부담금: 499,028 천원\r\n5. 과제목표\r\n o 모델 기반 시스템 오브 시스템즈 공학 연구 개발\r\n- 시스템 오브 시스템즈(이하 SoS)란, 단일 시스템이 달성할 수 없는 목표를 달성하기 위\r\n해 개발 및 운용 주체가 다른 독립 시스템들이 서로 협력할 수 있도록 동적으로 구성된 \r\n시스템을 의미하며, SoS를 구성하는 내부 요소 시스템들을 각각 CS(Constituent System)\r\n이라 칭함\r\n- SoS를 대상으로 한 선도적인 소프트웨어 공학연구로써, SoS 모델링, 모델기반 SoS 검증,\r\nSoS 변화 대응 기법을 개발하고 세부 주제 별 공개SW 개발을 목표로 함\r\n6. 개발내용\r\n o [세부연구 1] SoS 모델링 기술 및 모델링 지원 도구 개발\r\n- SoS 모델링 지원 프로토타입 도구 개발에 앞서 시뮬레이션/검증의 대상이 될 SoS 내 CS의 행위 \r\n및 CS 간 상호작용 행위(interaction behavior) 패턴을 분석하고, SoS 정책(SoS policy) 명세 유형\r\n을 조사 및 분석\r\n- 실제 SoS 운영 사례를 바탕으로 행위 모델링과 목표 명세를 진행함으로써, 시스템 행위 및 목\r\n표 명세에 필요한 유형 및 모델링 표현력 분석\r\n- 조사 내용을 바탕으로 메타 모델 기반의 SoS 모델링 언어를 개발하고, 이를 오픈 메타모델링 \r\n플랫폼(예. OMiLab의 ADOxx Metamodelling Platform9) 등)을 활용해 모델링 및 명세 지원 프로\r\n토타입 도구 개발\r\n o [세부연구 2] SoS 모델 기반 검증 기술 및 통계적 검증 지원 도구 개발\r\n- SoS 검증 속성 22가지 분류 및 SoS 검증 속성과 목표 명세 사이의 관계에 기반한 22가지 SoS \r\n목표 명세 유형 제시\r\n- SoS 통계적 검증 프로토타입 도구의 SoS 목표 명세 유형 및 유형별 분석 알고리즘 정의\r\n- SoS 통계적 검증 프로토타입 도구의 목표 명세 유형 및 모델링 기법 확장과 ABC+ 모델링 제안\r\n- SoS 연구 기술의 통합된 연구를 위한 시뮬레이션 기반 통계적 검증 도구(SIMVA-SoS) 설계 및 \r\n공개 SW 커뮤니티에 공개\r\n o [세부연구 3] SoS 실행환경 변화 대응 기술"
+  },
+  {
+    "pdf_page": 70,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 65 -\r\n- SoS 변화가 입력으로 주어졌을 때, SoS 목표 모델 내에서 변화에 영향을 받는 목표 슬라이싱(SoS \r\ngoal model slicing) 기법 심화 및 변화에 영향을 받는 SoS 목표 산출 프로토타입 도구 개발\r\n- SoS 목표를 기반으로 SoS 검증 모델을 슬라이싱하여 검증 효율을 높일 수 있는 SoS 모델 슬라\r\n이싱(SoS model slicing) 프로토타입 도구 개발\r\n- 공개 SW R&D 전략에 따른 SoS 변화에 영향을 받는 SoS 목표 모델 및 SoS 검증 모델 슬라이싱 \r\n프로토타입 도구 공개\r\n7.과제수행방법\r\n o 본 연구실이 축적한 소프트웨어 모델링 및 검증 기술 활용\r\n- 지난 20년간 모델 기반 소프트웨어 개발 방법론, 소프트웨어 검증 등과 관련하여 수행한 다수\r\n의 연구 개발 결과 및 지식을 SoS 모델링 및 검증 기초연구에 활용\r\n- SoS는 소프트웨어 개발 패러다임 진화의 과정이며, 본 연구실은 오브젝트 기반에서 컴포넌트, 서비스 기반으로의 패러다임 이동을 위한 선도형 연구를 수행해왔음\r\n- 국내 최초로 SoS 모델링 및 검증에 대한 사전연구를 진행하고 연구 교류회 주최, 기술 보고서 \r\n발간 등 SoS 연구 경험을 활용하여 효과적인 연구 수행 가능\r\n o 연구 추진 및 연구 내용 공유 방법\r\n- 3개 핵심 기술(SoS 모델링, 모델 기반 검증, 실행환경 변화 대응)에 대하여, SoS 공학에 필수적\r\n인 핵심 특성을 중점적으로 공략하여 각각 집중적으로 연구하는 세부연구팀을 구성하고 서로가 \r\n유기적으로 협력할 수 있도록 함\r\n- SoS 관련 워크샵 개최, 학회 참석, 전문가 초청 등을 통해 최신 연구 동향 파악, 연구 결과 공\r\n유 및 관련 학회 발표등을 통한 초기 feedback을 연구 방향 개선에 적극 활용\r\n- 연구실 내부적으로는 SIG-SoS(Special Interest Group of SoS)를 운영하여 주기적으로 세계적 연\r\n구 현황과 관련 문헌을 조사 및 공유\r\n- 초기에는 일반적인 SoS를 대상으로 연구를 진행하고, 점차 특정 도메인으로 특화시켜 앞선 연\r\n구 결과를 구체적인 분야에 점진적으로 적용\r\n o 연구 개발 결과의 공개SW화 및 활성화 방법 \r\n- 연구 산출물인 공개SW에 대하여 자체 공개SW 성과지표와 정량적 평가항목을 바탕으로 자체 \r\n평가 및 외부 평가를 진행함으로 연구 성과의 객관성을 점진적으로 확보\r\n- 체계적으로 수립한 공개SW 개발 및 R&D 전략에 맞추어, 개발한 도구뿐 아니라 연구 개발 문\r\n서 및 매뉴얼을 웹사이트에 게시함으로 커뮤니티 대응 및 활성화 수행\r\n8.결과활용계획\r\n o 대형 복잡 시스템의 상호작용 모델링 및 검증에 활용\r\n- 개발 기법 및 도구를 이용하여, 운영 전 단계에서 SoS의 모델링 및 검증 수행을 통해 시스템의 \r\n안전성, 신뢰성 등의 평가가 가능\r\n- 운영 중인 SoS를 대상으로 실시간 검증을 통해 시스템의 다양한 품질을 효과적으로 평가 가능\r\n o 세계적으로 계획 단계에 있는 다양한 모델링 및 검증 신기술 연구에 활용\r\n- 현재 연구 개발 중인 모델링 및 검증 기법과 도구는 국제적으로 초보 단계에 있는 불확정성 모\r\n델링(Uncertainty Modeling)의 초기 모델로 활용 가능\r\n o 연구 개발된 기법 및 도구를 다양한 산업 분야 적용\r\n- SoS 검증 연구의 산출물인 통계적 모델 체킹 기법은 확률적/비결정적 행위를 갖는 다양한 소프\r\n트웨어 기반 시스템(예. 스마트 기기)에 활용 가능 (현재 기업체 과제 진행 중) - 대규모 소프트웨어 시스템 모델링 및 검증 기법을 활용하여, 재난 대응과 같은 국가사업 및 산\r\n업 분야에 적용 (예. 이종의 요소 시스템들의 통합을 통해 규모가 큰 재난에 대응할 수 있는 초대형 "
+  },
+  {
+    "pdf_page": 71,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 66 -\r\n9) OMiLab ADOxx Metamodelling Platform: https://www.adoxx.org/live/home\r\n시스템의 모델링과 ‘최다 환자 구조’ 등의 목표 달성률 검증 등) - IoT, 다중 에이전트 시스템(MAS), 가상 물리 시스템(CPS), 자가 적응형 시스템 등 타 도메인에 \r\nSoS 특성 기반의 연구 방법론과 기법 적용 (예. 스마트 홈 시스템, 국방 시스템, 자가 적응형 IoT 기\r\n반 무인 자율 주행 자동차)\r\n9.최종결과물 *개발될 모든 도구는 Apache License 2.0로 공개될 예정임\r\no SoS 모델링 기술 (행위 모델, 정책 기반 SoS 목표 명세 기술) - SoS의 핵심 특성을 반영한 SoS의 행위 모델링 기법 및 운용 정책(operational policy) 기\r\n반 SoS 목표 명세 기법 (SoS 목표 명세 완성도 90% 이상) - SoS 행위 모델링 및 명세 도구* (핵심 특성 커버리지 80% 이상) o SoS 모델 기반 검증 기술 (통계적 검증 기술, 런타임 검증 기술) - SoS 행위 모델 기반 통계적 검증 기법과 도구* (오류검출 정확도 90% 이상) - SoS 실행 모델 기반 런타임 검증 기법과 도구* (오류검출 정확도 80% 이상) o SoS 실행환경 변화 대응 기술 (변화 대응 최소 검증 대상 도출 기술) - SoS 변화에 대한 효율적 탐지 기법 (SoS 변화 탐지 정확도 80% 이상) - SoS 변화 대응 슬라이싱 기법 및 최소 검증 대상 추출 기법과 도구* (최소 검증 대상 \r\n모델과의 일치도 80% 이상) o 세부 연구 결과물의 공개SW화 및 커뮤니티 활성화\r\n- 연구 결과물인 공개 SW의 사용 적합도 평가 수행 (사용적합도 중상 이상) - 연구 결과물인 공개 SW 코드 및 문서 수준 평가 수행 (코드 정적 분석 및 문서 일치도 평가) - 공개 SW 커뮤니티 활성화를 위한 웹사이트 및 서버 관리\r\n10.공개SW R&D전략과 활성화 방안\r\no 공개SW R&D를 위한 개발 및 관리의 4단계를 정의하고, 이를 통해 각 도구 별 단계 상황\r\n을 점검하고 공개화 및 커뮤니티 활성화를 진행할 예정임\r\no 공개SW 활성화를 위해 (1)공개SW 사용 적합도 평가, (2)공개SW 코드 및 문서 수준 평가, \r\n(3)공개SW 커뮤니티 활성화 평가의 지표를 만들고, 각 도구 별로 평가를 진행할 예정임\r\no 공개SW의 활성화를 위해 국내외 학회지를 통해 개발된 공개SW 저장소 및 연구 성과를 홍\r\n보하고, KAIST 외부 기관 및 대학의 전문가를 초청한 워크샵을 개최함. 또한 국제적 교류\r\n를 통해 개발된 공개SW를 홍보하고 최신 공개SW 기술을 획득함"
+  },
+  {
+    "pdf_page": 72,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 67 -\r\n붙임1. 자체 보안관리 진단표\r\n구분 체크항목 결과 체크 \r\n(√표)\r\n비고\r\n(미실시 \r\n사유)\r\n보안관리\r\n체계\r\no 기관 내 보안관리규정을 제정/적용하고 있다 O(√), X( )\r\no 보안관리 조직이 있으며, 자체 보안점검실시 등 잘 \r\n운영되고 있다 O(√), X( )\r\no 보안교육을 정기적(1회이상/연)으로 실시하고 있다 O(√), X( )\r\no 보안사고에 대한 방지대책 및 비상시 대응계획이 \r\n준비되어 있다 O(√), X( )\r\n참여연구\r\n원\r\n관리\r\no 참여연구원에 대하여 보안서약서를 받았다 O(√), X( )\r\no 참여연구원에게 보안관리의 중요성 등을 인식시키고 \r\n있다 O(√), X( )\r\n연구개발\r\n내용/결과\r\n관리\r\no 주요 연구자료 및 성과물의 무단유출 방지대책을 \r\n수립하고 있다 O(√), X( )\r\no 보안성 검토 방법 및 절차를 이행하고 있다 O(√), X( )\r\no 기술이전 관련 내부규정 및 절차를 준수하고 있다 O(√), X( )\r\n연구시설\r\n관리\r\no 연구시설 보안관련 내부규정 또는 지침을 이행하고 있다 O(√), X( )\r\no 주요 시설에는 보안장비가 설치되어 있다 O(√), X( )\r\no 보호구역이 지정되어 있다 O(√), X( )\r\n정보통신\r\n망\r\n관리\r\no 정보통신망 보안관련 내부규정 또는 지침이 구비되어 \r\n있다 O(√), X( )\r\no 보안관리 책임자의 승인 항목이 구분되어 있다 O(√), X( )\r\no 주요 데이터에 대해 백업을 실시하고 있다 O(√), X( )\r\no 개인용 정보통신장비(노트북, USB메모리)에 대하여 \r\n인가/관리중이다 O(√), X( )\r\no 전산망 보호를 위한 HW 및 SW 등을 도입하여 적용하고 \r\n있다 O(√), X( )\r\no 직책, 임무별 열람 권한을 차등화하여 부여하고 있다 O(√), X( )"
+  },
+  {
+    "pdf_page": 73,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 68 -\r\n구분 체크항목 결과 체크 \r\n(√표)\r\n비고\r\n(미실시 \r\n사유)\r\n보안관리\r\n체계\r\no 기관 내 보안관리규정을 제정/적용하고 있다 O(√), X( )\r\no 보안관리 조직이 있으며, 자체 보안점검실시 등 잘 \r\n운영되고 있다 O(√), X( )\r\no 보안교육을 정기적(1회이상/연)으로 실시하고 있다 O(√), X( )\r\no 보안사고에 대한 방지대책 및 비상시 대응계획이 \r\n준비되어 있다 O(√), X( )\r\n참여연구\r\n원\r\n관리\r\no 참여연구원에 대하여 보안서약서를 받았다 O(√), X( )\r\no 참여연구원에게 보안관리의 중요성 등을 인식시키고 \r\n있다 O(√), X( )\r\n연구개발\r\n내용/결과\r\n관리\r\no 주요 연구자료 및 성과물의 무단유출 방지대책을 \r\n수립하고 있다 O(√), X( )\r\no 보안성 검토 방법 및 절차를 이행하고 있다 O(√), X( )\r\no 기술이전 관련 내부규정 및 절차를 준수하고 있다 O(√), X( )\r\n연구시설\r\n관리\r\no 연구시설 보안관련 내부규정 또는 지침을 이행하고 있다 O(√), X( )\r\no 주요 시설에는 보안장비가 설치되어 있다 O(√), X( )\r\no 보호구역이 지정되어 있다 O(√), X( )\r\n정보통신\r\n망\r\n관리\r\no 정보통신망 보안관련 내부규정 또는 지침이 구비되어 \r\n있다 O(√), X( )\r\no 보안관리 책임자의 승인 항목이 구분되어 있다 O(√), X( )\r\no 주요 데이터에 대해 백업을 실시하고 있다 O(√), X( )\r\no 개인용 정보통신장비(노트북, USB메모리)에 대하여 \r\n인가/관리중이다 O(√), X( )\r\no 전산망 보호를 위한 HW 및 SW 등을 도입하여 적용하고 \r\n있다 O(√), X( )\r\no 직책, 임무별 열람 권한을 차등화하여 부여하고 있다 O(√), X( )"
+  },
+  {
+    "pdf_page": 74,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 69 -\r\n붙임2. 연구실 안전조치 이행표\r\n구분 주요내용 일시\r\n비고\r\n(미실시 \r\n사유)\r\n안전관련\r\n교육 및 \r\n훈련\r\nKAIST 자체 연구실 안전조치 이행 계획에 따라 안전 교육 \r\n및 점검을 시행 -\r\n연구실 \r\n안전진단 \r\n및 검사\r\nKAIST 자체 연구실 안전조치 이행 계획에 따라 안전 교육 \r\n및 점검을 시행 -\r\n연구내용 \r\n및 시설\r\n안전조치\r\n근무 메뉴얼내 보안규정과 출입통제 규정에 따라 연구실은 \r\n시건장치를 통하여 출입자를 통제함 수시점검\r\nPC보안을 위한 백신 및 프로그램 설치 확인 수시점검\r\n업무용 pc 대상 보안 소프트웨어 설치 및 업데이트 수시점검\r\n기타\r\n안전조치 \r\n이행내용\r\n문서 보안을 위해 파쇄기 사용 -"
+  },
+  {
+    "pdf_page": 75,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 70 -\r\n주 의\r\n 1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신․방송연구개발사업 보고서\r\n이다.\r\n 2. 이 기술개발내용을 대외적으로 발표할 때에는 반드시 과학기술정보통신부\r\n에서 시행한 정보통신․방송연구개발사업의 결과임을 밝혀야 한다."
+  }
+]

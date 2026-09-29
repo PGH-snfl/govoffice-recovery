@@ -1,0 +1,427 @@
+[
+  {
+    "pdf_page": 8,
+    "text": "그림 1. 가트너 2018 상위 10 전략 기술 그림",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 2. 성능 및 보안 SLA 보장이 가능한 차세대 클라우드 인프라SW",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 3. SSD 컨트롤러와 여러 플래시 메모리 칩으로",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 4. 플래시 장치를 위한 I/O 스케줄러 구조 그림 5. I/O 스케줄러의 주요 동작 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 6. 새로운 I/O 스케줄러의 성능 차별화 실험 결과. (a) 대역폭, (b) IOPS, (c) 응답 시간",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 7의 (b)에서 보듯 첫 번째 시나리오에서 약 700 정도의 IOPS를 보이던 VM2가 두 번째",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 7. 새로운 I/O 스케줄러의 요구 성능 달성 정도를 세 가지 시나리오로 실험한 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 8. ANCS 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 9. 알고리즘 순서도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 10. ANCS 성능 평가 실험 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 10.(b)는 VM1에 대해 최대 대역폭을 500Mbps로 제한했을 때의 실험 결과임. 이 경우",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "표 3. 시나리오별 가상 머신에서 실행되는 작업 및 요구 성능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 11과 12는 시나리오 1의 실험 결과이다. 시나리오 1은 I/O 작업을 수행하는 가상 머신이",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 11. 시나리오 1에 대한 가상 머신 성능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 12. 시나리오 1에 대한 SLA 만족도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 13. 시나리오 2에 대한 가상 머신 성능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 14. 시나리오 2에 대한 SLA 만족도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 14는 시나리오 2에서 각 가상 머신의 요구 성능에 대한 SLA 만족도를 나타내고 있음. 시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 15. 시나리오 1에 대한 CPU 점유율 및",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 16. 시나리오 2에 대한 CPU 점유율 및",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 15를 보면 I/O 작업을 수행하는 가상 머신이 단독으로 존재할 경우 CPU 자원을 약 650%",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "그림 17. GoS 프레임 워크 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "그림 17은 본 논문에서 제안하는 GoS 프레임 워크의 구조임. GoS 프레임 워크는 I/O 스케줄러",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "그림 18. 통합스케줄러 동작 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "그림 19. Stella-Horizon 화면 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 20. Stella-OpenStack의 구조 및 다른 컴포넌트와의 관계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 21. Horizon에서 보는 가상머신 이름과 하이퍼바이저에서 가상머신 이름의 차이",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 22. 스텔라 오픈스택 연동 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 23. 1단계 연구 결과물 공인시험 결과서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 24. 기존 스케줄링 기법과 IReS 방식 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 25. 가상머신에 할당되는 CPU 자원 (vCPU CPU limit)에 따른 패킷 처리",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 26. 기존 오픈스택에서의 작업 분배 알고리즘 도식화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "그림 27. 기존 오픈스택 가상머신 생성 동작 순서와 IReS 적용을 위한 동작 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 28. 하이퍼레저의 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "그림 29. 하이퍼레저 패브릭 네트워크의 거래 처리 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 30. first network 실행 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "그림 31. first network 동작 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "그림 32. 컨테이너별 CPU 사용량",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "표 5. 컨테이너별 메모리 사용량",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "그림 33. 트랜잭션 요청 수 증가에 따른 Transfer, Query의 성능 변화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 34. 패브릭 네트워크 노드 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "그림 35. 쿠버네티스 기반 보안 SLA 감사 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 36. 하이퍼레저 캘리퍼의 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 37. 하이퍼레저 패브릭에서의 Kafka 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 38. 하이퍼레저 패브릭에서의 Raft 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 39. 멀티 시스템 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 40. 작업 처리량",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 41. 지연시간",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 40과 41은 각각 로컬 시스템과 멀티 시스템에서 Raft와 Kafka로 구성된 오더링 서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 42. CPU 사이클",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 42는 로컬 시스템과 멀티 시스템에서 Raft와 Kafka 오더링 서비스 노드의 CPU 사",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 43. 통신 작업 처리량",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 44. 통신 작업 처리량",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 43과 44는 로컬 시스템과 멀티 시스템에서 Raft와 Kafka의 통신 작업 처리량 (TX,",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "그림 45. 보안 SLA 감사 모듈 (QiOi) 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 46. QiOi 모듈의 성능 평가 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 46과 동일한 환경에서 실행한 결과 종전의 성능 저하를 완전히 개선하였을 뿐만 아니라,",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "그림 47. 이종워크로드 성능 측정 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "표 7는 Alone과 Together에서 측정한 각 워크로드의 time slice를 나타냄. 먼저, Alone에서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "그림 48. 이종 워크로드의 스케줄링 지연과 문맥 교환",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "그림 48는 Alone과 Together에서 측정한 평균 스케줄링 딜레이와 초당 컨텍스트 스위치 수를",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "그림 49. 하이퍼레저 패브릭 구성요소 단위 성능 간섭 프로파일링 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 65,
+    "text": "그림 50. 실험 환경 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 51. 이진 트리에서의 플로우 엔트리 수 측정 그림 52. 액션 처리 지연시간",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 53. Flo-v 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "그림 54. vSDN에서 측정된 네트워크 통계 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "그림 55. 네트워크 하이퍼바이저 지연시간",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "그림 56. 실험에 사용한 네트워크 토폴로지",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "그림 57. 통계 전송 지연 시간의 평균",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 58. 컨트롤 채널 트래픽 사용량",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "그림 59. CPU 사용량",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "그림 60. 컨테이너 환경에서 네트워크 처리에",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "그림 62. SCON에서의 최적화된 Netfilter 프로세스. Contable. 그림 63. SCON에서의 최적화된 Netfilter 프로세스. Confilter.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 64. native container 환경과 SCON에서의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 65. 패킷 처리시간",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 66. CPU 사용량 비교분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 78,
+    "text": "그림 67. 기계학습 회귀 알고리즘 별 실제 CPU 사용량과 예측 CPU 사용량",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 78,
+    "text": "표 9. 기계학습 회귀 알고리즘 별 RMSLE, RMSE",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "그림 68. 본 연구(TS)와 통신 제어 기법(tc)과의 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "그림 69. 본 연구(TS)와 CPU 우선순위 지정 기법(PR)과의 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "그림 70에서는 네트워크 기반 VM(network-bound VM)들이 네트워크 기반이 아닌 VM에 어떤",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 70. sysbench CPU 테스트를 실행하는 CPU 기반 VM(CPU-bound VM)을 추가하여",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 71은 본 연구가 다른 워크로드에 적용 가능하다는 것을 보여줌. 그림 71은 세 가지 애플",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 71. 다른 워크로드에 적용 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "그림 72. CPU 사용량 예측 지연 시간 (N은 사용자 요청 수)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

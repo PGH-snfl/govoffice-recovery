@@ -9,5 +9,4 @@
 
 새 프로젝트는 복구 패키지를 직접 참조하지 않는다. 연결이 필요할 때는
 `new_project/src/govoffice/adapters/recovered_hwp.py`를 통한다. 이 규칙은
-`new_project/tests/test_architecture.py`에서 자동 검사한다.
-
+`new_project/development/tests/test_architecture.py`에서 자동 검사한다.

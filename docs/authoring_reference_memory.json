@@ -1,0 +1,1358 @@
+{
+  "saved_on": "2026-09-25",
+  "purpose": "사용자가 과제 내용을 제공하면 분야·과제 성격·소주제에 맞는 실제 작성 사례의 전개 방식을 적용하기 위한 프로젝트 기억. 프로그램 자동 연결은 미구현.",
+  "count": 90,
+  "input_prompts_note": "다음 질문들은 조사자가 제안한 입력 항목이다. 원문에서 추출한 공식 작성요령이나 매번 모두 물어야 할 필수 질문이 아니다. 제공된 자유서술에서 먼저 채운다.",
+  "records": [
+    {
+      "id": "S01",
+      "title": "차세대 AI 반도체와 양자 컴퓨터 소재개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400004469",
+      "task_type": "AI·소재",
+      "content": "강유전체·상변화·스핀 소재와 양자 소재를 이론 예측, 소재 제작, 소자 검증으로 연결한다.",
+      "observed_pattern": "협력기관별 강점을 연구 단계에 배치하여 국제협력의 필요성과 역할을 설명한다.",
+      "section_use": "선행역량·추진체계",
+      "input_prompts": [
+        "소재와 목표 소자",
+        "이론·제작·측정 방법",
+        "참여기관의 실제 역할"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S02",
+      "title": "자율성장형 복합인공지능 원천기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400004867",
+      "task_type": "AI·플랫폼",
+      "content": "지식학습, 상호작용에 따른 지식 성장, 상황을 이해하는 통합 시스템을 단계적으로 다룬다.",
+      "observed_pattern": "개별 알고리즘과 통합 시제품을 구분하고 단계가 올라갈 때 기능과 검증 범위를 넓힌다.",
+      "section_use": "단계별 목표·연구내용",
+      "input_prompts": [
+        "데이터와 해결할 지능 과제",
+        "알고리즘·통합 기능",
+        "단계별 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S03",
+      "title": "인공지능 기반 신약 개발 통합 플랫폼 개발 및 신약후보물질 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300014118",
+      "task_type": "AI·신약",
+      "content": "유전체 분석, 단백질 구조 예측, 후보물질 설계·최적화, 실험 검증을 연결한다.",
+      "observed_pattern": "플랫폼이라는 큰 목표를 입력 자료부터 최종 후보물질까지의 작업 흐름으로 분해한다.",
+      "section_use": "세부 연구내용·검증",
+      "input_prompts": [
+        "표적·후보물질·자료",
+        "예측·설계 방법",
+        "실험 검증 범위"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S04",
+      "title": "인공지능을 이용한 구조기반 신약개발 기술 최적화",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300014137",
+      "task_type": "AI·신약",
+      "content": "보유한 구조 예측·도킹 기술에서 후보물질 탐색과 실험 검증으로 나아간다.",
+      "observed_pattern": "선행 성과를 단순 실적 나열이 아니라 이번 연구를 수행할 수 있다는 근거로 배치한다.",
+      "section_use": "선행연구·실현가능성",
+      "input_prompts": [
+        "표적·후보물질·자료",
+        "예측·설계 방법",
+        "실험 검증 범위"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S05",
+      "title": "6G 무선 네트워크를 위한 설명가능한 지능형 무선 자원 관리 기법 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400006707",
+      "task_type": "통신",
+      "content": "설명 가능한 무선 자원 관리 문제를 단일 셀, 다중 셀 간섭, 대규모 분산 환경으로 확장한다.",
+      "observed_pattern": "연차가 바뀔 때 동일 과업을 반복하지 않고 환경 복잡도와 해결 범위를 높인다.",
+      "section_use": "연차별 목표·차별성",
+      "input_prompts": [
+        "통신 환경·규모·제약",
+        "개발할 알고리즘·장치",
+        "성능 조건과 단계 확대"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S06",
+      "title": "밀리미터파 5G 이동통신 시스템 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100008583&dbt=TRKO",
+      "task_type": "통신",
+      "content": "밀리미터파 전송 시스템을 기지국·단말·전송망 구성요소와 통합 시스템으로 나눈다.",
+      "observed_pattern": "전송률만 적지 않고 주파수, 이동 조건, 지연시간 등 성능이 성립하는 조건을 함께 제시한다.",
+      "section_use": "정량목표·실증조건",
+      "input_prompts": [
+        "통신 환경·규모·제약",
+        "개발할 알고리즘·장치",
+        "성능 조건과 단계 확대"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S07",
+      "title": "새로운 양자암호통신 프로토콜 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007095",
+      "task_type": "양자통신",
+      "content": "새로운 양자암호통신 절차의 보안성과 잡음 환경에서의 동작을 검토한다.",
+      "observed_pattern": "이론적 절차 제안과 현실 잡음 조건에서의 검증을 분리해 원리와 적용 가능성을 설명한다.",
+      "section_use": "연구방법·검증환경",
+      "input_prompts": [
+        "통신 절차와 보안 가정",
+        "잡음·거리 등 조건",
+        "이론·실험 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S08",
+      "title": "인공지능을 위한 양자컴퓨팅 기초 원천 기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400003826",
+      "task_type": "양자컴퓨팅",
+      "content": "큐비트 생성·제어, 오류 정정, 알고리즘, 응용 서비스를 세부과제로 구성한다.",
+      "observed_pattern": "하드웨어·오류 제어·계산·응용의 연결 관계와 연차별 규모 확대를 동시에 제시한다.",
+      "section_use": "세부과제 구성·연차계획",
+      "input_prompts": [
+        "큐비트·오류·계산 자원",
+        "알고리즘·응용",
+        "연차별 확장과 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S09",
+      "title": "SiC 기반 트렌치형 차세대 전력소자 핵심기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201900002135",
+      "task_type": "반도체",
+      "content": "실리콘 전력소자의 한계에서 탄화규소 소재와 트렌치 소자의 필요성을 도출한다.",
+      "observed_pattern": "에너지 수요와 기존 기술 한계, 대체 소재 장점, 국내 기술 확보 필요성 순으로 필요성을 좁힌다.",
+      "section_use": "필요성·국내외 동향",
+      "input_prompts": [
+        "소재·구조·공정 변수",
+        "소자·회로 목표",
+        "기존 기준과 신뢰성 평가"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S10",
+      "title": "IoT 기기용 차세대 절연막 기반 고신뢰성 산화물 반도체 소자(TFT/Memory) 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300000027",
+      "task_type": "반도체",
+      "content": "절연막과 처리 조건을 바꾸면서 산화물 소자의 성능과 신뢰성을 비교한다.",
+      "observed_pattern": "어떤 공정 변수를 바꾸고 어떤 전기적 특성을 비교하는지를 대응시켜 방법을 설명한다.",
+      "section_use": "실험설계·비교기준",
+      "input_prompts": [
+        "소재·구조·공정 변수",
+        "소자·회로 목표",
+        "기존 기준과 신뢰성 평가"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S11",
+      "title": "재구성로직 아키텍처 기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200012003",
+      "task_type": "반도체",
+      "content": "재구성 소자에서 회로·구조·시뮬레이터·시제품으로 이어지는 개발을 다룬다.",
+      "observed_pattern": "기존 구조 대비 성능·전력과 검증 도구를 함께 적어 목표의 비교 기준을 명시한다.",
+      "section_use": "정량목표·시스템 통합",
+      "input_prompts": [
+        "소재·구조·공정 변수",
+        "소자·회로 목표",
+        "기존 기준과 신뢰성 평가"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S12",
+      "title": "차세대 디스플레이를 위한 초미세 고품질 마이크로-LED 소자 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100011671",
+      "task_type": "반도체·타부처 비교",
+      "content": "초미세 발광소자를 위한 성장·패터닝·픽셀·배열 기술을 다룬다.",
+      "observed_pattern": "최종 디스플레이 목표를 제조 공정과 소자 단위의 해결 과제로 분해한다.",
+      "section_use": "공정별 연구내용",
+      "input_prompts": [
+        "성장·패터닝·픽셀 요구",
+        "제조 공정",
+        "소자·배열 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S13",
+      "title": "종양 미세환경 표적 및 감응형 정밀 바이오-나노메디신 연구단",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100016600",
+      "task_type": "바이오·치료",
+      "content": "종양 표적 기술, 약물 전달 기술, 종양 모사 평가 기술을 구분한다.",
+      "observed_pattern": "표적과 전달체와 평가체계를 따로 개발하되 실제 치료 검증에서 결합한다.",
+      "section_use": "세부과제 연결·단계 검증",
+      "input_prompts": [
+        "표적·환자군·평가모델",
+        "치료·전달 방법",
+        "단계별 효능·비교 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S14",
+      "title": "고형암의 다항원을 표적으로 하는 CAR-T 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400008561",
+      "task_type": "바이오·치료",
+      "content": "고형암의 치료 장애 요인을 제시한 뒤 복수 항원 표적 세포치료제를 구성한다.",
+      "observed_pattern": "치료 한계에서 표적 선정 이유를 도출하고 제작·표적 확인·살상능 검증 순으로 풀어 쓴다.",
+      "section_use": "문제 정의·실험 순서",
+      "input_prompts": [
+        "표적·환자군·평가모델",
+        "치료·전달 방법",
+        "단계별 효능·비교 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S15",
+      "title": "액체생검기반 맞춤형 암 진단 및 치료 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202000006778",
+      "task_type": "바이오·진단",
+      "content": "센서, 유전자 증폭 장치, 약물 전달, 환자 시료 분석을 통해 암 진단·치료 접근을 검증한다.",
+      "observed_pattern": "장치·분석법 개발과 실제 환자 시료에서의 검증을 함께 제시한다. 짧은 공개 초록이므로 상세 실험 절차는 판단하지 않았다.",
+      "section_use": "시료 규모·검증 근거",
+      "input_prompts": [
+        "검체·진단 대상",
+        "센서·분석 방법",
+        "시료 확보와 검증 범위"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S16",
+      "title": "대장암 환자유래오가노이드 기반 면역관문억제제 치료 증진을 위한 바이오마커 발굴",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200014051",
+      "task_type": "바이오·치료",
+      "content": "환자 유래 오가노이드를 확보하고 유전체·전사체 특성과 약물 반응을 분석한다.",
+      "observed_pattern": "평가 모델 구축, 원래 환자 특성 재현 확인, 집단별 분류, 약물 반응 검증 순으로 근거를 쌓는다.",
+      "section_use": "검증 모델·대상 집단",
+      "input_prompts": [
+        "표적·환자군·평가모델",
+        "치료·전달 방법",
+        "단계별 효능·비교 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S17",
+      "title": "고효율 수소 생산을 위한 탄소점 기반 나노복합 촉매 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400008260",
+      "task_type": "에너지·소재",
+      "content": "탄소점 복합 촉매의 조성과 구조를 조절하고 수소 생산 및 내구성을 확인한다.",
+      "observed_pattern": "소재 설계 이유와 반응 성능·장기 안정성·기존 촉매 비교를 연결한다.",
+      "section_use": "소재 설계·검증지표",
+      "input_prompts": [
+        "소재 조성·구조",
+        "반응 환경",
+        "성능·안정성·비교 평가"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S18",
+      "title": "탄소중립을 위한 암모니아 기반 청정 수소 생산 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300004512",
+      "task_type": "에너지·수소",
+      "content": "기업의 신사업 수요를 무탄소 열원, 암모니아 분해, 공정 설계 과제로 나눈다.",
+      "observed_pattern": "수요기업의 현재 문제에서 필요한 기술을 도출하고 기술개발이 사업 활용으로 이어지게 쓴다.",
+      "section_use": "수요 기반 필요성·활용",
+      "input_prompts": [
+        "수요 현장과 공정 문제",
+        "열원·반응·공정 설계",
+        "실증·활용 조건"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S19",
+      "title": "CO2 직접수소화 촉매 및 공정 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202000003781",
+      "task_type": "에너지·탄소",
+      "content": "이산화탄소 전환을 생성물별 촉매·공정으로 나누고 경제성 분석을 연결한다.",
+      "observed_pattern": "전환율·선택도·수율을 구분하여 반응 성능을 설명하고 공정 수준의 판단으로 확장한다.",
+      "section_use": "정량지표·공정 평가",
+      "input_prompts": [
+        "생성물과 촉매",
+        "반응·공정 조건",
+        "전환율·선택도·경제성 평가"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S20",
+      "title": "촉매 활성점 이해를 통한 고성능 비백금계 산소환원반응 촉매 설계",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100019409",
+      "task_type": "에너지·촉매",
+      "content": "백금 비용과 비백금 촉매의 성능 한계를 제시하고 활성점 설계·합성·전지 검증을 다룬다.",
+      "observed_pattern": "실험실 전극의 성능과 실제 전지의 성능 차이를 연구 문제로 삼아 단계별 검증을 구성한다.",
+      "section_use": "기술적 한계·규모 확대",
+      "input_prompts": [
+        "촉매 비용·성능 한계",
+        "활성점·합성 방법",
+        "전극에서 전지로의 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S21",
+      "title": "고속 자율주행 배달로봇의 동적균형제어에 관한 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200014362",
+      "task_type": "로봇",
+      "content": "고속 배달로봇에서 적재물과 주행에 따른 흔들림·균형 문제를 다룬다.",
+      "observed_pattern": "이동 기반 구축, 진동 억제, 통합 제어로 연차를 연결한다.",
+      "section_use": "문제 구체화·연차계획",
+      "input_prompts": [
+        "로봇·적재·주행 환경",
+        "균형·제어 방법",
+        "연차별 통합과 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S22",
+      "title": "인지, 판단, 제어 알고리즘 검증 시뮬레이션 및 데이터셋 생성용 SW기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004867",
+      "task_type": "자율주행",
+      "content": "도로·센서·주행 객체를 모사하고 알고리즘 검증과 학습용 자료 생성을 지원한다.",
+      "observed_pattern": "최종 산출물을 센서 모사기, 저작도구, 자료집, 검증 장치, 통합 플랫폼으로 명시한다.",
+      "section_use": "산출물·기능 명세",
+      "input_prompts": [
+        "주행 환경과 제한",
+        "인지·판단·제어·통신 기능",
+        "모의·현장 검증 조건"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S23",
+      "title": "고정밀 맵 음영 환경의 완전자율주행 네비게이션 인공지능 기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004830",
+      "task_type": "자율주행",
+      "content": "정밀 지도가 없는 포장·비포장 환경의 주행을 위해 인지·경로·위험 판단을 개발한다.",
+      "observed_pattern": "적용하지 못하던 환경을 먼저 한정하고 그 환경에 필요한 인지와 판단 과제를 제시한다.",
+      "section_use": "적용 범위·차별성",
+      "input_prompts": [
+        "주행 환경과 제한",
+        "인지·판단·제어·통신 기능",
+        "모의·현장 검증 조건"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S24",
+      "title": "협력적 AI 기반의 고신뢰 원격 자율주행 모빌리티 서비스 시스템",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004210",
+      "task_type": "자율주행",
+      "content": "원격 운전자와 자율주행 인공지능의 협력, 통신 품질과 보안, 현장 실증을 다룬다.",
+      "observed_pattern": "알고리즘만이 아니라 원격 지원과 네트워크 조건을 포함한 서비스 시스템으로 설명한다.",
+      "section_use": "시스템 구성·현장 검증",
+      "input_prompts": [
+        "주행 환경과 제한",
+        "인지·판단·제어·통신 기능",
+        "모의·현장 검증 조건"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S25",
+      "title": "스마트 컨트랙트 프라이버시 보호 및 취약점 분석 기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100009151",
+      "task_type": "보안",
+      "content": "스마트 계약의 정보 보호와 취약점 분석 도구를 개발한다.",
+      "observed_pattern": "위협 분석, 기초 분석 구조, 보호 절차·분석기 구현, 통합 모듈 검증으로 연차를 나눈다.",
+      "section_use": "위협 정의·도구 산출물",
+      "input_prompts": [
+        "위협과 보호 대상",
+        "분석·방어 방법",
+        "도구·시험·운영 범위"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S26",
+      "title": "자동화 기반 과학기술정보보호서비스",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100005920",
+      "task_type": "보안·운영",
+      "content": "보안 위협 자료의 분석과 대응 자동화, 관련 기관 지원을 다룬다.",
+      "observed_pattern": "탐지 알고리즘뿐 아니라 분석·대응·공유·운영으로 이어지는 서비스 업무를 설명한다.",
+      "section_use": "서비스 흐름·운영 활용",
+      "input_prompts": [
+        "위협 자료와 대응 업무",
+        "자동화·공유 기능",
+        "운영 주체와 평가"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S27",
+      "title": "초연결 기반 대국민 서비스·인프라의 암호화 공격에 대비한 행위기반 보안관제 기술개발 및 공유·협력 플랫폼 구축",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200007922",
+      "task_type": "보안·기획성 자료",
+      "content": "암호화된 공격을 복호화 없이 행동 특성으로 탐지하고 분야별 공유·대응을 구성한다.",
+      "observed_pattern": "개인정보·성능 제약에서 기술 선택 이유를 도출하고 여러 기반시설의 협력 구조로 확장한다. 사업 기획 성격의 설명을 실제 구현 실적으로 혼동하면 안 된다.",
+      "section_use": "기획 논리·협력체계",
+      "input_prompts": [
+        "문제·환경·사업 범위",
+        "기술·기관별 역할",
+        "향후 실증과 기획 산출물"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S28",
+      "title": "사물인터넷 환경을 위한 첨단 보안 기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100021550",
+      "task_type": "보안",
+      "content": "사물인터넷 보안 문제를 여러 기술 분야로 나누고 검증 기반과 국제협력을 연결한다.",
+      "observed_pattern": "분야별 기초 분석, 지표·모델 개발, 도구화·시험 적용을 단계적으로 적는다.",
+      "section_use": "세부 연구축·시험 기반",
+      "input_prompts": [
+        "위협과 보호 대상",
+        "분석·방어 방법",
+        "도구·시험·운영 범위"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S29",
+      "title": "디지털 트윈 기반의 예측 및 능동대처가 가능한 화재재난지원 통합플랫폼 기술 개발 공동기획연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201900002686",
+      "task_type": "재난·공동기획",
+      "content": "전통시장·지하 공동구 등의 화재 상황을 가상 모형과 연결하여 예측·대응 체계를 기획한다.",
+      "observed_pattern": "현장과 재난 상황을 먼저 정하고 자료 수집·모사·판단·대응 기능을 배치한다. 제목에 공동기획연구가 명시되어 있다.",
+      "section_use": "기획형 필요성·사용 시나리오",
+      "input_prompts": [
+        "현장·재난 시나리오",
+        "수집·모사·대응 기능",
+        "기관별 역할과 후속 계획"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S30",
+      "title": "미래도시 복합재난관리 디지털 플랫폼 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400000789&dbt=TRKO",
+      "task_type": "재난·기획성 자료",
+      "content": "도시의 복합적인 재난 위험과 기존 대응의 한계를 디지털 플랫폼 개발 필요성으로 연결한다.",
+      "observed_pattern": "기후·도시 환경 변화와 위험의 연쇄성을 먼저 설명한다. 공개 요약에서 확인한 기획 논리 중심이며 구현 완료 여부를 추정하지 않았다.",
+      "section_use": "환경 변화·복합 문제 정의",
+      "input_prompts": [
+        "복합재난과 현재 대응 한계",
+        "개발할 플랫폼 기능",
+        "기획 범위와 후속 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S31",
+      "title": "생활안전 예방서비스를 위한 지능형 플랫폼 기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400012006",
+      "task_type": "재난·타부처 비교",
+      "content": "생활안전 관련 자료 수집과 지능형 서비스 제공, 지역 실증·확산을 다룬다.",
+      "observed_pattern": "기능 산출물뿐 아니라 설계서·시험 결과·실증 범위를 함께 제시한다.",
+      "section_use": "산출물 증빙·실증 확대",
+      "input_prompts": [
+        "서비스 대상과 자료",
+        "기능·증빙 산출물",
+        "지역 실증·확산 범위"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S32",
+      "title": "대국민 차세대 통합 예경보 플랫폼 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200013141",
+      "task_type": "재난·서비스",
+      "content": "여러 경보 매체와 기존 체계를 연계하는 통합 예경보 플랫폼을 개발한다.",
+      "observed_pattern": "기존 연계 규격, 모듈 설계, 시제품, 연동 시험, 시범 운영, 개선을 순서대로 배치한다.",
+      "section_use": "기존 시스템 연계·서비스 검증",
+      "input_prompts": [
+        "경보 대상·매체·기존 체계",
+        "연결 규격·모듈",
+        "연동시험·시범운영"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S33",
+      "title": "우주망원경 기반 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100006588",
+      "task_type": "우주",
+      "content": "우주 관측 임무에 필요한 망원경·광학·기계·열 환경 기반 기술을 다룬다.",
+      "observed_pattern": "관측 목적에서 장비 요구조건을 도출하고 핵심 부품과 우주 환경 검증으로 연결한다.",
+      "section_use": "임무·요구조건·환경시험",
+      "input_prompts": [
+        "관측 임무",
+        "광학·기계·열 요구조건",
+        "통합·환경시험"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S34",
+      "title": "인체 신경 회로망 연구-초고해상도 신경 회로망 연구 Project",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200016934",
+      "task_type": "뇌과학",
+      "content": "기존 뇌 신경 연결 영상의 해상도 한계와 고해상도 분석·인지 연구 활용을 다룬다.",
+      "observed_pattern": "측정 한계, 개선할 측정·처리 방법, 새롭게 관찰할 대상 순으로 연구 가치를 설명한다.",
+      "section_use": "측정 기술·학술적 기여",
+      "input_prompts": [
+        "측정할 연결·해상도 한계",
+        "측정·처리 방법",
+        "인지 연구 활용 범위"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S35",
+      "title": "뇌 감각통합 및 학습 원리 기반의 스파이크 신경망 개발을 통한 다중 감각의 통합적 자율 인지 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400005981",
+      "task_type": "뇌모사 AI",
+      "content": "감각통합·학습 원리를 조사하여 스파이크 신경망과 다중 감각 인지 기술로 연결한다.",
+      "observed_pattern": "생물학적 원리와 계산 모형, 학습 방법, 인지 기능 사이의 연결을 단계적으로 제시한다.",
+      "section_use": "융합 논리·모형화",
+      "input_prompts": [
+        "참고할 감각·학습 원리",
+        "계산 모형·자료",
+        "인지 기능과 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S36",
+      "title": "뇌 신경회로의 대용량 전기신호 처리 알고리즘 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100015969",
+      "task_type": "뇌신호 처리",
+      "content": "다중 전극에서 나온 대용량 신경신호의 잡음 제거·분류·발생 위치 추정을 다룬다.",
+      "observed_pattern": "자료 생성·전처리, 신호 분류, 대규모 확장, 위치 해석으로 처리 흐름을 분해한다.",
+      "section_use": "자료 처리 흐름·검증 환경",
+      "input_prompts": [
+        "전극·신호·잡음 조건",
+        "분류·위치 해석 방법",
+        "모의·실측 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S37",
+      "title": "Amyloid precursor protein에 의한 억제성 신경회로 발달 기전 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300008144",
+      "task_type": "기초생명과학",
+      "content": "특정 단백질의 상호작용과 억제성 신경회로 발달 기능을 실험한다.",
+      "observed_pattern": "분자적 질문에서 세포·동물 수준 검증으로 나아가며 치료제 완성 대신 발병 기전 이해를 기여로 설명한다.",
+      "section_use": "가설·기전 검증·기대효과",
+      "input_prompts": [
+        "연구 질문·가설",
+        "분자·세포·동물 실험",
+        "기전 해석과 후속 활용"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S38",
+      "title": "딥러닝 알고리즘을 이용한 12리드 심전도에서 심방세동 예측 자동화 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100015922",
+      "task_type": "의료 AI",
+      "content": "일반 심전도에서 심방세동 위험을 예측할 수 있는 학습 모형을 다룬다.",
+      "observed_pattern": "임상적으로 놓치기 쉬운 문제를 제시하고 대상 집단·자료·예측 모형으로 구체화한다.",
+      "section_use": "임상 문제·데이터 집단",
+      "input_prompts": [
+        "임상 문제·대상 집단",
+        "자료·변수·예측모형",
+        "비교와 임상 적용"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S39",
+      "title": "기계학습법을 활용한 심정지환자의 발생 및 예후 예측프로그램 개발 및 전자의무기록시스템 적용",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100015880",
+      "task_type": "의료 AI",
+      "content": "심정지 발생·예후 예측과 임상 정보 시스템 활용을 다룬다.",
+      "observed_pattern": "자료 정리, 변수와 집단 정의, 여러 모형 비교, 임상 활용으로 전개한다.",
+      "section_use": "비교 실험·현장 적용",
+      "input_prompts": [
+        "임상 문제·대상 집단",
+        "자료·변수·예측모형",
+        "비교와 임상 적용"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "S40",
+      "title": "농업 로봇의 시각 지능화를 위한 다차원 객체 인식 기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400012390",
+      "task_type": "농업·타부처 비교",
+      "content": "작물의 생육지표를 영상으로 읽고 로봇 팔의 측정 동작과 연결한다.",
+      "observed_pattern": "작물 특성·인식 대상 선정, 영상 자료, 인식 알고리즘, 로봇 동작 순으로 과업을 구성한다.",
+      "section_use": "대상 정의·인식과 제어 연결",
+      "input_prompts": [
+        "작물·생육지표·환경",
+        "영상·인식 방법",
+        "로봇 제어와 검증"
+      ],
+      "evidence_scope": "공개 보고서 요약문 중심; 과제 당시 제출계획서 원본 아님"
+    },
+    {
+      "id": "I01",
+      "title": "초연결·초정밀 네트워크를 위한 인공지능 기반 6G 이동통신 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300011370",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "기계·로봇 중심 통신의 지연·신뢰도 요구를 제시하고 자원 배분, 접속, 반사면 제어 등을 나눈다.",
+      "observed_pattern": "서비스 요구조건 → 통신 세부 문제 → 학습 기반 해결 방법 → 목표별 결과 대응.",
+      "section_use": "필요성·세부목표",
+      "input_prompts": [
+        "적용 서비스와 단말",
+        "지연·신뢰도 요구와 근거",
+        "자원배분·접속 등 해결할 통신 문제"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I02",
+      "title": "6G 네트워크 환경에서 효율적인 D2D 통신을 위한 사회관계망 기반 지능형 라우팅기법에 대한 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400007716",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "단말 간 메시지 전달에 친밀도 학습, 참여 유도, 군집화와 신뢰 검증을 결합한다.",
+      "observed_pattern": "대역폭 부족 → 단말 협력 필요 → 참여·신뢰 문제 → 경로 선택 → 모의실험.",
+      "section_use": "문제 분해·검증",
+      "input_prompts": [
+        "단말 관계와 협력 조건",
+        "경로 선택·신뢰 판단 기준",
+        "모의실험 환경과 비교 방식"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I03",
+      "title": "16 Tbps급 패킷광전달망(POTN) 시스템 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400003945",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "고용량 광전송에 계층 통합, 무중단 전달, 지능형 관리와 암호전송 기능을 결합한다.",
+      "observed_pattern": "최종 장비의 용량·기능을 제시한 뒤 적용할 망과 수요처를 구체화한다.",
+      "section_use": "최종목표·활용방안",
+      "input_prompts": [
+        "망의 용량·거리·계층",
+        "통합할 장비 기능",
+        "실제 수요처와 적용 조건"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I04",
+      "title": "초연결 지능 인프라 원천기술 연구개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004488",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "인프라 구조, 자율제어, 분산 신뢰 처리, 데이터 중심 전달과 실증 서비스를 구성한다.",
+      "observed_pattern": "서비스 요구 → 전체 구조 → 요소 기술별 모듈 → 실증으로 나누고 산출물을 명시한다.",
+      "section_use": "계층별 연구내용·산출물",
+      "input_prompts": [
+        "서비스 시나리오",
+        "전체 구조와 기술별 모듈",
+        "실증 환경과 기술 성숙 수준"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I05",
+      "title": "5G 네트워크 슬라이싱을 위한 성능 최적화 기술 표준개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100009084",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "고객 맞춤형 가상 통신망의 서비스·성능 요구를 표준 모델로 정리한다.",
+      "observed_pattern": "적용 모델 연구 → 요구사항·구조 표준 → 기능·통신 절차 표준으로 연차를 구분한다.",
+      "section_use": "표준화·연차계획",
+      "input_prompts": [
+        "고객별 서비스 요구",
+        "정의할 구조·기능·통신 절차",
+        "목표 표준기구와 연차별 활동"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I06",
+      "title": "네트워크 슬라이싱 기반 5G 융합 서비스 테스트베드 구축·운영",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400004155",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "단말에서 클라우드까지 연결되는 시험망을 지역 거점에 구성하고 기업의 시험·검증을 지원한다.",
+      "observed_pattern": "시험 가능한 구간과 거점을 먼저 정의하고 구축·자동운영·실증 지원 업무를 나눈다.",
+      "section_use": "시험환경·운영계획",
+      "input_prompts": [
+        "단말부터 서버까지 시험 범위",
+        "거점·장비·연계망",
+        "운영과 이용기업 지원 방식"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I07",
+      "title": "SDN 2.0 실현을 위한 네트워크 가상화 플랫폼 핵심 기술 및 서비스 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007039",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "네트워크 가상화 플랫폼과 인터페이스 확장·응용 서비스를 개발한다.",
+      "observed_pattern": "연구 기술과 공개 소프트웨어 산출·확산을 연결한다. 초록이 짧아 상세 실험 방법 참고에는 한계가 있다.",
+      "section_use": "공개 산출물·성과 확산",
+      "input_prompts": [
+        "가상화 대상과 인터페이스",
+        "응용 서비스",
+        "공개할 소프트웨어와 검증 계획"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I08",
+      "title": "개방형 5G 기지국 기능 분리 및 가상화 관리 표준개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100009085",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "기지국을 모듈별로 분리하고 개방형 연결·가상화 관리 표준을 개발한다.",
+      "observed_pattern": "국내 제조사·통신사 요구 수렴과 합의 → 국내표준 → 국제표준 반영 → 향상 기능.",
+      "section_use": "추진체계·표준화 전략",
+      "input_prompts": [
+        "기지국 분리 범위와 연결 규격",
+        "참여기업·통신사 요구",
+        "국내외 합의·표준화 일정"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I09",
+      "title": "표준 기반 가상 네트워크 서비스를 위한Transport SDN 컨트롤러 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201800042055",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "다중 통신망 구간의 연결 제어와 제어기 기능을 빠르게 시험하는 도구를 개발한다.",
+      "observed_pattern": "기존 후속 기술의 부족한 기능을 명시하고 서비스 기능과 유지보수 검증 도구를 함께 제시한다.",
+      "section_use": "선행성과 연결·시험도구",
+      "input_prompts": [
+        "연결할 망 구간과 제어기 기능",
+        "기존 개발성과의 한계",
+        "기능 시험과 유지보수 절차"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I10",
+      "title": "VDI 서비스를 위한 가상 네트워크 소프트웨어 컴포넌트 핵심 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201800042073",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "가상 데스크톱을 화면 전송·그래픽 자원·중계·자원 관리 구성요소로 나눈다.",
+      "observed_pattern": "기존의 일부 가상화 한계 → 전체 서비스 구성요소 가상화 → 동적 확장과 이동 지원.",
+      "section_use": "기존 한계·모듈 분해",
+      "input_prompts": [
+        "사용자 단말과 그래픽 요구",
+        "가상화할 서비스 구성요소",
+        "동적 확장·서버 이동 조건"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I11",
+      "title": "5G 코어 네트워크 기술 표준개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100006417",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "차세대 통신 핵심망의 국내외 표준과 관련 특허 확보를 다룬다.",
+      "observed_pattern": "기존 표준의 단기 개선과 새로운 구조의 중장기 표준 개발을 구분하고 반영 대상 규격을 연결한다.",
+      "section_use": "표준 목표·단중기 전략",
+      "input_prompts": [
+        "기존 표준의 한계",
+        "단기 확장과 신규 구조 목표",
+        "표준안·특허 활동의 실제 근거"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I12",
+      "title": "초연결 공통 네트워킹 서비스 연구인프라 구축",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400003876",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "서비스 개발·시험·실증을 위한 물리·가상 인프라와 자원 자동관리를 구축한다.",
+      "observed_pattern": "설계 → 기반 구축 → 사용자 실증 환경으로 확장하며 운영 전략도 연구내용에 포함한다.",
+      "section_use": "인프라 구축·운영·실증",
+      "input_prompts": [
+        "제공할 개발·시험·실증 기능",
+        "물리·가상 자원",
+        "운영 주체와 사용자 실증 시나리오"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I13",
+      "title": "엣지 서비스 지원을 위한 마이크로서비스 기반의 클라우드 엣지 플랫폼 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004872",
+      "task_type": "클라우드·엣지",
+      "content": "작은 서비스 단위의 배포·실행·자원 조정과 실행 중 서비스의 서버 간 이동을 다룬다.",
+      "observed_pattern": "서비스 수명주기와 이동 상황을 작업으로 나누고 각 작업의 관리 모듈을 산출물로 제시한다.",
+      "section_use": "모듈·생명주기·연계",
+      "input_prompts": [
+        "서비스의 배포·실행 흐름",
+        "자원 할당·이동 조건",
+        "기능별 모듈과 장애·보안 처리"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I14",
+      "title": "5G 엣지클라우드 기반 VR∙AR 저지연 스트리밍 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400003984",
+      "task_type": "클라우드·엣지",
+      "content": "가상·증강현실 단말의 추적·정합·영상 생성·전송 작업을 엣지 서버와 나누어 수행한다.",
+      "observed_pattern": "단말-서버 전체 흐름을 분해하고 위치 오차, 처리시간, 영상 품질 등 기능별 지표를 붙인다.",
+      "section_use": "성능지표·기능 대응",
+      "input_prompts": [
+        "단말과 엣지 서버의 역할",
+        "추적·정합·영상·전송 기능",
+        "기능별 오차·지연·품질 기준"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I15",
+      "title": "클라우드 엣지 기반 도시교통 브레인 핵심기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400003949",
+      "task_type": "클라우드·엣지",
+      "content": "교통 자료 수집, 상황 예측, 신호 최적화, 도시 규모 모의실험과 현장 적용을 연결한다.",
+      "observed_pattern": "교통 개선 목표 → 분석·제어 기술 → 분산 처리 기반 → 모의 검증과 현장 검증을 구분한다.",
+      "section_use": "응용 목표·실증 구분",
+      "input_prompts": [
+        "대상 도시·교차로와 교통 문제",
+        "사용 가능한 자료·분석·제어 방법",
+        "모의실험과 실제 현장 적용 범위"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I16",
+      "title": "성능 및 보안 SLA 보장이 가능한 차세대 클라우드 인프라 SW 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400003710",
+      "task_type": "클라우드·엣지",
+      "content": "연산·통신·저장 자원을 조절하여 성능과 보안 서비스 수준을 보장한다.",
+      "observed_pattern": "단일 장치·노드에서 여러 노드·여러 이용자 환경으로 범위를 넓히며 보장 수준을 명시한다.",
+      "section_use": "단계 확대·성능과 보안",
+      "input_prompts": [
+        "이용자에게 보장할 서비스 수준",
+        "연산·저장·통신 자원 구성",
+        "단일·다중 노드와 이용자 확대 계획"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I17",
+      "title": "개별분리 아키텍처 기반 5G 데이터 중심 클라우드 컴퓨팅 플랫폼 보안 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400004049",
+      "task_type": "클라우드·엣지",
+      "content": "분리된 서버 자원의 접근 통제와 안전한 가속기 연산 위임을 개발한다.",
+      "observed_pattern": "보안 적용 전후를 동일 조건에서 비교하고 처리시간·대역폭 영향과 비인가 접근 차단을 함께 평가한다.",
+      "section_use": "평가 절차·상충관계",
+      "input_prompts": [
+        "분리된 자원과 보호 대상",
+        "공격 가정·접근통제 방법",
+        "동일 부하에서 보안 적용 전후 평가 절차"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I18",
+      "title": "소프트웨어 정의 서버 기반 클라우드 서비스를 위한 단일 가상화 서비스 플랫폼 핵심 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004851",
+      "task_type": "클라우드·엣지",
+      "content": "여러 물리 서버를 큰 단일 자원처럼 이용하는 가상화와 관리 플랫폼을 개발한다.",
+      "observed_pattern": "커널·자원 배치·관리 화면·시험 기반 계층을 나누고 각 계층의 연차별 산출물을 대응시킨다.",
+      "section_use": "계층 구조·연차별 산출물",
+      "input_prompts": [
+        "통합할 물리 자원",
+        "커널·배치·관리 계층의 역할",
+        "연차별 산출물과 시험 기반"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I19",
+      "title": "저전력광역(LPWA) IoT 네트워크 핵심기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007179",
+      "task_type": "사물인터넷·센서망",
+      "content": "저전력 광역망에서 단말·기지국·제어기를 개발하고 우선순위와 자원을 관리한다.",
+      "observed_pattern": "망의 품질 문제를 장치 구성과 우선순위 제어로 연결하고 기술이전·현장 활용을 덧붙인다.",
+      "section_use": "시스템 구성·품질관리",
+      "input_prompts": [
+        "단말·기지국·제어기 구성",
+        "통신 우선순위와 품질 기준",
+        "적용 현장과 기기 제약"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I20",
+      "title": "저전력 광역(LPWA) IoT Connectivity를 위한 지능형 반도체 기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007219",
+      "task_type": "사물인터넷·센서망",
+      "content": "여러 통신 대역·모드를 지원하는 저전력 칩과 모듈, 단말·기지국 시제품을 개발한다.",
+      "observed_pattern": "송수신 회로·모뎀 → 집적 칩 → 소형 모듈 → 검증용 시스템으로 산출물을 연결한다.",
+      "section_use": "부품에서 시스템까지",
+      "input_prompts": [
+        "통신 대역·모드·전력 요구",
+        "송수신·모뎀·칩·모듈 구성",
+        "시제품과 검증 조건"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I21",
+      "title": "건물에너지 절감을 위한 BLE Mesh Network 기반의 스마트 통합 제어 IoT 장치 및 관리 시스템 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201800036346",
+      "task_type": "사물인터넷·센서망",
+      "content": "저전력 무선망으로 실내 환경을 측정하고 냉난방을 제어하며 에너지 사용을 분석한다.",
+      "observed_pattern": "도입 비용 문제 → 별도 통신공사 축소 → 제어 장치와 관리 시스템 → 중소규모 건물 활용.",
+      "section_use": "사용처·비용 문제·기능",
+      "input_prompts": [
+        "대상 건물과 설치 비용 문제",
+        "센서·통신·제어 장치",
+        "에너지 분석·절감 평가 기준"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I22",
+      "title": "초연결 자율형 IoT 서비스 지향 네트워크 인프라 기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007015",
+      "task_type": "사물인터넷·센서망",
+      "content": "사물 식별·접속·이동과 다중 네트워크를 서비스 중심으로 제어한다.",
+      "observed_pattern": "전체 구조 → 연결·관리 기능 → 이동성·가용성 → 모사 환경과 기존 망 대비 평가항목.",
+      "section_use": "구조·제어·비교 검증",
+      "input_prompts": [
+        "사물 식별·접속·이동 상황",
+        "다중망 관리·서비스 요구",
+        "기존 망과 비교할 조건"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I23",
+      "title": "논리적 추론이 가능한 딥러닝 기반 질의 응답 시스템 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400007709",
+      "task_type": "언어·지식 인공지능",
+      "content": "논리적 추론 질의응답과 한국어 평가·학습 자료를 연구한다.",
+      "observed_pattern": "기존 언어·자료의 한계 → 분야별·범용 추론 → 한국어 자료 구축 → 맞춤형 모델.",
+      "section_use": "자료 부족·연차별 연구",
+      "input_prompts": [
+        "대상 언어·질문·추론 과제",
+        "보유 자료와 부족한 자료",
+        "모델 범위와 평가·연차 계획"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I24",
+      "title": "과학기술 텍스트 분석을 위한 지능 기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300002693",
+      "task_type": "언어·지식 인공지능",
+      "content": "학습 자원 경량화와 과학기술 텍스트의 개체·관계·참조·질의응답 처리를 다룬다.",
+      "observed_pattern": "효율화 연구와 분야 특화 이해 기술을 구분하고 지식 추출을 여러 평가 과제로 나눈다.",
+      "section_use": "세부 처리 기능·평가 과제",
+      "input_prompts": [
+        "문서의 분야와 언어",
+        "추출할 개체·관계·참조·답변",
+        "학습·평가 자료와 자원 제약"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I25",
+      "title": "대용량 지식그래프 자동완성을 위한 시맨틱 분석 추론기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004860",
+      "task_type": "언어·지식 인공지능",
+      "content": "규칙 기반 추론과 학습 기반 추론을 결합하여 지식그래프의 빠진 관계를 보완한다.",
+      "observed_pattern": "서로 다른 두 연구축을 병행한 후 결합하는 이유와 분산 처리·평가 자료를 연결한다.",
+      "section_use": "융합 논리·연구축 연결",
+      "input_prompts": [
+        "지식의 개념·관계·규칙",
+        "규칙 추론과 학습 추론의 역할",
+        "자료 규모·분산 처리·검증 기준"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I26",
+      "title": "지능형 대화 서비스를 위한 화용 및 문맥 분석 기반 대화솔루션 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201800042054&dbt=TRKO",
+      "task_type": "언어·지식 인공지능",
+      "content": "금융 상담에서 문장 전처리, 의도 분류, 답변 지식 관리와 응답 생성을 개발한다.",
+      "observed_pattern": "서비스 업무 → 대화 처리 단계 → 산업 자료와 시험 환경 → 기업·대학 협력으로 풀어 쓴다.",
+      "section_use": "서비스 흐름·산학 역할",
+      "input_prompts": [
+        "실제 상담·업무 시나리오",
+        "질문·답변 지식과 접근 가능한 자료",
+        "전처리·의도·응답 기능 및 협력 역할"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I27",
+      "title": "온톨로지 기반 지식 맵을 활용한 인공지능 학습 진단 서비스 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007429",
+      "task_type": "언어·지식 인공지능",
+      "content": "학습 지식 간 관계를 저장한 지도에서 진단·문항 추천·맞춤형 상담을 제공한다.",
+      "observed_pattern": "지식의 구조화 → 진단·추천 알고리즘 → 사용자 서비스라는 세 층으로 정리한다.",
+      "section_use": "지식 구조·기능·서비스",
+      "input_prompts": [
+        "지식 단위와 관계",
+        "학습자 자료와 진단 기준",
+        "추천·상담 기능과 확인 방법"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I28",
+      "title": "데이터 품질 평가기반 데이터 고도화 및 데이터셋 보정 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400003960",
+      "task_type": "데이터·분석 플랫폼",
+      "content": "자료 품질·공정성을 진단하고 오류 보정·시각화·현장 연계를 개발한다.",
+      "observed_pattern": "지표 정의 → 진단 → 개선 → 통합 검증으로 전개하고 분야별 기관의 역할을 분리한다.",
+      "section_use": "지표·개선·참여기관 역할",
+      "input_prompts": [
+        "자료 분야·형식·오류 유형",
+        "품질·공정성 기준",
+        "진단·보정·시각화·현장 검증과 담당기관"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I29",
+      "title": "다양한 모델의 빅데이터 플랫폼 통합 분석을 지원하는 크로스 모델 데이터 통합처리 플랫폼 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004877",
+      "task_type": "데이터·분석 플랫폼",
+      "content": "서로 다른 자료 모델을 가진 플랫폼에 통합 질의를 수행하고 처리 속도를 개선한다.",
+      "observed_pattern": "자료 이질성 문제 → 질의 분할·결과 통합·최적화 모듈 → 같은 자료·질의의 처리시간 비교.",
+      "section_use": "플랫폼 분해·측정 절차",
+      "input_prompts": [
+        "서로 다른 자료 모델·플랫폼",
+        "통합 질의·결과·최적화 기능",
+        "같은 자료·질의의 기준 시스템과 측정 절차"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I30",
+      "title": "국가연구데이터플랫폼 구축 및 운영",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202000006324",
+      "task_type": "데이터·분석 플랫폼",
+      "content": "연구자료의 수집·등록·검색·연계·분석 기능과 국내외 플랫폼 연결을 다룬다.",
+      "observed_pattern": "자료 연결 기준과 서비스 기능, 사용성·보안·전문가 의견 수렴을 별도 작업으로 배치한다.",
+      "section_use": "자료 연계·운영·사용성",
+      "input_prompts": [
+        "연결할 연구자료·기관",
+        "메타데이터와 등록·검색·분석 기능",
+        "갱신·사용성·보안·운영 조건"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I31",
+      "title": "과학기술 빅데이터 구축 및 심층분석 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300003535",
+      "task_type": "데이터·분석 플랫폼",
+      "content": "연구과제·성과·기업 자료 등을 결합하여 정책 분석에 활용한다.",
+      "observed_pattern": "연계 가능성 검토 → 구조·시계열·갱신 기준 → 자료 정비 → 주제 선정과 심층분석.",
+      "section_use": "자료 구축·분석 절차",
+      "input_prompts": [
+        "연계할 자료와 분석 목적",
+        "연계키·구조·시계열·갱신 주기",
+        "분석 주제 선정과 해석 절차"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I33",
+      "title": "이종 빅데이터 통합 분석 메타러닝 기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202000006791",
+      "task_type": "데이터·분석 플랫폼",
+      "content": "여러 형태의 자료를 함께 분석하는 표현·학습 방법과 플랫폼을 검토한다.",
+      "observed_pattern": "방법론·기초실험·설계를 다음 단계 연구의 근거로 제시한다. 공개 초록에 기획연구라고 명시되어 있다.",
+      "section_use": "기획연구·단계 연결",
+      "input_prompts": [
+        "이종 자료의 특성",
+        "검토할 표현·학습 방법",
+        "기초실험·설계의 범위와 후속 단계"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I34",
+      "title": "시험결과 빅데이터 플랫폼 구축 및 AI적용 분석기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400001015",
+      "task_type": "데이터·분석 플랫폼",
+      "content": "시험 자료 플랫폼과 고객 서비스·시험 효율화·안전 모니터링 응용을 구성한다.",
+      "observed_pattern": "플랫폼 기반 구축 → 새 자료·응용 확대 → 특수 자료 확보와 표준화로 구분한다.",
+      "section_use": "단계계획·데이터 표준",
+      "input_prompts": [
+        "시험 장비·자료·현재 업무 문제",
+        "서비스·효율·안전 응용",
+        "자료 확장·표준화 계획"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I35",
+      "title": "딥웹 및 토르기반 악성코드 분석 기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007443",
+      "task_type": "보안·개인정보·신뢰",
+      "content": "위협자료 수집, 악성코드 분석, 보안 에이전트와 관리 도구를 개발한다.",
+      "observed_pattern": "연차 목표 아래 구체적인 프로그램·시제품 산출물과 공인시험 수행을 함께 제시한다.",
+      "section_use": "연차 산출물·시험 증빙",
+      "input_prompts": [
+        "허가된 위협자료와 분석 범위",
+        "수집·분석·관리 도구",
+        "연차별 산출물·시험 방법"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I36",
+      "title": "AI·빅데이터 기반 사이버 보안 오케스트레이션 및 자동 대응 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202500001228",
+      "task_type": "보안·개인정보·신뢰",
+      "content": "보안관제의 탐지·분석·판단·대응 업무를 연결하고 자동화한다.",
+      "observed_pattern": "업무 순서를 기술 모듈로 바꾸고 공공·민간 관제 현장의 자료와 실증 계획을 연결한다.",
+      "section_use": "업무흐름·모듈·실증",
+      "input_prompts": [
+        "현재 탐지·분석·판단·대응 업무",
+        "연동할 장비·자료·승인 조건",
+        "자동화 범위와 현장 실증"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I37",
+      "title": "클라우드 기반 IoT 위협 자율 분석 및 대응 기술개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004829",
+      "task_type": "보안·개인정보·신뢰",
+      "content": "사물인터넷 기기의 경량 위협 탐지와 클라우드의 연관 분석·대응을 결합한다.",
+      "observed_pattern": "단말의 자원 제약 → 현장 탐지와 중앙 분석의 역할 분리 → 관리·대응 사용자 기능.",
+      "section_use": "자원 제약·역할 분담",
+      "input_prompts": [
+        "기기 자원 제약과 위협",
+        "현장 탐지·중앙 분석의 분담",
+        "대응·관리 기능과 검증 환경"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I38",
+      "title": "Security Analytics 기반의 이기종 보안솔루션 위협 분석 및 대응 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007341",
+      "task_type": "보안·개인정보·신뢰",
+      "content": "여러 보안 장비의 위협정보를 모아 분석·공유하고 단말 대응으로 연결한다.",
+      "observed_pattern": "파편화된 정보의 한계 → 세 작업 단위 → 표준 표현·교환 방식 → 연계 대응.",
+      "section_use": "작업 분해·상호운용",
+      "input_prompts": [
+        "서로 다른 보안 장비·정보",
+        "분석·공유·대응 작업 단위",
+        "교환 규격과 연결 검증"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I39",
+      "title": "5G 기반 지능형 IoT 트러스트 인에이블러 핵심기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400004051",
+      "task_type": "보안·개인정보·신뢰",
+      "content": "사물인터넷 자료와 서비스의 신뢰 지표를 정의하고 분석·관리·제어를 연구한다.",
+      "observed_pattern": "추상적인 신뢰를 모델·지표로 구체화한 뒤 분석 기능과 운영 대행·표준화로 연결한다.",
+      "section_use": "개념의 지표화·연구체계",
+      "input_prompts": [
+        "신뢰를 판단할 대상·상황",
+        "신뢰 지표와 측정 근거",
+        "분석·관리·제어·표준화의 역할"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I40",
+      "title": "빅데이터 환경에서 비식별화 기법을 이용한 개인정보보호 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007094",
+      "task_type": "보안·개인정보·신뢰",
+      "content": "여러 형태의 자료에서 개인정보를 찾아 비식별 처리하고 관리한다.",
+      "observed_pattern": "식별 → 보호 처리 → 통계적 정확성 유지 → 수명주기 관리 → 응용 시연으로 구분한다.",
+      "section_use": "보호와 활용의 동시 고려",
+      "input_prompts": [
+        "개인정보 유형과 자료 형식",
+        "보호 처리와 남겨야 할 분석 가치",
+        "처리 정확도·속도·수명주기 관리"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I41",
+      "title": "양자암호통신 기반 공동활용 네트워크 기반 구축",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202300002688",
+      "task_type": "보안·개인정보·신뢰",
+      "content": "양자 암호키 생성·전달·관리와 기존 연구망의 보안 전송을 결합한다.",
+      "observed_pattern": "구간별 요소 실험 → 키 관리·연계 → 시험 적용 → 시스템·운영 고도화로 확장한다.",
+      "section_use": "단계별 통합·망 적용",
+      "input_prompts": [
+        "보호할 연구망 구간",
+        "암호키 생성·관리·공급과 기존 망 연결",
+        "요소시험·시범적용·운영 단계"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I42",
+      "title": "SW 품질 향상을 위한 테스팅 자동화 및 디버깅 자동화 기술",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201900021356",
+      "task_type": "소프트웨어 품질·검증",
+      "content": "시험 환경·시험 입력을 자동 생성하고 오류 위치와 수정 정보를 추정한다.",
+      "observed_pattern": "시험 준비 → 오류 검출 → 오류 원인 분석으로 자동화 범위를 나누고 별도 지표로 설명한다.",
+      "section_use": "문제 분해·평가 지표",
+      "input_prompts": [
+        "대상 프로그램·오류 유형",
+        "시험 환경·입력 생성·오류 위치 분석",
+        "검출·오경보·시간 등 평가 기준"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I43",
+      "title": "모바일 SW 품질 향상을 위한 사용자 행위 기반 테스트 자동화 스크립트 생성 및 멀티-디바이스 테스트 자동화 솔루션 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007290",
+      "task_type": "소프트웨어 품질·검증",
+      "content": "사용자 조작을 시험 절차로 바꾸고 여러 모바일 기기에서 자동 시험한다.",
+      "observed_pattern": "조작 수집 → 시험 스크립트 → 병렬 실행 → 결과·오류 추적으로 사용자 작업을 기술과 연결한다.",
+      "section_use": "사용자 흐름·도구 구성",
+      "input_prompts": [
+        "사용자 조작과 대상 기기",
+        "시험 스크립트·자동실행 흐름",
+        "병렬 시험·결과·오류 추적 방식"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I44",
+      "title": "모델 기반의 초대형 복잡 시스템 분석 및 검증 SW 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201900003896",
+      "task_type": "소프트웨어 품질·검증",
+      "content": "여러 자율 시스템이 결합된 복잡한 시스템을 모델링하고 목표 달성을 검증한다.",
+      "observed_pattern": "표현할 대상·불확실성 정의 → 검증할 속성 → 모형·검증도구 → 환경 변화 대응.",
+      "section_use": "모델링·검증범위",
+      "input_prompts": [
+        "연결된 시스템과 불확실성",
+        "표현할 모형·검증할 속성",
+        "환경 변화와 검증 도구의 범위"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I45",
+      "title": "빅데이터 솔루션의 고신뢰성 품질 확보를 위한 품질 검증 자동화 프레임워크 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100006870",
+      "task_type": "소프트웨어 품질·검증",
+      "content": "데이터베이스 제품의 다양한 오류·부하 조건을 자동 시험하고 결과를 보여준다.",
+      "observed_pattern": "장애 유형과 품질 특성 → 시험 사례 저장소 → 실행 엔진 → 통계·오류 보고 도구.",
+      "section_use": "시험 유형·자동화 구조",
+      "input_prompts": [
+        "대상 제품·품질 특성·장애 유형",
+        "시험 사례와 실행 조건",
+        "자동실행·통계·오류 보고"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I46",
+      "title": "고품질 VR 콘텐츠 실시간 서비스를 위한 분할영상 스트리밍 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100007301",
+      "task_type": "실감미디어·영상전송",
+      "content": "사용자가 보는 영역 중심으로 영상을 나누고 압축·전송·재생하는 기술을 개발한다.",
+      "observed_pattern": "영상 처리 흐름별 산출물을 나누고 온라인·방송 등 서비스 실증 경로를 제시한다.",
+      "section_use": "처리 흐름·실증 적용",
+      "input_prompts": [
+        "영상 형식과 사용자 관심영역",
+        "압축·전송·수신·재생 구성",
+        "망·단말 조건과 서비스 실증"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I47",
+      "title": "초저지연 AR/VR 서비스를 실현하는 전송계층-인지 스트리밍 기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202100006158",
+      "task_type": "실감미디어·영상전송",
+      "content": "이동 중 가상·증강현실 영상의 지연을 줄이기 위해 전송 상태와 영상 부호화를 연동한다.",
+      "observed_pattern": "지연을 원인별로 분해 → 버퍼 적체를 핵심 문제로 지정 → 구조 변경 → 변동 환경 검증.",
+      "section_use": "병목 분석·차별성·평가조건",
+      "input_prompts": [
+        "전체 지연의 원인별 측정 근거",
+        "변경할 버퍼·전송·영상 처리 구조",
+        "이동·망 변동 조건과 지연·품질 평가"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I48",
+      "title": "시청자 이동형 자유시점 360VR 실감미디어 제공을 위한 시스템 설계 및 기반기술 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202200004485",
+      "task_type": "실감미디어·영상전송",
+      "content": "시청자 이동에 맞춰 여러 위치의 영상·음향을 재구성하고 전송한다.",
+      "observed_pattern": "단일 촬영시점의 한계 → 시청자 이동 시나리오 → 영상·음향·전송 산출물 → 연차 성능지표.",
+      "section_use": "서비스 차별성·요소기술",
+      "input_prompts": [
+        "촬영자 시점과 시청자 이동 시나리오",
+        "영상·음향 재구성·전송 기능",
+        "연차별 품질·시점변환·시연 목표"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I49",
+      "title": "초실감 공간미디어 원천기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO201900001703",
+      "task_type": "실감미디어·영상전송",
+      "content": "기존 평면·단일시점 미디어의 한계를 공간영상·음향·환경모형 기술의 필요성으로 연결한다.",
+      "observed_pattern": "미디어 이용 변화 → 사용자 체감 요구 → 기존 기술 한계 → 공간미디어 연구 필요.",
+      "section_use": "필요성 문단 전개",
+      "input_prompts": [
+        "기존 미디어 이용 방식과 한계",
+        "새로운 체감·상호작용 요구",
+        "이를 해결할 공간영상·음향·환경 기술"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I50",
+      "title": "6G를 위한 저궤도 군집 위성 통신 네트워크에 관한 연구",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400008036",
+      "task_type": "통신·네트워크·표준·시험망",
+      "content": "저궤도 위성의 배치, 송수신, 지상망과의 연결 전환을 최적화한다.",
+      "observed_pattern": "1년차 배치·성능 분석 → 2년차 전송·커버리지 → 3년차 지상망 연계·부하 분산.",
+      "section_use": "연차별 논리·이론과 학습",
+      "input_prompts": [
+        "위성 배치와 채널·지상망 가정",
+        "분석·송수신·연계 최적화 방법",
+        "연차별 성능·커버리지·부하 평가"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    },
+    {
+      "id": "I51",
+      "title": "안전한 인공지능 시스템 구현을 위한 적대적 공격 방어 기술 개발",
+      "source": "https://scienceon.kisti.re.kr/srch/selectPORSrchReport.do?cn=TRKO202400006664",
+      "task_type": "보안·개인정보·신뢰",
+      "content": "인공지능을 속이는 입력 변형에 대응하고 다양한 자료·공격 조건에서 방어 모델을 연구한다.",
+      "observed_pattern": "취약성 문제 → 방어 기반 기술 → 조건·대상 확장 → 통합 방어 시스템.",
+      "section_use": "공격 가정·단계적 확장",
+      "input_prompts": [
+        "대상 인공지능과 공격 가정",
+        "방어 방법·적용 자료",
+        "공격 조건 확장과 통합 검증"
+      ],
+      "evidence_scope": "공개 웹 요약문 주요 부분·메타데이터 확인. 보고서 전문 통독·제출계획서 원본 확보 아님."
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 """한글(HWP) COM 실행 객체 연결 계층."""
 
 import os
+import sys
 import time
 
 try:
@@ -124,16 +125,28 @@ class HwpConnectionMixin:
         """레지스트리에 등록된 한글 Automation 파일 보안 모듈을 연결한다."""
         if self.대상 is None:
             raise RuntimeError("한글 COM 객체가 없어 보안 모듈을 등록할 수 없습니다.")
+        # Reuse only a registration that actually succeeded on this exact proxy.
+        if getattr(self, "_보안등록성공대상", None) is self.대상:
+            return True
+        from govoffice.app.deployment import register_security
+        # Development and installed builds both need the per-user registration.
+        # A source checkout must not rely on a previous installation having
+        # written the registry value for this HWP account.
+        모듈이름 = register_security()
         try:
-            등록됨 = self.대상.RegisterModule(self.보안모듈종류, self.보안모듈이름)
+            등록됨 = self.대상.RegisterModule(self.보안모듈종류, 모듈이름)
         except Exception as 오류:
             raise RuntimeError(
                 "한글 Automation 보안 모듈 등록 중 오류가 발생했습니다. "
                 "FilePathCheckerModuleExample.dll과 HKCU\\Software\\HNC\\HwpAutomation\\Modules "
                 "레지스트리 값을 확인하세요."
             ) from 오류
-        # 한글은 같은 인스턴스에 이미 등록된 모듈을 다시 등록하면 False를
-        # 반환할 수 있다. 예외가 없었다면 기존 등록을 유효한 상태로 본다.
+        if not 등록됨:
+            raise RuntimeError(
+                f"한글이 보안 모듈 {모듈이름} 등록을 거부했습니다 (RegisterModule=False). "
+                "DLL 로딩, 한글과 DLL의 비트수, 현재 사용자 레지스트리 경로를 확인하세요."
+            )
+        self._보안등록성공대상 = self.대상
         return True
 
     @staticmethod
@@ -500,8 +513,15 @@ class HwpConnectionMixin:
                 "Hwp.exe 생성 전 프로세스 목록을 확인하지 못해 DispatchEx를 실행하지 않았습니다."
             )
         프로세스식별자 = None
+        def 진단(단계):
+            if os.environ.get('GOVOFFICE_DIAG_COM') == '1':
+                print('GOVOFFICE_STAGE='+단계,file=sys.stderr,flush=True)
         try:
-            새대상 = EnsureDispatch(DispatchEx("hwpframe.hwpobject"))
+            진단('dispatching_hwp')
+            새대상 = DispatchEx("hwpframe.hwpobject")
+            진단('hwp_dispatched')
+            새대상 = EnsureDispatch(새대상)
+            진단('hwp_wrapper_ready')
             이후프로세스목록 = self._한글프로세스식별자목록()
             프로세스식별자 = self._신규프로세스식별자(
                 이전프로세스목록, 이후프로세스목록
@@ -514,8 +534,11 @@ class HwpConnectionMixin:
             self.대상 = 새대상
             self._전용Automation대상 = 새대상
             self._전용Automation프로세스식별자 = 프로세스식별자
+            진단('registering_security')
             self._보안모듈등록()
+            진단('security_registered')
             새대상.XHwpWindows.Item(0).Visible = True
+            진단('hwp_visible')
             return 새대상
         except Exception as 원인:
             정리오류 = None

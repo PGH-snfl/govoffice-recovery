@@ -1,0 +1,407 @@
+[
+  {
+    "visual_id": "I23-V0001",
+    "caption": "사고회로 생성 (Neuro-symbolic) 모델의 추론과정. 지문과 질문을 읽고 신경망은 “A, B, C는 Kristin, Justin, Carol; A에게 B는 아들; A에게 C는 엄마; B에게 C는 ?”을 나타내는 실행 가능한 사고회로(program code)를 생성하고, 이를 domain knowledge를 활용해 (A에게 B는 아들이고, A에게 C는 엄마, B에게 C는 할머니) 프로그램을 실행시켜 답을 얻는다",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 25,
+    "prefix_match_only": false,
+    "text_before": "응답 시스템 연구가 필요하다. 논리적 추론을 하기 위해서는 먼저 문제 지문 속 주요 개체(entity)와 개체 간의 관계를 파악\n하는 과정이 필요하다. 문제에 주어진 정보를 파악하여야 이를 기반으로 새로운 결론을 논리적\n으로 도출할 수 있기 때문이다. 그러나 자연어는 기본적으로 순차적인 단어 시퀀스 형태로 표\n현되어 있기 때문에, 개체와 개체 간의 관계 정보를 표현하는데 최적화되어있지 않다. 따라서\n본 연구에서는 범용적 질의응답 시스템을 개발하기 위해 그래프 구조를 활용하여 자연어를 논\n리적 추론에 더 용이한 표현으로 변환하여 문제에 접근한다. 그래프는 다양한 개체 및 관계 구\n조를 표현할 수 있으므로 여러 도메인의 문제에 대해 범용적으로 적용 가능한 모델을 설계할",
+    "caption_and_following_text": "그림 1. 사고회로 생성 (Neuro-symbolic) 모델의 추론과정. 지문과 질문을 읽고 신경망은 “A, B, C는 Kristin,\nJustin, Carol; A에게 B는 아들; A에게 C는 엄마; B에게 C는 ?”을 나타내는 실행 가능한 사고회로(program code)\n를 생성하고, 이를 domain knowledge를 활용해 (A에게 B는 아들이고, A에게 C는 엄마, B에게 C는 할머니) 프로\n그램을 실행시켜 답을 얻는다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 도메인 지식을 활용한 사고회로 생성(Neuro-symbolic) 질의응답 시스템 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.68,
+          575.85,
+          542.59,
+          591.67
+        ],
+        "page_area_fraction": 0.0147
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.68,
+          560.03,
+          542.59,
+          575.85
+        ],
+        "page_area_fraction": 0.0147
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.68,
+          544.21,
+          542.59,
+          560.03
+        ],
+        "page_area_fraction": 0.0147
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.68,
+          528.38,
+          542.59,
+          544.21
+        ],
+        "page_area_fraction": 0.0147
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.68,
+          514.48,
+          542.59,
+          528.38
+        ],
+        "page_area_fraction": 0.0129
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0002",
+    "caption": "그래프 기반의 범용적(domain-agnostic) 질의응답 시스템 구조. 먼저 주어진 지문과 질문 속 주요 개체(entity)를 파악하고 개체 관계 그래프를 생성하는 모델(1)을 개발한다. 다음으로 생성된 그래프를 기반으로 정답을 추론하는 질의응답 모델(2)을 개발한다",
+    "pdf_page_candidate": 6,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "어로 된 최초의 논리적 추론 데이터셋을 제작하고 공개함으로써 국내외적으로 관련 분야의 후\n속 연구를 증진시키는 것을 목표로 한다. 또한, 본 연구에서는 제작된 한국어 데이터셋을 활용해 한국어 맞춤형 논리적 추론이 가능한\n질의응답 시스템을 개발하는 것도 목표로 한다. 한국어는 영어와 다른 어순과 띄어쓰기 규칙을\n따르며, 어근과 접사 쌍의 조합으로 수많은 파생 표현이 생기는 교착어적 특성도 지닌다. 따라\n서 영어 데이터에 대해 개발된 기술을 한국어 데이터에 적용하기 위해서는 적절한 전처리 과\n정을 연구・개발하여야 한다. 본 연구에서는 한국어 데이터셋에 대해 모델의 성능을 높이기 위\n해 형태소 분석 등을 활용하여 입력 문장을 토큰화하는 방법, 한국어 특성에 맞는 사고회로 생",
+    "caption_and_following_text": "성 방법 등을 함께 연구하고자 한다.\n그림 2. 그래프 기반의 범용적(domain-agnostic) 질의응답 시스템 구조. 먼저 주어진 지문과 질문 속 주요 개체\n(entity)를 파악하고 개체 관계 그래프를 생성하는 모델(1)을 개발한다. 다음으로 생성된 그래프를 기반으로 정답\n을 추론하는 질의응답 모델(2)을 개발한다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3) 한국어 논리적 추론 데이터셋 구축 및 한국어 맞춤형 질의응답 모델 개발",
+    "heading_candidates": [
+      "3) 한국어 논리적 추론 데이터셋 구축 및 한국어 맞춤형 질의응답 모델 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.3,
+          535.45,
+          519.2,
+          600.66
+        ],
+        "page_area_fraction": 0.0535
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.3,
+          470.25,
+          519.2,
+          535.46
+        ],
+        "page_area_fraction": 0.0535
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0003",
+    "caption": "레퍼런스를 필요로 하는 기존 평가 메트릭 (CIDEr)의 문제점. 이를 보완하기 위해 본 연구에서는 레퍼런스를 필요로 하지 않는 평가 메트릭을 개발한다",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "질의응답 시스템은 도메인 지식을 쌓기 위해 방대한 양의 학습 데이터를 요구로 하는데, 해당\n학습 데이터는 이미지와 해당 이미지의 정보를 담고 있는 텍스트 페어로 이루어져 있다. 이러\n한 텍스트 이미지 페어 데이터셋을 구축하기 위해서는, 주어진 이미지에 대한 정보를 텍스트로\n표기하는 이미지 캡셔닝이 필수적으로 활용되며 보다 높은 성능의 이미지 캡셔닝 시스템은 높\n은 성능의 멀티모달 질의응답로 귀결된다.\n때문에 이미지 캡셔닝 태스크의 보다 정확한 평가는 필수적이지만, 기존 평가 메트릭들의 가\n장 큰 한계점은 평가를 위한 레퍼런스가 필요하다는 것이다. 이러한 레퍼런스를 모으기 위해서",
+    "caption_and_following_text": "는 많은 비용이 들고 레퍼런스의 질에 따라 모델의 평가가 매우 극명하게 달라질 수 있다. 따\n라서, 본 연구에서는 멀티모달 질의응답 시스템에서 레퍼런스 없이 평가가 가능한 UMIC과\n그림 3 레퍼런스를 필요로 하는 기존 평가 메트릭 (CIDEr)의 문제점. 이를 보완하기 위해 본\n연구에서는 레퍼런스를 필요로 하지 않는 평가 메트릭을 개발한다.\n그림 4 UMIC에서 활용되는 UNITER 모듈의 학습 기법. 대조 학습을 통해 레퍼런스 없이\n이미지 캡셔닝을 평가할 수 있다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.63,
+          417.5,
+          477.22,
+          564.94
+        ],
+        "page_area_fraction": 0.1127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.14,
+          105.36,
+          485.74,
+          276.78
+        ],
+        "page_area_fraction": 0.129
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0004",
+    "caption": "UMIC에서 활용되는 UNITER 모듈의 학습 기법. 대조 학습을 통해 레퍼런스 없이 이미지 캡셔닝을 평가할 수 있다",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "한 텍스트 이미지 페어 데이터셋을 구축하기 위해서는, 주어진 이미지에 대한 정보를 텍스트로\n표기하는 이미지 캡셔닝이 필수적으로 활용되며 보다 높은 성능의 이미지 캡셔닝 시스템은 높\n은 성능의 멀티모달 질의응답로 귀결된다.\n때문에 이미지 캡셔닝 태스크의 보다 정확한 평가는 필수적이지만, 기존 평가 메트릭들의 가\n장 큰 한계점은 평가를 위한 레퍼런스가 필요하다는 것이다. 이러한 레퍼런스를 모으기 위해서\n는 많은 비용이 들고 레퍼런스의 질에 따라 모델의 평가가 매우 극명하게 달라질 수 있다. 따\n라서, 본 연구에서는 멀티모달 질의응답 시스템에서 레퍼런스 없이 평가가 가능한 UMIC과",
+    "caption_and_following_text": "그림 3 레퍼런스를 필요로 하는 기존 평가 메트릭 (CIDEr)의 문제점. 이를 보완하기 위해 본\n연구에서는 레퍼런스를 필요로 하지 않는 평가 메트릭을 개발한다.\n그림 4 UMIC에서 활용되는 UNITER 모듈의 학습 기법. 대조 학습을 통해 레퍼런스 없이\n이미지 캡셔닝을 평가할 수 있다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.63,
+          417.5,
+          477.22,
+          564.94
+        ],
+        "page_area_fraction": 0.1127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.14,
+          105.36,
+          485.74,
+          276.78
+        ],
+        "page_area_fraction": 0.129
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0005",
+    "caption": "QACE 프레임워크의 전체적인 플로우. 캡션을 평가하기 위해 1) Visual QA와 2)Textual QA로부터 각각 답을 생성하고 이 답의 중복 여부에 따라 해당 캡션을 평가한다",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "질문들에 대해 1) 이미지를 활용한 Visual QA 모델로 답을 예측하게 하고, 2) 레퍼런스 캡션을\n활용한 Textual QA로 답을 예측하게 한다. 이후 1) Visual QA 모델과 2) Textual QA로부터 생\n성된 답을 비교하게 되고 겹치는 답이 많을수록 해당 캡션이 레퍼런스와 유사한 정보를 담고\n있을 확률이 높아지게 된다. 또한, 보다 높은 성능의 유사도를 위해 T5 모델을 활용한\nVisual-T5라는 이름의 Visual QA model을 개발하였다 [4].\n위와 같이 1차년도 연구과정에서는 도메인 지식 (이미지와 텍스트가 동시에 주어지는 멀티모\n달 도메인)을 활용한 질의응답 시스템 개발을 위한 평가 메트릭 개발에 집중하였으며, 별도의",
+    "caption_and_following_text": "레퍼런스 없이도 인간과 유사한 성능을 내는 이미지 캡셔닝 평가 메트릭 개발에 성공하였다. 해당 UMIC과 QACE는 추후 멀티모달 질의응답 시스템을 개발하기 위한 가장 기초적인 뼈대로\n서 작용할 수 있으며, 이를 활용한 다양한 후속 연구들이 실제 진행되고 있다.\n그림 5 QACE 프레임워크의 전체적인 플로우. 캡션을 평가하기 위해 1) Visual QA와 2)Textual QA로부터 각각 답을\n생성하고 이 답의 중복 여부에 따라 해당 캡션을 평가한다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          492.18,
+          538.27,
+          612.05
+        ],
+        "page_area_fraction": 0.1154
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0006",
+    "caption": "본 연구에서 개발한 Visual QA 모델 Visual T5의 도식. T5 모델을 기반으로 하여 텍스트 엠베딩과 이미지 엠베딩을 합쳐서 입력으로 받고 이를 기반으로 QA를 진행한다",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "능의 질의응답 시스템 개발을 위해서는 필수적으로 해결해야 되는 문제 중 하나이다. (그림 7\n참조) 그 중 우리는 대화 시스템에서의 모호성 문제를 집중적으로 다루었는데 특히, 대화 시스\n템에서 유저와 모델간의 질의응답을 통해 유저가 원하는 정보를 얻는 목적 지향 대화 시스템\n에 초점을 맞추었다. 목적 지향 대화 시스템에서 보다 유저의 요구에 맞는 답변을 생성하기 위해 모호한 개체에\n대한 복수의 검색 결과들을 유저의 요구에 맞춰서 비교하는 Comparison Skill 메소드를 제시하\n였다. 특히, 이러한 메소드를 학습하기 위해 대용량 언어모델을 활용한 양질의 대화 데이터를\n구축하는 프레임워크를 제시하였고 (그림 8 참조) 이를 통해 대화 시스템에서 발생하는 모호성",
+    "caption_and_following_text": "문제를 보다 효과적으로 해결할 수 있었다 [5].\n그림 6 본 연구에서 개발한 Visual QA 모델 Visual T5의 도식. T5\n모델을 기반으로 하여 텍스트 엠베딩과 이미지 엠베딩을 합쳐서\n입력으로 받고 이를 기반으로 QA를 진행한다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.52,
+          601.14,
+          422.17,
+          770.28
+        ],
+        "page_area_fraction": 0.0918
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0007",
+    "caption": "목적 지향 대화 시스템에서 나타나는 모호성 문제. “American restaurant”를 나타내는 다양한 개체 중 유저의 요구에 맞춘 보다 정밀한 대화 시스템이 요구된다",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 7 -\n2차년도에서는 대화 시스템 외에도 보다 범용적인 OOD 문제를 풀고자 하였는데 이 중 하나",
+    "caption_and_following_text": "그림 7 목적 지향 대화 시스템에서 나타나는 모호성 문\n제. “American restaurant”를 나타내는 다양한 개체 중\n유저의 요구에 맞춘 보다 정밀한 대화 시스템이 요구된\n다.\n그림 8 목적 지향 대화 시스템에서 comparison skill을 학습시키기 위한 데이터셋 구축 프레임워크. 대\n용량 언어모델을 효과적으로 활용하여 양질의 데이터셋을 확보하고 이를 바탕으로 모호성을 해결할\n수 있는 메소드를 학습시킨다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.54,
+          466.77,
+          409.94,
+          770.28
+        ],
+        "page_area_fraction": 0.1416
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.31,
+          162.78,
+          516.44,
+          397.01
+        ],
+        "page_area_fraction": 0.1995
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0008",
+    "caption": "목적 지향 대화 시스템에서 comparison skill을 학습시키기 위한 데이터셋 구축 프레임워크. 대용량 언어모델을 효과적으로 활용하여 양질의 데이터셋을 확보하고 이를 바탕으로 모호성을 해결할 수 있는 메소드를 학습시킨다",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 7 -\n2차년도에서는 대화 시스템 외에도 보다 범용적인 OOD 문제를 풀고자 하였는데 이 중 하나\n그림 7 목적 지향 대화 시스템에서 나타나는 모호성 문\n제. “American restaurant”를 나타내는 다양한 개체 중\n유저의 요구에 맞춘 보다 정밀한 대화 시스템이 요구된",
+    "caption_and_following_text": "다.\n그림 8 목적 지향 대화 시스템에서 comparison skill을 학습시키기 위한 데이터셋 구축 프레임워크. 대\n용량 언어모델을 효과적으로 활용하여 양질의 데이터셋을 확보하고 이를 바탕으로 모호성을 해결할\n수 있는 메소드를 학습시킨다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.54,
+          466.77,
+          409.94,
+          770.28
+        ],
+        "page_area_fraction": 0.1416
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.31,
+          162.78,
+          516.44,
+          397.01
+        ],
+        "page_area_fraction": 0.1995
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0009",
+    "caption": "자연언어 시각 추론 및 Wikitablequestion 데이터셋의 예시. 본 연구에서는 z’과 같은 spurious program들을 걸러내고자 하였다",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "는 데이터셋에서도 종종 spurious program이라 불리는 프로그램 실행 결과는 맞지만 인간이 직\n접 확인하였을 때 틀린 샘플들이 존재하는데 (그림 9 참고) 이러한 샘플들을 필터링하는 작업\n이 필수적으로 요구된다.\n따라서 본 연구에서는 이러한 spurious program들을 자동으로 걸러낼 수 있는 방법을 개발하\n고자 하였다. 구체적으로, 실제 기계들을 활용하여 라벨링 되어 있는 program들을 실행한 후\n과반수 투표 방식을 활용하여 OOD 샘플들인 Spurious program들을 걸러내었다 [6]. 해당 연구\n의 방법론은 OOD 문제를 푸는 단순하면서도 효과적인 방법론을 제시하고 매우 범용적",
+    "caption_and_following_text": "(domain-agnostic)하게 적용 가능하다는 장점을 가진다. 때문에 도메인 지식을 활용한 범용적\n질의응답 시스템 구축에 중요한 역할을 할 것으로 예상된다.\n그림 9 자연언어 시각 추론 및 Wikitablequestion 데이터셋의 예시. 본\n연구에서는 z’과 같은 spurious program들을 걸러내고자 하였다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.48,
+          333.12,
+          433.69,
+          664.79
+        ],
+        "page_area_fraction": 0.191
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0010",
+    "caption": "대화 질의응답 시스템에서 데이터셋 구축을 위한 Dialogizer 프레임워크. 본 방식에서는 대용량 언어모델의 능력을 활용하여 각 문맥을 파악하고 이를 바탕으로 논리적 추론이 가능하게 하는 대화 질의응답 데이터셋을 구축한다",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "에 맞춰 대화 시스템 데이터셋을 구축하였다. 특히, 이 과정에서 대용량 언어모델의 OOD 일반\n화 능력을 활용하여 보다 효과적으로 데이터셋을 구축하였으며, (그림 10 참고) 구축한 데이터\n셋을 통해 학습한 대화 질의응답 시스템은 기존 방식과 비교하여 보다 문맥을 잘 파악하고 높\n은 논리적 추론 능력을 보여주었다.\n해당 프레임워크를 한국어 질의응답 시스템에 적용하기 위해서는 한국어의 특성을 고려한\n접근방식이 필요하다. 특히, 한국어는 영어에 비해 화자간의 관계에 따른 존댓말이나 대명사가\n달라지기 때문에 이를 고려하여야 한다. (그림 11 참고) 따라서, 본 연구에서는 앞서 언급한 특",
+    "caption_and_following_text": "성을 고려한 한국어 맞춤형 텍스트 유사도 평가 메트릭을 우선적으로 개발하였다 [8].\n그림 10 대화 질의응답 시스템에서 데이터셋 구축을 위한 Dialogizer 프레임워크. 본 방식에서는 대용량 언어모델의\n능력을 활용하여 각 문맥을 파악하고 이를 바탕으로 논리적 추론이 가능하게 하는 대화 질의응답 데이터셋을 구축\n한다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          290.44,
+          538.27,
+          505.01
+        ],
+        "page_area_fraction": 0.2065
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0011",
+    "caption": "한국어의 특성으로 인해 나타나는 언어적 모델링의 어려움",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 10 -\n해당 메트릭의 경우 대화 시스템에서 화자 간의 관계를 바탕으로 네거티브 샘플과 포지티브\n샘플을 생성하였고 이를 대조학습 방식으로 학습시켜 한국어 특화 텍스트 유사도 측정 메트릭\n을 개발하였다. 해당 메트릭의 경우 추후 기존에 존재하는 영어 데이터셋들을 한국어로 변환하",
+    "caption_and_following_text": "여 학습시킬 때 활용하여, 보다 정확하고 한국어 특성을 반영할 수 있도록 모델을 학습 시킬\n수 있다.\n그림 11 한국어의 특성으로 인해 나타나는 언어적 모델링의\n어려움.\n그림 12 한국어의 특성 (화자 간의 관계, 존댓말 등)을 감안하여 각 문장 간의 유사도를 측정하는 Kosmic\n메트릭의 프레임워크. 대조 학습을 통해 해당 메트릭을 학습시킨다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.71,
+          641.42,
+          414.38,
+          770.28
+        ],
+        "page_area_fraction": 0.0653
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.32,
+          256.52,
+          516.56,
+          483.67
+        ],
+        "page_area_fraction": 0.1989
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I23-V0012",
+    "caption": "한국어의 특성 (화자 간의 관계, 존댓말 등)을 감안하여 각 문장 간의 유사도를 측정하는 Kosmic 메트릭의 프레임워크. 대조 학습을 통해 해당 메트릭을 학습시킨다",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 10 -\n해당 메트릭의 경우 대화 시스템에서 화자 간의 관계를 바탕으로 네거티브 샘플과 포지티브\n샘플을 생성하였고 이를 대조학습 방식으로 학습시켜 한국어 특화 텍스트 유사도 측정 메트릭\n을 개발하였다. 해당 메트릭의 경우 추후 기존에 존재하는 영어 데이터셋들을 한국어로 변환하\n여 학습시킬 때 활용하여, 보다 정확하고 한국어 특성을 반영할 수 있도록 모델을 학습 시킬\n수 있다.",
+    "caption_and_following_text": "그림 11 한국어의 특성으로 인해 나타나는 언어적 모델링의\n어려움.\n그림 12 한국어의 특성 (화자 간의 관계, 존댓말 등)을 감안하여 각 문장 간의 유사도를 측정하는 Kosmic\n메트릭의 프레임워크. 대조 학습을 통해 해당 메트릭을 학습시킨다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.71,
+          641.42,
+          414.38,
+          770.28
+        ],
+        "page_area_fraction": 0.0653
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.32,
+          256.52,
+          516.56,
+          483.67
+        ],
+        "page_area_fraction": 0.1989
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

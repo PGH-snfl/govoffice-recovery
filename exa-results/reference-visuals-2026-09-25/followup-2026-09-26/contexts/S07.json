@@ -1,0 +1,622 @@
+[
+  {
+    "visual_id": "S07-V0001",
+    "caption": "(위) BB84 양자암호통신 프로토콜의 과정 (아래) 미츠비시에서 구현한 예시",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 5 -\n[참고] 양자암호통신 프로토콜은 양자상태의 생성, 전송, 측정의 과정으로 구성",
+    "caption_and_following_text": "양자상태의 생성 : 광원을 사용하며 광자 (photon)에 정보를 입력 및 전송\n양자상태의 전송 : 광원을 전송하는 광케이블 혹은 자유공간 전송\n양자상태의 측정 : 양자역학의 측정공리에 따라 광원의 양자상태를 측정\n[그림: (위) BB84 양자암호통신 프로토콜의 과정 (아래) 미츠비시에서 구현한 예시]\nO 양자암호통신 프로토콜의 양자상태의 생성, 전송, 측정의 과정의 요약\n양자상태의 생성 : Weak Coherent Pulse (WCP) 라 불리는 단광자에 근사한 광원을 사용\n생성의 결함 : 실제 단광자 발생 불가능\n양자상태의 전송 : 광케이블을 통한 전송\n전송의 결함 : 실제 환경에서 잡음\n양자상태의 측정 : 광자 측정 장치",
+    "section_context_candidate": "바. 양자암호통신 프로토콜의 보안성 증명 방법들",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.09,
+          423.02,
+          456.47,
+          690.33
+        ],
+        "page_area_fraction": 0.2101
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.09,
+          210.49,
+          464.87,
+          344.14
+        ],
+        "page_area_fraction": 0.1073
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0002",
+    "caption": "다체계 양자상태의 구조. 분리가능한 상태 (SEP) 의 집합은 내부의 타원에 해당. 볼록구조 (convexity) 를 갖는다. 얽힘을 포함한 상태들 (ENT) 은 외부의 타원과 내부의 타원 사이의 영역에 해당하며 볼록구조를 갖지 않는다. 주어진 양자상태가 내부의 타원에 속하지는지 여부를 밝히는 과정으로 양자얽힘검증을 이해할 수 있다",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 30,
+    "prefix_match_only": false,
+    "text_before": "\n. 얽힘을 포함한 양자상태는 양자정보처리의 일반적인 자원이다.\n[노트] 양자얽힘검증\n양자얽힘의 존재는 양자암호를 수행하기 위해 선행 조건이다. 즉, 양자암호 프로토콜을 수\n행하기에 앞서 송수신자가 공유한 양자상태가 양자 얽힘을 포함하는지 여부를 결정하는 것\n이 필요하다. 이를 양자얽힘검증이라고 부른다.\n[M. Curty PRL 2003, A. Acin PRL 2003]",
+    "caption_and_following_text": "[그림 : 다체계 양자상태의 구조. 분리가능한 상태 (SEP) 의 집합은 내부의 타원에 해당. 볼\n록구조 (convexity) 를 갖는다. 얽힘을 포함한 상태들 (ENT) 은 외부의 타원과 내부의 타원\n사이의 영역에 해당하며 볼록구조를 갖지 않는다. 주어진 양자상태가 내부의 타원에 속하지\n는지 여부를 밝히는 과정으로 양자얽힘검증을 이해할 수 있다.]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3 난수성 검증 배준우",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0003",
+    "caption": "(D)는 기존 양자얽힘증류 프로토콜에 해당. 개선된 프로토콜의 경우 (I)로 표기",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 14 -\n③ 기존 프로토콜의 일반적인\n잡음 모델에 대한 양자얽\n힘 분배분석",
+    "caption_and_following_text": "④ 총 256 개의 가능한 잡음종류들을 16개의 동등한 모델로 분류\n16개의 잡음들이 동등한 확률로 분포할 때, 기존의 잡음 모델과 일치함을 확인\n16개의 잡음 종류들 중, 얽힘증류와 무관한 잡음들 판별\n[그림 : (D)는 기존 양자얽힘증류 프로토콜에 해당. 개선된 프로토콜의 경우 (I)로 표기]\n(다) 연구성과: 논문출판\nJ. Chang, J. Bae, and Y. Kwon, Distilling entanglement with noisy operations\n(International Journal of Quantum Information, 3 1750019 (2017))\n(라) 연구의 활용방안: 장거리 양자얽힘분배에서, 얽힘종류와 무관한 잡음들을 이용하여 양\n자통신거리 확장에 적용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          252.82,
+          659.16,
+          538.27,
+          784.42
+        ],
+        "page_area_fraction": 0.0715
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.52,
+          228.59,
+          511.04,
+          555.11
+        ],
+        "page_area_fraction": 0.2855
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0004",
+    "caption": "양자채널 구별은 시스템에 대한 양자상태 외에도 보조비트를 사용한다. 위에서 M 은 측정장치, PAS 는 시스템과 보조상태를 포함한 양자상태. Λ 는 양자채널",
+    "pdf_page_candidate": 20,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": 21,
+    "prefix_match_only": true,
+    "text_before": "(다) 연구결과\n① 다음의 정리를 유도\n두 양자상태가 있을 때 양자얽힘을 더 많이 포함한 상태는 채널구별에 더 유용함\n“ 는   보다 더 많은 얽힘을 포함한다“는 다음과 동치\n⊗  \n  ⊗  \n  ⊗  ",
+    "caption_and_following_text": "  ⊗  \n ② 양자얽힘의 관계는 서로 정량적으로 비례하는 관계임을 증명\n즉, 위의 거리는 초기 상태  가 포함하는 얽힘 양에 비례\n[그림 : 양자채널 구별은 시스템에 대한 양자상태 외에도 보조비트를 사용한다. 위에서\nM 은 측정장치,  는 시스템과 보조상태를 포함한 양자상태. 는 양자채널]\n(라) 연구성과 : 연구논문출판 (IF 8.5) J. Bae, D. Chruscinski, M. Piani, - More Entanglement Implies Higher Performance in\nChannel Discrimination Tasks(Physical Review Letters, 122 140404 (2019))\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.04,
+          228.23,
+          438.84,
+          334.19
+        ],
+        "page_area_fraction": 0.0599
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0005",
+    "caption": "환경 변화에 따른 채널 코딩 방법. 채널 전후로 양자 2-디자인에 해당하는 유니타리 변환들을 임의로 적용. 측정장치는 계속 최적의 양자상태 구별",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "\n위에서 M은 모든 가능한 POVM 집합을 표기.\n② 양자암호와의 관련성: 양자상태구별은 송수신자가 실제 양자암호프로토콜을 구현하\n는 과정.\n③ 양자상태구별 문제의 어려움\n④ 측정장치의 최적화\n⑤ 주변환경이 변함에 따라서 상태가 왜곡되면 양자측정 최적화를 재고해야 함",
+    "caption_and_following_text": "(나) 연구결과\n① 환경이 변해도 측정을 보존할 수 있는 채널코딩 제시\n[그림 : 환경 변화에 따른 채널 코딩 방법. 채널 전후로 양자 2-디자인에 해당하는\n유니타리 변환들을 임의로 적용. 측정장치는 계속 최적의 양자상태 구별]\n(다) 연구성과\n① 연구논문발표\nS. Kechrimparis, T. Singal, C. Kropf, and Joonwoo Bae, Preserving meassurements\nfor optimal state discrimination over quantum channels(Physical Review A, 99\n062302 (2019))\n② 학회발표",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.86,
+          288.64,
+          509.61,
+          416.66
+        ],
+        "page_area_fraction": 0.103
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0006",
+    "caption": "기존의 방법중 하나인 Quantum reproducing의 기본구조도 - 송신자가 보내는 양자상태를 확인 후 이를 재 생성하여 보내는 방법",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "(다) 연구성과: 기존프로토콜을 능가하는 새로운 다자간 양자키분배 프로토콜(sequential\nstate discrimination)개발\n① sequential state discrimination 의 기본구성도:\n② 상태 생성 및 측정 후 측정결과 및 측정 후 상태 모두 활용\n③ 기존 프로토콜의 경우 측정결과를 활용하지 않음\n④ 새로운 프로토콜은 여러 명의 수신자에 대해 송신자가 보내는 양자상태를 애매함이\n없는 구별방법을 통해 오류없이 정보공유를 가능하게 함",
+    "caption_and_following_text": "⑤ 위 그림은 중간과정의 수신자와 최종 수신자가 구성해야하는 측정장치의 구조\n< Quantum reproducing >\n[그림 : 기존의 방법중 하나인 Quantum reproducing의 기본구조도 - 송신자가 보내는\n양자상태를 확인 후 이를 재 생성하여 보내는 방법]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          430.45,
+          478.18,
+          526.94
+        ],
+        "page_area_fraction": 0.0813
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          158.71,
+          488.38,
+          257.0
+        ],
+        "page_area_fraction": 0.0848
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0007",
+    "caption": "기존 방법중 하나인 Quantum broadcasting 은 송신자가 양자상태를 Quantum broadcasting하는 방법임",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 21 -\n< Quantum broadcasting >\n[그림 : 기존 방법중 하나인 Quantum broadcasting 은 송신자가 양자상태를 Quantum\nbroadcasting하는 방법임]\n본 연구에서 mixed states   〉〈   〉〈 ,  〉〈   〉〈  을 이\n용하는 경우 최대성공확률이 기존 프로토콜보다 우수함\n수신자의 측정장치가\n으로 주어질 때 이 그림은 수신자의 POVM을 위해 각 측정장치가 만족해야하는 최적 조건\n[그림 : 위의 최적조건에 따른 그래프]\n(9) sequential state discrimination 의 구조규명을 위한 연구 [3,4차년도] [한양대] (가) 연구목적",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          649.33,
+          508.17,
+          759.01
+        ],
+        "page_area_fraction": 0.099
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.24,
+          493.74,
+          344.7,
+          515.32
+        ],
+        "page_area_fraction": 0.0118
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.02,
+          268.99,
+          464.99,
+          457.66
+        ],
+        "page_area_fraction": 0.1353
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0008",
+    "caption": "위의 최적조건에 따른 그래프",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 21 -\n< Quantum broadcasting >\n[그림 : 기존 방법중 하나인 Quantum broadcasting 은 송신자가 양자상태를 Quantum\nbroadcasting하는 방법임]\n본 연구에서 mixed states   〉〈   〉〈 ,  〉〈   〉〈  을 이",
+    "caption_and_following_text": "용하는 경우 최대성공확률이 기존 프로토콜보다 우수함\n수신자의 측정장치가\n으로 주어질 때 이 그림은 수신자의 POVM을 위해 각 측정장치가 만족해야하는 최적 조건\n[그림 : 위의 최적조건에 따른 그래프]\n(9) sequential state discrimination 의 구조규명을 위한 연구 [3,4차년도] [한양대] (가) 연구목적\n여러 상태를 이용하는 sequential state discrimination에서 최적의 구성방법\n(나) 연구결과\n① 한 명의 송신자와 두 명의 수신자를 구성된 sequential state discrimination 의 경우\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          649.33,
+          508.17,
+          759.01
+        ],
+        "page_area_fraction": 0.099
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.24,
+          493.74,
+          344.7,
+          515.32
+        ],
+        "page_area_fraction": 0.0118
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.02,
+          268.99,
+          464.99,
+          457.66
+        ],
+        "page_area_fraction": 0.1353
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0009",
+    "caption": "(왼쪽) 첫 번째 수신자의 측정장치가 만족해야 할 조건 (오른쪽) 두 번째 수신자가 만족해야 할 조건",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 22 -\n[그림 : (왼쪽) 첫 번째 수신자의 측정장치가 만족해야 할 조건 (오른쪽) 두 번째\n수신자가 만족해야 할 조건]\n② 세 개의 qutrit state를 사용하여 한 명의 송신자가 두 명의 수신자와 sequential\nstate discrimination 할 경우\n[그림 : 세 개의 큐트리트 상태를 사용할 때 성공확률]\n③ N=1 은 세 개중 한 상태만 구별할 경우, N=2 는 세 개중 두 상태만 구별할 경우, N=3 은 세 상태 모두를 구별할 경우에 대한 성공확률임\n④ 세 개의 qutrit state를 사용할 때 sequential state discrimination 과 확률적 양자클론\n닝방법과의 성공확률 비교(밑의 점선이 확률적 양자클론닝방법의 성공확률) ⑤ sequential state discrimination 이 확률적 양자클론닝방법보다 우수\n⑥ 양자상태간의 overlap이 클수록 sequential state discrimination 이 확률적 양자클론",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          636.98,
+          538.27,
+          784.42
+        ],
+        "page_area_fraction": 0.1419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          303.03,
+          490.78,
+          530.66
+        ],
+        "page_area_fraction": 0.1975
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0010",
+    "caption": "세 개의 큐트리트 상태를 사용할 때 성공확률",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 22 -\n[그림 : (왼쪽) 첫 번째 수신자의 측정장치가 만족해야 할 조건 (오른쪽) 두 번째",
+    "caption_and_following_text": "수신자가 만족해야 할 조건]\n② 세 개의 qutrit state를 사용하여 한 명의 송신자가 두 명의 수신자와 sequential\nstate discrimination 할 경우\n[그림 : 세 개의 큐트리트 상태를 사용할 때 성공확률]\n③ N=1 은 세 개중 한 상태만 구별할 경우, N=2 는 세 개중 두 상태만 구별할 경우, N=3 은 세 상태 모두를 구별할 경우에 대한 성공확률임\n④ 세 개의 qutrit state를 사용할 때 sequential state discrimination 과 확률적 양자클론\n닝방법과의 성공확률 비교(밑의 점선이 확률적 양자클론닝방법의 성공확률) ⑤ sequential state discrimination 이 확률적 양자클론닝방법보다 우수\n⑥ 양자상태간의 overlap이 클수록 sequential state discrimination 이 확률적 양자클론\n닝방법보다 확연하게 우수\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          636.98,
+          538.27,
+          784.42
+        ],
+        "page_area_fraction": 0.1419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          303.03,
+          490.78,
+          530.66
+        ],
+        "page_area_fraction": 0.1975
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0011",
+    "caption": "coherent states를 이용한 sequential state discrimination 첫 번째 구현 방법",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 23 -\n(10) 실용적 다자간 양자키분배를 위한 sequential state discrimination연구 [2,3차년도] [한양대] (가) 연구목적\n다자간 양자키분배를 위해 sequential state discrimination에 기반한 프로토콜개발\n(나) 연구결과",
+    "caption_and_following_text": "① sequential state discrimination 이 실제적으로 유용할 수 있는가에 대한 고찰\n② 쉽게 구현할 수 있는 coherent states를 전송도구로 사용\n③ 광학모델을 이용한 post measurement 구현\n[그림 : coherent states를 이용한 sequential state discrimination 첫 번째 구현 방법]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          603.54,
+          372.16,
+          784.42
+        ],
+        "page_area_fraction": 0.1141
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          178.49,
+          538.27,
+          384.78
+        ],
+        "page_area_fraction": 0.1986
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0012",
+    "caption": "coherent states를 이용한 sequential state discrimination 두 번째 구현 방법",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 24 -\n[그림 : coherent states를 이용한 sequential state discrimination 두 번째 구현 방법]\n[그림 : 두 개의 coherent states를 이용하는 sequential state discrimination 과 확률적\n양자클론닝방법과의 성공확률비교(밑의 점선이 확률적 양자클론닝방법의 성공확률)]\n(다) 연구성과\n① 연구논문출판\n[1] M. Namkung, and Y. Kwon, Optimal sequential state discrimination\nbetween two mixed quantum states. Phys(Rev. A 96, 022318 (2017))\n[2] M. Namkung M and Y. Kwon, Analysis of Optimal Sequential State\nDiscrimination for Linearly Indepenent Pure Quantum States(Sci. Rep. 8,",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          626.55,
+          538.27,
+          784.42
+        ],
+        "page_area_fraction": 0.152
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          415.7,
+          568.61,
+          574.41
+        ],
+        "page_area_fraction": 0.1624
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0013",
+    "caption": "두 개의 coherent states를 이용하는 sequential state discrimination 과 확률적 양자클론닝방법과의 성공확률비교(밑의 점선이 확률적 양자클론닝방법의 성공확률)",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 24 -\n[그림 : coherent states를 이용한 sequential state discrimination 두 번째 구현 방법]\n[그림 : 두 개의 coherent states를 이용하는 sequential state discrimination 과 확률적\n양자클론닝방법과의 성공확률비교(밑의 점선이 확률적 양자클론닝방법의 성공확률)]\n(다) 연구성과\n① 연구논문출판\n[1] M. Namkung, and Y. Kwon, Optimal sequential state discrimination\nbetween two mixed quantum states. Phys(Rev. A 96, 022318 (2017))\n[2] M. Namkung M and Y. Kwon, Analysis of Optimal Sequential State\nDiscrimination for Linearly Indepenent Pure Quantum States(Sci. Rep. 8,",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          626.55,
+          538.27,
+          784.42
+        ],
+        "page_area_fraction": 0.152
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          415.7,
+          568.61,
+          574.41
+        ],
+        "page_area_fraction": 0.1624
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0014",
+    "caption": "Werner state와 Isotropic state 클래스에 해당하는 양자얽힘을 동시 검증 가능. 위의 그림에서 상한은 isotropic state 하한은 Werner state 검증",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "① 분리가능한 상태들 (separable states) 들이 볼록집합\n② EWs 는 분리가능한 상태들에 대해 하한값을 0을 제공\n③ EW는 분리가능한 상태들을 얽힘상태들로부터 구별\n④ 양자얽힘검증 원리: 분리가능한 상태들에 대해 EWs 들은 하한값\n하한값을 위반하는 상태는 얽힘을 포함\n(다) 연구내용\n① EWs에 대해서 분리가능한 상태들이 하한값 뿐 아니라 상한값 제시",
+    "caption_and_following_text": "② 하한값 및 상한값의 두 가지 방법으로 양자얽힘 검증\n③ 기존 연구대비 개선 사항\n[그림 : Werner state와 Isotropic state 클래스에 해당하는 양자얽힘을 동시 검증\n가능. 위의 그림에서 상한은 isotropic state 하한은 Werner state 검증]\n④ 기존의 한 개의 클래스에 해당하는 양자얽힘 검증을 두 개의 클래스로 확장\n⑤ 양자얽힘의 기저는 구현 용이하며 실험으로 구현 가능\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.13,
+          214.33,
+          457.31,
+          393.53
+        ],
+        "page_area_fraction": 0.1182
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0015",
+    "caption": "두 개의 측정장치와 HOM 간섭계만으로 얽힘을 검증",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "(가) 연구 동기\n① MDI QKD의 구현을 위해 우선적으로 요구되는 것은 MDI 방법으로 얽힘검증\n② 양자얽힘검증은 일반적으로 양자얽힘측정연산자 (Entanglement Witnesses, EWs)를 통\n해 수행할 수 있는데, EWs는 일반적으로 다음과 같은 형태\n위에서 베타들은 모두 상수이며 나머지는 작용소 (operators) 에 해당\n(나) 연구내용\n① 위의 EWs들에 기반하여 MDI 얽힘검증은 다음의 EWs를 구현",
+    "caption_and_following_text": "T는 전치 (transpose)를 의미\n(다) 연구결과\n① MDI EW 의 구현 방법 제시 : Hong-Ou-Mandel (HOM) 간섭계를 활용\n[그림 설명: 두 개의 측정장치와 HOM 간섭계만으로 얽힘을 검증]\n(라) 연구결과의 활용: 실험장비를 활용하여 구현\n(마) 연구성과 : 연구논문출판 (IF 14.4) J. Bae, Designing quantum information processing via structural physical approximation\n(Report on Progress in Physics, 80 104001 (2017))\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 양자채널 ⊗의 결과상태가 분리가능한 양자상태일 때",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.33,
+          607.38,
+          374.8,
+          642.62
+        ],
+        "page_area_fraction": 0.0167
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.29,
+          471.08,
+          419.17,
+          509.8
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.33,
+          188.79,
+          438.96,
+          391.25
+        ],
+        "page_area_fraction": 0.122
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0016",
+    "caption": "양자암호통신 프로토콜은 양자상태 생성, 전송, 측정의 과정을 포함. 전송 중 잡음 발생",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "1020170102326 ( 출원일 2017.08.11.)\n나. 최종 프로토콜 개발 요약 : 측정-보존 양자암호통신 프로토콜\n(1) 연구명칭 : 측정-보존 양자암호 프로토콜\n(2) 장점 및 성능개선:\n① 양자암호통신에서 측정의 보존 기능\n② 인공위성, 지상-비행체 등의 변화된 환경에서도 사용가능\n③ 기존 암호 프로토콜 대비 보안성 개선",
+    "caption_and_following_text": "BB84의 경우 20%의 한계에러를 20.7%로 개선\n(3) 향후 활용가능성\n① 장거리 양자통신에서 측정 보존의 방법으로 실용화 예상\n[그림. 양자암호통신 프로토콜은 양자상태 생성, 전송, 측정의 과정을 포함. 전송 중 잡음 발생] (4) BB84 프로토콜\n① Step1. 양자상태의 분배\n    의 상태를 임의로 선택하여 전송\n② Step2. 양자상태의 측정\n수신자는 측정기저를 X 및 Z 두 가지로 선택\nX 기저의 경우   상태를 구별할 수 있고 Z 기저의 경우   상태를 구별\n③ Step3. 양자상태준비와 측정의 매칭 (sifting process)",
+    "section_context_candidate": "나. 최종 프로토콜 개발 요약 : 측정-보존 양자암호통신 프로토콜",
+    "heading_candidates": [
+      "나. 최종 프로토콜 개발 요약 : 측정-보존 양자암호통신 프로토콜"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          250.17,
+          525.32,
+          405.88
+        ],
+        "page_area_fraction": 0.1303
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0017",
+    "caption": "본 과제에서 개발한 측정-보존 양자암호통신 프로토콜은 양자상태 전송 전후로 채널코딩에 해당하는 유니타리 변환을 임의로 적용",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 35 -\n송수신자는 서로의 기저를 맞는지 확인\n④ Step4. 측정결과에 대한 후처리\n참고. BB84 프로토콜의 보안성 증명은 위의 과정을 직접적으로 따르지 않고 동일한",
+    "caption_and_following_text": "과정에 해당하는 양자얽힘분배 프로토콜의 방법을 활용. 이 경우, Step 1의 과정이 양\n자얽힘생성 및 측정으로 수정\n[그림: 본 과제에서 개발한 측정-보존 양자암호통신 프로토콜은 양자상태 전송 전후로\n채널코딩에 해당하는 유니타리 변환을 임의로 적용]\n(5) 측정-보존 BB884 프로토콜\n① Step1-1. 양자상태의 분배\n    의 상태를 임의로 선택\n② Step1-2. 양자상태의 코딩 (위의 그림 참조) 아래 유니타리 집합에서 한 개를 임의의 선택하여 Step 1-1에서 선택한 상태에 적용.\n참고. 위의 유니타리 집합은 유니타리 2-디자인이라 불리는 집합. 큐비트의 유니타리\n2-디자인을 구성의 최소 개수는 12이므로, 위의 집합은 가장 효율적인 코딩에 해당.",
+    "section_context_candidate": "나. 최종 프로토콜 개발 요약 : 측정-보존 양자암호통신 프로토콜",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          499.13,
+          538.27,
+          652.21
+        ],
+        "page_area_fraction": 0.1473
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.88,
+          215.76,
+          393.03,
+          305.07
+        ],
+        "page_area_fraction": 0.0554
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0018",
+    "caption": "PoC 수행의 실험장비. 광학계 활용. 단광자 혹은 적은 수의 광자를 양자통신에 응용. 송신부는 상태 생성, 수신부는 양자상태 측정. 채널코딩에 해당하는 유니타리 변환은 채널의 전후로 적용",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 37 -",
+    "caption_and_following_text": "(9) PoC 수행 (ETRI 연구장비활용 및 연구팀 공동연구)\n[그림: PoC 수행의 실험장비. 광학계 활용. 단광자 혹은 적은 수의 광자를 양자통신에 응용. 송\n신부는 상태 생성, 수신부는 양자상태 측정. 채널코딩에 해당하는 유니타리 변환은 채널의 전\n후로 적용]\nPoC에 적용되는 BB84 상태들:\n① 첫 번째 집합 : 직교하는 두 상태\n② 두 번째 집합 :  상태와  상태\n③세 번째 집합 : BB84의 네 상태\n[ 시뮬레이션 ]\n초기 양자상태 OA, OB의 구별에 대해서",
+    "section_context_candidate": "나. 최종 프로토콜 개발 요약 : 측정-보존 양자암호통신 프로토콜",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          359.49,
+          538.27,
+          535.81
+        ],
+        "page_area_fraction": 0.1697
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          382.83,
+          118.31,
+          527.24,
+          239.74
+        ],
+        "page_area_fraction": 0.035
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          271.17,
+          604.74,
+          518.6,
+          762.96
+        ],
+        "page_area_fraction": 0.0782
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S07-V0019",
+    "caption": "PoC 결과. 위의 세 개의 상태들에 대해서 거리를 의미하는 광자 손실 10dB, 20dB, 30dB 등을 모두 확인. 약 100km 거리에 대해 거리 전송을 시뮬레이션. 실선 이론치, 점선 실험치. 붉은 색 결과와 녹색 선의 결과는 각각 다른 채널을 의미",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 38 -\n[그림 : PoC 결과. 위의 세 개의 상태들에 대해서 거리를 의미하는 광자 손실 10dB, 20dB,\n30dB 등을 모두 확인. 약 100km 거리에 대해 거리 전송을 시뮬레이션. 실선 이론치, 점선 실험\n치. 붉은 색 결과와 녹색 선의 결과는 각각 다른 채널을 의미 ]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 최종 프로토콜 개발 요약 : 측정-보존 양자암호통신 프로토콜",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          466.65,
+          538.27,
+          784.42
+        ],
+        "page_area_fraction": 0.3059
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

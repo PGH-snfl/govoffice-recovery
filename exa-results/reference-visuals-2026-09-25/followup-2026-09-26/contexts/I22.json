@@ -1,0 +1,3703 @@
+[
+  {
+    "visual_id": "I22-V0001",
+    "caption": "본 연구의 특성 및 내용",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 35,
+    "prefix_match_only": false,
+    "text_before": "Enabling\nIoT 융합서비스의 빠른 확산을 가능하게 함, ‘Click to\nReconfigure’(기존 네트워크 구성이 매뉴얼로 시간이 걸리는 것과\n달리 새 IoT 서비스에 맞게 즉시 가상 네트워크 재구성 가능)\nEvolvable\nNetwork\nArchitecture",
+    "caption_and_following_text": "네트워크 가상화 기반 진화 가능한 네트워크 구조를 제시하여\n새로운 네트워크 기술(5G, GIGA 등)의 등장에 관계없이 IoT 서비\n스에 일관된 가상 네트워크 서비스를 제공할 수 있음\n<표 1-1> 본 연구의 특성 및 내용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "가. 연구개발의 목적"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          404.3,
+          406.6,
+          506.01,
+          461.86
+        ],
+        "page_area_fraction": 0.0112
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          404.3,
+          324.12,
+          504.57,
+          400.96
+        ],
+        "page_area_fraction": 0.0154
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          404.3,
+          244.65,
+          503.25,
+          315.61
+        ],
+        "page_area_fraction": 0.014
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0002",
+    "caption": "IoT 서비스 지향 네트워크 인프라 구조 개념도",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 6 -\n<그림 1-1> IoT 서비스 지향 네트워크 인프라 구조 개념도\n- <그림 1-1>은 본 연구에서 개발하고자 하는 기술의 개념도임. 기존 물리적 네트워크 위에\noverlay 또는 middleware형태로 부가되는 새로운 네트워크 구조를 블록들로 표현하고 각\n블록의 기능을 아래와 같이 정의함\n(1) Context Manager: 디바이스, 응용(서비스), 사용자, 네트워크로부터 컨텍스트를 추출하여\n이를 Virtualization Manager, Multi-Network Access / Mobility Manager, Trust Manager등에\n게 보냄\n(디바이스의 위치, 사용자 activity, 서비스의 QoS 요구, 네트워크 자원 사용 현황 등을 컨\n텍스트로 추출함. 예: 디바이스+사용자 컨텍스트[Sensor Plat- forms])",
+    "section_context_candidate": "가. 연구개발의 목적",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.32,
+          474.56,
+          513.56,
+          784.42
+        ],
+        "page_area_fraction": 0.2677
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0003",
+    "caption": "컨텍스트의 종류 및 예시",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "네트워크\n컨텍스트에\n관한 정의와\n획득 기법\n(이론적)\nIoT 서비스에서 생\n성되는 컨텍스트들",
+    "caption_and_following_text": "에 대한 분류 및 조\n사\n○ 컨텍스트 정의 및 분류에 관한 조사 (완료)\n<그림 2-1> 컨텍스트의 종류 및 예시\n- 수집된 디바이스, 사용자, 네트워크, 서비스 컨텍스트는 1\n차적인 하위 컨텍스트로 이를 토대로 융합 컨텍스트, 상\n위 컨텍스트를 추론 및 획득함\n- 실제(Concrete) 컨텍스트: 센서나 애플리케이션, 웹서비스\n를 통해 수집된 데이터\n- 기본(Basis) 컨텍스트: 실제 컨텍스트를 일정 시간동안 분",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [
+      "2. 연구수행내용 및 성과",
+      "가. 연구수행 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          511.84,
+          538.51,
+          623.68
+        ],
+        "page_area_fraction": 0.0684
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0004",
+    "caption": "디바이스 컨텍스트 추출을 통한 사용자 컨텍스트 획득 기법",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 13 -\n<그림 2-2> 디바이스 컨텍스트 추출을 통한 사용자 컨텍스트\n획득 기법\n- 관련 연구대비 다양한 상황의 보행 상태 측정 가능 및\ncontext manager를 이용한 데이터 저장 용량 증대와 빠\n른 판단 가능\n* 구분 기준의 period 추가로 더 높은 보행 상태\n판단 정확도 획득과 간단한 연산으로 처리 속도와\n디바이스 ↔ context manager간 트래픽 최소화\n* 사용자 컨텍스트 추론을 context manager에서 수",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          235.79,
+          650.41,
+          534.91,
+          781.66
+        ],
+        "page_area_fraction": 0.0785
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          284.73,
+          236.38,
+          485.98,
+          347.26
+        ],
+        "page_area_fraction": 0.0446
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0005",
+    "caption": "Ciphertext-Policy Attribute-Based Encryption 기술",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 23,
+    "prefix_match_only": false,
+    "text_before": "출력\n(이론적)\n추출된 컨텍스트\n정보에 대한 암호화\n및 복호화 연구\n○ 컨텍스트 기반 多대多 방식 데이터 암호화 및 복호화\n기법 연구 (완료) - 컨텍스트의 정보(사용자 컨텍스트, 디바이스 컨텍스트, 네트워크 컨텍스트, 서비스 컨텍스트)를 추출한 뒤, 그",
+    "caption_and_following_text": "데이터를 바탕으로 사물인터넷 데이터를 암호화 및 복호\n화 기술 개발 완료\n<그림 2-3> Ciphertext-Policy\nAttribute-Based Encryption 기술\n예시) Data를 발생시키는 Data Owner, 즉 서버가 존재함. 이 서버는 유저들의 컨텍스트 집합을 가지고 있으며\n이렇게 컨텍스트 집합을 바탕으로 하여 각 유저의\n개인키를 생성함, 이를 각 유저 에게 제공하고 각\ndata 마다 컨텍스트를 이용한 Access Tree를 바탕으\n로 data를 암호화 진행, 이렇게 암호화된 데이터는\nAccess Tree를 만족하는 유저에 의해서만 복호화 가",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          235.79,
+          650.41,
+          534.91,
+          781.66
+        ],
+        "page_area_fraction": 0.0785
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          284.73,
+          236.38,
+          485.98,
+          347.26
+        ],
+        "page_area_fraction": 0.0446
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0006",
+    "caption": "디바이스/사용자/네트워크 컨텍스트(하위)를 융합하여 상위 컨텍스트 추론",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 26,
+    "prefix_match_only": false,
+    "text_before": "Reasoning\n(실험적)\nraw데이터에 대해\nJena엔진으로 분석\n후 상위 컨텍스트\n추론\n○ 온톨로지 기반 컨텍스트 융합 기술 (완료) - 하위 컨텍스트(raw 데이터)를 RDF 형식으로 표현하여",
+    "caption_and_following_text": "Jena 엔진으로 분석 후 설정된 규칙에 의해 상위 컨텍스\n트를 추론하는 기법 개발 완료\n<그림 2-4> 디바이스/사용자/네트워크 컨텍스트(하위)를\n융합하여 상위 컨텍스트 추론\n예시) 사용자 컨텍스트(사용자 정보), 디바이스 컨텍스\n트(사용 가능한 통신), 네트워크 컨텍스트(트래픽\n모니터링 정보) 등을 융합하여 서비스 컨텍스트\n(Video Streaming) 추론 및 “Flow X에 가상네트\n워크 VN X를 할당”, “Device X는 WiFi”를\n사용 등과 같은 상위/복합 컨텍스트의 추론이 가",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          255.46,
+          292.0,
+          515.12,
+          438.24
+        ],
+        "page_area_fraction": 0.0759
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0007",
+    "caption": "룰 기반으로 생성된 트리 예시",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 15 -\n- 룰 기반으로 생성된 트리의 복잡도를 줄이는 정보 엔트",
+    "caption_and_following_text": "로피 기반 알고리즘 연구 완료\n- 확률 기반 알고리즘인 Naive Bayesian을 활용하여 상위\n컨텍스트를 추론하는 기법 개발 완료\n<그림 2-5> 룰 기반으로 생성된 트리 예시\nSDN 기반\n네트워크\n구성 기술\n(이론적)\nSDN 기반 네트워크\n구조 설계",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          249.95,
+          569.02,
+          520.64,
+          711.3
+        ],
+        "page_area_fraction": 0.077
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          260.26,
+          326.4,
+          510.33,
+          523.95
+        ],
+        "page_area_fraction": 0.0987
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0008",
+    "caption": "SDN 기반 유무선 네트워크 인프라 제어 아키텍처",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "컨텍스트를 추론하는 기법 개발 완료\n<그림 2-5> 룰 기반으로 생성된 트리 예시\nSDN 기반\n네트워크\n구성 기술\n(이론적)\nSDN 기반 네트워크",
+    "caption_and_following_text": "구조 설계\n○ SDN 기반 네트워크 구성 기술 (완료)\n<그림 2-6> SDN 기반 유무선 네트워크 인프라 제어\n아키텍처\n- 컨트롤러에서 네트워크 자원 정보를 획득하기 위한\nOpenFlow Switch/Router와의 연동 기술 개발\n* OpenFlow Specification 1.3.0을 기반 프로토콜로 활용\n* Open Networking Operating System (ONOS),\nOpenDayLight (ODL)과 같은 최신 컨트롤러 아키텍처 조\n사 및 분석",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          249.95,
+          569.02,
+          520.64,
+          711.3
+        ],
+        "page_area_fraction": 0.077
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          260.26,
+          326.4,
+          510.33,
+          523.95
+        ],
+        "page_area_fraction": 0.0987
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0009",
+    "caption": "SDN-enabled WiFi Access Point 내부 동작 구조",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "을 관리할 수 있도록 구현을 완료하였음.\n(실험적)\nSDN-enabled WiFi\naccess point 개발\n○ SDN-enabled WiFi Access Point 설계 및 개발 (완료) - SDN 컨트롤러에서 네트워크 자원 정보를 획득하기 위한\nOpenFlow Switch, Router, WiFi Access Point 연동 기술\n개발",
+    "caption_and_following_text": "- SDN 컨트롤러와의 제어 통신을 수행하고 컨트롤러 명령\n기반으로 동작할 수 있도록 WiFi AP 개발\n<그림 2-7> SDN-enabled WiFi Access\nPoint 내부 동작 구조\n<그림 2-8> SDN-enabled WiFi Access Point 제어 동작 수행\n과정\n* 확장된 OpenFlow 프로토콜을 기반으로 하여 SDN 컨트\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          298.52,
+          339.59,
+          472.19,
+          549.48
+        ],
+        "page_area_fraction": 0.0728
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.63,
+          89.06,
+          531.07,
+          291.16
+        ],
+        "page_area_fraction": 0.1177
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0010",
+    "caption": "SDN-enabled WiFi Access Point 제어 동작 수행 과정",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "SDN-enabled WiFi\naccess point 개발\n○ SDN-enabled WiFi Access Point 설계 및 개발 (완료) - SDN 컨트롤러에서 네트워크 자원 정보를 획득하기 위한\nOpenFlow Switch, Router, WiFi Access Point 연동 기술\n개발\n- SDN 컨트롤러와의 제어 통신을 수행하고 컨트롤러 명령\n기반으로 동작할 수 있도록 WiFi AP 개발",
+    "caption_and_following_text": "<그림 2-7> SDN-enabled WiFi Access\nPoint 내부 동작 구조\n<그림 2-8> SDN-enabled WiFi Access Point 제어 동작 수행\n과정\n* 확장된 OpenFlow 프로토콜을 기반으로 하여 SDN 컨트\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          298.52,
+          339.59,
+          472.19,
+          549.48
+        ],
+        "page_area_fraction": 0.0728
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.63,
+          89.06,
+          531.07,
+          291.16
+        ],
+        "page_area_fraction": 0.1177
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0011",
+    "caption": "OpenVTN과 OpenVirteX의 제어 구조 비교 분석",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "로 동작하며, overlay virtualization 방식을 사용함. VTN\nCoordinator를 통해 Autonomous System 간 통합 제어 가\n능\n* OpenVirteX: 컨트롤러와는 별개의 application으로 동작\n하므로 컨트롤러 의존성이 없음. (ONOS, ODL 등 다양한\n컨트롤러 사용 가능) underlay virtualization 방식을 사용\n하며, 토폴로지 가상화, 어드레스 가상화, 제어 기능 가",
+    "caption_and_following_text": "상화 기능 제공\n* 추후 확장이 용이한 OpenVirteX를 네트워크 가상화 플\n랫폼으로 선택\n<그림 2-9> OpenVTN과 OpenVirteX의 제어 구조 비교 분석\n(이론적)\n가상 네트워크 생성\n및 관리 기술 설계\n○ SDN 및 OpenVirteX 기반 IoT 서비스 지향 가상 네트워\n크 생성 및 관리 기술 연구 (완료) - 컨트롤러 의존성이 없으며, 컨트롤러가 제공하는\nPCE(Path Computation Element), GUI 등과 같은 기능을",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          234.35,
+          325.8,
+          536.35,
+          426.49
+        ],
+        "page_area_fraction": 0.0608
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0012",
+    "caption": "OpenVirteX 기반 네트워크 가상화 계층도",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 18 -\n<그림 2-10> OpenVirteX 기반 네트워크 가상화 계층도\n(실험적)\n가상화를 지원하기\n위한 SDN 스위치\n구현 및 시뮬레이션\n기반 기술 검증\n○ 네트워크 가상화를 지원하기 위한 SDN 스위치 설계 (완\n료) - 가상 네트워크 별 리소스 정책 할당을 위한 OpenFlow\n프로토콜 확장 설계",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          250.18,
+          609.65,
+          520.52,
+          781.67
+        ],
+        "page_area_fraction": 0.0929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.91,
+          255.44,
+          537.67,
+          433.45
+        ],
+        "page_area_fraction": 0.1084
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0013",
+    "caption": "큐 기반 대역폭 슬라이싱 기법",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "위한 SDN 스위치\n구현 및 시뮬레이션\n기반 기술 검증\n○ 네트워크 가상화를 지원하기 위한 SDN 스위치 설계 (완\n료) - 가상 네트워크 별 리소스 정책 할당을 위한 OpenFlow\n프로토콜 확장 설계\n- 네트워크 스위치에서 네트워크 가상화를 지원하기 위한",
+    "caption_and_following_text": "OVS (OpenVSwitch) 커널 모듈 및 어플리케이션 구현\n- 가상 네트워크 별 리소스 분배를 위해 OVS의 큐잉 메커\n니즘 구현\n<그림 2-11> 큐 기반 대역폭 슬라이싱 기법\n○ 시뮬레이션을 통한 네트워크 가상화 기술 검증 (완료) - MiniNet 환경에서 OpenVirteX와 ODL 기반 가상 네트워\n크 구성\n- 가상 네트워크 별 대역폭 차등 분배 후 검증 실험 수행\n- 두 대의 스위치와 하나의 물리 링크를 공유하는 두 개의\n가상 네트워크를 구성하여 대역폭을 각각 80Mbps,\n20Mbps로 구성한 후 iperf (네트워크 성능 측정 프로그",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          250.18,
+          609.65,
+          520.52,
+          781.67
+        ],
+        "page_area_fraction": 0.0929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.91,
+          255.44,
+          537.67,
+          433.45
+        ],
+        "page_area_fraction": 0.1084
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0014",
+    "caption": "생성된 가상 네트워크 1 예시",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "컨텍스트 기반 IoT\n서비스 요구사항\n분석 및 동적 자원\n분배 기술\n○ 컨텍스트 기반 IoT 서비스의 네트워크 requirements 분석\n및 해당 가상 네트워크의 동적 자원 분배 기술 연구 (완료) - IoT 서비스의 QoS를 보장하기 위한 동적 라우팅, 로드\n밸런싱, QoS 제어 기술 연구 <국내 논문 3건, 국내특허출",
+    "caption_and_following_text": "원 1건>\n- MiniNet 환경에서 가상 네트워크 생성 후 동적 라우팅\n및 리소스 구성 실험 수행\n<그림 2-12> 생성된 가상 네트워크 1 예시\n<그림 2-13> 특정 가상 네트워크 대역폭 폭증\n시 리소스 재할당 실험 결과\n서비스 지향\nIoT\n네트워크를\n위한",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          280.05,
+          514.72,
+          490.66,
+          660.72
+        ],
+        "page_area_fraction": 0.0614
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          277.05,
+          361.52,
+          493.65,
+          490.74
+        ],
+        "page_area_fraction": 0.0559
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0015",
+    "caption": "특정 가상 네트워크 대역폭 폭증시 리소스 재할당 실험 결과",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "분석 및 동적 자원\n분배 기술\n○ 컨텍스트 기반 IoT 서비스의 네트워크 requirements 분석\n및 해당 가상 네트워크의 동적 자원 분배 기술 연구 (완료) - IoT 서비스의 QoS를 보장하기 위한 동적 라우팅, 로드\n밸런싱, QoS 제어 기술 연구 <국내 논문 3건, 국내특허출\n원 1건>\n- MiniNet 환경에서 가상 네트워크 생성 후 동적 라우팅",
+    "caption_and_following_text": "및 리소스 구성 실험 수행\n<그림 2-12> 생성된 가상 네트워크 1 예시\n<그림 2-13> 특정 가상 네트워크 대역폭 폭증\n시 리소스 재할당 실험 결과\n서비스 지향\nIoT\n네트워크를\n위한\nPDN(Proximit\ny Defined",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          280.05,
+          514.72,
+          490.66,
+          660.72
+        ],
+        "page_area_fraction": 0.0614
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          277.05,
+          361.52,
+          493.65,
+          490.74
+        ],
+        "page_area_fraction": 0.0559
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0016",
+    "caption": "PDN에 적용 가능한 PnP 기반 서비스 발견 프로토콜",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 20 -\n<그림 2-14> PDN에 적용 가능한 PnP 기반 서비스 발견 프로토콜\n○ 디바이스 간 제공 가능 서비스의 정의, 명시, 중계하는\n서비스 에이전트 모듈 조사 및 분석 (완료) - IoT 서비스 플랫폼: 다양한 IoT 자원과의 통신, 데이터\n수집, 자원모니터링 및 관리 기능을 제공하는 플랫폼으\n로 다수의 이기종 센서네트워크를 연동하여 다수의 IoT\n응용에게 사물들로부터 데이터를 수집하여 서비스하거나\n사물에 대한 제어에 대한 유연성을 제공하고, 지능화된\n서비스를 제공할 수 있도록 하는 공통 S/W 플랫폼인 IoT\n미들웨어 플랫폼 기술",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          658.08,
+          538.27,
+          781.67
+        ],
+        "page_area_fraction": 0.0755
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          296.2,
+          544.75,
+          407.67
+        ],
+        "page_area_fraction": 0.0696
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0017",
+    "caption": "IoT 서비스 플랫폼 연합",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "서비스 에이전트 모듈 조사 및 분석 (완료) - IoT 서비스 플랫폼: 다양한 IoT 자원과의 통신, 데이터\n수집, 자원모니터링 및 관리 기능을 제공하는 플랫폼으\n로 다수의 이기종 센서네트워크를 연동하여 다수의 IoT\n응용에게 사물들로부터 데이터를 수집하여 서비스하거나\n사물에 대한 제어에 대한 유연성을 제공하고, 지능화된\n서비스를 제공할 수 있도록 하는 공통 S/W 플랫폼인 IoT\n미들웨어 플랫폼 기술",
+    "caption_and_following_text": "- IoT 플랫폼 기술은 그림 2-15와 같이 IoT 디바이스 및 플\n랫폼 간 유기적인 상호 운용 통한 개방형 IoT 플랫폼으\n로 진화\n<그림 2-15> IoT 서비스 플랫폼 연합\n○ PDN에 대한 PnP 기반 서비스 발견 프로토콜 적용 구조\n설계 (완료) - PDN에서의 PDN_Coordinator 역할을 담당하는 디바이스\n가 뒤에서 설명하는 PDN_Coordinator 배치 알고리즘을\n이미 결정되었다고 가정함\n- 이종 디바이스들의 자율적 등록/검색/연결을 위해 PDN_\nCoordinator는 IoT 서비스 플랫폼을 서버로부터 설치해야",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          658.08,
+          538.27,
+          781.67
+        ],
+        "page_area_fraction": 0.0755
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          296.2,
+          544.75,
+          407.67
+        ],
+        "page_area_fraction": 0.0696
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0018",
+    "caption": "IoT 통신 트래픽",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 36,
+    "prefix_match_only": false,
+    "text_before": "(실험적)\nOPNET 시뮬레이터\n와 C프로그래밍을\n이요하여 PDN 네트\n워크 시뮬레이터를\n구현하고 이를 통해\n제안한 방안의 성능",
+    "caption_and_following_text": "검증을 수행함.\n○ 서비스 지향 IoT 네트워크 구성을 위한 트래픽 유형별\nPDN 구성 조사 및 분석 (완료) - IoT 통신의 트래픽 분류\n<그림 2-16> IoT 통신 트래픽\n○ PDN_Coordinator 선출 방안 (완료) - 주기적인 모니터링 트래픽을 위한 optimal\nPDN_Coordinator set 구성 알고리즘 개발\n* 컨텍스트 정보를 반영한 PDN Coordinator 선택\n* 무선 네트워크에서의 latency constraints를 만족시키\n면서 PDN_Coordinator가 실행 중인 서비스의 로드\n를 반영하여 인터넷 연결 비용을 최소화하기 위한 최",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.83,
+          500.21,
+          536.83,
+          646.93
+        ],
+        "page_area_fraction": 0.0877
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          286.77,
+          157.51,
+          483.82,
+          282.89
+        ],
+        "page_area_fraction": 0.0494
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0019",
+    "caption": "센서노드로부터 싱크노드를 통해 인터넷 서버로 가는 총 경로 비용",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 22 -\n<그림 2-18> 최적의 PDN_Coordinator set\n구성 예",
+    "caption_and_following_text": "B: 싱크노드가 센싱데이터를 전달하기 위해 사용가능한 BW\nBmin: 싱크노드가 센싱데이터를 전달하기 위해 필요로 하는 최소 BW\n<그림 2-19> 센서노드로부터 싱크노드를 통해 인터넷 서버로\n가는 총 경로 비용\n<국내 논문 1건, 국내 특허 1건 출원, 국내 특허 1건 등록>\n○ 저전력/저비용의 근거리 데이터 통신 기법 위주의 동적\n그룹핑 형성 방안 (완료) - PDN에서의 멀티미디어 스트리밍 트래픽 전송을 위한 데\n이터 센터 전송 프로토콜 설계\n* 링크효율성과 처리량에 대한 성능 면에서 기존에 제\n안된 DCTCP 프로토콜의 성능 개선",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          286.77,
+          656.28,
+          483.82,
+          781.66
+        ],
+        "page_area_fraction": 0.0494
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          259.42,
+          523.11,
+          362.8,
+          584.48
+        ],
+        "page_area_fraction": 0.0127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.15,
+          84.27,
+          531.55,
+          255.08
+        ],
+        "page_area_fraction": 0.0998
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0020",
+    "caption": "NewDCTCP 알고리즘의 동작 프로세스",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "B: 싱크노드가 센싱데이터를 전달하기 위해 사용가능한 BW\nBmin: 싱크노드가 센싱데이터를 전달하기 위해 필요로 하는 최소 BW\n<그림 2-19> 센서노드로부터 싱크노드를 통해 인터넷 서버로\n가는 총 경로 비용\n<국내 논문 1건, 국내 특허 1건 출원, 국내 특허 1건 등록>\n○ 저전력/저비용의 근거리 데이터 통신 기법 위주의 동적\n그룹핑 형성 방안 (완료) - PDN에서의 멀티미디어 스트리밍 트래픽 전송을 위한 데",
+    "caption_and_following_text": "이터 센터 전송 프로토콜 설계\n* 링크효율성과 처리량에 대한 성능 면에서 기존에 제\n안된 DCTCP 프로토콜의 성능 개선\n<그림 2-20> NewDCTCP 알고리즘의 동작 프로세스\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          286.77,
+          656.28,
+          483.82,
+          781.66
+        ],
+        "page_area_fraction": 0.0494
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          259.42,
+          523.11,
+          362.8,
+          584.48
+        ],
+        "page_area_fraction": 0.0127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.15,
+          84.27,
+          531.55,
+          255.08
+        ],
+        "page_area_fraction": 0.0998
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0021",
+    "caption": "NewDCTCP의 초기 혼잡 피드백",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 23 -\n<그림 2-21> NewDCTCP의 초기 혼잡 피드백\n<SCIE 논문 1건>\n- 멀티미디어 트래픽 다운 서비스를 위한 PDN 구성 방안\n* Context Manager로부터 지속적으로 제공받는 Context\n정보를 반영하여 동적인 서비스 맞춤형 PDN 구성을\n통해 선별적 정보 제공을 하는 스마트한 사물 관리\n및 제어\n* 멀티미디어 트래픽 다운서비스에 대한 공동구매 형식\n의 비용 할인 서비스 모델 개발",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          256.9,
+          575.49,
+          513.8,
+          781.66
+        ],
+        "page_area_fraction": 0.1058
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          282.93,
+          163.5,
+          487.78,
+          286.73
+        ],
+        "page_area_fraction": 0.0504
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0022",
+    "caption": "PDN 확장 시나리오의 예",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "○ 컨텍스트 정보를 반영한 PDN_Coordinator 간 통신을 통\n한 PDN 네트워크 확장 방안 (완료) - PDN_coordinator 간 연결을 통한 PDN 네트워크 확장에\n관한 OBiC 알고리즘 개발\n- 최소 수의 릴레이 PDN_Coordinator를 이용하여\nPDN_Coordinator들 사이에 이중화된 라우팅 경로를 제공\n하는 알고리즘을 구현하고 그 성능평가를 시뮬레이션\n하는 모듈 개발",
+    "caption_and_following_text": "* 제안 방안인 OBiC 알고리즘은 optimal solution의 최고\n근접 알고리즘인 2C-MSS에 비해 낮은 시간복잡도를\n가짐\n<그림 2-24> PDN 확장 시나리오의 예\n<그림 2-25> 시간복잡도 분석\n○ 시뮬레이션 기반 검증 및 성능 테스트 (완료) - QualNet 시뮬레이터에 제안한 NewDCTCP 프로토콜과 성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          280.89,
+          657.96,
+          489.82,
+          781.67
+        ],
+        "page_area_fraction": 0.0517
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          241.55,
+          262.39,
+          383.07,
+          369.8
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          382.95,
+          262.15,
+          529.04,
+          370.75
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          263.26,
+          111.6,
+          527.36,
+          219.48
+        ],
+        "page_area_fraction": 0.0569
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0023",
+    "caption": "시간복잡도 분석",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "한 PDN 네트워크 확장 방안 (완료) - PDN_coordinator 간 연결을 통한 PDN 네트워크 확장에\n관한 OBiC 알고리즘 개발\n- 최소 수의 릴레이 PDN_Coordinator를 이용하여\nPDN_Coordinator들 사이에 이중화된 라우팅 경로를 제공\n하는 알고리즘을 구현하고 그 성능평가를 시뮬레이션\n하는 모듈 개발\n* 제안 방안인 OBiC 알고리즘은 optimal solution의 최고",
+    "caption_and_following_text": "근접 알고리즘인 2C-MSS에 비해 낮은 시간복잡도를\n가짐\n<그림 2-24> PDN 확장 시나리오의 예\n<그림 2-25> 시간복잡도 분석\n○ 시뮬레이션 기반 검증 및 성능 테스트 (완료) - QualNet 시뮬레이터에 제안한 NewDCTCP 프로토콜과 성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          280.89,
+          657.96,
+          489.82,
+          781.67
+        ],
+        "page_area_fraction": 0.0517
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          241.55,
+          262.39,
+          383.07,
+          369.8
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          382.95,
+          262.15,
+          529.04,
+          370.75
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          263.26,
+          111.6,
+          527.36,
+          219.48
+        ],
+        "page_area_fraction": 0.0569
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0024",
+    "caption": "goodput과 timeouts에 대한 성능 비교",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 25 -",
+    "caption_and_following_text": "능 비교를 위한 DCTCP 프로토콜 구현\n- Goodput, 링크효율성, fairness 성능 면에서 우수함을 검\n증\n<그림 2-26> goodput과 timeouts에 대한 성능 비교\n<그림 2-27> 링크효율성과 fairness에 대한 성능 비교\n- 개발한 OBiC 알고리즘과 구현한 시뮬레이터의 정확도를\n평가하기 위해 유사한 목적으로 개발된 두 개의 다른 알\n고리즘들을 구현하여 성능 비교 분석\n- C언어로 PDN 네트워크 시뮬레이터 구현\n- 릴레이 역할을 하는 PDN_Coodinator의 수가 최소임을 확",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.03,
+          632.07,
+          525.68,
+          728.92
+        ],
+        "page_area_fraction": 0.0543
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.47,
+          484.51,
+          533.23,
+          589.4
+        ],
+        "page_area_fraction": 0.062
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          250.53,
+          540.07,
+          318.73
+        ],
+        "page_area_fraction": 0.0419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          236.87,
+          71.92,
+          533.83,
+          207.85
+        ],
+        "page_area_fraction": 0.0807
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0025",
+    "caption": "링크효율성과 fairness에 대한 성능 비교",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 25 -\n능 비교를 위한 DCTCP 프로토콜 구현",
+    "caption_and_following_text": "- Goodput, 링크효율성, fairness 성능 면에서 우수함을 검\n증\n<그림 2-26> goodput과 timeouts에 대한 성능 비교\n<그림 2-27> 링크효율성과 fairness에 대한 성능 비교\n- 개발한 OBiC 알고리즘과 구현한 시뮬레이터의 정확도를\n평가하기 위해 유사한 목적으로 개발된 두 개의 다른 알\n고리즘들을 구현하여 성능 비교 분석\n- C언어로 PDN 네트워크 시뮬레이터 구현\n- 릴레이 역할을 하는 PDN_Coodinator의 수가 최소임을 확\n인함",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.03,
+          632.07,
+          525.68,
+          728.92
+        ],
+        "page_area_fraction": 0.0543
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.47,
+          484.51,
+          533.23,
+          589.4
+        ],
+        "page_area_fraction": 0.062
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          250.53,
+          540.07,
+          318.73
+        ],
+        "page_area_fraction": 0.0419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          236.87,
+          71.92,
+          533.83,
+          207.85
+        ],
+        "page_area_fraction": 0.0807
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0026",
+    "caption": "bi-connected 토폴로지 비교",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "- Goodput, 링크효율성, fairness 성능 면에서 우수함을 검\n증\n<그림 2-26> goodput과 timeouts에 대한 성능 비교\n<그림 2-27> 링크효율성과 fairness에 대한 성능 비교\n- 개발한 OBiC 알고리즘과 구현한 시뮬레이터의 정확도를\n평가하기 위해 유사한 목적으로 개발된 두 개의 다른 알\n고리즘들을 구현하여 성능 비교 분석",
+    "caption_and_following_text": "- C언어로 PDN 네트워크 시뮬레이터 구현\n- 릴레이 역할을 하는 PDN_Coodinator의 수가 최소임을 확\n인함\n<그림 2-28> bi-connected 토폴로지 비교\n<그림 2-29> 토폴로지 효율성 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.03,
+          632.07,
+          525.68,
+          728.92
+        ],
+        "page_area_fraction": 0.0543
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.47,
+          484.51,
+          533.23,
+          589.4
+        ],
+        "page_area_fraction": 0.062
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          250.53,
+          540.07,
+          318.73
+        ],
+        "page_area_fraction": 0.0419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          236.87,
+          71.92,
+          533.83,
+          207.85
+        ],
+        "page_area_fraction": 0.0807
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0027",
+    "caption": "토폴로지 효율성 비교",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "증\n<그림 2-26> goodput과 timeouts에 대한 성능 비교\n<그림 2-27> 링크효율성과 fairness에 대한 성능 비교\n- 개발한 OBiC 알고리즘과 구현한 시뮬레이터의 정확도를\n평가하기 위해 유사한 목적으로 개발된 두 개의 다른 알\n고리즘들을 구현하여 성능 비교 분석\n- C언어로 PDN 네트워크 시뮬레이터 구현",
+    "caption_and_following_text": "- 릴레이 역할을 하는 PDN_Coodinator의 수가 최소임을 확\n인함\n<그림 2-28> bi-connected 토폴로지 비교\n<그림 2-29> 토폴로지 효율성 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.03,
+          632.07,
+          525.68,
+          728.92
+        ],
+        "page_area_fraction": 0.0543
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.47,
+          484.51,
+          533.23,
+          589.4
+        ],
+        "page_area_fraction": 0.062
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          250.53,
+          540.07,
+          318.73
+        ],
+        "page_area_fraction": 0.0419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          236.87,
+          71.92,
+          533.83,
+          207.85
+        ],
+        "page_area_fraction": 0.0807
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0028",
+    "caption": "필요한 릴레이 노드 수 비교",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 26 -\n<그림 2-30> 필요한 릴레이 노드 수 비교\n<SCIE 논문 1건, 국내 논문 1건, 국내 특허 출원 1건, 국내\n특허 등록 1건, S/W 등록 1건>\n구독/발행\n기반의\nMQTT\n프로토콜을\n통해 사물과\n서비스의",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.75,
+          682.41,
+          530.95,
+          781.66
+        ],
+        "page_area_fraction": 0.0578
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.35,
+          487.51,
+          467.51,
+          540.25
+        ],
+        "page_area_fraction": 0.0158
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          261.22,
+          126.7,
+          509.49,
+          266.23
+        ],
+        "page_area_fraction": 0.0692
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0029",
+    "caption": "MQTT 프로토콜을 통한 사물과 서비스의 Naming",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "Naming 연구\n(이론적)\n사물의 Naming을\n위한 MQTT 프로토\n콜 상의 토픽과 토\n픽 콘텐츠로 구성\n○ 통일된 Naming Sheme을 위한 Framework 도출 (완료) - 지능형 사물들과 서비스를 계층적으로 구성된 토픽으로",
+    "caption_and_following_text": "Naming, 지능형 사물들이 생성하는 데이터를 해당 토픽\n의 콘텐츠로 지정\n<그림 2-31> MQTT 프로토콜을\n통한 사물과 서비스의 Naming - 사물이나 서비스에 따라 달라지는 Naming 요구 수용으로\n수많은 지능형 사물 및 제공되는 서비스를 MQTT 프로토\n콜을 통해 Naming 하여 효율적인 관리 시스템 구현이\n가능\nMQTT\n토픽의 복합\n가상화를",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.75,
+          682.41,
+          530.95,
+          781.66
+        ],
+        "page_area_fraction": 0.0578
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.35,
+          487.51,
+          467.51,
+          540.25
+        ],
+        "page_area_fraction": 0.0158
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          261.22,
+          126.7,
+          509.49,
+          266.23
+        ],
+        "page_area_fraction": 0.0692
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0030",
+    "caption": "토픽 가상화를 통한 매쉬업 서버 기반의 지능형 사물과 사용자 단말간 발행/구독 기반 콘텐츠 전달 플랫폼",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 37,
+    "prefix_match_only": false,
+    "text_before": "구현\n(이론적)\n발행/구독 기반 콘\n텐츠 전달 플랫폼\n시스템 구현\n(실험적)\n복합 가상화를 이용",
+    "caption_and_following_text": "한 사물과 서비스\n융합\n○ 토픽 가상화를 통한 매쉬업 서버 기반의 지능형 사물과\n사용자 단말간 발행/구독 기반 콘텐츠 전달 플랫폼 구축\n(완료) - 토픽 가상화를 통한 매쉬업 콘텐츠를 제공하는 발행/구독\n기반의 콘텐츠 전달 플랫폼 시스템, 매쉬업 서버 및 콘\n텐츠 전달 방법 <PCT 특허 출원 1건>\n<그림 2-32> 토픽 가상화를 통한 매쉬업 서버 기반의\n지능형 사물과 사용자 단말간 발행/구독 기반 콘텐츠\n전달 플랫폼",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.75,
+          682.41,
+          530.95,
+          781.66
+        ],
+        "page_area_fraction": 0.0578
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.35,
+          487.51,
+          467.51,
+          540.25
+        ],
+        "page_area_fraction": 0.0158
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          261.22,
+          126.7,
+          509.49,
+          266.23
+        ],
+        "page_area_fraction": 0.0692
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0031",
+    "caption": "그룹핑을 통한 복합 가상화",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "예시) 1. 지능형 사물 및 사용자 단말로부터 발행된 토픽 콘텐\n츠를 브로커로부터 구독하는 매쉬업 서버는 구독한 토\n픽 콘텐츠를 각 토픽에 매핑하여 가상화시켜 저장하고, 저장된 콘텐츠들을 복합 가상화하여 새로운 매쉬업 콘\n텐츠를 생성 후 브로커로 발행\n2. 브로커는 지능형 사물 및 매쉬업 서버로부터 발행된 토\n픽 콘텐츠를 전달받아 해당 토픽을 구독하는 지능형 사\n물 및 사용자 단말에 전달",
+    "caption_and_following_text": "○ 복합 가상화를 이용한 사물/사물과 서비스의 융합 프로세\n싱 유형화 (완료)\n<그림 2-33> 그룹핑을 통한 복합\n가상화\n- 같은 그룹에 속하는 사물들끼리 하나의 복합 가상화된\n토픽을 형성\n<그림 2-34> 외부 웹 콘텐츠와의 융합을 통한 복합 가상화\n<그림 2-35> 통계적 추론을 통한 복합 가상화\n- 외부 웹 콘텐츠와의 융합과 통계적 추론을 통한 복합 가\n상화",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.31,
+          428.89,
+          461.27,
+          544.33
+        ],
+        "page_area_fraction": 0.0351
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.92,
+          299.31,
+          478.66,
+          353.73
+        ],
+        "page_area_fraction": 0.0203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          272.49,
+          225.47,
+          498.09,
+          276.42
+        ],
+        "page_area_fraction": 0.023
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0032",
+    "caption": "외부 웹 콘텐츠와의 융합을 통한 복합 가상화",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "텐츠를 생성 후 브로커로 발행\n2. 브로커는 지능형 사물 및 매쉬업 서버로부터 발행된 토\n픽 콘텐츠를 전달받아 해당 토픽을 구독하는 지능형 사\n물 및 사용자 단말에 전달\n○ 복합 가상화를 이용한 사물/사물과 서비스의 융합 프로세\n싱 유형화 (완료)\n<그림 2-33> 그룹핑을 통한 복합",
+    "caption_and_following_text": "가상화\n- 같은 그룹에 속하는 사물들끼리 하나의 복합 가상화된\n토픽을 형성\n<그림 2-34> 외부 웹 콘텐츠와의 융합을 통한 복합 가상화\n<그림 2-35> 통계적 추론을 통한 복합 가상화\n- 외부 웹 콘텐츠와의 융합과 통계적 추론을 통한 복합 가\n상화\n사물과\n서비스의\n새로운",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.31,
+          428.89,
+          461.27,
+          544.33
+        ],
+        "page_area_fraction": 0.0351
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.92,
+          299.31,
+          478.66,
+          353.73
+        ],
+        "page_area_fraction": 0.0203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          272.49,
+          225.47,
+          498.09,
+          276.42
+        ],
+        "page_area_fraction": 0.023
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0033",
+    "caption": "통계적 추론을 통한 복합 가상화",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "2. 브로커는 지능형 사물 및 매쉬업 서버로부터 발행된 토\n픽 콘텐츠를 전달받아 해당 토픽을 구독하는 지능형 사\n물 및 사용자 단말에 전달\n○ 복합 가상화를 이용한 사물/사물과 서비스의 융합 프로세\n싱 유형화 (완료)\n<그림 2-33> 그룹핑을 통한 복합\n가상화",
+    "caption_and_following_text": "- 같은 그룹에 속하는 사물들끼리 하나의 복합 가상화된\n토픽을 형성\n<그림 2-34> 외부 웹 콘텐츠와의 융합을 통한 복합 가상화\n<그림 2-35> 통계적 추론을 통한 복합 가상화\n- 외부 웹 콘텐츠와의 융합과 통계적 추론을 통한 복합 가\n상화\n사물과\n서비스의\n새로운\nNaming 기법",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.31,
+          428.89,
+          461.27,
+          544.33
+        ],
+        "page_area_fraction": 0.0351
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.92,
+          299.31,
+          478.66,
+          353.73
+        ],
+        "page_area_fraction": 0.0203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          272.49,
+          225.47,
+          498.09,
+          276.42
+        ],
+        "page_area_fraction": 0.023
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0034",
+    "caption": "소유주의 IP + port 정보, 데이터 정보, nonce를 hash하여 블록 정보를 블록체인에 추가하는 과정",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 28 -\n을 생성\n<그림 2-36> 소유주의 IP + port 정보, 데이터 정보, nonce를\nhash하여 블록 정보를 블록체인에 추가하는 과정 - 블록 hash 생성 시 데이터 명칭과 소유주 IP address 및\nport number를 임의의 nonce와 함께 SHA256 hash 알고\n리즘으로 hashing하여 블록체인에 참여하지 않는 노드는\n소유주의 정보를 확인하지 못하도록 하는 새로운 형식의\nNaming 부여 기법 개발 완료 <국내 특허 출원 1건>\n<그림 2-37> 새로운 블록을 생성하는\n알고리즘",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          274.65,
+          658.8,
+          495.81,
+          781.67
+        ],
+        "page_area_fraction": 0.0543
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          280.05,
+          386.1,
+          490.66,
+          516.04
+        ],
+        "page_area_fraction": 0.0547
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          273.21,
+          94.82,
+          497.37,
+          233.14
+        ],
+        "page_area_fraction": 0.062
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0035",
+    "caption": "새로운 블록을 생성하는 알고리즘",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\n을 생성\n<그림 2-36> 소유주의 IP + port 정보, 데이터 정보, nonce를\nhash하여 블록 정보를 블록체인에 추가하는 과정 - 블록 hash 생성 시 데이터 명칭과 소유주 IP address 및\nport number를 임의의 nonce와 함께 SHA256 hash 알고\n리즘으로 hashing하여 블록체인에 참여하지 않는 노드는",
+    "caption_and_following_text": "소유주의 정보를 확인하지 못하도록 하는 새로운 형식의\nNaming 부여 기법 개발 완료 <국내 특허 출원 1건>\n<그림 2-37> 새로운 블록을 생성하는\n알고리즘\n- 노드가 생성할 정보를 트랜잭션으로 만들어 전체 노드에\n게 전송하고 수신한 노드는 miner가 되어 각자의 블록을\n생성하기 위한 proof of work를 실행 한 뒤 트랜잭션과\n블록의 유효성을 검증한 뒤 블록체인에 연결\n사물과\n서비스의",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          274.65,
+          658.8,
+          495.81,
+          781.67
+        ],
+        "page_area_fraction": 0.0543
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          280.05,
+          386.1,
+          490.66,
+          516.04
+        ],
+        "page_area_fraction": 0.0547
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          273.21,
+          94.82,
+          497.37,
+          233.14
+        ],
+        "page_area_fraction": 0.062
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0036",
+    "caption": "사용자가 필요로 하는 데이터 정보를 블록체인에 검색하여 소유주 정보를 찾는 과정",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 32,
+    "prefix_match_only": false,
+    "text_before": "이터나 파일등의 요\n청을 블록체인 hash\n로 naming된 데이\n터의 명칭 검색을\n통해 소유주를 찾아\n내는 새로운 ID/서\n비스 체계 연구",
+    "caption_and_following_text": "○ 데이터 생성자 및 데이터 명칭을 저장하는 블록체인 기\n반 ID/서비스 체계(완료)\n<그림 2-38> 사용자가 필요로 하는 데이터 정보를\n블록체인에 검색하여 소유주 정보를 찾는 과정\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          274.65,
+          658.8,
+          495.81,
+          781.67
+        ],
+        "page_area_fraction": 0.0543
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          280.05,
+          386.1,
+          490.66,
+          516.04
+        ],
+        "page_area_fraction": 0.0547
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          273.21,
+          94.82,
+          497.37,
+          233.14
+        ],
+        "page_area_fraction": 0.062
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0037",
+    "caption": "블록체인 기반 ID/IP mapping을 통한 사물인터넷 디바이스 및 자원 검색 기법",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 41,
+    "prefix_match_only": false,
+    "text_before": "용 이론 검증 및 수\n정/요구 사항 반영\n(실험적)\nPython을 통한 구상\n알고리즘 시뮬레이\n션 환경 구축 및 수\n행",
+    "caption_and_following_text": "○ 사물인터넷 디바이스 및 자원의 ID/IP 주소체계 연동 연\n구(완료)\n<그림 2-39> 블록체인 기반 ID/IP mapping을\n통한 사물인터넷 디바이스 및 자원 검색 기법\n- 기존의 NRS(Naming Resolution Service) 서버가 가지는\n보안 관점에서의 취약점(e.g IP Spoofing, Sybil attack,\nSingle point of failure)을 해결하는 사물인터넷 디바이스/\n자원 검색 시스템 개발 완료 <국내 표준 제정 1건>\n- 사물인터넷 디바이스 및 자원 검색에 인증/부인방지/데이\n터 무결성 제공하기 위한 디지털 서명(ECDSA) 알고리즘, hash tree, proof of work 알고리즘을 적용",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          273.81,
+          268.63,
+          496.77,
+          392.93
+        ],
+        "page_area_fraction": 0.0554
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0038",
+    "caption": "ECDSA 알고리즘",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n<그림 2-40> ECDSA 알고리즘 <그림 2-41> Hash tree * Authentication(인증) : private, public key를 이용하여\n디지털 서명의 유효성 확인 → 사용자 인증을 거침으\n로써 기존 IP Spoofing 문제 해결\n* Non-repudiation(부인방지) : 디지털 서명을 생성할 시\n에 다른 사용자가 알지 못하는 자신의 private key 생\n성 → 사용자가 transaction 생성한 사실을 부인하지 못\n함(Sybil attack 문제 해결) * Data Integrity(데이터 무결성) : 블록체인에 포함된\nmerkle tree의 root hash를 확인하는 것으로 블록에 포\n함된 transaction의 정보가 수정되어 있는지 확인 및",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.15,
+          678.34,
+          384.87,
+          774.59
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          384.87,
+          677.14,
+          528.44,
+          781.66
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          256.66,
+          222.36,
+          390.51,
+          289.12
+        ],
+        "page_area_fraction": 0.0179
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          412.46,
+          222.96,
+          513.92,
+          285.89
+        ],
+        "page_area_fraction": 0.0128
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0039",
+    "caption": "Hash tree",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n<그림 2-40> ECDSA 알고리즘 <그림 2-41> Hash tree * Authentication(인증) : private, public key를 이용하여\n디지털 서명의 유효성 확인 → 사용자 인증을 거침으\n로써 기존 IP Spoofing 문제 해결\n* Non-repudiation(부인방지) : 디지털 서명을 생성할 시\n에 다른 사용자가 알지 못하는 자신의 private key 생\n성 → 사용자가 transaction 생성한 사실을 부인하지 못\n함(Sybil attack 문제 해결) * Data Integrity(데이터 무결성) : 블록체인에 포함된\nmerkle tree의 root hash를 확인하는 것으로 블록에 포\n함된 transaction의 정보가 수정되어 있는지 확인 및",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.15,
+          678.34,
+          384.87,
+          774.59
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          384.87,
+          677.14,
+          528.44,
+          781.66
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          256.66,
+          222.36,
+          390.51,
+          289.12
+        ],
+        "page_area_fraction": 0.0179
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          412.46,
+          222.96,
+          513.92,
+          285.89
+        ],
+        "page_area_fraction": 0.0128
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0040",
+    "caption": "기존 블루투스 네트워크",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 42,
+    "prefix_match_only": false,
+    "text_before": "GATT tool을 이용\n하여 저전력 블루투\n스(BLE) 연결을 한\n뒤 6LoWPAN을 결\n합 하고, Python 프\n로그래밍을 통하여\n어플리케이션 영역",
+    "caption_and_following_text": "○ 이종 통신 프로토콜 간 connectivity 제공 기법 연구(완\n료)\n<그림 2-42> 기존 블루투스\n네트워크\n<그림 2-43>\n6LoWPAN 네트워크\n- 기존 근거리 저전력 통신(Bluetooth)이 IP주소를 갖지 않\n아 IP네트워크에서 접근이 불가능함을 해결하기 위해 저\n전력 블루투스(BLE) 프로토콜 스택과 IPv6의 경량화 프\n로토콜 6LoWPAN 스택이 결합된 프로토콜을 지원하는",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.15,
+          678.34,
+          384.87,
+          774.59
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          384.87,
+          677.14,
+          528.44,
+          781.66
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          256.66,
+          222.36,
+          390.51,
+          289.12
+        ],
+        "page_area_fraction": 0.0179
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          412.46,
+          222.96,
+          513.92,
+          285.89
+        ],
+        "page_area_fraction": 0.0128
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0041",
+    "caption": "6LoWPAN 네트워크",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 44,
+    "prefix_match_only": false,
+    "text_before": "스(BLE) 연결을 한\n뒤 6LoWPAN을 결\n합 하고, Python 프\n로그래밍을 통하여\n어플리케이션 영역\n○ 이종 통신 프로토콜 간 connectivity 제공 기법 연구(완\n료)",
+    "caption_and_following_text": "<그림 2-42> 기존 블루투스\n네트워크\n<그림 2-43>\n6LoWPAN 네트워크\n- 기존 근거리 저전력 통신(Bluetooth)이 IP주소를 갖지 않\n아 IP네트워크에서 접근이 불가능함을 해결하기 위해 저\n전력 블루투스(BLE) 프로토콜 스택과 IPv6의 경량화 프\n로토콜 6LoWPAN 스택이 결합된 프로토콜을 지원하는\n게이트웨이 개발 완료\n<S/W 성과물 등록 1건>",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.15,
+          678.34,
+          384.87,
+          774.59
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          384.87,
+          677.14,
+          528.44,
+          781.66
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          256.66,
+          222.36,
+          390.51,
+          289.12
+        ],
+        "page_area_fraction": 0.0179
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          412.46,
+          222.96,
+          513.92,
+          285.89
+        ],
+        "page_area_fraction": 0.0128
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0042",
+    "caption": "6LoWPAN over BLE 게이트웨이 프로토콜 스택",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "대한 parsing 방법을 정의\n예시) <notice//device_Name//message>\n→ comm//Dev1//on(Dev1 에 on 신호)\n* 호스트로부터의 메시지 수신 시 IP로부터 온 메시지를\n6LoWPAN over BLE 프로토콜에 알맞게 translate하여\n전송함. - 6LoWPAN over BLE 프로토콜을 사용하여 Gateway와 연\n결, IP 호스트의 메시지를 최종적으로 수신하여 해당 작",
+    "caption_and_following_text": "업을 수행할 수 있는 Device의 통신 인터페이스 개발 완\n료\n<SW 성과물 1건 등록>\n<그림 2-44> 6LoWPAN over BLE 게이트웨이 프로토콜 스택\n선택적/동시\n적인 전역적\n및 지역적\n연결 설정을\n위한 ID와 IP\n주소체계",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.11,
+          351.22,
+          530.47,
+          449.75
+        ],
+        "page_area_fraction": 0.0572
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          268.89,
+          119.99,
+          507.21,
+          295.96
+        ],
+        "page_area_fraction": 0.0838
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0043",
+    "caption": "블루투스 ↔ IPv6 연동 지원 시스템",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 46,
+    "prefix_match_only": false,
+    "text_before": "소와 함께 블록체인\n에 저장. 블루투스\n디바이스의 UUID\n검색을 블록체인에\n기록된 블록 hash값\n을 통해 현재 연결\n된 gateway IP 주소",
+    "caption_and_following_text": "를 획득하고 검색자\n○ 블록체인 기반 ID&IP mapping 지원 사물인터넷 게이트웨\n이 시스템 설계(완료)\n<그림 2-45> 블루투스 ↔ IPv6 연동 지원 시스템\n-디바이스의 기존 프로토콜을 사용하여 IP통신을 지원하는\n블록체인 기반 ID/IP mapping 지원 gateway 설계\n예시)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.11,
+          351.22,
+          530.47,
+          449.75
+        ],
+        "page_area_fraction": 0.0572
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          268.89,
+          119.99,
+          507.21,
+          295.96
+        ],
+        "page_area_fraction": 0.0838
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0044",
+    "caption": "Fog 컴퓨팅 환경 구성 및 배치 방식 별 로지컬",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 63,
+    "prefix_match_only": false,
+    "text_before": "(완료) - Fog 컴퓨팅 환경에서 Client와 Data Source의 위치에 따\n른 트래픽 발생을 고려하여 Fog Device에 Fog Server를\n배치하는 방법을 제안\n<비SCI 논문 출판 1편, 국내특허출원 1건>\n- Fog Server 배치에 있어서 네트워크상에 서비스를 요청\n하는 Client와 Data Source의 위치에 따른 트래픽 발생을\n고려한 Fog Server 배치 기법을 제안(좌측 4번째)하고, Data Source에 가까운 Fog Device에 Fog Server 배치 방",
+    "caption_and_following_text": "법(좌측 2번째)과 모든 Fog Device에 Fog Server를 배치\n하는 방법(좌측 3번째)과 비교함. 제안 기법 동작 과정은\n아래 3단계로 나타낼 수 있음.\n<그림 2-46> Fog 컴퓨팅 환경 구성 및 배치 방식 별 로지컬\n플로우\n1. 로지컬 플로우 생성: 실제 토폴로지 상에서 발생하는\n네트워크 트래픽에서 유의미한 정보를 선택하여 로지\n컬 플로우로 나타냄. 로지컬 플로우는 Client와 Data\nSource를 연결하는 직선으로서 표현하며 서버에서 처\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [
+      "3. 각각 수신한 노드는 proof of work 수행하여 설정한"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          246.59,
+          134.61,
+          525.32,
+          238.9
+        ],
+        "page_area_fraction": 0.0581
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0045",
+    "caption": "SDN 및 컨테이너 가상화 기반 Fog 컴퓨팅 아키텍처 설계",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "연구\n(이론적)\nSDN과 컨테이너 가\n상화 기술을 기반으\n로 동작하는 Fog 컴\n퓨팅의 전체적인 제\n어 구조를 설계",
+    "caption_and_following_text": "○ IoT 서비스 지향 Fog 컴퓨팅 아키텍처 설계 및 네트워크\n지원 기술 연구(완료)\n<그림 2-47> SDN 및 컨테이너 가상화 기반\nFog 컴퓨팅 아키텍처 설계\n- Fog 컴퓨팅에 있어 네트워크 인스턴스를 활용하여 여러\n가지 네트워크 Qos 팩터들 (Connectivity, Reliability,\nCapacity, Delay)을 만족시키기 위한 기반 제어 구조 설\n계를 수행하였으며, 이 제어 구조를 기반으로 하여 지리\n적으로 널리 분포된 Fog 디바이스의 관리, 프로그래밍\n모델, API 설계 및 제공 방법 등을 부가적으로 설계함. - 추가적으로 본 설계를 기반으로 IoT 서비스 가용성을 확",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          262.9,
+          361.52,
+          507.69,
+          495.18
+        ],
+        "page_area_fraction": 0.0654
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0046",
+    "caption": "제안한 SDN 기반 Fog 컴퓨팅 구조에서 Fog 서버의 배치 방법",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 34 -\n<그림 2-48> 제안한 SDN 기반 Fog\n컴퓨팅 구조에서 Fog 서버의 배치 방법\n클라우드와\nFog 간\n효율적인 IoT\n서비스 연동\n기술 연구\n(이론적)\nFog 컴퓨팅의 실제",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          292.4,
+          600.06,
+          478.18,
+          781.67
+        ],
+        "page_area_fraction": 0.0674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.57,
+          408.15,
+          491.02,
+          532.1
+        ],
+        "page_area_fraction": 0.0524
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          271.65,
+          124.18,
+          389.07,
+          192.75
+        ],
+        "page_area_fraction": 0.0161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          389.07,
+          122.51,
+          498.93,
+          202.58
+        ],
+        "page_area_fraction": 0.0176
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0047",
+    "caption": "Fog Portal 기반 중앙 집중식 제어 구조",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "Fog 디바이스\n보유자와 IoT\n서비스 관리자 간\n중개를 수행하고\nSDN 기반 로컬\n네트워크 상에서\nFog 컴퓨팅을",
+    "caption_and_following_text": "실현시킬 수 있도록\n함\n○ Fog 컴퓨팅의 실제 운용을 위한 Fog Portal 기반 중앙 집\n중식 제어 구조(완료)\n<그림 2-49> Fog Portal 기반 중앙 집중식\n제어 구조\n- Fog 컴퓨팅의 실현은 클라우드 데이터센터, IoT 서비스\n제공자, 네트워크 인프라, 스위치 제조사들의 협업을 통\n해 이뤄지지만, 어떤 서비스가 특정 지역에서 Fog 컴퓨\n팅 서비스를 제공하고자 할 때, 어떻게 그 특정 지역을",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          292.4,
+          600.06,
+          478.18,
+          781.67
+        ],
+        "page_area_fraction": 0.0674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.57,
+          408.15,
+          491.02,
+          532.1
+        ],
+        "page_area_fraction": 0.0524
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          271.65,
+          124.18,
+          389.07,
+          192.75
+        ],
+        "page_area_fraction": 0.0161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          389.07,
+          122.51,
+          498.93,
+          202.58
+        ],
+        "page_area_fraction": 0.0176
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0048",
+    "caption": "Fog 디바이스의 Fog Portal등록 과정",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 34,
+    "prefix_match_only": false,
+    "text_before": "제공자, 네트워크 인프라, 스위치 제조사들의 협업을 통\n해 이뤄지지만, 어떤 서비스가 특정 지역에서 Fog 컴퓨\n팅 서비스를 제공하고자 할 때, 어떻게 그 특정 지역을\n결정지을 것이며, 누구에게서 네트워크 트래픽 정보를\n받을 것이며, 어떤 제조사의 스위치를 사용할 것이며, 어\n떤 회선을 사용할 것인지, 누가 특정 Fog 디바이스 (Fog\n컴퓨팅 지원 가능 네트워크 장비)로 트래픽을 우회시킬",
+    "caption_and_following_text": "것인지를 결정하는 방법은 불명확함.\n<그림 2-50> Fog\n디바이스의 Fog\nPortal등록 과정\n<그림 2-51> Fog Portal\n기반 Fog 서버 배포\n과정\n- Fog Portal은 인터넷 상에 위치하는 서버로 각 SDN 기반\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          292.4,
+          600.06,
+          478.18,
+          781.67
+        ],
+        "page_area_fraction": 0.0674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.57,
+          408.15,
+          491.02,
+          532.1
+        ],
+        "page_area_fraction": 0.0524
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          271.65,
+          124.18,
+          389.07,
+          192.75
+        ],
+        "page_area_fraction": 0.0161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          389.07,
+          122.51,
+          498.93,
+          202.58
+        ],
+        "page_area_fraction": 0.0176
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0049",
+    "caption": "Fog Portal 기반 Fog 서버 배포 과정",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 37,
+    "prefix_match_only": false,
+    "text_before": "결정지을 것이며, 누구에게서 네트워크 트래픽 정보를\n받을 것이며, 어떤 제조사의 스위치를 사용할 것이며, 어\n떤 회선을 사용할 것인지, 누가 특정 Fog 디바이스 (Fog\n컴퓨팅 지원 가능 네트워크 장비)로 트래픽을 우회시킬\n것인지를 결정하는 방법은 불명확함.\n<그림 2-50> Fog\n디바이스의 Fog",
+    "caption_and_following_text": "Portal등록 과정\n<그림 2-51> Fog Portal\n기반 Fog 서버 배포\n과정\n- Fog Portal은 인터넷 상에 위치하는 서버로 각 SDN 기반\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          292.4,
+          600.06,
+          478.18,
+          781.67
+        ],
+        "page_area_fraction": 0.0674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.57,
+          408.15,
+          491.02,
+          532.1
+        ],
+        "page_area_fraction": 0.0524
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          271.65,
+          124.18,
+          389.07,
+          192.75
+        ],
+        "page_area_fraction": 0.0161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          389.07,
+          122.51,
+          498.93,
+          202.58
+        ],
+        "page_area_fraction": 0.0176
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0050",
+    "caption": "타겟 토폴로지",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "(실험적)\n다양한 네트워크 플\n로우가 존재하는 상\n황에서 Fog 서버까\n지의 거리가 최소가\n되는 Fog 서버 선택\n○ 네트워크 토폴로지와 플로우 상태를 고려한 Fog 서버 배",
+    "caption_and_following_text": "치 개수 및 배치 위치 결정 기법(완료) - 로컬 네트워크 상에서 현재 서비스 플로우들을 고려하여\nFog 서버를 배치 할 Fog 디바이스 선택 알고리즘 연구\n<비SCI 논문 출판 2편, 국내특허출원 1건>\n<그림 2-52> 타겟 토폴로지 <그림 2-53> 배치 알고리즘\n예시)\n1. 클라이언트가 서비스를 요청하고 데이터소스에서 필요\n한 데이터를 제공하면 두 디바이스 사이에 서비스 플\n로우가 형성\n2. 현재 네트워크 상황에서 하나의 Fog 디바이스에 배치\n할 경우 모든 서비스 플로우에 존재하는 클라이언트, 데이터소스 들로부터 각 Fog 디바이스들까지의 거리의",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          413.79,
+          372.64,
+          518.91
+        ],
+        "page_area_fraction": 0.0295
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.52,
+          413.91,
+          507.33,
+          526.22
+        ],
+        "page_area_fraction": 0.0303
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0051",
+    "caption": "배치 알고리즘",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "기반 Fog\n서버 이주\n프로토콜\n연구\n(이론적)\n사용자들에게 빠른\n응답시간을 제공하",
+    "caption_and_following_text": "고 네트워크 트래픽\n을 줄일 수 있는\nFog 서버 배치 알고\n리즘 연구\n(실험적)\n다양한 네트워크 플\n로우가 존재하는 상\n황에서 Fog 서버까\n지의 거리가 최소가\n되는 Fog 서버 선택",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          413.79,
+          372.64,
+          518.91
+        ],
+        "page_area_fraction": 0.0295
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.52,
+          413.91,
+          507.33,
+          526.22
+        ],
+        "page_area_fraction": 0.0303
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0052",
+    "caption": "Swarm을 이용한 fog 관리 모델",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "환경 구축 및\n성능 평가\n(실험적)\nDocker Swarm 클러\n스터링 툴을 활용하\n여 Fog 컴퓨팅 클러\n스터링 환경 구축",
+    "caption_and_following_text": "및 성능 평가 실행\n○ Docker Swarm 기반 Fog 컴퓨팅 클러스터링 환경 구축\n및 성능 평가(완료)\n<그림 2-55> Swarm을 이용한 fog 관리 모델\n- Fog 컴퓨팅은 급변하는 상황에 대해 동적 자원관리, 로\n드밸런싱, Fog 서버 이주를 지원해야 하므로, Docker\nSwarm (Docker 클러스터 관리 도구)를 활용한 Fog 컴퓨\n팅 클러스터링 환경 구축을 진행하여 여러 제한적인 상\n황에서의 성능 평가를 진행하였음\n<비SCI 논문 출판 1편>",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.35,
+          634.71,
+          380.2,
+          777.35
+        ],
+        "page_area_fraction": 0.0399
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          270.33,
+          462.1,
+          500.25,
+          569.98
+        ],
+        "page_area_fraction": 0.0496
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          282.33,
+          92.18,
+          488.14,
+          231.11
+        ],
+        "page_area_fraction": 0.0571
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0053",
+    "caption": "Fog 서버 수 별 설정 시간",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "- Fog 컴퓨팅은 급변하는 상황에 대해 동적 자원관리, 로\n드밸런싱, Fog 서버 이주를 지원해야 하므로, Docker\nSwarm (Docker 클러스터 관리 도구)를 활용한 Fog 컴퓨\n팅 클러스터링 환경 구축을 진행하여 여러 제한적인 상\n황에서의 성능 평가를 진행하였음\n<비SCI 논문 출판 1편>\n- Docker Swarm은 Docker 클러스터링과 스케줄링을 지원",
+    "caption_and_following_text": "하는 툴로서, 여러 Docker 컨테이너를 커맨드로 한 번에\n관리할 수 있다는 특징이 있으며 클러스터 안에서 컨테\n이너를 어떤 호스트로 구동할 것인지를 지정할 수 있음. 또한 CPU 및 메모리 등 리소스 할당량 지정이 가능함.\n<그림 2-56> Fog 서버 수 별 설정 시간\n1. Netgate RCC-VE 4860 보드 4대로 실험환경 구축했으\n며, CPU는 4 CORE Intel Atom C2558이며, Memory는\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.35,
+          634.71,
+          380.2,
+          777.35
+        ],
+        "page_area_fraction": 0.0399
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          270.33,
+          462.1,
+          500.25,
+          569.98
+        ],
+        "page_area_fraction": 0.0496
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          282.33,
+          92.18,
+          488.14,
+          231.11
+        ],
+        "page_area_fraction": 0.0571
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0054",
+    "caption": "디바이스로 오프로드된 SDN 동작",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 34,
+    "prefix_match_only": false,
+    "text_before": "이 높은 수준에서\n유지될 때, 수 대의\nWiFi AP에서 핸드\n오프 등의 서비스를\n제공할 때의 응답\n속도를 측정\n○ IoT 서비스를 효율적으로 지원하기 위한 Proxy SDN",
+    "caption_and_following_text": "Controller 기반 제어 구조 연구(완료) - 무선 액세스 네트워크의 제어 관리를 효율적으로 수행할\n수 있는 Proxy SDN Controller 기반 SDN 제어 구조 제안\n<SCI 논문 출판 1편>\n<그림 2-57> 디바이스로 오프로드된 SDN 동작\n<그림 2-58> 제안한 구조의 scalability, responsiveness 평가\n- Proxy SDN Controller는 Main SDN Controller의 역할의\n일부를 위임 받아 신속하게 로컬 제어 동작을 수행하며, 정보 동기화를 통해 최신 로컬 네트워크 뷰를 네트워크\n관리자에게 제공함. 제안한 Proxy SDN Controller는 각\n무선 디바이스 (WiFi AP 등의 Fog 디바이스들) 내에서\n동작을 수행하여 신속한 제어를 가능하게 함",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          268.06,
+          437.04,
+          502.65,
+          554.99
+        ],
+        "page_area_fraction": 0.0553
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          233.63,
+          296.32,
+          327.78,
+          398.32
+        ],
+        "page_area_fraction": 0.0192
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          327.78,
+          296.2,
+          433.21,
+          398.2
+        ],
+        "page_area_fraction": 0.0215
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          433.21,
+          295.0,
+          536.95,
+          405.76
+        ],
+        "page_area_fraction": 0.023
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0055",
+    "caption": "제안한 구조의 scalability, responsiveness 평가",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 35,
+    "prefix_match_only": false,
+    "text_before": "유지될 때, 수 대의\nWiFi AP에서 핸드\n오프 등의 서비스를\n제공할 때의 응답\n속도를 측정\n○ IoT 서비스를 효율적으로 지원하기 위한 Proxy SDN\nController 기반 제어 구조 연구(완료) - 무선 액세스 네트워크의 제어 관리를 효율적으로 수행할",
+    "caption_and_following_text": "수 있는 Proxy SDN Controller 기반 SDN 제어 구조 제안\n<SCI 논문 출판 1편>\n<그림 2-57> 디바이스로 오프로드된 SDN 동작\n<그림 2-58> 제안한 구조의 scalability, responsiveness 평가\n- Proxy SDN Controller는 Main SDN Controller의 역할의\n일부를 위임 받아 신속하게 로컬 제어 동작을 수행하며, 정보 동기화를 통해 최신 로컬 네트워크 뷰를 네트워크\n관리자에게 제공함. 제안한 Proxy SDN Controller는 각\n무선 디바이스 (WiFi AP 등의 Fog 디바이스들) 내에서\n동작을 수행하여 신속한 제어를 가능하게 함\nFog",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          268.06,
+          437.04,
+          502.65,
+          554.99
+        ],
+        "page_area_fraction": 0.0553
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          233.63,
+          296.32,
+          327.78,
+          398.32
+        ],
+        "page_area_fraction": 0.0192
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          327.78,
+          296.2,
+          433.21,
+          398.2
+        ],
+        "page_area_fraction": 0.0215
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          433.21,
+          295.0,
+          536.95,
+          405.76
+        ],
+        "page_area_fraction": 0.023
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0056",
+    "caption": "전역 마커 구성도 및 자율형 네트워크 가상화 플랫폼",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 38 -\n가 가능하도록 설계\n<그림 2-59> 전역 마커 구성도 및 자율형 네트워크 가상화\n플랫폼\n- 네트워크 디바이스의 큐잉에 있어, 기존 srTCM 구조에\n하나의 전역 마커를 추가하여 모든 가상 네트워크가 전\n역 마커를 공유하는 SDN 기반 트래픽 변화를 고려한 자\n율형 네트워크 가상화 장치를 제안\n<PCT출원 1건, 국내특허출원 1건, SCI 논문 출판 1편>\n서비스 지향",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.51,
+          626.43,
+          363.76,
+          772.67
+        ],
+        "page_area_fraction": 0.0346
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          355.13,
+          626.43,
+          568.61,
+          773.15
+        ],
+        "page_area_fraction": 0.0626
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          260.74,
+          376.15,
+          521.48,
+          472.64
+        ],
+        "page_area_fraction": 0.0503
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.35,
+          257.24,
+          453.24,
+          346.42
+        ],
+        "page_area_fraction": 0.0242
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0057",
+    "caption": "초기 네트워크 토폴로지 / Dijkstra 알고리즘 적용 후",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 32,
+    "prefix_match_only": false,
+    "text_before": "여 휴리스틱하게\nPDN 코디네이터를\n선택하는 알고리즘\n설계\n(실험적)\nC프로그래밍을 통\n해 제안한 휴리스틱",
+    "caption_and_following_text": "알고리즘 성능 검증\n○ 주기적인 모니터링 트래픽을 위한 optimal\nPDN_Coordinator set 구성 알고리즘 개발 (완료)\n<그림 2-60> 초기 네트워크 토폴로지 / Dijkstra 알고리즘 적용 후>\n<그림 2-61> 휴리스틱 알고리즘 적용 후\n- 인터넷 직접 연결 비용을 줄이기 위해 최소한의 코디네\n이터를 선택하기 위한 휴리스틱 알고리즘 설계 (완료) * 응용의 지연제약을 고려, 최단 홉은 아니더라도 응용의\nQoS를 만족시키는 코디네이터를 선택\n* 한 코디네이터에 연결된 모든 센서들이 다른 코디네이\n터로의 연결이 가능한 경우, 해당 코디네이터에서의 연",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.51,
+          626.43,
+          363.76,
+          772.67
+        ],
+        "page_area_fraction": 0.0346
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          355.13,
+          626.43,
+          568.61,
+          773.15
+        ],
+        "page_area_fraction": 0.0626
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          260.74,
+          376.15,
+          521.48,
+          472.64
+        ],
+        "page_area_fraction": 0.0503
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.35,
+          257.24,
+          453.24,
+          346.42
+        ],
+        "page_area_fraction": 0.0242
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0058",
+    "caption": "휴리스틱 알고리즘 적용 후",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 33,
+    "prefix_match_only": false,
+    "text_before": "PDN 코디네이터를\n선택하는 알고리즘\n설계\n(실험적)\nC프로그래밍을 통\n해 제안한 휴리스틱\n알고리즘 성능 검증",
+    "caption_and_following_text": "○ 주기적인 모니터링 트래픽을 위한 optimal\nPDN_Coordinator set 구성 알고리즘 개발 (완료)\n<그림 2-60> 초기 네트워크 토폴로지 / Dijkstra 알고리즘 적용 후>\n<그림 2-61> 휴리스틱 알고리즘 적용 후\n- 인터넷 직접 연결 비용을 줄이기 위해 최소한의 코디네\n이터를 선택하기 위한 휴리스틱 알고리즘 설계 (완료) * 응용의 지연제약을 고려, 최단 홉은 아니더라도 응용의\nQoS를 만족시키는 코디네이터를 선택\n* 한 코디네이터에 연결된 모든 센서들이 다른 코디네이\n터로의 연결이 가능한 경우, 해당 코디네이터에서의 연\n결을 해제하고 연결할 수 있는 다른 코디네이터로 연결",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.51,
+          626.43,
+          363.76,
+          772.67
+        ],
+        "page_area_fraction": 0.0346
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          355.13,
+          626.43,
+          568.61,
+          773.15
+        ],
+        "page_area_fraction": 0.0626
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          260.74,
+          376.15,
+          521.48,
+          472.64
+        ],
+        "page_area_fraction": 0.0503
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.35,
+          257.24,
+          453.24,
+          346.42
+        ],
+        "page_area_fraction": 0.0242
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0059",
+    "caption": "개별 비콘 서비스",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "CoAP 메시지 정의\n및 교환 절차 설계\n(실험적)\nOPNET 시뮬레이터\n를 이용하여 제안한\n서비스의 인터넷 트\n래픽 절감 및 무선",
+    "caption_and_following_text": "에서의 데이터 손실\n이 최소화되는 것을\n실험으로 검증\n<그림 2-62> 개별 비콘 서비스 <그림 2-63> PDN 기반 비콘 서비스\n- 인터넷 트래픽을 줄이고 무선에서의 서비스 효율성을 높\n이기 위해 PDN 기반 멀티미디어 데이터 공유 서비스 방\n안 설계 (완료) * 동일한 멀티미디어 데이터 수신을 원하는 근거리에 위\n치한 사용자들로 PDN을 구성\n* 사용자들의 컨텍스트 정보를 기반으로 대표노드인\nPDN_C 선발",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          696.8,
+          390.03,
+          781.66
+        ],
+        "page_area_fraction": 0.0267
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          390.03,
+          696.8,
+          537.31,
+          781.66
+        ],
+        "page_area_fraction": 0.025
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          261.82,
+          473.96,
+          508.89,
+          506.57
+        ],
+        "page_area_fraction": 0.0161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.51,
+          376.03,
+          331.86,
+          440.64
+        ],
+        "page_area_fraction": 0.0115
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          331.86,
+          376.27,
+          435.25,
+          439.44
+        ],
+        "page_area_fraction": 0.0131
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          435.25,
+          375.79,
+          528.2,
+          441.96
+        ],
+        "page_area_fraction": 0.0123
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0060",
+    "caption": "PDN 기반 비콘 서비스",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "CoAP 메시지 정의\n및 교환 절차 설계\n(실험적)\nOPNET 시뮬레이터\n를 이용하여 제안한\n서비스의 인터넷 트\n래픽 절감 및 무선",
+    "caption_and_following_text": "에서의 데이터 손실\n이 최소화되는 것을\n실험으로 검증\n<그림 2-62> 개별 비콘 서비스 <그림 2-63> PDN 기반 비콘 서비스\n- 인터넷 트래픽을 줄이고 무선에서의 서비스 효율성을 높\n이기 위해 PDN 기반 멀티미디어 데이터 공유 서비스 방\n안 설계 (완료) * 동일한 멀티미디어 데이터 수신을 원하는 근거리에 위\n치한 사용자들로 PDN을 구성\n* 사용자들의 컨텍스트 정보를 기반으로 대표노드인\nPDN_C 선발",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          696.8,
+          390.03,
+          781.66
+        ],
+        "page_area_fraction": 0.0267
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          390.03,
+          696.8,
+          537.31,
+          781.66
+        ],
+        "page_area_fraction": 0.025
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          261.82,
+          473.96,
+          508.89,
+          506.57
+        ],
+        "page_area_fraction": 0.0161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.51,
+          376.03,
+          331.86,
+          440.64
+        ],
+        "page_area_fraction": 0.0115
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          331.86,
+          376.27,
+          435.25,
+          439.44
+        ],
+        "page_area_fraction": 0.0131
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          435.25,
+          375.79,
+          528.2,
+          441.96
+        ],
+        "page_area_fraction": 0.0123
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0061",
+    "caption": "CON/GET 메시지",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "- 인터넷 트래픽을 줄이고 무선에서의 서비스 효율성을 높\n이기 위해 PDN 기반 멀티미디어 데이터 공유 서비스 방\n안 설계 (완료) * 동일한 멀티미디어 데이터 수신을 원하는 근거리에 위\n치한 사용자들로 PDN을 구성\n* 사용자들의 컨텍스트 정보를 기반으로 대표노드인\nPDN_C 선발\n* PDN_C는 서비스서버로부터 데이터 수신하여 나머지",
+    "caption_and_following_text": "PDN 노드들에게 전달하여 인터넷 트래픽을 줄임\n* PDN 노드 간 혹은 PDN 노드와 서버와의 서비스 연결\n설정을 위한 CoAP 메시지 정의\n<그림 2-64> CON/GET 메시지\n- 실험을 통해 개발된 서비스의 성능검증 결과\n<그림 2-65> - 아래와 같은 측면에서 향상된 성능을 입증함\n* 사용자 수 증가에 따른 인터넷 데이터양\n* 사용자 수 증가에 따른 무선에서의 데이터양\n* 사용자 수 증가에 따른 데이터 수신율\n<국내특허 출원 1건, 국내학회 논문 발표 1건>",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          696.8,
+          390.03,
+          781.66
+        ],
+        "page_area_fraction": 0.0267
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          390.03,
+          696.8,
+          537.31,
+          781.66
+        ],
+        "page_area_fraction": 0.025
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          261.82,
+          473.96,
+          508.89,
+          506.57
+        ],
+        "page_area_fraction": 0.0161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.51,
+          376.03,
+          331.86,
+          440.64
+        ],
+        "page_area_fraction": 0.0115
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          331.86,
+          376.27,
+          435.25,
+          439.44
+        ],
+        "page_area_fraction": 0.0131
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          435.25,
+          375.79,
+          528.2,
+          441.96
+        ],
+        "page_area_fraction": 0.0123
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0062",
+    "caption": "블루투스 ↔ IPv6 연동 지원 시스템",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 31,
+    "prefix_match_only": false,
+    "text_before": "줄임\n4. 각 클러스터 C에 포함된 세그먼트들 사이의 여행거리와\n통신 데이터량을 모두 고려하여 향후 각 C를 서비스하게\n될 모바일 노드의 예상 소요에너지를 계산하고 k개의 모\n바일 노드가 균등한 에너지를 소비하도록 에너지소비가\n가장 큰 C_m에서 가장 작은 C_l 을 찾아 C_l에서 C_m으\n로 셀을 이동시키되 각 클러스터에 추가/감소되는 에너지",
+    "caption_and_following_text": "비용이 가장 적은 셀을 선택. 5. C들 사이의 에너지 표준편차가 더 이상 줄어들지 않으면\n알고리즘을 종료.\n- 실험을 통한 개발된 알고리즘의 성능 검증결과\n<그림 2-66> 블루투스 ↔ IPv6 연동 지원 시스템\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          201.26,
+          538.27,
+          351.34
+        ],
+        "page_area_fraction": 0.0926
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0063",
+    "caption": "특정 서비스의 QoS 보장을 위한 SDN 재구성 기법",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "알고리즘(ToCS로 명시)과 아래와 같은 측면에서 향상된\n성능을 입증함\n* 세드먼트들 사이의 최대 통신 지연\n* K개의 모바일 노드들이 소요하는 평균 에너지\n* K개의 모바일 노드들 사이의 에너지 균형\n<SCIE 논문 1건, 국내 특허 출원 1건, 국내 특허 등록 1건, 국제학회 논문 1편 발표, 국내학회 논문 발표 1건>\n○ 부산대-서강대 2차년도 기능 개발 통합 – QoS 보장을 위",
+    "caption_and_following_text": "해 NIaaS 매니저를 이용한 SDN 재구성 및 네트워크 컨텍스\n트 활용 트래픽 제어 기법 개발\n<그림 2-68> 특정 서비스의 QoS 보장을 위한\nSDN 재구성 기법\n- 네트워크 혼잡 발생시 NIaaS 매니저가 프로그램을 통해\nSDN을 재구성하여 다시 QoS를 만족하는 과정을 에뮬레\n이터와 임베디드 보드 등을 통해 실증\n- 다빈치 로봇에서 전송하는 원격 수술 영상의 실시간성을\n보장하기 위해 컨텍스트 매니저에서 해당 서비스의\nRequirements를 파악하고 NIaaS 매니저에게 전송하여, 이를 기반으로 SDN을 구성함으로써 전체적인 QoS를 만",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          249.95,
+          570.93,
+          541.75,
+          781.66
+        ],
+        "page_area_fraction": 0.1229
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          278.61,
+          219.96,
+          491.97,
+          345.46
+        ],
+        "page_area_fraction": 0.0535
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0064",
+    "caption": "Access tree 기반의 암호문 생성 및 요청 노드의 컨텍스트를 이용한 비밀키 생성",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "(실험적)\nAccess tree를 통한\nIoT데이터 접근 및\n권한 부여 시스템\n구현\n○ IoT네트워크의 특성을 고려한 IoT 데이터에 최적화된 트\n러스트 전송 기법 개발(완료) - CP-ABE를 활용해 IoT 데이터에 접근 또는 접근 권한을",
+    "caption_and_following_text": "부여하는 알고리즘 개발 및 IoT 환경에 응용할 수 있는\n플랫폼 구현.\n<그림 2-69> Access tree 기반의 암호문 생성 및 요청 노드의\n컨텍스트를 이용한 비밀키 생성\n- Access tree를 이용한 조건에 따라 access 허용\n- IoT 데이터에 접근하려는 사용자가 엑세스 요청 시 컨텍\n스트 매니저가 사용자의 컨텍스트를 추출하여 decision\ntree 알고리즘을 통해 엑세스/승인 여부를 결정하는 트러\n스트 룰 엔진 개발\n- 사용자 속성을 바탕으로 access tree를 설정하고 이를 기",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          241.67,
+          596.23,
+          528.92,
+          698.12
+        ],
+        "page_area_fraction": 0.0585
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          249.47,
+          219.48,
+          521.12,
+          374.71
+        ],
+        "page_area_fraction": 0.0843
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0065",
+    "caption": "Access tree를 만족하는 사용자의 원문 데이터 복호화",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 31,
+    "prefix_match_only": false,
+    "text_before": "- IoT 데이터에 접근하려는 사용자가 엑세스 요청 시 컨텍\n스트 매니저가 사용자의 컨텍스트를 추출하여 decision\ntree 알고리즘을 통해 엑세스/승인 여부를 결정하는 트러\n스트 룰 엔진 개발\n- 사용자 속성을 바탕으로 access tree를 설정하고 이를 기\n반으로 데이터 암호화 및 비밀키 생성 후 요청 노드에\n전송",
+    "caption_and_following_text": "- 데이터 생성자가 설정한 access tree의 사용자 속성을 만\n족할 경우 데이터 원문 복호화 가능\n<그림 2-70> Access tree를 만족하는 사용자의 원문\n데이터 복호화\n○ 분산형 데이터베이스에 기록된 사용자 컨텍스트를 이용\n한 접근권한 부여 알고리즘(완료)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          241.67,
+          596.23,
+          528.92,
+          698.12
+        ],
+        "page_area_fraction": 0.0585
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          249.47,
+          219.48,
+          521.12,
+          374.71
+        ],
+        "page_area_fraction": 0.0843
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0066",
+    "caption": "IoBT 환경에서의 사용자 컨텍스트 기반 접근권한 부여",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 43 -\n<그림 2-71> IoBT 환경에서의 사용자 컨텍스트 기반\n접근권한 부여\n- 실제 속성기반 암호화를 사용한 암호화된 데이터를 전송\n하여 사용자 컨텍스트를 활용한 전송기법 개발\n- 설정된 access tree를 만족하는 사용자는 원문 복호화 가\n능, 만족하지 못하는 사용자는 원문 복호화 불가\n○ <서강대학교 시뮬레이션>IoT 서비스 지향 네트워크 인프\n라 구조 시뮬레이션(완료)\n<그림 2-72> 서강대학교 시나리오 IoBT(Internet of Battle",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          249.11,
+          610.37,
+          521.6,
+          781.67
+        ],
+        "page_area_fraction": 0.0933
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.23,
+          279.17,
+          530.35,
+          461.26
+        ],
+        "page_area_fraction": 0.1056
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0067",
+    "caption": "서강대학교 시나리오 IoBT(Internet of Battle Things)환경에서의 블록체인을 통한 Access tree 구현",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 43 -\n<그림 2-71> IoBT 환경에서의 사용자 컨텍스트 기반\n접근권한 부여\n- 실제 속성기반 암호화를 사용한 암호화된 데이터를 전송\n하여 사용자 컨텍스트를 활용한 전송기법 개발\n- 설정된 access tree를 만족하는 사용자는 원문 복호화 가\n능, 만족하지 못하는 사용자는 원문 복호화 불가",
+    "caption_and_following_text": "○ <서강대학교 시뮬레이션>IoT 서비스 지향 네트워크 인프\n라 구조 시뮬레이션(완료)\n<그림 2-72> 서강대학교 시나리오 IoBT(Internet of Battle\nThings)환경에서의 블록체인을 통한 Access tree 구현\n- 조건에 따른 데이터에 접근 권한을 허용하고, 조건에 만\n족하는 데이터 및 사용자를 Dynamic하게 변경 가능한\nAccess tree를 구현\n- 분산형 데이터베이스인 블록체인을 통해 구현된 Access\ntree를 실행하여 데이터에 대한 실시간성 및 무결성 확\n보",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          249.11,
+          610.37,
+          521.6,
+          781.67
+        ],
+        "page_area_fraction": 0.0933
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.23,
+          279.17,
+          530.35,
+          461.26
+        ],
+        "page_area_fraction": 0.1056
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0068",
+    "caption": "구현한 Access tree를 블록체인에서 실행",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 44 -\n<그림 2-73> 구현한 Access tree를 블록체인에서 실행\n(예시)\n1. Decision tree에 의해 1중대 소대장 이상 접근가능한 데이\n터는 1중대 소속 소대장은 접근 가능하나 타 중대 소속\n소대장들은 접근 불가\n<그림 2-74> CP-ABE를 통한 접근권한 부여 및\nDynamic한 접근권한 변경 가능\n2. 동일한 데이터에 대해 1중대장은 접근 가능하나 1중대 소\n속 소대원들 및 적군은 접근 불가",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.75,
+          672.34,
+          530.95,
+          781.66
+        ],
+        "page_area_fraction": 0.0636
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          251.74,
+          436.8,
+          518.96,
+          581.0
+        ],
+        "page_area_fraction": 0.077
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          269.14,
+          79.83,
+          501.57,
+          263.59
+        ],
+        "page_area_fraction": 0.0854
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0069",
+    "caption": "CP-ABE를 통한 접근권한 부여 및 Dynamic한 접근권한 변경 가능",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 44 -\n<그림 2-73> 구현한 Access tree를 블록체인에서 실행\n(예시)\n1. Decision tree에 의해 1중대 소대장 이상 접근가능한 데이",
+    "caption_and_following_text": "터는 1중대 소속 소대장은 접근 가능하나 타 중대 소속\n소대장들은 접근 불가\n<그림 2-74> CP-ABE를 통한 접근권한 부여 및\nDynamic한 접근권한 변경 가능\n2. 동일한 데이터에 대해 1중대장은 접근 가능하나 1중대 소\n속 소대원들 및 적군은 접근 불가\n3. 소대장 전사 시 Access tree에 의해 부소대장이 소대장의\n권한을 이행할 수 있도록 Dynamic하게 Access tree 변경\n○ 컨텍스트 추출 후 reasoning단계의 오차율 계산을 통한\n추출 퀄리티 판단 (완료) - 지정한 네트워크 컨텍스트 추출 후 분석하여 트래픽의",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.75,
+          672.34,
+          530.95,
+          781.66
+        ],
+        "page_area_fraction": 0.0636
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          251.74,
+          436.8,
+          518.96,
+          581.0
+        ],
+        "page_area_fraction": 0.077
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          269.14,
+          79.83,
+          501.57,
+          263.59
+        ],
+        "page_area_fraction": 0.0854
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0070",
+    "caption": "IoT에서의 컨텍스트에 대한 암호화 및 특성 분석",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "<그림 2-74> CP-ABE를 통한 접근권한 부여 및\nDynamic한 접근권한 변경 가능\n2. 동일한 데이터에 대해 1중대장은 접근 가능하나 1중대 소\n속 소대원들 및 적군은 접근 불가\n3. 소대장 전사 시 Access tree에 의해 부소대장이 소대장의\n권한을 이행할 수 있도록 Dynamic하게 Access tree 변경\n○ 컨텍스트 추출 후 reasoning단계의 오차율 계산을 통한",
+    "caption_and_following_text": "추출 퀄리티 판단 (완료) - 지정한 네트워크 컨텍스트 추출 후 분석하여 트래픽의\n데이터 cluster 범위를 벗어나는 패킷 파악하는 기술\n<그림 2-75> IoT에서의 컨텍스트에 대한 암호화\n및 특성 분석\n- 프로토콜이나 내용에 따라 달라지는 네트워크 컨텍스트\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.75,
+          672.34,
+          530.95,
+          781.66
+        ],
+        "page_area_fraction": 0.0636
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          251.74,
+          436.8,
+          518.96,
+          581.0
+        ],
+        "page_area_fraction": 0.077
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          269.14,
+          79.83,
+          501.57,
+          263.59
+        ],
+        "page_area_fraction": 0.0854
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0071",
+    "caption": "Seamless offloading을 위한 장치간 메시지 흐름도",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 28,
+    "prefix_match_only": false,
+    "text_before": "알고리즘 설계\n(실험적)\nSDN Switch, WiFi,\nfemtocell을 활용한\n테스트베트 구성 및\n성능 실험\n○ 이기종 무선 기술간 이동성 지원을 위한 프로토콜 설계",
+    "caption_and_following_text": "및 SDN 기반 장치 구현 (완료) - 이기종 통신 기술(LTE&WiFi) 간의 Seamless 한 연결성을\n지원하기 위한 SDN 기반 시스템 구조 및 프로토콜 설계\n<SCI 논문 출판 1편, 국내특허출원 1건>\n<그림 2-76> Seamless offloading을 위한 장치간 메시지 흐름도\n- 이동시 QoS 보장을 위한 오프로딩 대상 결정 알고리즘\n설계\n<그림 2-77> 오프로딩 대상 선정 알고리즘\n- SDN Switch, WiFi, Femtocell, controller 로 구성된 테스\n트베드를 구축하여 제안기술 검증 및 성능평가\n<그림 2-78> 제안기법의 오프로딩 효율 및 QoS 보장율 실험 결과",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          512.08,
+          538.27,
+          668.99
+        ],
+        "page_area_fraction": 0.0959
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          256.42,
+          215.16,
+          514.16,
+          462.57
+        ],
+        "page_area_fraction": 0.1274
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          67.37,
+          538.27,
+          165.66
+        ],
+        "page_area_fraction": 0.0601
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0072",
+    "caption": "오프로딩 대상 선정 알고리즘",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 31,
+    "prefix_match_only": false,
+    "text_before": "femtocell을 활용한\n테스트베트 구성 및\n성능 실험\n○ 이기종 무선 기술간 이동성 지원을 위한 프로토콜 설계\n및 SDN 기반 장치 구현 (완료) - 이기종 통신 기술(LTE&WiFi) 간의 Seamless 한 연결성을\n지원하기 위한 SDN 기반 시스템 구조 및 프로토콜 설계\n<SCI 논문 출판 1편, 국내특허출원 1건>",
+    "caption_and_following_text": "<그림 2-76> Seamless offloading을 위한 장치간 메시지 흐름도\n- 이동시 QoS 보장을 위한 오프로딩 대상 결정 알고리즘\n설계\n<그림 2-77> 오프로딩 대상 선정 알고리즘\n- SDN Switch, WiFi, Femtocell, controller 로 구성된 테스\n트베드를 구축하여 제안기술 검증 및 성능평가\n<그림 2-78> 제안기법의 오프로딩 효율 및 QoS 보장율 실험 결과\nIoT 서비스 (이론적) ○ 로컬 네트워크 환경에서 링크 사용량이 최소인 경로를\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          512.08,
+          538.27,
+          668.99
+        ],
+        "page_area_fraction": 0.0959
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          256.42,
+          215.16,
+          514.16,
+          462.57
+        ],
+        "page_area_fraction": 0.1274
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          67.37,
+          538.27,
+          165.66
+        ],
+        "page_area_fraction": 0.0601
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0073",
+    "caption": "제안기법의 오프로딩 효율 및 QoS 보장율 실험 결과",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 34,
+    "prefix_match_only": false,
+    "text_before": "○ 이기종 무선 기술간 이동성 지원을 위한 프로토콜 설계\n및 SDN 기반 장치 구현 (완료) - 이기종 통신 기술(LTE&WiFi) 간의 Seamless 한 연결성을\n지원하기 위한 SDN 기반 시스템 구조 및 프로토콜 설계\n<SCI 논문 출판 1편, 국내특허출원 1건>\n<그림 2-76> Seamless offloading을 위한 장치간 메시지 흐름도\n- 이동시 QoS 보장을 위한 오프로딩 대상 결정 알고리즘\n설계",
+    "caption_and_following_text": "<그림 2-77> 오프로딩 대상 선정 알고리즘\n- SDN Switch, WiFi, Femtocell, controller 로 구성된 테스\n트베드를 구축하여 제안기술 검증 및 성능평가\n<그림 2-78> 제안기법의 오프로딩 효율 및 QoS 보장율 실험 결과\nIoT 서비스 (이론적) ○ 로컬 네트워크 환경에서 링크 사용량이 최소인 경로를\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          512.08,
+          538.27,
+          668.99
+        ],
+        "page_area_fraction": 0.0959
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          256.42,
+          215.16,
+          514.16,
+          462.57
+        ],
+        "page_area_fraction": 0.1274
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          67.37,
+          538.27,
+          165.66
+        ],
+        "page_area_fraction": 0.0601
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0074",
+    "caption": "타겟 토폴로지",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "있는 데이터가 필요한 서비스를 요청했을 때 클라이언\n트들과 데이터 소스 사이에 하나의 서비스 플로우가\n형성. 2. 효율적인 Fog 서버 배치를 위해 서비스 플로우들의 링\n크 사용량을 기준으로 내림차순으로 정렬. 3. 각 서비스에 대해 Dijkstra 알고리즘(Cost를 현재 링크\n사용량으로 사용)을 사용하여 각 서비스 플로우에 해\n당하는 디바이스들로부터 모든 Fog 디바이스들까지의\n경로 중 링크 사용량의 합이 최소가 되는 Fog 디바이",
+    "caption_and_following_text": "스를 선택. 4. 모든 서비스에 대해 Fog 디바이스가 결정되면 해당\nFog 디바이스에 각 서비스에 맞는 Fog 서버를 배치.\n- 실험 결과\n<그림 2-79> 타겟 토폴로지 <그림 2-80> 배치 알고리즘\n- 배치 후 거리가 가까운 Fog\n디바이스에 우선 배치했을\n때보다 링크 사용량을 더\n균일하게 사용함.\n<그림 2-81>\n(이론적)",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.35,
+          553.08,
+          380.2,
+          641.54
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          390.39,
+          552.84,
+          530.23,
+          641.66
+        ],
+        "page_area_fraction": 0.0248
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.35,
+          177.29,
+          380.2,
+          279.41
+        ],
+        "page_area_fraction": 0.0285
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0075",
+    "caption": "배치 알고리즘",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 46 -\n지향\n네트워크\n최적화 기술\n연구",
+    "caption_and_following_text": "네트워크 트래픽을\n균일하게 사용할 수\n있는 Fog 서버 배치\n알고리즘 연구\n(실험적)\n다양한 서비스가\n존재하는 환경에서\n트래픽 사용량이\n적은 경로를\n사용하는 Fog 서버",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.35,
+          553.08,
+          380.2,
+          641.54
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          390.39,
+          552.84,
+          530.23,
+          641.66
+        ],
+        "page_area_fraction": 0.0248
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.35,
+          177.29,
+          380.2,
+          279.41
+        ],
+        "page_area_fraction": 0.0285
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0076",
+    "caption": "포그 포털 내부 개념도",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 25,
+    "prefix_match_only": false,
+    "text_before": "네트워크 내 포그 컨테이너 및 컨텐츠 배치 최적화 기법\n제시\n- IoT 서비스를 동작 및 통신 형태에 따라 세 가지 서비스\n로 분류하여 각 분류 별 적절한 인프라 지원과 컨테이너\n및 컨텐츠 배치 최적화를 제공하며, 컨테이너 배치 최적\n화는 사용자 참여 관점, 서비스 요구사항 관점, 그리고\n네트워크 관점을 모두 만족시킬 수 있도록 수행, 시뮬레",
+    "caption_and_following_text": "이션을 통한 성능 평가\n<그림 2-83> 서비스 개수 및 서비스 사용량에 따른 전력소모\n절감율\n<그림 2-82> 포그 포털 내부 개념도\nIoT 서비스\n가용성\n확보를 위한\n사물 및\n사용자\n이동성 지원",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          186.64,
+          380.67,
+          300.87
+        ],
+        "page_area_fraction": 0.0338
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          380.55,
+          187.12,
+          523.4,
+          297.51
+        ],
+        "page_area_fraction": 0.0315
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          660.24,
+          538.27,
+          781.66
+        ],
+        "page_area_fraction": 0.0742
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0077",
+    "caption": "서비스 개수 및 서비스 사용량에 따른 전력소모 절감율",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 24,
+    "prefix_match_only": false,
+    "text_before": "- 참여 사용자의 서비스 사용량을 최우선으로 고려한 로컬\n네트워크 내 포그 컨테이너 및 컨텐츠 배치 최적화 기법\n제시\n- IoT 서비스를 동작 및 통신 형태에 따라 세 가지 서비스\n로 분류하여 각 분류 별 적절한 인프라 지원과 컨테이너\n및 컨텐츠 배치 최적화를 제공하며, 컨테이너 배치 최적\n화는 사용자 참여 관점, 서비스 요구사항 관점, 그리고",
+    "caption_and_following_text": "네트워크 관점을 모두 만족시킬 수 있도록 수행, 시뮬레\n이션을 통한 성능 평가\n<그림 2-83> 서비스 개수 및 서비스 사용량에 따른 전력소모\n절감율\n<그림 2-82> 포그 포털 내부 개념도\nIoT 서비스\n가용성\n확보를 위한\n사물 및\n사용자",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          186.64,
+          380.67,
+          300.87
+        ],
+        "page_area_fraction": 0.0338
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          380.55,
+          187.12,
+          523.4,
+          297.51
+        ],
+        "page_area_fraction": 0.0315
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          660.24,
+          538.27,
+          781.66
+        ],
+        "page_area_fraction": 0.0742
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0078",
+    "caption": "실험 토폴로지",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 48 -\n기술 연구\n핸드오버 지원을",
+    "caption_and_following_text": "위한 SDN\n컨트롤러, 스위치, WiFi AP 구현 및\n핸드오버 시간 측정\n<그림 2-84> 실험 토폴로지\n<이동성 지원 소프트웨어 등록 1건, 공인인증시험 1건>\nIoT 서비스\n가용성\n증대를 위한\nPDN 단위\n이동성 제어",
+    "section_context_candidate": "3. 각각 수신한 노드는 proof of work 수행하여 설정한",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          644.17,
+          513.56,
+          770.52
+        ],
+        "page_area_fraction": 0.071
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.43,
+          289.96,
+          538.27,
+          400.6
+        ],
+        "page_area_fraction": 0.0676
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          290.84,
+          245.01,
+          479.74,
+          289.96
+        ],
+        "page_area_fraction": 0.017
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0079",
+    "caption": "Cloud를 통한 얼굴인식 서비스 컨텍스트 처리",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 51 -\n<그림 2-88> Cloud를 통한 얼굴인식 서비스 컨텍스트 처리\n1. IP 카메라를 통해 받은 영상을 Cloud로 전달하여 얼굴인\n식(영상처리)하여 결과를 Momitoring PC로 전달\n2. 서비스 중 네트워크 상에 Congestion 발생 시 NIaaS\nManager로 포그 서버 배치 명령 전달\n<그림 2-89> Fog Server를 통한 얼굴인식 서비스 컨텍스트 처리\n3. 배치 명령을 받으면 Fog Server를 배치하고 Cloud로 보내\n던 IP Camera 영상을 Fog Server로 전달\n4. Fog Server는 Cloud와 동일하게 처리된 결과를",
+    "section_context_candidate": "4. Fog Server는 Cloud와 동일하게 처리된 결과를",
+    "heading_candidates": [
+      "4. Fog Server는 Cloud와 동일하게 처리된 결과를"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          248.75,
+          665.15,
+          521.96,
+          781.66
+        ],
+        "page_area_fraction": 0.0636
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.03,
+          464.49,
+          525.68,
+          589.16
+        ],
+        "page_area_fraction": 0.0699
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          244.19,
+          68.68,
+          526.52,
+          234.7
+        ],
+        "page_area_fraction": 0.0937
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0080",
+    "caption": "Fog Server를 통한 얼굴인식 서비스 컨텍스트 처리",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 51 -\n<그림 2-88> Cloud를 통한 얼굴인식 서비스 컨텍스트 처리\n1. IP 카메라를 통해 받은 영상을 Cloud로 전달하여 얼굴인",
+    "caption_and_following_text": "식(영상처리)하여 결과를 Momitoring PC로 전달\n2. 서비스 중 네트워크 상에 Congestion 발생 시 NIaaS\nManager로 포그 서버 배치 명령 전달\n<그림 2-89> Fog Server를 통한 얼굴인식 서비스 컨텍스트 처리\n3. 배치 명령을 받으면 Fog Server를 배치하고 Cloud로 보내\n던 IP Camera 영상을 Fog Server로 전달\n4. Fog Server는 Cloud와 동일하게 처리된 결과를\nMonitoring PC로 전달\n○ 이화여대-서강대 3차년도 기능 개발 통합 – 실시간 네트\n워크 컨텍스트 분석을 통한 최적의 PDN 재구성",
+    "section_context_candidate": "4. Fog Server는 Cloud와 동일하게 처리된 결과를",
+    "heading_candidates": [
+      "4. Fog Server는 Cloud와 동일하게 처리된 결과를"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          248.75,
+          665.15,
+          521.96,
+          781.66
+        ],
+        "page_area_fraction": 0.0636
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.03,
+          464.49,
+          525.68,
+          589.16
+        ],
+        "page_area_fraction": 0.0699
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          244.19,
+          68.68,
+          526.52,
+          234.7
+        ],
+        "page_area_fraction": 0.0937
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0081",
+    "caption": "실시간 네트워크 컨텍스트 분석을 통한 최적의 PDN 재구성",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "1. IP 카메라를 통해 받은 영상을 Cloud로 전달하여 얼굴인\n식(영상처리)하여 결과를 Momitoring PC로 전달\n2. 서비스 중 네트워크 상에 Congestion 발생 시 NIaaS\nManager로 포그 서버 배치 명령 전달\n<그림 2-89> Fog Server를 통한 얼굴인식 서비스 컨텍스트 처리\n3. 배치 명령을 받으면 Fog Server를 배치하고 Cloud로 보내\n던 IP Camera 영상을 Fog Server로 전달",
+    "caption_and_following_text": "4. Fog Server는 Cloud와 동일하게 처리된 결과를\nMonitoring PC로 전달\n○ 이화여대-서강대 3차년도 기능 개발 통합 – 실시간 네트\n워크 컨텍스트 분석을 통한 최적의 PDN 재구성\n- 인터넷 개별 연결이 가능하고, BLE기능을 포함하는 IoT\n디바이스 사용\n- 기존 IoT 네트워크에 이동형 노드가 추가될 경우, 동일\n링크에 대한 사용 노드 증가로 인한 Congestion 발생 우\n려에 따른 새로운 PDN Coordinator 선정을 통한 QoS 보\n장 가능",
+    "section_context_candidate": "4. Fog Server는 Cloud와 동일하게 처리된 결과를",
+    "heading_candidates": [
+      "4. Fog Server는 Cloud와 동일하게 처리된 결과를"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          248.75,
+          665.15,
+          521.96,
+          781.66
+        ],
+        "page_area_fraction": 0.0636
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.03,
+          464.49,
+          525.68,
+          589.16
+        ],
+        "page_area_fraction": 0.0699
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          244.19,
+          68.68,
+          526.52,
+          234.7
+        ],
+        "page_area_fraction": 0.0937
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0082",
+    "caption": "블록체인 기반 ID/IP mapping을 통한 사물인터넷 디바이스 및 자원 검색 기법",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "연구 성과 활용 분야 활용 방안\n국내/국제\n표준화\n(총 3건)\n선택적/동시적인\n전역적 및 지역적\n연결 설정을 위한",
+    "caption_and_following_text": "ID와 IP 주소체계\n연동\n<그림 3-1> 블록체인 기반 ID/IP mapping을 통한\n사물인터넷 디바이스 및 자원 검색 기법\n- 사물인터넷 환경에서 디바이스 및 자원의 이동성을 지원\n하고 ID/IP mapping을 이용하여 사용자의 검색 시\nShortest path 설정. 이를 통해 최소한의 delay를 설정함\n으로써 검색 시스템의 실시간성 지원 가능\n- ID/IP mapping을 인식하여 디바이스 및 자원 간 최적의\n라우팅을 통한 통신 가능. 사물인터넷 환경에서 자원 및",
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "heading_candidates": [
+      "4. 연구개발성과의 활용 계획 등"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          277.41,
+          582.8,
+          500.37,
+          707.11
+        ],
+        "page_area_fraction": 0.0554
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          268.18,
+          208.57,
+          509.61,
+          349.9
+        ],
+        "page_area_fraction": 0.0682
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0083",
+    "caption": "블록체인 기반 데이터 접근 관리 시스템(CP-ABE)",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 34,
+    "prefix_match_only": false,
+    "text_before": "기반으로 한\n데이터\n접근관리\n시스템 및\n데이터 접근\n관리 방법)\n컨텍스트 기반 IoT",
+    "caption_and_following_text": "트러스트 전송\n네트워크 기술\n<그림 3-2> 블록체인 기반 데이터 접근 관리\n시스템(CP-ABE) - 데이터 소유자가 생성한 데이터의 접근 권한을 CP-ABE\n기반 엑세스 트리를 통해 데이터 요청자에 따라 유동적\n으로 설정할 수 있어, 사물인터넷 환경에서 각 디바이스\n및 자원이 생성하는 데이터마다 권한을 설정함으로써 수\n많은 디바이스가 통신하여 송수신하는 데이터의 보안성\n을 보장\n- 높은 보안성을 요구하는 환경(병원, 기업 등)에서 각 요",
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "heading_candidates": [
+      "4. 연구개발성과의 활용 계획 등"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          277.41,
+          582.8,
+          500.37,
+          707.11
+        ],
+        "page_area_fraction": 0.0554
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          268.18,
+          208.57,
+          509.61,
+          349.9
+        ],
+        "page_area_fraction": 0.0682
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0084",
+    "caption": "무선 사물인터넷 환경에서 트래픽 제어",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "Smooth\nAggregated\nTraffic from\nSensors with\nPeriodic\nReports)\n사물 중심의 IoT",
+    "caption_and_following_text": "서비스 지향\n네트워크 인프라\n구조 개발\n<그림 3-3> 무선 사물인터넷 환경에서 트래픽 제어\n- 사물인터넷 환경에서 수많은 디바이스 및 자원이 송수신\n하는 데이터의 오프셋을 제어하여 최적의 트래픽을 모델\n링함으로써 원활한 사물인터넷 통신 환경을 보장\n- 디바이스 및 자원 간 혹은 디바이스와 사용자 간 통신에\n서 데이터 손실률 및 지연율을 최소화\n- 향후 수많은 디바이스 및 자원이 이루는 사물인터넷 환",
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          252.22,
+          675.58,
+          525.68,
+          751.34
+        ],
+        "page_area_fraction": 0.0414
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          355.05,
+          538.27,
+          499.02
+        ],
+        "page_area_fraction": 0.0888
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          269.61,
+          156.67,
+          498.09,
+          314.18
+        ],
+        "page_area_fraction": 0.0719
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0085",
+    "caption": "IoT 서비스를 위한 사용자 참여형 포그 컴퓨팅 구조",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 37,
+    "prefix_match_only": false,
+    "text_before": "Computing\nArchitecture\nand Its\nManagement\nSchemes for\nImproving\nFeasibility)",
+    "caption_and_following_text": "IoT 서비스 지향\n네트워크 최적화\n기술 개발\n<그림 3-4> IoT 서비스를 위한 사용자 참여형 포그 컴퓨팅 구조\nSCI 논문\n게재 및 특허\n출원\n(A\ntraffic-aware\nquality-of-se",
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          252.22,
+          675.58,
+          525.68,
+          751.34
+        ],
+        "page_area_fraction": 0.0414
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          355.05,
+          538.27,
+          499.02
+        ],
+        "page_area_fraction": 0.0888
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          269.61,
+          156.67,
+          498.09,
+          314.18
+        ],
+        "page_area_fraction": 0.0719
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0086",
+    "caption": "가상 네트워크 동적 관리를 위한 시스템 구조",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 58,
+    "prefix_match_only": false,
+    "text_before": "ned\nnetworking-b\nased\nvirtualized\nnetworks)\n가상화 기반 IoT\n서비스 지향",
+    "caption_and_following_text": "네트워크 구성\n기술 연구\n<그림 3-5> 가상 네트워크 동적 관리를 위한\n시스템 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          252.22,
+          675.58,
+          525.68,
+          751.34
+        ],
+        "page_area_fraction": 0.0414
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          355.05,
+          538.27,
+          499.02
+        ],
+        "page_area_fraction": 0.0888
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          269.61,
+          156.67,
+          498.09,
+          314.18
+        ],
+        "page_area_fraction": 0.0719
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0087",
+    "caption": "효율적 자원 관리를 위한 전역 토큰 버킷 구조",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n<그림 3-6> 효율적 자원 관리를 위한 전역\n토큰 버킷 구조\n- 네트워크 가상화 기술은 다양한 서비스의 요구사항을 반\n영하기 위해 물리 네트워크 리소스를 분리하는 가상으로\n분리하는 기술\n- OpenVirtex 기반 소프트웨어 정의 네트워크 가상화 기술\n을 통해 다양한 IoT 서비스가 존재하는 환경에서 각 서\n비스의 요구사항에 따라 서비스별 가상 네트워크를 제공\n- 가상 네트워크간에 물리적 네트워크 리소스를 효율적으",
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          285.93,
+          572.49,
+          481.9,
+          781.67
+        ],
+        "page_area_fraction": 0.0819
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.44,
+          105.0,
+          483.34,
+          270.06
+        ],
+        "page_area_fraction": 0.0623
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0088",
+    "caption": "센싱 데이터를 수집하는 시스템 구성 예",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "수집하여\n전달하기\n위한\n코디네이터\n위치 결정\n방법)\nPDN에서의 PDN",
+    "caption_and_following_text": "Coordinator 선택\n방안\n<그림 3-7> 센싱 데이터를 수집하는\n시스템 구성 예\n- 근접 서비스를 제공하기 위해 가까이 위치한 IoT 디바이\n스들을 PDN으로 구성, PDN 내에서 데이터를 수집해 인\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          285.93,
+          572.49,
+          481.9,
+          781.67
+        ],
+        "page_area_fraction": 0.0819
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.44,
+          105.0,
+          483.34,
+          270.06
+        ],
+        "page_area_fraction": 0.0623
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I22-V0089",
+    "caption": "일반적인 교차로에서의 메시지 전달 예",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 35,
+    "prefix_match_only": false,
+    "text_before": "메시지 전달 - 교차로가 빈번하고 주변 건물에 의한 신호 쇠약이 발생\n하는 도시 도로에서 차량 간 통신을 통해 메시지를 신뢰\n성 있게 전달하는 방안을 제안\n- IoT 디바이스의 기하급수적인 증가에 따라 wi-fi 인터페\n이스를 탑재한 차량 및 지능형 신호등도 IoT 디바이스로\n서 IoT 네트워크를 구성함. 각 차량은 인터넷에 직접 연\n결하여 IoT 응용을 제공받으나 도시에서의 차량들은 다",
+    "caption_and_following_text": "음 교차로 신호까지 군집해서 이동하는 경향을 보이므로\n차량들끼리 PDN을 구성할 수 있고 PDN 내 차량 간 통\n신을 위해 제안방안을 활용할 수 있음\n<그림 3-8> 일반적인 교차로에서의 메시지 전달 예\nSCI 논문\n게재 (LEEF:\nLatency and\nenergy\nefficient\nfederation of",
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          381.9,
+          538.27,
+          553.31
+        ],
+        "page_area_fraction": 0.1058
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          68.81,
+          538.27,
+          160.86
+        ],
+        "page_area_fraction": 0.0568
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

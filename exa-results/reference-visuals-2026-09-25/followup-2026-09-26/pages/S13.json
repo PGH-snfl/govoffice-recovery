@@ -1,0 +1,1489 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 1113,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 273,
+      "3": 1,
+      "2": 168,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1800,
+    "heading_candidates": [
+      "□ 단계별 연구내용"
+    ],
+    "section_context_candidate": "□ 단계별 연구내용",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구결과 요약문 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 2 -",
+        "after": "연구개요\n항체형 펩타이드 리간드(앱타이드) 발굴 원천기술, 빌리루빈 나노메디신 원천기술, 3차원 암줄기세포 스페로이드 제작 원천기술을 융합하여 종양의 약물저항성과 면역\n회피를 유도하여 항암치료의 큰 장애로 작용하는 종양 미세환경을 제어하는 ‘정밀\n바이오-나노메디신 원천기술’을 개발하고자 한다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 454,
+      "3": 3,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 604,
+    "heading_candidates": [
+      "1. 연구개발 목표 및 내용 --------------------------- 1",
+      "2. 연구 추진전략 및 방법 --------------------------- 3",
+      "3. 주요 연구개발결과 --------------------------- 6",
+      "4. 연구수행에 따른 문제점 및 개선방향 ---------------------- 30"
+    ],
+    "section_context_candidate": "1. 연구개발 목표 및 내용 --------------------------- 1",
+    "prior_heading_candidate": {
+      "text": "□ 단계별 연구내용",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "붙임1 세부 정량적 연구개발성과",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "1. 연구개발 목표 및 내용 --------------------------- 1\n2. 연구 추진전략 및 방법 --------------------------- 3\n3. 주요 연구개발결과 --------------------------- 6\n4. 연구수행에 따른 문제점 및 개선방향 ---------------------- 30",
+        "after": "<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> · (제출하지 않음*)\n* 협약용 연구계획서에 포함되어 있으므로 제출 필요 없음\n<붙임3 연구개발성과 활용계획서> ······················································(제출하지 않음*)\n* 협약용 연구계획서에 포함되어 있으므로 제출 필요 없음",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "2. 연구 추진전략 및 방법 --------------------------- 3\n3. 주요 연구개발결과 --------------------------- 6\n4. 연구수행에 따른 문제점 및 개선방향 ---------------------- 30\n<붙임1 세부 정량적 연구개발성과> ·············································································· 31",
+        "after": "* 협약용 연구계획서에 포함되어 있으므로 제출 필요 없음\n<붙임3 연구개발성과 활용계획서> ······················································(제출하지 않음*)\n* 협약용 연구계획서에 포함되어 있으므로 제출 필요 없음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임3 연구개발성과 활용계획서",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "4. 연구수행에 따른 문제점 및 개선방향 ---------------------- 30\n<붙임1 세부 정량적 연구개발성과> ·············································································· 31\n<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> · (제출하지 않음*)\n* 협약용 연구계획서에 포함되어 있으므로 제출 필요 없음",
+        "after": "* 협약용 연구계획서에 포함되어 있으므로 제출 필요 없음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 100,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1524,
+    "heading_candidates": [
+      "1. 연구개발 목표 및 내용(연구계획서상에 작성된 목표 및 내용을 기술)",
+      "가. 최종목표",
+      "나. 단계목표(당초목표 및 수정․보완 목표)",
+      "다. 당초 목표의 수정․보완(중요 연구변경) 사유"
+    ],
+    "section_context_candidate": "1. 연구개발 목표 및 내용(연구계획서상에 작성된 목표 및 내용을 기술)",
+    "prior_heading_candidate": {
+      "text": "4. 연구수행에 따른 문제점 및 개선방향 ---------------------- 30",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 410,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1913,
+    "heading_candidates": [
+      "라. 1단계 연차별 연구목표 및 내용"
+    ],
+    "section_context_candidate": "라. 1단계 연차별 연구목표 및 내용",
+    "prior_heading_candidate": {
+      "text": "다. 당초 목표의 수정․보완(중요 연구변경) 사유",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 444,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1652,
+    "heading_candidates": [
+      "2. 연구 추진전략 및 방법"
+    ],
+    "section_context_candidate": "2. 연구 추진전략 및 방법",
+    "prior_heading_candidate": {
+      "text": "라. 1단계 연차별 연구목표 및 내용",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 412,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          267.7,
+          449.27,
+          597.04,
+          696.2
+        ],
+        "page_area_fraction": 0.1625
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          271.65,
+          157.63,
+          580.61,
+          389.22
+        ],
+        "page_area_fraction": 0.143
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 924,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구 추진전략 및 방법",
+    "prior_heading_candidate": {
+      "text": "2. 연구 추진전략 및 방법",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Figure 3. A schematic illustration of the process for synthesizing TME-targeting",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "브러리를 표적 단백질이 고정된 플레이트에 처리하고, 세척하여 결합하지 않는 파지를 제거한다. 결합된\n파지를 용출한 후, 박테리아에 감염시켜 증폭시킨다. 이 과정을 여러 번 반복한다. 이 과정을 통해 표적\n에 강하게 결합하는 파지를 얻을 수 있고 DNA 서열 분석을 통해 펩타이드 후보군의 서열을 확인한다. 확인 된 서열은 화학적 방법으로 펩타이드를 합성하여 표적에 대한 결합 정도를 평가한다.\n§ 항암 효과 평가를 위한 3D 암줄기세포 스페로이드의 배양 및 이를 이용한 종양 미세환경 표적의 유",
+        "after": "BRNPs.\nFigure 4. Characterization of the physicochemical properties of TME-targeting BRNPs using various\ninstruments.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "Figure 4. Characterization of the physicochemical properties of TME-targeting BRNPs using various",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "에 강하게 결합하는 파지를 얻을 수 있고 DNA 서열 분석을 통해 펩타이드 후보군의 서열을 확인한다. 확인 된 서열은 화학적 방법으로 펩타이드를 합성하여 표적에 대한 결합 정도를 평가한다.\n§ 항암 효과 평가를 위한 3D 암줄기세포 스페로이드의 배양 및 이를 이용한 종양 미세환경 표적의 유\nFigure 3. A schematic illustration of the process for synthesizing TME-targeting\nBRNPs.",
+        "after": "instruments.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 198,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.94,
+          488.11,
+          468.47,
+          749.3
+        ],
+        "page_area_fraction": 0.1819
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          82.59,
+          530.11,
+          435.24
+        ],
+        "page_area_fraction": 0.3315
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 834,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구 추진전략 및 방법",
+    "prior_heading_candidate": {
+      "text": "2. 연구 추진전략 및 방법",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Figure 5. Overall scheme for construction of an aptide library in M13 phage and screening for",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "cDNA 라이브러리를 만들고, 이 라이브러리\n를 차세대 DNA 서열 분석기를 이용하여\n그 결과를 얻는다. 결과를 분석하여 새로운\n종양 미세환경 관련 표적을 발굴한다.",
+        "after": "TME-associated biomarkers.\nFigure 6. Preparation of diverse 3D tumor spheroids from\nconventional cancer cells and patient tumor tissues and whole\ngenome analysis of the generated CSCs.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "Figure 6. Preparation of diverse 3D tumor spheroids from",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "그 결과를 얻는다. 결과를 분석하여 새로운\n종양 미세환경 관련 표적을 발굴한다.\nFigure 5. Overall scheme for construction of an aptide library in M13 phage and screening for\nTME-associated biomarkers.",
+        "after": "conventional cancer cells and patient tumor tissues and whole\ngenome analysis of the generated CSCs.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 168,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.68,
+          482.95,
+          495.93,
+          800.24
+        ],
+        "page_area_fraction": 0.2684
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          271.17,
+          315.97,
+          547.86,
+          523.47
+        ],
+        "page_area_fraction": 0.1147
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 984,
+    "heading_candidates": [
+      "3. 주요 연구개발 결과"
+    ],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "2. 연구 추진전략 및 방법",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Figure 1. Graphical abstract of the unique features of the HyPEP-body, and schematic depiction of",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "이드의 반감기에 비해 약 20배정도 증가된 23시간이었음. U87MG 세포에서 유래한 암을 유발시킨 쥐를\n이용한 동물실험을 통해 EDB-VEGF 특이적인 펩타이드-항체 복합체가 EDB-VEGF 특이적인 펩타이\n드만 투여 또는 한 가지 표적에 특이적인 펩타이드-항체 복합체와 항암효과와 비교했을 때 더 효과적\n인 항암효과를 나타냄.",
+        "after": "the mode of action of the HyPEP-body.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 208,
+      "2": 1,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.27,
+          180.04,
+          526.04,
+          460.3
+        ],
+        "page_area_fraction": 0.2401
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1641,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Figure 2. Schematic illustration of how in situ HC[cot-APTEDB-SN38/Abcot] is formed and works",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "로 결합하며 효과적인 세포독성을 보임. 또한 이 결합체는 혈중에서 항체와 복합체를 이루는 전략을 사\n용하였으며 이를 통해 약 3배 정도 반감기의 증가를 이루었고 U87MG 세포에서 유래한 암을 유발시킨\n쥐를 이용한 동물실험을 통하여 EDB 특이적 펩타이드-SN38 결합체 및 이 물질의 항체 복합체의 항암\n효과를 검증함.",
+        "after": "for targeted cancer therapy.\no 튜불린 기반 나노 자가조립체를 이용한 종양 표적 항튜불린 약물 전달 시스템 개발 (Advanced\nMaterials, 2020, 32, 2002902)\nMicrotubule-targeting agent(MTA)의 표적 단백질인 튜불린을 이용하여 여러 MTA에 범용적으로 사",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 366,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.0,
+          425.65,
+          543.07,
+          577.53
+        ],
+        "page_area_fraction": 0.1405
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1342,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Figure 3. Schematic anticancer and antiangiogenic effects of MTA-loaded TNTs.",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 8 -",
+        "after": "o 지질나노입자 기반 항암 백신 개발 및 이의 면역관문억제제와의 병용을 통한 효과적인 면역치료 전\n략 제시 (Angew. Chem. Int. Ed., 2020, 59, 2-13; 국내 및 PCT 특허 출원)\n항암 백신은 종양 항원 특이적인 면역 반응을 유도할 수 있을 뿐만 아니라 기억 반응을 유도하여 장기\n간의 지속적인 치료 효과를 기대할 수 있다는 장점이 존재한다. 항암 백신의 이러한 장점에도 불구하고, 면역 회피가 유도되어 백신에 대한 저항성이 발생할 수 있다는 한계점이 존재한다. 최근 항암 치료제로",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 323,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.47,
+          477.92,
+          539.71,
+          750.38
+        ],
+        "page_area_fraction": 0.2484
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1242,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Figure 4. Graphical illustration for the overall process of sequential and timely combination",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 9 -",
+        "after": "strategy between cancer nanovaccine and ICB therapy.\no 초박막 폴리머 코팅된 금나노막대를 이용한 항암치료 연구 (J. Drug Target., 2020, 28:7-8,\n780-788)\n금나노막대는 특유의 광학적 특성으로 인해 근적외선 영역에서 흡광도가 높으며 흡수된 빛 에너지로 인",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 267,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.95,
+          438.24,
+          524.12,
+          733.0
+        ],
+        "page_area_fraction": 0.2504
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1067,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Figure 5. Schematic depiction of the procedure for the preparation and antitumor efficacy of",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 10 -\n열치료 단독요법에 비해 독소루비신을 적재한 p-GNR로 광열치료를 하였을 때 훨씬 효과적으로 암을\n치료할 수 있음을 확인하였다.",
+        "after": "p-GNRs and bt-p-GNRs.\no 종양 미세환경내 과다 생성되는 활성산소 이미지용 나노메디신 개발 (Theranostics, 2020, 10,\n1997-2007)\n빌리루빈이 금속을 킬레이션하는 특성을 이용하여 산화철나노입자 표면을 PEG-빌리루빈으로 코팅시",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 217,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.2,
+          546.48,
+          476.38,
+          738.27
+        ],
+        "page_area_fraction": 0.1538
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.67,
+          394.13,
+          452.04,
+          647.77
+        ],
+        "page_area_fraction": 0.1786
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 480,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 99,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.51,
+          291.16,
+          449.64,
+          489.07
+        ],
+        "page_area_fraction": 0.1147
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.99,
+          178.01,
+          424.21,
+          375.19
+        ],
+        "page_area_fraction": 0.1018
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.18,
+          408.51,
+          518.12,
+          653.41
+        ],
+        "page_area_fraction": 0.2021
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1303,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 283,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.07,
+          652.93,
+          456.11,
+          879.72
+        ],
+        "page_area_fraction": 0.1351
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.24,
+          653.05,
+          453.6,
+          878.76
+        ],
+        "page_area_fraction": 0.1337
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.08,
+          318.25,
+          475.07,
+          539.89
+        ],
+        "page_area_fraction": 0.1417
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          173.79,
+          357.09,
+          425.53,
+          531.62
+        ],
+        "page_area_fraction": 0.0878
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.19,
+          361.76,
+          442.08,
+          550.2
+        ],
+        "page_area_fraction": 0.1024
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 875,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Figure 6. Schematic illustration of the preparation of APTEDB-cyNP@CpG and mechanism of",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 13 -",
+        "after": "antitumor immunity triggered by 808 nm laser irradiation.\nAPTEDB-cyNP@CpG를 이용한 치료가 면역활성화를 유도할 수 있다는 것을 CT-26 암세포를 이식한\n쥐종양 모델에서 확인했으며, PD-1 과 병용요법을 이용했을 때 레이저를 조사하지 않은 전이암 모델에\n서도 효과적인 치료가 이루어진 것을 확인함.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 184,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.45,
+          242.85,
+          618.27,
+          465.69
+        ],
+        "page_area_fraction": 0.2181
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.69,
+          363.56,
+          534.91,
+          768.0
+        ],
+        "page_area_fraction": 0.3857
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 587,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 132,
+      "3": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.19,
+          566.86,
+          194.18,
+          674.38
+        ],
+        "page_area_fraction": 0.023
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          209.17,
+          567.46,
+          357.65,
+          670.91
+        ],
+        "page_area_fraction": 0.0307
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          367.6,
+          567.82,
+          512.6,
+          669.23
+        ],
+        "page_area_fraction": 0.0294
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          429.25,
+          382.11,
+          544.92
+        ],
+        "page_area_fraction": 0.0752
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.12,
+          319.33,
+          245.99,
+          423.38
+        ],
+        "page_area_fraction": 0.0357
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          164.46,
+          566.58,
+          313.22
+        ],
+        "page_area_fraction": 0.1516
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 600,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 132,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.6,
+          298.47,
+          312.43,
+          452.74
+        ],
+        "page_area_fraction": 0.0496
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          340.5,
+          295.0,
+          545.47,
+          451.79
+        ],
+        "page_area_fraction": 0.0642
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          61.77,
+          580.53,
+          549.67,
+          738.27
+        ],
+        "page_area_fraction": 0.1538
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1594,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 348,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.12,
+          562.66,
+          284.97,
+          773.27
+        ],
+        "page_area_fraction": 0.0925
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          284.97,
+          563.14,
+          514.76,
+          767.16
+        ],
+        "page_area_fraction": 0.0937
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1134,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 283,
+      "2": 1,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.8,
+          497.7,
+          542.95,
+          854.67
+        ],
+        "page_area_fraction": 0.3397
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.28,
+          388.49,
+          317.83,
+          574.05
+        ],
+        "page_area_fraction": 0.0918
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.83,
+          388.86,
+          562.14,
+          572.02
+        ],
+        "page_area_fraction": 0.0894
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1348,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 314,
+      "2": 5,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.04,
+          417.5,
+          266.62,
+          546.48
+        ],
+        "page_area_fraction": 0.0507
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.55,
+          418.7,
+          524.84,
+          540.37
+        ],
+        "page_area_fraction": 0.0531
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.09,
+          257.48,
+          235.55,
+          408.27
+        ],
+        "page_area_fraction": 0.0538
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          265.54,
+          256.88,
+          537.79,
+          411.51
+        ],
+        "page_area_fraction": 0.0841
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 715,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 151,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          484.99,
+          538.27,
+          722.33
+        ],
+        "page_area_fraction": 0.2285
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.72,
+          120.23,
+          529.04,
+          274.62
+        ],
+        "page_area_fraction": 0.1429
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 886,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 193,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.51,
+          523.23,
+          503.49,
+          770.28
+        ],
+        "page_area_fraction": 0.2034
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.71,
+          165.78,
+          502.05,
+          319.81
+        ],
+        "page_area_fraction": 0.126
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 883,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 179,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.43,
+          642.38,
+          507.45,
+          770.28
+        ],
+        "page_area_fraction": 0.1074
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.84,
+          477.68,
+          446.04,
+          636.38
+        ],
+        "page_area_fraction": 0.0943
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 145,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 15,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.01,
+          575.61,
+          473.98,
+          770.28
+        ],
+        "page_area_fraction": 0.1373
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.01,
+          409.47,
+          470.87,
+          573.09
+        ],
+        "page_area_fraction": 0.1134
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          130.78,
+          490.54,
+          403.48
+        ],
+        "page_area_fraction": 0.2105
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 919,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 주요 연구개발 결과",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 205,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.91,
+          147.56,
+          509.85,
+          570.94
+        ],
+        "page_area_fraction": 0.3595
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 2019,
+    "heading_candidates": [
+      "가. 계획대비 달성도",
+      "6 빌리루빈 나노메디신 기반 건선 치료제 개발"
+    ],
+    "section_context_candidate": "가. 계획대비 달성도",
+    "prior_heading_candidate": {
+      "text": "3. 주요 연구개발 결과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 430,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 1669,
+    "heading_candidates": [],
+    "section_context_candidate": "6 빌리루빈 나노메디신 기반 건선 치료제 개발",
+    "prior_heading_candidate": {
+      "text": "6 빌리루빈 나노메디신 기반 건선 치료제 개발",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 343,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 2355,
+    "heading_candidates": [
+      "5 의생명공학 연구에 활발히 사용되고 있는 금 나노막대 표면을 효과적으로 코팅할 수 있는 새로운 코팅",
+      "6 페길화 빌리루빈 나노입자가 건선치료에 효과적으로 사용될 수 있음을 보여주어 약물전달기술 분야 저",
+      "12 페길화 빌리루빈 나노입자를 다발성 경화증 동물모델에서 그 효능을 평가하였고 그 작용기전을 밝혀"
+    ],
+    "section_context_candidate": "5 의생명공학 연구에 활발히 사용되고 있는 금 나노막대 표면을 효과적으로 코팅할 수 있는 새로운 코팅",
+    "prior_heading_candidate": {
+      "text": "6 빌리루빈 나노메디신 기반 건선 치료제 개발",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 516,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 1145,
+    "heading_candidates": [
+      "나. 대표적 연구업적"
+    ],
+    "section_context_candidate": "나. 대표적 연구업적",
+    "prior_heading_candidate": {
+      "text": "12 페길화 빌리루빈 나노입자를 다발성 경화증 동물모델에서 그 효능을 평가하였고 그 작용기전을 밝혀",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 150,
+      "2": 27,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 1388,
+    "heading_candidates": [
+      "다. 현 단계 달성된 연구결과의 세계적 연구 위상"
+    ],
+    "section_context_candidate": "다. 현 단계 달성된 연구결과의 세계적 연구 위상",
+    "prior_heading_candidate": {
+      "text": "나. 대표적 연구업적",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 353,
+      "2": 40,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 1986,
+    "heading_candidates": [
+      "라. 기타 계획하지 않은 연구성과",
+      "마. 연구역량 향상 정도"
+    ],
+    "section_context_candidate": "라. 기타 계획하지 않은 연구성과",
+    "prior_heading_candidate": {
+      "text": "다. 현 단계 달성된 연구결과의 세계적 연구 위상",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 456,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 651,
+    "heading_candidates": [
+      "4. 연구수행에 따른 문제점 및 개선방향"
+    ],
+    "section_context_candidate": "4. 연구수행에 따른 문제점 및 개선방향",
+    "prior_heading_candidate": {
+      "text": "마. 연구역량 향상 정도",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 129,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 1773,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 연구수행에 따른 문제점 및 개선방향",
+    "prior_heading_candidate": {
+      "text": "4. 연구수행에 따른 문제점 및 개선방향",
+      "pdf_page": 33
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 245,
+      "2": 37,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 1844,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 연구수행에 따른 문제점 및 개선방향",
+    "prior_heading_candidate": {
+      "text": "4. 연구수행에 따른 문제점 및 개선방향",
+      "pdf_page": 33
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 224,
+      "2": 23,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 1950,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 연구수행에 따른 문제점 및 개선방향",
+    "prior_heading_candidate": {
+      "text": "4. 연구수행에 따른 문제점 및 개선방향",
+      "pdf_page": 33
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 362,
+      "2": 69,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 2502,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 연구수행에 따른 문제점 및 개선방향",
+    "prior_heading_candidate": {
+      "text": "4. 연구수행에 따른 문제점 및 개선방향",
+      "pdf_page": 33
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 309,
+      "2": 55,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 1933,
+    "heading_candidates": [
+      "2661 201811 KI 융합연구상 전상용 한국과학기술원 한국과학기술원 대한민국"
+    ],
+    "section_context_candidate": "2661 201811 KI 융합연구상 전상용 한국과학기술원 한국과학기술원 대한민국",
+    "prior_heading_candidate": {
+      "text": "4. 연구수행에 따른 문제점 및 개선방향",
+      "pdf_page": 33
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 245,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 351,
+    "heading_candidates": [],
+    "section_context_candidate": "2661 201811 KI 융합연구상 전상용 한국과학기술원 한국과학기술원 대한민국",
+    "prior_heading_candidate": {
+      "text": "2661 201811 KI 융합연구상 전상용 한국과학기술원 한국과학기술원 대한민국",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 54,
+      "2": 30,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

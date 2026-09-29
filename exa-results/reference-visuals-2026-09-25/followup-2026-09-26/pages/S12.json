@@ -1,0 +1,741 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 1169,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 262,
+      "2": 138,
+      "5": 3
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1618,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 434,
+      "2": 32,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 522,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요..............................................................4",
+      "2. 연구개발과제의 수행 과정 및 수행내용.......................................6",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도..............................16",
+      "4. 연구개발성과 및 관련 분야에 대한 기여 정도..............................18",
+      "5. 연구개발성과의 관리 및 활용 계획............................................18"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요..............................................................4",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 55,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1728,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1-1. 연구의 필요성"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획............................................18",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 475,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1173,
+    "heading_candidates": [
+      "1-2. 연구의 목표 및 내용"
+    ],
+    "section_context_candidate": "1-2. 연구의 목표 및 내용",
+    "prior_heading_candidate": {
+      "text": "1-1. 연구의 필요성",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 324,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.16,
+          414.51,
+          544.03,
+          556.07
+        ],
+        "page_area_fraction": 0.1332
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1097,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "2-1. 1차년도 개발 목표 및 결과"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "1-2. 연구의 목표 및 내용",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1. (a)기판위에 제작된 나노패턴 된 마스크 층 및 (b)기판 위에 박막증착 장비를 통해 성장된",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "ü 다양한 위치의 나노와이어를 위한 patterning 디자인 및 시뮬레이션\n1차년도의 연구 과제는 다음과 같은 단계에 걸쳐 연구를 진행하였고, 그에 대한 연구 결과\n또한 다음과 같다. (1) 선택적 나노와이어 성장(Selective Area Growth)을 위한 나노 패턴된 photo-mask 및\nGaN 나노와이어 성장 방법 디자인",
+        "after": "GaN 나노와이어의 모식도\n단일 칩 위에 하나로 통합된 풀-컬러 LED 픽셀을 구현하기 위해, 고품질 나노와이어 구조\n를 이용하여 Blue(청), Green(녹), Red(적) 발광 파장을 구현하는 새로운 에피택시 성장기\n술 개발의 첫 번째 단계로써, selective area growth를 위한 마스크 층을 제작하였다. 그림",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 263,
+      "2": 2,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.0,
+          357.81,
+          538.15,
+          505.49
+        ],
+        "page_area_fraction": 0.137
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1093,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 1차년도 개발 목표 및 결과",
+    "prior_heading_candidate": {
+      "text": "2-1. 1차년도 개발 목표 및 결과",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2. (a) GaN on Al2O3기판, (b)SiO, NiN, TiN의 마스크 모식도, (c,d) SiO, NiN, TiN의 마스크",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "(2) 다양한 photo-mask 층을 사용한 nano-hole patterning 디자인",
+        "after": "위에 제작된 나노홀 패터닝 SEM 이미지\n그림 2a에 보이는 것처럼, 기판과 GaN 나노와이어 사이의 lattice mismatch의 문제를 해소\n하기 위하여, GaN on Al2O3기판을 사용하였다, 다양한 특성의 SiO, NiN, TiN의 마스크 층\n(그림 2b)을 이용하여, 각 물질에 따른 패터닝 형성의 차이점을 분석하고, 이를 기반으로 나",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2a에 보이는 것처럼, 기판과 GaN 나노와이어 사이의 lattice mismatch의 문제를 해소",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "(2) 다양한 photo-mask 층을 사용한 nano-hole patterning 디자인\n그림 2. (a) GaN on Al2O3기판, (b)SiO, NiN, TiN의 마스크 모식도, (c,d) SiO, NiN, TiN의 마스크\n위에 제작된 나노홀 패터닝 SEM 이미지",
+        "after": "하기 위하여, GaN on Al2O3기판을 사용하였다, 다양한 특성의 SiO, NiN, TiN의 마스크 층\n(그림 2b)을 이용하여, 각 물질에 따른 패터닝 형성의 차이점을 분석하고, 이를 기반으로 나\n노 패터닝의 최적화를 진행하였다. E-beam evaporator 시스템을 사용하여, 약 15 nm 두께\n의 SiOx층을, sputtering 시스템을 사용하여 약 15 nm Ni, Ti film을 증착하였다. NiN와",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 2b)을 이용하여, 각 물질에 따른 패터닝 형성의 차이점을 분석하고, 이를 기반으로 나",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "그림 2. (a) GaN on Al2O3기판, (b)SiO, NiN, TiN의 마스크 모식도, (c,d) SiO, NiN, TiN의 마스크\n위에 제작된 나노홀 패터닝 SEM 이미지\n그림 2a에 보이는 것처럼, 기판과 GaN 나노와이어 사이의 lattice mismatch의 문제를 해소\n하기 위하여, GaN on Al2O3기판을 사용하였다, 다양한 특성의 SiO, NiN, TiN의 마스크 층",
+        "after": "노 패터닝의 최적화를 진행하였다. E-beam evaporator 시스템을 사용하여, 약 15 nm 두께\n의 SiOx층을, sputtering 시스템을 사용하여 약 15 nm Ni, Ti film을 증착하였다. NiN와\nTiN화는 MBE 장비를 사용하여, 약 400도의 온도에서 N2를 10분 동안 열처리를 통하여 얻\n었다. 이렇게 제작된 SiO, NiN, TiN 마스크 층은 E-beam lithography 장비를 사용하여, PMMA photo resist와 함께, 약 150 nm 크기의 패터닝 홀을 제작하였다(그림 2c). 제작된",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 3. 5 nm, 15 nm, 30 nm 두께의 TiNx 마스크 층에 제작된 나노 홀 패터닝의 SEM 이미지",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "노 홀의 크기가 불균일하고, 홀의 형성이 불완전했다. 또한, NiN 마스크는 NiN의 접착 강도\n때문에 많은 홀 부분에서 lift-off가 일어나지 않았다. 하지만, TiN마스크는 일정한 나노 홀\n과 함께, 전제적으로 균일한 패턴 배열을 형성하였다. 이로써, TiN 마스크층이 가장 우수한\n결과를 나타낸 것을 확인하였다. (3) 다양한 두께의TiNx photo-mask 층을 사용한 nano-hole patterning 디자인 및 제작",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 277,
+      "2": 4,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          567.82,
+          523.76,
+          752.66
+        ],
+        "page_area_fraction": 0.1726
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          108.24,
+          543.43,
+          257.72
+        ],
+        "page_area_fraction": 0.1454
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1750,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 1차년도 개발 목표 및 결과",
+    "prior_heading_candidate": {
+      "text": "2-1. 1차년도 개발 목표 및 결과",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 4. TiNx 마스크 층에 제작된 약 130 nm, 300 nm, 500 nm 크기의 나노홀 패턴 SEM 이미지",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "하게 유지하도록 조건을 설정하였다. 최적화 조건 실험을 통해 제작된 SEM의 결과는 TiNx 마스크가 다양한 크기의 나노 홀을 제작하는데 매우 우수한 특성을 나타내는 것을 증명하였\n다. 이렇게 제작된 다양한 크기의 나노 홀은 GaN 나노와이어 박막 제작 시, 다양한 크기의\n나노와이어가 제작될 수 있음을 시사 할 뿐만 아니라, 나노와이어의 사이즈 이펙트(size\neffect)에 의해 다양한 파장의 색을 구현 할 수 있음을 암시한다.",
+        "after": "(5) 마스크 patterning의 다양한 위치 및 크기에 따른 GaN 나노와이어의 효율 특성 변화 및\n시뮬레이션 분석\n마스크 패터닝에서 나노 홀의 위치 및 크기에 따른 광 추출 효율 향상 및 열 방출 효과에\n대한 분석이 Lumerical FDTD software 시뮬레이션을 통하여 진행되었다. 그림 5a는 나노",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 448,
+      "2": 5,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          306.51,
+          520.52,
+          421.22
+        ],
+        "page_area_fraction": 0.1064
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1280,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 1차년도 개발 목표 및 결과",
+    "prior_heading_candidate": {
+      "text": "2-1. 1차년도 개발 목표 및 결과",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 5. 나노와이어 크기(패터닝 홀)에 따른 GaN 나노와이어 LED의 효율 변화, (a) 광추출 효율 변화, (b) Mode profile",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "또한 그림 5b는 이러한 광 추출 효율에 대한 결과를 Mode profile 분석을 통해 증명해 주고\n있다. 단일 나노와이어에서 광의 추출이 n-GaN, active region, p-GaN층의 구조 및 In 조\n성에 의해서도 다양하게 변화되고 있음을 알 수 있다. 그림 5b는 light scattering이 최소한\n5개의 방향으로 방출된다고 할 수 있다. 2-2. 2차년도 개발 목표 및 결과",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "3": 2,
+      "1": 327,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          595.99,
+          503.01,
+          770.28
+        ],
+        "page_area_fraction": 0.1468
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1480,
+    "heading_candidates": [
+      "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다."
+    ],
+    "section_context_candidate": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+    "prior_heading_candidate": {
+      "text": "2-1. 1차년도 개발 목표 및 결과",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 6. (a)마이크로-LED 구조를 위한 나노와이어 다중양자우물구조 및 (b)고균일 나노와이어",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "성장한 샘플의 SEM을 측정하였다. 그림 3c의 오른쪽 그림과 같이, GaN이 핵성성된 seeding\nlayer을 확인 할 수 있었다. TiN 위에는 매우 낮은 확률의 결정이 형성된 것을 확인하였다. 이는 나노와이어가 선택적으로 성장이 가능하다는 유망한 결과를 제시해 준다. 2차년도의 초\n기 연구는 GaN 나노와이어의 형성 메커니즘을 확실하게 규명할 수 있는 매우 유망한 연구\n조사 및 실험 결과라고 할 수 있다.",
+        "after": "다중양자우물구조의 성장 메커니즘, (c) 양자효율 극대화를 위한 GaN 핵성장 SEM 이미지\n(2) Phase segregation법 및 S-K mode법에 의한 고수직성/고균일 GaN 나노와이어의 제작\n및 에피탁시 성장 기술 개발\n2차년도의 초기 연구에서, 선택적 패터닝을 통한 GaN 나노 seed의 형성을 성공적으로 확인",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 7a의 아래 그림과 같이, 정육각형을 형태를 보이고 있으며, 구조는 GaN의 hexagonal",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "하였다. 이를 기반으로 본격적으로 나노와이어의 성장을 진행하였다. 나노와이어의 성장은\nPhase segregation법 및 S-K mode법을 기반으로 에피탁시 성장이 진행되었다. 그림 7은\n다양한 성장 조건에서 증착된 나노와이어들의 SEM이미지를 나타낸다. 그림 7a는 거의 도핑\n이 되지 않은 상태의 나노와이어 성장 사진을 보여준다. 매우 저 도핑상태의 나노와이어는",
+        "after": "structure(HCP)와 정확히 일치하는 형태를 보여준다. 이러한 결과는 선택적 패터닝 기술을\n통해, 나노와이어 박막 증착 기술이 성공적으로 이루어 졌다는 것을 확인해준다. 그림 2b는\n도핑의 양이 증가함에 따라 나노와이어의 직경이 점차 증가하는 것을 볼 수 있다. 그리고 고\n도핑 농도에서는 나노와이어의 형태가 육각형 구조에서 원 구조로 바뀌는 것을 볼 수 있다. 이는 고 도핑에서 결함의 비율이 증가하여 나노와이어의 결정성이 감소된 것으로 예상된다. 나노와이어 에피탁시 박막 증착의 도핑에 따른 형태의 변화 및 영향을 그림 7d에 정리하였",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 373,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.44,
+          447.23,
+          538.27,
+          598.74
+        ],
+        "page_area_fraction": 0.141
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 435,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 7. 다양한 성장 조건에서 증착된 나노와이어들, (a) 저 도핑을 통한 나노와이어 성장 SEM 이미지, (b)중 도핑을 통한 나노와이어 성장 SEM 이미지, (c) 고 도핑을 통한 나노와이어 성장 SEM 이미지, (d) 다양한 Mg도핑을 통한 나노와이어 길이 및 직경의 영향",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "(3) 단일 기판 위에 다양한 크기의 나노와이어 배열을 통해 제작된 나노와이어의 발광 파장\n의 광학적 분석 및 구조적 특성평가\n그림 8. 나노와이어에서 도핑의 영향을 알아보기 위해 측정된 음극선 발광 분석(CL), (b,c) 도핑의\n영향에 따른 반치폭(FWHM) 및 파장의 영향, (d) 나노와이어 구조에 대한 TEM 분석 이미지",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 8. 나노와이어에서 도핑의 영향을 알아보기 위해 측정된 음극선 발광 분석(CL), (b,c) 도핑의",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "그림 7. 다양한 성장 조건에서 증착된 나노와이어들, (a) 저 도핑을 통한 나노와이어 성장 SEM 이미지, (b)중 도핑을 통한 나노와이어 성장 SEM 이미지, (c) 고 도핑을 통한 나노와이어 성장 SEM 이미지, (d) 다양한 Mg도핑을 통한 나노와이어 길이 및 직경의 영향\n(3) 단일 기판 위에 다양한 크기의 나노와이어 배열을 통해 제작된 나노와이어의 발광 파장\n의 광학적 분석 및 구조적 특성평가",
+        "after": "영향에 따른 반치폭(FWHM) 및 파장의 영향, (d) 나노와이어 구조에 대한 TEM 분석 이미지\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "3": 4,
+      "1": 95,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          494.34,
+          543.43,
+          770.28
+        ],
+        "page_area_fraction": 0.2685
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.58,
+          128.26,
+          529.76,
+          413.07
+        ],
+        "page_area_fraction": 0.242
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1015,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 9. (a) 하이브리드 나노와이어의 다중양자우물 구조 adatoms의 성장 메커니즘, (b) Red, Green,",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "2차년도에 진행된 다양한 에피탁시 성장 분석 및 광학적, 구조적 특성평가를 통하여 고품질의\n나노와이어 제작 기술을 성공적으로 개발하였다. 이러한 연구를 기반으로 하이브리드 나노와\n이어의 내부 양자효율 향상을 위하여, 나노와이어의 성장 메커니즘을 자세히 분석하여 논증하\n였다.",
+        "after": "Blue의 전 파장을 발광하는 나노와이어들의 PL측정 데이터, (c,d) 다양한 크기의 지름을 가지는\n나노와이어 배열의 SEM 이미지들\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 244,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.79,
+          134.73,
+          473.75,
+          453.94
+        ],
+        "page_area_fraction": 0.2386
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1216,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 9a는 기판 위에 성장되는 나노와이어의 성장 거동에 대하여 자세히 분석한 구조도이다. 보이는 바와 같이 성장 거동은 impingent atoms과 diffusion adatoms에 의해 결정된다는 것",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "이 예상되었다. 이러한 성장 메커니증을 통하여 각 파장에 대한 성장 조건을 변경하고, 그림\n9b와 같이 약 480 nm wavelength BLUE, 515 nm wavelength GREEN, 590 nm wavelength\nORANGE를 발광하는 나노와이어 에피탁시를 성공적으로 개발하였다. 이러한 결과는 전 파장\n을 발광하는 마이크로 LED를 구현하는데 매우 중요한 요소이다. 다양한 파장을 발광하는 나",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 10. (a)마이크로-LED 구조를 위한 나노와이어 소자 구조 및 (b, c, d)폴리이미드(polyimide)",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "ü 수직 발광형 마이크로 LED 픽셀 배열을 위한 디스플레이 적용 기술 개발\n3차년도의 연구 과제는 다음과 같은 단계에 걸쳐 연구를 진행하였고, 그에 대한 연구 결과\n또한 다음과 같다. (1) 초미세 크기의 광 픽셀을 구현하기 위한 나노구조 패시베이션 기술 및 고전도 전극 제\n작 기술 개발",
+        "after": "에칭에 따른 나노와이어 노출 구조, (e) 고전도 ohmic contact 증착 구조\n고효율 마이크로 LED 광소자로 동작하기 위해서는 나노와이어들 사이의 패시베이션\n(passivation)이 매우 중요하다. 그림10a는 수직 발광형 마이크로 LED 광소자의 구조적 모\n식도를 나타낸다. 보이는 바와 같이, 나노와이어 광소자는 Ti 마스크를 통해 선택적 성장이",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 291,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          196.59,
+          462.71,
+          382.62
+        ],
+        "page_area_fraction": 0.1394
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1552,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림11d와 같은 나노와이어가 반도체 에피탁시로써 성장되었다, FE-SEM의 결과는 성장된",
+        "line_index": 22,
+        "toc_like": false,
+        "before": "이션을 수행하였다. 그림11b의 FDTD시뮬레이션 결과와 같이. 단일 나노와이어 구조에서 방\n출되는 빛을 수직으로 방출시키는 것을 확인하였다. 그림11c는 나노와이어의 길이를 조절함\n에 따라, 광추출 효율의 변화가 매우 다양함을 보여주는 시뮬레이션의 결과이다, 약 430nm\n의 나노와이어 길이에서 50%의 광추출 효율을 달성하였다. 이러한 시뮬레이션을 기반으로",
+        "after": "나노와이어들이 매우 균일한 형태를 유지함을 보여준다.\n그림 11. (a) 반사판 일체형 수직발광 나노와이어 광소자 구조, (b)단일 나노와이어의 수직 발광 광\n구속 시뮬레이션, (c) 나노와이어 길이에 따른 광추출 효율 변화, (d) 수직형 광방출 구조를 기반으로\n성장된 반도체 나노와이어의 FE-SEM이미지",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 11. (a) 반사판 일체형 수직발광 나노와이어 광소자 구조, (b)단일 나노와이어의 수직 발광 광",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "에 따라, 광추출 효율의 변화가 매우 다양함을 보여주는 시뮬레이션의 결과이다, 약 430nm\n의 나노와이어 길이에서 50%의 광추출 효율을 달성하였다. 이러한 시뮬레이션을 기반으로\n그림11d와 같은 나노와이어가 반도체 에피탁시로써 성장되었다, FE-SEM의 결과는 성장된\n나노와이어들이 매우 균일한 형태를 유지함을 보여준다.",
+        "after": "구속 시뮬레이션, (c) 나노와이어 길이에 따른 광추출 효율 변화, (d) 수직형 광방출 구조를 기반으로\n성장된 반도체 나노와이어의 FE-SEM이미지\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 389,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          150.08,
+          535.27,
+          281.21
+        ],
+        "page_area_fraction": 0.1254
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1435,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림11d에서 제작된 나노와이어에, MBE를 사용하여 Al소스를 직접 공급함과 동시에 MBE",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "(3) 고집적 나노와이어 광소자 배열을 위한 fill factor(10 ~90%) 디자인 및 반사판 일체형\n고효율 마이크로 LED제작 기술 개발",
+        "after": "챔버 안에서 고품질의 Al층을 제작하였다. 그림 12. 수직발광 마이크로\nLED 제작 공정, (a) 나노와이어\n에피성장, (b) 나노와이어에 Al\n층의 증착, (c) 나노와이어에",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 10, 11, 12의 실험 내용을 기반으로, 우리는 마이크로 스케일의 LED 소자를 제작하였",
+        "line_index": 22,
+        "toc_like": false,
+        "before": "된다. 우리는 이러한 반사판 일체형 나노와이어 광소자를 처음으로 디자인하고, 이를 위한\netching fabrication 공정의 최적화를 수립하였다.\n(4) 마이크로 LED 디스플레이의 선명도/해상도 향상을 위한 수직 발광형 고효율 마이크로\nLED 광 픽셀 배열 기술 개발",
+        "after": "고, 그 전기적 및 광학적 특성을 평가하였다. 그림 13a는 약 5㎛크기의 수직 발광형 광소자\n의 디자인을 보여준다. 보이는 바와 같이, 90도 방향으로 대부분의 광들이 추출될 것으로 예상되었다. 제작된 마이크\n로 LED 소자의 I-V를 측정한 결과, 약 3.2V의 문턱전압을 보여주는 것을 확인하였다. 또한\n전류밀도가 5V에서 약 1kA/m2의 우수한 값을 보여주었다. 수직 발광을 증명하기 위하여, 그",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 377,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          481.75,
+          387.39,
+          695.84
+        ],
+        "page_area_fraction": 0.1402
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1351,
+    "heading_candidates": [
+      "1) 연구수행 결과"
+    ],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 다양한 나노와이어의 성장 특성에 대해 분석하였다고 할 수 있다.",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 13. (a) 5㎛ 크기의 micro-LED 및 수직 방출형 광소자의 디자인, (b) 제작된",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "micro-LED의 I-V특성, (c) 90도와 0도에서 측정된 광소자의 빛 방출 특성, (d) Micro-LED\n광소자로부터 측정된 radiation beam 패턴\n이러한 결과는, 우리가 디자인한 마이크로 LED소자 및 고직접 마이크로 디스플레이 구현을\n위한 수직 발광형 micro-LED 픽셀이 성공적으로 제작되었음을 증명해준다. 3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 334,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.08,
+          637.1,
+          529.76,
+          770.28
+        ],
+        "page_area_fraction": 0.121
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1604,
+    "heading_candidates": [
+      "▶ “3차년도”에 계획한 목표인, 마이크로-LED 소자 제작 기술 및 마이크로-LED 픽셀 배열",
+      "96454 미활용 50",
+      "96453 미활용 50"
+    ],
+    "section_context_candidate": "▶ “3차년도”에 계획한 목표인, 마이크로-LED 소자 제작 기술 및 마이크로-LED 픽셀 배열",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 306,
+      "2": 120,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1751,
+    "heading_candidates": [
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도",
+      "▶ 상대적으로 원천기술개발 부분이 열악한 국내 산업체에 차세대 기술을 제공함으로써 기업"
+    ],
+    "section_context_candidate": "4. 연구개발성과의 관련 분야에 대한 기여 정도",
+    "prior_heading_candidate": {
+      "text": "96453 미활용 50",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 366,
+      "2": 42,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 557,
+    "heading_candidates": [
+      "6. 참고문헌"
+    ],
+    "section_context_candidate": "6. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "▶ 상대적으로 원천기술개발 부분이 열악한 국내 산업체에 차세대 기술을 제공함으로써 기업",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 135,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

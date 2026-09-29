@@ -1,0 +1,142 @@
+[
+  {
+    "pdf_page": 5,
+    "text": "그림 1. C-V2X 기반 원격 주행 시스템 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 5,
+    "text": "그림 2. Panning module 구축 모습 그림 3. DGIST 캠퍼스 내 원격 주행 시운전 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 6,
+    "text": "그림 4. 운전 스타일 판별 및 공유를 위한 4-layer CNN-2 stacked LSTM-V2X 시스템 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 7,
+    "text": "그림 5. WPI 데이터셋 평가 결과 그림 6. 한국 주행환경에서는 신호등 불검출",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 7,
+    "text": "그림 7. SGBM 스테레오 거리 추정 그림 8. 딥러닝 기반 AnyNet 스테레오 거리 추정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 8,
+    "text": "표 1. 사용 모델별 초당 프레임 수 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 8,
+    "text": "그림 9. 객체별 거리 탐지 데모 그림 10. 객체별 거리 추정 시스템 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 11. 주행 차량에 카메라 설치 그림 12. 카메라 보정판 촬영",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 13. 이미지에서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 14. 라이다 데이터에서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 15. 외부보정 결과 시각화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 16. SA-SSD,PVR-CNN,Voxel R-CNN계열비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 17. PV-RCNN/Voxel-RCNN model을 KITTI Dataset [14] 및 Waymo Dataset [18]",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 18. ODD 및 국내 신호등 법규를 카메라 모델과 위치 선정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 19. 신호등 위치 추정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 21. 차량 자율 주행 모드 전환 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 20. Traffic light RoI 기반 Traffic light 인식 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 22. Single-DAG에 대한 모드 전환 시점 판단",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 23. Multi-DAG에 대한 모드 전환 시점 판단 (왼쪽: task1, 오른쪽 task2)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 24. 차량 자율 주행 모드 전환 모델 실행 그래프",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 25. 임베디드 보드에서의 결과 그림 26. 서버에서의 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "(그림28. (c))",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 27. 고속도로 주행 환경 모델링 및 통신 구현: (a) 실제 환경; (b) 모델링; (c) PDR",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 28. Spectrum analyzer로 측정한 DSRC와 C-V2X의 Power Spectral Density (PSD): (a) DSRC",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 29. DSRC 실증 구성 및 결과: (a):OBU; (b) RSU; (c) 거리에 따른 PDR",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 30. V2X 기반 과속 단속 시스템: (a) 개발 컨셉; (b) 측정 평균 속력; (c) 측정 PDR",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 31. V2X 물리 계층 연구 결과:(a) 이상적인 환경에서 tone/noise jamming BER; (b) AWGN",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 32. Anti-jamming 시스템:(a) 개발 컨셉; (b) 탐지 성공률에 따른 Jamming 성공률; (c) 빔 폭을",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

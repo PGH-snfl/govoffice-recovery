@@ -1,0 +1,232 @@
+[
+  {
+    "pdf_page": 19,
+    "text": "그림 3. LISP 기반 주소 가상화 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 4. 컨테이너 기반의 가상 스위치의 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 5. 데이터 평면이 추상화 된 환경에서 패킷이",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 6. Protocal Abstraction Layer",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 7. 벤더 독립적 LISP 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 8. LISP SBI 기반 핸드오버",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 9. MPLS-TE SBI 기반의 장애우회",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "표 2. 제어평면 오버헤드를 줄이기 위한 네트워크 모니터링 기법 기존 연구 분석 Ÿ 가상화된 환경을 고려한 네트워크 모니터 플랫폼을 설계함",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 10. Monitoring platform for virtualized SDN",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 11. OpenFlow 기반의 데이터 평면 로드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 13. 데이터 평면 fast-failover 그림 14. 제어 평면에서의 traffic engineering",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 15. Seamless Failover 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "표 3 네트워크 하이퍼바이저 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 16. 소프트웨어 기반 테스트베드 구축 상황",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 17. LISP 개념을 기반으로 하는 IP 주소 가상화 기법",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 18. SDN 컨트롤러를 통한 Docker 컨테이너를",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 19. LISP 프로토콜을 이용한 마이그레이션 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 20. 네트워크 하이퍼바이저에서의 트래픽",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 21. 하드웨어 기반의 오픈플로우 스위치 테스트베드 구축",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 22. LISP 테스트를 위한 소프트웨어 기반 환경 구축",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 23. OpenVirteX 대비 스위치별 물리 네트워크 플로우 룰의 수",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 24. 성능 비교 실험 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 31,
+    "text": "그림 25. 트래픽 엔지니어링 플랫폼 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 31,
+    "text": "그림 26. OVX대비 BLB기법이 적용된 네트워크 하이퍼바이저의 대역폭",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 27. Path 가상화 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "그림 28. SDN 장비의 하이브리드 환경 구축",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "그림 29. 가상 스위치 패킷 포워딩 시 병목",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "그림 30. Hyper-mega cache 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 31. 트래픽 엔지니어링 기능 통합 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 32. 실제 트래픽 대비 예측값 비율",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 33. 연구 기법의 설계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "그림 34. 테스트베드 구조도 그림 35. White-box 스위치 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 36. Single skb 동작방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 37. ONF와의 협력관계 및 네트워크 가상화 솔루션 권한 위임",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 38. 네트워크 하이퍼바이저에서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 39. 물리 토폴로지 구성 그림 40. 가상 네트워크 토폴로지",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 41. SAL로 인한 추가",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 42. OVS(위)와 DELL(아래)에 설치된 물리",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 43. OF-DPA에 설치된 물리 플로우 룰",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 44. 공개된 Libera repository",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 45. 최종 연구결과물이 공개된 공개소프트웨어 사이트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "그림 46. 연구결과가 집약된 SCIE 최상위 학술지 논문",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 47. WBS 차트 작성 및 Tracking",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 48. 요구사항 정의서 작성 및 관리",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 49. cppcheck 예시 그림 50. nsiqcppstyle 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "그림 51. 상세한 연구진행 기록 및 주기 점검 시행",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

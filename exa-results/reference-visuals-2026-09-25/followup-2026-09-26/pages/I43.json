@@ -1,0 +1,3474 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 228,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 985,
+    "heading_candidates": [
+      "1. 연구 개발 성과",
+      "가. 세계 최초 독립적으로 테스트 수행이 가능한 시스템 개발",
+      "나. 사용자 이벤트 분석을 통한 자동 스크립트 알고리즘 개발",
+      "다. 실시간 화면 기반의 스크립트 작성 알고리즘 개발",
+      "다. 결과 분석 및 오류 추적을 위한 트래킹 시스템 개발",
+      "2. 연구 개발 산출물",
+      "나. Cloud Console : 프로세스 관리 및 결과 분석 웹 서비스",
+      "다. Mobile Module : 스스로 테스트 수행이 가능한 APP",
+      "라. 권한 상승 장치 : 테스트 수행을 위한 권한 부여 장치"
+    ],
+    "section_context_candidate": "1. 연구 개발 성과",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 244,
+      "2": 37,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 586,
+    "heading_candidates": [],
+    "section_context_candidate": "라. 권한 상승 장치 : 테스트 수행을 위한 권한 부여 장치",
+    "prior_heading_candidate": {
+      "text": "라. 권한 상승 장치 : 테스트 수행을 위한 권한 부여 장치",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 152,
+      "2": 104,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1754,
+    "heading_candidates": [],
+    "section_context_candidate": "라. 권한 상승 장치 : 테스트 수행을 위한 권한 부여 장치",
+    "prior_heading_candidate": {
+      "text": "라. 권한 상승 장치 : 테스트 수행을 위한 권한 부여 장치",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 420,
+      "2": 21,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 3134,
+    "heading_candidates": [],
+    "section_context_candidate": "라. 권한 상승 장치 : 테스트 수행을 위한 권한 부여 장치",
+    "prior_heading_candidate": {
+      "text": "라. 권한 상승 장치 : 테스트 수행을 위한 권한 부여 장치",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 465,
+      "2": 20,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1431,
+    "heading_candidates": [
+      "6. 연구 과정에서 수집한 해외 과학기술 정보 ····························································45",
+      "8. 국가과학기술종합정보시스템에 등록한 연구시설·장비 현황 ····························47",
+      "9. 연구개발과제 수행에 따른 연구실 등의 안전 조치 이행 실적 ··························48"
+    ],
+    "section_context_candidate": "6. 연구 과정에서 수집한 해외 과학기술 정보 ····························································45",
+    "prior_heading_candidate": {
+      "text": "라. 권한 상승 장치 : 테스트 수행을 위한 권한 부여 장치",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 본 문 목 차 ",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "1. 연구개발과제의 개요 ······································································································1\n2. 국내외 기술 개발 현황 ··································································································9\n3. 연구 수행 내용 및 성과 ······························································································23\n4. 목표 달성도 및 관련 분야 기여도 ············································································35",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 121,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1111,
+    "heading_candidates": [
+      "제1장. 연구개발과제의 개요",
+      "1. 연구개발 목적"
+    ],
+    "section_context_candidate": "제1장. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "9. 연구개발과제 수행에 따른 연구실 등의 안전 조치 이행 실적 ··························48",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1 One Script 멀티 테스트 지원",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "(4) 이러한 문제점을 해소하기 위해 테스트 자동화 및 클라우드 테스트 서비스의 관심이 높\n아지고 있음. 테스트 자동화의 가장 큰 장점은 일관된 테스트를 처리할 수 있고 결과도\n바로 확인 할 수 있으며, 테스트할 모바일 디바이스가 다르더라도 같은 케이스를 사용하\n여 테스트 할 수 있다는 것이 최대 장점임.",
+        "after": "(5) 현재 시장에 나와 있는 테스트 자동화 솔루션의 경우 테스트 엔지니어나 개발자가 직접\n코딩하여 자동화 스크립트 생성이 필요하고, 기 작성된 스크립트의 재사용이나 관리가\n매우 복잡하고 어려워 많은 테스트 엔지니어들이 기피하고 있음.\n2) Regression testing(회귀 테스팅) : 회귀 버그를 찾는 모든 소프트웨어 테스트 방식은 회귀 테스트라 할 수 있다. 회귀 버그는 이",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 276,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.19,
+          185.68,
+          506.01,
+          341.75
+        ],
+        "page_area_fraction": 0.1269
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 529,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 연구개발 목적",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발 목적",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2 테스트 스크립트 재사용",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 2 -",
+        "after": "나. 해결 방안\n(1) 당사는 GCS사업을 통해 위와 같은 비즈니스 및 고객 요구를 해결하기 위해, 기존의 테\n스트 자동화 시스템의 문제점인 접근성과 사용성을 극복하여 소프트웨어 품질 향상에\n기여하고자 함.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 3 사용자 행위 기반으로 테스트 자동화 스크립트 생성",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "얼 에디터는 사용자 행위 기반의 테스트 자동화 스크립트를 생성해 주는 에디터로, 실제\n모바일 디바이스에서 사용자의 액션 하나하나의 이벤트를 캡처하여 액션 순서에 따라\n자동화 스크립트를 생성하여 쉽고 빠르게 완성할 수 있도록 하여 제품 사용의 초기 진\n입 장벽을 낮추고자 함.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 121,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.15,
+          595.75,
+          499.77,
+          742.47
+        ],
+        "page_area_fraction": 0.1189
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.88,
+          112.2,
+          497.73,
+          305.43
+        ],
+        "page_area_fraction": 0.1602
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1043,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 연구개발 목적",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발 목적",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 4 Stand-alone 방식으로 자동화 테스트 수행",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "특별한 조작 없이 자동화 테스트를 수행할 수 있는 모듈을 개발하고자 함. 모바일 디바\n이스에 특별한 조작이 없다는 것은 일반 사용자의 모바일 디바이스에서도 테스트가 가\n능하기 때문에 필요에 따라 테스트 디바이스를 쉽게 늘릴 수 있어 테스트 생산성을 높\n일 수 있음.",
+        "after": "(4) 셋째, 모바일 테스트 자동화를 도입하더라도 시스템에서 이전 테스트 이력을 확인, 또\n는 테스트 결과와 보고서를 공유거나 결함에 대한 이슈를 관리할 수 없다면 별도 서비\n스를 이용하여 관리하는 추가 리소스의 부담이 발생하게 됨. 이에 테스트 자동화 스크립\n트가 배포되는 순간부터의 테스트 프로세스를 관리하고 테스트 결과 및 이슈관리까지",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 258,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.88,
+          438.6,
+          535.03,
+          638.06
+        ],
+        "page_area_fraction": 0.1802
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 548,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 연구개발 목적",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발 목적",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 5 Xamarin Test Cloud 동작 화면",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "(1) 이미 시장에 출시된 제품을 보면 “출시 전 다양한 파편화된 단말기들을 대상으로 모바\n일 테스트를 위해서 중앙 집중화된 서버에 연결된 단말기를 렌트하는 방식의 서비스”\n를 기반으로 테스트 하는 것이 현재 주요 해외 업체의 구축 방법임. (Xamarin Test\nCloud5), Perfecto Mobile6) 등)",
+        "after": "그림 6 Perfecto Mobile 동작 화면\n5) Xamarin Test Cloud : Visual Studio 또는 Xamarin Studio를 통해 테스트 스크립트를 작성하고, 클라우드로 제공되는 모바일 디\n바이스에서 테스트를 할 수 있도록 서비스 제공. 6) Perfecto Mobile : 웹 기반 테스트 클라우드 디바이스 제공 및 모바일 성능 모니터링 및 테스트 결과 리포트 제공 업체\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 6 Perfecto Mobile 동작 화면",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "일 테스트를 위해서 중앙 집중화된 서버에 연결된 단말기를 렌트하는 방식의 서비스”\n를 기반으로 테스트 하는 것이 현재 주요 해외 업체의 구축 방법임. (Xamarin Test\nCloud5), Perfecto Mobile6) 등)\n그림 5 Xamarin Test Cloud 동작 화면",
+        "after": "5) Xamarin Test Cloud : Visual Studio 또는 Xamarin Studio를 통해 테스트 스크립트를 작성하고, 클라우드로 제공되는 모바일 디\n바이스에서 테스트를 할 수 있도록 서비스 제공. 6) Perfecto Mobile : 웹 기반 테스트 클라우드 디바이스 제공 및 모바일 성능 모니터링 및 테스트 결과 리포트 제공 업체\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 124,
+      "3": 2,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.62,
+          417.02,
+          516.92,
+          659.04
+        ],
+        "page_area_fraction": 0.1941
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.54,
+          128.14,
+          518.0,
+          373.27
+        ],
+        "page_area_fraction": 0.1976
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1002,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 연구개발 목적",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발 목적",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 7 일렉트론 프레임워크 구조",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "(4) Cross-Platform7) Build 를 통해서 동일한 코드로 다양한 운영체제에서 설치되고 실행될\n수 있는 네이티브 데스크톱 애플리케이션을 개발하여 개발 리소스를 줄이고 실제 테스\n트 엔지니어들이 가지고 있는 데스크톱이나 노트북에서 사용이 가능하도록 접근성을 확\n대하고자 함.",
+        "after": "* Cross Build 시스템 구축을 위하여 Windows 빌드서버, Mac 빌드서버 별도 구축이 필요함.\n(5) 당사의 원천 기술인 이기종간 원격제어와 모바일 디바이스 원격 제어 기술을 결합하여\n테스트 스크립트를 작성하는 비주얼 에디터와 모바일 테스트를 수행하는 모듈의 안정성\n확보 및 높은 성능의 제품을 개발하고자 함. 이 기술은 글로벌 1억 다운로드인 모비즌에",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 229,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.04,
+          369.32,
+          522.08,
+          497.46
+        ],
+        "page_area_fraction": 0.115
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 743,
+    "heading_candidates": [
+      "2. 연구개발의 필요성",
+      "8) W3C : 월드 와이드 웹을 위한 표준을 개발하고 장려하는 조직으로 회원기구, 정직원, 공공기관이 협력하여 웹 표준을 개발하는"
+    ],
+    "section_context_candidate": "2. 연구개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발 목적",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 8 모비즌 화면 공유 및 원격 제어 화면",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 6 -",
+        "after": "(6) 기존 모바일 테스트 자동화 제품이 제공하지 않았던 타 제품간 호환성을 제공하기 위하\n여 W3C8)에서 Selenium9)을 통합하여 표준화 진행 중인 Web Driver10) Spec을 준수하여\n모바일 테스트 자동화 제품 간 통합 및 연동이 가능하도록 개발하고자 함.\n그림 9 W3C Web Driver Spec 구조",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 9 W3C Web Driver Spec 구조",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "그림 8 모비즌 화면 공유 및 원격 제어 화면\n(6) 기존 모바일 테스트 자동화 제품이 제공하지 않았던 타 제품간 호환성을 제공하기 위하\n여 W3C8)에서 Selenium9)을 통합하여 표준화 진행 중인 Web Driver10) Spec을 준수하여\n모바일 테스트 자동화 제품 간 통합 및 연동이 가능하도록 개발하고자 함.",
+        "after": "2. 연구개발의 필요성\n중/소 소프트웨어 개발 사업자는 소프트웨어 품질과 관련하여 소프트웨어 품질기술원에서\n제시한 다음 4가지 애로 사항에 대해 해결할 수 있는 방법을 필요로 하고 있으며, 당사는 본\n과제를 통해 개발되는 테스트 자동화 스크립트 작성 기반의 테스트 자동화 솔루션을 중/소",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 187,
+      "3": 2,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          34.9,
+          572.85,
+          541.63,
+          775.31
+        ],
+        "page_area_fraction": 0.205
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          284.33,
+          516.32,
+          438.6
+        ],
+        "page_area_fraction": 0.134
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1685,
+    "heading_candidates": [
+      "나. 개발 과정에서 소프트웨어에 대한 품질을 개발 담당자가 직접 챙기도록 하는 등 소프트",
+      "다. 대규모 SI 사업자와는 달리 중/소 소프트웨어 개발 사업자의 경우 자체 개발방법론 체계",
+      "라. 대기업과 달리 중/소 소프트웨어 개발 사업자의 경우 한정된 인력 자원을 기반으로 사업",
+      "11) QMO(Quality Management Office) : 품질 관리 조직으로 소프트웨어 프로젝트 및 품질관리 역할을 수행."
+    ],
+    "section_context_candidate": "나. 개발 과정에서 소프트웨어에 대한 품질을 개발 담당자가 직접 챙기도록 하는 등 소프트",
+    "prior_heading_candidate": {
+      "text": "8) W3C : 월드 와이드 웹을 위한 표준을 개발하고 장려하는 조직으로 회원기구, 정직원, 공공기관이 협력하여 웹 표준을 개발하는",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "전문개정 2015.12.22",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "거하여 소프트웨어 및 소프트웨어 프로세스 품질 인증 시 소프트웨어 상세 설계 문서의 인증\n을 포함할 것을 강조하고 있음. 본 과제를 통해 별도 테스트 케이스를 작성하지 않아도 테스\n트 결과를 문서로 출력하여 대체할 수 있도록 개발하여 품질 향상 및 리소스 절감의 기대효\n과를 가져옴.",
+        "after": "제 12조(소프트웨어 표준화의 추진) ①미래창조과학부장관은 소프트웨어의 효율적 개발 및\n품질 향상과 호환성 확보 등을 위하여 소프트웨어 표준화를 추진하고 소프트웨어 사업자에게\n이를 권고할 수 있다. <개정 2013.03.23.>\n제 13조(품질인증) ①미래창조과학부장관은 소프트웨어 품질 확보 및 유통 촉진을 위하여",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "시행일 : 2016.03.23",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "거하여 소프트웨어 및 소프트웨어 프로세스 품질 인증 시 소프트웨어 상세 설계 문서의 인증\n을 포함할 것을 강조하고 있음. 본 과제를 통해 별도 테스트 케이스를 작성하지 않아도 테스\n트 결과를 문서로 출력하여 대체할 수 있도록 개발하여 품질 향상 및 리소스 절감의 기대효\n과를 가져옴.",
+        "after": "제 12조(소프트웨어 표준화의 추진) ①미래창조과학부장관은 소프트웨어의 효율적 개발 및\n품질 향상과 호환성 확보 등을 위하여 소프트웨어 표준화를 추진하고 소프트웨어 사업자에게\n이를 권고할 수 있다. <개정 2013.03.23.>\n제 13조(품질인증) ①미래창조과학부장관은 소프트웨어 품질 확보 및 유통 촉진을 위하여",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 435,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 887,
+    "heading_candidates": [
+      "3. 연구개발 범위",
+      "가. 테스트 자동화 스크립트를 작성하는 비주얼 에디터 개발",
+      "나. 테스트 프로세스 관리하고 리포트를 발행하는 웹 클라우드 서비스 개발",
+      "다. 테스트를 수행하고 결과를 수집하는 모바일 모듈 개발",
+      "라. 테스트 자동 수행을 위한 권한 체크 모듈 개발"
+    ],
+    "section_context_candidate": "3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "11) QMO(Quality Management Office) : 품질 관리 조직으로 소프트웨어 프로젝트 및 품질관리 역할을 수행.",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 196,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 995,
+    "heading_candidates": [
+      "제2장. 국내외 기술 개발 현황",
+      "가. 국내 기술 동향 및 수준"
+    ],
+    "section_context_candidate": "제2장. 국내외 기술 개발 현황",
+    "prior_heading_candidate": {
+      "text": "라. 테스트 자동 수행을 위한 권한 체크 모듈 개발",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 10 테스트 기술 경쟁 구도",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "APM12) 업체 또는 IoT13) 관제 업체로 부하 테스트 시스템을 무선 IoT 통합 관제 솔루션으\n로 보유하고 있음. 둘째로 QA 및 아웃소싱 컨설팅 사로 품질 보증 및 테스트 엔지니어링\n기술을 서비스하고 있음. 세 번째로 APP 개발사로 자체 개발한 반 자동화 테스트 Tool을\n보유하고 있으며 APP 개발 이후 자체 테스트에 사용하고 있음.",
+        "after": "국내 업체들도 모바일 테스트 자동화 솔루션 진출을 위하여 오픈소스 프레임워크인\nSeleninum 과 Appium 을 도입하여 패키지 솔루션 개발을 박차를 가하고 있으며 최근 2, 3\n년 사이 성과를 나타내고 있으나, 소프트웨어 테스팅 시장이 성장할 것으로 예상되는데 반\n해 국내 시장 문화와 기술력은 아직 미약하다는 것이 업계의 평가.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 250,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.61,
+          272.34,
+          467.27,
+          532.94
+        ],
+        "page_area_fraction": 0.1769
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 975,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 국내 기술 동향 및 수준",
+    "prior_heading_candidate": {
+      "text": "가. 국내 기술 동향 및 수준",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 11 Global Top 5 Players Mobile Application Testing Services Market Share",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "를 테스트 하기 위한 효율적인 전략을 세우는 동시에 모바일 테스트 서비스의 도입이 반드\n시 필요하게 되었음. 모바일 서비스를 제공하는 기업들은 여러 모바일 플랫폼, 장치 및 서비스 복잡성까지 테스\n트 범위로 처리하기 어려움을 확인하였고, 이에 전통적인 기능 테스트에 보안, 성능, 호환\n성테스트 정도만 처리하기를 원하고 있음. 이에 기술은 플랫폼, OS 및 디바이스의 파편화, 모바일 장치의 물리적 특성, 사용자 경험, 성능, 보안, 시스템 통합, 앱 배포 및 관리까지 아우르는 기술 개발이 필요하게 됨.",
+        "after": "(출처 : Secondary Sources and QYR Software Research Center, Jan. 2018)\n기술 및 시장을 리딩하고 있는 기업으로는 IBM 과 Accenture, Wipro, Capgemini, Cognizant\n등 북미 소재의 기업들이 주류를 이루고 있음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 232,
+      "3": 1,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.07,
+          116.03,
+          518.24,
+          398.32
+        ],
+        "page_area_fraction": 0.2365
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1421,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 국내 기술 동향 및 수준",
+    "prior_heading_candidate": {
+      "text": "가. 국내 기술 동향 및 수준",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 349,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1514,
+    "heading_candidates": [
+      "15) TDD (Test-driven development) : 테스트 주도 개발, 테스트 우선 개발로 테스트 자체에 집중하는 개발 방법",
+      "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법"
+    ],
+    "section_context_candidate": "15) TDD (Test-driven development) : 테스트 주도 개발, 테스트 우선 개발로 테스트 자체에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "가. 국내 기술 동향 및 수준",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 355,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1387,
+    "heading_candidates": [],
+    "section_context_candidate": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 329,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 743,
+    "heading_candidates": [],
+    "section_context_candidate": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 12 TestExpress 구동 화면",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "MDS테크놀로지(한컴)는 소프트웨어 테스팅 솔루션인 TestExpress 와 TestExplorer 를 보유\n하고 있음. TestExpress 는 Touch/key 조작으로 손쉽게 테스트 스크립트 자동 생성 및 검증\n이 가능하고 개발 단계부터 테스트 단계에 이르기까지 소프트웨어 품질을 효율적으로 검증\n하며 애플리케이션 형태의 Agent로 쉽고 빠른 테스트 환경을 제공하고 있음.",
+        "after": "(2) TestExplorer\nMDS테크놀로지(한컴)의 TestExplorer 는 GUI 기반 안드로이드 애플리케이션 자동시험 도\n구임. GUI tree를 자동 생성하고 생성된 이력을 관리하며 시험 결과 재현 및 스크린 샷을\n제공하고 있음. 랜덤 자동 테스트 기능이 있어 사용이 단순하고 예기치 못한 오류 검출에",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 162,
+      "3": 1,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.28,
+          252.32,
+          520.88,
+          439.92
+        ],
+        "page_area_fraction": 0.1644
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 452,
+    "heading_candidates": [],
+    "section_context_candidate": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 13 TestExplorer 워크플로우",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 15 -",
+        "after": "(3) mTworks\nmTworks 서비스는 전문적이고 통합적인 테스트를 위한 자동화 전용툴을 제공하며 동일\nOS 내 하나의 스크립트로 서로 다른 버전, 해상도, 제조사 등에 상관없이 테스트가 가능함. 자동화 테스트 스크립트 생성을 위한 Object 방식과 이미지 인식 기능을 제공하고 정밀한\n테스트 스크립트 제작을 위해 조건문, 입출력관리, 캡처 등 편집 기능을 제공함. 테스트 수",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 14 mTworks 서비스 구성도",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "OS 내 하나의 스크립트로 서로 다른 버전, 해상도, 제조사 등에 상관없이 테스트가 가능함. 자동화 테스트 스크립트 생성을 위한 Object 방식과 이미지 인식 기능을 제공하고 정밀한\n테스트 스크립트 제작을 위해 조건문, 입출력관리, 캡처 등 편집 기능을 제공함. 테스트 수\n행 결과를 별도 리포트로 제공하고 이력관리를 제공하며 테스트 수행중 이상징후 발생 시\n담당자 알림을 통해 선제적 조치가 가능하도록 서비스를 제공 중.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 94,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.18,
+          584.96,
+          500.97,
+          767.52
+        ],
+        "page_area_fraction": 0.1455
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.39,
+          123.11,
+          505.65,
+          368.36
+        ],
+        "page_area_fraction": 0.2001
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 423,
+    "heading_candidates": [],
+    "section_context_candidate": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 15 mAppCheck 스크립트 레코더 실행 화면",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "(4) mAppCheck\n데스크톱 애플리케이션인 레코더는 윈도우 설치 및 실행만 지원하며, 별도 ADB 서버를\n구동하여 디바이스와 연결을 유지하면서 레코더 내부에 미러링된 디바이스 화면의 객체를\n인식하여 테스트 스크립트를 작성하는 기능을 제공.",
+        "after": "특히, SKT의 클라우드 테스트 디바이스에 연결하여 로컬에 연결된 디바이스가 없이도 테\n스트 스크립트를 작성할 수 있는 장점이 있으나, 웹 서비스를 통해 자원을 미리 할당 받아\n야 하는 불편함이 있음.\n그림 16 mAppCheck 스크립트 레코더 디바이스 연결 구조",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 16 mAppCheck 스크립트 레코더 디바이스 연결 구조",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "그림 15 mAppCheck 스크립트 레코더 실행 화면\n특히, SKT의 클라우드 테스트 디바이스에 연결하여 로컬에 연결된 디바이스가 없이도 테\n스트 스크립트를 작성할 수 있는 장점이 있으나, 웹 서비스를 통해 자원을 미리 할당 받아\n야 하는 불편함이 있음.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 87,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.46,
+          423.98,
+          495.69,
+          668.63
+        ],
+        "page_area_fraction": 0.1898
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.22,
+          68.81,
+          495.93,
+          291.76
+        ],
+        "page_area_fraction": 0.1732
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 808,
+    "heading_candidates": [],
+    "section_context_candidate": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 17 Ucloud appster 구성도",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "따른 비용만 부담함으로써 테스트 시간과 비용을 절감할 수 있는 서비스임. 모바일 애플리케이션 업로드 후 Cloud Device Pool내 위치한 실제 모바일 단말에 테스트할\n수 있는 서비스 형태로, 테스트 예약 및 수행관리, 테스트 결과 분석 리포트를 제공함. 이\n를 통해 출시 전 애플리케이션의 품질 검증, 단말 또는 플랫폼 호환성 검증, 사용 시스템\n모니터링으로의 이용 등 다양한 활용이 가능한 서비스 임.",
+        "after": "나. 본 기술/제품과 직접적 경쟁관계에 있는 기관 현황\n(1) Keynote\nDynatrace의 Keynote는 Forrester가 뽑은 모바일 테스트 자동화 부분의 전략 및 시장 선\n두 주자임. 실제 모바일 디바이스에서 애플리케이션을 테스트할 수 있도록 클라우드 디바",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 18 Keynote 동작 화면, 테스트(좌), 모니터링(우)",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "두 주자임. 실제 모바일 디바이스에서 애플리케이션을 테스트할 수 있도록 클라우드 디바\n이스를 제공하며 테스트 프로세스를 자동화하여 애플리케이션의 품질을 보장하고 있음. 테\n스트 수행을 위한 코딩할 필요가 없고 개발이 완료된 모바일 애플리케이션을 웹 서비스로\n전송하면 앱의 성능 테스트 및 기능 테스트를 진행 함.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 195,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.1,
+          463.65,
+          499.17,
+          609.53
+        ],
+        "page_area_fraction": 0.1152
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.06,
+          70.0,
+          498.09,
+          221.76
+        ],
+        "page_area_fraction": 0.1192
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1248,
+    "heading_candidates": [],
+    "section_context_candidate": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 19 Perfecto Mobile을 통한 Facebook Testing Diversity",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "Perfecto Mobile 의 테스트 자동화 솔루션은 100여대의 클라우드 디바이스에 연결하여 실\n시간으로 테스트를 할 수 있는 솔루션을 제공함. 테스트 자동화는 고객이 원하는 자동화\n테스트 프레임워크를 사용할 수 있으며 가장 널리 사용되는 Selenium, Xamarin, HP,\nEspresso 와 연동하여 사용이 가능함. 또한 Appium 과 Web Driver를 테스트도 가능함.",
+        "after": "(3) FAST (Framework for Automated Software Testing)\n윈드리버는 소프트웨어 테스트 자동화 시장을 겨냥해 일단 제품을 만들어 놓고 고객들이\n요구하는 대로 커스터마이징을 해 고객들에게 전달하다가 패키지 제품인 FAST(Framework\nfor Automated Software Testing)을 출시함. 윈드리버 FAST는 주요 실리콘 칩 아키텍쳐에",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 265,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.92,
+          457.66,
+          521.12,
+          648.85
+        ],
+        "page_area_fraction": 0.1678
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 735,
+    "heading_candidates": [],
+    "section_context_candidate": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 20 Remote TestKit 서비스 종류 및 구성",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 19 -",
+        "after": "(5) AWS19) Device Farm\n아마존의 AWS Device Farm 은 앱 테스트 서비스로서, 한 번에 많은 디바이스에서\nAndroid, iOS 및 웹 및 모바일 애플리케이션을 테스트를 할 수 있음. 다양한 물리적 디바이\n스에서 모바일 애플리케이션을 병렬로 테스트가 가능하며, 웹 브라우저에서 직접 실시간으",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 21 AWS Device Farm 핵심 기능",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "Android, iOS 및 웹 및 모바일 애플리케이션을 테스트를 할 수 있음. 다양한 물리적 디바이\n스에서 모바일 애플리케이션을 병렬로 테스트가 가능하며, 웹 브라우저에서 직접 실시간으\n로 디바이스를 동작하고, 쓸어 넘기고, 상호 작용을 통하여 고객 문제를 재현하고 새로운\n기능을 테스트할 수 있음.",
+        "after": "(6) Xamarin Test Cloud\nXamarin Test Cloud 는 세계 각국에서 출시되는 2000개가 넘는 기기를 보유하고 있으며\n매월 100여개 이상의 장치를 추가하고 모바일 애플리케이션 테스트 환경을 제공해 줌. Xamarin Test Cloud 는 Xamarin Studio 나 MS Visual Studio에서 작성한 테스트 코드 기반\n으로 동작할 수 있으며, 성능 모니터링 및 다수의 모바일 디바이스에서 병렬 테스트를 가",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 165,
+      "3": 2,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.1,
+          585.44,
+          499.17,
+          774.47
+        ],
+        "page_area_fraction": 0.1492
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.1,
+          242.73,
+          499.17,
+          393.17
+        ],
+        "page_area_fraction": 0.1188
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 615,
+    "heading_candidates": [],
+    "section_context_candidate": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 140,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1151,
+    "heading_candidates": [
+      "3. 국내외 경쟁기관/제품 대비 개발과제 우수성"
+    ],
+    "section_context_candidate": "3. 국내외 경쟁기관/제품 대비 개발과제 우수성",
+    "prior_heading_candidate": {
+      "text": "16) BDD (Behavior-driven development) : 행위 기반 개발로 비즈니스 요구사항에 집중하는 개발 방법",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 264,
+      "2": 23,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 668,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 국내외 경쟁기관/제품 대비 개발과제 우수성",
+    "prior_heading_candidate": {
+      "text": "3. 국내외 경쟁기관/제품 대비 개발과제 우수성",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 163,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1183,
+    "heading_candidates": [
+      "제3장. 연구 수행 내용 및 성과",
+      "1. 연구 수행 방법",
+      "가. 이론적 접근 방법"
+    ],
+    "section_context_candidate": "제3장. 연구 수행 내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "3. 국내외 경쟁기관/제품 대비 개발과제 우수성",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 281,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 530,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 이론적 접근 방법",
+    "prior_heading_candidate": {
+      "text": "가. 이론적 접근 방법",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 132,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 241,
+    "heading_candidates": [
+      "2. 기술적 성과",
+      "가. 기술 개발 산출물"
+    ],
+    "section_context_candidate": "2. 기술적 성과",
+    "prior_heading_candidate": {
+      "text": "가. 이론적 접근 방법",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 22 비주얼 에디터 스크립트 작성 예시 화면",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "2. 기술적 성과\n가. 기술 개발 산출물\n(1) End Product\n(가) 테스트 자동화 스크립트를 작성하는 비주얼 에디터 (테스크톱 설치형 SW)",
+        "after": "그림 23 비주얼 에디터 스크립트 검증 예시 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 23 비주얼 에디터 스크립트 검증 예시 화면",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "가. 기술 개발 산출물\n(1) End Product\n(가) 테스트 자동화 스크립트를 작성하는 비주얼 에디터 (테스크톱 설치형 SW)\n그림 22 비주얼 에디터 스크립트 작성 예시 화면",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 46,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.14,
+          358.89,
+          491.74,
+          602.22
+        ],
+        "page_area_fraction": 0.189
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.23,
+          73.48,
+          493.53,
+          318.61
+        ],
+        "page_area_fraction": 0.1922
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 192,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 기술 개발 산출물",
+    "prior_heading_candidate": {
+      "text": "가. 기술 개발 산출물",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 24 테스트 결과 요약 화면",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 26 -\n(나) 테스트 프로세스 관리하고 리포트를 발행하는 웹 클라우드 서비스 (서버 탑재형 SW)",
+        "after": "그림 25 테스트 결과 케이스별 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 25 테스트 결과 케이스별 화면",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 26 -\n(나) 테스트 프로세스 관리하고 리포트를 발행하는 웹 클라우드 서비스 (서버 탑재형 SW)\n그림 24 테스트 결과 요약 화면",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 34,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.39,
+          516.52,
+          486.46,
+          741.51
+        ],
+        "page_area_fraction": 0.1776
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.39,
+          219.48,
+          486.46,
+          466.53
+        ],
+        "page_area_fraction": 0.195
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 543,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 기술 개발 산출물",
+    "prior_heading_candidate": {
+      "text": "가. 기술 개발 산출물",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 26 파편화 테스트 진행 중 (맨 우측, iPhone)",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 27 -\n(다) 테스트를 수행하고 결과를 수집하는 모바일 애플리케이션 (단말 탑재형 SW)",
+        "after": "(라) 테스트 자동 수행을 위한 권한 상승 장치 (HW)\n그림 27 권한 상승 장치 (우측, SW 버전)\n(2) 시스템 구성 모듈\n(가) 모바일 디바이스에서의 사용자 행위 기반 이벤트를 수집하여 데스크톱 어플리케이션으",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 27 권한 상승 장치 (우측, SW 버전)",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 27 -\n(다) 테스트를 수행하고 결과를 수집하는 모바일 애플리케이션 (단말 탑재형 SW)\n그림 26 파편화 테스트 진행 중 (맨 우측, iPhone)\n(라) 테스트 자동 수행을 위한 권한 상승 장치 (HW)",
+        "after": "(2) 시스템 구성 모듈\n(가) 모바일 디바이스에서의 사용자 행위 기반 이벤트를 수집하여 데스크톱 어플리케이션으\n로 동일하게 재연하는 시스템.\n(나) 하나의 디바이스를 통해 생성된 테스트 자동화 스크립트를 동일 계열 OS를 포함하는",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 139,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.71,
+          589.16,
+          500.97,
+          736.72
+        ],
+        "page_area_fraction": 0.1195
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.18,
+          304.83,
+          477.7,
+          492.54
+        ],
+        "page_area_fraction": 0.1352
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 1298,
+    "heading_candidates": [
+      "다. 파급 효과"
+    ],
+    "section_context_candidate": "다. 파급 효과",
+    "prior_heading_candidate": {
+      "text": "가. 기술 개발 산출물",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 330,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 595,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 파급 효과",
+    "prior_heading_candidate": {
+      "text": "다. 파급 효과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 28 크로스 컴파일 방식의 제품 비교",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 29 -\n개발 언어를 기반으로 소프트웨어를 개발하고 품질을 향상시키는데 도움을 줄 것이며, 또\n한 오픈소스 커뮤니티를 통한 크로스 플랫폼에 대한 지원도 활발해질 것으로 기대 됨.",
+        "after": "(2) 모바일 제어 엔진 기술 고도화\n현재 국제적인 경쟁력을 갖추고 있는 최고수준의 원격 지원 및 제어와 관련된 기반기술을\n지속적으로 고도화 하여 다양한 디바이스에서 최적의 성능을 제공하고, 해당 사업 분야에\n서 최고 기술기업으로 꾸준히 성장할 수 있는 기반을 마련함. 이를 위하여 기존에 확보 및 사업화된 원천 기술을 고도화하고, 이를 기반으로 신규로 IoT",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 143,
+      "3": 1,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.26,
+          515.8,
+          485.62,
+          723.05
+        ],
+        "page_area_fraction": 0.1559
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 1247,
+    "heading_candidates": [
+      "3. 경제적 성과",
+      "가. 경제적 효과"
+    ],
+    "section_context_candidate": "3. 경제적 성과",
+    "prior_heading_candidate": {
+      "text": "다. 파급 효과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "알서포트의 시장 진출 시 생산, 부가가치, 고용 유발효과",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "알서포트 투자액(억원) 174 218 255 308 360 1,315\n생산유발효과 (억원) 325 407 476 575 672 2,455\n부가가치 유발효과 (억원) 215 270 315 381 445 1,626\n고용유발효과 (명) 248 189 363 439 513 1,874",
+        "after": "당사는 2017년부터 2021년까지 총 1,315억을 투자할 계획으로 당사의 매출 목표 달성 시\n경제적 파급효과로 나타나는 총생산유발효과는 2017부터 2021년까지 총 5년간 2,455억 원\n에 달할 것으로 전망되고 부가가치 유발효과는 1,626억 원에 이를 것으로 전망 되며 고용\n유발인원은 1,874명으로 전망됨. 이는 당사의 투자에 따른 파급효과가 투자된 금액의 약 1.8배에 해당되는 약 2,455억 원에",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 319,
+      "2": 25,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 1014,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 경제적 효과",
+    "prior_heading_candidate": {
+      "text": "가. 경제적 효과",
+      "pdf_page": 36
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 29 산업별 종사자 수의 전년대비 증감추이",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "기여하는 것으로 나타남. 소프트웨어 산업에서 게임 소프트웨어, 시스템·응용 소프트웨어\n를 포함한 소프트웨어 개발 및 공급업에서의 종사자 연평균 증가율은(2011~2014년) 5.8%로\n나타났고, 컴퓨터 프로그래밍, 시스템 통합 및 관리업(IT 서비스)의 종사자수도 연평균\n10.5%로 가파르게 증가하고 있는 추세를 보임.",
+        "after": "최근 경기 불황으로 기업들의 신규채용 여력이 줄고 있는데다 기업과 구직자의 눈높이가\n다른 일자리 미스매칭 현상으로 인해 청년 실업률은 최고치를 경신하고 있어 큰 사회적인\n문제로 대두되고 있음. 소프트웨어 산업은 이러한 청년실업률을 감소시키는데도 매우 긍정\n적인 역할을 하고 있음. 2015년 산업기술인력수급실태조사에 따르면, 소프트웨어 산업의 청년고용 비중은 2014년",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 30 SW산업과 타 산업의 청년 일자리",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "추세에 비추어 본다면 상대적으로 양호하다고 할 수 있음. 산업 전체 청년고용 비중은\n2012년 18.3%에서 2014년에는 15.6%로 급격히 하락하는 추세를 보임. 또한 청년 일자리 수\n의 증가 측면에서도 전체 산업의 2012년부터 2014년 사이에 연평균 4.8% 하락한 반면 소프\n트웨어산업은 1.8% 증가한 것을 알 수 있음.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 246,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          466.29,
+          533.83,
+          652.45
+        ],
+        "page_area_fraction": 0.1707
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.71,
+          61.85,
+          526.4,
+          194.67
+        ],
+        "page_area_fraction": 0.1167
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 1024,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 경제적 효과",
+    "prior_heading_candidate": {
+      "text": "가. 경제적 효과",
+      "pdf_page": 36
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 31 산업별 부족 인력과 채용 예정 인력",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "자 수가 계속 증가할 것으로 전망됨. 소프트웨어 산업의 부족인력은 2015년 기준으로 전체\n부족인력의 8.0% 수준이며, 2016년 채용 예정인 인력도 전체 채용 수요에서 소프트웨어 인\n력에 대한 수요가 14.2%로 가장 높은 것으로 나타남. 산업별로 보면, 전자산업은 13.4%, 기\n계9.6%, 화학 9.6%, 자동차 6.7%, 조선 4.2%, 바이오헬스 3.4% 등으로 집계됨.",
+        "after": "당사는 2018년부터 2020년까지 51명의 추가 신규인력 채용을 계획함. 2018년도 전체 189\n명을 시작으로 2019년도에는 223명, 2020년에는 251명까지 인력을 확보할 예정. 2년 평균\n15%의 인력 증가율을 기록하게 될 것이고 채용 분야로 보면 정규직 연구 인력으로 45명을\n추가 채용할 예정이며, 정규직 비 연구 인력으로 16명의 인력을 채용할 예정. 구분 2018 2019 2020",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "알서포트의 인력 계획",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "증가율 (평균 15%) - 18% 12%\n연구인력 (명) 113 141 158\n마케팅/관리인력 (명) 76 82 92\n전년기준 신규채용인력 (명) - 34 27",
+        "after": "소프트웨어 산업이 생활과 밀접해지면서 대학 교육 측면에서 전공학생들 뿐 아니라 비전\n공학생들도 소프트웨어 교육 신청률이 높아지는 등 대학생들의 소프트웨어 교육에 대한 선\n호가 점호 높아지고 있음. 서울대 컴퓨터 공학 복수전공자 수가 2013년 22명에서 2016년에\n는 145명에 이르고, 인문계 등 비전공자들의 소프트웨어 교과목 수강이나 컴퓨터 공학을",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 269,
+      "3": 1,
+      "2": 20,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.2,
+          519.39,
+          534.91,
+          685.41
+        ],
+        "page_area_fraction": 0.1515
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 1475,
+    "heading_candidates": [
+      "4. 기타 성과"
+    ],
+    "section_context_candidate": "4. 기타 성과",
+    "prior_heading_candidate": {
+      "text": "가. 경제적 효과",
+      "pdf_page": 36
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 381,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 312,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 기타 성과",
+    "prior_heading_candidate": {
+      "text": "4. 기타 성과",
+      "pdf_page": 39
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 62,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 956,
+    "heading_candidates": [
+      "제4장. 목표 달성도 및 관련 분야 기여도",
+      "1. 목표 달성도",
+      "가. 연구 개발 목표 및 결과",
+      "나. 정량적 연구개발 성과 목표 및 달성도"
+    ],
+    "section_context_candidate": "제4장. 목표 달성도 및 관련 분야 기여도",
+    "prior_heading_candidate": {
+      "text": "4. 기타 성과",
+      "pdf_page": 39
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 322,
+      "2": 56,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 1441,
+    "heading_candidates": [
+      "다. 연구개발 성과 및 평가 방법"
+    ],
+    "section_context_candidate": "다. 연구개발 성과 및 평가 방법",
+    "prior_heading_candidate": {
+      "text": "나. 정량적 연구개발 성과 목표 및 달성도",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 398,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 604,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 연구개발 성과 및 평가 방법",
+    "prior_heading_candidate": {
+      "text": "다. 연구개발 성과 및 평가 방법",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 145,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 1002,
+    "heading_candidates": [
+      "나. 점진적 개발 프로세스를 지원함. 고객사에 구축된 CI(Continuous Integration21)) 시스템에"
+    ],
+    "section_context_candidate": "나. 점진적 개발 프로세스를 지원함. 고객사에 구축된 CI(Continuous Integration21)) 시스템에",
+    "prior_heading_candidate": {
+      "text": "다. 연구개발 성과 및 평가 방법",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 32 회귀테스트를 자동화하여 품질 향상에 기여",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "특성상 빠른 배포 주기로 인한 테스트 시간이 부족한 고객사에게 반복적인 회귀 테스트\n(Regression testing)를 자동화하고자 함. 자동화를 통해 확보된 시간과 인력을 바탕으로 테\n스트 엔지니어로 하여금 탐색적 테스트(Exploratory testing20))에 집중할 수 있도록 하여 예\n기치 못한 결함을 찾아내고 애플리케이션 전반적 품질 향상에 기여할 수 있도록 함.",
+        "after": "나. 점진적 개발 프로세스를 지원함. 고객사에 구축된 CI(Continuous Integration21)) 시스템에\n통합하여 개발자의 코딩 완료 후, 또는 테스트 엔지니어가 화이트 박스 테스트(White-box\ntesting)22)를 완료하고 빌드 할 경우 생성된 산출물이 본 과제의 테스트 자동화 스크립트\n에 의해 자동 테스트를 수행하고 결과 리포트를 발행하여 조기에 모바일 애플리케이션의",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 223,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.64,
+          378.79,
+          520.64,
+          582.32
+        ],
+        "page_area_fraction": 0.1782
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 561,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 점진적 개발 프로세스를 지원함. 고객사에 구축된 CI(Continuous Integration21)) 시스템에",
+    "prior_heading_candidate": {
+      "text": "나. 점진적 개발 프로세스를 지원함. 고객사에 구축된 CI(Continuous Integration21)) 시스템에",
+      "pdf_page": 44
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 33 CI 시스템에 테스트 자동화 솔루션 통합",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 39 -",
+        "after": "다. 경쟁제품 성능 비교 및 개선을 할 수 있는 데이터를 제공함. 경쟁 제품과 자사의 제품의\n비교할 기능에 대하여 테스트 자동화 스크립트를 작성하고 기능이 실행되고 완료되기까지\n의 수행 시간을 바탕으로 제품 간 기술과 기능의 우수성을 판단할 수 있으며, 반복 수행\n횟수나 지속 시간을 통해 모바일 디바이스의 자원 사용률이나 안정성을 확인할 수 있음.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 34 제품 성능 비교 데이터",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "다. 경쟁제품 성능 비교 및 개선을 할 수 있는 데이터를 제공함. 경쟁 제품과 자사의 제품의\n비교할 기능에 대하여 테스트 자동화 스크립트를 작성하고 기능이 실행되고 완료되기까지\n의 수행 시간을 바탕으로 제품 간 기술과 기능의 우수성을 판단할 수 있으며, 반복 수행\n횟수나 지속 시간을 통해 모바일 디바이스의 자원 사용률이나 안정성을 확인할 수 있음.",
+        "after": "라. 시스템 가동률 및 성능 모니터링 서비스 지원함. 모바일 애플리케이션의 기능 중 핵심 기\n능이나 서비스의 영향도가 높은 기능에 대하여 테스트 자동화 스크립트를 생성하고 스케\n줄을 추가하여 실행함으로써, 수집된 테스트 수행 결과를 바탕으로 시스템 장애 여부를\n판단하고 테스트 수행 시간을 바탕으로 특정 시간대나 특정 기능의 부하 여부를 판단하여",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 131,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.47,
+          558.47,
+          510.57,
+          768.84
+        ],
+        "page_area_fraction": 0.1758
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.44,
+          206.29,
+          522.44,
+          406.11
+        ],
+        "page_area_fraction": 0.1761
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 129,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 점진적 개발 프로세스를 지원함. 고객사에 구축된 CI(Continuous Integration21)) 시스템에",
+    "prior_heading_candidate": {
+      "text": "나. 점진적 개발 프로세스를 지원함. 고객사에 구축된 CI(Continuous Integration21)) 시스템에",
+      "pdf_page": 44
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 35 애플리케이션 성능 및 서비스 장애 및 오류 검출",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 40 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 15,
+      "3": 1,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.32,
+          565.66,
+          519.44,
+          766.44
+        ],
+        "page_area_fraction": 0.1746
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 1040,
+    "heading_candidates": [
+      "제5장. 연구개발성과의 활용계획"
+    ],
+    "section_context_candidate": "제5장. 연구개발성과의 활용계획",
+    "prior_heading_candidate": {
+      "text": "나. 점진적 개발 프로세스를 지원함. 고객사에 구축된 CI(Continuous Integration21)) 시스템에",
+      "pdf_page": 44
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 309,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 394,
+    "heading_candidates": [],
+    "section_context_candidate": "제5장. 연구개발성과의 활용계획",
+    "prior_heading_candidate": {
+      "text": "제5장. 연구개발성과의 활용계획",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 36 기존 제품과의 차별화 항목",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 42 -",
+        "after": "상기 언급한 스크립트 생성 방식의 혁신, 사용자 행위 기반으로 테스트 자동화 스크립트를\n작성하고 수행하여 기존 스크립트 작성의 단계를 줄이고 작성 속도를 높임.\n그림 37 사용자 행위 기반 스크립트 생성\n기존 제품들은 자동화 테스트를 위하여 디바이스에 USB연결을 통한 ADB연결 또는 루팅을",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 37 사용자 행위 기반 스크립트 생성",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 42 -\n그림 36 기존 제품과의 차별화 항목\n상기 언급한 스크립트 생성 방식의 혁신, 사용자 행위 기반으로 테스트 자동화 스크립트를\n작성하고 수행하여 기존 스크립트 작성의 단계를 줄이고 작성 속도를 높임.",
+        "after": "기존 제품들은 자동화 테스트를 위하여 디바이스에 USB연결을 통한 ADB연결 또는 루팅을\n필수로 하여야 했으나 당사는 모바일 디바이스에 별도 조작 없이 스스로 테스트 수행을 할\n수 있도록 하여 고객사가 보유하거나 일반 디바이스들도 테스트 디바이스로 수행이 가능하게\n함.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 84,
+      "3": 2,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.44,
+          584.36,
+          521.72,
+          780.23
+        ],
+        "page_area_fraction": 0.1723
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.44,
+          348.34,
+          521.72,
+          477.68
+        ],
+        "page_area_fraction": 0.1138
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 965,
+    "heading_candidates": [],
+    "section_context_candidate": "제5장. 연구개발성과의 활용계획",
+    "prior_heading_candidate": {
+      "text": "제5장. 연구개발성과의 활용계획",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 38 Stand-alone 테스트 수행",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 43 -",
+        "after": "3. 서비스의 응용 방안\n가. 모바일 서비스 모니터링\n테스트 자동화 스크립트를 스케줄 기능 적용하여 특정 시간대에 파일 업로드 또는 음악\n재생, 영상 스트리밍 기능을 동작 시키거나 반복적 수행을 통해 테스트 수행 결과 기반으",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 230,
+      "3": 1,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.44,
+          606.78,
+          521.72,
+          780.23
+        ],
+        "page_area_fraction": 0.1526
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 274,
+    "heading_candidates": [],
+    "section_context_candidate": "제5장. 연구개발성과의 활용계획",
+    "prior_heading_candidate": {
+      "text": "제5장. 연구개발성과의 활용계획",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 54,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 418,
+    "heading_candidates": [
+      "제6장. 연구 과정에서 수집한 해외 과학기술 정보"
+    ],
+    "section_context_candidate": "제6장. 연구 과정에서 수집한 해외 과학기술 정보",
+    "prior_heading_candidate": {
+      "text": "제5장. 연구개발성과의 활용계획",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 82,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.22,
+          411.03,
+          490.06,
+          638.78
+        ],
+        "page_area_fraction": 0.1715
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 259,
+    "heading_candidates": [
+      "제7장. 연구개발성과의 보안등급"
+    ],
+    "section_context_candidate": "제7장. 연구개발성과의 보안등급",
+    "prior_heading_candidate": {
+      "text": "제6장. 연구 과정에서 수집한 해외 과학기술 정보",
+      "pdf_page": 51
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 139,
+    "heading_candidates": [
+      "제8장. 국가과학기술종합정보시스템에 등록한 연구시설·장비 현황"
+    ],
+    "section_context_candidate": "제8장. 국가과학기술종합정보시스템에 등록한 연구시설·장비 현황",
+    "prior_heading_candidate": {
+      "text": "제7장. 연구개발성과의 보안등급",
+      "pdf_page": 52
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 19,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 493,
+    "heading_candidates": [
+      "제9장. 연구개발과제 수행에 따른 연구실 등의 안전 조치 이행 실적",
+      "가. 참여연구원 전원 산업재해보험 가입"
+    ],
+    "section_context_candidate": "제9장. 연구개발과제 수행에 따른 연구실 등의 안전 조치 이행 실적",
+    "prior_heading_candidate": {
+      "text": "제8장. 국가과학기술종합정보시스템에 등록한 연구시설·장비 현황",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 120,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.44,
+          62.21,
+          451.32,
+          417.5
+        ],
+        "page_area_fraction": 0.2186
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 444,
+    "heading_candidates": [
+      "제10장. 연구개발과제의 대표적 연구 실적"
+    ],
+    "section_context_candidate": "제10장. 연구개발과제의 대표적 연구 실적",
+    "prior_heading_candidate": {
+      "text": "가. 참여연구원 전원 산업재해보험 가입",
+      "pdf_page": 54
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 96,
+      "2": 27,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 116,
+    "heading_candidates": [],
+    "section_context_candidate": "제10장. 연구개발과제의 대표적 연구 실적",
+    "prior_heading_candidate": {
+      "text": "제10장. 연구개발과제의 대표적 연구 실적",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 666,
+    "heading_candidates": [],
+    "section_context_candidate": "제10장. 연구개발과제의 대표적 연구 실적",
+    "prior_heading_candidate": {
+      "text": "제10장. 연구개발과제의 대표적 연구 실적",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 115,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 974,
+    "heading_candidates": [],
+    "section_context_candidate": "제10장. 연구개발과제의 대표적 연구 실적",
+    "prior_heading_candidate": {
+      "text": "제10장. 연구개발과제의 대표적 연구 실적",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 273,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 333,
+    "heading_candidates": [],
+    "section_context_candidate": "제10장. 연구개발과제의 대표적 연구 실적",
+    "prior_heading_candidate": {
+      "text": "제10장. 연구개발과제의 대표적 연구 실적",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 70,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 518,
+    "heading_candidates": [],
+    "section_context_candidate": "제10장. 연구개발과제의 대표적 연구 실적",
+    "prior_heading_candidate": {
+      "text": "제10장. 연구개발과제의 대표적 연구 실적",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 증빙 자료 목록 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "첨부 3. 기술화 성과 증빙자료",
+        "after": "구분 주요 내용 비고\n(파일명)\n1\n시험 성적서",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 93,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 101,
+    "heading_candidates": [],
+    "section_context_candidate": "제10장. 연구개발과제의 대표적 연구 실적",
+    "prior_heading_candidate": {
+      "text": "제10장. 연구개발과제의 대표적 연구 실적",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 5,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 996,
+    "heading_candidates": [
+      "1. 연구 성과 확보",
+      "가. Visual Editor 개발 완료",
+      "나. Cloud Console 개발 완료",
+      "다. Mobile Moduel 개발 완료",
+      "가. 실사용 기반 모바일 단말 스크립트 생성 방법",
+      "나. 상황정보 병기형 모바일 단말 스크립트 생성 방법"
+    ],
+    "section_context_candidate": "1. 연구 성과 확보",
+    "prior_heading_candidate": {
+      "text": "제10장. 연구개발과제의 대표적 연구 실적",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 255,
+      "2": 37,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 951,
+    "heading_candidates": [
+      "4. 과제기간 이후 사업화 활동 계획과 목표(연도별 5년) ········································11"
+    ],
+    "section_context_candidate": "4. 과제기간 이후 사업화 활동 계획과 목표(연도별 5년) ········································11",
+    "prior_heading_candidate": {
+      "text": "나. 상황정보 병기형 모바일 단말 스크립트 생성 방법",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 본 문 목 차 ",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "1. 글로벌 사업화 개요 ········································································································1\n2. 글로벌 진출 전략 대비 추진 실적 ··············································································9\n3. 과제기간 내 사업화 목표 달성도 ··············································································10\n4. 과제기간 이후 사업화 활동 계획과 목표(연도별 5년) ········································11",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 91,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 1354,
+    "heading_candidates": [
+      "제1장. 글로벌 사업화 개요"
+    ],
+    "section_context_candidate": "제1장. 글로벌 사업화 개요",
+    "prior_heading_candidate": {
+      "text": "4. 과제기간 이후 사업화 활동 계획과 목표(연도별 5년) ········································11",
+      "pdf_page": 63
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 337,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 697,
+    "heading_candidates": [],
+    "section_context_candidate": "제1장. 글로벌 사업화 개요",
+    "prior_heading_candidate": {
+      "text": "제1장. 글로벌 사업화 개요",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 41 Keynote 동작 화면, 테스트(좌), 모니터링(우)",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "Dynatrace의 Keynote는 Forrester가 뽑은 모바일 테스트 자동화 부분의 전략 및 시장 선\n두 주자임. 실제 모바일 디바이스에서 애플리케이션을 테스트할 수 있도록 클라우드 디바\n이스를 제공하며 테스트 프로세스를 자동화하여 애플리케이션의 품질을 보장하고 있음. 테스트 수행을 위한 코딩할 필요가 없고 개발이 완료된 모바일 애플리케이션을 웹 서비스\n로 전송하면 앱의 성능 테스트 및 기능 테스트를 진행 함.",
+        "after": "(2) Perfecto Mobile\nPerfecto Mobile 의 테스트 자동화 솔루션은 100여대의 클라우드 디바이스에 연결하여 실\n시간으로 테스트를 할 수 있는 솔루션을 제공함. 테스트 자동화는 고객이 원하는 자동화\n테스트 프레임워크를 사용할 수 있으며 가장 널리 사용되는 Selenium, Xamarin, HP,",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 42 Perfecto Mobile을 통한 Facebook Testing Diversity",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "Perfecto Mobile 의 테스트 자동화 솔루션은 100여대의 클라우드 디바이스에 연결하여 실\n시간으로 테스트를 할 수 있는 솔루션을 제공함. 테스트 자동화는 고객이 원하는 자동화\n테스트 프레임워크를 사용할 수 있으며 가장 널리 사용되는 Selenium, Xamarin, HP,\nEspresso 와 연동하여 사용이 가능함. 또한 Appium 과 Web Driver를 테스트도 가능함.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 153,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.7,
+          442.8,
+          508.77,
+          595.39
+        ],
+        "page_area_fraction": 0.1205
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.7,
+          90.98,
+          508.77,
+          262.87
+        ],
+        "page_area_fraction": 0.1357
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 667,
+    "heading_candidates": [],
+    "section_context_candidate": "제1장. 글로벌 사업화 개요",
+    "prior_heading_candidate": {
+      "text": "제1장. 글로벌 사업화 개요",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 43 Xamarin Test Cloud 동작 화면",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "Xamarin Test Cloud 는 세계 각국에서 출시되는 2000개가 넘는 기기를 보유하고 있으며\n매월 100여개 이상의 장치를 추가하고 모바일 애플리케이션 테스트 환경을 제공해 줌. Xamarin Test Cloud 는 Xamarin Studio 나 MS Visual Studio에서 작성한 테스트 코드 기반\n으로 동작할 수 있으며, 성능 모니터링 및 다수의 모바일 디바이스에서 병렬 테스트를 가\n능하게 해줌.",
+        "after": "(4) AWS Device Farm\n아마존의 AWS Device Farm 은 앱 테스트 서비스로서, 한 번에 많은 디바이스에서\nAndroid, iOS 및 웹 및 모바일 애플리케이션을 테스트를 할 수 있음. 다양한 물리적 디바\n이스에서 모바일 애플리케이션을 병렬로 테스트가 가능하며, 웹 브라우저에서 직접 실시",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 44 AWS Device Farm 핵심 기능",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "Android, iOS 및 웹 및 모바일 애플리케이션을 테스트를 할 수 있음. 다양한 물리적 디바\n이스에서 모바일 애플리케이션을 병렬로 테스트가 가능하며, 웹 브라우저에서 직접 실시\n간으로 디바이스를 동작하고, 쓸어 넘기고, 상호 작용을 통하여 고객 문제를 재현하고 새\n로운 기능을 테스트할 수 있음.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 149,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.7,
+          394.37,
+          515.0,
+          636.38
+        ],
+        "page_area_fraction": 0.1941
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.7,
+          47.47,
+          508.77,
+          197.9
+        ],
+        "page_area_fraction": 0.1188
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 575,
+    "heading_candidates": [
+      "3. 글로벌 사업화 결과물"
+    ],
+    "section_context_candidate": "3. 글로벌 사업화 결과물",
+    "prior_heading_candidate": {
+      "text": "제1장. 글로벌 사업화 개요",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 45 글로벌 서비스 구축 현황",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "(1) 클라우드 서비스\n글로벌 사용자의 접속을 커버할 수 있도록 네트워크 구축 및 실시간 동기화 서비스 구축. 어느 지역에서 접속하든 AWS 의 GDNS 서비스를 이용하여 가까운 리전의 서비스로 접속을\n유도하여 지연 없는 서비스를 제공할 수 있으며, 리전 간 스토리지의 실시간 동기화를 통\n하여 어느 지역에서든 동일한 결과를 실시간으로 확인할 수 있도록 구축되었음.",
+        "after": "최초 리전은 미국 동부(버지니아)와 서울로 구축하여 아메리카와 아시아 지역 서비스에 집\n중하고, 유럽 지역 사용량 증가 시 독일(프랑크푸르트)에 추가될 수 있도록 설계되었음. 각 리전의 서비스 구성은 동일하게 웹 서비스 이중화와 애플리케이션 서버의 오토스케일\n링이 적용되어 사용량 증가에 대한 대비가 되어 있으며 스토리지의 동기화를 통해 데이터\n의 오차가 없도록 설계되었음.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 138,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.43,
+          356.49,
+          522.68,
+          580.4
+        ],
+        "page_area_fraction": 0.1934
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 409,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 글로벌 사업화 결과물",
+    "prior_heading_candidate": {
+      "text": "3. 글로벌 사업화 결과물",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 46 리전 내 서버 구축도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 5 -",
+        "after": "(2) 글로벌 고객 대응 서비스\n글로벌 서비스의 최전선에 고객의 유입 및 고객 지원을 담당할 서비스를 구축하여 24시간\n제품 홍보를 할 수 있는 웹 서비스 오픈. 브랜드 사이트는 영어, 일본어, 한국어로\n서비스가 제공되고 있으며 사용자의 언어에 따라 지원하지 않는 언어는 영어로 표시하고",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 47 브랜드 사이트(좌)와 헬프 데스크(우)",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "제품 홍보를 할 수 있는 웹 서비스 오픈. 브랜드 사이트는 영어, 일본어, 한국어로\n서비스가 제공되고 있으며 사용자의 언어에 따라 지원하지 않는 언어는 영어로 표시하고\n있음. 헬프데스크는 알서포트의 각 지사에 담당자를 할당하여 24시간 이내에 대응할 수 있는\n체계를 갖추고 있으며, 동일하게 영어, 일본어, 한국어를 지원하고 있음.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 101,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.79,
+          493.62,
+          516.32,
+          784.42
+        ],
+        "page_area_fraction": 0.2438
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.36,
+          77.92,
+          532.75,
+          271.62
+        ],
+        "page_area_fraction": 0.1751
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 570,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 글로벌 사업화 결과물",
+    "prior_heading_candidate": {
+      "text": "3. 글로벌 사업화 결과물",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 48 Tstudio(visual editor) OS 언어 설정에 따른 3개국 언어 지원",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "연되는 시간을 절약하여 고객 만족도를 높일 수 있음. 나. 제품의 글로벌화 적용\n글로벌 서비스를 위해 OS 설정 언어에 따라 언어 서비스 제공함. 지원하지 않는 언어의\n경우 영어로 제공하고 있으며 웹 브라우저의 경우 사용자가 언어의 설정을 변경하여 원하는\n언어로 사용할 수 있음. (영문, 일문, 국문 3개국 언어 지원)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 138,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.23,
+          276.54,
+          507.93,
+          503.93
+        ],
+        "page_area_fraction": 0.1875
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 204,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 글로벌 사업화 결과물",
+    "prior_heading_candidate": {
+      "text": "3. 글로벌 사업화 결과물",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 49 Tconsole(cloud console) 사용자 언어 설정에 따른 3개국 언어 지원",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 7 -",
+        "after": "그림 50 Tpalyer(mobile module) 디바이스 언어 설정에 따른 3개국 언어 지원\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 50 Tpalyer(mobile module) 디바이스 언어 설정에 따른 3개국 언어 지원",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 7 -\n그림 49 Tconsole(cloud console) 사용자 언어 설정에 따른 3개국 언어 지원",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 30,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.19,
+          596.95,
+          509.85,
+          784.42
+        ],
+        "page_area_fraction": 0.1561
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.0,
+          367.76,
+          526.16,
+          540.01
+        ],
+        "page_area_fraction": 0.1546
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 908,
+    "heading_candidates": [
+      "4. 수행기관별(주관기관/참여기관) 사업화 결과물 도출을 위한 역할"
+    ],
+    "section_context_candidate": "4. 수행기관별(주관기관/참여기관) 사업화 결과물 도출을 위한 역할",
+    "prior_heading_candidate": {
+      "text": "3. 글로벌 사업화 결과물",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 212,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 72,
+    "text_characters": 719,
+    "heading_candidates": [
+      "제2장. 글로벌 진출 전략 대비 추진 실적"
+    ],
+    "section_context_candidate": "제2장. 글로벌 진출 전략 대비 추진 실적",
+    "prior_heading_candidate": {
+      "text": "4. 수행기관별(주관기관/참여기관) 사업화 결과물 도출을 위한 역할",
+      "pdf_page": 71
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 166,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 73,
+    "text_characters": 394,
+    "heading_candidates": [
+      "제3장. 과제기간 내 사업화 목표 및 달성도"
+    ],
+    "section_context_candidate": "제3장. 과제기간 내 사업화 목표 및 달성도",
+    "prior_heading_candidate": {
+      "text": "제2장. 글로벌 진출 전략 대비 추진 실적",
+      "pdf_page": 72
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 78,
+      "2": 22,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 74,
+    "text_characters": 1222,
+    "heading_candidates": [
+      "제4장. 과제기간 이후 사업화 활용 계획과 목표(연도별 5년)"
+    ],
+    "section_context_candidate": "제4장. 과제기간 이후 사업화 활용 계획과 목표(연도별 5년)",
+    "prior_heading_candidate": {
+      "text": "제3장. 과제기간 내 사업화 목표 및 달성도",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 314,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 75,
+    "text_characters": 241,
+    "heading_candidates": [
+      "4. 글로벌 성과 목표 (연도별 5년)"
+    ],
+    "section_context_candidate": "4. 글로벌 성과 목표 (연도별 5년)",
+    "prior_heading_candidate": {
+      "text": "제4장. 과제기간 이후 사업화 활용 계획과 목표(연도별 5년)",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 57,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 76,
+    "text_characters": 1657,
+    "heading_candidates": [
+      "제5장. 경제적 파급효과",
+      "1. 수출 증대 효과"
+    ],
+    "section_context_candidate": "제5장. 경제적 파급효과",
+    "prior_heading_candidate": {
+      "text": "4. 글로벌 성과 목표 (연도별 5년)",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 460,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 77,
+    "text_characters": 1317,
+    "heading_candidates": [
+      "4. 기타 효과"
+    ],
+    "section_context_candidate": "4. 기타 효과",
+    "prior_heading_candidate": {
+      "text": "1. 수출 증대 효과",
+      "pdf_page": 76
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "알서포트의 인력 계획",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "증가율 (평균 15%) - 18% 12%\n연구인력 (명) 113 141 158\n마케팅/관리인력 (명) 76 82 92\n전년기준 신규채용인력 (명) - 34 27",
+        "after": "4. 기타 효과\nIT업계를 중심으로 디지털트랜스포메이션이 이루어지고 있으며, Agile, DevOps 등 많은 사\n례를 적용하고 있음. 이 두 가지는 변화에 빠르게 대응할 수 있는 특징을 가지고 있으며\n테스트 자동화가 기본 전제가 지원되어야 완전하게 적용될 수 있음. 본 과제는 테스트 자",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 357,
+      "2": 20,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 78,
+    "text_characters": 403,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 기타 효과",
+    "prior_heading_candidate": {
+      "text": "4. 기타 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 51 파트너 협약 문서 (MSK)",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "및 기술지원 협약을 맺었으며, 이익 공유를 통한 공격적인 시장 진출 전략을 세우고 있음. 가. MSK INNOVATION SDN. BHD\n말레이시아의 위치한 IT전문 중소기업으로 정부의 IT 사업 수주 및 납품을 통해 매출을\n올리고 있으며, 정부 사업 중심으로 래퍼런스 구축 후 사업 확대 방향으로 전략을 세우고\n있음. 2019년 1월 파트너 협약 완료.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 93,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.63,
+          232.55,
+          515.48,
+          525.98
+        ],
+        "page_area_fraction": 0.245
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 79,
+    "text_characters": 265,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 기타 효과",
+    "prior_heading_candidate": {
+      "text": "4. 기타 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 52 파트너 협약 문서 (SUPA TECH)",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "나. SUPA TECH\n호주에 위치한 IT 관련 솔루션 및 컨설팅 전문 업체로 산학연을 통해 지역 대학교 네트워\n크를 구성하고 있으며 시드니 전역에 IT 서비스 제공 및 SW 개발 및 공급을 하는 업체임.\n2019년 3월 파트너 협약 완료.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 56,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.92,
+          388.38,
+          518.96,
+          685.41
+        ],
+        "page_area_fraction": 0.263
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 80,
+    "text_characters": 498,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 기타 효과",
+    "prior_heading_candidate": {
+      "text": "4. 기타 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 53 MWC 2017 America 부스, TAAS 시연",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "스스로 테스트하고 보고하는 솔루션으로 통합이 가능함을 강조하고 있음, 모바일 디바이스\n제조사에게는 출시 전 테스트를 자동화함으로써 프리로드 되는 모바일 애플리케이션의 호\n환성 검증 및 핵심 애플리케이션 부하 테스트를 자동으로 수행하고 결함을 발견하는 솔루\n션으로 통합 가능함을 강조함.",
+        "after": "그림 54 MWC 2017 America 관련 보도 자료 (7건)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 54 MWC 2017 America 관련 보도 자료 (7건)",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "제조사에게는 출시 전 테스트를 자동화함으로써 프리로드 되는 모바일 애플리케이션의 호\n환성 검증 및 핵심 애플리케이션 부하 테스트를 자동으로 수행하고 결함을 발견하는 솔루\n션으로 통합 가능함을 강조함.\n그림 53 MWC 2017 America 부스, TAAS 시연",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 109,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.34,
+          325.32,
+          478.42,
+          556.43
+        ],
+        "page_area_fraction": 0.1672
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.26,
+          100.57,
+          485.62,
+          276.78
+        ],
+        "page_area_fraction": 0.1325
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 81,
+    "text_characters": 379,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 기타 효과",
+    "prior_heading_candidate": {
+      "text": "4. 기타 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 55 MWC 2018 바르셀로나, Best of MIK 수상, AVING방송 캡처",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "2018년 3월 MWC 2018 바르셀로나에 참여하여 글로벌 진출을 위한 파트너 업체를 선정하\n기 위한 마케팅 활동 강화 및 글로벌 캐리어들에게 직접적인 푸시를 통해 일본의 NTT도코\n모, 프랑스의 브이그 텔레콤의 관심을 이끌어 내고 실제 비즈니스 진행을 위한 미팅을 진\n행함. 또한 Best of MIK를 수상하며 제품의 우수성을 인정받았음.",
+        "after": "그림 56 MWC 2018 바르셀로나 관련 보도자료 (12건)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 56 MWC 2018 바르셀로나 관련 보도자료 (12건)",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "기 위한 마케팅 활동 강화 및 글로벌 캐리어들에게 직접적인 푸시를 통해 일본의 NTT도코\n모, 프랑스의 브이그 텔레콤의 관심을 이끌어 내고 실제 비즈니스 진행을 위한 미팅을 진\n행함. 또한 Best of MIK를 수상하며 제품의 우수성을 인정받았음.\n그림 55 MWC 2018 바르셀로나, Best of MIK 수상, AVING방송 캡처",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 85,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.83,
+          446.39,
+          495.93,
+          652.93
+        ],
+        "page_area_fraction": 0.1639
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.79,
+          176.21,
+          498.09,
+          397.96
+        ],
+        "page_area_fraction": 0.1778
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 82,
+    "text_characters": 637,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 기타 효과",
+    "prior_heading_candidate": {
+      "text": "4. 기타 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 57 Tech Day Japan 2017 데모 부스",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "나. 신제품 발표회 개최 및 컨설팅\n2017년 11월 일본 내에서 알서포트 Tech Day를 통하여 파트너사와 기존 고객사, 유관 업\n체를 대상으로 모바일 테스트 자동화 솔루션에 대한 신제품 발표 소개 및 데모를 시연. 당사가 주최하는 Tech Day는 일본의 NTTdocomo를 포함하여 소프트웨어 유통, 개발, 하드\n웨어 제조까지 다양한 산업군의 참관객이 방문하기에 제품의 홍보 파급력이 높음.",
+        "after": "그림 58 알서포트 테크데이 2017_Japan 보도자료 (5건)\n2018년 11월 Tech Day Japan을 개최하고 일본 내 파트너사와 IT 관계자 150여명 대상으\n로 자사 서비스 및 테스트 자동화 솔루션에 대한 소개 및 데모를 진행. 또한 테크 토크를\n통해 테스트 자동화 도입의 애로 사항 해결 및 원-포인트 컨설팅을 통해 일본 시장의 가",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 58 알서포트 테크데이 2017_Japan 보도자료 (5건)",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "2017년 11월 일본 내에서 알서포트 Tech Day를 통하여 파트너사와 기존 고객사, 유관 업\n체를 대상으로 모바일 테스트 자동화 솔루션에 대한 신제품 발표 소개 및 데모를 시연. 당사가 주최하는 Tech Day는 일본의 NTTdocomo를 포함하여 소프트웨어 유통, 개발, 하드\n웨어 제조까지 다양한 산업군의 참관객이 방문하기에 제품의 홍보 파급력이 높음.\n그림 57 Tech Day Japan 2017 데모 부스",
+        "after": "2018년 11월 Tech Day Japan을 개최하고 일본 내 파트너사와 IT 관계자 150여명 대상으\n로 자사 서비스 및 테스트 자동화 솔루션에 대한 소개 및 데모를 진행. 또한 테크 토크를\n통해 테스트 자동화 도입의 애로 사항 해결 및 원-포인트 컨설팅을 통해 일본 시장의 가\n능성을 확인하는 기회가 됨. 또한 2019년 4월 23일 NTT Docomo 본사에서 이동기개발부",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 161,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.16,
+          423.86,
+          515.72,
+          669.47
+        ],
+        "page_area_fraction": 0.2143
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.08,
+          160.38,
+          513.8,
+          379.74
+        ],
+        "page_area_fraction": 0.1897
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 83,
+    "text_characters": 167,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 기타 효과",
+    "prior_heading_candidate": {
+      "text": "4. 기타 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 59 Tech Day Japan 2018 TAAS 발표",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 20 -",
+        "after": "그림 60 알서포트 테크데이 2018, 일본 보도 자료 (9건)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 60 알서포트 테크데이 2018, 일본 보도 자료 (9건)",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 20 -\n그림 59 Tech Day Japan 2018 TAAS 발표",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 25,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.15,
+          512.92,
+          506.61,
+          784.42
+        ],
+        "page_area_fraction": 0.227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.19,
+          292.36,
+          504.69,
+          469.05
+        ],
+        "page_area_fraction": 0.1464
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 84,
+    "text_characters": 328,
+    "heading_candidates": [
+      "가. 실사용 기반 모바일단말 스크립트 생성 방법",
+      "나. 상황정보 병기형 실사용 기반 모바일단말 스크립트 생성 방법"
+    ],
+    "section_context_candidate": "가. 실사용 기반 모바일단말 스크립트 생성 방법",
+    "prior_heading_candidate": {
+      "text": "4. 기타 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 66,
+      "3": 2,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.8,
+          399.16,
+          512.96,
+          665.51
+        ],
+        "page_area_fraction": 0.2295
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.28,
+          53.82,
+          515.72,
+          297.15
+        ],
+        "page_area_fraction": 0.2122
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 85,
+    "text_characters": 408,
+    "heading_candidates": [
+      "다. 성과"
+    ],
+    "section_context_candidate": "다. 성과",
+    "prior_heading_candidate": {
+      "text": "나. 상황정보 병기형 실사용 기반 모바일단말 스크립트 생성 방법",
+      "pdf_page": 84
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 64 NewsWatchTV 영상 캡처",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "다. 성과\n(1) Television Distribution (AMC) : 95,033,652 views\n(2) Digital Distribution(Media Syndication) : 619,162 회\n(3) Digital Distribution(Social Media) : 218,723 회",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 66,
+      "3": 2,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          382.62,
+          538.27,
+          596.95
+        ],
+        "page_area_fraction": 0.2063
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          74.08,
+          538.27,
+          349.66
+        ],
+        "page_area_fraction": 0.2653
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 86,
+    "text_characters": 440,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 성과",
+    "prior_heading_candidate": {
+      "text": "다. 성과",
+      "pdf_page": 85
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 102,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.84,
+          229.55,
+          520.04,
+          534.02
+        ],
+        "page_area_fraction": 0.2709
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 87,
+    "text_characters": 462,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 성과",
+    "prior_heading_candidate": {
+      "text": "다. 성과",
+      "pdf_page": 85
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 66 알서포트 테크데이 2018, 한국 보도자료 (7건)",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "가. 알서포트 테크데이, 한국\n(1) 일자 : 2018. 03. 22\n(2) 주관 : 알서포트\n(3) 주제 : 신제품 공개, TAAS",
+        "after": "나. 본격적인 SW시대 – 품질혁신이야말로 화룡정점\n(1) 일자 : 2017. 05. 18\n(2) 주관 : 소프트웨어정책연구소, MDS테크놀로지, 펜타시스템즈, ㈜싱크에이티\n(3) 주제 : 모바일 테스트 자동화의 중요성과 도입 시 고려 사항",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 106,
+      "3": 2,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          501.53,
+          519.92,
+          679.42
+        ],
+        "page_area_fraction": 0.1582
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          97.33,
+          517.4,
+          312.5
+        ],
+        "page_area_fraction": 0.1892
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 88,
+    "text_characters": 568,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 성과",
+    "prior_heading_candidate": {
+      "text": "다. 성과",
+      "pdf_page": 85
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 68 데이터와 소프트웨어 품질 세미나 아젠다, TAAS 파트",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "(2) 주관 : 하이테크 정보\n(3) 주제 : MWC2018 모바일품질분야에서 전 세계적인 관심을 모은 전략 SW는?\n(4) 부 주제 : 사용자 행위 기반의 테스트 자동화 시스템을 통한 절대시간과 투입 리소스\n절감 효과, 도입과 유지보수는 TAAS가 지원한다.",
+        "after": "라. SW 품질에도 신의 한수가 있다.\n(1) 일자 : 2019. 04. 05\n(2) 주관 : 한컴 MDS, 법률사무소베이시스, 하이테크 정보\n(3) 주제 : 모바일품질향상을 위한 Sprint 운영전략 및 사례",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 69 SW품질에도 신의 한수가 있다 세미나 아젠다, TAAS 파트",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "(2) 주관 : 한컴 MDS, 법률사무소베이시스, 하이테크 정보\n(3) 주제 : 모바일품질향상을 위한 Sprint 운영전략 및 사례\n(4) 부 주제 : 높은 품질을 유지하면서 빠른 릴리즈를 실행하기 위한 스프린트 운영방안과\n모바일 테스트 자동화 도구 개발에 적용한 사례",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 132,
+      "3": 2,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.47,
+          447.47,
+          508.29,
+          652.45
+        ],
+        "page_area_fraction": 0.1728
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.59,
+          56.46,
+          505.17,
+          258.32
+        ],
+        "page_area_fraction": 0.1676
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 89,
+    "text_characters": 508,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 성과",
+    "prior_heading_candidate": {
+      "text": "다. 성과",
+      "pdf_page": 85
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 72,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.85,
+          543.25,
+          535.03,
+          728.92
+        ],
+        "page_area_fraction": 0.1763
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 90,
+    "text_characters": 507,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 성과",
+    "prior_heading_candidate": {
+      "text": "다. 성과",
+      "pdf_page": 85
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 106,
+      "2": 28,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 91,
+    "text_characters": 511,
+    "heading_candidates": [
+      "1. 주관기관 과제 추진 현황 (단위: 백만원)",
+      "2. 참여기관 과제 추진 현황"
+    ],
+    "section_context_candidate": "1. 주관기관 과제 추진 현황 (단위: 백만원)",
+    "prior_heading_candidate": {
+      "text": "다. 성과",
+      "pdf_page": 85
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 133,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 92,
+    "text_characters": 1053,
+    "heading_candidates": [
+      "1. 국내 매출을 위한 추진 실적",
+      "2. 국외 수출을 위한 추진 실적"
+    ],
+    "section_context_candidate": "1. 국내 매출을 위한 추진 실적",
+    "prior_heading_candidate": {
+      "text": "2. 참여기관 과제 추진 현황",
+      "pdf_page": 91
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 268,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.46,
+          266.71,
+          493.41,
+          534.73
+        ],
+        "page_area_fraction": 0.2099
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 93,
+    "text_characters": 396,
+    "heading_candidates": [
+      "4 글로벌 마케팅 성과 보고서_NewsWatchTV"
+    ],
+    "section_context_candidate": "4 글로벌 마케팅 성과 보고서_NewsWatchTV",
+    "prior_heading_candidate": {
+      "text": "2. 국외 수출을 위한 추진 실적",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 증빙 자료 목록 ",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 30 -\n첨부 4. 사업화 성과 증빙자료",
+        "after": "구분 주요 내용 비고\n(파일명)\n1 파트너 협약서_말레이시아 (MSK INNOVATION SDN.BHD.)\nRsupport_MSK",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 67,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

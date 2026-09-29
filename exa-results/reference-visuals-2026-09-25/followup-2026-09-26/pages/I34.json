@@ -1,0 +1,2288 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 2032,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 265,
+      "2": 179,
+      "5": 7
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1579,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 414,
+      "2": 102,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 814,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "□ 플랫폼 활용"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1. 시험데이터 플랫폼 구성개념도",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "서비스를 제공함\n○ 본 사업을 통해서 시급히 필요한 일부 응용프로그램을 개발하고 향후 다양한 응용프로그램이 플랫폼을\n활용할 수 있도록 인터페이스를 구성함\n○ 데이터 표준화를 통해 응용프로그램의 개발비용과 시간을 절약",
+        "after": "□ 플랫폼 활용\n○ 플랫폼에는 다양한 응용프로그램이 연동되며 데이터 확보를 위한 응용프로그램과 데이터를 활용하여\n서비스를 제공하는 응용프로그램으로 구성됨\n○ 기업체에서 시급히 요청하고 있는 데이터 서비스와 시험 효율을 증대시킬 수 있는 응용프로그램을",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2. 시험데이터 플랫폼의 활용",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "플랫폼 활용\n(데이터 확보)\n플랫폼 활용\n(서비스)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 176,
+      "3": 3,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.45,
+          386.46,
+          457.55,
+          609.41
+        ],
+        "page_area_fraction": 0.1426
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.48,
+          63.85,
+          429.3,
+          218.12
+        ],
+        "page_area_fraction": 0.0761
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.48,
+          63.85,
+          429.3,
+          218.12
+        ],
+        "page_area_fraction": 0.0761
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 686,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "□ 데이터 활용"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "□ 플랫폼 활용",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 3. 기술개발 로드맵",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 2 -\n2. 연구개발과제의 수행 과정 및 수행 내용\n(1) 기술개발 로드맵",
+        "after": "□ 데이터 확보기술\n○ 신규데이터 측정기술을 개발하여 그동안 제공하지 못하였지만, 제품개발에 중요한 정보를 제공할 수\n있는 데이터를 확보\n○ 데이터의 측정 품질을 개선하여 보다 정확하고 신뢰성 있는 데이터를 확보하고 결과분석 및 제품개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 156,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          570.58,
+          493.41,
+          762.37
+        ],
+        "page_area_fraction": 0.1502
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 698,
+    "heading_candidates": [
+      "가) iTRV 분석장비 개발(3차년도)"
+    ],
+    "section_context_candidate": "가) iTRV 분석장비 개발(3차년도)",
+    "prior_heading_candidate": {
+      "text": "□ 데이터 활용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 4. 자동회로 개념도",
+        "line_index": 26,
+        "toc_like": false,
+        "before": "1) 데이터 확보\n가) iTRV 분석장비 개발(3차년도)\n□ SLF회로 분석 자동화\n○ 분석장비에서 원격으로 조작하며 변경된 회로의 분석을 자동실시",
+        "after": "○ 분석프로세스\n∎ 1단계: 최적 파라미터 탐색\n그림 5. 최적 파라미터 탐색화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 5. 최적 파라미터 탐색화면",
+        "line_index": 29,
+        "toc_like": false,
+        "before": "○ 분석장비에서 원격으로 조작하며 변경된 회로의 분석을 자동실시\n그림 4. 자동회로 개념도\n○ 분석프로세스\n∎ 1단계: 최적 파라미터 탐색",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 166,
+      "2": 45,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          397.35,
+          699.08,
+          525.56,
+          736.35
+        ],
+        "page_area_fraction": 0.0096
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.22,
+          287.92,
+          484.9,
+          437.64
+        ],
+        "page_area_fraction": 0.1121
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.36,
+          52.86,
+          452.76,
+          219.48
+        ],
+        "page_area_fraction": 0.1034
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 190,
+    "heading_candidates": [],
+    "section_context_candidate": "가) iTRV 분석장비 개발(3차년도)",
+    "prior_heading_candidate": {
+      "text": "가) iTRV 분석장비 개발(3차년도)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 6. 후보생성 및 자동 선로반영",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 4 -\n∎ 2단계~5단계: 자동분석",
+        "after": "그림 7. 예상결과 및 실측데이터 분석\n∎ 전체 프로세스\n그림 8. 예상결과 및 실측데이터 분석\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 7. 예상결과 및 실측데이터 분석",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 4 -\n∎ 2단계~5단계: 자동분석\n그림 6. 후보생성 및 자동 선로반영",
+        "after": "∎ 전체 프로세스\n그림 8. 예상결과 및 실측데이터 분석\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 8. 예상결과 및 실측데이터 분석",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "∎ 2단계~5단계: 자동분석\n그림 6. 후보생성 및 자동 선로반영\n그림 7. 예상결과 및 실측데이터 분석\n∎ 전체 프로세스",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 35,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.76,
+          647.41,
+          294.8,
+          766.2
+        ],
+        "page_area_fraction": 0.0525
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.92,
+          646.93,
+          521.36,
+          768.6
+        ],
+        "page_area_fraction": 0.0551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.73,
+          492.66,
+          298.28,
+          622.48
+        ],
+        "page_area_fraction": 0.0627
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          298.28,
+          492.78,
+          538.39,
+          621.76
+        ],
+        "page_area_fraction": 0.0619
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.31,
+          214.57,
+          492.82,
+          438.24
+        ],
+        "page_area_fraction": 0.1746
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 596,
+    "heading_candidates": [],
+    "section_context_candidate": "가) iTRV 분석장비 개발(3차년도)",
+    "prior_heading_candidate": {
+      "text": "가) iTRV 분석장비 개발(3차년도)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 9.기존 인공선로(K=1.6) 그림 10.삼각파 구현을 위한 인공선로(K=1.6~1.8) - 기존 인공선로는 초기 tdl은 규정을 충족하지만 삼각파를 유지하지 못하여 시험품질이 낮고",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "R\nC\nLS\nLR",
+        "after": "상대적으로 덜 가혹한 조건임\n- 또한 구성요소의 형상과 배치가 최적화 되지 못하여 회로준비에 어려움이 따름\n- K=1.6~1.8의 신규 회로를 이용 초기상승부분이 직선형태로 개선되어 삼각파형과 제일 유사한\n파형이 생성되어 규격의 시험가혹도를 구현할 수 있음",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 137,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          270.45,
+          519.27,
+          482.38,
+          663.71
+        ],
+        "page_area_fraction": 0.0612
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          53.25,
+          132.82,
+          544.03,
+          360.92
+        ],
+        "page_area_fraction": 0.2237
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 279,
+    "heading_candidates": [],
+    "section_context_candidate": "가) iTRV 분석장비 개발(3차년도)",
+    "prior_heading_candidate": {
+      "text": "가) iTRV 분석장비 개발(3차년도)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 11.기존 인공고장선로k=1.6 그림 12.신규 인공고장선로 k=1.6~1.8",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "○ 실적\n∎ 신규인공고장선로 제작\n- 개선 인공고장선로 topology 적용 및 72.5kV~170kV 소요정격에 대한 파라메터 값 산정\n- 산정된 값을 바탕으로 신규 인공고장선로 구조물 제작 완료",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 51,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.44,
+          660.36,
+          459.71,
+          783.58
+        ],
+        "page_area_fraction": 0.0786
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.21,
+          295.12,
+          260.98,
+          580.41
+        ],
+        "page_area_fraction": 0.1128
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.95,
+          295.12,
+          538.15,
+          580.41
+        ],
+        "page_area_fraction": 0.1324
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 340,
+    "heading_candidates": [],
+    "section_context_candidate": "가) iTRV 분석장비 개발(3차년도)",
+    "prior_heading_candidate": {
+      "text": "가) iTRV 분석장비 개발(3차년도)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 13.신규 인공고장선로를 이용한 170kV 차단기 L90 시험",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 7 -\n∎ 실증시험 실시\n- 제작한 인공고장선로를 이용하여 SLF시험 실시\n- 170kV 50kA 60Hz SLF(L90) 시험을 통한 완료",
+        "after": "그림 14.시험 결과 파형\n○ 기술적성과\n∎ 규격에서 규정한 삼각파와 동일한 시험가혹도를 구현하는 기술 구축\n○ 기대효과",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 14.시험 결과 파형",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "∎ 실증시험 실시\n- 제작한 인공고장선로를 이용하여 SLF시험 실시\n- 170kV 50kA 60Hz SLF(L90) 시험을 통한 완료\n그림 13.신규 인공고장선로를 이용한 170kV 차단기 L90 시험",
+        "after": "○ 기술적성과\n∎ 규격에서 규정한 삼각파와 동일한 시험가혹도를 구현하는 기술 구축\n○ 기대효과\n∎ 신규 인공고장선로를 이용하여 삼각파에 가까운 itrv 구현을 통한 시험 품질 향상",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 74,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.76,
+          503.69,
+          336.78,
+          737.67
+        ],
+        "page_area_fraction": 0.1272
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          356.81,
+          503.57,
+          530.23,
+          738.63
+        ],
+        "page_area_fraction": 0.0815
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 554,
+    "heading_candidates": [],
+    "section_context_candidate": "가) iTRV 분석장비 개발(3차년도)",
+    "prior_heading_candidate": {
+      "text": "가) iTRV 분석장비 개발(3차년도)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 15.기존 인공선로 그림 16.개선 인공선로",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "- 개선 인공선로 고안 및 파라미터 값 산정 후 회로 시뮬레이션 완료\n- 시뮬레이션 데이터를 기반으로 한 실증(TC-5, 420kV 63kA 50Hz L90 수행 파라미터 기준) 완료\n- 시뮬레이션 및 실증 데이터로 검증된 파라미터 값(Lp) 리액터 제작 완료\n∎ 관련 회로",
+        "after": "그림 17.시뮬레이션 구성 그림 18.시뮬레이션을 통한 tdL 개선 파라\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 17.시뮬레이션 구성 그림 18.시뮬레이션을 통한 tdL 개선 파라",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "- 시뮬레이션 데이터를 기반으로 한 실증(TC-5, 420kV 63kA 50Hz L90 수행 파라미터 기준) 완료\n- 시뮬레이션 및 실증 데이터로 검증된 파라미터 값(Lp) 리액터 제작 완료\n∎ 관련 회로\n그림 15.기존 인공선로 그림 16.개선 인공선로",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 143,
+      "3": 4,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          52.29,
+          451.67,
+          264.22,
+          596.11
+        ],
+        "page_area_fraction": 0.0612
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.08,
+          450.23,
+          542.83,
+          603.78
+        ],
+        "page_area_fraction": 0.0763
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.13,
+          247.29,
+          260.98,
+          392.81
+        ],
+        "page_area_fraction": 0.0596
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          295.88,
+          246.57,
+          538.87,
+          396.77
+        ],
+        "page_area_fraction": 0.0729
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 323,
+    "heading_candidates": [],
+    "section_context_candidate": "가) iTRV 분석장비 개발(3차년도)",
+    "prior_heading_candidate": {
+      "text": "가) iTRV 분석장비 개발(3차년도)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 19.신규 제작 tdl 용 리액터(Lp) 그림 20.420kV 63kA 50Hz L90 tdl=0.1μs 구현 파형",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 9 -",
+        "after": "○ 기술적성과\n∎ 규격에서 규정한 tdL 0.1 us과 동일한 시험가혹도를 구현하는 기술 구축\n○ 기대효과\n∎ Live tank SLF 지연시간용(tdL) 추가 회로 구축으로 tdL 0.1 us을 구현하여 초고압 Live tank",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 75,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          616.13,
+          225.96,
+          798.57
+        ],
+        "page_area_fraction": 0.0648
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          265.9,
+          616.37,
+          530.95,
+          797.85
+        ],
+        "page_area_fraction": 0.0961
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 862,
+    "heading_candidates": [
+      "다) 아크전압/전류 측정장비 개발"
+    ],
+    "section_context_candidate": "다) 아크전압/전류 측정장비 개발",
+    "prior_heading_candidate": {
+      "text": "가) iTRV 분석장비 개발(3차년도)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "표 2. 데이터 제공 실적",
+        "line_index": 33,
+        "toc_like": false,
+        "before": "550 1 1\n실적\n년도별 37 63\n총 100",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 215,
+      "3": 3,
+      "2": 42,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.13,
+          460.3,
+          219.84,
+          548.52
+        ],
+        "page_area_fraction": 0.0289
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          226.56,
+          460.3,
+          389.55,
+          548.52
+        ],
+        "page_area_fraction": 0.0287
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          402.14,
+          427.09,
+          552.06,
+          565.78
+        ],
+        "page_area_fraction": 0.0416
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 274,
+    "heading_candidates": [],
+    "section_context_candidate": "다) 아크전압/전류 측정장비 개발",
+    "prior_heading_candidate": {
+      "text": "다) 아크전압/전류 측정장비 개발",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 21. 자료신청양식",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 11 -\n- CZM 측정데이터 요청 양식",
+        "after": "○ 기술적성과\n∎ 프로그램을 통한 시험 결과 DATA 분석으로 중전기기 업체 기술 지원\n∎ 차단 특성 분석으로 개발시간 단축 및 개발 원가 절감\n○ 기대효과",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 56,
+      "3": 1,
+      "5": 2
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.59,
+          361.64,
+          419.54,
+          708.66
+        ],
+        "page_area_fraction": 0.1692
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1330,
+    "heading_candidates": [
+      "□ 노이즈 프리 스트로크 센서 개발"
+    ],
+    "section_context_candidate": "□ 노이즈 프리 스트로크 센서 개발",
+    "prior_heading_candidate": {
+      "text": "다) 아크전압/전류 측정장비 개발",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "표 3 개발품 기술 사양",
+        "line_index": 26,
+        "toc_like": false,
+        "before": "속도 ≤ 20 m/s SPD 전압제한용\nResolution ≥ 12 bit 광통신모듈 Multi-mode 850&1300 nm\nInput Type Absolute 무게 ≤1.5Kg\nIP 67 내구성 LI, SI <1kV",
+        "after": "제품의 구성도 제품 내부 구성 사진\n○ 기술적성과\n∎ 노이즈프리 스트로크 센서 개발을 통해 시험적용을 통해 보다 정확한 개폐장치의 성능 분석\n가능함, 이러한 방법은 세계 최초임",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 335,
+      "2": 26,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.13,
+          168.06,
+          308.35,
+          319.45
+        ],
+        "page_area_fraction": 0.0763
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.71,
+          160.15,
+          557.1,
+          337.43
+        ],
+        "page_area_fraction": 0.0848
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 189,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 노이즈 프리 스트로크 센서 개발",
+    "prior_heading_candidate": {
+      "text": "□ 노이즈 프리 스트로크 센서 개발",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 31,
+      "3": 4,
+      "2": 11,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.13,
+          567.94,
+          216.36,
+          762.01
+        ],
+        "page_area_fraction": 0.0621
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          226.56,
+          568.3,
+          386.79,
+          761.53
+        ],
+        "page_area_fraction": 0.0619
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          411.5,
+          669.59,
+          542.47,
+          764.4
+        ],
+        "page_area_fraction": 0.0248
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          411.5,
+          565.54,
+          542.47,
+          663.47
+        ],
+        "page_area_fraction": 0.0256
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 886,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 노이즈 프리 스트로크 센서 개발",
+    "prior_heading_candidate": {
+      "text": "□ 노이즈 프리 스트로크 센서 개발",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 23.성적서 데이터 확보 및 활용 서비스 구성도",
+        "line_index": 26,
+        "toc_like": false,
+        "before": "· 시퀀스 정보 확보 및 분석 기능 개발 완료\n- 데이터 연동 기능 (‘23.05 ~ ’23.12)\n· 구조화된 XML 데이터 전달 및 DB 연동 기능 개발 완료\n- 관련사진",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 233,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.03,
+          174.65,
+          509.96,
+          397.01
+        ],
+        "page_area_fraction": 0.1888
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 554,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 노이즈 프리 스트로크 센서 개발",
+    "prior_heading_candidate": {
+      "text": "□ 노이즈 프리 스트로크 센서 개발",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 24.성적서 데이터 입력 기능",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 15 -",
+        "after": "그림 25.성적서 데이터 출력 기능\n그림 26.데이터 관리 기능\n그림 27.데이터 연동\n기능",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 25.성적서 데이터 출력 기능",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 15 -\n그림 24.성적서 데이터 입력 기능",
+        "after": "그림 26.데이터 관리 기능\n그림 27.데이터 연동\n기능\n∎ 고전압 부분",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 26.데이터 관리 기능",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 15 -\n그림 24.성적서 데이터 입력 기능\n그림 25.성적서 데이터 출력 기능",
+        "after": "그림 27.데이터 연동\n기능\n∎ 고전압 부분\n- 고전압 데이터 추출 대상장비 선정 및 데이터 확보, 처리방식 선정",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 27.데이터 연동",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 15 -\n그림 24.성적서 데이터 입력 기능\n그림 25.성적서 데이터 출력 기능\n그림 26.데이터 관리 기능",
+        "after": "기능\n∎ 고전압 부분\n- 고전압 데이터 추출 대상장비 선정 및 데이터 확보, 처리방식 선정\n·임펄스전압시험, 장기시험(염무시험, 복합열화시험)의 데이터 내용 확인 및 처리 방식 선정",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 152,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          49.89,
+          665.63,
+          293.6,
+          798.57
+        ],
+        "page_area_fraction": 0.0647
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          303.56,
+          665.99,
+          545.11,
+          796.77
+        ],
+        "page_area_fraction": 0.0631
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.57,
+          458.38,
+          364.84,
+          595.75
+        ],
+        "page_area_fraction": 0.0827
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          429.85,
+          471.44,
+          531.67,
+          612.17
+        ],
+        "page_area_fraction": 0.0286
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 237,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 노이즈 프리 스트로크 센서 개발",
+    "prior_heading_candidate": {
+      "text": "□ 노이즈 프리 스트로크 센서 개발",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 46,
+      "3": 6,
+      "2": 19,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.4,
+          667.31,
+          292.4,
+          790.06
+        ],
+        "page_area_fraction": 0.0552
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.6,
+          667.31,
+          527.6,
+          790.06
+        ],
+        "page_area_fraction": 0.0552
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.4,
+          513.64,
+          292.4,
+          636.38
+        ],
+        "page_area_fraction": 0.0552
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          303.2,
+          514.12,
+          527.0,
+          635.9
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.27,
+          318.73,
+          262.54,
+          481.15
+        ],
+        "page_area_fraction": 0.0536
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.67,
+          321.01,
+          520.52,
+          479.0
+        ],
+        "page_area_fraction": 0.0666
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 423,
+    "heading_candidates": [
+      "2) 데이터 플랫폼 개발",
+      "가) 플랫폼 활용 컴포넌트 개발",
+      "□ CIM 모델을 활용한 데이터 추출 플랫폼"
+    ],
+    "section_context_candidate": "2) 데이터 플랫폼 개발",
+    "prior_heading_candidate": {
+      "text": "□ 노이즈 프리 스트로크 센서 개발",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 28. CIM 모델 예시(G1-CLR 전단 Line)",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "∎ 데이터 추출기능 개발(ECMS Connectivity 라이선스 필요) 및 추출데이터 플랫폼 연동\n○ 내용\n∎ 데이터 표준화(CIM-Testing)기반 ECMS 데이터 추출 플랫폼 개발\n○ 실적 ∎ ECMS CIM 모델 정리",
+        "after": "그림 29. CIM 모델 예시(CLR)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 29. CIM 모델 예시(CLR)",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "○ 내용\n∎ 데이터 표준화(CIM-Testing)기반 ECMS 데이터 추출 플랫폼 개발\n○ 실적 ∎ ECMS CIM 모델 정리\n그림 28. CIM 모델 예시(G1-CLR 전단 Line)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 97,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          410.19,
+          546.91,
+          633.75
+        ],
+        "page_area_fraction": 0.2228
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          299.43,
+          546.91,
+          385.62
+        ],
+        "page_area_fraction": 0.0859
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 219,
+    "heading_candidates": [],
+    "section_context_candidate": "□ CIM 모델을 활용한 데이터 추출 플랫폼",
+    "prior_heading_candidate": {
+      "text": "□ CIM 모델을 활용한 데이터 추출 플랫폼",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 30. CIM 모델 예시(SCTR)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 18 -",
+        "after": "그림 31. CIM 모델 예시(SCTR 2차측)\n∎ ECMS CIM 모델 list\n그림 32. ECMS 모델 list 예시(G2, G3 선로-Clamp, Terminal)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 31. CIM 모델 예시(SCTR 2차측)",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 18 -\n그림 30. CIM 모델 예시(SCTR)",
+        "after": "∎ ECMS CIM 모델 list\n그림 32. ECMS 모델 list 예시(G2, G3 선로-Clamp, Terminal)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 32. ECMS 모델 list 예시(G2, G3 선로-Clamp, Terminal)",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 18 -\n그림 30. CIM 모델 예시(SCTR)\n그림 31. CIM 모델 예시(SCTR 2차측)\n∎ ECMS CIM 모델 list",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 39,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          496.02,
+          504.93,
+          798.57
+        ],
+        "page_area_fraction": 0.2761
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          239.86,
+          546.91,
+          473.96
+        ],
+        "page_area_fraction": 0.2333
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          103.33,
+          546.91,
+          202.82
+        ],
+        "page_area_fraction": 0.0992
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 333,
+    "heading_candidates": [],
+    "section_context_candidate": "□ CIM 모델을 활용한 데이터 추출 플랫폼",
+    "prior_heading_candidate": {
+      "text": "□ CIM 모델을 활용한 데이터 추출 플랫폼",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 33. ECMS 모델 list 예시(G2, G3 선로-Node)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 19 -",
+        "after": "그림 34. ECMS 모델 list 예시(Disconnector)\n○ 기술적성과\n∎ 데이터 표준화(CIM-Testing)기반 DATA 추출을 통한 설비 정보 체계화\n○ 기대효과",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 34. ECMS 모델 list 예시(Disconnector)",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 19 -\n그림 33. ECMS 모델 list 예시(G2, G3 선로-Node)",
+        "after": "○ 기술적성과\n∎ 데이터 표준화(CIM-Testing)기반 DATA 추출을 통한 설비 정보 체계화\n○ 기대효과\n∎ 시험 수행시 설비 정보 및 시험 data 등 모든 정보 모니터링 가능",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 69,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.61,
+          674.74,
+          396.39,
+          798.57
+        ],
+        "page_area_fraction": 0.0489
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          422.42,
+          546.91,
+          650.29
+        ],
+        "page_area_fraction": 0.2271
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 541,
+    "heading_candidates": [
+      "3) 데이터 플랫폼 활용",
+      "가) 시험결과 데이터 서비스 성능 안정화"
+    ],
+    "section_context_candidate": "3) 데이터 플랫폼 활용",
+    "prior_heading_candidate": {
+      "text": "□ CIM 모델을 활용한 데이터 추출 플랫폼",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 35. VIEWER 인터페이스",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "∎ 대전력시험 측정 결과 RAW DATA 활용 방안 검토\n∎ 대전력시험 측정 VIEWER 인터페이스 구축 및 매뉴얼 작성\n∎ 대전력시험 RAW DATA 및 VIEWER 기능 서비스 제공\n○ 실적 ∎ 대전력시험 VIEWER 인터페이스 구축",
+        "after": "∎ 관련사진\nCR1 고객용 좌석 CR2 고객용 좌석 CR3 고객용 좌석\n∎ 고객용 VIEWER 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 130,
+      "3": 4,
+      "2": 11,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          203.41,
+          381.66,
+          391.59,
+          558.83
+        ],
+        "page_area_fraction": 0.0666
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.62,
+          184.24,
+          211.93,
+          320.53
+        ],
+        "page_area_fraction": 0.0279
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          250.3,
+          184.84,
+          353.21,
+          321.97
+        ],
+        "page_area_fraction": 0.0282
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.63,
+          184.84,
+          490.54,
+          321.97
+        ],
+        "page_area_fraction": 0.0282
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 352,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 시험결과 데이터 서비스 성능 안정화",
+    "prior_heading_candidate": {
+      "text": "가) 시험결과 데이터 서비스 성능 안정화",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 36. VIEWER 화면",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 21 -",
+        "after": "∎ 사용자 매뉴얼\n그림 37. 대전력시험 Viewer 사용 매뉴얼\n○ 기술적성과\n∎ 고객들이 VIEWER PC를 활용하여 실시간으로 시험 결과 측정 및 확인이 가능한 시스템 구축",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 37. 대전력시험 Viewer 사용 매뉴얼",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 21 -\n그림 36. VIEWER 화면\n∎ 사용자 매뉴얼",
+        "after": "○ 기술적성과\n∎ 고객들이 VIEWER PC를 활용하여 실시간으로 시험 결과 측정 및 확인이 가능한 시스템 구축\n○ 기대효과\n∎ 측정 VIEWER PC를 제공하여 고객이 시험결과를 실시간으로 측정 및 확인하여 시험결과의 투명성",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 78,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          563.5,
+          483.1,
+          798.57
+        ],
+        "page_area_fraction": 0.2043
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.74,
+          277.62,
+          323.23,
+          507.64
+        ],
+        "page_area_fraction": 0.0954
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          323.23,
+          278.7,
+          479.38,
+          502.01
+        ],
+        "page_area_fraction": 0.0697
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1420,
+    "heading_candidates": [
+      "나) 아크(ShR) 분석기능 개발"
+    ],
+    "section_context_candidate": "나) 아크(ShR) 분석기능 개발",
+    "prior_heading_candidate": {
+      "text": "가) 시험결과 데이터 서비스 성능 안정화",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 38.아크(ShR) 분석 절차",
+        "line_index": 30,
+        "toc_like": false,
+        "before": "∎ 분석 기술\n- 빅데이터 플랫폼을 통해 ShR 시험 데이터를 추출하여 차단기의 특성치인 chopping number를\n평가하고 이를 통해 실제 적용할 계통의 특성을 고려하여 발생 할 수 있는 최대 과전압을\n예측함. 이를 분석하기 위한 절차는 아래와 같음.",
+        "after": "- 분석 절차별 상세 설명\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 344,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.2,
+          95.89,
+          522.8,
+          289.12
+        ],
+        "page_area_fraction": 0.174
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 1136,
+    "heading_candidates": [],
+    "section_context_candidate": "나) 아크(ShR) 분석기능 개발",
+    "prior_heading_candidate": {
+      "text": "나) 아크(ShR) 분석기능 개발",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 39.빅데이터 플랫폼 데이터 추출",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "- 시험전압 : Test voltage(Ut)\n- 아크시간 : Arcing time(ta)\n- 초기 전압 : Uin(Initial voltage)\n- 최대 억제 전압 : Uma(Suppression peak voltage)",
+        "after": "2. 시험회로 및 차단기 정보 수집\n⦁ 시험 회로 정보 내용\n- L : 회로 부하 Reactor 값\n- CL : 회로 부하 Capacitance",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 374,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          154.36,
+          551.16,
+          467.39,
+          648.73
+        ],
+        "page_area_fraction": 0.061
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 874,
+    "heading_candidates": [
+      "2. 분석 결과"
+    ],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "나) 아크(ShR) 분석기능 개발",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 40.차단기특성 분석결과",
+        "line_index": 18,
+        "toc_like": false,
+        "before": " \n∑  \n\n",
+        "after": "(동작 아크시간 & Chopping number)\n[Step 5] 분석 결과 적용(실적용 계통 최대 과전압 분석)\n: 실적용 계통에서 발생되는 과전압의 크기는 계통(회로)특성과 차단기의 chopping number에 의해서 결정된다.\n최대 과전압을 예측하기 위해서 실적용 계통의 특성. 즉 조건이 필요하며 이와 차단기의 최대",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 41.실적용 계통 조건 입력",
+        "line_index": 26,
+        "toc_like": false,
+        "before": "최대 과전압을 예측하기 위해서 실적용 계통의 특성. 즉 조건이 필요하며 이와 차단기의 최대\nchopping number를 고려하여 적용될 계통에서 발생할 2가지 종류의 과전압(chopping에 의한 과전압 & 재점호\n에 의한 과전압)을 분석/예측할 수 있음.\n1. 실적용 계통 조건 입력 : 그림과 같이 계통의 조건(특성) 수집",
+        "after": "2. 분석 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 298,
+      "3": 2,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          205.57,
+          401.08,
+          416.06,
+          565.78
+        ],
+        "page_area_fraction": 0.0693
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.03,
+          89.42,
+          452.64,
+          226.79
+        ],
+        "page_area_fraction": 0.0765
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 483,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 42.실적용 발생 과전압 추정 및 분석 결과",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "⦁ 예상 최대 회복 전압 (Urv)\n-      max \n\n-  max       max",
+        "after": "○ 기술적성과\n∎ ShR 전류 차단 시 발생할 수 있는 과전압을 예측하기 위한 차단기의 고유 특성치인 chopping\nnumber를 분석하는 기법 수립\n○ 기대효과",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 187,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.1,
+          384.54,
+          508.41,
+          626.08
+        ],
+        "page_area_fraction": 0.1908
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 844,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 43.대전력 전류원 시스템 동특성 시뮬레이션 프로그램",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "- 전류원 시스템 동특성(단락발전기, 단락변압기, 여자기) 해석 결과 반영을 통해 시험조건에\n따라 CLR을 계산할 수 있는 프로그램을 개발하여 시험조건(전압, 전류)과 임피던스 차이에 따른\n전류 상편차를 개선할 수 있음.\n- 시뮬레이션 프로그램 구성",
+        "after": "- 시험 조건(전압, 전류)과 시험 회로 구성(단락발전기, 단락변압기, TC)을 선택하고 시험 데이터를\n입력하여 전류원 시스템의 임피던스를 계산하여 예상되는 시험 전압과 시험 전류를 계산할 수\n있음.\n대전력 전류원 시스템 동특성",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 221,
+      "3": 3,
+      "2": 10,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.18,
+          334.08,
+          483.82,
+          557.87
+        ],
+        "page_area_fraction": 0.1667
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.79,
+          100.57,
+          302.84,
+          254.72
+        ],
+        "page_area_fraction": 0.0635
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.55,
+          149.6,
+          498.33,
+          205.69
+        ],
+        "page_area_fraction": 0.0208
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 667,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 163,
+      "3": 3,
+      "2": 30,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          522.39,
+          380.92,
+          688.41
+        ],
+        "page_area_fraction": 0.0947
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          340.91,
+          380.2,
+          495.18
+        ],
+        "page_area_fraction": 0.0878
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          157.15,
+          386.19,
+          314.66
+        ],
+        "page_area_fraction": 0.0915
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 903,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 235,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.11,
+          554.27,
+          427.81,
+          794.37
+        ],
+        "page_area_fraction": 0.1568
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 920,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 242,
+      "3": 4,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.4,
+          625.72,
+          292.4,
+          794.37
+        ],
+        "page_area_fraction": 0.0758
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.6,
+          649.09,
+          527.6,
+          770.88
+        ],
+        "page_area_fraction": 0.0548
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.4,
+          456.94,
+          292.4,
+          583.4
+        ],
+        "page_area_fraction": 0.0569
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.6,
+          459.22,
+          527.6,
+          581.01
+        ],
+        "page_area_fraction": 0.0548
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 510,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 123,
+      "3": 4,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.38,
+          555.95,
+          250.54,
+          710.22
+        ],
+        "page_area_fraction": 0.0435
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          337.62,
+          555.95,
+          492.7,
+          710.22
+        ],
+        "page_area_fraction": 0.0478
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.4,
+          358.89,
+          292.4,
+          527.54
+        ],
+        "page_area_fraction": 0.0758
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.4,
+          371.11,
+          525.92,
+          515.2
+        ],
+        "page_area_fraction": 0.0638
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 511,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 147,
+      "3": 4,
+      "2": 13,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.36,
+          645.61,
+          299.12,
+          774.35
+        ],
+        "page_area_fraction": 0.0563
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          310.99,
+          643.22,
+          538.51,
+          776.87
+        ],
+        "page_area_fraction": 0.0608
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.68,
+          436.8,
+          300.8,
+          603.3
+        ],
+        "page_area_fraction": 0.0739
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          310.99,
+          448.07,
+          539.83,
+          592.27
+        ],
+        "page_area_fraction": 0.0659
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 725,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 215,
+      "3": 3,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.74,
+          326.28,
+          252.58,
+          418.7
+        ],
+        "page_area_fraction": 0.0264
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.47,
+          325.44,
+          472.67,
+          419.78
+        ],
+        "page_area_fraction": 0.0287
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.31,
+          168.54,
+          475.42,
+          293.8
+        ],
+        "page_area_fraction": 0.0934
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 383,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 80,
+      "3": 12,
+      "2": 44,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.04,
+          711.78,
+          204.01,
+          793.29
+        ],
+        "page_area_fraction": 0.0199
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          225.72,
+          713.7,
+          348.29,
+          791.49
+        ],
+        "page_area_fraction": 0.0191
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          369.76,
+          715.86,
+          492.33,
+          789.22
+        ],
+        "page_area_fraction": 0.018
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.64,
+          575.13,
+          206.41,
+          669.35
+        ],
+        "page_area_fraction": 0.0239
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          221.52,
+          571.78,
+          352.49,
+          672.59
+        ],
+        "page_area_fraction": 0.0264
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          365.56,
+          575.85,
+          496.53,
+          668.51
+        ],
+        "page_area_fraction": 0.0243
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.79,
+          395.93,
+          201.37,
+          521.55
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          227.4,
+          411.15,
+          346.73,
+          506.33
+        ],
+        "page_area_fraction": 0.0227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          365.8,
+          404.2,
+          496.41,
+          513.16
+        ],
+        "page_area_fraction": 0.0284
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.47,
+          229.31,
+          202.69,
+          299.19
+        ],
+        "page_area_fraction": 0.0166
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.08,
+          210.61,
+          355.25,
+          317.89
+        ],
+        "page_area_fraction": 0.029
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          364.96,
+          200.78,
+          497.25,
+          327.6
+        ],
+        "page_area_fraction": 0.0335
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 427,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 분석 결과",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 100,
+      "3": 6,
+      "2": 22,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.16,
+          699.91,
+          211.09,
+          780.95
+        ],
+        "page_area_fraction": 0.0218
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.08,
+          689.13,
+          355.37,
+          791.73
+        ],
+        "page_area_fraction": 0.0277
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          364.12,
+          686.49,
+          500.73,
+          794.37
+        ],
+        "page_area_fraction": 0.0295
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.16,
+          569.98,
+          212.88,
+          640.1
+        ],
+        "page_area_fraction": 0.0192
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.08,
+          566.86,
+          351.65,
+          643.1
+        ],
+        "page_area_fraction": 0.02
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          364.12,
+          567.1,
+          501.21,
+          642.74
+        ],
+        "page_area_fraction": 0.0207
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 568,
+    "heading_candidates": [
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도"
+    ],
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+    "prior_heading_candidate": {
+      "text": "2. 분석 결과",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "대전력 직접시험 시스템 TRV 분석 시뮬레이션 프로그램",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "아크전압/전류측정 프로그램 KEMA 社 분석결과 샘플 KERI 분석결과 샘플\n○ 개발한 전문 시뮬레이터를 활용하여 시험의 정확도와 효율성을 제공하고 고객을 위한 기술자료 개발에\n활용할 수 있음\n○ 시뮬레이션 데이터를 활용한 기업체 지원으로 시험 외에 다양한 서비스를 제공할 수 있음",
+        "after": "<임펄스전류발생기(ICG) 시뮬레이션 결과 예시>\n(2) 정량적 연구개발성과\n○ 기업체에서 요구하는 특수데이터(아크 전압/전류측정기술 활용)를 제공하여 개발품(초고압 차단기)의\n성능분석과 개선에 활용하도록 지원하였음(100건 제공)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "임펄스전류발생기(ICG) 시뮬레이션 결과 예시",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "○ 개발한 전문 시뮬레이터를 활용하여 시험의 정확도와 효율성을 제공하고 고객을 위한 기술자료 개발에\n활용할 수 있음\n○ 시뮬레이션 데이터를 활용한 기업체 지원으로 시험 외에 다양한 서비스를 제공할 수 있음\n<대전력 직접시험 시스템 TRV 분석 시뮬레이션 프로그램>",
+        "after": "(2) 정량적 연구개발성과\n○ 기업체에서 요구하는 특수데이터(아크 전압/전류측정기술 활용)를 제공하여 개발품(초고압 차단기)의\n성능분석과 개선에 활용하도록 지원하였음(100건 제공)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 130,
+      "3": 5,
+      "2": 11,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.13,
+          592.39,
+          212.05,
+          676.42
+        ],
+        "page_area_fraction": 0.0262
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          235.55,
+          584.36,
+          359.45,
+          684.69
+        ],
+        "page_area_fraction": 0.0248
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          384.75,
+          565.18,
+          534.67,
+          703.87
+        ],
+        "page_area_fraction": 0.0416
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          62.37,
+          373.15,
+          291.32,
+          497.1
+        ],
+        "page_area_fraction": 0.0567
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          307.75,
+          373.51,
+          532.75,
+          495.3
+        ],
+        "page_area_fraction": 0.0548
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 586,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+    "prior_heading_candidate": {
+      "text": "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 129,
+      "2": 32,
+      "3": 1,
+      "5": 2
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          358.13,
+          544.8,
+          503.49,
+          751.7
+        ],
+        "page_area_fraction": 0.0601
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 228,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 한국전기연구원 기본사업 연차보고서이",
+      "다. 2. 이 연구개발내용을 대외적으로 발표할 때에는 반드시 과학기술정보통신부(한국전기연"
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 한국전기연구원 기본사업 연차보고서이",
+    "prior_heading_candidate": {
+      "text": "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 35,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

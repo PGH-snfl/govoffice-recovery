@@ -1,0 +1,910 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 1057,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 261,
+      "3": 1,
+      "2": 132,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1644,
+    "heading_candidates": [
+      "4. PD-L1 양성 발현 오가노이드 기반 환자별 맞춤 면역관문억제제의 선택 필요성 제시"
+    ],
+    "section_context_candidate": "4. PD-L1 양성 발현 오가노이드 기반 환자별 맞춤 면역관문억제제의 선택 필요성 제시",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구결과 요약문 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 2 -",
+        "after": "연구개요\n1. 대장암 환자유래오가노이드 50례 구축\n- 환자 primary tissue와 유전체 및 전사체 분석을 통한 유사성 확인\n2. PD-L1 및 MMR 유전자 발현 양상별 오가노이드 분류",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 380,
+      "3": 3,
+      "2": 39,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1014,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 05",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 13",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 14"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 05",
+    "prior_heading_candidate": {
+      "text": "4. PD-L1 양성 발현 오가노이드 기반 환자별 맞춤 면역관문억제제의 선택 필요성 제시",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "붙임1 세부 정량적 연구개발성과",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 13\n4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 14\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 14\n6. 참고문헌 ·························································································································· 15",
+        "after": "<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 18\n<붙임3 연구개발성과 활용계획서> ················································································ 20\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 14\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 14\n6. 참고문헌 ·························································································································· 15\n<붙임1 세부 정량적 연구개발성과> ·············································································· 16",
+        "after": "<붙임3 연구개발성과 활용계획서> ················································································ 20\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임3 연구개발성과 활용계획서",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "5. 연구개발성과의 관리 및 활용 계획 ·········································································· 14\n6. 참고문헌 ·························································································································· 15\n<붙임1 세부 정량적 연구개발성과> ·············································································· 16\n<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 18",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 95,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1656,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "▶ 대장암 환자 면역관문억제제* 적응증 현황: 면역관문억제제 처치에 의한 대장암 환자 반응성 연구 결과, 틀린짝",
+      "2) 연구목표",
+      "▶ 본 연구과제에서는 기존 대장암 환자에게서 나타나는 면역관문억제제 처치의 문제점을 극복하기 위해, 대장암",
+      "▶ 본 연구과제에서 제안하는 바이오마커의 발굴은 MMR 유전자 발현 양상 특징을 고려하여;",
+      "3) 연구개요 및 세부연구 목표",
+      "▶ 기존 암 연구 모델로는 주로 암 세포주를 활용한 연구가 주를 이루었음. 하지만, 세포주를 이용한 연",
+      "▶ 이러한, 암 환자 조직을 활용한 연구 모델들 중 조건부 불멸화 세포주의 경우 영속성 및 확장성에는"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 14",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 424,
+      "2": 19,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1762,
+    "heading_candidates": [
+      "▶ 최근 보고되고 있는 PDO 활용 환자별 맞춤 치료 제시는 PDO별 돌연변이 분석에 따른 기존 항암제",
+      "▶ 이러한, 결과는 동일 암종 환자들 중 특정 마커를 활용한 환자들의 분류 기준 및 돌연변이들에 따른",
+      "▶ 최근 N Engl J Med 및 Science에 보고된 내용에 의하면, 대장암 환자들 중 PD-1 억제제에 MMR 유전"
+    ],
+    "section_context_candidate": "▶ 최근 보고되고 있는 PDO 활용 환자별 맞춤 치료 제시는 PDO별 돌연변이 분석에 따른 기존 항암제",
+    "prior_heading_candidate": {
+      "text": "▶ 이러한, 암 환자 조직을 활용한 연구 모델들 중 조건부 불멸화 세포주의 경우 영속성 및 확장성에는",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1] 연도별 PDO 관련 발표 논문 수",
+        "line_index": 34,
+        "toc_like": false,
+        "before": "(결손) 패턴별 grouping을 통한 종양 세포에서 돌연변이가 나타난 유전자에 대한 연구 및 dMMR 환자\n들 중 PD-1 억제제에 대한 미반응성 환자들의 치료적 접근법은 제시되고 있지 않음\n▶ 또한, 전체 대장암 환자들 중 14% 정도로 낮은 비율인 CMS1 및 dMMR 환자들을 제외한 대다수 대장\n암 환자들에 대한 면역관문억제제 치료 효능 증진에 대한 연구는 미흡한 실정임",
+        "after": "(출처: Pubmed)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 454,
+      "2": 16,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          611.45,
+          249.71,
+          764.64
+        ],
+        "page_area_fraction": 0.0591
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1434,
+    "heading_candidates": [
+      "▶ 환자유래오가노이드 (PDO)는 종양세포로 구성되어 있음. 따라서, PDO를 활용한 PD-L1 발현 양상별"
+    ],
+    "section_context_candidate": "▶ 환자유래오가노이드 (PDO)는 종양세포로 구성되어 있음. 따라서, PDO를 활용한 PD-L1 발현 양상별",
+    "prior_heading_candidate": {
+      "text": "▶ 최근 N Engl J Med 및 Science에 보고된 내용에 의하면, 대장암 환자들 중 PD-1 억제제에 MMR 유전",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2] 대장암 환자에서 PD-1 억제제 반응성",
+        "line_index": 28,
+        "toc_like": false,
+        "before": "▶ 대장암 세포에서 MMR 유전자 결손에 의한 주요 돌연변이 유전자들은 50여종이 보고되고 있음\n(Histopathology. 2010, 56:167~179)\n▶ 하지만, dMMR 환자들에서 나타나는 MMR 유전자들의 결손은 서로 상이하며, 환자별 결손된 MMR 유\n전자들의 grouping에 의해 어떤 MMR 유전자들 결손 그룹에 의해 돌연변이가 나타나는 주요 유전자들",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 362,
+      "2": 5,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          634.11,
+          325.39,
+          770.28
+        ],
+        "page_area_fraction": 0.0731
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1191,
+    "heading_candidates": [
+      "▶ 기존 보고된 연구 보고에 의하면 CMS2 및 CMS3 type의 대장암 환자들에서 면역세포들의 분포가 종양",
+      "▶ 위의 선행연구 결과와 기존 연구 보고를 토대로 볼 때, PD-L1 음성 발현 환자들의 종양 내에 세포독"
+    ],
+    "section_context_candidate": "▶ 기존 보고된 연구 보고에 의하면 CMS2 및 CMS3 type의 대장암 환자들에서 면역세포들의 분포가 종양",
+    "prior_heading_candidate": {
+      "text": "▶ 환자유래오가노이드 (PDO)는 종양세포로 구성되어 있음. 따라서, PDO를 활용한 PD-L1 발현 양상별",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 3)",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "▶ 기존 보고된 연구 보고에 의하면 CMS2 및 CMS3 type의 대장암 환자들에서 면역세포들의 분포가 종양\n미세환경내에서 낮게 발현되며 (Int J Mol Sci. 2017, 18:2229), PD-L1 발현 음성 대장암 조직에서 세포\n독성 T 세포의 발현이 현저히 낮게 발현되는 것이 보고되고 있음 (N Engl J Med. 2015, 372:1919~1929)\n▶ 본 연구자는 PD-L1 발현 음성 대장암 환자 조직에서 면역 세포들의 population을 확인하기 위해, PD-L1 음성 발현 조직과 동일 환자의 정상조직에서 선행 연구로 단일세포전사체 분석을 시행하였음",
+        "after": "[그림 3] 대장암 환자 조직에서 PD-L1 발현 패턴 확인 및 단일세포전사체 분석 시행\n▶ (A) 대장암 환자 조직에서 PD-L1 발현 확인. (B) A의 PD-L1 음성 발현 환자 조직 및 동일 환자의 정\n상 조직에서 단일세포전사체 분석 시행. 13개의 세포군집 (cell cluster)를 확인했으며, 종양 조직 내의\n주요 세포군집은 1, 2, 7로 확인되었음. 정상 조직과 종양 조직 내에 분포하고 있는 세포군집이 서로",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 3] 대장암 환자 조직에서 PD-L1 발현 패턴 확인 및 단일세포전사체 분석 시행",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "미세환경내에서 낮게 발현되며 (Int J Mol Sci. 2017, 18:2229), PD-L1 발현 음성 대장암 조직에서 세포\n독성 T 세포의 발현이 현저히 낮게 발현되는 것이 보고되고 있음 (N Engl J Med. 2015, 372:1919~1929)\n▶ 본 연구자는 PD-L1 발현 음성 대장암 환자 조직에서 면역 세포들의 population을 확인하기 위해, PD-L1 음성 발현 조직과 동일 환자의 정상조직에서 선행 연구로 단일세포전사체 분석을 시행하였음\n(그림 3)",
+        "after": "▶ (A) 대장암 환자 조직에서 PD-L1 발현 확인. (B) A의 PD-L1 음성 발현 환자 조직 및 동일 환자의 정\n상 조직에서 단일세포전사체 분석 시행. 13개의 세포군집 (cell cluster)를 확인했으며, 종양 조직 내의\n주요 세포군집은 1, 2, 7로 확인되었음. 정상 조직과 종양 조직 내에 분포하고 있는 세포군집이 서로\n상이함을 확인할 수 있었으며, 정상 조직에 비해 종양 조직 내에 분포하고 있는 세포군집의 다양성이",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 309,
+      "2": 7,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.63,
+          278.1,
+          509.25,
+          492.18
+        ],
+        "page_area_fraction": 0.1812
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 916,
+    "heading_candidates": [
+      "4) 세부연구 목표 및 전략",
+      "▶ 4개의 핵심 과제 달성을 목표로 하여“대장암 환자유래오가노이드의 차세대염기서열분석을 통해",
+      "2. 연구개발과제의 수행 과정 및 수행 내용"
+    ],
+    "section_context_candidate": "4) 세부연구 목표 및 전략",
+    "prior_heading_candidate": {
+      "text": "▶ 위의 선행연구 결과와 기존 연구 보고를 토대로 볼 때, PD-L1 음성 발현 환자들의 종양 내에 세포독",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 4] 대장암 환자 유래 오가노이드",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "- 충남대학교 병원으로부터 제공 받은 대장암 환자들의 조직으로부터 50종의 환자유래오가\n노이드 (Patients-derived organoids, PDO) 구축\n- 50종의 PDO는 3계대 배양을 통해 구축한 PDO의 안정성을 확인하였음\n- 그림 4는 대장암 환자 조직으로부터 확보한 PDO의 대표 그림임",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 220,
+      "2": 1,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.56,
+          119.03,
+          551.22,
+          345.94
+        ],
+        "page_area_fraction": 0.2184
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 597,
+    "heading_candidates": [
+      "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증"
+    ],
+    "section_context_candidate": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 5] Whole RNA sequencing을 통한 gene ontology 비교분석",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "- 환자유래오가노이드 (Patients-derived organoids, PDO)의 성공적인 구축 여부 검증을 위해, 대장암 환자 조직 (primary tissue, PT) 및 PDO 배양 단계별 PDO에서 Whole RNA\nsequencing을 수행\n- Gene ontology 비교 분석 결과 그룹별 94% 이상 유전자 발현 유사성 확인을 통해 PDO\n배양 시스템의 최적화 검증 (그림 5)",
+        "after": "- 또한, 환자 조직과 3계대 배양한 오가노이드의 돌연변이 유사성의 검증을 위하여 동일 환\n자의 조직 및 오가노이드로부터 genomic DNA를 추출 후 전장 엑솜 시퀀싱 (Whole-exome\nsequencing)을 시행하였음\n[그림 6] 대장암 환자 Patents tissue와 PDO의 돌연변이 유사성 검증",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 6] 대장암 환자 Patents tissue와 PDO의 돌연변이 유사성 검증",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "[그림 5] Whole RNA sequencing을 통한 gene ontology 비교분석\n- 또한, 환자 조직과 3계대 배양한 오가노이드의 돌연변이 유사성의 검증을 위하여 동일 환\n자의 조직 및 오가노이드로부터 genomic DNA를 추출 후 전장 엑솜 시퀀싱 (Whole-exome\nsequencing)을 시행하였음",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 124,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.58,
+          436.56,
+          500.25,
+          651.61
+        ],
+        "page_area_fraction": 0.1687
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.67,
+          128.38,
+          505.17,
+          329.16
+        ],
+        "page_area_fraction": 0.1615
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1067,
+    "heading_candidates": [],
+    "section_context_candidate": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+    "prior_heading_candidate": {
+      "text": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 7] 대장암 환자 PD-L1 발현 양상",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- 면역항암제 불응성 환자들의 치료 효율 증진을 위한 신규 치료 타겟 발굴 및 신규 항체의\n유효성 평가를 위해서는 PD-L1 발현 양상별 PDO의 분류와 돌연변이 유전자 패널의 구축\n이 선행되어야 함\n- 이에, 확보 및 구축한 PDO의 환자 조직 및 RNA에서 PD-L1 발현 양상을 확인하였음",
+        "after": "- 기존 보고된 논문들에 의하면, 대장암 환자들 중 PD-1 억제제에 틀린짝 수복 (Mismatch\nrepair, MMR) 유전자들이 결손 (deficient MMR, dMMR)된 환자들만이 반응성을 보이며, PD-L1 또한 과발현되고 있음을 보고하고 있음. 이에 반해, MMR 유전자들이 정상적으로\n발현 되는 환자들의 경우 PD-L1의 발현이 낮거나 음성이며, 세포독성 T 세포의 침윤 또\n한 dMMR 환자들에 비해 낮게 발현되고 있음을 보고하고 있음",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 243,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.11,
+          309.86,
+          509.61,
+          508.36
+        ],
+        "page_area_fraction": 0.1632
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 454,
+    "heading_candidates": [],
+    "section_context_candidate": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+    "prior_heading_candidate": {
+      "text": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 8] PD-L1 발현 양상별",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 8 -",
+        "after": "유전자 발현 패턴\n- 전장 전사체 분석 결과 PD-L1 양성 발현 환자들에게서 MMR 유전자들의 결손이 PD-L1\n음성 발현 환자들에 비해 증가 되어 있음을 확인하였음\n- 하지만, PD-L1 발현 양상별 MMR 유전자들의 변이율은 큰 차이가 나타나지 않음을 확인",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 9] PD-L1 발현 양상별 MMR 유전자들의 돌연변이 확인",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 전장 전사체 분석 결과 PD-L1 양성 발현 환자들에게서 MMR 유전자들의 결손이 PD-L1\n음성 발현 환자들에 비해 증가 되어 있음을 확인하였음\n- 하지만, PD-L1 발현 양상별 MMR 유전자들의 변이율은 큰 차이가 나타나지 않음을 확인\n하였음 (그림 9)",
+        "after": "- PD-L1 발현 양상별 돌연 변이된 유전자 패널 구축을 위해, 대장암 progress에 관여하는\n유전자들의 돌연변이 패턴을 확인해 본 결과, PD-L1 발현 양상별 돌연변이가 나타나는 유\n전자 및 변이 패턴이 상이함을 확인하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 96,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.03,
+          561.35,
+          357.53,
+          764.64
+        ],
+        "page_area_fraction": 0.1046
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.56,
+          299.55,
+          568.26,
+          467.73
+        ],
+        "page_area_fraction": 0.1676
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 482,
+    "heading_candidates": [],
+    "section_context_candidate": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+    "prior_heading_candidate": {
+      "text": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 10] PD-L1 발현 양상별 돌연변이 유전자 패터닝 분석",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 9 -",
+        "after": "- 돌연변이된 유전자 패터닝 분석 결과를 토대로 볼 때, PD-L1 발현 양상별 동일하게 돌연\n변이가 나타나는 유전자 (PIK3R family 유전자)와 서로 다른 패터닝을 보이는 유전자를 확\n인하였음\n- 이러한, 연구 결과는 추후 환자들의 N 수 확대를 통해, 전장 전사체 분석 및 전장 엑솜",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 11] 대장암 PDO별 MMR 유전자 돌연변이 및 발현 양상 확인",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "분석을 통해, PD-L1 발현 양상별 신규 치료 타겟 제시를 통한 신규 치료용 항체를 개발\n할 수 있을 것으로 사료됨\n- 또한, 전장 엑솜 시퀀싱을 통해 오가노이드별 MMR 유전자 돌연변이 및 발현 양상을 확인\n하였음 (그림 11)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 117,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.56,
+          510.4,
+          568.26,
+          770.28
+        ],
+        "page_area_fraction": 0.259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.56,
+          187.84,
+          572.93,
+          324.01
+        ],
+        "page_area_fraction": 0.137
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 793,
+    "heading_candidates": [],
+    "section_context_candidate": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+    "prior_heading_candidate": {
+      "text": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 12] PD-L1 & PD-L2 발현 양상별 환자 분류 ▶ PD-L1 양성 발현 환자별 T 세포의 종양 내 침습 확인 및 조절인자 도출",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 10 -\n3) 면역항암제 (항체) 치료 효율 증진을 위한 PD-L1 발현 양상별 PDO 분류\n- Primary 대장암 환자 조직 및 PDO 활용 Whole-RNA seq. 수행\n- PD-L1 및 PD-L2 발현 양상별 환자 분류 (그림 12)",
+        "after": "- PD-L1 양성 발현 환자 조직에서 면역화학염색법 시행을 통한 T 세포 침습 유무 환자 그\n룹 선정\n- PD-L1 양성 발현 환자 검체 조직을 활용하여 전사체 분석 수행을 통해, CD8 T 세포 음성\n환자들의 면역원성 유도를 통한 면역관문억제제 치료 증진을 위해 면역원성 유도",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 13] PD-L1 양성 발현 환자별 CD8 T cell 발현 패턴 및 면역원성 유도 인자 도출",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "룹 선정\n- PD-L1 양성 발현 환자 검체 조직을 활용하여 전사체 분석 수행을 통해, CD8 T 세포 음성\n환자들의 면역원성 유도를 통한 면역관문억제제 치료 증진을 위해 면역원성 유도\nchemokine 후보 인자 6종 도출",
+        "after": "4) PD-L1 양성 발현 대장암 환자별 면역관문억제제 선택적 치료 방향 제시\n- 엠비디(주) 보유 CODRPTM 플랫폼 기반 환자별 면역관문억제제 선택적 치료 방향을 제시\n하였음\n- 330_micropillar chip에 PDO를 배양(3 days) 후, gdT cell을 330 microwell chip에 면역관문",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 196,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.92,
+          583.76,
+          531.79,
+          702.19
+        ],
+        "page_area_fraction": 0.1079
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.63,
+          220.32,
+          513.08,
+          406.84
+        ],
+        "page_area_fraction": 0.156
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 180,
+    "heading_candidates": [],
+    "section_context_candidate": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+    "prior_heading_candidate": {
+      "text": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 14] 환자 유래 종양세포와 면역세포 공배양 기반 면역관문억제제 감수성 검사",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 11 -",
+        "after": "[그림 15] 면역세포 공배양에 의한 면역관문억제제 유효성 평가\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 15] 면역세포 공배양에 의한 면역관문억제제 유효성 평가",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 11 -\n[그림 14] 환자 유래 종양세포와 면역세포 공배양 기반 면역관문억제제 감수성 검사",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 26,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.75,
+          524.79,
+          494.01,
+          770.28
+        ],
+        "page_area_fraction": 0.1929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.5,
+          103.81,
+          491.49,
+          493.98
+        ],
+        "page_area_fraction": 0.3025
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 485,
+    "heading_candidates": [],
+    "section_context_candidate": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+    "prior_heading_candidate": {
+      "text": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 16] 대장암 PDO 단백질 활용 PD-L1 발현 및 RTK 관련 단백질 활성 확인",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "- 대장암 환자유래오가노이드 (PD-L1 발현 양상별 PDO) 단백질 활용 PD-L1 발현 여부 확인\n- PD-L1 발현 음성 PDO 단백질 활용 human phospho_RTK array 수행\n- RTK array 분석 결과 PD-L1 발현 음성 PDO에서 특이적으로 ALK 단백질이 활성화 되어\n있음을 확인하였음",
+        "after": "- 또한, ALK가 활성화된 PDO를 이용한 ALK 표적 항암제의 감수성 검사를 통해, ALK 표적\n항암제 중 환자별로 감수성이 상이함을 확인하였음\n[그림 17] ALK 표적 항암제 감수성 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 17] ALK 표적 항암제 감수성 결과",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "있음을 확인하였음\n[그림 16] 대장암 PDO 단백질 활용 PD-L1 발현 및 RTK 관련 단백질 활성 확인\n- 또한, ALK가 활성화된 PDO를 이용한 ALK 표적 항암제의 감수성 검사를 통해, ALK 표적\n항암제 중 환자별로 감수성이 상이함을 확인하였음",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 107,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.75,
+          560.51,
+          519.08,
+          656.16
+        ],
+        "page_area_fraction": 0.0823
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.95,
+          171.89,
+          531.79,
+          480.67
+        ],
+        "page_area_fraction": 0.2745
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 899,
+    "heading_candidates": [
+      "3. 연구개발과제의 수행 결과 및 목표 달성 수준",
+      "1) 정성적 연구개발성과 (연구개발결과)",
+      "4. PD-L1 양성 발현 오가노이드 기반 환자별 맞춤 면역관문억제제의 선택 필요성 제시",
+      "2) 세부 정량적 연구개발성과: [붙임1] 참조",
+      "3) 목표 달성 수준",
+      "4) 목표 미달 시 원인 분석(해당 시)",
+      "4-1) 목표 미달 원인(사유) 자체분석 내용",
+      "4-3) 연구개발 과정의 성실성"
+    ],
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 수준",
+    "prior_heading_candidate": {
+      "text": "▶ PDO와 환자 조직 세포 genomics 비교 분석을 통한 PDO 검증",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 221,
+      "2": 40,
+      "3": 51,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1433,
+    "heading_candidates": [
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발 결과의 중요성)",
+      "5. 연구개발성과의 관리 및 활용 계획"
+    ],
+    "section_context_candidate": "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발 결과의 중요성)",
+    "prior_heading_candidate": {
+      "text": "4-3) 연구개발 과정의 성실성",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 353,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1754,
+    "heading_candidates": [
+      "6. 참고문헌"
+    ],
+    "section_context_candidate": "6. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 253,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 936,
+    "heading_candidates": [],
+    "section_context_candidate": "6. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "6. 참고문헌",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 239,
+      "2": 182,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 557,
+    "heading_candidates": [],
+    "section_context_candidate": "6. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "6. 참고문헌",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연구책임자(해당 시 참여연구자(공동) 포함) 대표적 연구실적",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 17 -",
+        "after": "○ 논문 및 특허 실적(최대 5개 작성)\n번호 구분\n(논문/특허) 논문명/특허명 소속기관명 역할 논문게재지/\n특허등록국가",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 117,
+      "2": 34,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 2014,
+    "heading_candidates": [],
+    "section_context_candidate": "6. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "6. 참고문헌",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 382,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 112,
+    "heading_candidates": [],
+    "section_context_candidate": "6. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "6. 참고문헌",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 19 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 9,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          91.22,
+          521.96,
+          753.5
+        ],
+        "page_area_fraction": 0.6159
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

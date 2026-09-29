@@ -1,0 +1,1194 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 268,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 42,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1881,
+    "heading_candidates": [
+      "6) 주관기관 기관명 한국전자통신연구원 | 사업자둥록변호 | 314-82-04099",
+      "8) 총수행기간 2018. 07. 01 - 2020. 12. 31 (307R 월)",
+      "10) 연구 현황"
+    ],
+    "section_context_candidate": "6) 주관기관 기관명 한국전자통신연구원 | 사업자둥록변호 | 314-82-04099",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 1,
+      "2": 185,
+      "1": 559,
+      "5": 3
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          595.29,
+          841.18
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 333,
+    "heading_candidates": [],
+    "section_context_candidate": "10) 연구 현황",
+    "prior_heading_candidate": {
+      "text": "10) 연구 현황",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 1,
+      "2": 2,
+      "1": 62,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          596.78,
+          842.05
+        ],
+        "page_area_fraction": 1.004
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1243,
+    "heading_candidates": [
+      "1. 과 제 명 개방형 5G 기지국 기능 분리 및 가상화 관리 표준개발",
+      "2. 총수행기간 2018. 7. 1. - 2020. 12. 31.",
+      "4. 연구비",
+      "5. 과제목표"
+    ],
+    "section_context_candidate": "1. 과 제 명 개방형 5G 기지국 기능 분리 및 가상화 관리 표준개발",
+    "prior_heading_candidate": {
+      "text": "10) 연구 현황",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 348,
+      "2": 25,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1553,
+    "heading_candidates": [
+      "7. 과제수행방법"
+    ],
+    "section_context_candidate": "7. 과제수행방법",
+    "prior_heading_candidate": {
+      "text": "5. 과제목표",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 385,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1033,
+    "heading_candidates": [
+      "8. 최종결과물",
+      "9. 결과활용계획 및 파급효과"
+    ],
+    "section_context_candidate": "8. 최종결과물",
+    "prior_heading_candidate": {
+      "text": "7. 과제수행방법",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 277,
+      "3": 1,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.66,
+          584.12,
+          508.29,
+          753.26
+        ],
+        "page_area_fraction": 0.133
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 503,
+    "heading_candidates": [],
+    "section_context_candidate": "9. 결과활용계획 및 파급효과",
+    "prior_heading_candidate": {
+      "text": "9. 결과활용계획 및 파급효과",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 112,
+      "2": 21,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 252,
+    "heading_candidates": [
+      "1. 최종목표 및 연도별 연구내용 1",
+      "2. 연도별 연구 세부내용 및 연구결과 3",
+      "3. 정량적 목표 및 연도별 실적 세부내용 12",
+      "4. 대표 표준화 성과 24",
+      "5. 성과 활용계획 26"
+    ],
+    "section_context_candidate": "1. 최종목표 및 연도별 연구내용 1",
+    "prior_heading_candidate": {
+      "text": "9. 결과활용계획 및 파급효과",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 48,
+      "2": 205,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 981,
+    "heading_candidates": [
+      "1. 최종 목표 및 연도별 연구내용",
+      "가. 최종 목표"
+    ],
+    "section_context_candidate": "1. 최종 목표 및 연도별 연구내용",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용계획 26",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 1) 5G 가상화 기지국 기능 분리 및 관리 표준화 목표 및 범위",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "통신사업자 합의를 통해 TTA 국내 표준으로 개발하고 (TTA, `18~19),\n- 중장기적으로는 국내 제조사 및 통신사업자 합의를 통해 선점한 특허 기반 기\n술을 국제 표준에 반영하여 세계 5G 기술시장을 선도함 (3GPP, `19~20, 표준특\n허 발굴 연계)",
+        "after": "C-RAN BBU\n(DU-H + CU)\n5G\n코어",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 209,
+      "3": 22,
+      "2": 50,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          266.01,
+          266.16,
+          419.23,
+          350.59
+        ],
+        "page_area_fraction": 0.0259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.92,
+          340.95,
+          289.51,
+          439.04
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          275.54,
+          353.26,
+          419.23,
+          442.09
+        ],
+        "page_area_fraction": 0.0255
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          275.54,
+          353.26,
+          419.23,
+          442.09
+        ],
+        "page_area_fraction": 0.0255
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -157.68,
+          148.75,
+          -27.09,
+          246.84
+        ],
+        "page_area_fraction": 0.0256
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 976,
+    "heading_candidates": [
+      "나. 연도별 연구내용"
+    ],
+    "section_context_candidate": "나. 연도별 연구내용",
+    "prior_heading_candidate": {
+      "text": "가. 최종 목표",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 249,
+      "2": 27,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 985,
+    "heading_candidates": [
+      "2. 연도별 연구 세부내용 및 연구결과",
+      "가. 1차년도 연구내용"
+    ],
+    "section_context_candidate": "2. 연도별 연구 세부내용 및 연구결과",
+    "prior_heading_candidate": {
+      "text": "나. 연도별 연구내용",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 284,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 925,
+    "heading_candidates": [
+      "나. 1차년도 연구결과"
+    ],
+    "section_context_candidate": "나. 1차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "가. 1차년도 연구내용",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 2) 개방형 5G 기지국 국내 표준 범위 및 적용 구간",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "나. 1차년도 연구결과\n① 개방형 5G 기지국 기능분리 국내 표준 제안\n※ TTA 단체표준명 : 개방형 5G 프론트홀 인터페이스\n- TTA SPG31(5G무선접속)/SPG32(5G네트워크) 2018-5차 정기회의 제안 (12/6) - SKT, KT, LG U+ 등 통신사업자 및 국내 기지국(DU) 제조사등과 공동개발",
+        "after": "② 3GPP RAN3 개방형 기지국 및 5G 네트워크 제어 국제표준 개발\n※ 3GPP TS38.300 (NR and NG-RAN Overall Description; Stage 2) 표준 개발\n※ 3GPP TS38.413 (NG-RAN; NG Application Protocol (NGAP)) 표준 개발\n- 3GPP RAN3 5G 가상화 기지국 상위 계층 모듈간 연동 – Inter-system 핸드오버를",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 196,
+      "2": 29,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.77,
+          397.02,
+          193.4,
+          570.7
+        ],
+        "page_area_fraction": 0.0405
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.61,
+          380.39,
+          528.5,
+          566.72
+        ],
+        "page_area_fraction": 0.115
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.61,
+          380.39,
+          528.5,
+          566.72
+        ],
+        "page_area_fraction": 0.115
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 770,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 1차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "나. 1차년도 연구결과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 3) Inter-system 핸드오버 처리 방법",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 5 -\n(a) 5G->4G\n(b) 4G->5G",
+        "after": "- 3GPP RAN3 – MN과 SN 사이의 DRB ID 할당을 위한 Stage-3 규격 내용 (기고 1건\n제안 및 반영) Ÿ TP for NR BL CR for TS 38.423): Refinement of stage-3 behaviors for\nunique DRB ID assignment between MN and SN 기고\nŸ 인텔 등과 공동기고",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 166,
+      "3": 2,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.73,
+          644.41,
+          461.03,
+          756.01
+        ],
+        "page_area_fraction": 0.073
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.37,
+          509.08,
+          458.51,
+          619.0
+        ],
+        "page_area_fraction": 0.0708
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 893,
+    "heading_candidates": [
+      "다. 2차년도 연구내용"
+    ],
+    "section_context_candidate": "다. 2차년도 연구내용",
+    "prior_heading_candidate": {
+      "text": "나. 1차년도 연구결과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 245,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1176,
+    "heading_candidates": [
+      "라. 2차년도 연구결과"
+    ],
+    "section_context_candidate": "라. 2차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "다. 2차년도 연구내용",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 274,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 892,
+    "heading_candidates": [],
+    "section_context_candidate": "라. 2차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "라. 2차년도 연구결과",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 4) 3GPP RAN3 제안된 Intra-AMF/UPF 핸드오버 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 8 -",
+        "after": "- ETSI NFV 5G 가상화 기능 관리 기고 3건 제안 및 반영완료\nŸ NFVSOL(19)000053_SOL002ed261 Modification on\nVnfLcmOperationOccurrenceNotification\nŸ NFVSOL(19)000105_SOL002ed261 Update API version fields 외",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 148,
+      "2": 28,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.18,
+          559.43,
+          399.86,
+          768.6
+        ],
+        "page_area_fraction": 0.0935
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 952,
+    "heading_candidates": [
+      "마. 3차년도 연구내용"
+    ],
+    "section_context_candidate": "마. 3차년도 연구내용",
+    "prior_heading_candidate": {
+      "text": "라. 2차년도 연구결과",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 268,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 582,
+    "heading_candidates": [
+      "바. 3차년도 연구결과"
+    ],
+    "section_context_candidate": "바. 3차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "마. 3차년도 연구내용",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 5) O-RAN 기반 개방형 5G 프론트홀 인터페이스 표준",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "Ÿ TTA 개방형 기지국 프론트홀 인터페이스 ad-hoc 그룹 신설 및 총 8회 회의 진\n행을 통한 통신3사 및 제조사간 합의기반 표준개발 (의장- 신명기 책연, 에디터- 안병준 책연)\nŸ SKT, KT, LG U+ 등 통신사업자 및 국내외 기지국 제조사 (삼성전자, 노키아, 에\n릭슨) 등과 공동 표준 개발",
+        "after": "(그림 6) 개방형 5G 프론트홀 인터페이스 구조 및 적용 사례\n표준번호 표준명 제정일 에디터 및 저자\nTTAK.KO-0\n6.0518",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 6) 개방형 5G 프론트홀 인터페이스 구조 및 적용 사례",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "행을 통한 통신3사 및 제조사간 합의기반 표준개발 (의장- 신명기 책연, 에디터- 안병준 책연)\nŸ SKT, KT, LG U+ 등 통신사업자 및 국내외 기지국 제조사 (삼성전자, 노키아, 에\n릭슨) 등과 공동 표준 개발\n(그림 5) O-RAN 기반 개방형 5G 프론트홀 인터페이스 표준",
+        "after": "표준번호 표준명 제정일 에디터 및 저자\nTTAK.KO-0\n6.0518\nO-RAN기반 개방형 5G 프론트홀",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 135,
+      "2": 16,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.04,
+          132.57,
+          503.49,
+          261.91
+        ],
+        "page_area_fraction": 0.1097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.38,
+          327.48,
+          327.66,
+          494.34
+        ],
+        "page_area_fraction": 0.0491
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1109,
+    "heading_candidates": [],
+    "section_context_candidate": "바. 3차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "바. 3차년도 연구결과",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 7) NPN 망에서의 핸드오버 처리 및 방법에 대한 제안 특허",
+        "line_index": 21,
+        "toc_like": false,
+        "before": "국제출원 ETRI내 심의 진행중)\n- 국제특허 2건 출원 예정 및 표준특허후보 2건 추진중 (국제특허출원진행중) Ÿ 표준특허후보명 : 슬라이스 혼잡도를 고려한 페이징 제어 방법 및 장치 (국제특\n허출원 진행중) Ÿ 표준특허후보명 : 핸드오버 시 유틸리티 슬라이스 기반의 서비스 연속성 보장 방\n법 (국제특허출원 진행중)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 265,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.35,
+          107.88,
+          400.94,
+          255.32
+        ],
+        "page_area_fraction": 0.07
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 590,
+    "heading_candidates": [
+      "3. 정량적 목표 및 연도별 실적 세부내용",
+      "가. 정량적 목표"
+    ],
+    "section_context_candidate": "3. 정량적 목표 및 연도별 실적 세부내용",
+    "prior_heading_candidate": {
+      "text": "바. 3차년도 연구결과",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 160,
+      "2": 65,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 589,
+    "heading_candidates": [
+      "나. 1차년도 연구결과"
+    ],
+    "section_context_candidate": "나. 1차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 목표",
+      "pdf_page": 20
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 137,
+      "2": 235,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 172,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 1차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "나. 1차년도 연구결과",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 28,
+      "2": 39,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 763,
+    "heading_candidates": [
+      "다. 2차년도 연구결과"
+    ],
+    "section_context_candidate": "다. 2차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "나. 1차년도 연구결과",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 167,
+      "2": 234,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 283,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 2차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "다. 2차년도 연구결과",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 59,
+      "2": 46,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 705,
+    "heading_candidates": [
+      "라. 3차년도 연구결과"
+    ],
+    "section_context_candidate": "라. 3차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "다. 2차년도 연구결과",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 164,
+      "2": 235,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 180,
+    "heading_candidates": [],
+    "section_context_candidate": "라. 3차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "라. 3차년도 연구결과",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 32,
+      "2": 40,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1436,
+    "heading_candidates": [
+      "마. 정량적 성과 세부내용",
+      "2 3GPP SA2 제정 개발",
+      "3 3GPP RAN3 제정 개발",
+      "4 3GPP RAN 제정 개발 Inter-system HO RP-182787 2018.12",
+      "5 ETSI NFV 제정 개발",
+      "6 ETSI NFV 제정 개발 SOL002ed261 Update API",
+      "7 ETSI NFV 제정 개발 NFVTST(19)000106 Annex IFS",
+      "8 3GPP RAN3 제정 개발",
+      "9 3GPP RAN3 제정 개발",
+      "10 3GPP RAN3 제정 개발"
+    ],
+    "section_context_candidate": "마. 정량적 성과 세부내용",
+    "prior_heading_candidate": {
+      "text": "라. 3차년도 연구결과",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 234,
+      "2": 53,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 1259,
+    "heading_candidates": [
+      "11 3GPP RAN3 제정 개발",
+      "12 3GPP RAN3 제정 개발",
+      "13 3GPP RAN3 제정 개발"
+    ],
+    "section_context_candidate": "11 3GPP RAN3 제정 개발",
+    "prior_heading_candidate": {
+      "text": "10 3GPP RAN3 제정 개발",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 258,
+      "2": 56,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 935,
+    "heading_candidates": [
+      "2 특허 슬라이스 혼잡도를 고려한 페이징 제어 방법 및",
+      "6 특허 슬라이스 매핑 기반의 핸드오버 처리 방법 출원/2020.09 대한민국 10-2020-012406"
+    ],
+    "section_context_candidate": "2 특허 슬라이스 혼잡도를 고려한 페이징 제어 방법 및",
+    "prior_heading_candidate": {
+      "text": "13 3GPP RAN3 제정 개발",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 234,
+      "2": 35,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 117,
+    "heading_candidates": [],
+    "section_context_candidate": "6 특허 슬라이스 매핑 기반의 핸드오버 처리 방법 출원/2020.09 대한민국 10-2020-012406",
+    "prior_heading_candidate": {
+      "text": "6 특허 슬라이스 매핑 기반의 핸드오버 처리 방법 출원/2020.09 대한민국 10-2020-012406",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 11,
+      "3": 3,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.82,
+          626.2,
+          492.93,
+          728.92
+        ],
+        "page_area_fraction": 0.0803
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.42,
+          456.94,
+          461.51,
+          626.2
+        ],
+        "page_area_fraction": 0.1184
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.74,
+          258.2,
+          297.44,
+          455.5
+        ],
+        "page_area_fraction": 0.0716
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 130,
+    "heading_candidates": [],
+    "section_context_candidate": "6 특허 슬라이스 매핑 기반의 핸드오버 처리 방법 출원/2020.09 대한민국 10-2020-012406",
+    "prior_heading_candidate": {
+      "text": "6 특허 슬라이스 매핑 기반의 핸드오버 처리 방법 출원/2020.09 대한민국 10-2020-012406",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 14,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 1356,
+    "heading_candidates": [
+      "4. 대표 표준화 성과"
+    ],
+    "section_context_candidate": "4. 대표 표준화 성과",
+    "prior_heading_candidate": {
+      "text": "6 특허 슬라이스 매핑 기반의 핸드오버 처리 방법 출원/2020.09 대한민국 10-2020-012406",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 326,
+      "2": 39,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.07,
+          166.98,
+          527.24,
+          275.82
+        ],
+        "page_area_fraction": 0.0777
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 1018,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 대표 표준화 성과",
+    "prior_heading_candidate": {
+      "text": "4. 대표 표준화 성과",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 265,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 1391,
+    "heading_candidates": [
+      "5. 성과 활용 계획 등"
+    ],
+    "section_context_candidate": "5. 성과 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "4. 대표 표준화 성과",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 349,
+      "2": 327,
+      "3": 42,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          383.81,
+          571.29,
+          476.51,
+          630.34
+        ],
+        "page_area_fraction": 0.0109
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          383.81,
+          571.29,
+          476.51,
+          630.34
+        ],
+        "page_area_fraction": 0.0109
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 305,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 성과 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용 계획 등",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 73,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 551,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 성과 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용 계획 등",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 103,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 983,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 성과 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용 계획 등",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 275,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 271,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신·방송 연구개발사업의 보고서입",
+      "2. 이 보고서 내용을 발표하는 때에는 반드시 과학기술정보통신부에서 시행한 사업의 연구",
+      "3. 국가과학기술 기밀유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는 안됩니다."
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신·방송 연구개발사업의 보고서입",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용 계획 등",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 45,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

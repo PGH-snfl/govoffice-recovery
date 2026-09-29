@@ -1,0 +1,62 @@
+[
+  {
+    "pdf_page": 5,
+    "text": "그림 1. 사고회로 생성 (Neuro-symbolic) 모델의 추론과정. 지문과 질문을 읽고 신경망은 “A, B, C는 Kristin,",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 6,
+    "text": "그림 2. 그래프 기반의 범용적(domain-agnostic) 질의응답 시스템 구조. 먼저 주어진 지문과 질문 속 주요 개체",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 7,
+    "text": "그림 3 레퍼런스를 필요로 하는 기존 평가 메트릭 (CIDEr)의 문제점. 이를 보완하기 위해 본",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 7,
+    "text": "그림 4 UMIC에서 활용되는 UNITER 모듈의 학습 기법. 대조 학습을 통해 레퍼런스 없이",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 8,
+    "text": "그림 5 QACE 프레임워크의 전체적인 플로우. 캡션을 평가하기 위해 1) Visual QA와 2)Textual QA로부터 각각 답을",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 6 본 연구에서 개발한 Visual QA 모델 Visual T5의 도식. T5",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 7 목적 지향 대화 시스템에서 나타나는 모호성 문",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 8 목적 지향 대화 시스템에서 comparison skill을 학습시키기 위한 데이터셋 구축 프레임워크. 대",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 9 자연언어 시각 추론 및 Wikitablequestion 데이터셋의 예시. 본",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 10 대화 질의응답 시스템에서 데이터셋 구축을 위한 Dialogizer 프레임워크. 본 방식에서는 대용량 언어모델의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 11 한국어의 특성으로 인해 나타나는 언어적 모델링의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 12 한국어의 특성 (화자 간의 관계, 존댓말 등)을 감안하여 각 문장 간의 유사도를 측정하는 Kosmic",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

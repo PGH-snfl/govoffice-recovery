@@ -1,61 +1,71 @@
-# 범정부오피스 · 범피스 복구 프로젝트
+# 범정부오피스
 
-이 작업공간은 `범피스1303.exe`에서 Python 3.13 바이트코드와 리소스를 추출하고,
-검증 가능한 Python 소스로 단계적으로 복구하기 위한 프로젝트다.
+원본 범피스 기능 복구를 바탕으로 한글 문서 작업과 기관별 기능을 확장하는 **내부용 프로그램**이다.
 
-## 한눈에 보기
+실행하려면 [범정부오피스_실행.cmd](범정부오피스_실행.cmd)를 더블클릭한다. 원본 프로그램은 `originals/`에 보존하고 현재 실행 코드와 구분한다.
+
+**처음 내려받았다면:** 저장소 전체 압축 해제 → [시작전_점검.cmd](시작전_점검.cmd) → [범정부오피스_실행.cmd](범정부오피스_실행.cmd). Windows 64비트와 설치된 데스크톱 한글이 필요하다. Python 3.13과 연결 라이브러리는 저장소에 포함돼 있다. 인공지능 작성은 별도 사용자 계정 연결이 필요한 선택 기능이다.
+
+[처음 실행·개발 이어가기](docs/GETTING_STARTED.md) · [최종 점검 범위와 제한](docs/HANDOFF_2026-09-29.md)
+
+## 폴더 한눈에 보기
 
 ```text
 범정부오피스/
-├─ 📦 범피스1303.exe          원본 실행 파일 — 보존, 직접 수정 금지
-├─ 📘 범피스가이드북.pdf       원본 사용자 가이드
-├─ 🔬 범피스1303_분석/         자동 추출·역컴파일 결과 — 근거 자료
-├─ 🧩 recovered/              사람이 검증하며 다시 작성한 소스
-├─ 🚀 new_project/            복구 코드와 분리된 신규 개발 프로젝트
-├─ 🧭 recovery_analysis/      복구 대상별 디스어셈블·코드 목록
-├─ 🛠️ tools/                  추출·분석 자동화 스크립트
-└─ 📚 docs/                   프로젝트 구조와 작업 규칙
+├─ 범정부오피스_실행.cmd  현재 프로그램 실행
+├─ new_project/          실행 코드·개발 도구·사용자 데이터
+├─ docs/                 전체 구조·작성 기준·작업 기록
+├─ materials/            예시·제출서류·첨부·문서 검증 결과
+├─ originals/            원본 실행파일·가이드
+├─ exa-results/          레퍼런스 원문과 조사 기록
+├─ recovered/            원본 기능의 복구 소스
+├─ 범피스1303_분석/       추출·역컴파일 근거와 Python 실행환경
+├─ recovery_analysis/    모듈별 복구 분석
+├─ tools/                추출·복구 도구
+├─ runtime/              한글 보안 모듈
+├─ system_backups/       로컬 복구 백업·이동 기록
+└─ tmp/                  임시 작업
 ```
 
-## 디렉터리 역할
+[상세 구조와 이동 전후 경로](docs/DIRECTORY_LAYOUT.md) · [전체 문서 색인](docs/README.md)
 
-| 영역 | 상태 | 용도 | 수정 원칙 |
-|---|---|---|---|
-| `범피스1303.exe` | 원본 | 배포 프로그램 | 수정·실행하지 않음 |
-| `범피스1303_분석/` | 자동 산출물 | marshal, 디스어셈블, 역컴파일 코드 | 원칙적으로 읽기 전용 |
-| `recovery_analysis/` | 중간 산출물 | 모듈별 바이트코드 분석 | 분석 도구로 재생성 가능 |
-| `recovered/` | 작업 소스 | 실행 가능한 Python 복구본 | 실제 개발은 여기서 진행 |
-| `tools/` | 도구 | 추출·분석 스크립트 | 재현성 유지 |
-| `docs/` | 문서 | 구조, 진행 기준, 작업 안내 | 변경 시 함께 갱신 |
+## 무엇을 찾고 있나요?
 
-## 현재 진행 상황
+| 목적 | 위치 |
+|---|---|
+| 현재 프로그램 설명 | [new_project/README.md](new_project/README.md) |
+| 실제 기능 코드 | [new_project/src/govoffice/](new_project/src/govoffice/) |
+| 개발 설계 문서 | [개발 문서 색인](new_project/development/docs/README.md) |
+| 자동검사·검증 기록 | [tests](new_project/development/tests/) · [reports](new_project/development/reports/) |
+| 사용자 문서와 참고자료 | [materials/README.md](materials/README.md) |
+| 범피스 예시1·2 | [예시1](<materials/examples/범피스 예시1.hwp>) · [예시2](<materials/examples/범피스 예시2.hwp>) |
+| 원본 실행파일·가이드 | [originals/README.md](originals/README.md) |
+| 연구개발 문서 작성 기준 | [본문 작성 기억](docs/AUTHORING_REFERENCE_MEMORY.md) · [참고자료 삽입 기준](docs/AUTHORING_REFERENCE_INSERTION_STANDARD.md) |
+| 레퍼런스 조사 | [90건 시각자료 색인](exa-results/reference-visuals-2026-09-25/README.md) |
+| 복구 경위 | [복구 현황](recovered/복구현황.md) · [전체 개발 과정](docs/범정부오피스_개발전과정_20260929.md) |
+| 임시파일 삭제·복구 | [정리 기록](docs/CLEANUP_2026-09-29.md) |
 
-- 원본 아카이브 4,309개 항목 추출 완료
-- Python 코드 객체 4,174개 분석 완료
-- 자동 역컴파일된 메인 코드 약 12,377줄 확보
-- 공통 Tkinter 인터페이스 모듈 1차 수동 복구 완료
-- PowerPoint 연결·도형·텍스트·슬라이드 기본 메서드 10개 복구 및 단위시험 통과
-- 한글 COM 연결과 기본 실행·이동·서식 명령 66개 복구 및 단위시험 통과
-- 한글 전체 1,511개 API 실행 호환 및 시그니처 대조 완료
-- 독립 소스 1,411개, 원본 바이트코드 호환 계층 100개
-- 다음 대상: 한글 서식·표·블록 → 한글 업무 기능 → 메인 GUI
+## 개발 영역 구분
 
-자세한 상태는 [복구 현황](recovered/복구현황.md), 기존 자동 분석 결과는
-[추출·역컴파일 진행 현황](범피스1303_분석/진행현황.md)을 참고한다.
+- `new_project/`: 현재 프로그램의 기능 개발. `src/govoffice/` 아래 업무 기능·화면·기관별 기능·한글 연결을 나눠 관리한다.
+- `recovered/`: 원본 동작을 보존하는 복구 소스. 현재 프로그램의 신규 업무 설계와 섞지 않는다.
+- `범피스1303_분석/`, `recovery_analysis/`: 원본 근거·분석 자료. 임시 캐시처럼 일괄 삭제하지 않는다.
+- `docs/`, `exa-results/`: 작성 기준과 조사 근거. 기억 저장과 실제 자동작성 기능 연결은 구분한다.
 
-## 빠른 탐색
+현재 프로그램은 검증 복구 소스를 `new_project/src/govoffice/runtime/recovered_hwp/`에서 사용한다. 연결 경계는 [코드 경계](docs/CODE_BOUNDARIES.md)를 참고한다.
 
-- 복구된 코드: [`recovered/`](recovered/)
-- 새 복구 트리: [`docs/NEW_PROJECT_TREE.md`](docs/NEW_PROJECT_TREE.md)
-- 자동 역컴파일 메인: [`범피스1303_분석/decompiled/메인.py`](범피스1303_분석/decompiled/메인.py)
-- 원본 marshal 모듈: [`범피스1303_분석/pyz_modules/`](범피스1303_분석/pyz_modules/)
-- 전체 디스어셈블: [`범피스1303_분석/analysis/disassembly.txt`](범피스1303_분석/analysis/disassembly.txt)
-- 분석 스크립트: [`tools/`](tools/)
+## 검사 실행
 
-## 안전 규칙
+프로젝트 루트에서:
 
-1. 원본 EXE와 `범피스1303_분석/` 산출물을 복구 코드로 덮어쓰지 않는다.
-2. 새 소스는 `recovered/`에 작성한다.
-3. 자동 역컴파일 결과보다 `.marshal` 디스어셈블을 우선 근거로 사용한다.
-4. 먼저 문법·API·가짜 객체 시험을 통과한 뒤 실제 Office COM 연동을 시험한다.
-5. 실제 문서를 사용하는 시험은 복사본과 격리된 환경에서만 수행한다.
+```powershell
+.\범피스1303_분석\python313\python.exe -B new_project\development\run_tests.py
+```
+
+실제 한글 연결·문서 편집 시험은 별도의 검증이며 사용자 원본 대신 사본으로 수행한다. 폴더 정리나 자동검사 일부 통과만으로 전 기능 검증 완료라고 판단하지 않는다.
+
+## 보존과 Git 관리
+
+원본 문서·복구 근거·사용자 저장값은 임의로 삭제하지 않는다. `tmp/`, `system_backups/`, 개인정보·즐겨찾기·프리셋·문서작성 작업 데이터는 해당 Git 제외 규칙을 따른다. 실제 한글·PDF 참고자료에는 개인정보 또는 대용량 파일이 있을 수 있으므로 업로드 전 개별 포함 여부를 확인한다.
+
+2026-09-29 자료 폴더를 정리하고 현재 실행·연구 기억 경로는 보존했다. 과거 분석 로그의 경로는 당시 출처 기록이며, 현재 파일 위치는 [디렉터리 안내](docs/DIRECTORY_LAYOUT.md)를 기준으로 한다.

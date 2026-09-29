@@ -1,0 +1,4822 @@
+[
+  {
+    "visual_id": "I03-V0001",
+    "caption": "본 개발 대상 기술의 기본 개념도",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 1 -\n1. 연구개발과제의 개요\n1) 개발 대상 기술․제품의 기본 개념도\n○ 16T급 고용량 패킷-광 통합(POTN) 장비는 Œ16T급 차세대 POTN 시스템 구조 연구 및\n구현 핵심기술 400G 이상 고확장성 패킷/광 전달 핵심기술 Ž파장다중화 전송을 위한\n핵심응용기술 IP/MPLS 기반 시간확정형 네트워킹(DetNet) 핵심기술 L2/L3 계층 통합",
+    "caption_and_following_text": "서비스 제공을 위한 IP over POTN 기술 ‘대용량시스템의 고안정성 제공을 위한 T-SDN\n기반 지능형 네트워크 관리 핵심기술 ’초고속 암호전송을 위한 100G 이상 암호화\n기술로 구성\n(그림 1-1) 본 개발 대상 기술의 기본 개념도\n<표 1-1> 대상 기술에 대한 상세 개발 내역\n개발 대상 기술 상세 개발 내역\n①\n16T급 차세대 POTN 시스템\n구조 연구 및 구현 핵심기술\n개발",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1) 개발 대상 기술․제품의 기본 개념도"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.06,
+          438.84,
+          478.9,
+          650.77
+        ],
+        "page_area_fraction": 0.1545
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0002",
+    "caption": "16Tbps급 고용량 차세대 패킷-광 통합 전송 장비 기술·제품의 적용 분야",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 3 -\n(그림 1-2) 16Tbps급 고용량 차세대 패킷-광 통합 전송 장비 기술·제품의 적용 분야\n3) 기술 개발의 중요성\n○ 고용량·고확장성 광전송\nl 빅데이터, 클라우드, 5G+, IoT 등 네트워크 다양성의 급속한 증가로 전송용량이\n폭증하여 상위 네트워크인 메트로망/백본망에 고용량 패킷-광 전송장비의 수요가\n지속적 증가\nl 다수의 400G 인터페이스, 고확장성 FlexE/FlexO, Flexible Grid 기반 파장다중화\n전송기술을 효율적으로 수용 가능한 고용량 시스템 플랫폼을 구축\nl 고용량 시스템의 집적화 개발을 통해 상면적 축소, 소모전력 절감, 시스템 발열",
+    "section_context_candidate": "3) 기술 개발의 중요성",
+    "heading_candidates": [
+      "3) 기술 개발의 중요성"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.2,
+          512.32,
+          520.64,
+          798.57
+        ],
+        "page_area_fraction": 0.2565
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0003",
+    "caption": "DetNet과 TSN 기능범위도",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 4 -\nl 시스템 당 10μsec 이내의 초저지연 패킷 전달과 망 장애 시에도 무손실 패킷\n전달을 보장하는 100G급 패킷 전달 엔진(FPGA) 기술 구현\n(그림 1-3) DetNet과 TSN 기능범위도\n○ L2/L3 계층 통합 서비스\nl 다양한 QoS의 네트워크 슬라이스 데이터 평면을 구성을 가능하게 하는 Strict\nQoS 보장 L3VPN 기술로써 IP망과 전달망으로 분리된 현재의 네트워크 구조에서\nL1, L2와 L3 계층을 통합한 스위칭 기능을 활용하여 단일노드로 구축함으로써\n계층통합 서비스 제공과 더불어, 장비 수와 링크를 줄여서 장애요소 감소, 망\n구조 및 관리 단순화",
+    "section_context_candidate": "3) 기술 개발의 중요성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          558.95,
+          506.49,
+          756.25
+        ],
+        "page_area_fraction": 0.1657
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.63,
+          379.98,
+          504.21,
+          552.35
+        ],
+        "page_area_fraction": 0.1432
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0004",
+    "caption": "L2/L3 계층 통합 서비스 제공 구조",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 5 -\n(그림 1-4) L2/L3 계층 통합 서비스 제공 구조\n○ 지능형 네트워크 관리\nl 전송망의 다중화 계위와 O&M(Operation and Maintenance) 체계의 복잡성은\n운용/관제 측면에서 장시간의 경보분석 및 조치로 긴급한 장애대응에 이슈\n발생하고 있으며, 통신 인프라 증가, 현장 전문인력 감소, 노후화 시설에 대한\n인력기반의 관제 체계 등에 대한 효율적 대책 마련 필요\nl 혼재된 알람의 상관관계를 지능적으로 장애 원인, 위치를 분석한 보고를 통해\n분석 업무를 간소화하여 긴급한 장애조치로 네트워크 장애로 인한 피해 최소화\nl T-SDN 기반 지능형 관제 시스템에서 운용 중에 발생된 이벤트와 경보 데이터를",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [
+      "4) 개발 대상 기술․제품의 특성"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.39,
+          668.03,
+          299.6,
+          795.69
+        ],
+        "page_area_fraction": 0.0546
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          321.19,
+          670.07,
+          510.33,
+          793.77
+        ],
+        "page_area_fraction": 0.0468
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0005",
+    "caption": "고용량 차세대 패킷-광 통합 전송 장비 구조",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 6 -\nAS-IS TO-BE\n- 계층별 시스템 구축(CAPEX/OPEX 증가) - 다양한 고객의 요구에 능동적 대응 불가\n- L0~L3 계층 통합 스위칭 구조 제공 - 고객 요구에 맞는 다양한 서비스 통합 제공",
+    "caption_and_following_text": "○ 우수성\n- L0/L1/L2 구조의 POTN 장치에 L3VPN/DetNet 기능을 추가하는 최초 시스템\n- 다양한 서비스에 능동적 대응이 가능하여 CAPEX/OPEX 절감\n(그림 1-5) 고용량 차세대 패킷-광 통합 전송 장비 구조\nl 16T 고용량 POTN 시스템 구조 설계\n§ 다수의 400G포트, FlexE/FlexO, Flexible Grid 파장다중화, 시간확정형·무손실\n네트워킹, IP over POTN 서비스를 단일장비에 수용하기 위한 고용량·고확장성\n특성을 갖는 안정적인 고용량 시스템 구조·초고속 백플레인 구조 설계\n§ 슬롯별 전원 공급라인 분리 및 이원화, 냉각효율 분석을 통한 냉각팬 구조\n상/하단 설계, 경제성 확보 및 간섭 방지를 위한 고속/저속 백플레인 분리",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.1,
+          633.03,
+          256.78,
+          778.91
+        ],
+        "page_area_fraction": 0.0419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          336.42,
+          630.39,
+          483.94,
+          781.67
+        ],
+        "page_area_fraction": 0.0446
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0006",
+    "caption": "53G급 고속 백플레인 설계 기술",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 7 -\nAS-IS TO-BE\n- 1T급 1:1 스위치 패브릭 이중화 제공\n- 11.6Gbps급 백플레인 설계 기술\n- 16T급 2+1 스위치 패브릭 이중화 제공\n- 53Gbps급 고속 백플레인 설계 기술",
+    "caption_and_following_text": "○ 우수성\n- N+1 스위치 패브릭 설계 기술 적용으로 기존 장비 대비 16배 용량 증가\n- 53G급 고속의 백플레인 설계 기술 구현으로 기존 대비 4.5배 속도 증가\n(그림 1-6) 53G급 고속 백플레인 설계 기술\n○ 400G 이상 고확장성 패킷/광 전달 핵심기술 개발\nl 400G급 패킷/광 인터페이스 지원 라인카드 개발\n§ 400G급 기술은 400GbE 이더넷 기술과 400G OTUC4 회선 전송 기술로\n분류할 수 있으며, 기 확보된 100G급 OTN/Ethernet 전송 기술을 바탕으로\n100G에서 400G로 광전송 속도를 상향 설계\n§ 다수의 400G급 서비스를 수용하여 단일 시스템의 고용량 수용으로 경제성, 저전력화 등 효과기대",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          658.92,
+          231.6,
+          766.68
+        ],
+        "page_area_fraction": 0.0201
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          358.73,
+          642.74,
+          461.63,
+          782.98
+        ],
+        "page_area_fraction": 0.0288
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.25,
+          282.89,
+          236.15,
+          371.35
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          356.81,
+          282.41,
+          459.95,
+          371.71
+        ],
+        "page_area_fraction": 0.0184
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0007",
+    "caption": "400G급 패킷/광 인터페이스 기술의 특성",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "○ 400G 이상 고확장성 패킷/광 전달 핵심기술 개발\nl 400G급 패킷/광 인터페이스 지원 라인카드 개발\n§ 400G급 기술은 400GbE 이더넷 기술과 400G OTUC4 회선 전송 기술로\n분류할 수 있으며, 기 확보된 100G급 OTN/Ethernet 전송 기술을 바탕으로\n100G에서 400G로 광전송 속도를 상향 설계\n§ 다수의 400G급 서비스를 수용하여 단일 시스템의 고용량 수용으로 경제성, 저전력화 등 효과기대\nAS-IS TO-BE",
+    "caption_and_following_text": "- 100G급 인터페이스 제공 - 400G급 고용량 인터페이스 제공\n○ 우수성\n- 가격 약 30% 절감, 약 2배 이상 시스템 용량 확대, 저전력화에 따른 에너지 40% 절감\n(그림 1-7) 400G급 패킷/광 인터페이스 기술의 특성\nl 400G 이상 고확장성 FlexE/FlexO 지원 라인카드 개발\n§ FlexE : OIF에서 표준화한 FlexE 기술은 다수의 물리 계층을 결합(본딩)하여\n높은 속도의 MAC을 구현하거나, 서브레이팅 또는 채널화를 통해 물리\n계층보다 낮은 속도의 MAC을 구현하고 클라이언트 신호는 최소 5Gb/s\n단위로 다수의 이더넷 물리 계층에 분배되어 송수신하도록 설계\n§ FlexO 기술 : ITU-T G.709.1/G.709.3 표준으로 기존 룰을 벗어난 25GE,",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          658.92,
+          231.6,
+          766.68
+        ],
+        "page_area_fraction": 0.0201
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          358.73,
+          642.74,
+          461.63,
+          782.98
+        ],
+        "page_area_fraction": 0.0288
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.25,
+          282.89,
+          236.15,
+          371.35
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          356.81,
+          282.41,
+          459.95,
+          371.71
+        ],
+        "page_area_fraction": 0.0184
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0008",
+    "caption": "Flexible OTN/Ethernet 기술의 특성",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 8 -\nOTUCn(200G, 400G, 600G, 1T 등, n=2,4,6,10)을 전달할 수 있도록 설계\nl 대역폭 유연/무중단 가변 지원 FlexE/FlexO 지원 라인카드 개발\n§ FlexE/FlexO 기능 제공을 통한 대역폭의 무중단 가변 기능 제공. FlexE의\n경우 최소 5Gbps 단위로 대역폭 무중단 증/감 기능을 제공하며, FlexO의\n경우는 최소 5Gbps 단위로 대역폭 무중단 증/감 기능 제공. 그러나 실제\n구현에서는 25G(5x5G) 대역폭을 주로 사용",
+    "caption_and_following_text": "§ 기존 100GE/OTU4 광모듈을 저렴한 비용으로 사용할 수 있고, 향후 더 높은\n속도의 이더넷 모듈 (예: 200Gbit/s 또는 400Gbit/s PHY)을 사용하여 확장\n가능\n(그림 1-8) Flexible OTN/Ethernet 기술의 특성\n○ 파장다중화 전송을 위한 핵심응용기술 개발\nl CDCF 기반 파장다중화 전송시스템 구조 설계\n§ 단일 카드에서 광 스위칭, 증폭 및 감시제어 기능 통합 및 광 스위칭 및 파장\n다중/역다중화 기능 통합 등과 같은 집약적 하드웨어 구조 설계 등을 통한\n컴팩트한 CDCF 기반 파장다중화 전송시스템 구조 설계\nl Flexible Grid 기반 슈퍼채널 인터페이스 개발",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          62.13,
+          508.84,
+          262.42,
+          606.3
+        ],
+        "page_area_fraction": 0.039
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          289.52,
+          509.2,
+          485.62,
+          605.94
+        ],
+        "page_area_fraction": 0.0379
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          61.17,
+          423.02,
+          263.26,
+          504.77
+        ],
+        "page_area_fraction": 0.033
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          289.05,
+          421.7,
+          485.86,
+          505.97
+        ],
+        "page_area_fraction": 0.0331
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0009",
+    "caption": "Flexible Grid 기술의 특성",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 9 -\n/200G급 88채널 및 400G급 66채널 수용이 가능한 슈퍼채널 스위칭 기능\n설계\nAS-IS TO-BE\n- 200G급 50GHz 고정 간격 88채널 제공 - 400G급 Flexible Grid 66채널 제공",
+    "caption_and_following_text": "○ 우수성\n- 슈퍼채널을 수용하는 신기술\n- Guard band로 낭비된 스펙트럼 효율성 25% 개선 -> 광링크 용량 효율적 사용\n(그림 1-9) Flexible Grid 기술의 특성\nl 장거리 전송 기능 개발\n§ 인터페이스별 모듈레이션 기법 적용으로 전달 성능을 만족하는 시스템 개발\n<표 1-2> WDM 네트워크 전송 성능\n인터페이스 Modulation SPAN\n(80Km)\n최대전송거리",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.83,
+          591.67,
+          273.93,
+          744.63
+        ],
+        "page_area_fraction": 0.0544
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          322.87,
+          593.47,
+          497.61,
+          742.71
+        ],
+        "page_area_fraction": 0.0521
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0010",
+    "caption": "WDM 네트워크 전송 성능",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "/200G급 88채널 및 400G급 66채널 수용이 가능한 슈퍼채널 스위칭 기능\n설계\nAS-IS TO-BE\n- 200G급 50GHz 고정 간격 88채널 제공 - 400G급 Flexible Grid 66채널 제공\n○ 우수성\n- 슈퍼채널을 수용하는 신기술\n- Guard band로 낭비된 스펙트럼 효율성 25% 개선 -> 광링크 용량 효율적 사용",
+    "caption_and_following_text": "(그림 1-9) Flexible Grid 기술의 특성\nl 장거리 전송 기능 개발\n§ 인터페이스별 모듈레이션 기법 적용으로 전달 성능을 만족하는 시스템 개발\n<표 1-2> WDM 네트워크 전송 성능\n인터페이스 Modulation SPAN\n(80Km)\n최대전송거리\n(Km)\nSlice개수\n(12.5GHz)",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.83,
+          591.67,
+          273.93,
+          744.63
+        ],
+        "page_area_fraction": 0.0544
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          322.87,
+          593.47,
+          497.61,
+          742.71
+        ],
+        "page_area_fraction": 0.0521
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0011",
+    "caption": "IP/MPLS 기반 DetNet 패킷 전달 기능 구현",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 10 -\nAS-IS TO-BE\n- 근거리용 TSN 기술 적용\n- 처리성능: 24Gb/s (SoC-e FPGA IP-core,\n`19) - 광대역망용 DetNet 기술 적용\n- 처리성능: 100Gb/s (FPGA IP-core, `22)\n○ 우수성",
+    "caption_and_following_text": "- (적용범위) 근거리망에서 광역망으로 시간확정형 네트워킹 제공 범위 확장\n- (처리성능) 기존 대비 시간확정형/무손실 패킷 전달 성능 4배 향상\n- (패킷손실) 네트워크 장애시 무손실 보장 (미션 크리티컬 서비스 보호)\n(그림 1-10) IP/MPLS 기반 DetNet 패킷 전달 기능 구현\n○ L2/L3 계층 통합 서비스 제공을 위한 IP over POTN 기술 개발\nl IP-VPN 제공을 위한 제어 평면 개발\n§ MPLS-TP 기술의 LSP를 이용하여 VPN 사이트간 가상의 사설망을 제공하는\n기능으로 IP 계층(L3)에서 VPN 패킷을 구분하여 터널링을 수행할 수 있도록\nCE와 직접 연결된 PE간 VPN 경로 정보를 주고 받을 수 있게 BGP 프로토콜\n사용",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.22,
+          636.26,
+          259.54,
+          780.59
+        ],
+        "page_area_fraction": 0.0431
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.6,
+          633.99,
+          517.64,
+          782.98
+        ],
+        "page_area_fraction": 0.064
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0012",
+    "caption": "L2/L3 계층 통합서비스를 위한 IP over POTN 기술",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 11 -\nAS-IS TO-BE\n- L3 서비스 미제공 - IP-VPN 및 네트워크 슬라이싱 기능 제공\n○ 우수성\n- L2/L3 계층 통합 서비스 제공기능은 상용장비에 적용된 사례가 없는 최초 적용 기술",
+    "caption_and_following_text": "- 라인속도를 보장하는 IP over PTN, IP over OTN 성능 제공\n- 아래와 같은 다양한 고객의 요구에 따른 다양한 서비스 구성 제공 가능\n(저지연 서비스, 대역폭 보장 서비스, Best Effort 서비스 등)\n(그림 1-11) L2/L3 계층 통합서비스를 위한 IP over POTN 기술\n○ 대용량시스템의 고안정성 제공을 위한 T-SDN 기반 지능형 네트워크 관리\n핵심기술\nl Netconf/YANG SBI/NBI 기반 T-SDN 고도화 구조설계 및 개발\n§ 전체 시스템 기능의 통합 제어, 관리기능을 제공함으로써, 복잡하고 불필요한\n다계층 프로비져닝을 효율적으로 축소하여 고용량 네트워크 자원 활용률과\n운용성을 극대화할 수 있는 기능 구현 및 고도화 개발",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          648.97,
+          281.37,
+          781.42
+        ],
+        "page_area_fraction": 0.0511
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          313.63,
+          647.53,
+          506.61,
+          782.98
+        ],
+        "page_area_fraction": 0.0522
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          178.12,
+          274.65,
+          345.22
+        ],
+        "page_area_fraction": 0.0599
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.59,
+          176.93,
+          499.77,
+          346.54
+        ],
+        "page_area_fraction": 0.0607
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0013",
+    "caption": "Transport-SDN 고도화 구조 설계 및 자체 기술 확보",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "다계층 프로비져닝을 효율적으로 축소하여 고용량 네트워크 자원 활용률과\n운용성을 극대화할 수 있는 기능 구현 및 고도화 개발\n§ 자체 확보된 기술을 기반으로 독립적으로 운용 및 상용화 수준의 T-SDN\n컨트롤러를 자체 개발\nAS-IS TO-BE\n- 일부 영역에 대한 개발 진행 - T-SDN Controller 전체에 대한 개발 진행\n○ 우수성",
+    "caption_and_following_text": "- 이종벤더, 다계층 자원 할당 및 서비스 제어로 효율적 관리 가능\n- 개방형 API 기술로 신규 네트워크 서비스 비즈니스 모델 수용 가능\n- 국내 전송장비 제조사로서 T-SDN Controller 자체 기술 확보\n(그림 1-12) Transport-SDN 고도화 구조 설계 및 자체 기술 확보\nl T-SDN 기반 시스템 데이터수집 및 장애분석을 위한 지능형 관리기능 개발\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          648.97,
+          281.37,
+          781.42
+        ],
+        "page_area_fraction": 0.0511
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          313.63,
+          647.53,
+          506.61,
+          782.98
+        ],
+        "page_area_fraction": 0.0522
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          178.12,
+          274.65,
+          345.22
+        ],
+        "page_area_fraction": 0.0599
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.59,
+          176.93,
+          499.77,
+          346.54
+        ],
+        "page_area_fraction": 0.0607
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0014",
+    "caption": "지능형 네트워크 관리 기능",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "§ 고용량 시스템으로 구성된 네트워크의 경보 및 성능, 이벤트를 데이터베이스로\n관리하고 개별적인 분석 및 운용자에게 보고하는 기능을 기본적으로 제공\n§ 각 시스템에서 누적하여 관리되고 있는 데이터베이스의 분석을 통해 장애여부와\n위치, 기간 등의 새로운 정보를 생성하는 기능 개발\n장애 분석 장애 복구\n- 경보 분석을 통한 신속한 장애 위치 분석 - 경보 및 성능 분석을 통한 장애 복구 및 예방\n○ 우수성",
+    "caption_and_following_text": "- 계층 통합 경보 분석을 통한 신속한 장애 위치 추적 가능\n- 장애구간을 회피하는 경로 계산 및 장애 복구\n- 성능 보고 및 이벤트 분석을 통한 장애 예방 보고\n(그림 1-13) 지능형 네트워크 관리 기능\n○ 초고속 암호전송을 위한 100G 이상 암호화 기술 개발\nl 초고속 암호전송을 위한 암호화 알고리즘 및 관리 기능 개발\n§ OTN 암호화는 AES-256 표준 블록 암호 알고리즘을 이용하며, 암호화를 통한 프레임 변경이나\n대역폭 증가는 없음. 암호화 모드는 CTR(Encryption only) 또는 GCM(Encryption and\nAuthentication), 인증 모드는 GMAC(Authentication only)를 제공하고 암호화와 인증에 최소\n지연 설계",
+    "section_context_candidate": "4) 개발 대상 기술․제품의 특성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          574.05,
+          265.78,
+          699.91
+        ],
+        "page_area_fraction": 0.0471
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          290.24,
+          572.25,
+          402.74,
+          700.15
+        ],
+        "page_area_fraction": 0.0288
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          407.66,
+          571.89,
+          521.6,
+          702.07
+        ],
+        "page_area_fraction": 0.0296
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0015",
+    "caption": "초고속 OTN 암호화 기술의 특성",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 13 -\nAS-IS TO-BE\n- IPsec, MACsec 성능 - OTNSec 암호화 성능\n○ 우수성\n- 물리계층(L1)에서의 암호화로 복잡도 단순, 저가격화로 구현",
+    "caption_and_following_text": "- 즉각적인 트래픽의 암호화로 임무 지향적 서비스에 적합한 저지연 구현\n- 클라이언트 신호 형태, 패킷 프레임의 크기에 관계없는 100% 링크 효율성 구현\n- OTN 암호화는 기존 OTN 전달망 활용이 가능하며 100G 이상까지 효율 저하 없이 전달\n(그림 1-14) 초고속 OTN 암호화 기술의 특성\nl 양자암호통신 기능 제공을 위한 양자키분배기(QKD) 개발\n§ 암/복호화를 제공하는 라인카드는 자체 키를 통한 암/복호화 뿐만 아니라 외부의\n양자키분배기(QKD) 접속을 위한 인터페이스 제공(ETSI 표준 기반) § 양자키분배 적용 기술은 PnP(Plug&Play, 2Way) 방식으로 편광과 위상에서 외부\n환경으로 인한 변동에 강한 내성을 가지는 가장 안정적인 방식임\n§ 2Way 방식으로 인하여 전송 거리는 50Km 이내를 제공함\n§ 키 생성율은 Repetition frequency 1MHz에서 10bps 정도이며, 고도화를 통해",
+    "section_context_candidate": "5) 개발 목표별 기 확보 및 본 과제를 통한 신규확보기술",
+    "heading_candidates": [
+      "5) 개발 목표별 기 확보 및 본 과제를 통한 신규확보기술"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.11,
+          669.23,
+          280.77,
+          782.86
+        ],
+        "page_area_fraction": 0.0435
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.35,
+          669.11,
+          506.01,
+          782.98
+        ],
+        "page_area_fraction": 0.0436
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0016",
+    "caption": "16T급 고용량 POTN 시스템 설계 기술",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 26,
+    "prefix_match_only": false,
+    "text_before": "ü 시스템 운용관리, EMS 소프트웨어 설계\n§ 53G급 고속 신호 무결성 보장 16T급 백플레인 구조 설계\nü 16T 패킷 서비스 제공을 위한 백플레인 버스 구조 설계\n§ 16T급 2+1 이중화 지원 스위치 패브릭 구조 설계\nü 8T급 2+1 스위치 패브릭 카드 설계\n§ 패킷 전달 서비스용 라인카드 설계\nü 100G급 패킷 전달 24포트 라인카드 설계",
+    "caption_and_following_text": "ü 10G급 패킷 전달 56포트 라인카드 설계\nü MPLS-TP 패킷 전달, OAM 및 보호절체 기능 설계\n시스템 기능 블록도 2+1 스위치 패브릭 설계 구조\n(그림 2-1) 16T급 고용량 POTN 시스템 설계 기술\n나) 400G 이상 고확장\n성 패킷/광 전달 핵\n심기술 개발\n§ 400G급 패킷/광 인터페이스 지원 라인카드 설계\nü 400G급 패킷/광 인터페이스 지원 라인카드 기능 규격 정의\nü 400G급 패킷/광 인터페이스 지원 라인카드 구조 및 상세 설계",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "1) 수행 과정"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.03,
+          285.53,
+          352.37,
+          397.49
+        ],
+        "page_area_fraction": 0.0399
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          354.65,
+          284.33,
+          514.76,
+          398.92
+        ],
+        "page_area_fraction": 0.0367
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0017",
+    "caption": "400G급 패킷/광 유니트 설계 구조",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 16 -\n개발 내용 세부 개발 내용\n(그림 2-2) 400G급 패킷/광 유니트 설계 구조\n다) 파장다중화 전송을\n위한 핵심 응용기술\n개발\n§ CDCF 기반 파장다중화 전송시스템 구조 설계\nü 파장다중화 전송시스템 기능 규격 정의\nü 파장다중화 전송시스템 구조 설계\nü 파장다중화 전송시스템 개발 환경 구축",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.84,
+          639.02,
+          461.03,
+          774.59
+        ],
+        "page_area_fraction": 0.0621
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          258.22,
+          271.82,
+          437.43,
+          357.56
+        ],
+        "page_area_fraction": 0.0307
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          258.22,
+          271.82,
+          437.43,
+          357.56
+        ],
+        "page_area_fraction": 0.0307
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0018",
+    "caption": "파장다중화 전송시스템 구조",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 16 -\n개발 내용 세부 개발 내용\n(그림 2-2) 400G급 패킷/광 유니트 설계 구조",
+    "caption_and_following_text": "다) 파장다중화 전송을\n위한 핵심 응용기술\n개발\n§ CDCF 기반 파장다중화 전송시스템 구조 설계\nü 파장다중화 전송시스템 기능 규격 정의\nü 파장다중화 전송시스템 구조 설계\nü 파장다중화 전송시스템 개발 환경 구축\n§ Flexible Grid기반 슈퍼채널 인터페이스 설계\nü Flexible Grid기반 슈퍼채널 인터페이스 기능 규격 정의\nü Flexible Grid기반 슈퍼채널 인터페이스 구조 및 상세 설계",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.84,
+          639.02,
+          461.03,
+          774.59
+        ],
+        "page_area_fraction": 0.0621
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          258.22,
+          271.82,
+          437.43,
+          357.56
+        ],
+        "page_area_fraction": 0.0307
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          258.22,
+          271.82,
+          437.43,
+          357.56
+        ],
+        "page_area_fraction": 0.0307
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0019",
+    "caption": "DetNet 핵심기술 기능 구조도",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 17 -\n개발 내용 세부 개발 내용",
+    "caption_and_following_text": "ü DetNet 패킷 포워딩 제어/관리 기능 구조 및 상세 설계\nü DetNet 큐잉 및 스케쥴링 제어/관리 기능 구조 및 상세 설계\nü DetNet 무손실 패킷 전달 제어/관리 기능 구조 및 상세 설계\n(그림 2-4) DetNet 핵심기술 기능 구조도\n§ 시간확정형 패킷 전달망 핵심기술 표준화 추진\nü T-SDN 기반 시간확정형 패킷 전달망 제어/관리 기술 국제표준 제안\nü 시간확정형 패킷 전달망 고생존성 기술 국제표준 제안\nü 차세대 전달망 핵심기술 국내표준 제안\n마) L2/L3 계층 통합 서\n비스 제공을 위한 IP",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          192.86,
+          588.8,
+          500.01,
+          729.64
+        ],
+        "page_area_fraction": 0.0865
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.84,
+          176.21,
+          473.15,
+          318.61
+        ],
+        "page_area_fraction": 0.0721
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0020",
+    "caption": "L2/L3 계층통합서비스 설계 구조",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "ü 계층 통합 Manager 구조 설계\nü 계층 통합 RIB 구조 설계\nü 가상 인터페이스 관리 기능 구조 설계 § 네트워크 슬라이싱을 위한 다양한 데이터 평면 처리 구조 설계\nü 계층 통합 Layer Manager/Agent 개발\nü 계층 통합 Forwarding Manager/Agent 개발\nü 계층 통합 분산 구조 Data Plane VRF 기술 개발\nü ARP, LPM, RIB L3 Routing 제어 기술 개발",
+    "caption_and_following_text": "§ L2/L3 서비스별 End-to-End 회선 One-Click 설정 기능 구조 설계\nü L2VPN 구성을 위한 VPWS, VPLS 서비스 End-to-End 구조 설계\nü L3VPN 구성을 위한 VRF 구성 서비스 End-to-End 구조 설계 § L2/L3 서비스별 관리를 위한 T-SDN 기반 지능형 네트워크 관리 구조 설계\n(그림 2-5) L2/L3 계층통합서비스 설계 구조\n바) 고용량·고안정 시스\n템을 위한 지능형 네\n트워크 관리기술 개\n발\n§ Netconf/YANG SBI/NBI 기반 T-SDN 고도화 구조 설계\nü T-SDN Controller 자체 기술 확보를 위한 구조 설계",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          192.86,
+          588.8,
+          500.01,
+          729.64
+        ],
+        "page_area_fraction": 0.0865
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.84,
+          176.21,
+          473.15,
+          318.61
+        ],
+        "page_area_fraction": 0.0721
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0021",
+    "caption": "T-SDN 지능형 네트워크 관리 기능 구조",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 18 -\n(2) 2차년도 (2021년)\n개발 내용 세부 개발 내용\n(그림 2-6) T-SDN 지능형 네트워크 관리 기능 구조\n§ 시간확정형 패킷 전달망 핵심기술 및 OTNsec 등 표준화 작업 참여\n사) 초고속 암호전송을\n위한\n100G/200G/400G\n암호화 기술 개발\n§ 초고속 암호전송을 위한 암호화 알고리즘 및 관리 기능 설계",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          228.72,
+          630.87,
+          464.15,
+          774.59
+        ],
+        "page_area_fraction": 0.0676
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          204.61,
+          255.08,
+          488.38,
+          393.29
+        ],
+        "page_area_fraction": 0.0784
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0022",
+    "caption": "초고속 OTN 암호화 설계 기술",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "ü 100G/200G/400G 암호화 알고리즘 및 관리 기능 구조 및 상세 설계\nü OTN 보안(OTNsec)을 위한 핵심기술 국내 단체 표준화 제안\n§ 초고속 암호전송을 위한 암호화 라인카드 설계\nü 100G/200G/400G 암호화 라인카드 기능 규격 정의\nü 100G/200G/400G 암호화 라인카드 구조 및 상세 설계\nü 100G/200G/400G 암호화 라인카드 개발 환경 구축\n§ 양자암호통신 기능 제공을 위한 양자키분배기(QKD) 설계",
+    "caption_and_following_text": "ü 양자키분배기(QKD) 기능 규격 정의\nü 양자키분배기(QKD) 구조 및 상세 설계\nü 양자키 분배기 – 암호화 라인카드 연동기능 설계(ETSI 표준 기반)\n(그림 2-7) 초고속 OTN 암호화 설계 기술\n개발 내용 세부 개발 내용\n가) 16T급 차세대 POTN\n시스템 구조 연구 및\n구현 핵심기술 개발\n§ 시스템 요구사항, 시스템 구조 설계 보완\n§ 16T급 고용량 패킷-광 통함 스위칭 장비 시작품 정의/제작 (TRL5, 6) § 시스템 통합 및 시험",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          228.72,
+          630.87,
+          464.15,
+          774.59
+        ],
+        "page_area_fraction": 0.0676
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          204.61,
+          255.08,
+          488.38,
+          393.29
+        ],
+        "page_area_fraction": 0.0784
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0023",
+    "caption": "16T급 고용량 POTN 시스템 구현 기술",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "ü 시스템 냉각용 팬 구현\nü 시스템 운용관리, EMS 소프트웨어 구현\n§ 53G급 고속 신호 무결성 보장 16T급 백플레인 구현 및 시험\nü 16T 패킷 서비스 제공을 위한 백플레인 버스 기능 구현\n§ 16T급 2+1 이중화 지원 스위치 패브릭 구현 및 시험\nü 8T급 2+1 스위치 패브릭 카드 구현\n§ 패킷 전달 서비스용 라인카드 구현 및 시험",
+    "caption_and_following_text": "ü 100G급 패킷 전달 24포트 라인카드 구현\nü 10G급 패킷 전달 56포트 라인카드 구현\nü MPLS-TP 패킷 전달, OAM 및 보호절체 기능 구현\n(그림 2-8) 16T급 고용량 POTN 시스템 구현 기술\n시스템 형상 설계 구조 백플레인 설계 기술\n전력소모량 분산 구조\n설계\n냉각효율을 고려한\nFAN 설계\n제공유니트 (공통부, Ethernet",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.39,
+          497.46,
+          346.85,
+          609.05
+        ],
+        "page_area_fraction": 0.0385
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          354.41,
+          498.17,
+          522.2,
+          608.21
+        ],
+        "page_area_fraction": 0.0369
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.39,
+          359.13,
+          281.73,
+          466.77
+        ],
+        "page_area_fraction": 0.0231
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          289.28,
+          359.13,
+          388.47,
+          480.55
+        ],
+        "page_area_fraction": 0.0241
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          397.71,
+          366.2,
+          522.2,
+          459.58
+        ],
+        "page_area_fraction": 0.0232
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0024",
+    "caption": "ROADM 시스템 블록도 및 형상도",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 68,
+    "prefix_match_only": false,
+    "text_before": "WMDAp-20\nWMCA-16\n[Contentionless 기능 제공]\n` WMDAe-20\n[Flexible Grid Mux/Demux 기능 제공]\nWMDAp-20\n[Mux/Demux 채널 확장 기능",
+    "caption_and_following_text": "제공]\nCDF 기능 제공\n16채널CDC-F 기능 제공\n(그림 2-9) ROADM 시스템 블록도 및 형상도\n라) 시간확정형 네트워\n킹(DetNet) 핵심기\n술 개발\n§ 16T급 POTN 시스템 엔지니어링\nü 16T급 POTN 시스템 통합 및 시험 지원\nü 53G급 고속 인터페이스 신호 무결성 검증 지원",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          325.27,
+          502.13,
+          413.54,
+          609.29
+        ],
+        "page_area_fraction": 0.0189
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          420.85,
+          503.27,
+          522.69,
+          608.09
+        ],
+        "page_area_fraction": 0.0213
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          171.51,
+          43.27,
+          344.1,
+          164.1
+        ],
+        "page_area_fraction": 0.0417
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          351.53,
+          39.8,
+          524.84,
+          167.7
+        ],
+        "page_area_fraction": 0.0443
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0025",
+    "caption": "IP/MPLS 기반 시간확정형 네트워킹(DetNet) 기술",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 21 -\n(3) 3차년도 (2022년)\n개발 내용 세부 개발 내용\n(그림 2-10) IP/MPLS 기반 시간확정형 네트워킹(DetNet) 기술\n§ 시간확정형 패킷 전달망 핵심기술 표준화 추진\nü T-SDN 기반 시간확정형 패킷 전달망 제어/관리 기술 국제표준화 추진\nü 시간확정형 패킷 전달망 고생존성 기술 국제표준화 추진\nü 차세대 전달망 핵심기술 국내표준안 제출\n마) L2/L3 계층 통합 서\n비스 제공을 위한 IP",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.8,
+          344.14,
+          463.07,
+          491.7
+        ],
+        "page_area_fraction": 0.0688
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0026",
+    "caption": "L2/L3 계층 통합서비스 기능 블록도",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "ü 가상 인터페이스 관리 기능 구현 § 네트워크 슬라이싱을 위한 다양한 데이터 평면 처리 기능 구현 및 시험\nü 계층통합 Layer Manager/Agent 기능 구현\nü 계층통합 Forwarding Manager/Agent 기능 구현\nü 계층통합 분산 구조 Data Plane VRF 기능 구현\nü ARP, LPM, RIB L3 Routing제어 기능 구현\n§ L2/L3 계층 서비스별 End-to-End 회선 One-Click 설정 기능 구현 및 시험\nü L2VPN 구성을 위한 VPWS, VPLS 서비스 End-to-End 기능 구현",
+    "caption_and_following_text": "ü L3VPN 구성을 위한 VRF 구성 서비스 End-to-End 기능 구현\n§ L2/L3 계층 서비스별 관리를 위한 T-SDN 기반 지능형 네트워크 관리 기능\n구현 및 시험\n(그림 2-11) L2/L3 계층 통합서비스 기능 블록도\n바) 고용량·고안정 시스\n템을 위한 지능형 네\n트워크 관리기술 개\n발\n§ L2/L3 계층 서비스별 End-to-End 회선 One-Click 설정 기능 구현 및 시험\nü L2VPN 구성을 위한 VPWS, VPLS 서비스 End-to-End 기능 구현",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.8,
+          344.14,
+          463.07,
+          491.7
+        ],
+        "page_area_fraction": 0.0688
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0027",
+    "caption": "종합 성능 검증 구성도",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "§ 16T급 고용량 패킷-광 통합 스위칭 장비 사업화 계획 및 전략 수립\n§ 16T급 고용량 POTN 시스템 고도화 및 안정화\nü 시스템 통합 시험 및 안정화\nü 시스템 운용관리, EMS 소프트웨어 통합 시험 및 안정화\n§ 53G급 고속 신호 무결성 보장 16T급 백플레인 고도화 및 안정화\n§ 16T급 2+1 이중화 지원 스위치 패브릭 카드 고도화 및 안정화\n§ 패킷 전달 서비스용 라인카드 고도화 및 안정화",
+    "caption_and_following_text": "ü 100G급 패킷 전달 24포트 라인카드 고도화 및 안정화\nü 10G급 패킷 전달 56포트 라인카드 고도화 및 안정화\nü MPLS-TP 패킷 전달, OAM 및 보호절체 기능 고도화 및 안정화\n(그림 2-12) 종합 성능 검증 구성도\n나) 400G 이상 고확장\n성 패킷/광 전달 핵\n심기술 개발\n§ 400G급 패킷/광 인터페이스 지원 라인카드 시스템 통합 시험 및 안정화\nü 400G급 패킷/광 인터페이스 지원 라인카드 시스템 통합 및 연동 시험\nü 400G급 패킷/광 인터페이스 지원 라인카드 기능 안정화",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          233.63,
+          456.58,
+          459.35,
+          590.35
+        ],
+        "page_area_fraction": 0.0603
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          226.56,
+          39.08,
+          466.43,
+          169.13
+        ],
+        "page_area_fraction": 0.0623
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0028",
+    "caption": "FlexE/O 및 암호화 성능 검증 구성도",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 23 -\n개발 내용 세부 개발 내용\n(그림 2-13) FlexE/O 및 암호화 성능 검증 구성도\n다) 파장다중화 전송을\n위한 핵심 응용기술\n개발\n§ CDCF 기반 파장다중화 전송시스템의 전체 시스템 통합 시험 및 안정화\nü 파장다중화 전송시스템의 전체 시스템 통합 및 연동 시험\nü 파장다중화 전송시스템 기능 안정화\nü 파장다중화 전송시스템 추가 요구 기능 구현",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.51,
+          116.87,
+          453.48,
+          276.18
+        ],
+        "page_area_fraction": 0.0681
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0029",
+    "caption": "DetNet 기능 및 성능 검증 개념도",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 38,
+    "prefix_match_only": false,
+    "text_before": "ü 100G급 DetNet 무손실 패킷 전달 기능 안정화\nü 100G급 비동기식 DetNet 큐잉 및 스케쥴링 기능 구현\n§ 400G급 DetNet 라인카드 시스템 통합 및 안정화\nü 400G급 DetNet 라인카드 시스템 통합 및 연동 시험\nü 400G급 DetNet 라인카드 기능 안정화\nü 400G급 DetNet 라인카드 추가 요구 기능 구현\n§ DetNet 제어/관리 인터페이스 기능 시스템 통합 및 안정화",
+    "caption_and_following_text": "ü DetNet 제어/관리 기능 시스템 통합 및 연동 시험\nü DetNet 제어/관리 기능 안정화\nü 비동기식 DetNet 큐잉 및 스케쥴링 제어/관리 기능 구현\n(그림 2-14) DetNet 기능 및 성능 검증 개념도\n§ 시간확정형 패킷 전달망 핵심기술 표준화 추진\nü T-SDN 기반 시간확정형 패킷 전달망 제어/관리 기술 국제표준 채택\nü 시간확정형 패킷 전달망 고생존성 기술 국제표준 채택\nü 차세대 전달망 핵심기술 국내표준 채택\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.51,
+          116.87,
+          453.48,
+          276.18
+        ],
+        "page_area_fraction": 0.0681
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0030",
+    "caption": "16T POTN 시스템 셀프 구조",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 25 -\n(그림2-15 ) 16T POTN 시스템 셀프 구조\n(나) 시스템 형상 Ÿ 크기(HxWxDmm) : 588.8x543x396.3 (전면케이블트레이 제외)\n(그림 2-16) 16T POTN 시스템 기구 형상, 전면 및 측면도]\n(다) 송풍부 설계 구조\nŸ 셀프 후면부 탈실장 구조 채택\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.76,
+          464.25,
+          456.23,
+          798.57
+        ],
+        "page_area_fraction": 0.2121
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.18,
+          158.35,
+          474.82,
+          387.3
+        ],
+        "page_area_fraction": 0.1623
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0031",
+    "caption": "16T POTN 시스템 기구 형상, 전면 및 측면도",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 25 -\n(그림2-15 ) 16T POTN 시스템 셀프 구조\n(나) 시스템 형상 Ÿ 크기(HxWxDmm) : 588.8x543x396.3 (전면케이블트레이 제외)\n(그림 2-16) 16T POTN 시스템 기구 형상, 전면 및 측면도]\n(다) 송풍부 설계 구조\nŸ 셀프 후면부 탈실장 구조 채택\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.76,
+          464.25,
+          456.23,
+          798.57
+        ],
+        "page_area_fraction": 0.2121
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.18,
+          158.35,
+          474.82,
+          387.3
+        ],
+        "page_area_fraction": 0.1623
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0032",
+    "caption": "6T POTN 시스템 기구 형상, 상면",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 26 -\n(그림 2-17) 6T POTN 시스템 기구 형상, 상면\n② 16T급 스위치 패브릭 및 백플레인 구조 설계\n(가) 고속 백플레인 구조 설계 완료\nŸ 트래픽용 고속데이터 처리, 크기 최적화를 통한 경제성 확보\n(그림 2-18) 16T POTN 시스템 고속백플레인 CAD 형상\n(나) 저속 백플레인 구조 설계 완료\nŸ 제어용 저속 데이터 처리\n(그림 2-19) 16T POTN 시스템 저속백플레인 CAD 형상\n③ 공통부 유니트 구조 설계",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          173.55,
+          609.17,
+          421.57,
+          798.57
+        ],
+        "page_area_fraction": 0.0939
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.62,
+          402.76,
+          417.38,
+          514.6
+        ],
+        "page_area_fraction": 0.0536
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.35,
+          169.01,
+          422.89,
+          325.8
+        ],
+        "page_area_fraction": 0.0785
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0033",
+    "caption": "16T POTN 시스템 고속백플레인 CAD 형상",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 26 -\n(그림 2-17) 6T POTN 시스템 기구 형상, 상면",
+    "caption_and_following_text": "② 16T급 스위치 패브릭 및 백플레인 구조 설계\n(가) 고속 백플레인 구조 설계 완료\nŸ 트래픽용 고속데이터 처리, 크기 최적화를 통한 경제성 확보\n(그림 2-18) 16T POTN 시스템 고속백플레인 CAD 형상\n(나) 저속 백플레인 구조 설계 완료\nŸ 제어용 저속 데이터 처리\n(그림 2-19) 16T POTN 시스템 저속백플레인 CAD 형상\n③ 공통부 유니트 구조 설계\n(가) 제어유니트 및 클럭유니트 구조 설계 완료\n(나) 스위칭유니트 구조 설계 완료",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          173.55,
+          609.17,
+          421.57,
+          798.57
+        ],
+        "page_area_fraction": 0.0939
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.62,
+          402.76,
+          417.38,
+          514.6
+        ],
+        "page_area_fraction": 0.0536
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.35,
+          169.01,
+          422.89,
+          325.8
+        ],
+        "page_area_fraction": 0.0785
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0034",
+    "caption": "16T POTN 시스템 저속백플레인 CAD 형상",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 26 -\n(그림 2-17) 6T POTN 시스템 기구 형상, 상면\n② 16T급 스위치 패브릭 및 백플레인 구조 설계\n(가) 고속 백플레인 구조 설계 완료\nŸ 트래픽용 고속데이터 처리, 크기 최적화를 통한 경제성 확보",
+    "caption_and_following_text": "(그림 2-18) 16T POTN 시스템 고속백플레인 CAD 형상\n(나) 저속 백플레인 구조 설계 완료\nŸ 제어용 저속 데이터 처리\n(그림 2-19) 16T POTN 시스템 저속백플레인 CAD 형상\n③ 공통부 유니트 구조 설계\n(가) 제어유니트 및 클럭유니트 구조 설계 완료\n(나) 스위칭유니트 구조 설계 완료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          173.55,
+          609.17,
+          421.57,
+          798.57
+        ],
+        "page_area_fraction": 0.0939
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.62,
+          402.76,
+          417.38,
+          514.6
+        ],
+        "page_area_fraction": 0.0536
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.35,
+          169.01,
+          422.89,
+          325.8
+        ],
+        "page_area_fraction": 0.0785
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0035",
+    "caption": "16T POTN 시스템 스위칭부 기구 형상",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 27 -\n(그림 2-20) 16T POTN 시스템 스위칭부 기구 형상\n④ 패킷서비스용 100GE급 라인카드 설계\n(가) 100GE급 패킷서비스용 라인카드 구조 설계 완료\nŸ 제공인터페이스 : 100GE 이더넷 24포트 제공\nŸ 모듈타입 : QSFP28\n(나) 유니트 기구 형상\n(그림 2-21) 16T POTN 시스템 100GE급 패킷용 라인카드 기구 형상\n(다) 회로도 작성 작업 진행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.13,
+          569.62,
+          479.26,
+          798.57
+        ],
+        "page_area_fraction": 0.157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.42,
+          183.04,
+          412.7,
+          439.92
+        ],
+        "page_area_fraction": 0.1182
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0036",
+    "caption": "16T POTN 시스템 100GE급 패킷용 라인카드 기구 형상",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 27 -\n(그림 2-20) 16T POTN 시스템 스위칭부 기구 형상\n④ 패킷서비스용 100GE급 라인카드 설계\n(가) 100GE급 패킷서비스용 라인카드 구조 설계 완료",
+    "caption_and_following_text": "Ÿ 제공인터페이스 : 100GE 이더넷 24포트 제공\nŸ 모듈타입 : QSFP28\n(나) 유니트 기구 형상\n(그림 2-21) 16T POTN 시스템 100GE급 패킷용 라인카드 기구 형상\n(다) 회로도 작성 작업 진행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.13,
+          569.62,
+          479.26,
+          798.57
+        ],
+        "page_area_fraction": 0.157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.42,
+          183.04,
+          412.7,
+          439.92
+        ],
+        "page_area_fraction": 0.1182
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0037",
+    "caption": "100GE급 패킷용 라인카드 회로도",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 28 -\n(그림 2-22) 100GE급 패킷용 라인카드 회로도\n⑤ 패킷서비스용 10GE급 라인카드 설계\n(가) 10GE급 패킷서비스용 라인카드 구조 설계 완료\nŸ 제공인터페이스 : 10GE 이더넷 56포트 제공\nŸ 모듈타입 : SFP+\n(나) 유니트 기구 형상\n(그림 2-23) 16T POTN 시스템 10GE급 패킷용 라인카드 기구 형상\n(다) 회로도 작성 작업 진행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.81,
+          580.65,
+          463.19,
+          798.57
+        ],
+        "page_area_fraction": 0.1443
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.63,
+          160.62,
+          429.37,
+          450.95
+        ],
+        "page_area_fraction": 0.153
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0038",
+    "caption": "16T POTN 시스템 10GE급 패킷용 라인카드 기구 형상",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\n(그림 2-22) 100GE급 패킷용 라인카드 회로도\n⑤ 패킷서비스용 10GE급 라인카드 설계\n(가) 10GE급 패킷서비스용 라인카드 구조 설계 완료",
+    "caption_and_following_text": "Ÿ 제공인터페이스 : 10GE 이더넷 56포트 제공\nŸ 모듈타입 : SFP+\n(나) 유니트 기구 형상\n(그림 2-23) 16T POTN 시스템 10GE급 패킷용 라인카드 기구 형상\n(다) 회로도 작성 작업 진행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.81,
+          580.65,
+          463.19,
+          798.57
+        ],
+        "page_area_fraction": 0.1443
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.63,
+          160.62,
+          429.37,
+          450.95
+        ],
+        "page_area_fraction": 0.153
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0039",
+    "caption": "10GE급 패킷용 라인카드 회로도",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 29 -\n(그림 2-24) 10GE급 패킷용 라인카드 회로도\n⑥ 산출물 내역\n(가) 시스템 구조설계 1건\n(나) POTN 시스템 기구도 및 고속/저속 백플레인 관련 기술문서 22건\n(다) 제어유니트 기구도, 회로도, 부품표, CAD 자료 등 기술문서 6건\n(라) 스위칭유니트 기구도, 회로도, 부품표, CAD 자료 등 기술문서 6건\n(마) 클럭유니트 기구도, 회로도, 부품표, CAD 자료 등 기술문서 6건\n(바) 이더넷 100GE/10GE 유니트 기구도, 회로도, 부품표, CAD 자료 등 기술문서 12건\n(사) 소프트웨어 구조 설계서 3건(작성중)",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [
+      "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.86,
+          562.54,
+          479.26,
+          798.57
+        ],
+        "page_area_fraction": 0.1714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.11,
+          239.5,
+          529.28,
+          309.86
+        ],
+        "page_area_fraction": 0.0623
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0040",
+    "caption": "100G/200G/400G급 OTN 유니트 기구 설계도",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n(그림 2-24) 100G/200G/400G급 OTN 유니트 기구 설계도\n(그림 2-25) 100G/200G/400G급 OTN 라인카드 블록 개요도\n(그림 2-26) 100G/200G/400G급 OTN 라인카드 블록 흐름도\n② 100G/200G/400G급 OTN 라인카드 핵심 칩셋 검토\n(가) 2.4Tera급 패킷 처리 칩셋\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.99,
+          603.06,
+          420.13,
+          798.57
+        ],
+        "page_area_fraction": 0.0958
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.84,
+          399.64,
+          449.28,
+          578.85
+        ],
+        "page_area_fraction": 0.1087
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.3,
+          163.26,
+          480.94,
+          357.93
+        ],
+        "page_area_fraction": 0.1426
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0041",
+    "caption": "100G/200G/400G급 OTN 라인카드 블록 개요도",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n(그림 2-24) 100G/200G/400G급 OTN 유니트 기구 설계도\n(그림 2-25) 100G/200G/400G급 OTN 라인카드 블록 개요도\n(그림 2-26) 100G/200G/400G급 OTN 라인카드 블록 흐름도\n② 100G/200G/400G급 OTN 라인카드 핵심 칩셋 검토\n(가) 2.4Tera급 패킷 처리 칩셋\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.99,
+          603.06,
+          420.13,
+          798.57
+        ],
+        "page_area_fraction": 0.0958
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.84,
+          399.64,
+          449.28,
+          578.85
+        ],
+        "page_area_fraction": 0.1087
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.3,
+          163.26,
+          480.94,
+          357.93
+        ],
+        "page_area_fraction": 0.1426
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0042",
+    "caption": "100G/200G/400G급 OTN 라인카드 블록 흐름도",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n(그림 2-24) 100G/200G/400G급 OTN 유니트 기구 설계도\n(그림 2-25) 100G/200G/400G급 OTN 라인카드 블록 개요도\n(그림 2-26) 100G/200G/400G급 OTN 라인카드 블록 흐름도\n② 100G/200G/400G급 OTN 라인카드 핵심 칩셋 검토\n(가) 2.4Tera급 패킷 처리 칩셋\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.99,
+          603.06,
+          420.13,
+          798.57
+        ],
+        "page_area_fraction": 0.0958
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.84,
+          399.64,
+          449.28,
+          578.85
+        ],
+        "page_area_fraction": 0.1087
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.3,
+          163.26,
+          480.94,
+          357.93
+        ],
+        "page_area_fraction": 0.1426
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0043",
+    "caption": "BCM사 Jericho2C : Network I/F + PP/TM + Fabric I/F",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 31 -\n(그림 2-27) BCM사 Jericho2C : Network I/F + PP/TM + Fabric I/F\n(나) 600G급 OTN 칩셋\n(그림 2-28) [Microsemi DIGI-G5 : OTN mapper, Flex-E/O, Security\n(다) 400G CFP2 Type 광모듈(DCO 포함)\n(그림 2-29) 400G CFP2 Type 광모듈, DCO 포함\n③ 산출물 내역\n(가) 400G급 유니트 구조설계서 시스템 구조설계서 1건\n(나) 200G급 유니트 구조설계서 시스템 구조설계서 등 기술문서 6건\n다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계",
+    "section_context_candidate": "다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계",
+    "heading_candidates": [
+      "다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.82,
+          584.48,
+          490.18,
+          798.57
+        ],
+        "page_area_fraction": 0.1649
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.51,
+          375.91,
+          500.49,
+          525.15
+        ],
+        "page_area_fraction": 0.1211
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.52,
+          205.22,
+          379.6,
+          316.57
+        ],
+        "page_area_fraction": 0.0365
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0044",
+    "caption": "[Microsemi DIGI-G5 : OTN mapper, Flex-E/O, Security",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 31 -\n(그림 2-27) BCM사 Jericho2C : Network I/F + PP/TM + Fabric I/F\n(나) 600G급 OTN 칩셋\n(그림 2-28) [Microsemi DIGI-G5 : OTN mapper, Flex-E/O, Security\n(다) 400G CFP2 Type 광모듈(DCO 포함)\n(그림 2-29) 400G CFP2 Type 광모듈, DCO 포함\n③ 산출물 내역\n(가) 400G급 유니트 구조설계서 시스템 구조설계서 1건\n(나) 200G급 유니트 구조설계서 시스템 구조설계서 등 기술문서 6건\n다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계",
+    "section_context_candidate": "다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계",
+    "heading_candidates": [
+      "다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.82,
+          584.48,
+          490.18,
+          798.57
+        ],
+        "page_area_fraction": 0.1649
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.51,
+          375.91,
+          500.49,
+          525.15
+        ],
+        "page_area_fraction": 0.1211
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.52,
+          205.22,
+          379.6,
+          316.57
+        ],
+        "page_area_fraction": 0.0365
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0045",
+    "caption": "400G CFP2 Type 광모듈, DCO 포함",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 31 -",
+    "caption_and_following_text": "(그림 2-27) BCM사 Jericho2C : Network I/F + PP/TM + Fabric I/F\n(나) 600G급 OTN 칩셋\n(그림 2-28) [Microsemi DIGI-G5 : OTN mapper, Flex-E/O, Security\n(다) 400G CFP2 Type 광모듈(DCO 포함)\n(그림 2-29) 400G CFP2 Type 광모듈, DCO 포함\n③ 산출물 내역\n(가) 400G급 유니트 구조설계서 시스템 구조설계서 1건\n(나) 200G급 유니트 구조설계서 시스템 구조설계서 등 기술문서 6건\n다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계\n① CDCF 기반 파장다중화 전송시스템 구조 설계",
+    "section_context_candidate": "다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계",
+    "heading_candidates": [
+      "다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.82,
+          584.48,
+          490.18,
+          798.57
+        ],
+        "page_area_fraction": 0.1649
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.51,
+          375.91,
+          500.49,
+          525.15
+        ],
+        "page_area_fraction": 0.1211
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.52,
+          205.22,
+          379.6,
+          316.57
+        ],
+        "page_area_fraction": 0.0365
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0046",
+    "caption": "Modulation에 따른 OSNR 패널티",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 35 -\n(그림 2-39) Modulation에 따른 OSNR 패널티\n③ 8-Degree 66채널(400G)~88채널(100/200G) 슈퍼채널 스위칭 기능 설계\n(가) 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 기능 규격 정의 Ÿ Coherent Super Channel Center Frequency(λc) 설정 기능 단위: 6.25GHz(ITU-T,\nG.694.1 규격 기준) Ÿ Flexible Grid WSS(Wavelength Selective Switch) Slice 설정 기능 단위: 12.5GHz\nSlice Spacing Grid(ITU-T, G.694.1 규격 기준) Ÿ Flexible Grid WSS Bandwidth 설정: 100G Coherent Super Channel (37.5GHz,\n50GHz), 200G Coherent Super Channel (50GHz, 75GHz, 100GHz), 400G\nCoherent Super Channel (75GHz, 100GHz) 설정 기능 제공\n(나) 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 구조 및 상세 설계\nŸ 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 구조",
+    "section_context_candidate": "다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.83,
+          608.57,
+          502.29,
+          798.57
+        ],
+        "page_area_fraction": 0.1555
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.63,
+          136.32,
+          441.13,
+          287.19
+        ],
+        "page_area_fraction": 0.084
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.63,
+          136.32,
+          441.13,
+          287.19
+        ],
+        "page_area_fraction": 0.084
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.61,
+          134.67,
+          266.46,
+          187.89
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.61,
+          134.67,
+          266.46,
+          187.89
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          352.44,
+          134.67,
+          443.83,
+          187.89
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          352.44,
+          134.67,
+          443.83,
+          187.89
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.88,
+          198.31,
+          358.39,
+          257.56
+        ],
+        "page_area_fraction": 0.0142
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.88,
+          198.31,
+          358.39,
+          257.56
+        ],
+        "page_area_fraction": 0.0142
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.08,
+          299.39,
+          223.42,
+          340.27
+        ],
+        "page_area_fraction": 0.0082
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0047",
+    "caption": "8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 구조",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 35 -\n(그림 2-39) Modulation에 따른 OSNR 패널티\n③ 8-Degree 66채널(400G)~88채널(100/200G) 슈퍼채널 스위칭 기능 설계\n(가) 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 기능 규격 정의 Ÿ Coherent Super Channel Center Frequency(λc) 설정 기능 단위: 6.25GHz(ITU-T,\nG.694.1 규격 기준) Ÿ Flexible Grid WSS(Wavelength Selective Switch) Slice 설정 기능 단위: 12.5GHz",
+    "caption_and_following_text": "Slice Spacing Grid(ITU-T, G.694.1 규격 기준) Ÿ Flexible Grid WSS Bandwidth 설정: 100G Coherent Super Channel (37.5GHz,\n50GHz), 200G Coherent Super Channel (50GHz, 75GHz, 100GHz), 400G\nCoherent Super Channel (75GHz, 100GHz) 설정 기능 제공\n(나) 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 구조 및 상세 설계\nŸ 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 구조\nClient\nOSC\nProcessing\nOSC\nWorking/Protection",
+    "section_context_candidate": "다) 파장다중화 전송을 위한 핵심응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.83,
+          608.57,
+          502.29,
+          798.57
+        ],
+        "page_area_fraction": 0.1555
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.63,
+          136.32,
+          441.13,
+          287.19
+        ],
+        "page_area_fraction": 0.084
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.63,
+          136.32,
+          441.13,
+          287.19
+        ],
+        "page_area_fraction": 0.084
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.61,
+          134.67,
+          266.46,
+          187.89
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.61,
+          134.67,
+          266.46,
+          187.89
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          352.44,
+          134.67,
+          443.83,
+          187.89
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          352.44,
+          134.67,
+          443.83,
+          187.89
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.88,
+          198.31,
+          358.39,
+          257.56
+        ],
+        "page_area_fraction": 0.0142
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.88,
+          198.31,
+          358.39,
+          257.56
+        ],
+        "page_area_fraction": 0.0142
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.08,
+          299.39,
+          223.42,
+          340.27
+        ],
+        "page_area_fraction": 0.0082
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0048",
+    "caption": "8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 상세 구조",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 36 -\n(그림 2-41) 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 상세 구조\n④ 산출물 내역\n(가) ROADM 시스템 셀프 구조 설계서 등 기술문서 7건\n(나) ROADM A/D스위치유니트 구조설계서 등 기술문서 6건\n(다) ROADM 파장스위치유니트 구조설계서 등 기술문서 6건\n(라) ROADM 감시제어유니트 구조설계서 등 기술문서 6건\n(마) ROADM 광레벨 및 파장감시유니트 구조설계서 등 기술문서 12건\n(바) ROADM 라만증폭기 및 선로증폭기유니트 구조설계서 등 기술문서 12건\n(사) MUX 셀프 구조설계서등 기술문서 2건",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [
+      "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.99,
+          547.92,
+          501.45,
+          798.57
+        ],
+        "page_area_fraction": 0.2021
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0049",
+    "caption": "DetNet 제어/관리 모듈 및 제어/관리시스템 구조",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 40 -\n(그림 2-49) DetNet 제어/관리 모듈 및 제어/관리시스템 구조\n③ 차세대 전달망 핵심기술 표준화\n(가) 시간확정형 패킷 전달망 핵심기술 표준화 추진\nŸ T-SDN 기반 시간확정형 패킷 전달망 제어/관리 기술 국제표준화 추진\n- ITU-T SG15 전송장비 관리기능 공통 요구사항 표준 승인 (G.7710/Y1701,\n2020.10.)\n(그림 2-50) ITU-T G.7710/Y.1701 국제표준안\n- IETF TEAS WG 트래픽 엔지니어링 네트워크 추상화 및 제어 YANG 데이터 모델\n워킹그룹 드래프트 (삼성, SKT, Huawei, Erisson, Nokia 등과 공동) 업데이트 진행",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.79,
+          613.49,
+          381.15,
+          795.69
+        ],
+        "page_area_fraction": 0.1046
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          392.19,
+          629.43,
+          497.97,
+          779.75
+        ],
+        "page_area_fraction": 0.0318
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.23,
+          300.15,
+          299.36,
+          475.16
+        ],
+        "page_area_fraction": 0.0445
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          327.78,
+          299.91,
+          451.32,
+          475.4
+        ],
+        "page_area_fraction": 0.0433
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0050",
+    "caption": "ITU-T G.7710/Y.1701 국제표준안",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 40 -\n(그림 2-49) DetNet 제어/관리 모듈 및 제어/관리시스템 구조\n③ 차세대 전달망 핵심기술 표준화\n(가) 시간확정형 패킷 전달망 핵심기술 표준화 추진",
+    "caption_and_following_text": "Ÿ T-SDN 기반 시간확정형 패킷 전달망 제어/관리 기술 국제표준화 추진\n- ITU-T SG15 전송장비 관리기능 공통 요구사항 표준 승인 (G.7710/Y1701,\n2020.10.)\n(그림 2-50) ITU-T G.7710/Y.1701 국제표준안\n- IETF TEAS WG 트래픽 엔지니어링 네트워크 추상화 및 제어 YANG 데이터 모델\n워킹그룹 드래프트 (삼성, SKT, Huawei, Erisson, Nokia 등과 공동) 업데이트 진행\n중\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.79,
+          613.49,
+          381.15,
+          795.69
+        ],
+        "page_area_fraction": 0.1046
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          392.19,
+          629.43,
+          497.97,
+          779.75
+        ],
+        "page_area_fraction": 0.0318
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.23,
+          300.15,
+          299.36,
+          475.16
+        ],
+        "page_area_fraction": 0.0445
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          327.78,
+          299.91,
+          451.32,
+          475.4
+        ],
+        "page_area_fraction": 0.0433
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0051",
+    "caption": "IETF ACTN VN YANG 모델 기고서",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n(그림 2-51) IETF ACTN VN YANG 모델 기고서\nŸ 시간확정형 패킷 전달망 고생존성 기술 국제표준화 추진\n- ITU-T SG15 메트로 전달망 선형 보호절체 분야 에디터쉽 확보 (G.8331, 2020.02.)\n및 권고안 드래프트 작업 진행 중\n(그림 2-52) ITU-T G.8331 권고안 초안 기고서\nŸ 시간확정형 패킷 전달망 국내표준화 추진\n- TTA 캐리어 이더넷 정보 모델 (TTAE.OT-03.0031R1), MPLS-TP 의사회선\n듀얼호밍 보호절체(TTAE.IT-G.8133) 국내표준안 승인\n(나) 산출물 내역",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.12,
+          605.1,
+          292.76,
+          790.06
+        ],
+        "page_area_fraction": 0.0557
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.71,
+          618.52,
+          503.73,
+          776.75
+        ],
+        "page_area_fraction": 0.0588
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.68,
+          285.53,
+          296.72,
+          490.86
+        ],
+        "page_area_fraction": 0.0616
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          330.3,
+          285.65,
+          476.98,
+          490.74
+        ],
+        "page_area_fraction": 0.0601
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0052",
+    "caption": "ITU-T G.8331 권고안 초안 기고서",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 41 -\n(그림 2-51) IETF ACTN VN YANG 모델 기고서",
+    "caption_and_following_text": "Ÿ 시간확정형 패킷 전달망 고생존성 기술 국제표준화 추진\n- ITU-T SG15 메트로 전달망 선형 보호절체 분야 에디터쉽 확보 (G.8331, 2020.02.)\n및 권고안 드래프트 작업 진행 중\n(그림 2-52) ITU-T G.8331 권고안 초안 기고서\nŸ 시간확정형 패킷 전달망 국내표준화 추진\n- TTA 캐리어 이더넷 정보 모델 (TTAE.OT-03.0031R1), MPLS-TP 의사회선\n듀얼호밍 보호절체(TTAE.IT-G.8133) 국내표준안 승인\n(나) 산출물 내역\nŸ 기술문서 31건\n- DetNet 기술 개발 사업프로세스정의서 및 사업관리계획서 등 2건",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.12,
+          605.1,
+          292.76,
+          790.06
+        ],
+        "page_area_fraction": 0.0557
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          317.71,
+          618.52,
+          503.73,
+          776.75
+        ],
+        "page_area_fraction": 0.0588
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.68,
+          285.53,
+          296.72,
+          490.86
+        ],
+        "page_area_fraction": 0.0616
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          330.3,
+          285.65,
+          476.98,
+          490.74
+        ],
+        "page_area_fraction": 0.0601
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0053",
+    "caption": "IP over POTN 제어 및 데이터 평면 구조",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "- 국제표준안: ITU-T G.7110/Y.1701 (10/2020), 전송장비 관리기능 공통 요구사항, 2020.10.29. - 기고서: ITU-T SG15 G.8331 MTN 선형 보호 권고 등 4건, IETF TEAS WG ACTN\nYANG 데이터 모델 등 국제기고서 3건\nŸ 국내표준안 채택 2건, 국내기고서 제출 및 채택 3건\n- 국내표준안: TTA TTAE.OT-03.0031R1, 캐리어 이더넷 서비스 정보 모델, 2020.12.09. 등 2건\n- 기고서: TTA TTAE.IE-802.1Q-2018, 브리지 및 브리지드 네트워크 등 3건\n마) L2/L3 계층 통합 서비스 제공을 위한 IP over POTN 기술 개발 구조 설계\n① L2/L3계층 통합 서비스 제공을 위한 IP over POTN 구조 설계",
+    "caption_and_following_text": "(가) 계층통합서비스 구성을 위한 제어평면 처리 구조 검토\n(나) L3 라우팅 기반 시스템 설계를 위한 분산구조의 L3라우팅 기술 검토\n(다) 계층통합 서비스 구성을 위한 L2 VPN 기술 검토\n(그림 2-53) IP over POTN 제어 및 데이터 평면 구조\n② 산출물 내역\n(가) IP over POTN 구조설계자료 1건\n바) 고용량 시스템의 고안정성 제공을 위한 T-SDN 기반 지능형 네트워크 관리 핵심기술 개발\n구조 설계\n① T-SDN 기반 시스템 데이터 수집 및 장애분석 지능형 관리 구조 검토\n② T-SDN 기반 계층통합서비스 수용을 위한 구조 검토 및 YANG 데이터 모델링 표준화 작업",
+    "section_context_candidate": "마) L2/L3 계층 통합 서비스 제공을 위한 IP over POTN 기술 개발 구조 설계",
+    "heading_candidates": [
+      "마) L2/L3 계층 통합 서비스 제공을 위한 IP over POTN 기술 개발 구조 설계",
+      "바) 고용량 시스템의 고안정성 제공을 위한 T-SDN 기반 지능형 네트워크 관리 핵심기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.25,
+          215.88,
+          470.87,
+          429.37
+        ],
+        "page_area_fraction": 0.1479
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0054",
+    "caption": "[T-SDN 컨트롤로 연동 구조]",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 43 -\n(그림 2-54) [T-SDN 컨트롤로 연동 구조]\n(그림 2-55) YANG 데이터 모델 표준화\n③ 산출물 내역\n(가) 구조설계자료 1건\n(나) YANG 데이터 모델 표준화 문서 개정 1건\n사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계\n① 암호화 모듈 형상 및 구성\n(가) 하드웨어 형상 및 블록설계\nŸ Processor - 암호화 모듈 운용 및 Local CPU IPC - Port Clock 설정 및 주변 소자 드라이브",
+    "section_context_candidate": "사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계",
+    "heading_candidates": [
+      "사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.44,
+          581.72,
+          458.87,
+          798.57
+        ],
+        "page_area_fraction": 0.138
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.93,
+          289.72,
+          291.08,
+          539.65
+        ],
+        "page_area_fraction": 0.081
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.24,
+          289.72,
+          470.39,
+          539.89
+        ],
+        "page_area_fraction": 0.0871
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0055",
+    "caption": "YANG 데이터 모델 표준화",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 43 -\n(그림 2-54) [T-SDN 컨트롤로 연동 구조]\n(그림 2-55) YANG 데이터 모델 표준화\n③ 산출물 내역\n(가) 구조설계자료 1건\n(나) YANG 데이터 모델 표준화 문서 개정 1건\n사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계\n① 암호화 모듈 형상 및 구성\n(가) 하드웨어 형상 및 블록설계\nŸ Processor - 암호화 모듈 운용 및 Local CPU IPC - Port Clock 설정 및 주변 소자 드라이브",
+    "section_context_candidate": "사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계",
+    "heading_candidates": [
+      "사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.44,
+          581.72,
+          458.87,
+          798.57
+        ],
+        "page_area_fraction": 0.138
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.93,
+          289.72,
+          291.08,
+          539.65
+        ],
+        "page_area_fraction": 0.081
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.24,
+          289.72,
+          470.39,
+          539.89
+        ],
+        "page_area_fraction": 0.0871
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0056",
+    "caption": "암호모듈 형상",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 44 -\n- In-band(GCC) 통신 - Management CPU, Secrete CPU 와의 I/F",
+    "caption_and_following_text": "Ÿ 진성 난수 발생\n- 미국 국립표준기술연구소(NIST)와 캐나다 사이버 보완센터(CCCS) 표준의 FIPB\n140-2 인증을 획득한 QEC(Quantum Entropy Chip)를 적용 - 진성 난수성 확보한 진성 난수 발생 기능 제공\n(그림 2-56) 암호모듈 형상\nŸ 비밀키 생성 알고리즘, 전달의 관리 - 비대칭 키쌍 생성과 자체 비밀키 생성 - 비밀키 전송 보안 방식 구현 Ÿ QKD 연동 Key 수신 - Card Authentication - Key 교환 채널과 보안(OpenSSL/PKI) - Key 관리 Processor(Provision/Policy) - Key Management\n② 상호 호환성 검증방안 검토\n(가) QKD 서버 호환성 개념도\nŸ 외부 QKD서버 연동 인터페이스 지원\nŸ ETSI GS QKD 014 v1.1.1 연동 인터페이스 지원\nŸ EMS CKD 설정메뉴에서 CKD_TYPE및 서버 정보 설정",
+    "section_context_candidate": "사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.21,
+          465.45,
+          251.39,
+          693.08
+        ],
+        "page_area_fraction": 0.0856
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          252.22,
+          466.89,
+          535.51,
+          687.81
+        ],
+        "page_area_fraction": 0.1251
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0057",
+    "caption": "암호세션 연결 구조",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 45 -\n(그림 2-57) 암호세션 연결 구조\nŸ KME A, B 에서 암호키, 암호키 정보를 생성\nŸ SAE A에서 KME A 에 키 요청\nŸ KME B 에 암호키 정보 전달\nŸ KME B 암호키 정보(key_id_extension)를 이용 하여\nŸ KME B 에 암호키(key) 요청\n(나) 호환성 검증 방안\n(그림 2-58) 암호키 전달 과정\n(다) 산출물 내역",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [
+      "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          583.04,
+          471.83,
+          798.57
+        ],
+        "page_area_fraction": 0.1483
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.41,
+          260.48,
+          481.54,
+          435.84
+        ],
+        "page_area_fraction": 0.1255
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0058",
+    "caption": "암호키 전달 과정",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 45 -\n(그림 2-57) 암호세션 연결 구조\nŸ KME A, B 에서 암호키, 암호키 정보를 생성\nŸ SAE A에서 KME A 에 키 요청\nŸ KME B 에 암호키 정보 전달",
+    "caption_and_following_text": "Ÿ KME B 암호키 정보(key_id_extension)를 이용 하여\nŸ KME B 에 암호키(key) 요청\n(나) 호환성 검증 방안\n(그림 2-58) 암호키 전달 과정\n(다) 산출물 내역\nŸ 양자키분배장치 구조설계서 1건 (작성중)\n(2) 2차년도 (2021년)\n가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발\n① 16T급 고용량 시스템 구조 구현\n(가) 시스템 형상 및 시스템 구조 구현 완료",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [
+      "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          583.04,
+          471.83,
+          798.57
+        ],
+        "page_area_fraction": 0.1483
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.41,
+          260.48,
+          481.54,
+          435.84
+        ],
+        "page_area_fraction": 0.1255
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0059",
+    "caption": "16T POTN 시스템 고속 백플레인 PCB 형상",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 48 -",
+    "caption_and_following_text": "(나) 고속 백플레인 구조 구현 완료\nŸ 트래픽용 고속데이터 처리, 크기 최적화를 통한 경제성 확보\nŸ 셀프 하단부에 위치\n(그림 2-62) 16T POTN 시스템 고속 백플레인 PCB 형상\n(다) 저속 백플레인 구현 완료\nŸ 제어용 저속 데이터 처리\nŸ 셀프 상단부에 위치\n(그림 2-63) 16T POTN 시스템 저속 백플레인 PCB 형상\n③ 공통부 유니트 구현 완료\n(가) 제어유니트 구현 완료",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.14,
+          575.61,
+          479.98,
+          745.82
+        ],
+        "page_area_fraction": 0.1241
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.46,
+          250.65,
+          481.54,
+          481.03
+        ],
+        "page_area_fraction": 0.1695
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0060",
+    "caption": "16T POTN 시스템 저속 백플레인 PCB 형상",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 48 -\n(나) 고속 백플레인 구조 구현 완료\nŸ 트래픽용 고속데이터 처리, 크기 최적화를 통한 경제성 확보\nŸ 셀프 하단부에 위치\n(그림 2-62) 16T POTN 시스템 고속 백플레인 PCB 형상",
+    "caption_and_following_text": "(다) 저속 백플레인 구현 완료\nŸ 제어용 저속 데이터 처리\nŸ 셀프 상단부에 위치\n(그림 2-63) 16T POTN 시스템 저속 백플레인 PCB 형상\n③ 공통부 유니트 구현 완료\n(가) 제어유니트 구현 완료\nŸ 1:1 이중화 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.14,
+          575.61,
+          479.98,
+          745.82
+        ],
+        "page_area_fraction": 0.1241
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.46,
+          250.65,
+          481.54,
+          481.03
+        ],
+        "page_area_fraction": 0.1695
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0061",
+    "caption": "16T POTN 시스템 제어유니트 형상",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 49 -\n전면부 상면\n(그림 2-64) 16T POTN 시스템 제어유니트 형상\n(나) 스위칭유니트 구현 완료\nŸ 2+1 이중화 구조\n전면부 상면\n(그림 2-65) 16T POTN 시스템 스위칭부 유니트 형상\n(다) 클럭유니트 구현 완료\nŸ 1:1 이중화 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.93,
+          573.69,
+          159.75,
+          776.75
+        ],
+        "page_area_fraction": 0.0113
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.5,
+          578.73,
+          482.74,
+          771.84
+        ],
+        "page_area_fraction": 0.1132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.93,
+          211.33,
+          162.75,
+          464.49
+        ],
+        "page_area_fraction": 0.0171
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.5,
+          212.17,
+          482.74,
+          463.65
+        ],
+        "page_area_fraction": 0.1474
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0062",
+    "caption": "16T POTN 시스템 스위칭부 유니트 형상",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 49 -\n전면부 상면\n(그림 2-64) 16T POTN 시스템 제어유니트 형상",
+    "caption_and_following_text": "(나) 스위칭유니트 구현 완료\nŸ 2+1 이중화 구조\n전면부 상면\n(그림 2-65) 16T POTN 시스템 스위칭부 유니트 형상\n(다) 클럭유니트 구현 완료\nŸ 1:1 이중화 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.93,
+          573.69,
+          159.75,
+          776.75
+        ],
+        "page_area_fraction": 0.0113
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.5,
+          578.73,
+          482.74,
+          771.84
+        ],
+        "page_area_fraction": 0.1132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.93,
+          211.33,
+          162.75,
+          464.49
+        ],
+        "page_area_fraction": 0.0171
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.5,
+          212.17,
+          482.74,
+          463.65
+        ],
+        "page_area_fraction": 0.1474
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0063",
+    "caption": "16T POTN 시스템 100GE급 패킷용 라인카드 형상",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 51 -\n④ 패킷서비스용 100GE급 라인카드 구현\n(가) 100GE급 패킷 서비스용 라인카드 구현 완료\nŸ 제공인터페이스 : 100GE 이더넷 24포트 제공",
+    "caption_and_following_text": "Ÿ 모듈타입 : QSFP28\n(나) 유니트 기구 형상\n전면부 상면\n(그림 2-69) 16T POTN 시스템 100GE급 패킷용 라인카드 형상\n⑤ 패킷서비스용 10GE급 라인카드 구현\n(가) 10GE급 패킷서비스용 라인카드 구현 완료\nŸ 제공인터페이스 : 10GE 이더넷 56포트 제공\nŸ 모듈타입 : SFP+\n(나) 유니트 기구 형상\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.81,
+          242.85,
+          159.87,
+          668.75
+        ],
+        "page_area_fraction": 0.0239
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.5,
+          237.7,
+          482.74,
+          674.02
+        ],
+        "page_area_fraction": 0.2557
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0064",
+    "caption": "16T POTN 시스템 10GE급 패킷용 라인카드 형상",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 52 -\n전면부 상면\n(그림 2-70) 16T POTN 시스템 10GE급 패킷용 라인카드 형상\n⑥ 16T급 고용량 시스템 전원 분배반 구현\n(가) 시스템 형상 및 시스템 구조 구현 완료\nŸ 전원 입력부 : 12A, 12B\nŸ 전원 출력부 : 12A, 12B\n전면\n부\n후면",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.37,
+          331.2,
+          161.31,
+          776.75
+        ],
+        "page_area_fraction": 0.0276
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.5,
+          332.88,
+          482.74,
+          774.95
+        ],
+        "page_area_fraction": 0.2591
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.56,
+          152.35,
+          482.74,
+          209.17
+        ],
+        "page_area_fraction": 0.0372
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.56,
+          92.3,
+          485.14,
+          149.48
+        ],
+        "page_area_fraction": 0.0377
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0065",
+    "caption": "16T POTN 시스템 전원 분배반 형상",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "전면부 상면\n(그림 2-70) 16T POTN 시스템 10GE급 패킷용 라인카드 형상\n⑥ 16T급 고용량 시스템 전원 분배반 구현\n(가) 시스템 형상 및 시스템 구조 구현 완료\nŸ 전원 입력부 : 12A, 12B\nŸ 전원 출력부 : 12A, 12B\n전면",
+    "caption_and_following_text": "부\n후면\n부\n(그림 2-71) 16T POTN 시스템 전원 분배반 형상\n⑦ 산출물 내역\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 16T급 차세대 POTN 시스템 구조 연구 및 구현 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.37,
+          331.2,
+          161.31,
+          776.75
+        ],
+        "page_area_fraction": 0.0276
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.5,
+          332.88,
+          482.74,
+          774.95
+        ],
+        "page_area_fraction": 0.2591
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.56,
+          152.35,
+          482.74,
+          209.17
+        ],
+        "page_area_fraction": 0.0372
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.56,
+          92.3,
+          485.14,
+          149.48
+        ],
+        "page_area_fraction": 0.0377
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0066",
+    "caption": "방열판 재질에 따른 400G 유니트 열 해석",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n(그림 2-72) 방열판 재질에 따른 400G 유니트 열 해석\n(그림 2-73) 400G 유니트 방열판 설계 및 배치도\n② 200G/400G 라인카드 구현 및 단위시험 진행 중(90%)\n(가) 고확장성 FlexO/FlexO 기능 구현 진행 중(90%)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.04,
+          597.67,
+          304.16,
+          797.01
+        ],
+        "page_area_fraction": 0.0897
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.16,
+          597.43,
+          516.08,
+          798.57
+        ],
+        "page_area_fraction": 0.0852
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          523.83,
+          490.66,
+          590.83
+        ],
+        "page_area_fraction": 0.0517
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.49,
+          111.96,
+          463.67,
+          499.61
+        ],
+        "page_area_fraction": 0.2535
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0067",
+    "caption": "400G 유니트 방열판 설계 및 배치도",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n(그림 2-72) 방열판 재질에 따른 400G 유니트 열 해석\n(그림 2-73) 400G 유니트 방열판 설계 및 배치도\n② 200G/400G 라인카드 구현 및 단위시험 진행 중(90%)\n(가) 고확장성 FlexO/FlexO 기능 구현 진행 중(90%)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.04,
+          597.67,
+          304.16,
+          797.01
+        ],
+        "page_area_fraction": 0.0897
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.16,
+          597.43,
+          516.08,
+          798.57
+        ],
+        "page_area_fraction": 0.0852
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          523.83,
+          490.66,
+          590.83
+        ],
+        "page_area_fraction": 0.0517
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.49,
+          111.96,
+          463.67,
+          499.61
+        ],
+        "page_area_fraction": 0.2535
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0068",
+    "caption": "100G/200G/400G급 OTN 라인카드 블록 개요도",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n(그림 2-76) 100G/200G/400G급 OTN 라인카드 블록 개요도\n(그림 2-77) 100G/200G/400G급 OTN 라인카드 블록 흐름도\n④ 100G/200G/400G급 OTN 라인카드 핵심 칩셋 검토\n(가) 2.4Tera급 패킷 처리 칩셋\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          519.03,
+          490.66,
+          798.57
+        ],
+        "page_area_fraction": 0.2158
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          160.74,
+          490.66,
+          477.2
+        ],
+        "page_area_fraction": 0.2443
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0069",
+    "caption": "100G/200G/400G급 OTN 라인카드 블록 흐름도",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n(그림 2-76) 100G/200G/400G급 OTN 라인카드 블록 개요도\n(그림 2-77) 100G/200G/400G급 OTN 라인카드 블록 흐름도\n④ 100G/200G/400G급 OTN 라인카드 핵심 칩셋 검토\n(가) 2.4Tera급 패킷 처리 칩셋\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          519.03,
+          490.66,
+          798.57
+        ],
+        "page_area_fraction": 0.2158
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          160.74,
+          490.66,
+          477.2
+        ],
+        "page_area_fraction": 0.2443
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0070",
+    "caption": "2.4T급 칩 검토",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 59 -\n(그림 2-78) 2.4T급 칩 검토\n(그림 2-79) 100G/200G/400G 광모듈 검토\n(나) 600G급 OTN 칩셋\n(그림 2-80) Microsemi DIGI-G5 : OTN mapper, Flex-E/O, Security\n(다) 400G CFP2 Type 광모듈(DCO 포함)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          555.71,
+          506.73,
+          798.57
+        ],
+        "page_area_fraction": 0.203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.66,
+          302.55,
+          480.58,
+          531.5
+        ],
+        "page_area_fraction": 0.1674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.42,
+          106.44,
+          483.58,
+          243.21
+        ],
+        "page_area_fraction": 0.1017
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0071",
+    "caption": "100G/200G/400G 광모듈 검토",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 59 -\n(그림 2-78) 2.4T급 칩 검토\n(그림 2-79) 100G/200G/400G 광모듈 검토\n(나) 600G급 OTN 칩셋\n(그림 2-80) Microsemi DIGI-G5 : OTN mapper, Flex-E/O, Security\n(다) 400G CFP2 Type 광모듈(DCO 포함)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          555.71,
+          506.73,
+          798.57
+        ],
+        "page_area_fraction": 0.203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.66,
+          302.55,
+          480.58,
+          531.5
+        ],
+        "page_area_fraction": 0.1674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.42,
+          106.44,
+          483.58,
+          243.21
+        ],
+        "page_area_fraction": 0.1017
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0072",
+    "caption": "Microsemi DIGI-G5 : OTN mapper, Flex-E/O, Security",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 59 -",
+    "caption_and_following_text": "(그림 2-78) 2.4T급 칩 검토\n(그림 2-79) 100G/200G/400G 광모듈 검토\n(나) 600G급 OTN 칩셋\n(그림 2-80) Microsemi DIGI-G5 : OTN mapper, Flex-E/O, Security\n(다) 400G CFP2 Type 광모듈(DCO 포함)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          555.71,
+          506.73,
+          798.57
+        ],
+        "page_area_fraction": 0.203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.66,
+          302.55,
+          480.58,
+          531.5
+        ],
+        "page_area_fraction": 0.1674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.42,
+          106.44,
+          483.58,
+          243.21
+        ],
+        "page_area_fraction": 0.1017
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0073",
+    "caption": "~400G CFP2 Type 광모듈, DCO 포함",
+    "pdf_page_candidate": 68,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 60 -\n(그림 2-81) ~400G CFP2 Type 광모듈, DCO 포함\n다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계\n① CDCF 기반 파장 다중화 전송시스템 구현 및 단위시험 완료\n(가) Flexible Grid 기반 슈퍼채널 인터페이스 구현 및 단위시험 완료\n(나) 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 기능 구현 및 단위시험 완료\n(다) WDM 셀프\nŸ 크기 : 444(H)x582.9(W)x484(D)mm\n- 주 셀프 : 23인치, 9RU\n- 팬 셀프 : 23인치, 1RU Ÿ 슬롯 : 총 18 슬롯",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [
+      "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.09,
+          668.99,
+          392.91,
+          798.57
+        ],
+        "page_area_fraction": 0.0494
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          201.61,
+          209.29,
+          470.75,
+          415.35
+        ],
+        "page_area_fraction": 0.1108
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0074",
+    "caption": "16T POTN 시스템 WDM부 셀프 형상",
+    "pdf_page_candidate": 68,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "① CDCF 기반 파장 다중화 전송시스템 구현 및 단위시험 완료\n(가) Flexible Grid 기반 슈퍼채널 인터페이스 구현 및 단위시험 완료\n(나) 8-Degree 66ch(400G)~88ch(100/200G) 슈퍼채널 스위칭 기능 구현 및 단위시험 완료\n(다) WDM 셀프\nŸ 크기 : 444(H)x582.9(W)x484(D)mm\n- 주 셀프 : 23인치, 9RU\n- 팬 셀프 : 23인치, 1RU Ÿ 슬롯 : 총 18 슬롯",
+    "caption_and_following_text": "- 제어부 : 2슬롯(Fixed Slot Card) - 채널부 : 16 슬롯(Any Slot Any Card)\n전면부 상면\n셀프\n(그림 2-82) 16T POTN 시스템 WDM부 셀프 형상\n(라) FAN 반 구현 완료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [
+      "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.09,
+          668.99,
+          392.91,
+          798.57
+        ],
+        "page_area_fraction": 0.0494
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          201.61,
+          209.29,
+          470.75,
+          415.35
+        ],
+        "page_area_fraction": 0.1108
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0075",
+    "caption": "16T POTN 시스템 WDM부 FAN 유니트 형상",
+    "pdf_page_candidate": 69,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 61 -\n구 분 형 상\nFAN반\n(그림 2-83) 16T POTN 시스템 WDM부 FAN 유니트 형상\n② 감시제어 유니트 구현 완료\n(가) 시스템의 모든 유니트 제어 및 유지보수 수행\n(나) 운용자와의 인터페이스를 제공\n(다) DCC 채널을 이용하여 원격국사 제어기능 수행\n구 분 형 상\nMRPA유니트",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          186.98,
+          653.53,
+          342.29,
+          782.98
+        ],
+        "page_area_fraction": 0.0402
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          349.13,
+          652.81,
+          492.7,
+          782.98
+        ],
+        "page_area_fraction": 0.0373
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          223.2,
+          305.9,
+          460.19,
+          512.32
+        ],
+        "page_area_fraction": 0.0978
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0076",
+    "caption": "16T POTN 시스템 WDM부 감시제어 유니트 형상",
+    "pdf_page_candidate": 69,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 61 -\n구 분 형 상\nFAN반\n(그림 2-83) 16T POTN 시스템 WDM부 FAN 유니트 형상\n② 감시제어 유니트 구현 완료\n(가) 시스템의 모든 유니트 제어 및 유지보수 수행\n(나) 운용자와의 인터페이스를 제공",
+    "caption_and_following_text": "(다) DCC 채널을 이용하여 원격국사 제어기능 수행\n구 분 형 상\nMRPA유니트\n(그림 2-84) 16T POTN 시스템 WDM부 감시제어 유니트 형상\n③ 파장 스위칭 유니트 구현 완료\n(가) 송신, 수신 광 증폭 기능\n(나) Flexible-Grid WSS를 이용한 파장 스위치 기능\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          186.98,
+          653.53,
+          342.29,
+          782.98
+        ],
+        "page_area_fraction": 0.0402
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          349.13,
+          652.81,
+          492.7,
+          782.98
+        ],
+        "page_area_fraction": 0.0373
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          223.2,
+          305.9,
+          460.19,
+          512.32
+        ],
+        "page_area_fraction": 0.0978
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0077",
+    "caption": "[6T POTN 시스템 WDM부 MRSA 유니트 형상",
+    "pdf_page_candidate": 70,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 62 -",
+    "caption_and_following_text": "구 분 형 상\nMRSA-9A\n유니트\n(그림 2-85) [6T POTN 시스템 WDM부 MRSA 유니트 형상\n④ AD 스위칭 유니트 구현 완료\n(가) Flexible-Grid WSS를 이용한 Directionless 기능\n(나) Add 및 Drop 기능 및 광 증폭 기능\n구 분 형 상\nADSA-9\n유니트",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          217.92,
+          591.55,
+          461.63,
+          779.15
+        ],
+        "page_area_fraction": 0.0914
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          224.88,
+          308.66,
+          446.4,
+          478.64
+        ],
+        "page_area_fraction": 0.0752
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0078",
+    "caption": "16T POTN 시스템 WDM부 AD 스위칭 유니트 형상",
+    "pdf_page_candidate": 70,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "구 분 형 상\nMRSA-9A\n유니트\n(그림 2-85) [6T POTN 시스템 WDM부 MRSA 유니트 형상\n④ AD 스위칭 유니트 구현 완료\n(가) Flexible-Grid WSS를 이용한 Directionless 기능\n(나) Add 및 Drop 기능 및 광 증폭 기능",
+    "caption_and_following_text": "구 분 형 상\nADSA-9\n유니트\n(그림 2-86) 16T POTN 시스템 WDM부 AD 스위칭 유니트 형상\n⑤ MUX 셀프[Flexible Spacing Grid]\n(가) 80채널 셀프 : 23인치, 4U\n(나) 주/예비 2개 셀프로 구성: 23인치, 4U\n(다) 크기 : 88(H)x582.9(W)x484(D)mm\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          217.92,
+          591.55,
+          461.63,
+          779.15
+        ],
+        "page_area_fraction": 0.0914
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          224.88,
+          308.66,
+          446.4,
+          478.64
+        ],
+        "page_area_fraction": 0.0752
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0079",
+    "caption": "16T POTN 시스템 WDM부 MUX셀프 형상",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 63 -",
+    "caption_and_following_text": "구 분 형 상\nWMDS-88\n셀프\n(그림 2-87) 16T POTN 시스템 WDM부 MUX셀프 형상\n⑥ 광 파장 선로감시 유니트 형상\n(가) OTDR 기능\n구 분 형 상\nOLPMA\n유니트\n(그림 2-88) 16T POTN 시스템 WDM부 광 파장 선로감시 유니트 형상",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          244.67,
+          586.64,
+          424.57,
+          779.87
+        ],
+        "page_area_fraction": 0.0695
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.44,
+          321.37,
+          441.84,
+          491.22
+        ],
+        "page_area_fraction": 0.0752
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.76,
+          37.16,
+          436.8,
+          202.82
+        ],
+        "page_area_fraction": 0.0722
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0080",
+    "caption": "16T POTN 시스템 WDM부 광 파장 선로감시 유니트 형상",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 63 -\n구 분 형 상\nWMDS-88\n셀프\n(그림 2-87) 16T POTN 시스템 WDM부 MUX셀프 형상\n⑥ 광 파장 선로감시 유니트 형상\n(가) OTDR 기능",
+    "caption_and_following_text": "구 분 형 상\nOLPMA\n유니트\n(그림 2-88) 16T POTN 시스템 WDM부 광 파장 선로감시 유니트 형상\n⑦ 광레벨 감시 유니트 기구 형상\n(가) 채널 파워를 측정하는 기능\n(나) 채널별 광파워 설정\n구 분 형 상\nOCPMA\n유니트",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          244.67,
+          586.64,
+          424.57,
+          779.87
+        ],
+        "page_area_fraction": 0.0695
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.44,
+          321.37,
+          441.84,
+          491.22
+        ],
+        "page_area_fraction": 0.0752
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.76,
+          37.16,
+          436.8,
+          202.82
+        ],
+        "page_area_fraction": 0.0722
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0081",
+    "caption": "16T POTN 시스템 WDM부 OCPMA유니트 형상",
+    "pdf_page_candidate": 72,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 64 -\n(그림 2-89) 16T POTN 시스템 WDM부 OCPMA유니트 형상\n⑧ 선로증폭기 유니트 기구 형상\n(가) 광 선로 증폭기능(In-Line Amplifier)\n(나) 1490nm 파장/1510nm 파장의 분기, 결합 기능\n(다) VOA (Variable Optical Attenuator)/ Mid-Stage VOA를 이용하여\n(라) DCF(Dispersion Compensation Fiber)를 수용. 구 분 형상\nILLA유니트\n(그림 2-90) 16T POTN 시스템 WDM부 선로증폭기 유니트 형상\n⑨ 라만증폭기 유니트 기구 형상",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          227.64,
+          492.66,
+          445.56,
+          659.88
+        ],
+        "page_area_fraction": 0.0728
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          222.0,
+          224.15,
+          446.16,
+          396.05
+        ],
+        "page_area_fraction": 0.077
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0082",
+    "caption": "16T POTN 시스템 WDM부 선로증폭기 유니트 형상",
+    "pdf_page_candidate": 72,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 64 -\n(그림 2-89) 16T POTN 시스템 WDM부 OCPMA유니트 형상\n⑧ 선로증폭기 유니트 기구 형상\n(가) 광 선로 증폭기능(In-Line Amplifier)\n(나) 1490nm 파장/1510nm 파장의 분기, 결합 기능",
+    "caption_and_following_text": "(다) VOA (Variable Optical Attenuator)/ Mid-Stage VOA를 이용하여\n(라) DCF(Dispersion Compensation Fiber)를 수용. 구 분 형상\nILLA유니트\n(그림 2-90) 16T POTN 시스템 WDM부 선로증폭기 유니트 형상\n⑨ 라만증폭기 유니트 기구 형상\n(가) 장거리 증폭기능(15dB 이상)\n구 분 형 상\nRABA-15\n유니트\n(그림 2-91) 16T POTN 시스템 WDM부 라만증폭기 유니트 형상",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          227.64,
+          492.66,
+          445.56,
+          659.88
+        ],
+        "page_area_fraction": 0.0728
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          222.0,
+          224.15,
+          446.16,
+          396.05
+        ],
+        "page_area_fraction": 0.077
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0083",
+    "caption": "16T POTN 시스템 WDM부 라만증폭기 유니트 형상",
+    "pdf_page_candidate": 72,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "(나) 1490nm 파장/1510nm 파장의 분기, 결합 기능\n(다) VOA (Variable Optical Attenuator)/ Mid-Stage VOA를 이용하여\n(라) DCF(Dispersion Compensation Fiber)를 수용. 구 분 형상\nILLA유니트\n(그림 2-90) 16T POTN 시스템 WDM부 선로증폭기 유니트 형상\n⑨ 라만증폭기 유니트 기구 형상\n(가) 장거리 증폭기능(15dB 이상)",
+    "caption_and_following_text": "구 분 형 상\nRABA-15\n유니트\n(그림 2-91) 16T POTN 시스템 WDM부 라만증폭기 유니트 형상\n⑩ CDCF 기반 파장다중화 전송시스템 제작시험 완료\n(가) 시스템 기능 및 성능 Ÿ Data Plane은 Zero-Touch Photonics 기반 자동화 네트워크 기능 제공 Ÿ Management Plane은 지능화 기반의 OAM 기능과 Trouble Shooting 기능 제공\nŸ EMS 기반의 자동 노드 관리, 회선 연결관리, 회선 절체 수행\nŸ In-Service 상에서 업그레이드를 통하여 네트워크의 방향성(Degree)제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          227.64,
+          492.66,
+          445.56,
+          659.88
+        ],
+        "page_area_fraction": 0.0728
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          222.0,
+          224.15,
+          446.16,
+          396.05
+        ],
+        "page_area_fraction": 0.077
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0084",
+    "caption": "Flexible Grid Spacing Wavelength Plan",
+    "pdf_page_candidate": 75,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 67 -\n(그림 2-97) Flexible Grid Spacing Wavelength Plan\n⑬ 산출물 내역\n(가) 각 모듈별 유니트 기구도, 회로도, 부품표, CAD 자료 등\nŸ 400G 유니트(OTUC4A) 관련 자료\n- 기구도_v1.0_2021.04.30 - 회로도_v1.0_2021.06.30 - 부품표_v1.0_2021.06.30 - CAD 자료_v1.0_2021.07.30 - 거버자료_v1.0_2021.07.30 - FPGA 설계서_v1.0_2021.10.31 - 유니트 설명서_v1.0_2021.11.30\nŸ A/D스위치 유니트(ADSA-9) 관련 자료\n- FPGA설계서_v1.0_2021.10.30 - 유니트설명서_v1.0_2021.11.30\nŸ 파장스위칭 유니트(MRSA-9A) 관련 자료\n- FPGA설계서_v1.0_2021.10.31 - 유니트설명서_v1.0_2021.11.30",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          551.04,
+          520.04,
+          798.57
+        ],
+        "page_area_fraction": 0.2202
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0085",
+    "caption": "16T-POTN 시스템 설계 검토 및 개발 지원",
+    "pdf_page_candidate": 76,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "(나) 국내 특허 진행 예정 1건(국내1) Ÿ 출원번호 10-2021-0103462, 양자암호 키 분배시스템에서 동기화 신호검출을 제공하\n는 동기화 장치, 2021.08.05\n라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발\n① 16T급 POTN 시스템 개발 지원\n(가) 16T급 POTN 시스템 엔지니어링\nŸ 16T-POTN 유니트 CAD 리비젼 검토 지원 완료\n- 백플레인 유니트 (MB-HS) - 24포트 100GE 라인 유니트 (TCG24U) - 56포트 10GE 라인 유니트 (TMX56U) - 스위칭 유니트 (TXCU) Ÿ 16T-POTN 시스템 설계 검토 (Air Flow) 의견 제시 완료",
+    "caption_and_following_text": "Ÿ 53G급 고속 인터페이스 신호 무결성 검토 지원 완료\n16T-POTN\n시스템 설계 지원\n(그림 2-98) 16T-POTN 시스템 설계 검토 및 개발 지원\n② 시간확정형 네트워킹(DetNet) 핵심기술 개발\n(가) 기능규격 및 요구사항 관리\nŸ DetNet 시스템 기능규격 개정 완료\nŸ DetNet 요구사항 추적표 작성 완료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [
+      "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.95,
+          222.38,
+          246.48,
+          281.92
+        ],
+        "page_area_fraction": 0.013
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.42,
+          287.06,
+          240.6,
+          350.0
+        ],
+        "page_area_fraction": 0.0116
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0086",
+    "caption": "16T-POTN DetNet 기능규격서 (개정)",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 69 -\n(그림 2-99) 16T-POTN DetNet 기능규격서 (개정)\n(나) 100G급 패킷 전달 엔진 (FPGA) 구현\nŸ 다계층 통합 패킷 프로세싱을 위한 구조설계 보완 및 상세설계 완료\n- Native DetNet, ETH over DetNet, DetNet over OTN 수용\n- IEEE TSN/IETF DetNet 기반 시간확정형 패킷 전달 기능 지원\n· 최대 8K DetNet 패킷 플로우 관리\n· MPLS 기반 DetNet 패킷 포워딩\n· 유계 지연 (bounded latency) 보장을 위한 트래픽 스케쥴링\n· 무손실 패킷 전달을 위한 심리스 리던던시",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.22,
+          604.98,
+          438.6,
+          792.48
+        ],
+        "page_area_fraction": 0.0504
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.6,
+          604.98,
+          299.54,
+          792.48
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0087",
+    "caption": "100G급 패킷 전달 엔진 기능 블록",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 90,
+    "prefix_match_only": false,
+    "text_before": "Time Sync Module\nFrom/To\nSF I/F Module\nFrom/To Local Processor\nNIF CMAC\nSYS_0 CMAC\nSYS_1 CMAC CGE",
+    "caption_and_following_text": "(CAUI-4)\nNon-DetNet packet (bypass)\nNon-DetNet packet (bypass)\n(그림 2-100) 100G급 패킷 전달 엔진 기능 블록\nŸ 100G급 패킷 전달 엔진 기능 구현 및 검증 완료\n- 자이링스 Kintex Ultrascale Plus FPGA 타켓 (CKU15P-3FFVE1760E) - 100Gbps 패킷 처리 성능, 유계 지연 전달을 위한 핵심 기능 구현 및 검증\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.22,
+          604.98,
+          438.6,
+          792.48
+        ],
+        "page_area_fraction": 0.0504
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.6,
+          604.98,
+          299.54,
+          792.48
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0088",
+    "caption": "100G급 패킷 전달 엔진 내부 배치설계도 (Place & Route)",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 70 -\n(그림 2-101) 100G급 패킷 전달 엔진 내부 배치설계도 (Place & Route)\n(그림 2-102) 100G급 패킷 전달 엔진 기능 검증 (Functional Simulation)\n(다) 400G급 DetNet 라인카드 구현 및 시험\nŸ DetNet 라인카드 구조설계 보완을 반영한 상세설계 완료\n- 4개의 100G급 패킷 전달 엔진 (FPGA/TDPI), 스위치 패브릭 인터페이스 칩과\n시스템 클럭부, 전원 분배부, 프로세서부 등으로 구성\n- 8포트 100GbE (=CGE) QSFP28 네트워크 인터페이스 지원\n· 시간확정형 패킷 전달용 4포트, 100G급 패킷 전달 엔진에 연결\n· 일반 패킷 전달용 4포트, 스위치 패브릭 인터페이스 칩에 연결",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.55,
+          596.11,
+          239.15,
+          793.41
+        ],
+        "page_area_fraction": 0.055
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          246.59,
+          596.11,
+          493.53,
+          793.65
+        ],
+        "page_area_fraction": 0.0975
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.67,
+          290.32,
+          501.45,
+          543.6
+        ],
+        "page_area_fraction": 0.2064
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0089",
+    "caption": "100G급 패킷 전달 엔진 기능 검증 (Functional Simulation)",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 70 -\n(그림 2-101) 100G급 패킷 전달 엔진 내부 배치설계도 (Place & Route)\n(그림 2-102) 100G급 패킷 전달 엔진 기능 검증 (Functional Simulation)\n(다) 400G급 DetNet 라인카드 구현 및 시험\nŸ DetNet 라인카드 구조설계 보완을 반영한 상세설계 완료\n- 4개의 100G급 패킷 전달 엔진 (FPGA/TDPI), 스위치 패브릭 인터페이스 칩과\n시스템 클럭부, 전원 분배부, 프로세서부 등으로 구성\n- 8포트 100GbE (=CGE) QSFP28 네트워크 인터페이스 지원\n· 시간확정형 패킷 전달용 4포트, 100G급 패킷 전달 엔진에 연결\n· 일반 패킷 전달용 4포트, 스위치 패브릭 인터페이스 칩에 연결",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.55,
+          596.11,
+          239.15,
+          793.41
+        ],
+        "page_area_fraction": 0.055
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          246.59,
+          596.11,
+          493.53,
+          793.65
+        ],
+        "page_area_fraction": 0.0975
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.67,
+          290.32,
+          501.45,
+          543.6
+        ],
+        "page_area_fraction": 0.2064
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0090",
+    "caption": "400G급 DetNet 라인카드 시험검증 결과",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 73 -\nDetNet 최대 전달지연6.15µsec\nDetNet : Non-DetNet = 50 : 80 Ü Congestion\nDetNet Packet\nNon-DetNet Packet\nDetNet 수신율 변화없음(50%)",
+    "caption_and_following_text": "Non-DetNet 수신율30% 감소\nDetNet 패킷 처리성능 (목표: 100Gbps)\nDetNet 패킷 전달지연 (목표: ~10µsec)\n(그림 2-107) 400G급 DetNet 라인카드 시험검증 결과\n(라) DetNet 제어/관리 인터페이스 기능 구현 및 시험\nŸ 16T-DetNet 제어/관리 기능 상세설계 및 구현 완료\n- DetNet 경로 관리 기능 상세설계, 구현 및 자체 시험 완료\n· DetNet 컨트롤러와 DetNet 에이전트 간의 경로 관리 인터페이스\n- DetNet 무손실 보호 전달 기능 상세설계, 구현 및 자체 시험 완료\n· DetNet 컨트롤러와 DetNet 에이전트 간의 무손실 보호 전달 인터페이스",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.08,
+          702.73,
+          503.67,
+          784.83
+        ],
+        "page_area_fraction": 0.0675
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.41,
+          504.33,
+          503.74,
+          589.71
+        ],
+        "page_area_fraction": 0.0704
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.41,
+          597.68,
+          503.67,
+          692.15
+        ],
+        "page_area_fraction": 0.0778
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0091",
+    "caption": "DetNet 제어/관리 기능 구조도",
+    "pdf_page_candidate": 82,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 74 -\n(그림 2-108) DetNet 제어/관리 기능 구조도\n(그림 2-109) DetNet 컨트롤러의 설정 및 조회 인터페이스 처리 절차\n(그림 2-110) DetNet 제어/관리 에이전트 설정 및 조회 인터페이스 처리 절차\n③ 차세대 전달망 핵심기술 표준화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.31,
+          575.01,
+          495.81,
+          787.3
+        ],
+        "page_area_fraction": 0.1682
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.67,
+          346.66,
+          501.45,
+          528.14
+        ],
+        "page_area_fraction": 0.1479
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.39,
+          96.01,
+          509.61,
+          297.87
+        ],
+        "page_area_fraction": 0.1711
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0092",
+    "caption": "DetNet 컨트롤러의 설정 및 조회 인터페이스 처리 절차",
+    "pdf_page_candidate": 82,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 74 -\n(그림 2-108) DetNet 제어/관리 기능 구조도\n(그림 2-109) DetNet 컨트롤러의 설정 및 조회 인터페이스 처리 절차\n(그림 2-110) DetNet 제어/관리 에이전트 설정 및 조회 인터페이스 처리 절차\n③ 차세대 전달망 핵심기술 표준화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.31,
+          575.01,
+          495.81,
+          787.3
+        ],
+        "page_area_fraction": 0.1682
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.67,
+          346.66,
+          501.45,
+          528.14
+        ],
+        "page_area_fraction": 0.1479
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.39,
+          96.01,
+          509.61,
+          297.87
+        ],
+        "page_area_fraction": 0.1711
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0093",
+    "caption": "DetNet 제어/관리 에이전트 설정 및 조회 인터페이스 처리 절차",
+    "pdf_page_candidate": 82,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 74 -\n(그림 2-108) DetNet 제어/관리 기능 구조도\n(그림 2-109) DetNet 컨트롤러의 설정 및 조회 인터페이스 처리 절차\n(그림 2-110) DetNet 제어/관리 에이전트 설정 및 조회 인터페이스 처리 절차\n③ 차세대 전달망 핵심기술 표준화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.31,
+          575.01,
+          495.81,
+          787.3
+        ],
+        "page_area_fraction": 0.1682
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.67,
+          346.66,
+          501.45,
+          528.14
+        ],
+        "page_area_fraction": 0.1479
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.39,
+          96.01,
+          509.61,
+          297.87
+        ],
+        "page_area_fraction": 0.1711
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0094",
+    "caption": "YANG 데이터 모델을 이용한 가상 네트워크 서비스 기고서",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 75 -\n(가) 시간확정형 패킷 전달망 핵심기술 표준화 추진\nŸ T-SDN 기반 시간확정형 패킷 전달망 제어/관리 기술 국제표준화 추진중 (IETF,",
+    "caption_and_following_text": "ITU-T) - IETF TEAS WG, 가상 네트워크 서비스를 제공하기 위한 YANG 데이터 모델\n드래프트 에디터쉽 확보 및 국제 표준화 선도\n- ITU-T SG15, G.7710: 신호 품질 감시를 위한 구성 관리 외 기고\n(그림 2-111) YANG 데이터 모델을 이용한 가상 네트워크 서비스 기고서\nŸ 시간확정형 패킷 전달망 고생존성 기술 국제표준화 추진중 (ITU-T) - ITU-T SG15, G.8331– MTN (Metro Transport Network) 선형 보호절체 기술 권고안\n에디터쉽 확보 및 국제 표준화 선도\n(그림 2-112) ITU-T G.8331- MTN 선형 보호절체 국제기고서\nŸ 시간확정형 패킷 전달망 국내표준화 추진 (TTA) - DetNet 데이터 플레인 (IP, IP over MP LS, IP over TSN, MPLS over UDP/IP 등),\nFlexE 관련 국내표준안 외\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.55,
+          493.5,
+          249.23,
+          680.26
+        ],
+        "page_area_fraction": 0.0559
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          270.69,
+          529.58,
+          497.61,
+          675.22
+        ],
+        "page_area_fraction": 0.066
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.52,
+          172.49,
+          286.05,
+          375.55
+        ],
+        "page_area_fraction": 0.0599
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          310.51,
+          171.53,
+          455.15,
+          376.75
+        ],
+        "page_area_fraction": 0.0593
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0095",
+    "caption": "ITU-T G.8331- MTN 선형 보호절체 국제기고서",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 75 -\n(가) 시간확정형 패킷 전달망 핵심기술 표준화 추진\nŸ T-SDN 기반 시간확정형 패킷 전달망 제어/관리 기술 국제표준화 추진중 (IETF,\nITU-T) - IETF TEAS WG, 가상 네트워크 서비스를 제공하기 위한 YANG 데이터 모델\n드래프트 에디터쉽 확보 및 국제 표준화 선도\n- ITU-T SG15, G.7710: 신호 품질 감시를 위한 구성 관리 외 기고",
+    "caption_and_following_text": "(그림 2-111) YANG 데이터 모델을 이용한 가상 네트워크 서비스 기고서\nŸ 시간확정형 패킷 전달망 고생존성 기술 국제표준화 추진중 (ITU-T) - ITU-T SG15, G.8331– MTN (Metro Transport Network) 선형 보호절체 기술 권고안\n에디터쉽 확보 및 국제 표준화 선도\n(그림 2-112) ITU-T G.8331- MTN 선형 보호절체 국제기고서\nŸ 시간확정형 패킷 전달망 국내표준화 추진 (TTA) - DetNet 데이터 플레인 (IP, IP over MP LS, IP over TSN, MPLS over UDP/IP 등),\nFlexE 관련 국내표준안 외\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.55,
+          493.5,
+          249.23,
+          680.26
+        ],
+        "page_area_fraction": 0.0559
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          270.69,
+          529.58,
+          497.61,
+          675.22
+        ],
+        "page_area_fraction": 0.066
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.52,
+          172.49,
+          286.05,
+          375.55
+        ],
+        "page_area_fraction": 0.0599
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          310.51,
+          171.53,
+          455.15,
+          376.75
+        ],
+        "page_area_fraction": 0.0593
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0096",
+    "caption": "TTA DetNet 데이터 플레인 국내표준안",
+    "pdf_page_candidate": 84,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 76 -\n(그림 2-113) TTA DetNet 데이터 플레인 국내표준안\n④ 산출물 내역\nŸ 기술문서 24건\n- 16T-POTN DetNet 핵심기술개발 사업관리계획서 등 4건\n- 16T-POTN 시스템 유니트 설계 검토 등 7건\n- 16T-DetNet 패킷프로세싱 모듈 (FPGA) 상세설계서 등 3건\n- 16T-DetNet 라인유니트 회로도 등 7건\n- 16T-DetNet 제어/관리 기능 상세설계서 1건\n- 표준기술 동향분석서 등 2건",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.79,
+          651.97,
+          191.18,
+          793.17
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.25,
+          653.05,
+          293.84,
+          791.97
+        ],
+        "page_area_fraction": 0.0265
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.6,
+          651.37,
+          400.46,
+          793.53
+        ],
+        "page_area_fraction": 0.0278
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          407.06,
+          651.01,
+          505.41,
+          793.89
+        ],
+        "page_area_fraction": 0.0281
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0097",
+    "caption": "IP over POTN 제어 및 데이터 평면 구조",
+    "pdf_page_candidate": 85,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "- 국제컨퍼런스 ICTC2021, 저지연 및 고정밀 패킷 네트워킹 기술 및 16T-POTN 개발\n발표\n마) L2/L3 계층 통합 서비스 제공을 위한 IP over POTN 기술 개발 기능 구현\n① L2/L3계층 통합 서비스 제공을 위한 IP over POTN 기능 검증\n(가) 계층통합서비스 구성을 위한 제어평면 처리 기능 구현을 위한 Switch Chipset 기능 지원\n여부 검토\n② L3 라우팅 기반 시스템 설계를 위한 분산구조의 L3라우팅 기술 검증",
+    "caption_and_following_text": "(가) 계층통합 서비스 구성을 위한 L2 VPN 기술 구현을 위한 Switch Chipset 기능 지원 여부\n검토\n(나) Switch Chipset에서 해당 기능의 지원 여부를 자체 시험을 거쳐 검증\n(그림 2-114) IP over POTN 제어 및 데이터 평면 구조\n③ 산출물 내역\nŸ IP over POTN 구조설계서\n바) 고용량 시스템의 고안정성 제공을 위한 T-SDN 기반 지능형 네트워크 관리 핵심기술 개발\n기능 구현\n① T-SDN 기반 시스템 데이터 수집 및 장애분석 지능형 관리 구조 검토\n(가) 다양한 계위의 신호를 통합 수용하는 구조로 다음과 같은 기본 구조 제공",
+    "section_context_candidate": "마) L2/L3 계층 통합 서비스 제공을 위한 IP over POTN 기술 개발 기능 구현",
+    "heading_candidates": [
+      "마) L2/L3 계층 통합 서비스 제공을 위한 IP over POTN 기술 개발 기능 구현",
+      "바) 고용량 시스템의 고안정성 제공을 위한 T-SDN 기반 지능형 네트워크 관리 핵심기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.25,
+          374.11,
+          470.87,
+          587.6
+        ],
+        "page_area_fraction": 0.1479
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0098",
+    "caption": "YANG 데이터 모델 표준화",
+    "pdf_page_candidate": 88,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 80 -\n(그림 2-117) YANG 데이터 모델 표준화\n③ 산출물 내역\nŸ T-SDN Controller 구조설계 자료\nŸ YANG 데이터 모델 표준화 문서 개정 자료\n사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계\n① 100G 이상급 고속 암호화 기술 및 양자키분배기 구현\n(가) QKD 장치 인터페이스 구현(ALICE/ BOB) 완료\nŸ 최대 전송 거리 : 50Km(13dB@1550nm, 0.25dB/Km) Ÿ 양자 오류율(QBER) : <3% @50km\nŸ 양자암호 프로토콜 : Decoy 기반 BB84, 2Way",
+    "section_context_candidate": "사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계",
+    "heading_candidates": [
+      "사) 초고속 암호전송을 위한 100G이상 암호화 기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.89,
+          547.68,
+          289.04,
+          797.61
+        ],
+        "page_area_fraction": 0.081
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.32,
+          547.44,
+          468.23,
+          798.57
+        ],
+        "page_area_fraction": 0.0873
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0099",
+    "caption": "POTN 시스템 구조 및 패킷 스위칭 용량 확인",
+    "pdf_page_candidate": 93,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 85 -\nŸ POTN 시스템 기본 구조 및 FULL 스위칭 용량 확인 통합 시험\n(그림 2-126) POTN 시스템 구조 및 패킷 스위칭 용량 확인\n② 산출물 내역\nŸ 제품소개서 및 홍보자료 4건\nŸ NIA, KOREN망 실증을 통한 시스템 검증 및 홍보 (‘22.07. ~ ’22.12.) Ÿ 국내 기술홍보 및 소개 5건\n- HSN2022, 광전달망 장비 현황 및 전망을 중심으로 16T POTN 적용 기술 및 과제\n현황 소개 외 Ÿ 특허 출원 1건 (추진 중) - 파일 전송 시스템 (System for File Transfer ) (출원 진행 중) Ÿ 시제품 시험절차서 1건\nŸ 기술문서 작성 및 업데이트 19건 (2022.10.28.) - 16T-POTN 고속 백플레인 회로도 v1.2 외\n나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "section_context_candidate": "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계",
+    "heading_candidates": [
+      "나) 400G 이상 고확장성 패킷/광 전달 핵심기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          599.22,
+          206.17,
+          767.04
+        ],
+        "page_area_fraction": 0.0508
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.04,
+          598.74,
+          356.33,
+          767.64
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          369.28,
+          601.38,
+          508.77,
+          764.88
+        ],
+        "page_area_fraction": 0.0456
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          375.07,
+          204.73,
+          563.98
+        ],
+        "page_area_fraction": 0.0566
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.04,
+          374.59,
+          353.81,
+          564.34
+        ],
+        "page_area_fraction": 0.0526
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          363.88,
+          371.11,
+          513.92,
+          567.82
+        ],
+        "page_area_fraction": 0.059
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0100",
+    "caption": "FlexO/FlexE 기능 구현 확인",
+    "pdf_page_candidate": 95,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 87 -\nŸ FlexE/FlexO 제어/관리 기능 구현 및 기본 기능 확인\n(그림 2-129) FlexO/FlexE 기능 구현 확인\n② 산출물 내역\nŸ 시제품 시험절차서 1건\nŸ 기술문서 작성 및 업데이트 10건 (2022.9.16.) - 16T-POTN OTN 6포트 유니트 (TCX06U) 구조설계서 v1.0 외\n다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계\n① 달성성과: CDCF 파장 다중화 전송시스템 기능 구현 및 기본 기능 확인 Ÿ Flexible Grid 슈퍼채널 인터페이스 및 8-Degree 66ch(400G) ~ 88ch(100/200G) 슈\n퍼채널 스위칭 기능 구현 및 기본 기능 확인\nFlexO 설정 구성",
+    "section_context_candidate": "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계",
+    "heading_candidates": [
+      "다) 파장 다중화 전송을 위한 핵심 응용기술 개발 구조 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          675.94,
+          204.73,
+          756.85
+        ],
+        "page_area_fraction": 0.0243
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          597.91,
+          205.81,
+          651.73
+        ],
+        "page_area_fraction": 0.0163
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.04,
+          689.25,
+          514.04,
+          778.19
+        ],
+        "page_area_fraction": 0.0531
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.04,
+          576.45,
+          514.04,
+          665.03
+        ],
+        "page_area_fraction": 0.0529
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          440.28,
+          204.73,
+          521.19
+        ],
+        "page_area_fraction": 0.0243
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          362.24,
+          205.81,
+          416.07
+        ],
+        "page_area_fraction": 0.0163
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.04,
+          453.46,
+          514.04,
+          538.57
+        ],
+        "page_area_fraction": 0.0509
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.04,
+          344.86,
+          514.04,
+          429.25
+        ],
+        "page_area_fraction": 0.0504
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0101",
+    "caption": "ROADM 시스템 및 유니트 형상",
+    "pdf_page_candidate": 96,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "유니트\n16T POTN WDM부 AD\n스위칭 유니트 16T POTN WDM부 MUX셀프 16T POTN WDM부 광 파장\n선로감시 유니트\n16T POTN WDM부\nOCPMA유니트\n16T POTN WDM부",
+    "caption_and_following_text": "선로증폭기 유니트\n16T POTN WDM부\n라만증폭기 유니트\n(그림 2-130) ROADM 시스템 및 유니트 형상\n② 산출물 내역\nŸ 시제품 시험절차서 1건\nŸ 시스템 설계기술 자료 업데이트\n라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발\n① 16T급 POTN 시스템 개발 지원\n(가) 16T급 POTN 시스템 엔지니어링",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [
+      "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.56,
+          652.69,
+          190.7,
+          785.62
+        ],
+        "page_area_fraction": 0.0322
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          224.76,
+          646.93,
+          350.33,
+          791.37
+        ],
+        "page_area_fraction": 0.0362
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          382.47,
+          649.21,
+          507.45,
+          789.1
+        ],
+        "page_area_fraction": 0.0349
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          61.53,
+          488.11,
+          198.73,
+          600.18
+        ],
+        "page_area_fraction": 0.0307
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          488.83,
+          345.54,
+          599.7
+        ],
+        "page_area_fraction": 0.0257
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          378.16,
+          489.18,
+          511.77,
+          599.1
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.29,
+          309.38,
+          195.85,
+          438.24
+        ],
+        "page_area_fraction": 0.0339
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          221.4,
+          309.02,
+          353.57,
+          438.48
+        ],
+        "page_area_fraction": 0.0342
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          379.0,
+          309.14,
+          510.8,
+          438.36
+        ],
+        "page_area_fraction": 0.034
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0102",
+    "caption": "IEEE1588 PTP 기반 시각 정보 분배 흐름도",
+    "pdf_page_candidate": 97,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 89 -\n(그림 2-131) IEEE1588 PTP 기반 시각 정보 분배 흐름도\nŸ 16T급 POTN 시스템 안정화 지원\n- 라인카드 전원 모니터링 기능 추가 및 안정화 지원 완료\n(그림 2-132) 라인카드 전원 레벨 모니터링 기능 구현\n② 시간확정형 네트워킹(DetNet) 핵심기술 개발\n(가) 100G급 패킷 전달 엔진(FPGA) 기능 고도화 및 안정화\nŸ DetNet 패킷 포워딩 기능 안정화\n- DetNet + Non-DetNet 패킷 전송 기능 검증 완료\n- 100Gbps 패킷 처리 성능 검증 완료",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.98,
+          531.98,
+          482.02,
+          798.57
+        ],
+        "page_area_fraction": 0.1966
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.01,
+          240.34,
+          471.23,
+          437.4
+        ],
+        "page_area_fraction": 0.1332
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0103",
+    "caption": "라인카드 전원 레벨 모니터링 기능 구현",
+    "pdf_page_candidate": 97,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 89 -",
+    "caption_and_following_text": "(그림 2-131) IEEE1588 PTP 기반 시각 정보 분배 흐름도\nŸ 16T급 POTN 시스템 안정화 지원\n- 라인카드 전원 모니터링 기능 추가 및 안정화 지원 완료\n(그림 2-132) 라인카드 전원 레벨 모니터링 기능 구현\n② 시간확정형 네트워킹(DetNet) 핵심기술 개발\n(가) 100G급 패킷 전달 엔진(FPGA) 기능 고도화 및 안정화\nŸ DetNet 패킷 포워딩 기능 안정화\n- DetNet + Non-DetNet 패킷 전송 기능 검증 완료\n- 100Gbps 패킷 처리 성능 검증 완료\n- 노드 당 10μsec 이내 패킷 전달 지연시간 검증 완료",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.98,
+          531.98,
+          482.02,
+          798.57
+        ],
+        "page_area_fraction": 0.1966
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.01,
+          240.34,
+          471.23,
+          437.4
+        ],
+        "page_area_fraction": 0.1332
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0104",
+    "caption": "100G급 패킷 전달 엔진(FPGA) 시험구성도",
+    "pdf_page_candidate": 98,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 90 -\n- TAS, CQF를 포함한 스케줄링 기능 검증 완료\nŸ DetNet 무손실 패킷 전달 기능 안정화",
+    "caption_and_following_text": "- 무손실 패킷 전달 기능 검증 완료 및 시스템 연동 시험 완료\nŸ 비동기식 DetNet 큐잉 및 스케쥴링 기능 구현\n- Asynchronous Traffic Shaping(ATS) 기능 검증 완료\n(그림 2-133) 100G급 패킷 전달 엔진(FPGA) 시험구성도\n(그림 2-134) 100G급 패킷 전달 엔진(FPGA) 시험: 무손실\n(나) 400G급 DetNet 라인카드 시스템 통합 시험\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.07,
+          558.71,
+          498.93,
+          693.08
+        ],
+        "page_area_fraction": 0.1082
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.35,
+          372.67,
+          502.77,
+          515.08
+        ],
+        "page_area_fraction": 0.1168
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.87,
+          224.04,
+          506.25,
+          365.96
+        ],
+        "page_area_fraction": 0.1184
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.59,
+          82.71,
+          502.53,
+          217.44
+        ],
+        "page_area_fraction": 0.1104
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0105",
+    "caption": "100G급 패킷 전달 엔진(FPGA) 시험: 무손실",
+    "pdf_page_candidate": 98,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 90 -\n- TAS, CQF를 포함한 스케줄링 기능 검증 완료\nŸ DetNet 무손실 패킷 전달 기능 안정화\n- 무손실 패킷 전달 기능 검증 완료 및 시스템 연동 시험 완료",
+    "caption_and_following_text": "Ÿ 비동기식 DetNet 큐잉 및 스케쥴링 기능 구현\n- Asynchronous Traffic Shaping(ATS) 기능 검증 완료\n(그림 2-133) 100G급 패킷 전달 엔진(FPGA) 시험구성도\n(그림 2-134) 100G급 패킷 전달 엔진(FPGA) 시험: 무손실\n(나) 400G급 DetNet 라인카드 시스템 통합 시험\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.07,
+          558.71,
+          498.93,
+          693.08
+        ],
+        "page_area_fraction": 0.1082
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.35,
+          372.67,
+          502.77,
+          515.08
+        ],
+        "page_area_fraction": 0.1168
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.87,
+          224.04,
+          506.25,
+          365.96
+        ],
+        "page_area_fraction": 0.1184
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.59,
+          82.71,
+          502.53,
+          217.44
+        ],
+        "page_area_fraction": 0.1104
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0106",
+    "caption": "400G급 DetNet 라인카드 시험검증 구성도 (양방향, EMS 연동)",
+    "pdf_page_candidate": 99,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "Ÿ DetNet 라인카드 시스템 통합 및 연동 시험\n- DetNet 라인카드 시스템 통합 시험 완료\n- DetNet 라인카드 간 DetNet 패킷 연동 시험 완료\n- DetNet 라인카드-10G/100G 이더넷 라인카드 간 패킷 연동 시험 완료\nŸ DetNet 라인카드 시험 검증 및 실증\n- DetNet 라인카드 성능지표 시험검증\n· 100Gbps/device 처리 성능 및 10μsec/system 이하 전달 지연시간 만족",
+    "caption_and_following_text": "- 초연결 지능형 연구개발망(KOREN) 적용 장거리 공장 원격 관제 실증\n· 안양 소재 인쇄회로기판 공장 내 표면실장기술(SMT) 공정 과정 무중단· 시간확정형\n원격관제 서비스 실증\n(그림 2-135) 400G급 DetNet 라인카드 시험검증 구성도 (양방향, EMS 연동)\n(그림 2-136) 400G급 DetNet 라인카드 시험검증 결과\n(다) DetNet 제어/관리 인터페이스 기능 시스템 통합 및 안정화\nŸ DetNet 제어/관리 기능 시스템 통합 및 연동 시험\n- DetNet 토폴로지, 자원, 경로, 무손실 전달, QoS 및 서비스 관리 인터페이스 기능\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.57,
+          328.08,
+          500.73,
+          517.23
+        ],
+        "page_area_fraction": 0.1373
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.48,
+          118.91,
+          526.64,
+          286.37
+        ],
+        "page_area_fraction": 0.1533
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0107",
+    "caption": "400G급 DetNet 라인카드 시험검증 결과",
+    "pdf_page_candidate": 99,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "- DetNet 라인카드 시스템 통합 시험 완료\n- DetNet 라인카드 간 DetNet 패킷 연동 시험 완료\n- DetNet 라인카드-10G/100G 이더넷 라인카드 간 패킷 연동 시험 완료\nŸ DetNet 라인카드 시험 검증 및 실증\n- DetNet 라인카드 성능지표 시험검증\n· 100Gbps/device 처리 성능 및 10μsec/system 이하 전달 지연시간 만족\n- 초연결 지능형 연구개발망(KOREN) 적용 장거리 공장 원격 관제 실증",
+    "caption_and_following_text": "· 안양 소재 인쇄회로기판 공장 내 표면실장기술(SMT) 공정 과정 무중단· 시간확정형\n원격관제 서비스 실증\n(그림 2-135) 400G급 DetNet 라인카드 시험검증 구성도 (양방향, EMS 연동)\n(그림 2-136) 400G급 DetNet 라인카드 시험검증 결과\n(다) DetNet 제어/관리 인터페이스 기능 시스템 통합 및 안정화\nŸ DetNet 제어/관리 기능 시스템 통합 및 연동 시험\n- DetNet 토폴로지, 자원, 경로, 무손실 전달, QoS 및 서비스 관리 인터페이스 기능\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.57,
+          328.08,
+          500.73,
+          517.23
+        ],
+        "page_area_fraction": 0.1373
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.48,
+          118.91,
+          526.64,
+          286.37
+        ],
+        "page_area_fraction": 0.1533
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0108",
+    "caption": "DetNet 제어/관리 기능 시스템 시험망 구성도",
+    "pdf_page_candidate": 100,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "시스템 통합 시험 완료\n- DetNet 경로 관리, 무손실 전달, QoS 관리 기능 매니저-에이전트 간 연동 시험\n완료\nŸ DetNet 제어/관리 기능 안정화\n- DetNet 경로 관리, 무손실 전달, QoS 관리 기능 매니저-에이전트-디바이스\n드라이버 간 기능 안정화 및 시험 완료\n- DetNet 토폴로지, 자원, 경로, 무손실 전달, QoS 및 서비스 관리 인터페이스 기능",
+    "caption_and_following_text": "시스템 안정화 및 시험 완료\nŸ 비동기식 DetNet 큐잉 및 스케쥴링 제어/관리 기능 구현\n- DetNet ATS 그룹 설정 기능 구현 및 시험 완료(8개 ATS 그룹 설정 가능) - DetNet ATS 그룹 검색 기능 구현 및 시험 완료\n(그림 2-137) DetNet 제어/관리 기능 시스템 시험망 구성도\n③ 차세대 전달망 핵심기술 표준화\n(가) 시간확정형 패킷 전달망 핵심기술 표준화 추진\nŸ T-SDN 기반 시간확정형 패킷 전달망 제어/관리 기술 국제표준화 추진 (IETF, ITU-T) - ITU-T G.7710, 전송장비 공통관리기능 요구사항 개정안 국제표준안 채택(2022.11) - IETF TEAS WG, 가상 네트워크 서비스 YANG 데이터 모델 외 국제기고서\n제출/채택 추진\nŸ 시간확정형 패킷 전달망 고생존성 기술 국제표준화 추진(ITU-T) - ITU-T G.8331, 메트로 전달망 선형보호절체 국제표준안 채택 완료(2022.02) - IETF RFC9720, 공유메쉬 보호절체를 위한 GMPLS 시그널링 국제표준안 채택\n완료(2022.08.) Ÿ 차세대 전달망 핵심기술 국내표준 채택(TTA) - TTA 시간확정형 네트워크 관련 보안 국내표준안 채택(2022.12)",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.58,
+          372.67,
+          490.54,
+          596.71
+        ],
+        "page_area_fraction": 0.1728
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0109",
+    "caption": "국제 및 국내표준안 채택 (ITU-T, IETF, TTA)",
+    "pdf_page_candidate": 101,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 93 -\nITU-T G.8331 (02/2022) ITU-T G.7710 Amd1 (11/2022) IETF RFC9270\nTTAE.IE-802.1X-2020\n(그림 2-138) 국제 및 국내표준안 채택 (ITU-T, IETF, TTA)\n④ 산출물 내역\nŸ 기술문서 19건\n- DetNet 핵심기능 시험절차 및 결과서 등 2건\n- 16T-POTN DetNet 라인유니트 하드웨어 상세설계서 v1.3 등 3건\n- DetNet 서비스 제공을 위한 16T-POTN DetNet 제어관리모듈 구현서 등 14건\nŸ 시작품 2건",
+    "section_context_candidate": "라) IP/MPLS 기반 시간확정형 네트워킹(DetNet: Deterministic Networking) 핵심기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.48,
+          640.1,
+          185.66,
+          785.86
+        ],
+        "page_area_fraction": 0.0324
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          197.65,
+          643.82,
+          305.12,
+          785.86
+        ],
+        "page_area_fraction": 0.0305
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.27,
+          640.1,
+          426.37,
+          785.86
+        ],
+        "page_area_fraction": 0.0312
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          436.08,
+          649.93,
+          532.15,
+          763.68
+        ],
+        "page_area_fraction": 0.0218
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0110",
+    "caption": "T-SDN 컨트롤러 구현 형상",
+    "pdf_page_candidate": 103,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "② 산출물 내역\nŸ 시제품 시험절차서 1건\nŸ 시스템 설계기술 자료 업데이트\n바) 고용량 시스템의 고안정성 제공을 위한 T-SDN 기반 지능형 네트워크 관리 핵심기술 개발\n기능 구현\n① 달성성과: Netconf/YANG SBI/NBI 기반 T-SDN 고도화 기능 구현 및 기본 기능 확인\nŸ T-SDN 기반 시스템 데이터 수집 구현 및 장애 분석 지능형 관리 기능 구현 및 기본",
+    "caption_and_following_text": "기능 확인\nT-SDN Controller 논리적 구성 T-SDN 컨트롤러 연동 구조\n로그인 수행 화면 토폴로지 화면\n(그림 2-141) T-SDN 컨트롤러 구현 형상\nŸ 운용관리장치 기능 구현 및 기본 기능 확인\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "바) 고용량 시스템의 고안정성 제공을 위한 T-SDN 기반 지능형 네트워크 관리 핵심기술 개발",
+    "heading_candidates": [
+      "바) 고용량 시스템의 고안정성 제공을 위한 T-SDN 기반 지능형 네트워크 관리 핵심기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.64,
+          444.95,
+          286.05,
+          619.96
+        ],
+        "page_area_fraction": 0.0743
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          307.52,
+          452.86,
+          521.48,
+          612.17
+        ],
+        "page_area_fraction": 0.0681
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.16,
+          292.48,
+          288.33,
+          420.86
+        ],
+        "page_area_fraction": 0.0552
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.67,
+          293.2,
+          524.24,
+          420.14
+        ],
+        "page_area_fraction": 0.0552
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.44,
+          132.46,
+          293.96,
+          268.03
+        ],
+        "page_area_fraction": 0.0608
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.16,
+          132.1,
+          528.43,
+          268.39
+        ],
+        "page_area_fraction": 0.0611
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0111",
+    "caption": "성과활용 및 확산을 위한 경쟁력 분석",
+    "pdf_page_candidate": 140,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 132 -\n<표 6-2> 성과활용 및 확산을 위한 경쟁력 분석\n(3) 성과 활용방안 및 계획\n<표 6-3> 성과 활용방안 및 기술 사업화 계획\n가) 사업화 방법, 지원\n우리넷(주관기관), 코위버(공동연구기관1)의 사업화 방법, 매출예상액 과 ETRI(공동\n연구기관2)의 사업화지원 내용은 아래와 같다, l 사업화 방법 : 1차년도부터 사업개요 및 목표, 사업추진 과정, 사업화 시점을\n지속적으로 홍보하고, 조율하여 기술개발 및 제품화가 완료되는 3차년도에\nStrength Weakness\n¡ 경쟁력 : 광전송 분야에서 국내 POTN 첫 개",
+    "section_context_candidate": "가) 사업화 방법, 지원",
+    "heading_candidates": [
+      "가) 사업화 방법, 지원"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0112",
+    "caption": "성과 활용방안 및 기술 사업화 계획",
+    "pdf_page_candidate": 140,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 132 -\n<표 6-2> 성과활용 및 확산을 위한 경쟁력 분석\n(3) 성과 활용방안 및 계획\n<표 6-3> 성과 활용방안 및 기술 사업화 계획\n가) 사업화 방법, 지원\n우리넷(주관기관), 코위버(공동연구기관1)의 사업화 방법, 매출예상액 과 ETRI(공동\n연구기관2)의 사업화지원 내용은 아래와 같다, l 사업화 방법 : 1차년도부터 사업개요 및 목표, 사업추진 과정, 사업화 시점을\n지속적으로 홍보하고, 조율하여 기술개발 및 제품화가 완료되는 3차년도에\nStrength Weakness\n¡ 경쟁력 : 광전송 분야에서 국내 POTN 첫 개",
+    "section_context_candidate": "가) 사업화 방법, 지원",
+    "heading_candidates": [
+      "가) 사업화 방법, 지원"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0113",
+    "caption": "연도별 예상 시장 규모",
+    "pdf_page_candidate": 143,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "(2027년)\n예상매출액 100백만원 1,000백만원 10,000억 15,000억 25,000억\n고용계획 1명 1명 2명 2명 3명\n※ 본 과제의 주관연구개발기관은 자체 연구개발비도 매년 매출액 대비 약 11~16%를 투자하\n고 있으므로 안정된 기술인력 고용창출과 한정된 예산투입에도 효과적인 사업수행 및 후속개발\n가능\no (수입 대체 효과) 2023년 이후, 신규 및 고도화 예정인 전국규모 메트로 백본망 사업",
+    "caption_and_following_text": "에 고용량 POTN, PTN 구축 및 대용량 MSPP 대체시장 등 에 약 0.42억 달러(한화 약\n530억) 이상의 수입 대체 효과 기대함. (Worldwide and Regional Market Size and\nForecast(IHS, 2019.03) 대비 국내 비중을 1.27%(Gartner, 2015)로 고려하여 추정)\n<표 6-8> 연도별 예상 시장 규모\n구분 2022년 2023년\n종료 1년후\n(2024년)\n종료 2년후\n(2025년)\n세계시장규모 2,463.9 2,570.7 2,712.1 2,861.3",
+    "section_context_candidate": "3) 성과활용·관리 추진체계",
+    "heading_candidates": [
+      "3) 성과활용·관리 추진체계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.85,
+          117.23,
+          521.84,
+          315.49
+        ],
+        "page_area_fraction": 0.183
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0114",
+    "caption": "성과활용 및 관리추진 체계",
+    "pdf_page_candidate": 143,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 36,
+    "prefix_match_only": false,
+    "text_before": "Forecast (IHS, 2019.03)\n주) 2024~2025년 세계시장규모 : IHS(2019.03) 데이터와 CAGR를 고려하여 추정\n주) Worldwide and Regional Market Size and Forecast(IHS, 2019.03) 대비 한국시장 규모\n비중 1.27%(Gartner, 2015)로 고려하여 추정\n3) 성과활용·관리 추진체계\n(1) 추진 체계\no 앞선 기술개발과 상용화로 축적된 시스템 시업화 기술을 기반으로 개발된 고용량",
+    "caption_and_following_text": "POTN의 고속 백플레인 시스템, 400G급 패킷/광 인터페이스, 고확장성 FlexE/FlexO 인\n터페이스, 100G/200G/400G 보안기술을 활용하여 성과활용·관리를 추진함\no 추진체계 및 관계구성에 맞게 상호 협력하에 체계적인 상용화 추진\n(그림 6-1) 성과활용 및 관리추진 체계\n4) 기타\n5) (1) 사회적 가치 기여\no 고용량 광전송망 솔루션 및 기술의 원활한 공급\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3) 성과활용·관리 추진체계",
+    "heading_candidates": [
+      "3) 성과활용·관리 추진체계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.85,
+          117.23,
+          521.84,
+          315.49
+        ],
+        "page_area_fraction": 0.183
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0115",
+    "caption": "연구개발성과 활용계획표",
+    "pdf_page_candidate": 145,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 137 -\n<표 6-8> 연구개발성과 활용계획표\n구분(정량 및 정성적 성과 항목) 연구개발 종료 후 5년 이내\n국외논문\nSCIE - 비SCIE - 계 - 국내논문\nSCIE - 비SCIE - 계 - 특허출원\n국내 후속 연구 및 추가개발에 활용 예정(18건)\n국외 후속 연구 및 추가개발에 활용 예정(2건)\n계 20건\n특허등록",
+    "section_context_candidate": "3) 성과활용·관리 추진체계",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I03-V0116",
+    "caption": "공공, B2B 메트로망 고도화 방안",
+    "pdf_page_candidate": 147,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 139 -\n를 고려한 메트로 백본 구간의 고도화 필요. 기존 NFV, vRouter, WB, SDN Switch에\n서5G/6G Core, MEC 등 고용량 트래픽 서비스 수용 고려한 추가개발\n(그림 7-1) 공공, B2B 메트로망 고도화 방안\n(4) 무손실․시간확정형 서비스, 초고속 보안전송 등의 기술·제품\no 무손실․시간확정형 기업전용 특화 서비스를 위한 후속연구 및 추가개발 추진\no 국가, 기업, 금융상의 중요 보안 전송 서비스를 위한 후속연구 및 추가개발 추진\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 개발 대상 기술․제품의 추가개발에 따른 활용분야",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.91,
+          589.28,
+          483.94,
+          763.44
+        ],
+        "page_area_fraction": 0.1358
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

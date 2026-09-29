@@ -1,0 +1,1222 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 994,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 195,
+      "2": 95,
+      "5": 2
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1411,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 366,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1334,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 329,
+      "2": 43,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1240,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 19"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 19",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 86,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1175,
+    "heading_candidates": [
+      "1. 연구개발과제의 수행 과정 및 내용",
+      "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 수행 과정 및 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 19",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1. C-V2X 기반 원격 주행 시스템 구성도",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "차이가 1ms 이하임. 따라서 거리에 따른 통신 지연 시간 변화는 거의 없음. - 회전 구간(반경 약 10m) 시나리오에서, 200ms의 통신 지연 발생 시 lane keeping error가 평균\n0.62m 증가하고, 표준편차는 0.44m로 나타남 [1]. 따라서 구축한 원격 제어 시스템은 고곡률\n구간 주행(교차로 내 우회전, 회전교차로 등)에서 차선 이탈 가능성이 존재함. - Slalom 시나리오에서, 150ms의 통신 지연 발생 시 바퀴의 조향 각도 범위가 평균 4.15° 증가\n함 [2]. 이는 직접 차량을 운행하는 경우보다 원격 제어를 수행할 때 더 큰 횡방향 가속도를 가",
+        "after": "그림 2. Panning module 구축 모습 그림 3. DGIST 캠퍼스 내 원격 주행 시운전 모습\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2. Panning module 구축 모습 그림 3. DGIST 캠퍼스 내 원격 주행 시운전 모습",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "0.62m 증가하고, 표준편차는 0.44m로 나타남 [1]. 따라서 구축한 원격 제어 시스템은 고곡률\n구간 주행(교차로 내 우회전, 회전교차로 등)에서 차선 이탈 가능성이 존재함. - Slalom 시나리오에서, 150ms의 통신 지연 발생 시 바퀴의 조향 각도 범위가 평균 4.15° 증가\n함 [2]. 이는 직접 차량을 운행하는 경우보다 원격 제어를 수행할 때 더 큰 횡방향 가속도를 가\n그림 1. C-V2X 기반 원격 주행 시스템 구성도",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 316,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          438.24,
+          531.43,
+          561.35
+        ],
+        "page_area_fraction": 0.1149
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          16.91,
+          253.28,
+          319.15,
+          423.86
+        ],
+        "page_area_fraction": 0.103
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          292.64,
+          273.54,
+          530.59,
+          406.59
+        ],
+        "page_area_fraction": 0.0633
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1554,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+    "prior_heading_candidate": {
+      "text": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 4. 운전 스타일 판별 및 공유를 위한 4-layer CNN-2 stacked LSTM-V2X 시스템 구성도",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "Ÿ In-vehicle 자율주행 기능을 활용한 주행 안전성 확보 방안 조사\n- MPC 기반의 원격 자율 주행을 통한 주행 안전성 확보\nü 현재 원격 제어 신호 유지, 거리 기반의 장애물 충돌 위험성, 조향 smoothness를 cost로\ndesign하고, 전체 cost를 최소화하는 조향 signal을 계산하여 차량 제어를 수행하는 방법이 제",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 411,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          176.57,
+          531.43,
+          331.2
+        ],
+        "page_area_fraction": 0.1443
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 992,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+    "prior_heading_candidate": {
+      "text": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 5. WPI 데이터셋 평가 결과 그림 6. 한국 주행환경에서는 신호등 불검출",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "환경에서의 교통신호 판별이 가능해짐.\nn 스테레오 이미지 거리 추정 방법 연구\nŸ 실시간 스테레오 거리 추정 방법 연구\n- 딥러닝 기반의 AnyNet [10]과 고전 컴퓨터 비전 방법 SGBM [11]을 사용하여 실행 속도 및 정",
+        "after": "그림 7. SGBM 스테레오 거리 추정 그림 8. 딥러닝 기반 AnyNet 스테레오 거리 추정\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 7. SGBM 스테레오 거리 추정 그림 8. 딥러닝 기반 AnyNet 스테레오 거리 추정",
+        "line_index": 21,
+        "toc_like": false,
+        "before": "n 스테레오 이미지 거리 추정 방법 연구\nŸ 실시간 스테레오 거리 추정 방법 연구\n- 딥러닝 기반의 AnyNet [10]과 고전 컴퓨터 비전 방법 SGBM [11]을 사용하여 실행 속도 및 정\n그림 5. WPI 데이터셋 평가 결과 그림 6. 한국 주행환경에서는 신호등 불검출",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 238,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -115.26,
+          368.24,
+          339.54,
+          623.92
+        ],
+        "page_area_fraction": 0.2324
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.49,
+          356.61,
+          551.22,
+          549.96
+        ],
+        "page_area_fraction": 0.1328
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.09,
+          161.94,
+          522.2,
+          261.67
+        ],
+        "page_area_fraction": 0.0915
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.4,
+          162.3,
+          529.4,
+          261.31
+        ],
+        "page_area_fraction": 0.0902
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1121,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+    "prior_heading_candidate": {
+      "text": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "표 1. 사용 모델별 초당 프레임 수 비교",
+        "line_index": 25,
+        "toc_like": false,
+        "before": "SGBM/4 9.9\nSGBM/4 + YOLOv4(TLR) 9.7\nSGBM/4 + YOLOv4(TLR) + YOLOv4(Original) 5.9\nSGBM/4 + YOLOv4(TLR + Original) 9.8",
+        "after": "n LiDAR/카메라 내부 및 외부 보정 및 한국형 데이터셋 수집\nŸ 스테레오 카메라 차량 설치 및 스테레오 카메라 보정\n- 카메라 구매 및 자율주행차 rig에 카메라 설치\n그림 9. 객체별 거리 탐지 데모 그림 10. 객체별 거리 추정 시스템 구조",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 9. 객체별 거리 탐지 데모 그림 10. 객체별 거리 추정 시스템 구조",
+        "line_index": 29,
+        "toc_like": false,
+        "before": "표 1. 사용 모델별 초당 프레임 수 비교\nn LiDAR/카메라 내부 및 외부 보정 및 한국형 데이터셋 수집\nŸ 스테레오 카메라 차량 설치 및 스테레오 카메라 보정\n- 카메라 구매 및 자율주행차 rig에 카메라 설치",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 253,
+      "2": 20,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.09,
+          364.16,
+          360.53,
+          493.98
+        ],
+        "page_area_fraction": 0.0772
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.4,
+          393.53,
+          529.4,
+          464.61
+        ],
+        "page_area_fraction": 0.0324
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 898,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+    "prior_heading_candidate": {
+      "text": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 11. 주행 차량에 카메라 설치 그림 12. 카메라 보정판 촬영",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 9 -\n- 총 56쌍의 외부보정 세트를 이용하여 스테레오 카메라 보정 진행\n- 평균 재 투영 오차 0.1693(픽셀)로 준수한 결과를 보임\n- 실측한 카메라 간 상대 위치와 비교해서 3mm내외의 적은 오차를 보임",
+        "after": "Ÿ 라이다-카메라 외부 보정\n- 각 센서를 통해 획득한 데이터에서 외부 보정 구조물을 추출\n- 이후 점-평면 제약조건을 이용하여 [12] 센서 간 외부 보정 수행\n- 외부보정에는 총 18쌍의 라이다-카메라 외부보정 세트를 사용",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 13. 이미지에서",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "ž 3D Conv, 2D BEV연산, Auxiliary network가 특징\nü PV-RCNN\nž Voxelization, 3D sparse conv. 및 BEV연산 등 모델 앞단은 유사구조\nž RPN layer를 통해 1-stage대비 성능향상 but 속도저하 (0.18s -> 0.3s)",
+        "after": "보정구조물 추출\n그림 14. 라이다 데이터에서\n보정구조물 추출\n그림 15. 외부보정 결과 시각화",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 14. 라이다 데이터에서",
+        "line_index": 22,
+        "toc_like": false,
+        "before": "ž Voxelization, 3D sparse conv. 및 BEV연산 등 모델 앞단은 유사구조\nž RPN layer를 통해 1-stage대비 성능향상 but 속도저하 (0.18s -> 0.3s)\n그림 13. 이미지에서\n보정구조물 추출",
+        "after": "보정구조물 추출\n그림 15. 외부보정 결과 시각화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 15. 외부보정 결과 시각화",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "그림 13. 이미지에서\n보정구조물 추출\n그림 14. 라이다 데이터에서\n보정구조물 추출",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 215,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.82,
+          552.24,
+          343.98,
+          720.17
+        ],
+        "page_area_fraction": 0.0752
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          327.42,
+          555.71,
+          523.4,
+          718.97
+        ],
+        "page_area_fraction": 0.0639
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.09,
+          337.31,
+          224.64,
+          448.07
+        ],
+        "page_area_fraction": 0.0358
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          222.12,
+          337.55,
+          373.84,
+          447.59
+        ],
+        "page_area_fraction": 0.0334
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          370.84,
+          338.03,
+          529.99,
+          447.23
+        ],
+        "page_area_fraction": 0.0347
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 650,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+    "prior_heading_candidate": {
+      "text": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 16. SA-SSD,PVR-CNN,Voxel R-CNN계열비교",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "ž 학습을 위해 각 dataset에 대한 part-aware방식 point augmentation기법 적용[13]\nŸ HD map feature를 이용한 Traffic light 인식 모델 개발\n- ODD 및 국내 신호등 법규를 카메라 모델과 위치 선정\nü ODD 구간 내 신호등 규격과 위치, 인식 성능 기준을 고려하여 카메라 모델과 위치를 선정함",
+        "after": "그림 17. PV-RCNN/Voxel-RCNN model을 KITTI Dataset [14] 및 Waymo Dataset [18]\n각각 사용하여 비교검증 수행(Waymo: 20% 학습 data사용)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 17. PV-RCNN/Voxel-RCNN model을 KITTI Dataset [14] 및 Waymo Dataset [18]",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "Ÿ HD map feature를 이용한 Traffic light 인식 모델 개발\n- ODD 및 국내 신호등 법규를 카메라 모델과 위치 선정\nü ODD 구간 내 신호등 규격과 위치, 인식 성능 기준을 고려하여 카메라 모델과 위치를 선정함\n그림 16. SA-SSD,PVR-CNN,Voxel R-CNN계열비교",
+        "after": "각각 사용하여 비교검증 수행(Waymo: 20% 학습 data사용)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 127,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.8,
+          463.05,
+          523.16,
+          655.44
+        ],
+        "page_area_fraction": 0.1732
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.05,
+          385.26,
+          460.91,
+          428.65
+        ],
+        "page_area_fraction": 0.0283
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.33,
+          252.8,
+          461.63,
+          379.26
+        ],
+        "page_area_fraction": 0.0827
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.51,
+          172.01,
+          498.45,
+          246.81
+        ],
+        "page_area_fraction": 0.0599
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 776,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+    "prior_heading_candidate": {
+      "text": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 18. ODD 및 국내 신호등 법규를 카메라 모델과 위치 선정",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "는 신호등 Feature를 이미지에서 투영함\nü Localization error, Vehicle vibration, Synchronization error 등을 고려하여 Camera plane에\n서 x, y, z 축에 대한 angle variation를 고려함\n- Localization과 HD map feature를 이용한 Traffic light RoI 기반 Traffic light 인식 모델",
+        "after": "그림 19. 신호등 위치 추정\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 19. 신호등 위치 추정",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "ü Localization error, Vehicle vibration, Synchronization error 등을 고려하여 Camera plane에\n서 x, y, z 축에 대한 angle variation를 고려함\n- Localization과 HD map feature를 이용한 Traffic light RoI 기반 Traffic light 인식 모델\n그림 18. ODD 및 국내 신호등 법규를 카메라 모델과 위치 선정",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 157,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.39,
+          538.21,
+          510.57,
+          735.4
+        ],
+        "page_area_fraction": 0.1675
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.13,
+          129.22,
+          459.95,
+          312.02
+        ],
+        "page_area_fraction": 0.1183
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1250,
+    "heading_candidates": [
+      "3) 통신 및 컴퓨팅 자원 QoS 확보 방안 연구"
+    ],
+    "section_context_candidate": "3) 통신 및 컴퓨팅 자원 QoS 확보 방안 연구",
+    "prior_heading_candidate": {
+      "text": "1) 원격 제어와 자율주행 AI 시스템 연동 방안 기초 연구",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 21. 차량 자율 주행 모드 전환 모델",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "결과를 모두 받았을 경우에는 서버의 Yolo 노드로부터 온 결과를 actuator 노드로 전달함. ü Data arbitrator 노드가 모드 전환 시점 이전에 서버의 Yolo 노드로부터 결과를 받지 못한 경\n우에는 임베디드 Yolo 노드의 결과를 actuator 노드로 보냄.\n- 자율 주행 모드 전환 모델에서 각 노드의 역할은 아래와 같음. ü Image publisher 노드: 센서로부터 받은 데이터를 ROS 메시지로 전환함. 전환된 메시지를 서\n버와 임베디드 보드의 Yolo 노드로 전송함. ü Yolo 노드: Image publisher 노드로부터 받은 이미지 데이터에 대해 물체 감지를 진행함. ü Data Arbitrator (DA) 노드: 모드 전환 알고리즘에 따라 모드를 선택하고, 해당 모드로 동작하",
+        "after": "그림 20. Traffic light RoI 기반 Traffic light 인식 모델\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 20. Traffic light RoI 기반 Traffic light 인식 모델",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "우에는 임베디드 Yolo 노드의 결과를 actuator 노드로 보냄.\n- 자율 주행 모드 전환 모델에서 각 노드의 역할은 아래와 같음. ü Image publisher 노드: 센서로부터 받은 데이터를 ROS 메시지로 전환함. 전환된 메시지를 서\n버와 임베디드 보드의 Yolo 노드로 전송함. ü Yolo 노드: Image publisher 노드로부터 받은 이미지 데이터에 대해 물체 감지를 진행함. ü Data Arbitrator (DA) 노드: 모드 전환 알고리즘에 따라 모드를 선택하고, 해당 모드로 동작하\n그림 21. 차량 자율 주행 모드 전환 모델",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 314,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.12,
+          174.89,
+          438.36,
+          292.48
+        ],
+        "page_area_fraction": 0.0675
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.39,
+          671.98,
+          510.57,
+          767.28
+        ],
+        "page_area_fraction": 0.081
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1443,
+    "heading_candidates": [],
+    "section_context_candidate": "3) 통신 및 컴퓨팅 자원 QoS 확보 방안 연구",
+    "prior_heading_candidate": {
+      "text": "3) 통신 및 컴퓨팅 자원 QoS 확보 방안 연구",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 22. Single-DAG에 대한 모드 전환 시점 판단",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "response-time은 R2, 그리고 task2에서 data arbitrator 이후 sub-DAG의 response-time을\nR3이라고 정의함. Task1의 priority가 task2의 priority보다 높다고 가정함. 이때 task1의 모드\n전환 시점인 은   로 계산됨. Task2의 모드 전환 시점인 는       으\n로 계산됨.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 363,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.95,
+          80.55,
+          533.11,
+          180.04
+        ],
+        "page_area_fraction": 0.0875
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.7,
+          180.04,
+          538.27,
+          242.38
+        ],
+        "page_area_fraction": 0.054
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          192.14,
+          535.45,
+          402.86,
+          605.46
+        ],
+        "page_area_fraction": 0.0295
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1257,
+    "heading_candidates": [
+      "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구"
+    ],
+    "section_context_candidate": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구",
+    "prior_heading_candidate": {
+      "text": "3) 통신 및 컴퓨팅 자원 QoS 확보 방안 연구",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 23. Multi-DAG에 대한 모드 전환 시점 판단 (왼쪽: task1, 오른쪽 task2)",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구\nn IVN, V2X 통합 시뮬레이션 및 Use-case 구현\nŸ 시뮬레이터 구축\n- DSRC, C-V2X Sidelink가 적용된 차량이 주행하는 고속도로 환경 모델링 (그림27. (b), (c))",
+        "after": "그림 24. 차량 자율 주행 모드 전환 모델 실행 그래프\n그림 25. 임베디드 보드에서의 결과 그림 26. 서버에서의 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 24. 차량 자율 주행 모드 전환 모델 실행 그래프",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "n IVN, V2X 통합 시뮬레이션 및 Use-case 구현\nŸ 시뮬레이터 구축\n- DSRC, C-V2X Sidelink가 적용된 차량이 주행하는 고속도로 환경 모델링 (그림27. (b), (c))\n그림 23. Multi-DAG에 대한 모드 전환 시점 판단 (왼쪽: task1, 오른쪽 task2)",
+        "after": "그림 25. 임베디드 보드에서의 결과 그림 26. 서버에서의 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 25. 임베디드 보드에서의 결과 그림 26. 서버에서의 결과",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "Ÿ 시뮬레이터 구축\n- DSRC, C-V2X Sidelink가 적용된 차량이 주행하는 고속도로 환경 모델링 (그림27. (b), (c))\n그림 23. Multi-DAG에 대한 모드 전환 시점 판단 (왼쪽: task1, 오른쪽 task2)\n그림 24. 차량 자율 주행 모드 전환 모델 실행 그래프",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 305,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.95,
+          585.08,
+          420.49,
+          712.38
+        ],
+        "page_area_fraction": 0.063
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.48,
+          171.17,
+          274.77,
+          280.01
+        ],
+        "page_area_fraction": 0.0423
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          329.94,
+          124.54,
+          455.99,
+          280.61
+        ],
+        "page_area_fraction": 0.0393
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          377.08,
+          170.57,
+          502.41,
+          280.61
+        ],
+        "page_area_fraction": 0.0276
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 872,
+    "heading_candidates": [],
+    "section_context_candidate": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구",
+    "prior_heading_candidate": {
+      "text": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림28. (c))",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- PDR (Packet Delivery Ratio), 지연 시간, 커버리지 등 통신 QoS 평가 가능 시뮬레이터 구축\nŸ 실증#1: DSRC와 C-V2X 채널 간섭 분석 - DSRC와 C-V2X가 인접 채널에서 동작할 때, DSRC가 C-V2X에 인접 채널 간섭 (adjacent\nchannel interference)을 야기함을 확인함\nü 이로 인해 C-V2X는 원래 할당받은 10MHz bandwidth 의 절반만 사용함 ▶ Capacity 축소됨",
+        "after": "ü DSRC 차량이 인접 차량의 C-V2X 사용을 확인할 시, 간섭을 줄이는 기법이 필요함을 확인함\nŸ 실증#2: DSRC와 C-V2X의 통신 QoS 실증\n- V2X application의 통신 QoS 요구사항인 PDR (Packet Delivery Ratio) 과 통신 Coverage 관점\n으로 분석",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 27. 고속도로 주행 환경 모델링 및 통신 구현: (a) 실제 환경; (b) 모델링; (c) PDR",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- V2X application의 통신 QoS 요구사항인 PDR (Packet Delivery Ratio) 과 통신 Coverage 관점\n으로 분석\nü 일반적인 LoS (Line-of-Sight) 환경에서 DSRC와 C-V2X 모두 QoS 요구사항을 만족함을 확\n인 (그림29. (c))",
+        "after": "그림 28. Spectrum analyzer로 측정한 DSRC와 C-V2X의 Power Spectral Density (PSD): (a) DSRC\n단독 동작; (b) C-V2X 단독 동작; (c) DSRC와 C-V2X 동시 동작\n그림 29. DSRC 실증 구성 및 결과: (a):OBU; (b) RSU; (c) 거리에 따른 PDR\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 28. Spectrum analyzer로 측정한 DSRC와 C-V2X의 Power Spectral Density (PSD): (a) DSRC",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "으로 분석\nü 일반적인 LoS (Line-of-Sight) 환경에서 DSRC와 C-V2X 모두 QoS 요구사항을 만족함을 확\n인 (그림29. (c))\n그림 27. 고속도로 주행 환경 모델링 및 통신 구현: (a) 실제 환경; (b) 모델링; (c) PDR",
+        "after": "단독 동작; (b) C-V2X 단독 동작; (c) DSRC와 C-V2X 동시 동작\n그림 29. DSRC 실증 구성 및 결과: (a):OBU; (b) RSU; (c) 거리에 따른 PDR\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 29. DSRC 실증 구성 및 결과: (a):OBU; (b) RSU; (c) 거리에 따른 PDR",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "인 (그림29. (c))\n그림 27. 고속도로 주행 환경 모델링 및 통신 구현: (a) 실제 환경; (b) 모델링; (c) PDR\n그림 28. Spectrum analyzer로 측정한 DSRC와 C-V2X의 Power Spectral Density (PSD): (a) DSRC\n단독 동작; (b) C-V2X 단독 동작; (c) DSRC와 C-V2X 동시 동작",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 198,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.63,
+          613.61,
+          525.56,
+          749.9
+        ],
+        "page_area_fraction": 0.1157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.69,
+          354.57,
+          488.38,
+          480.55
+        ],
+        "page_area_fraction": 0.0883
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          110.76,
+          488.02,
+          222.96
+        ],
+        "page_area_fraction": 0.0784
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1090,
+    "heading_candidates": [],
+    "section_context_candidate": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구",
+    "prior_heading_candidate": {
+      "text": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 30. V2X 기반 과속 단속 시스템: (a) 개발 컨셉; (b) 측정 평균 속력; (c) 측정 PDR",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "- 악의적인 정보를 전송하는 UAV나 차량을 탐지하고, 이를 방어하는 Anti-Jamming 시스템이 필\n요\nü 빠른 속도로 이동하는 장치 특성으로 인해, 정확한 위치 정보를 파악하기가 매우 어려움\nü Main-lobe 빔폭을 조절하여 위치 정보의 부정확성을 보상하는 Anti-Jamming 시스템 개발",
+        "after": "그림 31. V2X 물리 계층 연구 결과:(a) 이상적인 환경에서 tone/noise jamming BER; (b) AWGN\n환경에서 tone/noise jamming BER 비교; (c) Tone jamming에서 subcarrier 개수에 따른 BER; (d) Noise\njamming에서 subcarrier 개수에 따른 BER\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 31. V2X 물리 계층 연구 결과:(a) 이상적인 환경에서 tone/noise jamming BER; (b) AWGN",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "요\nü 빠른 속도로 이동하는 장치 특성으로 인해, 정확한 위치 정보를 파악하기가 매우 어려움\nü Main-lobe 빔폭을 조절하여 위치 정보의 부정확성을 보상하는 Anti-Jamming 시스템 개발\n그림 30. V2X 기반 과속 단속 시스템: (a) 개발 컨셉; (b) 측정 평균 속력; (c) 측정 PDR",
+        "after": "환경에서 tone/noise jamming BER 비교; (c) Tone jamming에서 subcarrier 개수에 따른 BER; (d) Noise\njamming에서 subcarrier 개수에 따른 BER\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 246,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.2,
+          543.01,
+          553.86,
+          654.01
+        ],
+        "page_area_fraction": 0.1068
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.01,
+          254.24,
+          490.06,
+          393.89
+        ],
+        "page_area_fraction": 0.0988
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 207,
+    "heading_candidates": [],
+    "section_context_candidate": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구",
+    "prior_heading_candidate": {
+      "text": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 32. Anti-jamming 시스템:(a) 개발 컨셉; (b) 탐지 성공률에 따른 Jamming 성공률; (c) 빔 폭을",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 17 -",
+        "after": "조절하는 빔 형성 장치 및 빔 폭 측정하는 Prototype 구현\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.32,
+          642.02,
+          485.98,
+          765.96
+        ],
+        "page_area_fraction": 0.0856
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1295,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 결과 및 목표 달성 정도",
+      "1) 연구수행 결과"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 결과 및 목표 달성 정도",
+    "prior_heading_candidate": {
+      "text": "4) 차량 통신/네트워크 보안 취약성 해결 방안 연구",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 339,
+      "2": 38,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1861,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 277,
+      "2": 52,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 2138,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 372,
+      "2": 29,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1390,
+    "heading_candidates": [
+      "3 자율주행을 위한 차량의 위치추정 방법",
+      "4 노이즈 모델링 장치와 그 방법 및 이를",
+      "8 네트워크 보안 장치 및 방법 등록 국제(PCT)"
+    ],
+    "section_context_candidate": "3 자율주행을 위한 차량의 위치추정 방법",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 348,
+      "2": 88,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 808,
+    "heading_candidates": [],
+    "section_context_candidate": "8 네트워크 보안 장치 및 방법 등록 국제(PCT)",
+    "prior_heading_candidate": {
+      "text": "8 네트워크 보안 장치 및 방법 등록 국제(PCT)",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 207,
+      "2": 174,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 889,
+    "heading_candidates": [
+      "□ 타 연구개발사업에의 활용",
+      "2) 목표 달성 수준"
+    ],
+    "section_context_candidate": "□ 타 연구개발사업에의 활용",
+    "prior_heading_candidate": {
+      "text": "8 네트워크 보안 장치 및 방법 등록 국제(PCT)",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 225,
+      "2": 116,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1350,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 목표 달성 수준",
+    "prior_heading_candidate": {
+      "text": "2) 목표 달성 수준",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 344,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 187,
+    "heading_candidates": [
+      "3. 목표 미달 시 원인분석(해당시)",
+      "1) 목표 미달 원인(사유) 자체분석 내용",
+      "3) 연구개발 과정의 성실성"
+    ],
+    "section_context_candidate": "3. 목표 미달 시 원인분석(해당시)",
+    "prior_heading_candidate": {
+      "text": "2) 목표 달성 수준",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 35,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 1337,
+    "heading_candidates": [
+      "4. 다음 연도 연구개발계획"
+    ],
+    "section_context_candidate": "4. 다음 연도 연구개발계획",
+    "prior_heading_candidate": {
+      "text": "3) 연구개발 과정의 성실성",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 342,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 456,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 다음 연도 연구개발계획",
+    "prior_heading_candidate": {
+      "text": "4. 다음 연도 연구개발계획",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 92,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 2894,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 다음 연도 연구개발계획",
+    "prior_heading_candidate": {
+      "text": "4. 다음 연도 연구개발계획",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 403,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 827,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 다음 연도 연구개발계획",
+    "prior_heading_candidate": {
+      "text": "4. 다음 연도 연구개발계획",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 97,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

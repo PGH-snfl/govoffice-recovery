@@ -1,5 +1,6 @@
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 *.log
 .pytest_cache/
 
@@ -8,11 +9,14 @@ config/user_profile.json
 config/user_profile.dat
 config/favorites.json
 config/style_presets/
+config/generated_documents/
+config/document_authoring/
 config/*.tmp
 config/*.bak
 
 # Runtime-only diagnostics
-reports/runtime/
+development/reports/runtime/
+packaging/releases/
 
 # Editor and operating-system files
 .vscode/
@@ -20,3 +24,15 @@ reports/runtime/
 .DS_Store
 Thumbs.db
 
+# Saved prompts/responses and local validation bundles may contain personal data.
+ai_response_library/*
+!ai_response_library/사용방법.md
+development/reports/*
+!development/reports/*.md
+!development/reports/button_binding_verification.json
+development/screenshots/**
+!development/screenshots/README.md
+development/artifacts/**
+!development/artifacts/README.md
+development/diagnostics/**
+!development/diagnostics/README.md

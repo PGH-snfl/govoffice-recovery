@@ -1,0 +1,5505 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 320,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 60,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 503,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 2,
+      "1": 111,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -0.23,
+          -0.31,
+          595.23,
+          841.31
+        ],
+        "page_area_fraction": 1.0015
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          422.05,
+          465.75,
+          521.29,
+          574.72
+        ],
+        "page_area_fraction": 0.0216
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 494,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 2,
+      "1": 123,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -11.33,
+          -9.12,
+          606.33,
+          849.52
+        ],
+        "page_area_fraction": 1.0599
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          454.0,
+          488.93,
+          508.75,
+          598.42
+        ],
+        "page_area_fraction": 0.012
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 510,
+    "heading_candidates": [
+      "1. 풍 보고서앙의 기째 내용이 일임융 확약하며. 안약. 사실이 아닐 경우",
+      "2. 청보통신.방송연구재받 판리규징 36죠에 따른 보고서 공개 · 활용에 용외"
+    ],
+    "section_context_candidate": "1. 풍 보고서앙의 기째 내용이 일임융 확약하며. 안약. 사실이 아닐 경우",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 1,
+      "1": 120,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -1.66,
+          -1.78,
+          597.38,
+          842.06
+        ],
+        "page_area_fraction": 1.0102
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 486,
+    "heading_candidates": [
+      "1. 동 보고서상의 기재 내용이 사실입올 확약하며. 만약‘ 사실이 아닐 경우",
+      "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의"
+    ],
+    "section_context_candidate": "1. 동 보고서상의 기재 내용이 사실입올 확약하며. 만약‘ 사실이 아닐 경우",
+    "prior_heading_candidate": {
+      "text": "2. 청보통신.방송연구재받 판리규징 36죠에 따른 보고서 공개 · 활용에 용외",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 2,
+      "1": 91,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -1.78,
+          -1.83,
+          596.78,
+          842.29
+        ],
+        "page_area_fraction": 1.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          446.34,
+          518.83,
+          522.64,
+          589.76
+        ],
+        "page_area_fraction": 0.0108
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1099,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+    "prior_heading_candidate": {
+      "text": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 261,
+      "2": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1240,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+    "prior_heading_candidate": {
+      "text": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 306,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 967,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+    "prior_heading_candidate": {
+      "text": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 5] 영지식 증명 검증 컨트랙트 생성 도구(Zoker)",
+        "line_index": 25,
+        "toc_like": false,
+        "before": "- 다중 블록체인 플랫폼에서 적용 가능한 자동 역공학 도구\n연구개발성과\no 개발한 도구\n- 사용자의 편의성 증대 및 영지식 증명을 검증 컨트랙트를 생성해주는 도구(Zoker)",
+        "after": "- 안전한 코드 환경을 위한 스마트 컨트랙트 취약점 분석기 개발 도구(Oyente+)\n[그림 2] 스마트 컨트랙트 취약점 분석 개발 도구(Oyente+)\no 성과 달성표\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 2] 스마트 컨트랙트 취약점 분석 개발 도구(Oyente+)",
+        "line_index": 27,
+        "toc_like": false,
+        "before": "o 개발한 도구\n- 사용자의 편의성 증대 및 영지식 증명을 검증 컨트랙트를 생성해주는 도구(Zoker)\n[그림 5] 영지식 증명 검증 컨트랙트 생성 도구(Zoker)\n- 안전한 코드 환경을 위한 스마트 컨트랙트 취약점 분석기 개발 도구(Oyente+)",
+        "after": "o 성과 달성표\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 241,
+      "2": 18,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          184.94,
+          219.72,
+          483.94,
+          331.2
+        ],
+        "page_area_fraction": 0.0666
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.86,
+          70.0,
+          491.02,
+          160.74
+        ],
+        "page_area_fraction": 0.0568
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1028,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+    "prior_heading_candidate": {
+      "text": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 251,
+      "2": 57,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 972,
+    "heading_candidates": [
+      "4. 연구개발성과의 기여 및 활용 계획 등 ··································································114"
+    ],
+    "section_context_candidate": "4. 연구개발성과의 기여 및 활용 계획 등 ··································································114",
+    "prior_heading_candidate": {
+      "text": "2. 청보통신.방송언구개발 판리규정 36 초에 따흡 보고서 개 · 활용에 동의",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 74,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 879,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1-1. 연구개발 목적"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 기여 및 활용 계획 등 ··································································114",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1] 중앙집중형 거래방식과 블록체인 거래방식의 비교",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "- 비트코인은 P2P 기반의 네트워크에서 신뢰할 수 있는 제 3자(Trusted Third Party, TTP)\n없이도 거래가 가능한 환경을 구축하기 위해 거래내역의 위변조가 불가능한 블록체인\n구조를 도입한 최초 응용 사례임 · [그림 1]과 같이 블록체인은 TTP 없이도 참여자의 합의를 통하여 블록체인에 거래내역을\n저장함으로써 안전성 및 신뢰성을 확보",
+        "after": "- 블록체인 구조는 위변조 방지와 탈중앙화 환경을 구성하는데 적합하며, 암호 화폐를 탑재\n하여 기존의 텍스트, 이미지 등 정보 컨텐츠 외에 돈, 자산 등과 같은 가치 있는 데이터\n를 전송 가능하여 미래형 인터넷으로도 불림\n◦ 2014년 등장한 이더리움(Ethereum)이 1997년 닉 사보(Nick Szabo)에 의해 처음 제안된",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 2] 블록체인 발전 과정",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "를 전송 가능하여 미래형 인터넷으로도 불림\n◦ 2014년 등장한 이더리움(Ethereum)이 1997년 닉 사보(Nick Szabo)에 의해 처음 제안된\n스마트 컨트랙트 개념을 블록체인 플랫폼으로 개발함으로써, 화폐 기능을 넘어 계약이\n가능한 ’블록체인 2.0‘시대가 시작됨[그림 2]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 214,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.26,
+          366.56,
+          510.57,
+          511.96
+        ],
+        "page_area_fraction": 0.1166
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.79,
+          69.16,
+          500.97,
+          223.43
+        ],
+        "page_area_fraction": 0.1255
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1496,
+    "heading_candidates": [],
+    "section_context_candidate": "1-1. 연구개발 목적",
+    "prior_heading_candidate": {
+      "text": "1-1. 연구개발 목적",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 3] 스마트 컨트랙트의 프라이버시 보호 및 취약점 분석 기술 목표",
+        "line_index": 27,
+        "toc_like": false,
+        "before": "서 반드시 확보되어야 할 기술\n◦ 블록체인 등장 초기부터 제기 되어왔던 확장성과 달리, 프라이버시와 취약점 문제는 스마\n트 컨트랙트가 활용되는 블록체인 2.0에서 더욱 부각되고 있어 관련 문제 해결을 통해\n신뢰 가능한 블록체인 환경을 구축하고자 함 [그림 3]",
+        "after": "1) The DAO 해킹 : 최초의 스마트 컨트랙트 해킹 사건으로 600억원 상당의 화폐가 해커의 계좌로 이체, 2016.6\n2) Parity Wallet Bug : 스마트 컨트랙트 기반의 지갑 서비스 회사인 패리티사의 제품이 코드 결함으로 인해 3000억원 가량의\n화폐가 동결, 2017.7\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 386,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          24.95,
+          101.29,
+          584.93,
+          310.1
+        ],
+        "page_area_fraction": 0.2337
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 886,
+    "heading_candidates": [
+      "1-2. 연구개발의 필요성"
+    ],
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "1-1. 연구개발 목적",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 4] 블록체인 환경의 스마트 컨트랙트 라이프 사이클",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- 한번 저장된 컨트랙트는 위변조 되지 않으며 코드로 작성된 컨트랙트에서 선언된 변수는\n가상 머신에서 별도의 상태를 가지고 관리됨\n- 컨트랙트는 저장 후에 컨트랙트를 호출하는 트랜잭션이 블록에 저장될 때마다 반복적으로\n실행되며 출력으로 생성하는 트랜잭션 또한 블록체인에 저장됨",
+        "after": "◦ 스마트 컨트랙트의 프라이버시로 인한 문제는 크게 2가지로 분류\n- (문제 1) 트랜잭션 및 컨트랙트 코드의 노출로 인한 제한된 응용 환경\n· 퍼블릭 블록체인 환경에서 발생하는 문제로 순차적으로 생성되는 블록체인의 트랜잭션으\n로 동작하는 스마트 컨트랙트가 실행되기 때문에 특정 응용에서는 뒤늦은 참가자가 이전",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 5] 트랜잭션 및 컨트랙트 코드의 노출로 인한 제한된 응용 환경",
+        "line_index": 21,
+        "toc_like": false,
+        "before": "의 모든 정보를 확인하고 계약에 참여하기 때문에 발생\n· [그림 5]에서 보는 것과 같이 경매와 같은 계약을 스마트 컨트랙트로 구현하였을 경우\n참가자의 입찰 정보가 모두 공개되기 때문에 마지막에 참여하는 사람이 가장 유리하므로\n제대로 된 응용 환경을 구축할 수 없음",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 204,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.7,
+          399.16,
+          496.29,
+          561.11
+        ],
+        "page_area_fraction": 0.1238
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.65,
+          61.61,
+          462.35,
+          215.29
+        ],
+        "page_area_fraction": 0.1013
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 911,
+    "heading_candidates": [],
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "1-2. 연구개발의 필요성",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 6] 검증자는 컨트랙트를 포함한 모든 트랜잭션 정보를 확인 가능",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 13 -\n- (문제 2) 검증자는 컨트랙트를 포함한 모든 트랜잭션 정보를 확인 가능\n· 프라이빗 블록체인의 검증자는 [그림 6]과 같이 참여자가 제한된 환경에서 트랜잭션을 암\n호화 하지만 합의를 위해서 모든 트랜잭션을 복호화 할 수 있음",
+        "after": "· 예를 들어, 은행들이 검증자가 되는 금융권 블록체인 환경은 거래 은행만이 알던 이체\n정보가 모든 은행에게 공개되는 현상이 발생\n· 병원이 검증자가 되는 블록체인 환경에서는 주치의가 있는 병원뿐만 아니라 컨소시움을\n구성하는 모든 병원이 개인의 의료 기록에 대해 확인 가능",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 7] 트랜잭션을 입출력하는 스마트 컨트랙트와 실행 환경",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "머신과 함께 블록체인 프로토콜을 수정하여 프라이버시 보호를 수행할 수 있음\n- [그림 7]과 같이 스마트 컨트랙트는 실행 환경에서 동작하는 코드와 저장 공간을 가지고\n있으며 컨트랙트를 수신자로 하는 트랜잭션이 발생할 때마다 실행하여 결과를 트랜잭션\n형태로 출력함",
+        "after": "- 첫 번째 프라이버시 문제는 트랜잭션의 송수신자 정보를 드러내지 않도록 함으로써 해\n결이 가능함\n· 트랜잭션 정보를 드러내지 않으면서 금액(Value)과 같은 정보에 대해 발생하는 재전송 공격(혹\n은 이중 지불 공격)을 방지하기 위해서 영지식 증명3) 기반의 트랜잭션으로 해결",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 215,
+      "3": 2,
+      "2": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.59,
+          524.79,
+          499.41,
+          725.45
+        ],
+        "page_area_fraction": 0.1619
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.48,
+          161.94,
+          517.4,
+          331.2
+        ],
+        "page_area_fraction": 0.1488
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1328,
+    "heading_candidates": [
+      "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위"
+    ],
+    "section_context_candidate": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+    "prior_heading_candidate": {
+      "text": "1-2. 연구개발의 필요성",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 8] Zoker의 구조",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "· 암호화된 트랜잭션으로 합의를 수행하기 위해서는 암호키 관리를 위한 실행 환경과 검\n증자 별로 다른 저장소를 가지는 형태의 블록체인을 구현\n· 이에, 아래 [그림 8]과 같이 사용자의 편의성 증대 및 영지식 증명을 검증 컨트랙트를\n생성해주는 도구 개발을 최종 목표로 함.",
+        "after": "⧠ 스마트 컨트랙트 취약점 분석 기술\n◦ 프로그래밍 언어로 작성 되는 스마트 컨트랙트는 블록체인 환경에서 동작 하기 때문에\n일반적인 프로그램과 차이점을 가짐\n- 대표적으로 스마트 컨트랙트 지원 플랫폼인 이더리움의 경우, 컨트랙트를 실행 하기 위한",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "<표 1> Solidity와 EVM이 가지는 주요 취약점",
+        "line_index": 35,
+        "toc_like": false,
+        "before": "함수(e.g. send)들이 적절한 확인 없이 실행\nInteger Overflow/Underflow\n- 과도한 연산이나 올바르지 못한 값이 사용되어 정수의\n범위를 벗어나는 경우",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 307,
+      "2": 23,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          489.42,
+          539.23,
+          656.76
+        ],
+        "page_area_fraction": 0.1514
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1592,
+    "heading_candidates": [],
+    "section_context_candidate": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+    "prior_heading_candidate": {
+      "text": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 9] Fallback 함수를 이용한 컨트랙트 공격",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "게 조작하는 것이 가능\n- 대부분의 Solidity 개발 도구 환경에서는 Reentrancy취약점을 막기 위하여 개발 단계에\n서 주의하도록 권고하고 있지만, 개발자가 직접 변경하지 않을 경우 취약점이 있는 컨트\n랙트가 그대로 등록될 수 있음",
+        "after": "- Parity Wallet Bug는 <표 1>의 Call to Unknown과 논리 에러(Logic error)를 이용하여 공\n격자가 지갑을 탈취해 이더를 훔쳐간 사례\n· 개발자가 함수의 가시성 설정을 누락하는 경우 공격자가 호출되어서는 안 되는 함수를\n호출하면서 지갑의 소유주가 바뀐 사례로 볼 수 있음",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 357,
+      "3": 1,
+      "2": 19,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.86,
+          242.01,
+          512.84,
+          351.82
+        ],
+        "page_area_fraction": 0.0891
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1094,
+    "heading_candidates": [],
+    "section_context_candidate": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+    "prior_heading_candidate": {
+      "text": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 10] Parity Wallet Bug로 소유주가 바뀌면서 이더리움을 도난당하는 과정",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 16 -",
+        "after": "◦ 이외에도 블록체인 환경의 스마트 컨트랙트에서 발생 가능한 공격으로 바이트 코드로 변환\n되고 실행될 때, 각 연산실행에 필요한 가스가 적합하게 설정되지 않은 점을 이용하여\n이더리움 네트워크를 공격하는 것이 가능\n- 2016년 11월에 비교적 저렴한 가스 비용을 지닌 연산부호 “EXITCODESIZE” 를 다량으로 발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 11] 스마트 컨트랙트가 실행되기까지의 과정",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "되고 EVM에서 실행됨\n◦ 본 연구에서는 스마트 컨트랙트의 여러 단계에서 취약점을 분석하기 위하여 [그림 101과 같이\n개발 시에는 코드 정합성 검증(Code audit), 컨트랙트 배포 시에는 요약 실행6)(Abstract\ninterpretation), 실행 시 런타임 스택 인스펙션(Runtime stack Inspection) 기법을 적용",
+        "after": "6)요약실행(Abstract Interpertation) : 요약 값을 사용하여 실행함으로써 프로그램의 동작에 대한 정보를 계산\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 244,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.91,
+          661.68,
+          531.91,
+          779.39
+        ],
+        "page_area_fraction": 0.1044
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.36,
+          81.15,
+          514.4,
+          335.63
+        ],
+        "page_area_fraction": 0.2207
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1071,
+    "heading_candidates": [],
+    "section_context_candidate": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+    "prior_heading_candidate": {
+      "text": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 2> 제안하는 연구 결과로 탐지 가능한 취약점",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "EVM\nDoS with gas O\nTransaction disorder O\nKeeping secrets X",
+        "after": "- Keeping secrets는 프라이버시의 문제이기 때문에 스마트 컨트랙트의 코드상에서 해결할 수\n있는 문제가 아님\n◦ 제안하고 있는 스마트 컨트랙트의 각 단계별 코드 분석 도구는 아래와 같음\n- (개발 단계) 개발되는 코드의 안전성 강화를 위한 도구는 자동 역공학을 통하여 인",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 12] 스마트 컨트랙트 취약점 분석과정",
+        "line_index": 32,
+        "toc_like": false,
+        "before": "이를 거쳐 변환함으로써 Solidity 외에 다양한 스마트 컨트랙트 프로그래밍 언어를 지\n원할 수 있도록 설계함\n· [그림 12]와 같이 취약점 패턴과 컨트랙트 명세 정보를 이용하여 중간언어 기반 분석\n플랫폼에서 취약점 분석이 이루어짐",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 207,
+      "2": 27,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.09,
+          63.65,
+          469.67,
+          254.48
+        ],
+        "page_area_fraction": 0.1314
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1383,
+    "heading_candidates": [],
+    "section_context_candidate": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+    "prior_heading_candidate": {
+      "text": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 13] 제안하는 취약점 분석코드가 보장할 수 있는 영역",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "· 반복문으로 인한 Dos with gas는 자원 소모량 추정을 통해 사전에 가스 소모량을 추정하여 과\n도하게 가스가 소모될 경우 실행을 사전에 차단함\n◦ 본 연구에서 제안하는 방법은 [그림 13]와 같이 이더리움 실행을 위한 전체 코드 영\n역인 소스코드, 바이트코드에 대해 안전성을 보장할 수 있음",
+        "after": "- (개발 단계) Solidity 소스코드에서는 다른 컨트랙트의 바이트코드를 자동 역공학하여 중\n간 언어를 거쳐 소스코드로 변환하여 개발 단계에서 보다 넓은 범위의 안전성을 보장할\n수 있음\n- (배포 단계) 바이트코드에서의 분석은 Solidity뿐만 아니라 다양한 스마트 컨트랙트 언어로",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 333,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.23,
+          203.42,
+          508.53,
+          367.88
+        ],
+        "page_area_fraction": 0.1388
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1045,
+    "heading_candidates": [
+      "1-3. 연구개발 범위"
+    ],
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "4) 가스(GAS) : 블록체인 특성상 마이너가 코드를 검증 및 실행을 하기 때문에 악의적으로 네트워크 마비 코드 실행을 방지하기 위",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 236,
+      "2": 44,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1028,
+    "heading_candidates": [],
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "1-3. 연구개발 범위",
+      "pdf_page": 20
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 213,
+      "2": 20,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 973,
+    "heading_candidates": [],
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "1-3. 연구개발 범위",
+      "pdf_page": 20
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 216,
+      "2": 43,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 1065,
+    "heading_candidates": [],
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "1-3. 연구개발 범위",
+      "pdf_page": 20
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 255,
+      "2": 19,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 756,
+    "heading_candidates": [],
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "1-3. 연구개발 범위",
+      "pdf_page": 20
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 168,
+      "2": 43,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 1026,
+    "heading_candidates": [],
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "1-3. 연구개발 범위",
+      "pdf_page": 20
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 219,
+      "2": 23,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 1586,
+    "heading_candidates": [
+      "2. 연구수행내용 및 성과",
+      "1) 스마트 컨트랙트 프라이버시 보호 기술 연구"
+    ],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "1-3. 연구개발 범위",
+      "pdf_page": 20
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 3> SNARK 장단점 비교",
+        "line_index": 33,
+        "toc_like": false,
+        "before": "PCP 계열 예 ○ × ○\nLinear PCP 계열 아니오 ○ × ◎\nIKOS 계열 아니오 × ◎ ○\n◎: 좋음, ○: 보통, ×: 나쁨",
+        "after": "◦ 기존 SNARK 기법의 분석을 바탕으로 새로운 SNARK 기법의 설계를 위한 방향 설정\n⧠ 영지식 증명을 이용한 증거 생성 및 검증 기법 개발\n◦ 영지식 증명기법을 사용하여 암호화되어 공개된 암호문의 평문값이 임의의 폐구간에 속\n하는 값임을 증명하는 기법 설계",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 348,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1497,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 4> 영지식 구간증명 기법의 구현 결과 및 성능 비교",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "1200 비트 1300 비트 1400 비트\n증명 검증 증명 검증 증명 검증\n새로운 기법 224.2msec 158.0msec 235.3msec 165.5msec 247.1msec 173.5msec\n257.4msec 180.4msec 268.4msec 188.0msec 279.9msec 195.4msec",
+        "after": "⧠ 익명화된 트랜잭션 기반 합의를 위한 프로토콜 분석\n◦ 블록 생성 시간 단축에 따른 고스트 프로토콜 기반 합의\n- 이더리움의 블록 생성 시간은 평균 10~15초 이내로 비트코인의 평균 10분에 비해 매우\n빠른 블록 생성 시간을 가지기 때문에 동기화 문제와 더불어 블록 생성자의 보상을 위해",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 14] 고스트 프로토콜에서의 체인",
+        "line_index": 25,
+        "toc_like": false,
+        "before": "고스트 프로토콜(Ghost Protocol)을 도입\n- 고스트 프로토콜은 [그림 14]와 같이 주체인을 선택할 때 최대 7세대까지 포함하여 동시에\n생성된 분기의 블록을 인정하여 보상을 해주는 체제로 자원 낭비를 줄이고 블록체인의\n51% 공격에 의한 안전성을 강화",
+        "after": "◦ PoW와 PoS 하이브리드 합의를 위한 Casper 프로젝트\n- 현재 이더리움에 적용된 합의 알고리즘은 비트코인의 PoW(Proof of Work)의 ASIC 저항성\n을 개선한 메모리 의존적인 작업 증명 방식인 Ethash 알고리즘을 적용한 PoW를 사용\n- 하지만, PoW 계열 자체가 가지는 에너지 낭비 문제와 51% 공격에 대한 최종성 문제를 해결",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 362,
+      "2": 30,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.43,
+          191.55,
+          449.52,
+          330.24
+        ],
+        "page_area_fraction": 0.0774
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 778,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 15] PBFT가 적용된 블록체인의 합의 과정",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "- PBFT는 [그림 15]와 같이 비잔틴 노드 f에 대하여 3f+1을 만족하는 노드 구성에서 장애 허용을 만족함\n- 정해진 소수의 노드에 의해 합의를 수행하기 때문에 이더리움에 비해 매우 빠른 1000tps\n이상의 속도를 가지지만, 소수의 노드를 관리해야 하는 키 관리 문제가 따르므로 탈중앙\n화 환경에는 부적합",
+        "after": "- 또한 참여 노드 수 n에 대해 노드간 합의를 위한 메시지 수가 O(\n )으로 증가 하기 때문에\n다수의 노드를 운영하기에 한계가 존재\n- 이 같은 문제를 해결하기 위하여 TEE(Trust Execution Environment)를 도입할 경우",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 16]과 같이 Secret Sharing 기반으로 노드수에 따른 메시지 처리량을 줄이는 것이 가능",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "- 또한 참여 노드 수 n에 대해 노드간 합의를 위한 메시지 수가 O(\n )으로 증가 하기 때문에\n다수의 노드를 운영하기에 한계가 존재\n- 이 같은 문제를 해결하기 위하여 TEE(Trust Execution Environment)를 도입할 경우",
+        "after": "[그림 16] Secret Sharing based Fast BFT\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 16] Secret Sharing based Fast BFT",
+        "line_index": 16,
+        "toc_like": false,
+        "before": " )으로 증가 하기 때문에\n다수의 노드를 운영하기에 한계가 존재\n- 이 같은 문제를 해결하기 위하여 TEE(Trust Execution Environment)를 도입할 경우\n[그림 16]과 같이 Secret Sharing 기반으로 노드수에 따른 메시지 처리량을 줄이는 것이 가능",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 186,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.33,
+          398.8,
+          488.5,
+          616.01
+        ],
+        "page_area_fraction": 0.155
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.17,
+          64.73,
+          487.78,
+          297.75
+        ],
+        "page_area_fraction": 0.1656
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1349,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 17] Private Contract 개념도",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "- 본 연구에서는 트랜잭션에 포함되는 스마트 컨트랙트는 [그림 17]과 같이 컨트랙트 C의\n공개키로 암호화되며, 컨트랙트 호출 시 기밀성을 위하여 C의 공개키로 트랜잭션을 암호\n화하며 실행 될 때 개인키로 복호화하여 결과를 실행하는 프라이빗 컨트랙트(Private\nContract) 구조를 도입",
+        "after": "- 이 외의 추가 데이터의 전송을 위해 컨트랙트를 기반으로 하는 P2P Storage를 통해 보다\n많은 데이터를 전송할 수 있는 프레임워크를 DHT Table 기반으로 제공\n⧠ 프라이버시 보호를 위한 상태 채널 연구\n- 21명의 BP를 정하여 소수 합의를 이끌어내는 EOS와 다르게 탈중앙성을 유지하기 위한",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 313,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.31,
+          186.88,
+          532.51,
+          380.7
+        ],
+        "page_area_fraction": 0.1724
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 1371,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 18] onChain에서 거래를 등록하고 OffChain을 이용하여 거래",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "함수를 호출해야 함\n- 오픈함수 호출 다음에는 사용자가 각자 스마트 컨트랙트에 예치한 금액만큼 오프체인을\n통해서 거래가 가능하게 되고, 채널을 클로즈 할 경우에는 각자 자신이 오프체인을 통해\n받았던 트랜잭션에 대한 증명을 통해 각자가 받아야 할 토큰의 양을 정할수 있음",
+        "after": "◦ 멀티 홉 트랜잭션의 라우팅 프로토콜 기술 개발\n- 양자간의 거래 뿐만 아니라 채널 간 연결을 통해 [그림 19]와 같이 멀티 홉 거래\n(Multi-hop transfer) 기능을 지원 가능\n- 현재 상태 채널에서는 중간 경로에 있는 노드들의 가용 금액을 확인할 수 없어 경로 상",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 324,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.74,
+          240.58,
+          506.97,
+          452.15
+        ],
+        "page_area_fraction": 0.1667
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 1218,
+    "heading_candidates": [
+      "2) 스마트 컨트랙트 취약점 분석 기술 연구"
+    ],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 19] Raiden network’s Locked Transfer - 본 기술에서 경로를 제공하는 노드에 대해 수수료에 대한 보상이 존재하므로 동기를 제",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 30 -",
+        "after": "시하고 금액의 가능 유무만 응답하므로 프로토콜 내에서의 금액 유추는 불가능하여 기밀\n성을 유지\n2) 스마트 컨트랙트 취약점 분석 기술 연구\n⧠ 스마트 컨트랙트 공격 분석과 스마트 컨트랙트 분석 플랫폼의 기반 기술 구성",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 20] 취약한 fallback 함수 호출 예",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "자동적으로 실행됨\n- 이 때 Alice의 fallback함수에는 악성행위가 주입될 수 있으나, Bob의 계약은 Alice의\nfallback 함수 호출 여부나 fallback 함수 동작을 알 수 없게 되므로 현재 이런 문제를\n방지하기 위한 현재 Solidity에서 제공되는 기능은 없음",
+        "after": "◦ 개발자의 의도와 다르게 동작하는 Solidity 기능에 대한 방어 기법 연구\n➀ Solidity 언어의 전처리기 연구\n- 사용자에게 새로운 키워드 (NonFallback) 를 제공하여 Fallback함수의 호출에 대한 의도\n를 표현할 수 있도록 유도, 이러한 언어를 Sol+로 명명",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 286,
+      "3": 3,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.21,
+          680.97,
+          497.49,
+          779.39
+        ],
+        "page_area_fraction": 0.0738
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.21,
+          582.56,
+          497.49,
+          680.97
+        ],
+        "page_area_fraction": 0.0738
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.61,
+          174.89,
+          473.15,
+          221.52
+        ],
+        "page_area_fraction": 0.0328
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 737,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 21] Solidity 전처리기의 역할",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 31 -\n- 전처리기는 키워드를 인식해서 코드에 라이브러리를 추가하고 라이브러리를 이용해서\nFallback함수가 불렸는지 확인하는 작업을 진행",
+        "after": "➁ Solidity 컴파일러에 확장에 대한 연구\n- Sol+언어를 지원하기 위한 또다른 방법으로 기존 Solidity 컴파일러를 수정할 수 있음:\n이러한 컴파일러 이름을 Solc+로 명명\n- 기존의 Solidity 컴파일러가 새로운 키워드 (NonFallback)를 받을 수 있도록 Solidity 컴파",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 22] Sol+ 파일의 동작 결과",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "Ethereum VM 바이트 코드 (예 SETNONFALLBACK, 0x25) 를 생성하도록 Solidity 컴파일\n러를 수정\n- [그림 22]에서는 고급언어인 Sol+ 코드 상에 NonFallBack 키워드가 컴파일러를 Sol+를\n거친 후 EVM의 신규 바이트코드인 SETNONFALLBACK으로 변환됨을 확인할 수 있음",
+        "after": "➂ Ethereum VM 확장에 대한 연구\n- 새로운 Ethereum 바이트 코드를 처리할 수 있도록 Ethereum 가상머신을 수정: 이러한\n가상머신을 EthVM으로 명명\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 152,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.54,
+          546.96,
+          483.46,
+          729.28
+        ],
+        "page_area_fraction": 0.1355
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.63,
+          109.8,
+          509.13,
+          360.69
+        ],
+        "page_area_fraction": 0.2123
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 979,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 23] EthVM+에서 0x25 (SETNONFALLBACK) 명령을 처리한 후 결과",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 32 -\n- 가장 많이 사용되는 go-ethereum의 가상머신을 수정, [그림 23]과 같은 test가 가능",
+        "after": "- 현재는 SETNONFALLBACK 명령에 대해 내부 전역 flag를 변경하는 수준이지만, 이 정\n보로 함수 호출에서 사전 검사를 트리거 하는 로직으로 확장 할 계획\n- 결과적으로 [그림 24]와 같이 NonFallBack과 같은 새로운 키워드를 포함하는 Sol+코드가\n컴파일러인 Solc+에 의해 변환되어 SETNONFALLBACK과 같은 새로운 바이트코드를 포",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 24] 컴파일러 EthVM+의 상호 관계",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "보로 함수 호출에서 사전 검사를 트리거 하는 로직으로 확장 할 계획\n- 결과적으로 [그림 24]와 같이 NonFallBack과 같은 새로운 키워드를 포함하는 Sol+코드가\n컴파일러인 Solc+에 의해 변환되어 SETNONFALLBACK과 같은 새로운 바이트코드를 포\n함하는 VM 코드로 변환되고 이 코드는 EthVM+에서 수행됨",
+        "after": "➃ Solidity 대상의 바이트코드 변환기 연구\n- <표 5>와 같이 사용자가 키워드를 사용하면 Fallback함수가 불리지 않도록 바이트 코드\n를 재작성 하는 바이트 코드 변환기 설계 진행\n- 사용자가 삽입을 원하는 코드를 입력하면 원하는 부분에서 사용자가 입력한 코드가 실",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "<표 5> 제안하는 취약성 완화 기법들의 종류",
+        "line_index": 26,
+        "toc_like": false,
+        "before": "동일한 Solidity 언어 Bytecode to bytecode 재작성기\n새로운 Solidity 언어 NewSolc 컴파일러\n(Solc+)\n새로운 VM (EthVM+)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 219,
+      "3": 2,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.08,
+          641.3,
+          519.68,
+          764.04
+        ],
+        "page_area_fraction": 0.1091
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.79,
+          360.68,
+          495.09,
+          507.16
+        ],
+        "page_area_fraction": 0.1157
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 801,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 25] Ethersplay에 적용된 분석 내용",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "◦ 바이트 코드 스마트 컨트랙트 분석을 위한 역공학 단계별 기술 분석 수행\n- 현재 활발하게 이루어지고 있는 이더리움 스마트 컨트랙트 분석 시스템에 대한 심층적인 분석 수행\n- [그림 25]와 같이 사용 목적에 따른 분석 시스템의 분류 및 개별 기술 분석 (바이트코드\n컨트롤 분석, 취약점 탐지, 디컴파일러 등)",
+        "after": "◦ 기존의 스마트 컨트랙트 분석 시스템의 한계 및 문제점 분석\n- 제한된 샘플에서만 수행되는 시스템의 한계 파악\n- Control flow의 부정확한 파악에 위한 분석 결과의 부정확 확인\n- [그림 26]과 같이 기존 시스템(Trail of Bits의 Ethersplay)의 바이트코드 디코딩 및 스택",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 26] 개발된 이더리움 스마트 컨트랙트에서의 재귀적 디스어셈블리 과정",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "- 제한된 샘플에서만 수행되는 시스템의 한계 파악\n- Control flow의 부정확한 파악에 위한 분석 결과의 부정확 확인\n- [그림 26]과 같이 기존 시스템(Trail of Bits의 Ethersplay)의 바이트코드 디코딩 및 스택\n분석과정 에서의 부정확한 동작을 발견하여 제보(pull request) 후 적용",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 192,
+      "3": 39,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          533.3,
+          481.66,
+          610.97
+        ],
+        "page_area_fraction": 0.0533
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          455.62,
+          481.66,
+          533.3
+        ],
+        "page_area_fraction": 0.0533
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          378.07,
+          481.66,
+          455.62
+        ],
+        "page_area_fraction": 0.0532
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 1413,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 6> 중간언어의 생성과정",
+        "line_index": 37,
+        "toc_like": false,
+        "before": "v_3 = 0x02\nv_gas = v_gas + G_PUSH1\nv_5 = v_3 + v_1\nv_gas = v_gas + G_ADD",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 299,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 574,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 27] 개발된 중간언어 분석 시스템의 진행 과정",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "- 가독성 및 추가적인 역공학 과정을 고려한 2단계 중간언어 지원\n1단계: 함축적인 실행과정을 배재하고 모든 실행 과정을 중간언어에 표현\n2단계: 실행과정을 실제 유효한 액션단위로 종합하여 가독성 및 명료성을 지원\n- 차후의 역공학 연구를 지원하기 위한 확장가능 구조",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 127,
+      "3": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          468.21,
+          516.2,
+          549.84
+        ],
+        "page_area_fraction": 0.0714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          386.58,
+          516.2,
+          468.21
+        ],
+        "page_area_fraction": 0.0714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          304.95,
+          516.2,
+          386.58
+        ],
+        "page_area_fraction": 0.0714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          223.32,
+          516.2,
+          304.95
+        ],
+        "page_area_fraction": 0.0714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          141.68,
+          516.2,
+          223.32
+        ],
+        "page_area_fraction": 0.0714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          60.65,
+          516.2,
+          141.68
+        ],
+        "page_area_fraction": 0.0709
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 1187,
+    "heading_candidates": [
+      "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스"
+    ],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 28] 분석을 위해서 사용하는 특성(Feature)와 network 구조",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "- 생성된 tag는 해당 스마트 컨트랙트의 실제 행동에 대한 정보를 개략적으로 알려줌으로\n써, 스마트 컨트랙트의 취약점 및 특성 분석\n- 학습된 시스템을 통하여 바이트코드 상태의 스마트 컨트랙트의 확장성 있는 분류 시스템\n으로도 활용 가능",
+        "after": "- [그림 28]과 같이 스마트 컨트랙트를 분석하기 위한 dataset을 구성하고, 구성된 dataset\n의 각 스마트 컨트랙트에서 스마트 컨트랙트의 길이, component, context 정보를 추출\n하여 학습 수행\n- 스마트 컨트랙트의 바이트코드 정보를 체계적으로 추출하기 위하여 중간언어 분석 기법 적용",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 282,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.58,
+          356.61,
+          506.13,
+          631.35
+        ],
+        "page_area_fraction": 0.2155
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 405,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 29] 스마트 컨트랙트 dataset을 기반한 분석 및 학습 과정",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 37 -",
+        "after": "- (스마트 컨트랙트 키워드 생성) [그림 30]과 같이 키위드 생성과정에서는 학습과정에서\n다양한 알고리즘으로 구현된 모델 중에서 가장 높은 성능을 보이는 모델을 적용. - 학습과 동일한 방법으로 스마트 컨트랙트의 바이트코드에서 정보를 추출하여 학습된 내\n용을 바탕으로, 각 대상 tag들에 대한 rating을 산출\n- 산출된 정보를 바탕으로 각 스마트 컨트랙트에 합당한 키워드를 생성[그림 31]",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 30] 학습된 내용을 이용한 스마트 컨트랙트 키워드 생성 과정",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "- (스마트 컨트랙트 키워드 생성) [그림 30]과 같이 키위드 생성과정에서는 학습과정에서\n다양한 알고리즘으로 구현된 모델 중에서 가장 높은 성능을 보이는 모델을 적용. - 학습과 동일한 방법으로 스마트 컨트랙트의 바이트코드에서 정보를 추출하여 학습된 내\n용을 바탕으로, 각 대상 tag들에 대한 rating을 산출\n- 산출된 정보를 바탕으로 각 스마트 컨트랙트에 합당한 키워드를 생성[그림 31]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 92,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          456.22,
+          542.47,
+          779.39
+        ],
+        "page_area_fraction": 0.2977
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          69.04,
+          549.42,
+          335.51
+        ],
+        "page_area_fraction": 0.2491
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 612,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 31] 스마트 컨트랙트 바이트코드에서 생성된 키워드의 예",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 38 -",
+        "after": "⧠ 스마트 컨트랙트 중간언어 시스템의 검증 기술 개발\n◦ 스마트 컨트랙트의 코드 자동 생성을 통한 테스트 기술 개발\n- 스마트 컨트랙트 관련된 시스템의 검증을 위해서는 제한적으로 존재하는 스마트 컨트랙\n트의 한계를 극복하기 위한 기법이 필요",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 32] 스마트 컨트랙트 시스템 및 중간언어 검증을 위한 테스트 코드 자동 생성 시스템의 실행 과정",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- 머신 러닝의 일종인 sequence to sequence 모델을 기반하여 기존의 스마트 컨트랙트를\n변형(mutation)하거나 새롭게 생성(generation)하는 기술을 개발\n- [그림 32]와 같이 이더리움의 Solidity 언어를 기반으로 하여 sequence to sequence 모델\n을 학습 시키고, 학습된 모델을 기반으로 새로운 solidity 코드를 생성",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 128,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.99,
+          438.96,
+          527.84,
+          779.39
+        ],
+        "page_area_fraction": 0.2965
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          67.13,
+          534.07,
+          226.31
+        ],
+        "page_area_fraction": 0.144
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 987,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 7> 스마트 컨트랙트 시스테 검증을 위해 자동 생성된 테스트 코드의 예",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "return false ;\n}\n}\n...",
+        "after": "- RNN(Recurrent Neural Networks)와 같은 뉴럴 네트워크를 기반으로 구축된 인코더\n(encoder)와 디코더(decoder)로 구성되어 있으며, RNN외에 LSTM(Long-Short Term\nMemory) 또는 GRU(Gated Recurrent Unit)들도 적용 가능\n- 생성된 solidity 코드를 <표 7>과 같이 후처리 과정을 거쳐 실제 바이트코드로 생성하여",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 33] 기본형 타입의 스토리지 저장 결과",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "중간언어 검증 시스템으로 적용\n⧠ 취약점 분석 대상 파악을 위한 스마트 컨트랙트 개발 언어 분석\n◦ Solidity 언어 설계 취약점 분석\n- 스마트 컨트랙트에서 데이터를 영구적으로 저장할 수 있는 공간은 스토리지가 유일함. - 스토리지는 영구적으로 저장 가능한 유일한 공간으로 해커의 타겟이 될 수 있음. - 스토리지 설계 상에 대한 보안 이슈 분석 필요. ◦ Solidity 스토리지 설계 및 동작 방식 분석",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 222,
+      "2": 8,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.65,
+          246.57,
+          528.32,
+          336.11
+        ],
+        "page_area_fraction": 0.084
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.65,
+          157.03,
+          528.32,
+          246.57
+        ],
+        "page_area_fraction": 0.084
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.65,
+          67.61,
+          528.32,
+          157.03
+        ],
+        "page_area_fraction": 0.0839
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 727,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 34] 참조형 타입의 스토리지 저장 결과",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 하나의 slot에 다수의 데이터가 packing되어 저장될 수 있는 구조\n- 기본형의 타입에 대해서는 [그림 34]와 같이 스토리지 레이아웃이 생성됨\n- 예를 들어 기본형인 uint 타입의 a, b 변수 및 uint16 타입의 c 변수는 총 32 바이트로\nslot 0번에 packing되어 저장",
+        "after": "- 참조형의 타입에 대해서는 [그림 35]와 같이 스토리지에 저장됨\n- 동적 배열의 경우, 하나의 slot 전체를 사용하여 배열의 길이를 저장함\n- 정적 배열의 경우, 길이가 고정되어 동적 배열과 다르게 따로 길이를 스토리지에 저장\n하지 않음. - 배열의 인덱스는 해쉬 함수를 통해 생성됨",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 35] constant 변수의 스토리지 저장 결과",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- 참조형의 타입에 대해서는 [그림 35]와 같이 스토리지에 저장됨\n- 동적 배열의 경우, 하나의 slot 전체를 사용하여 배열의 길이를 저장함\n- 정적 배열의 경우, 길이가 고정되어 동적 배열과 다르게 따로 길이를 스토리지에 저장\n하지 않음. - 배열의 인덱스는 해쉬 함수를 통해 생성됨",
+        "after": "- constant의 변수는 [그림 36]과 같이 스토리지에 저장되지 않음\n- constant는 바이트코드의 코드섹션에 상수값으로 저장됨\n- 컨트랙트가 라이브러리와 연동되는 경우, 라이브러리를 사용하는 컨트랙트의 스토리지\n환경이 해당 라이브러리로 전달됨",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 174,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          576.81,
+          538.15,
+          662.16
+        ],
+        "page_area_fraction": 0.0779
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          491.46,
+          538.15,
+          576.81
+        ],
+        "page_area_fraction": 0.0779
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          406.36,
+          538.15,
+          491.46
+        ],
+        "page_area_fraction": 0.0777
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          207.61,
+          538.15,
+          260.24
+        ],
+        "page_area_fraction": 0.048
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          155.11,
+          538.15,
+          207.61
+        ],
+        "page_area_fraction": 0.0479
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 683,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 36] 라이브러리를 사용하는 컨트랙트의 스토리지 저장 결과",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 41 -",
+        "after": "- 호출한 컨트랙트의 스토리지 환경(Context)이 라이브러리로 넘어가기 때문에 악성 라이\n브러리의 경우 보안 이슈 발생 가능. ◦ 스토리지 레이아웃 공격 분석\n- 하나의 변수에서 오버플로우(overflow) 발생 시 스토리지 레이아웃 붕괴(corruption) 가\n능성 분석",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 37] 근접한 변수의 오버플로우로 인한 스토리지 값의 변화",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "- 하나의 변수에서 오버플로우(overflow) 발생 시 스토리지 레이아웃 붕괴(corruption) 가\n능성 분석\n- Solidity 컴파일러 0.4.3 이전 버전의 경우 변수 오버플로우로 인해 스토리지 레이아웃\n붕괴 가능",
+        "after": "- [그림 37]과 같이 setPackData2() 함수를 호출할 경우, uint8 타입의 a 변수에서 overflow\n가 발생하며, 스토리지에 저장되어 있는 b 변수의 값 조작 가능\n- setPackData2() 호출 시, b 변수 값이 2에서 65535로 변경됨\n- Solidity 컴파일러 0.4.3 이후 버전에서는 스토리지에 값을 저장하기 전에 PUSH1 ff 및",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 149,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          690.09,
+          538.15,
+          779.39
+        ],
+        "page_area_fraction": 0.0815
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          600.78,
+          538.15,
+          690.09
+        ],
+        "page_area_fraction": 0.0815
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          511.48,
+          538.15,
+          600.78
+        ],
+        "page_area_fraction": 0.0815
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          274.26,
+          538.15,
+          354.93
+        ],
+        "page_area_fraction": 0.0736
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          193.71,
+          538.15,
+          274.26
+        ],
+        "page_area_fraction": 0.0735
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 345,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 38] 새로운 버전의 컴파일러(왼쪽)와 이전 버전의 컴파일러(오른쪽)의 차이점",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 42 -",
+        "after": "◦ 초기화되지 않은 스토리지 포인터의 Semantic을 활용한 공격 분석\n- 초기화되지 않은 스토리지 포인터의 경우 디폴트로 0번째 스토리지를 가리킴. - [그림 39]와 같이 test 함수에서 a의 스토리지 포인터를 1로 변경할 경우, balances 스토\n리지 변수 값이 1로 변경\n[그림 39] 초기화 되지 않은 스토리지 포인터의 Semantic",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 39] 초기화 되지 않은 스토리지 포인터의 Semantic",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[그림 38] 새로운 버전의 컴파일러(왼쪽)와 이전 버전의 컴파일러(오른쪽)의 차이점\n◦ 초기화되지 않은 스토리지 포인터의 Semantic을 활용한 공격 분석\n- 초기화되지 않은 스토리지 포인터의 경우 디폴트로 0번째 스토리지를 가리킴. - [그림 39]와 같이 test 함수에서 a의 스토리지 포인터를 1로 변경할 경우, balances 스토\n리지 변수 값이 1로 변경",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 80,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.67,
+          578.37,
+          523.04,
+          779.39
+        ],
+        "page_area_fraction": 0.1713
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.67,
+          377.47,
+          523.04,
+          578.37
+        ],
+        "page_area_fraction": 0.1712
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.47,
+          104.65,
+          444.48,
+          251.73
+        ],
+        "page_area_fraction": 0.0791
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 981,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 40] 분석기로 탐지한 실제 컨트랙트의 취약한 함수",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- 초기화 되지 않은 스토리지 포인터를 활용하여 악성 라이브러리 개발 가능. - 라이브러리의 경우, caller의 storage에 직접적으로 접근 불가능하지만, 초기화되지 않은\n스토리지 포인터를 활용할 경우, caller의 모든 스토리지에 접근 가능. - 악성 라이브러리에서 caller의 private, internal 변수에 접근 가능한 것을 확인. ◦ 함수 Visibility Semantic에 의한 취약점 분석\n- Solidity는 함수 visibility에 public, private, internal, external이 올 수 있음. - public visibility의 경우, 모든 사용자가 접근할 수 있는 함수로 생성됨. - 함수의 visibility를 지정하지 않을 경우 디폴트로 public 함수가 됨. - 이는 보안을 고려하지 않은 취약한 설계로, 개발자가 실수할 경우 보안 이슈 발생 가능. - 개발자 실제로 실수하는지 확인 필요하며, 어떤 보안 문제가 발생할 수 있는지 분석 필요\n- 함수 visibility로 인한 취약한 컨트렉트를 자동으로 탐지하는 분석기 개발. - [그림 40]는 분석기에서 자동으로 탐지한 실제 컨트렉트의 취약한 함수를 표시함.",
+        "after": "⧠ Solidity 언어 분석기 개발\n◦ Solidity Parser 개발\n- Etherscan으로부터 수집한 22,649개의 스마트 컨트랙트를 모두 정상적으로 파싱 가능한\nparser 개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 226,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          375.07,
+          538.15,
+          520.23
+        ],
+        "page_area_fraction": 0.1325
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          229.91,
+          538.15,
+          375.07
+        ],
+        "page_area_fraction": 0.1325
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 261,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 41] 정형화한 스토리지 포인터의 동작 방식",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 44 -",
+        "after": "- 정형화된 수식을 기반으로 스토리지 포인터 취약점 탐지 가능한 체커 개발\n- 정형화된 수식을 기반으로 함수 visibility 취약점 탐지 가능한 체커 개발\n- [그림 42]는 parser 및 체커를 실행하는 화면과 결과 내용을 나타냄\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 48,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.45,
+          656.04,
+          497.37,
+          779.39
+        ],
+        "page_area_fraction": 0.0924
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.45,
+          163.02,
+          494.38,
+          633.27
+        ],
+        "page_area_fraction": 0.3467
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 424,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 42] 정형화한 스토리지 포인터의 동작 방식",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 45 -",
+        "after": "◦ 취약한 스마트 컨트랙트 수집\n- Etherscan은 이더리움 블록체인에 배포된 스마트 컨트랙트를 확인할 수 있는 Browsing\n기능이 존재함\n- Etherscan으로부터 Solidity 언어로 작성된 스마트 컨트랙트를 수집하는 크롤러 개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 43] Etherscan으로부터 수집한 스마트 컨트랙트",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "- Etherscan으로부터 Solidity 언어로 작성된 스마트 컨트랙트를 수집하는 크롤러 개발\n- 총 22,647개의 컨트랙트를 수집함\n- 수집한 컨트랙트를 대상으로 자동화 도구 및 매뉴얼 분석을 통해 취약한 컨트랙트 분류\n- [그림 43]은 Etherscan으로부터 수집한 22,647 컨트랙트를 나타냄",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 82,
+      "3": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.05,
+          717.9,
+          493.77,
+          779.39
+        ],
+        "page_area_fraction": 0.0452
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.05,
+          656.4,
+          493.77,
+          717.89
+        ],
+        "page_area_fraction": 0.0452
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.05,
+          594.91,
+          493.77,
+          656.4
+        ],
+        "page_area_fraction": 0.0452
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.09,
+          495.78,
+          491.74,
+          590.47
+        ],
+        "page_area_fraction": 0.0688
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          274.86,
+          518.36,
+          329.88
+        ],
+        "page_area_fraction": 0.0458
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          219.84,
+          518.36,
+          274.86
+        ],
+        "page_area_fraction": 0.0458
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          164.82,
+          518.36,
+          219.84
+        ],
+        "page_area_fraction": 0.0458
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          109.8,
+          518.36,
+          164.82
+        ],
+        "page_area_fraction": 0.0458
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          55.14,
+          518.36,
+          109.8
+        ],
+        "page_area_fraction": 0.0455
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 1219,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 44] EVM 바이트코드의 제어 흐름 그래프(왼쪽), LLVM 중간 언어 그래프(오른쪽)",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "◦ 기본 블록 및 제어 흐름 그래프 생성\n- 제어 흐름 그래프에서 모든 명령어는 자신이 실행된 이후의 명령어를 가리키는 간선을 가지\n며, 이후의 명령어와 합쳐질수 있는 경우 간선을 제거한 뒤 같은 블록으로 병합 진행\n- 위의 과정을 반복하여 모든 기본 블록을 생성",
+        "after": "◦ LLVM 변환기 개발\n- 제어 흐름 그래프를 기반으로 LLVM 중간언어 프로그램 생성\n- 함수 프롤로그/에필로그 생성, 기본 블록 단위의 프롤로그/에필로그 생성, 명령어 단위 변환 단계로 수행\n- 함수 프롤로그/에필로그 생성 단계에서는 LLVM 내의 main 함수에서 스택, 메모리, 스토리지 초기화 진행",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 318,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.54,
+          250.41,
+          511.29,
+          468.33
+        ],
+        "page_area_fraction": 0.1754
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 1930,
+    "heading_candidates": [
+      "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석"
+    ],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2. 스마트 컨트랙트 바이트코드 분석: 스마트 컨트랙트의 바이트코드에서 개발된 시스",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 406,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 1681,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+    "prior_heading_candidate": {
+      "text": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 45] Basic Sigma Protocol · Response 단계에서는 증명자의 초기 Commitment 값과 Challenge의 random값을 통해",
+        "line_index": 25,
+        "toc_like": false,
+        "before": "나 값을 변조하지 못하게 하기 위한 단계이다. 이 단계에서 증명하고자 하는 값을\nHash나 지수 연산과 같은 방법을 이용해 암호화해 저장함\n· Challenge 단계는 검증자가 증명자의 비밀 값을 모르는 상태로 증명자가 옳은 연산을 했는지\n확인하기 위해 랜덤한 값을 증명자에게 전송해 그 값을 통해 연산을 하게 만듬",
+        "after": "영지식 증명의 증명 값을 만들어 검증자가 검증할 수 있도록 만듬\n- Sigma protocol에서 이 세 단계를 만족하면 영지식 증명을 만족함을 확인\n◦ Non-Interactive Zero knowledge\n- 블록체인에서는 통신을 통해 계속 값을 주고받기 어려우므로 Interactive Zero-knowledge",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 369,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.78,
+          215.16,
+          504.09,
+          344.86
+        ],
+        "page_area_fraction": 0.0994
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 1884,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+    "prior_heading_candidate": {
+      "text": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 46] zk-SNARK process - zk-SNARK은 [그림 46]에서 보이는 것처럼 Computation(statement)에 대해 Circuit으로",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "◦ Zk-SNARK\n- Zk-SNARK은 Zero knowledge Succinct Non Interactive ARgument Knowledge의 줄임말\n로 Non Interactive Zero knowledge의 방법 중 proof의 크기와 검증 비용이 O(1)으로 비\n용이 작은 영지식 증명의 Implementation임",
+        "after": "만드는 circuit 정의, R1CS로 변환 단계가 있고 proof의 크기나 검증 시간을 줄이기 위\n한 QAP, ECC단계를 거쳐 Proof을 생성하는 순서로 이루어짐\n- 연산은 어떤 값을 숨기는 지 정의하여 Circuit으로 만들어 낸다. Circuit을 input과 output을 정의\n하는 R1CS라는 Rank 1 Constraint System을 통해 연산 회로로 변경하지만 R1CS는 계산에서의",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 414,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.9,
+          551.28,
+          507.81,
+          677.14
+        ],
+        "page_area_fraction": 0.0996
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 1589,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+    "prior_heading_candidate": {
+      "text": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 47] Zokrates 프로세스",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "검증이 실행되기 어려움\n◦ Zokrates - 영지식 증명을 사용하기 위해서는 위와 같은 암호학적 지식을 알고 있어야 함\n- 또한 아직 영지식 증명의 표준이 나오지 않았기 때문에 쉽게 적용하기 어렵기 때문에 블록체\n인에서 아직 영지식 증명을 이용한 스마트 컨트랙트가 많이 나오지 않았음",
+        "after": "- 이러한 점을 해결하기 위해 Zokrates라는 프로그램을 지원함. · zokratres의 프로세스는 [그림 47]과 같으며 Zokrates에서는 프로그램이 검증하려는\nlogic을 Zokrates에서 지원하는 DSL(Domain Specific Language)로 작성하면 해당 로직\n을 검증하는 Verification Contract를 생성해 줌\n· 또한 입력을 넣어주면 그에 맞는 proof을 생성해주기 때문에 영지식 증명을 개발자가 깊게",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 348,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.23,
+          413.31,
+          450.6,
+          605.58
+        ],
+        "page_area_fraction": 0.1081
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 2221,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+    "prior_heading_candidate": {
+      "text": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 493,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 1745,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+    "prior_heading_candidate": {
+      "text": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 48] Zoker의 구조",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "- Zoker는 수원대에서 개발하는 영지식 증명의 Implementation인 Backend를 개발자들이 쉽게\n적용할 수 있게 만드는 zero knowledge의 frontend로 Python과 비슷한 High level\nLanguage를 Domain Specific Language로 지원하여 개발자들이 쉽게 검증 logic을 작성할\n수 있게 만든다. zoker의 구조는 [그림 48]와 같은 흐름으로 진행",
+        "after": "- 이 때 DSL을 입력을 받으면 DSL Compiler에서 DSL을 읽어 수원대에서 개발한\nImplementation의 입력으로 넣기 위한 형태인 flatten code로 재구성함\n· 재구성된 데이터를 통해 Zoker에서는 implementation을 이용하여 Domain Specific\nLanguage로 작성한 로직과 같은 로직을 가지는 수학적 circuit을 만듦",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 372,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.15,
+          388.97,
+          519.68,
+          544.08
+        ],
+        "page_area_fraction": 0.13
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 2139,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+    "prior_heading_candidate": {
+      "text": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 8> Signature 비용 비교",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "ECDSA 25,881\nSchnorr Signature 122,725\nBLS Signature 364,977\nzk-SNARK 736,696",
+        "after": "- <표 8>에서는 스마트 컨트랙트로 작성한 Signature, zk-SNARK의 성능 비교를 확인할 수 있음\n· 위의 표에서 볼 수 있듯이 영지식 증명의 검증은 증명 값을 만들어내는 작업에 비해\n비용이 저렴할 수 있지만 여전히 블록체인에서 사용하기에는 일반적인 트랜잭션과 비\n교했을 때 비용이 크기 때문에 이러한 검증을 모든 증명 값에 대해 실행하지 않고",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 476,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 1113,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+    "prior_heading_candidate": {
+      "text": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 49] SVZK의 구조",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 54 -\n서 실행시켜 값이 틀림을 증명하고 prover가 제출한 증명 값을 폐기시키며 prover가 제\n출한 예치금을 challenger가 받음",
+        "after": "- 이로 인해 영지식 증명을 이용해 값을 증명하는 증명자는 기존보다 더욱 저렴한 비용으\n로 값을 증명할 수 있음\nconstraint\nVerification",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "<표 9> SVZK와 영지식 증명 검증의 비용 비교",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "494 727,083 451,356\npublic 16\nprivate 0\n494 880,705 777,809",
+        "after": "- <표 9>에서는 if 의 개수에 따른 성능 비교, public으로 드러내는 값의 개수에 따른 성능\n비교를 보임\n· 이에서 볼 수 있듯이 기존의 영지식 증명을 on-chain에서 검증하는 방법을 이용하게\n되면 ethereum에서 Zokrates의 Verification Contract를 이용할 경우 736,696의 Gas가",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 252,
+      "3": 2,
+      "2": 23,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.97,
+          604.38,
+          485.86,
+          748.7
+        ],
+        "page_area_fraction": 0.1015
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.97,
+          460.18,
+          485.86,
+          604.38
+        ],
+        "page_area_fraction": 0.1014
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 1597,
+    "heading_candidates": [
+      "2) 스마트 컨트랙트 취약점 분석 기술 연구"
+    ],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "다. 앞에서 제시한 성능개선 방법을 적용하여 구현함. ⧠ 영지식 증명의 안전성 분석",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 50] 함수 호출에 따른 credential의 변화",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "- sc1.f1() 호출 후에는 credential = F<sid1, did1, cid1>, 이어 sc2.f2()를 호출 후에는 실행\n주체(credential) =G( F<sid1, did1, cid1), F<sid2, did2, cid2>), 이후 sc3.f3() 호출 후에는\n실행 주체(credential) = G( F<sid1, did1, cid1), F<sid2, did2, cid2>, F<sid3, did3, cid3>)\n으로 정의",
+        "after": "- 이와 같은 실행 주체에 대해 각 취약성마다 적절한 G와 F를 찾는 것에 대한 연구를 진행\n- 즉, 보안 정책은 호출 시점의 실행 주체를 기준으로 결정되는데, F는 3가지 종류의 id를\n적절히 조합을 한 값, G는 스택 트레이스상에 나타나는 call chain 상에 나타나는 일련\n의 Credential fragment 들의 리스트에 대해 효율을 위해 적절히 가공한 값을 의미함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 385,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          317.65,
+          542.23,
+          437.64
+        ],
+        "page_area_fraction": 0.1105
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 1042,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 10> 기존의 스마트 컨트랙트 실행환경과 수정된 스마트 컨트랙트 실행환경",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "기존의\n실행환경\n수정된\n실행환경",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 247,
+      "3": 2,
+      "2": 10,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          199.93,
+          211.81,
+          478.42,
+          388.14
+        ],
+        "page_area_fraction": 0.0981
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.44,
+          33.56,
+          523.04,
+          208.93
+        ],
+        "page_area_fraction": 0.1288
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 1237,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 51] 추가된 EVM바이트 코드",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "하여 의도적으로 안전성을 높임\n- 수정된 Solidity 컴파일러는 컴파일 과정에서 간단한 분석을 이용해서 자동으로 함수가\nfallback함수 인지 확인함. 아래와 같이 STARTFALLBACK, ENDFALLBACK이라는 새로운\n바이트코드를 도입하고 fallback 함수 정의마다 생성",
+        "after": "- 따라서 EVM은 크게 2가지, 각 2개씩의 새 opcode들과 이를 확인 및 처리할 수 있는\nflag가 추가되는 형태로 확장됨. 즉, opcode 의 interpreter 단계에서 이러한 flag를 확\n인하는 조건문이 추가됨\n[그림 52] 수정된 EVM",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 52] 수정된 EVM",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "[그림 51] 추가된 EVM바이트 코드\n- 따라서 EVM은 크게 2가지, 각 2개씩의 새 opcode들과 이를 확인 및 처리할 수 있는\nflag가 추가되는 형태로 확장됨. 즉, opcode 의 interpreter 단계에서 이러한 flag를 확\n인하는 조건문이 추가됨",
+        "after": "- 컴파일러가 추가한 EVM바이트코드를 확인해서 EVM 내부에 존재하는 flag를 설정\n- [그림 52]와 같이 수정된 EVM의 interpreter는 실행하는 중에 내부에 존재하는 flag를\n확인해서 조건문을 이용해 함수 호출 제어할 수 있게 됨\n- 조건문을 이용해서 함수 호출을 제어하는 부분은 EVM에서의 함수 실행 과정 중에 검",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 298,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          224.04,
+          619.84,
+          384.87,
+          677.14
+        ],
+        "page_area_fraction": 0.0184
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.03,
+          347.5,
+          525.68,
+          539.89
+        ],
+        "page_area_fraction": 0.166
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 1265,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 11> 바이트 코드 식별 모델을 위한 구축한 데이터 베이스 셋",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "Source Number of record Field\nEtherscan 54,209\n- Address - DApp title - Solidity version - Bytecode - Sourcecode\nBigquery 2,227,842 - Address - Bytecode",
+        "after": "◦ 속성 레퍼런스 구축\n- 기존에 정립된 레퍼런스가 부족하기 때문에, 바이트 코드에서 인식할 속성 항목에 대한\n새로운 레퍼런스를 구축\n- 각 바이트 코드에 해당하는 ABI를 기반으로 contract, function 등의 구성요소의 이름 정",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 296,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 1631,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 12> 속성 레퍼런스 토큰",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "remove 2,792 0.0855 특정 데이터 삭제 기능\nfreeze 2,400 0.0735 특정 주소의 이용을 제한하는 기능\ngame 2,194 0.0672 게임을 목적으로 작성된 스마트 컨트랙트\nairdrop 1,277 0.0391 토큰 분배 기능",
+        "after": "◦ 특징 추출 기법 정의\n- 효율적으로 바이트 코드의 패턴을 인식하기 위해, 바이트 코드로부터 특징을 추출하여\n머신러닝 모델 구축에 활용\n- 기존의 연구에서는 스마트 컨트랙트 간의 유사도 측정을 위해 fuzzy hashing 기법을 이",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 333,
+      "2": 32,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 1216,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 53] AutoEncoder에 의해 변환된 데이터",
+        "line_index": 21,
+        "toc_like": false,
+        "before": "128x128에서 32x32로 압축하여 주요 정보만 포함할 수 있도록 재표현하는 모델인\nAutoEncoder를 함께 사용하는 aeCNN 모델을 구축\n- 여기서 AutoEncoder에 의해 변환되는 데이터의 전후 과정은 다음의 [그림 53]과 같음\n변환 전 변환 후",
+        "after": "◦ 전체 프로세스 정의\n8) K. He, X. Zhang, S. Ren, and J. Sun, “Deep residual learning for image recognition,” in Proc. IEEE Conf. Comput.\nVis. Pattern Recognit. (CVPR), Jun. 2016, pp. 770–778.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 264,
+      "3": 2,
+      "2": 11,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          163.5,
+          313.75,
+          365.96
+        ],
+        "page_area_fraction": 0.0884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          313.51,
+          163.5,
+          531.91,
+          365.96
+        ],
+        "page_area_fraction": 0.0884
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 1003,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 54] 실험의 전반적인 프로세스",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 61 -",
+        "after": "- [그림 54]와 같이 전체 프로세스는 pre-training, training, inference stage로 구분\n- Pre-training stage는 Google Bigquery에서 수집한 데이터 셋을 이용하여, AutoEncoder\n모델을 학습하는 단계임\n· 해당 단계에서는 raw bytecode features 기법만 적용하여, 속성에 대한 레퍼런스 없이",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 207,
+      "3": 230,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 1398,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 14> 성능 평가 척도에 의한 모델의 성능",
+        "line_index": 25,
+        "toc_like": false,
+        "before": "CNN 0.6254 0.6003 0.6111 0.8316 0.7987 0.8139\naeCNN 0.6628 0.6370 0.6482 0.8094 0.8047 0.8062\nFFNN 0.5669 0.4918 0.5255 0.7677 0.7153 0.7399\nwideFFNN 0.6037 0.5742 0.5863 0.7126 0.7646 0.7367",
+        "after": "- <표 14>와 같이 성능 평가 척도에 의하면 micro 모델과 macro 모델의 f1-score가 각각\n0.8062, 0.6492로 전반적으로 높은 값을 보이는 aeCNN 모델이 가장 좋은 성능을 보이는\n것을 알 수 있음\n· CNN의 모델의 경우, micro 모델에서의 f1-score가 0.8139로 aeCNN보다 근소하게 높",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 303,
+      "2": 29,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 1819,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 15> 수집된 DApp의 목록",
+        "line_index": 22,
+        "toc_like": false,
+        "before": "Marketplace OpenSea, Emoon, DecentralandMarketplaces, WyvernExchange,\nAuctionity\nGambling Etheroll, Fomo3D, Dice2Win, Play0x, Edgeless\nHighRisk SnailTree, SnailThrone, Gandhiji.io, PoWH3D, Dividends3D",
+        "after": "- <표 16>은 카테고리 내에 포함된 DApp이 보유하고 있는 속성을 종합하여 80% 이상의\nDApp에서 사용되고 있는 속성을 나타냄\nCategory Attributes\nGames upgrade, crowdsale, mint, trade, transfer, withdraw, destroy, kill,",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "<표 16> Dapp이 보유하고 있는 속성",
+        "line_index": 43,
+        "toc_like": false,
+        "before": "upgrade, transfer, destroy (80%)\nHighRisk\nwithdraw, trade (100%)\ntransfer (80%)",
+        "after": "- 카테고리 단위로 비교했을 때, HighRisk를 제외한 모든 카테고리에서 공통적으로\ntransfer, withdraw, own 속성이 높은 비중을 차지하고 있음\n- 반면, HighRisk 카테고리에서는 own 속성이 거의 나타나지 않는 것을 알 수 있는데,\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 314,
+      "2": 55,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 1263,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 274,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          166.71,
+          138.45,
+          453.12,
+          230.03
+        ],
+        "page_area_fraction": 0.0524
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          166.71,
+          46.87,
+          453.12,
+          138.45
+        ],
+        "page_area_fraction": 0.0524
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 701,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 55] 함수에 대한 Cycle의 유무 파악",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 65 -",
+        "after": "- 이과정에서 수행되는 structure analysis에서는 CFG의 각 노드를 분리되어 있는 Region\n노드로 변경\n- Region 노드는 하나의 basic block을 포함하는 BB Region을 기반으로 하여, [그림 56]과\n같이 특정한 control flow 패턴을 하나의 region으로 collapse 하여 그래프를 단순히 하",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 56] control 구조를 포함하고 있는 region의 변경 과정",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "노드로 변경\n- Region 노드는 하나의 basic block을 포함하는 BB Region을 기반으로 하여, [그림 56]과\n같이 특정한 control flow 패턴을 하나의 region으로 collapse 하여 그래프를 단순히 하\n는 과정을 반복해 가면 수행",
+        "after": "◦ 고수준 스마트 컨트랙트의 문법(syntax) 변환\n- 역공학된 스마트 컨트랙트의 결과를 더 이해하기 쉬운 고수준 문법으로 표현하기 위하\n여 변환기를 개발\n- 복원한 control flow 정보를 고수준 언어인 Solidity의 해당 statement로 자동 변환",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 156,
+      "3": 157,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          630.27,
+          511.65,
+          784.42
+        ],
+        "page_area_fraction": 0.1243
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 650,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 57] Ethereum의 state 변환 과정",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "⧠ 스마트 컨트랙트 취약점 분석기 개발\n◦ Storage Layout 문제점\n- Ethereum의 경우 [그림 57]과 같이 storage가 존재하며 이는 데이터를 저장하는 저장\n공간으로 사용됨",
+        "after": "- thereum의 경우 데이터를 영구적으로 저장할 수 있는 곳은 storage가 유일하며 다른 저\n장 공간은 임시적으로 데이터를 저장할 수 있음\n- 따라서 Storage는 공격자의 타겟이 될 수 있으며, 스마트 컨트랙트는 storage를 활용하\n여 개발되기 때문에 storage를 정확하게 분석하는 것이 중요함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 58] Storage의 구조",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "장 공간은 임시적으로 데이터를 저장할 수 있음\n- 따라서 Storage는 공격자의 타겟이 될 수 있으며, 스마트 컨트랙트는 storage를 활용하\n여 개발되기 때문에 storage를 정확하게 분석하는 것이 중요함\n- Storage는 [그림 58]과 같이 256비트의 키에서 256 비트 값으로 맵핑된 구조를 가지고 있음",
+        "after": "- Storage의 값을 읽을 시에는 SLOAD EVM 명령어를 사용하며, 값을 저장할 시에는\nSSTORE EVM 명령어를 사용함\n- Storage의 초기값은 0으로 셋팅\n- EVM Bytecode 레벨에서 storage는 하나의 map으로 구성되어 있음",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 149,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.99,
+          451.19,
+          530.83,
+          685.29
+        ],
+        "page_area_fraction": 0.2067
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.04,
+          142.52,
+          515.96,
+          312.26
+        ],
+        "page_area_fraction": 0.1513
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 784,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 59] high-level 언어와 low-level 언어의 storage 탐지 방법 비교",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 67 -\n- [그림 59]는 Solidity와 EVM Bytecode에서 storage를 다루는 방법을 나타냄",
+        "after": "- High-level 언어인 Solidity에서는 map1 및 map2의 storage 변수가 명확히 구분\n- Low-level 언어인 EVM Bytecode에서는 map1 및 map2가 모두 하나의 storage로 인식\n- EVM bytecode에서 storage가 분리되어 있지 않아 분석기의 미탐 및 오탐이 발생\n◦ Oyente의 storage layout 처리 방법",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 60] Oyente에서의 stroage 처리 방법",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "- EVM bytecode에서 storage가 분리되어 있지 않아 분석기의 미탐 및 오탐이 발생\n◦ Oyente의 storage layout 처리 방법\n- Oyente의 경우 storage의 index를 하나의 문자열로 지정하고, 문자열이 다른 경우 다른\nstorage로 인식하여 분석을 수행",
+        "after": "- Oyente의 경우, storage index를 가리키는 \"SHA3(1||a)\", “SHA3(1||b)”, 및 “0”을 문자\n열로 인식 후, 3개의 문자열이 모두 다르기 때문에 각각 다른 storage로 판단하여 분석\n을 수행\n- [그림 60]에서 a와 b 변수의 값이 동일한 경우, 실제로 같은 storage를 가리키게 되지만, 문자열 방식으로 처리되는 Oyente의 경우 다른 storage로 판단하여 분석기에 오탐이 발생",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 178,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.86,
+          508.96,
+          509.85,
+          754.69
+        ],
+        "page_area_fraction": 0.1964
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.04,
+          198.62,
+          518.72,
+          336.95
+        ],
+        "page_area_fraction": 0.1224
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 434,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 61] Oyente에서의 오탐 발생 예제",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 68 -",
+        "after": "- [그림 61]에서 a의 변수 값이 1인 경우, \"SHA3(1||a)\" 및 “SHA3(a||1)”은 동일한 storage\n를 가리키나, Oyente의 경우 단순히 문자열로 비교하기 때문에 다른 위치의 storage를\n가리키는 것으로 판단하여 분석을 수행하여 오탐이 발생\n[그림 62] re-entrancy 취약점을 포함하고 있는 컨트랙트",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 62] re-entrancy 취약점을 포함하고 있는 컨트랙트",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[그림 61] Oyente에서의 오탐 발생 예제\n- [그림 61]에서 a의 변수 값이 1인 경우, \"SHA3(1||a)\" 및 “SHA3(a||1)”은 동일한 storage\n를 가리키나, Oyente의 경우 단순히 문자열로 비교하기 때문에 다른 위치의 storage를\n가리키는 것으로 판단하여 분석을 수행하여 오탐이 발생",
+        "after": "- Oyente의 경우 storage 분석에 문제가 있어 [그림 62]의 컨트랙트에 존재하는\nre-entrancy 취약점을 탐지하지 못하는 것을 확인\n[그림63] 요약 실행을 위한 요약 값 도메인\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림63] 요약 실행을 위한 요약 값 도메인",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "가리키는 것으로 판단하여 분석을 수행하여 오탐이 발생\n[그림 62] re-entrancy 취약점을 포함하고 있는 컨트랙트\n- Oyente의 경우 storage 분석에 문제가 있어 [그림 62]의 컨트랙트에 존재하는\nre-entrancy 취약점을 탐지하지 못하는 것을 확인",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 94,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.8,
+          659.4,
+          519.08,
+          784.42
+        ],
+        "page_area_fraction": 0.1108
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.25,
+          403.72,
+          467.63,
+          547.8
+        ],
+        "page_area_fraction": 0.098
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          168.39,
+          144.44,
+          451.44,
+          326.28
+        ],
+        "page_area_fraction": 0.1029
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.29,
+          103.21,
+          487.54,
+          135.57
+        ],
+        "page_area_fraction": 0.023
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.42,
+          55.98,
+          477.34,
+          94.46
+        ],
+        "page_area_fraction": 0.0277
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 696,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 64] 교집합이 없는 경우의 분석 방법",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "- SHA256 연산의 경우 특별한 타입(KECCAK)을 만들어서 정확하게 분석할 수 있도록 정의\n- 메모리 영역 및 스토리지 영역에서의 포인터 분석을 위한 도메인을 아래와 같이 정의\n- Strong update의 경우, 한가지 값이 도출된 경우, 해당 값만 가져오는 것을 의미\n- Weak update의 경우, index를 포함하는 모든 값을 join해서 가져오는 것을 의미",
+        "after": "- [그림 64]의 경우, storage 인덱스인 “SHA3(a||a)”, “SHA3(2||a)”, 및 \"0\"에 교집합이\n존재하지 않아 3개의 다른 storage로 나누어 분석을 수행\n[그림 65] 집합이 존재 하는 경우의 분석 방법(1) - [그림 65]의 경우, “(1||a)”, \"(a||1)\"에 교집합이 존재하여 동일한 storage로 판단하여 분\n석을 수행",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 65] 집합이 존재 하는 경우의 분석 방법(1) - [그림 65]의 경우, “(1||a)”, \"(a||1)\"에 교집합이 존재하여 동일한 storage로 판단하여 분",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- Weak update의 경우, index를 포함하는 모든 값을 join해서 가져오는 것을 의미\n[그림 64] 교집합이 없는 경우의 분석 방법\n- [그림 64]의 경우, storage 인덱스인 “SHA3(a||a)”, “SHA3(2||a)”, 및 \"0\"에 교집합이\n존재하지 않아 3개의 다른 storage로 나누어 분석을 수행",
+        "after": "석을 수행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 162,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          392.57,
+          520.88,
+          591.19
+        ],
+        "page_area_fraction": 0.1843
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          127.18,
+          538.27,
+          320.17
+        ],
+        "page_area_fraction": 0.1858
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 499,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 66] 교집합이 존재 하는 경우의 분석 방법(2) - [그림 66]의 경우, “(1||a)”, \"(1||b)\"에 교집합이 존재하여 동일한 storage로 판단하여 분",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 70 -",
+        "after": "석을 수행\n[그림 67] Oyente에 Speration 기능 추가\n◦ Oyente 확장 개발\n- Storage layout 분리 기법을 Oyente에 적용",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 67] Oyente에 Speration 기능 추가",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 70 -\n[그림 66] 교집합이 존재 하는 경우의 분석 방법(2) - [그림 66]의 경우, “(1||a)”, \"(1||b)\"에 교집합이 존재하여 동일한 storage로 판단하여 분\n석을 수행",
+        "after": "◦ Oyente 확장 개발\n- Storage layout 분리 기법을 Oyente에 적용\n- [그림 67]과 같이 Oyente에 Speration 기능을 추가하여 storage를 적절하게 분리하여 분\n석을 수행하도록 확장",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 105,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          602.82,
+          538.27,
+          784.42
+        ],
+        "page_area_fraction": 0.1748
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.67,
+          215.4,
+          501.09,
+          530.42
+        ],
+        "page_area_fraction": 0.2565
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 72,
+    "text_characters": 859,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 68] 분석을 통해 얻어진 메모리 모양 [그림 69] 분석을 통해 얻어진 Solidty 코드",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 71 -\n사용해 symbolic 메모리 값을 읽거나 쓸 수 있도록 구현",
+        "after": "- [그림 69]의 Solidity에서 확인할 수 있듯이 storedData 및 balances 2개의 storage 변수가 존재\n- storedData는 set 함수에서 상수 x 값이 저장되며 이는 [그림 68] bytecode에서 312번째\n줄에 해당하며, storage 파티션 #1번을 사용하고 있음\n- balances는 mint 함수를 통해 값이 저장되며 이는 bytecode의 294 및 301번째 줄에 해",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 70] Oyente와 연동되는 분석기 프레임워크",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "컨트랙트에서 추가로 탐지\n◦ Oyente와 연동되는 분석기 개발\n- Oyente의 경우 4개의 취약점(TOD, Re-entrancy, Timestamp, Mishandled Exception)을 탐지\n- 4개의 취약점 외에 새로운 취약점 3개를 추가적으로 탐지하기 위한 분석기를 개발",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 200,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.32,
+          594.19,
+          297.56,
+          759.49
+        ],
+        "page_area_fraction": 0.0704
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.48,
+          593.11,
+          515.72,
+          760.45
+        ],
+        "page_area_fraction": 0.0713
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.79,
+          67.49,
+          510.21,
+          234.22
+        ],
+        "page_area_fraction": 0.1418
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 73,
+    "text_characters": 1457,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 291,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 74,
+    "text_characters": 430,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 77,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 75,
+    "text_characters": 1468,
+    "heading_candidates": [
+      "1) 스마트 컨트랙트 프라이버시 보호 기술 연구"
+    ],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "2) 스마트 컨트랙트 취약점 분석 기술 연구",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 71. 증거생성 시간 비교 그림 72. 증거 검증 시간 비교",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "◦ 전용 SNARK 프로토콜의 시범구현 및 구현 수준 최적화\n- 2단계에서 제안한 기법이 대칭키 암호기법을 적용하여 실제 실행시간의 개선에 초점이\n있으나, 증거의 크기가 수백 KBytes에 이르는 문제가 있어 증거의 크기를 수십 Bytes로\n개선할 수 있는 기법 제안하고 Rust 언어를 사용하여 구현",
+        "after": "- 제안하는 기법을 Bulletproofs+로 명명\n- 범용 SNARK 프로토콜 라이브러리화 및 시스템 통합\n- 개발된 기법을 임의의 함수를 논리회로로 표현한 후 검증가능하도록 libzk4bc 형태로 개\n발하여 github에 등록",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 365,
+      "3": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 76,
+    "text_characters": 1335,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 504,
+      "2": 10,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 77,
+    "text_characters": 1551,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 708,
+      "2": 10,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 78,
+    "text_characters": 1498,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 674,
+      "2": 5,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 79,
+    "text_characters": 1412,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 527,
+      "2": 5,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 80,
+    "text_characters": 1485,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 687,
+      "2": 10,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 81,
+    "text_characters": 1673,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 647,
+      "2": 1066,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 82,
+    "text_characters": 1261,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 493,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 83,
+    "text_characters": 922,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 73] ZoKrates의 사용 방법",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 82 -",
+        "after": "- ZoKrates는 [그림 73]처럼 python like Domain Specific Language(DSL)을 지원하여 작성\n한 코드를 영지식 증명을 적용할 수 있도록 기능을 지원\n- Verifiable Computation의 영지식 증명을 통해 자신의 Local 환경에서 작업한 내용을\non-chain 상에서 직접 실행하지 않더라도 값을 검증",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 74] zoker 구현 방법",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "on-chain에서 검증할 수 있는 시스템을 가짐\n- 그러나 ZoKrates에 사용된 영지식 증명 알고리즘인 Pinocchio 알고리즘은 검증 비용과\nproof 크기가 작다는 장점을 갖지만 Circuit마다 신뢰기관의 Setup이 필요하다는 Trusted\nSetup문제가 발생할 수 있음",
+        "after": "- Trusted Setup이 없을 경우 Setup을 수행한사람이 실제 올바른 연산을 수행하지 않더라\n도 Proof의 검증 결과가 참이 되는 값을 만들어낼 수 있음\n- 이를 막기 위해 수원대에서 ZKBOO를 개선한 Trusted Setup이 필요 없는 알고리즘을\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 200,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.43,
+          615.77,
+          520.4,
+          779.39
+        ],
+        "page_area_fraction": 0.1377
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.19,
+          124.78,
+          526.76,
+          250.89
+        ],
+        "page_area_fraction": 0.1093
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 84,
+    "text_characters": 1259,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 74]와 같이 임의의 코드를 받아 Lexer를 통해 Token으로 분리하고 Token을 통해",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 83 -\n이용하여 Trusted Setup 없이 개발자가 쉽게 영지식 증명을 스마트컨트랙트에서 이용할\n수 있도록 함\n- 재작성 도구를 구현하기 위해서는 컴파일러를 구현하는 것과 비슷한 작업을 수행한다.",
+        "after": "문법을 parsing하는 parser를 구현한다. Parser에서는 Abstract Syntax Tree(AST)를 만들\n어내고 이 AST를 통해 Symbol Table을 만들어 Type Check, 컴파일을 하여 bytecode를\n생성한 후 vm에서 이 값을 읽어 영지식 증명을 적용하는 스마트 컨트랙트를 반환\n- 재작성 도구는 컴파일 속도와 proof을 생성하는 속도와 메모리 안전성을 고려하여 Rust",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 75] Zoker AST",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- 재작성 도구는 컴파일 속도와 proof을 생성하는 속도와 메모리 안전성을 고려하여 Rust\n언어로 구현\n- 컴파일에 사용하는 라이브러리는 LR Parser인 LALRPOP 라이브러리를 이용하여 컴파일\n하여 AST를 읽음",
+        "after": "- AST는 [그림 75]에서 소개하듯이 Rust의 enum을 통해 구현하였으며 expression과\nstatement의 값을 내부 값으로 가지며 tree 형태로 값을 읽어나갈 수 있도록 구현\n- AST에서는 Statement와 Expression으로 타입을 나누며 값을 상위 AST로 전달하는 경우\nExpression, 전달하지 않는 경우 Statement로 지정",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 301,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          149.44,
+          385.26,
+          470.39,
+          546.84
+        ],
+        "page_area_fraction": 0.1036
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 85,
+    "text_characters": 604,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 76] libSNARK과 재작성 도구의 차이점",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 84 -",
+        "after": "- libSNARK는 [그림 76]와 같이 같은 언어에서 proof 생성과 검증을 함께 실행한다. - 하지만 재작성 도구를 이용하는 경우 proof 생성은 재작성 도구를 구현한 언어 (Rust,\nC++, python 등)을 이용하지만 검증은 on-chain에서 사용하기 위한 solidity를 이용\n- 때문에 구현할 때 검증 로직을 Solidity로 포팅하여 구현\n- 영지식 증명을 적용할 때에는 libSNARK과 같은 라이브러리를 이용해 r1cs와 같은",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 77] r1cs 적용",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "C++, python 등)을 이용하지만 검증은 on-chain에서 사용하기 위한 solidity를 이용\n- 때문에 구현할 때 검증 로직을 Solidity로 포팅하여 구현\n- 영지식 증명을 적용할 때에는 libSNARK과 같은 라이브러리를 이용해 r1cs와 같은\ncircuit 생성을 위한 함수를 이용",
+        "after": "- R1CS(Rank 1 Constraint System)은 곱셈 연산으로 이루어진 산술회로를 영지식 증명을\n적용할 때 사용하는 방법으로 프로그래밍 언어의 대부분의 구현이 산술 연산을 통해 이\n루어짐을 이용\n- 프로그래밍 언어의 산술 연산을 [그림 77]와 같이 R1CS의 gate로 변환하여 실행하는 모",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 133,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          581.12,
+          541.27,
+          779.39
+        ],
+        "page_area_fraction": 0.1821
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          154.15,
+          511.52,
+          409.23
+        ],
+        "page_area_fraction": 0.2192
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 86,
+    "text_characters": 990,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 78] Pedersen Commitment - 한편, 프라이버시를 위해 기존의 동형암호 계산처럼 하나의 generator만을 두고 지수연",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "여 연산이 옳게 수행되었음을 확인하기 위한 proof을 생성\n- VM(Virtual Machine)에서 컴파일 단계를 거친 후 생성된 bytecode를 읽어 연산을 R1CS\n를 적용하게 되면 DSL을 이용하는 개발자들에게 영지식 증명을 사용할 수 있도록 만들\n수 있음",
+        "after": "산을 할 경우 brute force 공격에 취약할 수 있다. 이를 막기 위해 generator를 두 값을\n두고 random 값을 통해 brute force를 이용해 같은 결과를 만들어내는 값을 구할 수 있\n더라도 실제 x값이 무슨 값인지 추측하기 어렵게 할 수 있다. 이러한 commitment 방법을\n[그림 78]과 같은 pedersen commitment라고 함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 78]과 같은 pedersen commitment라고 함",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "[그림 78] Pedersen Commitment - 한편, 프라이버시를 위해 기존의 동형암호 계산처럼 하나의 generator만을 두고 지수연\n산을 할 경우 brute force 공격에 취약할 수 있다. 이를 막기 위해 generator를 두 값을\n두고 random 값을 통해 brute force를 이용해 같은 결과를 만들어내는 값을 구할 수 있\n더라도 실제 x값이 무슨 값인지 추측하기 어렵게 할 수 있다. 이러한 commitment 방법을",
+        "after": "- pedersen commitment를 이용할 경우 pedersen commitment 값을 통해 실제 비밀 값 x\n와 random 값 r을 복호화할 수 없기 때문에 블록체인에 저장하더라도 개인정보가 드러\n나지 않지만 [그림 78]과 같이 x값과 r 값을 local에 저장해야 함\n- 하지만 이를 이용하면 동형 암호, range proof 뿐만 아니라 영지식 증명으로 값을 검증",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 233,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.63,
+          327.36,
+          528.2,
+          675.58
+        ],
+        "page_area_fraction": 0.3038
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 87,
+    "text_characters": 772,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 79] Zoker 아키텍처",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "proof을 생성하고, 검증 컨트랙트를 생성할 때는 Operation 객체를 기반으로 verifier\nrewriter에서 circuit을 생성하도록 재작\n- 검증 컨트랙트에서는 각 함수에서 circuit을 생성하는 코드와 proof의 검증을 수행하는\n코드를 갖도록 하여 검증 컨트랙트에서 연산을 동적으로 검증할 수 있도록 함",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 161,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.58,
+          105.0,
+          493.41,
+          548.76
+        ],
+        "page_area_fraction": 0.3342
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 88,
+    "text_characters": 444,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 80] Zoker를 통한 perforamance 측정",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 87 -\n- [그림 80]과 같이 개발된 Zoker를 통해 Performance를 측한 결과, 연산 gate를 반복할수\n록 컨트랙트 검증 비용 및 Proving 시간이 증가되는 것을 확인",
+        "after": "- 개발된 Zoker를 통해 [그림 81,82]과 같이 후원 물품 관리 시스템을 만들어 후원 물품에\n대해 투명하게 활용할 수 있도록 할 뿐 아니라, 기존 저소득층의 경우 자신의 소득을\n드러내지 않고 저소득층임을 드러낼 수 있는 응용프로그램을 만들어 데모 시연\n[그림 81] Zoker를 활용한 후원 물품 관리 시스템",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 81] Zoker를 활용한 후원 물품 관리 시스템",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "[그림 80] Zoker를 통한 perforamance 측정\n- 개발된 Zoker를 통해 [그림 81,82]과 같이 후원 물품 관리 시스템을 만들어 후원 물품에\n대해 투명하게 활용할 수 있도록 할 뿐 아니라, 기존 저소득층의 경우 자신의 소득을\n드러내지 않고 저소득층임을 드러낼 수 있는 응용프로그램을 만들어 데모 시연",
+        "after": "[그림 82] 후원 관리 시스템 데모 영상(그림)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 82] 후원 관리 시스템 데모 영상(그림)",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "- 개발된 Zoker를 통해 [그림 81,82]과 같이 후원 물품 관리 시스템을 만들어 후원 물품에\n대해 투명하게 활용할 수 있도록 할 뿐 아니라, 기존 저소득층의 경우 자신의 소득을\n드러내지 않고 저소득층임을 드러낼 수 있는 응용프로그램을 만들어 데모 시연\n[그림 81] Zoker를 활용한 후원 물품 관리 시스템",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 106,
+      "3": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          691.88,
+          553.26,
+          749.18
+        ],
+        "page_area_fraction": 0.0552
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          634.59,
+          553.26,
+          691.88
+        ],
+        "page_area_fraction": 0.0552
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          577.29,
+          553.26,
+          634.59
+        ],
+        "page_area_fraction": 0.0552
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          520.11,
+          553.26,
+          577.29
+        ],
+        "page_area_fraction": 0.055
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.03,
+          277.62,
+          525.68,
+          440.76
+        ],
+        "page_area_fraction": 0.1407
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          141.76,
+          65.69,
+          478.06,
+          248.73
+        ],
+        "page_area_fraction": 0.123
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 89,
+    "text_characters": 1288,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 83]추가된 opcode",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "- Go-Ethereum에서 동작하는 EVM에 적용할 수 있도록 Go언어로 작성된 call stack 개발\n- Call chain을 이용해서 함수 호출관계를 파악\n- [그림 83]과 같이 실행 주체를 확인하는 시기를 표시하기 위해 새로운 키워드(ForInit)와\nEVM opcode(FORINITSTART)를 도입",
+        "after": "- 키워드 ForInit은 컴파일 후 EVM opcode FORINITSTART로 매칭됨\n- EVM 내의 interpreter에서 스마트 컨트랙트를 실행 중 추가된 키워드 Forinit을 만나면\nCall stack확인\n◦ 런타임 스택 인스펙션도구를 이용한 취약점 보완",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "<표 17> Parity 사고 정상흐름(왼쪽)과 공격 흐름(오른쪽)",
+        "line_index": 27,
+        "toc_like": false,
+        "before": "임 스택 인스펙션 도구를 사용 가능\n- <표 17>과 같이 Parity사고의 경우 아래 표에서 볼 수 있듯이 정상적인 경우 생성자만\ninitWallet함수를 호출할 수 있어야하지만 공격자가 임의로 생성자를 통하지 않고\ninitWallet 함수를 호출해 문제가 발생",
+        "after": "- 위와 같은 취약점을 보완하는 방법으로 생성자에서만 호출될 수 있는 함수를 표시하고\n실행 시에 호출관계를 파악해 호출을 제어하는 방법을 제안\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 299,
+      "3": 3,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.61,
+          449.63,
+          376.12,
+          478.4
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.47,
+          110.04,
+          306.32,
+          199.1
+        ],
+        "page_area_fraction": 0.0386
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          316.63,
+          101.41,
+          533.47,
+          207.73
+        ],
+        "page_area_fraction": 0.0461
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 90,
+    "text_characters": 1193,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 84] 함수 호출 제어 흐름",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 89 -\n- 새로 추가했던 ForInit키워드를 이용해 실행 주체를 확인하는 시기(Parity예시 에서는\ninitWallet함수 내부)를 표시해둔 후 interpreter에서 아래 흐름에 따라 함수 호출을 제어",
+        "after": "- interpreter 내에서 스마트 컨트랙트 실행 중에 FORINITSTART opcode를 만나면 call\nstack을 조회해 주소를 비교하여 같은 컨트랙트 내에서 호출되었는지 확인한 후 함수\n호출 제어 여부를 결정\n- 위의 흐름을 이용해 생성자에서만 호출되어야하는 함수의 호출을 제어 가능",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 277,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.32,
+          514.12,
+          432.01,
+          743.67
+        ],
+        "page_area_fraction": 0.1256
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 91,
+    "text_characters": 1442,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 85] 컨트랙트의 Opcodes 중 일부",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "Solidity 컨트랙트는 함수 호출이 명확히 식별되지 않는다는 문제가 있어 본 EVM+2.0에\n서는 함수 선택자 위치에 코드를 주입할 수 있게 함. - 이를 위해 EVM+2.0은 함수 선택자의 분기 대상 주소를 조작하여 다른 위치로 분기하\n며, 이 때 새로운 분기 대상에는 주입될 코드가 바이트코드로 변환되어 존재하고 이 코\n드의 수행을 마치면 원래 위치로 복귀",
+        "after": "- 예를 들어 [그림 85]와 같이 원래의 JUMPI의 대상 위치인 PUSH2의 피연산자 값(5번 줄\n0x10)에 해당 바이트코드 내의 다른 위치 (주로 가장 마지막 위치)를 저장\n- 바이트코드의 마지막 위치에는 각 함수마다 JUMPDEST를 삽입하고 이 위치에 코드주입\n이 가능하도록 한 후 원래의 JUMPI의 대상 위치인 PUSH2명령과 기존 피연산자를 추가. 이러한 과정을 각 함수에 대해 실행",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 356,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.37,
+          390.17,
+          492.33,
+          499.25
+        ],
+        "page_area_fraction": 0.0796
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 92,
+    "text_characters": 1721,
+    "heading_candidates": [
+      "4) 각 기본 블록의 예상 가스량을 계산하고, 위 3)의 결과를 이용하여 함수 전체 예상",
+      "1) 코드 주입을 통해 실행 중 함수 진입지점을 가로채어 아래와 같은 작업을 수행할 수",
+      "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교"
+    ],
+    "section_context_candidate": "4) 각 기본 블록의 예상 가스량을 계산하고, 위 3)의 결과를 이용하여 함수 전체 예상",
+    "prior_heading_candidate": {
+      "text": "1) 스마트 컨트랙트 프라이버시 보호 기술 연구",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 439,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 93,
+    "text_characters": 1950,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 175,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 94,
+    "text_characters": 1408,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 293,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 95,
+    "text_characters": 1274,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 86] 취약점 탐색에 대한 성능 테스트 과정",
+        "line_index": 27,
+        "toc_like": false,
+        "before": "지않아 다른 storage의 값을 덮어쓰는 경우가 발생하는 버그\n◦ Testset 코드 생성 과정(process) - Smart contract의 testset 코드 생성을 위한 코드의 조합 과정에 대한 Overview는 아래와 같음\n- [그림 86]와 같은 과정을 통해 취약점 탐색에 대한 성능 테스트를 위한 testset 코드들을\n자동화하여 생성",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 277,
+      "3": 91,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 96,
+    "text_characters": 1362,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 279,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 97,
+    "text_characters": 1330,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<표 18> Re-entracny 버그에 대한 evaluation 결과",
+        "line_index": 27,
+        "toc_like": false,
+        "before": "HigherByte Clean\nStorage √ ✕ √ ✕ √ ✕ √ ✕ √ ✕\nUninitialized\nStorage Pointer √ ✕ √ ✕ √ ✕ √ ✕ ✕ ✕",
+        "after": "⧠ 정적 분석 기법 연구\n◦ Formal Verification은 무엇인가? - 정적분석의 대표적인 방식인 Formal Verification이란 P라는 프로그램과 Q라는 성질이\n주어졌을 때, P가 어떠한 상황에서도 Q를 만족함을 증명하는 기법\n- 해당 증명은 test scenario나 test case 없이 smart contract 안에서 취약점이 발생 가능",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 329,
+      "2": 31,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 98,
+    "text_characters": 605,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 85] 자동 smart contract 안전 검증기",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 97 -\n- VeriSmart에서는 트랜잭션 불변성질 (Transaction invariant)를 자동 생성하고 이것을 이\n용해서 프로그램의 안전성을 증명",
+        "after": "- 여기서 프로그램과 불변 성질은 일차 논리식으로 표현되어 SMT Solver의 입력값으로 들어감\n- 프로그램과 부정된 성질이 서로 충족되지 않는 것을 (unsatisfiable) 증명함\n◦ 불변 성질을 이용한 간단한 C 언어 예제\n[그림 86] 불변 성질을 이용하기 위한 C 언어 예제",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 86] 불변 성질을 이용하기 위한 C 언어 예제",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "[그림 85] 자동 smart contract 안전 검증기\n- 여기서 프로그램과 불변 성질은 일차 논리식으로 표현되어 SMT Solver의 입력값으로 들어감\n- 프로그램과 부정된 성질이 서로 충족되지 않는 것을 (unsatisfiable) 증명함\n◦ 불변 성질을 이용한 간단한 C 언어 예제",
+        "after": "- SMT Solver 결과가 unsatisfiable이기 때문에 이 코드는 취약점으로부터 안전\n- 위 코드는 C 언어이지만 VeriSmart는 Solidity 언어로 작성된 Ethereum smart contract에\n서 실제 검증\n◦ VeriSmart의 전체적인 flow chart - [그림 87]은 VeriSmart 형태의 formal verification 과정을 분석하여 도식화한 그림임",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 116,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.91,
+          546.24,
+          509.85,
+          739.83
+        ],
+        "page_area_fraction": 0.1644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.38,
+          340.67,
+          491.49,
+          445.91
+        ],
+        "page_area_fraction": 0.0816
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.38,
+          235.42,
+          491.49,
+          340.67
+        ],
+        "page_area_fraction": 0.0816
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 99,
+    "text_characters": 636,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 87] VeriSmart의 전체적인 flow chart - VeriSmart는 반복적으로 후보 불변 성질을 생성하고 이 불변 성질이 프로그램의 증명",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 98 -",
+        "after": "조건을 다 증명할 수 있는지 확인\n- 증명 조건을 입증 못 하면 불변 성질을 더 개선하고 다시 증명 조건을 입증한\n- 실제 실험 결과, VeriSmart는 취약점 정확도가 99,5%이였고 검출률 또한 100%임\n- 다른 취약점 검출기의 결과에 비해 월등한 결과임",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 142,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.47,
+          560.75,
+          502.29,
+          784.42
+        ],
+        "page_area_fraction": 0.1832
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.47,
+          337.19,
+          502.29,
+          560.75
+        ],
+        "page_area_fraction": 0.1831
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 100,
+    "text_characters": 1359,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 320,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.41,
+          33.44,
+          465.59,
+          49.15
+        ],
+        "page_area_fraction": 0.0105
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.39,
+          185.56,
+          452.88,
+          207.73
+        ],
+        "page_area_fraction": 0.0163
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 101,
+    "text_characters": 1279,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 282,
+      "3": 2,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.15,
+          715.14,
+          420.73,
+          734.92
+        ],
+        "page_area_fraction": 0.0097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.48,
+          454.66,
+          380.2,
+          483.07
+        ],
+        "page_area_fraction": 0.0133
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 102,
+    "text_characters": 904,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 87] 스마트 컨트랙트 분석 연구",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 101 -",
+        "after": "- [그림 87]에서 볼 수 있듯이, 취약점 탐지 기법으로는 기호실행(Symbolic Execution) 방\n법론을 가장 많이 활용함\n- 이외 취약점 탐지 방법론으로 Abstract Interpretation이 많이 사용되고 있으며, 일부\nmachine learning을 활용하는 연구도 존재함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 88] 스마트 컨트랙트 취약점 탐지 연구",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "- 동적 분석으로는 퍼징(Fuzzing)이 가장 많이 활용되고 있는 방법론이였으며 실시간 검증\n(Runtime Verification) 기법도 많이 사용되고 있음\n- 동적분석의 기타 방법론으로는 N-version 프로그래밍, Mutation 테스팅, Replay 테스팅\n이 사용됨",
+        "after": "- [그림 88]은 스마트 컨트랙트 분석 연구 중 Exploitable 취약점을 탐지하는 연구의 비율\n을 보여줌\n- 총 27편의 연구에서 Exploitable 취약점을 탐지하는 분석 방법론을 적용함\n- 기타를 제외하고는 Symbolic Execution, Abstract Interperation, Fuzzing 방법론이",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 177,
+      "3": 4,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.0,
+          682.41,
+          529.88,
+          784.42
+        ],
+        "page_area_fraction": 0.0948
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.0,
+          580.41,
+          529.88,
+          682.41
+        ],
+        "page_area_fraction": 0.0948
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          217.08,
+          529.88,
+          296.32
+        ],
+        "page_area_fraction": 0.071
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          137.97,
+          529.88,
+          217.08
+        ],
+        "page_area_fraction": 0.0709
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 103,
+    "text_characters": 1053,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 89] 취약점 탐지 분석",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "Exploitable 취약점을 탐지하는데 활발히 사용됨\n- 이러한 스마트 컨트랙트가 어떤 종류의 취약점을 탐지하는지 분석을 진행함\n- 분석 결과 현재 총 19개의 취약점을 다루고 있는 것을 파악함\n- [그림 89]는 스마트 컨트랙트가 탐지하는 19개의 취약점을 표시함",
+        "after": "- 현재 19개의 취약점을 모두 탐지하는 스마트 컨트랙트 분석기는 존재하지 않음\n- [그림 87]에서 보이듯이, 각각의 스마트 컨트랙트 분석기 별로 탐지 가능한 취약점 리스\n트가 다름을 알 수 있음\n◦ 스마트 컨트랙트 분석기 분야의 미래 연구 분야",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 244,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.08,
+          616.97,
+          525.68,
+          707.95
+        ],
+        "page_area_fraction": 0.083
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.08,
+          525.98,
+          525.68,
+          616.96
+        ],
+        "page_area_fraction": 0.083
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.08,
+          435.24,
+          525.68,
+          525.98
+        ],
+        "page_area_fraction": 0.0828
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 104,
+    "text_characters": 866,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 184,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 105,
+    "text_characters": 1143,
+    "heading_candidates": [
+      "3. 목표 달성도 및 관련 분야 기여도",
+      "3-1. 목표 및 달성여부",
+      "2. 영지식 증명 검증 sec 20%"
+    ],
+    "section_context_candidate": "3. 목표 달성도 및 관련 분야 기여도",
+    "prior_heading_candidate": {
+      "text": "5) 만일 결과가 상수로 나오는 경우 가스 추정 값을 함수 실행 전 주어진 가스와 비교",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "정량적 목표 항목",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "* 영지식 증명 생성 및 검증의 경우, 기존 비교 대상인 HAWK에서 사용하는 알고리즘을 변경하여\n알고리즘 성능에 대한 평가서 제출, 연산에 대한 성능은 자체평가를 통한 성능 비교\n○ 세부사업 질적 성과 목표 또한 달성\n- 특허 등록에 대한 SMART 등급 점수 자료 첨부",
+        "after": "평가 항목\n(주요성능\nSpec)\n단위",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 284,
+      "2": 65,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 106,
+    "text_characters": 406,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 영지식 증명 검증 sec 20%",
+    "prior_heading_candidate": {
+      "text": "2. 영지식 증명 검증 sec 20%",
+      "pdf_page": 105
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 세부사업 질적 성과 목표",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 105 -",
+        "after": "성과지표\n가\n중\n치",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 79,
+      "2": 46,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 107,
+    "text_characters": 695,
+    "heading_candidates": [
+      "3-2. 목표의 세부 성과 달성 현황"
+    ],
+    "section_context_candidate": "3-2. 목표의 세부 성과 달성 현황",
+    "prior_heading_candidate": {
+      "text": "2. 영지식 증명 검증 sec 20%",
+      "pdf_page": 105
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "성과달성 총괄표",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "3-2. 목표의 세부 성과 달성 현황\n○ 과제 제안 당시 언급하였던 세부 성과 달성. 표준화의 경우 기고서 제출 1건에 대해\n초과 달성, 기술 이전의 경우 500만원 초과 달성, 소프트웨어의 경우도 1건 초과 달\n성하여 목표 대비 실적을 완벽히 수행하였음",
+        "after": "구분 목표 실적 비고\n특허 출원\n국내 9 9\n국외 - - 계 9 9",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 195,
+      "2": 58,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 108,
+    "text_characters": 1496,
+    "heading_candidates": [],
+    "section_context_candidate": "3-2. 목표의 세부 성과 달성 현황",
+    "prior_heading_candidate": {
+      "text": "3-2. 목표의 세부 성과 달성 현황",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 309,
+      "2": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 109,
+    "text_characters": 1494,
+    "heading_candidates": [],
+    "section_context_candidate": "3-2. 목표의 세부 성과 달성 현황",
+    "prior_heading_candidate": {
+      "text": "3-2. 목표의 세부 성과 달성 현황",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 241,
+      "2": 76,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 110,
+    "text_characters": 1083,
+    "heading_candidates": [],
+    "section_context_candidate": "3-2. 목표의 세부 성과 달성 현황",
+    "prior_heading_candidate": {
+      "text": "3-2. 목표의 세부 성과 달성 현황",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 165,
+      "2": 30,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 111,
+    "text_characters": 884,
+    "heading_candidates": [],
+    "section_context_candidate": "3-2. 목표의 세부 성과 달성 현황",
+    "prior_heading_candidate": {
+      "text": "3-2. 목표의 세부 성과 달성 현황",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 163,
+      "2": 82,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 112,
+    "text_characters": 770,
+    "heading_candidates": [
+      "□ 고용 효과"
+    ],
+    "section_context_candidate": "□ 고용 효과",
+    "prior_heading_candidate": {
+      "text": "3-2. 목표의 세부 성과 달성 현황",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 196,
+      "2": 138,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 113,
+    "text_characters": 1348,
+    "heading_candidates": [
+      "□ 경제적 파급 효과",
+      "□ 전문 연구 인력 양성",
+      "□ 연구시설·장비",
+      "□ 기타성과"
+    ],
+    "section_context_candidate": "□ 경제적 파급 효과",
+    "prior_heading_candidate": {
+      "text": "□ 고용 효과",
+      "pdf_page": 112
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 294,
+      "2": 120,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 114,
+    "text_characters": 1324,
+    "heading_candidates": [
+      "□ 성과홍보",
+      "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등) - 해당 없음"
+    ],
+    "section_context_candidate": "□ 성과홍보",
+    "prior_heading_candidate": {
+      "text": "□ 기타성과",
+      "pdf_page": 113
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 238,
+      "2": 36,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 115,
+    "text_characters": 1551,
+    "heading_candidates": [
+      "4. 연구개발성과의 활용 계획 등 4-1. 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획)"
+    ],
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등 4-1. 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획)",
+    "prior_heading_candidate": {
+      "text": "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등) - 해당 없음",
+      "pdf_page": 114
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연도별 주요 활동계획(요약표)",
+        "line_index": 25,
+        "toc_like": false,
+        "before": "하여 스마트 컨트랙트를 가장 잘 설명할 수 있는 간략화된 정보를 추출하고, 코드 분석\n을 통해서 사용하는 상태변수에 대한 정보를 추출\n- 온체인(onchain)에서는 수집된 정보를 바탕으로 스마트 컨트랙트의 행동 변화를 모니터\n링한다. 핵심이 되는 상태변수의 정상범주 또는 안전 조건을 유지하는지를 실시간 확인",
+        "after": "구분 종료+1\n(0000년)\n종료+2\n(0000년)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 373,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 116,
+    "text_characters": 870,
+    "heading_candidates": [
+      "4-2. 주요 성과활용 (기대)성과목표",
+      "4-3. 성과활용·관리 추진체계"
+    ],
+    "section_context_candidate": "4-2. 주요 성과활용 (기대)성과목표",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 활용 계획 등 4-1. 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획)",
+      "pdf_page": 115
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연도별 성과활용 (기대)성과목표(요약표)",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "○ 온체인/오프체인의 통합 블록체인 서비스 분석 시스템 개발\n- 본 과제의 연구 결과를 바탕으로 오프체인의 분석을 바탕으로 온체인에서 블록체인 서\n비스의 이상상태를 탐지하는 분석 시스템을 개발\n(2) 정량적 목표",
+        "after": "구분 종료+1\n(0000년)\n종료+2\n(0000년)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 216,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 117,
+    "text_characters": 1011,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 203,
+      "2": 1579,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 118,
+    "text_characters": 1518,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 272,
+      "2": 99,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.93,
+          710.57,
+          166.24,
+          753.73
+        ],
+        "page_area_fraction": 0.0093
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.75,
+          710.57,
+          539.96,
+          753.73
+        ],
+        "page_area_fraction": 0.0323
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 119,
+    "text_characters": 1374,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1] 영지식 증명 검증 컨트랙트 생성 도구",
+        "line_index": 22,
+        "toc_like": false,
+        "before": "요하거나 Multi party computation이 필요하지 않고, 오버헤드가 적고 개발자 입장\n에서 쉽게 영지식 증명을 적용할 수 있음\n- Zoker의 영지식증명 Implementation은 proving time이 짧고 proof size가 작기\n때문에 블록체인 환경에 적합하게 사용할 수 있음",
+        "after": "제안하는 도구인 Zoker는 [그림 1]과 같이 증명하고자 하는 프로그램에 대한\n구현을 파이썬과 비슷한 언어 양식의 Domain Specific Language(DSL)을 입\n력으로 받는다. 그 후 컴파일과정을 거쳐 영지식 증명의 구현에 입력으로 넣\n고, 실행 결과를 검증할 수 있는 증거(proof)와 검증 스마트 컨트랙트",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 307,
+      "2": 18,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          149.32,
+          646.21,
+          491.14,
+          777.35
+        ],
+        "page_area_fraction": 0.0896
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 120,
+    "text_characters": 731,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2] 스마트 컨트랙트 시장 전망",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "- 글로벌 시장 조사 업체인 Market Research Future에서 제시한 스마트 컨트랙트 시장\n은 [그림 2]와 같이 2023년에는 연평균복합성장률이 2016년 대비 32%증가한 300억\n달러에 이를 것으로 예상\n◦",
+        "after": "◦ 추가적으로 University of Cambridge Judge Business school는 49개의 국가, 200\n여개의 블록체인 기업을 대상으로 설문조사를 진행하였으며 [그림 3]과 같이\n71%의 기업이 프라이버시 보호 문제 해결을 위해 영지식 증명 기술을 구현 혹은\n도입을 계획하고 있는 것으로 확인됨",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 3] Global Blockchain Benchmarking Study 설문 조사 결과",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "◦ 추가적으로 University of Cambridge Judge Business school는 49개의 국가, 200\n여개의 블록체인 기업을 대상으로 설문조사를 진행하였으며 [그림 3]과 같이\n71%의 기업이 프라이버시 보호 문제 해결을 위해 영지식 증명 기술을 구현 혹은\n도입을 계획하고 있는 것으로 확인됨",
+        "after": "○ 제품화 및 활용분야\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 160,
+      "2": 19,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.87,
+          380.82,
+          453.0,
+          540.13
+        ],
+        "page_area_fraction": 0.0885
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.54,
+          93.38,
+          474.35,
+          284.45
+        ],
+        "page_area_fraction": 0.1351
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 121,
+    "text_characters": 786,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 186,
+      "2": 36,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 122,
+    "text_characters": 827,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 202,
+      "2": 88,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 123,
+    "text_characters": 1035,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 233,
+      "2": 69,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.93,
+          706.38,
+          166.24,
+          749.54
+        ],
+        "page_area_fraction": 0.0093
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.75,
+          706.38,
+          539.96,
+          749.54
+        ],
+        "page_area_fraction": 0.0323
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 124,
+    "text_characters": 809,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 186,
+      "2": 30,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          700.15,
+          533.95,
+          777.35
+        ],
+        "page_area_fraction": 0.0659
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          622.96,
+          533.95,
+          700.15
+        ],
+        "page_area_fraction": 0.0659
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          545.88,
+          533.95,
+          622.96
+        ],
+        "page_area_fraction": 0.0658
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 125,
+    "text_characters": 1168,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 301,
+      "2": 105,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 126,
+    "text_characters": 551,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 112,
+      "2": 38,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 127,
+    "text_characters": 3007,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 399,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 128,
+    "text_characters": 714,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 91,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 129,
+    "text_characters": 1037,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 300,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 130,
+    "text_characters": 965,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 215,
+      "2": 44,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 131,
+    "text_characters": 853,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 221,
+      "2": 36,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 132,
+    "text_characters": 959,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 223,
+      "2": 38,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 133,
+    "text_characters": 1010,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 243,
+      "2": 38,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 134,
+    "text_characters": 283,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신·방송 연구개발사업의 보고서입",
+      "2. 이 보고서 내용을 발표하는 때에는 반드시 과학기술정보통신부(정보통신기획평가원)에서",
+      "3. 국가과학기술 기밀유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는 안됩니다."
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신·방송 연구개발사업의 보고서입",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 54,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

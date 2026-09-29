@@ -21,6 +21,8 @@ class 기능:
     매개변수: tuple[str, ...] = field(default_factory=tuple)
     화면실행가능: bool = True
     복구상태: str = "source"
+    동작: tuple[dict, ...] = field(default_factory=tuple)
+    카탈로그id: str = ""
 
 
 @dataclass(frozen=True, slots=True)

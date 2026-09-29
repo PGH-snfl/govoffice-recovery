@@ -1,0 +1,622 @@
+[
+  {
+    "visual_id": "I17-V0001",
+    "caption": "개별분리 클라우드 개념도",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 2 -\n최근 클라우드 구성 아키텍처 추세인 개별분리는, 하나의 머신에 밀접하게 연\n결된 CPU, 가속기(Accelerator, 예: GPU) 등의 구성 요소들을 해체하여, 각 풀\n(Pool)로 묶어 배치하고 이를 초고속 패브릭 인터커넥트(Fabric Interconnect)로\n연결하는 기술이다. 이러한 특성을 통해 CPU 중심 아키텍처에서 데이터를 각\n컴포넌트 간 옮기는데 생기는 오버헤드를 최소화하고, 또한 성능 요구에 따른",
+    "caption_and_following_text": "확장성과 비용을 개선할 수 있다(그림 1 참고). 현재 Intel, Facebook, HP 등의\n업체들이 각각 자체적인 아키텍처를 개발 중이며, 학계 또한 현재도 활발히 연\n구가 진행 중이다.\n그림 2 개별분리 클라우드 개념도\n1-2. 차세대 데이터-중심 클라우드 보안기술 제안\n개별분리 아키텍처가 최근 많은 관심을 받는 것에 비해 보안 측면의 고려가 현재\n까지 매우 부족한 상황이다. 예를 들어, 현재 아키텍처에서는 악의적인 CPU가 다\n른 CPU에 할당된 메모리에 접근할 때 해당 메모리의 무결성을 보장할 수 없다. 또\n한, GPU의 메모리 접근 그리고 CPU의 GPU 접근 등과 같은, 그 외의 구성 요소 간\n통신의 경우에도 이와 흡사한 보안 이슈가 발생한다. 그러므로 개별분리 아키텍처",
+    "section_context_candidate": "1-1. 배경",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          355.77,
+          516.56,
+          625.95
+        ],
+        "page_area_fraction": 0.2366
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0002",
+    "caption": "본 과제에서 연구 및 개발한한 시스템의 기본개념도",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "으로부터 메모리를 보호할 필요가 있다. 예를 들어, 개별분리 아키텍처에서는\nGPU를 다른 사람과 공유하는 상황이 발생하므로 해당 GPU 메모리에 남아 있\n는 정보들을 도용하는 공격을 할 수 있다.\nŸ 메모리 접근제어 모델\n개별분리 시스템에서 다른 풀과 메모리 풀 간의 메모리 접근제어를 함으로써\n악의적인 사용자가 다른 사용자의 데이터에 접근하는 것을 차단할 수 있다.\nŸ 안전한 가속기 오프로딩",
+    "caption_and_following_text": "가속기와 CPU에서 실행될 코드와 데이터를 처리하고, 서로 데이터를 주고받으\n면 데이터의 무결성을 보장하기 위해 암호화된 채널을 통해 안전하게 오프로딩\n하는 프로토콜이 필요하다.\n그림 3 본 과제에서 연구 및 개발한한 시스템의 기본개념도\n1-3. 기술의 용도 및 적용 분야\nŸ 개별분리 클라우드 컴퓨팅 기술의 도입 촉진\n개별분리 아키텍처는 데이터-중심 클라우드 환경 구성에 있어 확장성과 성능적\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1-1. 배경",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.54,
+          143.72,
+          474.58,
+          357.45
+        ],
+        "page_area_fraction": 0.1512
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0003",
+    "caption": "컴퓨팅 노드(Computing Node)의 전체적인 구조",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 8 -\n3) 컴퓨팅 노드(Computing node) 설계\n(1) 기본 구성",
+    "caption_and_following_text": "컴퓨팅 노드를 구성하기 위해선, 그림 4와 같이, 일반적인 컴퓨팅을 위한 요소\n(e.g. CPU)와 이를 개별분리 인터커넥트와 이어주는 인터커넥트 로직 (Interconnect\nLogic)이 필요하다.\n그림 5 컴퓨팅 노드(Computing Node)의 전체적인 구조\n(2) 인터커넥트 로직\nŸ 프로토콜 변환\n가장 먼저 인터커넥트 로직과 CPU 등의 컴퓨팅 요소는 임의의 인터커넥트를\n통해 연결돼야 한다. 하지만, 이러한 프로세서를 위한 인터커넥트는 개별분리\n인터커넥트와는 다른 프로토콜을 사용하기 때문에, 인터커넥트 로직은 프로토\n콜 변환을 할 필요성이 있다.",
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          508.96,
+          531.43,
+          683.49
+        ],
+        "page_area_fraction": 0.1631
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0004",
+    "caption": "인터커넥트의 구성",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 10 -\n그림 6 인터커넥트의 구성\n(2) 인터커넥트의 토폴로지\n인터커넥트의 토폴로지는 2가지 형태로 설계하였다. 개별분리 시스템은 새롭게 개\n발 및 연구되고 있는 시스템 아키텍처로, 선제적으로 보안 위협에 대응할 수 있는\n보안 기법을 연구하는 본 과제의 목표이다. 또한, 개별분리 시스템에 대한 효율적\n인 보안 기법은 개별분리 시스템의 구성 형태와 밀접한 관련이 있다. 1년차에서는\n2년차에서 연구될 개별분리 시스템의 보안 기법의 여러 가지 가능성을 고려하고\n수용할 수 있는 인터커넥트를 설계하기 위하여, 두 가지의 인터커넥트 토폴로지를\n설계하였다. 앞서 제안서에서 제안하였던 풀 관리자의 개념을 구현하기 위한 토폴",
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.49,
+          607.97,
+          538.63,
+          798.57
+        ],
+        "page_area_fraction": 0.1836
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0005",
+    "caption": "풀 관리자를 포함하지 않는 인터커넥트의 토폴로지 예시(Crossbar)",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 12 -\n그림 7 풀 관리자를 포함하지 않는 인터커넥트의 토폴로지 예시(Crossbar)\n(5) 신뢰 가능한 전송\n개별분리 시스템은 수많은 CPU와 메모리, 그리고 가속기 등이 서로 메시지를 주고\n받으며 동작하는 거대한 시스템이다. 패킷이 손실되거나 손상된다면 시스템 전체가\n불안정해질 수 있으므로 신뢰 가능한 통신은 매우 중요하다. 본 시스템에서 인터커\n넥트는 PCIe 통신 스택 중 신뢰 가능한 통신을 도입하여 노드 간 신뢰 가능한 통\n신을 지원한다. 신뢰 가능함은 아래 세 가지로 이루어진다. 첫 번째, ack/nak 기능\n을 통하여 노드 간 통신이 손실 없이 완전하게 이루어졌는지 상호 확인한다. 두 번\n째, sequence number를 통하여 통신이 의도한 순서대로 이루어지고 중복이 되지",
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.22,
+          601.62,
+          478.9,
+          798.57
+        ],
+        "page_area_fraction": 0.1427
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0006",
+    "caption": "Fabric MMIO를 통한 CPU 노드와 가속기 노드 간의 통신",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "GPU 등의 가속기 노드는 CPU와 같은 컴퓨팅 노드로 분류되며, CPU 노드와 마찬\n가지로 인터커넥트 로직을 통하여 개별분리 인터커넥트 패브릭에 접속한다. 인터커\n넥트 로직을 통해 개별분리 시스템 지원이 내재되어 있지 않은 가속기와 패브릭\n사이의 통신 규약을 전환(Translate) 하는 방식으로 동작한다.\n(2) CPU → 가속기 연산 오프로딩\n개별분리 시스템에서의 가속기(예: GPU)들은 CPU와 같은 컴퓨팅 노드이지만, CPU\n로부터 연산 작업을 오프로딩 받는 CPU 종속성을 가진다. 따라서 가속기 노드는",
+    "caption_and_following_text": "CPU 노드 및 메모리 풀에서 할당받은 메모리와 워크그룹(workgroup)을 형성하고\nCPU가 주도하는 연산에서 일부를 전달받아 가속하는 역할을 수행한다.\n그림 8 Fabric MMIO를 통한 CPU 노드와 가속기 노드 간의\n통신\n(3) CPU 노드-가속기 노드 간 통신\n개별분리 시스템에서도 기존 클라우드 아키텍처와 마찬가지로 CPU와 GPU는 메모\n리 매핑 기반 통신 (Memory-Mapped IO, MMIO)을 통하여 통신한다. 본 과제에서\n개발하는 개별분리 시스템에서는 메모리 풀 관리자에 MMIO 구성을 통해서 CPU와\nGPU 간의 통신 채널을 수립한다. 메모리 풀 관리자는 CPU와 가속기 노드 간의 통\n신에 사용할 패브릭 주소를 할당하고, 인터커넥트 로직에 주소 변환 정보를 탑재시",
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          147.76,
+          220.08,
+          501.21,
+          414.99
+        ],
+        "page_area_fraction": 0.1377
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0007",
+    "caption": "패킷 클래스의 추가된 드",
+    "pdf_page_candidate": 23,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": null,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "",
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0008",
+    "caption": "우리 시스템을 위한 2-레벨 팻트리 토폴로지 구성",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 18 -\n능을 이용하여 팻트리 토폴로지를 추가하였다. 그림 8은 풀 관리자를 포함한 인터\n커넥트를 설명한다. 토폴로지는 루트 라우터와 다수의 리프 라우터로 구성된 2-레",
+    "caption_and_following_text": "벨의 팻트리로 구성된다. 리프 노드의 라우터는 클러스터 형식으로 이뤄진 구성 요\n소의 풀과 연결된다. 풀 관리자가 없는 토폴로지를 사용하기 위해서는 단순히 가넷이 지원하는 토폴로\n지 중 하나를 선택하거나, 새로운 토폴로지를 생성하여 사용하도록 설정한다.\n그림 9 우리 시스템을 위한 2-레벨 팻트리 토폴로지 구성\n(3) 인터페이스\n인터커넥트 시뮬레이터에서 구성 요소로부터 받은 패킷을 라우팅을 위한 패킷으로\n변환하기 위한 기능을 구현하였다. 가넷과 구성 요소는 루비 시스템의 캐시 컨트롤\n러에 의해 연결된다. 가넷의 스탠드얼론(standalone)에서 캐시 컨트롤러는 더미 프\n로토콜을 실행하여 구성 요소로 패킷을 받아 가넷으로 전달하는 역할을 한다. 따라\n서 캐시 컨트롤러는 개별분리 시스템의 구성 요소와 인터커넥트를 연결하는 인터",
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          53.37,
+          447.11,
+          541.75,
+          664.31
+        ],
+        "page_area_fraction": 0.212
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0009",
+    "caption": "메모리 풀 관리자의 구조",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "로 구현에서 생략되었다. 구현된 시뮬레이터에서는 패킷의 CRC 필드의 값은 항상\n0이며, 전송받은 패킷에 대하여 CRC 값을 계산하여 CRC 필드와 비교하는 기능 또\n한 생략하였다.\n4) 메모리 구현\n(1) 메모리 풀 관리자와 패킷 다중화\n위 설계에서 언급한 메모리 풀 관리자의 기능을 구현하기 위해, Gem5 시뮬레이터\n의 크로스바 (Crossbar) 클래스를 수정했다. 기존 크로스바 클래스는 단순히 여러",
+    "caption_and_following_text": "포트를 통해 Gem5 구성 요소를 연결하는 기능만 가지고 있으며, 개별분리 시스템\n에 해당하는 패킷 라우팅 및 헤더 처리 기능은 갖추고 있지 않았다. 이를 수정하\n여, 상기 설계에서 언급한 기능을 추가했다.\n그림 10 메모리 풀 관리자의 구조\nŸ 인터커넥트 로직을 통해 인터커넥트와 연결 (그림 9에서 메모리 풀 관리자의 인\n터커넥트 로직 내 인터커넥트 인터페이스 부분) Ÿ 여러 개의 메모리 컨트롤러와 연결 (그림 9에서 오른쪽 둥근 사각형 부분) Ÿ 라우팅 정보를 참고하여 패킷을 올바르게 전달 (상기 설계의 패킷 다중화 항목, 위 그림 9에서 Packet의 목적지 CID 정보를 참고해 올바른 메모리 컨트롤러로\n패킷을 전달하는 것을 나타낸 주황색 화살표 흐름)\n상기 설계에서는 오류 제어 기능을 포함했으나, 시뮬레이터 상에서 이러한 기능을\n실제로 테스트하는 방법은 의도적으로 에러를 일으키는 방법뿐이므로, 이 기능들은\n더미 함수로만 구현했다.",
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          318.49,
+          531.43,
+          549.24
+        ],
+        "page_area_fraction": 0.2157
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0010",
+    "caption": "하나의 메모리 컨트롤러에 다수의 DRAM과 NVM이 연결된 모습",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 20 -\n(2) 메모리 컨트롤러와 다양한 미디어 지원\n그림 11 하나의 메모리 컨트롤러에 다수의 DRAM과 NVM이 연결된 모습\n위 설계에서 언급한 메모리 풀 관리자의 기능을 구현하기 위해, Gem5 시뮬레이터\n의 MemCtrl 클래스를 수정했다. 기존 MemCtrl 클래스는 하나의 DRAM 미디어와\n하나의 NVM 미디어만을 연결할 수 있었다. 개별분리 시스템에서는 여러 개의 저\n장 미디어를 유연하게 관리할 수 있어야 하므로, 이러한 제한을 해결하기 위해 다\n음과 같은 사항을 새로 구현했다. Ÿ 메모리 미디어를 설정 스크립트에 따라 임의의 개수만큼 컨트롤러에 연결할 수\n있도록 수정 (위 그림 10에서 오른쪽 DRAM0~n과 NVM0~1) Ÿ 여러 개의 미디어가 가지는 용량을 병합해 컨트롤러당 하나의 병합된 미디어\n주소 공간을 가짐 (위 그림 10에서 주소 공간의 시작과 끝 범위를 나타내는 오",
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.32,
+          635.78,
+          439.8,
+          760.21
+        ],
+        "page_area_fraction": 0.0707
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0011",
+    "caption": "개별분리 시스템의 보안 위협",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 24 -\n2) 전체 시스템 개요\nŸ Capability 기반의 접근제어",
+    "caption_and_following_text": "Capability 기반의 접근제어 (Capability-based Access Control) 는 신뢰할 수 없\n는 각 컴퓨트 노드가 원격 메모리에 접근하는 것을 통제하기 위해 사용된다. 우리의 시스템에서, 각 컴퓨트 노드는 원격 메모리를 메모리 풀 매니저를 통해\n할당받는다. 할당받은 원격 메모리는 인터커넥트 로직을 통해 접근할 수 있다. 그러나 이때, 다음과 같은 보안 문제가 발생할 수 있다.\n그림 12 개별분리 시스템의 보안 위협\n녹색 배경의 컴퓨트 노드에 녹색 배경의 원격 메모리 풀이 할당되었다. 정상\n적인 접근 경로는 파란색 화살표이다. 이 때 발생 가능한 보안 위협은 붉은\n색 화살표로 표시되었다. 파란색 점선은 인터커넥트가 신뢰 가능할 때 정상\n적으로 메모리 접근 라우팅되는 경로이다. 1) 어느 한 컴퓨트 노드가 자신이 할당받은 범위를 벗어난 원격 메모리에 접근\n을 시도할 수 있다. 예를 들어, 컴퓨트 노드 상에서 동작하는 운영체제가 페이\n지 테이블 등을 임의로 조작함으로써, 자신이 할당받지 않은 원격 메모리의 물",
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "heading_candidates": [
+      "2) 전체 시스템 개요"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          367.16,
+          535.51,
+          664.31
+        ],
+        "page_area_fraction": 0.2548
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0012",
+    "caption": "Capability 기반 접근 제어",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 26 -\n3) Capability-based Access Control의 설계\n그림 13 Capability 기반 접근 제어\n신뢰 가능한 요소는 보라색 배경으로 나타낸 중앙 관리 유닛, 메모리 풀 매니저, 인터커넥트 로직이다. 각 요소가 접근 가능한 키가 같이 표시되어 있다. 방패 표\n시는 세 요소들에 의해 위협이 차단되는 지점을 나타낸다. 우리 시스템에서 설계된 capability 기반의 접근제어는 중앙 관리 유닛, 메모리 풀\n매니저, 인터커넥트 로직에서 수행된다. 각 컴퓨트 노드 및 가속기는 초기화 과정\n에서 자신이 사용할 수 있는 원격 메모리 영역을 할당받는다. 이때, 신뢰할 수 있\n는 세 가지 요소에 의해 할당받은 영역에 대한 capability가 생성되고, 이후 메모리\n접근 과정에서 접근을 시도하는 주소와 capability의 권한이 비교된다. 중앙 관리 유닛은 메모리 할당 과정에서 capability를 생성하고 각 컴퓨트 노드 또\n는 가속기와 연결된 인터커넥트 로직에 해당 capability를 전달한다. 인터커넥트 로",
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.47,
+          320.05,
+          538.75,
+          779.39
+        ],
+        "page_area_fraction": 0.4152
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0013",
+    "caption": "Capability 프로토콜",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "는 비밀키는 외부 시스템 요소와 격리된 곳에 유지한다. 다른 시스템 구성 요\n소는 비밀키에 대응되는 공개키로 capability가 중앙 관리 유닛에 의해 서명되었\n는지를 검증할 수 있다.\n(6) 프로토콜 안전성 분석\n컴퓨트 노드나 가속기의 접근제어가 성공적으로 이루어지더라도, capability 전\n달과 메모리 접근은 신뢰할 수 없는 인터커넥트를 통해 이루어진다. 따라서, 요\n소 간의 통신을 포함하는 과정은 전송되는 데이터의 무결성을 보장할 수 있는",
+    "caption_and_following_text": "방식으로 수행되어야 한다. 그림 13은 인터커넥트에 의해 발생할 수 있는 위협\n과, 위협을 방지하기 위해 전송 도중에 HMAC/서명값을 포함하는 것을 나타낸\n다.\n그림 14 Capability 프로토콜\n파란색 화살표는 시스템 초기화와 작동 과정에서 요소 간 할당 정보,\ncapability, 메모리 요청 전달을 나타낸다. 전송 과정 중 인터커넥트에 의한 침\n해를 방지하기 위해 서명 또는 HMAC 이 해당되는 키로 생성되어 같이 전달\n된다. 가) 중앙 관리 유닛의 capability 생성과 전달 과정 보호\n중앙 관리 유닛이 capability를 초기화하기 위해서는 메모리 풀 관리자로부터 할\n당 관리 정보를 수신해야 한다. 이 정보는 무결성 보장을 위해 capability",
+    "section_context_candidate": "가) 전달된 capability의 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          318.73,
+          538.63,
+          472.52
+        ],
+        "page_area_fraction": 0.1328
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0014",
+    "caption": "원격 인증과 키 교환 흐름도",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "성한다. 또한 가속기는 endorsement key를 통해 공개 인증 키에 서명하고, 이\n를 메모리 풀 매니저가 접근할 수 있는 메모리 버퍼에 쓴다. 메모리 풀 매니저\n는 가속기의 CA(제조사)를 통해 인증서를 검증한다. 공개키는 검증된 인증서에\n서 추출하고 키 교환에 사용한다. 원격 인증 후, 메모리 풀 매니저는 커맨드와 파라미터를 보낼 암호화된 채널을\n생성하기 위해 대칭 세션 키를 생성하고 가속기와 공유한다. 세션 키는 공개\n인증 키로 암호화되어 가속기로 보내진다. 우리는 통신 채널에 진위성과 무결\n성을 주는 AES-GCM과 같은 입증된 암호화 기법을 사용하고, 리플레이",
+    "caption_and_following_text": "(replaying)에 저항성을 갖추기 위해 단조 증가하는 카운터를 사용한다. 또한 부\n채널(side-channel)을 방지하기 위해 채널에서는 고정된 통신 메시지(fixed\ncommunication message)를 이용한다.\n그림 15 원격 인증과 키 교환 흐름도\n(2) 안전한 가속을 위한 하드웨어 교체\n가속기가 안전한 가속을 지원하기 위해 하드웨어 교체가 필요하다. 먼저, 키 저\n장소는 root endorsement key(EK)를 저장하고 있다. 이 root endorsement key는\n가속기의 진위성을 증명하는 신뢰점(root of trust)의 역할을 한다. 또한 GPU에\n암호 확장을 도입했다. 먼저, 암호화와 복호화를 가속하기 위한 AES 엔진을 추\n가한다. 이는 데이터 전송에서 소프트웨어 기반 AES 암호화가 높은 오버헤드를",
+    "section_context_candidate": "가) 전달된 capability의 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          206.77,
+          538.99,
+          472.52
+        ],
+        "page_area_fraction": 0.2297
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0015",
+    "caption": "커널과 데이터 오프로딩 흐름도",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "무결성을 검증한다. 측정값은 가속기가 사용하는 코드의 해시 체크섬으로, 온디\n바이스 메모리에 저장된다. 장치는 측정값을 암호화해 메모리 풀 매니저에게\n보낸다. 메모리 풀 매니저는 커널이 장치 메모리에 올바르게 로드되었는지 검\n증하기 위해 앞서 계산된 커널의 체크섬으로 측정값을 검증한다. 그 후, 사용자는 가속기에 사용자 메모리에 접근할 수 있는 capability를 위임한\n다. 이는 사용자가 메모리 풀 매니저에게 다른 요청을 하면 수행된다. 그리고\n메모리 풀 매니저는 사용자의 메모리에 접근하기 위한 권한을 나타내는\ncapability transference key를 생성해 가속기로 보낸다. 가속기는 이 키를 사용",
+    "caption_and_following_text": "해 사용자의 메모리에 접근한다. 가속기는 사용자의 데이터를 온칩(on-chip) 메\n모리에 복사하고, 데이터를 복호화하고, 컴퓨팅을 수행하기 위한 DMA 요청을\n수행한다.\n그림 16 커널과 데이터 오프로딩 흐름도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 이는 사용자가 메모리 풀 매니저에게 다른 요청을 하면 수행된다. 그리고",
+    "heading_candidates": [
+      "다. 이는 사용자가 메모리 풀 매니저에게 다른 요청을 하면 수행된다. 그리고"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          68.68,
+          535.39,
+          319.09
+        ],
+        "page_area_fraction": 0.2146
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0016",
+    "caption": "실험 파라미터 항목과 설정값",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 37,
+    "prefix_match_only": false,
+    "text_before": "응답 지연시간 1 ns/packet\n헤더 지연시간 0.5 ns/packet\n메모리 컨트롤러\n메모리 컨트롤러 갯수 2\n쓰기 버퍼 임계값 50 - 85%\n프론트엔드 지연시간 10 ns/packet\n백엔드 지연시간 10 ns/packet",
+    "caption_and_following_text": "메모리 모듈\n메모리 컨트폴러 당 메모리 모듈 갯수 2\n메모리 모듈 크기 256 MB\n표 2 실험 파라미터 항목과 설정값\n각 컴퓨트 노드는 x86 아키텍처와 L3 캐시를 갖춘 Derive03CPU 모델로 설정하였다. 이러한 컴퓨트 노드는 메모리 풀로부터 메모리를 제공받는다. 모든 실험은 2.2 GHz로\n동작하는 2개의 AMD EPYC 7601 프로세서와 512 GB의 램, 그리고 우분투 18.04.5 (커\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-3-3. 검증 방법",
+    "heading_candidates": [
+      "2-3-3. 검증 방법"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0017",
+    "caption": "보안성 검증 목록",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 30,
+    "prefix_match_only": false,
+    "text_before": "행되어야 한다. 이를 위해 가속기 등에는 Endorsement Key (EK) 가 안전한 내부 영역\n보안 목적 공격 관련 보안 기능\n기밀성\nA1. 중간자 공격 (MiTM) 노드내 키 저장소, 노드간 원격인증 (Remote Attestation)\nA2. 패킷 도청 노드간 대칭키 암호 (AES-GCM)\n무결성\nA3. 패킷 헤더 변조 데이터링크 계층 HMAC",
+    "caption_and_following_text": "A4. 패킷 데이터 변조 노드간 대칭키 암호 (AES-GCM)\nA5. 패킷 재전송 공격 데이터링크 계층 HMAC\n기타 A6. 혼동된 대리인 공격 Capability기반 접근제어\n표 3 보안성 검증 목록\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-3-4. 종합적 안전성 및 보안성 검증 결과",
+    "heading_candidates": [
+      "2-3-4. 종합적 안전성 및 보안성 검증 결과"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0018",
+    "caption": "기존 머신 기반의 시스템과 개별분리 시스템과의 성능 차이",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "capability 에 명시되지 않은 메모리에 접근을 시도하는 경우도 마찬가지로 인터커넥트\n로직에서 예외를 발생시키며 정상적으로 접근 제어를 수행하였다.\n2-3-5. 프로토타입 전체 성능 측정 및 평가\nŸ 실험 1: 머신 기반 시스템과 개별분리 시스템의 성능 비교\n그림 16은 SPEC CPU2006으로 측정한 기존 머신 기반의 시스템과 개별분리 시스템의\n성능 차이를 보여준다. 이 실험으로 개별분리 시스템에서는 캐시 미스율이 클 수록 기\n존 머신 기반의 시스템 보다 훨씬 큰 성능하락이 생김을 알 수 있다. 최악의 경우",
+    "caption_and_following_text": "gobmk 어플리케이션은 7.85배의 성능하락과 2.93%의 캐시 미스를 발생시켰고, 지역성\n(locality)이 높은 hmer와 libquantum은 최소한의 성능하락으로 그쳤다.\n그림 17 기존 머신 기반의 시스템과 개별분리 시스템과의\n성능 차이\n실험1의 결과는 메모리 접근 지연시간이 개별분리 시스템에서 가장 큰 성능 하락의 원\n인임을 보여준다. 캐시 미스가 발생함에 따라 원격에 있는 메모리에 접근하는데 많은\n지연시간이 생기기 때문이다. 메모리 접근 지연시간은 많은 요소로 인해 발생되는데, 예르들어 주소 변환 지연시간, 스위치 처리 시연시간 등이 있다. 이러한 지연시간을 최\n대한 극복하는 것이 개별분리 시스템이 실용화될 수 있는 관건이다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "heading_candidates": [
+      "2-3-5. 프로토타입 전체 성능 측정 및 평가"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.97,
+          308.54,
+          476.38,
+          491.7
+        ],
+        "page_area_fraction": 0.1242
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0019",
+    "caption": "멀티 컴퓨트 노드 환경에서 컴퓨트 노드 1개당 성능 하락",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 47 -\nŸ 실험 2: 컴퓨트 노트 갯수와 전체 시스템의 성능 관계\n그림 17은 SPECint2006 벤치마크의 결과 중 컴퓨트 노드 갯수가 1, 2, 4, 8개로 증가할\n때 컴퓨트 노드 1개에서 측정된 성능 하락을 보여준다. 컴퓨트 노드 서로가 공유된 네\n트워크를 사용하여 메모리에 접근하는 만큼, 각각의 컴퓨트 노드가 성능에 간섭이 생\n김을 알 수 있다. 특히 컴퓨트 노드 갯수가 가장 많은, 8개 컴퓨트 노트 실험에서는\ngobmk 벤치마크에서 최대 8.59%의 성능 하락이 발생했다. 또한 그림 16의 실험과 같",
+    "caption_and_following_text": "은 패턴의 결과가 발생함을 확인했다. 이러한 멀티 컴퓨트 노드 환경에서 패킷을 처리\n하는 성능에 따라 실험 3에서 확인했다.\n그림 18 멀티 컴퓨트 노드 환경에서 컴퓨트 노드 1개당 성능\n하락\nŸ 실험 3: 멀티 컴퓨트 노드 환경에서 패킷 처리 용량과 성능의 상관관계\n본 연구팀은 실험 2에서 멀티 컴퓨트 노드 환경에서 컴퓨트 노드가 많이질 수록 성능\n에 간섭이 생김을 확인했다. 이것의 원인을 파악하기 위해서 본 연구팀은 패킷 처리\n큐의 갯수를 늘렸다. 패킷 처리 큐는 메모리 풀 매니저가 인터페이스로부터 패브릿 패\n킷을 수신하고 패킷 멀티플렉서로 보내기전에 패킷을 보관하는 컴포넌트이다. 패킷 처\n리 큐가 패킷을 보내지 못하고 계속 가지고 있는 현상이라고 가설을 세웠다.",
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.61,
+          432.97,
+          479.86,
+          625.96
+        ],
+        "page_area_fraction": 0.1335
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0020",
+    "caption": "SPECint2006 벤치마크 결과 중 패킷 처리 큐의 갯수 변경과 병목현상 개선 현상",
+    "pdf_page_candidate": 54,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 48 -\n그림 19 SPECint2006 벤치마크 결과 중 패킷 처리 큐의 갯수\n변경과 병목현상 개선 현상\n그림 20 STREAM 벤치마크 결과 중 패킷 처리 큐의 갯수 변경과 병목현상 개선 현상\n그림 18과 그림 19는 패킷 처리 큐의 갯수와 병목현상의 상관관계를 보여준다. 패킷\n처리 큐의 갯수가 많이질 수록 병목현상이 크게 개선됨을 알 수 있다. 특히 컴퓨트 노\n드가 많아질 수록, 지역성이 떨어져 원격 메모리 접근이 많을 수록 개선효과가 두드러\n진다. STREAM 벤치마크에서 copy와 scale은 배열 2개를 이용하고 add와 triad는 배열\n3개를 이용하여 덧셈, 곱셈 등 간단한 연산을 한다. 이러한 벤치마크 특성은 실험 결과\n에도 잘 드러난다. 배열 3개를 이용한 add, triad는 배열 2개를 이용한 copy, scale 보",
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.49,
+          656.4,
+          473.98,
+          798.57
+        ],
+        "page_area_fraction": 0.095
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.33,
+          504.89,
+          476.14,
+          649.93
+        ],
+        "page_area_fraction": 0.0982
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          332.52,
+          546.91,
+          438.84
+        ],
+        "page_area_fraction": 0.1021
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          198.26,
+          546.91,
+          306.27
+        ],
+        "page_area_fraction": 0.1037
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0021",
+    "caption": "STREAM 벤치마크 결과 중 패킷 처리 큐의 갯수 변경과 병목현상 개선 현상",
+    "pdf_page_candidate": 54,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 48 -\n그림 19 SPECint2006 벤치마크 결과 중 패킷 처리 큐의 갯수\n변경과 병목현상 개선 현상\n그림 20 STREAM 벤치마크 결과 중 패킷 처리 큐의 갯수 변경과 병목현상 개선 현상\n그림 18과 그림 19는 패킷 처리 큐의 갯수와 병목현상의 상관관계를 보여준다. 패킷\n처리 큐의 갯수가 많이질 수록 병목현상이 크게 개선됨을 알 수 있다. 특히 컴퓨트 노\n드가 많아질 수록, 지역성이 떨어져 원격 메모리 접근이 많을 수록 개선효과가 두드러\n진다. STREAM 벤치마크에서 copy와 scale은 배열 2개를 이용하고 add와 triad는 배열\n3개를 이용하여 덧셈, 곱셈 등 간단한 연산을 한다. 이러한 벤치마크 특성은 실험 결과\n에도 잘 드러난다. 배열 3개를 이용한 add, triad는 배열 2개를 이용한 copy, scale 보",
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.49,
+          656.4,
+          473.98,
+          798.57
+        ],
+        "page_area_fraction": 0.095
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.33,
+          504.89,
+          476.14,
+          649.93
+        ],
+        "page_area_fraction": 0.0982
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          332.52,
+          546.91,
+          438.84
+        ],
+        "page_area_fraction": 0.1021
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          198.26,
+          546.91,
+          306.27
+        ],
+        "page_area_fraction": 0.1037
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0022",
+    "caption": "메모리 컨트롤러 갯수 및 메모리 모듈과 성능의 상관관계",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "정이상의 갯수를 충족하면 그 병렬성이 줄어들어 시스템 구조에 따라 적당한 갯수의\n패킷 처리 큐를 설계하는 것이 중요하다. 또한 시스템 설계자는 이러한 병목현상을 줄\n이기 위해 시뮬레이터를 잘 활용하는 것이 중요하다.\nŸ 실험 4: 메모리 컨트롤러와 메모리 모듈 및 성능의 상관관계\n본 연구팀은 메모리 컨트롤러와 메모리 모듈의 갯수에 따른 성능을 알아보기 위해 각\n각의 갯수를 달리하여 SPECint2006 벤치마크를 동작시켰다. 결과적으로, 그림 20과 같\n이 메모리 컨트롤러와 메모리 모듈의 갯수가 증가하더라도 시스템의 전반적인 영향은",
+    "caption_and_following_text": "미비했다. 즉, 메모리 컴포넌트들의 병렬성은 효과가 매우 적었다. 충분한 양의 메모리\n가 탑재된다면 메모리 컴포넌트가 시스템의 성능에 미치는 영향은 적다고 볼 수 있다.\n그림 21 메모리 컨트롤러 갯수 및 메모리 모듈과\n성능의 상관관계\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          154.0,
+          304.83,
+          459.47,
+          472.52
+        ],
+        "page_area_fraction": 0.1024
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.36,
+          126.1,
+          461.99,
+          299.07
+        ],
+        "page_area_fraction": 0.1074
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I17-V0023",
+    "caption": "인터커넥트의 소재에 따른 지연시간과 성능의 상관관계",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\nŸ 실험 5: 인터커넥트의 소재에 따른 지연시간과 성능의 상관관계\n인터커넥트는 기존의 구리선 등을 이용한 전자적인 인터커넥트와 광섬유를 이용한 인\n터커넥트가 존재한다. 인터커넥트의 소재에 따라 종단간 지연시간이 매우 큰 차이를\n보이며, 이것은 전체적인 시스템의 성능을 크게 좌우한다. 인터커넥트는 컴퓨트 노드, 메모리 풀 노드 등 수많은 노드들이 공유하는 자원이기 때문이다. 본 연구팀은 이 두\n가지 소재의 지연시간을 시뮬레이터에 설정하고 실험했다. 그 결과, 그림 21과 같이 전\n자식 인터커넥트 스위치는 광학식 인터커넥트 보다 평균 약 5.78배 더 큰 지연시간이\n발생했으며, 이것은 시스템 전반에 2.5배의 성능하락을 보여주었다. 시스템 설계자는\n인터커넥트의 소재를 선택함에 있어서 이러한 성능하락을 예측하고 요구되는 성능에\n부합하는 설계를 하는 것이 중요하다.",
+    "section_context_candidate": "2-3-6. 구현하지 못한 다른 보안요소 구성 방법 제안",
+    "heading_candidates": [
+      "2-3-6. 구현하지 못한 다른 보안요소 구성 방법 제안"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.81,
+          352.53,
+          484.54,
+          606.78
+        ],
+        "page_area_fraction": 0.1807
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

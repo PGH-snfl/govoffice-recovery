@@ -1,0 +1,2452 @@
+[
+  {
+    "visual_id": "I28-V0001",
+    "caption": "쿠파 공식 유튜브 채널 (https://www.youtube.com/@qufa-dataqualityfairness4978)",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 63,
+    "prefix_match_only": false,
+    "text_before": "§ 상업적 이용 가능\n§ 수정 및 배포\n가능\n§ 특허 가능\n§ 사적 이용 가능\n제약조건\n난이도 상 최상 중 하 하",
+    "caption_and_following_text": "라) 공식 유튜브 채널에 따른 일반 사용자와의 소통 및 피드백 수집\n§ 공개SW 산출물 정보의 개방을 통해 일반 사용자 댓글 등에 소통 의견 수집\n§ 수집 된 의견의 수렴 및 피드백/반영에 따른 연구개발 산출물의 고도화 수행\n[그림 13] 쿠파 공식 유튜브 채널 (https://www.youtube.com/@qufa-dataqualityfairness4978)\n(2) 기관별 체계적인 역할 구분에 따른 선순환적인 연구개발 수행\n가) 참여기관의 역할 분담\n§ 데이터품질/공정성/사업화(제품화, 상용화)의 3개의 팀으로 구분\n§ 팀(원)별 주요 개발내용 및 역할 정의에 따른 체계적 기술개발 추진/수행\n나) 선순환적인 연구개발 수행 구조적용\n§ 사업화(상용화)를 위해 연구개발한 원천기술 적용 및 검증",
+    "section_context_candidate": "나) 선순환적인 연구개발 수행 구조적용",
+    "heading_candidates": [
+      "나) 선순환적인 연구개발 수행 구조적용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          254.0,
+          290.96,
+          432.73
+        ],
+        "page_area_fraction": 0.0844
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.28,
+          254.0,
+          537.55,
+          432.73
+        ],
+        "page_area_fraction": 0.0844
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0002",
+    "caption": "공개SW 공식 저장소(https://gitlab.com/qufa/qufa)",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 8 -\n2) 연구개발 수행 내용\n(1) 개별 연구개발 산출물의 RESTful API 化 에 따른 통합 프레임워크 구현\n가) 기관별 원천기술 알고리즘, 모델, 가시화를 위한 연구 및 구현/개발 수행\n§ 총괄(부산대): 데이터 품질/공정성의 지표 체계화\n§ 품질팀(서울시립대, 이화여대, 한성대): 데이터 프로파일링, 품질 분석/개선, 특징공학 기\n반 오류 보정을 위한 원천 알고리즘 연구개발 및 구현",
+    "caption_and_following_text": "§ 공정성팀(부산대, 서울대): 데이터 공정성 보정을 위한 원천 알고리즘 연구 및 개발\n§ 사업화/상용화팀(프람트테크놀로지, 아이소프트): 품질/공정성 가시화를 위한 연구 및 기\n관별 연구개발 원천기술의 사업화(상용화)를 위한 통합 프레임워크 설계 및 구현/개발\n[그림 16] 공개SW 공식 저장소(https://gitlab.com/qufa/qufa)\n나) 공개SW 저장소의 기관별 원천 알고리즘(모델, 가시화) 통합을 위한 API 서버 설계/구축\n[그림 17] 원천기술 통합을 위한 API 서버 아키텍처\n§ Flask 기반의 REST-JSON API 제공\n§ 사용자의 API 호출에 따라 품질/공정성 원천 알고리즘을 통한 데이터셋의 분석 및 보정\n수행 후 검증 모델 기반의 보정 결과 제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 연구개발 수행 내용",
+    "heading_candidates": [
+      "2) 연구개발 수행 내용",
+      "가) 기관별 원천기술 알고리즘, 모델, 가시화를 위한 연구 및 구현/개발 수행"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.84,
+          373.75,
+          449.28,
+          638.78
+        ],
+        "page_area_fraction": 0.1607
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.65,
+          139.65,
+          465.47,
+          317.53
+        ],
+        "page_area_fraction": 0.1194
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0003",
+    "caption": "원천기술 통합을 위한 API 서버 아키텍처",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "(1) 개별 연구개발 산출물의 RESTful API 化 에 따른 통합 프레임워크 구현\n가) 기관별 원천기술 알고리즘, 모델, 가시화를 위한 연구 및 구현/개발 수행\n§ 총괄(부산대): 데이터 품질/공정성의 지표 체계화\n§ 품질팀(서울시립대, 이화여대, 한성대): 데이터 프로파일링, 품질 분석/개선, 특징공학 기\n반 오류 보정을 위한 원천 알고리즘 연구개발 및 구현\n§ 공정성팀(부산대, 서울대): 데이터 공정성 보정을 위한 원천 알고리즘 연구 및 개발\n§ 사업화/상용화팀(프람트테크놀로지, 아이소프트): 품질/공정성 가시화를 위한 연구 및 기",
+    "caption_and_following_text": "관별 연구개발 원천기술의 사업화(상용화)를 위한 통합 프레임워크 설계 및 구현/개발\n[그림 16] 공개SW 공식 저장소(https://gitlab.com/qufa/qufa)\n나) 공개SW 저장소의 기관별 원천 알고리즘(모델, 가시화) 통합을 위한 API 서버 설계/구축\n[그림 17] 원천기술 통합을 위한 API 서버 아키텍처\n§ Flask 기반의 REST-JSON API 제공\n§ 사용자의 API 호출에 따라 품질/공정성 원천 알고리즘을 통한 데이터셋의 분석 및 보정\n수행 후 검증 모델 기반의 보정 결과 제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 연구개발 수행 내용",
+    "heading_candidates": [
+      "2) 연구개발 수행 내용",
+      "가) 기관별 원천기술 알고리즘, 모델, 가시화를 위한 연구 및 구현/개발 수행"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.84,
+          373.75,
+          449.28,
+          638.78
+        ],
+        "page_area_fraction": 0.1607
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.65,
+          139.65,
+          465.47,
+          317.53
+        ],
+        "page_area_fraction": 0.1194
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0004",
+    "caption": "통합 솔루션의 시스템 아키텍처",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 9 -",
+    "caption_and_following_text": "다) 기관별 산출물의 통합 연동을 위한 솔루션의 프로토타입 개발\n§ 2단계 연구개발 수행 목표인 솔루션의 실증/제품화(상용화)에 기반 마련을 위한 솔루션\n프로토타입 설계 및 구현\n[그림 18] 통합 솔루션의 시스템 아키텍처\n§ 기관별 산출물(원천기술 알고리즘, 품질/공정성/프로파일링/특징공학 모델, 사용자 친화\n적 가시화 모듈 등)의 RESTful API 化에 따른 원천기술의 재사용성 제고 및 통합 용이성\n/효율성 확보\n§ 공동연구 및 수요기업인 ㈜프람트테크놀로지의 솔루션 통합 및 프로토타입\n[그림 19] 쿠파 통합 프레임워크 솔루션\n(2) 사업화(상용화)를 위해 공개SW 연구수행 결과의 적용 및 검증 실시 (MOU 완료)",
+    "section_context_candidate": "다) 기관별 산출물의 통합 연동을 위한 솔루션의 프로토타입 개발",
+    "heading_candidates": [
+      "다) 기관별 산출물의 통합 연동을 위한 솔루션의 프로토타입 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          53.37,
+          501.41,
+          541.75,
+          745.82
+        ],
+        "page_area_fraction": 0.2385
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.53,
+          166.02,
+          536.71,
+          392.57
+        ],
+        "page_area_fraction": 0.2165
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0005",
+    "caption": "쿠파 통합 프레임워크 솔루션",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 9 -\n다) 기관별 산출물의 통합 연동을 위한 솔루션의 프로토타입 개발\n§ 2단계 연구개발 수행 목표인 솔루션의 실증/제품화(상용화)에 기반 마련을 위한 솔루션\n프로토타입 설계 및 구현\n[그림 18] 통합 솔루션의 시스템 아키텍처\n§ 기관별 산출물(원천기술 알고리즘, 품질/공정성/프로파일링/특징공학 모델, 사용자 친화",
+    "caption_and_following_text": "적 가시화 모듈 등)의 RESTful API 化에 따른 원천기술의 재사용성 제고 및 통합 용이성\n/효율성 확보\n§ 공동연구 및 수요기업인 ㈜프람트테크놀로지의 솔루션 통합 및 프로토타입\n[그림 19] 쿠파 통합 프레임워크 솔루션\n(2) 사업화(상용화)를 위해 공개SW 연구수행 결과의 적용 및 검증 실시 (MOU 완료)\n가) (공공기관) 한국공항공사 데이터의 품질보정 및 항공기 도착 예측\n§ (공항 데이터 응용) 공항 도메인 데이터 셋 중 비행 소요 시간 예측에 영향을 주는 요소\n분석 및 연구\nü 비행 소요 시간에 영향을 주는 특성을 분석하고, 도메인 이외의 외부 데이터 수집하\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다) 기관별 산출물의 통합 연동을 위한 솔루션의 프로토타입 개발",
+    "heading_candidates": [
+      "다) 기관별 산출물의 통합 연동을 위한 솔루션의 프로토타입 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          53.37,
+          501.41,
+          541.75,
+          745.82
+        ],
+        "page_area_fraction": 0.2385
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.53,
+          166.02,
+          536.71,
+          392.57
+        ],
+        "page_area_fraction": 0.2165
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0006",
+    "caption": "1단계 1차년도 기관별 연구개발 내용 및 산출물",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 14 -\n(3) 1단계 1차년도 – 원천기술 연구 및 개발\n[그림 22] 1단계 1차년도 기관별 연구개발 내용 및 산출물\n가) 1단계 1차년도 기관별 개발 목표\n나) 1단계 1차년도 연구개발 세부 내용\n[부산대학교]\nn 교통 데이터 품질지표 분석\n§ 교통 영역에서의 데이터 소스/타입/응용 분석\nü (교통 데이터 응용) 교통 도메인 데이터 셋 중 공공 교통정보 반복 및 비 반복 정체\n분석 방법 연구",
+    "section_context_candidate": "가) 1단계 1차년도 기관별 개발 목표",
+    "heading_candidates": [
+      "가) 1단계 1차년도 기관별 개발 목표",
+      "나) 1단계 1차년도 연구개발 세부 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.2,
+          532.7,
+          516.92,
+          780.95
+        ],
+        "page_area_fraction": 0.2177
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0007",
+    "caption": "인공지능형자료 진단 방법 예시",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 19 -\n품질지표 방법 설명\n성편차\nㅇ 층간의 표본빈도 분포와 보정된 빈도를 비교\nㅇ 주요변수의 층간 분포 편차를 비교하고 종합적인 층간 변이지표를 확인",
+    "caption_and_following_text": "ㅇ 층간의 precision-recall과 true/false positive 곡선 사이의 gap을 평가\n연령편차\n인구집단 편차\n[표] 인공지능형자료 진단 방법 예시\n§ 보건분야 인공지능형 분석을 위한 모델링\nü 비정형 데이터 품질측정 및 개선방안 연구진행\nü 공정성 지표의 범주를 확인하고 구분하여 지표를 선정\nŸ 독립/통계 패리티 (Independence / Statistical Parity):  ⫫ : 데이터 편향 제거\nŸ 균등한 승률(Equalized Odds):  ⫫  : 귀납 편향 제거\n[그림23] 독립/통계 패리티 [그림24] 균등한 승률(Equalized Odds)",
+    "section_context_candidate": "나) 1단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.61,
+          492.54,
+          322.15,
+          581.72
+        ],
+        "page_area_fraction": 0.0336
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          335.1,
+          490.02,
+          526.16,
+          584.12
+        ],
+        "page_area_fraction": 0.0359
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.53,
+          100.21,
+          471.47,
+          385.62
+        ],
+        "page_area_fraction": 0.1984
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0008",
+    "caption": "독립/통계 패리티",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "성편차\nㅇ 층간의 표본빈도 분포와 보정된 빈도를 비교\nㅇ 주요변수의 층간 분포 편차를 비교하고 종합적인 층간 변이지표를 확인\nㅇ 층간의 precision-recall과 true/false positive 곡선 사이의 gap을 평가\n연령편차\n인구집단 편차\n[표] 인공지능형자료 진단 방법 예시",
+    "caption_and_following_text": "§ 보건분야 인공지능형 분석을 위한 모델링\nü 비정형 데이터 품질측정 및 개선방안 연구진행\nü 공정성 지표의 범주를 확인하고 구분하여 지표를 선정\nŸ 독립/통계 패리티 (Independence / Statistical Parity):  ⫫ : 데이터 편향 제거\nŸ 균등한 승률(Equalized Odds):  ⫫  : 귀납 편향 제거\n[그림23] 독립/통계 패리티 [그림24] 균등한 승률(Equalized Odds)\nn 품질지표 구축\n§ 데이터 품질지표 및 공정성 지표구축\n§ 품질의 수준을 측정하기 위한 지표선정\n§ 일반자료와 인공지능형 자료에 따른 지표분류",
+    "section_context_candidate": "나) 1단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.61,
+          492.54,
+          322.15,
+          581.72
+        ],
+        "page_area_fraction": 0.0336
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          335.1,
+          490.02,
+          526.16,
+          584.12
+        ],
+        "page_area_fraction": 0.0359
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.53,
+          100.21,
+          471.47,
+          385.62
+        ],
+        "page_area_fraction": 0.1984
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0009",
+    "caption": "균등한 승률(Equalized Odds)",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "ㅇ 층간의 표본빈도 분포와 보정된 빈도를 비교\nㅇ 주요변수의 층간 분포 편차를 비교하고 종합적인 층간 변이지표를 확인\nㅇ 층간의 precision-recall과 true/false positive 곡선 사이의 gap을 평가\n연령편차\n인구집단 편차\n[표] 인공지능형자료 진단 방법 예시\n§ 보건분야 인공지능형 분석을 위한 모델링",
+    "caption_and_following_text": "ü 비정형 데이터 품질측정 및 개선방안 연구진행\nü 공정성 지표의 범주를 확인하고 구분하여 지표를 선정\nŸ 독립/통계 패리티 (Independence / Statistical Parity):  ⫫ : 데이터 편향 제거\nŸ 균등한 승률(Equalized Odds):  ⫫  : 귀납 편향 제거\n[그림23] 독립/통계 패리티 [그림24] 균등한 승률(Equalized Odds)\nn 품질지표 구축\n§ 데이터 품질지표 및 공정성 지표구축\n§ 품질의 수준을 측정하기 위한 지표선정\n§ 일반자료와 인공지능형 자료에 따른 지표분류\n§ 품질지표에 근거한 진단 방법 제시",
+    "section_context_candidate": "나) 1단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.61,
+          492.54,
+          322.15,
+          581.72
+        ],
+        "page_area_fraction": 0.0336
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          335.1,
+          490.02,
+          526.16,
+          584.12
+        ],
+        "page_area_fraction": 0.0359
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.53,
+          100.21,
+          471.47,
+          385.62
+        ],
+        "page_area_fraction": 0.1984
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0010",
+    "caption": "재난데이터 품질분석 요약 보고서(일부)",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "광주광역시 소방항공대 헬기 출동현황 85 7 데이터 형식의 비일관성 및 오류 기입\n다량의 결측치\n광주광역시_광산구_소방서 활동실적(화재) 294 6 다량의 결측치\n광주광역시 동구 화재발생 현황 5 4 파편화된 지역정보르 인한 완성성 결여\n총화재대비 전기화재현황 18 13 일부시기만 공개(완성성 결여), 단순 통계자료\n산업통상자원부_해외전기화재 통계 12 18 샘플 데이터 수준, 다량의 결측치, 단순 통계자료\n지역별전기화재현황 6 3 단순 통계자료",
+    "caption_and_following_text": "서울시 화재 출동현황 11495 8 일부시기만 공개(완전성 결여)\n울산광역시_년화재발생현황분석 5 17 일부지역만 공개(완전성 결여)\n울산광역시_년화재활동통계 12 7 일부지역만 공개(완전성 결여)\n[그림 25] 재난데이터 품질분석 요약 보고서(일부)\nn 데이터 프로파일링 분류 및 관리체계 설계\n§ 데이터 프로파일러 관리체계 절차\n[그림 26] 데이터 프로파일 관리체계 구축을 위한 프로세스\n§ (메타데이터 표준현황조사) 국제표준 중심의 메타 데이터 현황을 조사하고, 데이터 품질\n및 공정성 관련 명세에 활용가능한 항목조사(참조: 메타데이터 표준 분석보고서)\n: (DCAT v2) 여러 사이트 간에 데이터를 통합 검색하고 상호운용을 지원하는 가장 잘 알",
+    "section_context_candidate": "나) 1단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.11,
+          368.48,
+          464.87,
+          530.06
+        ],
+        "page_area_fraction": 0.0984
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0011",
+    "caption": "데이터 프로파일 관리체계 구축을 위한 프로세스",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "광주광역시 동구 화재발생 현황 5 4 파편화된 지역정보르 인한 완성성 결여\n총화재대비 전기화재현황 18 13 일부시기만 공개(완성성 결여), 단순 통계자료\n산업통상자원부_해외전기화재 통계 12 18 샘플 데이터 수준, 다량의 결측치, 단순 통계자료\n지역별전기화재현황 6 3 단순 통계자료\n서울시 화재 출동현황 11495 8 일부시기만 공개(완전성 결여)\n울산광역시_년화재발생현황분석 5 17 일부지역만 공개(완전성 결여)\n울산광역시_년화재활동통계 12 7 일부지역만 공개(완전성 결여)",
+    "caption_and_following_text": "[그림 25] 재난데이터 품질분석 요약 보고서(일부)\nn 데이터 프로파일링 분류 및 관리체계 설계\n§ 데이터 프로파일러 관리체계 절차\n[그림 26] 데이터 프로파일 관리체계 구축을 위한 프로세스\n§ (메타데이터 표준현황조사) 국제표준 중심의 메타 데이터 현황을 조사하고, 데이터 품질\n및 공정성 관련 명세에 활용가능한 항목조사(참조: 메타데이터 표준 분석보고서)\n: (DCAT v2) 여러 사이트 간에 데이터를 통합 검색하고 상호운용을 지원하는 가장 잘 알\n려진 국제 표준으로 W3C의 Data Exchange WG에서 표준화가 진행중\n※ DCAT v2는 DataSet이나 DataService(API 등)에 대한 기본 정보(상품명, 소유권, 업데이터\n주기 등)는 물론 품질, 유통 등 다양한 정보를 서술하고 공유 가능",
+    "section_context_candidate": "나) 1단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.11,
+          368.48,
+          464.87,
+          530.06
+        ],
+        "page_area_fraction": 0.0984
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0012",
+    "caption": "데이터 프로파일러 시퀀스 다이어그램",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 25 -\n§ 품질평가 프로세스 모델의 시퀀스 다이어그램",
+    "caption_and_following_text": "ü 아래는 데이터 품질 파악의 기초라 할 수 있는 데이터 프로파일링 결과 생성을 위한\n시퀀스 다이어그램 및 품질 평가 대상인 데이터셋의 메타데이터를 자동 추출하고 이\n를 저장하는 기능에 대한 시퀀스 다이어그램임\n[그림29] 데이터 프로파일러 시퀀스 다이어그램\n[그림30] 메타데이터 추출 및 저장 시퀀스 다이어그램\nü 데이터 프로파일러는 타겟 데이터에 대하여 먼저 Value Distribution을 수행하여 총 레\n코드 개수, Null 값의 개수 등을 분석하여 데이터베이스에 저장함\nü 기타 문자열 분석, 숫자 분석, 날짜 및 시간 분석 등 데이터 타입별로 추가 분석을 수\n행하여 타겟 데이터에 대한 프로파일링을 수행하고 이의 결과를 데이터베이스에 저장\n하고 사용자에게 제공함으로써 필요시 추가적인 개선 작업등을 위한 피드백을 요청하",
+    "section_context_candidate": "나) 1단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.0,
+          455.62,
+          282.69,
+          728.2
+        ],
+        "page_area_fraction": 0.1137
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          293.6,
+          455.74,
+          521.12,
+          727.84
+        ],
+        "page_area_fraction": 0.1237
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0013",
+    "caption": "메타데이터 추출 및 저장 시퀀스 다이어그램",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 25 -\n§ 품질평가 프로세스 모델의 시퀀스 다이어그램\nü 아래는 데이터 품질 파악의 기초라 할 수 있는 데이터 프로파일링 결과 생성을 위한",
+    "caption_and_following_text": "시퀀스 다이어그램 및 품질 평가 대상인 데이터셋의 메타데이터를 자동 추출하고 이\n를 저장하는 기능에 대한 시퀀스 다이어그램임\n[그림29] 데이터 프로파일러 시퀀스 다이어그램\n[그림30] 메타데이터 추출 및 저장 시퀀스 다이어그램\nü 데이터 프로파일러는 타겟 데이터에 대하여 먼저 Value Distribution을 수행하여 총 레\n코드 개수, Null 값의 개수 등을 분석하여 데이터베이스에 저장함\nü 기타 문자열 분석, 숫자 분석, 날짜 및 시간 분석 등 데이터 타입별로 추가 분석을 수\n행하여 타겟 데이터에 대한 프로파일링을 수행하고 이의 결과를 데이터베이스에 저장\n하고 사용자에게 제공함으로써 필요시 추가적인 개선 작업등을 위한 피드백을 요청하\n도록 함",
+    "section_context_candidate": "나) 1단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.0,
+          455.62,
+          282.69,
+          728.2
+        ],
+        "page_area_fraction": 0.1137
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          293.6,
+          455.74,
+          521.12,
+          727.84
+        ],
+        "page_area_fraction": 0.1237
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0014",
+    "caption": "프로파일링 결과 피드백 작성 화면",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 27 -\n[그림 32] 프로파일링 결과 피드백 작성 화면\nü 최소 기준을 만족하지 못한 결과에 대해서는 사용자가 작성한 피드백을 분석한 뒤, 분석결과에 따라 품질 평가 기준을 수정하고 프로파일링 및 품질 평가를 재수행할 수\n있도록 함\n[아이소프트]\nn 데이터 품질 수준 및 척도\n§ 5종 데이터 도메인별, 데이터 품질 수준 현황 조사 분석\n§ 교통 도메인의 공공/민간 데이터의 활용 방안 또는 사례 분석\n§ 보건 도메인의 개방/연계현황 및 품질 수준/척도 분석\n§ 화재, 감염병 등의 재난 도메인 데이터의 분석",
+    "section_context_candidate": "나) 1단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          610.37,
+          442.8,
+          798.57
+        ],
+        "page_area_fraction": 0.1259
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0015",
+    "caption": "1단계 2차년도 기관별 연구개발 내용 및 산출물",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n(4) 1단계 2차년도 – 원천기술의 고도화 개발 및 통합\n[그림 35] 1단계 2차년도 기관별 연구개발 내용 및 산출물\n가) 1단계 2차년도 기관별 개발 목표\n나) 1단계 2차년도 연구개발 세부 내용\n[부산대학교]\nn 데이터셋 구성 요소 중 공정성에 영향을 주는 요소 파악\n§ (공정성 구성 요소 분석) 데이터 공정성에 영향을 주는 요소 파악\n수행기관 개발목표\n주관기관",
+    "section_context_candidate": "가) 1단계 2차년도 기관별 개발 목표",
+    "heading_candidates": [
+      "가) 1단계 2차년도 기관별 개발 목표",
+      "나) 1단계 2차년도 연구개발 세부 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.96,
+          514.12,
+          517.16,
+          763.44
+        ],
+        "page_area_fraction": 0.2188
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0016",
+    "caption": "데이터셋의 품질 개선 프로젝트의 자동화 단계별 수행",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "[서울시립대학교]\nn 데이터 품질 개선 자동화 기반 설계\n§ 학습 데이터셋 개선 자동화 기반 설계\nü 미가공 입력 빅데이터 대한 분석을 위한 클라우드 서비스 설계\nŸ 가공되지 않은 상태의 데이터들을 클라우드에 업로드 하면, 중앙 서버에서 데이터\n를 분석하여 데이터의 타입과 분포, 세부특성 등을 고려해 전/후처리 작업을 거쳐\n개선된 품질의 데이터로 가공하여 반환하는 기술 구현이 목표",
+    "caption_and_following_text": "ü 클라우드 기반 학습 데이터셋 개선 자동화 서비스 프로토타이핑\nŸ 데이터 준비, 정제, 증강, 특성공학 등 단계에서 사용자의 개입과 자동화 결합한\n데이셋 품질개선 서비스 프로토타이핑\n[그림 40] 데이터셋의 품질 개선 프로젝트의 자동화 단계별 수행\nü 데이터 준비(Data Preparation)단계 Ÿ CSV 포맷으로 입력되는 다변량의 정형 데이터 개선을 목표로 함\nŸ 입력되는 데이터 각각의 Column들의 데이터 형태에 대해서 수치형(연속형, 이산\n형) 및 범주형(개념형 및 순서형)으로 크게 구분하고 기술 통계량 확인 후, 사용자\n에게 사전 검토를 받음\nü 데이터 정제(Data Cleaning)단계 Ÿ 사용자 정의 데이터 항목 규칙들을 입력받아, 위배하는 항목에 대한 검토를 진행 Ÿ 데이터 특성과 분포 바탕으로 중복 값의 허용 여부, 이상치 제거, 도메인 불일치\n제거 등의 작업을 진행",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.47,
+          340.07,
+          561.54,
+          625.95
+        ],
+        "page_area_fraction": 0.268
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0017",
+    "caption": "클라우드 상에서 분석의 에: 연속형 데이터의 왜도(Skew) 첨도(Kurt) 분석",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n[그림 41] 클라우드 상에서 분석의 에: 연속형 데이터의 왜도(Skew) 첨도(Kurt) 분석\nü 특징공학(Feature Engineering) 단계 Ÿ 앞선 단계들을 통해 다양한 전처리 작업을 거치며 충분한 규모로 각 Column 데이\n터 분포들이 적절하게 균형잡힌 데이터가 되었을때, 이를 실제 학습에 유의미한 결\n과를 얻을 수 있도록 왜도, 첨도, 정규화, 합성성분 추출, 상관계수 분석 등의 작\n업을 진행\nü 후처리(Extra-process) 단계 Ÿ 사용자 선택에 따라 정제된 데이터셋을 의도적으로 훼손하는 작업들을 포함\nŸ 개인정보를 식별할 수 있는 정보들을 Masking 하거나 가공ㆍ정제된 데이터셋을 현\n실 데이터 환경에 유사한 Mild noise를 의도적으로 포함하는 과정을 거치면서 오히\n려 데이터의 안정성을 향상시키는 과정을 포함",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.18,
+          643.7,
+          480.82,
+          798.57
+        ],
+        "page_area_fraction": 0.1135
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0018",
+    "caption": "셀프 어텐션 기반 테이블 데이터 결측치 보간 모델",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 42 -\nü 셀프 어텐션 기반 정형 데이터 결측치 보간 딥러닝 모델 개발\nŸ 수치형/범주형 변수가 혼합되어 있는 정형 데이터를 대상으로 결측 보간을 위한 셀",
+    "caption_and_following_text": "프 어텐션 기반 딥러닝 모델을 개발\nŸ 본 연구는 수치형/범주형 변수가 혼합되어 있는 테이블 데이터를 대상으로 결측 보\n간을 위한 셀프 어텐션(Self-Attention) 기반 딥러닝 모델을 제안함\n[그림 42] 셀프 어텐션 기반 테이블 데이터 결측치 보간 모델\nŸ 셀프 어텐션을 통해 수치, 범주, 결측 변수 값에 대한 상관성을 바탕으로 적절한\n대체값을 예측\nŸ 멀티 태스크 러닝을 활용하여 수치형 변수 예측인 회귀 문제와 범주형 변수 예측\n인 분류 문제를 동시에 처리할 수 있도록 함\n[그림 43] 특징 표현 모듈\nŸ 수치형 변수의 경우 이산화 처리를 통하여, 결측값의 경우 결측 여부에 대해서 범",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.46,
+          584.0,
+          490.54,
+          710.7
+        ],
+        "page_area_fraction": 0.0978
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.16,
+          277.38,
+          444.84,
+          475.04
+        ],
+        "page_area_fraction": 0.1164
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0019",
+    "caption": "특징 표현 모듈",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "ü 셀프 어텐션 기반 정형 데이터 결측치 보간 딥러닝 모델 개발\nŸ 수치형/범주형 변수가 혼합되어 있는 정형 데이터를 대상으로 결측 보간을 위한 셀\n프 어텐션 기반 딥러닝 모델을 개발\nŸ 본 연구는 수치형/범주형 변수가 혼합되어 있는 테이블 데이터를 대상으로 결측 보\n간을 위한 셀프 어텐션(Self-Attention) 기반 딥러닝 모델을 제안함\n[그림 42] 셀프 어텐션 기반 테이블 데이터 결측치 보간 모델\nŸ 셀프 어텐션을 통해 수치, 범주, 결측 변수 값에 대한 상관성을 바탕으로 적절한",
+    "caption_and_following_text": "대체값을 예측\nŸ 멀티 태스크 러닝을 활용하여 수치형 변수 예측인 회귀 문제와 범주형 변수 예측\n인 분류 문제를 동시에 처리할 수 있도록 함\n[그림 43] 특징 표현 모듈\nŸ 수치형 변수의 경우 이산화 처리를 통하여, 결측값의 경우 결측 여부에 대해서 범\n주형 변수 값과 같이 간주하고 임베딩 벡터를 학습 → 각 변수 값(수치형/범주형/\n결측 변수)들 간의 상관성을 셀프 어텐션 레이어를 통해 학습하여 결측값 보간에\n필요한 특징을 추출\nŸ 통계량 기반 보간 기법 대비 낮은 오차를 갖는 대체값을 예측함 (성능 향상율\n22.05~86.66%) Ÿ 측값이 존재하지 않는 완벽한 테이블 데이터에 대해 MCAR(Missing Completely At",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.46,
+          584.0,
+          490.54,
+          710.7
+        ],
+        "page_area_fraction": 0.0978
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.16,
+          277.38,
+          444.84,
+          475.04
+        ],
+        "page_area_fraction": 0.1164
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0020",
+    "caption": "보간된 데이터를 학습한 이진 분류기 성능",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 43 -",
+    "caption_and_following_text": "Ÿ Adult 데이터 셋의 경우 86.66%의 성능 향상을 보였고, Bank 데이터셋의 경우\n55.68%의 성능 향상을 보임으로서 제안 모델이 준수한 성능을 보이는 것을 알 수\n있음\n[표] 보간된 데이터를 학습한 이진 분류기 성능\n데이터셋 보간 기법 평균 AUC-ROC\nAdult 원본 데이터 0.9052\n보간된 데이터 0.9048\nBank 원본 데이터 0.9030\n보간된 데이터 0.9026\nŸ 이진 분류기 성능을 평가하기 위해 AUC-ROC를 평가척도로 하며 값이 높을수록",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.72,
+          327.48,
+          517.4,
+          498.53
+        ],
+        "page_area_fraction": 0.1503
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0021",
+    "caption": "TIMEBAND 기법을 적용한 농수산물 가격 예측 모델의 시각화",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "Adult 원본 데이터 0.9052\n보간된 데이터 0.9048\nBank 원본 데이터 0.9030\n보간된 데이터 0.9026\nŸ 이진 분류기 성능을 평가하기 위해 AUC-ROC를 평가척도로 하며 값이 높을수록\n분류기가 좋은 성능을 보임으로 해석할 수 있음. 이 경우 원래 데이터를 학습한 이\n진 분류기의 성능이 상한(upper bound)이 되며, 보간된 데이터를 학습한 모델의",
+    "caption_and_following_text": "성능과의 차이가 적을수록 제안 모델이 좋은 성능을 보임을 해석할 수 있음 Ÿ Adult, Bank 데이터셋 모두 성능 차이가 0.001 미만이며 제안 모델이 보간한 데이\n터가 유용하게 사용될 수 있음을 보임\n§ 딥러닝 기반 시계열 데이터 결측값 보완 및 이상치 제거 알고리즘 및 모듈 개발\n[그림 44] TIMEBAND 기법을 적용한 농수산물 가격 예측 모델의 시각화\nü 시계열 데이터의 특성을 고려한 품질 개선 방안\nŸ IoT 기반 시계열 데이터에 대한 이상치 탐지를 위해 머신러닝 기법을 적용한 연구\n필요: 제조 시스템에서 비정상적인 동작이 일어날 때, 시계열의 데이터를 분석하기\n위하여 시퀀스 데이터에 적합한 Locality Density Cluster, LSTM, GRU 등의 최신\n머신러닝 지도/비지도 학습 알고리즘 활용\nŸ 정형 데이터에 대한 이상치 탐지 알고리즘 대비 시계열 또는 IoT 센서 데이터에",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.72,
+          327.48,
+          517.4,
+          498.53
+        ],
+        "page_area_fraction": 0.1503
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0022",
+    "caption": "시계열 데이터 품질 개선을 위한 LSTM-GAN 기본 구조",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 44 -\n[그림 45] 시계열 데이터 품질 개선을 위한 LSTM-GAN 기본 구조\nü 본 연구는 기존의 대용량의 시계열 데이터에서 결측치(Missing Value)와 이상치\n(Anomaly value)를 높은 품질로 보정 및 개선하기 위한 목적을 지님\nŸ 시계열의 특성을 보존하기 위해 LSTM 기반의 GAN을 이용해 관측된 기준 패턴\n(pivot pattern)을 바탕으로 예측 패턴(predicted pattern)을 생성\nŸ 이는 기존 전통적인 시계열 예측 방법론에서 모델의 주기적인 패턴을 선형적인 모\n형을 기반으로 예측하는 것보다 더 높은 예측 정확도를 보임\n[그림 46] Wasserstein Loss\nü GAN 모델 학습 안전성을 위해 최신 기법들이 도입됨. 생성자와 판별자 사이의 균형",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.52,
+          629.67,
+          450.48,
+          798.57
+        ],
+        "page_area_fraction": 0.1033
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.51,
+          442.8,
+          429.61,
+          484.03
+        ],
+        "page_area_fraction": 0.0218
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.75,
+          191.19,
+          494.37,
+          348.94
+        ],
+        "page_area_fraction": 0.1241
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0023",
+    "caption": "Wasserstein Loss",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 44 -\n[그림 45] 시계열 데이터 품질 개선을 위한 LSTM-GAN 기본 구조\nü 본 연구는 기존의 대용량의 시계열 데이터에서 결측치(Missing Value)와 이상치\n(Anomaly value)를 높은 품질로 보정 및 개선하기 위한 목적을 지님\nŸ 시계열의 특성을 보존하기 위해 LSTM 기반의 GAN을 이용해 관측된 기준 패턴",
+    "caption_and_following_text": "(pivot pattern)을 바탕으로 예측 패턴(predicted pattern)을 생성\nŸ 이는 기존 전통적인 시계열 예측 방법론에서 모델의 주기적인 패턴을 선형적인 모\n형을 기반으로 예측하는 것보다 더 높은 예측 정확도를 보임\n[그림 46] Wasserstein Loss\nü GAN 모델 학습 안전성을 위해 최신 기법들이 도입됨. 생성자와 판별자 사이의 균형\n이 붕괴되는 Mode Collapse를 방지하기 위해 학습 균형을 위한 Critic 구조가 적용\nŸ GAN의 Loss 값으로 합성 데이터 진위판정 loss와 함께 원본 데이터-생성 데이터\n사이의 기울기 차 및 거리에 따른 추가적인 penalty 값을 활용한 Loss를 구성\n[그림 47] 기준 패턴을 기반으로 하는 데이터 합성 및 적대적 신경망 구성\nü LSTM 기반 구조의 GAN에 의해 생성된 데이터는 전후 시계열 데이터의 시간적 의존",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.52,
+          629.67,
+          450.48,
+          798.57
+        ],
+        "page_area_fraction": 0.1033
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.51,
+          442.8,
+          429.61,
+          484.03
+        ],
+        "page_area_fraction": 0.0218
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.75,
+          191.19,
+          494.37,
+          348.94
+        ],
+        "page_area_fraction": 0.1241
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0024",
+    "caption": "기준 패턴을 기반으로 하는 데이터 합성 및 적대적 신경망 구성",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "(Anomaly value)를 높은 품질로 보정 및 개선하기 위한 목적을 지님\nŸ 시계열의 특성을 보존하기 위해 LSTM 기반의 GAN을 이용해 관측된 기준 패턴\n(pivot pattern)을 바탕으로 예측 패턴(predicted pattern)을 생성\nŸ 이는 기존 전통적인 시계열 예측 방법론에서 모델의 주기적인 패턴을 선형적인 모\n형을 기반으로 예측하는 것보다 더 높은 예측 정확도를 보임\n[그림 46] Wasserstein Loss\nü GAN 모델 학습 안전성을 위해 최신 기법들이 도입됨. 생성자와 판별자 사이의 균형",
+    "caption_and_following_text": "이 붕괴되는 Mode Collapse를 방지하기 위해 학습 균형을 위한 Critic 구조가 적용\nŸ GAN의 Loss 값으로 합성 데이터 진위판정 loss와 함께 원본 데이터-생성 데이터\n사이의 기울기 차 및 거리에 따른 추가적인 penalty 값을 활용한 Loss를 구성\n[그림 47] 기준 패턴을 기반으로 하는 데이터 합성 및 적대적 신경망 구성\nü LSTM 기반 구조의 GAN에 의해 생성된 데이터는 전후 시계열 데이터의 시간적 의존\n성을 고려하면서 pivot pattern의 값을 기반으로 이후의 값을 예측하는 값이므로, 출\n력되는 예측값들이 왜 이렇게 분포하는가? 에 대하여 해석 가능한 결과를 제공\nü 본 모델은 새로운 데이터가 등장하더라도, 새로운 학습된 모델을 필요로 하지않는 학\n습 모델(Incremental/Online Learning)임\nŸ 따라서 연속적으로 데이터를 받고 이상현상 발생 등 빠른 변화에 민감하게 대응해",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.52,
+          629.67,
+          450.48,
+          798.57
+        ],
+        "page_area_fraction": 0.1033
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.51,
+          442.8,
+          429.61,
+          484.03
+        ],
+        "page_area_fraction": 0.0218
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.75,
+          191.19,
+          494.37,
+          348.94
+        ],
+        "page_area_fraction": 0.1241
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0025",
+    "caption": "데이터 프로파일 서비스 아키텍처",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 45,
+    "prefix_match_only": false,
+    "text_before": "응용 서비스\nDependency\nAnalyzer\n원천\n데이터\n분석요청\n(필요시",
+    "caption_and_following_text": "원천데이터\n포함)\n분석결과\n[그림 53] 데이터 프로파일 서비스 아키텍처\nü 작업 큐(job queue)와 작업 컨트롤러(job controller): API를 통해 요청되는 프로파일\n링 서비스의 부하와 작업순서를 제어\nü 타입 검사기(type checker): 원천 데이터의 각 컬럼에 대한 타입을 자동으로 결정\nü 기본 분석기(basic analyzer): 원천 데이터의 기본적인 정보, 예를 들어 레코드나 컬럼\n의 수, 크기, 각 컬럼의 값 분포 등의 요약 정보를 생성\nü 수치 분석기(number analyzer), 문자열 분석기(string analyzer), 시간 분석기(time",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0026",
+    "caption": "프로파일 저장소 구조",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 49 -\n[그림 54] 프로파일 저장소 구조\n§ (프로파일 정보제공 서비스) 오픈포맷을 지원하는 데이터 프로파일 서비스 기술 개발\nü 자동 생성된 데이터 프로파일은 JSON과 같은 오픈포맷 형태로 서비스할 수 있도록\n자동 변환됨. 다음은 JSON으로 저장된 데이터 프로파일 구조와 실제 프로파이링 결\n과의 예시임(참조: 데이터 프로파일러 개발 보고서)\n<표> 데이터 프로파일 명세\n항목명 설명\ndataset_name 데이터셋 이름\ndataset_type 데이터셋 타입",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.08,
+          595.51,
+          451.92,
+          798.57
+        ],
+        "page_area_fraction": 0.1253
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0027",
+    "caption": "데이터 프로파일 명세",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 49 -\n[그림 54] 프로파일 저장소 구조\n§ (프로파일 정보제공 서비스) 오픈포맷을 지원하는 데이터 프로파일 서비스 기술 개발",
+    "caption_and_following_text": "ü 자동 생성된 데이터 프로파일은 JSON과 같은 오픈포맷 형태로 서비스할 수 있도록\n자동 변환됨. 다음은 JSON으로 저장된 데이터 프로파일 구조와 실제 프로파이링 결\n과의 예시임(참조: 데이터 프로파일러 개발 보고서)\n<표> 데이터 프로파일 명세\n항목명 설명\ndataset_name 데이터셋 이름\ndataset_type 데이터셋 타입\ndataset_size 데이터셋 크기\ndataset_column_cnt 데이터셋 열 수\ndataset_row_cnt 데이터셋 행 수",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.08,
+          595.51,
+          451.92,
+          798.57
+        ],
+        "page_area_fraction": 0.1253
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0028",
+    "caption": "스웨거로 정의된 데이터 프로파일링 API 명세",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 51 -\n[그림 55] 스웨거로 정의된 데이터 프로파일링 API 명세\n[프람트테크놀로지]\nn 데이터 품질 분석 도구 제품화\n§ 데이터 품질 대시보드 구현\nü 데이터 품질 개선 프로젝트 생성\nŸ 프로젝트 관리 메뉴를 통하여 신규 프로젝트를 생성하거나 기존 프로젝트에 접근\n이전 작업에 이어서 추가적인 데이터 품질 개선 등의 작업을 수행할 수 있도록 구\n성함. Ÿ 생성한 프로젝트에서 다양한 품질개선 기능(task)을 drag & drop 형태로 조합하여\n실행할 수 있도록 함.",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.59,
+          602.1,
+          496.41,
+          798.57
+        ],
+        "page_area_fraction": 0.1562
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.7,
+          152.11,
+          475.42,
+          403.72
+        ],
+        "page_area_fraction": 0.1789
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0029",
+    "caption": "프로젝트 태스크 정의 화면",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 51 -\n[그림 55] 스웨거로 정의된 데이터 프로파일링 API 명세\n[프람트테크놀로지]\nn 데이터 품질 분석 도구 제품화\n§ 데이터 품질 대시보드 구현\nü 데이터 품질 개선 프로젝트 생성\nŸ 프로젝트 관리 메뉴를 통하여 신규 프로젝트를 생성하거나 기존 프로젝트에 접근",
+    "caption_and_following_text": "이전 작업에 이어서 추가적인 데이터 품질 개선 등의 작업을 수행할 수 있도록 구\n성함. Ÿ 생성한 프로젝트에서 다양한 품질개선 기능(task)을 drag & drop 형태로 조합하여\n실행할 수 있도록 함.\n[그림 56] 프로젝트 태스크 정의 화면\nü 프로파일링 대시보드\nŸ 선택한 프로젝트별 데이터셋의 컬럼별 row의 개수, distinct value의 개수, 기타\nunique, null, min, max 등의 개수를 상세 결과 확인 메뉴를 통해 검색이 가능하\n며, raw data 컬럼 별 시각화 기능을 통해 프로파일링 결과 현황을 직관적인 대시\n보드 형태로 제공함.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.59,
+          602.1,
+          496.41,
+          798.57
+        ],
+        "page_area_fraction": 0.1562
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.7,
+          152.11,
+          475.42,
+          403.72
+        ],
+        "page_area_fraction": 0.1789
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0030",
+    "caption": "프로파일링 자동수행 결과 사용자 화면",
+    "pdf_page_candidate": 69,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 53 -\nü 품질 현황 디스플레이\nŸ 프로젝트 단계별 품질 현황을 디스플레이 하는 기능 구현. § 데이터 품질 도구에서의 데이터 프로파일링 자동 수행 구현\nü 메타데이터 자동 추출\nŸ 품질 분석 및 개선 대상 데이터 파일을 원천 데이터 클라우드 DB에 적재하고, 메\n타데이터를 자동으로 추출하여 메타데이터 저장을 위한 전용 클라우드 DB에 별도\n로 저장·관리함. ü 프로파일링 자동 수행",
+    "caption_and_following_text": "Ÿ 저장된 원천 데이터 클라우드 DB와 메타데이터 pair를 사용하여 프로파일링 API를\n호출하여 프로파일링을 자동 수행하고 프로파일링 결과를 데이터베이스에 저장하\n여 관리.\n[그림 59] 프로파일링 자동수행 결과 사용자 화면\nn 데이터 오류 보정 도구 설계 및 개발\n§ 오류 보정 도구 기능 분석\nü 품질 개선을 위한 오류 보정 도구 기능 분석\nŸ 데이터 품질관리 및 개선을 위한 오류 보정 관련 기능들을 분석함. ü 오류 보정 기능 설계 및 개발\nŸ 데이터 품질관리 및 개선을 위한 오류 보정 관련 기능을 리스트업하고 이를 데이\n터품질 통합 솔루션 메뉴에 반영하여 설계함. 대메뉴 중메뉴 소메뉴",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.49,
+          368.0,
+          464.75,
+          605.22
+        ],
+        "page_area_fraction": 0.1585
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0031",
+    "caption": "기능 통합을 위한 Swagger API 명세 사례",
+    "pdf_page_candidate": 70,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "n 데이터 품질 개선 솔루션 통합\n§ 데이터 품질 개선 솔루션 API 기반 통합 구현\nü 데이터프로파일링 기능 통합\nŸ 데이터 품질 개선 솔루션 통합을 위한 TA(Technical Architecture)를 수립함. Ÿ 클라우드 기반의 빅데이터 프래임워크를 적용하고 docker 이미지를 활용하여 데이\n터프로파일링, 품질 분석 및 개선 기능, 특징공학 기능을 통합. Ÿ 각각을 별도로 docker image pull 형태로 손쉽게 설치하고 실행해볼 수 있도록 하\n는 오픈소스 환경의 실질적인 de facto standard 형태의 검증된 best practice 환\n경으로 구성. Ÿ 데이터 프로파일링 기능을 RestAPI 형태로 연계·통합하고 load balancer를 통하여",
+    "caption_and_following_text": "프로파일링 결과를 클라우드 DB에 저장하며, 각 기능 통합 시 RestAPI 명세는 실\n질적인 de facto standard인 swagger를 사용함으로써 독립성과 향후 확장성을 동\n시에 보장.\n[그림 60] 기능 통합을 위한 Swagger API 명세 사례\nü 데이터품질 분석 및 개선 기능 통합\nŸ 데이터 품질분석을 통한 결측치 및 이상치 탐지 결과를 분석하고 이를 대체 및 제\n거하는 기능을 RestAPI 형태로 연계·통합하고 원천 데이터와 품질 개선된 데이터\n를 클라우드 DB에 저장.\n(공정성) Fairness Visualization (공정성 결과시각화)\nData",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          169.13,
+          477.34,
+          387.3
+        ],
+        "page_area_fraction": 0.161
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0032",
+    "caption": "데이터 품질 개선 결측치 대체 화면",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n[그림 61] 데이터 품질 개선 결측치 대체 화면\nü 특징공학 기능 통합\nŸ 특징공학 기능을 RestAPI 형태로 연계·통합하고 특징 공학을 통하여 신규로 생성\n된 컬럼에 대한 프로파일링을 자동 수행하고 결과를 클라우드 DB에 저장. Ÿ 특징공학 수행 시, 컬럼의 중요도를 시각화하여 사용자에게 제공함으로써, 특징공\n학 수행 결과의 직관적인 설명이 가능.\n[그림 62] 특징공학 수행 중요도 분석 결과 화면\nü 공정성 보정 및 시각화 기능 통합\nŸ 데이터 공정성 보정 결과를 시각화하는 기능을 sunburst 챠트 형태로 visualization\n하여 공정성 보정 이전과 이후를 비교할 수 있도록 구현.",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          552.36,
+          455.88,
+          798.57
+        ],
+        "page_area_fraction": 0.1711
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          171.65,
+          465.47,
+          423.62
+        ],
+        "page_area_fraction": 0.18
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0033",
+    "caption": "특징공학 수행 중요도 분석 결과 화면",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 55 -\n[그림 61] 데이터 품질 개선 결측치 대체 화면\nü 특징공학 기능 통합",
+    "caption_and_following_text": "Ÿ 특징공학 기능을 RestAPI 형태로 연계·통합하고 특징 공학을 통하여 신규로 생성\n된 컬럼에 대한 프로파일링을 자동 수행하고 결과를 클라우드 DB에 저장. Ÿ 특징공학 수행 시, 컬럼의 중요도를 시각화하여 사용자에게 제공함으로써, 특징공\n학 수행 결과의 직관적인 설명이 가능.\n[그림 62] 특징공학 수행 중요도 분석 결과 화면\nü 공정성 보정 및 시각화 기능 통합\nŸ 데이터 공정성 보정 결과를 시각화하는 기능을 sunburst 챠트 형태로 visualization\n하여 공정성 보정 이전과 이후를 비교할 수 있도록 구현.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          552.36,
+          455.88,
+          798.57
+        ],
+        "page_area_fraction": 0.1711
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          171.65,
+          465.47,
+          423.62
+        ],
+        "page_area_fraction": 0.18
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0034",
+    "caption": "공정성 보정 이전 이후 비교 sunburst chart 시각화",
+    "pdf_page_candidate": 72,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 56 -\n[그림 63] 공정성 보정 이전 이후 비교 sunburst chart 시각화\n[아이소프트]\nn 공정성 분석기 도구개발\n§ 웹기반(장고) 인공지능 학습 데이터 처리 구현\n개발환경 개발자 서버 셋팅\nOS Win 10 Ubuntu\n개발툴 Visual studio code - 개발 언어 Python / html+ javascript Python\n웹서비스 프레임워크 Django Django\n딥러닝 라이브러리 sklearn sklearn",
+    "section_context_candidate": "나) 1단계 2차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.12,
+          525.03,
+          515.0,
+          798.57
+        ],
+        "page_area_fraction": 0.2377
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          96.25,
+          264.94,
+          268.63
+        ],
+        "page_area_fraction": 0.0747
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          264.94,
+          98.53,
+          515.48,
+          255.92
+        ],
+        "page_area_fraction": 0.0788
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0035",
+    "caption": "2단계 1차년도 기관별 연구개발 내용 및 산출물",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 65 -\n(5) 2단계 1차년도 – 통합, 고도화, 검증 및 실증\n[그림 64] 2단계 1차년도 기관별 연구개발 내용 및 산출물\n가) 2단계 1차년도 기관별 개발 목표\n나) 2단계 1차년도 연구개발 세부 내용\n[부산대학교]\nn 점증적 데이터 셋 보정 기술 개발 및 고도화\n§ 점증적 데이터 셋을 위한 람다 기반 아키텍처 구축\nü Kafka. Spark 기반 람다 아키텍처 구축\nŸ 논리 설계에 따른 동작 시나리오",
+    "section_context_candidate": "가) 2단계 1차년도 기관별 개발 목표",
+    "heading_candidates": [
+      "가) 2단계 1차년도 기관별 개발 목표",
+      "나) 2단계 1차년도 연구개발 세부 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.91,
+          540.73,
+          495.33,
+          763.45
+        ],
+        "page_area_fraction": 0.176
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0036",
+    "caption": "편향 제거기 구조도",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 67 -\nü 서브셋 기반 샘플링 및 편향 보정\nŸ 논리 설계에 따른 동작 시나리오\n[그림 68] 편향 제거기 구조도\nü 최솟값 기반 서브셋 샘플링 및 편향 보정\nŸ 논리 설계에 따른 동작 시나리오\n[그림 69] 최소 샘플링 구조도\n§ 점층적 데이터 셋의 편향 제거를 위한 람다 아키텍처 및 공정성 보정기 구현\nü 점층적 데이터 셋의 편향 검증 및 보정\nŸ 점층적 데이터 셋 기반 서브셋 생성기",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          246.83,
+          584.96,
+          408.14,
+          746.78
+        ],
+        "page_area_fraction": 0.0522
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.39,
+          410.91,
+          409.34,
+          510.04
+        ],
+        "page_area_fraction": 0.0325
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          107.16,
+          389.31,
+          230.63
+        ],
+        "page_area_fraction": 0.0694
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0037",
+    "caption": "최소 샘플링 구조도",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 67 -\nü 서브셋 기반 샘플링 및 편향 보정\nŸ 논리 설계에 따른 동작 시나리오",
+    "caption_and_following_text": "[그림 68] 편향 제거기 구조도\nü 최솟값 기반 서브셋 샘플링 및 편향 보정\nŸ 논리 설계에 따른 동작 시나리오\n[그림 69] 최소 샘플링 구조도\n§ 점층적 데이터 셋의 편향 제거를 위한 람다 아키텍처 및 공정성 보정기 구현\nü 점층적 데이터 셋의 편향 검증 및 보정\nŸ 점층적 데이터 셋 기반 서브셋 생성기\n- 서브셋 생성기에서는 분리된 부분 집합의 크기가 서브셋으로 나누기에 너무 작지\n않도록 자질선별 수행\n- 선택된 특성의 고윳값을 기반으로 고윳값 사전이 생성되고, 사전의 값에 따라 데이",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          246.83,
+          584.96,
+          408.14,
+          746.78
+        ],
+        "page_area_fraction": 0.0522
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.39,
+          410.91,
+          409.34,
+          510.04
+        ],
+        "page_area_fraction": 0.0325
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          107.16,
+          389.31,
+          230.63
+        ],
+        "page_area_fraction": 0.0694
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0038",
+    "caption": "서브셋 생성기 알고리즘 코드",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 논리 설계에 따른 동작 시나리오\n[그림 69] 최소 샘플링 구조도\n§ 점층적 데이터 셋의 편향 제거를 위한 람다 아키텍처 및 공정성 보정기 구현\nü 점층적 데이터 셋의 편향 검증 및 보정\nŸ 점층적 데이터 셋 기반 서브셋 생성기\n- 서브셋 생성기에서는 분리된 부분 집합의 크기가 서브셋으로 나누기에 너무 작지\n않도록 자질선별 수행",
+    "caption_and_following_text": "- 선택된 특성의 고윳값을 기반으로 고윳값 사전이 생성되고, 사전의 값에 따라 데이\n터를 분리하여 서브셋 생성하여 저장\nŸ 주요 소스코드\n[그림 70] 서브셋 생성기 알고리즘 코드\nŸ 서브셋 기반 점층적 데이터셋의 편향 검증 및 보정\n- 편향 제거기는 서브셋은 레이블과 민감한 속성으로 분리하며, 상반되는 민감한 속성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          246.83,
+          584.96,
+          408.14,
+          746.78
+        ],
+        "page_area_fraction": 0.0522
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.39,
+          410.91,
+          409.34,
+          510.04
+        ],
+        "page_area_fraction": 0.0325
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          107.16,
+          389.31,
+          230.63
+        ],
+        "page_area_fraction": 0.0694
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0039",
+    "caption": "편향 제거기 알고리즘 코드",
+    "pdf_page_candidate": 84,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 68 -\n을 가지는 서브셋 쌍을 선택하여 입력\n- 서브셋 쌍 중 크기가 큰 서브셋을 우세 서브셋, 작은 서브셋을 약세 서브셋\n- 서브셋 간의 평균값을 구하고 우세 서브셋에서 평균값만큼 샘플링\n- 약세 서브셋은 전체 크기가 평균값보다 클 경우, 평균값으로 샘플링하고 작을 경우, 서브셋 전체를 사용",
+    "caption_and_following_text": "- 검증은 모델의 학습결과를 공정성 지표를 기반으로 평가하여 초기 데이터 셋 보다\n지표 값이 향상되었을 경우 다음 서브셋 쌍으로 진행\nŸ 주요 소스코드\n[그림 72] 편향 제거기 알고리즘 코드\nŸ 서브셋의 최솟값 기반 점층적 데이터셋의 편향 추가 검증 및 보정\n- 최소 샘플링은 편향 제거기를 통해 제거된 데이터 세트를 입력으로 사용 및 배치가\n진행됨에 따라 축적\n- 남은 데이터셋 내 각 서브셋의 최소 크기가 0보다 클 경우, 최솟값만큼 모든 서브\n셋에서 샘플링하여 공정성 보정 데이터셋에 추가\n- 추가로 샘플링된 데이터 세트는 남은 데이터 세트에서 제거",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.49,
+          343.9,
+          439.32,
+          657.96
+        ],
+        "page_area_fraction": 0.1976
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.49,
+          112.68,
+          459.71,
+          181.0
+        ],
+        "page_area_fraction": 0.0458
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0040",
+    "caption": "최소 샘플링 알고리즘 코드",
+    "pdf_page_candidate": 84,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "지표 값이 향상되었을 경우 다음 서브셋 쌍으로 진행\nŸ 주요 소스코드\n[그림 72] 편향 제거기 알고리즘 코드\nŸ 서브셋의 최솟값 기반 점층적 데이터셋의 편향 추가 검증 및 보정\n- 최소 샘플링은 편향 제거기를 통해 제거된 데이터 세트를 입력으로 사용 및 배치가\n진행됨에 따라 축적\n- 남은 데이터셋 내 각 서브셋의 최소 크기가 0보다 클 경우, 최솟값만큼 모든 서브",
+    "caption_and_following_text": "셋에서 샘플링하여 공정성 보정 데이터셋에 추가\n- 추가로 샘플링된 데이터 세트는 남은 데이터 세트에서 제거\nŸ 주요 소스코드\n[그림 73] 최소 샘플링 알고리즘 코드\nn 점증적 데이터 셋 보정 기술 고도화\n§ 모조 데이터셋 생성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.49,
+          343.9,
+          439.32,
+          657.96
+        ],
+        "page_area_fraction": 0.1976
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.49,
+          112.68,
+          459.71,
+          181.0
+        ],
+        "page_area_fraction": 0.0458
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0041",
+    "caption": "모조 데이터 생성기 시스템 구조도",
+    "pdf_page_candidate": 85,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 69 -\nü 반전 데이터 셋 기반 모조 데이터 생성 아키텍처\nŸ 논리 설계에 따른 동작 시나리오\n[그림 74] 모조 데이터 생성기 시스템 구조도\nü 반전 데이터 셋 생성\n- 반전 모듈에서는 수집된 초기 데이터를 입력으로 사용\n- 초기 데이터의 레이블 및 서브그룹을 반전시켜 레이블 반전 데이터, 서브그룹 반전\n데이터, 레이블 및 서브그룹 반전 데이터를 생성\n- 모조 데이터 생성 시 초기데이터의 분포를 그대로 사용할 경우 생성된 모조 데이터\n의 분포 또한 초기 데이터와 유사하므로 편향이 오히려 가중",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          141.16,
+          575.85,
+          513.68,
+          763.44
+        ],
+        "page_area_fraction": 0.1397
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.63,
+          239.38,
+          409.22,
+          395.33
+        ],
+        "page_area_fraction": 0.051
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0042",
+    "caption": "데이터 반전 모듈 구조도",
+    "pdf_page_candidate": 85,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 논리 설계에 따른 동작 시나리오\n[그림 74] 모조 데이터 생성기 시스템 구조도\nü 반전 데이터 셋 생성\n- 반전 모듈에서는 수집된 초기 데이터를 입력으로 사용\n- 초기 데이터의 레이블 및 서브그룹을 반전시켜 레이블 반전 데이터, 서브그룹 반전\n데이터, 레이블 및 서브그룹 반전 데이터를 생성\n- 모조 데이터 생성 시 초기데이터의 분포를 그대로 사용할 경우 생성된 모조 데이터",
+    "caption_and_following_text": "의 분포 또한 초기 데이터와 유사하므로 편향이 오히려 가중\n- 따라서 분포를 완화하기 위함\nŸ 논리 설계에 따른 동작 시나리오\n[그림 75] 데이터 반전 모듈 구조도\nü 반전 데이터 셋 기반 모조 데이터 생성 - 반전 데이터 셋 생성 모듈은 모조 데이터를 생성하는 생성기(Generator)와 생성된\n모조 데이터를 검증하는 판별기(Distriminator)로 구성 - 반전 모듈로부터 생성된 반전 데이터셋을 입력으로 사용\n- 반전 데이터셋은 CTGAN 내부의 생성기를 학습하는 데 사용\n- 생성기를 통해 생성된 모조 데이터는 판별기를 통해 검증\n- 반전 데이터는 임의로 생성한 데이터이므로 판별기는 반전 데이터셋이 아닌 초기\n데이터셋을 기반으로 하여 검증",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          141.16,
+          575.85,
+          513.68,
+          763.44
+        ],
+        "page_area_fraction": 0.1397
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          245.63,
+          239.38,
+          409.22,
+          395.33
+        ],
+        "page_area_fraction": 0.051
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0043",
+    "caption": "공정성 보정 기술 통합 알고리즘 구조도",
+    "pdf_page_candidate": 87,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 71 -\nŸ 알고리즘 아키텍처\n[그림 79] 공정성 보정 기술 통합 알고리즘 구조도\nü 데이터 셋 내 고윳값 기준 서브셋 생성\n- 서브셋 생성기에서는 분리된 부분 집합의 크기가 알고리즘을 진행하기에 너무 작지\n않도록 자질선별 수행\n- 선택된 특성의 고유값을 기반으로 고유값 사전이 생성되고, 사전의 값에 따라 데이\n터를 분리하여 서브셋 생성\n- 편향 제거 시 하위 특성을 고려하지 않고 데이터를 제거할 경우 특정 값을 가진 일\n부 데이터 전체를 제거할 수 있어 모델 학습에 악영향을 주는 경우를 방지하는 목",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.45,
+          519.51,
+          460.79,
+          780.95
+        ],
+        "page_area_fraction": 0.1705
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.83,
+          183.04,
+          511.29,
+          322.09
+        ],
+        "page_area_fraction": 0.1188
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0044",
+    "caption": "서브셋 사전 및 서브셋 구조도",
+    "pdf_page_candidate": 87,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "[그림 79] 공정성 보정 기술 통합 알고리즘 구조도\nü 데이터 셋 내 고윳값 기준 서브셋 생성\n- 서브셋 생성기에서는 분리된 부분 집합의 크기가 알고리즘을 진행하기에 너무 작지\n않도록 자질선별 수행\n- 선택된 특성의 고유값을 기반으로 고유값 사전이 생성되고, 사전의 값에 따라 데이\n터를 분리하여 서브셋 생성\n- 편향 제거 시 하위 특성을 고려하지 않고 데이터를 제거할 경우 특정 값을 가진 일",
+    "caption_and_following_text": "부 데이터 전체를 제거할 수 있어 모델 학습에 악영향을 주는 경우를 방지하는 목\n적\nŸ 서브셋 사전 및 서브셋 구조\n[그림 80] 서브셋 사전 및 서브셋 구조도\nü 서브셋 기반 편향 제거 및 보정\n- 서브셋 생성기로부터 생성된 서브셋 집합을 입력으로 사용\n- 서브셋은 레이블과 민감한 속성으로 분리하며, 상반되는 민감한 속성을 가지는 서브\n셋 쌍을 선택\n- 서브셋 쌍 중 크기가 큰 서브셋을 우세 서브셋, 작은 서브셋을 열세 서브셋이라 하\n며 편향 제거는 우세 서브셋을 대상으로만 진행",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.45,
+          519.51,
+          460.79,
+          780.95
+        ],
+        "page_area_fraction": 0.1705
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.83,
+          183.04,
+          511.29,
+          322.09
+        ],
+        "page_area_fraction": 0.1188
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0045",
+    "caption": "편향 제거기 구조도",
+    "pdf_page_candidate": 88,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 72 -\n- 우세 서브셋에서 내림차순으로 순차적 샘플링을 반복하면서 열세 서브셋과 합쳐 검\n증 모델을 학습",
+    "caption_and_following_text": "- 검증은 모델의 학습결과를 공정성 지표를 기반으로 평가하여 초기 데이터 셋보다\n지표 값이 향상되었을 경우 다음 서브셋 쌍으로 진행\nŸ 논리 설계에 따른 동작 시나리오\n[그림 81] 편향 제거기 구조도\nü 최솟값 기반 서브셋 샘플링 및 편향 보정\nŸ 논리 설계에 따른 동작 시나리오\n- 편향 제거 후 남은 데이터셋을 입력으로 사용\n- 남은 데이터셋 내 각 서브그룹 및 서브셋의 최소 크기만큼 모든 서브셋에서 샘플링\n하여 공정성 보정 데이터셋에 추가\n[그림 82] 최소 샘플링 구조도",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.97,
+          473.0,
+          461.03,
+          710.7
+        ],
+        "page_area_fraction": 0.1554
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          243.47,
+          217.44,
+          411.5,
+          345.94
+        ],
+        "page_area_fraction": 0.0431
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0046",
+    "caption": "최소 샘플링 구조도",
+    "pdf_page_candidate": 88,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "증 모델을 학습\n- 검증은 모델의 학습결과를 공정성 지표를 기반으로 평가하여 초기 데이터 셋보다\n지표 값이 향상되었을 경우 다음 서브셋 쌍으로 진행\nŸ 논리 설계에 따른 동작 시나리오\n[그림 81] 편향 제거기 구조도\nü 최솟값 기반 서브셋 샘플링 및 편향 보정\nŸ 논리 설계에 따른 동작 시나리오",
+    "caption_and_following_text": "- 편향 제거 후 남은 데이터셋을 입력으로 사용\n- 남은 데이터셋 내 각 서브그룹 및 서브셋의 최소 크기만큼 모든 서브셋에서 샘플링\n하여 공정성 보정 데이터셋에 추가\n[그림 82] 최소 샘플링 구조도\nü 배치 처리\n- 배치 처리는 배치 기반으로 데이터 셋이 입력될 때마다 공정성 보정 기술을 적용\n- 공정성 보정이 끝난 잔여 데이터 셋의 경우 다음 배치의 최소 샘플링에 추가하여\n사용\nŸ 아키텍처\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.97,
+          473.0,
+          461.03,
+          710.7
+        ],
+        "page_area_fraction": 0.1554
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          243.47,
+          217.44,
+          411.5,
+          345.94
+        ],
+        "page_area_fraction": 0.0431
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0047",
+    "caption": "배치 처리 실시 예",
+    "pdf_page_candidate": 89,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 73 -\n[그림 83] 배치 처리 실시 예\nŸ 실행예시\n[그림 84] 공정성 보정 기술 통합 모델 시각화\nn 빅데이터 플랫폼 연계 통합 관리\n§ 빅데이터 플랫폼 연계 통합 관리 아키텍처 설계 및 구축\nü H/W 설계\nŸ 사양\n구분 내용\nCPU Intel(R) Xeon(R) Bronze 3204 CPU @ 1.90GHz",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          673.66,
+          517.4,
+          798.57
+        ],
+        "page_area_fraction": 0.1022
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.46,
+          310.82,
+          535.51,
+          616.37
+        ],
+        "page_area_fraction": 0.254
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0048",
+    "caption": "공정성 보정 기술 통합 모델 시각화",
+    "pdf_page_candidate": 89,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 73 -\n[그림 83] 배치 처리 실시 예\nŸ 실행예시\n[그림 84] 공정성 보정 기술 통합 모델 시각화\nn 빅데이터 플랫폼 연계 통합 관리\n§ 빅데이터 플랫폼 연계 통합 관리 아키텍처 설계 및 구축\nü H/W 설계\nŸ 사양\n구분 내용\nCPU Intel(R) Xeon(R) Bronze 3204 CPU @ 1.90GHz",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          673.66,
+          517.4,
+          798.57
+        ],
+        "page_area_fraction": 0.1022
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.46,
+          310.82,
+          535.51,
+          616.37
+        ],
+        "page_area_fraction": 0.254
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0049",
+    "caption": "API 정의 및 서버 구조도",
+    "pdf_page_candidate": 90,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 74 -\n구분 내용\nLanguage Java\nServer Apache/2.4.6 (CentOS)\nType REST API\nLibrary spring-boot-starter, spring-boot-starter-web,",
+    "caption_and_following_text": "spring-boot-devtools, RestController, UUID, Gradle\nResponse JSON\nŸ 논리 설계에 따른 동작 시나리오\n[그림 85] API 정의 및 서버 구조도\n§ 빅데이터 플랫폼 연계 통합 관리 명세\nü 기능명세\nŸ 구성\n경로 명세\n/qufa/api/v1\n/api1-qufa-2022-0.0.1-SNAPSHOT.jar",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.97,
+          469.29,
+          473.26,
+          644.78
+        ],
+        "page_area_fraction": 0.1232
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0050",
+    "caption": "핵심 공정성 품질의 개념범주",
+    "pdf_page_candidate": 98,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "독립적, 통계적 패리티라고도하며, 가장 잘 알려진 공정성 품질 지\n표 중 하나임\nEqualized odds 한 그룹의 FPR을 다른 그룹의 FNR로 교환할 수 있음\nPredictive Rate Parity\n정확 또는 참 예측값(참 긍정의 값을 모든 예측된 긍정의 값으로 나\n눈 값)이 서로 근접하면 Predictive Rate Parity가 달성됨\nIndividual Fairness 유사한 개인을 유사하게 대우해야 함",
+    "caption_and_following_text": "Counterfactual fairness\n실제 세계와 개인이 다른 인구 통계 그룹에 속한 반 사실적 세계에\n서 동일한 경우 개인에 대한 결정이 공정함\n[표] 핵심 공정성 품질의 개념범주\n§ 공정성 평가의 자동화를 위한 공정성 지표 선별\nü 공정성 지표의 자동화를 위해서는 지표화하여 계산 가능한 값들을 산출해야 함\nü 다음의 핵심 지표들을 중심으로 공정성 지표의 산출과 자동화 수행\n1) 민감도 =recall, =true positive rate(TPR) / 특이도 =true negative rate(TNR)\n],\n[",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0051",
+    "caption": "알고리즘의 구현 이전, 구현 중 및 구현 이후의 단계별 공정성 보정의 기본원리",
+    "pdf_page_candidate": 99,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 24,
+    "prefix_match_only": false,
+    "text_before": "경\n• 반사실적 학습 (GAN 등의\nadversarial training)\n• 공정성을 위한 regularization\n조건화\n• 공정성 지표의 동등성을 강\n제한 모형 구현",
+    "caption_and_following_text": "• 자료 추가 수집\n(혹은 simulation으로 추가 생\n성)\n[표] 알고리즘의 구현 이전, 구현 중 및 구현 이후의 단계별 공정성 보정의 기본원리\nn 데이터 시각화\n§ 직관적인 특성 제시의 필요성\n§ 빅데이터는 크기, 복잡성, 변이성 등을 특성으로 하고 있고, 건강분야의 헬스빅데이터는\n특히 변수간의 상호의존성을 특징으로 함\nü 건강문제의 경우 하나하나의 변수와 지표들이 독립적인 경우보다 복잡한 인과성-상관성\n으로 인해 상호의존성을 갖는 경우가 많음",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0052",
+    "caption": "RestAPI의 기본개념과 시각화 모듈의 API화를 위한 기본개념",
+    "pdf_page_candidate": 100,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "cost function이 됨\n(수식 4) § t-SNE 방법의 개념\nü 실제의 자료값을 자료의 t-분포값으로 대체하면, 수식 4 cost function의 계산이 매우\n용이해짐. 즉, t-분포를 사용할 경우, qij는 다음 수식 5와 같이 간략화 될 수 있다.\n(수식 5)\nü 또한 SNE의 수식 4 (gradient descent식)는 t분포 사용시 수식 6과 같이 간략화된다.\n(수식 6)",
+    "caption_and_following_text": "ü QUFA의 시각화에서는 t-SNE 방법의 사용이 현실적으로 가장 강력하면서 좋은 시각\n화 방법으로 제안\nn 데이터 시각화에 따른 API화\n[그림 86] RestAPI의 기본개념과 시각화 모듈의 API화를 위한 기본개념\nn 시각화 모듈의 API화를 위한 library\n§ QUFA의 기본 개발 방향인 open source 프로그램에서 지원되는 주요 시각화 API 라이\n브러리들과 기반 언어는 다음과 같다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.1,
+          656.04,
+          287.13,
+          693.08
+        ],
+        "page_area_fraction": 0.0131
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          351.05,
+          656.64,
+          498.21,
+          689.25
+        ],
+        "page_area_fraction": 0.0096
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.1,
+          493.02,
+          288.57,
+          522.75
+        ],
+        "page_area_fraction": 0.0106
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.1,
+          399.28,
+          240.35,
+          433.8
+        ],
+        "page_area_fraction": 0.009
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.1,
+          347.74,
+          294.44,
+          375.07
+        ],
+        "page_area_fraction": 0.0101
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.2,
+          170.81,
+          337.5,
+          256.52
+        ],
+        "page_area_fraction": 0.0439
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          348.41,
+          168.3,
+          528.8,
+          270.9
+        ],
+        "page_area_fraction": 0.037
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0053",
+    "caption": "토큰 방식을 이용한 데이터 시각화 API 고도화",
+    "pdf_page_candidate": 101,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 85 -\nü 3차년도에는 토큰방식의 시각화 모듈 API화를 수행하였으며, 다음과 같은 개요로 구\n성됨\n[그림 87] 토큰 방식을 이용한 데이터 시각화 API 고도화\n[서울시립대학교]\nn 텐서공간모델 기반 텍스트 데이터 품질 개선 기술\n§ Contextual embedding ELMo를 활용한 텍스트 큐보이드 모델 개선 기술\nü 텍스트 품질 개선을 위한 Contextual embedding\nŸ 문서를 분류할 때, 컴퓨터가 자연어를 인식할 수 있도록 하는 방법 중 임베딩 기법\n이 있음",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.51,
+          596.59,
+          503.49,
+          798.57
+        ],
+        "page_area_fraction": 0.1651
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.9,
+          419.9,
+          457.08,
+          554.87
+        ],
+        "page_area_fraction": 0.074
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0054",
+    "caption": "BOW 표현 모델과 Text cuboid 표현 모델의 비교",
+    "pdf_page_candidate": 102,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 86 -\n[그림88] BOW 표현 모델과 Text cuboid 표현 모델의 비교\nŸ 각 문서마다 Term by Concept의 매트릭스 구조가 모여 이루어진 Text cuboid에\n서 ELMo의 임베딩 벡터가 컨셉축이 됨\nŸ 분류하고자 하는 문서집합에서 각, 문서 별로 특수문자들을 제거\nŸ 텍스트 큐보이드를 생성하는데 필요한 임베딩 벡터를 얻기 위해 사전 학습된\nELMo 임베딩으로 [문서길이 * ELMo 임베딩 차원(1024차원)] 형태 2차원 Matrix\n형태의 넘파이 배열을 생성하고 npy 확장자로 저장\n[그림 89] (위) 엘모 임베딩으로 문장의 단어가 벡터화 되는 과정\n(아래) 로이터 뉴스데이터의 각 문서가 임베딩 되어 넘파이 배열로 저장되는 구조 시각화",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          208.69,
+          670.79,
+          446.28,
+          798.57
+        ],
+        "page_area_fraction": 0.0607
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.87,
+          379.14,
+          488.98,
+          506.92
+        ],
+        "page_area_fraction": 0.0825
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.64,
+          239.98,
+          436.21,
+          372.67
+        ],
+        "page_area_fraction": 0.0577
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0055",
+    "caption": "(위) 엘모 임베딩으로 문장의 단어가 벡터화 되는 과정 (아래) 로이터 뉴스데이터의 각 문서가 임베딩 되어 넘파이 배열로 저장되는 구조 시각화",
+    "pdf_page_candidate": 102,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 86 -\n[그림88] BOW 표현 모델과 Text cuboid 표현 모델의 비교\nŸ 각 문서마다 Term by Concept의 매트릭스 구조가 모여 이루어진 Text cuboid에\n서 ELMo의 임베딩 벡터가 컨셉축이 됨\nŸ 분류하고자 하는 문서집합에서 각, 문서 별로 특수문자들을 제거\nŸ 텍스트 큐보이드를 생성하는데 필요한 임베딩 벡터를 얻기 위해 사전 학습된",
+    "caption_and_following_text": "ELMo 임베딩으로 [문서길이 * ELMo 임베딩 차원(1024차원)] 형태 2차원 Matrix\n형태의 넘파이 배열을 생성하고 npy 확장자로 저장\n[그림 89] (위) 엘모 임베딩으로 문장의 단어가 벡터화 되는 과정\n(아래) 로이터 뉴스데이터의 각 문서가 임베딩 되어 넘파이 배열로 저장되는 구조 시각화\nŸ 특수문자를 제거해 전처리된 문서에서 품사태깅을 하고 불용어를 제거한 뒤 Chi2\n통계량을 이용해 500개의 단어를 Feture Selection\nŸ 각, 문서마다 np.zeros(500,1024)로 텍스트 큐보이드를 만들기 위한 틀을 만들고\n선별된 500개의 단어에 대한 임베딩 벡터값을 할당시켜 Train 텍스트 큐보이드와\nTest 텍스트 큐보이드를 생성\nŸ 특정 문서에서 선별된 단어가 존재하면 해당 위치의 임베딩 벡터를 저장했던 npy",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          208.69,
+          670.79,
+          446.28,
+          798.57
+        ],
+        "page_area_fraction": 0.0607
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.87,
+          379.14,
+          488.98,
+          506.92
+        ],
+        "page_area_fraction": 0.0825
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.64,
+          239.98,
+          436.21,
+          372.67
+        ],
+        "page_area_fraction": 0.0577
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0056",
+    "caption": "D-VAE 프로세스 1단계",
+    "pdf_page_candidate": 105,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 이산화 과정에서 최솟값과 최댓값을 구하여 균일한 너비를 지정한 구간만큼 그룹\n화를 진행\nŸ 연속형 변수에서 이산화한 값을 변화하기 위해 원-핫 인코딩(one-hot encoding)으\n로 원-핫 벡터(one-hot vector)로 변환\nŸ 원-핫 인코딩의 단점을 보완하여 특징선택의 REFCV(Recursive Feature\nElimination with Cross Validation) 알고리즘 사용\nŸ 데이터 전처리의 최적화 과정을 거친 후, 변분 오토인코더로 학습데이터의 분포와",
+    "caption_and_following_text": "유사한 분포를 갖는 샘플 데이터를 생성\nü D-VAE 단계별 학습 과정\nŸ 4단계를 순차적으로 수행\n[그림 93] D-VAE 프로세스 1단계\nŸ [1단계]그림은 초기 입력되는 학습데이터이며, 학습 과정을 설명하기 위한 예시\n데이터이다. 이는 A부터 G까지 총 7개의 변수와 200개의 레코드로 이루어진 수치\n형 정형 데이터셋이다.\n[그림 94] D-VAE 프로세스 2단계\nŸ [2단계] 원본 데이터를 전처리 과정을 거쳐 최적화한다. 우선, 클러스터링 과정을\n거쳐 그룹화하고, 이산화하여 원-핫 인코딩으로 원-핫 벡터를 생성한다. 구간을 3",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          226.2,
+          348.22,
+          428.53,
+          446.99
+        ],
+        "page_area_fraction": 0.0399
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.01,
+          150.91,
+          521.96,
+          253.88
+        ],
+        "page_area_fraction": 0.08
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0057",
+    "caption": "D-VAE 프로세스 2단계",
+    "pdf_page_candidate": 105,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 원-핫 인코딩의 단점을 보완하여 특징선택의 REFCV(Recursive Feature\nElimination with Cross Validation) 알고리즘 사용\nŸ 데이터 전처리의 최적화 과정을 거친 후, 변분 오토인코더로 학습데이터의 분포와\n유사한 분포를 갖는 샘플 데이터를 생성\nü D-VAE 단계별 학습 과정\nŸ 4단계를 순차적으로 수행\n[그림 93] D-VAE 프로세스 1단계",
+    "caption_and_following_text": "Ÿ [1단계]그림은 초기 입력되는 학습데이터이며, 학습 과정을 설명하기 위한 예시\n데이터이다. 이는 A부터 G까지 총 7개의 변수와 200개의 레코드로 이루어진 수치\n형 정형 데이터셋이다.\n[그림 94] D-VAE 프로세스 2단계\nŸ [2단계] 원본 데이터를 전처리 과정을 거쳐 최적화한다. 우선, 클러스터링 과정을\n거쳐 그룹화하고, 이산화하여 원-핫 인코딩으로 원-핫 벡터를 생성한다. 구간을 3\n개로 지정했다고 가정할 때, 그림과 같이 한 변수당 원-핫 벡터 변수가 3개씩 늘\n어난다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          226.2,
+          348.22,
+          428.53,
+          446.99
+        ],
+        "page_area_fraction": 0.0399
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.01,
+          150.91,
+          521.96,
+          253.88
+        ],
+        "page_area_fraction": 0.08
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0058",
+    "caption": "D-VAE 프로세스 3단계",
+    "pdf_page_candidate": 106,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 90 -\n[그림 95] D-VAE 프로세스 3단계\nŸ [3단계] 이산화한 데이터로 특징선택 과정을 거친다. REFCV 기법으로 레이블 예\n측 중요도가 낮은 변수를 제거한다. 레이블 예측 시 변수 ‘A’가 중요도가 낮다고\n가정하면, 그림과 같이 변수 ‘A’가 제거된다.\n[그림 96] D-VAE 프로세스 4단계\nŸ [4단계] 그림 12는 전처리 과정을 마친 데이터로, 변분 오코인코더를 활용하여\n200개의 레코드에서 800개로 증강했다. 이처럼 D-VAE는 학습데이터의 레코드를\n증강하여 양질의 데이터를 얻는다. ü 실험 데이터셋\n데이터셋 변수 개수 레코드 개수",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.92,
+          695.12,
+          498.93,
+          798.57
+        ],
+        "page_area_fraction": 0.0709
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.52,
+          462.93,
+          498.21,
+          584.12
+        ],
+        "page_area_fraction": 0.0828
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0059",
+    "caption": "D-VAE 프로세스 4단계",
+    "pdf_page_candidate": 106,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 90 -\n[그림 95] D-VAE 프로세스 3단계",
+    "caption_and_following_text": "Ÿ [3단계] 이산화한 데이터로 특징선택 과정을 거친다. REFCV 기법으로 레이블 예\n측 중요도가 낮은 변수를 제거한다. 레이블 예측 시 변수 ‘A’가 중요도가 낮다고\n가정하면, 그림과 같이 변수 ‘A’가 제거된다.\n[그림 96] D-VAE 프로세스 4단계\nŸ [4단계] 그림 12는 전처리 과정을 마친 데이터로, 변분 오코인코더를 활용하여\n200개의 레코드에서 800개로 증강했다. 이처럼 D-VAE는 학습데이터의 레코드를\n증강하여 양질의 데이터를 얻는다. ü 실험 데이터셋\n데이터셋 변수 개수 레코드 개수\n유방암 32 569\n당뇨병 9 768",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.92,
+          695.12,
+          498.93,
+          798.57
+        ],
+        "page_area_fraction": 0.0709
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.52,
+          462.93,
+          498.21,
+          584.12
+        ],
+        "page_area_fraction": 0.0828
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0060",
+    "caption": "LSTM-GAN 기반 TIMEBAND 구조",
+    "pdf_page_candidate": 108,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "드(Band)를 생성하고, 밴드를 이용하여 결측치와 이상치의 보정을 동시에 처리하\n는 TIMEBAND 기법 제안\nü TIMEBAND : 시계열 데이터의 정상범위 밴드로 데이터 품질 개선 기술 개발\nŸ 다변량 시계열 데이터들 간의 시간적인 특성 및 변수 간의 상관관계를 고려하여\n결측치와 이상치가 포함된 데이터를 높은 품질의 데이터로 보정 및 개선하기 위한\n목적을 지님\nŸ 입력되는 다변량 시계열 데이터는 3개의 은닉층으로 구성된 인코더(Encoder)를 거",
+    "caption_and_following_text": "쳐 컨텍스트 공간(Context Space)을 형성하고, 컨텍스트 공간은 1개의 은닉층으로\n구성된 디코더(Decoder)를 거쳐 품질 개선의 대상이 되는 목적변수들을 출력하며\n다변량 데이터의 입출력 구조를 구성됨\n[그림 97] LSTM-GAN 기반 TIMEBAND 구조\nü 학습한 TIMEBAND를 이용하여 시계열 데이터의 정상범위 밴드 시각화\nŸ 결측값은 정상범위의 중앙값(Median)으로 대체하고, 이상값은 정상범위 밴드의 경\n계값으로 보정하고 밴드의 폭은 예측된 값들의 중앙값(Median)을 기준으로 3(표준\n편차)의 폭을 사용함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.48,
+          291.76,
+          476.98,
+          468.93
+        ],
+        "page_area_fraction": 0.1184
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0061",
+    "caption": "TIMEBAND 기법을 적용하여 예측한 값과 정상 밴드 시각화",
+    "pdf_page_candidate": 109,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 93 -\n[그림 98] TIMEBAND 기법을 적용하여 예측한 값과 정상 밴드 시각화\nü 실험 및 결과\nŸ 한국농수산식품공사에서 제공하는 2015년부터 2020년까지 전국 도매시장의 21개\n농산물 품목 및 품종의 거래량 및 거래가격 데이터 이용\nŸ 거래가격 정보에 대해 7일, 14일, 28일 후의 농산물 물가 예측 실험 진행\nŸ TIMEBAND 기법을 통해 높은 품질로 보정 및 개선된 데이터에 대한 예측 모델의\n신뢰도 평가를 위해 평균 오차율(NMAE: Normalized Mean Absolute Error)을 활용\n함\n  ",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          642.74,
+          479.74,
+          798.57
+        ],
+        "page_area_fraction": 0.1157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.73,
+          183.28,
+          527.12,
+          367.52
+        ],
+        "page_area_fraction": 0.147
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0062",
+    "caption": "품질이 개선된 데이터와 원본 데이터의 모델 학습 학습 곡선",
+    "pdf_page_candidate": 109,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "농산물 품목 및 품종의 거래량 및 거래가격 데이터 이용\nŸ 거래가격 정보에 대해 7일, 14일, 28일 후의 농산물 물가 예측 실험 진행\nŸ TIMEBAND 기법을 통해 높은 품질로 보정 및 개선된 데이터에 대한 예측 모델의\n신뢰도 평가를 위해 평균 오차율(NMAE: Normalized Mean Absolute Error)을 활용\n함\n  \nPr",
+    "caption_and_following_text": "[수식 9] NMAE Score\nŸ 원본 데이터와 보정된 데이터에 대한 평가를 위해 Seq2Seq모델과 LightGBM 모델\n로 성능 비교\n[그림 99] 품질이 개선된 데이터와 원본 데이터의 모델 학습 학습 곡선\nŸ 실험 데이터는 (1) 원본 데이터, (2) 결측값을 직전 값으로 대체한 데이터, (3) 결\n측값에 대해 품질을 개선한 데이터, (4) 결측값과 이상값에 대해 품질을 개선한\n데이터로 총 4개의 데이터를 활용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          642.74,
+          479.74,
+          798.57
+        ],
+        "page_area_fraction": 0.1157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.73,
+          183.28,
+          527.12,
+          367.52
+        ],
+        "page_area_fraction": 0.147
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0063",
+    "caption": "데이터별 예측모델들의 평균오차율",
+    "pdf_page_candidate": 110,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "실험 데이터 데이터 처리\nSeq2Seq LightGBM 결측값 처리 이상값 처리\n원본\n데이터\n(1) x x 0.3225 0.2295\n(2) o x 0.2976 0.2187\nTIMEBAND",
+    "caption_and_following_text": "데이터\n(3) o x 0.2633 0.2119\n(4) o o 0.2564 0.2058\n[표] 데이터별 예측모델들의 평균오차율\nŸ 본 연구에서 제안하는 TIMEBAND 기법을 통해 결측치와 이상치 모두 보정하여 데\n이터의 품질을 개선했을 때, 예측 모델의 신뢰도 향상에 크게 기여함을 확인할 수\n있음\n§ LSTM-GAN 이상 탐지 모델 기반 시계열 데이터 이상값 보정 기술 개발\nü 제안 배경 및 기대 효과\nŸ 다양한 산업 분야에서 센서의 발전으로 대량의 시계열 데이터들이 생성되지만 주",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.09,
+          256.28,
+          514.88,
+          401.68
+        ],
+        "page_area_fraction": 0.1133
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0064",
+    "caption": "이상징후 탐지를 위한 GAN 기반 품질개선 기법 구조",
+    "pdf_page_candidate": 110,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "있음\n§ LSTM-GAN 이상 탐지 모델 기반 시계열 데이터 이상값 보정 기술 개발\nü 제안 배경 및 기대 효과\nŸ 다양한 산업 분야에서 센서의 발전으로 대량의 시계열 데이터들이 생성되지만 주\n변 환경 및 다양한 원인으로 이상값이 발생함\nŸ 결측값 및 이상값이 많이 포함된 데이터로 딥러닝 모델을 학습하면 예측 모델의\n성능은 저하될 수 있음",
+    "caption_and_following_text": "Ÿ 본 연구는 적대적 생성기법인 GAN 구조를 응용하여 데이터의 이상값 탐지하고 탐\n지된 이상값을 정밀하고 품질이 우수한 데이터로 보정하는 품질개선 연구임\nü 딥러닝 GAN 기반 이상값 탐지 및 데이터 품질 개선 기술 개발\n[그림 100] 이상징후 탐지를 위한 GAN 기반 품질개선 기법 구조\nŸ 정상 데이터를 이용하여 GAN의 생성자(Generator)와 판별자(Discriminator) 정상\n데이터의 분포를 학습\nŸ 정상 분포를 학습한 생성자와 판별자를 이용하여 실제 데이터의 Anomaly score를\n계산하여 score가 일정 임계값(threshold)보다 큰 경우 이상 징후로 분류\nŸ 탐지된 이상값은 이상값과 가장 거리가 가까운 정상값의 분포를 학습하여 생성된\n값으로 이상값을 대체함",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.09,
+          256.28,
+          514.88,
+          401.68
+        ],
+        "page_area_fraction": 0.1133
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0065",
+    "caption": "DTW 기법을 통해 시계열 데이터들 간의 유사한 값으로 매핑 결과 시각화",
+    "pdf_page_candidate": 111,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 95 -\n[그림 101] DTW 기법을 통해 시계열 데이터들 간의 유사한 값으로\n매핑 결과 시각화\nü 이상값 보정을 위한 이상 탐지\nŸ 다양한 분야를 포괄하는 오픈 소스 데이터인 Numenta Anomaly Benchmark(NAB)\n데이터 셋을 이용하여 GAN 기반 이상탐지 모델의 Anomaly score를 사용\n[그림 102] 실제 데이터들로부터 계산된 손실함수 값을 이용하여\nAnomaly score 계산 결과\nŸ 정상분포를 학습한 GAN 모델에서 계산되어지는 Anomaly score를 이용하여 이상\n값으로 정의된 값을 실제 데이터에 맵핑한 결과 모델이 실제 이상값을 잘 탐지하",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.9,
+          623.92,
+          465.95,
+          798.57
+        ],
+        "page_area_fraction": 0.0967
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          184.7,
+          303.51,
+          470.15,
+          516.88
+        ],
+        "page_area_fraction": 0.1217
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0066",
+    "caption": "실제 데이터들로부터 계산된 손실함수 값을 이용하여 Anomaly score 계산 결과",
+    "pdf_page_candidate": 111,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 95 -\n[그림 101] DTW 기법을 통해 시계열 데이터들 간의 유사한 값으로\n매핑 결과 시각화\nü 이상값 보정을 위한 이상 탐지",
+    "caption_and_following_text": "Ÿ 다양한 분야를 포괄하는 오픈 소스 데이터인 Numenta Anomaly Benchmark(NAB)\n데이터 셋을 이용하여 GAN 기반 이상탐지 모델의 Anomaly score를 사용\n[그림 102] 실제 데이터들로부터 계산된 손실함수 값을 이용하여\nAnomaly score 계산 결과\nŸ 정상분포를 학습한 GAN 모델에서 계산되어지는 Anomaly score를 이용하여 이상\n값으로 정의된 값을 실제 데이터에 맵핑한 결과 모델이 실제 이상값을 잘 탐지하\n는 것을 확인할 수 있음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.9,
+          623.92,
+          465.95,
+          798.57
+        ],
+        "page_area_fraction": 0.0967
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          184.7,
+          303.51,
+          470.15,
+          516.88
+        ],
+        "page_area_fraction": 0.1217
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0067",
+    "caption": "이상 탐지 결과를 실제 데이터에 맵핑한 결과",
+    "pdf_page_candidate": 112,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 96 -\n[그림 103] 이상 탐지 결과를 실제 데이터에 맵핑한 결과\nŸ 본 연구에서 제안하는 GAN 모델로 데이터의 품질을 개선하기 위해 이상값을 제대\n로 탐지하는 것이 중요함\nŸ 현재 정상분포를 학습한 탐지 모델로 탐지된 이상값 보정을 위해 이상값과 가장\n유사하면서 정상적인 값으로 보정하기 위해 LSTM-GAN 구조를 개선 개발 진행 중\nŸ 해당 보정기법으로 데이터의 품질 개선을 실시할 경우, 기존 보정 기법들의 결과보\n다 질 좋은 데이터로 품질 개선이 될 것으로 기대됨\n[이화여자대학교]\nn AI 기반 오류 탐지 기술 고도화",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          167.55,
+          564.7,
+          487.3,
+          798.57
+        ],
+        "page_area_fraction": 0.1494
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0068",
+    "caption": "확장된 요청 API",
+    "pdf_page_candidate": 115,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "ü 편집된 프로파일링 명세에 따라 프로파일 결과를 생성 또는 검색하여 그 결과를 제공\n하도록 확장 개발\n§ (프로파일링 서비스 고도화) 다중 컬럼, 다중 테이블에 대한 프로파일링 기능 제공\nü 1단계에서는 단일 컬럼 프로파일링을 단순 제공함. 2단계에서는 테이블 내의 컬럼 간\n의 관계를 분석하는 다중 컬럼 프로파일링과 테이블 간의 관계를 분석하는 다중 테이\n블 프로파일링 기능을 확장 개발함\nü 다중 컬럼 프로파일링은 크게 후보키를 탐색하는 키 분석(key analysis)과 컬럼 간의",
+    "caption_and_following_text": "함수적 종속관계를 분석하는 의존성 분석(dependency analysis) 기능을 개발\nü 다중 테이블 프로파일링은 테이블 간의 참조 무결성을 분석하는 기능을 개발\nü 다중 컬럼, 다중 테이블에 대한 확장된 프로파일링 요청 API 명세 (일부)\n[표] 확장된 요청 API\nü 다중 컬럼, 다중 테이블에 대한 프로파일링 응답 API 명세 (일부)\n[표] 확장된 응답(결과) API\n항목명(영문) 항목구분 샘플데이터 항목설명\nkey_analysis 0 true, false\n기본키가 될 수 있는 후보키 컬럼을 탐\n색할지의 여부 결정하는 boolean값",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0069",
+    "caption": "Data Hunter 프로세스 흐름",
+    "pdf_page_candidate": 117,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "[프람트테크놀로지]\nn 데이터 품질 개선 솔루션 통합 및 고도화\n§ 데이터 품질개선 솔루션 통합: 사용자가 데이터맵을 통하여 시스템에 탑재된 특정 범위의\n데이터셋을 검색·프로파일링을 수행하여, 그 대상 데이터에 대한 품질 측정·개선을 통하여\n적정 수준 이상의 품질을 가지는 데이터셋을 fabricate하는 전 life cycle을 통합 구현함\nü 데이터 품질개선 시스템 기능 통합\nŸ 데이터 품질 프로세스의 시발점인 데이터 품질 및 적재모듈(이하: Data Hunter)을 재설계 구현",
+    "caption_and_following_text": "하고 이를 QuFa Studio에 통합\nŸ Data Hunter는 원천데이터 등록 후 메타데이터 자동추출 및 추출된 메타데이터와 원천데이터\n를 DB에 적재하는 기능을 담당하는 모듈임\n[그림 107] Data Hunter 프로세스 흐름\nŸ 타대학 연구진(서울시립대, 한성대, 이화여대)의 신규 알고리즘 개발 결과를 테스트 및 검증하\n고 데이터 품질 측정, 오류 탐지·보정·개선 모듈을 통합 구현 하였음\nŸ MSA(MicroService Architecture)로 구축되어 데이터 프로파일링 수행 전 원천데이터 및 메타데\n이터 수집 결과를 연계 데이터베이스에 적재함으로써 프로파일러는 보다 데이터 프로파일링 수\n행에 집중하며 모듈 간 독립성과 향후 확장성을 동시에 보장\nŸ 신규 알고리즘의 모듈화 및 MSA(Micro-Service Architecture) 적용으로 연계 유연성을 확보함",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          167.79,
+          381.18,
+          427.33,
+          624.4
+        ],
+        "page_area_fraction": 0.1261
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0070",
+    "caption": "데이터 프로파일링 항목 사용자 설정 UI/UX",
+    "pdf_page_candidate": 118,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 102 -\n수 있도록 함\nŸ Parameter 및 Configuration 정보 설정을 위한 사용자 최적화 UI/UX를 추가로 설계하고 구현함\n[그림 108] 데이터 프로파일링 항목 사용자 설정 UI/UX\nü 시각화 기능 개선 및 보완 Ÿ Data 품질 진단/보정 및 Profiling 결과 시각화 기능 개선 및 고도화를 수행함\nŸ 프로파일링을 항목별로 수행할 수 있도록 기능을 추가 구현하고 프로파일링 대상 컬럼의 타입\n을 사용자가 지정할 수 있도록 함\nŸ 신규 알고리즘을 적용하여 융합이 가능한 데이터셋을 초기 검색에 이어 추가로 검색하는 기능\n을 보강하여 통합하고 추천 결과를 표출하는 UI/UX를 구현\nŸ Data 품질 Life Cycle을 사용자가 제어하고 Life Cycle 단계별 모니터링 기능을 구현하여 고도",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.07,
+          564.1,
+          531.91,
+          766.56
+        ],
+        "page_area_fraction": 0.1776
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.99,
+          195.51,
+          533.83,
+          397.72
+        ],
+        "page_area_fraction": 0.1773
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0071",
+    "caption": "프로파일링 결과 시각화",
+    "pdf_page_candidate": 118,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "수 있도록 함\nŸ Parameter 및 Configuration 정보 설정을 위한 사용자 최적화 UI/UX를 추가로 설계하고 구현함\n[그림 108] 데이터 프로파일링 항목 사용자 설정 UI/UX\nü 시각화 기능 개선 및 보완 Ÿ Data 품질 진단/보정 및 Profiling 결과 시각화 기능 개선 및 고도화를 수행함\nŸ 프로파일링을 항목별로 수행할 수 있도록 기능을 추가 구현하고 프로파일링 대상 컬럼의 타입\n을 사용자가 지정할 수 있도록 함\nŸ 신규 알고리즘을 적용하여 융합이 가능한 데이터셋을 초기 검색에 이어 추가로 검색하는 기능",
+    "caption_and_following_text": "을 보강하여 통합하고 추천 결과를 표출하는 UI/UX를 구현\nŸ Data 품질 Life Cycle을 사용자가 제어하고 Life Cycle 단계별 모니터링 기능을 구현하여 고도\n화 작업을 수행함\n[그림 109] 프로파일링 결과 시각화\n§ QuFa Studio 오픈소스 개방 및 AWS Market Place 탑재\nü Data 품질 모듈, Profiling 모듈, Feature Engineering 모듈, Data 공정성 모듈 전체를 API를 이용\n한 MSA 방식으로 시스템 통합\nü QuFa GITLAB 을 통한 오픈소스화 및 AWS Market Place 탑재\nn 데이터 맵 기술 개발\n§ 융합 데이터셋 검색 및 시각화 기능 개발: 초기 검색 데이터셋과 융합 가능한 데이터셋",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.07,
+          564.1,
+          531.91,
+          766.56
+        ],
+        "page_area_fraction": 0.1776
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.99,
+          195.51,
+          533.83,
+          397.72
+        ],
+        "page_area_fraction": 0.1773
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0072",
+    "caption": "데이터맵 프로세스 흐름도",
+    "pdf_page_candidate": 119,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 103 -",
+    "caption_and_following_text": "ü 데이터맵 모듈 설계\nŸ 데이터셋 업로드를 통해 메타데이터 추출, 유사도 알고리즘 적용을 통한 연관도 분석, 결과 저\n장 후 데이터맵 렌더링 과정까지의 프로세스 정립\n[그림 110] 데이터맵 프로세스 흐름도\nŸ Euclidean Distance 측정 방식을 메타데이터에 적용하기 위해서 각 Vector point에 해당하는\n요소를 결정해야 하는데, Qufa Studio 에서는 키워드 요소(키워드들의 집합)를 각 point의 요소\n로 지정하고, 이를 기반으로 유사도 측정을 수행하는 방식을 취함\nŸ 국내에 공개된 데이터셋중 10개를 임의로 선정하여 메타데이터 키워드 요소 값으로 활용하였\n으며,이는 동적으로 변경 가능하도록 구현함\nü 메타데이터 기반 유사도 산출 알고리즘 적용 및 시각화",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          488.47,
+          412.1,
+          749.06
+        ],
+        "page_area_fraction": 0.1583
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0073",
+    "caption": "통합 시스템 구조도",
+    "pdf_page_candidate": 121,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 105 -\n[아이소프트]\n§ 공정성 도구 고도화 및 통합 UI/UX\nü 공정성 도구 고도화 및 통합을 위한 가시화 시스템 구조\nŸ 정적 데이터 보상을 위한 시스템과 동적 보상을 위한 시스템 설계",
+    "caption_and_following_text": "Ÿ 정적 데이터 및 동적 데이터를 수집하여 전처리 및 가시화를 위한 시스템 설계\nŸ 오픈 소스에서 많이 사용하는 최신 기술인 Docker, ELK stack 및 가시화를 위한\nKibana 등을 활용하여 시스템 설계\n[그림 114] 통합 시스템 구조도\nü 공정성 도구 고도화 및 통합을 위한 인터페이스 설계\nŸ 부산대와 아이소프트간 공정성 지표별 보정 요청 및 응답 인터페이스 설계\nŸ 보라매 병원에서 공정성 보정을 위한 보건데이터 분석을 위한 인터페이스 설계\nŸ 항만물류 데이터의 공정성 보정을 위한 인터페이스 설계\nü 공정성 도구 고도화 및 통합을 위한 데이터 흐름도 설계\n[그림 115] 공정성 도구 고도화 및 통합을 위한 데이터 흐름도",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.21,
+          504.17,
+          466.79,
+          675.46
+        ],
+        "page_area_fraction": 0.1159
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.18,
+          177.77,
+          492.93,
+          374.59
+        ],
+        "page_area_fraction": 0.1537
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0074",
+    "caption": "공정성 도구 고도화 및 통합을 위한 데이터 흐름도",
+    "pdf_page_candidate": 121,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "ü 공정성 도구 고도화 및 통합을 위한 가시화 시스템 구조\nŸ 정적 데이터 보상을 위한 시스템과 동적 보상을 위한 시스템 설계\nŸ 정적 데이터 및 동적 데이터를 수집하여 전처리 및 가시화를 위한 시스템 설계\nŸ 오픈 소스에서 많이 사용하는 최신 기술인 Docker, ELK stack 및 가시화를 위한\nKibana 등을 활용하여 시스템 설계\n[그림 114] 통합 시스템 구조도\nü 공정성 도구 고도화 및 통합을 위한 인터페이스 설계",
+    "caption_and_following_text": "Ÿ 부산대와 아이소프트간 공정성 지표별 보정 요청 및 응답 인터페이스 설계\nŸ 보라매 병원에서 공정성 보정을 위한 보건데이터 분석을 위한 인터페이스 설계\nŸ 항만물류 데이터의 공정성 보정을 위한 인터페이스 설계\nü 공정성 도구 고도화 및 통합을 위한 데이터 흐름도 설계\n[그림 115] 공정성 도구 고도화 및 통합을 위한 데이터 흐름도\nü 공정성 도구 가시화 통합 화면\nŸ ELK Stack 으로 정적 보상과 동적 보상 메뉴에 따른 각각의 결과 화면으로 구성\nŸ Big Data Echo Project는 Hadoop, Spark, Zeppelin으로 구성 Ÿ 데이터 공정성 정의를 서술하며 인공지능 모델에 따른 조건과 예측에 대한 가시화\nŸ 정적데이터 공정성 보정 기술 알고리즘을 가시화\nŸ 동적데이터(배치기반) 공정성 보정 기술 알고리즘을 가시화",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.21,
+          504.17,
+          466.79,
+          675.46
+        ],
+        "page_area_fraction": 0.1159
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.18,
+          177.77,
+          492.93,
+          374.59
+        ],
+        "page_area_fraction": 0.1537
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I28-V0075",
+    "caption": "정적데이터 보정 가시화 첫 화면",
+    "pdf_page_candidate": 123,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 107 -\nü 정적데이터 공정성 보정 기술 가시화 화면\nŸ 정적데이터 보상 가시화 메인 화면\nŸ 심장질환 예측서비스를 위한 원본데이터(보건: 총13만건) 기초 분석\nŸ 약 13만건 = 원본데이터 약 10만건과 GAN 기반 모조데이터 (원본의 33.3%) Ÿ 모조 데이터 추가에 따른 공정성 보정 후의 인공지능 학습데이터셋 수량 보완",
+    "caption_and_following_text": "Ÿ 심장발병예측 분포비율(%), 성별 분포비율(%), 연령대 분포비율(%), 심장질환과거\n력 분포비율(%), 심장질환가족력 분포비율(%), 연평균흡연량 분포비율(%), 일주일\n간 음주빈도 분포비율(%)을 가시화\n[그림 117] 정적데이터 보정 가시화 첫 화면\nü 정적데이터 공정성 보정 후 가시화 (균등기회) Ÿ 균등기회에 따른 보정률과 보정전, 보정후 차이를 가시화\nŸ 균등기회(Equality opportunity): 모델의 참 긍정 예측 비율(TPR)이 보호 그룹과 비\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 2단계 1차년도 연구개발 세부 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          130.66,
+          535.39,
+          640.34
+        ],
+        "page_area_fraction": 0.4845
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

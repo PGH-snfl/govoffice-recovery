@@ -1,0 +1,652 @@
+[
+  {
+    "pdf_page": 7,
+    "text": "그림 1-1. 시청자 이동형 자유시점 360VR 실감미디어 서비스 예시도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 8,
+    "text": "그림 1-2. 시청자 이동형 자유시점 360VR을 위한 기반 시스템 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 1-3. 시청자 이동형 자유시점 360VR 서비스 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 1-4. 시청자 이동형 자유시점 360VR을 위한 기반 시스템 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 2-1. 서비스 모델을 위한 시스템 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 2-2. 본 과제의 세부 연구 주제 구성 및 요소기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 2-4. 연구팀 구성 및 5차년도 세부연구팀별 연구 내용",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 2-3. 연구팀별 세부기술의 상호 관련성 및 데이터 흐름도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 2-5. 연차별 목표 및 2단계 시스템 구성 전략",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 2-6. Web browser를 이용한 시청자 이동형 VR서비스",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 2-7. VR HMD를 이용한 시청자 이동형 VR서비스",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 2-9. 시청자의 위치/시점 이동에 따른 서버/클라이언트 데이터 송수신",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 2-8. 시청자의 위치/시점 이동가능 360VR 서비스 동작흐름도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 2-11. (a)시청자 이동형 360VR 데모 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 2-11. (U)시청자 이동형 360VR 데모 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 2-12: 4개의 양자화된 시점에서 촬영을 한 영상을 기반으로 공연장의 임의의 좌석에서",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 2-14. 생성된 깊이맵 예시: RGB 영상(왼쪽)，추정된 깊이맵(오른쪽)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 2-15. 생성된 깊이맵 예시: RGB 영상(위)，Ground-truth 깊이맵(가운데)，추정된 깊이맵(아래)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 2-16. 생성된 깊이맵 예시: RGB 영상(위)，추정된 깊이맵(가운데)，3D 복원 영상(아래)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 2-17. 자유시점 가상 뷰 영상 생성 시스템의 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 2-18. 乂자유시점 생성프로그램 마스터 정보 파일 예: demoRVS.json",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 2-19. 입력영상의 카메라 정보 포맷 예: camera.json",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 2-20. mesh 기반 가상 뷰 생성 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 2-22. 입력영상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 2-23. Averaging blending 이용한 image stitching",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 2-24. Alpha blending 이용한 image stitching",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 2-25. Graphcut blending 이용한 image stitching",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 2-26. 기존 그래프 컷 알고리즘의 한계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 2-27. 개선된 그래프 컷을 적용한 파노라마 영상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 2-29. 인접 영상 내 특징점 간의 대응 관계의 시간에 따른 변화 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 2-30. (좌측) 초기 특징점 추출과 대응점，(우측) RANSAC 을 통해서 최종 결정된 대응점",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 31,
+    "text": "그림 2-31. 분할된 영상의 오버랩을 사용한 후 RANSAC 알고리즘 적용 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 2-32. 영상분할 및 오버랩 방식을 적용한 RANSAC 제안방식과 기존방식 성능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 2-33. 관심 분할 영역별 멀티뷰 영상 스티칭 흐름도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 2-35. 노이즈에 강인한 특징점 누적 기반 homography 추정 방법 및 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 2-36. K 러닝 기반 음향 위치 추정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 2-37. 음향위치 추정 정확도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "그림 2-39. 음향 정규화 처리 전후의 스펙트로그램",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 2-41. 정규화 전후 음향의 파형과 스펙트로그램 예시__________________",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 2-40. 음향신호의 정규화 및 동기화 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 2-42. clean신호로부터 가상의 noisy 신호를 생성하는 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 2-43. 가상의 noisy 신호를 통한 잡음 제거 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 2-44. DNN기반의 Dedipping 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 2-45. Clipping detection 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 2-46. 클리핑 된 신호 복원 파형과 스펙토그램 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 2-47. Upmixing 구현 과정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 2-48. 고도에 따른 spectral notch 현상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 2-51. HMD 의 좌표값 추출 환경",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 2-52. 좌표값 추출 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "그림 2-53. 실제 환경의 좌표와 HMD 좌표의 오차",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "그림 2-54. 영상 합성 및 표출 시스템 구성(a) 및 합성 예(U)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "그림 2-55. K 러닝 기반 객체 추적 기술 구성(a) 및 적용 예(U)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "그림 2-56. 360도 어안렌즈 영상 영상 및 ROI 채널",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 3-1. 검증에 사용된 촬영 환경 및 실험 설정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 3-2. 동영상 깊이 추정 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "그림 3-3. 다중시점 가상뷰 생성 처리 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "표 3-1. 본 연구에서 적용한 가속화 방식 및 가속화 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "표 3-2. 본 연구에서 적용한 가속화 방식 후 GPU 활용도 변화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 3-4. 가속화된 DIBR 자유시점 영상 생성 플레이어 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "그림 3-5. 제작한 플레이어를 사용하여 임의의 시점, 특히 줌 아웃을 적용해본 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 3-8. 11개 비디오를 360도로 스티칭한 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 3-9. 카메라 모션 예측방법 및 움직임에 따른 성능 분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 3-10. 카메라 모션 예측방법 및 움직임에 따른 성능 분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 3.11 Divide RANSAC을 사용한 스티칭 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 3.12 2D 비디오 스티칭 상황의 중첩영역과 Translation에 의한 Disparity",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "그림 3-13. 관심 분할 영역별 멀티뷰 영상 스티칭 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 3-15. 멀티프로세싱 기반 비디오 스티칭의 병렬화 구조 설계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "그림 3-16. 음향 동기화 및 정규화 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "그림 3-17. 음향데모영상 정규화 처리 전후의 예시. 서로 다른 공연이라 주변소음은 처리되지",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "표 20%)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "그림 3-18. 음질개선 전후 LSD 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "그림 3-19. 머리 회전에 따른 sound positioning",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "그림 3-20. HMD 의 움직임에 따른 음향구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "그림 3-21. 통합데모를 위한 웹 어플리케이션에서의 기능 구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "그림 3-22. 메타데이터 추출을 위한 어플리케이션의 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "그림 3-23. 메타데이터 추출을 위한 어플리케이션 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 65,
+    "text": "그림 3-24. JSON 파 일 로 메 타 데 이 터 추 출",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 65,
+    "text": "그림 3-25. 메 타데이터 추 출 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 3-26. 이동형 자유시점 360 VR 미디어 서 비 스 를 위 한 시스템 구 성 도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 3-27. 가 상 공간의 Multi-Viewpoint 영상 제 공 시스템 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 3-28. 가 상공간의 Multi-Viewpoint 영상 제 공 시스템 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 3-29. 플랫폼 시스템 서버 기능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 3-30. 공간 선 택 을 위 한 Google map API 기 능 구 현 (서 울 과 기 대 영 상 ，항공대 영상 선 택 가 능 )",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 3-31. (좌 ) 시 점 과 보 는 방 향 확인이 가 능 한 미니맵 / (우 ) 시 점 이 동 을 구 현 하 는 화 살 표",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "그림 3-32. Web-browser 기 반 데 모 시스템 구현 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "그림 3-33. 클 라 이 언 트 및 서버의 Singling 개 념 도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "그림 3-34. HMD 착용 상태에서 controller를 이용하여 초기 위치 선정하는 과정 데모",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "그림 3-35. HMD 상에서 시점 (viewpoint)이동 360VR 시스템 Demo",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "그림 3-36. Stereo video contents를 기 반 으 로 다수의 mul社-view point를 생 성 하 는 방법",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "그림 3-37. StereoScopic 비 디 오 플레이어 구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "그림 3-38. 음원 위치 정 보 를 활 용 한 사 용 자 시점 예측의 동 작 흐 름 도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "그림 3-39. SLID 파라미터 정의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 3-40. GPAC 라 이 브 러 리 를 이 용 한 360VR 콘 텐 츠 타일 기 반 스트리밍 구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 3-41. 음원의 위치 정 보 를 수 평 ，수직 각 정 보 로 표 출",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 3-42. 360 VR 콘 텐 츠 내 음 원 을 활 용 한 시점 예측 기법 시 나 리 오",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "그림 3-43. 360 VR 콘 텐 츠 내 음 원 을 활 용 한 시점 예측 기법 워 크 플 로 우",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "그림 3-44. 하나의 ERP 영상을 여섯 개 로 분 할 한 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "그림 3-46. HMD 플랫폼 간 해상도에 따른 SSQ 차이",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "그림 3-47. HMD 플 랫 폼 별 영상 해상도의 MOS",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "그림 3-45. 클 라 이 언 트 의 가 용 대 역 폭 에 따 라 가중치 지정 및 비트율 할 당 워 크 플 로 우",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 76,
+    "text": "그림 3-48. 가상의 viewport의 움직임의 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 3-49. 객 체 가 많은 곳을 따 라 가 는 뷰포트의 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 3-50. 연속적인 시 퀀 스 를 파악하여 객 체 가 많 은 곳을 향 하 는 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 78,
+    "text": "그림 3-52. 사 용 자 ROI 와 MPD 내 기 록 된 RANK八^ector를 통 한 Preload 구 조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "그림 3-53. 개 인 화 된 시점 예측을 위 한 LSTM Encoder/Decoder Network 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "표 3-3. 제 시 한 LSTM 모델의 성 능 평 가 1",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "표 3-4. 제 시 한 LSTM 모델의 성능 평 가 2",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "그림 3-54. DIBR을 활 용 한 자유시점 콘 텐 츠 시스템에서 사 용 자 가 이 동 할 수 있는 영역 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 3-55. 시점 이 동 을 고 려 한 preload 우선순위 선정 기법",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 3-56. 클 라 이 언 트 의 네 트 워 크 대 역 폭 상황에 따 른 비 트 율 할 당 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "그림 3-57. 위치 이동시 보 는 방 향 복원방법",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "그림 3-58. Multi-viewpoint 360VR viewpoint 이동에 따른 시 점 보 상 동 작 알 고 리 즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 83,
+    "text": "그림 3-59. Multi-viewpoint 360VR viewpoint 이동에 따른 시 점 보 상 동 작 알 고 리 즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 83,
+    "text": "그림 3-60. 영상 시 점 간 프 리 로 드 알 고 리 즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "그림 3-61. Multi-viewpoint 360VR 영상 제 공 을 위 한 MPEG DASH MPD 구 조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "그림 3-62. 다차원 manifest 파 일 구 조 를 사 용 한 MPEG-DASH 구 조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 85,
+    "text": "그림 3-63. 자 유 시점 360 VR 영상 콘 텐 츠 제 작 및 제 공 (5차 년 도 -7개 콘 텐 츠 제공 )",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 86,
+    "text": "그림 3-64. XR 망 원 경 ‘BORA’제품 모습 .",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 87,
+    "text": "그림 3-65. ePTZ 카 메 라 를 이 용 한 R이 채널 내 객체 검 출 시스템 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 90,
+    "text": "표 3.5 스 티 칭 중 첩 영 역 의 PSNR 결 과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 91,
+    "text": "그림 3-66. MOS 평 가 점수",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 93,
+    "text": "TABLE II",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 115,
+    "text": "그림 4-1. Vision.middlebury.edu 깊이 추정 리 더보드에 현재 공 개된 최 고 성 능 깊이 추 정 ，",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 116,
+    "text": "그림 4.2. 기 술 개 발 성 공 가 능 성 을 높이기 위 한 전략",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 118,
+    "text": "그림 5-1. 시차 왜곡 경 감 을 위 한 영역 분 할 기 반 스티칭",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 127,
+    "text": "그림 1. 다양한 사람들이 촬영한 사진을 기반으로 새로운 영상을 생성하는 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 127,
+    "text": "그림 2. 다양한 시점에서 촬영된 영상을 자유시점으로 제공하기 위",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 128,
+    "text": "그림 3. 수만은 영상이 촬영된 콘서트를 원하는 시점에서 볼 수 있는 데모 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 133,
+    "text": "그림 1. 2차원의 데이터 구조를 분류하는 R-Tree(위)와",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 133,
+    "text": "그림 2. 음원의 위치 혹은 방향에 따라 변경되는 영상의 중요도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

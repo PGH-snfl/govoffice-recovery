@@ -1,0 +1,5972 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 365,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 63,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 2272,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 221,
+      "2": 174,
+      "5": 4
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1408,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 347,
+      "2": 58,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          173.07,
+          144.44,
+          525.92,
+          402.4
+        ],
+        "page_area_fraction": 0.1819
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1552,
+    "heading_candidates": [
+      "□ 연구개발 결과물",
+      "□ 정량적 성과 (계획치/실적치)",
+      "□ 질적 성과",
+      "0.5 목표 - 0.9 1.0 1.1 게재 논문지의 게재"
+    ],
+    "section_context_candidate": "□ 연구개발 결과물",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 153,
+      "1": 396,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1073,
+    "heading_candidates": [],
+    "section_context_candidate": "0.5 목표 - 0.9 1.0 1.1 게재 논문지의 게재",
+    "prior_heading_candidate": {
+      "text": "0.5 목표 - 0.9 1.0 1.1 게재 논문지의 게재",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 68,
+      "1": 242,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 365,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요 · 1",
+      "2. 연구개발과제의 수행 과정 및 수행 내용 · 23",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 · 28",
+      "4. 목표 미달 또는 미흡한 사항에 대한 분석 · 105",
+      "5. 연구개발성과의 관련 분야에 대한 기여 정도 · 105",
+      "6. 연구개발성과의 관리 및 활용 계획 · 106",
+      "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획 · 110",
+      "8. 연구개발비 사용실적 · 111"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요 · 1",
+    "prior_heading_candidate": {
+      "text": "0.5 목표 - 0.9 1.0 1.1 게재 논문지의 게재",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 553,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1045,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1-1. 연구개발 목적",
+      "□ 多유형 IoT 기기 정보 수집 및 제어 기술 개발"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "8. 연구개발비 사용실적 · 111",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<그림 1> IoT 기기 정보 수집 및 제어 기술 개발목표",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "- IoT 기기별 제어 요소 식별 및 이상징후 대응을 위한 자동/수동 제어 기능 개발\n- IoT 이상징후 탐지 시스템과 수집․제어 기능 연동 기술 개발\no 多유형 IoT 기기 정보 수집 및 제어 기술 검증 및 상용화\n- 다기종 IoT 기기 정보 수집 및 제어 모듈 상용화를 위한 개발 기술 고도화",
+        "after": "□ IoT 기기에 대한 이상징후 자동 탐지 시스템 구축\no 기계학습의 특성 도출 연구 및 이상징후 탐지 요소기술 개발\n- 다양한 채널에서 수집된 정보 기반의 분석을 통한 정상․이상행위 식별 특성 추출 및 전이학습\n요소기술 개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "<그림 2> IoT 이상징후 탐지 시스템 개발 목표",
+        "line_index": 25,
+        "toc_like": false,
+        "before": "o 기계학습의 학습․추론 강화 및 이상징후 탐지 모델 기능 고도화\n- 클라우드에서 분석된 결과를 활용하기 위한 전이학습 및 Self-Adaptation 기반 탐지 모델 고도화\no 시스템 최적화 및 특성 고도화를 통한 이상징후 탐지 프레임워크 개발\n- 탐지모델 별 학습데이터 최적화 및 탐지 특성 고도화, 학습 모델 기반 이상탐지 안정화",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 313,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          413.43,
+          556.86,
+          521.31
+        ],
+        "page_area_fraction": 0.1075
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          51.78,
+          556.86,
+          185.44
+        ],
+        "page_area_fraction": 0.1332
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1033,
+    "heading_candidates": [
+      "□ IoT 기반 대규모 침해사고의 신속한 대응을 위한 관제 기술 개발",
+      "□ IoT 인텔리전스 기반 사용자 맞춤형 보안관리 기술 개발"
+    ],
+    "section_context_candidate": "□ IoT 기반 대규모 침해사고의 신속한 대응을 위한 관제 기술 개발",
+    "prior_heading_candidate": {
+      "text": "□ 多유형 IoT 기기 정보 수집 및 제어 기술 개발",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<그림 3> IoT 통합 보안 관제 기술 개발 목표",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "- IoT 위협정보의 학습 활용을 위한 전이학습, 공유를 위한 표준화 규격 데이터 연구\n- 대량 IoT 기기 상태 표출을 위한 LOD 기반 모니터링 및 그래프이론 기반의 상관분석 기술 개발\no IoT 보안관제 시스템 상용화\n- IoT 보안 분석 정보 DB 최적화 및 관제 모니터링․분석 기술 상용화",
+        "after": "□ IoT 인텔리전스 기반 사용자 맞춤형 보안관리 기술 개발\no IoT 기기 식별 및 보안관리 요소기술 개발\n- IoT 기기 식별, 보안상태 조회, 기기 제어 등 사용자 맞춤형 보안관리를 위한 요소기술 개발\no IoT 보안위협 인텔리전스 기반 보안관리 인터페이스 개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "<그림 4> 사용자 맞춤형 보안관리 기술 개발 목표",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "o IoT 보안위협 인텔리전스 고도화 및 보안관리 시제품 개발\n- 프로파일링․연관성 분석 기반 인텔리전스 고도화\no 사용자 맞춤형 IoT 보안관리 기술 검증 및 상용화\n- IoT 기기 사용자 맞춤형 인텔리전스 생성․제공 기능 고도화 및 인터페이스 최적화를 통한 상용화",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 290,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          436.44,
+          556.86,
+          558.83
+        ],
+        "page_area_fraction": 0.122
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          91.34,
+          556.86,
+          216.48
+        ],
+        "page_area_fraction": 0.1247
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1037,
+    "heading_candidates": [
+      "1-2. 연구개발의 필요성",
+      "□ 기술개발 필요성"
+    ],
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "□ IoT 인텔리전스 기반 사용자 맞춤형 보안관리 기술 개발",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<그림 5> 클라우드 기반 Iot 위협 자율 분석 및 대응 시스템 개념도",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "- 대규모 IoT 침해사고 신속 탐지 및 다른 기기로의 전이․확산 조기 대응을 위해 파편화된 감염\n정보가 아닌 전역적 이상징후 분석 기술\n- 기기 소유자가 주체가 되어 위협상황을 인지하고 자율적 예방 및 대응조치를 할 수 있도록\n판단을 지원하는 보안관리 기술",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 281,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.48,
+          61.13,
+          524.6,
+          369.79
+        ],
+        "page_area_fraction": 0.274
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1402,
+    "heading_candidates": [
+      "1-3. 연구개발 범위",
+      "□ 개발 목표",
+      "□ 개발 내용 및 범위"
+    ],
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "□ 기술개발 필요성",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<그림 6> 연차별 연구개발 범위 및 내용",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 4 -\n1-3. 연구개발 범위\n(1) 연차별 연구개발 범위 및 내용",
+        "after": "(2) 1차년도 연구개발 범위 및 내용\n□ 개발 목표\n- IoT 기기 상태·연결 정보 분석 및 이상징후 탐지 요소기술 개발(KISA, SNTWorks, 모비젠, 고려대) - 다채널 기반 IoT 보안위협 정보 수집·연동 및 프로파일링·연관성 분석 요소기술 개발(KISA, 아이넷캅, 코드빌) - IoT 기기 보안관리를 위한 인텔리전스 생성·관리 요소기술 개발(KISA, SNTWorks, 코드빌)\n□ 개발 내용 및 범위",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 400,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          531.14,
+          546.91,
+          733.48
+        ],
+        "page_area_fraction": 0.2017
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 2003,
+    "heading_candidates": [
+      "□ 개발 목표",
+      "□ 개발 내용 및 범위",
+      "□ 개발 목표"
+    ],
+    "section_context_candidate": "□ 개발 목표",
+    "prior_heading_candidate": {
+      "text": "□ 개발 내용 및 범위",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 595,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 2036,
+    "heading_candidates": [
+      "□ 개발 내용 및 범위",
+      "□ 개발 목표",
+      "□ 개발 내용 및 범위"
+    ],
+    "section_context_candidate": "□ 개발 내용 및 범위",
+    "prior_heading_candidate": {
+      "text": "□ 개발 목표",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 589,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1693,
+    "heading_candidates": [
+      "1-4. 연구개발 주요 성능 목표 및 평가 방법",
+      "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "□ 주요 성능 지표 정의 및 목표치 근거"
+    ],
+    "section_context_candidate": "1-4. 연구개발 주요 성능 목표 및 평가 방법",
+    "prior_heading_candidate": {
+      "text": "□ 개발 내용 및 범위",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "정량적 목표 항목",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "o IoT 통합 보안관제 시스템 구축 및 안정화(KISA, 아이넷캅, 코드빌) - IoT 보안위협 정보 자동 수집 및 제공 플랫폼 고도화(KISA, 아이넷캅, 코드빌) • IoT 보안위협 및 취약점 정보 수집 채널 확대(KISA, 아이넷캅) • 이상징후 탐지를 위한 학습데이터 생성 및 공유 기술 안정화(KISA, 코드빌) • IoT 기기 보안 분석 정보 데이터베이스 최적화(아이넷캅, 코드빌) - IoT 통합 보안관제 시스템 구축 및 안정화(KISA, 아이넷캅, 코드빌) • 프로파일링 분석 시나리오 고도화 및 연관성 분석 기술 최적화(KISA, 아이넷캅, 코드빌) • IoT 기기 분석 정보 및 모니터링 인터페이스 안정화(아이넷캅, 코드빌) • IoT 기기 공격 탐지 데이터세트 고도화(아이넷캅, 코드빌)\no 사용자 맞춤형 인텔리전스 시스템 고도화 및 안정화(KISA, 코드빌) - 사용자 맞춤형 인텔리전스 생성 및 공유 시스템 고도화(KISA, 코드빌) • 상황 및 사용자 IoT 기기별 인텔리전스 생성 및 공유 기술 고도화(KISA, 코드빌) • 사용자 맞춤형 인터페이스 및 자연어 처리 기반 Interaction 기술 최적화(코드빌)\n1-4. 연구개발 주요 성능 목표 및 평가 방법\n(1) 연구개발 주요 성능 목표치 및 평가 방법",
+        "after": "평가 항목\n(주요성능 Spec) 단위\n전체\n항목",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 479,
+      "2": 36,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1927,
+    "heading_candidates": [
+      "4) National Institute of Standards and Technology: 미국 국립표준기술연구소"
+    ],
+    "section_context_candidate": "4) National Institute of Standards and Technology: 미국 국립표준기술연구소",
+    "prior_heading_candidate": {
+      "text": "□ 주요 성능 지표 정의 및 목표치 근거",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "성능 지표 정의",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 8 -",
+        "after": "IoT 보안 플랫폼과 연동되는 기기의 유형 수는 통합적인 보안관리 기능 제공을 위한 주요 지표임\n[성능목표치 근거] - NIST는 새로운 국제 사물인터넷 보안 표준화 현황 문건을 통해 사물인터넷의 대분류를 다섯\n가지 항목으로 분류1)하였으며, 같은 사물인터넷 기기들이더라도 이 다섯 가지 종류의 기기들에\n대한 보안은 차별화시켜야 한다는 입장",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능목표치 근거",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 8 -\n[성능 지표 정의] - IoT 기기 제조사 별 상이한 메시지 포맷과 프로토콜 사용으로 연동 인터페이스가 필요하며,\nIoT 보안 플랫폼과 연동되는 기기의 유형 수는 통합적인 보안관리 기능 제공을 위한 주요 지표임",
+        "after": "가지 항목으로 분류1)하였으며, 같은 사물인터넷 기기들이더라도 이 다섯 가지 종류의 기기들에\n대한 보안은 차별화시켜야 한다는 입장\n- 본 과제의 대상 사물인터넷 환경은 스마트홈으로 일반 소비자용 사물인터넷 장비에 국한되며, 보안위협의 주요 공격 대상이 되는 제품들과 국내 점유율이 높은 제품 등을 우선적으로 선정하여\n보안 플랫폼과 연동 필요",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능 지표 정의",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "- IoT 기기 중 침해사고 발생이 잦고 점유율이 높은 7종 이상의 기기 유형과 연동을 최종목표로\n설정\n※ IP Camera, DVR2), Router, Printer, Speaker, TV Receiver, NAS3)\no IoT 보안 위협 분석 범위",
+        "after": "개수를 기준으로 측정하는 성능 지표\n[성능목표치 근거] - KISA는 사이버위협 인텔리전스 네트워크 협의체를 통해 2019년 주목해야 할 7대 사이버 공격\n전망을 발표하면서, IoT 봇넷 증가로 인해 `18년도 2분기 평균 DDoS 공격 크기가 전년 동기\n대비 543% 증가한 26Gbps에 달한 것을 근거로 다양한 취약점 및 알려진 위협 정보를 기반으로",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능목표치 근거",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "※ IP Camera, DVR2), Router, Printer, Speaker, TV Receiver, NAS3)\no IoT 보안 위협 분석 범위\n[성능 지표 정의] - IoT 기기의 알려진 취약점에 대응하기 위한 지표로 취약점을 분석하여 보안위협 대응이 완료된\n개수를 기준으로 측정하는 성능 지표",
+        "after": "전망을 발표하면서, IoT 봇넷 증가로 인해 `18년도 2분기 평균 DDoS 공격 크기가 전년 동기\n대비 543% 증가한 26Gbps에 달한 것을 근거로 다양한 취약점 및 알려진 위협 정보를 기반으로\n하는 신‧변종 봇넷이 지속적으로 위협이 될 것이라 예상\n- 보안내재화가 미흡한 IoT 기기의 보안위협은 일반적으로 기기의 알려진 취약점을 대상으로 함",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능 지표 정의",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "- 보안내재화가 미흡한 IoT 기기의 보안위협은 일반적으로 기기의 알려진 취약점을 대상으로 함\n- NIST4)의 NVD5)에 등록된 IoT 취약점 개수는‘18.1월 기준 86개로, 본 과제에서는 보안위협 분석\n범위의 최종 목표를 90개로 설정함\no 학습기반 IoT 이상징후 식별 정확도",
+        "after": "시스템이 보유한 데이터를 기계학습 알고리즘에 적용하여 예상되는 IoT 기기의 이상징후\n식별 정확도를 측정하는 지표\n[성능목표치 근거] - IoT 기기의 해킹으로 인한 피해 상황이나 사고 사례를 파악하기 어려운 이유에 관해 생명과학\n컨설팅 업체 QDS 대표 아르민 토레스는 대부분의 기기 제조사들이 IoT기기에 이상 행동을",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능목표치 근거",
+        "line_index": 27,
+        "toc_like": false,
+        "before": "o 학습기반 IoT 이상징후 식별 정확도\n[성능 지표 정의] - IoT 기기를 통해 수집된 상태정보와 연결정보, 외부 채널을 통해 수집/분석 된 보안위협정보 등\n시스템이 보유한 데이터를 기계학습 알고리즘에 적용하여 예상되는 IoT 기기의 이상징후\n식별 정확도를 측정하는 지표",
+        "after": "컨설팅 업체 QDS 대표 아르민 토레스는 대부분의 기기 제조사들이 IoT기기에 이상 행동을\n탐지하는 기능을 내장하고 있지 않으며, 탐지/경고 기능이 없기 때문임을 제시\n- 미국 MIT에서 발표한 논문 “AI2 : Training a big data machine to defend”에 따르면 웹로그\n및 방화벽 로그 등 36억 라인의 로그 데이터를 기반으로 기계학습 기법 및 분석가의 수동 분석",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 512,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1806,
+    "heading_candidates": [],
+    "section_context_candidate": "4) National Institute of Standards and Technology: 미국 국립표준기술연구소",
+    "prior_heading_candidate": {
+      "text": "4) National Institute of Standards and Technology: 미국 국립표준기술연구소",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "성능 지표 정의",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "- 국내의 경우 기계학습 알고리즘 기반의 사이버 위협 분석 기술에 대한 초기 연구단계로 파악되며, 본 과제에서는 위협 식별 정확도의 최종목표를 85%로 설정함\n※ AI2의 경우 사용자가 개입하여 정상/이상을 구분하는 형태로 85%의 정확도를 달성하였으나, 본 과제에서는\n사용자 개입이 없는 자동화 형태로 85%의 정확도 달성을 목표(결국, AI2 정확도보다 높은 목표)\no IoT 기기 이상징후 연관분석 처리 성능",
+        "after": "지표로 시스템의 초당 이벤트 처리개수를 기준으로 성능을 측정하는 지표\n[성능목표치 근거] - IBM社의 위협로그분석 시스템인 QRadar의 경우 본 과제와 유사한 위협분석 처리를 수행하며, 공식사이트 IBM Knowledge Center 자료에 따르면 초당 10,000건의 이벤트 처리 성능을 보임\n- 미국의 이벤트 연관분석 엔진인 Esper의 처리성능이 20만EPS이며, 국내 최고수준의 처리성능은\n10만EPS 수준으로 본 과제에서의 최종 성능목표는 20만EPS로 설정함",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능목표치 근거",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "사용자 개입이 없는 자동화 형태로 85%의 정확도 달성을 목표(결국, AI2 정확도보다 높은 목표)\no IoT 기기 이상징후 연관분석 처리 성능\n[성능 지표 정의] - 빅데이터 환경에서 IoT 보안위협 정보의 원활한 생성/활용을 위해 시스템 성능을 보장하기 위한\n지표로 시스템의 초당 이벤트 처리개수를 기준으로 성능을 측정하는 지표",
+        "after": "- 미국의 이벤트 연관분석 엔진인 Esper의 처리성능이 20만EPS이며, 국내 최고수준의 처리성능은\n10만EPS 수준으로 본 과제에서의 최종 성능목표는 20만EPS로 설정함\no 인텔리전스 요청 및 응답 처리 성능\n[성능 지표 정의] - 사용자 중심의 보안 관리를 위한 실시간 데이터 처리 성능을 보장하기 위한 지표로 사용자의",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능 지표 정의",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "[성능목표치 근거] - IBM社의 위협로그분석 시스템인 QRadar의 경우 본 과제와 유사한 위협분석 처리를 수행하며, 공식사이트 IBM Knowledge Center 자료에 따르면 초당 10,000건의 이벤트 처리 성능을 보임\n- 미국의 이벤트 연관분석 엔진인 Esper의 처리성능이 20만EPS이며, 국내 최고수준의 처리성능은\n10만EPS 수준으로 본 과제에서의 최종 성능목표는 20만EPS로 설정함\no 인텔리전스 요청 및 응답 처리 성능",
+        "after": "보안관리 명령을 처리하는 시간을 기준으로 성능을 측정하는 지표\n[성능목표치 근거] - 매년 Usability Week conference에서 발표하는 유져빌리티 가이드라인에 따르면 사용자들이\n수용 가능한 지연시간에 대해 3가지 한계 시간점들을 정의함\n- 0.1초는 사용자들이 시스템이 즉각적으로 반응하고 있다고 느끼는 시간, 1초는 지연이 있으나",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능목표치 근거",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "10만EPS 수준으로 본 과제에서의 최종 성능목표는 20만EPS로 설정함\no 인텔리전스 요청 및 응답 처리 성능\n[성능 지표 정의] - 사용자 중심의 보안 관리를 위한 실시간 데이터 처리 성능을 보장하기 위한 지표로 사용자의\n보안관리 명령을 처리하는 시간을 기준으로 성능을 측정하는 지표",
+        "after": "수용 가능한 지연시간에 대해 3가지 한계 시간점들을 정의함\n- 0.1초는 사용자들이 시스템이 즉각적으로 반응하고 있다고 느끼는 시간, 1초는 지연이 있으나\n사용자의 이용 흐름을 방해하지 않는 한도내에서 머무는 시간, 10초는 사용자가 시스템에\n집중할 수 있는 한계 시간임",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "음성 인식 처리 제품 사용자 응답 속도 처리 성능",
+        "line_index": 28,
+        "toc_like": false,
+        "before": "- 국내 한양대에서 진행된 인공지능 기반 음성인식 제품 4종의 응답속도 등 성능 분석 실험에\n따르면 사용자 요청에 대한 응답속도는 아래와 같음6)\n삼성 빅스비 네이버 클로바 애플 시리 구글 구글나우\n응답속도 1000ms 이내 500ms 내외 500ms 이내 500ms 이내",
+        "after": "(2017.5.17. 한양대 융합전자공학부 교수팀)\n※ 남자2명/여자2명이 테스트, Noise는 약 –10dB SNR의 사무실 환경에서 측정\n※ 빅스비는 갤럭시S8, 시리는 아이폰6, 클로바와 구글나우는 LG G6로 측정\n- 국내외 최고수준을 갖는 제품군으로 측정한 성능 데이터로 현재는 응답 처리 성능이 향상되었을",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 480,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 765,
+    "heading_candidates": [
+      "□ 주요 성능 지표 평가 방법 및 평가 환경"
+    ],
+    "section_context_candidate": "□ 주요 성능 지표 평가 방법 및 평가 환경",
+    "prior_heading_candidate": {
+      "text": "4) National Institute of Standards and Technology: 미국 국립표준기술연구소",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "성능 측정 방법",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 10 -\n□ 주요 성능 지표 평가 방법 및 평가 환경\no 이상징후 탐지 IoT 기기",
+        "after": "- SMU 개발 플랫폼과 연동되는 IoT 기기의 개수를 측정\n- 측정 대상 : SMU 개발 플랫폼에 접속하여 연동이 완료된 IoT 기기\n- 측정 방법 : a. SMU 개발 플랫폼에 연결된 IoT 기기의 개수(i) b. SMU 개발 플랫폼에 연결된 IoT 기기에서 전달된 데이터 전송 건수(Xc(i)) c. SMU 개발 플랫폼에서 식별이 완료된 IoT 기기의 데이터 건수 계산(Cc(i)) - 측정 수식 :   \n 데이터전송건수",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능 측정 방법",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "- 측정 방법 : a. SMU 개발 플랫폼에 연결된 IoT 기기의 개수(i) b. SMU 개발 플랫폼에 연결된 IoT 기기에서 전달된 데이터 전송 건수(Xc(i)) c. SMU 개발 플랫폼에서 식별이 완료된 IoT 기기의 데이터 건수 계산(Cc(i)) - 측정 수식 :   \n 데이터전송건수\n식별된데이터건수  개발플랫폼에연결된기기수\no IoT 보안 위협 분석 범위",
+        "after": "- 외부에 공개 등록된 IoT 취약점을 이용한 보안위협을 탐지한 건수를 측정\n- 측정 대상 : 공개된 IoT 취약점 악용 위협 대응 건수\n- 측정 방법 : a. 수집된 IoT 취약점 건수 측정(i) b. 알려진 IoT 취약점 악용 보안위협 건수 측정(Vc(i)) c. 알려진 취약점을 활용한 보안위협 탐지 건수 측정(Dc(i)) - 측정 수식 :   \n 취약점악용위협",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능 측정 방법",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "- 측정 방법 : a. 수집된 IoT 취약점 건수 측정(i) b. 알려진 IoT 취약점 악용 보안위협 건수 측정(Vc(i)) c. 알려진 취약점을 활용한 보안위협 탐지 건수 측정(Dc(i)) - 측정 수식 :   \n 취약점악용위협\n탐지된위협   수집된취약점건수\no 학습기반 IoT 이상징후 식별 정확도",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 270,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.9,
+          571.29,
+          493.17,
+          741.03
+        ],
+        "page_area_fraction": 0.1293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.46,
+          231.71,
+          488.62,
+          401.08
+        ],
+        "page_area_fraction": 0.126
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 890,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 주요 성능 지표 평가 방법 및 평가 환경",
+    "prior_heading_candidate": {
+      "text": "□ 주요 성능 지표 평가 방법 및 평가 환경",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "성능 측정 방법",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "\n  \n\no IoT 기기 이상징후 연관분석 처리 성능",
+        "after": "- 사이버 위협 정보 분석 시스템에서 IoT 보안위협 정보 생성을 위해 연관 정보를 수집하고\n분석 처리하는 성능을 측정하는 초당 이벤트 처리 건수\n- 측정 대상 : 사이버 위협 정보 분석 시스템의 이벤트 처리 건수\n- 측정 방법 : a. 사이버 위협 정보 분석 시스템에 성능 측정 도구 설치",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 280,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.92,
+          538.21,
+          529.27,
+          798.57
+        ],
+        "page_area_fraction": 0.2359
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.3,
+          109.68,
+          487.9,
+          256.52
+        ],
+        "page_area_fraction": 0.1088
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 788,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 주요 성능 지표 평가 방법 및 평가 환경",
+    "prior_heading_candidate": {
+      "text": "□ 주요 성능 지표 평가 방법 및 평가 환경",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "성능 측정 방법",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "c. 측정된 이벤트 처리량을 초단위로 분할하여 초당 이벤트 처리량 측정\n- 측정 수식 : 초\n분 동안의 이벤트처리량\no 인텔리전스 요청 및 응답 처리 성능",
+        "after": "- IoT 보안 정책관리 시스템에서 사용자 중심의 보안 관리를 위한 보안 정책 명령을 적용·처리 하는\n성능을 측정하는 건당 처리 시간\n- 측정 대상 : 사용자 요청 보안관리 이벤트 처리 시간\n- 측정 방법 : a. IoT 보안 정책관리 시스템에 성능 측정 도구 설치",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 241,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.06,
+          564.46,
+          491.02,
+          689.37
+        ],
+        "page_area_fraction": 0.0941
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.53,
+          190.83,
+          481.54,
+          407.67
+        ],
+        "page_area_fraction": 0.1551
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1092,
+    "heading_candidates": [
+      "1-5. 기술개발의 추진전략, 방법 및 추진체계",
+      "□ 기술개발 추진 방법"
+    ],
+    "section_context_candidate": "1-5. 기술개발의 추진전략, 방법 및 추진체계",
+    "prior_heading_candidate": {
+      "text": "□ 주요 성능 지표 평가 방법 및 평가 환경",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 307,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.27,
+          444.35,
+          506.85,
+          743.43
+        ],
+        "page_area_fraction": 0.2502
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1219,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 기술개발 추진 방법",
+    "prior_heading_candidate": {
+      "text": "□ 기술개발 추진 방법",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 343,
+      "3": 1,
+      "2": 22,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.31,
+          169.97,
+          505.89,
+          347.86
+        ],
+        "page_area_fraction": 0.1445
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1195,
+    "heading_candidates": [
+      "□ 추진 전략"
+    ],
+    "section_context_candidate": "□ 추진 전략",
+    "prior_heading_candidate": {
+      "text": "□ 기술개발 추진 방법",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 335,
+      "2": 22,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 773,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 추진 전략",
+    "prior_heading_candidate": {
+      "text": "□ 추진 전략",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 223,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.92,
+          568.9,
+          529.27,
+          798.57
+        ],
+        "page_area_fraction": 0.2081
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 162,
+    "heading_candidates": [
+      "□ 기술개발 추진 프로세스"
+    ],
+    "section_context_candidate": "□ 기술개발 추진 프로세스",
+    "prior_heading_candidate": {
+      "text": "□ 추진 전략",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 24,
+      "2": 12,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.99,
+          445.31,
+          531.43,
+          750.5
+        ],
+        "page_area_fraction": 0.2265
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.99,
+          153.31,
+          531.43,
+          441.6
+        ],
+        "page_area_fraction": 0.214
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 125,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 기술개발 추진 프로세스",
+    "prior_heading_candidate": {
+      "text": "□ 기술개발 추진 프로세스",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 14,
+      "2": 12,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.99,
+          469.41,
+          531.43,
+          792.93
+        ],
+        "page_area_fraction": 0.2402
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.99,
+          139.89,
+          531.43,
+          458.62
+        ],
+        "page_area_fraction": 0.2366
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 1223,
+    "heading_candidates": [
+      "□ 추진 일정",
+      "1 IoT 기기 상태·연결 정보 분석 및 이상징후 탐지 요소기술 개발",
+      "2 다채널 기반 IoT 보안위협 정보 수집·연동 및 프로파일링·연관성 분석 요소기술 개발",
+      "3 IoT 기기 보안관리를 위한 인텔리전스 생성·관리 요소기술 개발",
+      "1 IoT 기기 정보 자동 수집 기술 및 이상징후 탐지 알고리즘 개발"
+    ],
+    "section_context_candidate": "□ 추진 일정",
+    "prior_heading_candidate": {
+      "text": "□ 기술개발 추진 프로세스",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 322,
+      "2": 420,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 1116,
+    "heading_candidates": [
+      "2 IoT 기기 보안위협 정보 기반 정상·악성행위 프로파일링 기술 개발",
+      "3 IoT 보안위협 정보 기반 인텔리전스 생성·관리 기술 개발",
+      "1 IoT 기기 제어 및 이상징후 탐지 프레임워크 개발"
+    ],
+    "section_context_candidate": "2 IoT 기기 보안위협 정보 기반 정상·악성행위 프로파일링 기술 개발",
+    "prior_heading_candidate": {
+      "text": "1 IoT 기기 정보 자동 수집 기술 및 이상징후 탐지 알고리즘 개발",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 290,
+      "2": 196,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1117,
+    "heading_candidates": [
+      "2 보안위협 식별을 위한 이상징후 연관성 분석 기술 개발",
+      "3 사용자 맞춤형 인텔리전스 공유·대응 기술 개발"
+    ],
+    "section_context_candidate": "2 보안위협 식별을 위한 이상징후 연관성 분석 기술 개발",
+    "prior_heading_candidate": {
+      "text": "1 IoT 기기 제어 및 이상징후 탐지 프레임워크 개발",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 274,
+      "2": 201,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 954,
+    "heading_candidates": [],
+    "section_context_candidate": "3 사용자 맞춤형 인텔리전스 공유·대응 기술 개발",
+    "prior_heading_candidate": {
+      "text": "3 사용자 맞춤형 인텔리전스 공유·대응 기술 개발",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 224,
+      "2": 171,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1425,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "3 사용자 맞춤형 인텔리전스 공유·대응 기술 개발",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 418,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 1289,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 377,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 1610,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 422,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 1374,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 392,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 819,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 231,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 845,
+    "heading_candidates": [
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+      "1) 연구수행 결과"
+    ],
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 기능별 수집 정보 예시 - IP카메라",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "- IoT 기기 분석을 통한 데이터 세부 명세 및 내부자원 접근 기술 개발\n·펌웨어 구조 및 내부자원 식별 및 데이터 명세서 도출(2종) ·정보수집 대상 IoT 기기 분석을 통한 정보 수집 및 데이터 통신 구성안 도출\n※ 유무선 공유기(A9004m), IP카메라(EZVIZ C2C)에 대한 데이터명세서 2종 도출\nex) IP카메라 장비 List 선택 시 Device에서 Result=0, isFinished=true 값 반환",
+        "after": "·UART 핀 식별 기술을 통한 내부자원 접근 및 정보 추출\n- 수집 대상 IoT 기기의 수집 테스트베드 구축 및 상태·연결 정보 수집 시스템 개발\n·IoT 기기 2종(AP, IP CCTV)에 대한 펌웨어 구조 분석 및 정보 수집\n※ 시스템 On/Off, 로그인, 실행, 업데이트 페이지 요청 등의 상태·연결 정보 수집",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "상태 연결 정보수집 시스템 구성",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "·IoT 기기 2종(AP, IP CCTV)에 대한 펌웨어 구조 분석 및 정보 수집\n※ 시스템 On/Off, 로그인, 실행, 업데이트 페이지 요청 등의 상태·연결 정보 수집\n·정상 IoT 기기 대상 상태·연결 정보 수집 및 공격 시나리오 기반 수집 환경 구축\n※ 정상 IoT 대상 데이터 수집 및 IoT 기기 대상 공격 시나리오 수집 환경 구축",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 243,
+      "2": 6,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.69,
+          349.78,
+          491.14,
+          529.1
+        ],
+        "page_area_fraction": 0.1034
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.67,
+          349.78,
+          197.77,
+          528.98
+        ],
+        "page_area_fraction": 0.0384
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.8,
+          48.55,
+          289.76,
+          168.66
+        ],
+        "page_area_fraction": 0.0535
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.56,
+          50.71,
+          515.0,
+          156.79
+        ],
+        "page_area_fraction": 0.0467
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 851,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 정보 식별 시스템 성능평가 환경",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 29 -\n- 수집 및 분석 대상 IoT 기기에 대한 디바이스 정보 식별 기술 개발\n· IoT 기기 디바이스 정보 식별 성능 검증 2종 달성(목표치: 2종) ※ Mirai 공격 대상 IoT 기기 분석 및 정보 수집 대상 기기 선정(AP, IP카메라)",
+        "after": "○ 머신러닝 기반 IoT 위협 탐지 시스템\n⟹ Product : 머신러닝 기반 IoT 위협 탐지 시스템\n- 경량 머신러닝 기반 이상탐지 기술 개발\n· NSL-KDD 네트워크 데이터 셋 분석",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "알고리즘 성능 검증 결과",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "MLP, AdaBoost, Bagging, Naive Bayes(Gaussian, Bernoulli), QDA\n※ Logistic Regression, Naive Bayes, Random Forest 선정\n※ 학습 데이터의 사이즈 별 예측시간, 모델 크기, 오차행렬 등 검증\n- 선정된 3개 알고리즘 평균 이상탐지 식별 정확도 72.14% 달성 (목표치:70%)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 206,
+      "2": 7,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.13,
+          558.23,
+          457.79,
+          707.23
+        ],
+        "page_area_fraction": 0.0994
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.37,
+          65.69,
+          448.44,
+          252.92
+        ],
+        "page_area_fraction": 0.1179
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 894,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "알고리즘 성능 검증 결과",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "Random Cut Forest 4개 알고리즘 분석\n※ IoT 환경 등을 고려하여 지속적인 재학습이 가능하고 연산 속도가 빠른 알고리즘 선정\n· 커널 개수 및 크기, 스트라이드 간격, 히든 노드의 개수, 레이어 등을 변경하며\n최적의 정확도 및 실행시간을 갖는 파라미터 도출",
+        "after": "○ 사용자 행동패턴 시나리오 기반 모의 트래픽 생성기\n⟹ Product : 모의 트래픽 생성기\n- IoT 기기 네트워크 트래픽 정보 분석\n- 시나리오 기반의 모의 트래픽 생성 기술 설계",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "시나리오 기반 모의 트래픽 생성기 설계(안)",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "· Normal/Benign Traffic, Abnormal Traffic, Malignant Traffic 생성\n- 실정보 분석을 통한 요소 데이터 생성\n· 실제 IoT 기기 사용 정보(트래픽) 정제를 통한 템플릿 생성\n· 실제 위협 사례 분석을 통한 부정 시나리오 도출",
+        "after": "○ IoT 위협 통합분석 및 보안관제 시스템\n⟹ Product : IoT 위협 통합분석 및 보안관제 시스템\n- CVE 취약점 기반 IoT 보안위협 탐지 모듈\n· Exploit payload 공개 사이트, 공개 IDS/IPS, 취약점 스캐너 등 분석을 통한 IoT",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 215,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.92,
+          489.42,
+          437.77,
+          644.53
+        ],
+        "page_area_fraction": 0.0911
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.44,
+          146.84,
+          509.37,
+          277.02
+        ],
+        "page_area_fraction": 0.1137
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 639,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 취약점 수집 목록",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "※ Nessus 및 Shodan을 통해 도출된 취약 기기 정보 대상 CVE 및 Exploit 수집\n※ 네트워크 스캐닝 결과에 대한 OWASP, CWE, CVE 매핑을 통해 가장 많이 사용된 IP\n카테고리 3개 군 대상 Exploit 분석을 통해 IoT 취약점 수집\n※ Mirai Botnet 등 실제 공격에 활용된 악성코드 분석을 통한 IoT 취약점 수집",
+        "after": "· IoT 보안위협 탐지 룰 생성을 위한 CVE 취약점 대상 선정\n※ Botnet 활용 이력, 광범위한 장비에 영향, CVSS 10, 원격코드 실행 등 기준\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 143,
+      "2": 6,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.57,
+          210.85,
+          524.12,
+          602.7
+        ],
+        "page_area_fraction": 0.3653
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 497,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 보안위협 탐지 대상 취약점 선정",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 32 -",
+        "after": "· IoT 보안위협 탐지 정책(룰) 25개 개발 및 검증\n※ 최종 선정 IoT 취약점 25개 대한 Snort 기반 공격 payload 탐지 패턴 개발\n[IoT 보안위협 탐지 정책(룰) 성능 테스트] - IoT 위협 통합분석 및 보안관제 시스템\n· IoT 기기 상태 및 보안위협 연관분석을 위한 통합 모니터링/분석 플랫폼 설계",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 보안위협 탐지 정책(룰) 성능 테스트",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 32 -\n[IoT 보안위협 탐지 대상 취약점 선정]\n· IoT 보안위협 탐지 정책(룰) 25개 개발 및 검증\n※ 최종 선정 IoT 취약점 25개 대한 Snort 기반 공격 payload 탐지 패턴 개발",
+        "after": "· IoT 기기 상태 및 보안위협 연관분석을 위한 통합 모니터링/분석 플랫폼 설계\n※ IoT 취약점, 위협, 기기정보 수집 기반 단위/연관 분석, 위협 인텔리전스 생성, 기기\n모니터링, 사용자 보안관리 지원 등 기능 구성\n· 대량의 데이터에 대한 고속 처리 및 확장성을 보장하는 보안 관제 플랫폼 설계",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 134,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.64,
+          519.99,
+          431.17,
+          780.11
+        ],
+        "page_area_fraction": 0.1458
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.57,
+          207.25,
+          456.35,
+          443.87
+        ],
+        "page_area_fraction": 0.1564
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 190,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "오픈소스 구성안",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 33 -",
+        "after": "[시스템 아키텍처] ·IoT 정보 수집 및 분석 처리를 위한 전처리 및 분석엔진 개발\n[전처리 엔진 데이터 플로우] [분석 엔진 데이터 플로우]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "시스템 아키텍처",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 33 -\n[오픈소스 구성안]",
+        "after": "[전처리 엔진 데이터 플로우] [분석 엔진 데이터 플로우]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "전처리 엔진 데이터 플로우",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 33 -\n[오픈소스 구성안]\n[시스템 아키텍처] ·IoT 정보 수집 및 분석 처리를 위한 전처리 및 분석엔진 개발",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "분석 엔진 데이터 플로우",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 33 -\n[오픈소스 구성안]\n[시스템 아키텍처] ·IoT 정보 수집 및 분석 처리를 위한 전처리 및 분석엔진 개발",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 36,
+      "2": 6,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.06,
+          592.51,
+          473.62,
+          798.57
+        ],
+        "page_area_fraction": 0.1505
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          281.21,
+          477.58,
+          557.51
+        ],
+        "page_area_fraction": 0.2061
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.21,
+          86.67,
+          285.69,
+          215.64
+        ],
+        "page_area_fraction": 0.0573
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.0,
+          86.67,
+          518.84,
+          215.64
+        ],
+        "page_area_fraction": 0.0574
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 777,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "보안관제 시각화 화면 설계",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 34 -\n· 이상징후 연관분석을 위한 IoT 기기 정보 전처리 성능 94,712EPS 달성 (목표치:70,000EPS) · 보안관리를 위한 인텔리전스 요청/응답 처리 성능 976ms 달성 (목표치:1,000ms 이내) · IoT 위협 통합분석 및 보안관제 시스템 시각화 설계\n※ IoT 위협 탐지 현황, 공격 연관성 분석, 타겟 디바이스, 공격 추이/확산 파악, IoT 기기\n보안정보, 취약점, 공격 트렌드 등 시각화 요소 개발",
+        "after": "[2차년도]\n○ IoT 기기 자동 식별 및 제어 기술 개발\n⟹ Product : IoT 기기 자동 식별 및 수집 시스템\n- 수집 및 분석 대상 IoT 기기에 대한 디바이스 정보 식별 기술 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 기기 식별 시스템 구조",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "⟹ Product : IoT 기기 자동 식별 및 수집 시스템\n- 수집 및 분석 대상 IoT 기기에 대한 디바이스 정보 식별 기술 개발\n·IoT 기기 디바이스 정보 식별 성능 검증 5종 달성(목표치: 4종) ※ Mirai 공격 대상 IoT 기기 분석 및 정보 수집 대상 기기 선정(AP, IP카메라) ※ SmartHomeDB社의 분류 카테고리를 기반으로 제품을 분류하고, 국·내외 높은 점유율을\n갖는 IoT 장비를 선정하여 식별기술 개발(`18년 점유율 기준)",
+        "after": "·IoT 기기 5종(유무선 AP, IP CCTV, AI스피커, 스마트 콘센트, 스마트 전구)에 대한\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 229,
+      "2": 7,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.9,
+          474.08,
+          478.9,
+          693.32
+        ],
+        "page_area_fraction": 0.1647
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          107.04,
+          477.46,
+          269.35
+        ],
+        "page_area_fraction": 0.121
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 1054,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 스마트 전구(Philips Lamp) 제어 구조",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "※ 네트워크 스캐닝(Nmap)을 통해 5종에 대한 기기별 정보 수집(OS, Open Port, MAC 주소 등) - 네트워크 통신 패킷 기반 IoT 기기 제어 모델 설계\n·포트미러링 기술을 활용한 IoT 기기 네트워크 패킷 정보 수집 및 분석\n·IoT 기기(스마트 전구)에 대한 기능(Light On/Off, 밝기 조절) 제어 기술 구현\n※ 제어 기술 연구를 위한 다양한 플랫폼 연동이 가능한 제품(Philips Lamp) 선정",
+        "after": "○ IoT 네트워크 행위 기반 이상탐지 기술 개발\n⟹ Product : 네트워크 학습 기반 경량 IoT 이상 탐지 시스템\n인공신경망을 통한 네트워크 위협 탐지 시스템\n- 경량 IoT 환경에 적합한 이상탐지 기술 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "알고리즘 평가 결과",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "·IoT 환경에서 모델의 성능을 일정 수준 이상 유지하며, 복잡도와 학습시간 등을\n최소한으로 낮출 수 있는 머신러닝 알고리즘 선정\n※ High Dimensional 문제에 적합하고 성능이 뛰어난 모델 분석 평가 후 경량화 대상 선정\n※ One-Class SVM, Isolation Forest, Autoencoder 알고리즘 적합성 평가 수행",
+        "after": "사용하는 것이 이상치 탐지 성능 보장\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 274,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.25,
+          554.75,
+          522.56,
+          628.35
+        ],
+        "page_area_fraction": 0.0681
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          89.66,
+          526.52,
+          284.09
+        ],
+        "page_area_fraction": 0.1831
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 623,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "t-SNE를 통한 데이터 셋 분포 시각화",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 36 -",
+        "after": "재학습에 유리한 Autoencoder 알고리즘 선정\n·Autoencoder의 여러 파라미터 조합을 통해 적합한 경량화 연구\n※ 기존 신경망의 파라미터를 경량화 관점에서 재해석하여 파라미터 튜닝\n※ Time과 Model의 Complexity를 낮추면서 높은 성능 유지",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "SMU 프레임워크內 이상탐지 흐름",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "※ 기존 신경망의 파라미터를 경량화 관점에서 재해석하여 파라미터 튜닝\n※ Time과 Model의 Complexity를 낮추면서 높은 성능 유지\n·SMU 프레임워크 기반 IoT 이상행위 탐지 모듈 개발\n※ 기기별 학습 및 탐지를 위한 네트워크 데이터 전처리 및 S-Cloud 전송(API) 모듈 개발",
+        "after": "※ (프루닝) 학습 후 가중치 값이 낮은 신경망 연결을 제거하여 경량화\n※ (양자화) 부동소수점 연산을 고정소수점으로 변환하여 처리 속도 향상\n·개발 기술 검증을 위한 모의 데이터 생성\n※ 기기 별, 사용자 별, 가정 별 실 데이터 기반 모의 데이터 생성",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 157,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.51,
+          632.07,
+          416.18,
+          798.57
+        ],
+        "page_area_fraction": 0.0834
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.64,
+          277.98,
+          502.05,
+          489.9
+        ],
+        "page_area_fraction": 0.1789
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 204,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "모의 데이터 생성 결과",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 37 -",
+        "after": "[1차 시험 결과(80%)]\n[2차 시험 결과(75%)]\n[3차 시험 결과(80%)]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "1차 시험 결과(80%)",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 37 -\n[모의 데이터 생성 결과] - 개발 결과물의 평균 이상탐지 식별 정확도 78% 달성 (목표치:75%)",
+        "after": "[2차 시험 결과(75%)]\n[3차 시험 결과(80%)]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "2차 시험 결과(75%)",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 37 -\n[모의 데이터 생성 결과] - 개발 결과물의 평균 이상탐지 식별 정확도 78% 달성 (목표치:75%)\n[1차 시험 결과(80%)]",
+        "after": "[3차 시험 결과(80%)]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "3차 시험 결과(80%)",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 37 -\n[모의 데이터 생성 결과] - 개발 결과물의 평균 이상탐지 식별 정확도 78% 달성 (목표치:75%)\n[1차 시험 결과(80%)]\n[2차 시험 결과(75%)]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 38,
+      "2": 6,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          627.03,
+          480.22,
+          798.57
+        ],
+        "page_area_fraction": 0.1298
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.21,
+          345.34,
+          524.72,
+          584.96
+        ],
+        "page_area_fraction": 0.2239
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.21,
+          280.37,
+          524.72,
+          484.15
+        ],
+        "page_area_fraction": 0.1904
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          55.98,
+          522.68,
+          258.8
+        ],
+        "page_area_fraction": 0.1895
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 597,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "위협 별 공격 데이터 생성",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- 네트워크 데이터 기반 IoT 위협 탐지 기술 개발\n·정밀 탐지를 위한 공격 세분화 및 공격 데이터 생성\n※ Reconnaissance, MITM, DoS 뿐만 아니라 IoT 환경의 대표적 위협인 Mirai 봇넷 시뮬레이션을\n통한 데이터 수집",
+        "after": "[실제 공격 도구를 활용한 데이터 수집] ※ 수집된 공격 데이터 분석을 통한 위협 탐지에 적합한 특성 선정\n·인공신경망 알고리즘을 활용한 네트워크 위협 탐지 모델 생성\n※ 과적합 방지를 위한 정규화 기법을 적용한 MLP 신경망 학습 모델 생성\n※ Softmax 함수를 적용하여 탐지 위협의 주요 특징을 추출하여 공격 유형 별 분류",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "실제 공격 도구를 활용한 데이터 수집",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "·정밀 탐지를 위한 공격 세분화 및 공격 데이터 생성\n※ Reconnaissance, MITM, DoS 뿐만 아니라 IoT 환경의 대표적 위협인 Mirai 봇넷 시뮬레이션을\n통한 데이터 수집\n[위협 별 공격 데이터 생성] ※ 공개된 DoS 공격 도구를 사용하여 공격 수행 및 데이터 수집",
+        "after": "·인공신경망 알고리즘을 활용한 네트워크 위협 탐지 모델 생성\n※ 과적합 방지를 위한 정규화 기법을 적용한 MLP 신경망 학습 모델 생성\n※ Softmax 함수를 적용하여 탐지 위협의 주요 특징을 추출하여 공격 유형 별 분류\n- 빅데이터 분석 기반 전이학습 기술 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 151,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          502.85,
+          526.64,
+          722.21
+        ],
+        "page_area_fraction": 0.2067
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          219.6,
+          526.64,
+          449.87
+        ],
+        "page_area_fraction": 0.217
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 288,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "S-Cloud 전이학습 모듈 구성도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 39 -",
+        "after": "[SMU탐지 결과의 위협탐지를 위한 연구 구성도] - SMU 및 연결 IoT 기기 관리를 위한 SMU 프레임워크 사용자 인터페이스 개발\n·관리 용이성 확보를 위한 사용자 GUI 제작\n※ 연결된 IoT 기기 관리를 위한 인터페이스\n[기기 관리 GUI]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "SMU탐지 결과의 위협탐지를 위한 연구 구성도",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 39 -\n[S-Cloud 전이학습 모듈 구성도] ※ 이상탐지 데이터의 위협 여부 검증 연구",
+        "after": "·관리 용이성 확보를 위한 사용자 GUI 제작\n※ 연결된 IoT 기기 관리를 위한 인터페이스\n[기기 관리 GUI]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "기기 관리 GUI",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[S-Cloud 전이학습 모듈 구성도] ※ 이상탐지 데이터의 위협 여부 검증 연구\n[SMU탐지 결과의 위협탐지를 위한 연구 구성도] - SMU 및 연결 IoT 기기 관리를 위한 SMU 프레임워크 사용자 인터페이스 개발\n·관리 용이성 확보를 위한 사용자 GUI 제작\n※ 연결된 IoT 기기 관리를 위한 인터페이스",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 60,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          598.74,
+          526.64,
+          798.57
+        ],
+        "page_area_fraction": 0.1883
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          420.02,
+          526.64,
+          545.4
+        ],
+        "page_area_fraction": 0.1181
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.15,
+          65.45,
+          404.78,
+          325.08
+        ],
+        "page_area_fraction": 0.1181
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 496,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "방화벽 관리 GUI",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 40 -\n※ SMU 네트워크 방화벽 관리를 위한 인터페이스",
+        "after": "※ 내부 모듈 관리 및 SMU 상태 관리 인터페이스\n[모듈 및 시스템 상태 관리 GUI]\n○ IoT 보안위협 정보 연관분석 및 보안관제 기술 개발\n⟹ Product : IoT 기기 위협 정보 자동 수집/탐지 시스템",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "모듈 및 시스템 상태 관리 GUI",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 40 -\n※ SMU 네트워크 방화벽 관리를 위한 인터페이스\n[방화벽 관리 GUI]\n※ 내부 모듈 관리 및 SMU 상태 관리 인터페이스",
+        "after": "○ IoT 보안위협 정보 연관분석 및 보안관제 기술 개발\n⟹ Product : IoT 기기 위협 정보 자동 수집/탐지 시스템\nIoT 위협 연관분석 및 보안관제 시스템\n- IoT 기기 및 위협정보 자동 수집 기반 알려진 위협 탐지 기술",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 122,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.63,
+          514.96,
+          419.05,
+          779.15
+        ],
+        "page_area_fraction": 0.1354
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.02,
+          207.73,
+          463.79,
+          455.02
+        ],
+        "page_area_fraction": 0.1709
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 1106,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "수집시스템 구성 모듈",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 41 -",
+        "after": "※ 1차 분류 : CVE를 포함하는 취약점을 대상으로 CWE 유형 15종 분류\n※ 2차 분류 : Exploit code의 유사 페이로드 특징 기반 취약점 공격 유형 99종 분류\n[IoT 기기 및 위협 정보 수집 시스템 흐름도]\nNo CWE 유형 Exploit type 유형 No CWE 유형 Exploit type 유형",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "수집시스템 수집 결과 파일",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 41 -",
+        "after": "※ 1차 분류 : CVE를 포함하는 취약점을 대상으로 CWE 유형 15종 분류\n※ 2차 분류 : Exploit code의 유사 페이로드 특징 기반 취약점 공격 유형 99종 분류\n[IoT 기기 및 위협 정보 수집 시스템 흐름도]\nNo CWE 유형 Exploit type 유형 No CWE 유형 Exploit type 유형",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 기기 및 위협 정보 수집 시스템 흐름도",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 41 -\n[수집시스템 구성 모듈] [수집시스템 수집 결과 파일] ·IoT 기기 및 위협 정보 수집 데이터 기반 CWE 및 Exploit 기반 공격유형 분류\n※ 1차 분류 : CVE를 포함하는 취약점을 대상으로 CWE 유형 15종 분류\n※ 2차 분류 : Exploit code의 유사 페이로드 특징 기반 취약점 공격 유형 99종 분류",
+        "after": "No CWE 유형 Exploit type 유형 No CWE 유형 Exploit type 유형\n1\nAuthentication\nBypass",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "CWE 및 Exploit 기반 IoT 공격유형 분류",
+        "line_index": 31,
+        "toc_like": false,
+        "before": "11 Hidden cmd 61 RTSP Stream\n12 Brute Force 62 Credentials - Telnet\n13 Crafted NFS Request 63 Eavesdrop\n14 Simultaneous Connections 64 RSA Key / Certificate",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 205,
+      "2": 147,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          61.65,
+          485.47,
+          284.37,
+          605.94
+        ],
+        "page_area_fraction": 0.0536
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.56,
+          485.71,
+          517.28,
+          605.82
+        ],
+        "page_area_fraction": 0.0535
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          658.08,
+          526.64,
+          798.57
+        ],
+        "page_area_fraction": 0.1324
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 1659,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 262,
+      "2": 261,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 2197,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 공격 대응범위 50종 선정",
+        "line_index": 76,
+        "toc_like": false,
+        "before": "4\n5150 RFI\n25 CVE-2014-8008 37816 LFI 50 CVE-2014-9143 35462 Crafted GET\nrequest",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 312,
+      "2": 291,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 271,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 취약점 악용 공격유형 50종에 대한 탐지 정책(룰) 생성",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 44 -\n·IoT 기기 취약점 악용 공격유형 50종 대응을 위한 탐지 정책(룰) 생성 및 검증\n※ 탐지도구로 멀티스레드 기반 오픈소스 IDS 시스템인 Suricata 활용",
+        "after": "[IoT 기기 취약점 악용 공격유형 50종에 대한 공격 패킷 생성]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 기기 취약점 악용 공격유형 50종에 대한 공격 패킷 생성",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 44 -\n·IoT 기기 취약점 악용 공격유형 50종 대응을 위한 탐지 정책(룰) 생성 및 검증\n※ 탐지도구로 멀티스레드 기반 오픈소스 IDS 시스템인 Suricata 활용\n[IoT 기기 취약점 악용 공격유형 50종에 대한 탐지 정책(룰) 생성]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 59,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          454.06,
+          495.21,
+          758.41
+        ],
+        "page_area_fraction": 0.2485
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.32,
+          154.03,
+          506.49,
+          423.26
+        ],
+        "page_area_fraction": 0.232
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 264,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "공격 패킷 탐지 로그",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 45 -",
+        "after": "·S-Cloud IoT 데이터 수집·전처리·분석 전체 시스템 아키텍처 설계\n[S-Cloud 전체 시스템 아키텍처]\n[S-Cloud 전체 데이터 플로우]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "S-Cloud 전체 시스템 아키텍처",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 45 -\n[공격 패킷 탐지 로그] ·IoT 보안 위협 분석 범위 50종 달성(목표치:50종) - IoT 위협 연관분석·보안관제 플랫폼 및 시각화 기술\n·S-Cloud IoT 데이터 수집·전처리·분석 전체 시스템 아키텍처 설계",
+        "after": "[S-Cloud 전체 데이터 플로우]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "S-Cloud 전체 데이터 플로우",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 45 -\n[공격 패킷 탐지 로그] ·IoT 보안 위협 분석 범위 50종 달성(목표치:50종) - IoT 위협 연관분석·보안관제 플랫폼 및 시각화 기술\n·S-Cloud IoT 데이터 수집·전처리·분석 전체 시스템 아키텍처 설계\n[S-Cloud 전체 시스템 아키텍처]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 58,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          60.33,
+          598.74,
+          521.36,
+          798.57
+        ],
+        "page_area_fraction": 0.1841
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.35,
+          293.2,
+          489.46,
+          493.26
+        ],
+        "page_area_fraction": 0.1588
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.12,
+          55.02,
+          516.68,
+          256.64
+        ],
+        "page_area_fraction": 0.1819
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 675,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "딥러닝 지원을 위한 분산처리 최적화 설계",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 46 -\n· S-Cloud 딥러닝 분석 지원을 위한 전처리 및 딥러닝 데이터 분산처리 최적화 설계\n※ 전처리 및 딥러닝 데이터를 Kafka에 저장하도록 하여 Spark 분산처리에 따라 데이터가\n중복 처리되지 않도록 최적화 설계 및 개발",
+        "after": "※ 딥러닝 이상 탐지 추론 결과와 Suricata 탐지 결과를 비교하여 새로운 공격 패턴에 의한\n공격 여부 분석\n[연관분석 시나리오 및 알려지지 않은 공격 탐지 결과] · S-Cloud 플랫폼 기반 IoT 보안관제 및 보안관리 시각화 개발\n※ S-Cloud 플랫폼 IoT 수집·분석·탐지 현황, IoT 기기 보안상태 분석 및 모니터링 등",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "연관분석 시나리오 및 알려지지 않은 공격 탐지 결과",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "중복 처리되지 않도록 최적화 설계 및 개발\n[딥러닝 지원을 위한 분산처리 최적화 설계] · 알려지지 않은 패턴에 의한 공격 탐지를 위한 연관성 분석 기술\n※ 딥러닝 이상 탐지 추론 결과와 Suricata 탐지 결과를 비교하여 새로운 공격 패턴에 의한\n공격 여부 분석",
+        "after": "※ S-Cloud 플랫폼 IoT 수집·분석·탐지 현황, IoT 기기 보안상태 분석 및 모니터링 등\n※ 기기별/기종별/지역별/서비스별 등 타켓화된 공격의 조기 감지 및 전이/확산 탐지\n[S-Cloud 플랫폼 기반 IoT 보안관제 시각화 화면] · IoT 사용자 인텔리전스 기반 보안관리 시각화 개발\n※ IoT 위협 탐지 데이터 기반 사용자 인텔리전스 제공",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "S-Cloud 플랫폼 기반 IoT 보안관제 시각화 화면",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "공격 여부 분석\n[연관분석 시나리오 및 알려지지 않은 공격 탐지 결과] · S-Cloud 플랫폼 기반 IoT 보안관제 및 보안관리 시각화 개발\n※ S-Cloud 플랫폼 IoT 수집·분석·탐지 현황, IoT 기기 보안상태 분석 및 모니터링 등\n※ 기기별/기종별/지역별/서비스별 등 타켓화된 공격의 조기 감지 및 전이/확산 탐지",
+        "after": "※ IoT 위협 탐지 데이터 기반 사용자 인텔리전스 제공\n※ 사용자 소유 IoT 기기의 보안상태 자가점검 및 위험상황 인지 지원\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 177,
+      "2": 6,
+      "3": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          60.33,
+          610.49,
+          285.69,
+          729.64
+        ],
+        "page_area_fraction": 0.0537
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          293.12,
+          607.02,
+          517.28,
+          733.24
+        ],
+        "page_area_fraction": 0.0565
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.09,
+          372.55,
+          294.56,
+          500.93
+        ],
+        "page_area_fraction": 0.0594
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.0,
+          373.39,
+          528.08,
+          500.33
+        ],
+        "page_area_fraction": 0.0589
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.65,
+          156.67,
+          288.8,
+          282.89
+        ],
+        "page_area_fraction": 0.0581
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.68,
+          155.95,
+          524.36,
+          283.37
+        ],
+        "page_area_fraction": 0.0592
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 1081,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 사용자 보안관리 시각화 화면",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 47 -",
+        "after": "[3차년도]\n○ 네트워크 패턴 특성 추출 기반 IoT 기기 유형 식별 기술 개발\n⟹ Product : IoT 취약점 정보 수집 및 위협 탐지 시스템\n- 분석 대상 IoT 기기(7종) 선정 및 IoT 기기 정보 식별 시스템 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 기기 식별 시스템 구조",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "- 분석 대상 IoT 기기(7종) 선정 및 IoT 기기 정보 식별 시스템 개발\n·IoT 기기 디바이스 정보 식별 성능 검증 7종 달성(목표치: 6종) ※ Mirai 공격 대상 IoT 기기 분석 및 정보 수집 대상 기기 선정(AP, IP카메라) ※ 동일 종 내의 취약점 분석 및 탐지 기술 연구를 위해 유무선공유기 추가 선정\n※ SmartHomeDB社의 분류 카테고리를 기반으로 제품을 분류하고, 국·내외 높은 점유율을\n갖는 IoT 장비를 선정하여 식별기술 개발(`20. 3 카테고리 별 제품 기준)",
+        "after": "·IoT 기기 7종 8개(스마트 온도측정기(netatmo Weather), 스마트 TV(LG\nUK6820ENF), 공유기(Dir-505L, A9004m), 카메라(EZVIZ C2C), 스마트 플러그\n(TP-Link HS100), AI스피커(Amazon Echo Spot), 스마트 전구(LIFX Light))에 대한\n테스트베드 구축을 통해 네트워크 연결 정보 및 상태정보 수집",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 301,
+      "2": 7,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.01,
+          686.37,
+          290.0,
+          798.57
+        ],
+        "page_area_fraction": 0.0518
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          292.76,
+          686.37,
+          521.84,
+          798.57
+        ],
+        "page_area_fraction": 0.0514
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.43,
+          231.83,
+          488.38,
+          416.66
+        ],
+        "page_area_fraction": 0.1459
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 756,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Epoch에 따른 학습시간 변화",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 인공신경망 파라미터 경량화 기법 적용 연구\n·필요없는 epoch를 줄이면서 학습시간을 감소\n※ Early Stopping 효과\n※ 과적합을 방지하고 Generalization power를 높일 수 있음",
+        "after": "※ Convergence rate 확보\n[Adam, Momentum Optimizer의 학습 결과 수렴 추이] ·예측 결과에 영향을 미치지 않는 학습 노드를 제거(Pruning) ※ 비슷한 정확도를 유지하며 Weight를 적게 사용하고 Predition에 걸리는 시간이 감소\n[Pruning 적용 전후 성능 검증(학습시간 2배 단축)] ※ 학습시간이 조금 더 오래 걸리나 비슷한 성능으로 예측시간을 줄이는데 효과적임\n- 탐지 모델 성능 보장을 위한 전이학습 기술 연구",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Adam, Momentum Optimizer의 학습 결과 수렴 추이",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "※ Early Stopping 효과\n※ 과적합을 방지하고 Generalization power를 높일 수 있음\n[Epoch에 따른 학습시간 변화] ·Momentum Optimizer 알고리즘 사용\n※ Convergence rate 확보",
+        "after": "[Pruning 적용 전후 성능 검증(학습시간 2배 단축)] ※ 학습시간이 조금 더 오래 걸리나 비슷한 성능으로 예측시간을 줄이는데 효과적임\n- 탐지 모델 성능 보장을 위한 전이학습 기술 연구\n·학습 데이터가 적을 시 데이터 內 노이즈에 취약\n※ 오토인코더 알고리즘의 경우 노이즈에 매우 취약한 단점 존재",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Pruning 적용 전후 성능 검증(학습시간 2배 단축)",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "※ 과적합을 방지하고 Generalization power를 높일 수 있음\n[Epoch에 따른 학습시간 변화] ·Momentum Optimizer 알고리즘 사용\n※ Convergence rate 확보\n[Adam, Momentum Optimizer의 학습 결과 수렴 추이] ·예측 결과에 영향을 미치지 않는 학습 노드를 제거(Pruning) ※ 비슷한 정확도를 유지하며 Weight를 적게 사용하고 Predition에 걸리는 시간이 감소",
+        "after": "- 탐지 모델 성능 보장을 위한 전이학습 기술 연구\n·학습 데이터가 적을 시 데이터 內 노이즈에 취약\n※ 오토인코더 알고리즘의 경우 노이즈에 매우 취약한 단점 존재\n·S-Cloud에서 수집된 정상 데이터 정보를 이상탐지 모델에 전달",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 181,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          549.96,
+          494.73,
+          673.54
+        ],
+        "page_area_fraction": 0.1086
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          348.58,
+          507.93,
+          480.08
+        ],
+        "page_area_fraction": 0.119
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          220.2,
+          526.64,
+          278.7
+        ],
+        "page_area_fraction": 0.0551
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 353,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "전이학습 과정 모식도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 49 -",
+        "after": "·패킷 수집 및 전처리 기술\n※ 4X4 병렬 처리 구조로 패킷 전처리 시간 단축\n[패킷 데이터 수집 및 전처리 과정] ·이상탐지 모델 학습을 위한 Center Vector 생성\n※ 오토인코더를 통해 인코딩한 데이터의 중심점을 Center Vector로 생성",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "패킷 데이터 수집 및 전처리 과정",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 49 -\n[전이학습 과정 모식도] - SMU기반 실시간 이상 탐지 기술 개발\n·패킷 수집 및 전처리 기술\n※ 4X4 병렬 처리 구조로 패킷 전처리 시간 단축",
+        "after": "※ 오토인코더를 통해 인코딩한 데이터의 중심점을 Center Vector로 생성\n※ 지속적인 학습을 통해 최적화된 Center Vector 추출\n[Center Vector 생성을 위한 학습 과정]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Center Vector 생성을 위한 학습 과정",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "※ 4X4 병렬 처리 구조로 패킷 전처리 시간 단축\n[패킷 데이터 수집 및 전처리 과정] ·이상탐지 모델 학습을 위한 Center Vector 생성\n※ 오토인코더를 통해 인코딩한 데이터의 중심점을 Center Vector로 생성\n※ 지속적인 학습을 통해 최적화된 Center Vector 추출",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 79,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.6,
+          627.27,
+          513.2,
+          798.57
+        ],
+        "page_area_fraction": 0.1522
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          399.16,
+          529.88,
+          536.65
+        ],
+        "page_area_fraction": 0.1304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          40.16,
+          490.3,
+          309.5
+        ],
+        "page_area_fraction": 0.2342
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 509,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "SVDD를 통한 Center Vector, R 최적화",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 50 -\n·학습된 Center Vector과 학습 데이터를 통해 이상탐지 모델 학습(MLP) ※ 최적화 이후 R 값을 추출하여 이상탐지 스코어 산출\n※ R 값은 이상 데이터 경계거리로 Center Vector와 탐지 데이터의 거리를 계산하여 R\n보다 높게되면 이상치로 판단",
+        "after": "※ 웹 프레임워크 Flask를 통해 실시간 패킷 이상탐지 스코어 추출\n[실시간 패킷 이상탐지] ·모델 성능 보정을 위한 전이학습 기술 개발\n※ 다양한 환경에서 수집된 데이터 기반의 학습 정보를 로컬 SMU에 적용시 이 자체가\n노이즈로 작용",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "실시간 패킷 이상탐지",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "※ R 값은 이상 데이터 경계거리로 Center Vector와 탐지 데이터의 거리를 계산하여 R\n보다 높게되면 이상치로 판단\n[SVDD를 통한 Center Vector, R 최적화] ·실시간 패킷 이상탐지 기술 개발\n※ 웹 프레임워크 Flask를 통해 실시간 패킷 이상탐지 스코어 추출",
+        "after": "※ 다양한 환경에서 수집된 데이터 기반의 학습 정보를 로컬 SMU에 적용시 이 자체가\n노이즈로 작용\n※ 탐지 모델 등을 통해 정상 데이터로 분류된 데이터를 해당 특성에 맞는 SMU에 전달\n하여 추가 학습데이터 확보",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 124,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          451.67,
+          526.64,
+          723.65
+        ],
+        "page_area_fraction": 0.2563
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          172.37,
+          526.64,
+          381.78
+        ],
+        "page_area_fraction": 0.1973
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 308,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "SMU 이상탐지 시스템 전체 구성도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 51 -",
+        "after": "·IoT 기기 기능 별 패턴 분석 및 패킷 데이터 수집\n※ AI 스피커의 기능 별 사용자 패턴 및 트래픽 통계 조사\n[정상 데이터 수집을 위한 사용자 및 기기 기능 별 패턴 연구 조사] ·사용자 SMU 관리를 위한 로컬 GUI ※ SMU 및 연결된 IoT 기기 관리\n[SMU 기기 관리 GUI]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "정상 데이터 수집을 위한 사용자 및 기기 기능 별 패턴 연구 조사",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 51 -\n[SMU 이상탐지 시스템 전체 구성도] - IoT 보안 관리 플랫폼 개발\n·IoT 기기 기능 별 패턴 분석 및 패킷 데이터 수집\n※ AI 스피커의 기능 별 사용자 패턴 및 트래픽 통계 조사",
+        "after": "[SMU 기기 관리 GUI]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "SMU 기기 관리 GUI",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[SMU 이상탐지 시스템 전체 구성도] - IoT 보안 관리 플랫폼 개발\n·IoT 기기 기능 별 패턴 분석 및 패킷 데이터 수집\n※ AI 스피커의 기능 별 사용자 패턴 및 트래픽 통계 조사\n[정상 데이터 수집을 위한 사용자 및 기기 기능 별 패턴 연구 조사] ·사용자 SMU 관리를 위한 로컬 GUI ※ SMU 및 연결된 IoT 기기 관리",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 74,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          614.93,
+          526.64,
+          798.57
+        ],
+        "page_area_fraction": 0.173
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          384.9,
+          526.52,
+          523.83
+        ],
+        "page_area_fraction": 0.1309
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.15,
+          55.38,
+          404.78,
+          315.01
+        ],
+        "page_area_fraction": 0.1181
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 278,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "SMU 네트워크 보안 관리 GUI",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 52 -\n※ SMU에 연결된 기기 네트워크 방화벽 관리 인터페이스",
+        "after": "[내부 모듈 및 SMU 관리 GUI] ·S-Cloud 데이터 연동\n※ S-Cloud API 서버에 요청하여 SMU 및 IoT 기기 정보 조회, 룰 다운로드, 패킷파일 업로드 수행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "내부 모듈 및 SMU 관리 GUI",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 52 -\n※ SMU에 연결된 기기 네트워크 방화벽 관리 인터페이스\n[SMU 네트워크 보안 관리 GUI] ※ 내부 모듈 및 SMU 관리자 인터페이스",
+        "after": "※ S-Cloud API 서버에 요청하여 SMU 및 IoT 기기 정보 조회, 룰 다운로드, 패킷파일 업로드 수행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 57,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.63,
+          514.96,
+          419.05,
+          779.15
+        ],
+        "page_area_fraction": 0.1354
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.02,
+          218.64,
+          463.79,
+          465.93
+        ],
+        "page_area_fraction": 0.1709
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 401,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "S-Cloud 연동 테스트 결과",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 53 -",
+        "after": "※ 학습 데이터 1셋과 검증 데이터 3셋을 통해 F1-Score 측정\n[개발 결과물 자체 성능 검증(NSL-KDD)] ※ 다층 퍼셉트론 알고리즘에 SVDD loss 적용하여 탐지 모델 학습\n[SVDD 로스 함수 적용 수식] ※ 학습된 모델에 검증 데이터를 입력하여 이상탐지 스코어를 추출하여 0보다 크면 이상\n탐지",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "개발 결과물 자체 성능 검증(NSL-KDD)",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 53 -\n[S-Cloud 연동 테스트 결과] ·NSK-KDD 데이터셋을 활용한 이상탐지 모듈 성능 검증\n※ 학습 데이터 1셋과 검증 데이터 3셋을 통해 F1-Score 측정",
+        "after": "[SVDD 로스 함수 적용 수식] ※ 학습된 모델에 검증 데이터를 입력하여 이상탐지 스코어를 추출하여 0보다 크면 이상\n탐지\n[이상탐지 스코어 산출식] ※ 1회 학습 및 3회 검증을 3번 반복하여 평균 탐지율 83.24% 측정\n[성능 검증 결과]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "SVDD 로스 함수 적용 수식",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 53 -\n[S-Cloud 연동 테스트 결과] ·NSK-KDD 데이터셋을 활용한 이상탐지 모듈 성능 검증\n※ 학습 데이터 1셋과 검증 데이터 3셋을 통해 F1-Score 측정\n[개발 결과물 자체 성능 검증(NSL-KDD)] ※ 다층 퍼셉트론 알고리즘에 SVDD loss 적용하여 탐지 모델 학습",
+        "after": "탐지\n[이상탐지 스코어 산출식] ※ 1회 학습 및 3회 검증을 3번 반복하여 평균 탐지율 83.24% 측정\n[성능 검증 결과]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "이상탐지 스코어 산출식",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "※ 학습 데이터 1셋과 검증 데이터 3셋을 통해 F1-Score 측정\n[개발 결과물 자체 성능 검증(NSL-KDD)] ※ 다층 퍼셉트론 알고리즘에 SVDD loss 적용하여 탐지 모델 학습\n[SVDD 로스 함수 적용 수식] ※ 학습된 모델에 검증 데이터를 입력하여 이상탐지 스코어를 추출하여 0보다 크면 이상\n탐지",
+        "after": "[성능 검증 결과]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능 검증 결과",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "[개발 결과물 자체 성능 검증(NSL-KDD)] ※ 다층 퍼셉트론 알고리즘에 SVDD loss 적용하여 탐지 모델 학습\n[SVDD 로스 함수 적용 수식] ※ 학습된 모델에 검증 데이터를 입력하여 이상탐지 스코어를 추출하여 0보다 크면 이상\n탐지\n[이상탐지 스코어 산출식] ※ 1회 학습 및 3회 검증을 3번 반복하여 평균 탐지율 83.24% 측정",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 97,
+      "2": 6,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          641.42,
+          529.88,
+          798.57
+        ],
+        "page_area_fraction": 0.1491
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          487.75,
+          454.32,
+          571.65
+        ],
+        "page_area_fraction": 0.0548
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.2,
+          390.17,
+          515.6,
+          438.6
+        ],
+        "page_area_fraction": 0.0435
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.48,
+          293.08,
+          433.33,
+          325.8
+        ],
+        "page_area_fraction": 0.0186
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          166.62,
+          485.14,
+          243.93
+        ],
+        "page_area_fraction": 0.06
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 262,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "1회 성능 검증 결과",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 54 -",
+        "after": "[2회 성능 검증 결과]\n[3회 성능 검증 결과] - 전이학습용 정상 데이터 셋 확보를 위한 생성 기술 연구\n·침입탐지 모델 생성을 위한 공격 데이터 셋 확보\n※ IoT 기기 및 공격용, 모니터링용 PC로 구성된 테스트베드 구성",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "2회 성능 검증 결과",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 54 -\n[1회 성능 검증 결과]",
+        "after": "[3회 성능 검증 결과] - 전이학습용 정상 데이터 셋 확보를 위한 생성 기술 연구\n·침입탐지 모델 생성을 위한 공격 데이터 셋 확보\n※ IoT 기기 및 공격용, 모니터링용 PC로 구성된 테스트베드 구성\n[공격 패킷 수집 테스트베드]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "3회 성능 검증 결과",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 54 -\n[1회 성능 검증 결과]\n[2회 성능 검증 결과]",
+        "after": "·침입탐지 모델 생성을 위한 공격 데이터 셋 확보\n※ IoT 기기 및 공격용, 모니터링용 PC로 구성된 테스트베드 구성\n[공격 패킷 수집 테스트베드]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "공격 패킷 수집 테스트베드",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "[2회 성능 검증 결과]\n[3회 성능 검증 결과] - 전이학습용 정상 데이터 셋 확보를 위한 생성 기술 연구\n·침입탐지 모델 생성을 위한 공격 데이터 셋 확보\n※ IoT 기기 및 공격용, 모니터링용 PC로 구성된 테스트베드 구성",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 62,
+      "2": 6,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.31,
+          657.24,
+          479.5,
+          798.57
+        ],
+        "page_area_fraction": 0.1065
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.54,
+          498.05,
+          479.14,
+          632.79
+        ],
+        "page_area_fraction": 0.1014
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.74,
+          331.32,
+          477.94,
+          473.6
+        ],
+        "page_area_fraction": 0.1064
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.02,
+          57.54,
+          466.67,
+          245.97
+        ],
+        "page_area_fraction": 0.1324
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 292,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 환경에서 발생 가능한 공격 유형 식별",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 55 -\n※ 연결된 IoT 기기 5대에 대하여 전체 혹은 기기 별 공격 시나리오 동작",
+        "after": "[공격 패킷 수집 테스트베드 연결 IoT 기기 정보]\n[기타 관리용 장비 IP 정보] ※ 공격 유형 별 공격 트래픽 수집\n[최종 수집된 기기 별 공격 패킷 데이터]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "공격 패킷 수집 테스트베드 연결 IoT 기기 정보",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 55 -\n※ 연결된 IoT 기기 5대에 대하여 전체 혹은 기기 별 공격 시나리오 동작\n[IoT 환경에서 발생 가능한 공격 유형 식별] ※ 수집된 패킷 중 노이즈 패킷(PC IP) 필터링",
+        "after": "[기타 관리용 장비 IP 정보] ※ 공격 유형 별 공격 트래픽 수집\n[최종 수집된 기기 별 공격 패킷 데이터]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "기타 관리용 장비 IP 정보",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 55 -\n※ 연결된 IoT 기기 5대에 대하여 전체 혹은 기기 별 공격 시나리오 동작\n[IoT 환경에서 발생 가능한 공격 유형 식별] ※ 수집된 패킷 중 노이즈 패킷(PC IP) 필터링\n[공격 패킷 수집 테스트베드 연결 IoT 기기 정보]",
+        "after": "[최종 수집된 기기 별 공격 패킷 데이터]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "최종 수집된 기기 별 공격 패킷 데이터",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "※ 연결된 IoT 기기 5대에 대하여 전체 혹은 기기 별 공격 시나리오 동작\n[IoT 환경에서 발생 가능한 공격 유형 식별] ※ 수집된 패킷 중 노이즈 패킷(PC IP) 필터링\n[공격 패킷 수집 테스트베드 연결 IoT 기기 정보]\n[기타 관리용 장비 IP 정보] ※ 공격 유형 별 공격 트래픽 수집",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 71,
+      "2": 6,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          611.45,
+          510.09,
+          779.15
+        ],
+        "page_area_fraction": 0.1469
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.11,
+          469.41,
+          492.7,
+          562.42
+        ],
+        "page_area_fraction": 0.075
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.9,
+          386.82,
+          392.79,
+          439.56
+        ],
+        "page_area_fraction": 0.0215
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          147.08,
+          526.64,
+          337.79
+        ],
+        "page_area_fraction": 0.1797
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 173,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "구글 홈 기기에서 수집된 공격 패킷",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 56 -",
+        "after": "[Ezviz IP 카메라에서 수집된 공격 패킷]\n[Tapo IP 카메라에서 수집된 공격 패킷]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Ezviz IP 카메라에서 수집된 공격 패킷",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 56 -\n[구글 홈 기기에서 수집된 공격 패킷]",
+        "after": "[Tapo IP 카메라에서 수집된 공격 패킷]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Tapo IP 카메라에서 수집된 공격 패킷",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 56 -\n[구글 홈 기기에서 수집된 공격 패킷]\n[Ezviz IP 카메라에서 수집된 공격 패킷]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 26,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          620.68,
+          526.64,
+          798.57
+        ],
+        "page_area_fraction": 0.1676
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          392.69,
+          526.64,
+          590.59
+        ],
+        "page_area_fraction": 0.1865
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          162.54,
+          526.64,
+          362.72
+        ],
+        "page_area_fraction": 0.1886
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 456,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "스마트 전구에서 수집된 공격 패킷",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 57 -",
+        "after": "·softmax 함수를 활용하여 IoT 환경에서의 공격 유형 식별\n※ 9종 공격 유형에대해 학습 수행\n※ 모든 도메인을 고려하여 대표적인 IoT 기기에 위협이 되는 공격 유형 12가지 분류\nIdentifying the attack surface for IoT network(Internet of Things, vol9, 2020)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "연구 조사를 통해 분류된 IoT 환경 위협 12종",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "·softmax 함수를 활용하여 IoT 환경에서의 공격 유형 식별\n※ 9종 공격 유형에대해 학습 수행\n※ 모든 도메인을 고려하여 대표적인 IoT 기기에 위협이 되는 공격 유형 12가지 분류\nIdentifying the attack surface for IoT network(Internet of Things, vol9, 2020)",
+        "after": "※ 데이터 샘플링을 통해 데이터 불균형 해소\n[성능 검증을 위해 수행된 데이터 샘플링 결과]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성능 검증을 위해 수행된 데이터 샘플링 결과",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "※ 모든 도메인을 고려하여 대표적인 IoT 기기에 위협이 되는 공격 유형 12가지 분류\nIdentifying the attack surface for IoT network(Internet of Things, vol9, 2020)\n[연구 조사를 통해 분류된 IoT 환경 위협 12종] ·수집된 데이터 + 정상 데이터를 통한 탐지 성능 검증\n※ 데이터 샘플링을 통해 데이터 불균형 해소",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 103,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          608.93,
+          526.64,
+          798.57
+        ],
+        "page_area_fraction": 0.1787
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          317.29,
+          526.64,
+          483.19
+        ],
+        "page_area_fraction": 0.1563
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.95,
+          54.78,
+          482.74,
+          247.05
+        ],
+        "page_area_fraction": 0.1475
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 561,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "침입탐지 기술 성능 검증 결과",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 58 -\n※ 침입탐지 성능 검증 결과 탐지율 93.72%",
+        "after": "○ IoT 취약점 정보 수집 및 위협 탐지 기술 개발\n⟹ Product : 키워드 기반 IoT 위협 수집 및 공격유형 분류 모듈\n시그니처 기반 IoT 위협 탐지 모듈\n- 키워드 기반 IoT 위협 수집 및 공격유형 분류 기술 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 기기 및 위협 정보 수집 시스템 흐름도",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "·IoT 기기 및 위협정보(CVE 및 Exploit) 자동 수집시스템 개발\n※ IoT 기기 정보(제조사 및 제품명) 자동 수집을 위한 Wikidevi(서비스 종료로 인한 수집\n채널(techinfodepot.shoutwiki) 추가 및 수집 기술 모듈 개발) 및 nmap 크롤러 개발\n※ IoT 기기 정보 키워드 기반 NVD CVE 및 Exploit 크롤러 개발, CVE 및 Exploit 매칭",
+        "after": "[IoT 기기 정보 수집 및 키워드 생성]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 기기 정보 수집 및 키워드 생성",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "※ IoT 기기 정보(제조사 및 제품명) 자동 수집을 위한 Wikidevi(서비스 종료로 인한 수집\n채널(techinfodepot.shoutwiki) 추가 및 수집 기술 모듈 개발) 및 nmap 크롤러 개발\n※ IoT 기기 정보 키워드 기반 NVD CVE 및 Exploit 크롤러 개발, CVE 및 Exploit 매칭\n[IoT 기기 및 위협 정보 수집 시스템 흐름도]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 139,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.5,
+          586.04,
+          466.31,
+          779.15
+        ],
+        "page_area_fraction": 0.1354
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          261.19,
+          526.64,
+          382.74
+        ],
+        "page_area_fraction": 0.1145
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.69,
+          59.93,
+          456.11,
+          227.87
+        ],
+        "page_area_fraction": 0.1109
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 2225,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "2차 분류 : Exploit 기반 공격 유형 150종 분류",
+        "line_index": 71,
+        "toc_like": false,
+        "before": "34 Remote file inclusion 109 HeartBleed\n35 HTML INJECTION 110 SESSION ENUMERATION\n36 JAVA DESERIALIZATION 111 SOURCE CODE DISCLOSURE\n37 Email Header Injection 112 IP DISCLOSURE",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 368,
+      "2": 133,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 1886,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 279,
+      "2": 122,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 2248,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "3차년도 대응범위 70종 선정",
+        "line_index": 64,
+        "toc_like": false,
+        "before": "SQL Injection\nUnion Based 31189 2008-0026 2\nBlind Based 17304 2011-0960 2\nTime Based 35204 2014-10013 3",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 326,
+      "2": 75,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 1024,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 취약점 악용 공격유형 70종에 대한 탐지 정책(룰) 생성",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 62 -\n- 시그니처 기반 IoT 위협 탐지 기술 개발\n·IoT 기기 취약점 악용 공격유형 70개 대응을 위한 탐지 정책(룰) 생성 및 검증\n※ 탐지도구로 멀티스레드 기반 오픈소스 IDS 시스템인 Suricata 활용",
+        "after": "[공격 패킷 탐지 로그] ·IoT 보안 위협 분석 범위 70종 달성(목표치:70종)\nError Based 47846 2020-5307 3\nFile Inclusion\nUnrestricted Upload 45533 2018-17442 2",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "공격 패킷 탐지 로그",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- 시그니처 기반 IoT 위협 탐지 기술 개발\n·IoT 기기 취약점 악용 공격유형 70개 대응을 위한 탐지 정책(룰) 생성 및 검증\n※ 탐지도구로 멀티스레드 기반 오픈소스 IDS 시스템인 Suricata 활용\n[IoT 기기 취약점 악용 공격유형 70종에 대한 탐지 정책(룰) 생성]",
+        "after": "Error Based 47846 2020-5307 3\nFile Inclusion\nUnrestricted Upload 45533 2018-17442 2\nRemote file inclusion 36696 2012-1200 3",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 179,
+      "2": 34,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.31,
+          297.87,
+          488.5,
+          497.7
+        ],
+        "page_area_fraction": 0.1578
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.51,
+          81.39,
+          481.18,
+          268.03
+        ],
+        "page_area_fraction": 0.142
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 414,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "S-Cloud 전체 아키텍처",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "·S-Cloud 수집/전처리, 분석, 시각화 아키텍처 설계 및 개발\n※ 딥러닝 지원을 위한 TFoS(TensorFlowOnSpark) 적용 개발\n※ TFoS 도커(Kocker) 컨테이너 기반 클러스터 방식 개발\n※ 딥러닝 데이터 중복 처리 이슈 해결을 위한 전처리 시스템 Kafka 및 Spark 협업 개발",
+        "after": "[S-Cloud 시스템 아키텍처]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "S-Cloud 시스템 아키텍처",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "※ 딥러닝 지원을 위한 TFoS(TensorFlowOnSpark) 적용 개발\n※ TFoS 도커(Kocker) 컨테이너 기반 클러스터 방식 개발\n※ 딥러닝 데이터 중복 처리 이슈 해결을 위한 전처리 시스템 Kafka 및 Spark 협업 개발\n[S-Cloud 전체 아키텍처]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 86,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.51,
+          357.09,
+          481.3,
+          631.71
+        ],
+        "page_area_fraction": 0.209
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          98.05,
+          526.64,
+          327.36
+        ],
+        "page_area_fraction": 0.2161
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 410,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "S-Cloud 시스템 스택 구성",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 64 -",
+        "after": "※ 전처리 및 딥러닝 데이터를 Kafka에 저장하도록 하여 Spark 분산처리 시 데이터 중복\n이슈 해결\n[분산처리 데이터 중복 배제 최적화 설계] ※ Spark 플랫폼에서 딥러닝 학습을 위한 TensorFvlow 적용 설계\n[TensorFlowOnSpark 동작 구조] ※ 기존 TensorFlow 모듈을 TFoS 모듈로 변환하기 위한 가이드 작성",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "분산처리 데이터 중복 배제 최적화 설계",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 64 -\n[S-Cloud 시스템 스택 구성] ·전처리 및 딥러닝 데이터 분산 처리 최적화 개발\n※ 전처리 및 딥러닝 데이터를 Kafka에 저장하도록 하여 Spark 분산처리 시 데이터 중복\n이슈 해결",
+        "after": "[TensorFlowOnSpark 동작 구조] ※ 기존 TensorFlow 모듈을 TFoS 모듈로 변환하기 위한 가이드 작성\n·개발 기술 검증을 위한 테스트베드 구축\n※ SMU 연동 및 상용화 프로토타입 제작을 위한 개발 기술 검증\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "TensorFlowOnSpark 동작 구조",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[S-Cloud 시스템 스택 구성] ·전처리 및 딥러닝 데이터 분산 처리 최적화 개발\n※ 전처리 및 딥러닝 데이터를 Kafka에 저장하도록 하여 Spark 분산처리 시 데이터 중복\n이슈 해결\n[분산처리 데이터 중복 배제 최적화 설계] ※ Spark 플랫폼에서 딥러닝 학습을 위한 TensorFvlow 적용 설계",
+        "after": "·개발 기술 검증을 위한 테스트베드 구축\n※ SMU 연동 및 상용화 프로토타입 제작을 위한 개발 기술 검증\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 89,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          597.91,
+          526.64,
+          798.57
+        ],
+        "page_area_fraction": 0.1891
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.7,
+          370.99,
+          465.11,
+          512.68
+        ],
+        "page_area_fraction": 0.0987
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.3,
+          197.06,
+          476.38,
+          321.97
+        ],
+        "page_area_fraction": 0.0926
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 335,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "S-Cloud 테스트베드 구성도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 65 -",
+        "after": "[테스트베드 설치 모듈 및 포트 정보] ※ 분산 처리 스케줄러 관리 및 데이터 병합을 위한 프로세스 구성\n[분산 처리 프로세스 구조] - 사용자 패턴 정보 기반 단일/연관 분석 정책 생성 기술 개발\n·분석 유연성 확보를 위해 블럭(Brick) 조립 방식의 분석 정책 생성 기술 설계\n※ 각각의 블럭을 조합하여 단일 분석 룰을 구성하며, 단일 분석 룰을 조합하여 연관 분석 룰 생성",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "테스트베드 설치 모듈 및 포트 정보",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 65 -\n[S-Cloud 테스트베드 구성도]",
+        "after": "[분산 처리 프로세스 구조] - 사용자 패턴 정보 기반 단일/연관 분석 정책 생성 기술 개발\n·분석 유연성 확보를 위해 블럭(Brick) 조립 방식의 분석 정책 생성 기술 설계\n※ 각각의 블럭을 조합하여 단일 분석 룰을 구성하며, 단일 분석 룰을 조합하여 연관 분석 룰 생성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "분산 처리 프로세스 구조",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 65 -\n[S-Cloud 테스트베드 구성도]\n[테스트베드 설치 모듈 및 포트 정보] ※ 분산 처리 스케줄러 관리 및 데이터 병합을 위한 프로세스 구성",
+        "after": "·분석 유연성 확보를 위해 블럭(Brick) 조립 방식의 분석 정책 생성 기술 설계\n※ 각각의 블럭을 조합하여 단일 분석 룰을 구성하며, 단일 분석 룰을 조합하여 연관 분석 룰 생성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 81,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          633.63,
+          489.82,
+          798.57
+        ],
+        "page_area_fraction": 0.1311
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          476.0,
+          489.82,
+          604.02
+        ],
+        "page_area_fraction": 0.1017
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          131.26,
+          526.64,
+          426.97
+        ],
+        "page_area_fraction": 0.2786
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 72,
+    "text_characters": 341,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연관 분석 데이트 플로우",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 66 -",
+        "after": "[연관 분석 모듈 진행도] ※ 위협 탐지 데이터, 이상 탐지 데이터, 자산 정보 및 블랙리스트 정보 활용\n[블럭 조립 방식의 연관 분석 룰 생성 모식도]\n- 위협 대응 및 피해 저감을 위한 보안관제 시각화 엔진 개발\n·실시간 보안위협 대응 및 피해 저감을 위한 그래픽 기반 데이터 분석",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "연관 분석 모듈 진행도",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 66 -\n[연관 분석 데이트 플로우]",
+        "after": "[블럭 조립 방식의 연관 분석 룰 생성 모식도]\n- 위협 대응 및 피해 저감을 위한 보안관제 시각화 엔진 개발\n·실시간 보안위협 대응 및 피해 저감을 위한 그래픽 기반 데이터 분석\n※ 지리정보 기반 위협 발생 정보 표출 및 기기별 위협 유형 별 분류를 통한 분석 정보 시각화 기",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "블럭 조립 방식의 연관 분석 룰 생성 모식도",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 66 -\n[연관 분석 데이트 플로우]\n[연관 분석 모듈 진행도] ※ 위협 탐지 데이터, 이상 탐지 데이터, 자산 정보 및 블랙리스트 정보 활용",
+        "after": "- 위협 대응 및 피해 저감을 위한 보안관제 시각화 엔진 개발\n·실시간 보안위협 대응 및 피해 저감을 위한 그래픽 기반 데이터 분석\n※ 지리정보 기반 위협 발생 정보 표출 및 기기별 위협 유형 별 분류를 통한 분석 정보 시각화 기\n능 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 88,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          610.85,
+          526.64,
+          798.57
+        ],
+        "page_area_fraction": 0.1769
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          412.47,
+          526.64,
+          581.24
+        ],
+        "page_area_fraction": 0.159
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          62.25,
+          154.75,
+          519.68,
+          363.32
+        ],
+        "page_area_fraction": 0.1907
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 73,
+    "text_characters": 224,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "관제 차트 및 대시보드 시각화",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 67 -",
+        "after": "[S-Cloud 시각화 모듈 구성도] ·최소 정책 단위(블럭) 조합을 통한 단일/연관 분석 정책 생성 UI 개발\n※ 블록 단위 정책 생성 및 조합 가능\n[단일/연관 분석 정책 생성 UI]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "S-Cloud 시각화 모듈 구성도",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 67 -\n[관제 차트 및 대시보드 시각화]",
+        "after": "※ 블록 단위 정책 생성 및 조합 가능\n[단일/연관 분석 정책 생성 UI]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "단일/연관 분석 정책 생성 UI",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 67 -\n[관제 차트 및 대시보드 시각화]\n[S-Cloud 시각화 모듈 구성도] ·최소 정책 단위(블럭) 조합을 통한 단일/연관 분석 정책 생성 UI 개발\n※ 블록 단위 정책 생성 및 조합 가능",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 51,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          588.32,
+          503.37,
+          798.57
+        ],
+        "page_area_fraction": 0.1785
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          349.06,
+          489.82,
+          558.59
+        ],
+        "page_area_fraction": 0.1665
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.09,
+          61.13,
+          518.72,
+          279.17
+        ],
+        "page_area_fraction": 0.1985
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 74,
+    "text_characters": 264,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "사용자 관리 기능",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 68 -\n- 사용자, 인텔리전스, 자산 등 관리 시스템 개발\n·데이터의 효율적인 처리를 위한 관리 시스템 개발\n※ 사용자 및 자산 등록 기능 및 인텔리전스 생성 관리 기능 구현",
+        "after": "[자산관리 기능] ·S-Cloud 플랫폼 오토스케일링 관리 UI 개발\n[오토스케일링 관리 UI]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "오토스케일링 관리 UI",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "·데이터의 효율적인 처리를 위한 관리 시스템 개발\n※ 사용자 및 자산 등록 기능 및 인텔리전스 생성 관리 기능 구현\n[사용자 관리 기능]\n[자산관리 기능] ·S-Cloud 플랫폼 오토스케일링 관리 UI 개발",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 57,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          538.93,
+          503.37,
+          737.67
+        ],
+        "page_area_fraction": 0.1688
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          299.43,
+          503.37,
+          509.2
+        ],
+        "page_area_fraction": 0.1781
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          52.86,
+          503.37,
+          248.85
+        ],
+        "page_area_fraction": 0.1664
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 75,
+    "text_characters": 559,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "클라우드 시스템 모니터링 UI",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 69 -\n※ S-Cloud 플랫폼 시스템 모니터링 UI 개발",
+        "after": "※ 쿠버네틱스 기반 분산처리 기술 적용\n[쿠버네틱스 컨테이너 구성도] · IoT 기기 이상징후 연관분석 처리 성능 154,872EPS 달성(목표치:150,000EPS) · 인텔리전스 요청 및 응답 처리 성능 366.97ms 달성(목표치:400ms이내)\n[4차년도]\n○ IoT 기기 감염 공격 대응을 위한 기기 정보수집 및 식별 기술 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "쿠버네틱스 컨테이너 구성도",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 69 -\n※ S-Cloud 플랫폼 시스템 모니터링 UI 개발\n[클라우드 시스템 모니터링 UI] ·다중 사용자 처리를 위한 분산 처리 기술 개발\n※ 쿠버네틱스 기반 분산처리 기술 적용",
+        "after": "[4차년도]\n○ IoT 기기 감염 공격 대응을 위한 기기 정보수집 및 식별 기술 개발\n⟹ Product : IoT 기기 자동 식별 및 내부정보 추출 시스템\n- 추가 식별 기기(8종 9개) 선정 및 IoT 기기 정보 식별시스템 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 147,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          567.46,
+          503.37,
+          779.15
+        ],
+        "page_area_fraction": 0.1798
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          288.4,
+          526.64,
+          497.7
+        ],
+        "page_area_fraction": 0.1972
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 76,
+    "text_characters": 600,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 식별 시스템 구조",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 70 -",
+        "after": "·IoT 기기 8종 9개(스마트 온도측정기(netatmo Weather), 스마트 TV(LG\nUK6820ENF), 공유기(Dir-505L, A9004m), 카메라(EZVIZ C2C), 스마트 플러그\n(TP-Link HS100), AI스피커(Amazon Echo Spot), 스마트 전구(LIFX Light), 공기청정\n기(Xioami Mi Air 3C))에 대한 테스트베드 구축을 통해 네트워크 연결 정보 및 상",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 기기로부터 발생된 패킷 캡처",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "UK6820ENF), 공유기(Dir-505L, A9004m), 카메라(EZVIZ C2C), 스마트 플러그\n(TP-Link HS100), AI스피커(Amazon Echo Spot), 스마트 전구(LIFX Light), 공기청정\n기(Xioami Mi Air 3C))에 대한 테스트베드 구축을 통해 네트워크 연결 정보 및 상\n태정보 수집",
+        "after": "※ IoT 기기 8종에 대해 기기별 연결 패킷(300sec*2회)을 수집하여 기기 식별 기술 개발 활용\n※ 네트워크 스캐닝(Nmap)을 통해 8종에 대한 기기별 정보 수집(OS, Open Port, MAC 주소 등)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 146,
+      "2": 8,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.47,
+          567.94,
+          483.34,
+          798.57
+        ],
+        "page_area_fraction": 0.1774
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          55.17,
+          239.5,
+          553.86,
+          437.64
+        ],
+        "page_area_fraction": 0.1975
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 77,
+    "text_characters": 362,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "유형별 IoT 기기 식별 결과",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 71 -",
+        "after": "·펌웨어에 내부 정보수집 모듈을 삽입하여 정보 추출 기술 개발\n※ 펌웨어 파일시스템 내부에 파일 업로드 기능을 활성화하여 수집(약 0.8MB) 및 통신(약\n1.0MB) 모듈 구동\n[펌웨어 내부 구조 및 수정] ·IoT 기기 내부 CPU 사용량, 메모리 사용량, 디스크 사용량, 프로세스 리스트 정보, 네",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "펌웨어 내부 구조 및 수정",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[유형별 IoT 기기 식별 결과] - IoT 기기 내부 동적 정보수집을 위한 내부자원 접근 기술 개발\n·펌웨어에 내부 정보수집 모듈을 삽입하여 정보 추출 기술 개발\n※ 펌웨어 파일시스템 내부에 파일 업로드 기능을 활성화하여 수집(약 0.8MB) 및 통신(약\n1.0MB) 모듈 구동",
+        "after": "트워크 정보 추출\n※ CPU 사용량 확인 : top\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 94,
+      "2": 14,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.52,
+          449.15,
+          428.17,
+          798.57
+        ],
+        "page_area_fraction": 0.1918
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.88,
+          182.08,
+          485.98,
+          348.46
+        ],
+        "page_area_fraction": 0.1134
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.83,
+          182.08,
+          436.92,
+          348.46
+        ],
+        "page_area_fraction": 0.1134
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 78,
+    "text_characters": 243,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "프로세스별 CPU 사용량 확인",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 72 -",
+        "after": "※ 메모리 사용량 확인 : cat /proc/meminfo\n<메모리 사용량 확인>\n※ 디스크 사용량 확인 : du –sh /* or df\n<내부 폴더별 디스크 사용량 확인>",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "메모리 사용량 확인",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 72 -\n<프로세스별 CPU 사용량 확인>\n※ 메모리 사용량 확인 : cat /proc/meminfo",
+        "after": "※ 디스크 사용량 확인 : du –sh /* or df\n<내부 폴더별 디스크 사용량 확인>\n※ 프로세스 리스트 확인 : ps –ef\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "내부 폴더별 디스크 사용량 확인",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "<프로세스별 CPU 사용량 확인>\n※ 메모리 사용량 확인 : cat /proc/meminfo\n<메모리 사용량 확인>\n※ 디스크 사용량 확인 : du –sh /* or df",
+        "after": "※ 프로세스 리스트 확인 : ps –ef\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 57,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.57,
+          657.6,
+          444.24,
+          798.57
+        ],
+        "page_area_fraction": 0.0864
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          230.52,
+          391.25,
+          351.29,
+          611.33
+        ],
+        "page_area_fraction": 0.0531
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          164.94,
+          461.51,
+          345.1
+        ],
+        "page_area_fraction": 0.1228
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 79,
+    "text_characters": 329,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "동작 중인 프로세스 리스트 확인",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 73 -",
+        "after": "※ 네트워크 정보 확인 : netstat –antl[tcp] or netstat -anlu\n<내부 네트워크 포트 정보 확인>\n○ IoT 기기 이상행위 및 침입 탐지 기술 개발\n⟹ Product : IoT 기기 이상행위 및 침입탐지 SMU 프레임워크",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "내부 네트워크 포트 정보 확인",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 73 -\n<동작 중인 프로세스 리스트 확인>\n※ 네트워크 정보 확인 : netstat –antl[tcp] or netstat -anlu",
+        "after": "○ IoT 기기 이상행위 및 침입 탐지 기술 개발\n⟹ Product : IoT 기기 이상행위 및 침입탐지 SMU 프레임워크\n- IoT 기기 연결 및 네트워크 라우팅 모듈 개발\n·이상행위 탐지 모듈이 설치된 SMU를 통한 IoT 기기 연동",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 74,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          154.0,
+          496.86,
+          427.69,
+          798.57
+        ],
+        "page_area_fraction": 0.165
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          260.36,
+          461.51,
+          431.17
+        ],
+        "page_area_fraction": 0.1164
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 80,
+    "text_characters": 323,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "실 IoT 기기 연동",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 74 -",
+        "after": "연동\n[IoT 단말 수집/전처리/탐지 파일] - 수집 데이터 분석을 통한 탐지 특성 고도화\n·통계 기반 특성 정보 전처리를 통한 탐지 성능 고도화\n※ 시계열 기반 패킷 정보 전처리, 패킷 윈도우 내 동일 정보 카운트, 패킷 상위 프로토",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 단말 수집/전처리/탐지 파일",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 74 -\n[실 IoT 기기 연동] ·IP카메라, 스마트 전구, AI 스피커와 SMU 간 무선통신 연결 후 패킷 수집/학습/탐지\n연동",
+        "after": "·통계 기반 특성 정보 전처리를 통한 탐지 성능 고도화\n※ 시계열 기반 패킷 정보 전처리, 패킷 윈도우 내 동일 정보 카운트, 패킷 상위 프로토\n콜 구분을 위한 One-hot 인코딩\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 84,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.35,
+          671.39,
+          451.56,
+          798.57
+        ],
+        "page_area_fraction": 0.0717
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.22,
+          207.85,
+          462.71,
+          606.54
+        ],
+        "page_area_fraction": 0.2737
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 81,
+    "text_characters": 213,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "패킷 분석을 통한 특성 정보 전처리",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 75 -",
+        "after": "·IoT 페이로드 학습기반 비정상 트래픽 탐지\n※ 네트워크 패킷의 헤더 정보만으로는 위협 탐지 어려움\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 39,
+      "2": 6,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          252.56,
+          461.51,
+          798.57
+        ],
+        "page_area_fraction": 0.3722
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 82,
+    "text_characters": 409,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "페이로드 기반 비정상 트래픽 탐지 기술",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 76 -",
+        "after": "※ 단편화된 페이로드를 통해 일련의 공격 단계 파악\n[패킷 페이로드 유형 분류] ·네트워크 페이로드 분석을 통한 실시간 비정상 패킷 탐지\n※ 수집 페이로드의 공격 단계별 탐지를 위한 CTI 정보 활용\n[IoT 비정상 트래픽 탐지 기술 구성도] ·페이로드의 CTI 매핑을 통한 악성 행위 식별",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "패킷 페이로드 유형 분류",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 76 -\n[페이로드 기반 비정상 트래픽 탐지 기술] ·수집 패킷 학습을 위한 페이로드 분류\n※ 단편화된 페이로드를 통해 일련의 공격 단계 파악",
+        "after": "※ 수집 페이로드의 공격 단계별 탐지를 위한 CTI 정보 활용\n[IoT 비정상 트래픽 탐지 기술 구성도] ·페이로드의 CTI 매핑을 통한 악성 행위 식별\n※ 공격 페이로드와 CTI 매핑을 통한 Red Team의 공격 단계 식별\n※ 기존 패턴과 일치하지 않는 unknown 공격 식별",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 비정상 트래픽 탐지 기술 구성도",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[페이로드 기반 비정상 트래픽 탐지 기술] ·수집 패킷 학습을 위한 페이로드 분류\n※ 단편화된 페이로드를 통해 일련의 공격 단계 파악\n[패킷 페이로드 유형 분류] ·네트워크 페이로드 분석을 통한 실시간 비정상 패킷 탐지\n※ 수집 페이로드의 공격 단계별 탐지를 위한 CTI 정보 활용",
+        "after": "※ 공격 페이로드와 CTI 매핑을 통한 Red Team의 공격 단계 식별\n※ 기존 패턴과 일치하지 않는 unknown 공격 식별\n[수집된 위협 페이로드 CTI 매핑]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "수집된 위협 페이로드 CTI 매핑",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "※ 수집 페이로드의 공격 단계별 탐지를 위한 CTI 정보 활용\n[IoT 비정상 트래픽 탐지 기술 구성도] ·페이로드의 CTI 매핑을 통한 악성 행위 식별\n※ 공격 페이로드와 CTI 매핑을 통한 Red Team의 공격 단계 식별\n※ 기존 패턴과 일치하지 않는 unknown 공격 식별",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 101,
+      "2": 6,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.47,
+          652.57,
+          406.34,
+          798.57
+        ],
+        "page_area_fraction": 0.0674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.03,
+          466.29,
+          662.52,
+          585.56
+        ],
+        "page_area_fraction": 0.1369
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          282.17,
+          461.51,
+          399.28
+        ],
+        "page_area_fraction": 0.0798
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          55.14,
+          461.51,
+          195.75
+        ],
+        "page_area_fraction": 0.0958
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 83,
+    "text_characters": 413,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "미라이 봇넷 공격 유형 식별",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 77 -\n·페이로드의 CTI 매핑을 통한 미라이 봇넷 악성 행위 식별",
+        "after": "※ 공격 단계, ATT&CK, CAPEC, CVE, CWE, Exploit-DB, Device Info, Event 등 매핑\n[ATT&CK 매트릭스 매핑] ※ 엘라스틱 서치 시각화를 위한 매핑 결과 json 포맷 저장\n[엘라스틱 서치 시각화] ·ATT&CK 매트릭스 중 룰 기반 탐지 가능 기술 영역 식별\n※ 기존 패킷 기반 위협 탐지 한계 극복을 위한 탐지 범위 설정",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "ATT&CK 매트릭스 매핑",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 77 -\n·페이로드의 CTI 매핑을 통한 미라이 봇넷 악성 행위 식별\n[미라이 봇넷 공격 유형 식별] ·페이로드의 ATT&CK 매트릭스 매핑\n※ 공격 단계, ATT&CK, CAPEC, CVE, CWE, Exploit-DB, Device Info, Event 등 매핑",
+        "after": "[엘라스틱 서치 시각화] ·ATT&CK 매트릭스 중 룰 기반 탐지 가능 기술 영역 식별\n※ 기존 패킷 기반 위협 탐지 한계 극복을 위한 탐지 범위 설정\n※ 전체 426개 공격 기술 중 111개 선정\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "엘라스틱 서치 시각화",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "·페이로드의 CTI 매핑을 통한 미라이 봇넷 악성 행위 식별\n[미라이 봇넷 공격 유형 식별] ·페이로드의 ATT&CK 매트릭스 매핑\n※ 공격 단계, ATT&CK, CAPEC, CVE, CWE, Exploit-DB, Device Info, Event 등 매핑\n[ATT&CK 매트릭스 매핑] ※ 엘라스틱 서치 시각화를 위한 매핑 결과 json 포맷 저장",
+        "after": "※ 기존 패킷 기반 위협 탐지 한계 극복을 위한 탐지 범위 설정\n※ 전체 426개 공격 기술 중 111개 선정\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 98,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          590.35,
+          461.51,
+          777.83
+        ],
+        "page_area_fraction": 0.1278
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          360.21,
+          461.51,
+          522.87
+        ],
+        "page_area_fraction": 0.1109
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          141.21,
+          461.51,
+          314.06
+        ],
+        "page_area_fraction": 0.1178
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 84,
+    "text_characters": 368,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "매트릭스 중 룰 기반 탐지 범위 설정",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 78 -",
+        "after": "※ 페이로드 내부 익스플로잇 코드 확장자 분류\n[분류 알고리즘 설정 및 테스트 정확도 측정] ※ Gradient Boosting Classifier를 통해 96% 분류 성능 확보\n[1, 2차 분류 테스트 결과] ·페이로드 전처리를 위한 특수기호 등 처리 문제 테스트\n※ CSIC 2010 데이터셋을 통해 테스트 수행",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "분류 알고리즘 설정 및 테스트 정확도 측정",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 78 -\n[매트릭스 중 룰 기반 탐지 범위 설정] ·머신러닝을 이용한 페이로드 분류 테스트\n※ 페이로드 내부 익스플로잇 코드 확장자 분류",
+        "after": "[1, 2차 분류 테스트 결과] ·페이로드 전처리를 위한 특수기호 등 처리 문제 테스트\n※ CSIC 2010 데이터셋을 통해 테스트 수행\n※ HTTP Header + payload 대상 93% 분류 정확도 확보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "1, 2차 분류 테스트 결과",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 78 -\n[매트릭스 중 룰 기반 탐지 범위 설정] ·머신러닝을 이용한 페이로드 분류 테스트\n※ 페이로드 내부 익스플로잇 코드 확장자 분류\n[분류 알고리즘 설정 및 테스트 정확도 측정] ※ Gradient Boosting Classifier를 통해 96% 분류 성능 확보",
+        "after": "※ CSIC 2010 데이터셋을 통해 테스트 수행\n※ HTTP Header + payload 대상 93% 분류 정확도 확보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 84,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          141.28,
+          661.92,
+          440.52,
+          798.57
+        ],
+        "page_area_fraction": 0.0817
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          393.77,
+          461.51,
+          594.91
+        ],
+        "page_area_fraction": 0.1371
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          184.36,
+          461.51,
+          347.5
+        ],
+        "page_area_fraction": 0.1112
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 85,
+    "text_characters": 412,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "페이로드 내 특수기호 전처리",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 79 -",
+        "after": "[페이로드 내 문자 전처리] ※ 페이로드 전처리 후 특성 추출\n[페이로드 내 특성 추출 결과] - 내부 모듈 및 S-Cloud 데이터 연동 기술 개발\n·RESTful API를 통한 S-Cloud 플랫폼 비동기식 연동\n※ 각 연동 시나리오 별 동작 시퀀스 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "페이로드 내 문자 전처리",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 79 -\n[페이로드 내 특수기호 전처리] ※ 암호 문자, 불필요한 특수문자, 무의미 문자 등 처리",
+        "after": "[페이로드 내 특성 추출 결과] - 내부 모듈 및 S-Cloud 데이터 연동 기술 개발\n·RESTful API를 통한 S-Cloud 플랫폼 비동기식 연동\n※ 각 연동 시나리오 별 동작 시퀀스 개발\n·신규 SMU 및 IoT Device 관리",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "페이로드 내 특성 추출 결과",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 79 -\n[페이로드 내 특수기호 전처리] ※ 암호 문자, 불필요한 특수문자, 무의미 문자 등 처리\n[페이로드 내 문자 전처리] ※ 페이로드 전처리 후 특성 추출",
+        "after": "·RESTful API를 통한 S-Cloud 플랫폼 비동기식 연동\n※ 각 연동 시나리오 별 동작 시퀀스 개발\n·신규 SMU 및 IoT Device 관리\n※ 장비 MAC IoT 주소 기반 기기 등록 및 관리",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 105,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          661.32,
+          461.51,
+          798.57
+        ],
+        "page_area_fraction": 0.0936
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          388.26,
+          461.51,
+          615.05
+        ],
+        "page_area_fraction": 0.1546
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          190.71,
+          461.51,
+          341.99
+        ],
+        "page_area_fraction": 0.1031
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 86,
+    "text_characters": 543,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "파일 관리 모듈",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 80 -\nConfiguration file",
+        "after": "※ 1일 1회 탐지 결과 json 파일을 S-Cloud 업로드\n※ 파일 개수가 많고 전체 용량이 큰 패킷 파일의 경우 한 개의 파일로 묶은 후 압축하여\n업로드\nS-Cloud",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "결과 전송 모듈",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "※ 1일 1회 탐지 결과 json 파일을 S-Cloud 업로드\n※ 파일 개수가 많고 전체 용량이 큰 패킷 파일의 경우 한 개의 파일로 묶은 후 압축하여\n업로드\nS-Cloud",
+        "after": "※ SMU 구동 시 프로세스 자동 실행을 위한 프로세스 별 기동 순서 정의\n※ 각 프로세스의 실행 여부를 확인하여 실행\nCron table\n[프로세스 관리 모듈]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "프로세스 관리 모듈",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "[결과 전송 모듈] ·SMU 프로세스 관리 모듈 개발\n※ SMU 구동 시 프로세스 자동 실행을 위한 프로세스 별 기동 순서 정의\n※ 각 프로세스의 실행 여부를 확인하여 실행\nCron table",
+        "after": "○ IoT 위협 확산 방지를 위한 보안관제 기술 개발\n⟹ Product : 클라우드 기반 IoT 위협 연관분석 및 보안관제 S-Cloud 플랫폼\n- RESTful API 활용 로컬 SMU 데이터 수집 기술 개발\n- 쿠버네틱스 기반 다중 분석을 위한 분산 처리 기술 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 137,
+      "2": 142,
+      "3": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 87,
+    "text_characters": 533,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "S-Cloud 플랫폼",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "·5GB 이상 대용량 트래픽 파일 처리를 위한 SPARK, Kafka 구성\n※ Python Pandas와 같은 Dataframe 형태의 데이터 처리로 유연성 확보\n[Apache Spark & Kafka 적용] ·다중 분산 처리를 위한 쿠버네틱스 기반 플랫폼 구성\n※ 개별 처리 컨테이너를 통해 서버 부하 감소",
+        "after": "·AI스피커의 무단 도청 및 외부 전송 여부 탐지 시나리오\n※ AI 스피커의 마이크를 통해 무단 도청되어 도청된 데이터가 해커 그룹에 전송되는 경우 탐지\n[실 사례 시나리오 예제 #1] ·공유기의 HOST 파일 변경 시 블랙리스트 대상일 때 탐지\n※ 도메인을 IP로 변경 기준인 host 파일 변경 시 임의의 도메인이 피싱 사이트 등으로",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "실 사례 시나리오 예제 #1",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "※ 개별 처리 컨테이너를 통해 서버 부하 감소\n[S-Cloud 플랫폼] - 실 사례 기반 공격 시나리오 생성 및 연관분석 기술 개발\n·AI스피커의 무단 도청 및 외부 전송 여부 탐지 시나리오\n※ AI 스피커의 마이크를 통해 무단 도청되어 도청된 데이터가 해커 그룹에 전송되는 경우 탐지",
+        "after": "※ 도메인을 IP로 변경 기준인 host 파일 변경 시 임의의 도메인이 피싱 사이트 등으로\n변경되는 것을 탐지\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 129,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          641.54,
+          461.51,
+          758.41
+        ],
+        "page_area_fraction": 0.0797
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.44,
+          442.8,
+          426.25,
+          574.53
+        ],
+        "page_area_fraction": 0.0713
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          194.31,
+          461.51,
+          354.93
+        ],
+        "page_area_fraction": 0.1095
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 88,
+    "text_characters": 402,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "실 사례 시나리오 예제 #2",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 82 -",
+        "after": "※ 펌웨어 취약점을 통한 공격 시도를 탐지\n[실 사례 시나리오 예제 #3] ·악성 사이트 접속 후 가정 내 Stealth Scanning 시도 탐지\n※ 악성 사이트 접속 후 설치된 악성 코드로 인해 가정 내부 기기들에 대한 스캐닝 등 탐지\n[실 사례 시나리오 예제 #4] ·새로운 Listen 포트가 생성되어 블랙리스트 대상과 통신이 발생한 경우",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "실 사례 시나리오 예제 #3",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 82 -\n[실 사례 시나리오 예제 #2] ·취약점이 발견된 펌웨어를 사용 중인 기기에 대한 공격 시도\n※ 펌웨어 취약점을 통한 공격 시도를 탐지",
+        "after": "※ 악성 사이트 접속 후 설치된 악성 코드로 인해 가정 내부 기기들에 대한 스캐닝 등 탐지\n[실 사례 시나리오 예제 #4] ·새로운 Listen 포트가 생성되어 블랙리스트 대상과 통신이 발생한 경우\n※ 공격자에 의해 새로운 Listen 포트가 생성되어 블랙리스트 대상과 통신이 발생하는 경우\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "실 사례 시나리오 예제 #4",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[실 사례 시나리오 예제 #2] ·취약점이 발견된 펌웨어를 사용 중인 기기에 대한 공격 시도\n※ 펌웨어 취약점을 통한 공격 시도를 탐지\n[실 사례 시나리오 예제 #3] ·악성 사이트 접속 후 가정 내 Stealth Scanning 시도 탐지\n※ 악성 사이트 접속 후 설치된 악성 코드로 인해 가정 내부 기기들에 대한 스캐닝 등 탐지",
+        "after": "※ 공격자에 의해 새로운 Listen 포트가 생성되어 블랙리스트 대상과 통신이 발생하는 경우\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 94,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          628.23,
+          461.51,
+          798.57
+        ],
+        "page_area_fraction": 0.1161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          372.91,
+          461.51,
+          561.23
+        ],
+        "page_area_fraction": 0.1284
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          120.83,
+          461.51,
+          305.91
+        ],
+        "page_area_fraction": 0.1262
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 89,
+    "text_characters": 359,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "실 사례 시나리오 예제 #5",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 83 -",
+        "after": "·탐지 결과에 대한 신뢰성 향상을 위한 XAI 모델 고도화\n※ 침입 탐지 모델에 설명 가능한 모델(XAI)을 추가하여 신뢰성 있는 탐지 결과 확보\n[XAI 적용 신규 침입 탐지(IDS) 모델 구성] ·IoT 네트워크 침입 탐지 모델 개발\n※ 패킷 내 특성 정보 추출, 모델 학습, 모델 업데이트, 실시간 탐지, XAI 모델(SHAP) 적용",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "XAI 적용 신규 침입 탐지(IDS) 모델 구성",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 83 -\n[실 사례 시나리오 예제 #5] - AI 기반 침입 탐지 모델 탐지 결과 분석 기술 개발\n·탐지 결과에 대한 신뢰성 향상을 위한 XAI 모델 고도화\n※ 침입 탐지 모델에 설명 가능한 모델(XAI)을 추가하여 신뢰성 있는 탐지 결과 확보",
+        "after": "※ 패킷 내 특성 정보 추출, 모델 학습, 모델 업데이트, 실시간 탐지, XAI 모델(SHAP) 적용\n[IoT 침입 탐지 모델]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 침입 탐지 모델",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "·탐지 결과에 대한 신뢰성 향상을 위한 XAI 모델 고도화\n※ 침입 탐지 모델에 설명 가능한 모델(XAI)을 추가하여 신뢰성 있는 탐지 결과 확보\n[XAI 적용 신규 침입 탐지(IDS) 모델 구성] ·IoT 네트워크 침입 탐지 모델 개발\n※ 패킷 내 특성 정보 추출, 모델 학습, 모델 업데이트, 실시간 탐지, XAI 모델(SHAP) 적용",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 91,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          645.85,
+          461.51,
+          798.57
+        ],
+        "page_area_fraction": 0.1041
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          347.62,
+          461.51,
+          558.11
+        ],
+        "page_area_fraction": 0.1435
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          66.29,
+          461.51,
+          280.61
+        ],
+        "page_area_fraction": 0.1461
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 90,
+    "text_characters": 345,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "ARP Spoofing 공격 분석",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 84 -\n·Explainable AI 적용 모델 해석\n※ 공격 별 특성 영향도 수치화 및 그래피 자동 생성",
+        "after": "※ “Mijia qingping Air Detector Lite” 기능 및 패킷 분석\n※ 기존 IoT 네트워크 공격 포함 여부 분석\n[분석 결과]\n[Air Detector 연결 구성 및 내부 데이터 구조]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "ARP Spoofing 공격 분석 그래프",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 84 -\n·Explainable AI 적용 모델 해석\n※ 공격 별 특성 영향도 수치화 및 그래피 자동 생성",
+        "after": "※ “Mijia qingping Air Detector Lite” 기능 및 패킷 분석\n※ 기존 IoT 네트워크 공격 포함 여부 분석\n[분석 결과]\n[Air Detector 연결 구성 및 내부 데이터 구조]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Air Detector 연결 구성 및 내부 데이터 구조",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "[ARP Spoofing 공격 분석] [ARP Spoofing 공격 분석 그래프] ·신규 IoT 기기 기능 및 취약점 분석\n※ “Mijia qingping Air Detector Lite” 기능 및 패킷 분석\n※ 기존 IoT 네트워크 공격 포함 여부 분석\n[분석 결과]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 74,
+      "2": 6,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.49,
+          594.19,
+          259.3,
+          758.41
+        ],
+        "page_area_fraction": 0.0423
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          259.3,
+          594.19,
+          451.2,
+          758.41
+        ],
+        "page_area_fraction": 0.063
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          402.16,
+          461.51,
+          507.76
+        ],
+        "page_area_fraction": 0.072
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.11,
+          67.25,
+          412.58,
+          375.31
+        ],
+        "page_area_fraction": 0.1499
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 91,
+    "text_characters": 309,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Smart Plug 연결 구성 및 내부 데이터 구조",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 85 -\n※ “Brunt Smart Plug” 기능 및 패킷 분석\n※ 기존 IoT 네트워크 공격 포함 여부 분석\n[분석 결과]",
+        "after": "※ 기존 IoT 네트워크 공격 포함 여부 분석\n[분석 결과]\n[Smart Display 연결 구성 및 내부 데이터 구조]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Smart Display 연결 구성 및 내부 데이터 구조",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "[분석 결과]\n[Smart Plug 연결 구성 및 내부 데이터 구조] ※ “Lenovo Smart Display 10” 기능 및 패킷 분석\n※ 기존 IoT 네트워크 공격 포함 여부 분석\n[분석 결과]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 67,
+      "2": 6,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          654.24,
+          461.51,
+          759.85
+        ],
+        "page_area_fraction": 0.072
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.72,
+          413.43,
+          432.97,
+          627.27
+        ],
+        "page_area_fraction": 0.1215
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          252.8,
+          461.51,
+          347.86
+        ],
+        "page_area_fraction": 0.0648
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.11,
+          64.49,
+          412.58,
+          225.95
+        ],
+        "page_area_fraction": 0.0786
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 92,
+    "text_characters": 958,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 정보 식별 및 수집 방법",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 86 -\n(2) 정량적 연구개발성과\n□ 이상징후 탐지 IoT 기기 군\n- 정의 : 기기 정보 식별 및 수집 플랫폼에서 식별되는 기기의 수를 측정",
+        "after": "식별 및 수집 완료된 기기의 개수 ·Rc : 식별 및 수집 플랫폼에 데이터 연동을 요청한 기기의 개수\n·Cc : 식별 및 수집 플랫폼과 데이터 연동이 성공한 기기 수를 측정\n- 성능 측정 목표치 : 7종\n- 성능 측정 방법",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 312,
+      "2": 6,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.29,
+          571.78,
+          443.52,
+          740.55
+        ],
+        "page_area_fraction": 0.103
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 93,
+    "text_characters": 743,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 식별 시스템 구조",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 87 -\n※ 스마트 공기청정기(모델명: Xiaomi Mi Air 3C)",
+        "after": "·이상징후 탐지를 위한 IoT 식별 군 : 8종(당해연도 목표치 : 7종) ·기기 정보 식별 모듈에 식별 성능 측정을 위한 기기를 연결 후, IoT 기기에서\n발생되는 네트워크 통신 데이터를 기반으로 IoT 기기 식별 여부 측정\n✔ IoT 기기 수집 및 식별 군 : 8종 (최종 성과지표 목표치 : 7종)\n식별 대상 IoT 기기",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "IoT 기기 정보 식별 성능 결과",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "Netatmo\nWeather O O O O O\n공기청정기 Xiaomi Mi Air\n3C O O O O O",
+        "after": "※ 8종과 추가 분석을 위한 동일 종 기기 1개를 추가하여 식별 기술 개발(총 8종, 9개)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 223,
+      "2": 39,
+      "3": 10,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.49,
+          631.95,
+          442.32,
+          770.52
+        ],
+        "page_area_fraction": 0.0839
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 94,
+    "text_characters": 1030,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "이상탐지 성능 측정 시험 구성도",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "·F1 Score: Precision과 Recall의 조화평균값\n·클래스가 불균형한 데이터 셋의 경우 정확성만으로는 성능 평가가 어려워 F1-Score\n(예측 결과 정확도를 나타내는 정밀도와 실제 식별 정확도인 재현율의 조화평균)를 측정\n- 성능 목표치 : 85%",
+        "after": "① 검증 환경 구축 및 성능 측정 샘플 확보\n② 샘플데이터를 학습 기반 IoT 이상징후 탐지 모델에 입력\n③ 탐지 결과 확인\n④ ②,③ 단계 3회 반복 수행",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 356,
+      "2": 6,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          332.52,
+          503.25,
+          517.83
+        ],
+        "page_area_fraction": 0.1573
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 95,
+    "text_characters": 995,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "데이터 셋 구성",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "분류 구성 정상 행위 데이터 이상 행위 데이터 합계\nA 그룹 4,345 3,169 7,514\nB 그룹 4,226 3,288 7,514\nC 그룹 4,262 3,254 7,514",
+        "after": "분류 구성 1회차 2회차 3회차\nA 그룹\nTP 4,020 4,019 3,968\nFN 325 326 377",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 193,
+      "2": 96,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 96,
+    "text_characters": 1239,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "전송된 보안 위협의 수",
+        "line_index": 42,
+        "toc_like": false,
+        "before": "Security Bypass 7\nURL Redirect 3\nMirai 변종 107\n합계 197",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 344,
+      "2": 34,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 97,
+    "text_characters": 1246,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "보안위협 탐지 결과",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "Security Bypass 7 7 7 7 7 7\nURL Redirect 3 3 3 3 3 3\nMirai 변종 107 107 107 107 107 107\n합계 197 197 197 197 197 197",
+        "after": "□ IoT 기기 이상징후 연관분석 처리 성능\n- 정의 : IoT 보안위협 정보 생성을 위해 연관 정보를 수집하고 분석 처리하는 성능을\n측정하는 초당 이벤트 처리 건수\n- 성능 측정 수식 : 분석 처리 시간초",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 337,
+      "2": 52,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 98,
+    "text_characters": 1342,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "IoT 기기 이상징후 연관분석 처리 성능 수치",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "1회 2회 3회 4회 5회 평균\n처리건수(건) 988,347 993,423 1,014,168 989,331 996,501 996,354\n처리시간(ms) 8,024 4,605 4,513 4,373 4,275 5,158\n처리성능(EPS) 123,000 215,000 224,000 226,000 233,000 204,200",
+        "after": "□ 인텔리전스 요청 및 응답 처리 성능\n- 정의 : IoT 보안관리 시스템에서 사용자 중심의 보안 관리를 위한 인텔리전스를 요\n청 및 응답 처리하는 성능을 측정하는 건당 처리 시간\n- 성능 측정 수식 : 인텔리전스 응답시간  인텔리전스 요청시간처리 소요시간 - 성능 목표치 : 300ms - 성능 측정 방법",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "보안위협 탐지 결과",
+        "line_index": 33,
+        "toc_like": false,
+        "before": "Device Status Count 301 301 301 301 301\nHome info 302 301 301 301 301\nSecurity Status 301 301 301 301 301\n평균 279.33 278.83 278.83 278.83 278.83",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 342,
+      "2": 118,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 99,
+    "text_characters": 1710,
+    "heading_candidates": [
+      "□ 정량적 기대성과 (계획치/실적치)",
+      "□ 질적 성과 목표",
+      "0.5 목표 - 0.9 1.0 1.1 게재 논문지의 게재"
+    ],
+    "section_context_candidate": "□ 정량적 기대성과 (계획치/실적치)",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 정량적 연구개발성과표 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 93 -",
+        "after": "(단위 : 건, 천원)\n연도\n성과지표명\n1단계",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "에스시아이 Expanded(SCIE), 비SCIE, 평균Impact Factor(IF)",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "실적(누적)\n목표(단계별)\n실적(누적)\n계",
+        "after": "문, 학술발표, 특허의 경우 목표 대비 실적은 기재하지 않아도 됩니다. * 2」연구개발과제 특성 반영 지표: 기술실시(이전), 기술료, 사업화(투자실적, 제품화, 매출액, 수출액, 고용창출, 고용효과, 투자유치),\n비용 절감, 기술(제품)인증, 시제품 제작 및 인증, 신기술지정, 무역수지개선, 경제적 파급효과, 산업지원(기술지도), 교육지도, 인\n력양성(전문 연구인력, 산업연구인력, 졸업자수, 취업, 연수프로그램 등), 법령 반영, 정책활용, 설계 기준 반영, 타 연구개발사업에\n의 활용, 기술무역, 홍보(전시), 국제화 협력, 포상 및 수상, 기타 연구개발 활용 중 선택하여 기재합니다",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "성과지표별 목표치 설정",
+        "line_index": 68,
+        "toc_like": false,
+        "before": "4차년도\n(2021년) 2/4 1/2 3/1 2/4 / / / / / / 3/6 / 40/78 2/2 1/1 5/6 6/6\n합계 5/11 2/3 11/13 5/12 / / / / / / 9/21 / 130/271 7/8 3/4 19/24 24/33\n□ 질적 성과 목표",
+        "after": "성과지표\n가\n중\n치",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 496,
+      "2": 226,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 100,
+    "text_characters": 932,
+    "heading_candidates": [
+      "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율"
+    ],
+    "section_context_candidate": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+    "prior_heading_candidate": {
+      "text": "0.5 목표 - 0.9 1.0 1.1 게재 논문지의 게재",
+      "pdf_page": 99
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구개발성과 성능지표 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 94 -",
+        "after": "평가 항목\n(주요성능1」) 단위\n전체\n항목",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 251,
+      "2": 37,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 101,
+    "text_characters": 2234,
+    "heading_candidates": [],
+    "section_context_candidate": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+    "prior_heading_candidate": {
+      "text": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 438,
+      "2": 87,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 102,
+    "text_characters": 1988,
+    "heading_candidates": [],
+    "section_context_candidate": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+    "prior_heading_candidate": {
+      "text": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 379,
+      "2": 72,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 103,
+    "text_characters": 2341,
+    "heading_candidates": [],
+    "section_context_candidate": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+    "prior_heading_candidate": {
+      "text": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 427,
+      "2": 80,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 104,
+    "text_characters": 1688,
+    "heading_candidates": [],
+    "section_context_candidate": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+    "prior_heading_candidate": {
+      "text": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 265,
+      "2": 28,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 105,
+    "text_characters": 1842,
+    "heading_candidates": [],
+    "section_context_candidate": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+    "prior_heading_candidate": {
+      "text": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 424,
+      "2": 116,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 106,
+    "text_characters": 1634,
+    "heading_candidates": [],
+    "section_context_candidate": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+    "prior_heading_candidate": {
+      "text": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 453,
+      "2": 139,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 107,
+    "text_characters": 2212,
+    "heading_candidates": [],
+    "section_context_candidate": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+    "prior_heading_candidate": {
+      "text": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 517,
+      "2": 113,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 108,
+    "text_characters": 632,
+    "heading_candidates": [
+      "□ 사업화 계획 및 무역 수지 개선 효과",
+      "□ 고용 효과",
+      "□ 경제적 파급 효과"
+    ],
+    "section_context_candidate": "□ 사업화 계획 및 무역 수지 개선 효과",
+    "prior_heading_candidate": {
+      "text": "3) IoT 이상징후로 구성된 샘플데이터 중 개발모듈이 탐지한 이상징후 건수 비율",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 193,
+      "2": 169,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 109,
+    "text_characters": 726,
+    "heading_candidates": [
+      "□ 정책활용 내용",
+      "□ 전문 연구 인력 양성",
+      "□ 다른 국가연구개발사업에의 활용",
+      "□ 국제화 협력성과"
+    ],
+    "section_context_candidate": "□ 정책활용 내용",
+    "prior_heading_candidate": {
+      "text": "□ 경제적 파급 효과",
+      "pdf_page": 108
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 222,
+      "2": 204,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 110,
+    "text_characters": 940,
+    "heading_candidates": [
+      "4 기술이전 설명회 YOUTUBE 2020 원천기술 연구 개발 및"
+    ],
+    "section_context_candidate": "4 기술이전 설명회 YOUTUBE 2020 원천기술 연구 개발 및",
+    "prior_heading_candidate": {
+      "text": "□ 국제화 협력성과",
+      "pdf_page": 109
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 208,
+      "2": 81,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 111,
+    "text_characters": 1043,
+    "heading_candidates": [
+      "2) 목표 달성 수준",
+      "4. 목표 미달 또는 미흡한 사항에 대한 분석",
+      "1) 목표 미달 또는 미흡한 연구결과에 대한 원인(사유) 자체분석 내용",
+      "2) 미달 또는 미흡한 결과물에 대한 보완 활동",
+      "3) 연구개발 과정의 성실성",
+      "5. 연구개발성과의 관련 분야에 대한 기여 정도"
+    ],
+    "section_context_candidate": "2) 목표 달성 수준",
+    "prior_heading_candidate": {
+      "text": "4 기술이전 설명회 YOUTUBE 2020 원천기술 연구 개발 및",
+      "pdf_page": 110
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 297,
+      "2": 33,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 112,
+    "text_characters": 1747,
+    "heading_candidates": [
+      "6. 연구개발성과의 관리 및 활용 계획",
+      "1) 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획)",
+      "2) 주요 성과활용 (기대)성과목표",
+      "□ 사업화 추진 방안 기획"
+    ],
+    "section_context_candidate": "6. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관련 분야에 대한 기여 정도",
+      "pdf_page": 111
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연도별 주요 활동계획(요약표)",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "- 기술이전 요청 등에 대한 이전상담 등을 관리하고, 수요기관을 발굴 및 기술이전에 대한\n협의 등을 추진\n- 상용화 추진 예정인 기술 및 상용화를 위한 기술이전 요청에 대한 기술상담 추진\n* 개발기술을 이전 받아 상용화를 추진 중인 기업(A사, B사)과 지속적으로 상용화 상담 추진 예정",
+        "after": "구분 종료+1\n(2022년)\n종료+2\n(2023년)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 508,
+      "2": 27,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 113,
+    "text_characters": 1678,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 사업화 추진 방안 기획",
+    "prior_heading_candidate": {
+      "text": "□ 사업화 추진 방안 기획",
+      "pdf_page": 112
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 448,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 114,
+    "text_characters": 974,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 사업화 추진 방안 기획",
+    "prior_heading_candidate": {
+      "text": "□ 사업화 추진 방안 기획",
+      "pdf_page": 112
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 240,
+      "2": 18,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          268.66,
+          532.94,
+          528.68,
+          697.64
+        ],
+        "page_area_fraction": 0.0856
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.27,
+          178.24,
+          500.49,
+          407.79
+        ],
+        "page_area_fraction": 0.1877
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 115,
+    "text_characters": 419,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 사업화 추진 방안 기획",
+    "prior_heading_candidate": {
+      "text": "□ 사업화 추진 방안 기획",
+      "pdf_page": 112
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "스마트시티 등의 IoT 전용망의 보안관제 시스템과 연계한 사업화 추진",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 109 -\n- 기술 사업화 방안",
+        "after": "• ‘부산 스마트시티 소셜케어 서비스’ 환경의 보안 관제 시스템과 연동하여 소셜케어 서비스를\n구성하는 스마트미러, 공유기, 관리서버 등의 IoT 디바이스 보안 취약점 분석 및 감염된\n디바이스의 이상 행위 탐지 기술로 사업화\n<취약점분석 솔루션 Smart Guard에 결과물 적용을 통한 고도화 사업 예정>",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "취약점분석 솔루션 Smart Guard에 결과물 적용을 통한 고도화 사업 예정",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "<스마트시티 등의 IoT 전용망의 보안관제 시스템과 연계한 사업화 추진>\n• ‘부산 스마트시티 소셜케어 서비스’ 환경의 보안 관제 시스템과 연동하여 소셜케어 서비스를\n구성하는 스마트미러, 공유기, 관리서버 등의 IoT 디바이스 보안 취약점 분석 및 감염된\n디바이스의 이상 행위 탐지 기술로 사업화",
+        "after": "• 수집된 IoT 디바이스 보안 취약점 정보와 분석 결과를 Smart Guard의 분석 결과와 통합하여\n보안관리자에게 제공할 수 있도록 기능 통합 추진\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 96,
+      "2": 6,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.27,
+          594.79,
+          506.61,
+          798.57
+        ],
+        "page_area_fraction": 0.1716
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.91,
+          358.05,
+          506.97,
+          548.28
+        ],
+        "page_area_fraction": 0.1604
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.19,
+          67.37,
+          504.57,
+          258.8
+        ],
+        "page_area_fraction": 0.1597
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 116,
+    "text_characters": 459,
+    "heading_candidates": [
+      "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획"
+    ],
+    "section_context_candidate": "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획",
+    "prior_heading_candidate": {
+      "text": "□ 사업화 추진 방안 기획",
+      "pdf_page": 112
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구개발성과 활용계획표 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 110 -",
+        "after": "구분(정량 및 정성적 성과 항목) 연구개발 종료 후 5년 이내\n국외논문\nSCIE 매년 목표치\n비SCIE - 계 - 국내논문",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 116,
+      "2": 54,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 117,
+    "text_characters": 2067,
+    "heading_candidates": [
+      "8. 연구개발비 사용실적",
+      "1) 연구개발비 사용명세서",
+      "3) 연구시설ㆍ장비",
+      "4) 연구재료비",
+      "5) 위탁연구개발비",
+      "6) 국제공동연구개발",
+      "7) 연구개발부담비 현금 0 0 0 0 0 0 0 0",
+      "8) 연구활동비",
+      "9) 연구수당 현금 0 31,000,000 0 0 31,000,000 31,000,000 0 100.0%"
+    ],
+    "section_context_candidate": "8. 연구개발비 사용실적",
+    "prior_heading_candidate": {
+      "text": "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획",
+      "pdf_page": 116
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 429,
+      "2": 86,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 118,
+    "text_characters": 988,
+    "heading_candidates": [],
+    "section_context_candidate": "9) 연구수당 현금 0 31,000,000 0 0 31,000,000 31,000,000 0 100.0%",
+    "prior_heading_candidate": {
+      "text": "9) 연구수당 현금 0 31,000,000 0 0 31,000,000 31,000,000 0 100.0%",
+      "pdf_page": 117
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 277,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 119,
+    "text_characters": 295,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신・방송연구개발사업의 ○○연구",
+      "2. 이 연구개발내용을 대외적으로 발표할 때에는 반드시 과학기술정보통신부(정보통신기획",
+      "3. 국가과학기술 기밀 유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는 안 된다."
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신・방송연구개발사업의 ○○연구",
+    "prior_heading_candidate": {
+      "text": "9) 연구수당 현금 0 31,000,000 0 0 31,000,000 31,000,000 0 100.0%",
+      "pdf_page": 117
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 50,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

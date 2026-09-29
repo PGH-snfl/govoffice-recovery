@@ -1,0 +1,267 @@
+[
+  {
+    "pdf_page": 6,
+    "text": "그림 1. 뇌 신경회로의 전기신호 분석 알고리즘 개발 다이어그램",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 7,
+    "text": "그림 2. ViSAP y 툴을 이용한 모델링 노이즈 생성 과정. Ÿ 시뮬레이터를 통해 생성된 신호가 실제 측정 신호와 정량적/정성적으로 충분한 모사도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 8,
+    "text": "표 1과 같음. 데이터 예시는 그림 4-6에 나타나 있음.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 8,
+    "text": "그림 3. A,B는 각 32, 128 channels Polytrode의 Electrode number",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 4. Bonsai Tool을 이용한, 미가공 데이터의 시각화 예시.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 5. 그림 4의 데이터에 대하여 500~5000hz 밴드패스 필터링을 적용한 결과.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 6. Bonsai Tool을 이용한 Ground Truth Data의 Spike sorting 신호. 다) 시뮬레이터를 이용한 신호 생성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "표 1. 3개의 예시 데이터에 대한 상세 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 7. 노이즈가 없는 시뮬레이션 환경에서 하나의 신경 세포와 하나의 전극을 통해 신호를 생성한 결과 예시.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 8. 시뮬레이터를 이용한 데이터 생성. 위의 세 이미지는 각각 X-Z, X-Z, X-Y 평면에서의 신경 세포의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 9. 전극의 위치에 따른 결과 그래프 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 10. 1개의 신경 세포에 대하여 네 개의 채널을 가진 single array recorder로 신호를 측정 모델링 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 11. 그림 10의 상황에서 잡음을 추가했을 때의 결과 예시. 왼쪽 그래프는 네 채널에 입력되는 잡음들을 나타내며 오른쪽",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 12. 하나의 신경 세포에서 발생한 신경신호를 tetrode를 이용하여 측정한 시뮬레이션 결과 예시.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 13. 세 종류의 신경 세포에 대한 시뮬레이션 결과 예시.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 14. 세 종류의 신경세포와 하나의 전극을 이용한 시뮬레이션 예시.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 15. 그림 10의 시뮬레이션 상황에 대한 합성 결과 그래프 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 16. 세 신경세포에서 발생한 신호를 tetrode로 측정하는 시뮬레이션 결과 예시. 신경세포 1, 2, 3에 대한 그래프는 각각의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 17. 그림 16의 세 신경 세포에서 나오는 신호가 각각 tetrode의 네 전극에 어떻게 수신되는지를 보여주는 예시.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 18. 그림 16의 시뮬레이션에 대한 최종 결과 그래프. 좌측 그래프는 네 채널에 대한 잡음을 나타내며 중앙의 그래프는 네",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 19. 시냅스 위치의 변화 및 전극의 위치의 변화, 신경 세포의 위치 및 배열 변화 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 20. 10개의 신경 세포에서 발생한 신호를 16개의 Multi Electrode Array를 통해 수신한 시뮬레이션 결과 그래프",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 21. 실제 측정 신호와 생성 신호의 개형. <좌> 실제 측정 신경 신호. <우> 시뮬레이터 생성 신호.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 22. 그림 23을 y 축 (진폭) 에 대하여 확대한 그림. <좌> 실제 측정 신경 신호. <우> 시뮬레이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 23. 각 신호를 Spike 기준으로 32 포인트씩 잘라 Spike 의 개형 비교. <좌> 실제 측정 신경 신호.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 24. 실제 측정한 신경 신호(주황색)와 시뮬레이터를 통해 생성한 신호(파란색)에 존재하는 Spike 의 최소값/최대값 분포",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 25. <좌> 실제 측정 신호가 대역 통과 필터를 거치기 전. <우> 대역 통과 필터를 통과한 실제 측정 신호의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 26. <좌> 시뮬레이터를 통해 생성된 신호가 대역통과 필터를 거치기 전. <우> 대역 통과 필터를 통과한 생",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 27. <좌> 대역 통과 필터를 거치기 전 생성 신호. <우> 대역 통과 필터를 거친 후의 생성 신호에서 문턱값",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 28 simulation data와 실제 In vivo juxta-cellular data와의 비교. std graph는 sampling point 별 각 electrode 간의 표준",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 29 Intra-cellular와 extra-cellular 신호의 차이점",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 30 Electrode를 통해 측정된 extra-cellular 신호",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 31 MLP 기반 template matching 분류모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 32 PCA+K-means 방법과의 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 33 기존의 분류 알고리즘과의 정확도 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 34 Auto-encoder 기반 자동 clustering 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 35 sapling point interval에 따른 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 36 오토인코더의 layer 깊이에 따른 복원 차이 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 37 각 모델과 앙상블 모델을 통해 추출된 데이터를 사용한 분류 비교 Ÿ 그림 37을 통해, 각 모델과 앙상블 모델을 통해 추출된 데이터를 사용한 신호 분류 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 38 쥐에서 측정된 in-vivo 데이터의 특징 추출",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "표 2. 신경 세포 분류 정확도 (%) 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 39. 여러 신경 세포 분류 방법들의 군집화 성능에 대한 시각적 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 40. 다채널 전극을 이용한 3차원 신경신호 데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 41. 싱글채널 및 다채널 데이터를 이용한 신경신호 분류 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 42. 잡음의 크기에 따른 신호의 형태",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "그림 43. 전극의 개수와 신경세포의 개수에 따른 신경세포, 전극의 배열 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "그림 44. 신경세포의 개수, 전극의 개수, 노이즈의 정도에 따른 신경신호 분류 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 45. 인공지능 알고리즘의 입력 신호의 시간적 위치에 따른 특징값의 어텐션 예시. 각 행은 각각의 신경세포를 나타내며",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 31,
+    "text": "그림 46. 다전극 데이터에 대한 어텐션 매핑 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 47. 신경신호의 채널에 대한 일반화 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 48. 신경신호의 강도를 기반으로 한 신경 세포와 전극 사이의 거리 추측",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "그림 49. 잡음의 정도에 따른 신경 세포 위치 측정 오차",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "그림 50. 평균 방식과 대표 스파이크 값을 통한 위치 매핑 방식의 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

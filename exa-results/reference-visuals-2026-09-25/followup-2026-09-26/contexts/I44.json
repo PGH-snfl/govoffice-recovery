@@ -1,0 +1,1361 @@
+[
+  {
+    "visual_id": "I44-V0001",
+    "caption": "M2SoS에서 정의한 SoS의 기본 구성 요소",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "불확정성을\n갖는 SoS\n운용 환경\n행위 모델링\n기법 개발\n❍ SoS 개발을 위한 메타 모델 기반의 불확정성을 갖는 환경 요소\n도출",
+    "caption_and_following_text": "­2차년도 연구 결과 중 SoS 개발을 위한 메타 모델로 정의한 M2SoS\n(Meta-model for SoS) 개선 및 구성 요소 정의\nŸ M2SoS의 기본 구성 요소(building blocks) 정의\n그림 13. M2SoS에서 정의한 SoS의 기본 구성 요소\nSoS-level\nTarget\nProblem\n§ 개발될(된) SoS가 CS들의 역량을 바탕으로 해결하고자\n하는 상위 수준의 문제를 말하며, SoS 개발 및 운영의 목\n표(goal)로 연결되는 요소",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [
+      "라. 해당연도 기술개발 결과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.92,
+          451.91,
+          493.41,
+          592.87
+        ],
+        "page_area_fraction": 0.0976
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0002",
+    "caption": "M2SoS에서 정의한 SoS 주요 구성 요소 및 설명",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 41,
+    "prefix_match_only": false,
+    "text_before": "서비스를 제공하기 위한 역할을 수행\n§ SoS를 구성하기 위해 통합되는 CS는 이미 존재하는 레\n거시 시스템(legacy system)과 새로 개발될 시스템 모두\n고려\n§ 각 CS는 이미 시스템 수준에서 완전하고 독립적인 운영\n및 관리(managerial & operational independence) 하에 독\n립적인 목표를 갖고 서비스를 제공하며, 본래 상위 수준",
+    "caption_and_following_text": "(SoS 수준)의 시스템에 구성되기 위해 개발되지 않음\nSoS-level\nEnvironment § SoS-level Infrastructure 외부에서 상호작용하는 물리적, 가상의 요소\n표 1. M2SoS에서 정의한 SoS 주요 구성 요소 및 설명",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [
+      "라. 해당연도 기술개발 결과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.92,
+          451.91,
+          493.41,
+          592.87
+        ],
+        "page_area_fraction": 0.0976
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0003",
+    "caption": "M2SoS에서 정의한 SoS 수준 요소(SoS-level entities)",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 13 -\nŸ M2SoS의 SoS 수준 요소(SoS-level entities) 정의\n그림 14. M2SoS에서 정의한 SoS 수준 요소(SoS-level entities) Ÿ M2SoS의 CS 수준 요소(CS-level entities) 정의\n그림 15. M2SoS에서 정의한 SoS 수준 요소(SoS-level entities)와\nCS 수준 요소(CS-level entities)",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.92,
+          429.25,
+          514.16,
+          719.81
+        ],
+        "page_area_fraction": 0.2132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.92,
+          119.39,
+          517.88,
+          370.27
+        ],
+        "page_area_fraction": 0.186
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0004",
+    "caption": "M2SoS에서 정의한 SoS 수준 요소(SoS-level entities)와 CS 수준 요소(CS-level entities)",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 13 -",
+    "caption_and_following_text": "Ÿ M2SoS의 SoS 수준 요소(SoS-level entities) 정의\n그림 14. M2SoS에서 정의한 SoS 수준 요소(SoS-level entities) Ÿ M2SoS의 CS 수준 요소(CS-level entities) 정의\n그림 15. M2SoS에서 정의한 SoS 수준 요소(SoS-level entities)와\nCS 수준 요소(CS-level entities)",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.92,
+          429.25,
+          514.16,
+          719.81
+        ],
+        "page_area_fraction": 0.2132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.92,
+          119.39,
+          517.88,
+          370.27
+        ],
+        "page_area_fraction": 0.186
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0005",
+    "caption": "SoS 개발을 위한 메타모델",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 14 -\nŸ 온톨로지 형식의 SoS 개발을 위한 메타모델(M2SoS) 정의\n그림 16. SoS 개발을 위한 메타모델",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.92,
+          100.45,
+          502.17,
+          719.81
+        ],
+        "page_area_fraction": 0.4397
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0006",
+    "caption": "M2SoS를 기반으로 한 불확정성 분석 및 사례 기반 SoS",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 15 -\n­M2SoS를 기반으로 한 불확정성 분석 및 사례 기반 SoS 모델링 연구 개\n요에 따라 연구 진행\n그림 17. M2SoS를 기반으로 한 불확정성 분석 및 사례 기반 SoS\n모델링 ­불확정성의 정의 및 불확정성 모델링 기법 조사\nŸ 불확정성의 정의 및 불확정성을 발생시키는 원인 조사\n불확정성 관련 연구 불확정성 정의\nObject Management\nGroup (OMG) Ÿ 확신의 부족(lack of confidence) Ÿ 지식의 부족(lack of knowledge)\nSaroj Koul1) Ÿ 지식의 부재(absence of knowledge) Ÿ 불충분한 정보(inadequate information) Ÿ 완전한 결정성의 도달 불가능한",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.28,
+          561.83,
+          491.86,
+          681.45
+        ],
+        "page_area_fraction": 0.0809
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0007",
+    "caption": "관련 연구에서 정의한 불확정성(uncertainty)",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "요에 따라 연구 진행\n그림 17. M2SoS를 기반으로 한 불확정성 분석 및 사례 기반 SoS\n모델링 ­불확정성의 정의 및 불확정성 모델링 기법 조사\nŸ 불확정성의 정의 및 불확정성을 발생시키는 원인 조사\n불확정성 관련 연구 불확정성 정의\nObject Management\nGroup (OMG) Ÿ 확신의 부족(lack of confidence) Ÿ 지식의 부족(lack of knowledge)",
+    "caption_and_following_text": "Saroj Koul1) Ÿ 지식의 부재(absence of knowledge) Ÿ 불충분한 정보(inadequate information) Ÿ 완전한 결정성의 도달 불가능한\n상태로부터의 시작선\nvan Asselt2) Ÿ 지식의 부족(lack of knowledge)\n표 26. 관련 연구에서 정의한 불확정성(uncertainty)\n불확절성의 원인 발생 가능한 불확정성\n가변성\n(variability)\nŸ 자연에 내재되어 있는 무작위성(inherent\nrandomness of nature) Ÿ 값의 다양성(value diversity) Ÿ 인간 행동의 비결정성(nondeterminism of\nhuman behavior) Ÿ 사회적 무작위성 및 기술적",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.28,
+          561.83,
+          491.86,
+          681.45
+        ],
+        "page_area_fraction": 0.0809
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0008",
+    "caption": "불확정성을 발생시키는 시스템의 내재적인 원인 분석",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 23,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 자연에 내재되어 있는 무작위성(inherent\nrandomness of nature) Ÿ 값의 다양성(value diversity) Ÿ 인간 행동의 비결정성(nondeterminism of\nhuman behavior) Ÿ 사회적 무작위성 및 기술적\n무작위성(societal randomness and\ntechnological randomness)\n지식의 부족\n(lack of",
+    "caption_and_following_text": "knowledge)\nŸ 시스템 비신뢰성(unreliability) Ÿ 시스템의 구조적 불확실성(structural\nuncertainty)\n표 27. 불확정성을 발생시키는 시스템의 내재적인 원인 분석\nŸ 불확정성 모델링 기법 조사: Object Management Group (OMG)의\n가상물리시스템(Cyber-Physical System, CPS) 불확실성 모델링",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.28,
+          561.83,
+          491.86,
+          681.45
+        ],
+        "page_area_fraction": 0.0809
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0009",
+    "caption": "Belief model (Uncertainty Modeling by OMG)",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "2) van Asselt, M. (2000). Perspectives on uncertainty and risk: the PRIMA approach to decision\nsupport. Kluwer Academic : Dordrecht. 1, 2, 3, 4, 5\n3) Figueira, J., S. Greco, and M. Ehrgott, “Multiple criteria decision analysis: state of the art surveys.” International\nSeries in Operations Research and Management Science. New York: Springer. 1045p. 6, 2005.\n4) Man Zhang, Shaukat Ali, Tao Yue, “Uncertainty Modeling Framework for the Integration Level V.4,” Simula\nResearch Laboratory, Technical Report 2016-01, 2017.\n(Uncertainty Modeling) 연구",
+    "caption_and_following_text": "ü Belief model: 불확정성을 다루기 위해 지식의 개념에서 벗어나\n믿음(Belief) 요소를 정의하고, 이와 관련있는 에이전트\n(BeliefAgent), 증거(Evidence), 주제(Topic)와의 관계를 정의\n그림 18. Belief model (Uncertainty Modeling by OMG)\nTopic § 믿음(belief)의 대상이 되는 객관적인\n현상(phenomenon) 혹은 개념(concept)\nEvidence § 믿음(belief)을 정당화 하는데에 사용되는\n객관적인 정보\nBeliefAgent § 본인이 갖고 있는 하나 혹은 그 이상의\n믿음(belief)을 행동하거나 추론할 수 있는",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.62,
+          495.18,
+          494.85,
+          662.28
+        ],
+        "page_area_fraction": 0.1059
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0010",
+    "caption": "Belief model의 구성 요소",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "현상(phenomenon) 혹은 개념(concept)\nEvidence § 믿음(belief)을 정당화 하는데에 사용되는\n객관적인 정보\nBeliefAgent § 본인이 갖고 있는 하나 혹은 그 이상의\n믿음(belief)을 행동하거나 추론할 수 있는\n개인, 그룹, 혹은 매커니즘\nBelief § BeliefAgent가 소유한 암시적이거나 명시적인",
+    "caption_and_following_text": "의견 혹은 신념\nBelief\nStatement § 믿음(belief)의 명시적인 작성(formulation) (예. 자연 언어, 수학적 표현, 바이너리 코드 등)\n표 28. Belief model의 구성 요소\nü Uncertainty model: 특정 믿음 진술(Belief Statement)에 대한 불\n확정성을 정의하고, 불확정성 요소를 표현하기 위한 원인\n(Indeterminacy Source)과 불확정성의 측정(Uncertainty Measure)\n요소와의 관계를 표현",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.62,
+          495.18,
+          494.85,
+          662.28
+        ],
+        "page_area_fraction": 0.1059
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0011",
+    "caption": "Uncertainty model",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 17 -\n그림 19. Uncertainty model\nUncertainty\n§ BeliefAgent가 BeliefStatement의\n정확성(진실성)에 대한 확신 부족(lack of\nconfidence)\nUncertainty\nMeasure\n§ BeliefAgent에 의해 명시적으로 명세된 정성적\n혹은 정량적 표현이며, BeliefStatement에 대한",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.82,
+          555.59,
+          496.77,
+          738.99
+        ],
+        "page_area_fraction": 0.1176
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0012",
+    "caption": "Uncertainty model의 구성 요소",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "혹은 정량적 표현이며, BeliefStatement에 대한\nUncertainty 정도를 표현\nIndeterminacy\nSource\n§ BeliefStatement의 Uncertainty를 제공한\n직접적 원인\nUncertainty",
+    "caption_and_following_text": "Type\n§ IndeterminacySource에 기반한 Uncertainty의\n속성 묘사\n표 29. Uncertainty model의 구성 요소\n­개선된 M2SoS가 포함하고 있는 모델링 대상 컴포넌트 중, 불확정성을\n갖는 환경 요소 분석\nŸ 다중손상사고(Mass Casualty Incident, MCI) 사례 기반 M2SoS 내의\n불확정성을 포함한 환경 요소 분석\nü MCI 관련 문헌 분석(30편 이상의 공개 문서, 논문 참조)을 통해\n확인한 불확정성을 가질 수 있는 환경 요소 도출",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.82,
+          555.59,
+          496.77,
+          738.99
+        ],
+        "page_area_fraction": 0.1176
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0013",
+    "caption": "다중손상사고(MCI) 문헌 분석을 통해 확인한 환경 요소",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 18 -\n그림 20. 다중손상사고(MCI) 문헌 분석을 통해 확인한 환경 요소\nü 사례 기반 M2SoS의 불확정성 환경 요소 도출 및 분석\n그림 21. MCI 문헌 조사를 바탕으로 얻은 환경 요소의 M2SoS 내 정의\n❍ 불확정성(uncertainty)을 갖는 소프트웨어 환경 모델링 기법 조사\n및 SoS 사례 기반 모델링\n­소프트웨어 모델링 기법이 적용될 수 있는 실제 SoS 사례를 기준으로\n불확정성을 갖는 환경 요소 분석\nŸ 소프트웨어 시스템 컨텍스트(software system context)에 대한 정의:\n시스템 외부에서 대상 시스템에게 영향을 미치거나 서로 상호작용",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.91,
+          519.87,
+          507.69,
+          738.99
+        ],
+        "page_area_fraction": 0.1501
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          171.15,
+          231.83,
+          507.57,
+          460.9
+        ],
+        "page_area_fraction": 0.154
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0014",
+    "caption": "MCI 문헌 조사를 바탕으로 얻은 환경 요소의 M2SoS 내 정의",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 18 -\n그림 20. 다중손상사고(MCI) 문헌 분석을 통해 확인한 환경 요소\nü 사례 기반 M2SoS의 불확정성 환경 요소 도출 및 분석\n그림 21. MCI 문헌 조사를 바탕으로 얻은 환경 요소의 M2SoS 내 정의\n❍ 불확정성(uncertainty)을 갖는 소프트웨어 환경 모델링 기법 조사\n및 SoS 사례 기반 모델링\n­소프트웨어 모델링 기법이 적용될 수 있는 실제 SoS 사례를 기준으로\n불확정성을 갖는 환경 요소 분석\nŸ 소프트웨어 시스템 컨텍스트(software system context)에 대한 정의:\n시스템 외부에서 대상 시스템에게 영향을 미치거나 서로 상호작용",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.91,
+          519.87,
+          507.69,
+          738.99
+        ],
+        "page_area_fraction": 0.1501
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          171.15,
+          231.83,
+          507.57,
+          460.9
+        ],
+        "page_area_fraction": 0.154
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0015",
+    "caption": "M2SoS에서 정의한 SoS 수준 행위 요소",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "갖는 SoS\n요소 시스템\n행위 모델링\n기법 개발\n❍ SoS 개발을 위한 메타 모델 기반의 불확정성을 갖는 시스템 행위\n요소 도출\n­2차년도 연구 결과 중 SoS 개발을 위한 메타 모델로 정의한 M2SoS",
+    "caption_and_following_text": "(Meta-model for SoS)가 포함하고 있는 모델링 대상 컴포넌트 중, 불확\n정성을 갖는 시스템 요소 분석\nŸ M2SoS에서 정의한 SoS 수준 시스템 행위 요소 분석\n그림 22. M2SoS에서 정의한 SoS 수준 행위 요소\nŸ M2SoS에서 정의한 CS 수준 시스템 행위 요소 분석\n그림 23. M2SoS 내에 정의된 CS 수준의 요소 ­M2SoS를 기반으로 유사 시스템(MAS 등)과 SoS의 요소 시스템 행위 모\n델링 및 검증 가능성 분석\nŸ 메타모델 기반 MAS 모델링 기법 분석을 통해 M2SoS를 정의하였으\n며, MAS의 주요 특성 뿐만 아니라 SoS 특징적인(SoS-specific) 특징",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.28,
+          359.49,
+          456.72,
+          485.83
+        ],
+        "page_area_fraction": 0.0766
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          212.53,
+          159.43,
+          466.43,
+          314.66
+        ],
+        "page_area_fraction": 0.0788
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0016",
+    "caption": "M2SoS 내에 정의된 CS 수준의 요소",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "행위 모델링\n기법 개발\n❍ SoS 개발을 위한 메타 모델 기반의 불확정성을 갖는 시스템 행위\n요소 도출\n­2차년도 연구 결과 중 SoS 개발을 위한 메타 모델로 정의한 M2SoS\n(Meta-model for SoS)가 포함하고 있는 모델링 대상 컴포넌트 중, 불확\n정성을 갖는 시스템 요소 분석",
+    "caption_and_following_text": "Ÿ M2SoS에서 정의한 SoS 수준 시스템 행위 요소 분석\n그림 22. M2SoS에서 정의한 SoS 수준 행위 요소\nŸ M2SoS에서 정의한 CS 수준 시스템 행위 요소 분석\n그림 23. M2SoS 내에 정의된 CS 수준의 요소 ­M2SoS를 기반으로 유사 시스템(MAS 등)과 SoS의 요소 시스템 행위 모\n델링 및 검증 가능성 분석\nŸ 메타모델 기반 MAS 모델링 기법 분석을 통해 M2SoS를 정의하였으\n며, MAS의 주요 특성 뿐만 아니라 SoS 특징적인(SoS-specific) 특징",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.28,
+          359.49,
+          456.72,
+          485.83
+        ],
+        "page_area_fraction": 0.0766
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          212.53,
+          159.43,
+          466.43,
+          314.66
+        ],
+        "page_area_fraction": 0.0788
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0017",
+    "caption": "OMG의 Uncertainty Modeling Framework (UMF)",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "하는 등의 기능을 수행함. ü CPS Uncertainty Modeling Framework4): 본 연구는 OMG의 UM\n연구에 근거하여 U-Model을 구현한 가상물리시스템(CPS)을 위한\n불확정성 모델링 프레임워크이다. U-Model은 UML profile (UML\nUncertainty Profile, UUP)을 이용하여 구현되며, 개발된 profile은\n(a) Belief Profile, (b) Uncertainty Profile, (c)\nIndeterminacySource Profile, (d) Measurement Profile을 포함한\n다. 그리고 이러한 불확정성을 어플리케이션 수준(application",
+    "caption_and_following_text": "level), 인프라 수준(infrastructure level), 통합 수준(integration\nlevel)에서 분석하고 모델링 할 수 있는 프레임워크를 제공한다. 즉, 불확정성을 세 가지 수준의 행동(어플리케이션 행동, 통합환\n경 행동, 인프라 수준 행동)으로 모델링하고 분석한다.\n그림 24. OMG의 Uncertainty Modeling Framework (UMF) Ÿ 소프트웨어 시스템 행위 모델링 기법 조사(2/2): 컨텍스트 불확정성\n모델링 및 검증 가능성 분석\n시스템 행위\n모델링 기법 불확정성 모델링 및 검증 가능성 분석\nUncertainty Modeling\nFramework (UMF) &\nUML Uncertainty",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          171.87,
+          234.22,
+          500.61,
+          410.07
+        ],
+        "page_area_fraction": 0.1155
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0018",
+    "caption": "CS의 자율성으로 나타날 수 있는 상황",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 30 -\n기법 보완\n제약을 주기 위한 상위 수준 정책 필요",
+    "caption_and_following_text": "Ÿ 불확정성을 포함하는 SoS의 요구사항 및 환경의 변화로 시스템의\n진화(evolution)가 발생하면서, SoS의 지속적 개발 및 운영 중 효과\n적인 정책 관리 기법이 필요\n그림 34 CS의 자율성으로 나타날 수 있는 상황 ­SoS 정책(SoS Policy) 정의 및 정책 모델링\nŸ SoS 정책을 통해 SoS 관리자는 CS가 어떤 상황에 어떤 행동을 하거\n나 하지 말아야 할지 권고함. 각 정책은 환경 속성에 근거한 행동\n지침인 조건과 조건에 따라 취해야 할 행동으로 정의되며, CS는 정\n책 순응도(compliance value)에 따라 SoS 수준 정책을 따르는 정도\n를 표현\nŸ CS의 자율성을 고려하여 조건과 행동을 포함할 수 있도록 (a)행동",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.83,
+          569.02,
+          511.76,
+          662.28
+        ],
+        "page_area_fraction": 0.0654
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.78,
+          349.18,
+          483.94,
+          370.75
+        ],
+        "page_area_fraction": 0.0127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.55,
+          301.71,
+          511.04,
+          323.53
+        ],
+        "page_area_fraction": 0.0152
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0019",
+    "caption": "행동 지침 정책(Action policy) 모델",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "적인 정책 관리 기법이 필요\n그림 34 CS의 자율성으로 나타날 수 있는 상황 ­SoS 정책(SoS Policy) 정의 및 정책 모델링\nŸ SoS 정책을 통해 SoS 관리자는 CS가 어떤 상황에 어떤 행동을 하거\n나 하지 말아야 할지 권고함. 각 정책은 환경 속성에 근거한 행동\n지침인 조건과 조건에 따라 취해야 할 행동으로 정의되며, CS는 정\n책 순응도(compliance value)에 따라 SoS 수준 정책을 따르는 정도\n를 표현",
+    "caption_and_following_text": "Ÿ CS의 자율성을 고려하여 조건과 행동을 포함할 수 있도록 (a)행동\n지침 정책(Action policy)과 순응도 지침 정책(Compliance policy)을\n모델링(아래 그림 및 표 참조)\n그림 35. 행동 지침 정책(Action policy) 모델\n그림 36. 순응도 지침 정책 (Compliance Policy) 모델\n정책 정의 요소 의미 및 입력값\nCondition\nSoS 작동환경에서 관찰 가능한 CS공통 환경변수\n(global) 또는 CS영역 내 환경변수(local) 집합. 값은\n변수의 도메인에 따라 다양한 값을 가짐",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.83,
+          569.02,
+          511.76,
+          662.28
+        ],
+        "page_area_fraction": 0.0654
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.78,
+          349.18,
+          483.94,
+          370.75
+        ],
+        "page_area_fraction": 0.0127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.55,
+          301.71,
+          511.04,
+          323.53
+        ],
+        "page_area_fraction": 0.0152
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0020",
+    "caption": "순응도 지침 정책 (Compliance Policy) 모델",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "그림 34 CS의 자율성으로 나타날 수 있는 상황 ­SoS 정책(SoS Policy) 정의 및 정책 모델링\nŸ SoS 정책을 통해 SoS 관리자는 CS가 어떤 상황에 어떤 행동을 하거\n나 하지 말아야 할지 권고함. 각 정책은 환경 속성에 근거한 행동\n지침인 조건과 조건에 따라 취해야 할 행동으로 정의되며, CS는 정\n책 순응도(compliance value)에 따라 SoS 수준 정책을 따르는 정도\n를 표현\nŸ CS의 자율성을 고려하여 조건과 행동을 포함할 수 있도록 (a)행동",
+    "caption_and_following_text": "지침 정책(Action policy)과 순응도 지침 정책(Compliance policy)을\n모델링(아래 그림 및 표 참조)\n그림 35. 행동 지침 정책(Action policy) 모델\n그림 36. 순응도 지침 정책 (Compliance Policy) 모델\n정책 정의 요소 의미 및 입력값\nCondition\nSoS 작동환경에서 관찰 가능한 CS공통 환경변수\n(global) 또는 CS영역 내 환경변수(local) 집합. 값은\n변수의 도메인에 따라 다양한 값을 가짐\nex)’MCI단계‘라는 조건은 CS공통 환경변수이며, 값의 범위는 {1, 2, 3, 4, 5}",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.83,
+          569.02,
+          511.76,
+          662.28
+        ],
+        "page_area_fraction": 0.0654
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.78,
+          349.18,
+          483.94,
+          370.75
+        ],
+        "page_area_fraction": 0.0127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.55,
+          301.71,
+          511.04,
+          323.53
+        ],
+        "page_area_fraction": 0.0152
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0021",
+    "caption": "정책 모델링을 위해 정의한 정책 구성 요소",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "ex)’MCI단계‘라는 조건은 CS공통 환경변수이며, 값의 범위는 {1, 2, 3, 4, 5}\nRole SoS 수준 목표를 기반으로 나눠진 CS들의 역할\nAction 역할을 기반으로 CS가 실제 시행할 수 있는 행동\nEnforce\nDirected 또는 Acknowledged SoS에게 정책 전달 시\n사용하는 구분자이며, 값은 True 또는 False\nex) Enforce = True (Directed SoS Policy)",
+    "caption_and_following_text": "ex) Enforce = False (Acknowledged SoS Policy)\nMin. compliance 관리자가 CS에게 요구하는 최소 순응도 값. 범위는\n(0.0, 1.0] 이며 0.1 단위로 사용\n표 37. 정책 모델링을 위해 정의한 정책 구성 요소",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.83,
+          569.02,
+          511.76,
+          662.28
+        ],
+        "page_area_fraction": 0.0654
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.78,
+          349.18,
+          483.94,
+          370.75
+        ],
+        "page_area_fraction": 0.0127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.55,
+          301.71,
+          511.04,
+          323.53
+        ],
+        "page_area_fraction": 0.0152
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0022",
+    "caption": "SoS 진화적 개발을 위한 탐색기반 정책 제안 기법 도구의 구조",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 32 -",
+    "caption_and_following_text": "Ÿ 도구 출력\nü 제안된(업데이트된) 정책 모델(Policy model, P’)\n그림 37. SoS 진화적 개발을 위한 탐색기반 정책 제안 기법 도구의\n구조\n[세부연구2-1]\nSoS 검증을\n위한 목표\n명세 유형\n분류\n❍ SoS 검증 속성과 목표 명세 사이의 관계 분석",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.82,
+          524.07,
+          503.01,
+          700.63
+        ],
+        "page_area_fraction": 0.1154
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0023",
+    "caption": "SoS 통계적 검증 프로토타입 도구 개요",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "[세부연구2-2]\n통계적 검증\n프로토타입\n도구의 SoS 목표\n명세 유형\n커버리지 평가\n및 개선사항",
+    "caption_and_following_text": "도출\n❍ SoS 통계적 검증 프로토타입 도구의 SoS 목표 유형 커버리지 분\n석\n­SoS 통계적 검증 프로토타입 도구 개요\n§ SoS 수준의 목표달성 여부를 정량적으로 검증할 수 있는 SoS\n통계적 검증 프로토타입 도구를 개발함\n§ SoS 통계적 검증 프로토타입 도구는 (1) 시뮬레이션 엔진, (2)\n검증 속성 체커(checker), (3) 통계적 가설 시험 모듈로 구성\n그림 38. SoS 통계적 검증 프로토타입 도구 개요 ­프로토타입 도구의 SoS 목표 유형 커버리지 분석\n§ 현재 개발된 SoS 시나리오는 Existence, Absence, Universality,",
+    "section_context_candidate": "라. 해당연도 기술개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.47,
+          221.52,
+          500.13,
+          380.82
+        ],
+        "page_area_fraction": 0.1043
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0024",
+    "caption": "커버리지 분석 절차",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 35 -\n절차 세부내용\n1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요\n한 파라미터를 입력한다. 3 시험하고자 하는 목표 명세 유형에 대하여 SoS 통계적 검증",
+    "caption_and_following_text": "프로토타입 도구를 실행한다. 4 프로토타입 도구의 검증 결과를 확인한다. 5\nSoS 시나리오에서 표현 가능한 7가지 목표 유형에 대하여 같\n은 절차를 반복한다.\n표 7. 커버리지 분석 절차\n❍ SoS 통계적 검증 프로토타입 도구의 한계점 분석 및 개선사항 도\n출\n­도구에서 검증 가능한 목표 명세 유형과 표현 가능한 유형의 한\n계\n§ 평가에 사용된 시뮬레이션 시나리오 분석을 통해 시뮬레이션\n시나리오가 본 검증 도구 내에서 표현할 수 있는 목표 명세",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [
+      "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0025",
+    "caption": "확장된 ABC 모델링 기술",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 38 -\n그림 39. 확장된 ABC 모델링 기술\n❍ SoS 통계적 검증 지원 프로토타입 도구 개선\n­비기능적 개선 요구사항\n§ SoS 검증 도구를 사용하는 데 있어서 기술적 한계뿐 아니라\n사용자를 위한 개선사항 또한 수집\n§ 현재 커맨드라인 인터페이스(CLI)를 통해 입력과 출력이 이루\n어지는 형태에서, 그래픽 유저 인터페이스(GUI)를 통한 조작을\n할 수 있게끔 개선할 필요가 있음\n­SoS 통계적 검증 지원 도구의 개선",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          181.22,
+          593.59,
+          482.86,
+          738.99
+        ],
+        "page_area_fraction": 0.0876
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0026",
+    "caption": "Steady state probability 유형 트레이스 분석 알고리즘",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "§ 현재 커맨드라인 인터페이스(CLI)를 통해 입력과 출력이 이루\n어지는 형태에서, 그래픽 유저 인터페이스(GUI)를 통한 조작을\n할 수 있게끔 개선할 필요가 있음\n­SoS 통계적 검증 지원 도구의 개선\n§ 앞서 도출한 도구 개선 방향에 따라 검증 속성 중 Steady\nstate probability 유형의 트레이스 분석 알고리즘을 아래 표와\n같이 도출",
+    "caption_and_following_text": "§ 해당 알고리즘을 실제 구현하여 최신 버전의 SIMVA-SoS에 적\n용하였으며, 이에 대해 일련의 절차에 따라 외부 평가를 통하\n여 해당 유형의 검증 가능 여부를 확인함\n알고리즘 5 Steady state probability 유형 트레이스 분석 알고리즘\n : Trace in the form of 2-dimentional array [Tick, Properties]\n : The property to be verified\n : The value for the property\n : The probability that  satisfies  after \n1: function checkSteadyStateProbability(, , \n, )",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          181.22,
+          593.59,
+          482.86,
+          738.99
+        ],
+        "page_area_fraction": 0.0876
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0027",
+    "caption": "확장된 ABC 모델링 기술",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 39 -\n§ 시뮬레이션 기반의 SoS 검증을 위한 모델링 방법으로 기 제안\n된 ABC 모델링 기법을 확장",
+    "caption_and_following_text": "§ ABC+ 모델링 이라는 이름으로 명명된 확장된 모델링 기법은\n보다 현실적인 CS의 의사 결정 과정과 메시지 형태 기반의\nCS간의 상호작용을 모델링하는 방법을 제공\n그림 40. 확장된 ABC 모델링 기술 § ABC 모델은 획일화된 의사 결정으로 인해 일정 시간 이후로\n는 SoS 수준 목표 성취가 더 이상 증가하지 않는 모습을 보여\n주는 반면 ABC+ 모델은 시간에 따라 목표 성취가 지속적으로\n증가하는 것을 확인함\n그림 41. 의사 결정 과정 모델에 따른 SoS 목표 성취 시뮬레이션 결과 비교\n§ 상호작용하는 방식이 달라짐에 따라 그들이 SoS 목표를 성취\n하는 결과는 확연히 다름을 확인함",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.23,
+          474.2,
+          491.26,
+          643.1
+        ],
+        "page_area_fraction": 0.1107
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.23,
+          173.21,
+          523.16,
+          371.83
+        ],
+        "page_area_fraction": 0.1429
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0028",
+    "caption": "의사 결정 과정 모델에 따른 SoS 목표 성취 시뮬레이션 결과 비교",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 39 -\n§ 시뮬레이션 기반의 SoS 검증을 위한 모델링 방법으로 기 제안\n된 ABC 모델링 기법을 확장\n§ ABC+ 모델링 이라는 이름으로 명명된 확장된 모델링 기법은\n보다 현실적인 CS의 의사 결정 과정과 메시지 형태 기반의\nCS간의 상호작용을 모델링하는 방법을 제공\n그림 40. 확장된 ABC 모델링 기술 § ABC 모델은 획일화된 의사 결정으로 인해 일정 시간 이후로",
+    "caption_and_following_text": "는 SoS 수준 목표 성취가 더 이상 증가하지 않는 모습을 보여\n주는 반면 ABC+ 모델은 시간에 따라 목표 성취가 지속적으로\n증가하는 것을 확인함\n그림 41. 의사 결정 과정 모델에 따른 SoS 목표 성취 시뮬레이션 결과 비교\n§ 상호작용하는 방식이 달라짐에 따라 그들이 SoS 목표를 성취\n하는 결과는 확연히 다름을 확인함",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.23,
+          474.2,
+          491.26,
+          643.1
+        ],
+        "page_area_fraction": 0.1107
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.23,
+          173.21,
+          523.16,
+          371.83
+        ],
+        "page_area_fraction": 0.1429
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0029",
+    "caption": "상호 작용 모델에 따른 SoS 목표 성취 시뮬레이션 결과 비교",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 40 -\n그림 42. 상호 작용 모델에 따른 SoS 목표 성취 시뮬레이션 결과 비교\n[세부연구3-1]\n변화된 SoS\n요소와 관련\n있는 검증\n속성 선별\n❍ 기존 변화된 SoS 요소와 관련 있는 검증 속성 선별 관련 문헌 조사\n­변화 단위 설명을 위한 대형 시스템 메타모델 관련 문헌 조사 수행\n­기존 모델내 변화의 종류 조사",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.23,
+          541.45,
+          493.05,
+          738.99
+        ],
+        "page_area_fraction": 0.1302
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0030",
+    "caption": "예제 목표 모델 슬라이싱 전",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n­아래와 같은 목표 모델 슬라이싱 도구 구현\n­\n그림 43 예제 목표 모델 슬라이싱 전\n10 endfor\n11 return sliced_goal_model;\n12 /**---- recursiveSlicer ----**/\n13 RECURSIVE-SLICER(target_goal)\n14 Input: target_goal, a target goal where the slicing starts\n15 Output: goal_list, a list which includes goals",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.27,
+          147.32,
+          507.93,
+          488.35
+        ],
+        "page_area_fraction": 0.2335
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0031",
+    "caption": "예제 목표 모델 슬라이싱 후",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 42 -\n­\n그림 44 예제 목표 모델 슬라이싱 후\n[세부연구3-2]\n검증 속성과\n분할된 SoS\n모델간\n연관성 도출\n❍ 기존 시스템의 검증 속성과 분할된 모델 간 연관성 조사 및 분석\n­기존 대형 복잡 시스템의 검증 속성과 분할된 모델 간에 어떤 연관성이",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.27,
+          408.99,
+          496.77,
+          738.99
+        ],
+        "page_area_fraction": 0.2186
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0032",
+    "caption": "SoS 목표 모델과 SoS 모델 간 연관성",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 43 -\n­\n그림 45. SoS 목표 모델과 SoS 모델 간 연관성 ­관련 검증 속성들과 관련 있는 SoS 모델을 슬라이싱하여 SoS 최소 검증\n모델을 생성한 후 검증을 수행하면, 슬라이싱 전 모델에 대하여 검증한\n것과 같은 검증 결과를 출력으로 주면서도 검증에 드는 비용 즉, 컴퓨터\n메모리, 시간을 효과적으로 줄일 수 있음\n[세부연구3-3]\n변화된 구성\n요소의 검증\n최소 대상",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.27,
+          551.16,
+          507.93,
+          738.99
+        ],
+        "page_area_fraction": 0.1286
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0033",
+    "caption": "MCI SoS PRISM 모델 의존 그래프",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 44 -\n­\n그림 46 MCI SoS PRISM 모델 의존 그래프 ­아래 그림과 같이 슬라이싱 기준이 되는 SoS 목표에 따라 시스템 의존\n그래프 슬라이싱을 수행\n­\n그림 47 슬라이스된 MCI SoS PRISM 모델 의존 그래프\n[도구 개발]\n시뮬레이션\n기반 통계적\n검증 도구",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.27,
+          511.84,
+          492.1,
+          738.99
+        ],
+        "page_area_fraction": 0.1484
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.19,
+          210.01,
+          490.78,
+          433.57
+        ],
+        "page_area_fraction": 0.1459
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0034",
+    "caption": "슬라이스된 MCI SoS PRISM 모델 의존 그래프",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 44 -\n­",
+    "caption_and_following_text": "그림 46 MCI SoS PRISM 모델 의존 그래프 ­아래 그림과 같이 슬라이싱 기준이 되는 SoS 목표에 따라 시스템 의존\n그래프 슬라이싱을 수행\n­\n그림 47 슬라이스된 MCI SoS PRISM 모델 의존 그래프\n[도구 개발]\n시뮬레이션\n기반 통계적\n검증 도구\n개발\n❍ 개발 목적",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.27,
+          511.84,
+          492.1,
+          738.99
+        ],
+        "page_area_fraction": 0.1484
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.19,
+          210.01,
+          490.78,
+          433.57
+        ],
+        "page_area_fraction": 0.1459
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0035",
+    "caption": "SIMVA-SoS 아키텍쳐 설계",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "변화 그래프, 데모 보여줄 수 있는 수준\n­비기능적 요구사항\n§ 시뮬레이션 엔진 수행시간을 가능한 줄임\n§ 재사용성을 높이기 위하여 구조적 설계를 수행\n§ 재사용성을 높이기 위하여 모든 클래스 및 함수에 주석을 사\n용한 설명 기술\n❍ 아키텍쳐 설계",
+    "caption_and_following_text": "­아키텍쳐 전체적인 개요\n§ SIMVA-SoS가 세부 연구 기술(1~3)의 적용을 지원하기 위해 설\n계한 전체적인 아키텍쳐\n그림 48. SIMVA-SoS 아키텍쳐 설계",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          214.09,
+          89.18,
+          474.83,
+          297.87
+        ],
+        "page_area_fraction": 0.1087
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0036",
+    "caption": "[연구 기술 1] SoS 모델링 기술의 시뮬레이션 및 검증 활용",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 47 -\n그림 49. [연구 기술 1] SoS\n모델링 기술의 시뮬레이션 및 검증\n활용\n그림 50. [연구 기술 3] SoS 변화\n대응 기술의 시뮬레이션 및 검증\n활용",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.59,
+          570.34,
+          327.78,
+          729.16
+        ],
+        "page_area_fraction": 0.0531
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          341.7,
+          573.33,
+          507.93,
+          734.68
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0037",
+    "caption": "[연구 기술 3] SoS 변화 대응 기술의 시뮬레이션 및 검증 활용",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 47 -\n그림 49. [연구 기술 1] SoS\n모델링 기술의 시뮬레이션 및 검증",
+    "caption_and_following_text": "활용\n그림 50. [연구 기술 3] SoS 변화\n대응 기술의 시뮬레이션 및 검증\n활용",
+    "section_context_candidate": "1 도구 실행에 필요한 터미널을 준비한다. 2 시험하고자 하는 목표 명세 유형을 확인하고, 각 유형에 필요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.59,
+          570.34,
+          327.78,
+          729.16
+        ],
+        "page_area_fraction": 0.0531
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          341.7,
+          573.33,
+          507.93,
+          734.68
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0038",
+    "caption": "공개SW R&D를 위한 개발 및 관리 단계",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 52 -",
+    "caption_and_following_text": "나. 공개SW R&D 전략의 적절성 및 활성화 노력\n□ 공개SW R&D 전략의 적절성\n1) 단계 별 개발 및 관리 전략\n그림 51 공개SW R&D를 위한 개발 및 관리 단계\n본 연구실은, 연구 산출물 도구의 개발과 공개를 위해 위 그림과 같은 R&D 전\n략을 수립함. 그림과 같이, 연구 개발되고 있는 지원 도구의 개발을 위한 네 단\n계6)를 정의하였으며, 각 단계별 개발 및 관리 전략을 구체적으로 수립하였음.\n[단계 1] 기법(알고리즘) 개발. 도구 개발을 위한 단계 1에서는 선행 연구 및 도\n구 조사를 기반으로 프로토타입 기법(알고리즘)을 개발하며, 이를 위해 기존 기\n법 중 적용 가능한 소프트웨어 공학(SE) 기술을 선정한다. 각 기법별로 사례 시",
+    "section_context_candidate": "1) 단계 별 개발 및 관리 전략",
+    "heading_candidates": [
+      "1) 단계 별 개발 및 관리 전략"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.07,
+          356.25,
+          538.27,
+          426.49
+        ],
+        "page_area_fraction": 0.0633
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0039",
+    "caption": "공개SW 개발 및 관리 단계별 전략",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "평가와 같은 프로세스를 반복적으로 수행함으로써 프로토타입 도구 평가 및 개\n선 기간 내에 공개SW를 점진적으로 개선함. 평가 결과에 따라 공개SW를 개선하\n고, 개선된 최신버전의 공개SW의 내용과 튜토리얼을 홈페이지에 게시함으로 커\n뮤니티에 홍보함. [단계 4] 도구 안정화 및 커뮤니티 활성화. 본 단계를 통해 공개SW 홍보 및 커\n뮤니티 활성화는 연구 커뮤니티 내 활동을 통한 공개SW 홍보와 관련 연구자들\n의 참여를 권장할 수 있음. 또한, 연구 결과를 공식 홈페이지에 문서화 하고, 메\n일링 리스트를 통해 등록한 회원들의 관리 및 교육 자료를 제공함. 2) 공개SW 추진 전략에 기반한 세부연구 별 진행 상황",
+    "caption_and_following_text": "[세부연구 1] SoS 모델링 지원 프로토타입 도구를 개발하는 세부연구 1에\n서는 1~3차년도 기간 동안 기법(알고리즘)의 개발에 초점을 맞추어 연구를\n진행하였다. 모델링 도구를 개발하기 위해서는 도구에서 지원할 모델링 언어\n그림 52 공개SW 개발 및 관리 단계별 전략",
+    "section_context_candidate": "1) 단계 별 개발 및 관리 전략",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          451.79,
+          534.67,
+          741.87
+        ],
+        "page_area_fraction": 0.2511
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0040",
+    "caption": "세부연구 산출 도구의 단계별 개발 전략",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "델 요소들을 설계할 수 있도록 메타 모델 및 구체적인 모델링 언어(Modeling\nLanguage, ML)를 개발할 예정이다. 그리고 개발된 각 모델 요소의 ML을 바\n탕으로 시각적 모델링(visual modeling)을 지원하는 모델링 툴킷(modeling\ntoolkit)의 프로토타입 버전 도구가 개발 및 공개될 예정이다.\n[세부연구 2] SoS 통계적 검증 지원 프로토타입 도구를 개발하는 세부연\n구 2에서는 공개SW 추진 전략 2단계에 따라서 프로토타입 도구를 개발 및\n공개하였다. 구체적으로 SoS 통계적 검증 지원 프로토타입 도구를 개발하기",
+    "caption_and_following_text": "위한 기능적 요구사항과 비기능적 요구사항을 명세하였으며, UML을 사용하\n여 해당 요구사항을 Use Case Diagram으로 작성하였다. 또한, Class Diagram\n7) ADOxx Metamodeling Platform by OMiLab: (https://www.adoxx.org/)\n그림 53 세부연구 산출 도구의 단계별 개발 전략",
+    "section_context_candidate": "다. 도구를 개발하는 단계에 앞서 우선적으로 M2SoS 메타모델에 정의된 모",
+    "heading_candidates": [
+      "다. 도구를 개발하는 단계에 앞서 우선적으로 M2SoS 메타모델에 정의된 모"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.79,
+          524.79,
+          538.15,
+          741.87
+        ],
+        "page_area_fraction": 0.1941
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0041",
+    "caption": "SIMVA-SoS의 클래스 다이어그램",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 클래스 다이어그램\nŸ 시퀀스 다이어그램\n테스팅 Ÿ 유닛 테스트 케이스 품질: 코드 커버리지 30% 이상\nŸ Mutation Score 60 이상\n사용 편의성\nŸ GitHub에 업로드 및 사용 가이드 한글과 영어 버전\n제공",
+    "caption_and_following_text": "Ÿ 사용자 편의를 위한 최소한의 UI\n- 공개SW 설계 모델\n* 클래스 다이어그램(class diagram)\n그림 55 SIMVA-SoS의 클래스 다이어그램\n그림 56 SIMVA-SoS의 시퀀스 다이어그램(1/2)",
+    "section_context_candidate": "다. 도구를 개발하는 단계에 앞서 우선적으로 M2SoS 메타모델에 정의된 모",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.54,
+          305.43,
+          466.43,
+          421.94
+        ],
+        "page_area_fraction": 0.0847
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.45,
+          105.96,
+          466.43,
+          275.7
+        ],
+        "page_area_fraction": 0.1167
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0042",
+    "caption": "SIMVA-SoS의 시퀀스 다이어그램(1/2)",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 시퀀스 다이어그램\n테스팅 Ÿ 유닛 테스트 케이스 품질: 코드 커버리지 30% 이상\nŸ Mutation Score 60 이상\n사용 편의성\nŸ GitHub에 업로드 및 사용 가이드 한글과 영어 버전\n제공\nŸ 사용자 편의를 위한 최소한의 UI",
+    "caption_and_following_text": "- 공개SW 설계 모델\n* 클래스 다이어그램(class diagram)\n그림 55 SIMVA-SoS의 클래스 다이어그램\n그림 56 SIMVA-SoS의 시퀀스 다이어그램(1/2)",
+    "section_context_candidate": "다. 도구를 개발하는 단계에 앞서 우선적으로 M2SoS 메타모델에 정의된 모",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.54,
+          305.43,
+          466.43,
+          421.94
+        ],
+        "page_area_fraction": 0.0847
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.45,
+          105.96,
+          466.43,
+          275.7
+        ],
+        "page_area_fraction": 0.1167
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0043",
+    "caption": "SIMVA-SoS의 시퀀스 다이어그램(2/2)",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 28,
+    "prefix_match_only": false,
+    "text_before": "다.\n2) 논문을 통한 공개SW 저장소 및 프로젝트 홈페이지 홍보\n한국컴퓨터종합학술대회(KCC 2017)에 발표한 논문인 “시스템 오브 시스\n템즈 수준의 목표 달성 검증 도구”는 모델 기반 SoS 통계적 검증 도구의\n구조와 배경 기술을 분석하고, 유형에 대한 확장 가능성을 확인한 논문이다. 정보통신 기술의 발달과 사회 복잡도의 증가에 따라, 단일 시스템으로 만족\n하기 힘든 복잡한 요구사항이 등장하였으며, 이를 해결하기 위해 시스템 오\n브 시스템즈(System of Systems, SoS)는 자율성과 독립성을 갖고 있는 구성",
+    "caption_and_following_text": "시스템들로 이루어져 있어, 복잡한 상호작용을 고려하여 SoS 수준의 요구사\n항 만족 여부를 검증하는 것은 매우 중요하다. SoS 수준의 목표 달성 여부를\n통계적으로 검증하는 공개 도구인 SIMSoS를 소개하고, 기술적 분석을 통하\n그림 57 SIMVA-SoS의 시퀀스 다이어그램(2/2)",
+    "section_context_candidate": "다. 도구를 개발하는 단계에 앞서 우선적으로 M2SoS 메타모델에 정의된 모",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          267.34,
+          363.44,
+          526.88,
+          730.6
+        ],
+        "page_area_fraction": 0.1904
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0044",
+    "caption": "KCC 2017 논문 발표를 통한 오픈소스 커뮤니티 홍보 증빙",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 58 -\n여 다양한 검증 속성 유형에 대한 확장 가능성을 알아본다. 또한, 일부 검증\n목표 유형에 대하여 트레이스 분석 알고리즘을 제안하고 실제 검증 가능여",
+    "caption_and_following_text": "부를 확인한다. 본 논문에서 소개하는 도구의 소스코드를 아래 그림에서 보여주는 바와\n같이 오픈소스 커뮤니티인 GitHub에 공개하였음을 밝히고 많은 연구원들의\n관심과 참여를 유도했다.\n그림 58. KCC 2017 논문 발표를 통한 오픈소스 커뮤니티 홍보 증빙\nl APSEC 2017에 발표한 논문을 통한 프로젝트 홈페이지 홍보\nAPSEC 2017에 발표한 논문인 “SoS GaP Slicer: Slicing SoS Goal and\nPRISM Models for Change-Responsive Verification of SoS”은 SoS 검증을 효\n율적으로 하기 위한 슬라이싱 기법을 제시한 논문이다. SoS는 높은 수준의\n목표를 달성하기 위하여 독립적인 구성시스템으로 구성된 시스템 집합이다.\nSoS가 외부 및 내부 요소로 인해 끊임없이 변화하기 때문에 동적 재구성 및",
+    "section_context_candidate": "다. 도구를 개발하는 단계에 앞서 우선적으로 M2SoS 메타모델에 정의된 모",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.57,
+          367.52,
+          465.59,
+          626.79
+        ],
+        "page_area_fraction": 0.1363
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0045",
+    "caption": "APSEC 2017 논문 발표를 통한 프로젝트 홈페이지 홍보 증빙",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 59 -",
+    "caption_and_following_text": "여주는 바와 같이 SW스타랩 프로젝트 홈페이지에 올릴 예정임을 밝히고, 스\n타랩 사사표기 문구를 작성하여 논문을 통한 프로젝트 홈페이지 홍보를 수\n행하였다.\n그림 59 APSEC 2017 논문 발표를 통한 프로젝트 홈페이지 홍보 증빙\n3) 내부 SW스타랩 워크샵 개최(2017.06, 2017.11)\n1차 SW스타랩 워크샵(2017.06) 2차 SW스타랩 워크샵(2017.11)\n(SW스타랩) 모델 기반의 초대형 복잡\n시스템 분석 및 검증 SW 개발 워크샵 - 1차\n(SW스타랩) 모델 기반의 초대형 복잡\n시스템 분석 및 검증 SW 개발 워크샵 - 2차",
+    "section_context_candidate": "다. 도구를 개발하는 단계에 앞서 우선적으로 M2SoS 메타모델에 정의된 모",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.72,
+          381.06,
+          517.16,
+          684.33
+        ],
+        "page_area_fraction": 0.2663
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I44-V0046",
+    "caption": "SOSCON 참가",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 28,
+    "prefix_match_only": false,
+    "text_before": "퍼런스다. 이 컨퍼런스에서는 여러 세션으로\n발표도 존재하였지만, 실제 목적은 개발자, 실\n무자들 간의 대화를 목적으로 한다고 생각된\n다. 실제로 자신들의 지식을 남들과 공유를\n하는 동시에 배움을 얻고, 더 나은 방법에 대\n한 생각을 할 수 있는 토론장도 존재하였다. 비록 강연에서는 Agile에 대한 많은 세션이\n존재하지는 않았지만, agile을 더 잘 사용하기",
+    "caption_and_following_text": "위해서 어떠한 기술이 필요한지에 관한 내용은 많이 존재하였으며, 많은 배움\n을 얻을 수 있었던 컨퍼런스였다. 단순히 앉아서 세션을 들으면서 사람들을 보\n는 것보다, 실제로 참여하여 대화를 통해 많은 것을 느낄 수 있는 자리였다.\n그림 64 SOSCON 참가",
+    "section_context_candidate": "다. 해당 컨퍼런스는 오픈소스 개발자들이 오",
+    "heading_candidates": [
+      "다. 해당 컨퍼런스는 오픈소스 개발자들이 오"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          373.36,
+          517.83,
+          529.76,
+          674.14
+        ],
+        "page_area_fraction": 0.0489
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          361.25,
+          118.07,
+          527.48,
+          339.59
+        ],
+        "page_area_fraction": 0.0736
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

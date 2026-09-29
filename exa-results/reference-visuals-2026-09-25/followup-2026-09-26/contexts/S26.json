@@ -1,0 +1,2341 @@
+[
+  {
+    "visual_id": "S26-V0001",
+    "caption": "연구개발 추진 체계도",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 4 -\n3. 연구개발 추진체계 및 전략\n<Figure 1-1> 연구개발 추진 체계도\n한국과학기술정보연구원 과학기술사이버안전센터는 앞서 서술한 바와 같이, 대·내외 과학기술\n정보환경의 변화에 대응할 수 있는 국가과학기술 핵심 연구자원 보호를 목표로 설정하고, 세부\n과제를 수행하고 있다.\n◦ 첨단응용연구 정보(자원)보호를 위한 실시간 보안관제 체계 구축\n- 주요 첨단연구망 활용기관 및 첨단응용연구자가 집중된 지역망센터에 실시간 보안관제\n인프라 확장 구축 및 고도화\n- “Non-Stop” 종합상황실 기반 실시간 보안관제 인프라를 구축·운영함으로써 개별기관이",
+    "section_context_candidate": "3. 연구개발 추진체계 및 전략",
+    "heading_candidates": [
+      "3. 연구개발 추진체계 및 전략"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.68,
+          439.39,
+          512.41,
+          722.19
+        ],
+        "page_area_fraction": 0.2501
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0002",
+    "caption": "정부 중점과학기술 中 본 연구사업 유관기술",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "4차 산업혁명 핵심기술과 관련하여 인공지능 및 블록체임 기술 등이 지능형로봇, 혁신신약과\n병행하여 13대 혁신 성장동력으로 선정하여 육성하고 건강, 재난․안전, 환경 등 국민 생활과\n밀접한 분야에서의 연구개발을 확대 및 강화하고 있다. 기본계획 실현을 위한 중점 과학기술\n중 본 연구사업과 밀접히 관련되어 있는 분야는 아래와 같다.\n대분류 중분류 중점과학기술\nICT․SW 빅데이터․인공지능\n① 지능형 빅데이터 분석 및 활용 기술",
+    "caption_and_following_text": "② 다중인공지능공통 플랫폼 기술\n정보보안 ③ 지식정보보안기술\n재난안전 재난․안전 ④ 범죄․테러 통합 지능형 예측․대응시스템 기술\n<Table 2-1> 정부 중점과학기술 中 본 연구사업 유관기술\n한편, 과학기술정보통신부는 정보보호담당관실을 설치·운영함으로써 국가 기반 시설이나 주요\n과학기술 시설에 대한 지속적인 점검 및 훈련을 제공하고, 사이버 침해 위협에 대응하고 있다.\n이를 바탕으로 과학기술 정보보안 영역에서 정보보안 전담 체계가 구축되었으며, 사이버 공격에\n대응하는 보안 체계가 확립되고 있다. 특히, 전산망 해킹을 통한 접속 권한 취득, 개인정보 유출,\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제2장 국내외 기술개발 현황",
+    "heading_candidates": [
+      "제2장 국내외 기술개발 현황",
+      "제1절 연구개발 동향분석",
+      "1. 국내동향"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0003",
+    "caption": "연구사업 단계별 목표",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "개발․시범적용\n· 이상행위 탐지기술 개발·시범적용\n· 원내 정보보안 관리체계 안정화\n· 과학기술계 보안관제 통합운영\n안정화\n· 보안관제 전용 인공지능 알고리즘\n적용․고도화",
+    "caption_and_following_text": "· 이상행위 탐지기술 적용·고도화\n· 원내 정보보안 관리체계 고도화\n보안관제 자동화 기술연구 기반조성 보안관제 자동화 기술연구 개발 ․ 적용 보안관제 자동화 기술연구 고도화․ 확산\n<Table 2-2> 연구사업 단계별 목표\n2. 핵심고객 및 요구사항 분석\n본 연구사업의 핵심고객은 내부과 외부로 구분할 수 있다. 내부는 KISTI 全임직원과 주요정보\n통신기반시설로 구분할 수 있으며 요구사항은 다음과 같다.\n․내부직원 : 정보통신망・정보보안 업무 프로세스 간소화, 정부정책의 효과적 적용\n정보보안 강화를 위해 직원 교육 및 제반 홍보 활동 등 인식제고, 역량 강화\n정보보안, 네트워크 인프라 등 안정적인 서비스 제공",
+    "section_context_candidate": "제 2절 연구개발 목표 및 내용",
+    "heading_candidates": [
+      "제 2절 연구개발 목표 및 내용",
+      "1. 연구사업의 최종 목표"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0004",
+    "caption": "전주기적 정보보호 서비스 수행 체계도",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 14 -\n<Figure 3-2> 전주기적 정보보호 서비스 수행 체계도\n(단위 : 건)\n구 분\n사이버 위협상황별 보안관제․분석 및 침해대응 실적\n단순 소 계\n침입시도2)\n웜바이러스\n전파3)\n경유지",
+    "section_context_candidate": "2) 외부의 단일 또는 다수의 시스템이 보안관제 대상기관 시스템으로 단순 스캐닝 등을 수행하는 행위",
+    "heading_candidates": [
+      "2) 외부의 단일 또는 다수의 시스템이 보안관제 대상기관 시스템으로 단순 스캐닝 등을 수행하는 행위",
+      "4) 악성코드 유포지(파일전송), 악성코드 경유지(URL Redirection), Linux/Unix 시스템 여부 확인 등을 수행하는 행위",
+      "5) 패스워드 정보, 계정정보 등 개인․중요정보 유출 등을 수행하는 행위(OS정보, MAC주소 등 단순시스템 정보유출은 웜바이러스로 분류)",
+      "6) 홈페이지 변조시도(특정 URL 접근시도), 악성파일 업로드(ASP, JSP, PHP 등), 특정 URL 페이지 변조 등을 수행하는 행위"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.53,
+          552.65,
+          498.47,
+          767.08
+        ],
+        "page_area_fraction": 0.182
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0005",
+    "caption": "보안관제 및 침해대응 추진 실적",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "자료훼손\n/유출5)\n홈페이지\n위/변조6)\n서비스\n거부공격7)\n2018년 174 560 4 107 13 0 858",
+    "caption_and_following_text": "2019년 0 289 16 195 3 0 503\n2020년 173 218 29 174 2 0 596\n합 계 347 1,067 49 476 18 0 1,957\n<Table 3-1> 보안관제 및 침해대응 추진 실적\n특히, 보안관제 대상기관 유형별로 구분하여 맞춤형 관제현황 및 사이버위협 동향보고서를 매월\n작성․배포하여 각급기관 보안담당자들의 업무 이해도 및 효율성 향상에 기여하였다.\n과학기술사이버안전센터는 세계 최초로 “사이버안전 골든타임”을 제시하고 이를 달성하기 위하여\n보안관제 패러다임 전환을 추진하고 있다. 1단계는 기존의 “인력 기반의 수동분석”으로 급증하는\n사이버공격 정보를 신속․정확하게 분석․대응하는데 한계점을 보이고 있다. 따라서, 2단계 “시스템\n기반의 준자동분석”의 필요성을 조기에 인지하고 세계 최초로 보안관제 전문인력의 노하우를 정형화",
+    "section_context_candidate": "2) 외부의 단일 또는 다수의 시스템이 보안관제 대상기관 시스템으로 단순 스캐닝 등을 수행하는 행위",
+    "heading_candidates": [
+      "2) 외부의 단일 또는 다수의 시스템이 보안관제 대상기관 시스템으로 단순 스캐닝 등을 수행하는 행위",
+      "4) 악성코드 유포지(파일전송), 악성코드 경유지(URL Redirection), Linux/Unix 시스템 여부 확인 등을 수행하는 행위",
+      "5) 패스워드 정보, 계정정보 등 개인․중요정보 유출 등을 수행하는 행위(OS정보, MAC주소 등 단순시스템 정보유출은 웜바이러스로 분류)",
+      "6) 홈페이지 변조시도(특정 URL 접근시도), 악성파일 업로드(ASP, JSP, PHP 등), 특정 URL 페이지 변조 등을 수행하는 행위"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.53,
+          552.65,
+          498.47,
+          767.08
+        ],
+        "page_area_fraction": 0.182
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0006",
+    "caption": "대상기관 유형별 맞춤형 정보제공 실적",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 15 -\n상세한 내용은 2절에서 다룬다.\n구 분 월간 사이버위협 동향보고서 월간 관제현황 보고서\n주요 내용 ∘ 침해위협 동향 및 대응현황\n∘ 공공․연구기관 우수사례 등",
+    "caption_and_following_text": "∘ 기관별 침해위협 시도 통계, 분석 정보\n∘ 침해대응 현황 정보\n총 2종, 24건\n<Table 3-2> 대상기관 유형별 맞춤형 정보제공 실적\n특히, SMARTer 기반의 준자동분석을 통해 사이버안전 골든타임 달성율을 향상시키기 위해서는\n사이버안전 유관기관(국가정보원 등)이 제공하는 보안관제 탐지규칙과 이에 대한 자동분석이 가능\n하도록 자동분석 룰셋을 지속적으로 개발․적용하는 것이 매우 중요하다. 따라서, 다음과 같이\n보안관제 탐지규칙 및 자동분석 룰셋 개발․검증․적용 체계를 정립하였다.\n<Figure 3-3> 보안관제 탐지규칙 및 자동분석 룰셋 개발․검증․적용 체계도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "6) 홈페이지 변조시도(특정 URL 접근시도), 악성파일 업로드(ASP, JSP, PHP 등), 특정 URL 페이지 변조 등을 수행하는 행위",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.04,
+          470.64,
+          313.93,
+          654.42
+        ],
+        "page_area_fraction": 0.0521
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          335.2,
+          470.64,
+          477.09,
+          654.42
+        ],
+        "page_area_fraction": 0.0521
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.62,
+          133.96,
+          488.38,
+          352.22
+        ],
+        "page_area_fraction": 0.1765
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0007",
+    "caption": "보안관제 탐지규칙 및 자동분석 룰셋 개발․검증․적용 체계도",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "주요 내용 ∘ 침해위협 동향 및 대응현황\n∘ 공공․연구기관 우수사례 등\n∘ 기관별 침해위협 시도 통계, 분석 정보\n∘ 침해대응 현황 정보\n총 2종, 24건\n<Table 3-2> 대상기관 유형별 맞춤형 정보제공 실적\n특히, SMARTer 기반의 준자동분석을 통해 사이버안전 골든타임 달성율을 향상시키기 위해서는",
+    "caption_and_following_text": "사이버안전 유관기관(국가정보원 등)이 제공하는 보안관제 탐지규칙과 이에 대한 자동분석이 가능\n하도록 자동분석 룰셋을 지속적으로 개발․적용하는 것이 매우 중요하다. 따라서, 다음과 같이\n보안관제 탐지규칙 및 자동분석 룰셋 개발․검증․적용 체계를 정립하였다.\n<Figure 3-3> 보안관제 탐지규칙 및 자동분석 룰셋 개발․검증․적용 체계도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "6) 홈페이지 변조시도(특정 URL 접근시도), 악성파일 업로드(ASP, JSP, PHP 등), 특정 URL 페이지 변조 등을 수행하는 행위",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.04,
+          470.64,
+          313.93,
+          654.42
+        ],
+        "page_area_fraction": 0.0521
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          335.2,
+          470.64,
+          477.09,
+          654.42
+        ],
+        "page_area_fraction": 0.0521
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.62,
+          133.96,
+          488.38,
+          352.22
+        ],
+        "page_area_fraction": 0.1765
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0008",
+    "caption": "통합보안정보분석시스템(SMARTer) 시스템 개념도",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 16 -\n<Figure 3-4> 통합보안정보분석시스템(SMARTer) 시스템 개념도\n이를 통해, ’20년에는 사이버안전 유관기관이 제공하는 보안관제 탐지규칙 총 3,669개를 검증․\n적용하였으며, SMARTer 자동분석 룰셋 총 1,299개를 개발․적용하여 사이버안전 골든타임 달성율\n향상에 크게 기여하였다.\n구 분\n보안관제 탐지규칙 분류 유형\n합 계\n하드코딩8) PCRE9) CONTENT10) PCRE+CONTENT IP11)\n실 적 99개 5개 1,703개 69개 1,793개 3,669개",
+    "section_context_candidate": "9) PCRE(Perl Compatible Regular Expressions) : 정규 표현식을 활용한 해킹공격 탐지 규칙",
+    "heading_candidates": [
+      "9) PCRE(Perl Compatible Regular Expressions) : 정규 표현식을 활용한 해킹공격 탐지 규칙",
+      "10) CONTENT : 단순 문자열을 활용한 해킹공격 탐지 규칙",
+      "11) IP : 블랙 IP(악성코드 유포지․경유지 등)를 활용한 해킹공격 탐지 규칙"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.62,
+          548.94,
+          485.38,
+          767.08
+        ],
+        "page_area_fraction": 0.1738
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0009",
+    "caption": "보안관제 탐지규칙 검증․적용 실적",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 16 -\n<Figure 3-4> 통합보안정보분석시스템(SMARTer) 시스템 개념도\n이를 통해, ’20년에는 사이버안전 유관기관이 제공하는 보안관제 탐지규칙 총 3,669개를 검증․\n적용하였으며, SMARTer 자동분석 룰셋 총 1,299개를 개발․적용하여 사이버안전 골든타임 달성율\n향상에 크게 기여하였다.\n구 분\n보안관제 탐지규칙 분류 유형",
+    "caption_and_following_text": "합 계\n하드코딩8) PCRE9) CONTENT10) PCRE+CONTENT IP11)\n실 적 99개 5개 1,703개 69개 1,793개 3,669개\n<Table 3-3> 보안관제 탐지규칙 검증․적용 실적\n구 분\n정탐 룰셋 오탐 룰셋 합 계\n’20년 신규개발 누적치 ’20년 신규개발 누적치 신규개발 누적치\n실 적 69개 593개 37개 706개 106개 1,299개\n<Table 3-4> 자동분석 룰셋 개발․적용 실적\n8) 하드코딩 : 임계치 기반의 대규모 사이버공격을 탐지하기 위한 자동화 규칙(Rule)",
+    "section_context_candidate": "9) PCRE(Perl Compatible Regular Expressions) : 정규 표현식을 활용한 해킹공격 탐지 규칙",
+    "heading_candidates": [
+      "9) PCRE(Perl Compatible Regular Expressions) : 정규 표현식을 활용한 해킹공격 탐지 규칙",
+      "10) CONTENT : 단순 문자열을 활용한 해킹공격 탐지 규칙",
+      "11) IP : 블랙 IP(악성코드 유포지․경유지 등)를 활용한 해킹공격 탐지 규칙"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.62,
+          548.94,
+          485.38,
+          767.08
+        ],
+        "page_area_fraction": 0.1738
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0010",
+    "caption": "자동분석 룰셋 개발․적용 실적",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "구 분\n보안관제 탐지규칙 분류 유형\n합 계\n하드코딩8) PCRE9) CONTENT10) PCRE+CONTENT IP11)\n실 적 99개 5개 1,703개 69개 1,793개 3,669개\n<Table 3-3> 보안관제 탐지규칙 검증․적용 실적\n구 분",
+    "caption_and_following_text": "정탐 룰셋 오탐 룰셋 합 계\n’20년 신규개발 누적치 ’20년 신규개발 누적치 신규개발 누적치\n실 적 69개 593개 37개 706개 106개 1,299개\n<Table 3-4> 자동분석 룰셋 개발․적용 실적\n8) 하드코딩 : 임계치 기반의 대규모 사이버공격을 탐지하기 위한 자동화 규칙(Rule)\n9) PCRE(Perl Compatible Regular Expressions) : 정규 표현식을 활용한 해킹공격 탐지 규칙\n10) CONTENT : 단순 문자열을 활용한 해킹공격 탐지 규칙\n11) IP : 블랙 IP(악성코드 유포지․경유지 등)를 활용한 해킹공격 탐지 규칙\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "9) PCRE(Perl Compatible Regular Expressions) : 정규 표현식을 활용한 해킹공격 탐지 규칙",
+    "heading_candidates": [
+      "9) PCRE(Perl Compatible Regular Expressions) : 정규 표현식을 활용한 해킹공격 탐지 규칙",
+      "10) CONTENT : 단순 문자열을 활용한 해킹공격 탐지 규칙",
+      "11) IP : 블랙 IP(악성코드 유포지․경유지 등)를 활용한 해킹공격 탐지 규칙"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.62,
+          548.94,
+          485.38,
+          767.08
+        ],
+        "page_area_fraction": 0.1738
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0011",
+    "caption": "보안관제 전용 AI기반 자동화 시스템 아키텍처",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "과학기술사이버안전센터는 기존 인력중심의 보안관제 체제에서 인공지능 기반 자동화 체계로\n전환하기 위해 대규모 사이버공격 및 이상행위를 자동으로 분석하기 위한 AI기반 자동화 시스템 및\n운영시스템을 성공적으로 개발·구축하였다. 이를 통해 대용량데이터 자동분석에 기반한 사이버\n안전 골든타임 달성율을 확기적으로 향상시킬 수 있는 기반을 마련하였으며 신·변종 침해위협으\n로부터 안전한 사이버 환경을 조성하는데 큰 역할을 수행하였다.\n가. 대규모 사이버공격 및 이상행위를 자동으로 분석하기 위한 AI 자동화 시스템 개발\n대규모 원천 데이터 수집·가공부터 최종단계인 AI 모델 생성·적용까지 전 과정을 사용자 요구",
+    "caption_and_following_text": "방식에 따라 Non-Stop으로 처리하며, 최적의 AI모델 생성/평가/검증/적용을 위한 AI 자동화\n플랫폼의 핵심적인 수집, 전처리, 인공지능 알고리즘 및 자동화 모듈이 탑재되어 있다. 아래\n그림은 자동화 시스템 아키텍처를 보여주며 주요 모듈 및 연구내용은 다음과 같다.\n<Figure 3-5> 보안관제 전용 AI기반 자동화 시스템 아키텍처\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [
+      "2. 당해연도 중점 추진내용 및 결과",
+      "가. 대규모 사이버공격 및 이상행위를 자동으로 분석하기 위한 AI 자동화 시스템 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.68,
+          143.89,
+          529.59,
+          451.84
+        ],
+        "page_area_fraction": 0.2829
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0012",
+    "caption": "인공지능기반 자동화 시스템 대시보드",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "◦ 특징추출 및 분석 모듈 : 학습에 적합한 특징을 선택할 수 있도록 다양한 통계정보(정·오탐\n개수, 최소/최대/평균, 비율), 공격자 동적 행위 분석을 위한 보안이벤트 간 연관성 특징정보\n및 군집정보 등 특징별 추출·분석 기능 구현\n◦ 페이로드 가공 모듈 : 학습을 방해하는 암호·특수 문자, 무의미 문자 등의 노이즈 데이터를\n제거하고 페이로드 분석을 통해 양질의 데이터만을 학습시키기 위한 기능 구현\n◦ 인공지능 모델생성 모듈 : 머신러닝 학습 성능을 높이기 위한 다양한 형태의 딥러닝 알고리즘\n(RNN, CNN, RCNN)을 적용 및 사용자 정의대로 히든레이어 및 노드의 개수를 지정할 수",
+    "caption_and_following_text": "있도록 구현\n◦ 자동화 모듈 : 인공지능 모델 생성에 필요한 수집/특징추출/학습데이터 생성/정규화/학습\n전(全)과정을 자동화 파이프라인(Pipeline)화 하여 하나의 흐름(Flow)으로 자동 수행 환경 구현\n<Figure 3-6> 인공지능기반 자동화 시스템 대시보드\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 대규모 사이버공격 및 이상행위를 자동으로 분석하기 위한 AI 자동화 시스템 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.68,
+          132.16,
+          512.41,
+          390.89
+        ],
+        "page_area_fraction": 0.2288
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0013",
+    "caption": "보안관제 전용 실시간 보안이벤트 정·오탐 판별화면",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "같다.\n◦ 보안이벤트 전처리 모듈 : 실시간으로 유입된 보안이벤트 중 수집필터를 이용하여 수집\n대상이 되는 데이터만을 선별하고 AI 모델생성에서 사용되었던 학습데이터 설정정보 등을\n활용한 보안이벤트 전처리 기능 개발\n◦ 보안이벤트 정·오탐 분류 모듈 : 실시간 보안이벤트를 앙상블 AI모델로 매칭하여 정확도,\n재현율, 정밀도, F1 스코어를 기반으로 정·오탐 결과 도출\n◦ 보안이벤트 레이블링 모듈 : AI 운영시스템에서 활용한 모든 데이터를 저장하고 정·오탐",
+    "caption_and_following_text": "레이블 변경이 있을 시 해당 레이블을 수정하는 기능구현\n◦ 메일 알림 모듈 : AI 운영시스템 분석 결과와 기 구축한 자동검증시스템의 분석결과가 동일\n하게 정탐인 경우 해당결과를 보안 관제요원에게 메일로 전송하는 기능 개발\n<Figure 3-7> 보안관제 전용 실시간 보안이벤트 정·오탐 판별화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 보안관제 실환경 적용·자동분석을 위한 AI 운영시스템 개발",
+    "heading_candidates": [
+      "나. 보안관제 실환경 적용·자동분석을 위한 AI 운영시스템 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.68,
+          107.5,
+          512.41,
+          366.95
+        ],
+        "page_area_fraction": 0.2294
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0014",
+    "caption": "대규모 원천데이터 수집부터 검증까지 전과정 자동화 프로세스",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 21 -\n다. 인공지능 기반 대용량 위협데이터 자동분석 주요성과\n인공지능 기반 자동화시스템은 대용량 위협데이터 수집·가공부터 AI모델 생성·평가·적용\n까지 전 과정을 사용자 요구방식에 따라 연속적으로 처리가 가능하다. 특히, 수집, 특징추출,",
+    "caption_and_following_text": "정규화, 인공지능 알고리즘을 선택 및 조합하여 다양한 AI모델을 손쉽게 생성할 뿐만 아니라\n인공지능 모델을 통해 침해위협 데이터를 실시간으로 분석 및 보안관제의 신속성/정확성을\n극대화할 수 있다.\n<Figure 3-8> 대규모 원천데이터 수집부터 검증까지 전과정 자동화 프로세스\n또한, AI 자동화 플랫폼에서 생성한 인공지능 모델을 보안관제 전용 운영시스템에 적용하여\n실제 보안이벤트 분석을 통해 하루평균 수 천만건의 보안이벤트를 99.9% 정확도로 자동분류\n할 수 있다. 개발·구축된 본 시스템의 가장 큰 장점은 대시보드, 이벤트별 및 모델별 분석화면을\n제공하여 쉽고 빠르게 정·오탐 결과확인이 가능하며 해당결과에 대한 직관적인 이해를 할 수\n있도록 다양한 데이터 시각화 기능을 구현하였다.\n<Figure 3-9> AI 모델생성 결과에 대한 시각화 구현",
+    "section_context_candidate": "다. 인공지능 기반 대용량 위협데이터 자동분석 주요성과",
+    "heading_candidates": [
+      "다. 인공지능 기반 대용량 위협데이터 자동분석 주요성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.0,
+          471.11,
+          467.11,
+          611.44
+        ],
+        "page_area_fraction": 0.1015
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.26,
+          103.31,
+          485.74,
+          326.84
+        ],
+        "page_area_fraction": 0.1784
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0015",
+    "caption": "AI 모델생성 결과에 대한 시각화 구현",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "까지 전 과정을 사용자 요구방식에 따라 연속적으로 처리가 가능하다. 특히, 수집, 특징추출,\n정규화, 인공지능 알고리즘을 선택 및 조합하여 다양한 AI모델을 손쉽게 생성할 뿐만 아니라\n인공지능 모델을 통해 침해위협 데이터를 실시간으로 분석 및 보안관제의 신속성/정확성을\n극대화할 수 있다.\n<Figure 3-8> 대규모 원천데이터 수집부터 검증까지 전과정 자동화 프로세스\n또한, AI 자동화 플랫폼에서 생성한 인공지능 모델을 보안관제 전용 운영시스템에 적용하여\n실제 보안이벤트 분석을 통해 하루평균 수 천만건의 보안이벤트를 99.9% 정확도로 자동분류",
+    "caption_and_following_text": "할 수 있다. 개발·구축된 본 시스템의 가장 큰 장점은 대시보드, 이벤트별 및 모델별 분석화면을\n제공하여 쉽고 빠르게 정·오탐 결과확인이 가능하며 해당결과에 대한 직관적인 이해를 할 수\n있도록 다양한 데이터 시각화 기능을 구현하였다.\n<Figure 3-9> AI 모델생성 결과에 대한 시각화 구현\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 인공지능 기반 대용량 위협데이터 자동분석 주요성과",
+    "heading_candidates": [
+      "다. 인공지능 기반 대용량 위협데이터 자동분석 주요성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.0,
+          471.11,
+          467.11,
+          611.44
+        ],
+        "page_area_fraction": 0.1015
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.26,
+          103.31,
+          485.74,
+          326.84
+        ],
+        "page_area_fraction": 0.1784
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0016",
+    "caption": "보안관제 전용 AI 자동화시스템 핵심원천기술(총 3건 특허출원)",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "공격탐지 및 재학습 비용· 시간 절감\n시장성 높은 호환성으로 기 상용화 제품에 적용가능\n특허명 2-클래스 데이터의 상호비율에 따른 상태분류 및 최적의 학습알고리즘 적용방법 및 장치\n핵심내용 데이터 클래스(레이블) 분포 기반 최적의\n인공지능 모델 생성 알고리즘 자동선택 방법\n〈클래스 분포에 따라 각처리 부 상세도〉\n진보성 인공지능 알고리즘을 사용자에게 자동",
+    "caption_and_following_text": "추천함으로서 연구생산성 극대화\n시장성 단시간에 고성능의 인공지능 모델생성이\n가능하여 다양한 AI제품에 상용화\n<Table 3-5> 보안관제 전용 AI 자동화시스템 핵심원천기술(총 3건 특허출원)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 인공지능 기반 대용량 위협데이터 자동분석 주요성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          295.55,
+          521.16,
+          522.38,
+          644.12
+        ],
+        "page_area_fraction": 0.0557
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.95,
+          324.92,
+          522.38,
+          452.32
+        ],
+        "page_area_fraction": 0.0579
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          292.91,
+          129.52,
+          522.38,
+          259.55
+        ],
+        "page_area_fraction": 0.0596
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0017",
+    "caption": "기계학습 기반 암호화통신 멀웨어 패밀리분류 주요내용",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "(2) 연구수행 내용\n- 기계학습 기반의 암호화 통신 사용 멀웨어 패밀리 분류 모델 설계\n페이로드(Payload)의 해독이 불가능한 암호화통신 플로우가 급속히 증가하는 상황에서 암호화\n통신을 사용하는 멀웨어 패밀리(Malware Family) 분류에 따른 플로우의 행동적, 부수적 특징을\n수집(특징분석 단계)하고 기계학습 기반의 분류 모델 설계를 통해 이상 행위를 자동적으로 판정,\n분석하는 기술(기계학습 알고리즘 적용 단계) 확보 하였다. 먼저 원시 데이터로부터 특징을 추출\n한 후 지도학습 모델에 적합한 형식으로 변환하는 작업 과정을 수행한다. 아래 표<특징 추출 및",
+    "caption_and_following_text": "내용>의 내용과 같이 기본 데이터로 사용할 암호화된 패킷의 PCAP 데이터로부터 17종의 데이\n터 종류(특징)을 추출한다.\n〈특징 추출 및 내용〉 〈중요도 기반 모델링〉\n<Figure 3-10> 기계학습 기반 암호화통신 멀웨어 패밀리분류 주요내용\n추출된 특징은 여러 가지 속성값으로 정의될 수 있기 때문에, 총 904개의 특징이 존재 할 수\n있다. 그러나 기계학습 수행을 고려했을 경우 904개의 특징을 각각 학습하는 것은 효율적이지 않\n을 뿐더러 오히려 성능을 저하시키는 요소로 작용하기 때문에 LightGBM 라이브러리에서 제공\n하는 특징 중요도 모델링을 바탕으로 기계학습에 활용할 특징을 중요도 기반으로 추출한다. 그\n결과 표 <중요도 기반 모델링> 과 같이 총 15개의 유형의 특징 집합을 추출할 수 있었으며, 속\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 멀웨어 분류 기반 암호화통신 보안관제 원천기술 연구․개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.72,
+          268.89,
+          284.62,
+          438.55
+        ],
+        "page_area_fraction": 0.0721
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          308.53,
+          268.89,
+          521.42,
+          438.55
+        ],
+        "page_area_fraction": 0.0721
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0018",
+    "caption": "기계학습 기반 암호화통신 멀웨어 패밀리분류 기법 및 정확도 검증",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 26 -\n성값을 고려하여 최종적으로 304개의 특징을 학습에 사용할 것으로 판단하였다.\n정의된 특징을 바탕으로 지도, 비지도 및 딥러닝을 포함한 다양한 알고리즘의 기계학습 기법\n을 적용하여 멀웨어 분류 가능성 확인을 시도하였다. 아래 그림 <CNN기법 적용(멀웨어 패밀리\n종류별 특성 추출/활용)>에서와 같이 멀웨어는 암호화 통신을 사용하더라도 그 특징에 해당하는\n부분을 기계학습을 통해 밝혀낼 수 있었으며, 이를 통해 멀웨어를 탐지하는데 활용할 수 있음을\n확인할 수 있었다. 또한 그림 <정확도 검증(평균 86.8%의 정확도 확보)> 에서와 같이 현재 거의",
+    "caption_and_following_text": "판별이 불가능한 TLS/SSL 암호화 통신 트래픽에서도 멀웨어의 탐지를 평균 80%이상 수행이\n가능함을 확인 하였다.\n〈CNN기법 적용(멀웨어 패밀리 종류별 특성 추출/활용)〉 〈정확도 검증 (평균 86.8%의 정확도 확보)〉\n<Figure 3-11> 기계학습 기반 암호화통신 멀웨어 패밀리분류 기법 및 정확도 검증\n(3) 결론\n암호화 통신 분석과 멀웨어 패밀리 분류 기술에 대한 최신 동향을 바탕으로, 암호화 트래픽 분\n석을 위한 멀웨어 패밀리 분류 기술개발을 수행하였다. 먼저 가상환경인 샌드박스를 사용해 암\n호화 통신 플로우 수집 및 정보 수집 자동화가 이루어지도록 설계 및 구현을 수행하고, 샌드박스\n회피를 하는 샘플에 대해 대응하기 위해 샌드박 스 회피 방지 기법에 대해서도 연구를 진행하였\n다. 이와 같은 가상환경을 바탕으로 수집된 멀웨어 활동이 포함된 암호화 트래픽을 바탕으로 총",
+    "section_context_candidate": "가. 멀웨어 분류 기반 암호화통신 보안관제 원천기술 연구․개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.72,
+          398.92,
+          284.62,
+          568.57
+        ],
+        "page_area_fraction": 0.0721
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.95,
+          399.99,
+          510.85,
+          567.38
+        ],
+        "page_area_fraction": 0.0712
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0019",
+    "caption": "DROP-FAST 구조",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 29 -\n정보를 DNS에 업데이트함으로 트래픽을 복제 서버로 유도한다. 본 연구의 성과 및\nDROP-FAST의 효용성 검증을 위하여, KISTI에서 제공하는 DDoS 대응훈련을 실시하고 해당",
+    "caption_and_following_text": "실험을 통해, 대량의 DDoS 공격 트래픽을 실험 서 버에 발생시켰으며, 대응훈련을 통하여\nDROP-FAST의 가용성 보장 실험하였다. 해당 실험을 통하여, 메인 서버에 과도한 트래픽이 발\n생하여도 격리 서버는 사용자에게 가용성을 보장할 수 있다는 것을 확인하였다.\n<Figure 3-12> DROP-FAST 구조\n(나) 다중경로 선택 기반 네트워크 최적화 기술 연구\n본 연구에서는 해결하고자 하는 Inter-AS 상황에서 발생할 수 있는 네트 워크 장애를 정의하고,\n이를 해결할 방법을 연구한다. 본 연구에서는 문제 상황을 해 결하는 방법으로 전체 경로에서 경로\n제어를 할 수 있는 다중경로 선택기반 인터넷 아키텍처를 사용한다. 검증을 위해서는 다중경로\n선택기반 라우팅을 제공하는 미래 인터넷 아키텍처인 SCION을 이용해 KREONET을 포함한 국제\n연구망에 테스트베드 를 구축하고 테스트를 진행한다. 테스트 내용으로는 정의한 문제 상황에서의",
+    "section_context_candidate": "나. 네트워크 이상행위 기반 보안관제 원천기술 연구․개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.05,
+          572.41,
+          427.83,
+          657.29
+        ],
+        "page_area_fraction": 0.0481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.7,
+          116.36,
+          456.3,
+          257.76
+        ],
+        "page_area_fraction": 0.0962
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0020",
+    "caption": "FMP 및 MMP의 네트워크 경로 장애 상황에서의 Packet Loss 비교",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "제어를 할 수 있는 다중경로 선택기반 인터넷 아키텍처를 사용한다. 검증을 위해서는 다중경로\n선택기반 라우팅을 제공하는 미래 인터넷 아키텍처인 SCION을 이용해 KREONET을 포함한 국제\n연구망에 테스트베드 를 구축하고 테스트를 진행한다. 테스트 내용으로는 정의한 문제 상황에서의\n기존에 있던 소프트웨어를 이용한 해결 방식 및 네트워크 아키텍처/프로토콜 기반의 해결 방식\n과 다중경로 선택기반 라우팅 방식의 지연시간(Latency) 및 패킷 손실률(Loss Rate) 을 비교한다.\n테스트 결과 MMP(Multi-Hop Multi-Path)가 FMP(First-Hop Multi-Path)에 비해 여러, AS에\n걸쳐 발생하는 네트워크 장애를 해 결하는데 더욱 효과적이었다. 더 나아가서 같은 시나리오, 문제",
+    "caption_and_following_text": "상황을 테스트베드를 확장하여 7개의 국가, 17개의 AS, 4개의 클라이언트에서 테스트하였으며,\n그 결과 대 부분의 경우 MMP가 FMP에 비해 여러 국가, AS에 걸쳐 발생하는 Inter-AS 네트워크\n장애 상황에서 가용성을 보장하는 데 효과적임을 보였다.\n<Figure 3-13> FMP 및 MMP의 네트워크 경로 장애 상황에서의 Packet Loss 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 네트워크 이상행위 기반 보안관제 원천기술 연구․개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.05,
+          572.41,
+          427.83,
+          657.29
+        ],
+        "page_area_fraction": 0.0481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.7,
+          116.36,
+          456.3,
+          257.76
+        ],
+        "page_area_fraction": 0.0962
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0021",
+    "caption": "조사된 연구들에서 이용한 평가지표에 대한 분포",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "기술들의 효용성을 증명하기 위해서 각 기술에 이용된 평가지 표들을 조사해 추후 사이버위협 대응을\n위한 프레임워크에 효용성을 검증할 수 있는 척도를 제시한다. 효과적인 사이버위협 대응을 위해\n서는 대표적으로 실질적으로 보호하고자 하는 서버에 공격이 시작되고 다시 정상화되기까지에 소요\n되는 '대응시간'을 고려해서 빠른 신속한 대응을 효용성 검증척도로 이용해 추가적인 피해를 최소화\n하고 정상적인 유저에 대한 가용성을 보장해야한다. 또한, 지속적으로 기술이 발달되고 IoT시대가\n열리는 등 사이버위협에 이용될 수 있는 형태가 점차 다양화되기 때문에, 탐지하고 대응할 수 있도록\n대응체계의 '대응 범위'를 지속적으로 확장하거나 각 유형에 대한 지속적인 분석을 통해서 유지보수",
+    "caption_and_following_text": "할 수 있도록 해야 한다. 게다가, 실질적 공격 시점뿐만 아니라 선제적 탐지나 필터링을 이용해서\n1차적으로 보호하고자 하는 서버에 과부화가 발생하지 않도록 하는 대응기술에 대한 연구 방향성\n으로 언급 되고 있다.\n<Figure 3-14> 조사된 연구들에서 이용한 평가지표에 대한 분포\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 네트워크 이상행위 기반 보안관제 원천기술 연구․개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.17,
+          123.06,
+          498.83,
+          405.86
+        ],
+        "page_area_fraction": 0.2404
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0022",
+    "caption": "침해위협 분석방법 타임라인",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 31 -\n제4절 사이버위협 분석 방법 및 절차\n1. 연구개발 추진방법\n과학기술사이버안전센터에서는 과학기술분야「정보보안 컨트롤타워」 역할 강화를 위하여 사",
+    "caption_and_following_text": "이버 예․경보시스템을 구축하여 과학기술계 핵심 보안관제 인프라를 재정비함과 동시에 보안\n관제체계를 강화하였다. 그 중에서 사이버 예․경보시스템을 통하여 침해위협이 감지되었을 경\n우 대한 탐지시스템으로부터 수집된 정보에 대해 아래와 같은 방법으로 분석을 실시하고 있다.\n<Figure 3-15> 침해위협 분석방법 타임라인\n◦ 각 수집 시스템별 자체 패턴 및 룰셋 적용을 통한 데이터 수집\n- 수집 시스템별로 신·변종 악성행위 수집을 위해 패스워드 정책 및 접근성, 개방성을 조정\n하여 여러 유형의 악성행위를 종합적으로 수집 실시\n◦ 수집 기본정보와 상세정보 확인\n- 각 시스템별로 수집된 데이터 중 설정된 기준 이상의 악성행위로 추정되는 수집 건에 대\n하여 기본정보와 상세정보를 확인 실시(중복 수집 여부 및 특이점을 파악)",
+    "section_context_candidate": "제4절 사이버위협 분석 방법 및 절차",
+    "heading_candidates": [
+      "제4절 사이버위협 분석 방법 및 절차",
+      "1. 연구개발 추진방법"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.64,
+          326.84,
+          518.78,
+          583.54
+        ],
+        "page_area_fraction": 0.2329
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0023",
+    "caption": "사이버 공격 유형",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 31,
+    "prefix_match_only": false,
+    "text_before": "드롭퍼 정상 애플리케이션인 것처럼 배포된 뒤 실행되면 바이러스 코드를 실행하는 악성코드\n해킹툴 불법침입, 정보유출, 제3자 공격 등 해킹 목적을 위한 도구\n프로그램\n키로깅\n사용자가 키보드로 PC에 입력하는 내용을 몰래 탈취하기 위한\n악성코드\n웜바이러스 자신을 복제하고 네트워크를 통해 전파 할 수 있는 악성 프로그램",
+    "caption_and_following_text": "애드웨어 특정 소프트웨어를 실행할 때 또는 설치 후 자동적으로 광고가\n표시되는 프로그램\n백도어 몰래 컴퓨터에 접속하여 악의적인 행위를 할 수 있도록 출입통로 역할을 해주는 악성코드\n<Table 3-6> 사이버 공격 유형\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 연구개발 추진방법",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0024",
+    "caption": "침입방지시스템의 이벤트 로그 메타정보에 포함되어있는 9가지 대표 필드",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "srcIP source IP address\nsrcPort source port number\ndestinationIP destination ip address\ndestinationPort destination port number\npacketSize size of packet\nprotocol protocol type\n(TCP, UDP, ICMP,...)",
+    "caption_and_following_text": "eventCount number of same events combined at a short time\ndetectName event n me decided by triggered rule\ndirectionType inbound or outbound\n<Table 3-7> 침입방지시스템의 이벤트 로그 메타정보에 포함되어있는 9가지 대표 필드\n<Figure 3-16> 보안이벤트 정·오탐 분류를 위한 E2E 딥러닝 모델 구조\n<Figure 3-16>는 제안하는 모델의 전체 구조를 나타낸다. 그림의 상위 모델에는 알\n람 로그(Alert log)로부터 메타정보(<Table 3-9> 참조)를 추출하여 완전 연결층으로 학\n습시키는 모델을 나타낸다. 하위 모델에는 원본 패킷(raw packet)의 내용을 바이트 단\n위로 입력하여 임베딩, 1DConv, 그리고 글로벌 맥스풀링을 거쳐 그 결과를 나타낸다.\n각각의 모델에서 생성된 결과는 마지막 단계인 완전 연결층(fully connection layer)에",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.52,
+          238.72,
+          473.48,
+          463.09
+        ],
+        "page_area_fraction": 0.168
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0025",
+    "caption": "보안이벤트 정·오탐 분류를 위한 E2E 딥러닝 모델 구조",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "srcPort source port number\ndestinationIP destination ip address\ndestinationPort destination port number\npacketSize size of packet\nprotocol protocol type\n(TCP, UDP, ICMP,...)\neventCount number of same events combined at a short time",
+    "caption_and_following_text": "detectName event n me decided by triggered rule\ndirectionType inbound or outbound\n<Table 3-7> 침입방지시스템의 이벤트 로그 메타정보에 포함되어있는 9가지 대표 필드\n<Figure 3-16> 보안이벤트 정·오탐 분류를 위한 E2E 딥러닝 모델 구조\n<Figure 3-16>는 제안하는 모델의 전체 구조를 나타낸다. 그림의 상위 모델에는 알\n람 로그(Alert log)로부터 메타정보(<Table 3-9> 참조)를 추출하여 완전 연결층으로 학\n습시키는 모델을 나타낸다. 하위 모델에는 원본 패킷(raw packet)의 내용을 바이트 단\n위로 입력하여 임베딩, 1DConv, 그리고 글로벌 맥스풀링을 거쳐 그 결과를 나타낸다.\n각각의 모델에서 생성된 결과는 마지막 단계인 완전 연결층(fully connection layer)에\n입력 값이되며, 이를 통해 입력된 이벤트의 정·오탐을 판별한다. 페이로드 학습모델인",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.52,
+          238.72,
+          473.48,
+          463.09
+        ],
+        "page_area_fraction": 0.168
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0026",
+    "caption": "페이로드 정보의 벡터 변환 과정 예시",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 35 -\n하위 계층에서는 보안관제 요원들이 보안이벤트의 정·오탐을 판단하는데 사용되는 패\n턴들을 학습함으로써 보안관제요원의 판단을 대신할 수 있는 모델들을 생성한다.\n페이로드를 제안하는 인공지능의 입력으로 활용하기 위해서는 16진수 문자열\n(hex-string)형태의 바이트 시퀀스(byte-sequence)를 벡터로 변환하는 과정이 필요하\n다. 먼저, 16진수 문자열로 표현되어있는 바이트 시퀀스를 바이트 단위로 읽어 정수값",
+    "caption_and_following_text": "(0~255)으로 변환한다. 또한 패킷의 데이터 영역의 최대 크기는 1,600바이트이므로 이\n이하의 값들은 제로패딩(zero-padding)을 통해 벡터 크기를 1,600으로 고정시킨다.\n<Figure 3-17>는 해당 과정들을 도식화한 것이다.\n<Figure 3-17> 페이로드 정보의 벡터 변환 과정 예시\n크기가 고정된 벡터는 임베딩 레이어를 통해 임베딩된 벡터로 변환하는데 이는 숫자로\n표현된 벡터 간의 대소관계를 제거하되 학습에 활용할 수 있는 값으로 변환하기 위함\n이다. 임베딩 레이어에서는 룩업 테이블(Trainable Lookup Table)을 이용하여 각각의\n입력 벡터를 고정 길이의 특징 벡터에 매핑한다. 본 연구에서는 하나의 입력 값을 8차원\n실수형 벡터 공간으로 투영시키는 방식으로 임베딩함으로써 1,600 × 8 크기의 행렬로\n반환하도록 하였다. <Figure 3-18>은 페이로드 입력 벡터가 임베딩되는 과정의 예시",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.17,
+          420.11,
+          464.83,
+          600.54
+        ],
+        "page_area_fraction": 0.1289
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0027",
+    "caption": "페이로드 입력벡터 임베딩 과정 예시",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 36 -\n<Figure 3-18> 페이로드 입력벡터 임베딩 과정 예시\n<Figure 3-19> 페이로드 학습모델 합성곱층과 글로벌맥스풀링 과정 예시\n마지막으로 완전 연결계층에서는 메타정보만을 학습하는 상위 모델과 페이로드를 학습\n하는 하위모델의 결과벡터를 이어 붙여(Concatenate) 164(36+128)차원 크기의 입력벡터를\n생성하여 마지막 완전 연결층의 입력 값으로 사용함으로써 최종 레이블의 예측값을 생\n성하게 된다.\n(3) 결론\n본 연구에서는 보안관제 이벤트를 공격(정탐)과 오탐을 분류할 수 있는 멀티모달 딥러닝\n모델을 제안했으며, 실제 이벤트들을 활용하여 모델의 성능을 검증하였다. 이벤트 로그로",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.73,
+          615.03,
+          494.27,
+          758.58
+        ],
+        "page_area_fraction": 0.1194
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.64,
+          382.04,
+          512.89,
+          548.82
+        ],
+        "page_area_fraction": 0.1493
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0028",
+    "caption": "페이로드 학습모델 합성곱층과 글로벌맥스풀링 과정 예시",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 36 -\n<Figure 3-18> 페이로드 입력벡터 임베딩 과정 예시\n<Figure 3-19> 페이로드 학습모델 합성곱층과 글로벌맥스풀링 과정 예시\n마지막으로 완전 연결계층에서는 메타정보만을 학습하는 상위 모델과 페이로드를 학습\n하는 하위모델의 결과벡터를 이어 붙여(Concatenate) 164(36+128)차원 크기의 입력벡터를\n생성하여 마지막 완전 연결층의 입력 값으로 사용함으로써 최종 레이블의 예측값을 생\n성하게 된다.\n(3) 결론\n본 연구에서는 보안관제 이벤트를 공격(정탐)과 오탐을 분류할 수 있는 멀티모달 딥러닝\n모델을 제안했으며, 실제 이벤트들을 활용하여 모델의 성능을 검증하였다. 이벤트 로그로",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.73,
+          615.03,
+          494.27,
+          758.58
+        ],
+        "page_area_fraction": 0.1194
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.64,
+          382.04,
+          512.89,
+          548.82
+        ],
+        "page_area_fraction": 0.1493
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0029",
+    "caption": "E2E 멀티모달 분류 모델을 통해 미분석 이벤트",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 37 -",
+    "caption_and_following_text": "자동화가 가능함을 확인하였다. 또한, 전체 테스트데이터에 대해 0.99 이상의 f1 스코어\n성능을 확인하여 제안 기술의 높은 공격 탐지 성능과 다량의 false-positive가 발생하는\n문제 해결이 가능함을 입증하였다.\n<Figure 3-20> E2E 멀티모달 분류 모델을 통해 미분석 이벤트\n정오탐 분류 성능 혼동행렬\n학습 기간 정확도 정밀도 재현율 f1-score\n1 ～ 6 0.9995 0.9993 0.99896 0.99913\n2 ～ 6 0.99951 0.99925 0.99905 0.99915\n3 ～ 6 0.99952 0.99935 0.99899 0.99917\n4 ～ 6 0.99956 0.99946 0.99903 0.99925",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.85,
+          446.21,
+          448.01,
+          686.99
+        ],
+        "page_area_fraction": 0.1453
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0030",
+    "caption": "E2E 멀티모달 분류 모델에 대한 학습 기간별 테스트 성능 정리표",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "<Figure 3-20> E2E 멀티모달 분류 모델을 통해 미분석 이벤트\n정오탐 분류 성능 혼동행렬\n학습 기간 정확도 정밀도 재현율 f1-score\n1 ～ 6 0.9995 0.9993 0.99896 0.99913\n2 ～ 6 0.99951 0.99925 0.99905 0.99915\n3 ～ 6 0.99952 0.99935 0.99899 0.99917\n4 ～ 6 0.99956 0.99946 0.99903 0.99925",
+    "caption_and_following_text": "5 ～ 6 0.99949 0.99924 0.99901 0.99912\n6 0.99929 0.99866 0.99888 0.99877\n<Table 3-8> E2E 멀티모달 분류 모델에 대한 학습 기간별\n테스트 성능 정리표\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.85,
+          446.21,
+          448.01,
+          686.99
+        ],
+        "page_area_fraction": 0.1453
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0031",
+    "caption": "침해위협 분석방법 타임라인",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "확보가 되어야 한다. 과학기술사이버안전센터의 경우 사람이 설정한 룰(rule)에 따라 이벤트를\n분류할 수 있는 SAMRTer 시스템을 보유하고 있으며, 이를 통해 효율적인 보안관제 수행 및\n지도학습 기반의 인공지능 모델 생성하기 위한 백데이터(back data) 생성에 이를 활용하고 있다.\n그러나 SMARTer의 룰은 사람이 지정하기 때문에 잘못된 룰이 설정되거나 시기에 따라 룰이\n변경될 수 있다. 이는 양질의 학습데이터를 생성을 저해할 수 있기 때문에 룰셋에 대한 검증\n및 SMARTer 시스템이 부여한 레이블에 대한 검토가 주기적으로 필요하다. 본 연구에서는\nkNN, 1D-CNN, 현재 레이블(SMARTer 시스템에서 분류한 레이블) 3개의 결과를 종합한 다수결",
+    "caption_and_following_text": "모델(Supervised 방식), Semi-supervised 방식의 Autoencoder, Deep SVDD(Deep Support\nVector Data Description) 등을 통해 기존의 레이블과 신규 레이블의 결과 비교를 통하여 레이\n블 변경 대상 선정 및 SMARTer시스템의 검증 룰에 대한 검토를 수행하였다.\n<Figure 3-21> 침해위협 분석방법 타임라인\n(2) 모델별 기법\n1D-CNN은 ‘2-가’에서 수행한 방식을 통해 정·오탐을 분류한 모델이다. 각 탐지 이벤트로부터\n추출한 1,952개의 feature를 통해서 분류된 결과를 정탐일 경우 ‘1’, 오탐일 경우 ‘2’로 부여하였다.\nkNN은 새로운 데이터가 주어졌을 때 기존 데이터 가운데 가장 유사한 k개 데이터를 가장\n가까운 이웃으로 발견해 새로운 데이터에 대한 레이블 및 클래스 값을 예측하여 범주를 추론\n하는 방식이다. 본 연구에서는 kNN이 특징정보간 거리 값을 계산하는 방법으로 Cosine",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.49,
+          299.06,
+          460.39,
+          450.16
+        ],
+        "page_area_fraction": 0.1053
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0032",
+    "caption": "SAE 의 구조 예시",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "벡터가 가리키는 방향이 얼마나 유사한가를 의미하게 된다. Cosine distance는 계산된 코사인\n유사도를 1에서 뺄셈하여 측정할 수 있다. kNN은 1D-Convolution 과정을 거친 1,952 Feature를\n입력으로 한다. k값을 설정하기에 따라 입력한 검증데이터와 가장 유사한 k개의 학습데이터의\n거리 값과 레이블을 확인 할 수 있다.\nAutoencoder를 여러 층으로 쌓는 형태의 SAE(Stacked Autoencoder)를 이용해 학습을 진행\n했다. SAE는 중간층을 기준으로 양쪽이 동일하고, Deep Belief Network(DBN)의 구조를 갖는\n특징이 있다. 싱글 Autoencoder와는 달리 여러 개의 Hidden layer로 구성되어 있으며, 하나의",
+    "caption_and_following_text": "Hidden layer로 구성되었을 때보다 훨씬 다양한 기능을 표현할 수 있어 좋은 성능을 보여준다.\n분석할 각 사건의 손실 값은 정탐이벤트만 학습한 모델을 사용하여 계산했다. <Figure 3-22>\n은 SAE 구조물의 예를 나타낸다.\n<Figure 3-22> SAE 의 구조 예시\n손실 값은 누적분포함수(CDF)를 사용해 0과 1 사이의 값으로 표현되었다. 이상 데이터 검출\n은 데이터가 정상과 거리가 먼 특징 정보를 지닐수록 CDF 값이 크다는 점을 활용했다. CDF\n는 특정 확률 분포에서 랜덤 변수가 특정 값보다 작거나 같은 확률을 나타내며, 계산된 CDF\n값이 지정된 임계값보다 크면 의심스러운 이벤트로 판단한다.\nAutoencoder는 Embedding 과 1D-Convolution 과정을 거친 1,952 Feature를 입력으로 하며,\n<Figure 3-23>과 같이 3개의 Dense layer로 이루어져 있다.",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.2,
+          312.95,
+          437.92,
+          518.89
+        ],
+        "page_area_fraction": 0.1249
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0033",
+    "caption": "Autoencoder 모델 구성",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 40 -\n<Figure 3-23> Autoencoder 모델 구성\n구성된 모델을 이용해 정탐이벤트 추출 Feature만을 이용하여 학습을 진행한 후 검증데이터에\n대해서 각 이벤트별 이상치 점수를 계산하였다. <Figure 3-24>은 Autoencoder 모델 결과의\n샘플을 나타내며 loss가 손실 값을 outlier_score가 손실 값으로 계산된 CDF 값을 의미한다.\n<Figure 3-24> Autoencoder 모델 손실값과 CDF 결과 샘플\nDeep SVDD는 SVDD와 딥러닝을 결합한 기법으로 신경망을 통해 특징정보를 추출해\nSVDD 기반 비정상 데이터를 탐지한다. Deep SVDD는 이진 분류를 수행하기 위한 경계를 제\n공하며, 1-SVM과 유사한 특성을 가지고 있다. 1-SVM이 중심지에서 가장 멀리 떨어진 경계\n선(Hyperplane)을 찾는 것을 목표로 한다면, SVDD는 정상 데이터를 둘러싼 가장 최적의 중심",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.61,
+          638.49,
+          460.27,
+          767.08
+        ],
+        "page_area_fraction": 0.0896
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.85,
+          285.41,
+          463.15,
+          517.57
+        ],
+        "page_area_fraction": 0.1643
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0034",
+    "caption": "Autoencoder 모델 손실값과 CDF 결과 샘플",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 40 -\n<Figure 3-23> Autoencoder 모델 구성",
+    "caption_and_following_text": "구성된 모델을 이용해 정탐이벤트 추출 Feature만을 이용하여 학습을 진행한 후 검증데이터에\n대해서 각 이벤트별 이상치 점수를 계산하였다. <Figure 3-24>은 Autoencoder 모델 결과의\n샘플을 나타내며 loss가 손실 값을 outlier_score가 손실 값으로 계산된 CDF 값을 의미한다.\n<Figure 3-24> Autoencoder 모델 손실값과 CDF 결과 샘플\nDeep SVDD는 SVDD와 딥러닝을 결합한 기법으로 신경망을 통해 특징정보를 추출해\nSVDD 기반 비정상 데이터를 탐지한다. Deep SVDD는 이진 분류를 수행하기 위한 경계를 제\n공하며, 1-SVM과 유사한 특성을 가지고 있다. 1-SVM이 중심지에서 가장 멀리 떨어진 경계\n선(Hyperplane)을 찾는 것을 목표로 한다면, SVDD는 정상 데이터를 둘러싼 가장 최적의 중심\n과 경계 영역(Hypersphere)을 찾는 것을 목표로 한다. 또한 이상치 검출에 대한 경계도 제공\n한다. Deep SVDD 모델은 인터넷 상의 오픈된 소스코드를 사용하였다.",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.61,
+          638.49,
+          460.27,
+          767.08
+        ],
+        "page_area_fraction": 0.0896
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.85,
+          285.41,
+          463.15,
+          517.57
+        ],
+        "page_area_fraction": 0.1643
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0035",
+    "caption": "Deep SVDD의 예시",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n<Figure 3-25> Deep SVDD의 예시\n이상 데이터 검출은 입력데이터와 중심지의 거리가 클수록 정상 데이터와 차이가 크다는 점\n을 활용한다. Deep SVDD를 통해 계산된 거리 값을 이용하여 누적분포함수(CDF)를 계산해\n이상치 검출에 활용했다. Deep SVDD은 detectName Feature와 payload Feature를 합한\n1,650 Feature를 입력으로 한다. Deep SVDD의 학습에 이용된 딥러닝 모델은\nCNN(Convolution Neural Network)구조로서 이미지 형태의 입력을 사용한다. <Figure 3-26>\n은 모델의 구성을 나타낸다.\n<Figure 3-26> Deep SVDD 학습에 사용된 CNN 모델 구조\n<Figure 3-26>의 모델은 이미지 형태의 입력을 받기 때문에 1,650 Feature에 대해서 32x32",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.85,
+          658.61,
+          463.15,
+          767.08
+        ],
+        "page_area_fraction": 0.0768
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.57,
+          236.92,
+          475.53,
+          484.88
+        ],
+        "page_area_fraction": 0.1827
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0036",
+    "caption": "Deep SVDD 학습에 사용된 CNN 모델 구조",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 41 -\n<Figure 3-25> Deep SVDD의 예시\n이상 데이터 검출은 입력데이터와 중심지의 거리가 클수록 정상 데이터와 차이가 크다는 점\n을 활용한다. Deep SVDD를 통해 계산된 거리 값을 이용하여 누적분포함수(CDF)를 계산해\n이상치 검출에 활용했다. Deep SVDD은 detectName Feature와 payload Feature를 합한",
+    "caption_and_following_text": "1,650 Feature를 입력으로 한다. Deep SVDD의 학습에 이용된 딥러닝 모델은\nCNN(Convolution Neural Network)구조로서 이미지 형태의 입력을 사용한다. <Figure 3-26>\n은 모델의 구성을 나타낸다.\n<Figure 3-26> Deep SVDD 학습에 사용된 CNN 모델 구조\n<Figure 3-26>의 모델은 이미지 형태의 입력을 받기 때문에 1,650 Feature에 대해서 32x32\n크기의 2차원의 이미지의 형태로 변환하는 과정을 거쳤다. 1,650 개의 특징 정보 중 32x32에\n해당하는 1,024개의 특징 정보를 순서대로 사용했으며 1,024개에서 초과되는 특징정보는 사용\n하지 않았다. <Figure 3-27>은 Deep SVDD 결과의 샘플을 나타내며, dsvdd_score는 Deep\nSVDD를 통해 계산된 거리 값을 의미하며 outlier_score는 거리 값을 이용하여 계산된 CDF\n값을 의미한다.",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.85,
+          658.61,
+          463.15,
+          767.08
+        ],
+        "page_area_fraction": 0.0768
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.57,
+          236.92,
+          475.53,
+          484.88
+        ],
+        "page_area_fraction": 0.1827
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0037",
+    "caption": "Deep SVDD 결과값과 CDF결과 샘플",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 42 -\n<Figure 3-27> Deep SVDD 결과값과 CDF결과 샘플\n앞서 설명한 3가지 모델을 이용한 다수결 모델과 semi-supervised방식(auto encoder, Deep\nSVDD)을 통해 현재 레이블(analyResult)의 검토 및 레이블 변경 검토대상을 선정하였으며, 그\n결과는 다음과 같다. kNN의 경우 k값을 1~3까지 적용하여 모두 동일하게 분류되는 이벤트만\n이벤트만을 대상으로 선정하였다.\nNo. k=1의 Label k=2의 Label k=3의 Label kNN Result\n1 정탐 정탐 정탐 정탐\n2 정탐 정탐 오탐\n분석제외",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.49,
+          466.32,
+          460.39,
+          747.09
+        ],
+        "page_area_fraction": 0.1957
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0038",
+    "caption": "kNN 모델의 레이블 예측 방식 예시",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "No. k=1의 Label k=2의 Label k=3의 Label kNN Result\n1 정탐 정탐 정탐 정탐\n2 정탐 정탐 오탐\n분석제외\n3 정탐 오탐 정탐\n4 정탐 오탐 오탐\n5 오탐 정탐 정탐",
+    "caption_and_following_text": "6 오탐 정탐 오탐\n7 오탐 오탐 정탐\n8 오탐 오탐 오탐 오탐\n<Table 3-9> kNN 모델의 레이블 예측 방식 예시\n현재 레이블, 1D-CNN, kNN 3개 모델의 레이블을 이용하여 2개 이상의 모델이 동일한 결과를\n예측한 값으로 다수결 모델의 레이블을 부여하였다. 이렇게 부여된 다수결 모델의 레이블과 현재\n레이블인 analyResult 값을 비교하여 레이블 변경 검토 대상을 선별 할 수 있다. 또한 각 모델의\n판단결과에 따라 다양한 결과해석이 가능하다. <Table 3-12>은 각 모델의 결과에 다른 다수결\n모델의 결과를 나타낸다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.49,
+          466.32,
+          460.39,
+          747.09
+        ],
+        "page_area_fraction": 0.1957
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0039",
+    "caption": "다수결 모델 기반 레이블 변경대상 산출 결과",
+    "pdf_page_candidate": 54,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "(analyResult) 다수결 모델\nCase1 공격 공격 공격 공격\nCase2 공격 공격 정상 공격\nCase3 공격 정상 공격 공격\nCase4 공격 정상 정상 정상\nCase5 정상 공격 공격 공격\nCase6 정상 공격 정상 정상",
+    "caption_and_following_text": "Case7 정상 정상 공격 정상\nCase8 정상 정상 정상 정상\nCase9 분석 제외\n<Table 3-10> 다수결 모델 기반 레이블 변경대상 산출 결과\nCase1, Case8에 해당하는 이벤트는 kNN, 분류모델, 현재 레이블의 결과가 모두 일치하여 다수\n결 모델의 결과 역시 동일하게 판단한다. Case2, Case7에 해당하는 이벤트는 kNN, 분류모델\n이 동일한 판단을 하며 현재 레이블이 상반되는 판단을 하고 있으므로 다수결 모델은 kNN, 분\n류모델과 동일한 결과를 산출하며, 현재 레이블 변경 검토의 필요성을 제시한다. Case3, Case6\n에 해당하는 이벤트는 kNN, 현재 레이블이 동일한 판단을 하며 분류모델이 상반되는 판단을\n하고 있으므로 다수결 모델은 kNN, 현재 레이블과 동일한 결과를 산출하며, 분류모델의 검토",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0040",
+    "caption": "WEB-PAT-00-00-XXXXX 데이터셋 구성",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 44 -\n학습데이터 테스트데이터\n정탐 오탐 정탐 오탐\n249 5,111 138 695\n합계 합계",
+    "caption_and_following_text": "5,360 833\n총 합계\n6,193\n<Table 3-11> WEB-PAT-00-00-XXXXX 데이터셋 구성\n분류 Result(%)\nAccuracy 97.95\nPrecision 100.0\nRecall 87.68\nF1 score 93.43\n<Table 3-12> 1D-CNN 모델 평가 지표",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0041",
+    "caption": "1D-CNN 모델 평가 지표",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "합계 합계\n5,360 833\n총 합계\n6,193\n<Table 3-11> WEB-PAT-00-00-XXXXX 데이터셋 구성\n분류 Result(%)\nAccuracy 97.95",
+    "caption_and_following_text": "Precision 100.0\nRecall 87.68\nF1 score 93.43\n<Table 3-12> 1D-CNN 모델 평가 지표\n분류 학습데이터 테스트데이터\n정탐 오탐 정탐 오탐\nAutoencoder(CDF) 0.15163 0.51523 0.27373 0.307775\nDeep SVDD(CDF) 0.10052 0.49030 0.13534 0.30743\n<Table 3-13> Semi-Supervised 모델 실험 결과\n<Table 3-11>, <Table 3-12>에 따라 각각의 이벤트의 정·오탐 여부를 표시하고 기존 레이블",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0042",
+    "caption": "Semi-Supervised 모델 실험 결과",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "분류 Result(%)\nAccuracy 97.95\nPrecision 100.0\nRecall 87.68\nF1 score 93.43\n<Table 3-12> 1D-CNN 모델 평가 지표\n분류 학습데이터 테스트데이터",
+    "caption_and_following_text": "정탐 오탐 정탐 오탐\nAutoencoder(CDF) 0.15163 0.51523 0.27373 0.307775\nDeep SVDD(CDF) 0.10052 0.49030 0.13534 0.30743\n<Table 3-13> Semi-Supervised 모델 실험 결과\n<Table 3-11>, <Table 3-12>에 따라 각각의 이벤트의 정·오탐 여부를 표시하고 기존 레이블\n과 그 결과를 비교하여 <Table 3-14>과 같이 정리 및 비교하여 레이블 검토 대상을 선정하였\n다.\n분류\n모델별 결과(건)\n해석 kNN 분류모델",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0043",
+    "caption": "다수결 모델 기반 레이블 변경대상 산출 결과",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 58,
+    "prefix_match_only": false,
+    "text_before": "(0) 공격\nCase6 정상\n(0) 정상 분류모델 검토필요\nCase7 정상\n(623)\n공격\n(16) 정상 현재 레이블 검토 필요",
+    "caption_and_following_text": "Case8 정상\n(607) 정상 현재 레이블 유지\nCase9 분석 제외(35) 공격/정상 현재 레이블 유지\n<Table 3-14> 다수결 모델 기반 레이블 변경대상 산출 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0044",
+    "caption": "해석별 전체대비 분포 요약",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "이터의 현재 레이블이 잘못되었는지 검토가 필요한 Case2, Case7의 경우 1.92%로 나타났으\n며, 학습데이터의 이벤트에 대해서 레이블 검토가 필요한 Case4, Case5의 경우에는 6.48%로\n확인 가능했다. <Table 3-15>는 해석별 전체대비 분포의 요약을 나타낸다. 해당 결과를 토대로\n검토된 이벤트들 및 룰셋을 검증한 결과 실제 학습 데이터 및 분류모델이 판단한 결과에 오류가\n있음을 확인하였다.\n분류 Result(%)\n현재 레이블 유지 91.47",
+    "caption_and_following_text": "분류모델의 오판 0.12\n테스트데이터 레이블 검토 1.92\n학습데이터 레이블 검토 6.48\n<Table 3-15> 해석별 전체대비 분포 요약\n본 연구에서는 기존 모델 및 레이블들을 검토하여 학습데이터를 검증하고 일관성을 확보하\n여 양질의 학습데이터를 향상시키는데 그 의의가 있다. 다수결 모델 및 준지도학습을 통한 분\n류 결과를 통해 기존의 결과와 상이한 이벤트결과 또는 기존의 결과가 오판이었을 가능성을 내\n포한 이벤트들을 검출하는 것을 검증하였으며, 이를 통해 데이터의 일관성·순수성(purity)를 향\n상시킴으로써 고성능의 인공지능 모델 생성이 가능함을 입증하였다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 당해연도 중점 추진내용 및 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0045",
+    "caption": "국가정보보안관리체계",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 46 -\n제5절 정보보안 환경 강화 기반 조성\n1. 연구개발 추진방법\n국가정보보안관리체계는 정보보안거버넌스 관점에서 국가정보원이 국가 정보보안에 대한\n기획 및 조정업무를 수행하고 있다. 또한 각급 중앙부처를 중심으로 정보보호담당관 조직을 신설\n하여 정보보안 업무에 대한 관리체계를 수립 및 운영하고 있으며, 보안관제 중심의 사이버 침해\n대응 업무에 대하여 주요 기관별 사이버대응센터를 통해 소속 및 산하기관에 대한 대응태세를\n갖추고 있다.\n<Figure 3-37> 국가정보보안관리체계\n과학기술사이버안전센터에서는 국가정보원의 국가정보보안기본지침을 근거로 과학기술정보",
+    "section_context_candidate": "1. 연구개발 추진방법",
+    "heading_candidates": [
+      "1. 연구개발 추진방법"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          181.05,
+          444.29,
+          390.94,
+          585.93
+        ],
+        "page_area_fraction": 0.0594
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.45,
+          143.05,
+          332.67,
+          300.14
+        ],
+        "page_area_fraction": 0.0817
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          345.05,
+          144.85,
+          500.27,
+          298.46
+        ],
+        "page_area_fraction": 0.0476
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0046",
+    "caption": "정보보안 거버넌스 프레임워크",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "기획 및 조정업무를 수행하고 있다. 또한 각급 중앙부처를 중심으로 정보보호담당관 조직을 신설\n하여 정보보안 업무에 대한 관리체계를 수립 및 운영하고 있으며, 보안관제 중심의 사이버 침해\n대응 업무에 대하여 주요 기관별 사이버대응센터를 통해 소속 및 산하기관에 대한 대응태세를\n갖추고 있다.\n<Figure 3-37> 국가정보보안관리체계\n과학기술사이버안전센터에서는 국가정보원의 국가정보보안기본지침을 근거로 과학기술정보\n통신부 산하기관의 보안관제 및 기관 내 보안관리체계를 운영하고 있다. 또한 과학기술 생태계의",
+    "caption_and_following_text": "안정적 지원을 위하여 신뢰성 있는 과학기술정보서비스 제공을 목표로 정보보안거버넌스 관점\n에서 정보보안 서비스 통합을 수행하고 있다.\n⇨\n<Figure 3-38> 정보보안 거버넌스 프레임워크\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 연구개발 추진방법",
+    "heading_candidates": [
+      "1. 연구개발 추진방법"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          181.05,
+          444.29,
+          390.94,
+          585.93
+        ],
+        "page_area_fraction": 0.0594
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.45,
+          143.05,
+          332.67,
+          300.14
+        ],
+        "page_area_fraction": 0.0817
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          345.05,
+          144.85,
+          500.27,
+          298.46
+        ],
+        "page_area_fraction": 0.0476
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0047",
+    "caption": "한국과학기술정보연구원 정보보안체제 활동목표",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 47 -",
+    "caption_and_following_text": "과학기술사이버안전센터에서 제공하는 보안서비스의 종류는 정보보안 정책, 대고객 서비스\n지원, 유출사고 방지, 내·외부 감사 대응 등으로 변화하는 정보화환경에 맞는 다양한 보안 요구\n사항에 맞게 관리적, 기술적, 물리적 보안대책을 다음의 목표와 함께 수립하여 추진하고 있다.\n<Figure 3-39> 한국과학기술정보연구원 정보보안체제 활동목표\n과학기술사이버안전센터는 대외기관의 보안관제서비스 안정화와 원내 사용자 주요 보안서비스의\n안정적 실현을 목적으로 기관 정보보안관리체계를 정비하였다. 본 연구에서는 정보보안 환경강화\n기반 조성으로 보안관리체계 부문에서 다음과 같은 주제를 중심으로 수행하고자 한다.\n◦ 정보보안관리체계의 안정적 운영을 위한 기반 마련\n- 정보보안관리체계의 대응력 강화를 위한 추진체계 수립 및 관리적·물리적·기술적 보안부\n문별 주요 정보보안 활동",
+    "section_context_candidate": "1. 연구개발 추진방법",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.71,
+          425.14,
+          478.29,
+          687.22
+        ],
+        "page_area_fraction": 0.2013
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0048",
+    "caption": "KISTI 정보보안 대응 조직",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 48 -\n2. 정보보안관리체계 안정적 운영을 위한 기반조성\n가. 정보보안관리체계 기반 조성을 위한 조직구성\n한국과학기술정보연구원 보안조직은 보안담당관을 중심으로 일반보안, 정보보안, 연구보안으로",
+    "caption_and_following_text": "구분하여 운영되고 있으며, 각 부문별 담당관을 중심으로 보안관리 업무를 수행하고 있다. 정보\n보안 부문에서는 정보보안담당관을 중심으로 아래와 같이 대응 조직을 구성하고 있으며, 부서별\n보안관리자를 임명하여 지원조직을 구성하고 있다.\n<Figure 3-40> KISTI 정보보안 대응 조직\n부서별 보안조직은 부서별 보안관리자를 부서장으로 임명하고, 부서별 보안관리자를 지원하기\n위한 부서별 보안담당자를 정보보안과 개인정보보호로 구분하여 각각 임명하여 구성하고 있다.\n이를 통해 KISTI에서는 정보보안의 국가정책에 따라 기관담당과 부서담당의 협업 하에 각종 이행\n사항에 대한 긴밀한 대응을 위한 협조 공조체제를 유지하고 있다.\n나. 정보보안 관리체계 주요활동\n정보화를 통한 지능정보사회 견인을 위해 핵심 분야로 떠오르는 AI, 클라우드 등 정보화 자원",
+    "section_context_candidate": "1. 연구개발 추진방법",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.47,
+          353.9,
+          447.53,
+          596.35
+        ],
+        "page_area_fraction": 0.1565
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0049",
+    "caption": "주요 정보보안 추진 활동",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 25,
+    "prefix_match_only": false,
+    "text_before": "∘기관 운영 홈페이지 취약점 점검을 통한 사전 예방 강화\n- 홈페이지별 취약점 점검 결과 제출 및 개선 계획 수립\n- 홈페이지 위․변조로 인한 침해사고 사전 대응\n- 개인정보처리시스템 대상 개인정보 노출점검 및 접속기록 점검 실시\n∘무선 네트워크에 대한 보안성 강화(비인가 무선 AP 차단 등)\n물리적\n보안",
+    "caption_and_following_text": "∘용역사업에 대한 보안관리 강화\n- 참여인력 및 정보시스템 사용 환경에 대한 보안 강화\n- 보안성 검토 및 정보보안 감사 실시\n<Table 3-12> 주요 정보보안 추진 활동\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 이를 위해 본 연구에서는 KISTI 정보화 자원 고도화를 위한 업무 프로세스 개선 및 관련 관",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0050",
+    "caption": "사용자 보안 시스템 구축 현황",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "4단계 사용자PC 보안 구성을 적용 후 운영하고 있다. 현재 운영 중인 사용자 정보보안 시스템은\n현재 유행하고 있는 지능화되고 복합적인 공격들에 대하여 해당 유형별로 파악하고 대응할 수\n있는 기반을 마련하였다. 사용자 PC에 가해지는 공격들을 예측하고 이에 대한 선행적 대응이 가\n능하다면 보다 안전한 연구 환경에서 사용자들이 업무를 진행할 수 있을 것으로 기대한다.\n원내 정보보안 전담조직을 중심으로 최종사용자인 PC에 접근하는 각각의 네트워크 레이어\n(Layer)를 중심으로 APT 공격 사전차단을 위한 차세대방화벽, 네트워크사용자 인증을 통한 접\n근통제, 중요정보 및 개인정보 유출방지(DLP)를 위한 취약점 점검툴, 사용자 PC에 가해지는 공",
+    "caption_and_following_text": "격들을 예측하고 이에 대한 선행적 대응을 위한 바이러스 백신 및 암호화 툴 등을 중심으로 사용\n자PC에 대한 4중 구조의 보안체계를 적용하여 운영 중에 있다. KISTI 사용자보안체계는 보다\n안전한 연구 환경에서 사용자들이 효율적으로 업무를 수행할 수 있도록 중점을 두고 설계하였다.\n<Figure 3-41> 사용자 보안 시스템 구축 현황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 사용자 정보보안 환경강화를 위한 주요 추진사항",
+    "heading_candidates": [
+      "3. 사용자 정보보안 환경강화를 위한 주요 추진사항",
+      "가. 안전한 연구환경 구축을 위한 보안시스템 구축"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.14,
+          115.64,
+          457.86,
+          249.49
+        ],
+        "page_area_fraction": 0.0919
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0051",
+    "caption": "사용자 보안 시스템 및 주요 기능",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "∘ 네트워크 공유 폴더 금지 기능\n∘ 소프트웨어 보안USB 기능\n사용자PC 수준진단\n관리시스템\n∘ 원내 사용자에 대한 보안실태 파악 및 수준 진단을 통한 중앙 점검\n∘ 윈도우 자동 로그온 금지, 바이러스 백신 사용 유무, 윈도우 방화벽 사용\n등 사용자 PC 보안점검 정책 적용",
+    "caption_and_following_text": "∘ 주민등록번호, 계좌번호 등 개인정보 검출 기능 및 암호화 기능\n∘ 악성코드 및 좀비PC 방지를 위한 알려지지 않은 프로세스 차단 기능\n바이러스 백신 ∘ 바이러스 및 악성코드 차단\n<Table 3-13> 사용자 보안 시스템 및 주요 기능\n정보보안 인식 제고를 위해 기존의 단순한 교육전달에서 벗어나 양방향 서비스가 될 수 있는\n다양한 활동을 수행하였다. 부문별, 업무형태별, 지역별 맞춤형 교육 시행으로 교육의 내실화와\n전사적 인식을 강화할 수 있는 교육을 운영하였으며, 내부 소통을 위한 아이디어 도출과 사용자\n가 공감할 수 있는 정책을 발굴하여 실천방안을 제시하는 적극적인 노력을 수행하였다. 특히 ‘생\n활속의 보안’이라는 주제로 보안 준수사항을 지속적으로 인지할 수 있는 홍보자료를 제작하여\n배포하였다.",
+    "section_context_candidate": "가. 안전한 연구환경 구축을 위한 보안시스템 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.57,
+          113.48,
+          499.43,
+          250.69
+        ],
+        "page_area_fraction": 0.117
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0052",
+    "caption": "정보보안 인식제고를 위한 주요 활동(캘린더, 가이드, 스크린세이버 제작)",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 28,
+    "prefix_match_only": false,
+    "text_before": "∘ 주민등록번호, 계좌번호 등 개인정보 검출 기능 및 암호화 기능\n∘ 악성코드 및 좀비PC 방지를 위한 알려지지 않은 프로세스 차단 기능\n바이러스 백신 ∘ 바이러스 및 악성코드 차단\n<Table 3-13> 사용자 보안 시스템 및 주요 기능\n정보보안 인식 제고를 위해 기존의 단순한 교육전달에서 벗어나 양방향 서비스가 될 수 있는\n다양한 활동을 수행하였다. 부문별, 업무형태별, 지역별 맞춤형 교육 시행으로 교육의 내실화와\n전사적 인식을 강화할 수 있는 교육을 운영하였으며, 내부 소통을 위한 아이디어 도출과 사용자",
+    "caption_and_following_text": "가 공감할 수 있는 정책을 발굴하여 실천방안을 제시하는 적극적인 노력을 수행하였다. 특히 ‘생\n활속의 보안’이라는 주제로 보안 준수사항을 지속적으로 인지할 수 있는 홍보자료를 제작하여\n배포하였다.\n<Figure 3-42> 정보보안 인식제고를 위한 주요 활동(캘린더, 가이드, 스크린세이버 제작)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 안전한 연구환경 구축을 위한 보안시스템 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.57,
+          113.48,
+          499.43,
+          250.69
+        ],
+        "page_area_fraction": 0.117
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0053",
+    "caption": "본관 통합전산실 이전 네트워크 내역",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 30,
+    "prefix_match_only": false,
+    "text_before": "9 데이터기반문제해결연구단\n클러스터 서비스 데이터기반문제해결연구단 공용서버실 통합전산실 1G\n10 차세대정보시스템 정보시스템운영실 정보시스템 전산실 통합전산실 10G\n11 차세대정보시스템 DR 정보시스템운영실 정보시스템 전산실 통합전산실 1G\n12 NTIS 시스템 NTIS센터 정보시스템 전산실 통합전산실 10G\n13 NTIS 시스템(ARS시스템) NTIS센터 정보시스템 전산실 통합전산실 1G\n14 연구망 (R&E)시스템 과학기술연구망센터 본관 2층 ANTLAB 통합전산실 1G",
+    "caption_and_following_text": "15 연구망(KAFE/COREEN)시스템 과학기술연구망센터 본관 2층 ANTLAB 통합전산실 1G, 10G\n16 연구망(ScienceDMZ)시스템 과학기술연구망센터 본관 2층 ANTLAB 통합전산실 100G\n17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G\n<Table 3-14> 본관 통합전산실 이전 네트워크 내역\n대내 서비스용 연구지원 네트워크 통합 구축·이전을 통해 취약한 인터넷으로부터 공격 원천 차\n단 및 서비스 유형별 맞춤형 보안정책 적용으로 보안성을 강화한 네트워크 구성을 완료하였다.\n또한 산재되어 운영되던 연구목적 시스템이 통합전산실의 안정적인 전산 인프라(항온항습, 물리\n적 접근통제, 안정적인 전원공급)를 통해 위험요인을 최소화함으로써 향후 네트워크 안정성 확보\n에 의의를 두고 있다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2 사물데이터수집시스템 연구데이터공유센터 공용서버실 통합전산실 1G",
+    "heading_candidates": [
+      "2 사물데이터수집시스템 연구데이터공유센터 공용서버실 통합전산실 1G",
+      "3 빅데이터테스트베드 연구데이터공유센터 공용서버실 통합전산실 1G",
+      "7 슈퍼컴클러스터(246net) 슈퍼컴퓨팅기술개발센터 슈퍼컴(4)전산실 통합전산실 1G",
+      "8 슈퍼컴클러스터(250net) 슈퍼컴퓨팅기술개발센터 슈퍼컴(4)전산실 통합전산실 1G",
+      "9 데이터기반문제해결연구단",
+      "14 연구망 (R&E)시스템 과학기술연구망센터 본관 2층 ANTLAB 통합전산실 1G",
+      "15 연구망(KAFE/COREEN)시스템 과학기술연구망센터 본관 2층 ANTLAB 통합전산실 1G, 10G",
+      "16 연구망(ScienceDMZ)시스템 과학기술연구망센터 본관 2층 ANTLAB 통합전산실 100G",
+      "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0054",
+    "caption": "통합전산실 이전 네트워크 구성도",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 54 -\n<Figure 3-43> 통합전산실 이전 네트워크 구성도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.64,
+          480.57,
+          504.6,
+          767.08
+        ],
+        "page_area_fraction": 0.2518
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0055",
+    "caption": "사이버보안진단의 날 운영현황",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "요인에 대한 사전 예방활동 강화하기 위해 매월 세 번째 주 수요일을 KISTI 사이버보안진단의\n날로 지정하여 운영하고 있다.\n사이버보안진단의 날은 정기적으로 실시하는 부서별 보안담당자의 협조를 통한 관리적보안의\n측면과 실시간으로 실시되는 중앙집중식 PC보안취약점 점검 툴의 운영으로 구분하여 실시하고\n있다. 향후 KISTI에서의 업무 환경 변화 및 유관 기관의 정책 변화에 대응하기 위한 내부규정\n정비, 자체 보안감사 수행 및 예방활동 강화 등 정보보안 정책 및 전략 수립을 위한 정보보호 수준\n신뢰도 제고에 반영하는 것을 목표로 하고 있다.",
+    "caption_and_following_text": "구 분 주 기 역 할 비 고\n사이버보안진단의 날 정기(매월) 부서별 점검 실시 부서별 담당주관\nPC보안 취약점 점검 실시간 11개 지표 준수현황 실시간 중앙관리\n<Table 3-14> 사이버보안진단의 날 운영현황\n또한, KISTI 직원의 보안의식 고취를 위해 설계된 기존 온라인 사이버안전센터와 병행하여 관\n리 하고 있었던 보안결재 항목에 대하여 이용자들의 편의성을 제고하고자 과학기술사이버안전센\n터에서는 보안교육, 보안감사, 보안 관련 결재(총 15종)를 직원들에게 제공하고 있다. 2020년도에\n15개 부문의 보안결재에 대하여 DNS사용/변경(88건), LAN 및 전화설치(157건), 보안성 검토요청\n(98건), 보안적합성 검증(4건), 외부접근허가(383건), 제안요청서 검토(101건), VPN사용신청(1579건),\n산출물 검토신청(29건) 등 총 2,439건을 보안관리 결재항목에서 활발하게 직원들이 활용하고 있다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.6,
+          105.7,
+          457.74,
+          306.73
+        ],
+        "page_area_fraction": 0.1314
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0056",
+    "caption": "보안결재 프로세스 효율화를 위한 인트라넷 통합",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "구 분 주 기 역 할 비 고\n사이버보안진단의 날 정기(매월) 부서별 점검 실시 부서별 담당주관\nPC보안 취약점 점검 실시간 11개 지표 준수현황 실시간 중앙관리\n<Table 3-14> 사이버보안진단의 날 운영현황\n또한, KISTI 직원의 보안의식 고취를 위해 설계된 기존 온라인 사이버안전센터와 병행하여 관\n리 하고 있었던 보안결재 항목에 대하여 이용자들의 편의성을 제고하고자 과학기술사이버안전센\n터에서는 보안교육, 보안감사, 보안 관련 결재(총 15종)를 직원들에게 제공하고 있다. 2020년도에",
+    "caption_and_following_text": "15개 부문의 보안결재에 대하여 DNS사용/변경(88건), LAN 및 전화설치(157건), 보안성 검토요청\n(98건), 보안적합성 검증(4건), 외부접근허가(383건), 제안요청서 검토(101건), VPN사용신청(1579건),\n산출물 검토신청(29건) 등 총 2,439건을 보안관리 결재항목에서 활발하게 직원들이 활용하고 있다.\n<Figure 3-44> 보안결재 프로세스 효율화를 위한 인트라넷 통합\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.6,
+          105.7,
+          457.74,
+          306.73
+        ],
+        "page_area_fraction": 0.1314
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0057",
+    "caption": "KISTI 침해사고 대응 체계",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "(1) 사이버침해사고 대응체계\n사이버 위협 및 APT와 같은 표적 공격이 최근 지능화되고 다양화되고 있는 양상을 보임에 따\n라 정보시스템 및 중요정보의 데이터를 안전하게 보호하기 위한 보안 활동 및 대응방안이 요구\n되고 있다. KISTI에서는 사이버보안센터를 통해 침해사고 신고 및 처리결과를 분석하여 가시화\n하고 있으며 현장 실사를 통하여 보안점검 및 취약점 분석을 진행하고 있다. 이를 통해 향후 예\n상할 수 있는 사고를 예방함과 동시에 재발방지를 위한 개선 및 대책을 도출하고 있다.\n사이버 침해사고 대응체계는 국가정보원 국가사이버안전센터(NCSC) 및 24시간 보안관제를",
+    "caption_and_following_text": "수행하는 과학기술정보통신부 과학기술사이버안전센터(S&T CSC)와 함께 협력하여 진행하고\n있으며, 한국과학기술원에서는 정보보안 전담부서인 과학기술사이버안전센터 내 원내보안팀에\n서 주관하여 사고처리 지원 및 처리결과 확인 등의 업무를 수행하고 있다.\n<Figure 3-45> KISTI 침해사고 대응 체계\n구 분 역 할\n국가사이버안전센터 및\n과학기술사이버안전센터\n- 관제센터\n- 중앙집중형 24시간 상시 상황 관제\n- 침해사고 발생 시 원내보안팀 통보",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.72,
+          326.12,
+          503.4,
+          481.53
+        ],
+        "page_area_fraction": 0.1349
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0058",
+    "caption": "대응 조직별 역할",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 25,
+    "prefix_match_only": false,
+    "text_before": "- 침해사고 발생 시 원내보안팀 통보\n- 침해사고 처리결과 확인\n과학기술사이버안전센터\n- 원내보안팀\n- 침해사고(유관기관 통보사항 및 내부탐지) 접수\n- 침해사고자 사고내용 통보 및 사고처리 강제\n- 침해사고 처리지원 및 사후 조치 확인",
+    "caption_and_following_text": "- 국가사이버안전센터 및 과학기술사이버안전센터 처리결과 통보\n내부 전부서 - 침해사고 처리\n- 침해사고 처리결과 원내보안팀 제출\n<Table 3-15> 대응 조직별 역할\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.72,
+          326.12,
+          503.4,
+          481.53
+        ],
+        "page_area_fraction": 0.1349
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0059",
+    "caption": "KISTI 침해사고 대응절차",
+    "pdf_page_candidate": 68,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 57 -\n(2) 사이버침해사고 대응절차\n한국과학기술정보연구원 침해사고 대응체계는 사전예방과 사후조사 단계로 구분하여 실시하\n고 있다. 사전예방단계로는 주요시스템 취약점 점검을 비롯하여 홈페이지 취약점, 네트워크 취약",
+    "caption_and_following_text": "점, 업무 PC 취약점으로 구분하여 실시간으로 수행하고 있으며, 취약점 발생 시 점검하는 활동으\n로 구성되는 사후 점검절차는 예방, 탐지, 분석, 대응, 복구 등의 체제로 구성되어 있으며, 세부적\n으로 단계별로 구분하여 적용된다.\n<Figure 3-46> KISTI 침해사고 대응절차\n단계 대응절차\n준비단계 - 시스템 점검 및 보안장비 설치\n- 사고대응팀 구성 및 역할 등 절차 수립\n탐지단계 - 이상 징후 탐지(국정원, 과기정통부, 과학기술사이버안전센터)\n초기대응 단계\n- 최초분석으로 침입/단순 장애 여부 판정",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.14,
+          391.61,
+          460.27,
+          619.46
+        ],
+        "page_area_fraction": 0.1548
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0060",
+    "caption": "단계별 침해사고 대응절차",
+    "pdf_page_candidate": 68,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "초기대응 단계\n- 최초분석으로 침입/단순 장애 여부 판정\n- 추가 사고 발생 위협요인 제거(차단)\n- 추후 정밀조사를 위한 증거자료 수집\n조치단계 - 사고자에게 사실 통보(6하 원칙에 의거)\n- 복구 가능한 방법에 대한 자료 수집\n복구단계 - 악성프로그램 제거 및 삭제 프로그램 복구",
+    "caption_and_following_text": "- 시스템 및 네트워크 정상화 단계\n보고단계 - 사고내용 보고(문서화)\n후속조치 - 사고대응 과정에 대한 피드백(미비점 개선)\n<Table 3-16> 단계별 침해사고 대응절차\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.14,
+          391.61,
+          460.27,
+          619.46
+        ],
+        "page_area_fraction": 0.1548
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0061",
+    "caption": "웹 취약점 점검항목",
+    "pdf_page_candidate": 70,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "파일 업로드 시스템 장악\n경로추적 및 파일 다운로드 웹 서버 정보 노출\n데이터 평문전송 중요 정보 노출\n쿠키 변조 사용자 권한 탈취\nURL/파라미터 변조 사용자 권한 탈취\n웹 서버\n디렉터리 인덱싱 시스템 파일 노출",
+    "caption_and_following_text": "관리자 페이지 노출 웹 사이트 정보 노출\n위치 공개 웹 사이트 정보 노출\n웹 서비스 메소드 설정 공격 시스템 장악\n<Table 3-17> 웹 취약점 점검항목\n홈페이지 해킹사고의 경우 보안취약점을 악용한 사이버침해사고의 발생으로 개인정보유출과\n홈페이지 위변조로 인한 피해가 확산되는 관계로 과학기술사이버안전센터에서는 대국민 정보서\n비스의 안정된 제공을 위하여 취약점 진단을 실시하고 있다.\n각급 기관에서는 취약점 진단을 위하여 웹사이트 취약점 진단 기술지원 신청서를 작성하여 과\n학기술사이버안전센터에 관련 정보를 송부하여 접수를 진행한다. 과학기술사이버안전센터에서\n는 해당 자료를 확인 후 대상기관의 요청에 따라 인적자원을 통한 직접 진단과 시스템 자원을 통",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0062",
+    "caption": "웹 취약점 점검결과(유형별)",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "해 직접 해당항목에 대한 조치방안을 수립할 수 있도록 진단체계를 구성하였다.\n(다) 점검 결과분석\n각급 기관에서 운영중인 홈페이지에 대한 취약점 분석결과는 상급 레벨의 취약점이 25개로 발\n견되어 즉시조치에 해당하는 항목으로 파악되었으며, 총 186개의 취약점을 도출하여 해당 기관\n및 홈페이지 담당자에게 통보 조치를 수행하였다.\n구분 상 중 하 합계\n유형별",
+    "caption_and_following_text": "2020 19 127 40 186\n2019 27 107 35 169\n2018 25 102 99 226\n<Table 3-18> 웹 취약점 점검결과(유형별)\n구분 시스템관리 프로그램 보안 사용자 인증 게시판관리 합계\n위험\n도\n2020 135 45 6 0 186\n2019 110 56 3 0 169\n2018 186 40 0 0 226",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0063",
+    "caption": "웹 취약점 점검결과(위험도별)",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "2020 19 127 40 186\n2019 27 107 35 169\n2018 25 102 99 226\n<Table 3-18> 웹 취약점 점검결과(유형별)\n구분 시스템관리 프로그램 보안 사용자 인증 게시판관리 합계\n위험\n도",
+    "caption_and_following_text": "2020 135 45 6 0 186\n2019 110 56 3 0 169\n2018 186 40 0 0 226\n<Table 3-19> 웹 취약점 점검결과(위험도별)\n금번 수행된 취약점 점검에서는 WeDAV 취약점, 계정관리 취약점, 파일 업로드 취약점 등과 같\n은 위험도 상위등급의 취약점은 발견되지 않았으나, 불필요한 Method 허용 취약점, 파일 다운로드\n취약점, SQL Injection 취약점과 같은 위험도 상위 등급의 취약점이 발견되었다.\n웹취약점 점검을 유형별과 위험도별로 구분하여 분석한 결과 전년도에 비해 상위 등급의 취약점\n을 비롯하여 전체적으로 취약점 발견의 건 수가 226건에서 169건으로 현저히 줄어들었다. 또한 위\n험도별 구분에서 시스템관리와 프로그램 보안 관련 건 수가 동일하게 줄어든 것으로 볼 때 매년 진",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0064",
+    "caption": "웹 취약점 점검 세부결과",
+    "pdf_page_candidate": 72,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "12 시스템관리 소스코드 내 중요정보 노출 취약점 중 2\n13 게시판관리 공개용 웹 게시판 취약점 중 0\n14 프로그램\n보안 크로스사이트스립트 취약점 중 28\n15 프로그램\n보안 SQL Injection 취약점 상 11\n16 사용자",
+    "caption_and_following_text": "인증 권한인증 취약점 중 6\n17 시스템관리 에러처리 취약점 하 6\n합계 186\n<Table 3-20> 웹 취약점 점검 세부결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0065",
+    "caption": "사이버 모의훈련 기술지원 절차",
+    "pdf_page_candidate": 73,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "(과학기술사이버안전센터 / 2020. 8. 1)\n⇩\n각급기관 ∘ 사이버 모의훈련 자체 계획수립, 협조 요청 (～ ’20. 8. 8)\n⇩\n과학기술사이버안전센터\n∘ 협조 공문 접수 및 사이버 모의훈련 사전 점검 (～ ’20. 8. 10)\n∘ 18년 사이버 모의훈련 기술지원 수행 (～ ’20. 9. 7)",
+    "caption_and_following_text": "∘ 각급기관별 사이버 모의훈련 결과 통보 (～ ’20. 9. 17)\n⇩\n각급기관 ∘ 사이버 모의훈련 결과 활용 : 정보보안 감사 등\n<Figure 3-48> 사이버 모의훈련 기술지원 절차\n과학기술사이버안전센터에서는 사회공학적인 해킹공격에 대응하는 최신 공격 시나리오 반영을\n통해 훈련의 실효성에 주안점을 두었으며, 각급 기관에서는 사이버 모의훈련을 추진하기 위하여\n소속원 및 보안실무자의 대응력 강화를 위한 사이버위기대응 수준 강화에 초점을 두고 모의훈련\n을 추진하였다. 그 결과 사이버 위기대응 1차년도의 2017년보다 전반적으로 대응시간이 향상된\n결과를 가져왔다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0066",
+    "caption": "사이버 모의훈련 기술지원 범위",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "도상훈련 (관심, 주의) ⇨ 정보보안 담당자 ⇨ 대응 보고서, 대응시간 ⇨\n훈련결과\n실전 통보\n훈련\n악성메일\n대응 ⇨ 각급기관 소속원 ⇨ 메일 본문, 첨부파일 열람율\n(전체 신청기관 평균치 대비) ⇨",
+    "caption_and_following_text": "DDoS 공격\n대응 ⇨ 홈페이지\n(기관 선택사항) ⇨ DDoS 공격 임계치 점검 ⇨\n<Figure 3-49> 사이버 모의훈련 기술지원 범위\n(라) 모의훈련 결과분석\n사이버모의훈련 기간 동안 훈련기관에서는 경보 발생에 따른 발령인지 및 대응조치와 관련하\n여 실전훈련과 같이 적극적인 대응과 협조로 원만하게 수행할 수 있었으며, 매년 고도화되는 악\n성메일에 대한 대응체계 강화로 해킹메일 대응 훈련을 추가 시행하였다. 모의훈련 실시결과 총\n46개 기관에서 참여하여 도상훈련 1종과 실전훈련인 악성메일 대응훈련, DDoS 대응 훈련(2종)\n으로 구분하여 실시하였다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0067",
+    "caption": "모의훈련 신청 및 접수현황",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 36,
+    "prefix_match_only": false,
+    "text_before": "2020 38개 기관 48개 기관 40개 기관\n(44개 사이트)\n2019 43개 기관 49개 기관\n(10,652명)\n41개 기관\n(49개 사이트)\n2018 41개 기관 40개 기관",
+    "caption_and_following_text": "(2,937명)\n34개 기관\n(40개 사이트)\n<Table 3-21> 모의훈련 신청 및 접수현황\n① 도상훈련 결과\n사이버 경보단계 위기상황 대응 수준은 상황별(관심·주의) 상황통보문이 1시간 이내 회신률이\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0068",
+    "caption": "사이버 모의훈련 결과(도상훈련)",
+    "pdf_page_candidate": 75,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "관심\n‘17 60분 49분 최단시간 : 17분, 최장시간 : 170분\n‘18 60분 44분 최단시간 : 18분, 최장시간 : 113분\n‘19 60분 34분 최단시간 : 12분, 최장시간 : 60분\n‘20 60분 39분 최단시간 : 8분, 최장시간 : 60분\n주의\n‘17 60분 46분 최단시간 : 18분, 최장시간 : 103분",
+    "caption_and_following_text": "‘18 60분 40분 최단시간 : 18분, 최장시간 : 148분\n‘19 60분 35분 최단시간 : 11분, 최장시간 : 60분\n‘20 60분 44분 최단시간 : 10분, 최장시간 : 60분\n<Table 3-22> 사이버 모의훈련 결과(도상훈련)\n② 악성메일 대응훈련 결과\n악성메일을 열람 후 링크나 첨부파일 실행을 통해 34%의 훈련 대상자가 악성코드에 감염되었\n으며, 그 중에서 67% 훈련 대상자가 악성코드 감염을 신고한 것으로 집계된다. 악성코드 감염율\n의 경우 ’17년도에서 ‘18년도의 경우 전년대비 10% 증가하였으나 다시 10%로 감소하였다. ’19년\n‘20년의 경우 악성코드 감염율이 높아진 것은 훈련 시기에 건강보험 가입관련 정교한 피싱메일\n로 인하여 열람 건수가 증가하였다. 단순열람만으로도 악성코드를 감염한다고 가정할 경우에는",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0069",
+    "caption": "사이버 모의훈련 결과(악성메일 대응)",
+    "pdf_page_candidate": 75,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "전년도 38%에서 60%로 감염 가능성이 수치가 증가하였던 것으로 나타났다.\n구 분\n악성코드 미감염 악성코드 감염\n미열람 단순열람 악성링크/첨부파일 실행\n전체기관\n평균 대응율(%)\n‘17 49% 37% 14%",
+    "caption_and_following_text": "‘18 48% 28% 24%\n‘19 62% 28% 10%\n‘20 38% 26% 34%\n<Table 3-23> 사이버 모의훈련 결과(악성메일 대응)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0070",
+    "caption": "사이버 모의훈련 결과(악성메일 대응)",
+    "pdf_page_candidate": 76,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "구 분\n공격 유형별 대응 결과\n전체평균\n대역폭 초과 홈페이지\n부하가중 통합공격\n공격차단율(%)\n‘17 98% 93.1% 100% 97%",
+    "caption_and_following_text": "‘18 100% 100% 100% 100%\n‘19 96% 95% 98% 96%\n‘20 98% 95% 98% 97%\n<Table 3-24> 사이버 모의훈련 결과(악성메일 대응)\n(마) 시사점\n사이버모의훈련 기간 동안은 담당자 및 상황인력의 대비태세를 준비하여 경보 발령인지와 대\n응조치에 대한 조치가 원활하게 수행되었다. 그러나 도상훈련의 경우 일부 대응조치 지연기관이\n발생하였으며, 이는 지속적인 모의훈련을 통해 숙달된 환경에서 더욱 결과치가 향상할 것으로\n기대된다. 실제로 금년도의 경우 일부 지표에서 17년도, 18년도 대비 향상된 지표가 일부 존재하\n였다.",
+    "section_context_candidate": "17 국가데이터공유 시스템 연구데이터공유센터 정보시스템 전산실 통합전산실 10G",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0071",
+    "caption": "KISTI 주요정보통신기반시설 추진체계(외부협력 포함)",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 41,
+    "prefix_match_only": false,
+    "text_before": "-장애 및 복구 지원\n-SUN지원팀 버유지보수\n-슈퍼컴퓨팅 네트워크 및\n보안유지보수\n국가슈퍼컴퓨팅시스템\n침해사고대응지원\n슈퍼컴퓨팅종합상황실",
+    "caption_and_following_text": "-슈퍼컴퓨팅 장애 모니터링\n-슈퍼컴퓨팅 침해사고\n대응지원\n<Figure 3-50> KISTI 주요정보통신기반시설 추진체계(외부협력 포함)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 주요정보통신기반시설 개요",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0072",
+    "caption": "국가과학기술연구망 주요정보통신기반시설 지정현황",
+    "pdf_page_candidate": 79,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 68 -\n(4) 주요정보통신기반시설 구성 및 관리체계\n한국과학기술정보연구원은 KEONET을 통한 200여개의 각급기관으로의 네트워크 중심 기관",
+    "caption_and_following_text": "으로 백본라우터에 대해 주요정보통신기반시설로 지정되었다. 국가과학기술연구망센터는 국내\n및 국제 백본라우터에 대한 보안관리체계를 수립하고 매년 주요정보통신기반시설 취약점 점검\n을 통해 대상시스템에 대한 취약점 보완조치를 추진하고 있다.\n<Figure 3-51> 국가과학기술연구망 주요정보통신기반시설 지정현황\n국가슈퍼컴퓨팅센터에서는 슈퍼컴퓨터 5호기(NURION)을 비롯하여 관련 보안장비와 네트워\n킹 장비를 포함하여 주요정보통신기반시설로 지정하여 운영하고 있다. 국가슈퍼컴퓨팅을 관리\n운영하는 슈퍼컴퓨팅서비스센터에서는 침입차단시스템을 비롯하여 OTP 인증서버, 계정관리 서\n버, DDoS 장비 등의 보안장비를 운영 중에 있다.\n<Figure 3-52> 국가슈퍼컴퓨팅센터 주요정보통신기반시설 지정현황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 주요정보통신기반시설 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.86,
+          441.9,
+          451.26,
+          643.41
+        ],
+        "page_area_fraction": 0.133
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.48,
+          113.24,
+          441.52,
+          310.56
+        ],
+        "page_area_fraction": 0.1226
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0073",
+    "caption": "국가슈퍼컴퓨팅센터 주요정보통신기반시설 지정현황",
+    "pdf_page_candidate": 79,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "(4) 주요정보통신기반시설 구성 및 관리체계\n한국과학기술정보연구원은 KEONET을 통한 200여개의 각급기관으로의 네트워크 중심 기관\n으로 백본라우터에 대해 주요정보통신기반시설로 지정되었다. 국가과학기술연구망센터는 국내\n및 국제 백본라우터에 대한 보안관리체계를 수립하고 매년 주요정보통신기반시설 취약점 점검\n을 통해 대상시스템에 대한 취약점 보완조치를 추진하고 있다.\n<Figure 3-51> 국가과학기술연구망 주요정보통신기반시설 지정현황\n국가슈퍼컴퓨팅센터에서는 슈퍼컴퓨터 5호기(NURION)을 비롯하여 관련 보안장비와 네트워",
+    "caption_and_following_text": "킹 장비를 포함하여 주요정보통신기반시설로 지정하여 운영하고 있다. 국가슈퍼컴퓨팅을 관리\n운영하는 슈퍼컴퓨팅서비스센터에서는 침입차단시스템을 비롯하여 OTP 인증서버, 계정관리 서\n버, DDoS 장비 등의 보안장비를 운영 중에 있다.\n<Figure 3-52> 국가슈퍼컴퓨팅센터 주요정보통신기반시설 지정현황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 주요정보통신기반시설 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.86,
+          441.9,
+          451.26,
+          643.41
+        ],
+        "page_area_fraction": 0.133
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.48,
+          113.24,
+          441.52,
+          310.56
+        ],
+        "page_area_fraction": 0.1226
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0074",
+    "caption": "주요정보통신기반시설 취약점 점검 추진 일정",
+    "pdf_page_candidate": 80,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 69 -\n과학기술사이버안전센터에서는 국가정보원으로부터 매년 실시되는 주요정보통신기반시설 이\n행점검에 대비하여 정보보호전문기업 선정 및 취약점 점검을 수행하였다. 수행기관에서는 정보\n보호 수준평가를 통해 기반시설별 주요 취약점과 수준향상을 위한 조치 이행으로 관리적(26건)",
+    "caption_and_following_text": ", 물리적(9건), 기술적(147건)으로 총 182개의 취약점을 분석하여 점검을 실시하였다. 점검 시 도\n출된 취약점은 즉시조치, 단기, 중장기, 위험수용으로 구분하여 각각의 위험도에 따라 분류되어\n평가 수행 및 조치계획을 수립하여 제출하였다.\n<Figure 3-53> 주요정보통신기반시설 취약점 점검 추진 일정\n주요정보통신기반시설 취약점 점검은 기반시설의 네트워크, 연계서버(UNIX, Windows), 연\n계네트워크, 연계 PC를 중심으로 수행하였고, 기반시설 내 네트워크와 백본, 연계시스템으로 구\n분하여 관리적, 물리적, 기술적 취약점이 도출되었다.\n관리적 취약점의 경우 관리적부문의 전체 총점이 부여되고 각 해당 항목별로 정보보호수준에\n대한 정보가 부여된다. 인적보안, 자산분류, 매체관리, 교육 및 훈련, 접근통제, 업무 연속성 부문\n으로 구분되어 실시되며, 보통 또는 미흡 수준으로 개선을 요구하는 레벨을 구분하며 총 114개의",
+    "section_context_candidate": "가. 주요정보통신기반시설 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.34,
+          409.21,
+          484.66,
+          621.37
+        ],
+        "page_area_fraction": 0.1684
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0075",
+    "caption": "주요정보통신기반시설 정보보호 수준평가 결과",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "신규장비 도입으로 진단대상이 증가하면서 장비 설정 및 보안정책 적용 하는 과정에서 점검\n하였기 때문이며, 현재는 진단취약점에 대해서 조치를 완료하였으며, 물리적인 부문의 점수 향상은\n전산실 이전으로 전체적인 인프라 체계 구축 및 취약점 보완 완료함으로써 향상되었다.\n주요정보통신기반시설 실전대응능력 강화를 위한 사이버공격 대응 모의훈련 및 재난대비 모의\n훈련을 실시하였고, 침해사고 건 수 0건으로 피해 방어율을 100%로 유지하였다. 또한 취약점 분\n석․평가로 모의해킹, 모의훈련 시 도출된 취약점에 대한 보완조치로 잠재적 위협을 최소화하였\n으며, 침해사고에 대한 운영관리 절차 보완 등의 점검 및 모니터링 강화로 체계적인 감시 및 대",
+    "caption_and_following_text": "응체계를 확립하였다. 마지막으로 재난대비 신속한 업무 복구 및 비상대응 체계 확립을 위한 업\n무연속성(BCP) 계획 보완 및 네트워크 이중화 체제 마련, BCP 모의훈련 실시로 대응체계 강화\n및 업무 공백을 최소화 할 수 있는 체계를 조성하였다는데 의의를 둔다.\n<Figure 3-54> 주요정보통신기반시설 정보보호 수준평가 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 주요정보통신기반시설 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.34,
+          247.58,
+          484.66,
+          459.74
+        ],
+        "page_area_fraction": 0.1684
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0076",
+    "caption": "KISTI 개인정보보호 추진체계",
+    "pdf_page_candidate": 82,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 71 -\n5. 기관 개인정보보호 관리체계 정립\n가. KISTI 개인정보보호 추진체계 수립\n(1) 개인정보보호 추진체계\nKISTI는 최근 개인정보보호법 개정과 함께 정부기관 개인정보 보호지침 제정에 따른 범정부\n차원에서 추진 중인 개인정보보호 관리체계 강화와 관련하여 연구원의 개인정보 유·노출 방지\n및 대응 전략 수립을 위하여 아래와 같이 관리체계를 정비하였다. 이는 보고체계를 부서장에서\n경영진으로 상향함으로 개인정보 책임을 강화하였으며, 개인정보 보호업무를 전 기관차원에서\n공유하고 임직원의 개인정보 인식 제고에 긍정적인 효과를 가져 올 수 있다.\n원 장",
+    "section_context_candidate": "가. KISTI 개인정보보호 추진체계 수립",
+    "heading_candidates": [
+      "가. KISTI 개인정보보호 추진체계 수립"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0077",
+    "caption": "개인정보보호 지침 주요내용",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 36,
+    "prefix_match_only": false,
+    "text_before": "방지)\n• (개정) 안전조치의무내 접속기록 보관 관리 강화\n① 개인정보 취급자가 개인정보처리시스템에 접속한 기록은 최소 1년\n6개월 이상 보관하여야 한다. 다만, 5만명 이상의 정보주체에 관하여\n개인정보를 처리하거나, 고유식별정보 또는 민감정보를 처리하는 개인\n정보처리시스템의 경우에는 2년 이상 보관․관리하여야 한다.\n② 개인정보취급자의 접속 기록은 개인정보의 분실·도난·유출·위조·변조",
+    "caption_and_following_text": "또는 훼손 등에 대응하기 위하여 개인정보 처리시스템의 접속기록을 월\n반기별로 1회 이상 점검하여야 한다. 특히, 1,000건 이상 개인정보를 다운\n로드한 것이 발견되었을 경우에는 그 사유를 반드시 확인하여야 한다.\n<Table 3-25> 개인정보보호 지침 주요내용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. KISTI 개인정보보호 추진체계 수립",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0078",
+    "caption": "부서별 개인정보컨설팅 추진 체계",
+    "pdf_page_candidate": 84,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 45,
+    "prefix_match_only": false,
+    "text_before": "- 개인정보보호법 준수를 위한 안전성확보조치 안내\n(접근권한, 접속기록, 암호화 등 절차 안내)\n추진실적\n∘ 6개 부서 컨설팅 완료\n(NTIS센터, 과학기술연구망센터, 학술정보공유센터, 융합서비스센터,\n대외협력실, 재무관리실)\n주요",
+    "caption_and_following_text": "추진사례\n① 개인정보 처리업무 개선(행정) : (기존) 개인정보 단순 수집 ⇒ (변경) 법령에 근거한 양식 준수로 全계약업무 적용\n② 관리수준 예방 점검활동(연구) : (기존) 수집업무 점검 ⇒ (변경) 개인정보 관련업무 대상 적법성 검증, 현행화 실시\n<Figure 3-56> 부서별 개인정보컨설팅 추진 체계\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. KISTI 개인정보보호 추진체계 수립",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          393.95,
+          166.28,
+          511.09,
+          314.15
+        ],
+        "page_area_fraction": 0.0346
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0079",
+    "caption": "맞춤형 개인정보보호 컨설팅 화면(기관 홈페이지)",
+    "pdf_page_candidate": 85,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "1차로 수행할 수 있는 환경을 구성하였으며, 기술적 조치로 온라인서비스로 업무PC와 정보\n시스템을 대상으로 개인정보 노출에 대한 수시점검 및 정기점검 체계를 제공하고 있다.\n구 분 대 상 주요 개인정보 점검 항목\n관리적 조치 오프라인 업무\n개인정보 처리 업무별 취약점 점검(수집양식, 문서 등) 서면점검(1차) → 방문점검(2차)을 통한 미흡사항 조치결과 확인\n기술적 조치 온라인\n업무PC (수시점검) 업무PC 대상 실시간 개인정보 노출 점검 모니터링",
+    "caption_and_following_text": "(수시점검) 서버 대상 실시간 개인정보 접속기록 로그 모니터링\n(정기점검) URL기반 고유식별정보 노출 점검 모니터링 홈페이지\n<Table 3-26> 개인정보 선제적 예방활동 체계\n<Figure 3-57> 맞춤형 개인정보보호 컨설팅 화면(기관 홈페이지)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. KISTI 개인정보보호 추진체계 수립",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.38,
+          422.14,
+          507.36,
+          767.09
+        ],
+        "page_area_fraction": 0.2921
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0080",
+    "caption": "개인정보 선제적 예방활동 체계",
+    "pdf_page_candidate": 85,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "진단 체크리스트를 배포하여 개인정보취급자로 하여금 개인정보 보호환경에 대한 자체 점검을\n1차로 수행할 수 있는 환경을 구성하였으며, 기술적 조치로 온라인서비스로 업무PC와 정보\n시스템을 대상으로 개인정보 노출에 대한 수시점검 및 정기점검 체계를 제공하고 있다.\n구 분 대 상 주요 개인정보 점검 항목\n관리적 조치 오프라인 업무\n개인정보 처리 업무별 취약점 점검(수집양식, 문서 등) 서면점검(1차) → 방문점검(2차)을 통한 미흡사항 조치결과 확인\n기술적 조치 온라인",
+    "caption_and_following_text": "업무PC (수시점검) 업무PC 대상 실시간 개인정보 노출 점검 모니터링\n(수시점검) 서버 대상 실시간 개인정보 접속기록 로그 모니터링\n(정기점검) URL기반 고유식별정보 노출 점검 모니터링 홈페이지\n<Table 3-26> 개인정보 선제적 예방활동 체계\n<Figure 3-57> 맞춤형 개인정보보호 컨설팅 화면(기관 홈페이지)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. KISTI 개인정보보호 추진체계 수립",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.38,
+          422.14,
+          507.36,
+          767.09
+        ],
+        "page_area_fraction": 0.2921
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0081",
+    "caption": "개인정보 법령 준수를 위한 주요 점검사항",
+    "pdf_page_candidate": 86,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "․ 사업을 종료하는 경우\n․ 파기시 복구・재생이 불가해야 하며, 위반시\n2년이하 징역 또는 2천만원 이하 벌금\n․ 개인정보 누출 시 24시간\n이내 이용자 및 전문\n부서를 통해 KISA 통지\n․ 개인정보의 안전성 확보를",
+    "caption_and_following_text": "위한 기술적․관리적 조치\n*법령29조 5개 항목(접근권한\n접속기록, 암호화 등 필수조치)\n<Figure 3-58> 개인정보 법령 준수를 위한 주요 점검사항\n측정지표 1. 개인정보보호 정책 및 자원\n진단항목\n질문사항 예 아니요 해당없음\n1.1. 개인정보보호 업무를 수행하기 위한 조직이 구성되어 있는가?\n1.2. 개인정보보호를 위한 기반이(예산편성 등) 마련되어 있는가?\n1.3. 개인정보 보호책임자가 지정되어 있는가?",
+    "section_context_candidate": "1.1. 개인정보보호 업무를 수행하기 위한 조직이 구성되어 있는가?",
+    "heading_candidates": [
+      "1.1. 개인정보보호 업무를 수행하기 위한 조직이 구성되어 있는가?",
+      "1.4. 개인정보 보호책임자는 교육, 관리․감독 등 역할을 수행하고 있는가?",
+      "1.5. 개인영상정보 보호책임자 지정 및 역할을 수행하고 있는가?",
+      "1.6. 개인정보의 안전한 처리를 위한 내부 관리계획이 어 있는가?",
+      "1.7. 개인정보처리자가 내부감사(관리․감독 등)를 수행 하는가?"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0082",
+    "caption": "개인정보보호 자가진단 체크리스트(일부 발췌)",
+    "pdf_page_candidate": 86,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 41,
+    "prefix_match_only": false,
+    "text_before": "1.6. 개인정보의 안전한 처리를 위한 내부 관리계획이 어 있는가?\n1.7. 개인정보처리자가 내부감사(관리․감독 등)를 수행 하는가?\n세부설명\n1.1. 개인정보보호 전담조직 구성\n【설명】개인정보보호 활동을 수행하고 관리하는 인력들에 대한 책임, 권한 및 역할을 정의\n하여야 한다. 부서별 개인정보보호 업무를 총괄하여 수행할 수 있는 조직을 지정․\n운영하여 개인정보보호에 관한 예산 및 인력을 운영할 수 있도록 개인정보보호",
+    "caption_and_following_text": "업무담당자에게 책임과 권한을 부여한다.\n【예시】개인정보보호 전담팀(총괄)을 구성하여 정책을 일관성 있게 추진 및 수행하며, 업무\n별로(홈페이지분야, DB분야, 민원분야 등) 담당자를 지정․운영한다.\n<Table 3-26> 개인정보보호 자가진단 체크리스트(일부 발췌)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1.1. 개인정보보호 업무를 수행하기 위한 조직이 구성되어 있는가?",
+    "heading_candidates": [
+      "1.1. 개인정보보호 업무를 수행하기 위한 조직이 구성되어 있는가?",
+      "1.4. 개인정보 보호책임자는 교육, 관리․감독 등 역할을 수행하고 있는가?",
+      "1.5. 개인영상정보 보호책임자 지정 및 역할을 수행하고 있는가?",
+      "1.6. 개인정보의 안전한 처리를 위한 내부 관리계획이 어 있는가?",
+      "1.7. 개인정보처리자가 내부감사(관리․감독 등)를 수행 하는가?"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0083",
+    "caption": "개인정보 접속기록 관련 개정사항(행안부 고시 제2019-47호)",
+    "pdf_page_candidate": 87,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "1) 접속기록의 기록항목 구체화 : 누가(접속자 ID, IP), 언제(날짜 및 시간), 누구의(누구의 정보접근),\n어떻게(열람/저장*/수정/삭제/출력) *저장 시 사유를 반드시 기록해야함\n2) 접속기록 보관기간 최소 1년 이상으로 변경 예정(기존 6개월 이상)\n- (기본) 모든 개인정보처리시스템은 1년 이상 보관, 5만명 이상 개인정보처리(고유/민감 포함)시스템은\n2년 이상\n- (보관기간 연장) 모든 개인정보처리시스템에 때해 2022년부터 3년 이상, 2025년부터 5년 이상으로 연장\n3) 접속기록 점건 주기",
+    "caption_and_following_text": "- 내부 관리계획 이행실태 점검에 접속기록 관한 사항 포함\n- 접속기록 점검 주기 단축 : 반기별 1회 이상 → 월 1회 이상 (강화)\n- 개인정보를 다운로드 한 경우 그 사유를 반드시 확인 (신설)\n<Figure 3-54> 개인정보 접속기록 관련 개정사항(행안부 고시 제2019-47호) 개인정보 모니터링체계는 접속기록에 대한 모니터링과 개인정보 유출에 관한 모니터링으로\n구분할 수 있으며, 접속기록에 대한 모니터링의 경우 분석현황 대시보드를 통해 모니터링\n에이전트가 설치된 정보시스템을 중심으로 수행하고 있다.\n<Figure 3-54> 개인정보 접속기록 분석현황 및 결과보고\n개인정보 분석 결과보고는 연구원내 통합관리 및 각각 개별정보시스템별로 구분하여 수행할\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1.7. 개인정보처리자가 내부감사(관리․감독 등)를 수행 하는가?",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.85,
+          147.84,
+          286.06,
+          274.52
+        ],
+        "page_area_fraction": 0.0542
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.11,
+          136.71,
+          392.87,
+          280.15
+        ],
+        "page_area_fraction": 0.0292
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          399.71,
+          136.47,
+          507.36,
+          285.89
+        ],
+        "page_area_fraction": 0.0321
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0084",
+    "caption": "개인정보 접속기록 분석현황 및 결과보고",
+    "pdf_page_candidate": 87,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "- (기본) 모든 개인정보처리시스템은 1년 이상 보관, 5만명 이상 개인정보처리(고유/민감 포함)시스템은\n2년 이상\n- (보관기간 연장) 모든 개인정보처리시스템에 때해 2022년부터 3년 이상, 2025년부터 5년 이상으로 연장\n3) 접속기록 점건 주기\n- 내부 관리계획 이행실태 점검에 접속기록 관한 사항 포함\n- 접속기록 점검 주기 단축 : 반기별 1회 이상 → 월 1회 이상 (강화)\n- 개인정보를 다운로드 한 경우 그 사유를 반드시 확인 (신설)",
+    "caption_and_following_text": "<Figure 3-54> 개인정보 접속기록 관련 개정사항(행안부 고시 제2019-47호) 개인정보 모니터링체계는 접속기록에 대한 모니터링과 개인정보 유출에 관한 모니터링으로\n구분할 수 있으며, 접속기록에 대한 모니터링의 경우 분석현황 대시보드를 통해 모니터링\n에이전트가 설치된 정보시스템을 중심으로 수행하고 있다.\n<Figure 3-54> 개인정보 접속기록 분석현황 및 결과보고\n개인정보 분석 결과보고는 연구원내 통합관리 및 각각 개별정보시스템별로 구분하여 수행할\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1.7. 개인정보처리자가 내부감사(관리․감독 등)를 수행 하는가?",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.85,
+          147.84,
+          286.06,
+          274.52
+        ],
+        "page_area_fraction": 0.0542
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.11,
+          136.71,
+          392.87,
+          280.15
+        ],
+        "page_area_fraction": 0.0292
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          399.71,
+          136.47,
+          507.36,
+          285.89
+        ],
+        "page_area_fraction": 0.0321
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0085",
+    "caption": "개인정보 노출 모니터링 수행 보고서",
+    "pdf_page_candidate": 88,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 77 -\n수 있으며, 각각의 관리수준에 따라 맞춤형으로 대응할 수 있는 장점을 가지고 있다. 현재 전체\n정보시스템을 대상으로 접속기록 솔루션이 설치되지 않았으나, 주요 정보시스템을 중심으로\n접속기록 솔루션을 적용하고 있으며, 개인정보 위험도가 높은 수준의 정보시스템을 선별적으로\n구분하여 개인정보보호 정책을 부합할 수 있도록 부서별 컨설팅을 수행하고 있다.",
+    "caption_and_following_text": "개인정보 노출 모니터링의 경우 연구원내 운영 중인 모든 홈페이지를 대상으로 노출점검을\n실시하고 있으며, 보안상 취약요인을 점검하는 웹사이트 보안수준 자가진단과 더불어 개인정보\n노출에 대한 점검을 정기적으로 수행하고 있다.\n<Figure 3-54> 개인정보 노출 모니터링 수행 보고서\n개인정보 기술적 조치의 직원을 대상으로 하는 개인정보자원(업무PC)에 대해서는 개인정보\n검출에 대한 점검 솔루션을 적용하여 실시간 검출 및 적용을 수행하고 있다. 연구원의\n개인정보자원에 대해서는 개인정보 노출점검 에이전트를 설치하도록 정책을 적용하고 있으며,\n개인정보 검출 건에 대한 PC취약점 점수 반영으로 직원 개인이 관련 사항을 직접 확인하고\n조치할 수 있도록 반영하였다. 이를 통해 개인정보에 대한 임직원의 인식을 고취시키는 것과\n동시에 개인정보 전문부서를 통하여 관련 내용을 지원받을 수 있도록 안내함으로 연구원의",
+    "section_context_candidate": "1.7. 개인정보처리자가 내부감사(관리․감독 등)를 수행 하는가?",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.03,
+          440.46,
+          445.97,
+          628.8
+        ],
+        "page_area_fraction": 0.1204
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.57,
+          158.26,
+          198.84,
+          249.85
+        ],
+        "page_area_fraction": 0.0231
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.3,
+          165.68,
+          370.16,
+          242.43
+        ],
+        "page_area_fraction": 0.0233
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          363.91,
+          167.12,
+          499.43,
+          241.11
+        ],
+        "page_area_fraction": 0.02
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0086",
+    "caption": "개인정보자원 대상 개인정보 노출점검시스템 적용 사례",
+    "pdf_page_candidate": 88,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "실시하고 있으며, 보안상 취약요인을 점검하는 웹사이트 보안수준 자가진단과 더불어 개인정보\n노출에 대한 점검을 정기적으로 수행하고 있다.\n<Figure 3-54> 개인정보 노출 모니터링 수행 보고서\n개인정보 기술적 조치의 직원을 대상으로 하는 개인정보자원(업무PC)에 대해서는 개인정보\n검출에 대한 점검 솔루션을 적용하여 실시간 검출 및 적용을 수행하고 있다. 연구원의\n개인정보자원에 대해서는 개인정보 노출점검 에이전트를 설치하도록 정책을 적용하고 있으며,\n개인정보 검출 건에 대한 PC취약점 점수 반영으로 직원 개인이 관련 사항을 직접 확인하고",
+    "caption_and_following_text": "조치할 수 있도록 반영하였다. 이를 통해 개인정보에 대한 임직원의 인식을 고취시키는 것과\n동시에 개인정보 전문부서를 통하여 관련 내용을 지원받을 수 있도록 안내함으로 연구원의\n개인정보 관리수준을 강화할 수 있는 조치로 추진하였다.\n<Figure 3-54> 개인정보자원 대상 개인정보 노출점검시스템 적용 사례\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1.7. 개인정보처리자가 내부감사(관리․감독 등)를 수행 하는가?",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.03,
+          440.46,
+          445.97,
+          628.8
+        ],
+        "page_area_fraction": 0.1204
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.57,
+          158.26,
+          198.84,
+          249.85
+        ],
+        "page_area_fraction": 0.0231
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.3,
+          165.68,
+          370.16,
+          242.43
+        ],
+        "page_area_fraction": 0.0233
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          363.91,
+          167.12,
+          499.43,
+          241.11
+        ],
+        "page_area_fraction": 0.02
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0087",
+    "caption": "연구사업 단계별 목표",
+    "pdf_page_candidate": 89,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 31,
+    "prefix_match_only": false,
+    "text_before": "개발․시범적용\n· 이상행위 탐지기술 개발·시범적용\n· 원내 정보보안 관리체계 안정화\n· 과학기술계 보안관제 통합운영\n안정화\n· 보안관제 전용 인공지능 알고리즘\n적용․고도화",
+    "caption_and_following_text": "· 이상행위 탐지기술 적용·고도화\n· 원내 정보보안 관리체계 고도화\n보안관제 자동화 기술연구 기반조성 보안관제 자동화 기술연구 개발 ․ 적용 보안관제 자동화 기술연구 고도화․ 확산\n<Table 4-1> 연구사업 단계별 목표\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제4장 목표달성도 및 관련분야에의 기여도",
+    "heading_candidates": [
+      "제4장 목표달성도 및 관련분야에의 기여도",
+      "제 1절 연구개발 목표달성도"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0088",
+    "caption": "사이버안전센터 대응지원 신속도 관련 성과지표",
+    "pdf_page_candidate": 90,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 54,
+    "prefix_match_only": false,
+    "text_before": "15분\n경보이벤트 발생 후\n대응에 필요한 최소시간\n(목표치 15분)\n침해시도 탐지부터\n분석, 대상기관\n통보까지 소요시간",
+    "caption_and_following_text": "보안관제시스템\n대응지원 DB\n(소요시간)\n<Table 4-2> 사이버안전센터 대응지원 신속도 관련 성과지표\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 세부 성과지표 수립",
+    "heading_candidates": [
+      "1. 세부 성과지표 수립"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0089",
+    "caption": "2020년 성과지표 및 실행계획",
+    "pdf_page_candidate": 91,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "· 전체 사이버위협 탐지·대응지원 건수 대\n비 골든타임 이내 대응지원 건수의 비율\n2.신·변종공격 대응수준 · 이상행위 탐지· 분석 기술적용을 통한\n신· 변종공격 대응역량 강화\n· 전체 사이버위협 탐지․대응지원 건수\n대비 신·변종공격 대응지원 건수의 비율\n3.침해사고 예방활동 · 실용적 보안기술 접목을 통한 침해사고",
+    "caption_and_following_text": "예방·대응 활동, 사용자 기술지원 강화\n· 침해사고 예방을 위한 교육, 컨설팅 및\n정보시스템 취약점 점검 실적\n<Table 4-3> 2020년 성과지표 및 실행계획\n2. 성과지표 달성도\n각 부문별로 연구사업 추진 결과 각 성과지표별로 100% 이상의 실적을 달성하였으며, 세부 실\n적에 대한 분석은 앞서 ‘제3장 연구개발 수행내용 및 결과’에서 다룬바 있다.\n성과목표 성과지표 ’20년\n목표 핵심스펙 달성도\n사이버안전",
+    "section_context_candidate": "2. 성과지표 달성도",
+    "heading_candidates": [
+      "2. 성과지표 달성도"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S26-V0090",
+    "caption": "부문별 성과요약",
+    "pdf_page_candidate": 91,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 51,
+    "prefix_match_only": false,
+    "text_before": "․침해위협정보 실시간 가시화 시스템 고도화\n침해사고\n예방활동\n100건 111건 138%\n3-1. 사이버보안 사전예방활동 -\n․대외서비스 취약점 점검 활동:111건\n․침해사고 예방교육 가이드․홍보물발간:4건",
+    "caption_and_following_text": "․주요정보통신기반시설모의훈련․교육:2건\n-\n3-2. 맞춤형 개인정보보호 컨설팅 - ․부서별 맞춤형 개인정보보호컨설팅: 7건 -\n<Table 4-4> 부문별 성과요약\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 성과지표 달성도",
+    "heading_candidates": [
+      "2. 성과지표 달성도"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

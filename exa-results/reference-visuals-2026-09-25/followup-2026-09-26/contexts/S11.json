@@ -1,0 +1,3457 @@
+[
+  {
+    "visual_id": "S11-V0001",
+    "caption": "반도체 시장에서 logic device와 programmable logic device의 비율, logic device의 연평균 성장률",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "고 있으며 2009년을 시점으로 ASIC, ASSP 형태의 design은 감소되고 있으며, PLD, FPGA\n형태의 design은 증가하고 있는 것으로 보고되었음. (Ref : iSupply, March 2009)\n<그림 11. 반도체 시장에서 logic device와 programmable logic device의\n비율, logic device의 연평균 성장률>\n• 그림 12 에 보인 것과 같은 programmable logic device 중 FPGA형태의 logic device\n(그림 13, 14) 는 강력하고 유연한 embedded SoC 구현, 적은 하드웨어 자원으로 고성능\n시스템 구현, 짧은 시간에 적은 비용으로 쉽게 수정가능, 시장의 변화에 따른 쉬운 적용\n등의 장점으로 인해 많은 연구가 진행되고 있으며, Programmable logic device에서 차지\n하는 비중 또한 가장 높은 것으로 알려져 있음.\n<그림 12. XILINX 社의 대표적인 FPGA",
+    "section_context_candidate": "1-1-4. 프로토타입 시스템 및 테스트 플랫폼 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.68,
+          594.67,
+          525.44,
+          745.7
+        ],
+        "page_area_fraction": 0.1161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.73,
+          396.41,
+          323.71,
+          489.18
+        ],
+        "page_area_fraction": 0.0341
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          406.1,
+          397.85,
+          493.41,
+          485.11
+        ],
+        "page_area_fraction": 0.0152
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          154.27,
+          529.04,
+          299.55
+        ],
+        "page_area_fraction": 0.1145
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0002",
+    "caption": "XILINX 社의 대표적인 FPGA 제품군",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "고 있으며 2009년을 시점으로 ASIC, ASSP 형태의 design은 감소되고 있으며, PLD, FPGA\n형태의 design은 증가하고 있는 것으로 보고되었음. (Ref : iSupply, March 2009)\n<그림 11. 반도체 시장에서 logic device와 programmable logic device의\n비율, logic device의 연평균 성장률>\n• 그림 12 에 보인 것과 같은 programmable logic device 중 FPGA형태의 logic device\n(그림 13, 14) 는 강력하고 유연한 embedded SoC 구현, 적은 하드웨어 자원으로 고성능\n시스템 구현, 짧은 시간에 적은 비용으로 쉽게 수정가능, 시장의 변화에 따른 쉬운 적용",
+    "caption_and_following_text": "등의 장점으로 인해 많은 연구가 진행되고 있으며, Programmable logic device에서 차지\n하는 비중 또한 가장 높은 것으로 알려져 있음.\n<그림 12. XILINX 社의 대표적인 FPGA\n제품군>\n<그림 13. ALTERA (now Intel)\n社의 대표적인 FPGA 제품군>\n<그림 14. Design project에서 각각의 logic device가 차지하는 비중,\n2005-2006(왼쪽), 2007-2008(오른쪽),\nRef: A. G. Edwards, EE Times and Beacon Technology Partners, 2006>\n• 이러한 FPGA 기술 관련 시장 점유율은 크게 해외 업체인 자일링스(Xilinx) 와 알테라",
+    "section_context_candidate": "1-1-4. 프로토타입 시스템 및 테스트 플랫폼 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.68,
+          594.67,
+          525.44,
+          745.7
+        ],
+        "page_area_fraction": 0.1161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.73,
+          396.41,
+          323.71,
+          489.18
+        ],
+        "page_area_fraction": 0.0341
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          406.1,
+          397.85,
+          493.41,
+          485.11
+        ],
+        "page_area_fraction": 0.0152
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          154.27,
+          529.04,
+          299.55
+        ],
+        "page_area_fraction": 0.1145
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0003",
+    "caption": "ALTERA (now Intel) 社의 대표적인 FPGA 제품군",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "<그림 11. 반도체 시장에서 logic device와 programmable logic device의\n비율, logic device의 연평균 성장률>\n• 그림 12 에 보인 것과 같은 programmable logic device 중 FPGA형태의 logic device\n(그림 13, 14) 는 강력하고 유연한 embedded SoC 구현, 적은 하드웨어 자원으로 고성능\n시스템 구현, 짧은 시간에 적은 비용으로 쉽게 수정가능, 시장의 변화에 따른 쉬운 적용\n등의 장점으로 인해 많은 연구가 진행되고 있으며, Programmable logic device에서 차지\n하는 비중 또한 가장 높은 것으로 알려져 있음.",
+    "caption_and_following_text": "<그림 12. XILINX 社의 대표적인 FPGA\n제품군>\n<그림 13. ALTERA (now Intel)\n社의 대표적인 FPGA 제품군>\n<그림 14. Design project에서 각각의 logic device가 차지하는 비중,\n2005-2006(왼쪽), 2007-2008(오른쪽),\nRef: A. G. Edwards, EE Times and Beacon Technology Partners, 2006>\n• 이러한 FPGA 기술 관련 시장 점유율은 크게 해외 업체인 자일링스(Xilinx) 와 알테라\n(Altera) 2개 업체에서 전체 시장의 87퍼센트를 점유하고 있음. (그림 15)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1-1-4. 프로토타입 시스템 및 테스트 플랫폼 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.68,
+          594.67,
+          525.44,
+          745.7
+        ],
+        "page_area_fraction": 0.1161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.73,
+          396.41,
+          323.71,
+          489.18
+        ],
+        "page_area_fraction": 0.0341
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          406.1,
+          397.85,
+          493.41,
+          485.11
+        ],
+        "page_area_fraction": 0.0152
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          154.27,
+          529.04,
+          299.55
+        ],
+        "page_area_fraction": 0.1145
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0004",
+    "caption": "Design project에서 각각의 logic device가 차지하는 비중, 2005-2006(왼쪽), 2007-2008(오른쪽), Ref: A. G. Edwards, EE Times and Beacon Technology Partners, 2006",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "(그림 13, 14) 는 강력하고 유연한 embedded SoC 구현, 적은 하드웨어 자원으로 고성능\n시스템 구현, 짧은 시간에 적은 비용으로 쉽게 수정가능, 시장의 변화에 따른 쉬운 적용\n등의 장점으로 인해 많은 연구가 진행되고 있으며, Programmable logic device에서 차지\n하는 비중 또한 가장 높은 것으로 알려져 있음.\n<그림 12. XILINX 社의 대표적인 FPGA\n제품군>\n<그림 13. ALTERA (now Intel)",
+    "caption_and_following_text": "社의 대표적인 FPGA 제품군>\n<그림 14. Design project에서 각각의 logic device가 차지하는 비중,\n2005-2006(왼쪽), 2007-2008(오른쪽),\nRef: A. G. Edwards, EE Times and Beacon Technology Partners, 2006>\n• 이러한 FPGA 기술 관련 시장 점유율은 크게 해외 업체인 자일링스(Xilinx) 와 알테라\n(Altera) 2개 업체에서 전체 시장의 87퍼센트를 점유하고 있음. (그림 15)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1-1-4. 프로토타입 시스템 및 테스트 플랫폼 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.68,
+          594.67,
+          525.44,
+          745.7
+        ],
+        "page_area_fraction": 0.1161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.73,
+          396.41,
+          323.71,
+          489.18
+        ],
+        "page_area_fraction": 0.0341
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          406.1,
+          397.85,
+          493.41,
+          485.11
+        ],
+        "page_area_fraction": 0.0152
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          154.27,
+          529.04,
+          299.55
+        ],
+        "page_area_fraction": 0.1145
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0005",
+    "caption": "2007~2008년 FPGA/PLD 각 업체의 세계 시장에서의 점유율 Ref: 시장 조사 기관 Gartner",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림 15. 2007~2008년 FPGA/PLD 각 업체의 세계 시장에서의 점유율\nRef: 시장 조사 기관 Gartner>\n• FPGA 기술은 아직까지는 제조기술 보다는 설계기술에 의해 기술력이 결정되지만, 새\n로운 소재 및 소자를 도입하여 한번 프로그램 된 FPGA를 재사용함으로써 소자의 활용도\n를 높이는 기술에 대한 관심이 높아지고 있어, 미래 FPGA 시장을 확보하기위해서는 현\n재 제품화된 기술보다는 앞으로 개발될 원천기술을 선점 또는 추격 확보하는 것이 매우\n중요함.\n경쟁기관\n현황\n• 미국의 산업체 및 연구 그룹 중심으로 Programmable System-on-Chip(PSoC), Field",
+    "section_context_candidate": "1-1-4. 프로토타입 시스템 및 테스트 플랫폼 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.54,
+          600.18,
+          480.82,
+          771.71
+        ],
+        "page_area_fraction": 0.1033
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.15,
+          281.57,
+          297.44,
+          385.62
+        ],
+        "page_area_fraction": 0.0288
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          335.82,
+          279.53,
+          521.72,
+          387.66
+        ],
+        "page_area_fraction": 0.0402
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0006",
+    "caption": "RASP 아키텍처 다이어그램",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "재 제품화된 기술보다는 앞으로 개발될 원천기술을 선점 또는 추격 확보하는 것이 매우\n중요함.\n경쟁기관\n현황\n• 미국의 산업체 및 연구 그룹 중심으로 Programmable System-on-Chip(PSoC), Field\nProgrammable Analog Array(FPAA)의 형태의 재구성 시스템 연구가 활발히 진행되고 있\n음. • 대표적인 선두 연구그룹으로는 미국 Georgia Tech의 Paul Hasler 그룹이 있음. 가장 최",
+    "caption_and_following_text": "근 연구된 것으로는 RASP 3.0이 있음 (TVLSI 논문 게재 예정).\n• 하지만 이러한 회로나 아키텍처는 모두 CMOS 트랜지스터 기반으로 하는 것으로서 나\n노 스위칭 소자 기반의 재구성가능 아키텍처를 목표로 하는 본 연구와는 차이가 있음.\n<그림: RASP 아키텍처 다이어그램> <그림: RASP 3.0 칩 사진>\n지식재산\n권 현황\n아날로그 기반 재구성 아키텍처는 최근까지도 계속해서 논문이 출판되는 등 연구가 이루\n어지고 있으나, 나노 스위칭 소자 기반의 재구성가능 아키텍처는 현재 연구 초기 단계이\n므로 논문이나 지식재산권 현황이 극히 찾기 어려움\n표준화",
+    "section_context_candidate": "1-1-4. 프로토타입 시스템 및 테스트 플랫폼 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.54,
+          600.18,
+          480.82,
+          771.71
+        ],
+        "page_area_fraction": 0.1033
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.15,
+          281.57,
+          297.44,
+          385.62
+        ],
+        "page_area_fraction": 0.0288
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          335.82,
+          279.53,
+          521.72,
+          387.66
+        ],
+        "page_area_fraction": 0.0402
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0007",
+    "caption": "RASP 3.0 칩 사진",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "재 제품화된 기술보다는 앞으로 개발될 원천기술을 선점 또는 추격 확보하는 것이 매우\n중요함.\n경쟁기관\n현황\n• 미국의 산업체 및 연구 그룹 중심으로 Programmable System-on-Chip(PSoC), Field\nProgrammable Analog Array(FPAA)의 형태의 재구성 시스템 연구가 활발히 진행되고 있\n음. • 대표적인 선두 연구그룹으로는 미국 Georgia Tech의 Paul Hasler 그룹이 있음. 가장 최",
+    "caption_and_following_text": "근 연구된 것으로는 RASP 3.0이 있음 (TVLSI 논문 게재 예정).\n• 하지만 이러한 회로나 아키텍처는 모두 CMOS 트랜지스터 기반으로 하는 것으로서 나\n노 스위칭 소자 기반의 재구성가능 아키텍처를 목표로 하는 본 연구와는 차이가 있음.\n<그림: RASP 아키텍처 다이어그램> <그림: RASP 3.0 칩 사진>\n지식재산\n권 현황\n아날로그 기반 재구성 아키텍처는 최근까지도 계속해서 논문이 출판되는 등 연구가 이루\n어지고 있으나, 나노 스위칭 소자 기반의 재구성가능 아키텍처는 현재 연구 초기 단계이\n므로 논문이나 지식재산권 현황이 극히 찾기 어려움\n표준화",
+    "section_context_candidate": "1-1-4. 프로토타입 시스템 및 테스트 플랫폼 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.54,
+          600.18,
+          480.82,
+          771.71
+        ],
+        "page_area_fraction": 0.1033
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.15,
+          281.57,
+          297.44,
+          385.62
+        ],
+        "page_area_fraction": 0.0288
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          335.82,
+          279.53,
+          521.72,
+          387.66
+        ],
+        "page_area_fraction": 0.0402
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0008",
+    "caption": "벡터 행렬 연산기의 블럭도",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "§ 핵심 내용",
+    "caption_and_following_text": "- 재구성 가능 벡터행렬 연산기 설계\n§ 인공 신경망 연산은 근사 컴퓨팅(Approximate Computing)의 개념으로 접근이 가능하기 때문에\n16bit 이상의 고해상도 곱셈/덧셈기를 이용하지 않아도 의미있는 결과를 추출할 수 있음\n그림 1. 벡터 행렬 연산기의 블럭도 그림 2. switched-capacitor 적분기\n§ 기능 검증을 위해 입력 8bit, 곱셈 계수 8bit으로 구성됨\n§ 저전력 구현을 위해 스위치 캐패시터 (Switched-Capacitor) 적분기로 구현됨\n§ 나노미터 공정에서도 설계가 가능하도록 최대한 간단한 구조의 적분기를 설계하려고 함. 따라서\n그림 2에서 제안된 인버터 기반의 적분기를 이용하여 벡터 행렬 연산기를 구현함\n그림 3. W = 0, ±32, ±64, ±96, ±127 에 대해 출력한 그래프\n§ 0.18um CMOS 공정을 이용하여 설계하고 이를 10MHz clock으로 구동시키면서 성능을 검증하였",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.21,
+          580.77,
+          311.23,
+          701.83
+        ],
+        "page_area_fraction": 0.045
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          311.23,
+          578.73,
+          501.21,
+          713.58
+        ],
+        "page_area_fraction": 0.0512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.2,
+          395.21,
+          307.15,
+          482.11
+        ],
+        "page_area_fraction": 0.028
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.47,
+          394.97,
+          480.1,
+          480.67
+        ],
+        "page_area_fraction": 0.0284
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0009",
+    "caption": "switched-capacitor 적분기",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "§ 핵심 내용",
+    "caption_and_following_text": "- 재구성 가능 벡터행렬 연산기 설계\n§ 인공 신경망 연산은 근사 컴퓨팅(Approximate Computing)의 개념으로 접근이 가능하기 때문에\n16bit 이상의 고해상도 곱셈/덧셈기를 이용하지 않아도 의미있는 결과를 추출할 수 있음\n그림 1. 벡터 행렬 연산기의 블럭도 그림 2. switched-capacitor 적분기\n§ 기능 검증을 위해 입력 8bit, 곱셈 계수 8bit으로 구성됨\n§ 저전력 구현을 위해 스위치 캐패시터 (Switched-Capacitor) 적분기로 구현됨\n§ 나노미터 공정에서도 설계가 가능하도록 최대한 간단한 구조의 적분기를 설계하려고 함. 따라서\n그림 2에서 제안된 인버터 기반의 적분기를 이용하여 벡터 행렬 연산기를 구현함\n그림 3. W = 0, ±32, ±64, ±96, ±127 에 대해 출력한 그래프\n§ 0.18um CMOS 공정을 이용하여 설계하고 이를 10MHz clock으로 구동시키면서 성능을 검증하였",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.21,
+          580.77,
+          311.23,
+          701.83
+        ],
+        "page_area_fraction": 0.045
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          311.23,
+          578.73,
+          501.21,
+          713.58
+        ],
+        "page_area_fraction": 0.0512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.2,
+          395.21,
+          307.15,
+          482.11
+        ],
+        "page_area_fraction": 0.028
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.47,
+          394.97,
+          480.1,
+          480.67
+        ],
+        "page_area_fraction": 0.0284
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0010",
+    "caption": "W = 0, ±32, ±64, ±96, ±127 에 대해 출력한 그래프",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "§ 핵심 내용\n- 재구성 가능 벡터행렬 연산기 설계\n§ 인공 신경망 연산은 근사 컴퓨팅(Approximate Computing)의 개념으로 접근이 가능하기 때문에\n16bit 이상의 고해상도 곱셈/덧셈기를 이용하지 않아도 의미있는 결과를 추출할 수 있음\n그림 1. 벡터 행렬 연산기의 블럭도 그림 2. switched-capacitor 적분기\n§ 기능 검증을 위해 입력 8bit, 곱셈 계수 8bit으로 구성됨",
+    "caption_and_following_text": "§ 저전력 구현을 위해 스위치 캐패시터 (Switched-Capacitor) 적분기로 구현됨\n§ 나노미터 공정에서도 설계가 가능하도록 최대한 간단한 구조의 적분기를 설계하려고 함. 따라서\n그림 2에서 제안된 인버터 기반의 적분기를 이용하여 벡터 행렬 연산기를 구현함\n그림 3. W = 0, ±32, ±64, ±96, ±127 에 대해 출력한 그래프\n§ 0.18um CMOS 공정을 이용하여 설계하고 이를 10MHz clock으로 구동시키면서 성능을 검증하였\n음. § 성능 검증을 위하여 예상되는 입력과 계수를 다양하게 블록에 인가하고 이 출력 결과를 이상적인\n벡터행렬 연산 결과와 비교하였음 (그림 17). § 시뮬레이션 결과 최대 2.09 LSB 정도의 오차가 발생. 이는 0.82%의 오차에 해당. Resolution 8-bit\nOutput rate 20 MHz\nSupply 1.8 V\nPower 377.1 uA",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.21,
+          580.77,
+          311.23,
+          701.83
+        ],
+        "page_area_fraction": 0.045
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          311.23,
+          578.73,
+          501.21,
+          713.58
+        ],
+        "page_area_fraction": 0.0512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.2,
+          395.21,
+          307.15,
+          482.11
+        ],
+        "page_area_fraction": 0.028
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.47,
+          394.97,
+          480.1,
+          480.67
+        ],
+        "page_area_fraction": 0.0284
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0011",
+    "caption": "재구성 가능한 Switched-Capacitor D/A 변환기",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 4 재구성 가능한\nSwitched-Capacitor D/A 변환기 그림 5. DAC의 특성 시뮬레이션 결과\n- 저전압 CLB 로직 요소 블록\n§ 0.6 V 전원 전압 하에 동작하는 디지털 회로의 합성에 필요한 standard cell을 제작하고, 이에 필\n요한 characterization 진행. § 0.6V standard cell characterization 스크립트 제작: Standard cell characterization을 수행할 스크립\n트를 제작하고 검증함. 제작한 스크립트로 기존의 1.8V 용 standard cell의 characterization을 진행\n하고 그 결과를 기존 characterization 내용과 비교하는 방법으로 스크립트를 검증. § 0.6V slope time table을 정의: 미리 정해준 slope table에 따라 standard cell의 characterization을\n통해 여러 파라미터를 추출하게됨. 그림 6과 같이, 기존의 1.8V 용 slope time table의 slope list가\n등비인 계차로 구성됨에 따라 이를 차용하여 새로운 slope table을 꾸밈. 첫 시작점이 되는 slope\ntime은 intrinsic cap에 의한 최소 지연 시간만 나타내는 slope time으로 설정. 새로 완성된 6V",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.71,
+          650.65,
+          237.47,
+          776.63
+        ],
+        "page_area_fraction": 0.0372
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.47,
+          642.86,
+          382.23,
+          730.12
+        ],
+        "page_area_fraction": 0.0252
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          388.47,
+          643.1,
+          536.59,
+          730.48
+        ],
+        "page_area_fraction": 0.0259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.35,
+          279.89,
+          451.08,
+          437.64
+        ],
+        "page_area_fraction": 0.0869
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0012",
+    "caption": "DAC의 특성 시뮬레이션 결과",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 4 재구성 가능한\nSwitched-Capacitor D/A 변환기 그림 5. DAC의 특성 시뮬레이션 결과\n- 저전압 CLB 로직 요소 블록\n§ 0.6 V 전원 전압 하에 동작하는 디지털 회로의 합성에 필요한 standard cell을 제작하고, 이에 필\n요한 characterization 진행. § 0.6V standard cell characterization 스크립트 제작: Standard cell characterization을 수행할 스크립\n트를 제작하고 검증함. 제작한 스크립트로 기존의 1.8V 용 standard cell의 characterization을 진행\n하고 그 결과를 기존 characterization 내용과 비교하는 방법으로 스크립트를 검증. § 0.6V slope time table을 정의: 미리 정해준 slope table에 따라 standard cell의 characterization을\n통해 여러 파라미터를 추출하게됨. 그림 6과 같이, 기존의 1.8V 용 slope time table의 slope list가\n등비인 계차로 구성됨에 따라 이를 차용하여 새로운 slope table을 꾸밈. 첫 시작점이 되는 slope\ntime은 intrinsic cap에 의한 최소 지연 시간만 나타내는 slope time으로 설정. 새로 완성된 6V",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.71,
+          650.65,
+          237.47,
+          776.63
+        ],
+        "page_area_fraction": 0.0372
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.47,
+          642.86,
+          382.23,
+          730.12
+        ],
+        "page_area_fraction": 0.0252
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          388.47,
+          643.1,
+          536.59,
+          730.48
+        ],
+        "page_area_fraction": 0.0259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.35,
+          279.89,
+          451.08,
+          437.64
+        ],
+        "page_area_fraction": 0.0869
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0013",
+    "caption": "Slope table 구성",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "Switched-Capacitor D/A 변환기 그림 5. DAC의 특성 시뮬레이션 결과\n- 저전압 CLB 로직 요소 블록\n§ 0.6 V 전원 전압 하에 동작하는 디지털 회로의 합성에 필요한 standard cell을 제작하고, 이에 필\n요한 characterization 진행. § 0.6V standard cell characterization 스크립트 제작: Standard cell characterization을 수행할 스크립\n트를 제작하고 검증함. 제작한 스크립트로 기존의 1.8V 용 standard cell의 characterization을 진행\n하고 그 결과를 기존 characterization 내용과 비교하는 방법으로 스크립트를 검증. § 0.6V slope time table을 정의: 미리 정해준 slope table에 따라 standard cell의 characterization을\n통해 여러 파라미터를 추출하게됨. 그림 6과 같이, 기존의 1.8V 용 slope time table의 slope list가",
+    "caption_and_following_text": "등비인 계차로 구성됨에 따라 이를 차용하여 새로운 slope table을 꾸밈. 첫 시작점이 되는 slope\ntime은 intrinsic cap에 의한 최소 지연 시간만 나타내는 slope time으로 설정. 새로 완성된 6V\nslope time table을 통해 standard cell의 characterization 진행.\n그림 6. Slope table 구성\n§ 사용할 standard cell을 선별: Monte Carlo 시뮬레이션으로 산포가 작고 안정적인 standard cell들\n을 선별함. § Combinational logic gate와 sequential gate를 구별하여 characterization 진행. Combinational gate\n의 경우 delay에 관한 정보가 주를 이룸. 예로, clock-to-Q delay, rising/falling transition delay가\n있음. Sequential gate의 경우는 delay 정보를 포함하여 setup time, hold time 그리고 recovery\ntime 등의 정보가 있음. § Characterization된 cell list는 다음과 같음: Combinational logic을 구성하는 cell들 (NAND, NOR, AND, OR, INVERTER, BUFFER, OA, OAI,\nAOI, MUX),",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.71,
+          650.65,
+          237.47,
+          776.63
+        ],
+        "page_area_fraction": 0.0372
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.47,
+          642.86,
+          382.23,
+          730.12
+        ],
+        "page_area_fraction": 0.0252
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          388.47,
+          643.1,
+          536.59,
+          730.48
+        ],
+        "page_area_fraction": 0.0259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.35,
+          279.89,
+          451.08,
+          437.64
+        ],
+        "page_area_fraction": 0.0869
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0014",
+    "caption": "Planar non-volatile memory 구조 및 program/erasure 동작 전압",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "의 비율과 gate tunneling을 이용하여 charge를 trapping/de-trapping 함. Charge들을 gate에 모아\n두거나 없애면서 MOS threshold voltage를 조절하게 되고, 이로써 memory switching 소자로 사용\n할 수 있음.\n그림 7 Planar non-volatile memory 구조 및 program/erasure 동작 전압\n§ Behavioral Modeling: Gate tunneling leakage를 이용할 수 있도록, 적절한 gate thickness를 가지\n고 있기 공정을 선택함. Program/erasure 동작을 검증하기 위해 leakage 측정값을 전달받아\nbehavioral model을 만듦.\n그림 8 Gate tunneling leakage (a) 측정값, (b) Verilog-A를\n이용한 behavioral model § Program/Erasure 검증: 제작한 behavioral model을 통해 planar non-volatile memory cell 검증을\n진행. 그림 10(a)와 같이 unit cell 검증을 위한 회로를 구성하였고, 그림 10(b)와 같이",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.79,
+          384.3,
+          455.51,
+          547.56
+        ],
+        "page_area_fraction": 0.0929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.02,
+          157.63,
+          498.69,
+          283.73
+        ],
+        "page_area_fraction": 0.0967
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.85,
+          628.29,
+          474.81,
+          728.44
+        ],
+        "page_area_fraction": 0.0652
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0015",
+    "caption": "Gate tunneling leakage (a) 측정값, (b) Verilog-A를 이용한 behavioral model",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "의 비율과 gate tunneling을 이용하여 charge를 trapping/de-trapping 함. Charge들을 gate에 모아\n두거나 없애면서 MOS threshold voltage를 조절하게 되고, 이로써 memory switching 소자로 사용\n할 수 있음.\n그림 7 Planar non-volatile memory 구조 및 program/erasure 동작 전압\n§ Behavioral Modeling: Gate tunneling leakage를 이용할 수 있도록, 적절한 gate thickness를 가지",
+    "caption_and_following_text": "고 있기 공정을 선택함. Program/erasure 동작을 검증하기 위해 leakage 측정값을 전달받아\nbehavioral model을 만듦.\n그림 8 Gate tunneling leakage (a) 측정값, (b) Verilog-A를\n이용한 behavioral model § Program/Erasure 검증: 제작한 behavioral model을 통해 planar non-volatile memory cell 검증을\n진행. 그림 10(a)와 같이 unit cell 검증을 위한 회로를 구성하였고, 그림 10(b)와 같이\nprogram/erasure 동작을 확인 함. Unit cell들로 array를 구성하였을 때 발생하는 leakage, stress,\nretention, 등 여러 신뢰성 문제들을 보안하기 위한 추가 설계/검증이 필요.\n그림 9 Program/Erasure 동작확인을 위한 (a) schematic 및 (b) simulation\n§ CLB/CLB 위한 array 구현계획: Magna Chip 0.18um GFL 공정을 이용하여 CAB, CLB interconnect\n를 위한 array를 구현 중. 3월 말 tape-out 예정. - 디지털 벡터행렬 연산기 (Vector matrix multiplier; VMM) 설계",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.79,
+          384.3,
+          455.51,
+          547.56
+        ],
+        "page_area_fraction": 0.0929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.02,
+          157.63,
+          498.69,
+          283.73
+        ],
+        "page_area_fraction": 0.0967
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.85,
+          628.29,
+          474.81,
+          728.44
+        ],
+        "page_area_fraction": 0.0652
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0016",
+    "caption": "Program/Erasure 동작확인을 위한 (a) schematic 및 (b) simulation",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "할 수 있음.\n그림 7 Planar non-volatile memory 구조 및 program/erasure 동작 전압\n§ Behavioral Modeling: Gate tunneling leakage를 이용할 수 있도록, 적절한 gate thickness를 가지\n고 있기 공정을 선택함. Program/erasure 동작을 검증하기 위해 leakage 측정값을 전달받아\nbehavioral model을 만듦.\n그림 8 Gate tunneling leakage (a) 측정값, (b) Verilog-A를\n이용한 behavioral model § Program/Erasure 검증: 제작한 behavioral model을 통해 planar non-volatile memory cell 검증을",
+    "caption_and_following_text": "진행. 그림 10(a)와 같이 unit cell 검증을 위한 회로를 구성하였고, 그림 10(b)와 같이\nprogram/erasure 동작을 확인 함. Unit cell들로 array를 구성하였을 때 발생하는 leakage, stress,\nretention, 등 여러 신뢰성 문제들을 보안하기 위한 추가 설계/검증이 필요.\n그림 9 Program/Erasure 동작확인을 위한 (a) schematic 및 (b) simulation\n§ CLB/CLB 위한 array 구현계획: Magna Chip 0.18um GFL 공정을 이용하여 CAB, CLB interconnect\n를 위한 array를 구현 중. 3월 말 tape-out 예정. - 디지털 벡터행렬 연산기 (Vector matrix multiplier; VMM) 설계\n§ 기존 VMM 아키텍처: 그림 10은 기본적인 벡터행렬의 곱을 연산하는 아키텍처임.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.79,
+          384.3,
+          455.51,
+          547.56
+        ],
+        "page_area_fraction": 0.0929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.02,
+          157.63,
+          498.69,
+          283.73
+        ],
+        "page_area_fraction": 0.0967
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.85,
+          628.29,
+          474.81,
+          728.44
+        ],
+        "page_area_fraction": 0.0652
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0017",
+    "caption": "General architecture for fully parallel vector-matrix multiplication (VMM)",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 10 General architecture for\nfully parallel\nvector-matrix multiplication (VMM) § 새로운 VMM 아키텍처: 그림 11은 제안하는 벡터 곱셈 연산기 (VMM) 의 설계도를 나타냄. 제안\n하는 VMM은 digital block, 3-bit multiplier, ADC, shifter, adder로 구성되어있으며 3-bit부터 6-bit\n까지의 벡터 곱셈을 연산함.\n그림 11 3-bit부터 6-bit input 까지 처리 가능한\n전체 VMM 설계도. § 그림 12는 제안하는 3-bit multiplier 회로도로써, 전하 재분배를 이용하여 multiplication 연산 동작\n을 수행함. RESET, INW, NULL, SHARE, INX, SHARE phase 순서로 동작.\n그림 12 제안하는 3-bit multiplier의 회로도. § 그림 13은 구현한 3-bit multiplier의 출력에 대해 DNL을 측정한 시뮬레이션 결과로, 모든 경우의\n입력에 대한 출력의 DNL은 0.05 미만임.",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.2,
+          645.85,
+          406.1,
+          776.63
+        ],
+        "page_area_fraction": 0.0486
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          195.13,
+          436.92,
+          431.29,
+          546.24
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.77,
+          247.05,
+          425.53,
+          359.13
+        ],
+        "page_area_fraction": 0.0503
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          210.49,
+          107.88,
+          415.82,
+          186.52
+        ],
+        "page_area_fraction": 0.0323
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0018",
+    "caption": "3-bit부터 6-bit input 까지 처리 가능한 전체 VMM 설계도",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "그림 10 General architecture for\nfully parallel\nvector-matrix multiplication (VMM) § 새로운 VMM 아키텍처: 그림 11은 제안하는 벡터 곱셈 연산기 (VMM) 의 설계도를 나타냄. 제안",
+    "caption_and_following_text": "하는 VMM은 digital block, 3-bit multiplier, ADC, shifter, adder로 구성되어있으며 3-bit부터 6-bit\n까지의 벡터 곱셈을 연산함.\n그림 11 3-bit부터 6-bit input 까지 처리 가능한\n전체 VMM 설계도. § 그림 12는 제안하는 3-bit multiplier 회로도로써, 전하 재분배를 이용하여 multiplication 연산 동작\n을 수행함. RESET, INW, NULL, SHARE, INX, SHARE phase 순서로 동작.\n그림 12 제안하는 3-bit multiplier의 회로도. § 그림 13은 구현한 3-bit multiplier의 출력에 대해 DNL을 측정한 시뮬레이션 결과로, 모든 경우의\n입력에 대한 출력의 DNL은 0.05 미만임.\n그림 13 3-bit MUL의 Differential\nnon-linearity\n- CAB 개발 1 (가): 재구성 가능 아날로그 벡터 연산기 설계 (28nm 공정, Ring Amp 기",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.2,
+          645.85,
+          406.1,
+          776.63
+        ],
+        "page_area_fraction": 0.0486
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          195.13,
+          436.92,
+          431.29,
+          546.24
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.77,
+          247.05,
+          425.53,
+          359.13
+        ],
+        "page_area_fraction": 0.0503
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          210.49,
+          107.88,
+          415.82,
+          186.52
+        ],
+        "page_area_fraction": 0.0323
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0019",
+    "caption": "제안하는 3-bit multiplier의 회로도",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "그림 10 General architecture for\nfully parallel\nvector-matrix multiplication (VMM) § 새로운 VMM 아키텍처: 그림 11은 제안하는 벡터 곱셈 연산기 (VMM) 의 설계도를 나타냄. 제안\n하는 VMM은 digital block, 3-bit multiplier, ADC, shifter, adder로 구성되어있으며 3-bit부터 6-bit\n까지의 벡터 곱셈을 연산함.",
+    "caption_and_following_text": "그림 11 3-bit부터 6-bit input 까지 처리 가능한\n전체 VMM 설계도. § 그림 12는 제안하는 3-bit multiplier 회로도로써, 전하 재분배를 이용하여 multiplication 연산 동작\n을 수행함. RESET, INW, NULL, SHARE, INX, SHARE phase 순서로 동작.\n그림 12 제안하는 3-bit multiplier의 회로도. § 그림 13은 구현한 3-bit multiplier의 출력에 대해 DNL을 측정한 시뮬레이션 결과로, 모든 경우의\n입력에 대한 출력의 DNL은 0.05 미만임.\n그림 13 3-bit MUL의 Differential\nnon-linearity\n- CAB 개발 1 (가): 재구성 가능 아날로그 벡터 연산기 설계 (28nm 공정, Ring Amp 기\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.2,
+          645.85,
+          406.1,
+          776.63
+        ],
+        "page_area_fraction": 0.0486
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          195.13,
+          436.92,
+          431.29,
+          546.24
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.77,
+          247.05,
+          425.53,
+          359.13
+        ],
+        "page_area_fraction": 0.0503
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          210.49,
+          107.88,
+          415.82,
+          186.52
+        ],
+        "page_area_fraction": 0.0323
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0020",
+    "caption": "3-bit MUL의 Differential non-linearity",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "fully parallel\nvector-matrix multiplication (VMM) § 새로운 VMM 아키텍처: 그림 11은 제안하는 벡터 곱셈 연산기 (VMM) 의 설계도를 나타냄. 제안\n하는 VMM은 digital block, 3-bit multiplier, ADC, shifter, adder로 구성되어있으며 3-bit부터 6-bit\n까지의 벡터 곱셈을 연산함.\n그림 11 3-bit부터 6-bit input 까지 처리 가능한\n전체 VMM 설계도. § 그림 12는 제안하는 3-bit multiplier 회로도로써, 전하 재분배를 이용하여 multiplication 연산 동작\n을 수행함. RESET, INW, NULL, SHARE, INX, SHARE phase 순서로 동작.",
+    "caption_and_following_text": "그림 12 제안하는 3-bit multiplier의 회로도. § 그림 13은 구현한 3-bit multiplier의 출력에 대해 DNL을 측정한 시뮬레이션 결과로, 모든 경우의\n입력에 대한 출력의 DNL은 0.05 미만임.\n그림 13 3-bit MUL의 Differential\nnon-linearity\n- CAB 개발 1 (가): 재구성 가능 아날로그 벡터 연산기 설계 (28nm 공정, Ring Amp 기\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.2,
+          645.85,
+          406.1,
+          776.63
+        ],
+        "page_area_fraction": 0.0486
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          195.13,
+          436.92,
+          431.29,
+          546.24
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.77,
+          247.05,
+          425.53,
+          359.13
+        ],
+        "page_area_fraction": 0.0503
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          210.49,
+          107.88,
+          415.82,
+          186.52
+        ],
+        "page_area_fraction": 0.0323
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0021",
+    "caption": "DAC 2개로 구성된 neural network 연산기 및 동작 타이밍",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "반)\n그림 14. DAC 2개로 구성된 neural network 연산기 및 동작 타이밍\n§ Multiplying DAC 두 개를 pipe-lined 구조로 연결시켜서 data와 weight를 곱하는 구조에 SAR ADC\n를 추가하여 더해진 결과값을 출력하는 Neural Network 연산기를 완성시킴. 이 구조의 장점은 결\n과값이 더해질 때 charge형태로 저장되어 digital 방식에 비해 메모리 접근에 드는 에너지가 적다\n는 것임. § 그림 15의 왼쪽 그림은 Multiplying DAC 1개의 schematic이고 오른쪽 그림은 Ring AMP의\nschematic임. 연산기의 AMP를 기존의 Inverter based AMP에 비해 전력효율이 높고 속도가 빠른\nRing AMP로 설계를 변경함. 기존논문과 다르게 2nd inverter에서 주는 skew를 capacitor가 아닌\nhvt device로 발생시켜 안정성을 높임.\n그림 15. 세부 회로도",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.78,
+          675.22,
+          500.13,
+          765.12
+        ],
+        "page_area_fraction": 0.0698
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.16,
+          402.04,
+          469.07,
+          533.66
+        ],
+        "page_area_fraction": 0.0855
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.06,
+          199.58,
+          494.73,
+          310.94
+        ],
+        "page_area_fraction": 0.084
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0022",
+    "caption": "세부 회로도",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "반)\n그림 14. DAC 2개로 구성된 neural network 연산기 및 동작 타이밍\n§ Multiplying DAC 두 개를 pipe-lined 구조로 연결시켜서 data와 weight를 곱하는 구조에 SAR ADC\n를 추가하여 더해진 결과값을 출력하는 Neural Network 연산기를 완성시킴. 이 구조의 장점은 결\n과값이 더해질 때 charge형태로 저장되어 digital 방식에 비해 메모리 접근에 드는 에너지가 적다\n는 것임. § 그림 15의 왼쪽 그림은 Multiplying DAC 1개의 schematic이고 오른쪽 그림은 Ring AMP의",
+    "caption_and_following_text": "schematic임. 연산기의 AMP를 기존의 Inverter based AMP에 비해 전력효율이 높고 속도가 빠른\nRing AMP로 설계를 변경함. 기존논문과 다르게 2nd inverter에서 주는 skew를 capacitor가 아닌\nhvt device로 발생시켜 안정성을 높임.\n그림 15. 세부 회로도\n§ Voltage error 기준으로 봤을 때 가장 안좋은 경우 0.5 LSB 안쪽으로 결과가 나옴. AMP의 load\ncapacitor와 전력소모를 줄이기 위해 LSB에 해당하는 sampling capacitor를 series로 구성하면서\n발생한 error가 대부분을 차지함. 연산효율은 cadence 시뮬레이션 상에서 4.5 TOPS/W로 측정됨. - CAB 개발 1 (나): 재구성 가능 디지털 벡터 연산기 설계 (65nm 공정, VCO 기반 VMM)\n그림 16. VCO 기반의 VMM의 핵심 모듈\n§ 그림 16은 VCO 기반의 VMM을 구성하는 두 모듈을 보여줌: 왼쪽 그림은 입력 전압 값에 비례하\n는 주파수를 생성하는 Voltage Controlled Oscillator part이며, 오른쪽은 특정 시간 동안 입력",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.78,
+          675.22,
+          500.13,
+          765.12
+        ],
+        "page_area_fraction": 0.0698
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.16,
+          402.04,
+          469.07,
+          533.66
+        ],
+        "page_area_fraction": 0.0855
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.06,
+          199.58,
+          494.73,
+          310.94
+        ],
+        "page_area_fraction": 0.084
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0023",
+    "caption": "VCO 기반의 VMM의 핵심 모듈",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "를 추가하여 더해진 결과값을 출력하는 Neural Network 연산기를 완성시킴. 이 구조의 장점은 결\n과값이 더해질 때 charge형태로 저장되어 digital 방식에 비해 메모리 접근에 드는 에너지가 적다\n는 것임. § 그림 15의 왼쪽 그림은 Multiplying DAC 1개의 schematic이고 오른쪽 그림은 Ring AMP의\nschematic임. 연산기의 AMP를 기존의 Inverter based AMP에 비해 전력효율이 높고 속도가 빠른\nRing AMP로 설계를 변경함. 기존논문과 다르게 2nd inverter에서 주는 skew를 capacitor가 아닌\nhvt device로 발생시켜 안정성을 높임.\n그림 15. 세부 회로도",
+    "caption_and_following_text": "§ Voltage error 기준으로 봤을 때 가장 안좋은 경우 0.5 LSB 안쪽으로 결과가 나옴. AMP의 load\ncapacitor와 전력소모를 줄이기 위해 LSB에 해당하는 sampling capacitor를 series로 구성하면서\n발생한 error가 대부분을 차지함. 연산효율은 cadence 시뮬레이션 상에서 4.5 TOPS/W로 측정됨. - CAB 개발 1 (나): 재구성 가능 디지털 벡터 연산기 설계 (65nm 공정, VCO 기반 VMM)\n그림 16. VCO 기반의 VMM의 핵심 모듈\n§ 그림 16은 VCO 기반의 VMM을 구성하는 두 모듈을 보여줌: 왼쪽 그림은 입력 전압 값에 비례하\n는 주파수를 생성하는 Voltage Controlled Oscillator part이며, 오른쪽은 특정 시간 동안 입력\npulse의 개수를 세는 Digital Counter part임. § VCO part에서는 data를 디지털 값으로 받아 DAC을 거쳐 analog voltage로 바꾼 후 이를 Ring\noscillator의 supply로 연결하여 Ron 저항을 조절하여 출력 주파수를 변경함. § Digital Count part에서는 weight를 디지털 값으로 받아 이에 비례하는 폭을 가지는 pulse를 만들\n어내는 pulsegen의 출력을 EN 신호로 하여 해당 EN=high인 동안 VCO의 pulse rising edge를 세\n는 digital counter가 존재함. 결과적으로 입력 weight값에 정비례하며, 입력 data값에는 다소 비선",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.78,
+          675.22,
+          500.13,
+          765.12
+        ],
+        "page_area_fraction": 0.0698
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.16,
+          402.04,
+          469.07,
+          533.66
+        ],
+        "page_area_fraction": 0.0855
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.06,
+          199.58,
+          494.73,
+          310.94
+        ],
+        "page_area_fraction": 0.084
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0024",
+    "caption": "비선형적 입출력 특성",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "0 63 127 191 255 DACin\n0\n15\n31\n63\n127\n191",
+    "caption_and_following_text": "255\nDout\nVCO-VMM X*W result X: 255 Y: 250\n그림 17. 비선형적 입출력 특성\n0 31 63 95 127 DACin\n0\n31\n63\n95\n127",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.06,
+          347.84,
+          279.59,
+          500.93
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.69,
+          351.08,
+          515.14,
+          482.95
+        ],
+        "page_area_fraction": 0.0621
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.89,
+          163.36,
+          478.81,
+          273.3
+        ],
+        "page_area_fraction": 0.076
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.04,
+          658.86,
+          295.95,
+          781.91
+        ],
+        "page_area_fraction": 0.041
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.7,
+          659.79,
+          489.23,
+          784.81
+        ],
+        "page_area_fraction": 0.0424
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0025",
+    "caption": "보정을 통하여 선형화된 결과",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "그림 17. 비선형적 입출력 특성\n0 31 63 95 127 DACin\n0\n31\n63\n95\n127",
+    "caption_and_following_text": "159\nDout\nVCO-VMM X*W result\nX: 0 Y: 25 그림 18. 보정을 통하여 선형화된 결과\n§ 위 그림은 고정된 weight에서 data 변화에 따른 연산 결과를 출력한 그래프임. 그림 29에서\nRegulator의 출력 voltage headroom과 ring oscillator의 비선형적 Kvco 특성으로 인하여 곱셈 특\n성 곡선이 비선형적으로 나타나는 모습을 확인 가능. § 이를 보정하기 위하여 앞단의 DAC의 특성을 비선형적으로 만들어 보상하는 방법을 사용하였으며\n그림 30은 이에 해당. DAC part의 전력소모를 줄이기 위해 Charge based 구조를 채택함. - CAB 개발 2: 전하영역계산을 이용한 재구성 가능 혼성신호 벡터 연산기 설계 (28nm 공\n정)\n그림 19. 벡터곱셈기의 전제구조 그림 20. 구현된 벡터곱셈기 회로의 layout § 전체 구조: VMM을 위한 벡터곱셈기(dot-product)의 구조는 연산 16개의 CDAC을 기반으로 한 전",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.06,
+          347.84,
+          279.59,
+          500.93
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.69,
+          351.08,
+          515.14,
+          482.95
+        ],
+        "page_area_fraction": 0.0621
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.89,
+          163.36,
+          478.81,
+          273.3
+        ],
+        "page_area_fraction": 0.076
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.04,
+          658.86,
+          295.95,
+          781.91
+        ],
+        "page_area_fraction": 0.041
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.7,
+          659.79,
+          489.23,
+          784.81
+        ],
+        "page_area_fraction": 0.0424
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0026",
+    "caption": "벡터곱셈기의 전제구조",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 23,
+    "prefix_match_only": false,
+    "text_before": "127\n159\nDout\nVCO-VMM X*W result\nX: 0 Y: 25 그림 18. 보정을 통하여 선형화된 결과\n§ 위 그림은 고정된 weight에서 data 변화에 따른 연산 결과를 출력한 그래프임. 그림 29에서\nRegulator의 출력 voltage headroom과 ring oscillator의 비선형적 Kvco 특성으로 인하여 곱셈 특",
+    "caption_and_following_text": "성 곡선이 비선형적으로 나타나는 모습을 확인 가능. § 이를 보정하기 위하여 앞단의 DAC의 특성을 비선형적으로 만들어 보상하는 방법을 사용하였으며\n그림 30은 이에 해당. DAC part의 전력소모를 줄이기 위해 Charge based 구조를 채택함. - CAB 개발 2: 전하영역계산을 이용한 재구성 가능 혼성신호 벡터 연산기 설계 (28nm 공\n정)\n그림 19. 벡터곱셈기의 전제구조 그림 20. 구현된 벡터곱셈기 회로의 layout § 전체 구조: VMM을 위한 벡터곱셈기(dot-product)의 구조는 연산 16개의 CDAC을 기반으로 한 전\n하영역 곱셈기와 축차 비교형 아날로그-디지털 변환기(SAR ADC)로 구성됨. 총 16쌍의 8-bit\ninput vector X와 8-bit weighting factor W를 이용하여 계산함.\n그림 21. 전하영역 곱셈기의 상세 schematic\n§ CDAC 기반의 전하영역 곱셈기: 전하영역 곱셈기는 7-bit CDAC을 기반으로 한 차등(differential)\n구조를 하고 있음. 총 6-phase를 통하여 동작을 하며, 최종적으로 다음 식과 같은 아날로그 전압\n을 출력함 ( 는 unit capacitor의 top&bottom plate parasitic constant).",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.06,
+          347.84,
+          279.59,
+          500.93
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.69,
+          351.08,
+          515.14,
+          482.95
+        ],
+        "page_area_fraction": 0.0621
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.89,
+          163.36,
+          478.81,
+          273.3
+        ],
+        "page_area_fraction": 0.076
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.04,
+          658.86,
+          295.95,
+          781.91
+        ],
+        "page_area_fraction": 0.041
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.7,
+          659.79,
+          489.23,
+          784.81
+        ],
+        "page_area_fraction": 0.0424
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0027",
+    "caption": "구현된 벡터곱셈기 회로의 layout",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 23,
+    "prefix_match_only": false,
+    "text_before": "127\n159\nDout\nVCO-VMM X*W result\nX: 0 Y: 25 그림 18. 보정을 통하여 선형화된 결과\n§ 위 그림은 고정된 weight에서 data 변화에 따른 연산 결과를 출력한 그래프임. 그림 29에서\nRegulator의 출력 voltage headroom과 ring oscillator의 비선형적 Kvco 특성으로 인하여 곱셈 특",
+    "caption_and_following_text": "성 곡선이 비선형적으로 나타나는 모습을 확인 가능. § 이를 보정하기 위하여 앞단의 DAC의 특성을 비선형적으로 만들어 보상하는 방법을 사용하였으며\n그림 30은 이에 해당. DAC part의 전력소모를 줄이기 위해 Charge based 구조를 채택함. - CAB 개발 2: 전하영역계산을 이용한 재구성 가능 혼성신호 벡터 연산기 설계 (28nm 공\n정)\n그림 19. 벡터곱셈기의 전제구조 그림 20. 구현된 벡터곱셈기 회로의 layout § 전체 구조: VMM을 위한 벡터곱셈기(dot-product)의 구조는 연산 16개의 CDAC을 기반으로 한 전\n하영역 곱셈기와 축차 비교형 아날로그-디지털 변환기(SAR ADC)로 구성됨. 총 16쌍의 8-bit\ninput vector X와 8-bit weighting factor W를 이용하여 계산함.\n그림 21. 전하영역 곱셈기의 상세 schematic\n§ CDAC 기반의 전하영역 곱셈기: 전하영역 곱셈기는 7-bit CDAC을 기반으로 한 차등(differential)\n구조를 하고 있음. 총 6-phase를 통하여 동작을 하며, 최종적으로 다음 식과 같은 아날로그 전압\n을 출력함 ( 는 unit capacitor의 top&bottom plate parasitic constant).",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.06,
+          347.84,
+          279.59,
+          500.93
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.69,
+          351.08,
+          515.14,
+          482.95
+        ],
+        "page_area_fraction": 0.0621
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.89,
+          163.36,
+          478.81,
+          273.3
+        ],
+        "page_area_fraction": 0.076
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.04,
+          658.86,
+          295.95,
+          781.91
+        ],
+        "page_area_fraction": 0.041
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.7,
+          659.79,
+          489.23,
+          784.81
+        ],
+        "page_area_fraction": 0.0424
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0028",
+    "caption": "전하영역 곱셈기의 상세 schematic",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 26,
+    "prefix_match_only": false,
+    "text_before": "VCO-VMM X*W result\nX: 0 Y: 25 그림 18. 보정을 통하여 선형화된 결과\n§ 위 그림은 고정된 weight에서 data 변화에 따른 연산 결과를 출력한 그래프임. 그림 29에서\nRegulator의 출력 voltage headroom과 ring oscillator의 비선형적 Kvco 특성으로 인하여 곱셈 특\n성 곡선이 비선형적으로 나타나는 모습을 확인 가능. § 이를 보정하기 위하여 앞단의 DAC의 특성을 비선형적으로 만들어 보상하는 방법을 사용하였으며\n그림 30은 이에 해당. DAC part의 전력소모를 줄이기 위해 Charge based 구조를 채택함. - CAB 개발 2: 전하영역계산을 이용한 재구성 가능 혼성신호 벡터 연산기 설계 (28nm 공\n정)",
+    "caption_and_following_text": "그림 19. 벡터곱셈기의 전제구조 그림 20. 구현된 벡터곱셈기 회로의 layout § 전체 구조: VMM을 위한 벡터곱셈기(dot-product)의 구조는 연산 16개의 CDAC을 기반으로 한 전\n하영역 곱셈기와 축차 비교형 아날로그-디지털 변환기(SAR ADC)로 구성됨. 총 16쌍의 8-bit\ninput vector X와 8-bit weighting factor W를 이용하여 계산함.\n그림 21. 전하영역 곱셈기의 상세 schematic\n§ CDAC 기반의 전하영역 곱셈기: 전하영역 곱셈기는 7-bit CDAC을 기반으로 한 차등(differential)\n구조를 하고 있음. 총 6-phase를 통하여 동작을 하며, 최종적으로 다음 식과 같은 아날로그 전압\n을 출력함 ( 는 unit capacitor의 top&bottom plate parasitic constant).\n   \n  \n   ",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.06,
+          347.84,
+          279.59,
+          500.93
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.69,
+          351.08,
+          515.14,
+          482.95
+        ],
+        "page_area_fraction": 0.0621
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.89,
+          163.36,
+          478.81,
+          273.3
+        ],
+        "page_area_fraction": 0.076
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.04,
+          658.86,
+          295.95,
+          781.91
+        ],
+        "page_area_fraction": 0.041
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.7,
+          659.79,
+          489.23,
+          784.81
+        ],
+        "page_area_fraction": 0.0424
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0029",
+    "caption": "SAR ADC 회로도",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 22. SAR ADC 회로도 그림 23. SAR ADC의 상세 schematic\n§ 축차비교형 아날로그-디지털 변환기(SAR ADC): 전하영역 곱셈기의 아날로그 출력을 다시 디지털\n로 복원하기 위해 ADC를 사용, 그 중 전력 소모가 낮은 축차비교형 아날로그-디지털 변환기를\n사용함. 그림 35 및 그림 36에 보인 바와 같이, 2개의 8-bit CDAC와 SAR logic block, 그리고\ncomparator로 구성됨. 연산과정에서의 오류 발생을 방지하기 위하여 자동 offset보정을 하는 구조\n를 comparator에 도입하고, SAR ADC에서 가장 중요한 역할을 하는 CDAC의 capacitor를\nMortise-Tenon 구조를 도입하여 사용함.\n그림 24. 샘플링시 신호의 왜곡을 줄이기\n위한 plate 구성방식\n§ 그림 24는 아날로그 신호를 샘플링 하는 top plate의 parasitic을 줄여주기 위한 plate 구성 방식을",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.92,
+          615.87,
+          281.03,
+          763.21
+        ],
+        "page_area_fraction": 0.063
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          281.13,
+          614.9,
+          544.77,
+          768.36
+        ],
+        "page_area_fraction": 0.0809
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.76,
+          356.11,
+          407.44,
+          491.1
+        ],
+        "page_area_fraction": 0.0509
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.78,
+          103.67,
+          322.52,
+          264.43
+        ],
+        "page_area_fraction": 0.0677
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          322.63,
+          105.0,
+          514.41,
+          257.0
+        ],
+        "page_area_fraction": 0.0583
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0030",
+    "caption": "SAR ADC의 상세 schematic",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 22. SAR ADC 회로도 그림 23. SAR ADC의 상세 schematic\n§ 축차비교형 아날로그-디지털 변환기(SAR ADC): 전하영역 곱셈기의 아날로그 출력을 다시 디지털\n로 복원하기 위해 ADC를 사용, 그 중 전력 소모가 낮은 축차비교형 아날로그-디지털 변환기를\n사용함. 그림 35 및 그림 36에 보인 바와 같이, 2개의 8-bit CDAC와 SAR logic block, 그리고\ncomparator로 구성됨. 연산과정에서의 오류 발생을 방지하기 위하여 자동 offset보정을 하는 구조\n를 comparator에 도입하고, SAR ADC에서 가장 중요한 역할을 하는 CDAC의 capacitor를\nMortise-Tenon 구조를 도입하여 사용함.\n그림 24. 샘플링시 신호의 왜곡을 줄이기\n위한 plate 구성방식\n§ 그림 24는 아날로그 신호를 샘플링 하는 top plate의 parasitic을 줄여주기 위한 plate 구성 방식을",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.92,
+          615.87,
+          281.03,
+          763.21
+        ],
+        "page_area_fraction": 0.063
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          281.13,
+          614.9,
+          544.77,
+          768.36
+        ],
+        "page_area_fraction": 0.0809
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.76,
+          356.11,
+          407.44,
+          491.1
+        ],
+        "page_area_fraction": 0.0509
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.78,
+          103.67,
+          322.52,
+          264.43
+        ],
+        "page_area_fraction": 0.0677
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          322.63,
+          105.0,
+          514.41,
+          257.0
+        ],
+        "page_area_fraction": 0.0583
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0031",
+    "caption": "샘플링시 신호의 왜곡을 줄이기 위한 plate 구성방식",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "그림 22. SAR ADC 회로도 그림 23. SAR ADC의 상세 schematic\n§ 축차비교형 아날로그-디지털 변환기(SAR ADC): 전하영역 곱셈기의 아날로그 출력을 다시 디지털\n로 복원하기 위해 ADC를 사용, 그 중 전력 소모가 낮은 축차비교형 아날로그-디지털 변환기를\n사용함. 그림 35 및 그림 36에 보인 바와 같이, 2개의 8-bit CDAC와 SAR logic block, 그리고\ncomparator로 구성됨. 연산과정에서의 오류 발생을 방지하기 위하여 자동 offset보정을 하는 구조",
+    "caption_and_following_text": "를 comparator에 도입하고, SAR ADC에서 가장 중요한 역할을 하는 CDAC의 capacitor를\nMortise-Tenon 구조를 도입하여 사용함.\n그림 24. 샘플링시 신호의 왜곡을 줄이기\n위한 plate 구성방식\n§ 그림 24는 아날로그 신호를 샘플링 하는 top plate의 parasitic을 줄여주기 위한 plate 구성 방식을\n보여줌. 신호의 샘플링은 곱셈기의 CDAC과 ADC의 CDAC간 전하 재분배로 진행이 되는데, 이 때\n신호의 왜곡을 줄이기 위하여 작은 unit capacitor(0.77fF)를 사용함.\n그림 25. Worse case bit error 그림 26. 시뮬레이션 결과 (선형성 분석) § 시뮬레이션 결과: 그림 38의 그래프는 축차비교형 아날로그 디지털 신호변환기의 선형성을 분석\n한 것이고, DNL, INL 모두 1 LSB 이하의 결과를 보여주었음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.92,
+          615.87,
+          281.03,
+          763.21
+        ],
+        "page_area_fraction": 0.063
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          281.13,
+          614.9,
+          544.77,
+          768.36
+        ],
+        "page_area_fraction": 0.0809
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.76,
+          356.11,
+          407.44,
+          491.1
+        ],
+        "page_area_fraction": 0.0509
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.78,
+          103.67,
+          322.52,
+          264.43
+        ],
+        "page_area_fraction": 0.0677
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          322.63,
+          105.0,
+          514.41,
+          257.0
+        ],
+        "page_area_fraction": 0.0583
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0032",
+    "caption": "Worse case bit error",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "로 복원하기 위해 ADC를 사용, 그 중 전력 소모가 낮은 축차비교형 아날로그-디지털 변환기를\n사용함. 그림 35 및 그림 36에 보인 바와 같이, 2개의 8-bit CDAC와 SAR logic block, 그리고\ncomparator로 구성됨. 연산과정에서의 오류 발생을 방지하기 위하여 자동 offset보정을 하는 구조\n를 comparator에 도입하고, SAR ADC에서 가장 중요한 역할을 하는 CDAC의 capacitor를\nMortise-Tenon 구조를 도입하여 사용함.\n그림 24. 샘플링시 신호의 왜곡을 줄이기\n위한 plate 구성방식",
+    "caption_and_following_text": "§ 그림 24는 아날로그 신호를 샘플링 하는 top plate의 parasitic을 줄여주기 위한 plate 구성 방식을\n보여줌. 신호의 샘플링은 곱셈기의 CDAC과 ADC의 CDAC간 전하 재분배로 진행이 되는데, 이 때\n신호의 왜곡을 줄이기 위하여 작은 unit capacitor(0.77fF)를 사용함.\n그림 25. Worse case bit error 그림 26. 시뮬레이션 결과 (선형성 분석) § 시뮬레이션 결과: 그림 38의 그래프는 축차비교형 아날로그 디지털 신호변환기의 선형성을 분석\n한 것이고, DNL, INL 모두 1 LSB 이하의 결과를 보여주었음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.92,
+          615.87,
+          281.03,
+          763.21
+        ],
+        "page_area_fraction": 0.063
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          281.13,
+          614.9,
+          544.77,
+          768.36
+        ],
+        "page_area_fraction": 0.0809
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.76,
+          356.11,
+          407.44,
+          491.1
+        ],
+        "page_area_fraction": 0.0509
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.78,
+          103.67,
+          322.52,
+          264.43
+        ],
+        "page_area_fraction": 0.0677
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          322.63,
+          105.0,
+          514.41,
+          257.0
+        ],
+        "page_area_fraction": 0.0583
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0033",
+    "caption": "시뮬레이션 결과 (선형성 분석)",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "로 복원하기 위해 ADC를 사용, 그 중 전력 소모가 낮은 축차비교형 아날로그-디지털 변환기를\n사용함. 그림 35 및 그림 36에 보인 바와 같이, 2개의 8-bit CDAC와 SAR logic block, 그리고\ncomparator로 구성됨. 연산과정에서의 오류 발생을 방지하기 위하여 자동 offset보정을 하는 구조\n를 comparator에 도입하고, SAR ADC에서 가장 중요한 역할을 하는 CDAC의 capacitor를\nMortise-Tenon 구조를 도입하여 사용함.\n그림 24. 샘플링시 신호의 왜곡을 줄이기\n위한 plate 구성방식",
+    "caption_and_following_text": "§ 그림 24는 아날로그 신호를 샘플링 하는 top plate의 parasitic을 줄여주기 위한 plate 구성 방식을\n보여줌. 신호의 샘플링은 곱셈기의 CDAC과 ADC의 CDAC간 전하 재분배로 진행이 되는데, 이 때\n신호의 왜곡을 줄이기 위하여 작은 unit capacitor(0.77fF)를 사용함.\n그림 25. Worse case bit error 그림 26. 시뮬레이션 결과 (선형성 분석) § 시뮬레이션 결과: 그림 38의 그래프는 축차비교형 아날로그 디지털 신호변환기의 선형성을 분석\n한 것이고, DNL, INL 모두 1 LSB 이하의 결과를 보여주었음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.92,
+          615.87,
+          281.03,
+          763.21
+        ],
+        "page_area_fraction": 0.063
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          281.13,
+          614.9,
+          544.77,
+          768.36
+        ],
+        "page_area_fraction": 0.0809
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          218.76,
+          356.11,
+          407.44,
+          491.1
+        ],
+        "page_area_fraction": 0.0509
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.78,
+          103.67,
+          322.52,
+          264.43
+        ],
+        "page_area_fraction": 0.0677
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          322.63,
+          105.0,
+          514.41,
+          257.0
+        ],
+        "page_area_fraction": 0.0583
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0034",
+    "caption": "벡터행렬곱 연산기의 레이아웃",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "§ 그림 39의 그래프는 weighting factor에 대하여 몇 가지 조건에 대해(32, 64, 96, 127) input vector\nX를 sweep하며 출력 비트를 확인한 그래프이며, 전체 영역 중 worst case bit error = 4 LSB임을",
+    "caption_and_following_text": "확인하였음. - 전하영역 연산을 이용한 혼성신호 벡터행렬곱 연산기의 칩 제작\n§ 3차년도에는, 2차년도에 설계를 진행한 벡터행렬곱 연산기를 실제 칩 제작을 통해 재검증하고 전\n력 소모를 줄이기 위하여 재차 칩 설계 및 제작 완료하였음 (현재 측정 진행 중).\n그림 27. 벡터행렬곱 연산기의 레이아웃\n그림 28. 재설계한 벡터행렬곱 연산기의 시뮬레이션 결과\n@ 100-MHz 1차 설계 2차 설계\nADC 16 W 10 W\nTotal operation 70 W 55 W\n표 1. 재설계한 회로의 전력 소모 분석\n§ 그림 63는 새로 제작 된 칩과 내부의 백터행렬곱 연산기의 레이아웃이며 그림 64은 그림 63 회로",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          167.07,
+          511.24,
+          444.6,
+          675.22
+        ],
+        "page_area_fraction": 0.0909
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.05,
+          326.64,
+          473.86,
+          464.13
+        ],
+        "page_area_fraction": 0.0923
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0035",
+    "caption": "재설계한 벡터행렬곱 연산기의 시뮬레이션 결과",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "§ 그림 39의 그래프는 weighting factor에 대하여 몇 가지 조건에 대해(32, 64, 96, 127) input vector\nX를 sweep하며 출력 비트를 확인한 그래프이며, 전체 영역 중 worst case bit error = 4 LSB임을\n확인하였음. - 전하영역 연산을 이용한 혼성신호 벡터행렬곱 연산기의 칩 제작",
+    "caption_and_following_text": "§ 3차년도에는, 2차년도에 설계를 진행한 벡터행렬곱 연산기를 실제 칩 제작을 통해 재검증하고 전\n력 소모를 줄이기 위하여 재차 칩 설계 및 제작 완료하였음 (현재 측정 진행 중).\n그림 27. 벡터행렬곱 연산기의 레이아웃\n그림 28. 재설계한 벡터행렬곱 연산기의 시뮬레이션 결과\n@ 100-MHz 1차 설계 2차 설계\nADC 16 W 10 W\nTotal operation 70 W 55 W\n표 1. 재설계한 회로의 전력 소모 분석\n§ 그림 63는 새로 제작 된 칩과 내부의 백터행렬곱 연산기의 레이아웃이며 그림 64은 그림 63 회로\n의 시뮬레이션 결과. § 벡터행렬곱 연산기에 사용되는 축차비교형 아날로그 디지털 신호변환기의 선형성은 DNL에서",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          167.07,
+          511.24,
+          444.6,
+          675.22
+        ],
+        "page_area_fraction": 0.0909
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.05,
+          326.64,
+          473.86,
+          464.13
+        ],
+        "page_area_fraction": 0.0923
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0036",
+    "caption": "재설계한 회로의 전력 소모 분석",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "§ 그림 39의 그래프는 weighting factor에 대하여 몇 가지 조건에 대해(32, 64, 96, 127) input vector\nX를 sweep하며 출력 비트를 확인한 그래프이며, 전체 영역 중 worst case bit error = 4 LSB임을\n확인하였음. - 전하영역 연산을 이용한 혼성신호 벡터행렬곱 연산기의 칩 제작\n§ 3차년도에는, 2차년도에 설계를 진행한 벡터행렬곱 연산기를 실제 칩 제작을 통해 재검증하고 전\n력 소모를 줄이기 위하여 재차 칩 설계 및 제작 완료하였음 (현재 측정 진행 중).\n그림 27. 벡터행렬곱 연산기의 레이아웃\n그림 28. 재설계한 벡터행렬곱 연산기의 시뮬레이션 결과",
+    "caption_and_following_text": "@ 100-MHz 1차 설계 2차 설계\nADC 16 W 10 W\nTotal operation 70 W 55 W\n표 1. 재설계한 회로의 전력 소모 분석\n§ 그림 63는 새로 제작 된 칩과 내부의 백터행렬곱 연산기의 레이아웃이며 그림 64은 그림 63 회로\n의 시뮬레이션 결과. § 벡터행렬곱 연산기에 사용되는 축차비교형 아날로그 디지털 신호변환기의 선형성은 DNL에서\n-0.473~0.342 LSB. INL에서 -0.573~0.688 LSB정도의 결과를 보이며 이전 설계 대비 향상된 모습을\n보임. § 전체 연산의 transfer characteristic은 전체 입력 범위에서 최대 4 LSB를 보였고, 이전 설계와 비\n슷한 결과임. § 표 1을 통하여 1차 및 2차 설계의 전력소모를 비교하였으며, 이전 설계 대비 전력 효율을 높였음\n을 확인함. § FPGA를 통하여 칩 내부의 scan-chain 및 벡터곱연산기 에 필요한 신호들을 조절하며 측정 진행",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          167.07,
+          511.24,
+          444.6,
+          675.22
+        ],
+        "page_area_fraction": 0.0909
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.05,
+          326.64,
+          473.86,
+          464.13
+        ],
+        "page_area_fraction": 0.0923
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0037",
+    "caption": "Log2 양자화 기법",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 31. Log2 양자화 기법\n§ LeNet, cuda-convnet, AlexNet에 대하여 Log2 양자화 기법들을 적용하고 정확도 손실량을 분석하\n였음. LeNet에서 Log2 양자화 기법이 극단적으로 낮은 bitwidth (2-bit) 에서 다른 양자화 기법 대\n비 최대 9배 좋은 Top-1 정확도를 낸다는 것을 확인함. AlexNet에서 역시 4-bit에서 가장 높은\n정확도를 보여주었음. (그림 20)\n그림 32. 비트 수에 따른 Log2 양자화 기법의 정확도 결과 (LeNet) § 하지만, cuda-convnet의 경우에는 dynamic-fixed 양자화 기법 대비 3배 낮은 정확도를 보였음. 이\n를 통해, Log2 양자화 기법이 DNN의 구조 혹은 dataset의 크기에 민감하게 영향 받을 수 있다는\n결론을 도출함. 또한, AlexNet에서는 Log2 양자화를 적용하면 높은 bitwidth에서도 양자화하지 않\n은 모델 대비 5%의 정확도 손실이 나타나면서 상대적으로 크고 복잡한 모델에서는 정확도가 어\n느 정도 손실될 수 있다는 한계점을 확인함. - 재구성 가능 아키텍처를 위한 DNN 최적화 기법 고안",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.8,
+          640.94,
+          473.51,
+          776.63
+        ],
+        "page_area_fraction": 0.087
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.39,
+          374.11,
+          466.91,
+          556.31
+        ],
+        "page_area_fraction": 0.112
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0038",
+    "caption": "비트 수에 따른 Log2 양자화 기법의 정확도 결과 (LeNet)",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "그림 31. Log2 양자화 기법\n§ LeNet, cuda-convnet, AlexNet에 대하여 Log2 양자화 기법들을 적용하고 정확도 손실량을 분석하",
+    "caption_and_following_text": "였음. LeNet에서 Log2 양자화 기법이 극단적으로 낮은 bitwidth (2-bit) 에서 다른 양자화 기법 대\n비 최대 9배 좋은 Top-1 정확도를 낸다는 것을 확인함. AlexNet에서 역시 4-bit에서 가장 높은\n정확도를 보여주었음. (그림 20)\n그림 32. 비트 수에 따른 Log2 양자화 기법의 정확도 결과 (LeNet) § 하지만, cuda-convnet의 경우에는 dynamic-fixed 양자화 기법 대비 3배 낮은 정확도를 보였음. 이\n를 통해, Log2 양자화 기법이 DNN의 구조 혹은 dataset의 크기에 민감하게 영향 받을 수 있다는\n결론을 도출함. 또한, AlexNet에서는 Log2 양자화를 적용하면 높은 bitwidth에서도 양자화하지 않\n은 모델 대비 5%의 정확도 손실이 나타나면서 상대적으로 크고 복잡한 모델에서는 정확도가 어\n느 정도 손실될 수 있다는 한계점을 확인함. - 재구성 가능 아키텍처를 위한 DNN 최적화 기법 고안\n§ Log2 양자화 기법의 한계점을 극복하기 위하여 이미 훈련이 완료된 full-precision DNN으로부터\nLog2 양자화 기법을 적용하면서 점진적으로 fine-tuning하는 새로운 훈련 기법을 고안함. § DNN을 부분적으로 Log2 양자화한 뒤, re-training하고 다시 양자화하는 방식으로 전체",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.8,
+          640.94,
+          473.51,
+          776.63
+        ],
+        "page_area_fraction": 0.087
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.39,
+          374.11,
+          466.91,
+          556.31
+        ],
+        "page_area_fraction": 0.112
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0039",
+    "caption": "Caffe와 유기적으로 연동되는 SW 테스트 플랫폼",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "§ SW 플랫폼을 구축하기 위해, 재구성 가능 아키텍처를 가정하고 그와 유사한 FPGA를 사용하는\nDNN 응용의 테스트 모듈을 구현함. § Xilinx 사의 High-Level Synthesis (HLS)는 C로 작성된 코드를 RTL 수준의 모델로 합성이 가능한\n툴임. C 수준에서 작성된 코드에서 fine-grained HW pipelining 등의 dataflow 최적화가 가능하고, C 수준 operation 간의 scheduling을 통해 고성능의 하드웨어 및 소프트웨어를 동시에 설계하는\n것이 가능함. § AlexNet의 각 convolutional layer에 대하여 layer를 추상화하는 C레벨 function을 작성하였고, 이\n를 통해 unit test 모듈을 작성함. 이를 HLS를 통해 합성한 뒤, functional model이 정상적으로 작\n동하는 것을 확인 및 검증함. § 본 연구에서 작성한 SW 테스트 플랫폼을 후속 연구에서 다음과 같이 사용할 수 있을 것으로 기\n대됨. Caffe와 같은 상위 레벨 프레임워크에서 C 레벨 function을 실행하면, HLS를 통해서 합성된",
+    "caption_and_following_text": "FPGA 모듈에서는 host CPU에서 명령 및 데이터를 전달받고 수행함으로써 수직적으로 통합된 테\n스트 플랫폼을 완성함.\n그림 33. Caffe와 유기적으로 연동되는 SW 테스트\n플랫폼\n- 재구성 아키텍처의 RTL 수준 통합 에뮬레이션 플랫폼 구축\n§ 기존의 응용 기반 테스트 플랫폼은 재구성 아키텍처를 평가하기 위한 CNN 응용의 수집 및 포팅, 그리고 재구성 아키텍처 모델과의 통합을 통한 1차적인 평가였다면, 본 연구에서는 모델을 고도\n화하여 RTL 수준에서 보다 현실적인 하드웨어 평가 플랫폼을 구성하는 것을 목표로 함. § Xilinx FPGA 보드를 활용하여 에뮬레이션 시스템을 구축하는 것을 목표로 함. 또한, CNN 응용이\n사용되고 있는 다수의 컴퓨팅 시스템 환경을 고려하여 PCIe 지원이 가능한 FPGA에서 재구성 아\n키텍처의 동작을 모사하도록 설계함.\n그림 34. Xilinx 사의 FPGA를 활용한 재구성 아키텍처의 RTL수준 시스템 구현",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          191.9,
+          454.06,
+          434.41,
+          580.28
+        ],
+        "page_area_fraction": 0.0612
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.51,
+          182.56,
+          347.81,
+          300.27
+        ],
+        "page_area_fraction": 0.0603
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          358.13,
+          195.03,
+          534.91,
+          290.44
+        ],
+        "page_area_fraction": 0.0337
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0040",
+    "caption": "Xilinx 사의 FPGA를 활용한 재구성 아키텍처의 RTL수준 시스템 구현",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "대됨. Caffe와 같은 상위 레벨 프레임워크에서 C 레벨 function을 실행하면, HLS를 통해서 합성된\nFPGA 모듈에서는 host CPU에서 명령 및 데이터를 전달받고 수행함으로써 수직적으로 통합된 테\n스트 플랫폼을 완성함.\n그림 33. Caffe와 유기적으로 연동되는 SW 테스트\n플랫폼\n- 재구성 아키텍처의 RTL 수준 통합 에뮬레이션 플랫폼 구축\n§ 기존의 응용 기반 테스트 플랫폼은 재구성 아키텍처를 평가하기 위한 CNN 응용의 수집 및 포팅, 그리고 재구성 아키텍처 모델과의 통합을 통한 1차적인 평가였다면, 본 연구에서는 모델을 고도",
+    "caption_and_following_text": "화하여 RTL 수준에서 보다 현실적인 하드웨어 평가 플랫폼을 구성하는 것을 목표로 함. § Xilinx FPGA 보드를 활용하여 에뮬레이션 시스템을 구축하는 것을 목표로 함. 또한, CNN 응용이\n사용되고 있는 다수의 컴퓨팅 시스템 환경을 고려하여 PCIe 지원이 가능한 FPGA에서 재구성 아\n키텍처의 동작을 모사하도록 설계함.\n그림 34. Xilinx 사의 FPGA를 활용한 재구성 아키텍처의 RTL수준 시스템 구현\n§ Verilog를 통해서 재구성 아키텍처의 RTL 수준의 동작을 모사하고, Vivado 툴을 이용하여 합성하\n였고, 이를 지원하는 디바이스 드라이버 및 응용 소프트웨어와 성공적으로 연결함. 이를 통해 통\n합 시스템이 응용에서부터 End-to-end로 정상 동작하는 것을 확인함. § 구체적으로 Tiling 기법이 적용된 행렬 연산기를 RTL 모델을 제작하였고, Processing Element 모\n듈을 다수 병렬적으로 배치하여 효율적인 연산이 가능하도록 설계하였음. 재구성 아키텍처의\nCycle-accurate한 동작 모델로써 검증이 완료됨. - 보드 수준 통합 및 응용 성능 평가\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "100 ○ 28 nm 공정이용 회로 설계 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          191.9,
+          454.06,
+          434.41,
+          580.28
+        ],
+        "page_area_fraction": 0.0612
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.51,
+          182.56,
+          347.81,
+          300.27
+        ],
+        "page_area_fraction": 0.0603
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          358.13,
+          195.03,
+          534.91,
+          290.44
+        ],
+        "page_area_fraction": 0.0337
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0041",
+    "caption": "나노소자 기반의 configuration cell",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 42. 나노소자 기반의 configuration cell § 나노소자 동작 모델링: 제1세부 과제에서 개발하는 나노소자 중 ReRAM 소자 기반의 나노소자의\n경우에는 ReRAM이 기본적으로 메모리이기 때문에 고밀도(high-density) configuration cell로 활용. § 한편, NEM 기반의 나노소자는 그림 41에서 보여주는 것처럼 2-to-1 MUX로서의 활용이 매우 자\n연스러움. MUX는 VDD와 GND 메탈라인을 활용한다면 그림 42과 같이 configuration cell로도 활\n용 가능함. § 두 종류의 나노소자 모두 기존 CMOS 소자에 비해서 실리콘 면적 비용이 현저하게 줄어든다는\n장점이 있으며, 본 연구에서는 현재 제1세부과제에서 개발 중인 다양한 나노소자의 특성이 점점\n개선되고 있는 중임을 고려하여, 다양한 특성치에서의 분석을 진행함 (면적과 지연시간 측면에서\n기존 CMOS 기반 회로 대비 0~30%의 오버헤드를 가지는 것으로 가정). § 나노스위치의 오버헤드가 존재하는 이유: NEM 기반의 나노스위치는 실리콘 면적은 차지하지 않\n으나, 나노스위치를 제어하기 위한 신호가 CMOS 트랜지스터와 연결될 필요가 있음 (FPGA의 프\n로그래밍에 활용). 이러한 오버헤드는 크지 않을 것으로 예상되지만, 정확한 수치는 칩 설계, 제\n작 및 최적화 과정을 통해서 변경되는 값이기 때문에 본 연구에서는 이를 파라미터화 함.",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.74,
+          713.82,
+          438.72,
+          781.54
+        ],
+        "page_area_fraction": 0.0353
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.58,
+          392.57,
+          219.48,
+          496.86
+        ],
+        "page_area_fraction": 0.0214
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          394.85,
+          509.73,
+          484.15
+        ],
+        "page_area_fraction": 0.05
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0042",
+    "caption": "CLB 구조 예",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "그림 42. 나노소자 기반의 configuration cell § 나노소자 동작 모델링: 제1세부 과제에서 개발하는 나노소자 중 ReRAM 소자 기반의 나노소자의\n경우에는 ReRAM이 기본적으로 메모리이기 때문에 고밀도(high-density) configuration cell로 활용. § 한편, NEM 기반의 나노소자는 그림 41에서 보여주는 것처럼 2-to-1 MUX로서의 활용이 매우 자\n연스러움. MUX는 VDD와 GND 메탈라인을 활용한다면 그림 42과 같이 configuration cell로도 활\n용 가능함. § 두 종류의 나노소자 모두 기존 CMOS 소자에 비해서 실리콘 면적 비용이 현저하게 줄어든다는\n장점이 있으며, 본 연구에서는 현재 제1세부과제에서 개발 중인 다양한 나노소자의 특성이 점점\n개선되고 있는 중임을 고려하여, 다양한 특성치에서의 분석을 진행함 (면적과 지연시간 측면에서\n기존 CMOS 기반 회로 대비 0~30%의 오버헤드를 가지는 것으로 가정). § 나노스위치의 오버헤드가 존재하는 이유: NEM 기반의 나노스위치는 실리콘 면적은 차지하지 않",
+    "caption_and_following_text": "으나, 나노스위치를 제어하기 위한 신호가 CMOS 트랜지스터와 연결될 필요가 있음 (FPGA의 프\n로그래밍에 활용). 이러한 오버헤드는 크지 않을 것으로 예상되지만, 정확한 수치는 칩 설계, 제\n작 및 최적화 과정을 통해서 변경되는 값이기 때문에 본 연구에서는 이를 파라미터화 함.\n그림 43. CLB 구조 예 그림 44. CLB를 구성하는 LUT의 상세 구조 예시\n§ 요소회로 블록동작 모델링: FPGA를 구성하는 가장 중요한 블록은 CLB(Configurable Logic Block)\n으로서 하나의 CLB는 그림 51과 같이 통상 여러 개의 LUT(Look-Up Table)이라 불리는 메모리\n소자를 중심으로 구성됨. § 따라서 본 연구에서 가장 중요한 부분은 LUT 하나를 나노소자를 통해 모델링하는 것이며, 이 정\n보와 알려진 CLB 회로 정보를 활용하여 요소회로 블록동작 모델링 수행. § 모델링 기법은 Verilog 프로그램을 사용하였고, library cell에서 MUX 등 기본적인 회로의 면적과\n지연시간을 수정할 수 있음. 이러한 방법을 통하여, 기존 알려진 요소회로 블록의 구조를 100%\n정확히 반영하면서도 다양한 나노소자 특성치를 반영한 요소회로 블록동작 모델링 확보. § 본 연구에서 수행한 나노소자 기반 요소회로 블록동작 모델링은 LUT, MUX, crossbar switch를 포",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.74,
+          713.82,
+          438.72,
+          781.54
+        ],
+        "page_area_fraction": 0.0353
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.58,
+          392.57,
+          219.48,
+          496.86
+        ],
+        "page_area_fraction": 0.0214
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          394.85,
+          509.73,
+          484.15
+        ],
+        "page_area_fraction": 0.05
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0043",
+    "caption": "CLB를 구성하는 LUT의 상세 구조 예시",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "그림 42. 나노소자 기반의 configuration cell § 나노소자 동작 모델링: 제1세부 과제에서 개발하는 나노소자 중 ReRAM 소자 기반의 나노소자의\n경우에는 ReRAM이 기본적으로 메모리이기 때문에 고밀도(high-density) configuration cell로 활용. § 한편, NEM 기반의 나노소자는 그림 41에서 보여주는 것처럼 2-to-1 MUX로서의 활용이 매우 자\n연스러움. MUX는 VDD와 GND 메탈라인을 활용한다면 그림 42과 같이 configuration cell로도 활\n용 가능함. § 두 종류의 나노소자 모두 기존 CMOS 소자에 비해서 실리콘 면적 비용이 현저하게 줄어든다는\n장점이 있으며, 본 연구에서는 현재 제1세부과제에서 개발 중인 다양한 나노소자의 특성이 점점\n개선되고 있는 중임을 고려하여, 다양한 특성치에서의 분석을 진행함 (면적과 지연시간 측면에서\n기존 CMOS 기반 회로 대비 0~30%의 오버헤드를 가지는 것으로 가정). § 나노스위치의 오버헤드가 존재하는 이유: NEM 기반의 나노스위치는 실리콘 면적은 차지하지 않",
+    "caption_and_following_text": "으나, 나노스위치를 제어하기 위한 신호가 CMOS 트랜지스터와 연결될 필요가 있음 (FPGA의 프\n로그래밍에 활용). 이러한 오버헤드는 크지 않을 것으로 예상되지만, 정확한 수치는 칩 설계, 제\n작 및 최적화 과정을 통해서 변경되는 값이기 때문에 본 연구에서는 이를 파라미터화 함.\n그림 43. CLB 구조 예 그림 44. CLB를 구성하는 LUT의 상세 구조 예시\n§ 요소회로 블록동작 모델링: FPGA를 구성하는 가장 중요한 블록은 CLB(Configurable Logic Block)\n으로서 하나의 CLB는 그림 51과 같이 통상 여러 개의 LUT(Look-Up Table)이라 불리는 메모리\n소자를 중심으로 구성됨. § 따라서 본 연구에서 가장 중요한 부분은 LUT 하나를 나노소자를 통해 모델링하는 것이며, 이 정\n보와 알려진 CLB 회로 정보를 활용하여 요소회로 블록동작 모델링 수행. § 모델링 기법은 Verilog 프로그램을 사용하였고, library cell에서 MUX 등 기본적인 회로의 면적과\n지연시간을 수정할 수 있음. 이러한 방법을 통하여, 기존 알려진 요소회로 블록의 구조를 100%\n정확히 반영하면서도 다양한 나노소자 특성치를 반영한 요소회로 블록동작 모델링 확보. § 본 연구에서 수행한 나노소자 기반 요소회로 블록동작 모델링은 LUT, MUX, crossbar switch를 포",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.74,
+          713.82,
+          438.72,
+          781.54
+        ],
+        "page_area_fraction": 0.0353
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.58,
+          392.57,
+          219.48,
+          496.86
+        ],
+        "page_area_fraction": 0.0214
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.56,
+          394.85,
+          509.73,
+          484.15
+        ],
+        "page_area_fraction": 0.05
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0044",
+    "caption": "VTR 기반의 응용 매핑 알고리즘",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 45. VTR 기반의 응용 매핑 알고리즘\n§ 제1세부에서 연구하고 있는 나노 소자들중 서강대 최우영 교수 연구팀의 NEM 스위치를 동작 모\n델링하여 기존의 CMOS회로와 같이 Co-Design 및 Co-Simulation할수 있는 방법을 연구함.\n그림 46. NEM 나노 스위치와 소자의 전기적 모델\n§ 그림 46은 NEM 나노스위치의 전기적 모델을 나타내었음. NEM 스위치의 동작은 게이트 전극에\n가해주는 전업이 풀인전압(Vpi) 보다 크면 Drain과 Source가 연결되고, 게이트 전압이 릴리즈 전\n압 (Vrl) 보다 다시 낮아지면 연결이 끊어지는 식으로 움직임. 따라서 NEM 스위치를 회로 시뮬레\n이션에 사용하기 위해서는 풀인 전압과 릴리즈 전압을 정확하게 모델링 하는 것이 필요함. § 따라서 Verilog-A를 이용하여 매스-스피링 댐퍼 모델을 이용한 2차 전기-기계 시스템 동작을 모\n델링 하여 NEM 나노 스위치 동작을 정확하게 구현하도록 모델링 함. - 재구성 알고리즘의 정확성 검증 및 재구성 품질 최적화\n§ 재구성 솔루션: 디지털 회로 설계에 가장 많이 사용되는 언어인 Verilog로 기술된 회로를 FPGA에",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          203.29,
+          581.84,
+          422.89,
+          781.55
+        ],
+        "page_area_fraction": 0.0876
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.12,
+          336.11,
+          454.68,
+          517.35
+        ],
+        "page_area_fraction": 0.1078
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0045",
+    "caption": "NEM 나노 스위치와 소자의 전기적 모델",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 45. VTR 기반의 응용 매핑 알고리즘\n§ 제1세부에서 연구하고 있는 나노 소자들중 서강대 최우영 교수 연구팀의 NEM 스위치를 동작 모\n델링하여 기존의 CMOS회로와 같이 Co-Design 및 Co-Simulation할수 있는 방법을 연구함.\n그림 46. NEM 나노 스위치와 소자의 전기적 모델\n§ 그림 46은 NEM 나노스위치의 전기적 모델을 나타내었음. NEM 스위치의 동작은 게이트 전극에\n가해주는 전업이 풀인전압(Vpi) 보다 크면 Drain과 Source가 연결되고, 게이트 전압이 릴리즈 전\n압 (Vrl) 보다 다시 낮아지면 연결이 끊어지는 식으로 움직임. 따라서 NEM 스위치를 회로 시뮬레\n이션에 사용하기 위해서는 풀인 전압과 릴리즈 전압을 정확하게 모델링 하는 것이 필요함. § 따라서 Verilog-A를 이용하여 매스-스피링 댐퍼 모델을 이용한 2차 전기-기계 시스템 동작을 모\n델링 하여 NEM 나노 스위치 동작을 정확하게 구현하도록 모델링 함. - 재구성 알고리즘의 정확성 검증 및 재구성 품질 최적화\n§ 재구성 솔루션: 디지털 회로 설계에 가장 많이 사용되는 언어인 Verilog로 기술된 회로를 FPGA에",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          203.29,
+          581.84,
+          422.89,
+          781.55
+        ],
+        "page_area_fraction": 0.0876
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.12,
+          336.11,
+          454.68,
+          517.35
+        ],
+        "page_area_fraction": 0.1078
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0046",
+    "caption": "FPGA 아키텍처의 면적 분포",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "그림 48. FPGA의 지연시간 분포 그림 49. FPGA 지연시간 분석에 포함된 경로의 예시\n§ 분석결과 - 지연시간 감소 측면: 8x8 어레이의 경우 나노소자를 사용한 FPGA의 지연시간은 그렇\n지 않은 CMOS 기반 FPGA 대비, 나노소자 특성치에 따라 최대 74.6%에서 최소 52.2%까지 감소될\n수 있는 것으로 나타남. § 이러한 지연시간 감소가 발생할 수 있는 근본 원인은 그림 55에서 보인 바와 같이 FPGA의 대부\n분의 지연시간이 MUX 및 LUT에서 발생하기 때문임. 그림 56는 critical path의 발생 예시를 보여\n줌. § 단, 위의 면적감소 및 지연시간 감소 분석 결과는 나노소자의 특성치 뿐만 아니라 라이브러리, FPGA 아키텍처, 매핑 알고리즘 등 여러 가지 변수에 따라 변동될 수 있음. - 나노스위치 기반 재구성 아키텍처의 계산오차 예측 플랫폼 개발\n§ ReRAM 방식의 나노스위치 기반 재구성 아키텍처의 계산 오차를 빠르면서도 SPICE 수준의 정확",
+    "caption_and_following_text": "도로 예측할 수 있는 시뮬레이션 기반 플랫폼 개발. § ReRAM을 메모리가 아닌 계산 소자로 사용하면 면적 대비 높은 계산 밀도를 얻을 수 있음. 대표\n적으로 ReRAM crossbar array를 이용한 행렬-벡터 곱 (matrix-vector multiplication) 연산이 가능. § 그림 67과 같이 음수의 행렬 원소값을 표현하기 위하여 두 개의 ReRAM 셀을 사용하거나 (왼쪽),\n하나 또는 몇 개의 reference column을 사용하는 방법(오른쪽) 등이 있음.\n그림 47. FPGA 아키텍처의 면적 분포\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.23,
+          382.26,
+          263.74,
+          509.92
+        ],
+        "page_area_fraction": 0.0438
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          288.68,
+          381.66,
+          534.07,
+          513.76
+        ],
+        "page_area_fraction": 0.0648
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.88,
+          631.11,
+          504.21,
+          781.54
+        ],
+        "page_area_fraction": 0.1062
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0047",
+    "caption": "FPGA의 지연시간 분포",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "Design Compiler와 45nm FREEPDK 사용). 그래프가 보여주는 바와 같이 대부분의 면적는 CLB 및",
+    "caption_and_following_text": "CLB 내에서도 MUX에서 소모되며, 그렇기 때문에 나노소자를 사용하여 MUX를 대체할 경우 훨씬\n더 나은 특성을 얻을 수 있게 됨. 단, 위의 분석 결과는 configuration cell를 포함하지 않은 것으\n로서, configuration cell을 포함할 경우 면적 감소 효과는 더 커질 것으로 예상됨.\n그림 48. FPGA의 지연시간 분포 그림 49. FPGA 지연시간 분석에 포함된 경로의 예시\n§ 분석결과 - 지연시간 감소 측면: 8x8 어레이의 경우 나노소자를 사용한 FPGA의 지연시간은 그렇\n지 않은 CMOS 기반 FPGA 대비, 나노소자 특성치에 따라 최대 74.6%에서 최소 52.2%까지 감소될\n수 있는 것으로 나타남. § 이러한 지연시간 감소가 발생할 수 있는 근본 원인은 그림 55에서 보인 바와 같이 FPGA의 대부\n분의 지연시간이 MUX 및 LUT에서 발생하기 때문임. 그림 56는 critical path의 발생 예시를 보여\n줌. § 단, 위의 면적감소 및 지연시간 감소 분석 결과는 나노소자의 특성치 뿐만 아니라 라이브러리, FPGA 아키텍처, 매핑 알고리즘 등 여러 가지 변수에 따라 변동될 수 있음. - 나노스위치 기반 재구성 아키텍처의 계산오차 예측 플랫폼 개발\n§ ReRAM 방식의 나노스위치 기반 재구성 아키텍처의 계산 오차를 빠르면서도 SPICE 수준의 정확",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.23,
+          382.26,
+          263.74,
+          509.92
+        ],
+        "page_area_fraction": 0.0438
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          288.68,
+          381.66,
+          534.07,
+          513.76
+        ],
+        "page_area_fraction": 0.0648
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.88,
+          631.11,
+          504.21,
+          781.54
+        ],
+        "page_area_fraction": 0.1062
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0048",
+    "caption": "FPGA 지연시간 분석에 포함된 경로의 예시",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "Design Compiler와 45nm FREEPDK 사용). 그래프가 보여주는 바와 같이 대부분의 면적는 CLB 및",
+    "caption_and_following_text": "CLB 내에서도 MUX에서 소모되며, 그렇기 때문에 나노소자를 사용하여 MUX를 대체할 경우 훨씬\n더 나은 특성을 얻을 수 있게 됨. 단, 위의 분석 결과는 configuration cell를 포함하지 않은 것으\n로서, configuration cell을 포함할 경우 면적 감소 효과는 더 커질 것으로 예상됨.\n그림 48. FPGA의 지연시간 분포 그림 49. FPGA 지연시간 분석에 포함된 경로의 예시\n§ 분석결과 - 지연시간 감소 측면: 8x8 어레이의 경우 나노소자를 사용한 FPGA의 지연시간은 그렇\n지 않은 CMOS 기반 FPGA 대비, 나노소자 특성치에 따라 최대 74.6%에서 최소 52.2%까지 감소될\n수 있는 것으로 나타남. § 이러한 지연시간 감소가 발생할 수 있는 근본 원인은 그림 55에서 보인 바와 같이 FPGA의 대부\n분의 지연시간이 MUX 및 LUT에서 발생하기 때문임. 그림 56는 critical path의 발생 예시를 보여\n줌. § 단, 위의 면적감소 및 지연시간 감소 분석 결과는 나노소자의 특성치 뿐만 아니라 라이브러리, FPGA 아키텍처, 매핑 알고리즘 등 여러 가지 변수에 따라 변동될 수 있음. - 나노스위치 기반 재구성 아키텍처의 계산오차 예측 플랫폼 개발\n§ ReRAM 방식의 나노스위치 기반 재구성 아키텍처의 계산 오차를 빠르면서도 SPICE 수준의 정확",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.23,
+          382.26,
+          263.74,
+          509.92
+        ],
+        "page_area_fraction": 0.0438
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          288.68,
+          381.66,
+          534.07,
+          513.76
+        ],
+        "page_area_fraction": 0.0648
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.88,
+          631.11,
+          504.21,
+          781.54
+        ],
+        "page_area_fraction": 0.1062
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0049",
+    "caption": "ReRAM을 이용한 행렬-벡터 곱 연산 (행렬은 ReRAM conductance로, 입력 벡터는 입력 전압으로 구현됨)",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 50. ReRAM을 이용한 행렬-벡터 곱 연산 (행렬은 ReRAM\nconductance로, 입력 벡터는 입력 전압으로 구현됨) § 하지만 ReRAM crossbar array에서 여러 행을 동시에 drive하게 되면, sneak path의 영향으로 이\n상적인 전류값과 상당히 다른 값이 나오게 됨. 메모리로 사용할 경우에는 한 번에 한 행만 drive\n하기 때문에 sneak path 문제를 피하는 것이 가능하지만, 계산소자로 사용할 경우에는 피하기가\n매우 어려움. § 그림 51은 sneak path로 인한 전류값의 왜곡 정도를 보여줌. ReRAM crossbar array의 정상상태에\n서의 동작을 resistive network으로 모델링한 것이며(SPICE 시뮬레이션), 그래프는 crossbar array\n에서의 상대적인 위치에 따라 셀의 전류값이 상당히 다르게 관측된다는 것을 보여줌. 두 그래프\n의 차이는 선저항(wire resistance) 값의 차이이며 (왼쪽이 상대적으로 더 큰 선저항), 오른쪽 그래\n프와 같이 선저항이 극단적으로 작은 경우에도 전류값의 차이가 상당히 존재함을 볼 수 있음.\n그림 51. ReRAM crossbar array의 위치 및 선저항 값에 따른 전류 관측값의 차이",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.99,
+          619.72,
+          463.31,
+          781.54
+        ],
+        "page_area_fraction": 0.0971
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.18,
+          318.01,
+          505.05,
+          451.55
+        ],
+        "page_area_fraction": 0.1067
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0050",
+    "caption": "ReRAM crossbar array의 위치 및 선저항 값에 따른 전류 관측값의 차이 (왼쪽 그래프: Rw = LRS/500, 오른쯕 그래프: Rw = LRS/10^4, Rw는 선저항)",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "그림 50. ReRAM을 이용한 행렬-벡터 곱 연산 (행렬은 ReRAM\nconductance로, 입력 벡터는 입력 전압으로 구현됨) § 하지만 ReRAM crossbar array에서 여러 행을 동시에 drive하게 되면, sneak path의 영향으로 이\n상적인 전류값과 상당히 다른 값이 나오게 됨. 메모리로 사용할 경우에는 한 번에 한 행만 drive\n하기 때문에 sneak path 문제를 피하는 것이 가능하지만, 계산소자로 사용할 경우에는 피하기가\n매우 어려움. § 그림 51은 sneak path로 인한 전류값의 왜곡 정도를 보여줌. ReRAM crossbar array의 정상상태에\n서의 동작을 resistive network으로 모델링한 것이며(SPICE 시뮬레이션), 그래프는 crossbar array\n에서의 상대적인 위치에 따라 셀의 전류값이 상당히 다르게 관측된다는 것을 보여줌. 두 그래프",
+    "caption_and_following_text": "의 차이는 선저항(wire resistance) 값의 차이이며 (왼쪽이 상대적으로 더 큰 선저항), 오른쪽 그래\n프와 같이 선저항이 극단적으로 작은 경우에도 전류값의 차이가 상당히 존재함을 볼 수 있음.\n그림 51. ReRAM crossbar array의 위치 및 선저항 값에 따른 전류 관측값의 차이\n(왼쪽 그래프: Rw = LRS/500, 오른쯕 그래프: Rw = LRS/10^4, Rw는 선저항)\n- 나노스위치 기반 재구성 아키텍처 계산 오차 보정을 위한 재구성 기법 개발\n§ 딥러닝 응용을 타겟으로 ReRAM 방식의 나노스위치 기반 재구성 아키텍처 사용시 계산 오차를\n최소화할 수 있는 학습/재구성 기법 개발. 재구성 기법을 통하여 95% 이상의 정확도를 달성. § ReRAM 기반 나노스위치 재구성 아키텍처에 프로그래밍하는 저항값과 실제로 계산결과를 통하여\n관측되는 저항값 사이에는 괴리가 발생하는데, 이러한 괴리는 crossbar array가 이상적으로 동작\n하지 않기 때문에 발생되는 것이므로 비이상성(non-idealities)이라고 칭함. § 계산 응용에서 발생하는 ReRAM crossbar array의 비이상성을 하드웨어적인 방법으로 보정하게\n되면 비용/전력 등의 증가가 불가피하기 때문에, 소프트웨어적인 방법으로 해결할 수 있다면 최",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.99,
+          619.72,
+          463.31,
+          781.54
+        ],
+        "page_area_fraction": 0.0971
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.18,
+          318.01,
+          505.05,
+          451.55
+        ],
+        "page_area_fraction": 0.1067
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0051",
+    "caption": "ReRAM의 동작특성을 학습에 반영함에 따른 BNN 정확도의 향상 (r = LRS/Rw, 좌: array 전체 사용, 우: array 일부만 사용)",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "(reference column의 개수가 1인 경우 중 일부), 대부분의 경우에 95% 이상의 인식률을 보여줌. § 이는 ReRAM crossbar array 기반의 재구성회로로 BNN과 같은 계산 응용을 수행할 경우에, 재구\n성 알고리즘 상의 수정을 통하여 하드웨어의 비이상성을 상당 부분 보정할 수 있음을 의미.\n그림 52. ReRAM의 동작특성을 학습에 반영함에 따른 BNN 정확도의\n향상 (r = LRS/Rw, 좌: array 전체 사용, 우: array 일부만 사용) § 그림 53은 아키텍처 변경에 따른 전력, 면적 등을 분석한 결과임. 선저항(wire resistance)이 작을\n수록 프로그래밍은 용이하지만 (sneak path로 인한 비이상성이 더 적게 나타남), 전력소모 또한\n훨씬 큰 것을 알 수 있음. § 한편 reference column의 개수를 늘리는 경우에는 전력소모도 늘어나지 않으면서 계산의 정확도\n도 높일 수 있으므로, 더 바람직한 방법이라고 결론을 내릴 수 있음.\n그림 53. ReRAM crossbar array의 아키텍처 탐색 (왼쪽\n그래프에서 r = LRS/Rw) § 시뮬레이터 오차 분석: 저항 기반 나노스위치의 Verilog-A SPICE 시뮬레이션을 통하여 read 연산\n중의 저항값의 변화(read disturbance) 분석 (아래 그림 참고). § 실제 device에서는 확률적인 noise에 의한 오차도 발생하겠지만, 그런 noise를 배제한 상황에서도",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.32,
+          601.38,
+          473.98,
+          720.41
+        ],
+        "page_area_fraction": 0.0765
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.48,
+          368.96,
+          468.83,
+          487.87
+        ],
+        "page_area_fraction": 0.074
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.95,
+          95.65,
+          435.73,
+          183.52
+        ],
+        "page_area_fraction": 0.0456
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0052",
+    "caption": "ReRAM crossbar array의 아키텍처 탐색 (왼쪽 그래프에서 r = LRS/Rw)",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "(reference column의 개수가 1인 경우 중 일부), 대부분의 경우에 95% 이상의 인식률을 보여줌. § 이는 ReRAM crossbar array 기반의 재구성회로로 BNN과 같은 계산 응용을 수행할 경우에, 재구\n성 알고리즘 상의 수정을 통하여 하드웨어의 비이상성을 상당 부분 보정할 수 있음을 의미.\n그림 52. ReRAM의 동작특성을 학습에 반영함에 따른 BNN 정확도의\n향상 (r = LRS/Rw, 좌: array 전체 사용, 우: array 일부만 사용) § 그림 53은 아키텍처 변경에 따른 전력, 면적 등을 분석한 결과임. 선저항(wire resistance)이 작을\n수록 프로그래밍은 용이하지만 (sneak path로 인한 비이상성이 더 적게 나타남), 전력소모 또한",
+    "caption_and_following_text": "훨씬 큰 것을 알 수 있음. § 한편 reference column의 개수를 늘리는 경우에는 전력소모도 늘어나지 않으면서 계산의 정확도\n도 높일 수 있으므로, 더 바람직한 방법이라고 결론을 내릴 수 있음.\n그림 53. ReRAM crossbar array의 아키텍처 탐색 (왼쪽\n그래프에서 r = LRS/Rw) § 시뮬레이터 오차 분석: 저항 기반 나노스위치의 Verilog-A SPICE 시뮬레이션을 통하여 read 연산\n중의 저항값의 변화(read disturbance) 분석 (아래 그림 참고). § 실제 device에서는 확률적인 noise에 의한 오차도 발생하겠지만, 그런 noise를 배제한 상황에서도\n나노스위치 자체의 물리적 특성 내지는 크로스바 회로 구조의 특성 때문에 출력값에 어느 정도의\n변화가 있음을 확인. § 이러한 저항 기반 나노 스위치의 특성을 반영하여 시뮬레이션의 정확도를 향상할 필요가 있음을\n확인 (5차년도 연구목표에 포함). § ReRAM crossbar array에는 다양한 비이상성이 있음. 대표적으로 wire resistance에 의해 생기는\nvoltage drop 때문에 write disturbance, effective weight와 읽을 때마다 ReRAM의 저항 값이 바뀌\n는 read disturbance가 있음.",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.32,
+          601.38,
+          473.98,
+          720.41
+        ],
+        "page_area_fraction": 0.0765
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.48,
+          368.96,
+          468.83,
+          487.87
+        ],
+        "page_area_fraction": 0.074
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.95,
+          95.65,
+          435.73,
+          183.52
+        ],
+        "page_area_fraction": 0.0456
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0053",
+    "caption": "전압 강하를 고려한 DNN 모델 훈련 과정",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 55. 전압 강하를 고려한 DNN 모델 훈련\n과정 그림 56. Batch normalization 파\n라미터 튜닝 방법\n§ ReRAM 어레이의 선저항에 의한 전압 강하 패턴을 예측하는 별도DNN 모델 훈련 (그림 55의 h2\n에 해당) § DNN 모델의 가중치 훈련 시 전압 강하 패턴을 예측 모델을 통해 반영하여 가중치를 재구성\n§ 훈련 과정에서 이미 가중치를 보정하므로 ReRAM 어레이에 매핑한 후 별도의 후처리를 위한 하\n드웨어 장치가 필요하지 않음\n§ ReRAM 어레이 상에서 일부 저항값이 특정 값으로 고착되는 stuck-at 폴트 (SAF)를 Batch\nNormalization (BN) 레이어의 평균, 표준편차 값을 재구성하여 DNN 성능 향상\n§ 최대 128x128 크기의 ReRAM 어레이에서 다양한 선저항 값을 고려하여 실험 진행하였음",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.54,
+          658.8,
+          325.39,
+          730.6
+        ],
+        "page_area_fraction": 0.0298
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          329.58,
+          649.81,
+          494.25,
+          781.55
+        ],
+        "page_area_fraction": 0.0434
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          187.7,
+          186.4,
+          438.6,
+          457.78
+        ],
+        "page_area_fraction": 0.1361
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0054",
+    "caption": "Batch normalization 파라미터 튜닝 방법",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 55. 전압 강하를 고려한 DNN 모델 훈련\n과정 그림 56. Batch normalization 파\n라미터 튜닝 방법\n§ ReRAM 어레이의 선저항에 의한 전압 강하 패턴을 예측하는 별도DNN 모델 훈련 (그림 55의 h2\n에 해당) § DNN 모델의 가중치 훈련 시 전압 강하 패턴을 예측 모델을 통해 반영하여 가중치를 재구성\n§ 훈련 과정에서 이미 가중치를 보정하므로 ReRAM 어레이에 매핑한 후 별도의 후처리를 위한 하\n드웨어 장치가 필요하지 않음\n§ ReRAM 어레이 상에서 일부 저항값이 특정 값으로 고착되는 stuck-at 폴트 (SAF)를 Batch\nNormalization (BN) 레이어의 평균, 표준편차 값을 재구성하여 DNN 성능 향상\n§ 최대 128x128 크기의 ReRAM 어레이에서 다양한 선저항 값을 고려하여 실험 진행하였음",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.54,
+          658.8,
+          325.39,
+          730.6
+        ],
+        "page_area_fraction": 0.0298
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          329.58,
+          649.81,
+          494.25,
+          781.55
+        ],
+        "page_area_fraction": 0.0434
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          187.7,
+          186.4,
+          438.6,
+          457.78
+        ],
+        "page_area_fraction": 0.1361
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0055",
+    "caption": "선저항을 고려한 DNN 시뮬레이션 결과 (RCN, SCN이 본 연구에서 제안한 방법임)",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "§ ReRAM 어레이의 선저항에 의한 전압 강하 패턴을 예측하는 별도DNN 모델 훈련 (그림 55의 h2\n에 해당) § DNN 모델의 가중치 훈련 시 전압 강하 패턴을 예측 모델을 통해 반영하여 가중치를 재구성\n§ 훈련 과정에서 이미 가중치를 보정하므로 ReRAM 어레이에 매핑한 후 별도의 후처리를 위한 하\n드웨어 장치가 필요하지 않음\n§ ReRAM 어레이 상에서 일부 저항값이 특정 값으로 고착되는 stuck-at 폴트 (SAF)를 Batch\nNormalization (BN) 레이어의 평균, 표준편차 값을 재구성하여 DNN 성능 향상\n§ 최대 128x128 크기의 ReRAM 어레이에서 다양한 선저항 값을 고려하여 실험 진행하였음",
+    "caption_and_following_text": "§ MNIST와 CIFAR-10, SVHN 분류 응용에서 제시한 재구성 알고리즘을 적용하여 폴트가 없는 이상\n적인 때와 유사한 수준의 성능을 확인함 (SPICE 수준 시뮬레이션 결과)\n그림 57. 선저항을 고려한 DNN 시뮬레이션 결과\n(RCN, SCN이 본 연구에서 제안한 방법임) § 기존의 선저항 보정 기법보다 월등한 성능을 보이며, 특히 128x128 크기의 ReRAM 어레이와 1옴\n이상의 선저항을 갖는 어려운 조건에서 기존 방법들은 대부분 10%의 매우 나쁜 정확도를 보이나\n우리 방법은 Baseline 수준의 성능을 달성함\n§ SAF에도 기존의 가중치 재매핑 기법보다 더 높은 인식률을 보이며, CIFAR-10 데이터셋의 경우\n20% 까지의 폴트가 발생할 경우에도 정상동작을 보임\n§ 하드웨어적 변경 및 추가사항이 없으므로 실제 ReRAM 어레이에서의 연산결과를 본 재구성 알고\n리즘에 그대로 사용할 수 있음",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.54,
+          658.8,
+          325.39,
+          730.6
+        ],
+        "page_area_fraction": 0.0298
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          329.58,
+          649.81,
+          494.25,
+          781.55
+        ],
+        "page_area_fraction": 0.0434
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          187.7,
+          186.4,
+          438.6,
+          457.78
+        ],
+        "page_area_fraction": 0.1361
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0056",
+    "caption": "I-V 비선형성 예측 모델(실선)과 실측 데이터(원)",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 시뮬레이터 정확도 향상\n§ 선저항으로 인한 전압 강하와 I-V 비선형성을 함께 고려한 ReRAM 어레이의 가중치 재구성 기법\n연구",
+    "caption_and_following_text": "§ 이전에 고려하였던 전압 강하와 더불어 입력 전압(V)과 출력 전류(I)간의 비선형성을 추가로 고려\n하는 시뮬레이터 설계\n그림 58 I-V 비선형성 예측 모델(실\n선)과 실측 데이터(원)\n그림 59 ReRAM 어레이의 비이상성을 고려한\nDNN 모델 훈련 과정\n§ 그림 58에서와 같이 비선형성 예측 모델과 실측 데이터가 거의 일치함을 확인\n§ MNIST와 Fashion-MNIST 응용 BNN에 적용. 64x64, 128x128 크기의 어레이에서 선저항과 전압값\n을 달리하며 실험\n§ 어레이 레벨에서 SPICE 수준 시뮬레이션과 거의 같은 수준(에러 1% 미만)의 정확도를 확인",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.67,
+          591.19,
+          271.89,
+          705.19
+        ],
+        "page_area_fraction": 0.0386
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.92,
+          593.95,
+          523.64,
+          689.25
+        ],
+        "page_area_fraction": 0.0441
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0057",
+    "caption": "ReRAM 어레이의 비이상성을 고려한 DNN 모델 훈련 과정",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 시뮬레이터 정확도 향상\n§ 선저항으로 인한 전압 강하와 I-V 비선형성을 함께 고려한 ReRAM 어레이의 가중치 재구성 기법\n연구\n§ 이전에 고려하였던 전압 강하와 더불어 입력 전압(V)과 출력 전류(I)간의 비선형성을 추가로 고려\n하는 시뮬레이터 설계",
+    "caption_and_following_text": "그림 58 I-V 비선형성 예측 모델(실\n선)과 실측 데이터(원)\n그림 59 ReRAM 어레이의 비이상성을 고려한\nDNN 모델 훈련 과정\n§ 그림 58에서와 같이 비선형성 예측 모델과 실측 데이터가 거의 일치함을 확인\n§ MNIST와 Fashion-MNIST 응용 BNN에 적용. 64x64, 128x128 크기의 어레이에서 선저항과 전압값\n을 달리하며 실험\n§ 어레이 레벨에서 SPICE 수준 시뮬레이션과 거의 같은 수준(에러 1% 미만)의 정확도를 확인\n§ BNN 응용에서 각 레이어별로 적용시 출력 활성값이 SPICE 수준 시뮬레이션과 100% 동일함을 확\n인",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.67,
+          591.19,
+          271.89,
+          705.19
+        ],
+        "page_area_fraction": 0.0386
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.92,
+          593.95,
+          523.64,
+          689.25
+        ],
+        "page_area_fraction": 0.0441
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0058",
+    "caption": "FPAA 전체구조",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "§ 핵심 내용\n- Prototype FPAA (Field Programmable Analog Array) 개발 (0.18um)\n그림 60. FPAA 전체구조 그림 61. 구현된 FPAA의 layout § 전체 구조: Prototype FPAA는 각 소자들을 연결시켜주는 switch들을 프로그래밍하기 위한\nscan-chain, CAB와 switch matrix로 구성된 FPAA fabric, 그리고 fabric와 외부의 I/O를 위한\nbuffer로 구성. § FPAA fabric는 4개의 CAB와 CAB간 연결을 위한 4개의 switch matrix로 구성 (그림 60 참조).\n그림 62. CAB 어레이의 회로도 그림 63. 구현된 CAB 어레이의 layout § CAB (Configurable Analog Block) 어레이: CAB는 Operational Amplifier, 2종의 resistor, 그리고\ncapacitor로 구성함. 각각의 구성요소 간 연결을 위한 CAB 내부 switch matrix가 있고, 11개의\nrow, 10개의 column, 총 110개의 switch가 있다. CAB 간 연결을 위해 블록 간에는 connection\nblock(switch matrix)이 존재, row와 column 모두 CAB와 8개의 I/O로 연결되어 총 64개의 switch로\n구성함 (그림 62 및 그림 63). § CAB는 function generator와 같은 목표로 하는 어플리케이션을 구성할 수 있는 요소들을 가지며",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          441.46,
+          243.72,
+          574.89
+        ],
+        "page_area_fraction": 0.0412
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          248.87,
+          441.34,
+          522.46,
+          575.25
+        ],
+        "page_area_fraction": 0.0732
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          178.1,
+          238.81,
+          360.8
+        ],
+        "page_area_fraction": 0.0551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.91,
+          179.2,
+          538.51,
+          354.45
+        ],
+        "page_area_fraction": 0.1049
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0059",
+    "caption": "구현된 FPAA의 layout",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "§ 핵심 내용\n- Prototype FPAA (Field Programmable Analog Array) 개발 (0.18um)\n그림 60. FPAA 전체구조 그림 61. 구현된 FPAA의 layout § 전체 구조: Prototype FPAA는 각 소자들을 연결시켜주는 switch들을 프로그래밍하기 위한\nscan-chain, CAB와 switch matrix로 구성된 FPAA fabric, 그리고 fabric와 외부의 I/O를 위한\nbuffer로 구성. § FPAA fabric는 4개의 CAB와 CAB간 연결을 위한 4개의 switch matrix로 구성 (그림 60 참조).\n그림 62. CAB 어레이의 회로도 그림 63. 구현된 CAB 어레이의 layout § CAB (Configurable Analog Block) 어레이: CAB는 Operational Amplifier, 2종의 resistor, 그리고\ncapacitor로 구성함. 각각의 구성요소 간 연결을 위한 CAB 내부 switch matrix가 있고, 11개의\nrow, 10개의 column, 총 110개의 switch가 있다. CAB 간 연결을 위해 블록 간에는 connection\nblock(switch matrix)이 존재, row와 column 모두 CAB와 8개의 I/O로 연결되어 총 64개의 switch로\n구성함 (그림 62 및 그림 63). § CAB는 function generator와 같은 목표로 하는 어플리케이션을 구성할 수 있는 요소들을 가지며",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          441.46,
+          243.72,
+          574.89
+        ],
+        "page_area_fraction": 0.0412
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          248.87,
+          441.34,
+          522.46,
+          575.25
+        ],
+        "page_area_fraction": 0.0732
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          178.1,
+          238.81,
+          360.8
+        ],
+        "page_area_fraction": 0.0551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.91,
+          179.2,
+          538.51,
+          354.45
+        ],
+        "page_area_fraction": 0.1049
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0060",
+    "caption": "CAB 어레이의 회로도",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "§ 핵심 내용\n- Prototype FPAA (Field Programmable Analog Array) 개발 (0.18um)",
+    "caption_and_following_text": "그림 60. FPAA 전체구조 그림 61. 구현된 FPAA의 layout § 전체 구조: Prototype FPAA는 각 소자들을 연결시켜주는 switch들을 프로그래밍하기 위한\nscan-chain, CAB와 switch matrix로 구성된 FPAA fabric, 그리고 fabric와 외부의 I/O를 위한\nbuffer로 구성. § FPAA fabric는 4개의 CAB와 CAB간 연결을 위한 4개의 switch matrix로 구성 (그림 60 참조).\n그림 62. CAB 어레이의 회로도 그림 63. 구현된 CAB 어레이의 layout § CAB (Configurable Analog Block) 어레이: CAB는 Operational Amplifier, 2종의 resistor, 그리고\ncapacitor로 구성함. 각각의 구성요소 간 연결을 위한 CAB 내부 switch matrix가 있고, 11개의\nrow, 10개의 column, 총 110개의 switch가 있다. CAB 간 연결을 위해 블록 간에는 connection\nblock(switch matrix)이 존재, row와 column 모두 CAB와 8개의 I/O로 연결되어 총 64개의 switch로\n구성함 (그림 62 및 그림 63). § CAB는 function generator와 같은 목표로 하는 어플리케이션을 구성할 수 있는 요소들을 가지며\nswitch를 통해 연결하여 전체 회로의 구성에 필요한 간단한 구조들을 만들어 냄. 여러 구조들을\n조합하여 원하는 전체 회로를 구성 할 수 있고, CAB 간 연결을 외부 switch matrix(connection",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          441.46,
+          243.72,
+          574.89
+        ],
+        "page_area_fraction": 0.0412
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          248.87,
+          441.34,
+          522.46,
+          575.25
+        ],
+        "page_area_fraction": 0.0732
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          178.1,
+          238.81,
+          360.8
+        ],
+        "page_area_fraction": 0.0551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.91,
+          179.2,
+          538.51,
+          354.45
+        ],
+        "page_area_fraction": 0.1049
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0061",
+    "caption": "구현된 CAB 어레이의 layout",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "§ 핵심 내용\n- Prototype FPAA (Field Programmable Analog Array) 개발 (0.18um)",
+    "caption_and_following_text": "그림 60. FPAA 전체구조 그림 61. 구현된 FPAA의 layout § 전체 구조: Prototype FPAA는 각 소자들을 연결시켜주는 switch들을 프로그래밍하기 위한\nscan-chain, CAB와 switch matrix로 구성된 FPAA fabric, 그리고 fabric와 외부의 I/O를 위한\nbuffer로 구성. § FPAA fabric는 4개의 CAB와 CAB간 연결을 위한 4개의 switch matrix로 구성 (그림 60 참조).\n그림 62. CAB 어레이의 회로도 그림 63. 구현된 CAB 어레이의 layout § CAB (Configurable Analog Block) 어레이: CAB는 Operational Amplifier, 2종의 resistor, 그리고\ncapacitor로 구성함. 각각의 구성요소 간 연결을 위한 CAB 내부 switch matrix가 있고, 11개의\nrow, 10개의 column, 총 110개의 switch가 있다. CAB 간 연결을 위해 블록 간에는 connection\nblock(switch matrix)이 존재, row와 column 모두 CAB와 8개의 I/O로 연결되어 총 64개의 switch로\n구성함 (그림 62 및 그림 63). § CAB는 function generator와 같은 목표로 하는 어플리케이션을 구성할 수 있는 요소들을 가지며\nswitch를 통해 연결하여 전체 회로의 구성에 필요한 간단한 구조들을 만들어 냄. 여러 구조들을\n조합하여 원하는 전체 회로를 구성 할 수 있고, CAB 간 연결을 외부 switch matrix(connection",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          441.46,
+          243.72,
+          574.89
+        ],
+        "page_area_fraction": 0.0412
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          248.87,
+          441.34,
+          522.46,
+          575.25
+        ],
+        "page_area_fraction": 0.0732
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          178.1,
+          238.81,
+          360.8
+        ],
+        "page_area_fraction": 0.0551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.91,
+          179.2,
+          538.51,
+          354.45
+        ],
+        "page_area_fraction": 0.1049
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0062",
+    "caption": "Prototype FPAA 측정을 위한 PCB schematic",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "§ Connection Block (switch matrix): 하나의 switch는 transmission gate와 inverter로 구성되고 9.5um\n× 7.5um의 크기를 가짐. switch matrix (connection block)는 80um × 70um, CAB는 157um ×",
+    "caption_and_following_text": "80um의 크기이고, 전체 FPAA fabric의 크기는 442um × 270um임. § Prototype FPAA 측정 진행: 180nm공정을 이용한 prototype FPAA 측정을 위하여 PCB 설계하였\n음. § 벡터곱 연산기와 같이, FPGA를 통하여 칩에 필요한 신호들을 조절하며 측정을 진행. - 재구성 로직을 위한 PCIe 기반 테스트 환경 구축\n그림 64. Prototype FPAA 측정을 위한 PCB\nschematic\n그림 65. PCIe기반 재구성 아키텍처 시스템\n예시\n§ 재구성 아키텍처가 성공적으로 시스템에 통합되기 위해서는 PCIe 등의 고성능 인터페이스를 사용\n하는 것이 필수적임. 기존의 GPU, FPGA 등의 가속기 시스템은 PCIe 인터페이스를 통해 딥 러닝\n응용을 가속하는데 적극적으로 활용하고 있음. § 그림 65은 재구성 아키텍처가 PCIe interface를 통해 시스템에서 통합된 하나의 예시를 보여줌. 기존의 Digital Logic Block을 통해 연산이 오프로딩되면 이와 연결된 나노소자 및 아날로그 회로\n에서 특정 연산 부분을 더욱 효과적으로 실행하는 형태를 기대할 수 있음. § 본 연구에서는 그림 65과 같은 시스템의 기반이 되는 Digital Block을 실제 PCIe interface에 연결",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.55,
+          478.88,
+          305.84,
+          658.44
+        ],
+        "page_area_fraction": 0.0783
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.39,
+          503.81,
+          524.24,
+          629.19
+        ],
+        "page_area_fraction": 0.0513
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0063",
+    "caption": "PCIe기반 재구성 아키텍처 시스템 예시",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "§ Connection Block (switch matrix): 하나의 switch는 transmission gate와 inverter로 구성되고 9.5um\n× 7.5um의 크기를 가짐. switch matrix (connection block)는 80um × 70um, CAB는 157um ×\n80um의 크기이고, 전체 FPAA fabric의 크기는 442um × 270um임. § Prototype FPAA 측정 진행: 180nm공정을 이용한 prototype FPAA 측정을 위하여 PCB 설계하였\n음. § 벡터곱 연산기와 같이, FPGA를 통하여 칩에 필요한 신호들을 조절하며 측정을 진행. - 재구성 로직을 위한 PCIe 기반 테스트 환경 구축",
+    "caption_and_following_text": "그림 64. Prototype FPAA 측정을 위한 PCB\nschematic\n그림 65. PCIe기반 재구성 아키텍처 시스템\n예시\n§ 재구성 아키텍처가 성공적으로 시스템에 통합되기 위해서는 PCIe 등의 고성능 인터페이스를 사용\n하는 것이 필수적임. 기존의 GPU, FPGA 등의 가속기 시스템은 PCIe 인터페이스를 통해 딥 러닝\n응용을 가속하는데 적극적으로 활용하고 있음. § 그림 65은 재구성 아키텍처가 PCIe interface를 통해 시스템에서 통합된 하나의 예시를 보여줌. 기존의 Digital Logic Block을 통해 연산이 오프로딩되면 이와 연결된 나노소자 및 아날로그 회로\n에서 특정 연산 부분을 더욱 효과적으로 실행하는 형태를 기대할 수 있음. § 본 연구에서는 그림 65과 같은 시스템의 기반이 되는 Digital Block을 실제 PCIe interface에 연결\n하고, 실제 커맨드 라인에서 동작 검증을 마쳤음. 현재는 Xilinx사의 FPGA를 이용하고 있기 때문\n에 해당 회사의 SDAccel 툴체인을 사용하였으며, 추후에 나노소자 등을 이용한 칩이 나오면 이를",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.55,
+          478.88,
+          305.84,
+          658.44
+        ],
+        "page_area_fraction": 0.0783
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.39,
+          503.81,
+          524.24,
+          629.19
+        ],
+        "page_area_fraction": 0.0513
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0064",
+    "caption": "측정된 아날로그 벡터-행렬곱 연산기의 곱셈 동작 결과",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 66. 측정된 아날로그 벡터-행렬곱\n연산기의 곱셈 동작 결과 그림 67. 측정된 성능 지표 정리\n§ 성공적인 연산 동작의 측정을 통해 3차년도 성능 지표인 마스크 에러율 1% 이하를 검증하였음. § 측정된 성능은 1 TOPS/W를 넘는 연산 효율을 나타내고 있어(그림 60) 디지털 프로세서를 이용하\n는 상용 연산기 대비 대폭 향상된 연산 효율을 가지고 있음. § 성능 및 에너지 비교: Convolution 응용에 대해 상용 FPGA인 Virtex-7과의 에너지 효율성 비교\n수행. Virtex-7은 Xilinx의 flagship FPGA로서 최신 28 nm 공정 사용. 다음 표에서 알 수 있듯이 본 과제에서 개발된 프로토타입 아날로그 연산기가 상용 FPGA 대비\n에너지 효율성 면에서 2.28~2.77배 우수. 단, 상용 FPGA에는 수율을 향상시키기 위한 redundancy\n회로 및 사용/디버깅의 편의를 위한 각종 부가 회로로 인한 오버헤드가 있으며, 따라서 실제 에\n너지 효율성 이득은 이보다 낮아질 수 있음. Metric Xilinx Virtex-7\nPeak DSP Performance 5,335 GMAC/s\nPower ~20 W",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.91,
+          654.24,
+          274.29,
+          781.55
+        ],
+        "page_area_fraction": 0.0474
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          274.29,
+          641.66,
+          524.0,
+          763.09
+        ],
+        "page_area_fraction": 0.0606
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.15,
+          138.21,
+          452.88,
+          248.49
+        ],
+        "page_area_fraction": 0.0647
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0065",
+    "caption": "측정된 성능 지표 정리",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 66. 측정된 아날로그 벡터-행렬곱\n연산기의 곱셈 동작 결과 그림 67. 측정된 성능 지표 정리\n§ 성공적인 연산 동작의 측정을 통해 3차년도 성능 지표인 마스크 에러율 1% 이하를 검증하였음. § 측정된 성능은 1 TOPS/W를 넘는 연산 효율을 나타내고 있어(그림 60) 디지털 프로세서를 이용하\n는 상용 연산기 대비 대폭 향상된 연산 효율을 가지고 있음. § 성능 및 에너지 비교: Convolution 응용에 대해 상용 FPGA인 Virtex-7과의 에너지 효율성 비교\n수행. Virtex-7은 Xilinx의 flagship FPGA로서 최신 28 nm 공정 사용. 다음 표에서 알 수 있듯이 본 과제에서 개발된 프로토타입 아날로그 연산기가 상용 FPGA 대비\n에너지 효율성 면에서 2.28~2.77배 우수. 단, 상용 FPGA에는 수율을 향상시키기 위한 redundancy\n회로 및 사용/디버깅의 편의를 위한 각종 부가 회로로 인한 오버헤드가 있으며, 따라서 실제 에\n너지 효율성 이득은 이보다 낮아질 수 있음. Metric Xilinx Virtex-7\nPeak DSP Performance 5,335 GMAC/s\nPower ~20 W",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.91,
+          654.24,
+          274.29,
+          781.55
+        ],
+        "page_area_fraction": 0.0474
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          274.29,
+          641.66,
+          524.0,
+          763.09
+        ],
+        "page_area_fraction": 0.0606
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.15,
+          138.21,
+          452.88,
+          248.49
+        ],
+        "page_area_fraction": 0.0647
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0066",
+    "caption": "전압 기반 ReRAM 연산기의 구조",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "§ 재구성 가능한 메모리 일체형 인공신경망 연산기를 설계 및 제작하였음\n§ 16kByte의 크기를 갖는 SRAM기반의 어레이로 28nm CMOS공정으로 설계되었고, 가중치 재구성\n실험 결과 보드 수준 테스팅에서 100%의 재구성 성공률을 보임. § 개발된 CMOS기반의 연산기에 개발된 기술은 ReRAM과의 플랫폼 집적을 통하여 인공지능 알고리\n즘 연산과 같은 응용이 실행 가능한 SoC형태로 제작됨. 현재 성능의 향상을 위해 일부 회로 수정\n후 칩 제작을 다시 의뢰한 상태임. § 전압기반 ReRAM 연산기 설계 및 검증\n§ 180nm CMOS공정을 이용하여 6.4kByte 크기의 ReRAM과 MAC(multiply and accumulation) 연산기\n가 집적된 형태의 칩을 pre-layout 단계까지 설계함. § 제작된 MAC 연산기는 1bit/1bit의 입력/가중치 해상도를 가지며 1T-1R(1 transistor- 1 resistor) 셀 내",
+    "caption_and_following_text": "에서 곱셈 연산을 수행함. 각 셀들의 연산결과는 bit-line 상에서 하나로 더해지며, 16to1 multiplexer\n하단의 pull-up 트랜지스터와 함께 bit-line 전압을 형성함. 이 전압을 sense amplifier를 이용하여 디\n지털 정보로 변환하는 혼성신호 메모리 내 연산장치 (PIM, Processing-In-Memory)의 일종임.\n그림 74 전압 기반 ReRAM 연산기의 구조\n그림 75 (a)1T-1R 셀의 구조(b)입력과\n가중치(ReRAM state)에 따른\n곱셈결과(c)덧셈연산이 수행되는 bit-line의 간단화\n된 구조\n§ ReRAM 연산기를 구성하는 각 셀은 한개의 트랜지스터와 한개의 ReRAM으로 구성되어 있으며, word-line(WL), selection-line(SL), bit-line(BL)의 조합에 따라 set/reset/read 동작이 수행됨. § Read 동작시, WL에 인가되는 전압은 입력에 해당하며 ReRAM의 상태(HRS/LRS)는 가중치에 해당함. 이 때 SL(GND)과 BL 사이의 컨덕턴스가 입력과 가중치의 곱에 해당함. 하나의 BL 상에서 WL(입력)\n과 ReRAM 상태(가중치)의 곱들이 컨덕턴스로서 더해지며, 더해진 전체 컨덕턴스와 pull-up 트랜지스",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.2,
+          218.76,
+          312.31,
+          374.83
+        ],
+        "page_area_fraction": 0.0721
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.19,
+          263.83,
+          548.1,
+          390.65
+        ],
+        "page_area_fraction": 0.0598
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0067",
+    "caption": "(a)1T-1R 셀의 구조(b)입력과 가중치(ReRAM state)에 따른 곱셈결과(c)덧셈연산이 수행되는 bit-line의 간단화된 구조",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "후 칩 제작을 다시 의뢰한 상태임. § 전압기반 ReRAM 연산기 설계 및 검증\n§ 180nm CMOS공정을 이용하여 6.4kByte 크기의 ReRAM과 MAC(multiply and accumulation) 연산기\n가 집적된 형태의 칩을 pre-layout 단계까지 설계함. § 제작된 MAC 연산기는 1bit/1bit의 입력/가중치 해상도를 가지며 1T-1R(1 transistor- 1 resistor) 셀 내\n에서 곱셈 연산을 수행함. 각 셀들의 연산결과는 bit-line 상에서 하나로 더해지며, 16to1 multiplexer\n하단의 pull-up 트랜지스터와 함께 bit-line 전압을 형성함. 이 전압을 sense amplifier를 이용하여 디\n지털 정보로 변환하는 혼성신호 메모리 내 연산장치 (PIM, Processing-In-Memory)의 일종임.\n그림 74 전압 기반 ReRAM 연산기의 구조",
+    "caption_and_following_text": "그림 75 (a)1T-1R 셀의 구조(b)입력과\n가중치(ReRAM state)에 따른\n곱셈결과(c)덧셈연산이 수행되는 bit-line의 간단화\n된 구조\n§ ReRAM 연산기를 구성하는 각 셀은 한개의 트랜지스터와 한개의 ReRAM으로 구성되어 있으며, word-line(WL), selection-line(SL), bit-line(BL)의 조합에 따라 set/reset/read 동작이 수행됨. § Read 동작시, WL에 인가되는 전압은 입력에 해당하며 ReRAM의 상태(HRS/LRS)는 가중치에 해당함. 이 때 SL(GND)과 BL 사이의 컨덕턴스가 입력과 가중치의 곱에 해당함. 하나의 BL 상에서 WL(입력)\n과 ReRAM 상태(가중치)의 곱들이 컨덕턴스로서 더해지며, 더해진 전체 컨덕턴스와 pull-up 트랜지스\n터의 컨덕턴스에 의해 BL의 전압은 (GPU/GPU+GEFF) *VDD 으로 결정됨.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.2,
+          218.76,
+          312.31,
+          374.83
+        ],
+        "page_area_fraction": 0.0721
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.19,
+          263.83,
+          548.1,
+          390.65
+        ],
+        "page_area_fraction": 0.0598
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0068",
+    "caption": "(a)MAC 연산 결과값에 따른 BL 전압(b)LRS variation에 따른 BL 전압",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 76 (a)MAC 연산 결과값에 따른 BL 전압(b)LRS variation에 따른\nBL 전압\n§ HSPICE 시뮬레이션을 통해 9개 셀의 MAC 연산 결과 값에 따른 BL 전압을 비교함. ReRAM 소자간\nvariation이 없을 경우, 인접한 연산값 간에 최소 140mV의 마진을 확보함. 활성화 된 WL이 sense\namplifier에서 멀 경우, 모델링된 BL 기생 저항에 의해 sense amplifier에서 가까운 경우 보다 BL 전\n압이 높게 형성됨을 확인함. § 실제 ReRAM 소자에 대해 set/reset을 할 때 생기는 LRS의 random variation에 의한 BL 전압의 변화\n를 비교함. LRS의 variation이 커질 수록 마진이 작아져, ± 6%에 도달하면 인접한 연산 결과 값을\n구분할 수 없어짐.\n그림 77 (a)Forming/set/reset/read시 WL/BL/SL driver의\n동작(b)Controller의 read 동작에 대한 시뮬레이션",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.57,
+          642.5,
+          474.22,
+          781.55
+        ],
+        "page_area_fraction": 0.0935
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.17,
+          333.48,
+          482.74,
+          481.63
+        ],
+        "page_area_fraction": 0.1047
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0069",
+    "caption": "(a)Forming/set/reset/read시 WL/BL/SL driver의 동작(b)Controller의 read 동작에 대한 시뮬레이션",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "그림 76 (a)MAC 연산 결과값에 따른 BL 전압(b)LRS variation에 따른\nBL 전압\n§ HSPICE 시뮬레이션을 통해 9개 셀의 MAC 연산 결과 값에 따른 BL 전압을 비교함. ReRAM 소자간\nvariation이 없을 경우, 인접한 연산값 간에 최소 140mV의 마진을 확보함. 활성화 된 WL이 sense\namplifier에서 멀 경우, 모델링된 BL 기생 저항에 의해 sense amplifier에서 가까운 경우 보다 BL 전\n압이 높게 형성됨을 확인함. § 실제 ReRAM 소자에 대해 set/reset을 할 때 생기는 LRS의 random variation에 의한 BL 전압의 변화",
+    "caption_and_following_text": "를 비교함. LRS의 variation이 커질 수록 마진이 작아져, ± 6%에 도달하면 인접한 연산 결과 값을\n구분할 수 없어짐.\n그림 77 (a)Forming/set/reset/read시 WL/BL/SL driver의\n동작(b)Controller의 read 동작에 대한 시뮬레이션\n§ HSPICE 시뮬레이션을 통해 WL/BL/SL driver와 controller의 동작을 검증함\n○ 구체적 응용기반 성능평가 및 최적화\n§ 연차별 연구 수행 내용 및 성과\n목 표\n달성도\n(%) 내 용",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.57,
+          642.5,
+          474.22,
+          781.55
+        ],
+        "page_area_fraction": 0.0935
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.17,
+          333.48,
+          482.74,
+          481.63
+        ],
+        "page_area_fraction": 0.1047
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0070",
+    "caption": "CNN을 실행하는 FPGA 기반 가속기의 성능 모델링 예시",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "§ 핵심 내용\n- 구체적인 응용의 FPGA 기반 아키텍처 설계 및 최적화",
+    "caption_and_following_text": "§ CNN 응용의 가속기 설계를 목표로, FPGA 기반 디지털 로직에 적용 가능한 기본적인 최적화 방\n안을 탐색함. High-level synthesis 상에서 적용할 수 있는 기법으로 loop unrolling, pipelining,\nmemory partitioning 등을 적용하고, 이에 대한 성능 모델을 구축함.\n그림 78. CNN을 실행하는 FPGA 기반 가속기의 성능 모델링 예시\n§ 최적화 적용시 병렬성(parallelism)을 지나치게 높일 경우, 그림 78에 보인바와 같이 data\ndependence로 인한 pipeline 간의 initiation interval 증가로 성능 저하를 일으키는데, 본 연구에서\n는 tiling parameter를 튜닝함으로써 이를 성공적으로 해결함. § 재구성 로직에 적합한 최적화 방안으로써, 양자화(quantization)을 적용한 새로운 재구성 아키텍처\n를 제시함. 이를 통해, 다수의 딥 러닝 응용에 대해서 High-Level Synthesis(HLS) 시뮬레이션을 수\n행하였고, 설계된 가속기 아키텍처가 기존의 full-precision 아키텍처 대비 최대 3.18 배의 성능 향\n상을 달성함. § 양자화에 따른 DNN 모델 크기의 변화를 계산하여 DNN의 성능을 유지하는 동시에 모델 크기를",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.77,
+          394.61,
+          493.53,
+          519.15
+        ],
+        "page_area_fraction": 0.0898
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0071",
+    "caption": "간소화된 딥 러닝 프레임워크의 실행 순서도",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "MNIST와 CIFAR-10과 같은 작은 데이터셋과 ImageNet과 같이 큰 데이터셋을 실행할 수 있고, 주\n요 코어 연산부의 기능은 유지함으로써 기능 및 성능 모두 기존의 응용과 최대한 유사하도록 설\n계됨 (그림 58).\n그림 79. 간소화된 딥 러닝 프레임워크의 실행 순서도\n§ 이러한 연구를 바탕으로, 추후에 1차적인 테스트 환경에서 안정화 작업이 이루어지고 난 다음에\n는 최종적으로 PCIe 기반 시스템으로까지 고성능 가속기를 포팅할 수 있을 것으로 기대됨. - FPAA 동작 검증\n<제작한 Prototype FPAA의 top level 구조>\n§ Prototype FPAA는 각 소자들을 연결시켜주는 switch들을 프로그래밍하기위한 sacn-chain, CAB와\nswitch matrix로 구성된 FPAA fabric, 그리고 fabric와 외부의 I/O를 위한 buffer로 구성\n§ CAB (Configurable Analog Block) 어레이: CAB는 Operational Amplifier, 2종의 resistor, 그리고",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.72,
+          618.28,
+          460.07,
+          739.59
+        ],
+        "page_area_fraction": 0.0748
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.96,
+          414.75,
+          453.84,
+          539.41
+        ],
+        "page_area_fraction": 0.0737
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.15,
+          142.76,
+          449.76,
+          244.53
+        ],
+        "page_area_fraction": 0.0585
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0072",
+    "caption": "IACC 회로 구성",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "§ 7종의 모델을 Strip-down version of Caffe를 이용하는 자체 테스트 베드에 통합함. § 7종의 모델에 대하여 Sequential 버전과 일치하는 정확도 및 100%의 단위 테스트 성공률을 달성\n하였음.\n<Strip-down version of Caffe>\n- 아키텍처, 회로, 소자의 크로스레이어 최적화 및 응용 고도화\n§ ReRAM 어레이 기반의 DNN 가속기에서 셀 저항의 variation에 따른 오류를 동적 전류 보상으로\n완화하는 기술 개발\n§ ReRAM 어레이를 이용한 행렬-벡터 연산 가속기 개발",
+    "caption_and_following_text": "§ 기존의 Convolutional Neural Network (CNN)뿐만 아니라, 최근 자연어처리, 기계번역등에 널리 사\n용되는 attention mechanism을 근사화(approximation)하여 가속하는 최적화 기술 개발\n§ IACC (Input-Aware Current Comensation)\n그림 83. IACC 회로 구성\n§ IACC는 ReRAM 크로스바의 bitline 전류에서 HRS 셀 전류의 영향을 동적으로 제거함으로써 고정\n된 기준 전류 세트를 가진 ADC로도 정확한 전류의 readout을 돕는 것을 목표로 함. § 기존의 ReRAM 기반 행렬-벡터 곱 연산은 신뢰성 (Accuracy) 문제 때문에 wordline 수준의 병렬\n성이 제한됨. 1) ReRAM 셀의 저항값 변이 2) HRS 셀 축적 전류에 의한 오류\n§ 따라서, IACC는 이러한 문제의 해결을 위해 Compensation Current Generator 및 Current\nSubtractor를 추가하는 구조를 제안함. § 레이어 수준 MAW (Maximum number of Activated Wordlines) 튜닝\n§ IACC는 MAW를 증가시킬 수 있게 함으로써 시스템의 병렬성을 높임. 하지만, 이 파라미터가",
+    "section_context_candidate": "5) 시뮬레이션 결과를 활용하여 기능 및 성능 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.76,
+          507.29,
+          461.15,
+          641.66
+        ],
+        "page_area_fraction": 0.0834
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.35,
+          224.99,
+          451.44,
+          365.24
+        ],
+        "page_area_fraction": 0.0816
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0073",
+    "caption": "(a) 제작된 칩과 보드 (b) 측정 결과",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "(1-2) 개발한 칩 별 성능 평가\n1번 칩 제작 (삼성 65nm 공정): Switched-capacitor 기반의 VMM으로 재구성 가능한 단위 벡터곱",
+    "caption_and_following_text": "연산기의 성능 측정이 완료되었고, SCI 저널인 IEEE ACEESS에 아래와 같이 출판 되었음. - J. Kim, B. Seo, Y. H. Oh, J. Chun, J. Lee, and Jintae Kim, “An 8-bit Ring-Amplifier based\nMixed-signal -MAC Circuit with FUll Digital Interface and Variable Accumulation Length,”\nIEEE ACCESS, vol. 9, pp. 5887-5894, Dec. 2020.\n그림 1. (a) 제작된 칩과 보드 (b) 측정 결과\n2번 칩 제작 (삼성 28nm공정): 6T SRAM을 이용한 신경망 연산기 칩으로 아래와 같이 칩 제작 및\n보드를 구성하였음.\n그림 2. 제작된 재구성 가능한 신경망 연산기 칩과 보드\n그림 3: (a) 시뮬레이션 결과 (b) 예상되는 성능 지표\n2번 chip의 경우는 좋은 성능이 기대되나 칩 측정의 결과가 예상에 미치지 못하여 성능 개선 작업을\n거쳤음. 다시 제작된 칩을 이용하여 성능을 측정하고 논문 출판을 계획하고 있음.",
+    "section_context_candidate": "1) 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.09,
+          550.92,
+          481.3,
+          675.22
+        ],
+        "page_area_fraction": 0.0877
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          197.41,
+          391.37,
+          410.3,
+          493.02
+        ],
+        "page_area_fraction": 0.0432
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          243.93,
+          455.4,
+          363.44
+        ],
+        "page_area_fraction": 0.0724
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0074",
+    "caption": "제작된 재구성 가능한 신경망 연산기 칩과 보드",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "(1-2) 개발한 칩 별 성능 평가\n1번 칩 제작 (삼성 65nm 공정): Switched-capacitor 기반의 VMM으로 재구성 가능한 단위 벡터곱\n연산기의 성능 측정이 완료되었고, SCI 저널인 IEEE ACEESS에 아래와 같이 출판 되었음. - J. Kim, B. Seo, Y. H. Oh, J. Chun, J. Lee, and Jintae Kim, “An 8-bit Ring-Amplifier based\nMixed-signal -MAC Circuit with FUll Digital Interface and Variable Accumulation Length,”\nIEEE ACCESS, vol. 9, pp. 5887-5894, Dec. 2020.",
+    "caption_and_following_text": "그림 1. (a) 제작된 칩과 보드 (b) 측정 결과\n2번 칩 제작 (삼성 28nm공정): 6T SRAM을 이용한 신경망 연산기 칩으로 아래와 같이 칩 제작 및\n보드를 구성하였음.\n그림 2. 제작된 재구성 가능한 신경망 연산기 칩과 보드\n그림 3: (a) 시뮬레이션 결과 (b) 예상되는 성능 지표\n2번 chip의 경우는 좋은 성능이 기대되나 칩 측정의 결과가 예상에 미치지 못하여 성능 개선 작업을\n거쳤음. 다시 제작된 칩을 이용하여 성능을 측정하고 논문 출판을 계획하고 있음.\n(1-3) 시뮬레이션 기반 성능 예측\n본 연구에서는 ReRAM cell의 전류보상회로 (IACC) 및 Maximum number of Activated Wordlines\n(MAW)의 레이어 단위 튜닝 기법을 제안하고, 기술의 우수성을 입증하기 위해 상세한 회로 수준",
+    "section_context_candidate": "1) 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.09,
+          550.92,
+          481.3,
+          675.22
+        ],
+        "page_area_fraction": 0.0877
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          197.41,
+          391.37,
+          410.3,
+          493.02
+        ],
+        "page_area_fraction": 0.0432
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          243.93,
+          455.4,
+          363.44
+        ],
+        "page_area_fraction": 0.0724
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0075",
+    "caption": "(a) 시뮬레이션 결과 (b) 예상되는 성능 지표",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "(1-2) 개발한 칩 별 성능 평가\n1번 칩 제작 (삼성 65nm 공정): Switched-capacitor 기반의 VMM으로 재구성 가능한 단위 벡터곱\n연산기의 성능 측정이 완료되었고, SCI 저널인 IEEE ACEESS에 아래와 같이 출판 되었음. - J. Kim, B. Seo, Y. H. Oh, J. Chun, J. Lee, and Jintae Kim, “An 8-bit Ring-Amplifier based\nMixed-signal -MAC Circuit with FUll Digital Interface and Variable Accumulation Length,”\nIEEE ACCESS, vol. 9, pp. 5887-5894, Dec. 2020.\n그림 1. (a) 제작된 칩과 보드 (b) 측정 결과",
+    "caption_and_following_text": "2번 칩 제작 (삼성 28nm공정): 6T SRAM을 이용한 신경망 연산기 칩으로 아래와 같이 칩 제작 및\n보드를 구성하였음.\n그림 2. 제작된 재구성 가능한 신경망 연산기 칩과 보드\n그림 3: (a) 시뮬레이션 결과 (b) 예상되는 성능 지표\n2번 chip의 경우는 좋은 성능이 기대되나 칩 측정의 결과가 예상에 미치지 못하여 성능 개선 작업을\n거쳤음. 다시 제작된 칩을 이용하여 성능을 측정하고 논문 출판을 계획하고 있음.\n(1-3) 시뮬레이션 기반 성능 예측\n본 연구에서는 ReRAM cell의 전류보상회로 (IACC) 및 Maximum number of Activated Wordlines\n(MAW)의 레이어 단위 튜닝 기법을 제안하고, 기술의 우수성을 입증하기 위해 상세한 회로 수준\n시뮬레이션을 수행하였고, BK21 기준 최우수학술대회 중 하나인 ICCAD 2020에 논문을 게재함",
+    "section_context_candidate": "1) 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.09,
+          550.92,
+          481.3,
+          675.22
+        ],
+        "page_area_fraction": 0.0877
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          197.41,
+          391.37,
+          410.3,
+          493.02
+        ],
+        "page_area_fraction": 0.0432
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          243.93,
+          455.4,
+          363.44
+        ],
+        "page_area_fraction": 0.0724
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0076",
+    "caption": "IACC(전류보상회로)만을 적용했을 때, 병렬성 증가에 따른 Accuracy 손실률 비교",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 1. IACC(전류보상회로)만을 적용했을 때, 병렬성 증가에 따른 Accuracy 손실률 비교\n그림 2. 레이어 단위의 MAW 튜닝을 통해 Accuracy 손실을 최소화했을 시, 성능 비교\n그림 1에서는 IACC를 사용한 ReRAM Array가 Baseline 대비 병렬성에 따른 Accuracy 손상률을 대폭\n줄일 수 있지만, 여전히 일부 모델 및 데이터세트에 따라 Accuracy 손상률이 상당한 수준으로 증가할\n수 있음을 확인함. (빨간색 박스)\n그림 2에서는 이러한 문제를 해결하기 위해 DNN의 레이어 수준 MAW (Maximum number of\nActivated Wordlines)를 제안하고, 레이어 간의 iterative search 알고리즘을 통해 적절한\nperformance-accuracy trade-off를 발견할 수 있다는 것을 실험적으로 입증함. (1% 이하의\nAccuracy 손실률을 보이면서도 최대 10배에 이르는 성능 향상을 달성)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.36,
+          668.05,
+          458.47,
+          770.81
+        ],
+        "page_area_fraction": 0.0653
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.36,
+          516.42,
+          465.29,
+          626.38
+        ],
+        "page_area_fraction": 0.0721
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S11-V0077",
+    "caption": "레이어 단위의 MAW 튜닝을 통해 Accuracy 손실을 최소화했을 시, 성능 비교",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "그림 1. IACC(전류보상회로)만을 적용했을 때, 병렬성 증가에 따른 Accuracy 손실률 비교\n그림 2. 레이어 단위의 MAW 튜닝을 통해 Accuracy 손실을 최소화했을 시, 성능 비교\n그림 1에서는 IACC를 사용한 ReRAM Array가 Baseline 대비 병렬성에 따른 Accuracy 손상률을 대폭\n줄일 수 있지만, 여전히 일부 모델 및 데이터세트에 따라 Accuracy 손상률이 상당한 수준으로 증가할\n수 있음을 확인함. (빨간색 박스)\n그림 2에서는 이러한 문제를 해결하기 위해 DNN의 레이어 수준 MAW (Maximum number of\nActivated Wordlines)를 제안하고, 레이어 간의 iterative search 알고리즘을 통해 적절한\nperformance-accuracy trade-off를 발견할 수 있다는 것을 실험적으로 입증함. (1% 이하의\nAccuracy 손실률을 보이면서도 최대 10배에 이르는 성능 향상을 달성)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.36,
+          668.05,
+          458.47,
+          770.81
+        ],
+        "page_area_fraction": 0.0653
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.36,
+          516.42,
+          465.29,
+          626.38
+        ],
+        "page_area_fraction": 0.0721
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

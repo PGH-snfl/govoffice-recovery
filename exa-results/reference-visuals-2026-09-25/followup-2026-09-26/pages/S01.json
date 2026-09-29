@@ -1,0 +1,2427 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 241,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 20,
+      "1": 32,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1717,
+    "heading_candidates": [
+      "■ 국가연구개발혁신법 시행규칙 [별지 제5호서식] <개정 2022. 1. 4.>"
+    ],
+    "section_context_candidate": "■ 국가연구개발혁신법 시행규칙 [별지 제5호서식] <개정 2022. 1. 4.>",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "별지 제5호서식",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "최종보고서 보안등급\n일반[V], 보안[ ]\n중앙행정기관명 과학기술정보통신부\n사업명",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 198,
+      "2": 167,
+      "3": 2,
+      "5": 7
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          385.71,
+          105.72,
+          473.27,
+          194.79
+        ],
+        "page_area_fraction": 0.0156
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1657,
+    "heading_candidates": [
+      "3. 미국 최대 슈퍼컴퓨터를 보유한 오크리지 연구소에서 다양한 시뮬레이션 기술 및 인",
+      "4. 나아가 위상 물질이나 양자컴퓨터 등 우리나라에 부족한 연구 분야를 습득하고 견문"
+    ],
+    "section_context_candidate": "3. 미국 최대 슈퍼컴퓨터를 보유한 오크리지 연구소에서 다양한 시뮬레이션 기술 및 인",
+    "prior_heading_candidate": {
+      "text": "■ 국가연구개발혁신법 시행규칙 [별지 제5호서식] <개정 2022. 1. 4.>",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 425,
+      "2": 64,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 660,
+    "heading_candidates": [
+      "1 - 10 - - - - - - - - - 연구시설·장비"
+    ],
+    "section_context_candidate": "1 - 10 - - - - - - - - - 연구시설·장비",
+    "prior_heading_candidate": {
+      "text": "4. 나아가 위상 물질이나 양자컴퓨터 등 우리나라에 부족한 연구 분야를 습득하고 견문",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 66,
+      "1": 131,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1106,
+    "heading_candidates": [
+      "□ 추진실적(요약)"
+    ],
+    "section_context_candidate": "□ 추진실적(요약)",
+    "prior_heading_candidate": {
+      "text": "1 - 10 - - - - - - - - - 연구시설·장비",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 과제 실적 요약 ",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "□ 추진실적(요약)\nㅇ 주요 연구 실적\nㅇ 국제 학술회의 발표\n1) American Phsics Society (APS) 2022 March Meeting",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 264,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 802,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 추진실적(요약)",
+    "prior_heading_candidate": {
+      "text": "□ 추진실적(요약)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 188,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 491,
+    "heading_candidates": [
+      "□ 주요성과"
+    ],
+    "section_context_candidate": "□ 주요성과",
+    "prior_heading_candidate": {
+      "text": "□ 추진실적(요약)",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 124,
+      "2": 77,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 699,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요 …………………………………………………… (p.1~20)",
+      "2. 연구개발과제의 수행 과정 및 수행내용 ………………………… (p.20~42)",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ………………… (p.42~45)",
+      "4. 목표 미달 시 원인분석(해당 시 작성) …………………………… (p.45)",
+      "5. 연구개발성과 및 관련 분야에 대한 기여 정도 ………………… (p.46)",
+      "6. 연구개발성과의 관리 및 활용 계획 ………………………………… (p.46)",
+      "7. 기대 효과 …………………………………………………………………… (p.47~48)",
+      "1. 주관연구개발기관 자체평가 의견서 …………………………………… (p.51)",
+      "2. 파견기관 지도인력 평가 의견서 ……………………………………… (p.52)",
+      "5. 성과 증빙자료 …………………………………………………………… (p.88~97)"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요 …………………………………………………… (p.1~20)",
+    "prior_heading_candidate": {
+      "text": "□ 주요성과",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 107,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1700,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1) 추진 배경"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "5. 성과 증빙자료 …………………………………………………………… (p.88~97)",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1. (a) 나노미터 두께 산화 하프늄에서 보여주는",
+        "line_index": 35,
+        "toc_like": false,
+        "before": "[2] C. Ahn et al., Science 303, 488 (2004)\n[3] S. S. Cheema et al., Nature 580, 478 (2020).\n[4] M. Si et al., Appl. Phys. Lett. 115, 072107 (2019).\n[5] H.-J. Lee et al., Science 369, 1343 (2020).",
+        "after": "dipole의 국부화(localization)[1]. 단일 전기분극\n(polarization)들이 개별적으로 스위칭할 수 있다. (b)\n일반적인 강유전체에서 전기분극의 도메인 형성[1].\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 401,
+      "2": 1,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          284.49,
+          597.67,
+          534.79,
+          696.8
+        ],
+        "page_area_fraction": 0.0496
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1083,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 추진 배경",
+    "prior_heading_candidate": {
+      "text": "1) 추진 배경",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2. 고체물리학에서 나타나는 양자 물질의 토폴러지 종류들. 무어의 법칙이 적용되지 않으면서, 기존의 전하 캐리어 기반 전자 장치의 한계를 뛰",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "자 물질개발에 초점을 맞출 것이다. 특히, 이 물질의 특성은 토폴러지로 보호가 되어있\n어서 외부에 의한 변동에도 변하지 않는 것이 아주 강한 점이다. 토폴러지 양자 재료\n는 토폴러지 보호로 인한 물리적 특성의 견고성으로 인해 양자 계산 응용 분야에 매우\n유망하다.",
+        "after": "어넘는 근본적으로 새로운 기술을 찾아야 하는 과제에 직면해 있다. 최근의 활발한 노\n력의 결과로 양자 상태 (파동 함수)의 중첩 및 얽힘을 사용하는 양자 컴퓨팅이 NISQ\n(noisy middle-scale quantum) 아키텍처에서 입증되었다. NISQ가 실용성을 찾았지만, 이\n분야에서 당면한 궁극적인 목표는 완전한 내 결합성 컴퓨팅을 가능하게 하는 하드웨어",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 268,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.12,
+          232.31,
+          520.76,
+          482.59
+        ],
+        "page_area_fraction": 0.2234
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1458,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 추진 배경",
+    "prior_heading_candidate": {
+      "text": "1) 추진 배경",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 389,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1062,
+    "heading_candidates": [
+      "2) 정부 지원 필요성"
+    ],
+    "section_context_candidate": "2) 정부 지원 필요성",
+    "prior_heading_candidate": {
+      "text": "1) 추진 배경",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 3. 2020년 4차산업혁명 인력경쟁력 각 국가와 비교 (자료:한경연)",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "2025년에도 ▶미국 121.1 ▶중국 114.4 ▶독일 106.7 ▶일본 104.4 순으로 여전히 한국\n이 최하위일 것으로 예상되었다. 기술 분야 별로는 2020년 현재 한국은 유일하게 중국\n에 대해서만 로봇, 신재생에너지, 첨단소재 분야에서 앞서 있는데, 이마저도 5년 후에\n는 따라잡혀 9개 기술 전 분야에서 비교국가 중 꼴찌를 기록할 것으로 전망된다.",
+        "after": "본 사업은 특히 차세대 AI 반도체에 관한 사업이다. 기존에 존재하지 않았던 초고밀\n도 FRAM 소재 및 위상 물질을 결합한 반도체 물질을 발굴하며, 특히 Oak Ridge 국립\n연구소에 특화된 양자 컴퓨터 소재 역시 동시에 탐색할 예정이다. 차세대 반도체 소재\n로 주목받는 이러한 다양한 소재와 이의 활용 분야를 이해하고 탐색하는 연구를 통하",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 296,
+      "2": 5,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.66,
+          381.42,
+          483.34,
+          597.67
+        ],
+        "page_area_fraction": 0.1606
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1235,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 정부 지원 필요성",
+    "prior_heading_candidate": {
+      "text": "2) 정부 지원 필요성",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 4. AI 반도체 시장규모 전망 (자료: Gartner, 2025년 이후 자료는",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 5 -\n을 구현하고자 대규모 연산을 빠르게 실행하는 시스템 반도체다. 자율주행차와 지능형\n로봇, 스마트폰, 가전, 드론 분야 등에 폭넓게 적용될 수 있다 보니 주목을 받고 있다.",
+        "after": "정보통신정책연구원)\n오는 2030년이면 인공지능 반도체 글로벌시장 규모가 1179억 달러(약 135조 4천억 원)\n에 이를 전망이다. 시스템 반도체 시장규모 3769억 달러(432조 8천억 원)에서 차지하는\n비중도 30%를 웃돌 것으로 예상한다. 세계적 기업들도 클라우드 서버·스마트폰·자동",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "출처 : 한겨레 신문",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "고 있다. 스타트업 그래프코어는 마이크로소프트(MS)‧페이스북의 클라우드 플랫폼과 접\n목하고 보쉬·델로부터 3억1천만 달러 투자를 유치해 상용화 수준까지 이른 상태다. 지난 2월엔 국내 인공지능 서버 시장에도 진출했다. 아직 지배적 강자가 존재하지 않\n는 초기 단계 시장이라 저마다 국가 기술역량을 총동원하는 모양새다. 전통적인 반도\n체 기업뿐 아니라 구글·테슬라 등 비반도체기업과 스타트업들까지 경쟁에 뛰어든 상",
+        "after": "지난해 11월 9일 ‘월스트리트 저널’은 “조 바이든 차기 대통령 재임 기간 중 인공\n지능과 양자 과학에 R&D 정책 자금이 우선 지원될 것”이라고 보도한 바 있다. 여기\n서 관심을 끈 것이 양자 과학이다. 양자 정보과학(quantum information science)을 말하\n는데 양자컴퓨터 소재 실험, 양자 얽힘 전송 장치 제작 등 정보이론과 양자 역학을 포",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 336,
+      "3": 1,
+      "2": 7,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.58,
+          552.84,
+          487.3,
+          754.69
+        ],
+        "page_area_fraction": 0.1532
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1398,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 정부 지원 필요성",
+    "prior_heading_candidate": {
+      "text": "2) 정부 지원 필요성",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "출처 : 사이언스타임즈",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "것으로 알려졌다. 이 분야에 막대한 자금을 쏟아부으며 경쟁을 벌이고 있는 것은 지금\n과 같은 속도로 양자컴퓨터 개발이 진행된다면 약 10년 후 양자컴퓨터가 오늘날 사용\n하고 있는 디지털 정보를 해독할 수 있기 때문이다. 과학자들이 약 10년 후 양자 컴퓨\n터에 의해 오늘날 사용하고 있는 모든 통신망이 뚫릴 수 있다고 경고함에 따라 서둘러",
+        "after": "나. 기존 인력 양성 한계\n글로벌 AI 인재는 20만 명으로 상위 10개 국가에 60% 이상(13만 명)이 분포하며, 국내\n는 1.3%(2,664명)로 세계 15위 수준이다. (칭화대학, 18) 국내 AI 중소･벤처기업은 AI 인\n재난을 가장 시급한 문제로 인식하고 있으며, 기술력 한계요인으로 자금보다 인재 부",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "출처 : 인공지능신문",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "재난을 가장 시급한 문제로 인식하고 있으며, 기술력 한계요인으로 자금보다 인재 부\n족을 최우선 과제로 꼽고 있다. 관계자들이 지적한 기존 산업계의 인력 확보 애로사항\n은 ▷실무에 적합한 기술인력 부족(40.7%) ▷석박사 등 전문 인력 부족(33.3%) ▷예산\n지원, 규제 완화 등 정부 지원 부족(11.1%) ▷근로시간, 호봉제 등 경직된 근무환경 및",
+        "after": "한편 대부분의 인력 양성이 기존의 DRAM이나 Flash 메모리와 같은 우리나라가 이미\n잘하는 메모리 반도체에 집중되어 있다. 향후 3나노 이하의 공정으로 내려가는 시점에\n서는 FRAM 혹은, 위상 물질, 또한 양자 컴퓨터의 기능과 연계할 수 있는 시스템 반도\n체 등의 다양한 반도체와 이에 기반한 선진 기술과 이론을 섭렵해야 하는 시점에서 우",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 385,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 976,
+    "heading_candidates": [
+      "3) 수행기관 추진역량",
+      "가. 주관연구개발기관 전문성"
+    ],
+    "section_context_candidate": "3) 수행기관 추진역량",
+    "prior_heading_candidate": {
+      "text": "2) 정부 지원 필요성",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 5. 과학기술정보통신부 제공",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 7 -",
+        "after": "과학기술정보통신부는 지난해 10월 발표된 정부의 ‘인공지능 반도체 발전전략’ 후\n속 조치로 핵심기술 개발(R&D), 혁신기업 육성, 산업기반 조성 등 13개 지원사업에 올\n해 1253억 원을 투자하는 것을 확정하고 사업 추진에 나선다고 21년 1월 12일 밝혔다. 최기영 과기정통부 장관은“올해는 대형 R&D 및 혁신기업 육성, 인력 양성 프로젝트, 디지털 뉴딜과 연계한 초기시장 창출 등 지난해 마련된 정책을 실현해 한국이 메모리\n반도체뿐만 아니라 인공지능 반도체 분야에서도 선도국가가 되게 해 2030년 종합 반도",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 247,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.64,
+          561.95,
+          441.12,
+          770.28
+        ],
+        "page_area_fraction": 0.1197
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1097,
+    "heading_candidates": [
+      "다. 주관·공동연구개발기관의 연구진 역량 및 연구실적"
+    ],
+    "section_context_candidate": "다. 주관·공동연구개발기관의 연구진 역량 및 연구실적",
+    "prior_heading_candidate": {
+      "text": "가. 주관연구개발기관 전문성",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 6. AI 반도체와 양자컴퓨터 소재개발 연구 협력 개요도",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "위상 신소재개발연구에서도 가치를 창출해 낼 것이라고 기대된다. 이렇듯, 위 연구개발\n기관의 연구 경험 및 방향성을 고려해 볼 때, 오크리지 국립연구소와의 공동연구는 파\n견 인원뿐만 아니라 해당 연구 기관 전체의 연구역량을 크게 향상할 수 있을 것이다.\n다. 주관·공동연구개발기관의 연구진 역량 및 연구실적",
+        "after": "울산과학기술원은 최근 인공지능 대학원을 설립하여 다양한 차세대 인공지능을 원하\n는 분야에 학문적, 산업적인 가치를 창출하는 교육에도 힘쓰고 있다. 책임의 박형렬 교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 265,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          133.65,
+          488.38,
+          348.34
+        ],
+        "page_area_fraction": 0.1638
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1259,
+    "heading_candidates": [
+      "4) 해외기관 추진 전문성"
+    ],
+    "section_context_candidate": "4) 해외기관 추진 전문성",
+    "prior_heading_candidate": {
+      "text": "다. 주관·공동연구개발기관의 연구진 역량 및 연구실적",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 323,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1252,
+    "heading_candidates": [],
+    "section_context_candidate": "4) 해외기관 추진 전문성",
+    "prior_heading_candidate": {
+      "text": "4) 해외기관 추진 전문성",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 7. 슈퍼컴퓨터 Summit",
+        "line_index": 31,
+        "toc_like": false,
+        "before": "숙련 된 운영 및 엔지니어링 직원이 있다. 일선 컴퓨터 시설 직원이 연중무휴 24시간\n센터 운영 및 즉각적인 문제 해결을 제공한다. 저녁과 주말에 전산실 운영자는 추가\n사용자 지원을 통해 사용자를 위한 일선 문제 해결을 제공하고 에스컬레이션이 필요한\n문제에 대해 대기 중인 시스템 관리자를 제공한다. 이 사업을 통하여 한국과는 한",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 300,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          365.32,
+          223.44,
+          529.28,
+          354.33
+        ],
+        "page_area_fraction": 0.0429
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1907,
+    "heading_candidates": [
+      "2. 전산과학 공동 연구소"
+    ],
+    "section_context_candidate": "2. 전산과학 공동 연구소",
+    "prior_heading_candidate": {
+      "text": "4) 해외기관 추진 전문성",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 439,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1082,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 전산과학 공동 연구소",
+    "prior_heading_candidate": {
+      "text": "2. 전산과학 공동 연구소",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 8. 중성자 연구시설 Spallation Neutron",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "한 소재가 잘 합성되어서 반도체 성능을 잘 나타내는지를 원자 수준에서 확인할 수 있\n는 최적의 역할을 할 것이다. 특히 스핀 분별이 가능한 중성자 이미지를 통해서, 전자\n의 스핀 분포 등을 분석으로 계면에서의 물질의 특성을 연구하는 것에 우리 과제에서\n큰 역할을 할 것으로 기대된다.",
+        "after": "Source (SNS) 4. 나노과학센터 (CNMS)\nNode Set CPU Nodes Cores/\nnode\nGB",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 9. 중성자 연구시설 High Flux Isotope",
+        "line_index": 36,
+        "toc_like": false,
+        "before": "108 24 128 2592 FDR\nMonster Intel® Xeon®\nE5-2687W\n1 48 1024 48 Ethernet",
+        "after": "Reactor (HFIR)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 238,
+      "3": 2,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.76,
+          121.07,
+          298.04,
+          295.12
+        ],
+        "page_area_fraction": 0.0791
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.63,
+          127.66,
+          521.6,
+          289.72
+        ],
+        "page_area_fraction": 0.0654
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1442,
+    "heading_candidates": [
+      "다. 이 방법론들은 우리 과제에 적극적으로 활용할 계획이다.",
+      "5. 화학 및 재료 과학 연구실",
+      "6. 고온 재료 연구실 (HTML)"
+    ],
+    "section_context_candidate": "다. 이 방법론들은 우리 과제에 적극적으로 활용할 계획이다.",
+    "prior_heading_candidate": {
+      "text": "2. 전산과학 공동 연구소",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 10. 나노과학센터 (CNMS, Center for",
+        "line_index": 34,
+        "toc_like": false,
+        "before": "ORNL의 고온 재료 실험실 (HTML)은 공동 재료 연구를 위한 국가 리소스이다. HTML\n에는 광범위한 온도에서 재료의 미세 구조, 미세 화학 및 물리적 및 기계적 특성을 특\n성화하기 위한 숙련된 직원과 정교한 세계적 수준의 시설이 있다. HTML의 기능과 전\n문성은 후원 된 연구와 산업 및 대학과의 공동연구개발 프로젝트에 사용할 수 있다.",
+        "after": "Nanophase Materials Sciences)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 396,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.87,
+          526.82,
+          539.83,
+          693.56
+        ],
+        "page_area_fraction": 0.0733
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 1579,
+    "heading_candidates": [
+      "7. 국립 에너지 연구 과학 컴퓨팅 센터 (NERSC)",
+      "1.8 PB Cray 데이터 워프 버스트 버퍼로 구성된다. 우리 연구에서도 이 컴퓨팅 센터의",
+      "다. 해외 협력 기관 내 연구진 역량 및 연구실적"
+    ],
+    "section_context_candidate": "7. 국립 에너지 연구 과학 컴퓨팅 센터 (NERSC)",
+    "prior_heading_candidate": {
+      "text": "6. 고온 재료 연구실 (HTML)",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 416,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 1096,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 해외 협력 기관 내 연구진 역량 및 연구실적",
+    "prior_heading_candidate": {
+      "text": "다. 해외 협력 기관 내 연구진 역량 및 연구실적",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 11. 54개 실리콘 원자로 구성된 다이아몬든 구조 계산을 통해, GPU 가속으로",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "설립하고 조직하는 데 앞장서 왔다. 예를 들어, 저는 2014년에 전산 재료 과학 / 데이\n터 분석 / 이론에 초점을 맞춘 첫 번째 EMA (전자 재료 및 응용 프로그램) 심포지엄\n(미국 세라믹 학회 지원)을 처음으로 도입했다. 또한, 주요 저널 및 DOE-BES 제안 검\n토자 및 주요 저널 및 콘퍼런스의 자문위원으로 활동하고 있다.",
+        "after": "인한 우리 계산 코드의 계산속도 향상을 보여주고 있다. 이번 연구에서는 모든 전자 밀도 함수이론의 컴퓨터 코드를 이용할 것인데, 이 코드\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 277,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.58,
+          151.27,
+          487.3,
+          386.7
+        ],
+        "page_area_fraction": 0.1786
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1637,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 해외 협력 기관 내 연구진 역량 및 연구실적",
+    "prior_heading_candidate": {
+      "text": "다. 해외 협력 기관 내 연구진 역량 및 연구실적",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 365,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          217.32,
+          120.11,
+          471.59,
+          348.34
+        ],
+        "page_area_fraction": 0.116
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 1400,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 해외 협력 기관 내 연구진 역량 및 연구실적",
+    "prior_heading_candidate": {
+      "text": "다. 해외 협력 기관 내 연구진 역량 및 연구실적",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 13. 새로운 위상 양자 물질의 원자 구조. 위상 다이어그램은 단순",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "디자인 변수들을 처음으로 밝혔다 (그림 12) [Cobalt-BasedMagnetic Weyl Semimetals\nwith High-Thermodynamic Stabilities, W. Luo, Y. Nakamura,J. Park, and M. Yoon, njp\nComp. Mat. 7, 1 (2021)]. 이 개발된 방법론들은 열역학적으로 안정한 상의 강유전체와\n토폴러지의 하이브리드 물질을 찾는 것에 적용될 것이다.",
+        "after": "히 2차원 물질의 물리적인 변형을 통해서 다양한 토폴러지 상태를 얻\n을 수 있음을 보여준다. 윤 박사 그룹에서는 다양한 양자위상을 탐색하기 위한 새로운 이론적인 전략을 제안하였\n다. 특히 최근에 나노레터 논문에서 역학적인 약간의 변형을 줌으로 인해서 아주 다양한\n양자 상태를 2차원 물질에서 얻을 수 있음을 보였다. 그리고 이를 이용하여 2차원 전이 후",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 339,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.61,
+          288.17,
+          461.63,
+          463.41
+        ],
+        "page_area_fraction": 0.1149
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 1594,
+    "heading_candidates": [
+      "다. 특히, 윤 박사 그룹의 연구에서 처음으로 변형에 의해 강자성 상태로 1차 상전이"
+    ],
+    "section_context_candidate": "다. 특히, 윤 박사 그룹의 연구에서 처음으로 변형에 의해 강자성 상태로 1차 상전이",
+    "prior_heading_candidate": {
+      "text": "다. 해외 협력 기관 내 연구진 역량 및 연구실적",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 14. 윤 박사 그룹에서 제작한 전산 물질 플랫폼으로 수십만의",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "이 다양한 자기, 전자 및 양자 토폴러지 속성을 탐색하는 데 사용될 수 있음을 광범위\n하게 보여주었다. 그림 13에서 윤 박사 그룹에서 찾은 양자위상의 다이어그램을 보여\n주고 있다. 특히 우리가 제시한 자기 상태의 배열 및 대역 토폴러지의 변형공학을 탐구하\n는데 사용되는 전략은, 스핀트로닉스 및 유망한 양자 재료를 개발하는 것에 쓰일 수 있다. 이런 전략들 또한 이번 연구에서 적극적으로 활용될 것이다.",
+        "after": "물질 군들이 등록되어있으며, 기계학습 알고리즘과도 연계가 되어\n있어서, 원하는 특징의 물질들을 찾을 수 있도록 디자인되었다. 그림 14는 윤 박사 그룹에서 제작한 플랫폼의 스냅숏을 보여주고 있다. 전산 재료 플\n랫폼은 재료 데이터베이스 검색과 제1원칙 계산 기반 분석을 효과적으로 결합하며, 일\n련의 입력 기준을 만족하는 재료의 원하는 정보에 즉시 액세스할 수 있는 사용자 친화",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 365,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.36,
+          334.67,
+          452.52,
+          482.59
+        ],
+        "page_area_fraction": 0.0917
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1105,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 특히, 윤 박사 그룹의 연구에서 처음으로 변형에 의해 강자성 상태로 1차 상전이",
+    "prior_heading_candidate": {
+      "text": "다. 특히, 윤 박사 그룹의 연구에서 처음으로 변형에 의해 강자성 상태로 1차 상전이",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 16. 원자 식별 및 감독 분류로 구성된, 기계학습의 분석 워크플로우. Adatom 좌표는 컨벌루션 신경망을 사용하여 결정된다. 각 ad-atom 사이트에서",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "만한 성과라고 할 수 있겠다. 이러한 저차원의 안뻔한 위상 물질들과 강유전체 물질의\n하이브리드 물질개발을 이 연구에서 진행할 것이다. 수백 수천 개의 가능 군들을 데이\n터 분석방법과 기계학습 방법을 통해서 구축해서, 원하는 기능의 물질을 찾는 작업을\n수행할 것이다.",
+        "after": "지형지물의 첫 번째 가장 가까운 이웃까지 로컬 구조 환경을 보여주는 더 작은\n\"서브 이미지\"가 만들어지고, 이 로컬 환경은 특정 관심 영역에서 분석되어 미\n리 결정된 구조 구성으로 분류된다. 마지막으로 각 클래스 내의 스펙트럼은 통\n계적으로 분석된다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 15. 1차원의 안뻔한 위",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "지형지물의 첫 번째 가장 가까운 이웃까지 로컬 구조 환경을 보여주는 더 작은\n\"서브 이미지\"가 만들어지고, 이 로컬 환경은 특정 관심 영역에서 분석되어 미\n리 결정된 구조 구성으로 분류된다. 마지막으로 각 클래스 내의 스펙트럼은 통\n계적으로 분석된다.",
+        "after": "상을 갖는 최초의 전자화물\n의 전자분포도와 안뻔한 위\n상의 에너지 띠 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 300,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.5,
+          196.59,
+          478.78,
+          400.84
+        ],
+        "page_area_fraction": 0.1495
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          392.31,
+          632.79,
+          524.12,
+          770.28
+        ],
+        "page_area_fraction": 0.0362
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 1494,
+    "heading_candidates": [
+      "1) 연구 수행 개요",
+      "가. 연구 수행 개요",
+      "나. 연구 내용"
+    ],
+    "section_context_candidate": "1) 연구 수행 개요",
+    "prior_heading_candidate": {
+      "text": "다. 특히, 윤 박사 그룹의 연구에서 처음으로 변형에 의해 강자성 상태로 1차 상전이",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 380,
+      "2": 129,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1633,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구 내용",
+    "prior_heading_candidate": {
+      "text": "나. 연구 내용",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 389,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 1402,
+    "heading_candidates": [
+      "다. 본 연구팀은 인공지능 반도체에 적합한 memristor"
+    ],
+    "section_context_candidate": "다. 본 연구팀은 인공지능 반도체에 적합한 memristor",
+    "prior_heading_candidate": {
+      "text": "나. 연구 내용",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 18은 AI의 기계학습을 응용한 위상 신소재 개발에 대한 워크플로우 전개도를",
+        "line_index": 26,
+        "toc_like": false,
+        "before": "치를 바꾸는 것으로 그 길이는 약 0.5 nm 정도이며, 이론적으로 메모리 소자에서 선폭\n을 0.5 nm까지 줄일 수 있음을 의미한다. 이에 본 프로젝트에서는 원자층 증착장비\n(Atomic layer deposition)를 활용하여 산화하프늄의 두께를 10 나노미터 이하로 줄이고, 강유전체 물성이 살아남는지 확인하고 두께에 따른 강유전체 특성을 관찰한다.\n(3) AI 통한 위상 신소재개발",
+        "after": "보여준다. 일차적으로, 목표하고자 하는 물성에 대한 설명자 (descriptor)를 생성시키기\n위플랫폼 구축을 위해 시뮬레이션과 실험을 통해 물성에 대한 정보를 수집한다. 그리\n그림 17. HfO2의 강유전 상을 이루는 8개\n의 phonon order parameter.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 17. HfO2의 강유전 상을 이루는 8개",
+        "line_index": 29,
+        "toc_like": false,
+        "before": "(3) AI 통한 위상 신소재개발\n그림 18은 AI의 기계학습을 응용한 위상 신소재 개발에 대한 워크플로우 전개도를\n보여준다. 일차적으로, 목표하고자 하는 물성에 대한 설명자 (descriptor)를 생성시키기\n위플랫폼 구축을 위해 시뮬레이션과 실험을 통해 물성에 대한 정보를 수집한다. 그리",
+        "after": "의 phonon order parameter.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 336,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          496.26,
+          248.99,
+          659.88
+        ],
+        "page_area_fraction": 0.0629
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 967,
+    "heading_candidates": [
+      "083802) 기계학습법에 활용하여 설명자",
+      "2) 추진전략 및 체계 가. 추진전략"
+    ],
+    "section_context_candidate": "083802) 기계학습법에 활용하여 설명자",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구팀은 인공지능 반도체에 적합한 memristor",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 18. 시뮬레이션과 인공지능 기계학습을 융합한",
+        "line_index": 31,
+        "toc_like": false,
+        "before": "활용하여 이론적인 소자 탐\n색에 이용하였고 예측된 구조로부터 차세대 전자공학과 연계할 반도체 기술과의 접점\n을 확보하기 위한 노력을 하였다.\n2) 추진전략 및 체계 가. 추진전략",
+        "after": "신소재 개발의 워크플로우 전개도\n그림 19. PSO방법을 이용하여 h-BN 위에서 2D Bi의 새로운 안정된\n구조를 찾는 과정\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 19. PSO방법을 이용하여 h-BN 위에서 2D Bi의 새로운 안정된",
+        "line_index": 33,
+        "toc_like": false,
+        "before": "을 확보하기 위한 노력을 하였다.\n2) 추진전략 및 체계 가. 추진전략\n그림 18. 시뮬레이션과 인공지능 기계학습을 융합한\n신소재 개발의 워크플로우 전개도",
+        "after": "구조를 찾는 과정\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 218,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          575.25,
+          321.31,
+          773.63
+        ],
+        "page_area_fraction": 0.1049
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          270.3,
+          379.48,
+          451.78
+        ],
+        "page_area_fraction": 0.1171
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 1241,
+    "heading_candidates": [
+      "나. 추진체계",
+      "3) 연구 수행 내용",
+      "가. 주요 연구 내용"
+    ],
+    "section_context_candidate": "나. 추진체계",
+    "prior_heading_candidate": {
+      "text": "2) 추진전략 및 체계 가. 추진전략",
+      "pdf_page": 31
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 342,
+      "2": 117,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 1215,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구 내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구 내용",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 20. a), b) 각 두께에 대하여 에너지를 안정화하는",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "들어 이를 수식화 하였다. (그림 20) 또한, 소자에 적용될 경우, 소재가 영향을 받을\nstrain과 같은 외부 요인에 의한 강유전성의 변화를 파악하기 위하여 strain-phonon\ncoupling을 적용하여 HfO2 강유전 상의 unconventional 한 negative piezoeletricity를 확\n인하고 그 원인을 파악하였다. (그림 22)",
+        "after": "polar mode의 amplitude 변화, 두께가 얇아짐에 따라\npolar mode인 \n 의 세기가 증가하며 이는 \n′",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 293,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.59,
+          481.87,
+          439.44,
+          636.74
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          182.32,
+          243.35,
+          253.28
+        ],
+        "page_area_fraction": 0.0265
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 1118,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구 내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구 내용",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 22. a), b)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 26 -",
+        "after": "외부 strain에 따른\npolar phonon의\namplitude 변화, 일반적인\n강유전체와 달리",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 243,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          168.27,
+          479.71,
+          514.4,
+          754.57
+        ],
+        "page_area_fraction": 0.1901
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 697,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구 내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구 내용",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 23. CALYPSO 계산을 통해 얻어지는 HfO2 조성에 기반한 다양한 물질 구조 상 (phase)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 27 -",
+        "after": "이와 같은 workflow를 통하여 본 연구팀은 포논에 기반한 전체 에너지를 구할 수 있는\neffective Hamiltonian을 CALYPSO에서 얻어지는 수 많은 안정화 된 구조에 대하여 자\n동적으로 구축할 수 있다. Effective Hamiltonian은 물질에 대한 많은 정보를 제공하여, 물성의 원리와 외부 자극에 대한 반응을 보여주어 순수 크리스탈 상태가 아닌 소자에\n적용된 상태에 대한 시뮬레이션을 가능하게 만든다. 이는 소재 발굴 단계에서 소자 적",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 24. 미국 오크리지 국립연구소와의 협업으로 구축한",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "적용된 상태에 대한 시뮬레이션을 가능하게 만든다. 이는 소재 발굴 단계에서 소자 적\n합도에 대한 선 검증을 하여 실제 상용화에 있어 시행착오를 줄이고 소재의 물성을 컨\n트롤 하는데 있어서 큰 역할을 할 것으로 기대하고 있으며, 미국 오크리지 국립연구소\n와 함께 현재 만들어진 workflow (그림 24)를 지속적으로 발전시킬 예정이다.",
+        "after": "포논 분석 자동화 workflow, 양자 수준으로 구축한\neffective Hamiltonian을 토대로 소자 시뮬레이션을\n실행하여 소자 적합도를 선 검증한다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 152,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          50.25,
+          454.9,
+          524.72,
+          781.55
+        ],
+        "page_area_fraction": 0.3097
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.19,
+          153.19,
+          430.57,
+          241.54
+        ],
+        "page_area_fraction": 0.047
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 1206,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구 내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구 내용",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 26. 산화하프늄지르코늄 분극",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "은 공진 주파수에서의 낮은 투과도를 확인하\n였다. 이와 더불어 가해주는 전압에 따른 분\n극 곡선(PE Curve)으로써 산화하프늄지르코늄\n의 강유전성 발현을 확인하였다. (그림 26)",
+        "after": "곡선\n위 결과를 바탕으로 테라헤르츠 시분할 분광법을 통해 가해주는 전기장의 세기를 변\n화시키며 10 nm 산화하프늄(또는 산화하프늄지르코늄) 나노 틈에 최대로 집속 가능한\n전기장을 세기를 실험적으로 확인하였다. 연구 결과, 40.1 kV/cm 의 전기장의 세기에서",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 25. 결정 구조에 따른 공진 주파수에서의",
+        "line_index": 27,
+        "toc_like": false,
+        "before": "분극 스위칭에 필요한 전기장의 세기는 최소 2 MV/cm 로, 이는 원자 분극 스위칭을\n위한 충분한 전기장 세기이다. 추후 두께 10 nm 이하의 나노 틈 구조물 제작을 통해\n강유전성 발현 및 더 큰 전기장 집속 효과를 기대함과 동시에 분극 스위칭 제어 실험\n을 구축할 계획이다.",
+        "after": "전기장 투과도 비교\n그림 27. 나노 틈에 최대로 집속\n가능한 전기장 세기 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 27. 나노 틈에 최대로 집속",
+        "line_index": 29,
+        "toc_like": false,
+        "before": "강유전성 발현 및 더 큰 전기장 집속 효과를 기대함과 동시에 분극 스위칭 제어 실험\n을 구축할 계획이다.\n그림 25. 결정 구조에 따른 공진 주파수에서의\n전기장 투과도 비교",
+        "after": "가능한 전기장 세기 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 320,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.62,
+          294.04,
+          271.77,
+          414.51
+        ],
+        "page_area_fraction": 0.0398
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          443.52,
+          283.17,
+          586.52
+        ],
+        "page_area_fraction": 0.0647
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          321.79,
+          303.75,
+          478.42,
+          411.99
+        ],
+        "page_area_fraction": 0.0339
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 1588,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구 내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구 내용",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 28. SISSO 기계학습을 통해 생성된 Op, Md, Op/Md를 표현하는",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "2 valence orbitals) 의 원소 특성이 이용되었고 A, A`, B, B`각 4개의 원소의 구조 구성\n비율이 추가되어 총 39가지의 요소로 기계학습을 진행하였다. SISSO 기계학습은 3차원\n방정식으로 생성하였고 각 항에는 최대 2개의 괄호와 3개의 연산자가 활용되었다. 결\n과는 그림 28과 같다.",
+        "after": "계산식 결과\na, b, c, d는 각각 A, A`, B, B`을 의미한다. 연산식의 성능을 지표할 때 가장 직관적\n인 지표는 결정계수(R2\n)이다. Op의 학습(training)결과에 대한 R",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 373,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.53,
+          300.63,
+          463.67,
+          463.41
+        ],
+        "page_area_fraction": 0.1097
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 1393,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구 내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구 내용",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 29. delafossite A1-xAxBC2의 조합을 구성할 수 있는 원소",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "된다. 특히 Kagome 형태가 Honeycomb 보다 형성될 확률이 더 낮은 편이며 실험적으\n로 구현하기 어려운 형태로 알려져 있다. 이러한 Kagome와 Honeycomb의 발생 가능성에 대한 지표, 즉 설명자를 그림 30과 같\n이 적립하여 활용하였다. Kagome 및 Honeycomb 에너지에 대해서 근본(parant)이 되는\nABC2와 A의 부분을 대체하는 A`원소에 대한 단위 에너지를 합산하여 구조 생성에너지",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 339,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.4,
+          377.11,
+          447.96,
+          538.09
+        ],
+        "page_area_fraction": 0.0938
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 1388,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구 내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구 내용",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 30. Kagome와 Honeycomb의 발생 가능성을 지표",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 31 -",
+        "after": "하는 설명자\n를 계산하였다. 단위 원소에 대한 에너지는 A`원소를 기반한 금속 구조인 FCC (Face\ncentered cubic), HCP (Hexagonal Close Packed), SC (Simple Cubic), BCC (Body\ncentered cubic) 중 가장 안정적인 구조에 대한 정보를 활용하였다. 현재 오크리지 연",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 306,
+      "3": 1,
+      "2": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.23,
+          644.9,
+          431.53,
+          770.28
+        ],
+        "page_area_fraction": 0.0672
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 1818,
+    "heading_candidates": [
+      "다. 큰 질량을 가져 spin-orbit coupling이 강한 Bismuth를 활용하여 h-BN기판 위에서의"
+    ],
+    "section_context_candidate": "다. 큰 질량을 가져 spin-orbit coupling이 강한 Bismuth를 활용하여 h-BN기판 위에서의",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구 내용",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 383,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 1584,
+    "heading_candidates": [
+      "다. 인력파견 연구 내용"
+    ],
+    "section_context_candidate": "다. 인력파견 연구 내용",
+    "prior_heading_candidate": {
+      "text": "다. 큰 질량을 가져 spin-orbit coupling이 강한 Bismuth를 활용하여 h-BN기판 위에서의",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 377,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 1325,
+    "heading_candidates": [
+      "다. 이러한 수행능력 및 열정을 바탕으로 하여 파견인력으로 선발되었다. 오크리지 연",
+      "다. 경희대학교에서 양자 컴퓨팅 소자와 강유전체 연구를 기반으로 한 차세대 반도체 개"
+    ],
+    "section_context_candidate": "다. 이러한 수행능력 및 열정을 바탕으로 하여 파견인력으로 선발되었다. 오크리지 연",
+    "prior_heading_candidate": {
+      "text": "다. 인력파견 연구 내용",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 343,
+      "2": 56,
+      "5": 3
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 1541,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 경희대학교에서 양자 컴퓨팅 소자와 강유전체 연구를 기반으로 한 차세대 반도체 개",
+    "prior_heading_candidate": {
+      "text": "다. 경희대학교에서 양자 컴퓨팅 소자와 강유전체 연구를 기반으로 한 차세대 반도체 개",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 257,
+      "2": 189,
+      "5": 19
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 1290,
+    "heading_candidates": [
+      "1) 이형택 파견연구 개요",
+      "2) 김찬석 파견연구 개요"
+    ],
+    "section_context_candidate": "1) 이형택 파견연구 개요",
+    "prior_heading_candidate": {
+      "text": "다. 경희대학교에서 양자 컴퓨팅 소자와 강유전체 연구를 기반으로 한 차세대 반도체 개",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 269,
+      "2": 70,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 1192,
+    "heading_candidates": [
+      "3) 조진형 파견연구 개요",
+      "4) 최지훈 파견연구 개요"
+    ],
+    "section_context_candidate": "3) 조진형 파견연구 개요",
+    "prior_heading_candidate": {
+      "text": "2) 김찬석 파견연구 개요",
+      "pdf_page": 44
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 258,
+      "2": 70,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 1269,
+    "heading_candidates": [
+      "5) 김계현 파견연구 개요"
+    ],
+    "section_context_candidate": "5) 김계현 파견연구 개요",
+    "prior_heading_candidate": {
+      "text": "4) 최지훈 파견연구 개요",
+      "pdf_page": 45
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 259,
+      "2": 70,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 1307,
+    "heading_candidates": [
+      "7) 이영준 파견연구 개요"
+    ],
+    "section_context_candidate": "7) 이영준 파견연구 개요",
+    "prior_heading_candidate": {
+      "text": "5) 김계현 파견연구 개요",
+      "pdf_page": 46
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 280,
+      "2": 70,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 1272,
+    "heading_candidates": [
+      "9) 정다믈 파견연구 개요"
+    ],
+    "section_context_candidate": "9) 정다믈 파견연구 개요",
+    "prior_heading_candidate": {
+      "text": "7) 이영준 파견연구 개요",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 285,
+      "2": 70,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 1338,
+    "heading_candidates": [],
+    "section_context_candidate": "9) 정다믈 파견연구 개요",
+    "prior_heading_candidate": {
+      "text": "9) 정다믈 파견연구 개요",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 392,
+      "2": 57,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 1364,
+    "heading_candidates": [
+      "1) 연구수행 결과"
+    ],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "9) 정다믈 파견연구 개요",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 345,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 1276,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 250,
+      "2": 97,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 1518,
+    "heading_candidates": [
+      "□ 전문 연구 인력 양성",
+      "2) 목표 달성 수준"
+    ],
+    "section_context_candidate": "□ 전문 연구 인력 양성",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 317,
+      "2": 68,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 1127,
+    "heading_candidates": [
+      "4. 목표 미달 시 원인분석",
+      "1) 목표 미달 원인(사유) 자체분석 내용 (박형렬) - 논문 및 특허 건수가 목표 7건 대비 미달되었는데, 현재 대부분의 학생들이 오크리지 연",
+      "3) 연구개발 과정의 성실성"
+    ],
+    "section_context_candidate": "4. 목표 미달 시 원인분석",
+    "prior_heading_candidate": {
+      "text": "2) 목표 달성 수준",
+      "pdf_page": 52
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 316,
+      "2": 27,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 1107,
+    "heading_candidates": [
+      "5. 연구개발성과의 관련 분야에 대한 기여 정도"
+    ],
+    "section_context_candidate": "5. 연구개발성과의 관련 분야에 대한 기여 정도",
+    "prior_heading_candidate": {
+      "text": "3) 연구개발 과정의 성실성",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구개발성과 활용계획표 ",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "자 컴퓨터 분야, 그리고 위상학적 물질 연구에 사용될 수 있다. 다만, 이론적 추측 이후\n에 실험적 검증 및 물성 측정이 뒤따라야 할 것이고 이를 오크리지 연구소 측과 정기 혹\n은 비정기적으로 온라인 미팅을 이어가며 연구를 마무리 지을 예정이다. 이를 넘어 이론\n적으로 예측된 소재를 활용해 박막 구조로 증착하거나 소자를 개발하는 등 어플리케이션",
+        "after": "구분(정량 및 정성적 성과 항목) 연구개발 종료 후 5년 이내\n국외논문\nSCIE 23년 3편, 24년 3편, 25년 4편\n비SCIE",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 309,
+      "2": 64,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 1298,
+    "heading_candidates": [
+      "7. 기대효과",
+      "1) 협력연구 기대 효과",
+      "2) 연구성과 활용 방안",
+      "3) 파견에 따른 글로벌 인재양성 효과"
+    ],
+    "section_context_candidate": "7. 기대효과",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관련 분야에 대한 기여 정도",
+      "pdf_page": 54
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 327,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 1267,
+    "heading_candidates": [
+      "4) 후속 연구계획 및 성과관리 방안"
+    ],
+    "section_context_candidate": "4) 후속 연구계획 및 성과관리 방안",
+    "prior_heading_candidate": {
+      "text": "3) 파견에 따른 글로벌 인재양성 효과",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 324,
+      "2": 52,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 1217,
+    "heading_candidates": [
+      "1.3. 연구시설·장비비",
+      "1.4. 연구재료비 22,418 6.09",
+      "1.5. 연구활동비 150,173 40.79",
+      "1.6. 연구수당 21,977 5.97",
+      "1.3. 연구시설·장비비 0 0",
+      "1.4. 연구재료비 0 0",
+      "1.5. 연구활동비 169,462 48.47",
+      "1.6. 연구수당 15,000 4.29"
+    ],
+    "section_context_candidate": "1.3. 연구시설·장비비",
+    "prior_heading_candidate": {
+      "text": "4) 후속 연구계획 및 성과관리 방안",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 308,
+      "2": 110,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 281,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 38,
+      "2": 21,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 825,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "figure 1. Growth table of Sn films",
+        "line_index": 32,
+        "toc_like": false,
+        "before": "Molecular Beam Epitaxy(MBE)를 활용하여 성장시킴. 결과적으로\n다양한 상의 박막을 얻는 데 성공함. 각 상의 박막은 서로 다른\n성질을 보이고, 특히 a-Sn(220)와 b-Sn(002)에서 위상학적 성질의\n증거인 Weak antilocalization이 나타나는 것을 PPMS로 확인함.",
+        "after": "figure 2. XRD and PPMS data of each Sn thin films. (a)\na-Sn(220), (b) b-Sn(220), and (c) b-Sn(002).\n연구성과\n프로젝트",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "figure 2. XRD and PPMS data of each Sn thin films. (a)",
+        "line_index": 33,
+        "toc_like": false,
+        "before": "다양한 상의 박막을 얻는 데 성공함. 각 상의 박막은 서로 다른\n성질을 보이고, 특히 a-Sn(220)와 b-Sn(002)에서 위상학적 성질의\n증거인 Weak antilocalization이 나타나는 것을 PPMS로 확인함.\nfigure 1. Growth table of Sn films",
+        "after": "a-Sn(220), (b) b-Sn(220), and (c) b-Sn(002).\n연구성과\n프로젝트\n기술분야 Condensed Matter Physics, Quantum Plasmonics",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 147,
+      "2": 37,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.47,
+          323.89,
+          530.35,
+          414.99
+        ],
+        "page_area_fraction": 0.0652
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          313.27,
+          191.31,
+          529.16,
+          293.44
+        ],
+        "page_area_fraction": 0.0441
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 1263,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 273,
+      "2": 37,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 813,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 164,
+      "2": 37,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.32,
+          227.03,
+          356.09,
+          318.49
+        ],
+        "page_area_fraction": 0.0226
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          362.08,
+          226.19,
+          467.51,
+          323.05
+        ],
+        "page_area_fraction": 0.0204
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 1232,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 239,
+      "2": 37,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 1099,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 230,
+      "2": 37,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 1090,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 212,
+      "2": 35,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 365,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 39 (a)WSe2 내의 존재하는 결함 구조",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 60 -",
+        "after": "(b)hBN/WSe2/hBN heterostructure (c)boron\nvacancy와 selenium vacancy의 상대적 위치별\n에너지 분포 (d)boron vacancy와 selenium\nvacancy의 상대적 위치별 total magnetic",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 48,
+      "2": 16,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.55,
+          596.95,
+          461.27,
+          722.21
+        ],
+        "page_area_fraction": 0.0558
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 1034,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1 (a) h-BN 기판 위에 올라온 2차원 Bismuth의 다양한 CALYPSO 구조",
+        "line_index": 41,
+        "toc_like": false,
+        "before": "특성이 두드러지게 나타나는 물질이다. 또한 같은 족 원소인\nP가 다양한 2차원 구조를 형성하는 것을 토대로 다양한 기판\n위에서의 2차원 Bismuth가 어떤 구조를 형성하는지를\n연구하였다. 또한 이들의 전자구조적 특성에 대하여 연구하였다.",
+        "after": "결과 (b) Graphene 기판 위에 올라온 2차원 Bismuth의 다양한 CALYPSO\n구조 결과 (c) h-BN 기판 위에서의 band structure (d) Graphene 기판\n위에서의 band structure\n연구성과",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 195,
+      "2": 37,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.42,
+          290.92,
+          514.16,
+          378.79
+        ],
+        "page_area_fraction": 0.0572
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.63,
+          210.61,
+          369.4,
+          283.61
+        ],
+        "page_area_fraction": 0.0189
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          393.39,
+          210.49,
+          523.52,
+          283.73
+        ],
+        "page_area_fraction": 0.019
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 1148,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 232,
+      "2": 37,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          250.18,
+          125.14,
+          449.76,
+          246.81
+        ],
+        "page_area_fraction": 0.0485
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 1230,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 245,
+      "2": 35,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 341,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1. metal doped graphene 의 binding energy. (a) 5x5 supercell",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 64 -",
+        "after": "graphene의 mono vacancy. (b) 5x5 supercell graphene의 divacancy. (c) 7x7\nsupercell graphene의 mono vacancy. (d) 7x7 supercell graphene의 divacancy.\n연구성과\n프로젝트",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 46,
+      "2": 16,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          260.38,
+          620.8,
+          445.56,
+          767.52
+        ],
+        "page_area_fraction": 0.0543
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 1257,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 286,
+      "2": 33,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 735,
+    "heading_candidates": [],
+    "section_context_candidate": "1.6. 연구수당 15,000 4.29",
+    "prior_heading_candidate": {
+      "text": "1.6. 연구수당 15,000 4.29",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 183,
+      "2": 16,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          173.67,
+          324.36,
+          528.92,
+          575.73
+        ],
+        "page_area_fraction": 0.1785
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

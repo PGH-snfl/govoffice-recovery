@@ -1,0 +1,507 @@
+[
+  {
+    "pdf_page": 5,
+    "text": "그림 2. 세계 농업 로봇 시장 규모 예측(Tractica)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 8,
+    "text": "그림 2. 국내 작물별 재배 농가 수 및 재배 면적(통계청, 2021)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "표 1. 딸기의 품종별 형태학적 특성(농업기술길잡이 40, 2019)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 3. 딸기 재배 중 자동화가 필요한 농작업과 그 대상 객체 모식도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 4. Color threshold 알고리즘 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 5. Viola-Jones 알고리즘 관련 예시(Viola & Jones, 2001)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 6. Aggregate channel features 알고리즘 분석 흐름도 예시(Yang 등, 2014)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 7. 꽃, 과실 및 노엽 인식을 위한 Color threshold 기반 Decision tree",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 8. Color threshold 기반 꽃 인식 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 9. Color threshold 기반 과실 인식 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 10. Color threshold 기반 노엽 인식 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 11. Viola-Jones 알고리즘 기반 꽃, 과실 및 노엽 인식 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 12. Aggregate channel features 알고리즘 내 Extended image channels 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 13. 관행 객체 인식 알고리즘별 꽃 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 14. 관행 객체 인식 알고리즘별 과실 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 15. 관행 객체 인식 알고리즘별 노엽 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "표 2. 관행 객체 인식 알고리즘별 꽃 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "표 3. 관행 객체 인식 알고리즘별 과실 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "표 4. 관행 객체 인식 알고리즘별 노엽 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 16. 첨단디지털온실(위), 테스트베드(가운데) 및 농가(아래)에서 취득한 RGB 영상 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "표 5. GoPro 카메라 사양",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 17. GoPro 카메라 동영상 안정화 HyperSmooth 4.0",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "표 6. 생육단계에 따른 데이터베이스 예시와 적용 가능한 농작업 내용",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "표 7. 취득 장소에 따른 RGB 영상 데이터 취득 사항",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 18. Labelme 소프트웨어를 사용해 수행한 Labeling 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 19. 영상 내 2개 이상의 베드가 포함된 경우에 대한 Labeling 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 20. 클래스가 부여된 (a)컬러 체커, (b)꽃, (c)숙과, (d)미숙과, (e)노엽, (f의 노란색 박스)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "표 8. 인공지능 학습용 데이터 내 클래스별 객체 분포",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 21. 꽃, 노엽, 숙과 및 미숙과에 대해 입력한 온톨로지 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 22. 원본(위) 영상에 대한 Autodistill을 이용한 Labeling 결과(가운데) 및 Ground truth(아래)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "표 9. Training, Validation 및 Test dataset 구성 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 23. Precision과 Recall을 구하는 수식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "표 10. YOLO v8 segmentation 알고리즘의 5가지 구조에 따른 특성 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "표 11. YOLO v8 segmentation 알고리즘의 5가지 구조에 따른 클래스별 인식 성능(AP50) 및 FPS 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "표 12. RetinaNet, YOLO v8 segmentation, Faster R-CNN 및 Mask R-CNN을 사용한 객체 인식 결과 비교(AP50)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 24. YOLO v8 segmentation s 알고리즘의 Confusion matrix",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 25. 영상 내 2개 이상 재배 베드가 포함된 경우의 객체 인식 결과(위: 원본, 가운데: 인식 결과,",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 26. 숙과 및 미숙과에 대한 Tracking(ID 부여 및 Counting) 기술 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "표 13. 관행 객체 인식 알고리즘별 꽃 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "표 14. 관행 객체 인식 알고리즘별 과실 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "표 15. 관행 객체 인식 알고리즘별 노엽 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "그림 27. 관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 꽃 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 28. 관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 과실 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 29. 관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 노엽 인식 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 30. 학습 데이터(위)에서 장애물 클래스를 포함하여 수행한 Labeling 결과(아래) 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "표 16. 장애물 클래스 포함 여부에 따른 YOLO v8 segmentation s 인식 성능 비교(AP50)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 31. Stereo vision 기법을 활용한 객체 인식 및 거리 정보 예측 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 32. ZED를 이용한 대상 객체와의 거리 예측 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 33. 첨단디지털온실에서 취득된 딸기 Point cloud 데이터 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 34. 농가에서 취득된 딸기 Point cloud 데이터 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 35. 취득된 딸기 Point cloud 데이터 기반 3D Labeling 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 36. 파장별 과실 영상 데이터 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 37. 파장별 꽃 영상 데이터 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 38. 파장별 런너 영상 데이터 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 39. 897nm 파장 영상을 이용한 런너 인식 결과 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 40. 분광 데이터 취득을 위한 암막 장치 모식도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 41. 암막 장치를 구성하는 광원 및 분광 센서 챔버 모식도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "그림 42. 논산 소재 딸기 농가 현장 방문",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "그림 43. 김제 소재 오이 농가 현장 방문",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "그림 44. 딸기 실습 현장 방문",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 45. 온실 내 딸기 재배환경 구조 및 로봇팔",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "그림 46. ZED mini 카메라, ‘Stereolabs’사 (USA)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "표 17. ZED mini 카메라의 기능별 상세스펙",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 47. 재배 작물을 촬영한 데이터로부터 발견된 딸기 객체가 포함된 RGBD 샘플 데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 48. 재배 작물을 촬영한 데이터로부터 발견된 노엽 객체가 포함된 RGBD 샘플 데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "그림 49. 수평면상 직교 구조 일 때 객체의 3차원 좌표 측위 정밀도를 위한 실험 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "그림 50. 균등한 거리에 따른 거리 측정 오차율 실험 개념도 표 18. 표준편차 및 오차율 측정 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "그림 51. 온실 구조를 모방한 로봇팔 시작기 실험 모형 설계도(원예원소재 첨단온실 시설 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "그림 52. 로봇팔제어 시스템 1차 시작기 설계 도면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "그림 53. 이동용 레일상에 위치한 로봇팔제어 시스템 1차 시작기 저측 사시도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 54. 시작기 내부 투시도 및 온실 환경 이동용 레일 위 가상 배치도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 55. 시설 온실 예(토마토 재배 포장) 및 재배 구역 공간을 모형으로 구현한 구조물",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 56. 3차원 좌표값 측위를 위한 프레임 정렬 및 로봇팔제어 시스템 1차 시작기 배치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "그림 57. 로봇팔제어 시스템 2차 시작기 설계 도면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 58. 로봇팔 및 이동 플랫폼 제어기 설치 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 59. 제작된 스테핑모터 기반 이동장치 설계도면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 60. 로봇팔 제어 시스템 이동용 플랫폼",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 61. 구동부 자동 제어 인터페이스 보드,",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "표 19. 시작기 구동부 구성품 및 세부 기능 내역",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "그림 62. 구동부 소프트웨어 제어를 위한 프로토콜 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 63. 로봇팔 및 기구부 설치 그림 64. 통합제어기 연결 및 설치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 65. 동작 정확도 테스트 그림 66. 태블릿 입력 가상 모델 동기화 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 67. 온실 모형 기구부 내 하드웨어 시스템 배치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "표 20. RB5-850 모델 Specification",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 68. 상용 전동가위 기반 제어 기능 구현 실험 그림 69. 상용 전동가위의 PCB 호환성 문제",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 70. 서보모터 기반 설계 수행",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 71. 1차 엔드이펙터 개발 그림 72. 2차 엔드이펙터 개발",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 73. 2차 제작 엔드이펙터를 이용한 식물체 줄기 절삭력 테스트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "그림 74. 3차 엔드이펙터 개발을 위한 절단 날 곡률 반경 설계 도면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "그림 75. 양날형 절단날 벌림 및 교차 상태 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 76. 로봇팔 제어 시스템 연동이 가능한 서보모터 제어 기반 3차 시작기 설계도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 77. 로봇팔 제어 시스템 연동이 가능한 서보모터 제어 기반 3차 시작기 제작 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "그림 78. 3차원 공간상에서 Depth 카메라와 객체간 물리적 구조 개념도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "그림 79. 중심점 이동 제어 방법 1안 그림 80. 중심점 이동 제어 방법 2안",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "그림 81. 스테레오 비젼 기반 다중 센서의 측위 실험을 위한 직교좌표 배치도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "그림 82. 다중 센서의 영상 데이터의 픽셀당 선형 거리 측위 실험",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "그림 83. 측정 가능한 각 직교 위치별 거리 값 측정 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "그림 84. 인식된 노엽 RGB 이미지 데이터와 Depth 데이터의 매칭 결과 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "그림 85. 측면에서 관찰한 Depth 데이터 분포 상태 그림 86. 상부에서 관찰한 Depth 데이터 분포 상태",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "그림 87. 3차원 공간 내 분포된 Depth 데이터 상태 그림 88. 주요 객체에 대한 Depth 데이터 분류 예",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 65,
+    "text": "그림 89. 다중센서가 장착된 로봇팔을 제어하기 위한 궤적 시뮬레이션 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

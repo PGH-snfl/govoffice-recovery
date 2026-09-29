@@ -1,0 +1,158 @@
+[
+  {
+    "visual_id": "S21-V0001",
+    "caption": "3D 프린트로 제작가능한 유성기어 감속기와 사이클로이드 기어 감속기",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 5 -\n- 사이클로이드 감속기는 작은 부피로 큰 감속비를 낼 수 있고 기어 물림률이 좋아 높은 강성을 지님. - 3D 프린트로 제작된 감속기는 하모닉 감속기에 비교하면 그 정밀도나 강성면에서는 다소 떨어짐. - 하지만, 목표로 하는 페이로드와 위치 정확도를 만족하기에는 충분한 수준이며 무엇보다 저가임. - 자세한 사양은 표 1에 정리함. <표 1 3D 프린트로 제작가능한 유성기어 감속기와 사이클로이드 기어 감속기>\n▷ (연구내용2) 메카넘 인-휠 모터 개발 및 고속 전방향 이동 플랫폼 개발\n- 전방향 이동을 위한 메카넘 휠은 보통 기어드 모터에 장착되기 때문에 길이방향으로 부피가 큼. - 이로 인해 플랫폼의 내부 공간이 좁아지고 배터리 부피를 키울 수 없어 운행시간이 줄어듬. - 메카넘 휠을 사용할 때는 반드시 서스펜션 장치를 이용하여 4개의 바퀴가 지면에 닿아 있어야 함. - 모터가 길이방향으로 긴 경우, 서스펜션의 설계가 복잡해지는 한계점이 있음. - 휠과 모터가 결합된 형태인 인-휠 모터를 사용하면 이를 해결할 수 있음. - 하지만 메카넘 인-휠 모터의 경우, 상용화된 사례가 거의 없고 있어도 매우 고가임.(대당\n300만원수준) - 따라서, 모바일 플랫폼 내부 공간 활용도를 높이며 고속주행이 가능하도록 감속기를 내장한\n사이클로이드 기어 기반의 메카넘 인-휠 모터를 개발함. - 메카넘 인-휠 모터는 3D 프린트로 제작된 사이클로이드 감속기 출력단 외륜부에 메카넘 롤러를\n장착하여 설계함. - 최대 20km/h 고속 주행을 위해 감속비를 14:1로 설정하였으며 그림 1에 구조를 나타냄.\n<메카넘 인-휠 모터 설계도>\n기어방식 에피사이클 유성기어 에피사이클 유성기어 사이클로이드 기어\n감속비 36:1 27:1 40:1",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.17,
+          101.05,
+          465.83,
+          228.71
+        ],
+        "page_area_fraction": 0.0859
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.74,
+          466.29,
+          267.58,
+          541.09
+        ],
+        "page_area_fraction": 0.0116
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.08,
+          465.81,
+          380.68,
+          541.33
+        ],
+        "page_area_fraction": 0.0113
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          417.14,
+          466.17,
+          498.93,
+          541.09
+        ],
+        "page_area_fraction": 0.0122
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S21-V0002",
+    "caption": "VESCular6 다기능 모터제어기",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 7 -\n- 동적 안정화 모션을 위한 6자유도 매니퓰레이터를 3D Printing 모듈형 감속기를 이용하여 제작함. - 1, 2번 관절은 36:1 유성기어 감속기, 3번 관절은 27:1 유성기어 감속기 나머지 4, 5, 6번 관절은\n40:1 사이클로이드 기어 감속기를 사용함. - 관절에는 드론에 주로 사용되는 BLDC 모터로 Tarot사의 4008 모터를 사용함. - 모터제어에는 자체 개발한 VESCular6 다기능 모터제어기를 이용함. 그림 5에 나타냄. - DPS(Degree Per Second) 제어와 Goto 제어 기능을 개발하여 정확한 위치제어가 가능하도록 함. - 매니퓰레이터의 페이로드는 1.5kg이며 정확도는 무부하시 최대 2mm로 설계함. - 커피잔을 나르거나, 가벼운 음식을 나르는 작업을 수행할 수 있을 것으로 예상됨. - 전방향 이동 플랫폼과 6자유도 매니퓰레이터를 결합하여 고속 전방향 이동형 머니퓰레이터를 개발함. - 주제어기는 NVIDIA사의 Jetson Nano를 이용하며 ARM 코어용 Ubuntu 18.04를 운영체제로 사용함. - Robot 소프트웨어는 ROS Melodic에서 구동되며 주로 C++ 언어와 Python으로 구성됨. ▷ (연구내용4) 동적균형제어 연구을 위한 Gazebo 시뮬레이터 개발\n- 동적균형제어를 MPC(Model Predictive Control)을 이용하여 구현하기 위한 시뮬레이터 개발\n- Solidworks에서 URDF(Universal Robot Description File) 포맷으로 출력하여 Gazebo 모델 완성. - ROS(Robot Operating System)와 연동되는 Gazebo를 이용하여 제어 시뮬레이션 수행예정.\n<그림 5 VESCular6 다기능 모터제어기> <그림 6 Gazebo 시뮬레이터>\n(3차년도)\n▷ (연구내용1) ROS기반의 고속자율이동을 위한 Task-space Control 기법 개발\n<메카넘 모바일 플랫폼 좌표>\n<Feedfoward + Feedback 제어도>",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.32,
+          342.7,
+          222.96,
+          495.42
+        ],
+        "page_area_fraction": 0.0432
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          224.04,
+          342.11,
+          513.56,
+          504.89
+        ],
+        "page_area_fraction": 0.0942
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          106.92,
+          314.11,
+          248.13
+        ],
+        "page_area_fraction": 0.0722
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.11,
+          113.64,
+          536.59,
+          210.13
+        ],
+        "page_area_fraction": 0.0429
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S21-V0003",
+    "caption": "Gazebo 시뮬레이터",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 7 -\n- 동적 안정화 모션을 위한 6자유도 매니퓰레이터를 3D Printing 모듈형 감속기를 이용하여 제작함. - 1, 2번 관절은 36:1 유성기어 감속기, 3번 관절은 27:1 유성기어 감속기 나머지 4, 5, 6번 관절은\n40:1 사이클로이드 기어 감속기를 사용함. - 관절에는 드론에 주로 사용되는 BLDC 모터로 Tarot사의 4008 모터를 사용함. - 모터제어에는 자체 개발한 VESCular6 다기능 모터제어기를 이용함. 그림 5에 나타냄. - DPS(Degree Per Second) 제어와 Goto 제어 기능을 개발하여 정확한 위치제어가 가능하도록 함. - 매니퓰레이터의 페이로드는 1.5kg이며 정확도는 무부하시 최대 2mm로 설계함. - 커피잔을 나르거나, 가벼운 음식을 나르는 작업을 수행할 수 있을 것으로 예상됨. - 전방향 이동 플랫폼과 6자유도 매니퓰레이터를 결합하여 고속 전방향 이동형 머니퓰레이터를 개발함. - 주제어기는 NVIDIA사의 Jetson Nano를 이용하며 ARM 코어용 Ubuntu 18.04를 운영체제로 사용함. - Robot 소프트웨어는 ROS Melodic에서 구동되며 주로 C++ 언어와 Python으로 구성됨. ▷ (연구내용4) 동적균형제어 연구을 위한 Gazebo 시뮬레이터 개발\n- 동적균형제어를 MPC(Model Predictive Control)을 이용하여 구현하기 위한 시뮬레이터 개발\n- Solidworks에서 URDF(Universal Robot Description File) 포맷으로 출력하여 Gazebo 모델 완성. - ROS(Robot Operating System)와 연동되는 Gazebo를 이용하여 제어 시뮬레이션 수행예정.\n<그림 5 VESCular6 다기능 모터제어기> <그림 6 Gazebo 시뮬레이터>\n(3차년도)\n▷ (연구내용1) ROS기반의 고속자율이동을 위한 Task-space Control 기법 개발\n<메카넘 모바일 플랫폼 좌표>\n<Feedfoward + Feedback 제어도>",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.32,
+          342.7,
+          222.96,
+          495.42
+        ],
+        "page_area_fraction": 0.0432
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          224.04,
+          342.11,
+          513.56,
+          504.89
+        ],
+        "page_area_fraction": 0.0942
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          106.92,
+          314.11,
+          248.13
+        ],
+        "page_area_fraction": 0.0722
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.11,
+          113.64,
+          536.59,
+          210.13
+        ],
+        "page_area_fraction": 0.0429
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

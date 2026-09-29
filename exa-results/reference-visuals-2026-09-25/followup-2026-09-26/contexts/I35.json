@@ -1,0 +1,1296 @@
+[
+  {
+    "visual_id": "I35-V0001",
+    "caption": "연구개발 최종목표",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 10 -\n1. 연구개발과제의 개요\n1-1. 연구개발 목적\n[그림 1] 연구개발 최종목표\no 본 과제는 악성코드의 베타 테스트가 수행되고, 서비스 형태로 거래되고 있는 딥웹(Deep\nWeb)의 악성코드를 능동적으로 수집/탐지/분석함으로써, 악성코드로 인한 피해를 최소화\n하는 기술을 개발하는 것임.\no 특히 전체 악성코드 중 70% 이상이 랜섬웨어 악성코드인 최근 상황에서 악성코드로 인해\n경제적인 피해가 심각해지고 있고, 이러한 악성코드의 사전 실행 및 유통이 딥웹에서 이\n루어지고 있기 때문에, 딥웹 및 토르기반의 악성코드 분석 기술개발을 통해 많은 경제",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1-1. 연구개발 목적"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.97,
+          379.39,
+          534.91,
+          688.53
+        ],
+        "page_area_fraction": 0.2934
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0002",
+    "caption": "PC/모바일용 악성코드 연차별 발견 추이(출처 : 보안뉴스)",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "- 개발 결과물의 실용성 검증을 위한 시험용 플랫폼 개발\n- 실용적인 측면을 고려한 딥웹 악성코드 보안 솔루션 제품화\n- 개발 결과물의 공인시험(TTA 혹은 KTL)을 통한 성능 검증\n- 딥웹 악성코드 보안 솔루션의 실제 운영을 통한 상용화 검증\n1-2. 연구개발의 필요성\no 최근 신규 악성코드가 2017년 2분기 대비 10% 증가한 5,760만개가 2017년 3분기에 발견\n되어 전체 발견된 악성코드가 7억 8,000만개를 상회하고 있음. 이는 딥웹의 활성화로 인",
+    "caption_and_following_text": "해 악성코드의 증가세로 이어지는 것으로 파악되어 악성코드 감염에 의한 피해를 감소시\n키기 위해서는 딥웹 상의 악성코드를 수집 및 탐지/분석하는 기술개발은 매우 시급함.\n[그림 2 PC/모바일용 악성코드 연차별 발견\n추이(출처 : 보안뉴스)\no 또한, 신규 모바일용 악성코드는 2분기 대비 약 60%만큼 급증하였으며, 보안업체에서는\n이를 대응하기 위한 기술개발로 사용자의 PC/모바일 등으로 유입되는 악성코드를 실시간\n으로 탐지/차단하는 제품으로 상용화하고 있지만, 악성코드는 딥웹에서 서피스웹으로 이\n동되기 때문에 딥웹에서 악성코드를 수집하고 탐지/분석할 수 있는 기술개발이 필요함.\no 한국인터넷진흥원(KISA)에서는 2017년 4분기에 발견한 전체 악성코드는 643개이며, 그 중\n랜섬웨어는 463개로 전체 악성코드의 72%로 조사되어, 최근 랜섬웨어가 급증한 것을 알",
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "heading_candidates": [
+      "1-2. 연구개발의 필요성"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.35,
+          324.48,
+          431.41,
+          507.16
+        ],
+        "page_area_fraction": 0.0979
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0003",
+    "caption": "PowerShell과 WMIC를 이용한 악성행위 발견 횟수(출처 : 한국인터넷진흥원)",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "술적 한계를 극복한 스크립트 자동 분석 크롤러 개발이 필요함.\no 또한 국내에서 발생한 파일리스 악성코드 공격은 2017년 1분기 동안 1,911건의 역대 최대\n치를 기록하였으며, 2016년 전체 대비 50%를 초과한 것으로 미루어 볼 때, 파일리스 악\n성코드의 지속적인 공격이 발생할 것으로 예상됨.\no 해당 악성코드는 주로 스크립트 실행형 악성코드로 웹 브라우저의 취약점을 이용하여 발\n생하며, 윈도우(Windows)에 탑재된 파워쉘(PowerShell)과 윈도우관리도구인 명령 유틸리티\n(WMIC, Windows Management Instrument Command)를 통해 악성행위가 이루어짐. 파일",
+    "caption_and_following_text": "이 없는 상태로 메모리에만 존재하기 때문에 기존의 파일 기반 탐지만으로는 탐지가 어\n려워 스크립트를 실행하여 탐지/분석하는 기술개발이 필요함.\n[그림 3] PowerShell과 WMIC를 이용한 악성행위 발견\n횟수(출처 : 한국인터넷진흥원)\n[그림 4] 국내의 파일리스 악성코드 공격 현황\n(출처 : 한국인터넷진흥원)\no 특히 2017년도에 발견된 악성코드는 VM 기반 가상화 환경을 인지하는 지능형 악성코드\n로 진화하여 정보보안업체에서 상용화 하고 있는 제품들의 행위 기반 기술을 회피하여\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.32,
+          486.67,
+          448.56,
+          553.43
+        ],
+        "page_area_fraction": 0.0403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.38,
+          182.56,
+          485.5,
+          395.93
+        ],
+        "page_area_fraction": 0.1604
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0004",
+    "caption": "국내의 파일리스 악성코드 공격 현황 (출처 : 한국인터넷진흥원)",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "치를 기록하였으며, 2016년 전체 대비 50%를 초과한 것으로 미루어 볼 때, 파일리스 악\n성코드의 지속적인 공격이 발생할 것으로 예상됨.\no 해당 악성코드는 주로 스크립트 실행형 악성코드로 웹 브라우저의 취약점을 이용하여 발\n생하며, 윈도우(Windows)에 탑재된 파워쉘(PowerShell)과 윈도우관리도구인 명령 유틸리티\n(WMIC, Windows Management Instrument Command)를 통해 악성행위가 이루어짐. 파일\n이 없는 상태로 메모리에만 존재하기 때문에 기존의 파일 기반 탐지만으로는 탐지가 어\n려워 스크립트를 실행하여 탐지/분석하는 기술개발이 필요함.",
+    "caption_and_following_text": "[그림 3] PowerShell과 WMIC를 이용한 악성행위 발견\n횟수(출처 : 한국인터넷진흥원)\n[그림 4] 국내의 파일리스 악성코드 공격 현황\n(출처 : 한국인터넷진흥원)\no 특히 2017년도에 발견된 악성코드는 VM 기반 가상화 환경을 인지하는 지능형 악성코드\n로 진화하여 정보보안업체에서 상용화 하고 있는 제품들의 행위 기반 기술을 회피하여\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.32,
+          486.67,
+          448.56,
+          553.43
+        ],
+        "page_area_fraction": 0.0403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.38,
+          182.56,
+          485.5,
+          395.93
+        ],
+        "page_area_fraction": 0.1604
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0005",
+    "caption": "연차별 연구개발 범위",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 14 -\n우회공격을 하고 있으므로 이를 탐지/분석하는 기술개발이 필요함.\no 또한 기존 기술인 VM 기반의 악성코드 행위 분석 기술은 악성코드 분석 요청을 수신한\n경우, 하이퍼바이저에서 가상화 O/S를 호출하여 분석하므로 다량의 악성코드 분석에는\n성능의 문제로 인해 비적합하며, 이를 개선하는 악성코드 탐지/분석 기술 개발이 필요함.\no 주관기관은 KT와 2016년에 ‘인터넷개인정보보안 서비스’의 계약을 체결하고, 개인정보\n보호 서비스 사업화를 개시한 이래 매출이 지속적으로 발생하고 있지만, 최근 KT가 고객",
+    "caption_and_following_text": "의 파일 자산을 보호하기 위한 측면에서 개인정보보호 서비스와 악성코드 탐지 서비스의\n결합을 요구하여 본 기술개발이 필요함.\n1-3. 연구개발 범위\n가. 연차별 연구개발 범위\n[그림 5] 연차별 연구개발 범위\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "heading_candidates": [
+      "1-3. 연구개발 범위",
+      "가. 연차별 연구개발 범위"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.19,
+          148.76,
+          510.69,
+          504.77
+        ],
+        "page_area_fraction": 0.3034
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0006",
+    "caption": "토르 브라우저 기반 크롤러 세부 모듈 구조",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 24 -\n[그림 6] 토르 브라우저 기반 크롤러 세부 모듈 구조\n① 딥웹 사이트 수집 모듈\n- 딥웹 검색사이트 관리 : 딥웹 사이트 정보를 수집할 수 있는 딥웹 검색엔진\n사이트 관리\n- 검색 키워드 설정 : 딥웹 검색엔진을 이용해 원하는 형태의 딥웹 사이트를\n수집하기 위한 검색 키워드 설정\n- 딥웹 사이트 수집 : 딥웹 검색엔진 및 검색 키워드를 활용한 딥웹 사이트\n수집\n② 딥웹 사이트 검색 모듈",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.34,
+          506.21,
+          474.82,
+          774.47
+        ],
+        "page_area_fraction": 0.1938
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0007",
+    "caption": "딥웹 및 토르기반 악성코드 탐지 및 분석 SW 모듈 구조",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 29 -\n[그림 11] 딥웹 및 토르기반 악성코드 탐지 및 분석 SW\n모듈 구조\n① 컨테이너 기반 우회 악성코드 탐지 모듈\n- 분석 대상 악성코드 파일의 분석을 위한 가상화 컨테이너 관리\n- 가상화 컨테이너의 파일 및 프로세스 모니터링\n- 우회 악성코드 분석 탐지 및 무력화 관리\n② 행위 기반 악성코드 탐지/분석 모듈\n- 파일, 레지스트리, 프로세스, 네트워크의 행위를 분석하여 악성코드 탐지\n- 출입문 보호, 메모리스캐닝, 후킹탐지, 실행 추적 악성코드 존재 탐지기술",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          477.2,
+          460.07,
+          774.47
+        ],
+        "page_area_fraction": 0.1932
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0008",
+    "caption": "컨테이너 기반 우회 악성코드 탐지 모듈 세부 절차",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n[그림 12] 컨테이너 기반 우회 악성코드 탐지 모듈 세부 절차\n- 크롤러에서 수집한 딥웹 및 토르기반 악성코드의 적재를 위한 가상화 환경 구\n성\n- 가상환경에서 격리 분석을 위한 컨테이너 생성 및 분석대상 파일 적재 관리\n- 분석기법을 우회하는 악성코드 탐지를 위한 행동 및 존재 탐지를 수행\n- 추출된 악성파일 후보군을 행위기반 악성코드 탐지 모듈로 전송\n② 행위 기반 악성코드 탐지 분석/탐지 모듈\n[그림 13] 행위 기반 악성코드 분석/탐지 모듈 세부 절차\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.46,
+          568.9,
+          490.3,
+          774.47
+        ],
+        "page_area_fraction": 0.1585
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.14,
+          126.58,
+          488.74,
+          344.5
+        ],
+        "page_area_fraction": 0.1666
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0009",
+    "caption": "행위 기반 악성코드 분석/탐지 모듈 세부 절차",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 30 -\n[그림 12] 컨테이너 기반 우회 악성코드 탐지 모듈 세부 절차\n- 크롤러에서 수집한 딥웹 및 토르기반 악성코드의 적재를 위한 가상화 환경 구\n성\n- 가상환경에서 격리 분석을 위한 컨테이너 생성 및 분석대상 파일 적재 관리",
+    "caption_and_following_text": "- 분석기법을 우회하는 악성코드 탐지를 위한 행동 및 존재 탐지를 수행\n- 추출된 악성파일 후보군을 행위기반 악성코드 탐지 모듈로 전송\n② 행위 기반 악성코드 탐지 분석/탐지 모듈\n[그림 13] 행위 기반 악성코드 분석/탐지 모듈 세부 절차\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.46,
+          568.9,
+          490.3,
+          774.47
+        ],
+        "page_area_fraction": 0.1585
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.14,
+          126.58,
+          488.74,
+          344.5
+        ],
+        "page_area_fraction": 0.1666
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0010",
+    "caption": "딥러닝 기반 악성코드 탐지/분석 모듈 세부 절차",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 31 -\n- 컨테이너 기반 악성코드 추출 데이터를 수신\n- 악성코드 행위기반 분석을 위한 감염대상 및 감염목적에 따른 일반화 적용\n- 악성 행위를 공격기반과 대상기반에 분류하여 분석하여 탐지",
+    "caption_and_following_text": "- 탐지결과의 교차 검증을 위한 딥러닝 기반 악성코드 탐지 모듈로 분석대상\n파일과 결과셋을 전송\n③ 딥러닝 기반 악성코드 탐지/분석 모듈\n[그림 14] 딥러닝 기반 악성코드 탐지/분석 모듈 세부 절차\n- 행위기반 악성코드 결과 파일과 Raw 파일을 수신\n- 학습용 전처리 데이터셋 생성\n- 학습용 전처리 데이터셋 Feature 생성 및 앙상블 기반 딥러닝 수행\n- 예측(탐지) 시나리오 데이터셋 생성 및 딥러닝 연동\n- 탐지 결과에 따른 가중치 조정을 통한 결과 도출\n- 최종결과는 DB에 입력되어 예측(탐지) 시나리오에 활용",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          416.07,
+          507.21,
+          631.35
+        ],
+        "page_area_fraction": 0.1641
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0011",
+    "caption": "딥웹 허니넷 모듈 구조",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 32 -\n[그림 15] 딥웹 허니넷 모듈 구조\n① PC 파일 관리 모듈\n- PC용 파일 업로드 및 다운로드\n② 모바일 파일 관리 모듈\n- 모바일용 파일 업로드 및 다운로드\n③ 게시물 관리 모듈\n- 새로운 게시물 작성\n- 작성된 게시물 수정\n- 작성된 게시물 확인",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.24,
+          611.69,
+          446.52,
+          774.47
+        ],
+        "page_area_fraction": 0.097
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0012",
+    "caption": "PC 파일 관리 모듈 세부 절차",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 33 -\n[그림 16] PC 파일 관리 모듈 세부 절차\n- 사용자는 UI를 통해 PC 파일 관리를 선택\n- 사용자 PC에 저장되어있는 파일을 업로드/다운로드\n- 업로드/다운로드된 파일을 데이터베이스/사용자 PC에 저장\n② 모바일 파일 관리 모듈\n[그림 17] 모바일 파일 관리 모듈 세부 절차\n- 사용자는 UI를 통해 모바일 파일 관리를 선택\n- 사용자 모바일 기기에 저장되어있는 파일을 업로드/다운로드\n- 업로드/다운로드된 파일을 데이터베이스/사용자 모바일 기기에 저장",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          582.8,
+          431.17,
+          774.47
+        ],
+        "page_area_fraction": 0.117
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.16,
+          198.74,
+          444.6,
+          383.7
+        ],
+        "page_area_fraction": 0.1088
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0013",
+    "caption": "모바일 파일 관리 모듈 세부 절차",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 33 -\n[그림 16] PC 파일 관리 모듈 세부 절차\n- 사용자는 UI를 통해 PC 파일 관리를 선택",
+    "caption_and_following_text": "- 사용자 PC에 저장되어있는 파일을 업로드/다운로드\n- 업로드/다운로드된 파일을 데이터베이스/사용자 PC에 저장\n② 모바일 파일 관리 모듈\n[그림 17] 모바일 파일 관리 모듈 세부 절차\n- 사용자는 UI를 통해 모바일 파일 관리를 선택\n- 사용자 모바일 기기에 저장되어있는 파일을 업로드/다운로드\n- 업로드/다운로드된 파일을 데이터베이스/사용자 모바일 기기에 저장\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          582.8,
+          431.17,
+          774.47
+        ],
+        "page_area_fraction": 0.117
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.16,
+          198.74,
+          444.6,
+          383.7
+        ],
+        "page_area_fraction": 0.1088
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0014",
+    "caption": "게시물 관리 모듈 세부 절차",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 34 -\n③ 게시물 관리 모듈\n[그림 18] 게시물 관리 모듈 세부 절차\n- 사용자는 UI를 통해 게시물 작성을 선택\n- 사용자 사용자가 원하는 정보를 양식에 맞게 작성\n- 작성된 정보를 데이터베이스에 저장\n④ 데이터베이스 연동/통신 인터페이스 모듈\n[그림 19] 데이터베이스 연동/통신 인터페이스 모듈\n세부 절차\n- 데이터베이스 정보를 통신 인터페이스를 통해 전송",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.92,
+          559.07,
+          438.96,
+          736.83
+        ],
+        "page_area_fraction": 0.1006
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.51,
+          209.41,
+          435.37,
+          370.03
+        ],
+        "page_area_fraction": 0.0885
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0015",
+    "caption": "데이터베이스 연동/통신 인터페이스 모듈 세부 절차",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 34 -\n③ 게시물 관리 모듈\n[그림 18] 게시물 관리 모듈 세부 절차\n- 사용자는 UI를 통해 게시물 작성을 선택\n- 사용자 사용자가 원하는 정보를 양식에 맞게 작성",
+    "caption_and_following_text": "- 작성된 정보를 데이터베이스에 저장\n④ 데이터베이스 연동/통신 인터페이스 모듈\n[그림 19] 데이터베이스 연동/통신 인터페이스 모듈\n세부 절차\n- 데이터베이스 정보를 통신 인터페이스를 통해 전송\n- 데이터베이스와 연동\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.92,
+          559.07,
+          438.96,
+          736.83
+        ],
+        "page_area_fraction": 0.1006
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.51,
+          209.41,
+          435.37,
+          370.03
+        ],
+        "page_area_fraction": 0.0885
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0016",
+    "caption": "PC용 악성코드 보안에이전트 모듈 구조",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 35 -\n(6) PC용 악성코드 보안에이전트 설계\n(가) PC용 악성코드 보안에이전트 주요 기능\n[그림 20] PC용 악성코드 보안에이전트 모듈 구조\n① 사용자 인증 모듈\n- 관리서버와 통신을 통해 인가된 사용자인지 여부를 ID/PW 기반으로 인증하\n기 위한 모듈\n② 실시간 분석 모듈\n- 실시간으로 유입되는 패킷(파일)을 분석하여 악성코드 여부를 분석하기 위\n한 모듈",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          166.47,
+          539.65,
+          428.41,
+          709.26
+        ],
+        "page_area_fraction": 0.0888
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0017",
+    "caption": "사용자 인증 모듈 세부 절차",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 36 -\n① 사용자 인증 모듈\n[그림 21] 사용자 인증 모듈 세부 절차\n- GUI에서 ID/PW를 입력 및 로그인 버튼일 통해 사용자 인증이 시작\n- 사용자 인증 모듈을 통해 입력된 ID/PW를 확인한 뒤 관리시스템과 연결을\n시도\n- 관리시스템과 연결되면 보안채널을 형성하고 사용자 인증을 시도\n- 정상적으로 인증되었을 경우 인가된 사용자로 판단하고 프로그램 메인화면\n을 띄워 정상적으로 이용\n② 악성코드 탐지 모듈",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.47,
+          479.36,
+          419.54,
+          736.83
+        ],
+        "page_area_fraction": 0.1256
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0018",
+    "caption": "악성코드 탐지 모듈 세부 절차",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 37 -\n[그림 22] 악성코드 탐지 모듈 세부 절차\n- 사용자에 의해 악성코드 탐지 요청이 수행되면 PC 내 실행가능한 파일들을\n모두 수집\n- 수집된 실행가능한 파일을 하나씩 시그니처 기반으로 검사를 수행\n- 시그니처 정보는 관리시스템으로부터 주기적으로 업데이트 수행\n- 점검중인 파일이 시그니처에 존재하지 않을 경우 악성코드 분석 요청 모듈\n을 통해 분석을 요청\n- 시그니처가 존재하며 악성코드일 경우 파일 실행중인지를 판단하여 강제종\n료하고, 파일을 격리 및 삭제",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.89,
+          527.78,
+          473.98,
+          774.47
+        ],
+        "page_area_fraction": 0.1741
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0019",
+    "caption": "실시간 분석 모듈 세부 절차",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 38 -\n[그림 23] 실시간 분석 모듈 세부 절차\n- 실시간 분석 모듈에서는 파일을 실시간으로 감시하기 위해 Minifilter 드라\n이버를 활용\n- Minifilter 드라이버에서 파일 유입에 대해 실시간으로 감시하다가 실행관련\n파일이 들어왔을 경우 파일정보를 확인\n- 파일이 시그니처에 존재하는 파일일 경우 악성코드 탐지 모듈에 이를 알려\n검사를 수행\n- 시그니처가 존재하지 않는 파일일 경우 의심파일로 판단하고, 악성코드 분\n석요청 모듈을 통해 전송하여 악성여부를 분석할 수 있도록 처리",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          187.1,
+          563.86,
+          407.78,
+          774.47
+        ],
+        "page_area_fraction": 0.0929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.74,
+          141.68,
+          488.14,
+          286.73
+        ],
+        "page_area_fraction": 0.1105
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0020",
+    "caption": "사용자 행위정보 수집 모듈 세부 절차",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "[그림 23] 실시간 분석 모듈 세부 절차\n- 실시간 분석 모듈에서는 파일을 실시간으로 감시하기 위해 Minifilter 드라\n이버를 활용\n- Minifilter 드라이버에서 파일 유입에 대해 실시간으로 감시하다가 실행관련\n파일이 들어왔을 경우 파일정보를 확인\n- 파일이 시그니처에 존재하는 파일일 경우 악성코드 탐지 모듈에 이를 알려\n검사를 수행",
+    "caption_and_following_text": "- 시그니처가 존재하지 않는 파일일 경우 의심파일로 판단하고, 악성코드 분\n석요청 모듈을 통해 전송하여 악성여부를 분석할 수 있도록 처리\n④ 사용자 행위정보 수집 모듈\n[그림 24] 사용자 행위정보 수집 모듈 세부 절차\n- 사용자 행위정보를 수집하기 위해 프로그램에서 발생하는 모든 행위관련\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          187.1,
+          563.86,
+          407.78,
+          774.47
+        ],
+        "page_area_fraction": 0.0929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.74,
+          141.68,
+          488.14,
+          286.73
+        ],
+        "page_area_fraction": 0.1105
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0021",
+    "caption": "악성코드 분석 요청 모듈 세부 절차",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 39 -\n이벤트를 수집\n- 사용자 인증모듈에서 로그인/로그아웃 하는 행위와 실시간 분석 모듈에서\n의심파일 및 시그니처 파일을 발견하는 행위정보를 기록\n- 악성코드 탐지 모듈에 의해 탐지되는 시그니처 정보와 의심파일을 악성코\n드 분석서버로 전송하는 행위를 기록\n- 사용자 행위정보 수집 모듈에서 이런 일련의 행위정보들을 수집하여 PC/모",
+    "caption_and_following_text": "바일에 기록하고, 해당 정보들을 관리시스템으로 전송하여 관리할 수 있도\n록 처리\n⑤ 악성코드 분석 요청 모듈\n[그림 25] 악성코드 분석 요청 모듈 세부 절차\n- 악성코드 탐지모듈 및 실시간 분석모듈에서 점검중인 실행가능한 파일에\n대해 시그니처가 존재하지 않는다고 판단했을 경우 의심파일로 설정하여\n악성코드 분석 요청 모듈을 통해 전송을 수행\n- 악성코드 분석요청 모듈에서 의심파일 정보를 수신한 뒤 악성코드 분석서\n버와 연동을 수행\n- 연동된 악성코드 분석서버로 의심파일 정보를 세부적으로 확인한 뒤 해당",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.01,
+          344.98,
+          458.87,
+          578.61
+        ],
+        "page_area_fraction": 0.1507
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0022",
+    "caption": "모바일용 악성코드 보안에이전트 모듈 구조",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 40 -\n[그림 26] 모바일용 악성코드 보안에이전트 모듈 구조\n① 사용자 인증 모듈\n- 사용자 관리\n- ID/PW 기반의 사용자 인증 수행\n② 패킷 수집 및 분석 보듈\n- 보안에이전트에 실시간으로 유입되는 패킷에 대한 수집 및 분석\n③ 악성코드 탐지 모듈\n- 유입된 악성코드 탐지 및 시그니처 목록에 존재 시 차단 기능을 수행하며\n존재하지 않을 시 행위기반 악성코드 탐지 기술 수행을 위해 딥웹 악성코",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.85,
+          625.84,
+          457.91,
+          764.4
+        ],
+        "page_area_fraction": 0.0889
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0023",
+    "caption": "모바일 악성코드 보안에이전트 세부 절차",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n[그림 27] 모바일 악성코드 보안에이전트 세부 절차\n- 유저 인터페이스를 통해 아이디와 비밀번호를 입력\n- 입력한 아이디와 비밀번호는 서버에 전송되고 DB와 일치하는지 확인 후 결\n과를 에이전트에 전송\n- 결과가 성공일 경우 다음 화면으로 전환되고, 실패일 경우 아이디와 비밀번\n호를 다시 입력\n② 패킷 수집 및 분석 모듈\n[그림 28] 패킷 수집 및 분석\n모듈 세부 절차",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.73,
+          586.76,
+          464.03,
+          774.47
+        ],
+        "page_area_fraction": 0.125
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          216.24,
+          132.21,
+          378.52,
+          362.36
+        ],
+        "page_area_fraction": 0.0746
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0024",
+    "caption": "패킷 수집 및 분석 모듈 세부 절차",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 41 -\n[그림 27] 모바일 악성코드 보안에이전트 세부 절차\n- 유저 인터페이스를 통해 아이디와 비밀번호를 입력\n- 입력한 아이디와 비밀번호는 서버에 전송되고 DB와 일치하는지 확인 후 결\n과를 에이전트에 전송\n- 결과가 성공일 경우 다음 화면으로 전환되고, 실패일 경우 아이디와 비밀번",
+    "caption_and_following_text": "호를 다시 입력\n② 패킷 수집 및 분석 모듈\n[그림 28] 패킷 수집 및 분석\n모듈 세부 절차\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.73,
+          586.76,
+          464.03,
+          774.47
+        ],
+        "page_area_fraction": 0.125
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          216.24,
+          132.21,
+          378.52,
+          362.36
+        ],
+        "page_area_fraction": 0.0746
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0025",
+    "caption": "악성코드 탐지 모듈 세부 절차",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 42 -",
+    "caption_and_following_text": "- 모바일 에이전트에 실시간으로 수집되는 패킷은 에이전트 관리 서버로 전송\n- 에이전트 관리 서버에서 패킷 분석 결과정보를 모니터링\n③ 악성코드 탐지 모듈\n[그림 29] 악성코드 탐지 모듈 세부 절차\n- 모바일 기기에 설치되어있는 모든 앱 및 파일을 탐색 및 분석\n- 탐색이 완료된 파일 중 시그니처 목록에 존재하는 파일은 차단하고, 그렇지\n않은 파일은 분석을 위해 딥웹 악성코드 분석 서버로 전송\n- 분석이 완료된 파일 결과정보는 DB에 저장\n④ 사용자 행위정보 수집\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.48,
+          358.29,
+          443.52,
+          639.02
+        ],
+        "page_area_fraction": 0.1638
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0026",
+    "caption": "사용자 행위정보 수집 모듈 세부 절차",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 43 -\n[그림 30] 사용자 행위정보 수집 모듈 세부 절차\n- 사용자의 방문 기록 등의 행위정보를 실시간으로 수집\n- 수집된 정보는 관리시스템으로 송신하고, 그 정보는 DB에 저장\n- 관리시스템에서 사용자 행위정보를 모니터링\n⑤ 에이전트 관리 모듈\n[그림 31] 에이전트 관리 모듈 세부 절차\n- 모바일 에이전트에서 위변조 방지를 위해 무결성 검증 데이터를 생성\n- 생성된 데이터는 무결성 검증 수행을 위해 에이전트 관리 서버로 송신\n- 무결성 검증 수행 결과는 DB에 저장",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.87,
+          581.6,
+          506.01,
+          774.47
+        ],
+        "page_area_fraction": 0.1608
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.31,
+          198.26,
+          498.57,
+          392.45
+        ],
+        "page_area_fraction": 0.1561
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0027",
+    "caption": "에이전트 관리 모듈 세부 절차",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 43 -\n[그림 30] 사용자 행위정보 수집 모듈 세부 절차\n- 사용자의 방문 기록 등의 행위정보를 실시간으로 수집",
+    "caption_and_following_text": "- 수집된 정보는 관리시스템으로 송신하고, 그 정보는 DB에 저장\n- 관리시스템에서 사용자 행위정보를 모니터링\n⑤ 에이전트 관리 모듈\n[그림 31] 에이전트 관리 모듈 세부 절차\n- 모바일 에이전트에서 위변조 방지를 위해 무결성 검증 데이터를 생성\n- 생성된 데이터는 무결성 검증 수행을 위해 에이전트 관리 서버로 송신\n- 무결성 검증 수행 결과는 DB에 저장\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.87,
+          581.6,
+          506.01,
+          774.47
+        ],
+        "page_area_fraction": 0.1608
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.31,
+          198.26,
+          498.57,
+          392.45
+        ],
+        "page_area_fraction": 0.1561
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0028",
+    "caption": "딥웹 악성코드 탐지 통합관리 시스템 모듈 구조",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 44 -\n(8) 딥웹 악성코드 탐지 통합관리 시스템 설계\n(가) 딥웹 악성코드 탐지 통합관리 시스템 주요 기능\n[그림 32] 딥웹 악성코드 탐지 통합관리 시스템 모듈 구조\n① 사용자 관리 모듈\n- 사용자 정보 생성/수정/삭제\n② 접근제어 정책 설정 모듈\n- 강제적 접근통제(MAC) 정책 설정\n- 역할기반 접근통제(RBAC) 정책 설정\n③ 접근제어 규칙 설정 모듈",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.79,
+          521.67,
+          491.98,
+          691.76
+        ],
+        "page_area_fraction": 0.1323
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0029",
+    "caption": "사용자 관리 모듈 세부 절차",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "- 악성코드 트래픽 위험도 출력\n- 악성코드 트래픽 모니터링\n⑨ 악성코드 수집기 관리 모듈\n- 딥웹 악성코드 의심 파일 수집 결과 출력\n- 딥웹 악성코드 파일이 포함된 URL 수집 결과 출력\n⑩ 딥웹 허니넷 관리 모듈\n- 허니넷 트래픽 수집 결과 출력",
+    "caption_and_following_text": "- 허니넷 악성코드 의심파일 수집 결과 출력\n(나) 주요 기능 세부 설계\n① 사용자 관리 모듈\n[그림 33] 사용자 관리 모듈 세부 절차\n- 사용자는 UI를 통해 생성/수정/삭제 기능을 선택\n- 사용자가 선택한 기능을 통해 사용자의 생성/수정/삭제\n- DB와 연동하여 그룹관리 결과를 저장\n② 접근제어 정책 및 규칙 설정 모듈\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.77,
+          263.59,
+          471.11,
+          405.64
+        ],
+        "page_area_fraction": 0.0986
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0030",
+    "caption": "접근제어 정책 및 규칙 설정 모듈 세부 절차",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 46 -\n[그림 34] 접근제어 정책 및 규칙 설정 모듈 세부 절차\n- 역할기반 접근통제에 사용할 역할을 생성\n- 사용자에게 역할을 부여\n- 각 역할별 시스템 접근에 대한 규칙을 설정\n③ 로그 관리 모듈\n[그림 35] 로그 관리 모듈 세부 절차\n- 각 시스템에서 에서 악성코드 수집/분석 결과를 DB에 저장\n- 사용자가 유저 인터페이스를 통해 로그 관리를 선택\n- 로그 관리는 DB에서 해당 결과를 불러와 출력",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          624.28,
+          450.72,
+          774.47
+        ],
+        "page_area_fraction": 0.0975
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          170.57,
+          470.99,
+          435.12
+        ],
+        "page_area_fraction": 0.1825
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0031",
+    "caption": "로그 관리 모듈 세부 절차",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 46 -\n[그림 34] 접근제어 정책 및 규칙 설정 모듈 세부 절차\n- 역할기반 접근통제에 사용할 역할을 생성",
+    "caption_and_following_text": "- 사용자에게 역할을 부여\n- 각 역할별 시스템 접근에 대한 규칙을 설정\n③ 로그 관리 모듈\n[그림 35] 로그 관리 모듈 세부 절차\n- 각 시스템에서 에서 악성코드 수집/분석 결과를 DB에 저장\n- 사용자가 유저 인터페이스를 통해 로그 관리를 선택\n- 로그 관리는 DB에서 해당 결과를 불러와 출력\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          624.28,
+          450.72,
+          774.47
+        ],
+        "page_area_fraction": 0.0975
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          170.57,
+          470.99,
+          435.12
+        ],
+        "page_area_fraction": 0.1825
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0032",
+    "caption": "성능 관리 모듈 세부 절차",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 47 -\n④ 성능 관리 모듈\n[그림 36] 성능 관리 모듈 세부 절차\n- 유저 인터페이스에서 성능관리 메뉴를 선택\n- 성능 관리에서 통신 인터페이스를 통해 각 시스템과 통신\n- 각 시스템의 현재 성능 상태를 수신하여 화면에 출력\n⑤ 에이전트 관리 모듈\n[그림 37] 에이전트 관리 모듈 세부 절차\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.19,
+          492.06,
+          510.57,
+          719.33
+        ],
+        "page_area_fraction": 0.1937
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.12,
+          130.78,
+          449.76,
+          305.31
+        ],
+        "page_area_fraction": 0.1063
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0033",
+    "caption": "에이전트 관리 모듈 세부 절차",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 47 -\n④ 성능 관리 모듈\n[그림 36] 성능 관리 모듈 세부 절차\n- 유저 인터페이스에서 성능관리 메뉴를 선택",
+    "caption_and_following_text": "- 성능 관리에서 통신 인터페이스를 통해 각 시스템과 통신\n- 각 시스템의 현재 성능 상태를 수신하여 화면에 출력\n⑤ 에이전트 관리 모듈\n[그림 37] 에이전트 관리 모듈 세부 절차\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.19,
+          492.06,
+          510.57,
+          719.33
+        ],
+        "page_area_fraction": 0.1937
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.12,
+          130.78,
+          449.76,
+          305.31
+        ],
+        "page_area_fraction": 0.1063
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0034",
+    "caption": "악성코드 분석 서버 관리 모듈 세부 절차",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 48 -\n- 에이전트 관리에서 PC/모바일 여부를 확인\n- PC인 경우 PC 에이전트에 대한 배포 및 무결성 확인을 수행",
+    "caption_and_following_text": "- 모바일인 경우 모바일 에이전트에 대한 배포 및 무결성 확인을 수행\n⑥ 악성코드 분석 서버 관리 모듈\n[그림 38] 악성코드 분석 서버 관리 모듈\n세부 절차\n- 행위 수집 및 처리, 위험도 분석 결과를 수신\n- 분석서버 우회 탐지 결과를 수신\n- 딥러닝 분석 결과를 수신\n⑦ 악성코드 수집 서버 관리 모듈\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.62,
+          404.68,
+          417.14,
+          666.59
+        ],
+        "page_area_fraction": 0.1254
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0035",
+    "caption": "악성코드 수집 서버 관리 모듈 세부 절차",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 49 -\n[그림 39] 악성코드 수집 서버 관리 모듈\n세부 절차\n- 딥웹 기반 검색어 및 URI 수집 결과를 수신\n- 딥웹 기반 사이트의 스크립트 분석 결과를 수신\n- 딥웹 기반 악성코드 수집 결과를 수신\n⑧ 딥웹 트래픽 분석 서버 관리 모듈\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.16,
+          420.62,
+          444.84,
+          774.47
+        ],
+        "page_area_fraction": 0.2084
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0036",
+    "caption": "딥웹 트래픽 분석 서버 관리 모듈 세부 절차",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n[그림 40] 딥웹 트래픽 분석 서버 관리 모듈\n세부 절차\n- HTTP request 처리 결과를 수신\n- HTTP response 처리 결과를 수신\n- 파일 전송 트래픽 처리 결과를 수신\n⑨ 딥웹 허니넷 관리 모듈\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.59,
+          453.46,
+          431.29,
+          774.47
+        ],
+        "page_area_fraction": 0.1717
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0037",
+    "caption": "딥웹 허니넷 관리 모듈 세부 절차",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 51 -\n[그림 41] 딥웹 허니넷 관리 모듈 세부\n절차\n- 딥웹 허니넷에서 수집된 악성코드 정보를 모니터링\n- 딥웹 허니넷에 나타나는 트래픽 정보를 모니터링\n(9) 딥웹 악성코드 트래픽 분석기 설계\n(가) 딥웹 악성코드 트래픽 분석기 주요 기능\n[그림 42] 딥웹 악성코드 트래픽 분석기 모듈 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.65,
+          535.57,
+          399.62,
+          774.47
+        ],
+        "page_area_fraction": 0.095
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.89,
+          132.46,
+          529.88,
+          299.31
+        ],
+        "page_area_fraction": 0.1551
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0038",
+    "caption": "딥웹 악성코드 트래픽 분석기 모듈 구조",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 51 -\n[그림 41] 딥웹 허니넷 관리 모듈 세부\n절차\n- 딥웹 허니넷에서 수집된 악성코드 정보를 모니터링",
+    "caption_and_following_text": "- 딥웹 허니넷에 나타나는 트래픽 정보를 모니터링\n(9) 딥웹 악성코드 트래픽 분석기 설계\n(가) 딥웹 악성코드 트래픽 분석기 주요 기능\n[그림 42] 딥웹 악성코드 트래픽 분석기 모듈 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.65,
+          535.57,
+          399.62,
+          774.47
+        ],
+        "page_area_fraction": 0.095
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.89,
+          132.46,
+          529.88,
+          299.31
+        ],
+        "page_area_fraction": 0.1551
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0039",
+    "caption": "딥웹 허니넷 GUI",
+    "pdf_page_candidate": 75,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 73 -\n(3) 딥웹 허니넷\n[그림 48] 딥웹 허니넷 GUI - 딥웹 내 허니팟의 보안 설정을 낮춰 악성코드의 공격을 유도하는 허니넷\n개발\n- 딥웹 토르기반 웹사이트에 PC용 악성코드 파일 업/다운로드를 통한 보안\n시험 기능 제공\n- 딥웹 토르기반 웹사이트에 모바일용 악성코드 파일 업/다운로드를 통한 보\n안 시험 기능 제공\n- 딥웹 토르기반 웹사이트에 게시물을 통한 스크립트 삽입 공격에 대해 보안\n시험 기능 제공",
+    "section_context_candidate": "2-2. 연구수행결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.61,
+          484.27,
+          529.28,
+          736.83
+        ],
+        "page_area_fraction": 0.234
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0040",
+    "caption": "모바일용 악성코드 보안에이전트 GUI",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 75 -\n(5) 모바일용 악성코드 보안에이전트\n[그림 50] 모바일용 악성코드 보안에이전트 GUI\n- 모바일 환경에서 유입되는 패킷에 대한 실시간 수집 및 분석 기능 제공\n- 설치된 애플리케이션의 악성코드 여부를 탐지하는 기능 제공\n- 보안에이전트의 버전 관리 및 위변조 방지 등을 위한 관리서버 구축\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-2. 연구수행결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.84,
+          394.25,
+          449.04,
+          741.39
+        ],
+        "page_area_fraction": 0.2103
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0041",
+    "caption": "딥웹 통합관리 시스템 GUI",
+    "pdf_page_candidate": 80,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 78 -\n(7) 딥웹 통합관리 시스템\n[그림 52] 딥웹 통합관리 시스템 GUI - 사용자에 따른 정책설정 등의 사용자 관리 및 접근제어 기능 제공\n- 도메인 수집 및 컨텐츠 수집 등의 크롤링 결과 관리 기능 제공\n- 악성코드 분석결과, 블랙리스트 관리 등의 악성코드 관리 기능 제공\n22 http://5yh4qmygx72tl65u.onion/\n23 http://exploitv3xqqzs2j.onion/\n24 http://hhstoreokdfyanf3.onion/\n25 http://highkorea5ou4wcy.onion/\n26 http://nz544wppkixoqajp.onion/forums/",
+    "section_context_candidate": "2-2. 연구수행결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.52,
+          165.3,
+          512.36,
+          492.78
+        ],
+        "page_area_fraction": 0.2813
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0042",
+    "caption": "딥웹 악성코드 트래픽 분석기 GUI",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 79 -\n(8) 딥웹 악성코드 트래픽 분석기\n[그림 53] 딥웹 악성코드 트래픽 분석기 GUI - Compromised Node 설치를 통해 암호화 기반의 딥웹 악성코드 트래픽 분석\n기능 수행\n- 암호화된 데이터의 악성코드 여부를 판단하는 기능 수행\n- 도메인별 딥웹 악성코드 분석 결과 제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-2. 연구수행결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.6,
+          382.62,
+          514.28,
+          719.33
+        ],
+        "page_area_fraction": 0.2918
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0043",
+    "caption": "시스템 구조",
+    "pdf_page_candidate": 87,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 85 -\n3. 목표 달성도 및 관련 분야 기여도",
+    "caption_and_following_text": "3-1. 목표\n가. 최종 목표\n◦ PC/모바일 환경에서 딥웹 및 토르기반 악성코드의 지능형 분석 기술개발\n[그림 54] 시스템 구조\n◦ End Product - 토르 브라우저 기반 크롤러(서버탑재형SW) - 딥웹 기반 허니넷(서버탑재형SW) - 딥웹 및 토르기반 악성코드 탐지 및 분석 SW(서버탑재형SW) - PC용 악성코드 보안에이전트(단말탑재형SW) - 모바일용 악성코드 보안에이전트(단말탑재형SW) - 딥웹 URI 수집/관리 인터페이스(단말탑재형SW) - 딥웹 악성코드 트래픽 분석기(단말탑재형SW)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 목표 달성도 및 관련 분야 기여도",
+    "heading_candidates": [
+      "3. 목표 달성도 및 관련 분야 기여도",
+      "3-1. 목표",
+      "가. 최종 목표"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          288.29,
+          549.54,
+          639.38
+        ],
+        "page_area_fraction": 0.3459
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I35-V0044",
+    "caption": "공인시험 수행을 위한 시스템 구조",
+    "pdf_page_candidate": 89,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 87 -\n3-2. 목표 달성여부\n◦ PC/모바일 환경에서 딥웹 및 토르기반 악성코드 지능형 분석 기술개발을 위해 기\n술개발의 핵심 기능들을 정량적 목표 항목으로 설정하고, 각 항목별 시험 결과",
+    "caption_and_following_text": "의 객관성을 확보하기 위해 1/2차년도 매년 공인시험기관인 TTA(한국정보통신기\n술협회)에서 공인시험을 수행함. ◦ 정량적 목표 검증을 위한 공인시험을 받기 위한 시스템 구조는 다음 [그림 55]와\n같음.\n[그림 55] 공인시험 수행을 위한 시스템 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3-2. 목표 달성여부",
+    "heading_candidates": [
+      "3-2. 목표 달성여부"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.7,
+          405.64,
+          481.18,
+          589.28
+        ],
+        "page_area_fraction": 0.1349
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

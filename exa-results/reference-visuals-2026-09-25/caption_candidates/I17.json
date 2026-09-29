@@ -1,0 +1,142 @@
+[
+  {
+    "pdf_page": 8,
+    "text": "그림 2 개별분리 클라우드 개념도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 3 본 과제에서 연구 및 개발한한 시스템의 기본개념도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 4 전체 개별분리 시스템의 개요",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 5 컴퓨팅 노드(Computing Node)의 전체적인 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 4에서 보여주듯, 인터커넥트 로직은 2가지의 위치에 존재할 수 있다. 첫",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 6 인터커넥트의 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 7 풀 관리자를 포함하지 않는 인터커넥트의 토폴로지 예시(Crossbar)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 8 Fabric MMIO를 통한 CPU 노드와 가속기 노드 간의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "표 1 패킷 클래스의 추가된 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 9 우리 시스템을 위한 2-레벨 팻트리 토폴로지 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 10 메모리 풀 관리자의 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 11 하나의 메모리 컨트롤러에 다수의 DRAM과 NVM이 연결된 모습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 12 개별분리 시스템의 보안 위협",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 13 Capability 기반 접근 제어",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "그림 14 Capability 프로토콜",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 15 원격 인증과 키 교환 흐름도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 16 커널과 데이터 오프로딩 흐름도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "표 2 실험 파라미터 항목과 설정값",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "표 3 보안성 검증 목록",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 16은 SPEC CPU2006으로 측정한 기존 머신 기반의 시스템과 개별분리 시스템의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 17 기존 머신 기반의 시스템과 개별분리 시스템과의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 17은 SPECint2006 벤치마크의 결과 중 컴퓨트 노드 갯수가 1, 2, 4, 8개로 증가할",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 18 멀티 컴퓨트 노드 환경에서 컴퓨트 노드 1개당 성능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "그림 19 SPECint2006 벤치마크 결과 중 패킷 처리 큐의 갯수",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "그림 20 STREAM 벤치마크 결과 중 패킷 처리 큐의 갯수 변경과 병목현상 개선 현상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "그림 18과 그림 19는 패킷 처리 큐의 갯수와 병목현상의 상관관계를 보여준다. 패킷",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 21 메모리 컨트롤러 갯수 및 메모리 모듈과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 22 인터커넥트의 소재에 따른 지연시간과 성능의 상관관계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

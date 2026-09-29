@@ -1,0 +1,1116 @@
+[
+  {
+    "visual_id": "S28-V0001",
+    "caption": "자율주행 차량에서 발생할 수 있는 잠재적 취약점",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "찾아내기 위해서 source separation기술을 적용가능한지에 대한 연구를 진행하였다.\n(3) 노이즈 멀티미디어에서 전기 신호 탐지 및 추출 기술 개발\n차량에 탑재되는 센서 모듈, 무선통신 모듈, 전자제어장치 등에는 다양한 취약점이 존재할 수 있기\n때문에 자율주행 차량에서 발생할 수 있는 잠재적 취약점을 식별하기 위한 연구를 진행하였다.\n[그림 1] 자율주행 차량에서 발생할 수 있는 잠재적 취약점\nAction Engine의 입력 데이터를 변조를 통해 자율주행 차량의 In-Vehicle 공격을 수행함으로써\nAction Engine이 잘못된 결정을 내리도록 만들어 사고를 유도할 수 있기 때문에 자율주행 자동차와\n가상 시스템에 대한 공격 시나리오를 도출하였다.\n[그림 2] 자율주행 자동차와 가상 시스템에 대한 공격 시나리오\n(4) 노이즈 멀티미디어에서 전기 신호 탐지 및 추출 기술 개발",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.81,
+          541.33,
+          472.19,
+          678.94
+        ],
+        "page_area_fraction": 0.0961
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.07,
+          142.88,
+          501.81,
+          446.03
+        ],
+        "page_area_fraction": 0.2476
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0002",
+    "caption": "자율주행 자동차와 가상 시스템에 대한 공격 시나리오",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "찾아내기 위해서 source separation기술을 적용가능한지에 대한 연구를 진행하였다.\n(3) 노이즈 멀티미디어에서 전기 신호 탐지 및 추출 기술 개발\n차량에 탑재되는 센서 모듈, 무선통신 모듈, 전자제어장치 등에는 다양한 취약점이 존재할 수 있기\n때문에 자율주행 차량에서 발생할 수 있는 잠재적 취약점을 식별하기 위한 연구를 진행하였다.",
+    "caption_and_following_text": "[그림 1] 자율주행 차량에서 발생할 수 있는 잠재적 취약점\nAction Engine의 입력 데이터를 변조를 통해 자율주행 차량의 In-Vehicle 공격을 수행함으로써\nAction Engine이 잘못된 결정을 내리도록 만들어 사고를 유도할 수 있기 때문에 자율주행 자동차와\n가상 시스템에 대한 공격 시나리오를 도출하였다.\n[그림 2] 자율주행 자동차와 가상 시스템에 대한 공격 시나리오\n(4) 노이즈 멀티미디어에서 전기 신호 탐지 및 추출 기술 개발\nVoice assistant 시스템의 일반적인 아키텍처는 [그림 3] 과 같으며, IoT 위협 모델링을 위해\nvoice assistant 시스템을 분석하였다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.81,
+          541.33,
+          472.19,
+          678.94
+        ],
+        "page_area_fraction": 0.0961
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.07,
+          142.88,
+          501.81,
+          446.03
+        ],
+        "page_area_fraction": 0.2476
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0003",
+    "caption": "voice assistance 시스템의 일반적인 아키텍처",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "[그림 3] voice assistance 시스템의 일반적인 아키텍처\n보안 위협 모델링을 위해 많이 사용되는 SDL 위협 모델링 도구를 이용하여 아키텍처를 기반으로\nvoice assistant 시스템의 data flow diagram을 그리고 이를 기반으로 동작 방법을 설명하였다. Data flow에서 발생 가능한 보안 위협들을 STRIDE를 기반으로 분석을 진행하였다.\n[그림 4] voice assistance 시스템의 일반적인 아키텍처\nData flow diagram을 기반으로 voice assistant 시스템에서 발생 가능한 위협들을 STRIDE 방법을\n이용하여 확인하였으며, DREAD 모델을 이용하여 확인된 위협들에 대한 위험성을 평가하였다\n분석결과는 [표 1]과 같다. 그리고 STRIDE를 기반으로 분석한 위협들에 대한 위험성을 평가하기\n위해 DREAD 모델을 이용하여 [그림 5]에서와 같은 평가를 진행하였다.\n[그림 5] DREAD 분석내용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.36,
+          700.15,
+          449.52,
+          784.42
+        ],
+        "page_area_fraction": 0.0512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          397.48,
+          467.27,
+          622.24
+        ],
+        "page_area_fraction": 0.1526
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          63.53,
+          460.07,
+          283.49
+        ],
+        "page_area_fraction": 0.143
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0004",
+    "caption": "voice assistance 시스템의 일반적인 아키텍처",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "[그림 3] voice assistance 시스템의 일반적인 아키텍처\n보안 위협 모델링을 위해 많이 사용되는 SDL 위협 모델링 도구를 이용하여 아키텍처를 기반으로\nvoice assistant 시스템의 data flow diagram을 그리고 이를 기반으로 동작 방법을 설명하였다. Data flow에서 발생 가능한 보안 위협들을 STRIDE를 기반으로 분석을 진행하였다.\n[그림 4] voice assistance 시스템의 일반적인 아키텍처\nData flow diagram을 기반으로 voice assistant 시스템에서 발생 가능한 위협들을 STRIDE 방법을\n이용하여 확인하였으며, DREAD 모델을 이용하여 확인된 위협들에 대한 위험성을 평가하였다\n분석결과는 [표 1]과 같다. 그리고 STRIDE를 기반으로 분석한 위협들에 대한 위험성을 평가하기\n위해 DREAD 모델을 이용하여 [그림 5]에서와 같은 평가를 진행하였다.\n[그림 5] DREAD 분석내용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.36,
+          700.15,
+          449.52,
+          784.42
+        ],
+        "page_area_fraction": 0.0512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          397.48,
+          467.27,
+          622.24
+        ],
+        "page_area_fraction": 0.1526
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          63.53,
+          460.07,
+          283.49
+        ],
+        "page_area_fraction": 0.143
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0005",
+    "caption": "DREAD 분석내용",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "[그림 3] voice assistance 시스템의 일반적인 아키텍처\n보안 위협 모델링을 위해 많이 사용되는 SDL 위협 모델링 도구를 이용하여 아키텍처를 기반으로\nvoice assistant 시스템의 data flow diagram을 그리고 이를 기반으로 동작 방법을 설명하였다. Data flow에서 발생 가능한 보안 위협들을 STRIDE를 기반으로 분석을 진행하였다.\n[그림 4] voice assistance 시스템의 일반적인 아키텍처\nData flow diagram을 기반으로 voice assistant 시스템에서 발생 가능한 위협들을 STRIDE 방법을",
+    "caption_and_following_text": "이용하여 확인하였으며, DREAD 모델을 이용하여 확인된 위협들에 대한 위험성을 평가하였다\n분석결과는 [표 1]과 같다. 그리고 STRIDE를 기반으로 분석한 위협들에 대한 위험성을 평가하기\n위해 DREAD 모델을 이용하여 [그림 5]에서와 같은 평가를 진행하였다.\n[그림 5] DREAD 분석내용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.36,
+          700.15,
+          449.52,
+          784.42
+        ],
+        "page_area_fraction": 0.0512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          397.48,
+          467.27,
+          622.24
+        ],
+        "page_area_fraction": 0.1526
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          63.53,
+          460.07,
+          283.49
+        ],
+        "page_area_fraction": 0.143
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0006",
+    "caption": "voice assistance 시스템 분석결과",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 68,
+    "prefix_match_only": false,
+    "text_before": "악의적인 ‘action response’를 생성하여 voice\nassistant 시스템에 대한 권한상승 공격이 발생할 수\n있음\nCommand response\nto human user\nInformation\nDisclosure",
+    "caption_and_following_text": "voice assistant 시스템으로부터 응답되는 ‘command\nresponse’에 대한 스니핑 공격으로 인해 정보가 유출될\n수 있음\n[표 1] voice assistance 시스템 분석결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0007",
+    "caption": "실제 사용자 음성과 녹음된 음성을 구별",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "(5) 일반 사용자를 위한 IoT 위협 모델 및 보안 어플리케이션 개발\n120명의 참가자를 모집하여 한명 당 50개의 문장을 말하게 한 후 그 중 실험에 쓰일 적합한\n10,209개의 데이터를 선별하였으며, 수집한 데이터를 다양한 스피커들로 재생하여 다양한",
+    "caption_and_following_text": "환경에서 녹음하였다. 그 중에서 실험에 적합한 255,173개의 데이터를 선별, 기계학습으로\nAdaBoost, SVM RPF, Random forest, SVM linear 그리고 kNN을 사용했으며 검증을 위해 10-fold\ncross-validation 기술을 사용하였다.\n[그림 6] 실제 사용자 음성과 녹음된 음성을 구별\n기계학습을 통해 실제 사용자 음성과 녹음된 음성을 구별한 결과는 [그림 6]과 같다. AdaBoost를\n사용하였을 때, 가장 높은 정확성을 보였으나 하지만 SVM RBF의 경우 AdaBoost보다 0.5% 높은\nEER을 보였지만, 훈련시간과 검증시간에서 AdaBoost보다 상당히 낮은 시간이 걸리는 것을\n확인하였다. 나) 2차년도 연구수행 결과\n(1) 보안 메커니즘의 효과 검증하기 위한 시뮬레이션 네트워크 구축 및 보안·성능·경제 지표로 실험\nIoT 네트워크의 보안 향상을 위한 보안 기술을 개발하였고, 개발된 보안 기술을 보안, 성능 및",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.49,
+          561.83,
+          458.39,
+          661.32
+        ],
+        "page_area_fraction": 0.064
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.15,
+          57.66,
+          432.73,
+          334.55
+        ],
+        "page_area_fraction": 0.1497
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0008",
+    "caption": "IoT 보안 평가를 위한 IoT network 예",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "AdaBoost, SVM RPF, Random forest, SVM linear 그리고 kNN을 사용했으며 검증을 위해 10-fold\ncross-validation 기술을 사용하였다.\n[그림 6] 실제 사용자 음성과 녹음된 음성을 구별\n기계학습을 통해 실제 사용자 음성과 녹음된 음성을 구별한 결과는 [그림 6]과 같다. AdaBoost를\n사용하였을 때, 가장 높은 정확성을 보였으나 하지만 SVM RBF의 경우 AdaBoost보다 0.5% 높은\nEER을 보였지만, 훈련시간과 검증시간에서 AdaBoost보다 상당히 낮은 시간이 걸리는 것을\n확인하였다. 나) 2차년도 연구수행 결과",
+    "caption_and_following_text": "(1) 보안 메커니즘의 효과 검증하기 위한 시뮬레이션 네트워크 구축 및 보안·성능·경제 지표로 실험\nIoT 네트워크의 보안 향상을 위한 보안 기술을 개발하였고, 개발된 보안 기술을 보안, 성능 및\n경제지표를 이용하여 평가하였다.\n[그림 7] IoT 보안 평가를 위한 IoT network 예\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.49,
+          561.83,
+          458.39,
+          661.32
+        ],
+        "page_area_fraction": 0.064
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.15,
+          57.66,
+          432.73,
+          334.55
+        ],
+        "page_area_fraction": 0.1497
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0009",
+    "caption": "MTD 방법론에 따른 Decoy 노드를 향항 공격 경로",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "[그림 8] MTD 방법론에 따른 Decoy 노드를 향항 공격 경로\n[그림 9] MTD 방법론에 따른 Mean Time to Security failure\n[그림 10] MTD 방법론에 따른 평균 방어 비용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.88,
+          566.62,
+          455.88,
+          784.42
+        ],
+        "page_area_fraction": 0.138
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          141.76,
+          317.65,
+          453.0,
+          540.61
+        ],
+        "page_area_fraction": 0.1387
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.72,
+          60.41,
+          449.16,
+          291.52
+        ],
+        "page_area_fraction": 0.1401
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0010",
+    "caption": "MTD 방법론에 따른 Mean Time to Security failure",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "[그림 8] MTD 방법론에 따른 Decoy 노드를 향항 공격 경로\n[그림 9] MTD 방법론에 따른 Mean Time to Security failure\n[그림 10] MTD 방법론에 따른 평균 방어 비용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.88,
+          566.62,
+          455.88,
+          784.42
+        ],
+        "page_area_fraction": 0.138
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          141.76,
+          317.65,
+          453.0,
+          540.61
+        ],
+        "page_area_fraction": 0.1387
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.72,
+          60.41,
+          449.16,
+          291.52
+        ],
+        "page_area_fraction": 0.1401
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0011",
+    "caption": "MTD 방법론에 따른 평균 방어 비용",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "[그림 8] MTD 방법론에 따른 Decoy 노드를 향항 공격 경로\n[그림 9] MTD 방법론에 따른 Mean Time to Security failure\n[그림 10] MTD 방법론에 따른 평균 방어 비용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.88,
+          566.62,
+          455.88,
+          784.42
+        ],
+        "page_area_fraction": 0.138
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          141.76,
+          317.65,
+          453.0,
+          540.61
+        ],
+        "page_area_fraction": 0.1387
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.72,
+          60.41,
+          449.16,
+          291.52
+        ],
+        "page_area_fraction": 0.1401
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0012",
+    "caption": "Car Hacking 데이터셋 개요",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "DoS 3,665,771 3,078,250 587,521\nFuzzing 3,838,860 3,347,013 491,847\nSpoofing\ndrive gear\n4,443,142 3,845,890 597,252\nSpoofing\nRPM gauze",
+    "caption_and_following_text": "4,621,702 3,966,805 654,897\nAttack-free\n(normal) 988,987 988,872 -\n[표 2] Car Hacking 데이터셋 개요\n(3) CAN 메시지의 주기적 특성을 이용한 Inter-Arrival Time 분석 기반의 침입탐지 시스템 개발\n수집된 CAN Traffic 분석을 통해 CAN ID 별 메시지 전송 주기 및 특성을 파악하고, 이를 이용한\nRule 기반의 경량화된 침입탐지 시스템 개발하였다.\n[그림 11] CAN 메시지의 Inter-Arrival Time 분포도\n실험결과, 정상 상태 차량에서 CAN 메시지의 Inter-Arrival Time의 오차범위는 약 10%\n이내이지만, 공격이 발생하는 경우 정상 범위를 크게 벗어나는 특징이 있었으며 메시지 주입 공격",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.37,
+          207.85,
+          535.39,
+          373.15
+        ],
+        "page_area_fraction": 0.1572
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0013",
+    "caption": "CAN 메시지의 Inter-Arrival Time 분포도",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "4,443,142 3,845,890 597,252\nSpoofing\nRPM gauze\n4,621,702 3,966,805 654,897\nAttack-free\n(normal) 988,987 988,872 -\n[표 2] Car Hacking 데이터셋 개요",
+    "caption_and_following_text": "(3) CAN 메시지의 주기적 특성을 이용한 Inter-Arrival Time 분석 기반의 침입탐지 시스템 개발\n수집된 CAN Traffic 분석을 통해 CAN ID 별 메시지 전송 주기 및 특성을 파악하고, 이를 이용한\nRule 기반의 경량화된 침입탐지 시스템 개발하였다.\n[그림 11] CAN 메시지의 Inter-Arrival Time 분포도\n실험결과, 정상 상태 차량에서 CAN 메시지의 Inter-Arrival Time의 오차범위는 약 10%\n이내이지만, 공격이 발생하는 경우 정상 범위를 크게 벗어나는 특징이 있었으며 메시지 주입 공격\n시, 메시지 주입 속도를 정상 메시지의 Inter-Arrival Time의 2배, 5배, 10배로 변경하며 탐지 성능을\n측정한 결과 공격 탐지 Threshold 값을 4 이상으로 주었을 때, 메시지 주입 공격 발생 여부를 100%\n정확도로 탐지할 수 있었다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.37,
+          207.85,
+          535.39,
+          373.15
+        ],
+        "page_area_fraction": 0.1572
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0014",
+    "caption": "임곗값에 따른 공격 탐지 정확도",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "[그림 12] 임곗값에 따른 공격 탐지 정확도\n(4) CAN Traffic의 ID 시퀀스 패턴을 이용한 딥러닝 기반의 침입탐지 시스템 개발\nCAN 프로토콜의 주기적 특성으로 인하여 CAN Traffic에서 나타나는 CAN ID 시퀀스의 규칙성을\n이용하여 정상 상태의 CAN ID 시퀀스와 공격이 발생한 경우의 CAN ID 시퀀스의 패턴의 차이를\n딥러닝 모델에 학습시켜 높은 정확도의 침입탐지 시스템 개발하였다.\n[그림 13] CAN ID 시퀀스 변환\n이를 위해 CAN ID 시퀀스를 2-D Matrix 데이터로 표현하기 위하여 CAN ID를 bit 단위로 표현하여\nMatrix 데이터로 변환하는 Frame Builder라는 전처리 모듈을 제안하였으며, 4가지 유형의 메시지\n주입 공격에 대하여 모델 생성 및 성능 테스트 결과 0.1 % 이하의 FNR (False Negative Ratio)와\n0.18 % 이하의 ER (Error Rate)를 보였다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.82,
+          607.73,
+          415.94,
+          784.42
+        ],
+        "page_area_fraction": 0.0837
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.85,
+          301.47,
+          467.03,
+          476.24
+        ],
+        "page_area_fraction": 0.1185
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          53.94,
+          467.39,
+          175.37
+        ],
+        "page_area_fraction": 0.0825
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0015",
+    "caption": "CAN ID 시퀀스 변환",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "[그림 12] 임곗값에 따른 공격 탐지 정확도\n(4) CAN Traffic의 ID 시퀀스 패턴을 이용한 딥러닝 기반의 침입탐지 시스템 개발",
+    "caption_and_following_text": "CAN 프로토콜의 주기적 특성으로 인하여 CAN Traffic에서 나타나는 CAN ID 시퀀스의 규칙성을\n이용하여 정상 상태의 CAN ID 시퀀스와 공격이 발생한 경우의 CAN ID 시퀀스의 패턴의 차이를\n딥러닝 모델에 학습시켜 높은 정확도의 침입탐지 시스템 개발하였다.\n[그림 13] CAN ID 시퀀스 변환\n이를 위해 CAN ID 시퀀스를 2-D Matrix 데이터로 표현하기 위하여 CAN ID를 bit 단위로 표현하여\nMatrix 데이터로 변환하는 Frame Builder라는 전처리 모듈을 제안하였으며, 4가지 유형의 메시지\n주입 공격에 대하여 모델 생성 및 성능 테스트 결과 0.1 % 이하의 FNR (False Negative Ratio)와\n0.18 % 이하의 ER (Error Rate)를 보였다.\n[그림 14] 공격 탐지 실험 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.82,
+          607.73,
+          415.94,
+          784.42
+        ],
+        "page_area_fraction": 0.0837
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.85,
+          301.47,
+          467.03,
+          476.24
+        ],
+        "page_area_fraction": 0.1185
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          53.94,
+          467.39,
+          175.37
+        ],
+        "page_area_fraction": 0.0825
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0016",
+    "caption": "공격 탐지 실험 결과",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "[그림 12] 임곗값에 따른 공격 탐지 정확도\n(4) CAN Traffic의 ID 시퀀스 패턴을 이용한 딥러닝 기반의 침입탐지 시스템 개발\nCAN 프로토콜의 주기적 특성으로 인하여 CAN Traffic에서 나타나는 CAN ID 시퀀스의 규칙성을\n이용하여 정상 상태의 CAN ID 시퀀스와 공격이 발생한 경우의 CAN ID 시퀀스의 패턴의 차이를\n딥러닝 모델에 학습시켜 높은 정확도의 침입탐지 시스템 개발하였다.\n[그림 13] CAN ID 시퀀스 변환\n이를 위해 CAN ID 시퀀스를 2-D Matrix 데이터로 표현하기 위하여 CAN ID를 bit 단위로 표현하여",
+    "caption_and_following_text": "Matrix 데이터로 변환하는 Frame Builder라는 전처리 모듈을 제안하였으며, 4가지 유형의 메시지\n주입 공격에 대하여 모델 생성 및 성능 테스트 결과 0.1 % 이하의 FNR (False Negative Ratio)와\n0.18 % 이하의 ER (Error Rate)를 보였다.\n[그림 14] 공격 탐지 실험 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.82,
+          607.73,
+          415.94,
+          784.42
+        ],
+        "page_area_fraction": 0.0837
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.85,
+          301.47,
+          467.03,
+          476.24
+        ],
+        "page_area_fraction": 0.1185
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          53.94,
+          467.39,
+          175.37
+        ],
+        "page_area_fraction": 0.0825
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0017",
+    "caption": "ENF 신호 안정성 예측 실험결과",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "(5) 시계열별 ENF 신호를 추출 후 h-ahead prediction을 직접 미국의 power grid 상에 수행\n해당 연구를 미국 power grid 상에 ENF 신호 안정성 예측연구를 진행하여 아래와 같은 결과를\n얻어냈다.\n[그림 15] ENF 신호 안정성 예측 실험결과\n위 그림들은 각 예측모델에 따른 RMSE 값을 나타내고 있으며 현재 미국 Power grid 상에 이상치가\n없어서 h 값에 따른 예측의 안정성까지만 볼 수 있었다.\n(6) 기존의 FFT 기술보다 향상된 기술인 QIFFT를 연구하여 더욱 양질의 신호추출 가능\n기존에는 ENF 신호추출을 하기 위해서 Short Time Fourier Transform (STFT)를 사용하고\n있으나, 해당 신호의 소스가 IoT 기기나 멀티미디어 데이터들의 부채널 신호이므로 원치 않은 잡음과\n이상 현상 때문에 시간변이에 따라 ENF 신호들이 많은 튕김 현상과 잡음에 의한 왜곡 현상이",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.09,
+          230.03,
+          463.91,
+          714.06
+        ],
+        "page_area_fraction": 0.3219
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0018",
+    "caption": "IoT 기기의 사용자 영역 도식화",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "(7) IoT 기기의 사용자 데이터 흐름의 도식화 및 IoT 기기에 발생할 수 있는 위협 도출\n마이크로소프트에서 제공하는 위협 모델링 도구를 이용하여 IoT 기기에서 운영체제로 주로\n사용되는 Chibi OS에 대한 위협 모델링을 진행하였고 특히 User_app_source 함수에 대하여",
+    "caption_and_following_text": "OWASP 위협 평가하였다. OWASP 위협 평가는 likelihood factor들과 impact factor들에 항목들의\n점수 평균으로 계산하며, 각 factor는 취약점의 강도와 취약점이 공개되었을 때, 시스템과 회사가\n입을 수 있는 경제적 및 기술적 타격에 대해서 수치화하여 연산하였다.\n[그림 16] IoT 기기의 사용자 영역 도식화\n사용자 영역의 위협 정보 획득이 가능하며 이를 토대로 위협 모델링 진행하였고, 위협 모델링을\n통해 도출된 위협은 아래 표와 같다. 위 협 세 부 내 용\n사용자 데이터 유출 및 훼손 외부 주체가 생성 또는 변경되는 데이터를 유출, 변경 또는 삭제\n최소 권한 내부 설계 및 구현의 오류로 인하여 사용자 권한을 가진\n애플리케이션에서 발생한 문제\n우회 접근 내부 설계 혹은 구현의 오류로 인하여 보안 기능을 우회하여 접근",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          437.28,
+          533.11,
+          664.79
+        ],
+        "page_area_fraction": 0.2166
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0019",
+    "caption": "위협 모델링 결과",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "입을 수 있는 경제적 및 기술적 타격에 대해서 수치화하여 연산하였다.\n[그림 16] IoT 기기의 사용자 영역 도식화\n사용자 영역의 위협 정보 획득이 가능하며 이를 토대로 위협 모델링 진행하였고, 위협 모델링을\n통해 도출된 위협은 아래 표와 같다. 위 협 세 부 내 용\n사용자 데이터 유출 및 훼손 외부 주체가 생성 또는 변경되는 데이터를 유출, 변경 또는 삭제\n최소 권한 내부 설계 및 구현의 오류로 인하여 사용자 권한을 가진\n애플리케이션에서 발생한 문제",
+    "caption_and_following_text": "우회 접근 내부 설계 혹은 구현의 오류로 인하여 보안 기능을 우회하여 접근\n안전하지 않은 상태 잘못된 초기화 및 재시작 등으로 인한 IoT 기기의 상태가 불안정해짐\n서비스 거부 정당한 객체의 시스템 자원 접근 및 사용을 제한함\n[표 3] 위협 모델링 결과\n(8) 도출된 위협이 사용자의 IoT 기기에 미치는 영향 수치화\n모든 위협 정보가 실제 위협으로 나타나지 않기 때문에 위협 가능성이 가장 큰 부분인\nUser_app_source 함수의 Spoofing 공격을 중점으로 6.375점으로 점수를 산출하였다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          437.28,
+          533.11,
+          664.79
+        ],
+        "page_area_fraction": 0.2166
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0020",
+    "caption": "취약점 평가 결과",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "Factors\nLoss of Confidentiality 6\nLoss of Integrity 5\nLoss of Availability 5\nLoss of Accountability 3\nFinancial Damage 3\nReputation Damage 1",
+    "caption_and_following_text": "None-compliance 1\nPrivacy Violation 4\nScore 6.375\n[표 4] 취약점 평가 결과\n위처럼 도출된 위협과 산출 점수를 바탕으로 딥러닝 및 머신러닝 기반 위협 탐지 시스템을\n개발하였다.\n(9) IoT 기기에 도출된 위협을 효과적으로 탐지하는 시스템 개발\n비인가 사용자가 사용자의 IoT 기기를 탈취하여 사용자 민감 정보에 접근 및 유출 시도하여\n사용자의 비밀번호, 잠금 해제 패턴 등을 모방할 수 있으며, 사용자가 사용하는 애플리케이션 외의\n정보유출 또는 복제를 위한 제3의 애플리케이션을 설치하여 사용 가능하다. 따라서, 이러한 공격",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0021",
+    "caption": "제한된 app 시퀀스 길이의 실험결과",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "3-gram 6.96% (median)",
+    "caption_and_following_text": "4-gram 4.00% (median)\n5-gram 1.48% (median)\nBest case of sequence n-gram + 1\n[표 5] 제한된 app 시퀀스 길이의 실험결과\nsmoothing 기법을 적용했을 때에는 성능의 소폭 상승을 확인할 수 있었다.\n3-gram 6.56% (median)\n4-gram 4.03% (median)\n5-gram 1.41% (median)\n[표 6] smoothing 기법 적용 후 실험결과\nClassification 결과를 토대로 사용자/비인가 사용자 구별하기 위해 미리 정의한 threshold와",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.46,
+          101.77,
+          475.42,
+          309.74
+        ],
+        "page_area_fraction": 0.1479
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0022",
+    "caption": "smoothing 기법 적용 후 실험결과",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "3-gram 6.96% (median)\n4-gram 4.00% (median)\n5-gram 1.48% (median)\nBest case of sequence n-gram + 1\n[표 5] 제한된 app 시퀀스 길이의 실험결과\nsmoothing 기법을 적용했을 때에는 성능의 소폭 상승을 확인할 수 있었다.",
+    "caption_and_following_text": "3-gram 6.56% (median)\n4-gram 4.03% (median)\n5-gram 1.41% (median)\n[표 6] smoothing 기법 적용 후 실험결과\nClassification 결과를 토대로 사용자/비인가 사용자 구별하기 위해 미리 정의한 threshold와\n비인가 사용자 탐지 결과의 score를 비교하였으며, 임계치보다 score가 작다면 비인가 사용자로\n판단하여 경고 메시지를 통해 사용자에게 위협을 알리도록 하였다.\n(10) 탐지된 위협의 사용자 친화적인 경고 메시지 연구, 기존 연구에서 언급하는 경고 메시지 분석, 기존 경고 메시지들의 장점들을 활용한 새로운 경고 메시지 및 전달 방식 도출\n낮은 보안성이 경고 시스템에 어떠한 영향을 미치는가와 사용자 Context에 따라 만족해야 하는\nprotection level의 차이를 알아보기 위해 기존 연구를 분석한 결과, 27%의 피험자가 detection",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.46,
+          101.77,
+          475.42,
+          309.74
+        ],
+        "page_area_fraction": 0.1479
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0023",
+    "caption": "메시지 시스템 디자인 1(a)과 디자인 2(b)",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "[표 6] smoothing 기법 적용 후 실험결과\nClassification 결과를 토대로 사용자/비인가 사용자 구별하기 위해 미리 정의한 threshold와\n비인가 사용자 탐지 결과의 score를 비교하였으며, 임계치보다 score가 작다면 비인가 사용자로\n판단하여 경고 메시지를 통해 사용자에게 위협을 알리도록 하였다.\n(10) 탐지된 위협의 사용자 친화적인 경고 메시지 연구, 기존 연구에서 언급하는 경고 메시지 분석, 기존 경고 메시지들의 장점들을 활용한 새로운 경고 메시지 및 전달 방식 도출\n낮은 보안성이 경고 시스템에 어떠한 영향을 미치는가와 사용자 Context에 따라 만족해야 하는\nprotection level의 차이를 알아보기 위해 기존 연구를 분석한 결과, 27%의 피험자가 detection",
+    "caption_and_following_text": "delay에 대한 우려가 있었고, 22% 피험자가 False Accept Rate에 대한 우려가 있었으며, 11%\n피험자가 mimicry attack에 대한 우려를 보였다. 사용자에게 효과적으로 경고를 전달하기 위해\n다양한 Pop-up 메시지 방식을 연구하고 개발에 고려한 경고 시스템 디자인들은 [그림 17]과 같다.\n[그림 17] 메시지 시스템 디자인 1(a)과 디자인 2(b)\n디자인 1([그림 17]-(a))의 경우, 사용자 이외에 비인가된 사용자라고 판단될 때 화면 잠김 및\n꺼짐(스마트 폰의 화면 잠김과 동일)을 보이도록 하였다. 디자인 2([그림 17]-(b))는 input context\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.46,
+          101.77,
+          475.42,
+          309.74
+        ],
+        "page_area_fraction": 0.1479
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0024",
+    "caption": "사이버보안 평가 프레임워크",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "데이터에 관한 결과가 기존 사용자 데이터 기반 학습을 통해 계산된 임계치에 도달하지 못했을\n때 화면 잠금을 하도록 하였다. 디자인 1과 차이는 Similarity 기반의 score를 통해 사용자가\n아니라고 판단될 때 일차적으로 진동과 팝업 메시지로 경고하고 사용자의 행위가 지속할 경우 해당\nscore는 지속해서 줄어들어 특정 임계치에 도달하면 바로 화면이 잠기도록 하였다. 따라서 사용자의",
+    "caption_and_following_text": "기기가 바로 잠김으로 인해 도중에 작업이 중단되는 불편함이 해소하고자 하였다. 다) 3차년도 연구수행 결과\n(1) 보안 평가 모델 개발\nIoT 장치들의 이종성과 유동성을 고려한 보안 평가 모델 및 효율적인 평가 방안을 연구하였다.\n[그림 18] 사이버보안 평가 프레임워크\n(2) 보안기술 적용을 위한 테스트베드 구축\n2대의 라즈베리파이와 1대의 SDN switch를 활용하여 테스트베드를 구현하였다. 라즈베리파이\n1대에서는 실제 차량을 대신하는 역할로서 CAN 메시지를 발생하도록 하여, 미리 캡쳐한 데이터\n셋을 재생하고 선을 통해 아래 라즈베리파이로 전달한다. 다른 라즈베리파이 1대에서는 CAN 메\n시지를 수신 받아 UDP packet을 Ethernet으로 전달하는 메시지 변환기의 역할을 수행한다. SDN\nswitch는 OpenFlow를 지원하는 switch 역할을 한다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.62,
+          457.9,
+          476.14,
+          604.26
+        ],
+        "page_area_fraction": 0.1046
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.35,
+          130.78,
+          425.53,
+          326.4
+        ],
+        "page_area_fraction": 0.1002
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0025",
+    "caption": "사이버보안 평가 프레임워크",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "데이터에 관한 결과가 기존 사용자 데이터 기반 학습을 통해 계산된 임계치에 도달하지 못했을\n때 화면 잠금을 하도록 하였다. 디자인 1과 차이는 Similarity 기반의 score를 통해 사용자가\n아니라고 판단될 때 일차적으로 진동과 팝업 메시지로 경고하고 사용자의 행위가 지속할 경우 해당\nscore는 지속해서 줄어들어 특정 임계치에 도달하면 바로 화면이 잠기도록 하였다. 따라서 사용자의",
+    "caption_and_following_text": "기기가 바로 잠김으로 인해 도중에 작업이 중단되는 불편함이 해소하고자 하였다. 다) 3차년도 연구수행 결과\n(1) 보안 평가 모델 개발\nIoT 장치들의 이종성과 유동성을 고려한 보안 평가 모델 및 효율적인 평가 방안을 연구하였다.\n[그림 18] 사이버보안 평가 프레임워크\n(2) 보안기술 적용을 위한 테스트베드 구축\n2대의 라즈베리파이와 1대의 SDN switch를 활용하여 테스트베드를 구현하였다. 라즈베리파이\n1대에서는 실제 차량을 대신하는 역할로서 CAN 메시지를 발생하도록 하여, 미리 캡쳐한 데이터\n셋을 재생하고 선을 통해 아래 라즈베리파이로 전달한다. 다른 라즈베리파이 1대에서는 CAN 메\n시지를 수신 받아 UDP packet을 Ethernet으로 전달하는 메시지 변환기의 역할을 수행한다. SDN\nswitch는 OpenFlow를 지원하는 switch 역할을 한다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.62,
+          457.9,
+          476.14,
+          604.26
+        ],
+        "page_area_fraction": 0.1046
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.35,
+          130.78,
+          425.53,
+          326.4
+        ],
+        "page_area_fraction": 0.1002
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0026",
+    "caption": "차량 IDS/IPS model의 전체 동작과정",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "입이 식별된다면 그 결과를 차량에 보내고 해당하는 network flow를 차량에 탑재된 스위치 단에\n서 차단함으로써, 침입을 탐지할 뿐만 아니라 차량이 정상적으로 주행할 수 있도록 모델을 개발\n하였다.\n[그림 20] 차량 IDS/IPS model의 전체 동작과정\n(4) 보안사고 예측 기술\nENF 신호와 보안사고의 연관성을 분석하여 보안사고 예측 가능성을 분석하고, ENF 신호를\n이용한 예측 시스템을 개발하였다.\n[그림 21] ENF 신호를 이용한 보안사고 예측 시스템 개발\n해당 기술은 네트워크 주파수 신호가 나타나는 그리드를 찾으려고 할 때, 별도의 보간 과정 없\n이도 위치를 추적할 수 있는 방법이다. 온라인 멀티미디어 서비스의 스트리밍 비디오에서 네트워",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.5,
+          479.83,
+          485.38,
+          736.23
+        ],
+        "page_area_fraction": 0.1926
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.54,
+          179.32,
+          489.46,
+          392.33
+        ],
+        "page_area_fraction": 0.1634
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0027",
+    "caption": "ENF 신호를 이용한 보안사고 예측 시스템 개발",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "입이 식별된다면 그 결과를 차량에 보내고 해당하는 network flow를 차량에 탑재된 스위치 단에\n서 차단함으로써, 침입을 탐지할 뿐만 아니라 차량이 정상적으로 주행할 수 있도록 모델을 개발\n하였다.\n[그림 20] 차량 IDS/IPS model의 전체 동작과정",
+    "caption_and_following_text": "(4) 보안사고 예측 기술\nENF 신호와 보안사고의 연관성을 분석하여 보안사고 예측 가능성을 분석하고, ENF 신호를\n이용한 예측 시스템을 개발하였다.\n[그림 21] ENF 신호를 이용한 보안사고 예측 시스템 개발\n해당 기술은 네트워크 주파수 신호가 나타나는 그리드를 찾으려고 할 때, 별도의 보간 과정 없\n이도 위치를 추적할 수 있는 방법이다. 온라인 멀티미디어 서비스의 스트리밍 비디오에서 네트워\n크 주파수 신호를 수집하고, 해당 신호에 2차 보간 FFT(QIFFT) 기법을 사용하여 ENF 신호를 추\n출한다. 그 후에, 추출된 신호를 일정한 크기로 그룹화하고 시계열 데이터 분석 기법인 ARIMA\n모델을 통해 학습시킨다. 그리학습된 결과에서 지역 ENF 데이터의 계수를 분석하여 각 지역\n별 특징을 나타내는 유의미한 값을 찾는다. 이 기술을 사용하면 높은 정확도로 주어진 온라인 파",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.5,
+          479.83,
+          485.38,
+          736.23
+        ],
+        "page_area_fraction": 0.1926
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.54,
+          179.32,
+          489.46,
+          392.33
+        ],
+        "page_area_fraction": 0.1634
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0028",
+    "caption": "Instant messenger의 보안 취약점 분석 및 데이터 복구 방법",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "(5) usable security 기술\nIoT 장치의 보안 정책을 손쉽게 관리하도록 하는 기술 및 보안 애플리케이션의 편의성 평가\n지표를 개발하였다.\n[그림 22] Instant messenger의 보안 취약점 분석 및 데이터 복구 방법\n(6) 행위기반 사용자 인증기술 개발\n행위기반 인증기술에 사용가능한 요소기술(예: touch dynamics, keystroke, app usage\npattern 등)들을 조사하고 사용자 행위기반, Touch dynamics 기반, 어플리케이션 사용 패턴 기\n반 사용자 인증기술을 개발하였다. 해당 기술은 센서 데이터(가속도 센서, 터치 이벤트 등)와 사\n용자의 어플리케이션 사용 이력(history)을 feature로 추출 및 기록하고 머신러닝/딥러닝 기술을\n이용하여 비인가된 사용자가 기기를 사용할 때 차단할 수 있는 기술이다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.05,
+          581.72,
+          462.95,
+          725.69
+        ],
+        "page_area_fraction": 0.0952
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.08,
+          296.08,
+          481.66,
+          450.11
+        ],
+        "page_area_fraction": 0.1042
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0029",
+    "caption": "사용자 친화형 인증 기술의 개발 내용 및 범위",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "(5) usable security 기술\nIoT 장치의 보안 정책을 손쉽게 관리하도록 하는 기술 및 보안 애플리케이션의 편의성 평가\n지표를 개발하였다.\n[그림 22] Instant messenger의 보안 취약점 분석 및 데이터 복구 방법\n(6) 행위기반 사용자 인증기술 개발\n행위기반 인증기술에 사용가능한 요소기술(예: touch dynamics, keystroke, app usage\npattern 등)들을 조사하고 사용자 행위기반, Touch dynamics 기반, 어플리케이션 사용 패턴 기",
+    "caption_and_following_text": "반 사용자 인증기술을 개발하였다. 해당 기술은 센서 데이터(가속도 센서, 터치 이벤트 등)와 사\n용자의 어플리케이션 사용 이력(history)을 feature로 추출 및 기록하고 머신러닝/딥러닝 기술을\n이용하여 비인가된 사용자가 기기를 사용할 때 차단할 수 있는 기술이다.\n[그림 23] 사용자 친화형 인증 기술의 개발 내용 및 범위\n또한, 사용자 생체 정보 보호를 위한 프라이버시 보존하기 위해 인증 시스템에서 사용되는 민감\n한 사용자 데이터(사용자 생체 정보)를 보호하기 위해 익명화하고 인증에 필요한 주요 특성만을\n남기고, 원본 데이터는 삭제하는 비식별화 과정을 거쳐, 인증 정확도와 프라이버시를 동시에 보\n존하는 기술을 개발하였다.\n(7) 사용자 데이터 기반 보안관리 프레임워크 개발\n기존/신규 보안 위협 정보 수집 데이터베이스 구축을 위해 다양한 출처(Open TAXII server,",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.05,
+          581.72,
+          462.95,
+          725.69
+        ],
+        "page_area_fraction": 0.0952
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.08,
+          296.08,
+          481.66,
+          450.11
+        ],
+        "page_area_fraction": 0.1042
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0030",
+    "caption": "위협정보 기반 보안관리 프레임워크",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "[그림 24] 위협정보 기반 보안관리 프레임워크\n(8) HTTPS 부채널 공격인 BREACH에 대한 압축 효율성이 개선된 방어법 개발\nHTTPS 부채널 공격인 BREACH에 대해 기존 연구 대비 압축률이 개선된 방어법을 개발하였다. BREACH 공격은 DEFLATE 압축 알고리즘으로 인해 발생하는 취약점이다. 입력값으로 웹 어플리\n케이션을 받아 사용자 입력값(user input data)과 기밀 데이터(secret data)에 주석(annotation)\n표기를 하도록 웹 어플리케이션을 수정한다([그림 24] 참조).\n[그림 25] PexCoin의 작업 흐름. 해당 기술(PexCoin)의 압축기는 웹 페이지에 표기된 주석 정보로부터 해당 데이터가 사용자 입력\n값이나 기밀 데이터인지를 확인할 수 있으며, 이를 기반으로 특정 규칙을 정의하여 DEFLATE 압\n축시 해당 데이터가 매칭되어 치환될 수 있는지 여부를 판단한다. 기밀 데이터 사이의 압축 허용\n여부가 압축률 개선에 있어 중요하기 때문에 기밀 데이터 사이의 압축을 확률적으로 허용하는 압\n축 모델을 개발하였으며, 실제 부채널 공격을 수행해 봄으로써, 해당 기술의 부채널 공격으로부",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.16,
+          612.65,
+          512.6,
+          784.42
+        ],
+        "page_area_fraction": 0.1478
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.91,
+          337.19,
+          506.85,
+          485.47
+        ],
+        "page_area_fraction": 0.1241
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.53,
+          59.93,
+          468.35,
+          202.34
+        ],
+        "page_area_fraction": 0.0973
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0031",
+    "caption": "PexCoin의 작업 흐름",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "[그림 24] 위협정보 기반 보안관리 프레임워크\n(8) HTTPS 부채널 공격인 BREACH에 대한 압축 효율성이 개선된 방어법 개발",
+    "caption_and_following_text": "HTTPS 부채널 공격인 BREACH에 대해 기존 연구 대비 압축률이 개선된 방어법을 개발하였다. BREACH 공격은 DEFLATE 압축 알고리즘으로 인해 발생하는 취약점이다. 입력값으로 웹 어플리\n케이션을 받아 사용자 입력값(user input data)과 기밀 데이터(secret data)에 주석(annotation)\n표기를 하도록 웹 어플리케이션을 수정한다([그림 24] 참조).\n[그림 25] PexCoin의 작업 흐름. 해당 기술(PexCoin)의 압축기는 웹 페이지에 표기된 주석 정보로부터 해당 데이터가 사용자 입력\n값이나 기밀 데이터인지를 확인할 수 있으며, 이를 기반으로 특정 규칙을 정의하여 DEFLATE 압\n축시 해당 데이터가 매칭되어 치환될 수 있는지 여부를 판단한다. 기밀 데이터 사이의 압축 허용\n여부가 압축률 개선에 있어 중요하기 때문에 기밀 데이터 사이의 압축을 확률적으로 허용하는 압\n축 모델을 개발하였으며, 실제 부채널 공격을 수행해 봄으로써, 해당 기술의 부채널 공격으로부\n터 안전성을 제공함을 확인하였다([그림 25] 참조).\n[그림 26] 부채널 정보 유출 평가.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.16,
+          612.65,
+          512.6,
+          784.42
+        ],
+        "page_area_fraction": 0.1478
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.91,
+          337.19,
+          506.85,
+          485.47
+        ],
+        "page_area_fraction": 0.1241
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.53,
+          59.93,
+          468.35,
+          202.34
+        ],
+        "page_area_fraction": 0.0973
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0032",
+    "caption": "부채널 정보 유출 평가",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "(8) HTTPS 부채널 공격인 BREACH에 대한 압축 효율성이 개선된 방어법 개발\nHTTPS 부채널 공격인 BREACH에 대해 기존 연구 대비 압축률이 개선된 방어법을 개발하였다. BREACH 공격은 DEFLATE 압축 알고리즘으로 인해 발생하는 취약점이다. 입력값으로 웹 어플리\n케이션을 받아 사용자 입력값(user input data)과 기밀 데이터(secret data)에 주석(annotation)\n표기를 하도록 웹 어플리케이션을 수정한다([그림 24] 참조).\n[그림 25] PexCoin의 작업 흐름. 해당 기술(PexCoin)의 압축기는 웹 페이지에 표기된 주석 정보로부터 해당 데이터가 사용자 입력\n값이나 기밀 데이터인지를 확인할 수 있으며, 이를 기반으로 특정 규칙을 정의하여 DEFLATE 압\n축시 해당 데이터가 매칭되어 치환될 수 있는지 여부를 판단한다. 기밀 데이터 사이의 압축 허용",
+    "caption_and_following_text": "여부가 압축률 개선에 있어 중요하기 때문에 기밀 데이터 사이의 압축을 확률적으로 허용하는 압\n축 모델을 개발하였으며, 실제 부채널 공격을 수행해 봄으로써, 해당 기술의 부채널 공격으로부\n터 안전성을 제공함을 확인하였다([그림 25] 참조).\n[그림 26] 부채널 정보 유출 평가.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 1차년도 연구수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.16,
+          612.65,
+          512.6,
+          784.42
+        ],
+        "page_area_fraction": 0.1478
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.91,
+          337.19,
+          506.85,
+          485.47
+        ],
+        "page_area_fraction": 0.1241
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.53,
+          59.93,
+          468.35,
+          202.34
+        ],
+        "page_area_fraction": 0.0973
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S28-V0033",
+    "caption": "보안 경고 가시화 기술의 3차년도 개발 내용 및 범위",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "(9) 사용자 보안 요구사항을 입력받는 UI를 개발\n다양한 비대면 환경과 해당 환경에서 사용되는 기기별 잠재적 보안 및 프라이버시 이슈에 대한\n선행 연구 수행을 위해 HCI 분야 및 보안, 프라이버시 분야 학술대회 및 학술지를 통하여 도메인\n별, 사용자 유형별 사용자 보안 및 프라이버시 위협 종류, 요구사항, 디자인 등의 사전연구를 진\n행하였다. 사전 연구를 토대로, IT 지식이 없는 사용자 요구사항을 기반으로 사용자 친화적 보안",
+    "caption_and_following_text": "경고 UI 디자인 요소를 정의하고, 사용자 보안 요구사항을 입력받는 UI를 개발하여 high level 사\n용자 보안 요구사항을 정립된 데이터 모델에 맞게 low level 보안 규칙으로 변환하는 방법을 개발\n하였다([그림 26] 참조).\n[그림 27] 보안 경고 가시화 기술의 3차년도 개발 내용 및 범위\n2) 정량적 연구수행 결과\n(단위 : 건, 천원)\n연도\n성과지표명\n1차년도\n(2018~2019)",
+    "section_context_candidate": "2) 정량적 연구수행 결과",
+    "heading_candidates": [
+      "2) 정량적 연구수행 결과",
+      "3) 세부 정량적 연구개발성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.45,
+          510.52,
+          463.43,
+          647.89
+        ],
+        "page_area_fraction": 0.0911
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

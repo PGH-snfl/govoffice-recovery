@@ -1,0 +1,969 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 268,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 40,
+      "3": 11,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.51,
+          625.04,
+          285.94,
+          664.45
+        ],
+        "page_area_fraction": 0.0125
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          266.24,
+          626.0,
+          456.54,
+          664.45
+        ],
+        "page_area_fraction": 0.0146
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.62,
+          581.66,
+          316.94,
+          621.07
+        ],
+        "page_area_fraction": 0.0101
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          343.73,
+          542.37,
+          549.65,
+          577.58
+        ],
+        "page_area_fraction": 0.0144
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          210.97,
+          410.68,
+          429.87,
+          430.51
+        ],
+        "page_area_fraction": 0.0086
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1738,
+    "heading_candidates": [
+      "5) 과제명 국 문 5G 네트워크 슬라이성을 위한 성능 최적화 기술 표준개발",
+      "6) 주관기관 기관명 한국전자통신연구원 | 사업자둥록번호 314-82-04099",
+      "8) 총수행기간 2018. 7. 1. ~ 2020. 12. 31. ( 30 개월)",
+      "10) 연구비현황"
+    ],
+    "section_context_candidate": "5) 과제명 국 문 5G 네트워크 슬라이성을 위한 성능 최적화 기술 표준개발",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 1,
+      "2": 197,
+      "1": 423,
+      "5": 3
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          600.92,
+          846.75
+        ],
+        "page_area_fraction": 1.0125
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 344,
+    "heading_candidates": [],
+    "section_context_candidate": "10) 연구비현황",
+    "prior_heading_candidate": {
+      "text": "10) 연구비현황",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 3,
+      "2": 2,
+      "1": 61,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          602.74,
+          847.75
+        ],
+        "page_area_fraction": 1.0167
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1181,
+    "heading_candidates": [
+      "1. 과 제 명 5G 네트워크 슬라이싱을 위한 성능 최적화 기술 표준개발",
+      "2. 총수행기간 2018. 7. 1. - 2020. 12. 31.",
+      "4. 연구비",
+      "5. 과제목표",
+      "6. 수행내용"
+    ],
+    "section_context_candidate": "1. 과 제 명 5G 네트워크 슬라이싱을 위한 성능 최적화 기술 표준개발",
+    "prior_heading_candidate": {
+      "text": "10) 연구비현황",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 301,
+      "2": 25,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 959,
+    "heading_candidates": [
+      "7. 과제수행방법"
+    ],
+    "section_context_candidate": "7. 과제수행방법",
+    "prior_heading_candidate": {
+      "text": "6. 수행내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 220,
+      "2": 11,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.63,
+          105.97,
+          408.24,
+          299.18
+        ],
+        "page_area_fraction": 0.0952
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1297,
+    "heading_candidates": [
+      "8. 최종결과물",
+      "9. 결과활용계획 및 파급효과"
+    ],
+    "section_context_candidate": "8. 최종결과물",
+    "prior_heading_candidate": {
+      "text": "7. 과제수행방법",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 353,
+      "2": 28,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 259,
+    "heading_candidates": [
+      "1. 최종목표 및 연도별 연구내용 6",
+      "2. 연도별 연구 세부내용 및 연구결과 8",
+      "3. 정량적 목표 및 연도별 실적 세부내용 12",
+      "4. 대표 표준화 성과 26",
+      "5. 성과 활용계획 28"
+    ],
+    "section_context_candidate": "1. 최종목표 및 연도별 연구내용 6",
+    "prior_heading_candidate": {
+      "text": "9. 결과활용계획 및 파급효과",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 51,
+      "2": 205,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1117,
+    "heading_candidates": [
+      "1. 최종 목표 및 연도별 연구내용",
+      "가. 최종 목표",
+      "나. 연도별 연구내용"
+    ],
+    "section_context_candidate": "1. 최종 목표 및 연도별 연구내용",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용계획 28",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 247,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 875,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연도별 연구내용",
+    "prior_heading_candidate": {
+      "text": "나. 연도별 연구내용",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 181,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1316,
+    "heading_candidates": [
+      "2. 연도별 연구 세부내용 및 연구결과",
+      "가. 1차년도 연구내용",
+      "나. 1차년도 연구결과"
+    ],
+    "section_context_candidate": "2. 연도별 연구 세부내용 및 연구결과",
+    "prior_heading_candidate": {
+      "text": "나. 연도별 연구내용",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 272,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1360,
+    "heading_candidates": [
+      "다. 2차년도 연구내용",
+      "라. 2차년도 연구결과"
+    ],
+    "section_context_candidate": "다. 2차년도 연구내용",
+    "prior_heading_candidate": {
+      "text": "나. 1차년도 연구결과",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 271,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1281,
+    "heading_candidates": [
+      "마. 3차년도 연구내용"
+    ],
+    "section_context_candidate": "마. 3차년도 연구내용",
+    "prior_heading_candidate": {
+      "text": "라. 2차년도 연구결과",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 275,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 992,
+    "heading_candidates": [
+      "바. 3차년도 연구결과"
+    ],
+    "section_context_candidate": "바. 3차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "마. 3차년도 연구내용",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 194,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 719,
+    "heading_candidates": [
+      "3. 정량적 목표 및 연도별 실적 세부내용",
+      "가. 정량적 목표"
+    ],
+    "section_context_candidate": "3. 정량적 목표 및 연도별 실적 세부내용",
+    "prior_heading_candidate": {
+      "text": "바. 3차년도 연구결과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 202,
+      "2": 65,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1063,
+    "heading_candidates": [
+      "나. 1차년도 연구결과"
+    ],
+    "section_context_candidate": "나. 1차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 목표",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 204,
+      "2": 228,
+      "3": 42,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 307,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 1차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "나. 1차년도 연구결과",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 65,
+      "2": 47,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1372,
+    "heading_candidates": [
+      "다. 2차년도 연구결과"
+    ],
+    "section_context_candidate": "다. 2차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "나. 1차년도 연구결과",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 239,
+      "2": 82,
+      "3": 74,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 703,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 2차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "다. 2차년도 연구결과",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 147,
+      "2": 211,
+      "3": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1249,
+    "heading_candidates": [
+      "라. 3차년도 연구결과"
+    ],
+    "section_context_candidate": "라. 3차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "다. 2차년도 연구결과",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 232,
+      "2": 158,
+      "3": 58,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 463,
+    "heading_candidates": [],
+    "section_context_candidate": "라. 3차년도 연구결과",
+    "prior_heading_candidate": {
+      "text": "라. 3차년도 연구결과",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 100,
+      "2": 144,
+      "3": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 2080,
+    "heading_candidates": [
+      "마. 정량적 성과 세부내용",
+      "2 ITU-T SG 13 제정 개발 Proposed text for Business roles",
+      "3 ITU-T SG 13 제정 개발",
+      "4 ITU-T SG 13 제정 개발 Proposed text for clean-up to",
+      "6 ITU-T SG 13 개정 개발 Update to Draft Recommendation",
+      "9 3GPP SA1 제정 개발 New text on Management role",
+      "10 3GPP SA1 제정 개발 Private slice management in role",
+      "12 3GPP SA1 제정 개발 Replacing tenant with 3rd party S1-183643",
+      "14 ITU-T SG 13 제정 개발",
+      "15 ITU-T SG 13 제정 개발"
+    ],
+    "section_context_candidate": "마. 정량적 성과 세부내용",
+    "prior_heading_candidate": {
+      "text": "라. 3차년도 연구결과",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 328,
+      "2": 39,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 2377,
+    "heading_candidates": [
+      "17 ITU-T SG 13 제정 개발",
+      "18 ITU-T SG 13 제정 개발 New: Network slice template from",
+      "20 3GPP SA5 제정 개발 Add intent driven NSI resource",
+      "21 3GPP SA5 제정 개발 Add intent driven NSI performance",
+      "22 3GPP SA5 제정 개발 Add use case and definitions of",
+      "23 3GPP SA5 제정 개발 Update definition of mean number",
+      "24 3GPP SA2 제정 개발 Introduction of Slice-Specific",
+      "25 3GPP SA2 제정 개발 Introduction of Slice-Specific",
+      "26 3GPP SA2 제정 개발 Corrections to Network Slice",
+      "27 3GPP SA5 제정 개발 Add use case and definitions of",
+      "28 3GPP SA5 제정 개발 Add use case and definitions of",
+      "29 3GPP SA2 제정 개발 Introduction of Slice-Specific",
+      "30 3GPP SA2 제정 개발",
+      "34 3GPP SA5 제정 개발",
+      "35 3GPP SA5 제정 개발 Add Number of PDU session S5-195701 2019.08"
+    ],
+    "section_context_candidate": "17 ITU-T SG 13 제정 개발",
+    "prior_heading_candidate": {
+      "text": "15 ITU-T SG 13 제정 개발",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 360,
+      "2": 43,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 2379,
+    "heading_candidates": [
+      "36 3GPP SA5 제정 개발 Update the measurement related to",
+      "37 3GPP SA5 제정 개발 Add UE Configuration Update",
+      "39 ITU-T SG13 제정 개발 Y.IMT2020-NSC: Update to",
+      "40 ITU-T SG13 제정 개발 Y.IMT2020-NSC: Proposed text to",
+      "41 ITU-T SG13 제정 개발 Y.IMT2020-NSC: Proposed text for",
+      "42 ITU-T SG13 제정 개발",
+      "43 ITU-T SG13 제정 개발",
+      "44 ITU-T SG13 제정 개발",
+      "46 3GPP SA5 제정 개발 pCR 28.809 addition of resource",
+      "47 3GPP SA2 제정 개발 PDU session release in NSSAA",
+      "48 3GPP SA5 제정 개발 Add measurements related to DL",
+      "49 3GPP SA5 제정 개발 Add measurements related to UL",
+      "50 3GPP SA5 제정 개발",
+      "51 3GPP SA5 제정 개발 pCR 28.809 Add conclusion for"
+    ],
+    "section_context_candidate": "36 3GPP SA5 제정 개발 Update the measurement related to",
+    "prior_heading_candidate": {
+      "text": "35 3GPP SA5 제정 개발 Add Number of PDU session S5-195701 2019.08",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 343,
+      "2": 42,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1072,
+    "heading_candidates": [
+      "1 특허 통신 시스템에서 사설 네트워크 슬라이스의 제공 방법 및",
+      "2 특허 5G 통신시스템의 UE와 PSA UPF간 패킷 지연 측정 방법 2020.02 대한민국 10-2020-0021266",
+      "3 특허 5G 시스템의 네트워크 슬라이스 연동 방법 및 시스템 2020.09 대한민국 10-2020-0122318"
+    ],
+    "section_context_candidate": "1 특허 통신 시스템에서 사설 네트워크 슬라이스의 제공 방법 및",
+    "prior_heading_candidate": {
+      "text": "51 3GPP SA5 제정 개발 pCR 28.809 Add conclusion for",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 260,
+      "2": 114,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 351,
+    "heading_candidates": [],
+    "section_context_candidate": "3 특허 5G 시스템의 네트워크 슬라이스 연동 방법 및 시스템 2020.09 대한민국 10-2020-0122318",
+    "prior_heading_candidate": {
+      "text": "3 특허 5G 시스템의 네트워크 슬라이스 연동 방법 및 시스템 2020.09 대한민국 10-2020-0122318",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 97,
+      "2": 63,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 429,
+    "heading_candidates": [],
+    "section_context_candidate": "3 특허 5G 시스템의 네트워크 슬라이스 연동 방법 및 시스템 2020.09 대한민국 10-2020-0122318",
+    "prior_heading_candidate": {
+      "text": "3 특허 5G 시스템의 네트워크 슬라이스 연동 방법 및 시스템 2020.09 대한민국 10-2020-0122318",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 95,
+      "3": 3,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.91,
+          164.96,
+          474.44,
+          283.32
+        ],
+        "page_area_fraction": 0.0908
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -40.13,
+          300.26,
+          593.74,
+          643.66
+        ],
+        "page_area_fraction": 0.4332
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 381,
+    "heading_candidates": [],
+    "section_context_candidate": "3 특허 5G 시스템의 네트워크 슬라이스 연동 방법 및 시스템 2020.09 대한민국 10-2020-0122318",
+    "prior_heading_candidate": {
+      "text": "3 특허 5G 시스템의 네트워크 슬라이스 연동 방법 및 시스템 2020.09 대한민국 10-2020-0122318",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 86,
+      "3": 3,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.6,
+          376.44,
+          426.63,
+          593.92
+        ],
+        "page_area_fraction": 0.1255
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 1338,
+    "heading_candidates": [
+      "4. 대표 표준화 성과"
+    ],
+    "section_context_candidate": "4. 대표 표준화 성과",
+    "prior_heading_candidate": {
+      "text": "3 특허 5G 시스템의 네트워크 슬라이스 연동 방법 및 시스템 2020.09 대한민국 10-2020-0122318",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 327,
+      "2": 25,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          186.58,
+          306.63,
+          493.31,
+          399.27
+        ],
+        "page_area_fraction": 0.0566
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 333,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 대표 표준화 성과",
+    "prior_heading_candidate": {
+      "text": "4. 대표 표준화 성과",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 66,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 650,
+    "heading_candidates": [
+      "5. 성과 활용 계획 등"
+    ],
+    "section_context_candidate": "5. 성과 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "4. 대표 표준화 성과",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 155,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 295,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 성과 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용 계획 등",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 70,
+      "2": 24,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 107,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 성과 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용 계획 등",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 7,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 983,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 성과 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용 계획 등",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 275,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 263,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신·방송 연구개발사업의 보고서입",
+      "2. 이 보고서 내용을 발표하는 때에는 반드시 과학기술정보통신부에서 시행한 사업의 연구",
+      "3. 국가과학기술 기밀유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는 안됩니다."
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신·방송 연구개발사업의 보고서입",
+    "prior_heading_candidate": {
+      "text": "5. 성과 활용 계획 등",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 42,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

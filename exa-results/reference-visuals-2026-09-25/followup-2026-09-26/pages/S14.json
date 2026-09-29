@@ -1,0 +1,761 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 932,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 239,
+      "2": 132,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1352,
+    "heading_candidates": [
+      "4. Cytotoxicity 검증 - 30~50% Killing (Effector:Target = 10:1)"
+    ],
+    "section_context_candidate": "4. Cytotoxicity 검증 - 30~50% Killing (Effector:Target = 10:1)",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구결과 요약문 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 3 -",
+        "after": "연구개요\n혈액암과 달리 고형암에서는 CAR-T의 활성을 억제하는 면역억제 종양미세환경\n(tumor microenvironment, TME)이 존재하기 때문에 CAR-T가 제대로 역할을 하지\n못하는 경우가 많다. 따라서, 고형암에서 CAR-T의 치료 효과를 높이기 위해서는",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 287,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1030,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 01",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 09",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 09"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 01",
+    "prior_heading_candidate": {
+      "text": "4. Cytotoxicity 검증 - 30~50% Killing (Effector:Target = 10:1)",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "붙임1 세부 정량적 연구개발성과",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 09\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 10\n6. 자체점검표 ······················································································································ 11\n7. 참고문헌 ·························································································································· 11",
+        "after": "<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 15\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "5. 연구개발성과의 관리 및 활용 계획 ·········································································· 10\n6. 자체점검표 ······················································································································ 11\n7. 참고문헌 ·························································································································· 11\n<붙임1 세부 정량적 연구개발성과> ·············································································· 12",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 83,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 2606,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1) 연구과제의 필요성",
+      "1) 주요 연구 변경사항",
+      "2) 연구과제의 수행 과정 및 수행 내용"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 09",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 1] 연구 변경 사항 요약",
+        "line_index": 28,
+        "toc_like": false,
+        "before": "효과를 확인하고, 고형암의 TME를 극복하는 방법을 모색하고자 한다. 또한 “AND” logic-gated dual CAR-T의 연구를 통해 on\ntarget off tumor effect를 차단하기 위한 전략을 제시하고자 한다. 2. 연구개발과제의 수행 과정 및 수행 내용\n1) 주요 연구 변경사항\n“OR” logic-gated dual CAR 대신에 Looped tandem CAR를 제작하여 효과를 평가하였음",
+        "after": "변경 전 변경 후\n1년차\nTandem CAR Tandem CAR\nDual CAR Looped tandem CAR",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 566,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1499,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1] Tandem CAR와 looped CAR의 구조",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 2 -",
+        "after": "Ÿ 4-1BB를 포함하는 2세대 CAR로 설계함(그림 2)\n[그림 2] Tandem CAR와 looped tandem CAR의 scFv 배열\nŸ FAP, CLDN18.2와 반응하는 Dual CAR를 설계함(그림 3)\n[그림 3] “AND” logic-gated dual CAR의 scFv 배열",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 2] Tandem CAR와 looped tandem CAR의 scFv 배열",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 2 -\n[그림 1] Tandem CAR와 looped CAR의 구조\nŸ 4-1BB를 포함하는 2세대 CAR로 설계함(그림 2)",
+        "after": "Ÿ FAP, CLDN18.2와 반응하는 Dual CAR를 설계함(그림 3)\n[그림 3] “AND” logic-gated dual CAR의 scFv 배열\n② 표적세포주 확보\nŸ (Fibroblast Activation Protein (FAP)과 Claudin18.2 (CLDN18.2) 과발현 293T 세포) FAP와 CLDN18.2를 각각 혹은",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 3] “AND” logic-gated dual CAR의 scFv 배열",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[그림 1] Tandem CAR와 looped CAR의 구조\nŸ 4-1BB를 포함하는 2세대 CAR로 설계함(그림 2)\n[그림 2] Tandem CAR와 looped tandem CAR의 scFv 배열\nŸ FAP, CLDN18.2와 반응하는 Dual CAR를 설계함(그림 3)",
+        "after": "② 표적세포주 확보\nŸ (Fibroblast Activation Protein (FAP)과 Claudin18.2 (CLDN18.2) 과발현 293T 세포) FAP와 CLDN18.2를 각각 혹은\n동시에 특이적으로 결합하여 세포 사멸을 유도할 수 있는 Tandem / Looped tandem / “AND” logic-gated CAR-T\n세포의 기능을 검증하기 위하여 FAP 또는 CLDN18.2를 발현하는 293T 세포와 CLDN18.2와 FAP를 동시에 발현하는",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 4A)",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "발현되도록 설계됨에 따라, GFP 유전자의 발현을 통해 CAR 유전자의 발현을 확인함\nŸ 유세포분석기를 통한 분석으로 검증되었으며, 이 때, T 세포, 도움 T 세포, 세포독성 T세포의 마커로 CD3, CD4,\nCD8을 함께 확인하고 그 비율을 확인하였음 FAP-CLDN18.2 Tandem CAR 유전자는 전체 T 세포 중에 14.4%\n(GFP+)에 도입되었고, CAR-T 세포 중 55.4%는 CD4+ 도움 T 세포, 42.7%는 CD8+ 세포독성 T 세포로 확인되었음",
+        "after": "④ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T\nŸ FAP-CLDN18.2 Tandem CAR-T 세포와 마찬가지로 Looped FAP-CLDN18.2 Tandem CAR-T 세포도 유전자\n도입의 여부를 확인함 방식은 FAP-CLDN18.2 Tandem CAR-T에서 확인한 방식과 동일함\nŸ FAP-CLDN18.2 looped tandem CAR 유전자는 전체 T 세포 중에 12.9% (GFP+)에 도입되었고, CAR-T 세포 중",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 322,
+      "3": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          217.44,
+          618.04,
+          351.77,
+          766.08
+        ],
+        "page_area_fraction": 0.0397
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          477.92,
+          530.35,
+          564.7
+        ],
+        "page_area_fraction": 0.0808
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1587,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 4] FAP-CLDN18.2 Tandem CAR와 CLDN18.2-FAP looped tandem CAR의 Transduction efficiency 확인",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 3 -",
+        "after": "⑤ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 세포 독성 검증\nŸ CAR-T 세포가 타겟 세포상에서 발현되는 FAP 또는 CLDN18.2를 인지하는 경우에 세포 독성을 유발할 수 있는\nTandem CAR 유전자 (FAP-CLDN18.2 tandem CAR)를 포함하는 렌티바이러스 벡터 플라스미드를 제작함 Ÿ 이 플라스미드를 293T 세포에 transfection 하여 렌티바이러스를 생산하였고, spinoculation을 통해 렌티바이러스의\nCAR 유전자를 T 세포에 전달하였음",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 312,
+      "3": 61,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 942,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 5] FAP-CLDN18.2 Tandem CAR와 Looped FAP-CLDN18.2 Tandem CAR의 세포 독성 검증",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 4 -",
+        "after": "⑦ “AND” logic-gated dual CAR-T의 세포 독성 검증\nŸ Dual CAR-T, FAP CAR-T, CLDN18.2 CAR-T, Mock-T를 배양하여 실험을 진행함\nŸ 준비한 4개의 CAR-T와 FAP O/E 293T를 함께 배양하여 cytotoxicity assay를 시행함 이 in vitro assay에서\n확인하고자 한 것은 FAP 항원만 존재하는 경우에 dual CAR-T가 활성화 되는가이다. 실험 결과를 보면 FAP",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 6] “AND” logic-gated dual CAR의 세포 독성 검증",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "않음(그림 6A) Ÿ 두 개의 target cell (FAP 293T, CLDN18.2 293T)을 4개의 CAR-T와 함께 배양하여 cytotoxicity assay를 시행함 이\nin vitro assay에서는 FAP 항원과 CLDN18.2 항원이 같이 존재하는 경우에 dual CAR-T가 CLDN18.2.CAR-T보다\ntarget cell을 더 효과적으로 제거할 수 있는가를 확인하고자 함 Killing curve에서 dual CAR-T가\nCLDN18.2.CAR-T보다 유의하게 효과적으로 target cell을 제거하였음을 알 수 있음(그림 6B)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 196,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.45,
+          450.59,
+          472.43,
+          766.08
+        ],
+        "page_area_fraction": 0.2207
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.94,
+          103.69,
+          483.82,
+          262.27
+        ],
+        "page_area_fraction": 0.1182
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1842,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 7] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Activation 확인",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "50.3%로 CAR-T의 activation을 유발하였고, 293T 세포에서는 activation을 유발하지 못하였음(그림 7B) 이를 통해\n“OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T는 FAP O/E 293T, CLDN18.2 O/E 293T에서 Tandem\nCAR-T와 비슷한 수준으로, FAP+CLDN18.2 O/E에서는 Tandem CAR-T보다 더 높은 수준으로 타겟 특이적으로\nCAR-T의 activation을 유발하는 것으로 확인되었음",
+        "after": "⑩ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 Degranulation 확인\nŸ Activation assay 실험 결과 Tandem CAR-T의 타겟 특이적인 activation을 확인할 수 있었고 Activation 이후\nCAR-T의 도움 T 세포(CD4+)와 세포 독성 T 세포(CD8+)에서의 실제 타겟 특이적인 deganulation을 확인하기 위해\n실험을 진행함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 360,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.0,
+          280.49,
+          523.88,
+          563.5
+        ],
+        "page_area_fraction": 0.2561
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1017,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 8] FAP-CLDN18.2 Tandem CAR와 Looped FAP-CLDN18.2 Tandem CAR의 도움 T 세포(CD4+)와",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 6 -",
+        "after": "세포 독성 T 세포(CD8+)에서의 Degranulation 확인\n⑪ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Degranulation 확인\nŸ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 degranulation 수준을 확인하였음\nŸ 도움 T 세포에서 Looped Tandem CAR-T는 FAP O/E 293T에서 23.5%, CLDN18.2 O/E 293T에서 20.5%,",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 189,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          531.14,
+          510.08,
+          766.08
+        ],
+        "page_area_fraction": 0.2092
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.53,
+          296.2,
+          510.08,
+          531.14
+        ],
+        "page_area_fraction": 0.2092
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1233,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 9] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Proliferation 확인",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "⑬ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Proliferation 확인\nŸ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 증식 수준을 확인하였음 Ÿ Looped Tandem CAR-T는 FAP O/E 293T에서 44.6%, CLDN18.2 O/E 293T에서 56.8%, FAP+CLDN18.2\nO/E에서 60.3%로 CAR-T의 증식을 확인할 수 있었고, negative 293T 세포에서는 7.76%로 낮은 수준의 증식을\n확인하였음 (그림 9B)",
+        "after": "⑭ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 사이토카인 발현\nŸ Tandem CAR-T가 세포 독성을 타겟 특이적으로 유발하는 것을 확인하였음 Ÿ 이 과정에서 CAR-T의 세포 독성에 관여하는 사이토카인인 종양괴사인자-α (TNF-α)와 인터페론 γ (IFN-γ)의 발현\n수준을 검증하고자 효소결합면역흡착검사(ELISA)를 진행하였음 Ÿ 그 결과, tandem CAR-T는 세포 독성 확인 실험 결과와 마찬가지로 FAP O/E 293T, CLDN18.2 O/E 293T,\nFAP+CLDN18.2 O/E 293T에서 TNF-α와 IFN-γ를 분비하였고, 293T 세포에서는 TNF-α와 IFN-γ를 분비하지",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 10] FAP-CLDN18.2 / Looped FAP-CLDN18.2 CAR-T 세포에서의 사이토카인 발현량 검증",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "Ÿ Tandem CAR-T가 세포 독성을 타겟 특이적으로 유발하는 것을 확인하였음 Ÿ 이 과정에서 CAR-T의 세포 독성에 관여하는 사이토카인인 종양괴사인자-α (TNF-α)와 인터페론 γ (IFN-γ)의 발현\n수준을 검증하고자 효소결합면역흡착검사(ELISA)를 진행하였음 Ÿ 그 결과, tandem CAR-T는 세포 독성 확인 실험 결과와 마찬가지로 FAP O/E 293T, CLDN18.2 O/E 293T,\nFAP+CLDN18.2 O/E 293T에서 TNF-α와 IFN-γ를 분비하였고, 293T 세포에서는 TNF-α와 IFN-γ를 분비하지\n않았음(그림 10A)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 259,
+      "3": 189,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1491,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 11] “AND” logic-gated dual CAR-T 세포에서의 사이토카인 발현량 검증",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "Ÿ “AND” logic-gated dual CAR-T에는 IL-2와 IFN-γ 의 분비량을 확인하였음\nŸ FAP O/E 293T에서 FAP CAR-T가 target cell에 의해 활성화되어 IFN-r, IL-2의 분비가 유의하게 증가하였고(그림\n11A), FAP+CLDN18.2 O/E 293T에서 IFN-r, IL-2의 분비가 Mock-T와 비교하여 유의하게 증가하였으나 dual\nCAR-T와 CLDN18.2.CAR-T 사이에 유의한 차이는 없음(그림 11B)",
+        "after": "⑰ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T의 RCL\n여부 확인\nŸ 제작된 CAR-T에 잔존하는 바이러스로 인해 감염 능력이 있는지 확인하기 위해 RCL(Replication competent\nlentivirus)을 VSV-G 발현 분석을 통해 확인함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 12] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR의 RCL 여부 확인",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "Ÿ CAR-T cell과 감염되지 않은 T-cell을 negative control로 사용하고, 키트 내에 있는 positive control을 사용하여\nqPCR 실험을 통해 확인함 Ÿ 확인 결과 positive control은 standard curve 내에서 확인이 되었지만(그림 12A) negative control과 tandem\nCAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T 모두 음성으로 확인됨(그림 12B) Ÿ 결과적으로 제작된 tandem CAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T는 감염 능력이\n없음을 확인함",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 293,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.49,
+          405.88,
+          467.27,
+          605.46
+        ],
+        "page_area_fraction": 0.1355
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.75,
+          87.98,
+          500.13,
+          232.55
+        ],
+        "page_area_fraction": 0.1171
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1529,
+    "heading_candidates": [
+      "3. 연구개발과제의 수행 결과 및 목표 달성 수준",
+      "1) 정성적 연구개발성과(연구개발결과) Ÿ 논문 2편",
+      "2) 세부 정량적 연구개발성과: [붙임1] 참조",
+      "3) 목표 달성 수준",
+      "4) 목표 미달 시 원인 분석(해당 시)",
+      "4-1) 목표 미달 원인(사유) 자체분석 내용",
+      "4-3) 연구개발 과정의 성실성",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)"
+    ],
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 수준",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 309,
+      "2": 35,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1423,
+    "heading_candidates": [
+      "5. 연구개발성과의 관리 및 활용 계획"
+    ],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 349,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1937,
+    "heading_candidates": [
+      "7. 참고문헌",
+      "2. 이러한 면역관용의 원인으로는~ 지현배. PD-1 차단항체 이후의 항암제 개발. 국가항암신약개발단 전문가기고 2017.",
+      "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~"
+    ],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 329,
+      "2": 33,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 946,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+    "prior_heading_candidate": {
+      "text": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 246,
+      "2": 200,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 977,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+    "prior_heading_candidate": {
+      "text": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 133,
+      "2": 35,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 474,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+    "prior_heading_candidate": {
+      "text": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 64,
+      "2": 34,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 367,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+    "prior_heading_candidate": {
+      "text": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 63,
+      "2": 28,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1584,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+    "prior_heading_candidate": {
+      "text": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 311,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 112,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+    "prior_heading_candidate": {
+      "text": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 17 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 9,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          440.64,
+          538.27,
+          753.5
+        ],
+        "page_area_fraction": 0.3011
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          127.78,
+          538.27,
+          440.64
+        ],
+        "page_area_fraction": 0.3011
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+    "prior_heading_candidate": {
+      "text": "3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          458.02,
+          538.27,
+          770.28
+        ],
+        "page_area_fraction": 0.3006
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          145.88,
+          538.27,
+          458.02
+        ],
+        "page_area_fraction": 0.3005
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

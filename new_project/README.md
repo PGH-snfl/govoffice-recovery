@@ -1,5 +1,33 @@
 # 범정부오피스 새 프로젝트
 
+실행 제품, 개발·복구 자료, 배포 제작 영역은 [디렉터리 경계](DIRECTORY_STRUCTURE.md)처럼 물리적으로 분리한다.
+
+## 내부 PC 배포 (2026-09-07)
+
+`packaging/build_internal_release.py`가 `packaging/releases/GovOffice-날짜.zip` 설치판을 생성한다.
+ZIP 전체를 압축 해제하고 `install.cmd`를 실행하면 현재 사용자의
+`%LOCALAPPDATA%/Programs/GovOffice/releases/` 아래에 설치하고 바로가기를 만든다.
+Python 3.13, pywin32, 화면 자산, 복구 코드, 보안 DLL을 함께 포함하므로
+설치 PC에는 별도의 개발환경이 필요하지 않다. 한글 편집 프로그램은 설치되어 있어야 한다.
+
+배포판은 일반 사용자로 실행하며 사용자 정보·즐겨찾기·프리셋을
+`%LOCALAPPDATA%/GovOffice/data`에, 오류 로그를 `GovOffice/logs`에 저장한다.
+개발 폴더의 기존 `config` 데이터는 유지하고 배포 ZIP에는 포함하지 않는다.
+새 버전은 고유 경로에 설치하므로 기존 프로그램 파일과 사용자 데이터를 덮어쓰지 않는다.
+
+설치/실행 점검은 한글 COM 등록 경로, DLL 비트수, 네이티브 로딩과
+`IsAccessiblePath` 함수를 확인한다. 보안 모듈은 현재 사용자 HKCU에
+공식 예제 이름 `FilePathCheckerModuleExample`으로 등록한다. 기존에 동일 DLL이
+유효하게 등록되어 있으면 해당 경로를 유지하며, 다른 DLL과 충돌하면 안내한다.
+`RegisterModule=False`는 실패로 알리며 같은 객체에서 확인된 성공만 재사용한다.
+
+`development/tools/verify_internal_release.py <ZIP>`은 별도 임시 경로에서 실제 설치 스크립트,
+백엔드 시작, 사용자 정보 저장/재시작을 검사한다. 한글 실사는 배포 폴더의
+`runtime/python/python.exe product/support/probe_hwp_installation.py`로 실행한다.
+실사는 GUI 실행 잠금을 공유하고 최대 10개 프로세스를 허용하며, 전용 문서 하나만
+사용한다. 40초 초과 시 재시도하지 않고 문제를 보고한다.
+배포판 설치 점검 통과와 모든 복구 기능의 동등 검증은 별개다.
+
 이 디렉터리는 실행 파일 분석·복구 산출물과 분리된 새 개발 영역이다.
 원본 복구 코드는 상위의 `recovered/`, 디스어셈블과 marshal은
 `범피스1303_분석/`에 그대로 보존한다. 새 프로그램이 사용하는 검증 복구 소스는
@@ -26,13 +54,13 @@ import하지 않는다. 원본 API가 필요하면 `adapters/recovered_hwp.py`�
 번들 Python 3.13에서 다음처럼 실행할 수 있다.
 
 ```powershell
-python new_project/run_tests.py
+python new_project/development/run_tests.py
 ```
 
 프로그램 런처는 다음 명령으로 실행한다. Windows WPF 원본 좌표형 GUI와 Python
 기능 백엔드를 함께 실행하며, 한 프로세스에서 한글 연결 하나를 유지한다.
 
-탐색기에서는 `new_project/범정부오피스_실행.cmd`를 더블클릭하면 된다.
+탐색기에서는 프로젝트 루트의 `범정부오피스_실행.cmd` 또는 기존 `new_project/범정부오피스_실행.cmd`를 더블클릭하면 된다. 두 파일은 같은 실행 경로를 사용한다.
 
 한글 COM이 설치된 한글과 같은 권한으로 동작해야 하므로 런처는 UAC 승인 후
 관리자 권한으로 한 번 재실행된다. 승인하지 않으면 한글 기능을 실행할 수 없다.
@@ -71,7 +99,7 @@ GUI에는 원본 버튼 콜백이 완전하게 복원되고 오류 상태가 아
 프로세스는 종료하지 않는다.
 
 ```powershell
-.\범피스1303_분석\python313\python.exe new_project\tools\validate_managed_hwp_document.py
+.\범피스1303_분석\python313\python.exe new_project\development\tools\validate_managed_hwp_document.py
 ```
 
 `글자` 탭의 `글자문단모양복사`는 두 단계로 동작한다. 서식을 가져올 글자나
@@ -111,7 +139,7 @@ GUI에는 원본 버튼 콜백이 완전하게 복원되고 오류 상태가 아
 실제 한글 COM 왕복 검증은 다음 도구로 다시 실행할 수 있다.
 
 ```powershell
-.\범피스1303_분석\python313\python.exe new_project\tools\validate_style_preset.py
+.\범피스1303_분석\python313\python.exe new_project\development\tools\validate_style_preset.py
 ```
 
 이 검증기는 GUI와 동시에 실행되지 않도록 같은 단일 실행 잠금을 사용하고, 실행 전후
@@ -152,7 +180,7 @@ GUI에는 원본 버튼 콜백이 완전하게 복원되고 오류 상태가 아
 별도 분류 기능을 서로 다른 JSON 카탈로그로 생성한다.
 
 ```powershell
-python new_project/tools/sync_recovered_hwp.py
+python new_project/development/tools/sync_recovered_hwp.py
 ```
 
 ```text
@@ -205,3 +233,10 @@ src/govoffice/institutions/
 기관 manifest는 복구 패키지를 직접 import하지 않고 실행할 한글 메서드명과
 화면 노출 정보를 도메인 모델로 변환한다. 실제 원본 호환 API 호출은
 `adapters/recovered_hwp.py` 경계를 통해서만 수행한다.
+
+## 소주제별 과제 문서 작성
+
+서울과학기술대학교의 **과제 문서 순차 작성**에서 양식 등록·과제 정보 입력·Codex 로그인 연결·순차 작성·중단/재개를 사용할 수 있다.
+기존 예시 생성과 별도 경로이며, 아직 제출 완성본이 아니라 검토 초안이다.
+
+[사용 방법과 현재 한계](development/docs/소주제_자동작성.md) · [구현 검증 결과](development/reports/document_authoring_validation_2026-09-09.md)

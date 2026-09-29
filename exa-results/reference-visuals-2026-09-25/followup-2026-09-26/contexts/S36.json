@@ -1,0 +1,1792 @@
+[
+  {
+    "visual_id": "S36-V0001",
+    "caption": "뇌 신경회로의 전기신호 분석 알고리즘 개발 다이어그램",
+    "pdf_page_candidate": 6,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "5\n1. 연구개발과제의 개요\n다중부위 뇌 회로에서 측정되는 대용량의 전기적 신호를 처리하고 분석하기 위한 알고리즘을\n개발함. 1세부에서 개발되는 3차원 나노IC전극에서 측정되는 초기 신호에 대한 검증 및 뇌회로\n연구 (예: 3세부) 에 적용하기 위해서 필수적인 알고리즘들을 개발함. 측정 신호의 신뢰도를 높\n이기 위한 잡음 저감 기술, 필터링 기술, 왜곡현상 보정기술을 개발하고, 그 후 다양한 신경세포",
+    "caption_and_following_text": "로부터 나오는 신호를 분류, 군집화 하는 알고리즘을 개발함. 분석하기 힘든 대용량의 신호를 딥\n러닝 기술을 이용하여 효과적으로 자동 분석하는 기술을 개발하여 최종적으로 뇌 신경회로의\n작동원리를 규명할 수 있도록 함.\n그림 1. 뇌 신경회로의 전기신호 분석 알고리즘 개발 다이어그램\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.5,
+          149.72,
+          491.26,
+          615.29
+        ],
+        "page_area_fraction": 0.3608
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0002",
+    "caption": "ViSAPy 툴을 이용한 모델링 노이즈 생성 과정",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 신경 세포의 종류/형태/자극/위치 상태, 나노IC전극의 형태/위치/특성 등 다양한 조건에\n따라 가상의 전기 신호 (spiking activity 신호)를 생성할 수 있도록 함. 신경 세포 생성을\n위한 Neuron 툴과 나노IC전극 설정, 시냅스 설정, 신경세포의 배열 등의 기능을 포함한\nLFPy tool, 그리고 신경 세포 기반 모델링 노이즈 생성이 가능한 ViSAPy 툴을 본 연구\n에 맞게 통합, 조절하여 필요한 작업이 가능하도록 모듈화. Ÿ In vivo / In vitro 환경을 다룬 여러 spike sorting 알고리즘, 툴들의 경우 두 환경을 나\n눠서 분류하지 않고 단일 프로세싱을 적용함. 두 환경 모두 동일한 노이즈 제거 방식이\n사용되며, 특징 추출 과정에서 교차 적용되기도 하는 등 노이즈 환경에서 발생하는 차이",
+    "caption_and_following_text": "가 무시할 수 있을 정도. 따라서 단일 노이즈 환경을 적용하는 것이 이후 연구에 영향을\n주지 않을 것으로 예상되어 통합 노이즈 환경을 모델링함. 환경에 따라 변할 수 있는 시\n냅스 특성과 나노IC전극의 배열 등은 설정 가능하도록 시뮬레이션 툴을 설계함.\n그림 2. ViSAP y 툴을 이용한 모델링 노이즈 생성 과정. Ÿ 시뮬레이터를 통해 생성된 신호가 실제 측정 신호와 정량적/정성적으로 충분한 모사도\n를 갖기 위해선 실제 신호에서 발생하는 잡음과 유사한 잡음을 생성 신호에 통합시켜주\n는 것이 필수적. Ÿ 그러나, 실제 세포 외 신경 녹음 신호에서 발생하는 잡음의 종류 및 소스는 AC 전류 잡\n음, 이온 펌프 잡음, 시냅스 방출 잡음, 다른 신경 세포들로부터 발생하는 잡음 등으로\n매우 다양하기 때문에 이를 개별적으로 구별하여 모델링하는 것은 굉장히 비효율적이며\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [
+      "2. 연구수행내용 및 성과",
+      "2-1. 연구수행내용 및 성과",
+      "1. 신경신호 시뮬레이터 및 전처리 기술 개발",
+      "1-1) 신경세포 및 측정환경에 따른 신호 시뮬레이터 개발",
+      "가) Local Field Potential 시뮬레이터 개요"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          183.4,
+          534.07,
+          402.16
+        ],
+        "page_area_fraction": 0.2056
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0003",
+    "caption": "A,B는 각 32, 128 channels Polytrode의 Electrode number 및 구조도",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 24,
+    "prefix_match_only": false,
+    "text_before": "채널 간 상관 계수를 곱해줌으로써 채널 간의 상관성을 실제 신호와 유사하게 부여한다.\nŸ 실제 측정 신호에서 나타나는 배경 잡음과 파워 스펙트럼 밀도, 채널 간 상관성 면에서\n유사한 인공 잡음을 생성하였으며, 이를 인공 spike 신호와 결합하여 생체 내 피질 신호\n와 형태적으로 유사한 인공 신호를 생성하는 시뮬레이터 모듈을 완성함.\n나) 장기적 활용을 위한 데이터베이스 구축\nŸ 확보된 ground truth 데이터는 총 16개의 in vivo 데이터셋으로 각각 하나의 신경 세포로\n부터 측정된 32채널 (10개), 128채널 (6개)의 나노 IC 전극 데이터로 구성됨. (그림3)",
+    "caption_and_following_text": "Ÿ 해당 데이터셋들은 쥐의 뇌에서 측정된 in vivo 데이터이며 데이터셋에 대한 정보는 아래\n표 1과 같음. 데이터 예시는 그림 4-6에 나타나 있음.\n그림 3. A,B는 각 32, 128 channels Polytrode의 Electrode number\n및 구조도.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. Welch의 평균 주기도 방법을 이용하여 각 채널의 파워 스펙트럼 밀도를 예측하고, 이를",
+    "heading_candidates": [
+      "3. Welch의 평균 주기도 방법을 이용하여 각 채널의 파워 스펙트럼 밀도를 예측하고, 이를",
+      "나) 장기적 활용을 위한 데이터베이스 구축"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.24,
+          141.93,
+          299.6,
+          301.71
+        ],
+        "page_area_fraction": 0.0512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.11,
+          151.87,
+          435.97,
+          305.07
+        ],
+        "page_area_fraction": 0.0355
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0004",
+    "caption": "3개의 예시 데이터에 대한 상세 정보",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "Description Data #1 Data #2 Data #3 Unit\n# of channel 32 32 128 Number\n# of neuron 1 1 1 Number\nSampling frequency 30,000 30,000 30,000 Hz\nPeak to Peak\nAmplitude\n3.6 ~ 36.3 5 ~ 22.7 1 ~ 19.5 uV",
+    "caption_and_following_text": "# of spikes 442 650 8117 Number\nClosest probe # 9 8 70 Number\nSpike duration 4 4 4 ms\n표 1. 3개의 예시 데이터에 대한 상세 정보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          498.17,
+          534.07,
+          587.48
+        ],
+        "page_area_fraction": 0.0839
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          367.64,
+          534.07,
+          458.74
+        ],
+        "page_area_fraction": 0.0856
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.59,
+          120.47,
+          508.17,
+          344.14
+        ],
+        "page_area_fraction": 0.1871
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0005",
+    "caption": "Bonsai Tool을 이용한, 미가공 데이터의 시각화 예시",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "8\n그림 4. Bonsai Tool을 이용한, 미가공 데이터의 시각화 예시.\n그림 5. 그림 4의 데이터에 대하여 500~5000hz 밴드패스 필터링을 적용한 결과.\n그림 6. Bonsai Tool을 이용한 Ground Truth Data의 Spike sorting 신호. 다) 시뮬레이터를 이용한 신호 생성\nDescription Data #1 Data #2 Data #3 Unit\n# of channel 32 32 128 Number\n# of neuron 1 1 1 Number\nSampling frequency 30,000 30,000 30,000 Hz\nPeak to Peak\nAmplitude",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          498.17,
+          534.07,
+          587.48
+        ],
+        "page_area_fraction": 0.0839
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          367.64,
+          534.07,
+          458.74
+        ],
+        "page_area_fraction": 0.0856
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.59,
+          120.47,
+          508.17,
+          344.14
+        ],
+        "page_area_fraction": 0.1871
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0006",
+    "caption": "그림 4의 데이터에 대하여 500~5000hz 밴드패스 필터링을 적용한 결과",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "8\n그림 4. Bonsai Tool을 이용한, 미가공 데이터의 시각화 예시.\n그림 5. 그림 4의 데이터에 대하여 500~5000hz 밴드패스 필터링을 적용한 결과.\n그림 6. Bonsai Tool을 이용한 Ground Truth Data의 Spike sorting 신호. 다) 시뮬레이터를 이용한 신호 생성\nDescription Data #1 Data #2 Data #3 Unit\n# of channel 32 32 128 Number\n# of neuron 1 1 1 Number\nSampling frequency 30,000 30,000 30,000 Hz\nPeak to Peak\nAmplitude",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          498.17,
+          534.07,
+          587.48
+        ],
+        "page_area_fraction": 0.0839
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          367.64,
+          534.07,
+          458.74
+        ],
+        "page_area_fraction": 0.0856
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.59,
+          120.47,
+          508.17,
+          344.14
+        ],
+        "page_area_fraction": 0.1871
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0007",
+    "caption": "Bonsai Tool을 이용한 Ground Truth Data의 Spike sorting 신호",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "8\n그림 4. Bonsai Tool을 이용한, 미가공 데이터의 시각화 예시.\n그림 5. 그림 4의 데이터에 대하여 500~5000hz 밴드패스 필터링을 적용한 결과.\n그림 6. Bonsai Tool을 이용한 Ground Truth Data의 Spike sorting 신호. 다) 시뮬레이터를 이용한 신호 생성\nDescription Data #1 Data #2 Data #3 Unit\n# of channel 32 32 128 Number\n# of neuron 1 1 1 Number\nSampling frequency 30,000 30,000 30,000 Hz\nPeak to Peak\nAmplitude",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          498.17,
+          534.07,
+          587.48
+        ],
+        "page_area_fraction": 0.0839
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          367.64,
+          534.07,
+          458.74
+        ],
+        "page_area_fraction": 0.0856
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.59,
+          120.47,
+          508.17,
+          344.14
+        ],
+        "page_area_fraction": 0.1871
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0008",
+    "caption": "노이즈가 없는 시뮬레이션 환경에서 하나의 신경 세포와 하나의 전극을 통해 신호를 생성한 결과 예시. 두 번째 열의 그래프들은 Intra-cellular signal이며 세 번째 열의 그래프들은 전극에서 측정된 Extra-cellular signal을 나타냄",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "9\n그림 7. 노이즈가 없는 시뮬레이션 환경에서 하나의 신경 세포와 하나의 전극을 통해 신호를 생성한 결과 예시.\n두 번째 열의 그래프들은 Intra-cellular signal이며 세 번째 열의 그래프들은 전극에서 측정된 Extra-cellular\nsignal을 나타냄. Ÿ 그림 7은 개발된 시뮬레이터를 통한 시뮬레이션 결과로, 하나의 신경 세포와 하나의 전극\n을 가지고 노이즈가 없는 상황에서의 신호 발생을 모델링한 결과를 나타냄. Ÿ 모델링된 신경 세포는 Neocortex V1 L6 pyramidal corticothalamic cell이며 기존 연구를\n바탕으로 \n \n, \n\n, 그리고 ",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          540.85,
+          508.41,
+          777.35
+        ],
+        "page_area_fraction": 0.1981
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.23,
+          85.11,
+          505.41,
+          350.98
+        ],
+        "page_area_fraction": 0.2195
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0009",
+    "caption": "시뮬레이터를 이용한 데이터 생성. 위의 세 이미지는 각각 X-Z, X-Z, X-Y 평면에서의 신경 세포의 형태와 시냅스, 전극의 위치를 나타냄. 아래의 세 그래프는 각각 전극에서 측정된 신호와 필터링을 거친 신호, 그리고 spike를 기준으로 32 포인트의 길이로 중첩한 신호를 나타냄",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "바탕으로 \n \n, \n\n, 그리고 \n 이온 채널을 모델링하여 구현됨. Ÿ 이외에도 다양한 종류의 신경세포의 형태학적 정보가 웹상에 오픈소스로 제공되고 있으\n며, 다양한 연구를 바탕으로 한 이온 채널들 또한 모델링되어 제공되고 있어 다양한 신경",
+    "caption_and_following_text": "신호를 통한 시뮬레이션이 가능함.\n그림 8. 시뮬레이터를 이용한 데이터 생성. 위의 세 이미지는 각각 X-Z, X-Z, X-Y 평면에서의 신경 세포의\n형태와 시냅스, 전극의 위치를 나타냄. 아래의 세 그래프는 각각 전극에서 측정된 신호와 필터링을 거친 신호,\n그리고 spike를 기준으로 32 포인트의 길이로 중첩한 신호를 나타냄.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          540.85,
+          508.41,
+          777.35
+        ],
+        "page_area_fraction": 0.1981
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.23,
+          85.11,
+          505.41,
+          350.98
+        ],
+        "page_area_fraction": 0.2195
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0010",
+    "caption": "전극의 위치에 따른 결과 그래프 예시",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "10",
+    "caption_and_following_text": "Ÿ 그림 8은 개발한 신경 신호 시뮬레이터를 통해 시뮬레이션 데이터를 생성한 결과 예시. Ÿ 모델링 된 신경 세포의 형태 및 시냅스의 위치와 전극의 위치를 시각적으로 확인할 수\n있으며 생성된 신호, 밴드패스 필터링을 통과한 결과 및 spike의 위치, 그리고 spike\nsorting을 위한 중첩 그래프 또한 구현이 가능함. Ÿ 중첩 그래프의 굵고 붉은 선은 spike를 중심으로 중첩된 그래프의 평균값을 나타냄.\n그림 9. 전극의 위치에 따른 결과 그래프 예시\nŸ 그림 9는 시뮬레이터 환경에서 전극의 위치를 변경했을 때 어떠한 신호가 발생되는지를\n나타내는 그림으로, 모든 데이터는 하나의 신경 세포에 하나의 전극이 존재하는 상황을\n바탕으로 모델링됨. Ÿ 전극이 1, 2, 그리고 3번 위치로 변경됨에 따라 중첩 그래프의 형태가 약간씩 변경되어\n나타나는데, 이것은 시냅스에서 발생된 신호가 모델링된 각각의 수상돌기들과 상호작용하\n고 전파되는 과정에서 감쇠되고 변형된 결과로 볼 수 있음.\n그림 10. 1개의 신경 세포에 대하여 네 개의 채널을 가진 single array recorder로 신호를 측정 모델링 결과 예시",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          539.41,
+          534.07,
+          654.24
+        ],
+        "page_area_fraction": 0.1079
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          194.43,
+          534.07,
+          375.67
+        ],
+        "page_area_fraction": 0.1704
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0011",
+    "caption": "1개의 신경 세포에 대하여 네 개의 채널을 가진 single array recorder로 신호를 측정 모델링 결과 예시",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "10\nŸ 그림 8은 개발한 신경 신호 시뮬레이터를 통해 시뮬레이션 데이터를 생성한 결과 예시. Ÿ 모델링 된 신경 세포의 형태 및 시냅스의 위치와 전극의 위치를 시각적으로 확인할 수\n있으며 생성된 신호, 밴드패스 필터링을 통과한 결과 및 spike의 위치, 그리고 spike\nsorting을 위한 중첩 그래프 또한 구현이 가능함. Ÿ 중첩 그래프의 굵고 붉은 선은 spike를 중심으로 중첩된 그래프의 평균값을 나타냄.\n그림 9. 전극의 위치에 따른 결과 그래프 예시\nŸ 그림 9는 시뮬레이터 환경에서 전극의 위치를 변경했을 때 어떠한 신호가 발생되는지를\n나타내는 그림으로, 모든 데이터는 하나의 신경 세포에 하나의 전극이 존재하는 상황을",
+    "caption_and_following_text": "바탕으로 모델링됨. Ÿ 전극이 1, 2, 그리고 3번 위치로 변경됨에 따라 중첩 그래프의 형태가 약간씩 변경되어\n나타나는데, 이것은 시냅스에서 발생된 신호가 모델링된 각각의 수상돌기들과 상호작용하\n고 전파되는 과정에서 감쇠되고 변형된 결과로 볼 수 있음.\n그림 10. 1개의 신경 세포에 대하여 네 개의 채널을 가진 single array recorder로 신호를 측정 모델링 결과 예시\nŸ 그림 10은 여러 개의 전극으로 동시에 하나의 신경 세포에서 발생된 신호를 측정하는 상\n황을 시뮬레이션 한 결과 예시. Ÿ 각 채널은 수직 방향으로 존재하며 총 네 개로 구성되어 있음. Ÿ 신호의 발생 시냅스와 가장 가까운 2번 electrode에서 가장 큰 신호가 측정이 되고 상대\n적으로 먼 4번에서 가장 신호의 진폭이 작게 측정됨.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          539.41,
+          534.07,
+          654.24
+        ],
+        "page_area_fraction": 0.1079
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          194.43,
+          534.07,
+          375.67
+        ],
+        "page_area_fraction": 0.1704
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0012",
+    "caption": "그림 10의 상황에서 잡음을 추가했을 때의 결과 예시. 왼쪽 그래프는 네 채널에 입력되는 잡음들을 나타내며 오른쪽 그래프들의 좌표축은 왼쪽 그래프와 동일",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "11\n그림 11. 그림 10의 상황에서 잡음을 추가했을 때의 결과 예시. 왼쪽 그래프는 네 채널에 입력되는 잡음들을 나타내며 오른쪽\n그래프들의 좌표축은 왼쪽 그래프와 동일.\nŸ 그림 11은 그림 10의 상황에 모델링 잡음을 추가한 결과. 해당 잡음은 in vivo 데이터에\n서 측정된 실제 잡음 데이터를 재구성하여 모델링한 잡음으로 각 채널의 특성에 따른 상\n관관계 또한 고려하고 있기 때문에 각 채널에 입력되는 잡음의 형태와 크기 또한 유사함. Ÿ 신호의 크기가 네 채널에 각각 다르게 입력되기 때문에 결과 그래프도 각각 다름이 나타\n남. 시냅스의 위치와 매우 가까이 있는 채널 2의 경우 신호의 크기가 잡음의 크기보다 매\n우 커 두드러지게 나타나며, 채널 4의 경우 신호의 크기가 매우 작아 잡음에 많이 가려져\n잘 나타나지 않음을 알 수 있음. Ÿ 채널 2번의 경우 매우 극단적인 형태를 보이지만 잡음의 크기는 조절이 가능하기 때문에\nspike sorting을 위한 다양한 시뮬레이션 데이터 생성이 가능함. 잡음의 크기가 클 경우",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          583.88,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.1819
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          162.3,
+          534.07,
+          337.07
+        ],
+        "page_area_fraction": 0.1643
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0013",
+    "caption": "하나의 신경 세포에서 발생한 신경신호를 tetrode를 이용하여 측정한 시뮬레이션 결과 예시",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "관관계 또한 고려하고 있기 때문에 각 채널에 입력되는 잡음의 형태와 크기 또한 유사함. Ÿ 신호의 크기가 네 채널에 각각 다르게 입력되기 때문에 결과 그래프도 각각 다름이 나타\n남. 시냅스의 위치와 매우 가까이 있는 채널 2의 경우 신호의 크기가 잡음의 크기보다 매\n우 커 두드러지게 나타나며, 채널 4의 경우 신호의 크기가 매우 작아 잡음에 많이 가려져\n잘 나타나지 않음을 알 수 있음. Ÿ 채널 2번의 경우 매우 극단적인 형태를 보이지만 잡음의 크기는 조절이 가능하기 때문에\nspike sorting을 위한 다양한 시뮬레이션 데이터 생성이 가능함. 잡음의 크기가 클 경우\nspike sorting의 난이도가 올라가기 때문에 다양한 난이도로 연습 데이터 생성이 가능.\nŸ 그림 12는 하나의 신경 세포에 대하여 tetrode를 이용해 신호를 측정한 결과를 시뮬레이",
+    "caption_and_following_text": "션 한 것으로 그림 11의 경우와 같이 네 가지 채널에 대해 유사한 잡음 신호가 들어오는\n것을 확인. Ÿ 세포 외 전도도는 0.3 (S/m), electrode 간의 x축, y축 거리는 일반적으로 channel 한 개\n의 직경이 30μm 이하임을 고려하여 각각 50μm으로 설정함.\n그림 12. 하나의 신경 세포에서 발생한 신경신호를 tetrode를 이용하여 측정한 시뮬레이션 결과 예시.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          583.88,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.1819
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          162.3,
+          534.07,
+          337.07
+        ],
+        "page_area_fraction": 0.1643
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0014",
+    "caption": "세 종류의 신경 세포에 대한 시뮬레이션 결과 예시",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "12",
+    "caption_and_following_text": "Ÿ 우측 1, 2, 3, 4번 그래프의 경우 같은 지점에서 발생한 신호를 동시에 획득하기 때문에\nx축의 같은 지점에서 spike가 발생함. Ÿ 이와 같이 시뮬레이션 환경에서 전극의 위치를 x, y, z 좌표를 다양하게 변경 가능하며,\n세포 외 전도도, 신경 세포에의 접촉 면적 등을 다양하게 설정이 가능함.\n그림 13. 세 종류의 신경 세포에 대한 시뮬레이션 결과 예시.\nŸ 그림 13는 각각 다른 형태와 종류의 신경 세포에 대한 시뮬레이션 결과를 보여주는 예시. Ÿ 각각의 신경 세포의 형태 정보는 그림 13의 첫 번째 행에서 찾아볼 수 있으며, 아래 행은\nspike를 기준으로 32 point 중첩하여 나타낸 그래프에 해당. Ÿ 각각의 신경 세포가 동일하게 soma에서 신호를 발생시키고, 바로 그 위치에서의\nExtra-cellular signal을 측정하도록 설정하였음에도 세 신경신호의 진폭이나 형태가 미묘\n하게 달라짐.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          373.27,
+          534.07,
+          689.49
+        ],
+        "page_area_fraction": 0.2973
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0015",
+    "caption": "세 종류의 신경세포와 하나의 전극을 이용한 시뮬레이션 예시",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "13\n그림 14. 세 종류의 신경세포와 하나의 전극을 이용한 시뮬레이션 예시.\n그림 15. 그림 10의 시뮬레이션 상황에 대한 합성 결과 그래프 예시\nŸ 그림 14와 그림 15는 세 종류의 각기 다른 신경세포가 함께 존재할 경우 하나의 전극에\n서 어떠한 신호가 측정되는지에 관한 시뮬레이션 결과 예시. Ÿ 시뮬레이션 과정에서 각 신경세포를 통해 측정되는 신호를 각각 분류해 저장이 가능하며,\n이를 통한 spike raster 그래프 또한 생성 가능함. 이는 그림 15의 첫 번째 그래프로 나타\n나 있다. Ÿ 생성된 spike raster 정보는 이후 연구에서 진행될 spike sorting 과정의 true reference\n자료로 이용 가능함. Ÿ 세 가지 신경세포에서 각각 생성된 신호들을 합함으로써 최종으로 전극에서 측정되는 신\n호를 생성해 낼 수 있으며, 여기에 모델링된 잡음을 더해줌으로써 최종 시뮬레이션 신호\n가 획득됨.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.38,
+          558.71,
+          476.26,
+          777.35
+        ],
+        "page_area_fraction": 0.1551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.51,
+          277.5,
+          509.01,
+          535.69
+        ],
+        "page_area_fraction": 0.217
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0016",
+    "caption": "그림 10의 시뮬레이션 상황에 대한 합성 결과 그래프 예시",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "13\n그림 14. 세 종류의 신경세포와 하나의 전극을 이용한 시뮬레이션 예시.\n그림 15. 그림 10의 시뮬레이션 상황에 대한 합성 결과 그래프 예시\nŸ 그림 14와 그림 15는 세 종류의 각기 다른 신경세포가 함께 존재할 경우 하나의 전극에\n서 어떠한 신호가 측정되는지에 관한 시뮬레이션 결과 예시. Ÿ 시뮬레이션 과정에서 각 신경세포를 통해 측정되는 신호를 각각 분류해 저장이 가능하며,\n이를 통한 spike raster 그래프 또한 생성 가능함. 이는 그림 15의 첫 번째 그래프로 나타\n나 있다. Ÿ 생성된 spike raster 정보는 이후 연구에서 진행될 spike sorting 과정의 true reference\n자료로 이용 가능함. Ÿ 세 가지 신경세포에서 각각 생성된 신호들을 합함으로써 최종으로 전극에서 측정되는 신\n호를 생성해 낼 수 있으며, 여기에 모델링된 잡음을 더해줌으로써 최종 시뮬레이션 신호\n가 획득됨.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.38,
+          558.71,
+          476.26,
+          777.35
+        ],
+        "page_area_fraction": 0.1551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.51,
+          277.5,
+          509.01,
+          535.69
+        ],
+        "page_area_fraction": 0.217
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0017",
+    "caption": "세 신경세포에서 발생한 신호를 tetrode로 측정하는 시뮬레이션 결과 예시. 신경세포 1, 2, 3에 대한 그래프는 각각의 신경세포에서 발생한 Intra-cellular signal을 의미함",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "14\n그림 16. 세 신경세포에서 발생한 신호를 tetrode로 측정하는 시뮬레이션 결과 예시. 신경세포 1, 2, 3에 대한 그래프는 각각의\n신경세포에서 발생한 Intra-cellular signal을 의미함\n그림 17. 그림 16의 세 신경 세포에서 나오는 신호가 각각 tetrode의 네 전극에 어떻게 수신되는지를 보여주는 예시.\n그림 18. 그림 16의 시뮬레이션에 대한 최종 결과 그래프. 좌측 그래프는 네 채널에 대한 잡음을 나타내며 중앙의 그래프는 네\n채널에서 측정된 신호, 그리고 우측 그래프는 최종 신호를 나타냄.\nŸ 그림 16-18은 세 개의 신경 세포에서 발생된 신호를 tetrode 환경에서 측정한 시뮬레이션\n결과로 각각의 전극에서 측정된 결과를 살펴볼 수도 있으며, 각각의 전극이 측정한 각각\n의 신경 세포의 신호 또한 살펴볼 수 있음. Ÿ 모델링된 잡음 또한 각 전극에 들어가는 잡음의 종류와 유사성을 고려하여 구현되었기\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          611.69,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.1557
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          345.1,
+          534.07,
+          558.23
+        ],
+        "page_area_fraction": 0.2003
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          160.02,
+          534.07,
+          304.47
+        ],
+        "page_area_fraction": 0.1358
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0018",
+    "caption": "그림 16의 세 신경 세포에서 나오는 신호가 각각 tetrode의 네 전극에 어떻게 수신되는지를 보여주는 예시",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "14\n그림 16. 세 신경세포에서 발생한 신호를 tetrode로 측정하는 시뮬레이션 결과 예시. 신경세포 1, 2, 3에 대한 그래프는 각각의\n신경세포에서 발생한 Intra-cellular signal을 의미함\n그림 17. 그림 16의 세 신경 세포에서 나오는 신호가 각각 tetrode의 네 전극에 어떻게 수신되는지를 보여주는 예시.\n그림 18. 그림 16의 시뮬레이션에 대한 최종 결과 그래프. 좌측 그래프는 네 채널에 대한 잡음을 나타내며 중앙의 그래프는 네\n채널에서 측정된 신호, 그리고 우측 그래프는 최종 신호를 나타냄.\nŸ 그림 16-18은 세 개의 신경 세포에서 발생된 신호를 tetrode 환경에서 측정한 시뮬레이션\n결과로 각각의 전극에서 측정된 결과를 살펴볼 수도 있으며, 각각의 전극이 측정한 각각\n의 신경 세포의 신호 또한 살펴볼 수 있음. Ÿ 모델링된 잡음 또한 각 전극에 들어가는 잡음의 종류와 유사성을 고려하여 구현되었기\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          611.69,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.1557
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          345.1,
+          534.07,
+          558.23
+        ],
+        "page_area_fraction": 0.2003
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          160.02,
+          534.07,
+          304.47
+        ],
+        "page_area_fraction": 0.1358
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0019",
+    "caption": "그림 16의 시뮬레이션에 대한 최종 결과 그래프. 좌측 그래프는 네 채널에 대한 잡음을 나타내며 중앙의 그래프는 네 채널에서 측정된 신호, 그리고 우측 그래프는 최종 신호를 나타냄",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "14\n그림 16. 세 신경세포에서 발생한 신호를 tetrode로 측정하는 시뮬레이션 결과 예시. 신경세포 1, 2, 3에 대한 그래프는 각각의",
+    "caption_and_following_text": "신경세포에서 발생한 Intra-cellular signal을 의미함\n그림 17. 그림 16의 세 신경 세포에서 나오는 신호가 각각 tetrode의 네 전극에 어떻게 수신되는지를 보여주는 예시.\n그림 18. 그림 16의 시뮬레이션에 대한 최종 결과 그래프. 좌측 그래프는 네 채널에 대한 잡음을 나타내며 중앙의 그래프는 네\n채널에서 측정된 신호, 그리고 우측 그래프는 최종 신호를 나타냄.\nŸ 그림 16-18은 세 개의 신경 세포에서 발생된 신호를 tetrode 환경에서 측정한 시뮬레이션\n결과로 각각의 전극에서 측정된 결과를 살펴볼 수도 있으며, 각각의 전극이 측정한 각각\n의 신경 세포의 신호 또한 살펴볼 수 있음. Ÿ 모델링된 잡음 또한 각 전극에 들어가는 잡음의 종류와 유사성을 고려하여 구현되었기\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          611.69,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.1557
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          345.1,
+          534.07,
+          558.23
+        ],
+        "page_area_fraction": 0.2003
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          160.02,
+          534.07,
+          304.47
+        ],
+        "page_area_fraction": 0.1358
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0020",
+    "caption": "시냅스 위치의 변화 및 전극의 위치의 변화, 신경 세포의 위치 및 배열 변화 예시",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "15",
+    "caption_and_following_text": "때문에 각 전극에 반영되는 잡음 또한 유사한 형태를 지니는 것을 볼 수 있음. Ÿ 즉, 각 신경세포에서 발생한 신호가 각 전극에 어떻게 수신되는지에 대해서 모두 살펴보\n는 것이 가능함. 거리에 따른 감쇠나 신경세포의 각 돌기들에 의한 감쇠 또한 반영되어\n있음.\n그림 19. 시냅스 위치의 변화 및 전극의 위치의 변화, 신경 세포의 위치 및 배열 변화 예시\nŸ 그림 19와 같이 신경 세포의 다양한 위치 설정 및 배열이 가능함. 전극의 위치와 시냅스\n의 위치 또한 자유롭게 변경 가능.\n그림 20. 10개의 신경 세포에서 발생한 신호를 16개의 Multi Electrode Array를 통해 수신한 시뮬레이션 결과 그래프\nŸ 그림 20는 MEA 환경에서 어떻게 신호가 수신되는지를 나타내는 그림으로 왼쪽의 두 그\n림은 신경세포와 다채널 전극의 배열은보여주며 오른쪽 두 그래프는 수신된 신호를 각각\n2차원, 3차원으로 표현한 그래프에 해당. Ÿ 다양한 배열로 여러 신경세포와 전극을 이용한 시뮬레이션이 가능함. Ÿ 2차원 좌표 상에서 배열된 많은 전극들에서 수신된 신호는 공간 정보 또한 포함하고 있",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          471.32,
+          534.07,
+          689.48
+        ],
+        "page_area_fraction": 0.2051
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          216.96,
+          534.07,
+          377.83
+        ],
+        "page_area_fraction": 0.1512
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0021",
+    "caption": "10개의 신경 세포에서 발생한 신호를 16개의 Multi Electrode Array를 통해 수신한 시뮬레이션 결과 그래프",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "15\n때문에 각 전극에 반영되는 잡음 또한 유사한 형태를 지니는 것을 볼 수 있음. Ÿ 즉, 각 신경세포에서 발생한 신호가 각 전극에 어떻게 수신되는지에 대해서 모두 살펴보\n는 것이 가능함. 거리에 따른 감쇠나 신경세포의 각 돌기들에 의한 감쇠 또한 반영되어\n있음.",
+    "caption_and_following_text": "그림 19. 시냅스 위치의 변화 및 전극의 위치의 변화, 신경 세포의 위치 및 배열 변화 예시\nŸ 그림 19와 같이 신경 세포의 다양한 위치 설정 및 배열이 가능함. 전극의 위치와 시냅스\n의 위치 또한 자유롭게 변경 가능.\n그림 20. 10개의 신경 세포에서 발생한 신호를 16개의 Multi Electrode Array를 통해 수신한 시뮬레이션 결과 그래프\nŸ 그림 20는 MEA 환경에서 어떻게 신호가 수신되는지를 나타내는 그림으로 왼쪽의 두 그\n림은 신경세포와 다채널 전극의 배열은보여주며 오른쪽 두 그래프는 수신된 신호를 각각\n2차원, 3차원으로 표현한 그래프에 해당. Ÿ 다양한 배열로 여러 신경세포와 전극을 이용한 시뮬레이션이 가능함. Ÿ 2차원 좌표 상에서 배열된 많은 전극들에서 수신된 신호는 공간 정보 또한 포함하고 있\n기 때문에, 실제 신호들은 시간축과 공간축의 정보를 모두 지니고 있음. 따라서 이후 연\n구에서는 시간과 공간을 고려한 연구가 진행될 예정.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 장기적 활용을 위한 데이터베이스 구축",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          471.32,
+          534.07,
+          689.48
+        ],
+        "page_area_fraction": 0.2051
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          216.96,
+          534.07,
+          377.83
+        ],
+        "page_area_fraction": 0.1512
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0022",
+    "caption": "실제 측정 신호와 생성 신호의 개형.  실제 측정 신경 신호.  시뮬레이터 생성 신호",
+    "pdf_page_candidate": 17,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": null,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "",
+    "section_context_candidate": "라) 시뮬레이터 신호와 실제 획득 신호에 대한 모사도 평가",
+    "heading_candidates": [
+      "라) 시뮬레이터 신호와 실제 획득 신호에 대한 모사도 평가"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.87,
+          346.06,
+          496.77,
+          496.02
+        ],
+        "page_area_fraction": 0.1186
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.18,
+          142.52,
+          489.46,
+          305.43
+        ],
+        "page_area_fraction": 0.1241
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0023",
+    "caption": "그림 23을 y 축 (진폭) 에 대하여 확대한 그림.  실제 측정 신경 신호.  시뮬레이터 생성 신호",
+    "pdf_page_candidate": 17,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": null,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "",
+    "section_context_candidate": "라) 시뮬레이터 신호와 실제 획득 신호에 대한 모사도 평가",
+    "heading_candidates": [
+      "라) 시뮬레이터 신호와 실제 획득 신호에 대한 모사도 평가"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.87,
+          346.06,
+          496.77,
+          496.02
+        ],
+        "page_area_fraction": 0.1186
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.18,
+          142.52,
+          489.46,
+          305.43
+        ],
+        "page_area_fraction": 0.1241
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0024",
+    "caption": "각 신호를 Spike 기준으로 32 포인트씩 잘라 Spike 의 개형 비교.  실제 측정 신경 신호.  시뮬레이터 생성 신호",
+    "pdf_page_candidate": 18,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": 0,
+    "prefix_match_only": true,
+    "text_before": "",
+    "caption_and_following_text": "17\n그림 23. 각 신호를 Spike 기준으로 32 포인트씩 잘라 Spike 의 개형 비교. <좌> 실제 측정 신경 신호.\n<우> 시뮬레이터 생성 신호.\nŸ 그림 21-22를 통해, 시뮬레이터에서 생성된 신호가 실제 측정된 신경 신호와 국지적 유\n사성을 가지며, 전체적인 개형도 비슷한 형태를 보이는 것을 확인됨. Ÿ 그림 23을 통해, 시뮬레이터에서 생성된 신호에 존재하는 Spike 들의 개형이 실제 측정된\n신경 신호에서 발생하는 spike 의 개형과 시각적으로 유사하며, 그 크기도 공통적으로 약\n–0.6mV~0.4mV 에서 형성되는 것이 확인됨. Ÿ 그림 24를 통해, 실제 측정한 신경 신호(주황색)와 시뮬레이터를 통해 생성된 신호(파란\n색)에 존재하는 Spike 들의 최소값/최대값 분포를 비교할 수 있음. 시뮬레이터를 통해 생\n성된 신호와 실제 측정된 신호가 각각 원천으로 하는 신경 세포의 종류가 다르므로, 발생\n하는 Spike 들의 절대적인 크기에도 차이가 발생함. 그러나, 각각의 개형이 모두 가우스",
+    "section_context_candidate": "1-2) 뇌 신경신호 잡음 저감 및 왜곡 보정 알고리즘 개발",
+    "heading_candidates": [
+      "1-2) 뇌 신경신호 잡음 저감 및 왜곡 보정 알고리즘 개발",
+      "가) 잡음 저감 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.31,
+          614.93,
+          501.33,
+          777.35
+        ],
+        "page_area_fraction": 0.1315
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          407.43,
+          534.07,
+          571.77
+        ],
+        "page_area_fraction": 0.1545
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0025",
+    "caption": "실제 측정한 신경 신호(주황색)와 시뮬레이터를 통해 생성한 신호(파란색)에 존재하는 Spike 의 최소값/최대값 분포 분석 및 누적 스파이크 개수 그래프.  최소값 분포 그래프.  최대값 분포 그래프  실제 측정 신호와 시뮬레이터 생성 신호의 동일 시간 간격 대비 스파이크 누적 개수 그래프",
+    "pdf_page_candidate": 18,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": 15,
+    "prefix_match_only": true,
+    "text_before": "성된 신호와 실제 측정된 신호가 각각 원천으로 하는 신경 세포의 종류가 다르므로, 발생\n하는 Spike 들의 절대적인 크기에도 차이가 발생함. 그러나, 각각의 개형이 모두 가우스\n분포 곡선 형태를 보인다는 것에서 생성된 신호가 실제 측정 신호와 비슷한 최소값/최대\n값 분포 개형을 보이는 것을 확인할 수 있음. 또한, 동일 시간 간격에서의 스파이크 누적\n그래프 비교를 통해, 생성 신호에서도 실제 측정 신호와 유사한 빈도로 스파이크가 발생\n하도록 설계가 된 것을 확인할 수 있음.\n1-2) 뇌 신경신호 잡음 저감 및 왜곡 보정 알고리즘 개발",
+    "caption_and_following_text": "가) 잡음 저감 기술 개발\nŸ 일반적으로 뇌에서 측정된 신호의 저역 주파수에서는 지역장 전위(Local Field Potential)\n로 구성되어 있고, 고역 주파수에서는 여러 중요한 영향을 끼치는 신호가 측정됨. 이에\n그림 24. 실제 측정한 신경 신호(주황색)와 시뮬레이터를 통해 생성한 신호(파란색)에 존재하는 Spike 의 최소값/최대값 분포\n분석 및 누적 스파이크 개수 그래프. <좌> 최소값 분포 그래프. <중> 최대값 분포 그래프 <우> 실제 측정 신호와 시뮬레이\n터 생성 신호의 동일 시간 간격 대비 스파이크 누적 개수 그래프.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1-2) 뇌 신경신호 잡음 저감 및 왜곡 보정 알고리즘 개발",
+    "heading_candidates": [
+      "1-2) 뇌 신경신호 잡음 저감 및 왜곡 보정 알고리즘 개발",
+      "가) 잡음 저감 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.31,
+          614.93,
+          501.33,
+          777.35
+        ],
+        "page_area_fraction": 0.1315
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          407.43,
+          534.07,
+          571.77
+        ],
+        "page_area_fraction": 0.1545
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0026",
+    "caption": "실제 측정 신호가 대역 통과 필터를 거치기 전.  대역 통과 필터를 통과한 실제 측정 신호의 모습",
+    "pdf_page_candidate": 19,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": null,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "",
+    "section_context_candidate": "가) 잡음 저감 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          264.43,
+          511.29,
+          443.27
+        ],
+        "page_area_fraction": 0.1519
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0027",
+    "caption": "시뮬레이터를 통해 생성된 신호가 대역통과 필터를 거치기 전.  대역 통과 필터를 통과한 생성 신호의 모습",
+    "pdf_page_candidate": 20,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": 0,
+    "prefix_match_only": true,
+    "text_before": "",
+    "caption_and_following_text": "19\n그림 26. <좌> 시뮬레이터를 통해 생성된 신호가 대역통과 필터를 거치기 전. <우> 대역 통과 필터를 통과한 생\n성 신호의 모습.\nŸ 그림 25를 통해, 실제 측정 신호에서 대역 통과 필터를 거친 후 잡음이 상당히 제거되어\nSpike 신호가 명확히 구분되는 것을 확인. Ÿ 그림 26을 통해, 본 연구진에서 시뮬레이터를 통해 생성한 신호에서도 그림 25와 동일한\n형태의 필터링 효과를 확인. 이로써 대역 통과 필터가 실제 측정 신호에서와 동일하게 효\n과적으로 적용되고 있음을 확인.\n그림 27. <좌> 대역 통과 필터를 거치기 전 생성 신호. <우> 대역 통과 필터를 거친 후의 생성 신호에서 문턱값\n설정을 통해 Spike Detection 후의 모습.\nŸ 대역 통과 필터를 거치지 않으면, 그림 27의 왼쪽 그림에서처럼 spike 가 잡음과 섞여 나",
+    "section_context_candidate": "2. 신경신호 분석 및 분류기술 개발",
+    "heading_candidates": [
+      "2. 신경신호 분석 및 분류기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          603.54,
+          511.29,
+          777.35
+        ],
+        "page_area_fraction": 0.1476
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          260.36,
+          511.29,
+          444.59
+        ],
+        "page_area_fraction": 0.1565
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0028",
+    "caption": "대역 통과 필터를 거치기 전 생성 신호.  대역 통과 필터를 거친 후의 생성 신호에서 문턱값 설정을 통해 Spike Detection 후의 모습",
+    "pdf_page_candidate": 20,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": null,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "",
+    "section_context_candidate": "2. 신경신호 분석 및 분류기술 개발",
+    "heading_candidates": [
+      "2. 신경신호 분석 및 분류기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          603.54,
+          511.29,
+          777.35
+        ],
+        "page_area_fraction": 0.1476
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          260.36,
+          511.29,
+          444.59
+        ],
+        "page_area_fraction": 0.1565
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0029",
+    "caption": "simulation data와 실제 In vivo juxta-cellular data와의 비교. std graph는 sampling point 별 각 electrode 간의 표준 편차를 나타냄",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "에 두 데이터의 유사도 조절이 가능함\nŸ 두 데이터의 채널별 표준편차 그래프도 유사한 개형을 가지고 있으며 그 상관계수를 통\n한 유사도는 약 94%로 90% 이상의 높은 유사도를 보여줌.\n2-2) 신경 세포 유형에 따른 신경신호 분류 알고리즘 개발\n가) Intra-, Extra-cellular 신호 분류\nŸ 그림 29에 나타나 있듯이 Intra-cellular 신호는 extra-cellular 신호보다 신호가 크게 잡\n히기 때문에 임계 값 크기를 5mV 이상의 값으로 설정하여 intra-cellular 신호와",
+    "caption_and_following_text": "extra-cellular 신호를 정확히 구분할 수 있음. Ÿ 또한, Intra-cellular의 경우 양의 방향으로 증폭되는 반면, extra-cellular 신호는 양과 음\n의 방향 모두로 증폭됨. 이러한 특징들을 통해 두 종류의 신호를 구분하는 것이 가능\n그림 28 simulation data와 실제 In vivo juxta-cellular data와의 비교. std graph는 sampling point 별 각 electrode 간의 표준\n편차를 나타냄\n그림 29 Intra-cellular와 extra-cellular 신호의 차이점\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-2) 신경 세포 유형에 따른 신경신호 분류 알고리즘 개발",
+    "heading_candidates": [
+      "2-2) 신경 세포 유형에 따른 신경신호 분류 알고리즘 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          598.62,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.168
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.42,
+          153.31,
+          486.58,
+          304.47
+        ],
+        "page_area_fraction": 0.1142
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0030",
+    "caption": "Intra-cellular와 extra-cellular 신호의 차이점",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 두 데이터의 채널별 표준편차 그래프도 유사한 개형을 가지고 있으며 그 상관계수를 통\n한 유사도는 약 94%로 90% 이상의 높은 유사도를 보여줌.\n2-2) 신경 세포 유형에 따른 신경신호 분류 알고리즘 개발\n가) Intra-, Extra-cellular 신호 분류\nŸ 그림 29에 나타나 있듯이 Intra-cellular 신호는 extra-cellular 신호보다 신호가 크게 잡\n히기 때문에 임계 값 크기를 5mV 이상의 값으로 설정하여 intra-cellular 신호와\nextra-cellular 신호를 정확히 구분할 수 있음. Ÿ 또한, Intra-cellular의 경우 양의 방향으로 증폭되는 반면, extra-cellular 신호는 양과 음",
+    "caption_and_following_text": "의 방향 모두로 증폭됨. 이러한 특징들을 통해 두 종류의 신호를 구분하는 것이 가능\n그림 28 simulation data와 실제 In vivo juxta-cellular data와의 비교. std graph는 sampling point 별 각 electrode 간의 표준\n편차를 나타냄\n그림 29 Intra-cellular와 extra-cellular 신호의 차이점\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-2) 신경 세포 유형에 따른 신경신호 분류 알고리즘 개발",
+    "heading_candidates": [
+      "2-2) 신경 세포 유형에 따른 신경신호 분류 알고리즘 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          598.62,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.168
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.42,
+          153.31,
+          486.58,
+          304.47
+        ],
+        "page_area_fraction": 0.1142
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0031",
+    "caption": "Electrode를 통해 측정된 extra-cellular 신호",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "21\n나) Extra-cellular 신경 신호의 파형 분류\nŸ Electrode를 통해 측정된 extra-cellular 신호는 그림 30과 같이 활동 전위 신호와 잡음이\n섞여 있는 상태로 기록됨\nŸ 측정된 신호에 대하여  (  \n )을 임계값으로 설정하여, 임계 값 이상의\n진폭을 갖는 뉴런의 활동 전위 신호를 추출\nŸ 딥러닝 기반 template matching spike classification 모델 개발. 구체적인 방법은 다음과\n같다. (그림 31)\n1) 효율적인 신경 파형 분류를 위해 데이터의 차원을 효과적으로 낮춰주는 Principal",
+    "section_context_candidate": "1) 효율적인 신경 파형 분류를 위해 데이터의 차원을 효과적으로 낮춰주는 Principal",
+    "heading_candidates": [
+      "1) 효율적인 신경 파형 분류를 위해 데이터의 차원을 효과적으로 낮춰주는 Principal"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.96,
+          637.34,
+          477.46,
+          738.03
+        ],
+        "page_area_fraction": 0.0673
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          62.37,
+          205.7,
+          538.27,
+          340.43
+        ],
+        "page_area_fraction": 0.1281
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0032",
+    "caption": "MLP 기반 template matching 분류모델",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "4) 설정된 각각의 클러스터 중심으로부터 근접한 spike 일부만 선택하여 딥러닝 모델의\n학습 데이터로 사용 (전체 데이터의 10%)\n5) 학습된 모델에 전체 데이터를 테스트하여 전체 spike의 분류를 진행\nŸ 그림 32의 예시를 통해, 기존의 PCA+K-means를 이용한 분류 방법이 클러스터 중심으로\n부터 멀어질수록 분류 정확도가 떨어짐을 확인. Ÿ 본 연구진은 분류 정확도가 높은 클러스터 중심으로부터 근접한 10%만 선택해서 학습을\n진행하여 나머지 데이터에 대한 분류도 높은 정확도로 수행함을 보임. Ÿ 그림 33을 통해, 기존의 Machine Learning 기반 알고리즘과 MLP 기반 template\nmatching 분류 알고리즘의 성능을 비교한 결과, MLP 모델이 전체적으로 더 높은 정확도",
+    "caption_and_following_text": "와 잡음에 대한 견고함을 보임\nŸ 하나의 electrode를 통해 측정된 신호의 경우 다른 신경 세포에서 발생한 신호임에도 비\n그림 30 Electrode를 통해 측정된 extra-cellular 신호\n그림 31 MLP 기반 template matching 분류모델\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 효율적인 신경 파형 분류를 위해 데이터의 차원을 효과적으로 낮춰주는 Principal",
+    "heading_candidates": [
+      "1) 효율적인 신경 파형 분류를 위해 데이터의 차원을 효과적으로 낮춰주는 Principal"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.96,
+          637.34,
+          477.46,
+          738.03
+        ],
+        "page_area_fraction": 0.0673
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          62.37,
+          205.7,
+          538.27,
+          340.43
+        ],
+        "page_area_fraction": 0.1281
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0033",
+    "caption": "PCA+K-means 방법과의 비교",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "22\n슷한 모양을 보일 수 있음.\n그림 32 PCA+K-means 방법과의 비교\n그림 33 기존의 분류 알고리즘과의 정확도 비교\nŸ 앞서 제시한 MLP 기반 template matching 알고리즘은 뉴런 종류의 개수를 데이터의 분\n포도로부터 파악할 수 있는 경우에만 사용할 수 있는 방법. 뉴런 종류의 개수까지 자동으\n로 파악하여 신호를 분류하는 딥러닝 기반 오토인코더 분류모델 개발. 구체적인 방법은\n다음과 같다 (그림 34)\n1) 신호의 특성 추출의 효율상승을 위해 신호의 값이 아닌 신호의 변화량(기울기)을 사\n용",
+    "section_context_candidate": "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출",
+    "heading_candidates": [
+      "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          616.25,
+          543.43,
+          759.73
+        ],
+        "page_area_fraction": 0.1376
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          356.13,
+          511.29,
+          580.41
+        ],
+        "page_area_fraction": 0.1905
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0034",
+    "caption": "기존의 분류 알고리즘과의 정확도 비교",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "22\n슷한 모양을 보일 수 있음.\n그림 32 PCA+K-means 방법과의 비교\n그림 33 기존의 분류 알고리즘과의 정확도 비교\nŸ 앞서 제시한 MLP 기반 template matching 알고리즘은 뉴런 종류의 개수를 데이터의 분\n포도로부터 파악할 수 있는 경우에만 사용할 수 있는 방법. 뉴런 종류의 개수까지 자동으\n로 파악하여 신호를 분류하는 딥러닝 기반 오토인코더 분류모델 개발. 구체적인 방법은\n다음과 같다 (그림 34)\n1) 신호의 특성 추출의 효율상승을 위해 신호의 값이 아닌 신호의 변화량(기울기)을 사\n용",
+    "section_context_candidate": "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출",
+    "heading_candidates": [
+      "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          616.25,
+          543.43,
+          759.73
+        ],
+        "page_area_fraction": 0.1376
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          356.13,
+          511.29,
+          580.41
+        ],
+        "page_area_fraction": 0.1905
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0035",
+    "caption": "Auto-encoder 기반 자동 clustering 모델",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "23\n그림 34 Auto-encoder 기반 자동 clustering 모델\nŸ 신호의 값 자체를 사용할 때 보다 신호의 변화량 값을 사용할 경우, 각 신호가 가지는 특\n징들을 더 확연하게 보여줌으로써 신호 분류 효과가 상승함\nŸ 그림 35에 나타난 것처럼 3개의 신경 세포를 가진 서로 다른 20개의 extra-cellular 신호\n에 대해 신경 세포의 개수를 맞추는 실험결과, 변화량 측정 간격이 1 sampling point일\n때 가장 좋은 결과를 보이는 것으로 확인됨\n그림 35 sapling point interval에 따른 결과 비교\nŸ 본 연구진이 사용한 딥러닝 모델은 비지도 학습 방법인 오토인코더로써, 입력과 출력 데\n이터가 동일한 딥러닝 모델. 여러 번의 차원 감소 과정을 통해 가운데 layer에서 원신호",
+    "section_context_candidate": "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          657.24,
+          503.49,
+          777.35
+        ],
+        "page_area_fraction": 0.102
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.17,
+          382.38,
+          462.35,
+          515.92
+        ],
+        "page_area_fraction": 0.0873
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0036",
+    "caption": "sapling point interval에 따른 결과 비교",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "23\n그림 34 Auto-encoder 기반 자동 clustering 모델\nŸ 신호의 값 자체를 사용할 때 보다 신호의 변화량 값을 사용할 경우, 각 신호가 가지는 특\n징들을 더 확연하게 보여줌으로써 신호 분류 효과가 상승함",
+    "caption_and_following_text": "Ÿ 그림 35에 나타난 것처럼 3개의 신경 세포를 가진 서로 다른 20개의 extra-cellular 신호\n에 대해 신경 세포의 개수를 맞추는 실험결과, 변화량 측정 간격이 1 sampling point일\n때 가장 좋은 결과를 보이는 것으로 확인됨\n그림 35 sapling point interval에 따른 결과 비교\nŸ 본 연구진이 사용한 딥러닝 모델은 비지도 학습 방법인 오토인코더로써, 입력과 출력 데\n이터가 동일한 딥러닝 모델. 여러 번의 차원 감소 과정을 통해 가운데 layer에서 원신호\n를 복원시키는데 필요한 압축된 핵심 표현형을 추출할 수 있음\nŸ 그림 36을 통해, 오토인코더의 layer 깊이에 따라 입력 데이터에 대한 복원 정도의 차이\n를 확인할 수 있음. 깊이가 얇을수록 주요 특징들만 복원하는 경향이 두드러지고, 깊이가\n깊어질수록 불필요한 잡음까지 복원하는 경향을 보임",
+    "section_context_candidate": "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.56,
+          657.24,
+          503.49,
+          777.35
+        ],
+        "page_area_fraction": 0.102
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.17,
+          382.38,
+          462.35,
+          515.92
+        ],
+        "page_area_fraction": 0.0873
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0037",
+    "caption": "오토인코더의 layer 깊이에 따른 복원 차이 비교",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "24\n포인트는 outlier point로 분류됨. 두개 이상의 core point가 border point를 radius ε 안에\n공유한다면, 해당 core point와 이의 모든 border point는 같은 cluster로 분류됨.\n그림 36 오토인코더의 layer 깊이에 따른 복원 차이 비교\n그림 37 각 모델과 앙상블 모델을 통해 추출된 데이터를 사용한 분류 비교 Ÿ 그림 37을 통해, 각 모델과 앙상블 모델을 통해 추출된 데이터를 사용한 신호 분류 결과\n비교를 확인할 수 있음\nŸ 그림 38을 통해, 3세부로부터 제공받은 쥐의 in vivo extra-cellular 신호에 대한 알고리\n즘 적용 결과 우수한 분류 결과를 얻음\nŸ 잡음이 심하고 신경 파형의 모양이 유사해도 본 연구진이 개발한 방법으로 효과적인 신\n경 신호 분류가 가능함",
+    "section_context_candidate": "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.98,
+          433.69,
+          493.65,
+          742.23
+        ],
+        "page_area_fraction": 0.2403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          249.21,
+          511.29,
+          380.22
+        ],
+        "page_area_fraction": 0.1113
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0038",
+    "caption": "각 모델과 앙상블 모델을 통해 추출된 데이터를 사용한 분류 비교",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "24",
+    "caption_and_following_text": "포인트는 outlier point로 분류됨. 두개 이상의 core point가 border point를 radius ε 안에\n공유한다면, 해당 core point와 이의 모든 border point는 같은 cluster로 분류됨.\n그림 36 오토인코더의 layer 깊이에 따른 복원 차이 비교\n그림 37 각 모델과 앙상블 모델을 통해 추출된 데이터를 사용한 분류 비교 Ÿ 그림 37을 통해, 각 모델과 앙상블 모델을 통해 추출된 데이터를 사용한 신호 분류 결과\n비교를 확인할 수 있음\nŸ 그림 38을 통해, 3세부로부터 제공받은 쥐의 in vivo extra-cellular 신호에 대한 알고리\n즘 적용 결과 우수한 분류 결과를 얻음\nŸ 잡음이 심하고 신경 파형의 모양이 유사해도 본 연구진이 개발한 방법으로 효과적인 신\n경 신호 분류가 가능함\nŸ 데이터 분류를 정성적으로 평가할 뿐 아니라 군집도 평가 기법인 silhouette을 사용하여",
+    "section_context_candidate": "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.98,
+          433.69,
+          493.65,
+          742.23
+        ],
+        "page_area_fraction": 0.2403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.35,
+          249.21,
+          511.29,
+          380.22
+        ],
+        "page_area_fraction": 0.1113
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0039",
+    "caption": "쥐에서 측정된 in-vivo 데이터의 특징 추출",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "25\n요소 간 거리의 평균) Ÿ 위 식을 기준으로 –1에서 1까지의 점수를 계산함. -1에 가까울수록 군집화가 되지 않았\n다는 의미이며 1에 가까울수록 군집화가 잘 되었다는 것을 의미. Silhouette 통계 점수가\n0.5가 넘으면 군집화가 잘 된 것으로 평가",
+    "caption_and_following_text": "Ÿ 그림 38의 왼쪽, 오른쪽 신호에 대해 0.5351, 0.5512의 silhouette 값을 도출해 냄. 이를 통\n해 2가지의 in-vivo 신호에 대해 모두 0.5 이상의 silhouette 점수를 보이므로 의미 있는\n차원 감소를 해냈다고 볼 수 있음\n그림 38 쥐에서 측정된 in-vivo 데이터의 특징 추출\nŸ 표 2는 본 연구진이 개발한 방법이 기존 방법들 대비 가장 높은 성능을 보임을 정량적으\n로 보여줌. 신경 세포의 개수가 증가함에 따라 대부분의 방법들의 정확도가 감소하는 경\n향을 보임. 그러나, 본 연구진이 개발한 방법은 신경 세포의 개수와 상관없이 비교방법들\n중 가장 높은 성능을 보임\nŸ 그림 39는 본 연구진이 개발한 방법이 비교된 신경 세포 분류 방법들 중 가장 높은 군집\n화를 이뤄냄을 시각적으로 보여줌. 동일한 색의 점들은 동일한 신경세포로부터 발생한 스",
+    "section_context_candidate": "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.08,
+          441.36,
+          454.67,
+          654.24
+        ],
+        "page_area_fraction": 0.1326
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0040",
+    "caption": "신경 세포 분류 정확도 (%) 비교",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "파이크들로 본 연구진이 제안한 방법에서 가장 구분이 가능하게 그룹화 되어짐\nNo. Source\nNeurons No.Spikes PCA\nDBSCAN\nDM\nDBSCAN Wave_clus LDA-GMM Ours\n2 800 95.31 87.78 92.46 92.74 97.65",
+    "caption_and_following_text": "3 1200 89.36 92.52 93.03 86.91 94.62\n4 1600 80.60 85.14 93.67 85.09 94.25\n5 2000 74.42 72.04 90.21 85.49 90.49\n표 2. 신경 세포 분류 정확도 (%) 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 비지도 학습 방법인 오토인코더 모델을 통해 데이터의 압축 표현형을 추출",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.08,
+          441.36,
+          454.67,
+          654.24
+        ],
+        "page_area_fraction": 0.1326
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0041",
+    "caption": "여러 신경 세포 분류 방법들의 군집화 성능에 대한 시각적 예시",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "26\n그림 39. 여러 신경 세포 분류 방법들의 군집화 성능에 대한 시각적 예시\n3. 대용량 신경신호 분류 및 분석 기술 개발\n3-1) 대용량 신경신호 분류 기술 개발\n가) 다전극 신경신호 분류 기술 개발\nŸ 1차년도에 개발한 신경신호 시뮬레이터, 2차년도에서 개발한 MLP 기반 신경신호 분류\n기술을 이용하여 다채널 전극을 위한 신경신호 분류기술을 개발함. 개발된 다채널용 신\n경신호 분류 기술은 그림 34의 형태를 기반으로 하며 2차원 배열의 전극과 시간축을 더\n한 3차원 데이터를 입력 데이터 (그림 40)로 사용 가능함\n그림 40. 다채널 전극을 이용한 3차원 신경신호 데이터",
+    "section_context_candidate": "3. 대용량 신경신호 분류 및 분석 기술 개발",
+    "heading_candidates": [
+      "3. 대용량 신경신호 분류 및 분석 기술 개발",
+      "3-1) 대용량 신경신호 분류 기술 개발",
+      "가) 다전극 신경신호 분류 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          529.1,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.2334
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.63,
+          188.55,
+          432.01,
+          364.04
+        ],
+        "page_area_fraction": 0.0934
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0042",
+    "caption": "다채널 전극을 이용한 3차원 신경신호 데이터",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "26\n그림 39. 여러 신경 세포 분류 방법들의 군집화 성능에 대한 시각적 예시\n3. 대용량 신경신호 분류 및 분석 기술 개발\n3-1) 대용량 신경신호 분류 기술 개발\n가) 다전극 신경신호 분류 기술 개발\nŸ 1차년도에 개발한 신경신호 시뮬레이터, 2차년도에서 개발한 MLP 기반 신경신호 분류",
+    "caption_and_following_text": "기술을 이용하여 다채널 전극을 위한 신경신호 분류기술을 개발함. 개발된 다채널용 신\n경신호 분류 기술은 그림 34의 형태를 기반으로 하며 2차원 배열의 전극과 시간축을 더\n한 3차원 데이터를 입력 데이터 (그림 40)로 사용 가능함\n그림 40. 다채널 전극을 이용한 3차원 신경신호 데이터\nŸ 단일 전극으로부터의 데이터에 비하여 다 전극 데이터의 경우 더 많은 정보를 포함하고\n있기 때문에, 인공지능 네트워크에게 더 많은 정보를 제공하는 것이 가능. 즉, 다전극 데\n이터는 단일 전극 데이터에 비해 더 높은 수준의 분류 정확도를 제공할 수 있을 것으로\n기대\nŸ 그림 41은 단일 채널 전극에 비하여 다전극 채널이 더 높은 분류 정확도를 제공한다는\n것을 보여줌. 해당 다전극 채널 데이터는 tetrode 데이터로 4개의 전극으로 구성되어 있",
+    "section_context_candidate": "3. 대용량 신경신호 분류 및 분석 기술 개발",
+    "heading_candidates": [
+      "3. 대용량 신경신호 분류 및 분석 기술 개발",
+      "3-1) 대용량 신경신호 분류 기술 개발",
+      "가) 다전극 신경신호 분류 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          529.1,
+          534.07,
+          777.35
+        ],
+        "page_area_fraction": 0.2334
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.63,
+          188.55,
+          432.01,
+          364.04
+        ],
+        "page_area_fraction": 0.0934
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0043",
+    "caption": "싱글채널 및 다채널 데이터를 이용한 신경신호 분류 결과 비교",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "27\n음\n그림 41. 싱글채널 및 다채널 데이터를 이용한 신경신호 분류 결과 비교\nŸ 현재 세계적으로 대용량 다전극 신경신호 데이터를 이용한 연구는 발돋움 단계에 있으\n며, 오픈 소스 등의 확보는 어려운 상태. 따라서, 본 연구진은 1차년도에서 개발한 신경\n신호 시뮬레이터를 통하여 대용량 다전극 신경신호 데이터를 생성, 이를 이용한 연구를\n진행함\nŸ 본 연구진은 잡음의 정도, 신경세포의 개수, 전극의 개수에 따라 신경신호 분류 정확도\n를 측정하였음. 각 잡음별 신호는 다음 그림 42와 같이 나타내어지며 신경세포의 개수와\n전극의 개수의 배열은 그림 43과 같이 나타내어짐.",
+    "section_context_candidate": "가) 다전극 신경신호 분류 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          546.48,
+          548.35,
+          759.73
+        ],
+        "page_area_fraction": 0.2053
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          280.01,
+          537.07,
+          382.86
+        ],
+        "page_area_fraction": 0.0967
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0044",
+    "caption": "잡음의 크기에 따른 신호의 형태",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "27\n음\n그림 41. 싱글채널 및 다채널 데이터를 이용한 신경신호 분류 결과 비교\nŸ 현재 세계적으로 대용량 다전극 신경신호 데이터를 이용한 연구는 발돋움 단계에 있으\n며, 오픈 소스 등의 확보는 어려운 상태. 따라서, 본 연구진은 1차년도에서 개발한 신경\n신호 시뮬레이터를 통하여 대용량 다전극 신경신호 데이터를 생성, 이를 이용한 연구를\n진행함",
+    "caption_and_following_text": "Ÿ 본 연구진은 잡음의 정도, 신경세포의 개수, 전극의 개수에 따라 신경신호 분류 정확도\n를 측정하였음. 각 잡음별 신호는 다음 그림 42와 같이 나타내어지며 신경세포의 개수와\n전극의 개수의 배열은 그림 43과 같이 나타내어짐.\n그림 42. 잡음의 크기에 따른 신호의 형태\nŸ 각 잡음별 성능은 그림 44에 나타남. 그림 42에서 알 수 있듯이 같이 잡음이 강한 경우\n는 분류가 불가능할 정도로 신호가 섞이기 때문에 낮은 정확도를 나타내며, 일반적인 잡\n음 혹은 잡음이 없는 경우는 대부분 본 연구진이 개발한 알고리즘이 기존 머신러닝 기\n반 알고리즘에 비해 더 높은 성능을 보이는 것을 알 수 있음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 다전극 신경신호 분류 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          546.48,
+          548.35,
+          759.73
+        ],
+        "page_area_fraction": 0.2053
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          280.01,
+          537.07,
+          382.86
+        ],
+        "page_area_fraction": 0.0967
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0045",
+    "caption": "전극의 개수와 신경세포의 개수에 따른 신경세포, 전극의 배열 예시",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "28\n그림 43. 전극의 개수와 신경세포의 개수에 따른 신경세포, 전극의 배열 예시\n그림 44. 신경세포의 개수, 전극의 개수, 노이즈의 정도에 따른 신경신호 분류 성능 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 다전극 신경신호 분류 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          394.97,
+          537.07,
+          777.35
+        ],
+        "page_area_fraction": 0.3595
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          58.98,
+          534.07,
+          352.3
+        ],
+        "page_area_fraction": 0.2757
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0046",
+    "caption": "신경세포의 개수, 전극의 개수, 노이즈의 정도에 따른 신경신호 분류 성능 비교",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "28\n그림 43. 전극의 개수와 신경세포의 개수에 따른 신경세포, 전극의 배열 예시\n그림 44. 신경세포의 개수, 전극의 개수, 노이즈의 정도에 따른 신경신호 분류 성능 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가) 다전극 신경신호 분류 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          394.97,
+          537.07,
+          777.35
+        ],
+        "page_area_fraction": 0.3595
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          58.98,
+          534.07,
+          352.3
+        ],
+        "page_area_fraction": 0.2757
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0047",
+    "caption": "인공지능 알고리즘의 입력 신호의 시간적 위치에 따른 특징값의 어텐션 예시. 각 행은 각각의 신경세포를 나타내며 각 열은 인공지능 네트워크의 깊이에 따른 특징점을 나타냄. (푸른색: 낮은 깊이, 초록색: 중간 깊이, 붉은색: 높은 깊이) Node 1, 2, 3은 각각의 특징점을 나타냄",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "혹은 ‘어텐션 매핑’ 방식이 많이 연구되고 있음\nŸ 본 연구진은 신경 신호에 대한 어텐션 연구를 통해 인공지능 알고리즘이 신경 신호 분\n류를 위하여 신경 신호 파형의 어떤 부분을 중점적으로 연산하는지를 나타내었음\nŸ 기본적으로 ‘어텐션 매핑’ 방식은 입력을 바꿔가며 출력이 바뀌는 정도를 계산. 본 연구\n진은 이를 응용하여 신경 신호 파형을 시간적 위치 별로 값을 변화시키며 시간적 위치\n가 출력에 얼마나 영향을 미치는지를 계산하였음\nŸ 뇌 신경신호 연구 분야의 전문가들은 신경신호 분류를 진행함에 있어 신경신호 파형의",
+    "caption_and_following_text": "가장 큰 특징인 최고점과 최저점, 그 사이의 기울기 등을 이용하여 분류를 진행함\n그림 45. 인공지능 알고리즘의 입력 신호의 시간적 위치에 따른 특징값의 어텐션 예시. 각 행은 각각의 신경세포를 나타내며\n각 열은 인공지능 네트워크의 깊이에 따른 특징점을 나타냄. (푸른색: 낮은 깊이, 초록색: 중간 깊이, 붉은색: 높은 깊이) Node\n1, 2, 3은 각각의 특징점을 나타냄\nŸ 그림 45는 인공지능 네트워크의 깊이에 따른 신경신호의 시간적 위치의 어텐션 매핑 결\n과를 보여줌. 그림에서 푸른색, 초록색, 붉은색 바탕은 레이어의 깊이를 나타내는데, 레\n이어의 깊이에 상관없이 실제 전문가들이 주의 깊게 생각하는 입력의 최고점, 최저점,\n가파른 기울기 부분들에서 어텐션이 크게 나타나는 것을 확인할 수 있음. 즉, 인공지능\n네트워크가 전문가들과 유사한 부분으로부터 신경신호 분류를 진행하고 있음을 알 수\n있음",
+    "section_context_candidate": "가) 다전극 신경신호 분류 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          288.52,
+          537.07,
+          548.76
+        ],
+        "page_area_fraction": 0.2446
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0048",
+    "caption": "다전극 데이터에 대한 어텐션 매핑 결과 예시",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "30\n그림 46. 다전극 데이터에 대한 어텐션 매핑 결과 예시\nŸ 그림 46은 다전극 데이터, 위의 경우에서는 4개의 전극을 가진 tetrode 데이터에서의 어\n텐션 매핑 결과를 보여줌. 결과는 그림 45에서와 마찬가지로 전문가들의 주의깊게 관찰\n하는 최고점, 최저점, 가파른 기울기 부분에서 높은 어텐션을 나타냄. 이는 모든 전극에\n수용되는 데이터에서도 동일하게 나타남\nŸ 추가적으로 그림 45와 그림 46에는 핵심 부분 이외에도 어텐션이 나타나는 부분이 존재.\n이것은 인공지능 네트워크가 기존에 핵심 부분으로 알려진 부분들 외에도 추가로 신경\n신호 분류에 사용하고 있다는 것을 나타냄\n3-2) 신경상관자 연구를 통한 신경신호 위치 매핑 알고리즘 개발",
+    "section_context_candidate": "3-2) 신경상관자 연구를 통한 신경신호 위치 매핑 알고리즘 개발",
+    "heading_candidates": [
+      "3-2) 신경상관자 연구를 통한 신경신호 위치 매핑 알고리즘 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          577.41,
+          537.07,
+          777.35
+        ],
+        "page_area_fraction": 0.188
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0049",
+    "caption": "신경신호의 채널에 대한 일반화 모습",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "31\n그림 47. 신경신호의 채널에 대한 일반화 모습\n그림 48. 신경신호의 강도를 기반으로 한 신경 세포와 전극 사이의 거리 추측\nŸ 본 연구진은 신경 세포 거리 측정을 신경세포의 수와 전극의 수, 잡음의 정도에 따라 진\n행하고 그에 대한 오차를 추정함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3-2) 신경상관자 연구를 통한 신경신호 위치 매핑 알고리즘 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.34,
+          519.51,
+          468.47,
+          777.35
+        ],
+        "page_area_fraction": 0.1799
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.5,
+          210.49,
+          479.02,
+          476.84
+        ],
+        "page_area_fraction": 0.1919
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0050",
+    "caption": "신경신호의 강도를 기반으로 한 신경 세포와 전극 사이의 거리 추측",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "31\n그림 47. 신경신호의 채널에 대한 일반화 모습\n그림 48. 신경신호의 강도를 기반으로 한 신경 세포와 전극 사이의 거리 추측\nŸ 본 연구진은 신경 세포 거리 측정을 신경세포의 수와 전극의 수, 잡음의 정도에 따라 진\n행하고 그에 대한 오차를 추정함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3-2) 신경상관자 연구를 통한 신경신호 위치 매핑 알고리즘 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.34,
+          519.51,
+          468.47,
+          777.35
+        ],
+        "page_area_fraction": 0.1799
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.5,
+          210.49,
+          479.02,
+          476.84
+        ],
+        "page_area_fraction": 0.1919
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0051",
+    "caption": "잡음의 정도에 따른 신경 세포 위치 측정 오차",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "32\n그림 49. 잡음의 정도에 따른 신경 세포 위치 측정 오차\nŸ 그림 49는 본 연구진이 기존에 개발한 신경 신호 분류 알고리즘과 기존의 머신 러닝 기\n반 신경 신호 분류 알고리즘을 통하여 신경 신호를 분류하고 그 결과에 개발한 신경 신\n호 위치 매핑 알고리즘을 적용하여 신경 신호의 위치를 추정한 결과. Ÿ label, 본 연구진의 알고리즘, 기존 머신 러닝 기반 알고리즘으로 바뀜에 따라 군집화 정\n확도가 떨어지고, 그에 따라 위치 매핑 오차가 커지는 것을 알 수 있음\nŸ 즉 신경세포의 위치 측정 성능은 군집화 결과와도 직접적으로 연관되며, 본 연구진이 개\n발한 인공지능 알고리즘이 label과 더 근접한 결과를 도출함을 알 수 있음\nŸ 그림 48에서 나타나 있듯이 각 전극간의 거리는 20 μm으로 전극 사이의 거리만큼 위치\n매핑 오차가 발생하는 경우는 잡음이 강하거나, 신경 세포의 개수가 많은 경우임을 확인",
+    "section_context_candidate": "3-2) 신경상관자 연구를 통한 신경신호 위치 매핑 알고리즘 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          447.71,
+          537.07,
+          777.35
+        ],
+        "page_area_fraction": 0.3099
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S36-V0052",
+    "caption": "평균 방식과 대표 스파이크 값을 통한 위치 매핑 방식의 결과 비교",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 34,
+    "prefix_match_only": false,
+    "text_before": "(출원번호)\n10-2020\n-0019540\n(출원일)\n2020.02\n연세대학교\n산학협력단",
+    "caption_and_following_text": "황도식, 엄준식, 박인용, 김세원, 장한별, 허여울, 조제원, 박상건\n(출원)\n번호 논문제목 저널명 ISSN 게재 역할 비고\n그림 50. 평균 방식과 대표 스파이크 값을 통한 위치 매핑 방식의 결과 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-2. 대표적 성과 (총 5개 이내)",
+    "heading_candidates": [
+      "2-2. 대표적 성과 (총 5개 이내)"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          461.86,
+          537.07,
+          777.35
+        ],
+        "page_area_fraction": 0.2966
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

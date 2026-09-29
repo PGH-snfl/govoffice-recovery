@@ -1,0 +1,416 @@
+[
+  {
+    "visual_id": "S20-V0001",
+    "caption": "연료전지 스택, 구성요소 및 구동 모식도",
+    "pdf_page_candidate": 4,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "전에 따라 해가 갈수록 그 사용량이 증가하여 왔다. 이로 인한 화석연료의 고갈 문제와 더불어 화석연료\n의 연소에 의해 배출되는 산화탄소(CO, CO2), 질소산화물(NOx), 황산화물(SOx)등의 “온실 가스”는 심각한\n환경문제 문제와 기후 변화를 야기하였다. 이에 대응하고자 하는 전지구적인 노력의 일환으로 최근 “파\n리 협정”을 통하여 한국을 포함한 187개국이 자발적으로 온실가스 감축목표를 제출하면서, 대체 에너지\n원의 개발은 전세계적으로 가장 시급한 과제로 대두되었다. □ 수소연료전지를 통한 친환경 에너지 시대: 수소는 높은 에너지밀도와 연소시 물만을 부산물로 배출하는\n친환경 에너지원이기 때문에 가장 각광받고 신재생 에너지원이다. 수소연료전지는 수소와 산소를 전극에\n서 산화/환원반응 시켜 전기를 생산하는 차세대 에너지 변환 장치이다 (그림 1). 수소에 저장되어 있는 화",
+    "caption_and_following_text": "학에너지를 전기에너지로 직접 변환하기 때문에 효율이 높으며, 부산물로서 물과 열만이 발생되기 때문에\n화석연료와 달리 친환경적이다. 또한, 수소를 얻을 수 있는 원료인 물은 사실상 무한하기 때문에 화석연료\n에서 야기되는 매장량 문제도 해결 가능하다.\n[그림 1] 연료전지 스택, 구성요소 및 구동 모식도\n□ 산소환원반응 촉매: 수소연료전지에서는 산화극(음극)에서 수소산화반응이 환원극(양극)에서 산소환원반응\n이 발생한다. 산소환원반응은 수소산화반응에 비해 반응속도가 약 백만 배 느리기 때문에 연료전지 효율\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.86,
+          597.55,
+          488.02,
+          729.76
+        ],
+        "page_area_fraction": 0.1007
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.25,
+          123.58,
+          483.7,
+          345.22
+        ],
+        "page_area_fraction": 0.1605
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0002",
+    "caption": "(a) 자연계 산소환원반응 효소인 Cytochrome c oxidase의 활성점 구조. (b) Fe–N4 배위 구조를 갖는 철 프탈로시아닌의 분자 구조. (c) 열처리를 통해 합성한 Fe–N/C 촉매에 포함되어 있을 것으로 추측되는 활성점",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "다. Cytochrome c oxidase(CcO)는 생체에서 산소환원반응을 매우 빠르고 효율적으로 진행하는 효소이다. CcO의 높은 촉매 활성은 철 원자 주변에 5개의 질소(4개의 질소는 square planar 면에, 나머지 1개의 질소\n는 axial 방향으로 배위)가 배위하고 있는 특별한 미세 구조 때문인 것으로 알려져 있다 (그림 2). 매우 정\n교한 생체 촉매의 활성점을 M–N/C 촉매에 구현하기는 힘들지만 비슷한 단원자 전이금속–질소의 배위 결\n합(M–Nx 활성점)을 형성함으로써 고성능을 얻을 수 있다. □ M–N/C 촉매의 활성점 연구의 문제점: 하지만 M–Nx 활성점을 형성하기 위해 필수적으로 포함되는 고온 열\n처리 과정에 의해 다음과 같은 문제가 발생하기 때문에 고성능 촉매 개발이 저해되어 왔다. (1) 고온에서\n전구체가 분해되어 M–Nx 활성점을 형성하지만 매우 다양한 배위 구조가 형성되어 각각의 활성점의 특성을\n이해하기 힘들다. (2) 고온에서 전이금속 원자가 서로 뭉쳐서 활성이 없는 입자를 형성하기 때문에 M–Nx 활성점을 선택적으로 합성하기 힘들다. 이러한 이유들로 인해 합리적인 촉매 설계 개념 수립이 어려워 활",
+    "caption_and_following_text": "성점 연구를 위한 합성 플랫폼 및 활성점을 선택적으로 형성하는 합성법 개발이 필요하다.\n[그림 2] (a) 자연계 산소환원반응 효소인 Cytochrome c oxidase의 활성점 구조. (b) Fe–N4 배위 구조를 갖는\n철 프탈로시아닌의 분자 구조. (c) 열처리를 통해 합성한 Fe–N/C 촉매에 포함되어 있을 것으로\n추측되는 활성점.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.73,
+          163.98,
+          461.15,
+          389.81
+        ],
+        "page_area_fraction": 0.1478
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0003",
+    "caption": "연차별 연구내용을 요약한 과제 개요",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 7 -\n2. 연구수행내용 및 연구결과\n(가) 전체연구전략\n§ 본 연구에서는 기존 M-N/C 촉매의 시행착오적 개발 방식에서 탈피, 촉매의 합리적 설계 개념을 도출\n하여 고성능 촉매 개발을 가속화 시키고자 함",
+    "caption_and_following_text": "§ 원자 수준에서 활성점이 조절 가능한 새로운 모듈형 합성 플랫폼을 개발하고 촉매의 구조 분석과 성\n능 평가를 통해 최적의 활성점을 밝혀내고자 함\n§ 궁극적으로 최적의 활성점을 다량 함유한 촉매를 대량 합성하여 시스템 성능 구현을 목표로 함\n[그림 3] 연차별 연구내용을 요약한 과제 개요\n(나) 1차년도 (2017): 활성점을 자유롭게 조절할 수 있는 플랫폼 개발\n□ 모듈식 M-Nx 활성점 형성을 위한 탄소 담체 제조\n§ M-Nx 활성점을 자유롭게 조절하기 위해서는 단원자 M-Nx 활성점을 안정화 시킬 수 있는 탄소 담체의\n합성\n§ 단원자 전이금속은 높은 표면에너지로 인해 쉽게 뭉치는데, 이는 담체의 defect Site와의 배위 결합을\n통해 안정화 될 수 있음: 본 연구에서는 마이크로 기공 탄소에 다수 함유되어있는 defect site를 활용",
+    "section_context_candidate": "2. 연구수행내용 및 연구결과",
+    "heading_candidates": [
+      "2. 연구수행내용 및 연구결과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.27,
+          281.21,
+          509.61,
+          630.27
+        ],
+        "page_area_fraction": 0.296
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0004",
+    "caption": "NaX Zeolite 주형과 마이크로 기공 탄소 담체의 XRD pattern(좌), 질소 흡-탈착 곡선(중) 및 기공 크기 분포(우)",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "§ 전이금속 전구체의 종류 선택 및 담지 열처리 조건 등 배위 구조 형성을 위한 최적의 합성 조건 탐색\n이 필요함\n□ 배위 리간드 종류의 확장\n§ 현재 대부분의 연구는 전이금속과 질소로 이루어진 촉매 개발에만 집중되어 있음\n§ 탄소 담체 제조시 다양한 이종원소(N, S, P ...)가 함유된 탄소를 이용하여 보고된 적 없는 새로운 단\n원자 전이금속-리간드 배위 활성점을 제시하고자 함\n§ 두 가지 이상의 이종 원소 리간드와 배위한 활성점 형성을 통해 활성 증가의 시너지도 얻을 수 있을",
+    "caption_and_following_text": "것으로 기대함\n§ 전이금속 및 이종 원소 배위 리간드 종류의 조절을 통해 단원자 전이금속 활성점의 배위 구조를 자유\n롭게 조절할 수 있는 플랫폼이 완성됨\n[그림 4] NaX Zeolite 주형과 마이크로 기공 탄소 담체의 XRD pattern(좌), 질소 흡-탈착 곡선(중) 및 기공 크기 분포(우)\n□ 이종 원소가 함유된 마이크로 기공 탄소 담체 제조\n§ 탄소 담체의 주형으로 쉽게 구할 수 있는 상용 NaX 제올라이트(zeolite)을 이용하였음\nü 본 제올라이트의 구조가 잘 알려져 있어 이를 이용하여 만든 촉매 구조의 이해가 용이함\n§ 아세틸렌 가스를 제올라이트 기공에 화학 증착(chemical vapor deposition; CVD)하고 산 처리를 통해\n제올라이트 주형을 제거함\nü NaX 제올라이트를 본뜬 마이크로 기공 탄소 담체 제작(zeolite-templated carbon; ZTC) § 제올라이트를 제거하기 전 NH3과 H2S 가스 조건에서 열처리를 할 경우 N과 S가 각각 도핑된 마이크",
+    "section_context_candidate": "2. 연구수행내용 및 연구결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.83,
+          359.08,
+          503.43,
+          536.46
+        ],
+        "page_area_fraction": 0.148
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0005",
+    "caption": "세 가지의 마이크로 기공 탄소 담체에 철을 담지한 촉매의 X-선 회절 분석(좌) 및 Elemental mapping image(우)",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 9 -\nü 이토록 작은 기공 구조에서 단원자 수준의 활성점 형성이 활발히 일어날 것으로 생각됨\nü 합성된 마이크로 기공 탄소는 800-2000m2 g−1 이상의 고 표면적을 가지고 있음",
+    "caption_and_following_text": "ü 마이크로 기공 탄소는 0.5-0.8nm의 기공 크기를 가짐\n§ 마이크로 기공 탄소는 표면적이 높아 담체로 사용될 경우 촉매 활성점의 분포 및 표면 노출을 극대화\n하여 높은 산소환원반응 활성을 얻는데 유리할 것으로 생각됨\n[그림 5] 세 가지의 마이크로 기공 탄소 담체에 철을 담지한 촉매의 X-선 회절 분석(좌) 및 Elemental mapping image(우)\n□ 마이크로 기공 탄소 담체에 철 담지\n§ 합성된 세 가지의 마이크로 기공 탄소 (N-ZTC, S-ZTC, ZTC)에 Fe을 담지\n§ 고각 XRD 분석에서 결정성 Fe peak이 발견되지 않았으며 오직 무정형(amorphous) 탄소에 해당하는\n20, 45o의 peak만 관찰됨 (그림 5)\nü Fe이 서로 응집하여 크게 성장하지 않고 탄소에 고르게 분산되어 있음을 확인\n§ 고해상도 투과 전자 현미경에 장착된 energy dispersive X-ray spectroscopy(EDS) 분석을 통해 원소의",
+    "section_context_candidate": "2. 연구수행내용 및 연구결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.74,
+          444.21,
+          488.78,
+          660.86
+        ],
+        "page_area_fraction": 0.1706
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0006",
+    "caption": "마이크로 기공 탄소에서의 물질 전달 한계",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 10 -",
+    "caption_and_following_text": "(다) 2차년도 (2018): 촉매 구조 및 성능 평가를 통한 최적의 배위 구조 탐색\n□ 마이크로 기공 탄소 촉매 개선 방향\n§ 1차년도에 개발한 마이크로 기공 탄소 담체에서는 물질 전달의 한계로 낮은 성능을 보임\n[그림 6] 마이크로 기공 탄소에서의 물질 전달 한계\n§ 촉매 표면에서의 물질 전달 효율을 높이기 위해 다른 종류의 탄소지지체 사용이 필요\n§ 고 표면적을 가진 마이크로 기공 탄소 담체 대신 다른 탄소를 사용하게 되면 금속종의 뭉침이 발생\n§ 다른 종류의 탄소 담체를 사용하면서 산소환원 반응의 비활성종인 결정형 금속종을 억제하기 위해서\n는 추가적인 합성 전략 필요\n[그림 7] 실리카 보호층 도입 개념도(좌), X선 흡수 분석(우)\n□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "section_context_candidate": "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "heading_candidates": [
+      "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          191.34,
+          560.0,
+          400.79,
+          700.07
+        ],
+        "page_area_fraction": 0.0586
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.3,
+          236.71,
+          416.83,
+          406.24
+        ],
+        "page_area_fraction": 0.0818
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0007",
+    "caption": "실리카 보호층 도입 개념도(좌), X선 흡수 분석(우)",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 10 -\n(다) 2차년도 (2018): 촉매 구조 및 성능 평가를 통한 최적의 배위 구조 탐색\n□ 마이크로 기공 탄소 촉매 개선 방향\n§ 1차년도에 개발한 마이크로 기공 탄소 담체에서는 물질 전달의 한계로 낮은 성능을 보임\n[그림 6] 마이크로 기공 탄소에서의 물질 전달 한계\n§ 촉매 표면에서의 물질 전달 효율을 높이기 위해 다른 종류의 탄소지지체 사용이 필요",
+    "caption_and_following_text": "§ 고 표면적을 가진 마이크로 기공 탄소 담체 대신 다른 탄소를 사용하게 되면 금속종의 뭉침이 발생\n§ 다른 종류의 탄소 담체를 사용하면서 산소환원 반응의 비활성종인 결정형 금속종을 억제하기 위해서\n는 추가적인 합성 전략 필요\n[그림 7] 실리카 보호층 도입 개념도(좌), X선 흡수 분석(우)\n□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발\n§ 고온 열처리 전의 실리카 보호층 도입\n§ X선 흡수 분석을 통해 촉매 활성점이 단원자 수준으로 분산 되어 있음을 확인 (그림 7) § 촉매 반쪽 전지 성능 평가 시에 Fe-Phen/CNT가 1년차 때 개발한 마이크로 기공 탄소 촉매보다 우수\n한 성능을 보임\n§ 탄소나노튜브를 담지체로 이용함으로써 다른 원소를 도핑해도 균일한 탄소 구조를 가지고 있음을 확\n인",
+    "section_context_candidate": "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "heading_candidates": [
+      "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          191.34,
+          560.0,
+          400.79,
+          700.07
+        ],
+        "page_area_fraction": 0.0586
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.3,
+          236.71,
+          416.83,
+          406.24
+        ],
+        "page_area_fraction": 0.0818
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0008",
+    "caption": "배위 구조 조절을 위해 사용된 전구체(좌), 반쪽 전지 활성(중) 및 연료 전지 활성(우)",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 11 -\n[그림 8] 배위 구조 조절을 위해 사용된 전구체(좌), 반쪽 전지 활성(중) 및 연료 전지 활성(우)\n□ 활성점의 배위 구조 변화에 따른 산소환원반응의 활성 관찰\n§ 활성점이 체계적으로 조절된 촉매들의 산소환원반응 성능 평가를 위해 반쪽 전지 테스트를 진행\n§ RRDE(Rotating Ring Disk Electrode)를 이용하여 활성점의 배위 구조 변화에 따른 산소환원반응의 선\n택도 및 반응 속도를 변화를 관찰하고 배위 구조와 활성간의 상관관계를 도출\n§ 앞서 개발한 촉매 합성법에서 Triphenylphosphine과 Benzothiadiazole을 첨가하여 전이금속-리간드 배\n위 구조를 변화시킴 (그림 8, 좌) § 반쪽 전지 성능과 연료 전지에서의 성능 경향 일치 (그림 8) § 최종적으로 질소만 있을 때보다 질소-황, 질소-인 등과 같이 이원 배위자로 활성점 형성될 때 성능\n향상\n□ 분광학 및 계산화학을 이용한 활성점의 구조적 특성 분석",
+    "section_context_candidate": "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.13,
+          173.69,
+          397.83,
+          386.82
+        ],
+        "page_area_fraction": 0.0812
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.21,
+          618.96,
+          497.79,
+          761.65
+        ],
+        "page_area_fraction": 0.1142
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0009",
+    "caption": "Si 2p X-선 광전자 분광법을 통해 실리카 보호층의 상 확인",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 11 -\n[그림 8] 배위 구조 조절을 위해 사용된 전구체(좌), 반쪽 전지 활성(중) 및 연료 전지 활성(우)\n□ 활성점의 배위 구조 변화에 따른 산소환원반응의 활성 관찰\n§ 활성점이 체계적으로 조절된 촉매들의 산소환원반응 성능 평가를 위해 반쪽 전지 테스트를 진행\n§ RRDE(Rotating Ring Disk Electrode)를 이용하여 활성점의 배위 구조 변화에 따른 산소환원반응의 선\n택도 및 반응 속도를 변화를 관찰하고 배위 구조와 활성간의 상관관계를 도출\n§ 앞서 개발한 촉매 합성법에서 Triphenylphosphine과 Benzothiadiazole을 첨가하여 전이금속-리간드 배",
+    "caption_and_following_text": "위 구조를 변화시킴 (그림 8, 좌) § 반쪽 전지 성능과 연료 전지에서의 성능 경향 일치 (그림 8) § 최종적으로 질소만 있을 때보다 질소-황, 질소-인 등과 같이 이원 배위자로 활성점 형성될 때 성능\n향상\n□ 분광학 및 계산화학을 이용한 활성점의 구조적 특성 분석\n[그림 9] Si 2p X-선 광전자 분광법을 통해 실리카 보호층의 상 확인\n§ Si 2p X-선 광전자 분광법을 통해 실리카 보호층 도입 시 촉매 표면을 실리카가 감싸고 있음을 확인\n§ 고온 열처리 전후의 실리카 보호층의 상태가 변하지 않음을 확인 (그림 9) § 이를 통해, 실리카 보호층이 고온 열처리에서 일어나는 금속 종의 뭉침을 효과적으로 억제할 것으로\n보임\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.13,
+          173.69,
+          397.83,
+          386.82
+        ],
+        "page_area_fraction": 0.0812
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.21,
+          618.96,
+          497.79,
+          761.65
+        ],
+        "page_area_fraction": 0.1142
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0010",
+    "caption": "Mössbauer 분석을 통해 촉매 내 Fe center와 주변 원자 간의 배위 분석",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 12 -\n[그림 10] Mössbauer 분석을 통해 촉매 내 Fe center와 주변 원자 간의 배위 분석\n§ 근본적인 활성점 이해를 위하여 Mössbauer 분석을 진행했고, Fe center 활성점 주변의 배위 상태 확\n인\n§ X-선 광전자 분광법에서 확인한 실리카 층이 Fe center와 화학적 배위를 가짐을 확인\n§ 특히, 실리카 내의 산소가 아닌 실리콘과 Fe center가 배위하고 있음을 Mössbauer 분석으로 알아냄\n§ 최종적인 촉매는 Fe-N/C 촉매의 활성점으로 보고된 M-Nx sites (peak D1, D2, D3)로만 구성되어 있음\n을 확인\n(라) 3차년도 (2019): 최적화된 촉매의 대량 생산에 용이한 합성법 개발 및 실제 수소연료전지 적용\n□ 최적화된 활성점을 가지는 촉매의 대량 합성",
+    "section_context_candidate": "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          581.0,
+          508.53,
+          770.28
+        ],
+        "page_area_fraction": 0.1596
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          147.04,
+          93.5,
+          447.72,
+          320.41
+        ],
+        "page_area_fraction": 0.1363
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0011",
+    "caption": "최적화된 촉매의 대량배치 합성 사진 (50 g 합성)",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "인\n§ X-선 광전자 분광법에서 확인한 실리카 층이 Fe center와 화학적 배위를 가짐을 확인\n§ 특히, 실리카 내의 산소가 아닌 실리콘과 Fe center가 배위하고 있음을 Mössbauer 분석으로 알아냄\n§ 최종적인 촉매는 Fe-N/C 촉매의 활성점으로 보고된 M-Nx sites (peak D1, D2, D3)로만 구성되어 있음\n을 확인\n(라) 3차년도 (2019): 최적화된 촉매의 대량 생산에 용이한 합성법 개발 및 실제 수소연료전지 적용\n□ 최적화된 활성점을 가지는 촉매의 대량 합성",
+    "caption_and_following_text": "§ 시스템 수준의 실제적인 촉매 적용을 위해서 촉매 대량 합성법 개발이 요구됨\n§ 합성 시 이용하는 반응기 규모 확대 및 대량합성을 위한 합성법 최적화를 통해 촉매의 대량 배치 합\n성에 성공 (그림 11)\n[그림 11] 최적화된 촉매의 대량배치 합성 사진 (50 g 합성)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          581.0,
+          508.53,
+          770.28
+        ],
+        "page_area_fraction": 0.1596
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          147.04,
+          93.5,
+          447.72,
+          320.41
+        ],
+        "page_area_fraction": 0.1363
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0012",
+    "caption": "촉매 성능 평가를 통한 촉매 합성 재현도 확인 및 안정성 테스트 결과",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 13 -\n§ 타 배치간의 촉매 성능 평가를 비교해서 우수한 촉매 합성 재현도 확보 (그림 12, 좌) § 10000회의 전압 싸이클링 테스트를 통해 개발한 촉매가 기존의 백금 기반 촉매보다 우수한 안정성을\n보임을 확인 (그림 12, 우)\n[그림 12] 촉매 성능 평가를 통한 촉매 합성 재현도 확인 및 안정성 테스트 결과\n□ 수소연료전지 시스템 수준 적용\n§ 수소연료전지 단위 전지에서의 성능은 실험실 수준의 반쪽 전지 성능 측정과 다르게 촉매 자체의 활\n성뿐만 아니라 시스템 내의 새로운 요소들에 의해 복합적으로 결정됨\n§ 따라서 반쪽 전지에서 얻은 촉매 활성을 실제 연료전지에서 구현하기 위해서 다양한 실험 변수를 최\n적화하는 과정을 통해 시스템 수준에서의 성능과 안정성을 구현하고자 함\n§ 에너지 기술 연구원 및 동진쎄미캠과의 협업을 통해 슬러리 scale-up 및 전극 연속제조 공정 개발 (그",
+    "section_context_candidate": "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.67,
+          534.49,
+          504.21,
+          719.93
+        ],
+        "page_area_fraction": 0.1532
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.5,
+          149.6,
+          491.38,
+          336.95
+        ],
+        "page_area_fraction": 0.1452
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S20-V0013",
+    "caption": "Scale-up한 수소연료전지 전극 및 사용 백금 촉매와의 성능 비교",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "보임을 확인 (그림 12, 우)\n[그림 12] 촉매 성능 평가를 통한 촉매 합성 재현도 확인 및 안정성 테스트 결과\n□ 수소연료전지 시스템 수준 적용\n§ 수소연료전지 단위 전지에서의 성능은 실험실 수준의 반쪽 전지 성능 측정과 다르게 촉매 자체의 활\n성뿐만 아니라 시스템 내의 새로운 요소들에 의해 복합적으로 결정됨\n§ 따라서 반쪽 전지에서 얻은 촉매 활성을 실제 연료전지에서 구현하기 위해서 다양한 실험 변수를 최\n적화하는 과정을 통해 시스템 수준에서의 성능과 안정성을 구현하고자 함",
+    "caption_and_following_text": "§ 에너지 기술 연구원 및 동진쎄미캠과의 협업을 통해 슬러리 scale-up 및 전극 연속제조 공정 개발 (그\n림 13, 좌) § 최적화된 촉매 이용 시 수소연료전지 구동 시스템에서 상용 백금 촉매에 준하는 성능을 보임 (그림\n13, 우)\n[그림 13] Scale-up한 수소연료전지 전극 및 사용 백금 촉매와의 성능 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 실리카 보호층 도입을 통한 M-Nx 활성점을 안정화되어 있는 Fe-Phen/CNT 촉매 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.67,
+          534.49,
+          504.21,
+          719.93
+        ],
+        "page_area_fraction": 0.1532
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.5,
+          149.6,
+          491.38,
+          336.95
+        ],
+        "page_area_fraction": 0.1452
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

@@ -1,0 +1,671 @@
+===== PDF PAGE 1 =====
+- 1 -
+기본연구 최종보고서
+① 부처사업명(대) 기초연구사업 보안등급(보안, 일반) 일반
+② 사 업 명(중) 기본연구 공개가능여부(공개, 비공개) 공개
+③ 세부사업명(소) 기본연구
+④ 과제성격(기초, 응용, 개발) 기초 ④-1 실용화 대상여부(실용화, 비실용화) 비실용화
+⑤ 연구개발과제명
+국 문 고형암의 다항원을 표적으로 하는 CAR-T 개발
+영 문 Multi-antigen-targeted chimeric antigen receptor T cells for solid tumor
+⑥ 주관연구개발기관 한국연구재단
+⑦ 연구책임자
+성 명 김형수 직급(직위) 교수
+소속부서 한림대학교 전 공 의학과
+⑧ 연구개발비 및 참여연구원수 (단위: 천원, M․Y)
+연 도
+정부지원
+연구개발비
+(A)
+기업체부담금 정부외
+출연금
+(B)
+상대국
+부담금
+(F)
+합계
+G=(A+B+E)
+참여 
+현금 연구원수
+(C)
+현물
+(D)
+소계
+E=(C+D)
+1년차 41,821 0 41,821
+2년차 55,761 0 55,761
+3년차 0 0
+4년차 0 0
+5년차 0 0
+합계 97,582 0 0 0 0 0 97,582 0
+⑨ 총연구개발기간 2022. 06. 01 ~ 2024. 02. 29 (21개월)
+이 최종보고서에 기재된 내용이 사실임을 확인하며, 만약 사실이 아닌 경우 관련 법령 및 규정에 따라 제재
+처분 등의 불이익도 감수하겠습니다. 
+ 2024 년 03 월 27 일 
+ 연구책임자 : 김 형 수
+ 주관연구개발기관의 장 : 강 일 준
+ 과학기술정보통신부장관 귀하
+※ 전자접수이므로 연구책임자 및 주관연구개발기관의 장 서명(인, 직인)은 생략
+ 
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 2 =====
+- 3 -
+〈 연구결과 요약문 〉
+연구개요
+혈액암과 달리 고형암에서는 CAR-T의 활성을 억제하는 면역억제 종양미세환경 
+(tumor microenvironment, TME)이 존재하기 때문에 CAR-T가 제대로 역할을 하지 
+못하는 경우가 많다. 따라서, 고형암에서 CAR-T의 치료 효과를 높이기 위해서는 
+이러한 면역억제 TME을 극복할 수 있는 CAR-T의 개발이 필요하다. 고형암의 
+면역억제 TME에서도 effector function을 유지할 수 있는 CAR-T를 개발하기 위해 
+상피세포에서 기원하는 거의 모든 종양의 stromal cell에 발현하는 FAP를 표적으로 
+하는 CAR(FAP CAR)를 제작하고, CLDN18.2 CAR와 FAP CAR를 동시에 발현하는 
+CAR-T를 제작하여 효용성을 확인하고자 한다.
+연구 목표대비 
+연구결과
+1. CAR 설계 및 lentiviral vector 제작
+- Tandem CAR, Looped tandem CAR,“AND”logic-gated dual CAR 설계 및 제작
+2. 표적세포주 확보
+- FAP O/E 293T, CLDN18.2 O/E 239T, FAP+CLDN18.2 O/E 239T 제작
+3. Transduction efficiency - Tandem CAR-T: 14.4%, Looped tandem CAR-T: 12.9%, AND CAR-T:
+4. Cytotoxicity 검증 - 30~50% Killing (Effector:Target = 10:1)
+5. 타겟 특이적인 activation 확인
+6. 타겟 특이적인 degranulation 확인
+7. Cytokine 분비 - IL-2, TNF-α, IFN-γ분비량 분석
+8. RCL 여부 - VSV-G 발현 분석 (qPCR)
+연구개발성과의 
+활용 계획 및 
+기대효과
+(연구개발결과의 
+중요성)
+1. 기술적 측면
+- 고형암에 대한 CAR-T 치료제 개발
+- 국내 CAR-T 치료제 관련 원천기술 확보 및 CAR-T 엔지니어링 기술 발전에 기여
+2. 산업적·사회적 측면
+- 국내 산·학·연·병 중개연구 시스템 구축에 기여
+- 국내 항체의약품, 세포⸱유전자치료제 시장 성장에 기여
+- 개발기술 관련 시장 및 산업 확대로 전문직의 고용 창출에 기여
+- 의료적 미충족 수요가 높은 암 환자의 완치율을 높여 국민보건 증진에 기여
+중심어
+국문 고형암 면역억제 종양 
+미세환경
+섬유아세포 
+활성화 단백질 클라우딘18.2
+영문 CAR-T TME FAP CLDN18.2
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 3 =====
+- 4 -
+〈 목 차 〉
+1. 연구개발과제의 개요 ···································································································· 01
+2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 01
+3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 09
+4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 09
+5. 연구개발성과의 관리 및 활용 계획 ·········································································· 10
+6. 자체점검표 ······················································································································ 11
+7. 참고문헌 ·························································································································· 11
+<붙임1 세부 정량적 연구개발성과> ·············································································· 12
+<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 15
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 4 =====
+- 1 -
+1. 연구개발과제의 개요
+1) 연구과제의 필요성
+CAR-T(Chimeric Antigen Receptor-engineered T cells) 치료제는 지금까지 5개의 제품이 FDA 승인을 받아 시장에 
+출시되었다. 이 5개의 치료제는 모두 급성림프모구성백혈병, 림프종, 다발골수종과 같은 혈액암을 대상으로 한다. 하지만, 아직 
+고형암에서 효과를 보이는 CAR-T 치료제는 없다. 이는 혈액암과 달리 고형암에서는 CAR-T의 활성을 억제하는 면역억제 
+종양미세환경(tumor microenvironment, TME)이 존재하고, 신생혈관과 종양을 구성하는 섬유조직 때문에 CAR-T가 종양세포에 
+접근하기 어려우며 CAR-T가 종양으로 침투하더라도 TME에서 형성된 다양한 면역억제 기전에 의해 CAR-T가 제대로 역할을 
+하지 못하는 경우가 많기 때문이다. 이러한 면역관용의 원인으로는 1) regulatory T cells (Tregs), myeloid-derived suppressor 
+cells (MDSCs)와 tumor-associated macrophages(TAMs) 및 cancer-associated fibroblasts (CAFs) 같은 면역억제 세포들, 2) 
+PD-1, CTLA-4, LAG3, TIM3, BTLA와 같이 T 세포의 증식이나 기능을 억제하는 면역관문수용체, 3) adenosine A2AR, 
+adenosine, IDO, arginase, transforming growth factor (TGF)-β와 같이 T 세포에 영향을 주는 신진대사물질들과 면역억제 
+사이토카인 등이 있다. 따라서, 고형암에서 CAR-T의 치료 효과를 높이기 위해서는 이러한 면역억제 TME을 극복할 수 있는 
+CAR-T의 개발이 필요하다. 섬유아세포 활성화 단백질(fibroblast activation protein, FAP)은 상피세포에서 기원하는 거의 모든 종양의 stromal cell에 
+발현한다. 이에 FAP를 표적으로 하는 CAR-T를 개발하면 tumor stroma를 제거하여 종양의 증식 및 전이를 억제할 수 있을 
+것으로 보인다. Wang 등은 murine FAPCAR-T가 FAP+ stromal cell을 감소시킬 뿐만 아니라 endogenous CD8+ T 세포의 
+antitumor activity를 증가시켜 종양의 진행을 억제한다고 보고하였고, Kakarla 등은 MO36 antibody를 이용하여 제작한 
+FAPCAR-T가 동물모델 실험에서 FAP+ stromal cell을 제거하여 종양의 진행을 억제한다는 것을 관찰하였다. 다만, FAPCAR-T 
+단독 투여만으로는 종양을 완전히 제거할 수 없었고, tumor antigen을 표적으로 하는 CAR-T와 동시에 투여한 경우에 치료 
+효과가 가장 좋았다고 보고하였다. 따라서 상피세포에서 기원하는 거의 모든 종양의 stromal cell에 발현하는 FAP를 표적으로 
+하는 CAR(FAPCAR)를 제작하고, CLDN18.2CAR와 FAPCAR를 동시에 발현하는 CAR-T를 제작하여 효용성을 확인하고자 한다. 클라우딘18.2(CLDN18.2)는 위를 제외한 정상 조직에서는 발현되지 않으며, 대부분의 위암 조직에서 과발현되며, 췌장암, 식도암, 담도암 및 폐 선암에서도 유의한 수준으로 발현된다. 이에 CLDN18.2는 비교적 특이도가 높은 종양연관항원으로 
+항암치료의 이상적인 표적항원이 될 수 있다. 2) 연구과제의 최종 목표
+고형암의 면역억제 TME에서도 effector function을 유지할 수 있는 CAR-T를 개발하고자 한다. 위암, 췌장암, 비소세포폐암, 식도암, 담도암 등에 발현하는 CLDN18.2와 FAP를 동시에 표적으로 하는 ① dual CAR-T, ② tandem CAR-T, 그리고 ③ 
+“AND” logic-gated dual CAR-T를 제작하고 효과를 확인하고자 한다. 이를 통해 고형암에서 다항원을 표적으로 하는 CAR-T의 
+효과를 확인하고, 고형암의 TME를 극복하는 방법을 모색하고자 한다. 또한 “AND” logic-gated dual CAR-T의 연구를 통해 on 
+target off tumor effect를 차단하기 위한 전략을 제시하고자 한다. 2. 연구개발과제의 수행 과정 및 수행 내용
+1) 주요 연구 변경사항
+“OR” logic-gated dual CAR 대신에 Looped tandem CAR를 제작하여 효과를 평가하였음
+[표 1] 연구 변경 사항 요약
+변경 전 변경 후
+1년차
+Tandem CAR Tandem CAR
+Dual CAR Looped tandem CAR
+2년차 “AND” logic-gated dual CAR “AND” logic-gated dual CAR
+2) 연구과제의 수행 과정 및 수행 내용
+① CAR 설계 및 lentiviral vector 제작
+Ÿ “OR” logic-gated CAR의 하나인 tandem CAR를 제작함 scFv의 배열에 따라 tandem CAR와 loop구조를 갖는 
+looped tandem CAR를 설계함(그림 1)
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 5 =====
+- 2 -
+[그림 1] Tandem CAR와 looped CAR의 구조
+Ÿ 4-1BB를 포함하는 2세대 CAR로 설계함(그림 2)
+[그림 2] Tandem CAR와 looped tandem CAR의 scFv 배열
+Ÿ FAP, CLDN18.2와 반응하는 Dual CAR를 설계함(그림 3)
+[그림 3] “AND” logic-gated dual CAR의 scFv 배열
+② 표적세포주 확보
+Ÿ (Fibroblast Activation Protein (FAP)과 Claudin18.2 (CLDN18.2) 과발현 293T 세포) FAP와 CLDN18.2를 각각 혹은 
+동시에 특이적으로 결합하여 세포 사멸을 유도할 수 있는 Tandem / Looped tandem / “AND” logic-gated CAR-T 
+세포의 기능을 검증하기 위하여 FAP 또는 CLDN18.2를 발현하는 293T 세포와 CLDN18.2와 FAP를 동시에 발현하는 
+세포를 제작하였음 Ÿ 타깃 유전자의 도입을 확인하기 위하여 형광 유전자를, cytotoxicity를 확인하기 위한 Luciferase를 발현하도록 하였음
+③ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T
+Ÿ CAR-T 세포 기능 검증 실험에 앞서 FAP-CLDN18.2 Tandem CAR 유전자가 transduction을 통해 T 세포의 
+Genome에 도입되었는지의 여부 (Transduction efficiency)를 확인함 Ÿ 이를 검증하기 위하여 CAR 유전자가 도입되고 발현되었을 경우 형광 유전자인 녹색형광단백질(GFP)이 함께 
+발현되도록 설계됨에 따라, GFP 유전자의 발현을 통해 CAR 유전자의 발현을 확인함
+Ÿ 유세포분석기를 통한 분석으로 검증되었으며, 이 때, T 세포, 도움 T 세포, 세포독성 T세포의 마커로 CD3, CD4, 
+CD8을 함께 확인하고 그 비율을 확인하였음 FAP-CLDN18.2 Tandem CAR 유전자는 전체 T 세포 중에 14.4% 
+(GFP+)에 도입되었고, CAR-T 세포 중 55.4%는 CD4+ 도움 T 세포, 42.7%는 CD8+ 세포독성 T 세포로 확인되었음 
+(그림 4A)
+④ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T
+Ÿ FAP-CLDN18.2 Tandem CAR-T 세포와 마찬가지로 Looped FAP-CLDN18.2 Tandem CAR-T 세포도 유전자 
+도입의 여부를 확인함 방식은 FAP-CLDN18.2 Tandem CAR-T에서 확인한 방식과 동일함
+Ÿ FAP-CLDN18.2 looped tandem CAR 유전자는 전체 T 세포 중에 12.9% (GFP+)에 도입되었고, CAR-T 세포 중 
+54.6%는 CD4+ 도움 T 세포, 43.2%는 세포 독성 T 세포로 확인되었음 (그림 4B)
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 6 =====
+- 3 -
+[그림 4] FAP-CLDN18.2 Tandem CAR와 CLDN18.2-FAP looped tandem CAR의 Transduction efficiency 확인
+⑤ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 세포 독성 검증
+Ÿ CAR-T 세포가 타겟 세포상에서 발현되는 FAP 또는 CLDN18.2를 인지하는 경우에 세포 독성을 유발할 수 있는 
+Tandem CAR 유전자 (FAP-CLDN18.2 tandem CAR)를 포함하는 렌티바이러스 벡터 플라스미드를 제작함 Ÿ 이 플라스미드를 293T 세포에 transfection 하여 렌티바이러스를 생산하였고, spinoculation을 통해 렌티바이러스의 
+CAR 유전자를 T 세포에 전달하였음
+Ÿ 세포 독성을 확인하기 위하여 타겟 세포로서 본 연구를 위해 제작한 FAP 과발현 293T 세포주 (FAP O/E 293T), 
+CLDN18.2 과발현 293T (CLDN18.2 O/E 293T), FAP와 CLDN18.2를 동시에 과발현하는 293T (FAP+CLDN18.2 
+O/E 293T) 그리고 FAP와 CLDN18.2를 발현하지 않는 것으로 알려져있는 293T 세포주를 통해 본 연구에서 
+디자인한 FAP-CLDN18.2 tandem CAR가 타겟 특이적으로 세포 독성을 유도할 수 있는지를 검증하였음
+Ÿ 실험 결과, FAP-CLDN18.2 tandem CAR가 도입된 CAR-T 세포는 FAP O/E 293T(그림 5A), CLDN18.2 O/E 
+293T(그림 5B), 293TFAP+CLDN18.2 O/E 293T(그림 5C)에서 세포 독성을 유발하였고, 293T 세포에 대해서는 세포 
+독성을 유발하지 않았음 (그림 5D) Ÿ 이를 통해 본 연구진이 디자인한 FAP-CLDN18.2 Tandem CAR-T 세포는 타겟 특이적으로 세포 독성을 유발할 수 
+있음을 확일 할 수 있었음
+⑥ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 세포 독성 검증
+Ÿ 본 연구진은 일렬로 연결되어 있는 FAP-CLDN18.2 Tandem CAR와 달리 FAP scFv와 CLDN18.2 scFv가 고리 
+형태로 인접한 구조를 가지고 있는 FAP-CLDN18.2 looped tandem CAR를 디자인하였고, 일렬로 배열된 구조와 
+비교하여 세포 독성에서 어떠한 차이를 보이는지를 알아보고자 하였음 Ÿ 실험 방법은 위에서 언급한 방식과 동일함 실험 결과, FAP-CLDN18.2 looped tandem CAR-T 세포 역시 FAP O/E 
+293T(그림 5A), CLDN18.2 O/E 293T(그림 5B), 293TFAP+CLDN18.2 O/E 293T(그림 5C)에서 세포 독성을 
+유발하였고, 293T 세포에 대해서는 세포 독성을 유발하지 않았음 (그림 5D) 이를 통해 FAP-CLDN18.2 looped 
+tandem CAR-T 역시 타겟 특이적으로 세포 독성을 유발하는 것으로 확인되었음 
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 7 =====
+- 4 -
+[그림 5] FAP-CLDN18.2 Tandem CAR와 Looped FAP-CLDN18.2 Tandem CAR의 세포 독성 검증
+⑦ “AND” logic-gated dual CAR-T의 세포 독성 검증
+Ÿ Dual CAR-T, FAP CAR-T, CLDN18.2 CAR-T, Mock-T를 배양하여 실험을 진행함
+Ÿ 준비한 4개의 CAR-T와 FAP O/E 293T를 함께 배양하여 cytotoxicity assay를 시행함 이 in vitro assay에서 
+확인하고자 한 것은 FAP 항원만 존재하는 경우에 dual CAR-T가 활성화 되는가이다. 실험 결과를 보면 FAP 
+CAR-T는 FAP-293T cell과 반응하여 증식하고 있어 CAR-T 제작에 이용한 anti-FAP scFv가 FAP 항원과 잘 
+반응하는 것을 알 수 있음 이에 반해 dual CAR-T, CLDN18.2.CAR-T, Mock-T는 FAP-293T cell과 반응하지 
+않음(그림 6A) Ÿ 두 개의 target cell (FAP 293T, CLDN18.2 293T)을 4개의 CAR-T와 함께 배양하여 cytotoxicity assay를 시행함 이 
+in vitro assay에서는 FAP 항원과 CLDN18.2 항원이 같이 존재하는 경우에 dual CAR-T가 CLDN18.2.CAR-T보다 
+target cell을 더 효과적으로 제거할 수 있는가를 확인하고자 함 Killing curve에서 dual CAR-T가 
+CLDN18.2.CAR-T보다 유의하게 효과적으로 target cell을 제거하였음을 알 수 있음(그림 6B)
+[그림 6] “AND” logic-gated dual CAR의 세포 독성 검증
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 8 =====
+- 5 -
+⑧ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 Activation 확인
+Ÿ 세포독성 실험 결과 Tandem CAR-T의 세포독성을 확인할 수 있었고 이 세포 독성이 실제 타겟 세포 특이적인 
+CAR-T의 activaiton에 의한 것인지 확인하기 위해 실험을 진행함
+Ÿ 실험 결과 , Tandem CAR-T는 FAP O/E 293T에서 28.8%, CLDN18.2 O/E 293T에서 30.6%, FAP+CLDN18.2 
+O/E에서 39.5%로 CAR-T의 activation을 유발하였고, 293T 세포에서는 activation을 유발하지 못하였음(그림 7A) 
+이를 통해 “OR”logic-gated FAP-CLDN18.2 tandem CAR-T는 타겟 특이적으로 CAR-T의 activation을 유발하는 
+것으로 확인되었음 
+⑨ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Activation 확인
+Ÿ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 activation 수준을 확인하였음 Ÿ Looped tandem CAR-T도 FAP O/E 293T에서 36.8%, CLDN18.2 O/E 293T에서 27.5%, FAP+CLDN18.2 O/E에서 
+50.3%로 CAR-T의 activation을 유발하였고, 293T 세포에서는 activation을 유발하지 못하였음(그림 7B) 이를 통해 
+“OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T는 FAP O/E 293T, CLDN18.2 O/E 293T에서 Tandem 
+CAR-T와 비슷한 수준으로, FAP+CLDN18.2 O/E에서는 Tandem CAR-T보다 더 높은 수준으로 타겟 특이적으로 
+CAR-T의 activation을 유발하는 것으로 확인되었음
+[그림 7] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Activation 확인
+⑩ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 Degranulation 확인
+Ÿ Activation assay 실험 결과 Tandem CAR-T의 타겟 특이적인 activation을 확인할 수 있었고 Activation 이후 
+CAR-T의 도움 T 세포(CD4+)와 세포 독성 T 세포(CD8+)에서의 실제 타겟 특이적인 deganulation을 확인하기 위해 
+실험을 진행함
+Ÿ 실험 결과 , 도움 T 세포에서 Tandem CAR-T는 FAP O/E 293T에서 38.1%, CLDN18.2 O/E 293T에서 37.5%, 
+FAP+CLDN18.2 O/E에서 38.7%로 CAR-T의 degranulation을 확인할 수 있었고, 293T 세포에서는 4.29%로 매우 
+낮은 수준의 degranulation을 확인하였음(그림 8A) Ÿ 세포 독성 T 세포에서 Tandem CAR-T는 FAP O/E 293T에서 9.66%, CLDN18.2 O/E 293T에서 11.7%, 
+FAP+CLDN18.2 O/E에서 6.6%로 CAR-T의 degranulation을 확인할 수 있었고, 293T 세포에서는 2.91%로 매우 
+낮은 수준의 degranulation을 확인하였음 (그림 8C) Ÿ 이를 통해“OR” logic-gated FAP-CLDN18.2 tandem CAR-T에서 타겟 특이적인 degranulation을 확인할 수 있었음 
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 9 =====
+- 6 -
+[그림 8] FAP-CLDN18.2 Tandem CAR와 Looped FAP-CLDN18.2 Tandem CAR의 도움 T 세포(CD4+)와
+ 세포 독성 T 세포(CD8+)에서의 Degranulation 확인
+⑪ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Degranulation 확인
+Ÿ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 degranulation 수준을 확인하였음
+Ÿ 도움 T 세포에서 Looped Tandem CAR-T는 FAP O/E 293T에서 23.5%, CLDN18.2 O/E 293T에서 20.5%, 
+FAP+CLDN18.2 O/E에서 41.8%로 CAR-T의 degranulation을 확인할 수 있었고, 293T 세포에서는 9.73%로 낮은 
+수준의 degranulation을 확인하였음 (그림 8B) Ÿ 세포 독성 T 세포에서 Looped Tandem CAR-T는 FAP O/E 293T에서 20.5%, CLDN18.2 O/E 293T에서 18.3%, 
+FAP+CLDN18.2 O/E에서 36.6%로 CAR-T의 degranulation을 확인할 수 있었고, 293T 세포에서는 5.1%로 매우 
+낮은 수준의 degranulation을 확인하였음 (그림 8D. Ÿ 이를 통해“OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T는 FAP O/E 293T, CLDN18.2 O/E 293T에서 
+Tandem CAR-T와 비슷한 수준으로, FAP+CLDN18.2 O/E에서는 Tandem CAR-T보다 더 높은 수준의 타겟 
+특이적인 CAR-T의 degranulation이 확인되었음
+⑫ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 Proliferation 확인
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 10 =====
+- 7 -
+Ÿ 앞선 실험 결과 Tandem CAR-T의 타겟 특이적인 기능을 확인할 수 있었고 세포독성을 효과적으로 하기 위해 타겟 
+특이적으로 T세포의 증식이 일어나는지 확인하기 위해 실험을 진행함
+Ÿ 실험 결과, Tandem CAR-T는 일반적인 T세포에 비해 FAP O/E 293T에서 33.2%, CLDN18.2 O/E 293T에서 
+29.9%, FAP+CLDN18.2 O/E에서 50.6%로 CAR-T의 증식을 확인할 수 있었고, negative 293T 세포에서는 
+5.88%로 매우 낮은 수준의 증식을 확인하였음(그림 9A) 
+⑬ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 Proliferation 확인
+Ÿ Looped tandem CAR-T에서도 같은 방식으로 CAR-T의 증식 수준을 확인하였음 Ÿ Looped Tandem CAR-T는 FAP O/E 293T에서 44.6%, CLDN18.2 O/E 293T에서 56.8%, FAP+CLDN18.2 
+O/E에서 60.3%로 CAR-T의 증식을 확인할 수 있었고, negative 293T 세포에서는 7.76%로 낮은 수준의 증식을 
+확인하였음 (그림 9B)
+[그림 9] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR(B)의 Proliferation 확인
+⑭ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T의 사이토카인 발현
+Ÿ Tandem CAR-T가 세포 독성을 타겟 특이적으로 유발하는 것을 확인하였음 Ÿ 이 과정에서 CAR-T의 세포 독성에 관여하는 사이토카인인 종양괴사인자-α (TNF-α)와 인터페론 γ (IFN-γ)의 발현 
+수준을 검증하고자 효소결합면역흡착검사(ELISA)를 진행하였음 Ÿ 그 결과, tandem CAR-T는 세포 독성 확인 실험 결과와 마찬가지로 FAP O/E 293T, CLDN18.2 O/E 293T, 
+FAP+CLDN18.2 O/E 293T에서 TNF-α와 IFN-γ를 분비하였고, 293T 세포에서는 TNF-α와 IFN-γ를 분비하지 
+않았음(그림 10A)
+[그림 10] FAP-CLDN18.2 / Looped FAP-CLDN18.2 CAR-T 세포에서의 사이토카인 발현량 검증
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 11 =====
+- 8 -
+⑮ “OR” logic-gated FAP-CLDN18.2 looped tandem CAR-T의 사이토카인 발현
+Ÿ Looped tandem CAR-T에서도 같은 방식으로 사이토카인 분비 수준을 검증하였음 Ÿ Looped tandem tandem CAR-T도 세포 독성 확인 실험 결과와 마찬가지로 FAP O/E 293T, CLDN18.2 O/E 293T, 
+FAP+CLDN18.2 O/E 293T에서 TNF-α와 IFN-γ를 분비하였고, 293T 세포에서는 TNF-α와 IFN-γ를 분비하지 
+않았음(그림 10B) Ÿ Tandem CAR-T 대비 looped tandem CAR-T에서 TNF-α와 IFN-γ의 분비량이 상대적으로 많은 것이 확인되었음
+⑯ “AND” logic-gated dual CAR-T의 사이토카인 발현
+Ÿ “AND” logic-gated dual CAR-T에는 IL-2와 IFN-γ 의 분비량을 확인하였음
+Ÿ FAP O/E 293T에서 FAP CAR-T가 target cell에 의해 활성화되어 IFN-r, IL-2의 분비가 유의하게 증가하였고(그림 
+11A), FAP+CLDN18.2 O/E 293T에서 IFN-r, IL-2의 분비가 Mock-T와 비교하여 유의하게 증가하였으나 dual 
+CAR-T와 CLDN18.2.CAR-T 사이에 유의한 차이는 없음(그림 11B)
+[그림 11] “AND” logic-gated dual CAR-T 세포에서의 사이토카인 발현량 검증
+⑰ “OR” logic-gated FAP-CLDN18.2 tandem CAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T의 RCL 
+여부 확인
+Ÿ 제작된 CAR-T에 잔존하는 바이러스로 인해 감염 능력이 있는지 확인하기 위해 RCL(Replication competent 
+lentivirus)을 VSV-G 발현 분석을 통해 확인함
+Ÿ CAR-T cell과 감염되지 않은 T-cell을 negative control로 사용하고, 키트 내에 있는 positive control을 사용하여 
+qPCR 실험을 통해 확인함 Ÿ 확인 결과 positive control은 standard curve 내에서 확인이 되었지만(그림 12A) negative control과 tandem 
+CAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T 모두 음성으로 확인됨(그림 12B) Ÿ 결과적으로 제작된 tandem CAR-T, looped tandem CAR-T, “AND” logic-gated dual CAR-T는 감염 능력이 
+없음을 확인함
+[그림 12] FAP-CLDN18.2 Tandem CAR(A)와 Looped FAP-CLDN18.2 Tandem CAR의 RCL 여부 확인
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 12 =====
+- 9 -
+3. 연구개발과제의 수행 결과 및 목표 달성 수준
+ 1) 정성적 연구개발성과(연구개발결과) Ÿ 논문 2편
+ 2) 세부 정량적 연구개발성과: [붙임1] 참조
+ 3) 목표 달성 수준
+추 진 목 표 달 성 내 용 달성도(%)
+CAR 설계 및 lentiviral vector 
+제작
+Ÿ Anti-CLDN18.2 CAR와 anti-FAP CAR의 DNA 
+염기서열을 이용하여 “OR” logic-gated tandem 
+CAR와 looped tandem CAR 설계 및 CAR-T 제작
+Ÿ 2세대 CAR에서 signal 1(CD3ζ)과 co-stimulatory 
+signal 2(CD28)를 분리한 trans-signaling “AND” 
+logic-gated dual CAR 설계 및 CAR-T 제작
+100%
+표적세포주 확보 Ÿ 293T(CLDN18.2 O/E), 293T(FAP O/E),
+293T(CLDN18.2/FAP O/E) 제작 100%
+“OR” logic-gated FAP-CLDN18.2 
+tandem CAR-T, looped tandem 
+CAR-T의 효과 확인
+Ÿ In vitro cytotoxicity assay, activation assay, 
+degranulation assay, proliferation assay, ELISA
+100%
+“AND” logic-gated dual 
+CAR-T의 효과 확인
+Ÿ In vitro cytotoxicity assay, activation assay, 
+degranulation assay, proliferation assay, ELISA
+50%
+ 4) 목표 미달 시 원인 분석(해당 시)
+ 4-1) 목표 미달 원인(사유) 자체분석 내용
+“AND” logic-gated dual CAR-T의 연구를 통해 on target off tumor effect를 차단하기 위한 전략을 
+제시하기 위해 In vitro cytotoxicity assay, activation assay, degranulation assay, proliferation assay, 
+ELISA를 진행하려고 했지만, CAR-T 제작에 많은 시간이 소요됨으로 인해 일부만 진행할 수 있었음
+ 4-2) 자체 보완활동
+계획했던 assay를 대체하기 위해 VSV-G 발현 분석을 통해 RCL 여부를 확인하였음
+ 4-3) 연구개발 과정의 성실성
+CAR-T 제작에 많은 시간이 소요됨에도 여러 실험을 통해 계획했던 목표(CAR-T의 기능 검증 및 on target 
+off tumor effect를 차단하기 위한 전략 검증)를 최대한 달성하기 위해 노력함
+4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)
+1. 기술적 측면
+§ 고형암에 대한 CAR-T 치료제 개발
+§ 국내 CAR-T 치료제 관련 원천기술 확보 및 CAR-T 엔지니어링 기술 발전에 기여
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 13 =====
+- 10 -
+2. 산업적·사회적 측면
+§ 국내 산·학·연·병 중개연구 시스템 구축에 기여
+§ 국내 항체의약품, 세포유전자치료제 시장 성장에 기여
+§ 개발기술 관련 시장 및 산업 확대로 전문직의 고용 창출에 기여
+§ 의료적 미충족 수요가 높은 암 환자의 완치율을 높여 국민보건 증진에 기여
+5. 연구개발성과의 관리 및 활용 계획
+① 연구과제의 활용방안
+Ÿ 다양한 종양항원(CEA, EGFR, HER2, GD2, MUC1, PSMA 등)을 표적으로 하는 CAR-T의 임상시험이 
+고형암 환자를 대상으로 진행되고 있음 우리나라에서 호발하고 예후가 좋지 않은 위암, 췌장암을 
+대상으로 하는 CAR-T 임상시험은 미미한 상태임. 최근에 진행성 및 전이성 위암의 3차 치료로 
+면역관문억제제의 효과가 증명되었지만, 여전히 진행성 및 전이성 위암의 치료 성적은 만족스럽지 
+못하여 새로운 치료 방법의 개발이 절실히 필요함 본 연구를 통해 CLDN18.2-FAP dual or tandem 
+CAR-T의 효과를 증명하고, 면역억제 종양미세환경을 극복할 수 있다면 기존의 항암화학요법, 면역관문억제제 등에 반응하지 않는 위암, 췌장암 환자에게 필요한 새로운 치료 기회를 제공할 수 
+있다고 판단됨. Ÿ 섬유아세포 활성화 단백질(FAP)을 발현하는 섬유아세포(CAFs)는 고형암의 종양 주변 섬유조직과 같은 
+물리적 장벽을 형성하여 CAR-T 세포의 침투능력을 제한함 이 연구로 이와 같은 물리적 장벽을 
+극복할 수 있다면 다양한 종양항원을 표적으로 하는 CAR-T에 적용할 수 있음
+② 연구과제의 기대효과
+Ÿ 글로벌 CAR-T 치료제 시장은 2017년 72백만 달러(약 850억원)에서 2028년 8,258.3백만 달러(약 
+9조 7,530억원) 규모의 시장이 형성될 것으로 보이며, 국내 CAR-T 치료제 시장의 경우 2021년 
+170억원에서 2030년 4,500억원 규모로 연평균 33.8%의 고성장세를 나타낼 것으로 전망됨. Ÿ CAR-T 치료제의 경우 대부분 효능이 입증된 혈액암을 중심으로 혈액 종양세포에 특이적으로 과다 
+발현되는 CD19나 CD20을 표적으로 개발되고 있지만, 표적의 범위가 점차 고형암으로 확대되고 있음
+Ÿ 전 세계적으로 고형암을 표적으로 한 CAR-T 치료제 개발은 초기 단계의 기술영역에 머물러 있음 
+항원의 다양성, 면역억제 종양미세환경, 종양 내 CAR-T 침투 제한 등이 고형암 치료제로서 CAR-T가 
+극복해야 할 과제임. 이러한 한계를 극복하고 새로운 항암제로서 고형암 치료용 CAR-T 치료제 개발 
+성과가 발생하면 관련 보건의료 및 유관산업 분야에 투자성과 대비 높은 파급효과를 가져올 것으로 
+예상됨.
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 14 =====
+- 11 -
+6. 자체점검표
+구분 아주 우수 우수 보통 미흡 불량 비고
+연구성과의 
+우수성/창의성 √
+연구성과의 파급 효과 √
+연구성과에 대한 활용 
+가능성 √
+연구수행의 성실도 √
+연구성과에 대한 
+종합의견 기술
+최근 고형암 항원에 대한 CAR-T 세포치료제의 연구 동향은 
+고형암의 항원이질성을 극복하기 위해 둘 이상의 항원을 표적으로 
+개발하고 있으며, 고형암의 종양미세환경을 조성하는 세포를 
+표적으로 치료제가 개발되고 있음. 본 연구는 둘 이상의 항원을 
+동시에 표적하기 위해 dual CAR-T를 개발하였고, 종양미세환경을 
+표적하기 위해 FAP를 표적항원으로 CAR-T를 개발하였음. 다양한 구조의 Dual CAR-T를 제작하여 효과를 비교하였으며, 이를 
+통해 이상적인 구조를 제시하고자 하였음. 
+7. 참고문헌
+1. 이는 혈액암과 달리 고형암에서는~ Marofi F et al. CAR T cells in solid tumors: challenges and opportunities. Stem Cell Res Ther. 2021;12:81
+2. 이러한 면역관용의 원인으로는~ 지현배. PD-1 차단항체 이후의 항암제 개발. 국가항암신약개발단 전문가기고 2017.
+3. 따라서, 고형암에서 CAR-T 치료효과를 높이기 위해서는~
+Jin C et al. Prospects to improve chimeric antigen receptor T-cell therapy for solid tumors. 
+Immunotherapy. 2016;8:1355-1361.
+4. Wang 등은 murine FAPCAR-T가~ Wang L et al. Targeting Fibroblast Activation Protein in Tumor Stroma with Chimeric Antigen Receptor T 
+Cells Can Inhibit Tumor Growth and Augment Host Immunity without Severe Toxicity. Cancer Immunol Res. 
+2014 ;2:154-66.
+5. Kakarla 등은 ~
+Kakarla S et al. Antitumor Effects of Chimeric Receptor Engineered Human T Cells Directed to Tumor 
+Stroma. Mol Ther. 2013;21:1611-1620.
+6. MO36 antibody의 scFv sequence를~
+Brocks B et al. Species-crossreactive scFv against the tumor stroma marker "fibroblast activation protein" 
+selected by phage display from an immunized FAP-/- knock-out mouse. Mol Med. 2001;7:461-469.
+7. ① dual CAR-T, ② tandem CAR-T,~
+Han X et al. Multi-antigen-targeted chimeric antigen receptor T cells for cancer therapy. J Hematol Oncol. 
+2019;12:128.
+8. trans-signaling “AND” logic-gated dual CAR를~
+Lanitis E et al. Chimeric antigen receptor T Cells with dissociated signaling domains exhibit focused 
+antitumor activity with reduced potential for toxicity in vivo. Cancer Immunol Res. 2013;1:43-53.
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 15 =====
+- 12 -
+[붙임1] 세부 정량적 연구개발성과 
+사업명 기본연구 연구책임자 김형수 주관기관 한림대학교
+과제번호 2022R1F1A1074597 과제명 고형암의 다항원을 표적으로 하는 CAR-T 개발
+※산학강좌,기술이전 및 기술평가는 현재 입력 받지 않는 항목입니다. 과학기술/학술적 연구성과(단위 : 건)
+전문학술지 논문게재 초청
+강연
+실적
+학술대회
+논문발표 지식재산권
+수상
+실적
+출판실적 표준
+신기술
+지정
+기술
+제품
+인증 국내논문 국외논문
+국내 국제
+출원 등록
+저역서 보고서 국내 국제 SCI 비SCI SCI 비SCI 국내 국외 국내 국외
+0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+인력양성 및 연구시설(단위 : 명,건)
+학위배출 국내외 연수지원
+산학강좌 연구기자재
+박사 석사
+장기 단기
+국내 국외 국내 국외
+0 0 0 0 0 0 0 0
+국제협력(단위 :명,건)
+과학자교류 국제협력기반 학술회의개최
+국내과학자 
+해외파견
+외국과학자 
+국내유치 MOU체결 국제공동연구 국제사업참여 학술회의개최(국내,국제 통합)
+0 0 0 0 0 0
+산업지원 및 연구성과 활용(단위 : 건)
+기술확산 연구성과활용(사업화 및 후속연구과제 등)
+기술실시계약
+(기술이전 등)
+기술지
+도
+기술무역 후속연구추진 사업화추진중 사업화완료 기타목적활용 기술마케팅 시험제품 사업화계획
+0 0 0 0 0 0 0 0 0 0
+기타 성과(단위 : 건)
+언론보도 성과 생명자원/신품종
+/화합물
+원자력연구개발사업실적(원자력연구개발사업에한함) 법령
+반영
+정책
+활용
+내용
+설계
+기준 기술보고서 설계문서 장비구축 및 개발 분석방법개발
+0 0 0 0 0 0 0 0 0
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 16 =====
+- 13 -
+전문학술지 논문게재 성과정보
+과제번호 게재연월 논문제목 총저자명 출처 학술지명 권(호) 학술지구분 sci여부 impact
+Factor
+국제공동
+연구논문 기여도
+2022R1F
+1A10745
+97
+202212
+Meta-Analysis of 
+Survival Effects of 
+Receptor Tyrosine 
+Kinase-like Orphan 
+Receptor 1 (ROR1)
+Jeong, 
+Soo 
+Young; 
+Lee, 
+Kyung-jun
+; Cha, 
+Jieum; 
+Park, So 
+Yoon; 
+Kim, 
+Hyeong 
+Su; Kim, 
+Jung Han; 
+Lee, 
+Jae-Jun; 
+Kim, 
+Namhyeok
+; Park, 
+Sung 
+Taek; 
+SCI MEDICINA-LI
+THUANIA (0) 국외 SCI등재 2.948 아니오 20
+2022R1F
+1A10745
+97
+202309
+miR-429 
+Suppresses 
+Endometrial Cancer 
+Progression and 
+Drug Resistance via 
+DDX53
+Lee, 
+Kyung-Ju
+n; Singh, 
+Nitya; 
+Bizuneh, 
+Michael; 
+Kim, 
+Nam-Hye
+ok; Kim, 
+Hyeong 
+Su; Kim, 
+Youngmi; 
+Lee, 
+Jae-Jun; 
+Kim, Jung 
+Han; 
+Kim, Jiye; 
+Jeong, 
+Soo 
+Young; 
+Cho, 
+Hye-Yon; 
+Park, 
+Sung 
+Taek; 
+SCI
+JOURNAL 
+OF 
+PERSONALIZ
+ED 
+MEDICINE
+13(9) 국외 SCI등재 3.4 아니오 5
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 17 =====
+- 14 -
+전문학술지 논문게재 성과정보
+과제번호 게재연월 논문제목 총저자명 출처 학술지명 권(호) 학술지구분 sci여부 impact
+Factor
+국제공동
+연구논문 기여도
+2022R1F
+1A10745
+97
+202312
+Insights from 
+molecular dynamics 
+simulations of 
+TRPV1 channel 
+modulators in pain
+Dewaker, 
+Varun; 
+Sharma, 
+Ashish R.; 
+Debnath, 
+Utsab; 
+Park, 
+Sung 
+Taek; 
+Kim, 
+Hyeong 
+Su; 
+SCI
+DRUG 
+DISCOVERY 
+TODAY
+28(12) 국외 SCI등재 7.4 예 60
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 18 =====
+- 15 -
+[붙임2-1] 연구책임자 대표적 연구실적
+○ 논문 및 특허 실적(최대 5개 작성)
+번호 구분
+(논문/특허) 논문명/특허명 소속기관명 역할 논문게재지/
+특허등록국가
+논문게재일
+/특허등록일 특기사항
+1 논문
+Insights from molecular 
+dynamics simulations of 
+TRPV1 channel 
+modulators in pain
+한림대학교 교신저자
+Drug 
+Discovery 
+Today
+2023.10.12
+2
+3
+4
+5
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 19 =====
+- 16 -
+[붙임2-2] 주관연구책임자 대표적 논문‧특허실적 요약문
+연구실적 유형 논문( √ ) 특허( )
+연구책임자 성명 연구책임자(김형수)
+논문/특허명 Insights from molecular dynamics simulations of TRPV1 channel 
+modulators in pain
+논문실적정보
+☑
+게재지(저널명) Drug Discovery Today
+SCI 등재 여부 등재 인용횟수(SCI) 2회
+SCOPUS 등재 여부 미등재 인용횟수(SCOPUS) 0회
+ISSN 1359-6446 게재년월 202310
+역할(제1, 교신, 참여) 교신저자 참여자수 5명
+특허실적정보
+□
+구분 출원 또는 등록 등록(출원) 국가 (예시)한국, 미국 등
+등록(출원) 번호 등록(출원)일 YYYYMM
+등록(출원)자 성명 발명자 성명
+요 약 문
+TRPV1 is a nonselective cation channel vital for detecting noxious stimuli (heat, acid, 
+capsaicin). Its role in pain makes it a potential drug target for chronic pain management, 
+migraines, and related disorders. This review updates molecular dynamics (MD) simulation 
+studies on the TRPV1 channel, focusing on its gating mechanism, ligand-binding sites, and 
+implications for drug design. The article also explores challenges in developing modulators, 
+SAR optimization, and clinical trial studies. Efforts have been undertaken to concisely present 
+MD simulation findings, with a focus on their relevance to drug discovery.
+연구 목표 및 연구내용과의 연관성 기대성과 및 파급 효과
+Molecular dynamic simulation을 통해 protein의 
+구조를 구현하고 이를 통해 protein을 기능을 추
+정하는 과정을 논문으로 작성함. 이와 같은 기술
+을 이용하여 암 항원과 결합하는 chimeric 
+antigen receptor의 구조와 결합능력을 예측할 수 
+있고, affinity를 높이기 위한 optimization을 가능
+하게 할 수 있음.
+Molecular dynamic simulation으로 항원-항체의 
+상호작용을 예측하고, 항체를 기반으로 제작한 
+chimeric antigen receptor의 구조를 구현하고 
+항원과의 반응을 예측할 수 있음. 이를 통해 항체에서 CAR를 제작하는 과정에 도
+움을 주고 실험기간을 단축할 수 있음.
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 20 =====
+- 17 -
+〈 대표적 연구실적 사본 〉
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.
+
+===== PDF PAGE 21 =====
+- 18 -
+국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.

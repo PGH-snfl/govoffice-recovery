@@ -1,0 +1,977 @@
+[
+  {
+    "pdf_page": 9,
+    "text": "그림 3 VR⋅AR 실감 콘텐츠 서비스 활성화 문제점",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 9,
+    "text": "그림 4 VR⋅AR 실감 콘텐츠 서비스 활성화 문제점에 대한 해결 방안",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 5 5G 엣지클라우드 VR⋅AR 저지연 스트리밍 기술 구조도 (문제 해결 방안)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 6 본 과제 결과물인 4대 핵심 기술 블록도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "그림 7 5G 엣지클라우드 기반 트래킹 및 정보 가시화 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 8 정보 정합 가시화 기술 (강인성/정확도/고속성)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 9 고정밀/고속 병렬 프로세싱 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "그림 10 고품질 저지연 프로토콜 기술 (As-is, To-be)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 11 분산 인코딩 및 분할 렌더링 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 12 클라우드 기반 VRㆍAR 뷰포트 영상 분산 인코딩 시스템",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "그림 13 로열티 프리 AV1 코덱 기반 VR/AR 뷰포트 인코더/디코더 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 14 5G 경량형 다종 디바이스 저지연 플레이어 프레임워크",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 15 고품질 저지연 분할 렌더링 및 실시간 인코딩 시스템 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "그림 16 엣지 클라우드 분할 렌더링/뷰포트 재생 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 17 저지연 스트리밍기반 VRㆍAR 스마트 팩토리 서비스 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 18 저지연 스트리밍 기반 VRㆍAR 스마트 교육 서비스",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "그림 19 VRㆍAR 초고품질 영상 스트리밍 서비스",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 20 모바일 및 AR 디바이스 RGB Data 획득 모듈",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "그림 21 색상 데이터 검출 및 IMU 센싱 데이터 추가 적용",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 22 RGB, IMU 데이터 동기화 처리 개발 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 23 AR 카메라 획득 이미지와 IMU 센싱 데이터 동기화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "그림 24 실시간 획득 및 인코딩 먹싱(CMAF 23000-19 표준) 과정 및 개발 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 25 OpenVR 기반 디바이스 특성에 따른 렌더링 뷰포트 검출",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "그림 26 실제 엣지 서버에서 수신받은 IMU 데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 27 QUIC 기반의 센서 데이터 전송 및 수신 프로토콜",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "그림 28 센싱 데이터 전송을 위한 획득 및 처리 프로토콜",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "표 9 어플리케이션 레벨 데이터 전송 프로토콜 특성 비교표",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "그림 29 KetiQuicClient 안드로이드 버전 빌드를 위한 스크립트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 30 플랫폼 및 아키텍쳐 타입별 코드 분기를 위한 매크로 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 31 송수신 클라이언트 내부 구조 및 기술 스택",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "그림 32 QUIC stream 이벤트 핸들러 코드 일부",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 33 플레이어 어플리케이션 적용을 위해",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "그림 34 카메라 왜곡 계수 추정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 35 Hamming Distance 고도화를 통한 특징점 추출",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "그림 36 디바이스-엣지클라우드 연동 사용자 트래킹 처리속도 정량적 목표 달성 수치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 37 3-Way Threads V-SLAM 기반 실공간 트래킹 및 맵핑 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 23,
+    "text": "그림 38 3-Way Threads V-SLAM 기반 실공간 트래킹 및 맵핑 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 39 V-SLAM 기반 실공간 트래킹 및 로컬 맵핑",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 40 V-SLAM 기반 공간 특징점을 이용한 실공간 위치 추정 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "그림 41 디바이스-엣지클라우드 연동 카메라 시선 추적 속도 정량적 목표 달성 수치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "그림 42 실공간 정보기반 가상공간 재현 속도 정량적 달성 수치",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 43 공간 데이터 정보 및 디바이스 트래킹 센서 데이터 전송 프로토콜",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "그림 44 사용자 디바이스의 다양성에 따른 공간 데이터 정보 통합",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 45 실공간 정보 기반 가상공간 재현 강화 학습 네트워크 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 27,
+    "text": "그림 46 3D 배경 가상공간 크기 정량적 평가 결과 객체",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 47 원점 설정을 위한 바닥 인식 렌더링 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "그림 48 디바이스 포즈 정보 전송을 위한 데이터 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "그림 49 광원 추정 CNN 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "그림 50 광원 추정 CNN 모델에 사용된 Self-Attention 메커니즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 51 광원 추정 CNN 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 30,
+    "text": "그림 52 GPU간 메모리 복사 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 31,
+    "text": "그림 53 언리얼 엔진에서 구현된 Material 생성 기술",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 31,
+    "text": "그림 54 비동기 방식의 KETI V-PCC 인코더 모듈 API",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 31,
+    "text": "그림 55 ASPS V-PCC extension syntax에 위치하는 surfaceThickness 변수 관련 오류 수정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 56 All-Intra 환경 성능 비교 및 부호화 시간 비교(3차년도 vs. 4차년도 최종 버전)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 32,
+    "text": "그림 57 Random-Access 환경 성능 비교 및 부호화 시간 비교(3차년도 vs. 4차년도 최종 버전)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "표 10 분산 시스템 환경",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "표 11 AR 분산 인코딩 시험 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 33,
+    "text": "그림 58 AOM 3.2.0 소스 코드 적용 후 소스 코드 변경 내역 로그",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "표 12 분산 시스템 환경",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "표 13 실험 입력 영상 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 34,
+    "text": "표 14 AV1 기반 분산 인코딩 실험 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 59 사용자 디바이스 포즈 데이터(가속 센서) 기반의 사용자 관심 영역",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 60 사용자 디바이스 포즈 데이터(중력 센서) 기반의 사용자 관심 영역 추적",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 35,
+    "text": "그림 61 뷰포트 영상 전송을 위한 메타데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 62 6DoF 360 VR 영상 타일 스트리밍 시스템 개념도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 36,
+    "text": "그림 63 ISO/IEC 14496-12 표준 내 Box 구조 정의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 37,
+    "text": "그림 64 ISO/IEC 23000-19 기반 ISO/IEC 14496-12 컨테이너 구조 시트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 65 14496-12 표준 기반 컨테이너 클래스 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "그림 66 ISO/IEC 23000-19 표준 기반 미디어 파싱 모듈 플로우차트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 67 Readable 및 Writable 인터페이스",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 68 Readable 및 Writable을 다중 상속하는 Box 헤더",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "그림 69 개발 편의성을 위한 중복 코드 매크로화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 70 매크로 적용된 Box 구조 헤더",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 71 C++ template 기반의 BoxFactory 구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "그림 72 BoxFactory를 활용한 미디어 스트림 파싱",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 73 입/출력 핸들러를 통한 미디어 먹싱 구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "표 15 CMAF Segment, Fragment, Chunk 특징",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "그림 74 TrackFile 생성시 헤더 및 미디어 파일 병합 과정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 75 CMAF 표준 포맷 트랙 단일 파일 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 76 Segment/Fragment 단위 디렉토리 및 Chunk 단위 미디어 출력",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "그림 77 Wait-Notify 구조 기반의 바이트 순환 버퍼",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "그림 78 Builder 패턴을 통한 트랙 초기화 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "그림 79 확장 및 동적 로딩 모듈간 의존성 그래프",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 80 확장 미디어 코덱 핸들러 반환",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 81 확장 메타데이터 정의 예시(AV1)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 82 확장 구현 예시 (AV1)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "그림 83 동적 함수 포인터 획득",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "그림 84 최적화된 Pre-rendering 작업 큐 구현 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 85 NVIDIA CUDA 기반의 Pre-rendering 캐시 테이블",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "그림 86 V-PCC 영상 전송 및 디코더 초기화를 위한 메타데이터 최적화 작업",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "그림 87 개선된 분할 렌더링 기반 AR 스트리밍 서비스 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "그림 88 분할 렌더링 서버 모듈 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "그림 89 응답 지연 속도에 대한 공인인증 시험 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "표 16 분할 렌더링 서버 3D 엔진 연동 API 리스트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "그림 90 AWS Wavelength 인스턴스 구성 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 91 3D 엔진과 연동된 분할 렌더링 플러그인 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 92 가상카메라 동작 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "그림 93 분할 렌더링",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "그림 94 렌더링 대상으로부터 각각 다른 형태의 텍스쳐를 얻는 과정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "그림 95 노멀 값을 갖는 렌더 타겟에 대해 깊이 색상 영상 생성을 위한",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "그림 96 output 텍스처 지정 및 input 콜백 함수 지정 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 97 좌표계 시스템 전환 및 스케일 조정 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 98 위치와 회전 값을 가상 카메라에 적용하는 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "그림 99 색상 변환 전 GPU 내부 메모리 간 복사를 위한 파라미터 설정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 100 BGRA to YUV 색상 변환을 위한 CUDA 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "그림 101 프레임 인코딩 및 먹싱 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "표 17 해상도 별 영상 GPU 인코딩 세션 사용률 (좌상: idle, 우상: HD, 좌하: FHD, 우하: QHD / 60fps)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "그림 106 4종류의 패치 복원 옵션에 따른 3D 포인트 클라우드 복원 모듈 최적화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "그림 107 3D 포인트 좌표 역계산 코드 최적화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "표 18 KETI V-PCC 디코더의 디코딩 속도 실험 결과 (16 쓰레드)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "그림 108 분할 렌더링앱 구동 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 56,
+    "text": "그림 113 디코딩을 수행하기 위한 KetiDecoder 클래스 코드 일부",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 114 깊이 테스트 수행 및 컬러 복호화 프래그먼트 쉐이더 코드",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "그림 115 깊이 색상 표현 방법 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 116 Depth-to-Hue 변환 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "그림 117 Depth-To-Hue 변환 CUDA kernel 구현",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "표 20 Occlusion이 적용된 분할 렌더링 AR 스트리밍 콘텐츠 재생 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "그림 121 소프트웨어/하드웨어별 서비스 구성",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "그림 122 5G 테스트베드 구성방안",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 123 테스트베드 지연 속도 측정 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 124 응답 지연 테스트 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "그림 125 고객 지역(사이트)내 5G망 구성/보안 고도화 방안",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "그림 126 2차년도 실증 테스트 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "표 21 테스트베드 실증 테스트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "그림 133 3차년도 실증 테스트 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "표 22 ㈜LT정밀 공장 내 AR 스트리밍 테스트 진행",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "그림 138 4차년도 실증 테스트 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "표 23 부산 야적장 내 항만 크레인 AR 콘텐츠 스트리밍 테스트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "그림 143 기생2 3부 시나리오",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 65,
+    "text": "표 24 목수개미 등 실사 촬영을 진행 후 합성을 위한 영상 소스 촬영 장면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "표 25 AR 방송 콘텐츠 연계를 위한 3D 모델 개발",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 149 VRㆍAR 교육 방송 콘텐츠용 객체",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "그림 150 현장 인서트 촬영 장면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 151 (DI 작업 전(왼쪽)과 작업 후(오른쪽) 이미지)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 152 기생벌 AR 3D 모델링 이미지",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "그림 153 방송 소개용 포스터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 154 방송 화면 캡쳐",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 155 교육용 AR 콘텐츠 시스템 순서도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "그림 156 교육용 AR 콘텐츠 시스템 UI",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "그림 157 교육용 AR 콘텐츠 테스트",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "그림 158 교육용 AR 콘텐츠 테스트 인앱 스크린샷",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "그림 159 목표시스템 구성도 – 클라우드 기반 영상 스트리밍 플랫폼",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "그림 160 아마존 AWS Wavelength 서비스 최적화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "그림 161 아마존 AWS를 활용한 5G 저지연 스트리밍 서비스 배포 최적화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "그림 162 분산 인코딩 – ffmpeg 원격실행 Test",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "그림 163 고효울 캐싱 CDN",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "그림 164 클라우드 기반 영상 관리 전용 콘솔 – 영상 목록",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 165 클라우드 기반 영상 관리 콘솔 – HTML5 기반 대용량 영상 업로드 기능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 166 클라우드 기반 영상 관리 콘솔 – HTML5 기반 대용량 영상 업로드 기능",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "그림 167 VRㆍAR 초고품질 영상 스트리밍 서비스 서버 설치 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "그림 168 VRㆍAR 실감형 플레이어 재생 목록, 재생 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 74,
+    "text": "그림 169 VRㆍAR 실감형 플레이어 재생 화면 (360도 영상)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 75,
+    "text": "그림 170 네트워크 설계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 76,
+    "text": "그림 171 네트워크 설계 – ResNet Block type 1",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 76,
+    "text": "표 27 개발 환경 및 구동 디바이스 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 172 Head 움직임 데이터 수집용 SW 및 구동화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 173 수집 완료 후 저장된 카메라 포즈 정보들 (*.CSV 파일로 저장)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "그림 174 저장된 CSV 파일의 세부 내용 (각 프레임 별 6자유도를 가지는 카메라 포즈 정보 기록)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "표 28 사용자 동작 데이터 수집 환경 및 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 78,
+    "text": "그림 175 CSV 파일에 기록된 4×4 pose matrix 구성 및 각 프레임 별 순차적 정보",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 78,
+    "text": "표 29 컨볼루션 기법을 통해 도출된 자세 변화 예측 결과 (Error: 0.32 mm 오차)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "그림 176 Client & Server 프로그램 Flow Chart",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "그림 177 Client & Server 프로그램 실행 화면",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "그림 178 Head 움직임 데이터 획득 및 데이터 형태 분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "그림 179 Head 움직임 데이터 획득 및 데이터 형태 분석",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "그림 180 홀로렌즈2의 6DOF 센서에 데이터를 획득",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "그림 181 현재 사용자의 위치정보를 획득하는 SW(홀로렌즈2)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 182 현재 사용자 정보를 획득하여검증 하는 모듈(PC)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 183 XR 디바이스(hololens)로 부터 사용자의 위치를 예측 프로그램의 흐름도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "그림 184 사용자 위치와 실시간으로 표시되는 예측 좌표와 진행 좌표",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "표 32 개발 환경 및 구동 디바이스",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "그림 191 다종 VRㆍAR 디바이스 호환 인터페이스 디자인",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "그림 194 PC 미러링을 통해 UI 동작 확인",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 85,
+    "text": "그림 195 시점의 방향이 고려된 컨볼루션 레이어 개념도 (a) 일반 컨볼루션",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 85,
+    "text": "그림 196 제안한 컨볼루션레이어 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 86,
+    "text": "그림 197 다중 시점 cost volume 생성 및 융합 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 86,
+    "text": "그림 198 Overlapping mask를 이용한 고품질 깊이 정보 추정 방법",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 86,
+    "text": "그림 199 깊이정보 추정 결과 (Left-to-Right: 영상, 비교알고리즘(ECCV20)으로",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 87,
+    "text": "그림 201 컬러 영상을 이용한 모노크롬 영상 생성 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 87,
+    "text": "그림 202 컬러 영상 생성 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 87,
+    "text": "그림 200 컬러-모노크롬 영상간 스테레오 매칭을 위한 심층신경망 설계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 88,
+    "text": "그림 203 깊이 지도 정성적 결과 비교. Input: 컬러-모노크롬 스테레오 영상. GT: 정답 깊이 지도, ANCC: (Heo et al. TPAMI2011), JDMCC: (Heo et al.",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 88,
+    "text": "표 39 깊이 지도 생성 결과 비교 (정량적 분석)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 89,
+    "text": "그림 204 GRU기반 3차원 복원 알고리즘 설계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 89,
+    "text": "그림 205 단안카메라기반 깊이추정 심층신경망 개발",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 90,
+    "text": "그림 206 6DoF 360도 영상 타일 스트리밍 시스템 개념도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 90,
+    "text": "그림 207 제안 기술 적용 시 주관적",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 90,
+    "text": "그림 208 MIV 아틀라스 차등 품질 할당 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 91,
+    "text": "그림 209 MV-HEVC 압축 구조 결정 예시: 시점 인덱스 순서 기반 결정 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 92,
+    "text": "그림 210 V3C 타일 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 92,
+    "text": "그림 211 MIV 아틀라스 타일 분할 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 92,
+    "text": "그림 212 복호기 적응적인 서브픽쳐 분할 및 품질 제어 기술 흐름도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 93,
+    "text": "그림 213 인공신경망 모델을 사용한 6자유도 영상처리 프레임워크 구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 93,
+    "text": "그림 214 테스트 시퀀스 취득 환경 그림 215 복원 모델 별 품질 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

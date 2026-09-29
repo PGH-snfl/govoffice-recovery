@@ -1,0 +1,102 @@
+[
+  {
+    "visual_id": "S22-V0001",
+    "caption": "본 과제 개발 시뮬레이터 동작 및 기능 개념도",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 9 -\n1. 연구개발과제의 개요\n1) 정의\n자율주행 SW의 실도로 주행시 한계점을 발견하고, 위험상황 발생시 능동적인 대응 방안을 선",
+    "caption_and_following_text": "행적으로 검증하여 시스템의 문제점을 개선하기 위해, 센서의 센싱특성과, 비정형 주행환경을\n모사하여 제공함으로써, 자율주행 SW의 인공지능 기반 인지판단, 경로제어 알고리즘의 안정성\n을 검증하는 시뮬레이션 SW(시뮬레이터) 개발\n< 그림 2 본 과제 개발 시뮬레이터 동작 및 기능 개념도 >\n2) 세부 기술 내용\n① 비정형 주행환경 대응 자율주행 시뮬레이터 개발\nŸ 비정형 주행환경 대응 시뮬레이션 엔진 기술 개발\nŸ 비정형 주행환경 대응 객체 모델링 등 자율주행 시뮬레이터 저작도구 개발\nŸ 주행환경(도로, 건물 등 인프라) 정보수집, 렌더링 및 도로객체 3D모델 개발\nŸ 그라운드 룰 시뮬레이션용 이면도로 주행 시나리오 생성 및 검증",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "2) 세부 기술 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.43,
+          557.27,
+          510.69,
+          691.16
+        ],
+        "page_area_fraction": 0.11
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S22-V0002",
+    "caption": "본 과제 개발 시뮬레이터 구성 및 세부 기능블록",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 10 -\n< 그림 3 본 과제 개발 시뮬레이터 구성 및 세부 기능블록 >\n3) 기술 개발의 필요성\n① 정부 지원의 필요성\nŸ 비정형 자율주행 검증에 대한 요구 증가\n: 최근 자율주행 관련 사고가 많이 발생하여 자율주행 자동차의 안전성에 대한 불안감이\n증폭되고 있으며, 실도로에서 자율주행차를 검증하기에는 규제 및 비용 측면에서 많은\n어려움이 존재하므로, 정부 차원의 지원이 필요함\n: 특히 이면도로 등에서의 비정형 자율주행 검증은 일반 도로보다 더 많은 돌발상황 및\n열악한 환경에서 수행하므로 정부 차원의 지원이 꼭 필요함",
+    "section_context_candidate": "3) 기술 개발의 필요성",
+    "heading_candidates": [
+      "3) 기술 개발의 필요성"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.87,
+          611.09,
+          509.37,
+          798.57
+        ],
+        "page_area_fraction": 0.1587
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.36,
+          312.26,
+          514.76,
+          407.91
+        ],
+        "page_area_fraction": 0.083
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S22-V0003",
+    "caption": "이면도로 비정형 주행환경의 예",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 10 -\n< 그림 3 본 과제 개발 시뮬레이터 구성 및 세부 기능블록 >\n3) 기술 개발의 필요성\n① 정부 지원의 필요성\nŸ 비정형 자율주행 검증에 대한 요구 증가\n: 최근 자율주행 관련 사고가 많이 발생하여 자율주행 자동차의 안전성에 대한 불안감이\n증폭되고 있으며, 실도로에서 자율주행차를 검증하기에는 규제 및 비용 측면에서 많은",
+    "caption_and_following_text": "어려움이 존재하므로, 정부 차원의 지원이 필요함\n: 특히 이면도로 등에서의 비정형 자율주행 검증은 일반 도로보다 더 많은 돌발상황 및\n열악한 환경에서 수행하므로 정부 차원의 지원이 꼭 필요함\n< 그림 4 이면도로 비정형 주행환경의 예 >\nŸ 효과적인 완전자율주행 서비스 구현을 위한 유효성 검증\n: 완전자율주행 서비스 구현을 위해서는 다양한 운용 환경에 대한 광범위의 데이터 구\n축·공유를 기반으로 하는 유효성 검증이 필수로 요구되나 이를 실 환경 기반으로 구현\n이 어려우므로 이를 효과적으로 구축하고 공융하기 위한 정부차원의 지원이 필요함\n: 이를 통해 서비스 운영에 따른 그라운드 룰을 정의하고, 재현된 주행환경정보를 기반으\n로 안전하고, 효과적인 자율주행 알고리즘과 시스템의 사전 검증이 가능하여 다양한 자",
+    "section_context_candidate": "3) 기술 개발의 필요성",
+    "heading_candidates": [
+      "3) 기술 개발의 필요성"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.87,
+          611.09,
+          509.37,
+          798.57
+        ],
+        "page_area_fraction": 0.1587
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.36,
+          312.26,
+          514.76,
+          407.91
+        ],
+        "page_area_fraction": 0.083
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

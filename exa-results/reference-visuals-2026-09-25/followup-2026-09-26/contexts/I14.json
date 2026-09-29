@@ -1,0 +1,2638 @@
+[
+  {
+    "visual_id": "I14-V0001",
+    "caption": "VR⋅AR 실감 콘텐츠 서비스 활성화 문제점",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 1 -\n1. 연구개발과제의 개요\n▣ 필요성\n□ (AS-IS) VR⋅AR 실감 콘텐츠 서비스 활성화 문제점\n○ 고비용⋅고사양 VR⋅AR 디바이스로 인해 접근성이 떨어짐\n○ 기존의 크고 무거운 유선 VR⋅AR 디바이스로 인한 착용감 및 사용성 저하\n○ 기존 네트워크의 높은 지연시간으로 실감형 VR⋅AR 스트리밍 서비스 어려움\n그림 3 VR⋅AR 실감 콘텐츠 서비스 활성화 문제점\n□ (TO-BE) VR⋅AR 실감 콘텐츠 서비스 활성화 문제점 해결 방안\n○ 고비용 디바이스: 5G 엣지클라우드고속 병렬 컴퓨팅 기술",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "□ 본 과제가 제시한 VR⋅AR 실감 콘텐츠 서비스 활성화 문제점 해결을 위한 기술 개발 방향"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.9,
+          464.01,
+          483.34,
+          678.58
+        ],
+        "page_area_fraction": 0.1593
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.27,
+          189.27,
+          503.73,
+          358.17
+        ],
+        "page_area_fraction": 0.1392
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0002",
+    "caption": "VR⋅AR 실감 콘텐츠 서비스 활성화 문제점에 대한 해결 방안",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "▣ 필요성\n□ (AS-IS) VR⋅AR 실감 콘텐츠 서비스 활성화 문제점\n○ 고비용⋅고사양 VR⋅AR 디바이스로 인해 접근성이 떨어짐\n○ 기존의 크고 무거운 유선 VR⋅AR 디바이스로 인한 착용감 및 사용성 저하\n○ 기존 네트워크의 높은 지연시간으로 실감형 VR⋅AR 스트리밍 서비스 어려움\n그림 3 VR⋅AR 실감 콘텐츠 서비스 활성화 문제점\n□ (TO-BE) VR⋅AR 실감 콘텐츠 서비스 활성화 문제점 해결 방안",
+    "caption_and_following_text": "○ 고비용 디바이스: 5G 엣지클라우드고속 병렬 컴퓨팅 기술\n○ 착용감/사용성저하 : 분할 렌더링 기반 경량 디바이스 기술\n○ 200ms 지연시간 : 5G 엣지클라우드기반 고품질 저지연 스트리밍기술\n그림 4 VR⋅AR 실감 콘텐츠 서비스 활성화 문제점에 대한 해결 방안\n□ 본 과제가 제시한 VR⋅AR 실감 콘텐츠 서비스 활성화 문제점 해결을 위한 기술 개발 방향\n○ 저사양 VR⋅AR 디바이스 지원을 위한 5G 엣지클라우드 컴퓨팅 기술 개발\n- 엣지클라우드기반 고속 분산 병렬처리를 통한 VR⋅AR 디바이스의 연산 최소화 기술 개발\n○ 저사양 VR⋅AR 디바이스를 통한 착용감 및 사용성 증대 기술 개발\n- 저사양 VR⋅AR 디바이스의 낮은 컴퓨팅파워를 보완하기 위한 사용자 모션 예측 기술 개발\n○ 5G 엣지클라우드 기반 저지연 스트리밍 기술을 통한 실감형 VR⋅AR 스트리밍 서비스 기술 개발",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "□ 본 과제가 제시한 VR⋅AR 실감 콘텐츠 서비스 활성화 문제점 해결을 위한 기술 개발 방향"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.9,
+          464.01,
+          483.34,
+          678.58
+        ],
+        "page_area_fraction": 0.1593
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.27,
+          189.27,
+          503.73,
+          358.17
+        ],
+        "page_area_fraction": 0.1392
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0003",
+    "caption": "OpenVR 기반 디바이스 특성에 따른 렌더링 뷰포트 검출",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 9 -\n- 멀티 플랫폼 VR 디바이스 뷰포트 검출 및 센서 데이터 획득 기술",
+    "caption_and_following_text": "* OpenVR 기반 Projection, Rotation Matrix 검출 및 FOV(Field Of View) 추출 모듈\n✓ VR 기기 호환성을 위한 통합 프레임워크 및 MainCore를 개발하였으며, 최대 4종 뷰포트\n검출 호환성 검사를 완료함\n그림 25 OpenVR 기반 디바이스 특성에 따른 렌더링 뷰포트 검출\n○ 센서 데이터 전송을 위한 디바이스-엣지클라우드 프로토콜 최적화\n- 병합 패킷 구조를 반영한 스테레오 이미지 및 센서 데이터 패킷 타이저\n* IMU데이터 및 Camera 획득 데이터 Muxing 모듈 개발\n✓ Camera로부터 획득된 영상 인코딩 및 이를 CMAF 표준에 따라 패키징하여 서버로\n전송하는 기능 구현\n✓ IMU 센서를 통하여 획득된 데이터를 별도의 Track을 통하여 패키징 하도록 개발 완료",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.78,
+          522.15,
+          486.34,
+          716.1
+        ],
+        "page_area_fraction": 0.1463
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.3,
+          150.43,
+          483.7,
+          364.52
+        ],
+        "page_area_fraction": 0.1593
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0004",
+    "caption": "실제 엣지 서버에서 수신받은 IMU 데이터",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "* OpenVR 기반 Projection, Rotation Matrix 검출 및 FOV(Field Of View) 추출 모듈\n✓ VR 기기 호환성을 위한 통합 프레임워크 및 MainCore를 개발하였으며, 최대 4종 뷰포트\n검출 호환성 검사를 완료함\n그림 25 OpenVR 기반 디바이스 특성에 따른 렌더링 뷰포트 검출\n○ 센서 데이터 전송을 위한 디바이스-엣지클라우드 프로토콜 최적화\n- 병합 패킷 구조를 반영한 스테레오 이미지 및 센서 데이터 패킷 타이저\n* IMU데이터 및 Camera 획득 데이터 Muxing 모듈 개발",
+    "caption_and_following_text": "✓ Camera로부터 획득된 영상 인코딩 및 이를 CMAF 표준에 따라 패키징하여 서버로\n전송하는 기능 구현\n✓ IMU 센서를 통하여 획득된 데이터를 별도의 Track을 통하여 패키징 하도록 개발 완료\n그림 26 실제 엣지 서버에서 수신받은 IMU 데이터\n* QUIC 기반의 IMU 및 Camera 센싱 데이터 전송 모듈\n✓ QUIC 프로토콜을 기반으로, IMU 및 RGB 영상 데이터를 별도의 통신 세션을 설정하여\n효율적으로 전송하도록 설계 및 구현\n✓ IMU 데이터와 RGB 영상 데이터를 각각 별도의 통신 세션을 통해 전송함으로써, 다중 센\n서 데이터를 효율적으로 관리하고 동시에 안정적인 전송 속도를 제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.78,
+          522.15,
+          486.34,
+          716.1
+        ],
+        "page_area_fraction": 0.1463
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.3,
+          150.43,
+          483.7,
+          364.52
+        ],
+        "page_area_fraction": 0.1593
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0005",
+    "caption": "3-Way Threads V-SLAM 기반 실공간 트래킹 및 맵핑 구조",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 15 -\n○ 특징점 기반 3차원 실공간 정보 재현 기술 개발 및 고도화 완료\n- V-SLAM 기반 실공간 정보 추출 및 맵핑 알고리즘 개발 및 고도화\n* 3-Way Threads V-SLAM 방식의 실공간 트래킹 및 맵핑 알고리즘 개발 및 고도화\n✓ 실공간 트래킹 기술의 ORB 특징점 매칭 알고리즘 고도화",
+    "caption_and_following_text": "✓ 로컬 맵핑 기술의 3D 특징점 매칭 알고리즘 고도화\n✓ 루프 디택션 기술의 ORB Descriptor 알고리즘 고도화\n✓ 상기 3가지 알고리즘 고도화를 통해 실공간 트래킹 및 맵핑 속도를 단일 프레임 기준, 72fps → 91fps 수준의 속도 성능 개선 (26.4%)\n그림 37 3-Way Threads V-SLAM 기반 실공간 트래킹 및 맵핑 구조\n그림 38 3-Way Threads V-SLAM 기반 실공간 트래킹 및 맵핑 알고리즘\n- RGB-D 다시점 이미지 기반 실공간 재현 기술 개발 및 고도화 완료\n* 디바이스 트래킹 포즈 데이터와 2D 깊이 이미지 데이터를 통한 실공간 재현 기술 고도화\n* 다시점 2D 깊이 데이터를 이용한 특징점(깊이) 보정 기술 고도화\n- 다시점 이미지 매칭을 통한 실공간 재현 알고리즘 개발 및 고도화 완료\n* 특징점 매칭을 통해 디바이스 포즈 데이터가 다른 연속적인 프레임을 병합하는 다시점 이미지",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.74,
+          473.36,
+          485.26,
+          650.05
+        ],
+        "page_area_fraction": 0.1326
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.22,
+          203.66,
+          475.9,
+          432.85
+        ],
+        "page_area_fraction": 0.1634
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0006",
+    "caption": "3-Way Threads V-SLAM 기반 실공간 트래킹 및 맵핑 알고리즘",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 15 -\n○ 특징점 기반 3차원 실공간 정보 재현 기술 개발 및 고도화 완료\n- V-SLAM 기반 실공간 정보 추출 및 맵핑 알고리즘 개발 및 고도화\n* 3-Way Threads V-SLAM 방식의 실공간 트래킹 및 맵핑 알고리즘 개발 및 고도화\n✓ 실공간 트래킹 기술의 ORB 특징점 매칭 알고리즘 고도화\n✓ 로컬 맵핑 기술의 3D 특징점 매칭 알고리즘 고도화",
+    "caption_and_following_text": "✓ 루프 디택션 기술의 ORB Descriptor 알고리즘 고도화\n✓ 상기 3가지 알고리즘 고도화를 통해 실공간 트래킹 및 맵핑 속도를 단일 프레임 기준, 72fps → 91fps 수준의 속도 성능 개선 (26.4%)\n그림 37 3-Way Threads V-SLAM 기반 실공간 트래킹 및 맵핑 구조\n그림 38 3-Way Threads V-SLAM 기반 실공간 트래킹 및 맵핑 알고리즘\n- RGB-D 다시점 이미지 기반 실공간 재현 기술 개발 및 고도화 완료\n* 디바이스 트래킹 포즈 데이터와 2D 깊이 이미지 데이터를 통한 실공간 재현 기술 고도화\n* 다시점 2D 깊이 데이터를 이용한 특징점(깊이) 보정 기술 고도화\n- 다시점 이미지 매칭을 통한 실공간 재현 알고리즘 개발 및 고도화 완료\n* 특징점 매칭을 통해 디바이스 포즈 데이터가 다른 연속적인 프레임을 병합하는 다시점 이미지\n병합 기술 고도화",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.74,
+          473.36,
+          485.26,
+          650.05
+        ],
+        "page_area_fraction": 0.1326
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.22,
+          203.66,
+          475.9,
+          432.85
+        ],
+        "page_area_fraction": 0.1634
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0007",
+    "caption": "실공간 정보기반 가상공간 재현 속도 정량적 달성 수치",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 17 -\n- 실공간 정보기반 가상공간 재현 속도 정량적 목표 달성 (24.5ms)\n그림 42 실공간 정보기반 가상공간 재현 속도 정량적 달성 수치\n□ 실공간 정보기반 가상공간 재현 기술\n○ 공간 데이터 정보 및 디바이스 트래킹 센서 데이터 정보 전처리 기술 개발 완료\n- 가상공간 재현을 위한 공간 데이터 정보 전처리 기술 개발 완료\n* 가상공간 재현을 위한 공간 데이터 전송 프로토콜 개발\n✓ 공간 데이터 패킷 전송 동기화를 위한 패킷 인덱스 프로토콜 개발\n✓ 공간 데이터 시간 동기화를 위한 타임스탬프 프로토콜 개발\n✓ 공간 데이터의 실공간 2D RGB 데이터를 이용하여 실공간을 2D 가상공간 깊이 맵으로",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.74,
+          560.87,
+          482.26,
+          765.6
+        ],
+        "page_area_fraction": 0.1512
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0008",
+    "caption": "광원 추정 CNN 모델",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 22 -\n* 사실적 광원표현을 위한 Reflection Map Generate Module\n✓ Stacked CNN 네트워크를 이용하여 여러 광량 조건의 Reflection Map 작성\n✓ 최대 30개의 CNN 네트워크를 통해 Reflection Map 후보들을 생성하도록 변경하여 2차년\n도 기준 20개의 CNN 네트워크를 사용하던 시스템 대비 성능 향상",
+    "caption_and_following_text": "✓ HEALPix mapping 기술을 이용하여 Stacked CNN 네트워크에서 작성된 Reflection Map\n결과의 광량 표현 및 조건을 세밀화\n✓ 모듈의 고도화를 통해 병렬 처리 기술 적용 완료\n그림 51 광원 추정 CNN 모델\n✓ Reflection Map 작성을 위한 각 네트워크의 유기적 연결을 위해 Direct Copy 기술을 이용한\nGPU 간의 메모리 복사 기술(데이터 파이프라인) 개발\n그림 52 GPU간 메모리 복사 기술\n* Reflection Map 기반의 Material 생성 기술\n✓ 사실적인 가시화를 위해서 가상 물체의 표면에 따라 빛이 다르게 반사되어야 하며 이를\n위해 BDRF 기반의 Shader 설계를 진행하였으며, 기술의 최적화를 통해 좀 더 빛의 사실",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          456.58,
+          546.91,
+          666.59
+        ],
+        "page_area_fraction": 0.2093
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.1,
+          151.99,
+          482.02,
+          366.56
+        ],
+        "page_area_fraction": 0.1582
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0009",
+    "caption": "GPU간 메모리 복사 기술",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "* 사실적 광원표현을 위한 Reflection Map Generate Module\n✓ Stacked CNN 네트워크를 이용하여 여러 광량 조건의 Reflection Map 작성\n✓ 최대 30개의 CNN 네트워크를 통해 Reflection Map 후보들을 생성하도록 변경하여 2차년\n도 기준 20개의 CNN 네트워크를 사용하던 시스템 대비 성능 향상\n✓ HEALPix mapping 기술을 이용하여 Stacked CNN 네트워크에서 작성된 Reflection Map\n결과의 광량 표현 및 조건을 세밀화\n✓ 모듈의 고도화를 통해 병렬 처리 기술 적용 완료",
+    "caption_and_following_text": "그림 51 광원 추정 CNN 모델\n✓ Reflection Map 작성을 위한 각 네트워크의 유기적 연결을 위해 Direct Copy 기술을 이용한\nGPU 간의 메모리 복사 기술(데이터 파이프라인) 개발\n그림 52 GPU간 메모리 복사 기술\n* Reflection Map 기반의 Material 생성 기술\n✓ 사실적인 가시화를 위해서 가상 물체의 표면에 따라 빛이 다르게 반사되어야 하며 이를\n위해 BDRF 기반의 Shader 설계를 진행하였으며, 기술의 최적화를 통해 좀 더 빛의 사실\n적 반사가 가능하도록 함\n✓ 언리얼 엔진에서 사용할 수 있도록 Material 생성기술을 구현하고 검증\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          456.58,
+          546.91,
+          666.59
+        ],
+        "page_area_fraction": 0.2093
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.1,
+          151.99,
+          482.02,
+          366.56
+        ],
+        "page_area_fraction": 0.1582
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0010",
+    "caption": "분산 시스템 환경",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "DDR5 256GB, OS : Windows 계열 1\nSlave\nAMD EPYC 9254 CPU@2.90GHz x2\nDDR5 256GB, OS : Windows 계열\n4\nAMD EPYC 74F3 CPU@3.19GHz x2\nDDR4 256GB, OS : Windows 계열 5",
+    "caption_and_following_text": "Xeon Gold 6242R @3.10GHz x2\nDDR4 256GB, OS : Windows 계열\n7\n표 12 분산 시스템 환경\nTitle Resolution # Frames Bitrate[Kbps] Frame rate\n3DVR_01 15360x3840 10,802 497,168 60\n3DVR_02 15360x3840 10,802 492,696 60\n3DVR_03 15360x3840 14,946 495.177 60\n3DVR_04 15360x3840 10,791 490,560 60\n표 13 실험 입력 영상 정보",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0011",
+    "caption": "실험 입력 영상 정보",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 28,
+    "prefix_match_only": false,
+    "text_before": "DDR4 256GB, OS : Windows 계열 5\nXeon Gold 6242R @3.10GHz x2\nDDR4 256GB, OS : Windows 계열\n7\n표 12 분산 시스템 환경\nTitle Resolution # Frames Bitrate[Kbps] Frame rate\n3DVR_01 15360x3840 10,802 497,168 60",
+    "caption_and_following_text": "3DVR_02 15360x3840 10,802 492,696 60\n3DVR_03 15360x3840 14,946 495.177 60\n3DVR_04 15360x3840 10,791 490,560 60\n표 13 실험 입력 영상 정보\n* 속도 실험 결과\n✓ 2023년 12월 05일 KOLAS 공인인증기관 ㈜디티앤씨를 통해 시험성적서 발급 받음\n✓ 평균 인코딩 속도 및 4K 고품질 출력의 화질 결과값은 70.62fps@45.03dB 로 4차년도\n목표치 60fps@40dB를 초과 달성함\nTitle 부호화 속도\n[FPS]",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0012",
+    "caption": "AV1 기반 분산 인코딩 실험 결과",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 42,
+    "prefix_match_only": false,
+    "text_before": "목표치 60fps@40dB를 초과 달성함\nTitle 부호화 속도\n[FPS]\n고품질 출력\nPSNR [dB]\n3DVR_01 69.90 47.55\n3DVR_02 55.97 47.00",
+    "caption_and_following_text": "3DVR_03 80.99 49.45\n3DVR_04 75.61 46.03\nAverage 70.62 45.03\n표 14 AV1 기반 분산 인코딩 실험 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0013",
+    "caption": "사용자 디바이스 포즈 데이터(가속 센서) 기반의 사용자 관심 영역 추적 알고리즘",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 27 -\n□ 엣지클라우드 기반 고품질 VR 콘텐츠 뷰포트 영상 전송 시스템\n○ 표준 코덱 기반 저지연 메타데이터 구조 및 프로토콜 개발 및 고도화 완료\n- 사용자 관심영역 추정 기반의 뷰포트 영상 전송 고도화를 통한 저지연 뷰포트 영상 전송\n기술 고도화 완료\n* 사용자 센서 데이터 기반의 사용자 관심영역 추정을 통한 뷰포트 영상 전송 기술 고도화",
+    "caption_and_following_text": "✓ 기존 고품질의 분할된 영상에 사용자 디바이스 포즈 데이터를 추가하여 사용자 관심영역 추정\n✓ 뷰포트 영상 추정에 따른 메타데이터 정의 및 개발\n그림 59 사용자 디바이스 포즈 데이터(가속 센서) 기반의 사용자 관심 영역\n추적 알고리즘\n그림 60 사용자 디바이스 포즈 데이터(중력 센서) 기반의 사용자 관심 영역 추적\n알고리즘\n그림 61 뷰포트 영상 전송을 위한 메타데이터\n○ 360 VR 뷰포트 영상 스트리밍을 위한 시점 선택기 개발 및 고도화 완료\n- 6DoF 다시점 360 VR 뷰포트 영상 스트리밍을 위한 시점 선택기 개발 및 고도화 완료\n* TMIV(Test Model for Immersive Video)와 호환 가능한 다시점 360 VR 영상 타일 선택기",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.81,
+          561.71,
+          472.19,
+          683.01
+        ],
+        "page_area_fraction": 0.0847
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.14,
+          360.45,
+          485.98,
+          505.25
+        ],
+        "page_area_fraction": 0.109
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.28,
+          170.09,
+          521.84,
+          303.99
+        ],
+        "page_area_fraction": 0.12
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0014",
+    "caption": "사용자 디바이스 포즈 데이터(중력 센서) 기반의 사용자 관심 영역 추적 알고리즘",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "□ 엣지클라우드 기반 고품질 VR 콘텐츠 뷰포트 영상 전송 시스템\n○ 표준 코덱 기반 저지연 메타데이터 구조 및 프로토콜 개발 및 고도화 완료\n- 사용자 관심영역 추정 기반의 뷰포트 영상 전송 고도화를 통한 저지연 뷰포트 영상 전송\n기술 고도화 완료\n* 사용자 센서 데이터 기반의 사용자 관심영역 추정을 통한 뷰포트 영상 전송 기술 고도화\n✓ 기존 고품질의 분할된 영상에 사용자 디바이스 포즈 데이터를 추가하여 사용자 관심영역 추정\n✓ 뷰포트 영상 추정에 따른 메타데이터 정의 및 개발",
+    "caption_and_following_text": "그림 59 사용자 디바이스 포즈 데이터(가속 센서) 기반의 사용자 관심 영역\n추적 알고리즘\n그림 60 사용자 디바이스 포즈 데이터(중력 센서) 기반의 사용자 관심 영역 추적\n알고리즘\n그림 61 뷰포트 영상 전송을 위한 메타데이터\n○ 360 VR 뷰포트 영상 스트리밍을 위한 시점 선택기 개발 및 고도화 완료\n- 6DoF 다시점 360 VR 뷰포트 영상 스트리밍을 위한 시점 선택기 개발 및 고도화 완료\n* TMIV(Test Model for Immersive Video)와 호환 가능한 다시점 360 VR 영상 타일 선택기\n및 HEVC 기반 다중 타일 추출기 개발\n* TMIV(Test Model for Immersive Video) + HEVC 스트리밍 대비 12.04%의 대역폭 절약",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.81,
+          561.71,
+          472.19,
+          683.01
+        ],
+        "page_area_fraction": 0.0847
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.14,
+          360.45,
+          485.98,
+          505.25
+        ],
+        "page_area_fraction": 0.109
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.28,
+          170.09,
+          521.84,
+          303.99
+        ],
+        "page_area_fraction": 0.12
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0015",
+    "caption": "뷰포트 영상 전송을 위한 메타데이터",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "○ 표준 코덱 기반 저지연 메타데이터 구조 및 프로토콜 개발 및 고도화 완료\n- 사용자 관심영역 추정 기반의 뷰포트 영상 전송 고도화를 통한 저지연 뷰포트 영상 전송\n기술 고도화 완료\n* 사용자 센서 데이터 기반의 사용자 관심영역 추정을 통한 뷰포트 영상 전송 기술 고도화\n✓ 기존 고품질의 분할된 영상에 사용자 디바이스 포즈 데이터를 추가하여 사용자 관심영역 추정\n✓ 뷰포트 영상 추정에 따른 메타데이터 정의 및 개발\n그림 59 사용자 디바이스 포즈 데이터(가속 센서) 기반의 사용자 관심 영역",
+    "caption_and_following_text": "추적 알고리즘\n그림 60 사용자 디바이스 포즈 데이터(중력 센서) 기반의 사용자 관심 영역 추적\n알고리즘\n그림 61 뷰포트 영상 전송을 위한 메타데이터\n○ 360 VR 뷰포트 영상 스트리밍을 위한 시점 선택기 개발 및 고도화 완료\n- 6DoF 다시점 360 VR 뷰포트 영상 스트리밍을 위한 시점 선택기 개발 및 고도화 완료\n* TMIV(Test Model for Immersive Video)와 호환 가능한 다시점 360 VR 영상 타일 선택기\n및 HEVC 기반 다중 타일 추출기 개발\n* TMIV(Test Model for Immersive Video) + HEVC 스트리밍 대비 12.04%의 대역폭 절약\n* 기존 HEVC 참조 소프트웨어에 포함된 단일 타일 추출기 대비 55.51%의 인코딩 속도 절약",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.81,
+          561.71,
+          472.19,
+          683.01
+        ],
+        "page_area_fraction": 0.0847
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.14,
+          360.45,
+          485.98,
+          505.25
+        ],
+        "page_area_fraction": 0.109
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.28,
+          170.09,
+          521.84,
+          303.99
+        ],
+        "page_area_fraction": 0.12
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0016",
+    "caption": "6DoF 360 VR 영상 타일 스트리밍 시스템 개념도",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 28 -\n그림 62 6DoF 360 VR 영상 타일 스트리밍 시스템 개념도\n□ 엣지클라우드 기반 센서 데이터 및 VRㆍAR 데이터 저장 기술, 및 관리 시스템\n○ 저지연 미디어 전송 표준 기반 미디어 컨테이너 파서 기술\n- 미디어 컨테이너 파싱을 위한 표준 분석\n* ISO/IEC 14496-12 ISOBMFF(ISO Base Media File Format)\n✓ 흔히 mp4 파일 포맷으로 대표되는 표준으로 각종 미디어 표준의 기본이 되는 표준\n✓ Box라는 구조를 베이스로 하는 계층적 모델을 가짐\n✓ 표준 내 대부분의 구조는 Box를 상속받으며, 다형성을 지원하는 등 OOP(Object Oriented\nProgramming) 개념을 가짐",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.99,
+          529.22,
+          509.97,
+          798.57
+        ],
+        "page_area_fraction": 0.2201
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.99,
+          155.59,
+          429.25,
+          340.19
+        ],
+        "page_area_fraction": 0.0971
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0017",
+    "caption": "ISO/IEC 14496-12 표준 내 Box 구조 정의",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\n그림 62 6DoF 360 VR 영상 타일 스트리밍 시스템 개념도\n□ 엣지클라우드 기반 센서 데이터 및 VRㆍAR 데이터 저장 기술, 및 관리 시스템\n○ 저지연 미디어 전송 표준 기반 미디어 컨테이너 파서 기술\n- 미디어 컨테이너 파싱을 위한 표준 분석\n* ISO/IEC 14496-12 ISOBMFF(ISO Base Media File Format)\n✓ 흔히 mp4 파일 포맷으로 대표되는 표준으로 각종 미디어 표준의 기본이 되는 표준",
+    "caption_and_following_text": "✓ Box라는 구조를 베이스로 하는 계층적 모델을 가짐\n✓ 표준 내 대부분의 구조는 Box를 상속받으며, 다형성을 지원하는 등 OOP(Object Oriented\nProgramming) 개념을 가짐\n그림 63 ISO/IEC 14496-12 표준 내 Box 구조 정의\n✓ 하위 표준은 이러한 구조를 새롭게 추가/확장하여 정의됨\n✓ 크게 미디어 메타데이터를 저장하는 헤더와 미디어 자체를 저장하는 트랙으로 나누어져\n있으며, 트랙은 트랙 헤더와 미디어 데이터로 나누어짐\n✓ 하나의 파일에 여러 개의 트랙이 존재할 수 있으며, 미디어를 재생하는 플레이어에서 선\n택적으로 재생할 수 있음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.99,
+          529.22,
+          509.97,
+          798.57
+        ],
+        "page_area_fraction": 0.2201
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.99,
+          155.59,
+          429.25,
+          340.19
+        ],
+        "page_area_fraction": 0.0971
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0018",
+    "caption": "ISO/IEC 23000-19 기반 ISO/IEC 14496-12 컨테이너 구조 시트",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "✓ 미디어 데이터를 청크 및 프래그먼트 단위로 구성하여 빠른 전송 및 지연시간을 최소화\n- ISO/IEC 23000-19 표준 기반 미디어 파서 설계\n* 개발 환경 및 목표 설정\n✓ 호환성 제공을 위한 C++ std17 표준 코드 및 std 라이브러리만을 사용\n✓ Dynamic 및 Static Link를 제공하여 상황에 맞게 사용\n✓ Windows / Linux / Android를 기본 타겟으로 설정\n✓ CMake를 통한 크로스 플랫폼 프로젝트",
+    "caption_and_following_text": "✓ 비슷한 기능을 수행하는 오픈소스 라이브러리 대비 간략화된 인터페이스를 목표함\n* 표준 미디어 Box 구조 설계\n✓ ISO/IEC 23000-19 표준 관련 ISO/IEC 14496-12 표준 컨테이너 정의\n그림 64 ISO/IEC 23000-19 기반 ISO/IEC 14496-12 컨테이너 구조 시트\n✓ 표준 내용을 가능한 구현하되, 본 과제에서는 표준 내 암호화 관련된 내용은 후순위 구현\n✓ ISO/IEC 14496-12 표준의 Box 구조를 실제 구현에 그대로 적용하여 클래스 설계\n✓ 입/출력의 추상화를 위해 모든 Box 및 기타 구조는 Readable 및 Writable 인터페이스를\n구현하도록 설계\n✓ Readable 및 Writable은 각각 InputStream, OutputStream 인터페이스를 통해 입/출력을\n수행하는 구조 설계",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.92,
+          177.17,
+          516.2,
+          419.06
+        ],
+        "page_area_fraction": 0.2114
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0019",
+    "caption": "매크로 적용된 Box 구조 헤더",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 32 -\n그림 70 매크로 적용된 Box 구조 헤더\n✓ 조건부 및 순서가 정해지지 않은 Box를 스트림에서 읽기 위해 BoxFactory를 정의하여 인\n터페이스 단일화\n✓ C++ template 기능 및 C++17 fold-expression 기능을 활용하여 프로젝트 내 모든 곳에\n서 활용할 수 있는 형태로 구현\n그림 71 C++ template 기반의 BoxFactory 구현\n✓ BoxFactory를 통해 타겟 Box 구조를 종합적으로 읽을 수 있는 가상 함수를 생성\n✓ Lambda 함수를 통해 해당하는 Box를 읽었을 시 동작을 정의\n그림 72 BoxFactory를 활용한 미디어 스트림 파싱",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.83,
+          646.45,
+          422.17,
+          798.57
+        ],
+        "page_area_fraction": 0.0758
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.23,
+          431.17,
+          499.89,
+          547.44
+        ],
+        "page_area_fraction": 0.094
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.76,
+          186.99,
+          450.48,
+          365.12
+        ],
+        "page_area_fraction": 0.1088
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0020",
+    "caption": "C++ template 기반의 BoxFactory 구현",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 32 -\n그림 70 매크로 적용된 Box 구조 헤더\n✓ 조건부 및 순서가 정해지지 않은 Box를 스트림에서 읽기 위해 BoxFactory를 정의하여 인",
+    "caption_and_following_text": "터페이스 단일화\n✓ C++ template 기능 및 C++17 fold-expression 기능을 활용하여 프로젝트 내 모든 곳에\n서 활용할 수 있는 형태로 구현\n그림 71 C++ template 기반의 BoxFactory 구현\n✓ BoxFactory를 통해 타겟 Box 구조를 종합적으로 읽을 수 있는 가상 함수를 생성\n✓ Lambda 함수를 통해 해당하는 Box를 읽었을 시 동작을 정의\n그림 72 BoxFactory를 활용한 미디어 스트림 파싱\n* 쉬운 확장을 위한 핸들러 구조 구현\n✓ 먹싱 시 대부분의 처리 과정은 비슷하지만, 입/출력 및 코덱 데이터 처리 과정은 각각의\n옵션에 의해 크게 달라짐",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.83,
+          646.45,
+          422.17,
+          798.57
+        ],
+        "page_area_fraction": 0.0758
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.23,
+          431.17,
+          499.89,
+          547.44
+        ],
+        "page_area_fraction": 0.094
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.76,
+          186.99,
+          450.48,
+          365.12
+        ],
+        "page_area_fraction": 0.1088
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0021",
+    "caption": "BoxFactory를 활용한 미디어 스트림 파싱",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 32 -\n그림 70 매크로 적용된 Box 구조 헤더\n✓ 조건부 및 순서가 정해지지 않은 Box를 스트림에서 읽기 위해 BoxFactory를 정의하여 인\n터페이스 단일화\n✓ C++ template 기능 및 C++17 fold-expression 기능을 활용하여 프로젝트 내 모든 곳에\n서 활용할 수 있는 형태로 구현",
+    "caption_and_following_text": "그림 71 C++ template 기반의 BoxFactory 구현\n✓ BoxFactory를 통해 타겟 Box 구조를 종합적으로 읽을 수 있는 가상 함수를 생성\n✓ Lambda 함수를 통해 해당하는 Box를 읽었을 시 동작을 정의\n그림 72 BoxFactory를 활용한 미디어 스트림 파싱\n* 쉬운 확장을 위한 핸들러 구조 구현\n✓ 먹싱 시 대부분의 처리 과정은 비슷하지만, 입/출력 및 코덱 데이터 처리 과정은 각각의\n옵션에 의해 크게 달라짐\n✓ 모든 조건을 트랙 내부에서 처리하는 경우 구현이 복잡해지고 확장성이 낮아짐\n✓ 이를 해결하기 위해 입/출력 및 미디어 데이터 처리를 각각의 핸들러로 정의하고 트랙은\n추상화된 핸들러 인터페이스를 통해 먹싱/디먹싱 처리",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.83,
+          646.45,
+          422.17,
+          798.57
+        ],
+        "page_area_fraction": 0.0758
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.23,
+          431.17,
+          499.89,
+          547.44
+        ],
+        "page_area_fraction": 0.094
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.76,
+          186.99,
+          450.48,
+          365.12
+        ],
+        "page_area_fraction": 0.1088
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0022",
+    "caption": "Builder 패턴을 통한 트랙 초기화 예시",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 35 -\n* 쉬운 사용을 위한 사용자 인터페이스 구현\n✓ 주요한 객체로 Muxer와 Track이 존재하며, 각각 Muxing과 Demuxing 객체가 별도로 존재\n✓ 라이브러리 사용 시 객체 초기화 단계에서 필요한 여러 가지 파라미터를 입력하는 과정이\n제일 복잡하며, 이를 단순화 하는 것이 중요\n✓ 비디오/오디오 등의 미디어는 수많은 파라미터를 가지고 있으며, 사용자가 이를 전부 직",
+    "caption_and_following_text": "접 관리하는 것은 매우 어려움\n✓ Builder 패턴을 적용하여 필요 최소한의 파라미터를 입력받고 파라미터 기본값 설정 및 빠\n른 오류 탐지를 수행\n그림 78 Builder 패턴을 통한 트랙 초기화 예시\n* 기능 확장을 위한 확장 인터페이스 정의 및 동적 로딩 모듈 구현\n✓ 기능 확장을 위해 Muxer는 확장에 대한 의존성이 존재하지 않아야 함\n✓ 의존성은 없지만 확장의 기능은 이용 할 수 있어야 하기 때문에 C++ Function Pointer 기\n능을 활용하여 Function Set을 통한 확장 기능 접근을 수행\n그림 79 확장 및 동적 로딩 모듈간 의존성 그래프\n✓ 멀티 플랫폼을 대상으로 하고 있지만 동적 라이브러리 로딩은 OS 고유의 기능이기 때문",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.11,
+          509.44,
+          434.89,
+          650.05
+        ],
+        "page_area_fraction": 0.0772
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.59,
+          232.67,
+          499.41,
+          386.46
+        ],
+        "page_area_fraction": 0.1241
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0023",
+    "caption": "확장 및 동적 로딩 모듈간 의존성 그래프",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "제일 복잡하며, 이를 단순화 하는 것이 중요\n✓ 비디오/오디오 등의 미디어는 수많은 파라미터를 가지고 있으며, 사용자가 이를 전부 직\n접 관리하는 것은 매우 어려움\n✓ Builder 패턴을 적용하여 필요 최소한의 파라미터를 입력받고 파라미터 기본값 설정 및 빠\n른 오류 탐지를 수행\n그림 78 Builder 패턴을 통한 트랙 초기화 예시\n* 기능 확장을 위한 확장 인터페이스 정의 및 동적 로딩 모듈 구현",
+    "caption_and_following_text": "✓ 기능 확장을 위해 Muxer는 확장에 대한 의존성이 존재하지 않아야 함\n✓ 의존성은 없지만 확장의 기능은 이용 할 수 있어야 하기 때문에 C++ Function Pointer 기\n능을 활용하여 Function Set을 통한 확장 기능 접근을 수행\n그림 79 확장 및 동적 로딩 모듈간 의존성 그래프\n✓ 멀티 플랫폼을 대상으로 하고 있지만 동적 라이브러리 로딩은 OS 고유의 기능이기 때문\n에 해당 부분은 주요 OS별로 개별적으로 개발\n✓ 확장에 대한 접근은 Extension Loader 기능을 수행하는 ExtensionManager를 통해 수행하\n며, 입력 파라미터에 대응하는 입/출력 핸들러 또는 미디어 코덱 핸들러를 반환\n✓ 초기화 단계에서 확장 기능이 미리 메모리에 등록되며, 실제 사용시 확장 식별자를 통해\n확장 객체를 생성하고 반환",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.11,
+          509.44,
+          434.89,
+          650.05
+        ],
+        "page_area_fraction": 0.0772
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.59,
+          232.67,
+          499.41,
+          386.46
+        ],
+        "page_area_fraction": 0.1241
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0024",
+    "caption": "응답 지연 속도에 대한 공인인증 시험 결과",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "* HOL(Head-of-line) 블로킹 문제 해결 필요성\n✓ TCP에서는 여러 리소스를 병렬로 요청할 때, 각 리소스를 별도의 TCP 연결을 통해 전송\n하는데, 한 연결에서 패킷 손실이 발생하면 해당 연결의 모든 데이터 전송이 복구될때까\n지 기다려야 함 이를 HOL 블로킹이라고 함\n* QUIC 프로토콜 도입을 통해 해결 및 개선된 사항\n✓ 멀티플렉싱 기능을 통해 하나의 연결로 데이터를 병렬로 전송할 수 있으며, 이에 따라 네\n트워크 리소스를 더 효율적으로 사용하고, 프로그래밍이 단순화 되었음",
+    "caption_and_following_text": "- QUIC 프로토콜을 통한 CMAF 미디어 청크 전송 응답 지연 속도 공인인증시험 결과\n* 시험 목표: 평균 10 ms 이하\n* 평가 결과: 4.9 ms\n그림 89 응답 지연 속도에 대한 공인인증 시험 결과\n* 평가 결과 주안점\n✓ 일반적인 전송 지연 시간은 ICMP 패킷을 라운드 트립으로 설정하여 걸리는 시간이며, TCP 기반의 DASH Streaming의 경우에도 request-response 방식으로 영상을 요청하고, 그에 대한 영상 세그먼트를 받아오는 방식이기 때문에 같은 방식으로 측정을 하면 됨\n✓ 본 과제에서는 특정 요청에 대한 응답으로 렌더링된 영상을 전송하는 것이 아니기 때문에\n프로토콜 성능만을 평가하기 위해 실제 영상에 대해 분할한 CMAF 청크 데이터 전송에\n걸리는 시간을 측정함 (평균 청크 사이즈: 약 238KB)\n✓ 위의 결과는 Motion-to-Photon의 결과와는 다르기 때문에 전송속도가 빠르다고해서 반드",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.0,
+          278.34,
+          530.11,
+          336.47
+        ],
+        "page_area_fraction": 0.054
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0025",
+    "caption": "렌더링 대상으로부터 각각 다른 형태의 텍스쳐를 얻는 과정",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 43 -\n그림 94 렌더링 대상으로부터 각각 다른 형태의 텍스쳐를 얻는 과정\n✓ 가상 카메라가 깊이 영상을 얻기 위해서 노멀 값이 있는 부분에 한해서만 깊이 정보를 산\n출하여 색상을 가진 깊이 영상을 생성하는 방법을 사용함\n그림 95 노멀 값을 갖는 렌더 타겟에 대해 깊이 색상 영상 생성을 위한\n블루프린트\n* 분할 렌더링 플러그인 데이터 전달 방법\n그림 96 output 텍스처 지정 및 input 콜백 함수 지정 코드\n✓ 데이터 전송을 위한 서버 라이브러리와 직접적으로 메소드를 호출하여 데이터를 전송하지\n않고 메모리 영역과 콜백 함수를 이용하여 데이터를 전달함",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          717.66,
+          499.65,
+          798.57
+        ],
+        "page_area_fraction": 0.0654
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.9,
+          405.52,
+          486.1,
+          627.63
+        ],
+        "page_area_fraction": 0.1674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.53,
+          182.92,
+          468.71,
+          333.47
+        ],
+        "page_area_fraction": 0.103
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0026",
+    "caption": "노멀 값을 갖는 렌더 타겟에 대해 깊이 색상 영상 생성을 위한 블루프린트",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 43 -\n그림 94 렌더링 대상으로부터 각각 다른 형태의 텍스쳐를 얻는 과정",
+    "caption_and_following_text": "✓ 가상 카메라가 깊이 영상을 얻기 위해서 노멀 값이 있는 부분에 한해서만 깊이 정보를 산\n출하여 색상을 가진 깊이 영상을 생성하는 방법을 사용함\n그림 95 노멀 값을 갖는 렌더 타겟에 대해 깊이 색상 영상 생성을 위한\n블루프린트\n* 분할 렌더링 플러그인 데이터 전달 방법\n그림 96 output 텍스처 지정 및 input 콜백 함수 지정 코드\n✓ 데이터 전송을 위한 서버 라이브러리와 직접적으로 메소드를 호출하여 데이터를 전송하지\n않고 메모리 영역과 콜백 함수를 이용하여 데이터를 전달함\n✓ 텍스쳐 데이터는 해당 텍스쳐의 레퍼런스를 전달하는 방식을 이용하며, 현재는 ID3D11Texture2D\n형태만 지원함",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          717.66,
+          499.65,
+          798.57
+        ],
+        "page_area_fraction": 0.0654
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.9,
+          405.52,
+          486.1,
+          627.63
+        ],
+        "page_area_fraction": 0.1674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.53,
+          182.92,
+          468.71,
+          333.47
+        ],
+        "page_area_fraction": 0.103
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0027",
+    "caption": "output 텍스처 지정 및 input 콜백 함수 지정 코드",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 43 -\n그림 94 렌더링 대상으로부터 각각 다른 형태의 텍스쳐를 얻는 과정\n✓ 가상 카메라가 깊이 영상을 얻기 위해서 노멀 값이 있는 부분에 한해서만 깊이 정보를 산\n출하여 색상을 가진 깊이 영상을 생성하는 방법을 사용함",
+    "caption_and_following_text": "그림 95 노멀 값을 갖는 렌더 타겟에 대해 깊이 색상 영상 생성을 위한\n블루프린트\n* 분할 렌더링 플러그인 데이터 전달 방법\n그림 96 output 텍스처 지정 및 input 콜백 함수 지정 코드\n✓ 데이터 전송을 위한 서버 라이브러리와 직접적으로 메소드를 호출하여 데이터를 전송하지\n않고 메모리 영역과 콜백 함수를 이용하여 데이터를 전달함\n✓ 텍스쳐 데이터는 해당 텍스쳐의 레퍼런스를 전달하는 방식을 이용하며, 현재는 ID3D11Texture2D\n형태만 지원함\n✓ 데이터의 수신은 콜백함수를 이용하며, 데이터가 수신되어 서버 라이브러리에서 update~\n메소드를 호출하면, 플러그인 내부에서 콜이 발생하는 방식",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          717.66,
+          499.65,
+          798.57
+        ],
+        "page_area_fraction": 0.0654
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.9,
+          405.52,
+          486.1,
+          627.63
+        ],
+        "page_area_fraction": 0.1674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.53,
+          182.92,
+          468.71,
+          333.47
+        ],
+        "page_area_fraction": 0.103
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0028",
+    "caption": "BGRA to YUV 색상 변환을 위한 CUDA 코드",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 45 -\n그림 100 BGRA to YUV 색상 변환을 위한 CUDA 코드\n✓ 변환된 영상 데이터를 자체 개발한 wrapper를 통해 GPU 인코더를 이용하여 압축\n그림 101 프레임 인코딩 및 먹싱 코드\n* 사용자 세션 별 해상도 변화에 따른 GPU 자원 사용량\n표 17 해상도 별 영상 GPU 인코딩 세션 사용률 (좌상: idle, 우상: HD, 좌하: FHD, 우하: QHD / 60fps)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.17,
+          472.76,
+          457.79,
+          829.01
+        ],
+        "page_area_fraction": 0.234
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.18,
+          337.19,
+          478.42,
+          515.56
+        ],
+        "page_area_fraction": 0.132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -69.92,
+          -45.55,
+          461.27,
+          504.77
+        ],
+        "page_area_fraction": 0.5842
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          186.98,
+          -41.59,
+          695.62,
+          498.06
+        ],
+        "page_area_fraction": 0.5485
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -62.37,
+          -185.92,
+          451.08,
+          368.96
+        ],
+        "page_area_fraction": 0.5693
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.47,
+          -172.49,
+          698.74,
+          354.57
+        ],
+        "page_area_fraction": 0.5512
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0029",
+    "caption": "프레임 인코딩 및 먹싱 코드",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 45 -\n그림 100 BGRA to YUV 색상 변환을 위한 CUDA 코드\n✓ 변환된 영상 데이터를 자체 개발한 wrapper를 통해 GPU 인코더를 이용하여 압축\n그림 101 프레임 인코딩 및 먹싱 코드\n* 사용자 세션 별 해상도 변화에 따른 GPU 자원 사용량\n표 17 해상도 별 영상 GPU 인코딩 세션 사용률 (좌상: idle, 우상: HD, 좌하: FHD, 우하: QHD / 60fps)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.17,
+          472.76,
+          457.79,
+          829.01
+        ],
+        "page_area_fraction": 0.234
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.18,
+          337.19,
+          478.42,
+          515.56
+        ],
+        "page_area_fraction": 0.132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -69.92,
+          -45.55,
+          461.27,
+          504.77
+        ],
+        "page_area_fraction": 0.5842
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          186.98,
+          -41.59,
+          695.62,
+          498.06
+        ],
+        "page_area_fraction": 0.5485
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -62.37,
+          -185.92,
+          451.08,
+          368.96
+        ],
+        "page_area_fraction": 0.5693
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.47,
+          -172.49,
+          698.74,
+          354.57
+        ],
+        "page_area_fraction": 0.5512
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0030",
+    "caption": "해상도 별 영상 GPU 인코딩 세션 사용률 (좌상: idle, 우상: HD, 좌하: FHD, 우하: QHD / 60fps)",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 45 -\n그림 100 BGRA to YUV 색상 변환을 위한 CUDA 코드",
+    "caption_and_following_text": "✓ 변환된 영상 데이터를 자체 개발한 wrapper를 통해 GPU 인코더를 이용하여 압축\n그림 101 프레임 인코딩 및 먹싱 코드\n* 사용자 세션 별 해상도 변화에 따른 GPU 자원 사용량\n표 17 해상도 별 영상 GPU 인코딩 세션 사용률 (좌상: idle, 우상: HD, 좌하: FHD, 우하: QHD / 60fps)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.17,
+          472.76,
+          457.79,
+          829.01
+        ],
+        "page_area_fraction": 0.234
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.18,
+          337.19,
+          478.42,
+          515.56
+        ],
+        "page_area_fraction": 0.132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -69.92,
+          -45.55,
+          461.27,
+          504.77
+        ],
+        "page_area_fraction": 0.5842
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          186.98,
+          -41.59,
+          695.62,
+          498.06
+        ],
+        "page_area_fraction": 0.5485
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -62.37,
+          -185.92,
+          451.08,
+          368.96
+        ],
+        "page_area_fraction": 0.5693
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.47,
+          -172.49,
+          698.74,
+          354.57
+        ],
+        "page_area_fraction": 0.5512
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0031",
+    "caption": "Depth-to-Hue 변환 알고리즘",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n그림 116 Depth-to-Hue 변환 알고리즘\n그림 117 Depth-To-Hue 변환 CUDA kernel 구현\n* 깊이 영상 기반의 Occlusion이 적용된 AR 콘텐츠 스트리밍 재생\n표 20 Occlusion이 적용된 분할 렌더링 AR 스트리밍 콘텐츠 재생 화면\n✓ 경량형 디바이스라도 일정 수준 이상의 영상 표준 코덱 디코딩 성능을 갖춰줘야 분할 렌\n더링이 가진 장점을 소화해낼 수 있음\n✓ 딥러닝 기반의 On-Device Super Resolution을 더 효율적으로 구현이 가능하다면, 더 작\n은 해상도의 영상을 서버에서 생성하여 전송할 수 있으므로, 운영 비용 뿐만 아니라\nMotion-to-Photon도 개선이 가능할 것으로 예상됨",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.83,
+          640.22,
+          425.17,
+          798.57
+        ],
+        "page_area_fraction": 0.0808
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.73,
+          362.48,
+          467.27,
+          599.7
+        ],
+        "page_area_fraction": 0.161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          195.51,
+          208.93,
+          267.43
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.0,
+          195.51,
+          373.12,
+          267.31
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          383.31,
+          195.15,
+          538.75,
+          267.67
+        ],
+        "page_area_fraction": 0.0225
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0032",
+    "caption": "Depth-To-Hue 변환 CUDA kernel 구현",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n그림 116 Depth-to-Hue 변환 알고리즘\n그림 117 Depth-To-Hue 변환 CUDA kernel 구현\n* 깊이 영상 기반의 Occlusion이 적용된 AR 콘텐츠 스트리밍 재생\n표 20 Occlusion이 적용된 분할 렌더링 AR 스트리밍 콘텐츠 재생 화면\n✓ 경량형 디바이스라도 일정 수준 이상의 영상 표준 코덱 디코딩 성능을 갖춰줘야 분할 렌\n더링이 가진 장점을 소화해낼 수 있음\n✓ 딥러닝 기반의 On-Device Super Resolution을 더 효율적으로 구현이 가능하다면, 더 작\n은 해상도의 영상을 서버에서 생성하여 전송할 수 있으므로, 운영 비용 뿐만 아니라\nMotion-to-Photon도 개선이 가능할 것으로 예상됨",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.83,
+          640.22,
+          425.17,
+          798.57
+        ],
+        "page_area_fraction": 0.0808
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.73,
+          362.48,
+          467.27,
+          599.7
+        ],
+        "page_area_fraction": 0.161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          195.51,
+          208.93,
+          267.43
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.0,
+          195.51,
+          373.12,
+          267.31
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          383.31,
+          195.15,
+          538.75,
+          267.67
+        ],
+        "page_area_fraction": 0.0225
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0033",
+    "caption": "Occlusion이 적용된 분할 렌더링 AR 스트리밍 콘텐츠 재생 화면",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 50 -",
+    "caption_and_following_text": "그림 116 Depth-to-Hue 변환 알고리즘\n그림 117 Depth-To-Hue 변환 CUDA kernel 구현\n* 깊이 영상 기반의 Occlusion이 적용된 AR 콘텐츠 스트리밍 재생\n표 20 Occlusion이 적용된 분할 렌더링 AR 스트리밍 콘텐츠 재생 화면\n✓ 경량형 디바이스라도 일정 수준 이상의 영상 표준 코덱 디코딩 성능을 갖춰줘야 분할 렌\n더링이 가진 장점을 소화해낼 수 있음\n✓ 딥러닝 기반의 On-Device Super Resolution을 더 효율적으로 구현이 가능하다면, 더 작\n은 해상도의 영상을 서버에서 생성하여 전송할 수 있으므로, 운영 비용 뿐만 아니라\nMotion-to-Photon도 개선이 가능할 것으로 예상됨\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 메타데이터 기반 대용량 AR 콘텐츠 뷰포트 저지연 전송 시스템 설계 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.83,
+          640.22,
+          425.17,
+          798.57
+        ],
+        "page_area_fraction": 0.0808
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.73,
+          362.48,
+          467.27,
+          599.7
+        ],
+        "page_area_fraction": 0.161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.69,
+          195.51,
+          208.93,
+          267.43
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.0,
+          195.51,
+          373.12,
+          267.31
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          383.31,
+          195.15,
+          538.75,
+          267.67
+        ],
+        "page_area_fraction": 0.0225
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0034",
+    "caption": "2차년도 실증 테스트 구성도",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 53 -",
+    "caption_and_following_text": "- 테스트베드 장비는 통신사가 품질검증하고 운영중인 장비를 동일하게 구축/운영하여 장비\n안정성/적합성 확보\n○ VRㆍAR 스마트 팩토리 서비스 테스트베드 실증 테스트1 (장소: LGU 본사, 2차년도)\n그림 126 2차년도 실증 테스트 구성도\n- 테스트 과정, 내용 및 결과\n* LGU+ 테스트베드 내 공간 복원 및 분할 렌더링 스트리밍 테스트\n✓ VSLAM을 이용한 공간 복원의 경우 이미지 내 특징점이 잡히지 않는 경우 공간 복원 정\n확도가 비교적 떨어짐\n✓ Occlusion 적용을 위해서는 사전에 공간 정보를 획득한 후 복원하는 작업 필요\n표 21 테스트베드 실증 테스트",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스1 - VRㆍAR 스마트 팩토리 서비스 테스트베드 고도화/검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.19,
+          501.17,
+          495.93,
+          714.54
+        ],
+        "page_area_fraction": 0.1692
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.93,
+          204.38,
+          209.77,
+          334.55
+        ],
+        "page_area_fraction": 0.0403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.2,
+          165.9,
+          379.0,
+          376.87
+        ],
+        "page_area_fraction": 0.0669
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          385.59,
+          161.46,
+          538.51,
+          365.36
+        ],
+        "page_area_fraction": 0.0623
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          60.45,
+          26.01,
+          204.13,
+          217.56
+        ],
+        "page_area_fraction": 0.055
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.2,
+          27.81,
+          370.96,
+          206.65
+        ],
+        "page_area_fraction": 0.0539
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          385.59,
+          41.12,
+          540.79,
+          217.92
+        ],
+        "page_area_fraction": 0.0548
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0035",
+    "caption": "테스트베드 실증 테스트",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 53 -\n- 테스트베드 장비는 통신사가 품질검증하고 운영중인 장비를 동일하게 구축/운영하여 장비\n안정성/적합성 확보\n○ VRㆍAR 스마트 팩토리 서비스 테스트베드 실증 테스트1 (장소: LGU 본사, 2차년도)\n그림 126 2차년도 실증 테스트 구성도\n- 테스트 과정, 내용 및 결과\n* LGU+ 테스트베드 내 공간 복원 및 분할 렌더링 스트리밍 테스트\n✓ VSLAM을 이용한 공간 복원의 경우 이미지 내 특징점이 잡히지 않는 경우 공간 복원 정\n확도가 비교적 떨어짐\n✓ Occlusion 적용을 위해서는 사전에 공간 정보를 획득한 후 복원하는 작업 필요",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스1 - VRㆍAR 스마트 팩토리 서비스 테스트베드 고도화/검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.19,
+          501.17,
+          495.93,
+          714.54
+        ],
+        "page_area_fraction": 0.1692
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          54.93,
+          204.38,
+          209.77,
+          334.55
+        ],
+        "page_area_fraction": 0.0403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.2,
+          165.9,
+          379.0,
+          376.87
+        ],
+        "page_area_fraction": 0.0669
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          385.59,
+          161.46,
+          538.51,
+          365.36
+        ],
+        "page_area_fraction": 0.0623
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          60.45,
+          26.01,
+          204.13,
+          217.56
+        ],
+        "page_area_fraction": 0.055
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.2,
+          27.81,
+          370.96,
+          206.65
+        ],
+        "page_area_fraction": 0.0539
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          385.59,
+          41.12,
+          540.79,
+          217.92
+        ],
+        "page_area_fraction": 0.0548
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0036",
+    "caption": "3차년도 실증 테스트 구성도",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 54 -\n○ VRㆍAR 스마트 팩토리 서비스 테스트베드 실증 테스트2 (장소: 창원 LT정밀, 3차년도)\n그림 133 3차년도 실증 테스트 구성도\n- 테스트 과정, 내용 및 결과\n* 공장 환경에서 AR 콘텐츠 스트리밍 서비스 가능 여부 검증\n✓ 지정된 지역에서 AR 콘텐츠 스트리밍을 진행하는 방식으로 진행\n✓ On-Device Occlusion 적용 전인 이유로 원근감이 잘 느껴지지 않음\n✓ 위험 구역이 많아 손에 쥐는 디바이스보다 HMD 형태의 디바이스 상에서 서비스하는 것\n이 더 적합함\n✓ 위험 구역 내 산업 서비스이기 때문에 정밀도를 위해 디지털 트윈 수준의 공간 환경 3D",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스1 - VRㆍAR 스마트 팩토리 서비스 테스트베드 고도화/검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.68,
+          523.47,
+          522.44,
+          765.6
+        ],
+        "page_area_fraction": 0.2176
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          186.04,
+          290.96,
+          307.7
+        ],
+        "page_area_fraction": 0.0475
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.16,
+          186.04,
+          499.65,
+          307.7
+        ],
+        "page_area_fraction": 0.0475
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          56.1,
+          290.96,
+          177.77
+        ],
+        "page_area_fraction": 0.0475
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.16,
+          56.1,
+          499.65,
+          177.77
+        ],
+        "page_area_fraction": 0.0475
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0037",
+    "caption": "㈜LT정밀 공장 내 AR 스트리밍 테스트 진행",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "○ VRㆍAR 스마트 팩토리 서비스 테스트베드 실증 테스트2 (장소: 창원 LT정밀, 3차년도)\n그림 133 3차년도 실증 테스트 구성도\n- 테스트 과정, 내용 및 결과\n* 공장 환경에서 AR 콘텐츠 스트리밍 서비스 가능 여부 검증\n✓ 지정된 지역에서 AR 콘텐츠 스트리밍을 진행하는 방식으로 진행\n✓ On-Device Occlusion 적용 전인 이유로 원근감이 잘 느껴지지 않음\n✓ 위험 구역이 많아 손에 쥐는 디바이스보다 HMD 형태의 디바이스 상에서 서비스하는 것",
+    "caption_and_following_text": "이 더 적합함\n✓ 위험 구역 내 산업 서비스이기 때문에 정밀도를 위해 디지털 트윈 수준의 공간 환경 3D\n맵 및 마커를 도입한 위치 추적 방식이 필요함\n표 22 ㈜LT정밀 공장 내 AR 스트리밍 테스트 진행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스1 - VRㆍAR 스마트 팩토리 서비스 테스트베드 고도화/검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.68,
+          523.47,
+          522.44,
+          765.6
+        ],
+        "page_area_fraction": 0.2176
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          186.04,
+          290.96,
+          307.7
+        ],
+        "page_area_fraction": 0.0475
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.16,
+          186.04,
+          499.65,
+          307.7
+        ],
+        "page_area_fraction": 0.0475
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          56.1,
+          290.96,
+          177.77
+        ],
+        "page_area_fraction": 0.0475
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.16,
+          56.1,
+          499.65,
+          177.77
+        ],
+        "page_area_fraction": 0.0475
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0038",
+    "caption": "4차년도 실증 테스트 구성도",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n○ VRㆍAR 스마트 팩토리 서비스 테스트베드 실증 테스트3 (장소: 부산 항만공사, 4차년도)\n그림 138 4차년도 실증 테스트 구성도\n- 테스트 과정, 내용 및 결과\n* AR 콘텐츠 스트리밍을 산업 분야에서 사용해볼 수 있는지 검증을 위한 실증 테스트\n✓ 5G망 기반 서비스가 가능한지도 테스트하는 것이 목적\n✓ 항만 주변 야적장을 중심으로 AR 콘텐츠 스트리밍을 진행\n표 23 부산 야적장 내 항만 크레인 AR 콘텐츠 스트리밍 테스트\n- 테스트 주안점\n* 실제 상용화를 위한 외부 테스트 및 문제 해결 로직 마련 필요",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스1 - VRㆍAR 스마트 팩토리 서비스 테스트베드 고도화/검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.39,
+          551.16,
+          503.61,
+          773.03
+        ],
+        "page_area_fraction": 0.1828
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          321.13,
+          279.09,
+          434.4
+        ],
+        "page_area_fraction": 0.0481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          313.03,
+          321.13,
+          525.56,
+          434.4
+        ],
+        "page_area_fraction": 0.0481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          205.1,
+          279.09,
+          318.37
+        ],
+        "page_area_fraction": 0.0481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          313.03,
+          205.1,
+          525.56,
+          318.37
+        ],
+        "page_area_fraction": 0.0481
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0039",
+    "caption": "부산 야적장 내 항만 크레인 AR 콘텐츠 스트리밍 테스트",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 55 -\n○ VRㆍAR 스마트 팩토리 서비스 테스트베드 실증 테스트3 (장소: 부산 항만공사, 4차년도)\n그림 138 4차년도 실증 테스트 구성도\n- 테스트 과정, 내용 및 결과",
+    "caption_and_following_text": "* AR 콘텐츠 스트리밍을 산업 분야에서 사용해볼 수 있는지 검증을 위한 실증 테스트\n✓ 5G망 기반 서비스가 가능한지도 테스트하는 것이 목적\n✓ 항만 주변 야적장을 중심으로 AR 콘텐츠 스트리밍을 진행\n표 23 부산 야적장 내 항만 크레인 AR 콘텐츠 스트리밍 테스트\n- 테스트 주안점\n* 실제 상용화를 위한 외부 테스트 및 문제 해결 로직 마련 필요\n✓ 비전 중심의 거리 측정 방식은 특징점을 찾을 수 없는 파란 하늘, 벽 등에 대해 거리 측\n정하는데 있어 오류가 많이 발생함\n✓ 거리 측정 오류로 인해 타워 크레인 콘텐츠 실행 시(카메라가 파란 하늘을 향해 촬영) 타\n워크레인의 위치와 회전 값이 틀어지는 문제 발생",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스1 - VRㆍAR 스마트 팩토리 서비스 테스트베드 고도화/검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.39,
+          551.16,
+          503.61,
+          773.03
+        ],
+        "page_area_fraction": 0.1828
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          321.13,
+          279.09,
+          434.4
+        ],
+        "page_area_fraction": 0.0481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          313.03,
+          321.13,
+          525.56,
+          434.4
+        ],
+        "page_area_fraction": 0.0481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          205.1,
+          279.09,
+          318.37
+        ],
+        "page_area_fraction": 0.0481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          313.03,
+          205.1,
+          525.56,
+          318.37
+        ],
+        "page_area_fraction": 0.0481
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0040",
+    "caption": "기생2 3부 시나리오",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 25,
+    "prefix_match_only": false,
+    "text_before": "✓ (일시) 2021.10. 17. ~ 2021.11.03. (16박 18일) - 박성웅\n2021.10. 17. ~ 2021.11.29. (42박 44일) - 홍의권, 김혁민\n2021.10. 24. ~ 2021.11.29. (35박 37일) - 김성준\n(정부의 코로나 지침에 따라 해외 출장 규정을 준수하여 진행)\n✓ (출장 내용) 기생 2부 주요 내용으로 사상출의 감염 경로와 목수개미의 감염 등 다양한 기생을 주제로 하여\n촬영 - AR 요소 합성 부분\n✓ 현재 3부까지 기본 원고가 구성됨",
+    "caption_and_following_text": "✓ 1부 ‘기생의 비밀’편, 모기 3D AR 적용을 위한 원고 작업\n✓ 2부 ‘전생물체’ 생명을 대하는 새로운 관점‘편 영상 구성 및 2차년도 제작\n✓ 3부 목수개미 등 기생 관련 원고 작업 완료\n그림 143 기생2 3부 시나리오\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스1 - VRㆍAR 스마트 팩토리 서비스 테스트베드 고도화/검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          196.57,
+          49.87,
+          398.54,
+          311.18
+        ],
+        "page_area_fraction": 0.1055
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0041",
+    "caption": "목수개미 등 실사 촬영을 진행 후 합성을 위한 영상 소스 촬영 장면",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 57 -\n○ 실감형 VRㆍAR 스트리밍 서비스를 위한 콘텐츠 제작 기술 개발",
+    "caption_and_following_text": "- 방송 다큐메터리 시나리오 원고 2종 개발\n- 다큐멘터리 명 ‘PARASITE 2’ - 3D AR 모델링 합성을 위한 실사 방송영상 촬영\n(2021년 10월~11월 까지 인도네시아 현지 촬영)\n표 24 목수개미 등 실사 촬영을 진행 후 합성을 위한 영상 소스 촬영 장면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스1 - VRㆍAR 스마트 팩토리 서비스 테스트베드 고도화/검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.87,
+          468.45,
+          500.25,
+          698.0
+        ],
+        "page_area_fraction": 0.1873
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.03,
+          263.47,
+          503.97,
+          465.57
+        ],
+        "page_area_fraction": 0.168
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.71,
+          60.17,
+          502.53,
+          260.71
+        ],
+        "page_area_fraction": 0.1654
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0042",
+    "caption": "교육용 AR 콘텐츠 테스트",
+    "pdf_page_candidate": 69,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 61 -\n- AR 콘텐츠 구현을 위한 시범 테스트 진행\n* 추후 교육용 콘텐츠 활용 및 전시관 전시 등 다양한 사업화를 위한 테스트 진행\n그림 157 교육용 AR 콘텐츠 테스트\n그림 158 교육용 AR 콘텐츠 테스트 인앱 스크린샷\n- AR 콘텐츠 구현을 위한 시범 테스트 진행\n* 추후 교육용 콘텐츠 활용 및 전시관 전시 등 다양한 사업화를 위한 테스트 진행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스2 - VRㆍAR 스마트 교육 방송 콘텐츠 제작 및 기술 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          308.11,
+          575.85,
+          534.19,
+          745.34
+        ],
+        "page_area_fraction": 0.0766
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          575.73,
+          275.13,
+          745.82
+        ],
+        "page_area_fraction": 0.0771
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          222.12,
+          546.91,
+          535.21
+        ],
+        "page_area_fraction": 0.312
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0043",
+    "caption": "교육용 AR 콘텐츠 테스트 인앱 스크린샷",
+    "pdf_page_candidate": 69,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 61 -",
+    "caption_and_following_text": "- AR 콘텐츠 구현을 위한 시범 테스트 진행\n* 추후 교육용 콘텐츠 활용 및 전시관 전시 등 다양한 사업화를 위한 테스트 진행\n그림 157 교육용 AR 콘텐츠 테스트\n그림 158 교육용 AR 콘텐츠 테스트 인앱 스크린샷\n- AR 콘텐츠 구현을 위한 시범 테스트 진행\n* 추후 교육용 콘텐츠 활용 및 전시관 전시 등 다양한 사업화를 위한 테스트 진행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스2 - VRㆍAR 스마트 교육 방송 콘텐츠 제작 및 기술 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          308.11,
+          575.85,
+          534.19,
+          745.34
+        ],
+        "page_area_fraction": 0.0766
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          575.73,
+          275.13,
+          745.82
+        ],
+        "page_area_fraction": 0.0771
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          222.12,
+          546.91,
+          535.21
+        ],
+        "page_area_fraction": 0.312
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0044",
+    "caption": "VRㆍAR 실감형 플레이어 재생 목록, 재생 화면",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 66 -\n- VR 플레이어의 연동 고도화\n* Equirectangular, Google Mono\n그림 168 VRㆍAR 실감형 플레이어 재생 목록, 재생 화면\n그림 169 VRㆍAR 실감형 플레이어 재생 화면 (360도 영상)\n○ 360 VR 클라우드 영상 스트리밍 서비스 사업화 플랫폼의 사업화 및 고도화\n- 기존 고객을 통한 VR Beta 서비스 제공 및 고도화 짆애\n- VR 클라우드 영상 스트리밍 서비스 시스템과 기능을 통합한 플랫폼 구현\n- VR 서비스에 특화된 시스템과 기능간의 매니지먼트 콘솔 (CMS) UX 고도화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스3 - VRㆍAR 실감형 영상 스트리밍 서비스 설계, 시스템 연동 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.72,
+          475.4,
+          443.4,
+          749.06
+        ],
+        "page_area_fraction": 0.1595
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.27,
+          161.7,
+          494.85,
+          435.0
+        ],
+        "page_area_fraction": 0.2155
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0045",
+    "caption": "VRㆍAR 실감형 플레이어 재생 화면 (360도 영상)",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 66 -",
+    "caption_and_following_text": "- VR 플레이어의 연동 고도화\n* Equirectangular, Google Mono\n그림 168 VRㆍAR 실감형 플레이어 재생 목록, 재생 화면\n그림 169 VRㆍAR 실감형 플레이어 재생 화면 (360도 영상)\n○ 360 VR 클라우드 영상 스트리밍 서비스 사업화 플랫폼의 사업화 및 고도화\n- 기존 고객을 통한 VR Beta 서비스 제공 및 고도화 짆애\n- VR 클라우드 영상 스트리밍 서비스 시스템과 기능을 통합한 플랫폼 구현\n- VR 서비스에 특화된 시스템과 기능간의 매니지먼트 콘솔 (CMS) UX 고도화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스3 - VRㆍAR 실감형 영상 스트리밍 서비스 설계, 시스템 연동 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.72,
+          475.4,
+          443.4,
+          749.06
+        ],
+        "page_area_fraction": 0.1595
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.27,
+          161.7,
+          494.85,
+          435.0
+        ],
+        "page_area_fraction": 0.2155
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0046",
+    "caption": "네트워크 계",
+    "pdf_page_candidate": 75,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": null,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "",
+    "section_context_candidate": "□ 5G 엣지클라우드 VRㆍAR 서비스3 - VRㆍAR 실감형 영상 스트리밍 서비스 설계, 시스템 연동 및 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.07,
+          106.08,
+          499.05,
+          282.89
+        ],
+        "page_area_fraction": 0.1424
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0047",
+    "caption": "네트워크 설계 – ResNet Block type 1",
+    "pdf_page_candidate": 76,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 68 -\n그림 171 네트워크 설계 – ResNet Block type 1\n○ 사용자의 특성을 반영할 수 있는 엣지클라우드 기반의 경량형 학습 알고리즘 연구\n- 지속 유입되는 데이터의 특성을 고려한 학습 방식 및 적합한 모델 정의\n* 지속 유입되는 특성에 맞는 연속적인 값의 이점을 이용해서 데이터 처리\n✓ 현재 값과 그 이전 값의 차이를 이용해서 각도나 변화 값을 계산 및 Ground Truth로 사용\n함으로써 하나의 데이터에서 다양한 결과를 도출\n□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발\n○ CNN 및 RNN 학습을 위한 수집 대상 학습 데이터 생성 모듈 개발\n- 모바일 디바이스에서의 데이터 수집 SW 제작",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발",
+    "heading_candidates": [
+      "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.23,
+          616.97,
+          435.01,
+          798.57
+        ],
+        "page_area_fraction": 0.0997
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0048",
+    "caption": "개발 환경 및 구동 디바이스 정보",
+    "pdf_page_candidate": 76,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "* Google Pixel 2 모바일 카메라의 움직임을 추적하고 저장하기 위해 ARCore 이용\n✓ 구글(Google)에서 개발한 AR 어플리케이션 구축용 소프트웨어 개발 도구(SDK)\n✓ 유니티(Unity)와 언리얼 엔진(UE)에서 사용 가능\n개발환경\n· Visual studio 2017, C#, .NET FRAMEWORK (Microsoft\n제공)\n· Xamarin (.NET 기반 iOS, Android, Windows",
+    "caption_and_following_text": "어플리케이션 빌드용 오픈소스 플랫폼)\n· ARCore (AR app 개발용 SDK, Google 제공)\n구동 디바이스 · Google Pixel 2 (Android OS 스마트폰)\n표 27 개발 환경 및 구동 디바이스 정보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발",
+    "heading_candidates": [
+      "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.23,
+          616.97,
+          435.01,
+          798.57
+        ],
+        "page_area_fraction": 0.0997
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0049",
+    "caption": "Head 움직임 데이터 수집용 SW 및 구동화면",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 69 -\n그림 172 Head 움직임 데이터 수집용 SW 및 구동화면\n그림 173 수집 완료 후 저장된 카메라 포즈 정보들 (*.CSV 파일로 저장)\n그림 174 저장된 CSV 파일의 세부 내용 (각 프레임 별 6자유도를 가지는 카메라 포즈 정보 기록)\n- 기계 학습을 위한 복수의 사용자 위치 및 자세변화 데이터 셋 수집\n* 다양한 상황 및 환경 속에서 사용자의 자연스러운 모션 데이터 기록 및 수집\n* Google ARCore Phone 기반으로 다양한 상황 및 환경 속에서 복수의 사용자의 자연스러운\nHead 움직임 추적 및 기록\n✓ 24FPS로 사용자 Head 움직임에 대한 정보 저장 (*.csv 파일 형식)\n참여 인력 · 총 11명 (남성 4명, 여성 7명)",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.07,
+          621.64,
+          231.36,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.36,
+          621.64,
+          363.65,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          363.64,
+          621.64,
+          495.93,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          446.99,
+          502.89,
+          581.96
+        ],
+        "page_area_fraction": 0.1108
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.15,
+          280.85,
+          503.97,
+          406.12
+        ],
+        "page_area_fraction": 0.1033
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0050",
+    "caption": "수집 완료 후 저장된 카메라 포즈 정보들 (*.CSV 파일로 저장)",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 69 -\n그림 172 Head 움직임 데이터 수집용 SW 및 구동화면\n그림 173 수집 완료 후 저장된 카메라 포즈 정보들 (*.CSV 파일로 저장)\n그림 174 저장된 CSV 파일의 세부 내용 (각 프레임 별 6자유도를 가지는 카메라 포즈 정보 기록)\n- 기계 학습을 위한 복수의 사용자 위치 및 자세변화 데이터 셋 수집\n* 다양한 상황 및 환경 속에서 사용자의 자연스러운 모션 데이터 기록 및 수집\n* Google ARCore Phone 기반으로 다양한 상황 및 환경 속에서 복수의 사용자의 자연스러운\nHead 움직임 추적 및 기록\n✓ 24FPS로 사용자 Head 움직임에 대한 정보 저장 (*.csv 파일 형식)\n참여 인력 · 총 11명 (남성 4명, 여성 7명)",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.07,
+          621.64,
+          231.36,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.36,
+          621.64,
+          363.65,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          363.64,
+          621.64,
+          495.93,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          446.99,
+          502.89,
+          581.96
+        ],
+        "page_area_fraction": 0.1108
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.15,
+          280.85,
+          503.97,
+          406.12
+        ],
+        "page_area_fraction": 0.1033
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0051",
+    "caption": "저장된 CSV 파일의 세부 내용 (각 프레임 별 6자유도를 가지는 카메라 포즈 정보 기록)",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 69 -\n그림 172 Head 움직임 데이터 수집용 SW 및 구동화면\n그림 173 수집 완료 후 저장된 카메라 포즈 정보들 (*.CSV 파일로 저장)\n그림 174 저장된 CSV 파일의 세부 내용 (각 프레임 별 6자유도를 가지는 카메라 포즈 정보 기록)\n- 기계 학습을 위한 복수의 사용자 위치 및 자세변화 데이터 셋 수집\n* 다양한 상황 및 환경 속에서 사용자의 자연스러운 모션 데이터 기록 및 수집\n* Google ARCore Phone 기반으로 다양한 상황 및 환경 속에서 복수의 사용자의 자연스러운\nHead 움직임 추적 및 기록\n✓ 24FPS로 사용자 Head 움직임에 대한 정보 저장 (*.csv 파일 형식)\n참여 인력 · 총 11명 (남성 4명, 여성 7명)",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.07,
+          621.64,
+          231.36,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.36,
+          621.64,
+          363.65,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          363.64,
+          621.64,
+          495.93,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          446.99,
+          502.89,
+          581.96
+        ],
+        "page_area_fraction": 0.1108
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.15,
+          280.85,
+          503.97,
+          406.12
+        ],
+        "page_area_fraction": 0.1033
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0052",
+    "caption": "사용자 동작 데이터 수집 환경 및 정보",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "* 다양한 상황 및 환경 속에서 사용자의 자연스러운 모션 데이터 기록 및 수집\n* Google ARCore Phone 기반으로 다양한 상황 및 환경 속에서 복수의 사용자의 자연스러운\nHead 움직임 추적 및 기록\n✓ 24FPS로 사용자 Head 움직임에 대한 정보 저장 (*.csv 파일 형식)\n참여 인력 · 총 11명 (남성 4명, 여성 7명)\n확보된 모션\n데이터 개수 · 총 1205 세트",
+    "caption_and_following_text": "Clip 당 시간 · 10초 안팎\n초당 프레임수 · 24 FPS\n행동범위 · 실내 운동, 실외 산책, 쇼핑 등\n표 28 사용자 동작 데이터 수집 환경 및 정보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.07,
+          621.64,
+          231.36,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.36,
+          621.64,
+          363.65,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          363.64,
+          621.64,
+          495.93,
+          798.57
+        ],
+        "page_area_fraction": 0.0468
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          446.99,
+          502.89,
+          581.96
+        ],
+        "page_area_fraction": 0.1108
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.15,
+          280.85,
+          503.97,
+          406.12
+        ],
+        "page_area_fraction": 0.1033
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0053",
+    "caption": "CSV 파일에 기록된 4×4 pose matrix 구성 및 각 프레임 별 순차적 정보",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "- 성능 베이스라인 설정을 위한 확률 기반의 예측 모델을 적용한 사용자 위치 및 자세 변화 예측\n모듈 개발\n* 기록된 CSV 파일의 연속적인 프레임 별 6자유도 정보를 기반으로 사용자의 위치 및 자세변화 예측\n* 연속된 영상 프레임 간 가중치 정보 및 자세 변화 예측 정보를 획득하기 위한 컨볼루션\n(convolution) 기법 적용\n* 연산량을 경량화하면서, 정보 손실이 일어나지 않으며 유의미한 정보만을 추출하기 위한\ndilated 컨볼루션 (혹은 atrous 컨볼루션) 기법 활용",
+    "caption_and_following_text": "✓ 기본적인 컨볼루션 필터가 수용하는 픽셀 사이에 간격을 둔 형태\n✓ Dilation rate가 2인 3×3 kernel은 9개의 파라미터 사용, 5×5 kernel과 동일한 view 크기\n* 컨볼루션을 통해 프레임 별 정보 기반으로 회전과 이동 값 예측 및 결과 도출\n그림 175 CSV 파일에 기록된 4×4 pose matrix 구성 및 각 프레임 별 순차적 정보\na b c d e f X Y Z\nGround\nTruth -0.99602 0.01113 -0.08845 -0.01964 0.94041 0.33947 0.54685 -0.22874 0.10988\nPrediction -0.02814 0.04267 -0.05740 0.03655 0.06244 0.25654 0.61853 -0.16101 0.18571\n단위: 밀리미터 (mm)\n표 29 컨볼루션 기법을 통해 도출된 자세 변화 예측 결과 (Error: 0.32 mm 오차)",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 성능 검증 및 최적화",
+    "heading_candidates": [
+      "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 성능 검증 및 최적화"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.26,
+          350.26,
+          476.98,
+          583.52
+        ],
+        "page_area_fraction": 0.1672
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0054",
+    "caption": "컨볼루션 기법을 통해 도출된 자세 변화 예측 결과 (Error: 0.32 mm 오차)",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "dilated 컨볼루션 (혹은 atrous 컨볼루션) 기법 활용\n✓ 기본적인 컨볼루션 필터가 수용하는 픽셀 사이에 간격을 둔 형태\n✓ Dilation rate가 2인 3×3 kernel은 9개의 파라미터 사용, 5×5 kernel과 동일한 view 크기\n* 컨볼루션을 통해 프레임 별 정보 기반으로 회전과 이동 값 예측 및 결과 도출\n그림 175 CSV 파일에 기록된 4×4 pose matrix 구성 및 각 프레임 별 순차적 정보\na b c d e f X Y Z\nGround",
+    "caption_and_following_text": "Truth -0.99602 0.01113 -0.08845 -0.01964 0.94041 0.33947 0.54685 -0.22874 0.10988\nPrediction -0.02814 0.04267 -0.05740 0.03655 0.06244 0.25654 0.61853 -0.16101 0.18571\n단위: 밀리미터 (mm)\n표 29 컨볼루션 기법을 통해 도출된 자세 변화 예측 결과 (Error: 0.32 mm 오차)\n□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 성능 검증 및 최적화\n○ CNN 및 RNN 학습을 위한 수집 대상 학습 데이터 생성 모듈 최적화\n- Camera Pose 예측 결과값 송·수신 프로그램 개발\n* 송·수신 프로그램은 Server & Client 두 개의 프로그램으로 구성\n* Server 프로그램은 Camera Pose 예측에 대한 실질적 작업을 수행함\n* Client 프로그램은 현재 Camera Pose의 데이터를 Server에 보내고, 다음 예측 데이터를",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 성능 검증 및 최적화",
+    "heading_candidates": [
+      "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 성능 검증 및 최적화"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.26,
+          350.26,
+          476.98,
+          583.52
+        ],
+        "page_area_fraction": 0.1672
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0055",
+    "caption": "현재 사용자 정보를 획득하여검증 하는 모듈(PC)",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 73 -\n그림 182 현재 사용자 정보를 획득하여검증 하는 모듈(PC)\n○ XR 디바이스용 자세 예측 SW 개발 적용\n- Camera Pose Prediction에 대한 Training 결과를 바탕으로, 주어진 input data 다음에 예측되는 위치 획득\n- HoloLens2 로부터 사용자의 실시간 위치 Data를 받아서 처리\n- HoloLens2의 실시간 Data와 이에 대한 다음 예측Data를 그래픽적으로 표현\n* XR 디바이스 기반 사용자 위치 획득 SW를 통해 PC로 데이터 획득\n그림 183 XR 디바이스(hololens)로 부터 사용자의 위치를 예측 프로그램의 흐름도\n그림 184 사용자 위치와 실시간으로 표시되는 예측 좌표와 진행 좌표\n최종적으로 XR디바이스(Hololens2)의 사용자 데이터를 획득하여 사용자의 위치를 예측하여 시각",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 성능 검증 및 고도화",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.68,
+          613.13,
+          436.45,
+          798.57
+        ],
+        "page_area_fraction": 0.1029
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.62,
+          279.17,
+          491.49,
+          492.06
+        ],
+        "page_area_fraction": 0.165
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          82.95,
+          507.33,
+          246.21
+        ],
+        "page_area_fraction": 0.1369
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0056",
+    "caption": "XR 디바이스(hololens)로 부터 사용자의 위치를 예측 프로그램의 흐름도",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 73 -\n그림 182 현재 사용자 정보를 획득하여검증 하는 모듈(PC)\n○ XR 디바이스용 자세 예측 SW 개발 적용\n- Camera Pose Prediction에 대한 Training 결과를 바탕으로, 주어진 input data 다음에 예측되는 위치 획득",
+    "caption_and_following_text": "- HoloLens2 로부터 사용자의 실시간 위치 Data를 받아서 처리\n- HoloLens2의 실시간 Data와 이에 대한 다음 예측Data를 그래픽적으로 표현\n* XR 디바이스 기반 사용자 위치 획득 SW를 통해 PC로 데이터 획득\n그림 183 XR 디바이스(hololens)로 부터 사용자의 위치를 예측 프로그램의 흐름도\n그림 184 사용자 위치와 실시간으로 표시되는 예측 좌표와 진행 좌표\n최종적으로 XR디바이스(Hololens2)의 사용자 데이터를 획득하여 사용자의 위치를 예측하여 시각\n화 할 수 있는 SW 개발을 완료함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 성능 검증 및 고도화",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.68,
+          613.13,
+          436.45,
+          798.57
+        ],
+        "page_area_fraction": 0.1029
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.62,
+          279.17,
+          491.49,
+          492.06
+        ],
+        "page_area_fraction": 0.165
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          82.95,
+          507.33,
+          246.21
+        ],
+        "page_area_fraction": 0.1369
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0057",
+    "caption": "사용자 위치와 실시간으로 표시되는 예측 좌표와 진행 좌표",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 73 -\n그림 182 현재 사용자 정보를 획득하여검증 하는 모듈(PC)\n○ XR 디바이스용 자세 예측 SW 개발 적용\n- Camera Pose Prediction에 대한 Training 결과를 바탕으로, 주어진 input data 다음에 예측되는 위치 획득\n- HoloLens2 로부터 사용자의 실시간 위치 Data를 받아서 처리",
+    "caption_and_following_text": "- HoloLens2의 실시간 Data와 이에 대한 다음 예측Data를 그래픽적으로 표현\n* XR 디바이스 기반 사용자 위치 획득 SW를 통해 PC로 데이터 획득\n그림 183 XR 디바이스(hololens)로 부터 사용자의 위치를 예측 프로그램의 흐름도\n그림 184 사용자 위치와 실시간으로 표시되는 예측 좌표와 진행 좌표\n최종적으로 XR디바이스(Hololens2)의 사용자 데이터를 획득하여 사용자의 위치를 예측하여 시각\n화 할 수 있는 SW 개발을 완료함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 기계 학습을 이용한 사용자 위치 및 자세 변화 예측 기술 성능 검증 및 고도화",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.68,
+          613.13,
+          436.45,
+          798.57
+        ],
+        "page_area_fraction": 0.1029
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.62,
+          279.17,
+          491.49,
+          492.06
+        ],
+        "page_area_fraction": 0.165
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          82.95,
+          507.33,
+          246.21
+        ],
+        "page_area_fraction": 0.1369
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0058",
+    "caption": "개발 환경 및 구동 디바이스",
+    "pdf_page_candidate": 82,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 32,
+    "prefix_match_only": false,
+    "text_before": "터를 찾는 카메라 보정 프로세스 활용, 카메라의 내부·외부 파라미터 획득에 활용\n✓ 다종 VR·AR 디바이스를 연동하는 인터페이스 제작에 보정 기능 탑재\n개발환경\n· Windows10, Visual studio 2019, C++, .NET\nFRAMEWORK (Microsoft 제공)\n· Xamarin (.NET 기반 iOS, Android, Windows\n어플리케이션 빌드용 오픈소스 플랫폼)",
+    "caption_and_following_text": "· OpenCV (실시간 디지털 영상처리 및 컴퓨터 비전\n연구개발에 활용되는 프로그래밍 라이브러리)\n구동 디바이스 · Microsoft Hololens 2 (AR 디바이스)\n표 32 개발 환경 및 구동 디바이스\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 이질적 실감 콘텐츠용 디바이스 간 호환 인터페이스 기술 개발",
+    "heading_candidates": [
+      "□ 이질적 실감 콘텐츠용 디바이스 간 호환 인터페이스 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.36,
+          353.97,
+          204.13,
+          521.43
+        ],
+        "page_area_fraction": 0.0414
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          233.87,
+          352.65,
+          361.24,
+          522.75
+        ],
+        "page_area_fraction": 0.0433
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          389.67,
+          353.49,
+          515.96,
+          522.03
+        ],
+        "page_area_fraction": 0.0425
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0059",
+    "caption": "깊이 지도 정성적 결과 비교. Input: 컬러-모노크롬 스테레오 영상.GT: 정답 깊이 지도, ANCC: (Heo et al. TPAMI2011), JDMCC: (Heo et al. TPAMI2013), DMC (Zhi et al. CVPR 2018), CMSNet (제안한 방법, IJCV22)",
+    "pdf_page_candidate": 88,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 80 -\n* 깊이 지도 생성 정성적 비교[그림 203] 및 정량적 비교[표 39]를 통한 제안한 방법 검증\n그림 203 깊이 지도 정성적 결과 비교. Input: 컬러-모노크롬 스테레오 영상. GT: 정답 깊이 지도, ANCC: (Heo et al. TPAMI2011), JDMCC: (Heo et al.\nTPAMI2013), DMC (Zhi et al. CVPR 2018), CMSNet (제안한 방법, IJCV22)\nKITTI 데이터셋 기준\n(error < 4 pixel) DMC+ft (CVPR18) CMSNet (IJCV22)\n정확도 68.22 % 91.18 %\n표 39 깊이 지도 생성 결과 비교 (정량적 분석)\n□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]\n○ 다중 시점 이미지 특징점 추출",
+    "section_context_candidate": "□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]",
+    "heading_candidates": [
+      "□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.07,
+          409.11,
+          493.05,
+          771.36
+        ],
+        "page_area_fraction": 0.283
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0060",
+    "caption": "깊이 지도 생성 결과 비교 (정량적 분석)",
+    "pdf_page_candidate": 88,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 80 -\n* 깊이 지도 생성 정성적 비교[그림 203] 및 정량적 비교[표 39]를 통한 제안한 방법 검증\n그림 203 깊이 지도 정성적 결과 비교. Input: 컬러-모노크롬 스테레오 영상. GT: 정답 깊이 지도, ANCC: (Heo et al. TPAMI2011), JDMCC: (Heo et al.\nTPAMI2013), DMC (Zhi et al. CVPR 2018), CMSNet (제안한 방법, IJCV22)",
+    "caption_and_following_text": "KITTI 데이터셋 기준\n(error < 4 pixel) DMC+ft (CVPR18) CMSNet (IJCV22)\n정확도 68.22 % 91.18 %\n표 39 깊이 지도 생성 결과 비교 (정량적 분석)\n□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]\n○ 다중 시점 이미지 특징점 추출\n- 입력 영상들에 대한 특징점(Feature) 추출(Extraction) 후, 기준 시점에 대한 깊이 추정을 위해 소스\n(Source) 시점 영상을 호모그래피 와핑(Homography Warping)을 통해 기준(Reference) 시점으로 변환\n○ 비용 볼륨 생성 및 정합\n- 기준 시점으로 변환된 각 영상들의 특징점들을 연결(Concatenate)하여 비용 볼륨을 생성. 생성",
+    "section_context_candidate": "□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]",
+    "heading_candidates": [
+      "□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.07,
+          409.11,
+          493.05,
+          771.36
+        ],
+        "page_area_fraction": 0.283
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0061",
+    "caption": "GRU기반 3차원 복원 알고리즘 설계",
+    "pdf_page_candidate": 89,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 81 -\n그림 204 GRU기반 3차원 복원 알고리즘 설계\n○ 다양한 환경에 일반화 가능한 단안카메라 기반 깊이 추정 기술 개발\n- 다양한 텍스처 이동 데이터셋을 생성하여 텍스처 편향과 형태 편향 표현의 효과를 조사하였으며, 트랜스포머가 강한 형태 편향을 보이고 CNN이 강한 텍스처 편향을 보인다는 것을 관찰하였음\n- 형태 편향 모델이 텍스처 편향 모델에 비해 단안 깊이 추정에 대한 일반화 성능이 더 우수하다\n는 것을 발견하였으며, 이러한 관찰을 바탕으로, 다중 레벨 적응형 특성 융합 모듈을 갖춘 새\n로운 CNN-트랜스포머 하이브리드 네트워크인 MonoFormer를 새롭게 설계함\n- MonoFormer 뒤에 있는 설계 직관은 트랜스포머를 사용하여 형태 편향을 증가시키면서 다중\n레벨 표현을 적응적으로 융합함으로써 트랜스포머의 약한 지역성 편향을 보완하는 것을 확인함\n그림 205 단안카메라기반 깊이추정 심층신경망 개발",
+    "section_context_candidate": "□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.79,
+          540.61,
+          510.45,
+          798.57
+        ],
+        "page_area_fraction": 0.2194
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          145.76,
+          520.28,
+          368.12
+        ],
+        "page_area_fraction": 0.1979
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0062",
+    "caption": "단안카메라기반 깊이추정 심층신경망 개발",
+    "pdf_page_candidate": 89,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 81 -\n그림 204 GRU기반 3차원 복원 알고리즘 설계\n○ 다양한 환경에 일반화 가능한 단안카메라 기반 깊이 추정 기술 개발\n- 다양한 텍스처 이동 데이터셋을 생성하여 텍스처 편향과 형태 편향 표현의 효과를 조사하였으며, 트랜스포머가 강한 형태 편향을 보이고 CNN이 강한 텍스처 편향을 보인다는 것을 관찰하였음\n- 형태 편향 모델이 텍스처 편향 모델에 비해 단안 깊이 추정에 대한 일반화 성능이 더 우수하다\n는 것을 발견하였으며, 이러한 관찰을 바탕으로, 다중 레벨 적응형 특성 융합 모듈을 갖춘 새",
+    "caption_and_following_text": "로운 CNN-트랜스포머 하이브리드 네트워크인 MonoFormer를 새롭게 설계함\n- MonoFormer 뒤에 있는 설계 직관은 트랜스포머를 사용하여 형태 편향을 증가시키면서 다중\n레벨 표현을 적응적으로 융합함으로써 트랜스포머의 약한 지역성 편향을 보완하는 것을 확인함\n그림 205 단안카메라기반 깊이추정 심층신경망 개발\n○ 정량평가지표 달성 여부 파악 위한 실험\n- 깊이 정보 정확도 97.04% 획득하여 목표치 상회하는 것을 확인하였음. (목표치: 97%)\n* 깊이 정보 정확도: 프레임마다 실측 깊이 (Depth) 대비 추정 깊이의 비율이 1.25^2,\n미만이 되는 픽셀의 전체 픽셀 수 대비 백분율 (정확도 측정 방법: max(d/d_gt, d_gt/d) <\n1.252, [d: 추정 깊이, d_gt: 실측 깊이, 1.252=1.5625])\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.79,
+          540.61,
+          510.45,
+          798.57
+        ],
+        "page_area_fraction": 0.2194
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          145.76,
+          520.28,
+          368.12
+        ],
+        "page_area_fraction": 0.1979
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I14-V0063",
+    "caption": "MV-HEVC 압축 구조 결정 예시: 시점 인덱스 순서 기반 결정 방식",
+    "pdf_page_candidate": 91,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 83 -",
+    "caption_and_following_text": "- 시점 간 중복성을 고려한 클러스터 기반 MV-HEVC 압축 구조 결정 기술 개발\n* 다시점 영상 압축 시 사용되는 multi-view high-efficiency video coding (MV-HEVC) 표준을\n몰입형 비디오 압축에 사용 시 압축률 향상을 위한 MIV 기반 압축 구조 결정 기술 개발\n그림 209 MV-HEVC 압축 구조 결정 예시: 시점 인덱스 순서 기반 결정 방식\n(좌), 프루닝 순서 기반 결정 방식 (중), 프루닝 클러스터 순서 기반 결정 방식\n(우)\n* 1) 시점 인덱스 순서 기반 결정 방식, 2) 프루닝 순서 기반 결정 방식, 3) 프루닝 클러스터 순\n서 기반 결정 방식 실험을 진행하였고, 1) 대비 2)는 Y-PSNR BD-rate에서 2.07% 절감, 3)\n은 3.88% 절감을 기록하여 대역폭 측면에서 효율적임을 확인\n* 국제 표준화 기관인 IEEE 3079에 기고서 제출 및 채택되었고, 한국방송·미디어공학회 추계학",
+    "section_context_candidate": "□ 3차원 깊이지도 재구성을 위한 중첩 시점 깊이 추정 기술 개발 [그림 204]",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.26,
+          576.33,
+          482.86,
+          732.52
+        ],
+        "page_area_fraction": 0.1157
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

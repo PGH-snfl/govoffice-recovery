@@ -1,0 +1,3550 @@
+[
+  {
+    "visual_id": "I40-V0001",
+    "caption": "빅데이터 환경에서 비식별화 기법을 이용한 개인정보보호 기술 개발",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 10 -\n1. 연구개발 과제의 개요\n1-1. 연구개발 목적\n[그림 1] 빅데이터 환경에서 비식별화 기법을 이용한 개인정보보호 기술 개발\n본 연구개발 과제는 빅데이터 수집 및 처리과정에서 발생하는 프라이버시 문제를 비식별화\n및 부정사용 방지기법을 통해 해결하는 개인정보보호 연계시스템 개발을 목적으로 한다. 본 연\n구개발 과제의 최종 목적은 기업 내 수많은 운영계 시스템들로부터 지속적으로 생산되는 다양\n한 형태의 많은 데이터에서 민감한 개인정보를 고속으로 탐색하여 개인정보의 사용 목적에 적\n합한 비식별화 등급 레벨별로 안전하고 신속하게 비식별화하여 빅데이터에서의 개인정보 유출\n문제를 원천적으로 해소함으로써, 기업 내부 및 기업 간 빅데이터의 활용을 적극적으로 극대화",
+    "section_context_candidate": "1. 연구개발 과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발 과제의 개요",
+      "1-1. 연구개발 목적"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          532.82,
+          517.52,
+          706.87
+        ],
+        "page_area_fraction": 0.1603
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0002",
+    "caption": "빅데이터 분석기술 분류",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "원본 데이터 저장 대용량 분산 파일 시스템(Hadoop File System 등)\n구조적 데이터 저장 대용량 분산 데이터 저장소(NoSQL-HBase, Cassandra, Mongo\nDB 등)\n배치 분산 병렬 처리 MapReduce(Hadoop), 그래프 분석(Pregel, GoldenORB 등)\n데이터 스트리밍\n프로세싱 S4, Storm\n데이터 마이닝 Mahout",
+    "caption_and_following_text": "기존 솔루션 BI/DW, RDBMS 등\n기타 다양한 데이터 알고리즘, 데이터 분석 기술, 분산관리\n(ZooKeeper), 분산 큐(Kafka), 분산 캐쉬(Memcached, Redis)\n[표 1] 빅데이터 분석기술 분류\n① 하둡(Hadoop) 하둡은 분산 시스템 상에서 대용량 데이터 처리 분석을 지원하는 오픈소스 소프트웨어\n프레임워크로 구글이 개발한 맵리듀스(MapReduce)를 오픈소스로 구현한 결과물임. 하\n둡 분산파일시스템은 하드웨어 오작동이나 스트리밍 데이터의 접근, 대용량 데이터 집\n합, 간단한 결합 모델, 다른 종류의 H/W와 S/W 플랫폼과의 호환성 등을 고려하여 설계\n되어 있음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [
+      "나. 기술개발 대상의 국내외 현황"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0003",
+    "caption": "빅데이터 업체 현황",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "하고 있으며, 대규모 분산처리 분야에서 널리 쓰이는 하둡의 토대가 되는\n프레임워크인 맵리듀스를 개발함. ⋅외부 이용자가 이용할 수 있게 한 빅데이터 서비스인 빅쿼리(BigQuery)제공\n⋅자사 서비스 플랫폼에 올라오는 글과 그림, 동영상 등을 분석하여 이용자\n성향이나 관심사항을 파악하여 맞춤형 광고에 활용 중. ⋅9,000만 명 이상의 활동적인 이용자 지원 및 하루 평균 40TB 규모의 새로\n운 데이터베이스를 수집함. ⋅옥션 출품물의 이미지와 설명문의 비구조화된 데이터 분석을 통하여 서비\n스 이용행태를 예측하고 이를 바탕으로 이용자들에게 효율적인 서비스 제시\n⋅하둡 프레임워크 기반 대규모 데이터 분석기능인 ‘아마존 엘라스틱 맵리",
+    "caption_and_following_text": "듀스’와 데이터 저장서비스인 ‘아마존‘심플스토리지서비스’와 통합됨\n⋅관리의 부담이 없고, 간편하며, 저렴한 빅데이터 저장분석 솔루션 NoSQL\n데이터베이스 서비스인 ‘다이나모DB’출시함\n[표 2] 빅데이터 업체 현황\n(나) 국내 기술 동향 및 수준(신청 기관 포함)\n① 보유 기술 : 이지서티, 개인정보 필터링 솔루션\n(주)이지서티는 웹 및 스마트폰에서의 개인정보 검색엔진 기술의 핵심원천기술을 보유(특허\n등록)하고 있으며 개인정보보호 관련 제품들을 출시하여 시장점유율 1위의 제품으로 시장에\n진출한 바 있다. 개인정보보호 분야의 업계 선두의 역할을 위해 연구 및 기술개발을 지속적\n으로 진행하고 있다. (주)이지서티의 개인정보 보호 제품 중 U-PRIVACY SAFER V3.0은 국내",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0004",
+    "caption": "U-PRIVACY SAFER 주요기능",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 16 -\n[그림 2 ] U-PRIVACY SAFER 주요기능\n② 보유 기술 : 이지서티, PDRA Model(개인정보 분석 모델) (주)이지서티는 수집된 개인정보를 분석을 위해 PDRA(Privacy Detection and Risk Analysis)\n모델을 보유 하고 있다. PDRA 모델은 PC에 기록된 개인정보 항목을 탐지하고 그에 따른 개\n인정보 중요도를 평가하여 사용자에게 개인정보 유출 시 발생할 수 있는 위험수준을 고지하\n고, 사용자의 선택에 따라 파일 삭제 혹은 암·복호화를 통해 개인정보를 안전하게 보호할\n수 있도록 한다.\nPDRA는 총 4가지 구성으로 이루어져 있으며 이에 대해 간략히 살펴보면 다음과 같다. ㉮ PIDM(Privacy Information Detection Mechanism)\n사용자가 설정한 경로에서 개인정보 노출 및 오·남용 위험이 있는 일반 text, binary 파\n일 및 복합문서 등을 추출함. ㉯ PIPM(Privacy Information Patten Analysis & Parsing Mechanism)",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.15,
+          633.39,
+          503.73,
+          784.42
+        ],
+        "page_area_fraction": 0.1245
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0005",
+    "caption": "PDRA 모델의 전체 구성도",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 17 -\n[그림 3]PDRA 모델의 전체 구성도\n㈜이지서티는 고유식별정보 및 행정안전부가 기준으로 삼고 있는 개인정보 기본 필터링에\n대한 검색 알고리즘을 이미 자체 보유한 상태이다. ③ 개인정보 부정사용 감시\n(주)이지서티는 수집된 로그에 대하여 5W1H를 분석하여 도출한 내용을 바탕으로 (주)이지\n서티가 보유한 개인정보 부정행위 추출 조건에 대입하여 적합한 추출조건을 판단하여 개인\n정보 수집로그에 적용하여 개인정보 사용행위, 사용자 별 위험분석 및 위험도를 산정하고 부\n정행위 탐지 기능을 제공한다.\n[그림 3] 접속기록 분석 기법\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -241.91,
+          448.79,
+          232.07,
+          919.51
+        ],
+        "page_area_fraction": 0.4459
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.07,
+          448.79,
+          706.06,
+          919.51
+        ],
+        "page_area_fraction": 0.4459
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.42,
+          88.94,
+          431.41,
+          322.45
+        ],
+        "page_area_fraction": 0.1134
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0006",
+    "caption": "접속기록 분석 기법",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 17 -\n[그림 3]PDRA 모델의 전체 구성도\n㈜이지서티는 고유식별정보 및 행정안전부가 기준으로 삼고 있는 개인정보 기본 필터링에\n대한 검색 알고리즘을 이미 자체 보유한 상태이다. ③ 개인정보 부정사용 감시\n(주)이지서티는 수집된 로그에 대하여 5W1H를 분석하여 도출한 내용을 바탕으로 (주)이지",
+    "caption_and_following_text": "서티가 보유한 개인정보 부정행위 추출 조건에 대입하여 적합한 추출조건을 판단하여 개인\n정보 수집로그에 적용하여 개인정보 사용행위, 사용자 별 위험분석 및 위험도를 산정하고 부\n정행위 탐지 기능을 제공한다.\n[그림 3] 접속기록 분석 기법\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -241.91,
+          448.79,
+          232.07,
+          919.51
+        ],
+        "page_area_fraction": 0.4459
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          232.07,
+          448.79,
+          706.06,
+          919.51
+        ],
+        "page_area_fraction": 0.4459
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.42,
+          88.94,
+          431.41,
+          322.45
+        ],
+        "page_area_fraction": 0.1134
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0007",
+    "caption": "부정행위 탐지 추출 조건 예제",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 18 -\n추출 조건 명 설 명\n사유 없이 정보과다 열람 업무상의 사유 없이 개인정보를 과다 열람한 경우\n직원 비정상 접속 직원이 등록한 소속 이외에 다른IP대역에서 접속한 경우",
+    "caption_and_following_text": "특정시간대 업무처리 특정시간대 업무를 수행한 경우(공휴일, 휴일, 공단 근무일정\n감안)\nID를 다른 IP에서 접속 하나의 ID를 다른 IP에서 접속하는 경우\n[표 3] 부정행위 탐지 추출 조건 예제\no 공신력있는 사업을 구축한 경험으로 보유한 부정행위 탐지 추출 조건(예제)\n④ 보유기술 : 이지서티-고려대학교 산학협력단\n㉮ 데이터 스트림에서 프라이버시 보호 기술 보유\n㉯ 고려대학교 산학협력단에서 개발한 지연 없는 익명화 기법으로 스트림 환경에서 데이터\n를 익명화 실현\n[그림 4] 지연 없는 익명화 기법",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.74,
+          281.57,
+          414.02,
+          402.04
+        ],
+        "page_area_fraction": 0.0562
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0008",
+    "caption": "지연 없는 익명화 기법",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "추출 조건 명 설 명\n사유 없이 정보과다 열람 업무상의 사유 없이 개인정보를 과다 열람한 경우\n직원 비정상 접속 직원이 등록한 소속 이외에 다른IP대역에서 접속한 경우\n특정시간대 업무처리 특정시간대 업무를 수행한 경우(공휴일, 휴일, 공단 근무일정\n감안)\nID를 다른 IP에서 접속 하나의 ID를 다른 IP에서 접속하는 경우\n[표 3] 부정행위 탐지 추출 조건 예제",
+    "caption_and_following_text": "o 공신력있는 사업을 구축한 경험으로 보유한 부정행위 탐지 추출 조건(예제)\n④ 보유기술 : 이지서티-고려대학교 산학협력단\n㉮ 데이터 스트림에서 프라이버시 보호 기술 보유\n㉯ 고려대학교 산학협력단에서 개발한 지연 없는 익명화 기법으로 스트림 환경에서 데이터\n를 익명화 실현\n[그림 4] 지연 없는 익명화 기법\n⑤ 보유기술 : 이지서티-고려대학교 산학협력단\n㉮ SNS (소셜 네트워크 서비스) 데이터 익명화 기법 연구 기술 보유\n㉯ 내용정보와 구조정보를 포함한 SNS 데이터의 익명화 기법\n㉰ SNS 데이터 프라이버시 보호 배포를 위한 모델 제안",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.74,
+          281.57,
+          414.02,
+          402.04
+        ],
+        "page_area_fraction": 0.0562
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0009",
+    "caption": "SNS 데이터 프라이버시 보호를 위한 모델",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 19 -\n[그림 5] SNS 데이터 프라이버시 보호를 위한 모델\n⑥ 보유기술 : 국내 대용량 데이터 처리 기술 동향\n㉮ Tajo : A distributed data warehouse system on large clusters ㉠ 본 연구팀에서 개발한 Hadoop 클러스터 기반 대용량 관계형 데이터 분석시스템\n㉡ 국내대학 최초 Apache 오픈소스 프로젝트 선정(현재 Top-level 프로젝트) ㉢ 대용량 데이터의 분산 저장 및 처리 기술 보유\n㉣ 자체 개발한 질의 엔진을 사용해 최적화된 분산질의 계획을 설계하며 빠른 처리속도와\n낮은 응답 지연시간을 지원\n[그림 6] Apache Tajo 시스템의 구조\n⑦ 프라이버시 보존 데이터 추출(Privacy Preserving Data Mining) 처리 기술\n㉮ 최근 빅데이터 및 IoT 기술의 발전과 함께 개인 프라이버시 보호에 대한 중요성이 제시",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.85,
+          671.27,
+          387.03,
+          784.42
+        ],
+        "page_area_fraction": 0.0405
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.9,
+          279.65,
+          414.98,
+          428.53
+        ],
+        "page_area_fraction": 0.0699
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0010",
+    "caption": "Apache Tajo 시스템의 구조",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 19 -\n[그림 5] SNS 데이터 프라이버시 보호를 위한 모델\n⑥ 보유기술 : 국내 대용량 데이터 처리 기술 동향\n㉮ Tajo : A distributed data warehouse system on large clusters ㉠ 본 연구팀에서 개발한 Hadoop 클러스터 기반 대용량 관계형 데이터 분석시스템",
+    "caption_and_following_text": "㉡ 국내대학 최초 Apache 오픈소스 프로젝트 선정(현재 Top-level 프로젝트) ㉢ 대용량 데이터의 분산 저장 및 처리 기술 보유\n㉣ 자체 개발한 질의 엔진을 사용해 최적화된 분산질의 계획을 설계하며 빠른 처리속도와\n낮은 응답 지연시간을 지원\n[그림 6] Apache Tajo 시스템의 구조\n⑦ 프라이버시 보존 데이터 추출(Privacy Preserving Data Mining) 처리 기술\n㉮ 최근 빅데이터 및 IoT 기술의 발전과 함께 개인 프라이버시 보호에 대한 중요성이 제시\n되었고, 이에 대해서도 기술적인 발전이 필요하다는 의견이 대두되어 학계를 중심으로\n프라이버시 보존형 데이터마이닝 기술의 연구가 진행 중\n㉯ 연이어 터지는 업계의 개인정보 유출 사건으로 인해 대중의 개인 프라이버시 보호에 대한\n관심 또한 높아지고 있으나, 아직 업계에서 데이터 분석 단계에 PPDM 기술을 적용하기에",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.85,
+          671.27,
+          387.03,
+          784.42
+        ],
+        "page_area_fraction": 0.0405
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.9,
+          279.65,
+          414.98,
+          428.53
+        ],
+        "page_area_fraction": 0.0699
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0011",
+    "caption": "비식별화 변환 기술 비교",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "속성 정보\n손실 가능성\n재식별 가능성\n역추적기법 연계분석\n기법\n대표레코드 생성 Ｘ Ｘ Ｘ Ｘ\n암호화 Ｘ Ｘ △ Ｘ",
+    "caption_and_following_text": "총계처리 ○ Ｘ Ｘ Ｘ\n삭제 ○ ○ Ｘ Ｘ\n범주화 ○ Ｘ Ｘ ○\n[표 4] 비식별화 변환 기술 비교\n㉯ 현재의 비식별화 기술들은 대부분 저장된 레코드에 대하여 적용되는 기술들로 스트림\n데이터에 대해서 비식별화를 수행하는 기술연구는 부족\n⑨ 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술 현황\n목록 구분 기관명(년도) 도메인 특징\n개인정보 접속 모니터링 ㈜이지서티 네트워크\n트래픽",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0012",
+    "caption": "개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술 현황",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "역추적기법 연계분석\n기법\n대표레코드 생성 Ｘ Ｘ Ｘ Ｘ\n암호화 Ｘ Ｘ △ Ｘ\n총계처리 ○ Ｘ Ｘ Ｘ\n삭제 ○ ○ Ｘ Ｘ\n범주화 ○ Ｘ Ｘ ○",
+    "caption_and_following_text": "[표 4] 비식별화 변환 기술 비교\n㉯ 현재의 비식별화 기술들은 대부분 저장된 레코드에 대하여 적용되는 기술들로 스트림\n데이터에 대해서 비식별화를 수행하는 기술연구는 부족\n⑨ 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술 현황\n목록 구분 기관명(년도) 도메인 특징\n개인정보 접속 모니터링 ㈜이지서티 네트워크\n트래픽\n4G망 공격/비정상 트래픽\n탐지 및 대응 기술 개발\n한국 인터넷",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0013",
+    "caption": "k-익명성 모델에 의해 익명화된 의료데이터의 예",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 79,
+    "prefix_match_only": false,
+    "text_before": "3*\n3*\n*\n*\n*\n* 위암\n위암",
+    "caption_and_following_text": "위암\n위암\n[표 6] k-익명성 모델에 의해 익명화된\n의료데이터의 예\n준식별자 민감한 정보\n지역\n코드 연령 성\n별 질병\n1\n4",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0014",
+    "caption": "l-다양성 모델에 의해 익명화된 의료데이터의 예",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 142,
+    "prefix_match_only": false,
+    "text_before": "≤ 40\n≤ 40\n*\n*\n*\n* 전립선염\n고혈압",
+    "caption_and_following_text": "위암\n위암\n[표 7] l-다양성 모델에 의해 익명화된\n의료데이터의 예\n2) Anatomy는 KLT 비식별화 모델에서 이용되는 데이터 일반화 방식이 아닌 데이터 그룹화 기법을 사용한 비식별화\n기법으로 KLT 비식별화 모델보다 정보 손실을 최소화 시키는 통계적 정확성 유지 비식별화 기술이다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0015",
+    "caption": "t-다양성 모델에 의해 익명화된 의료데이터의 예",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 54,
+    "prefix_match_only": false,
+    "text_before": "40\n70\n100\n급성\n위염\n기관지\n염",
+    "caption_and_following_text": "만성\n위염\n[표 8] t-다양성 모델에 의해 익명화된\n의료데이터의 예\n② 다양한 환경에서의 응용 데이터 프라이버시 보호 모델\n㉮ 스트림 데이터 환경에서의 프라이버시 보호 기법이 제안됨\n㉯ 그래프 환경에서의 프라이버시 보호 기법으로 소셜 네트워크 서비스 등에서 이용되는\n그래프 데이터 프라이버시 보호 기법이 개발됨\n③ 프라이버시 보존 데이터 추출(Privacy Preserving Data Mining) 처리 기술\n㉮ 법적인 제도의 제약과 함께 프라이버시 보존형 데이터 마이닝의 기술에 대한 연구의",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0016",
+    "caption": "PPDM알고리즘 평가 척도",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 23 -\n㉠ PPDM의 알고리즘을 평가하는 기준\n평가척도 설명\nPerformance 알고리즘 자체의 성능",
+    "caption_and_following_text": "Data Utility 데이터의 정보나 기능적 손실 정도\nUncertainty 민감한 정보의 숨김 정도\nResistance 일반적인 알고리즘과의 오차 정도\n[표 9] PPDM알고리즘 평가 척도\n㉡ 이중 일부 척도에서 우수한 성능을 보이는 알고리즘이 개발된 바는 있으나 모든 평가\n척도에서 다른 알고리즘들의 성능을 뛰어넘는 기술은 아직 개발되지 못한 실정\n㉳ 이론적인 발전에도 불구하고 아직 업계에 기술을 적용하기에는 장벽이 존재하여 활발히\n사용되고 있지는 않으며, 의료 서비스 업계를 주축으로 프라이버시 보존형 마이닝 기술의\n적용 사례가 일부 등장하고 있음\n㉠ datafly 등의 제품이 실제 의료계에서 프라이버시 문제없이 데이터를 사용하게 해주는",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0017",
+    "caption": "개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 24 -\n[그림 8] 2015-2020 국내 빅데이터 성장 추이\n(출처, 국내외빅데이터 시장전망보고서, KRG,2018)\n[그림 7] 2011-2027 빅데이터 마켓 성장추이\n(출처, BigDataMonthly42, K-ICT, 2018)",
+    "caption_and_following_text": "㉱ 구글, 페이스북등의 인터넷 서비스 기업들은 이용자의 웹 사용 로그를 비식별화하여 광고에\n사용하는 리타케팅 기법을 사용하여 이익을 창출하고 있으며, 미국의 경우 이와 관련해 온\n라인 행태 정보 수집, 이용, 공개를 규제하는 법안 초안이 작성됨\n⑤ 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술\n목록 구분 기관명(년도) 도메인 특징\nPAM IBM(2012년)\n각 프로토콜 및\nMS오피스 및 PDF 등\n문서 파일\n기존 패턴매칭의 탐지 방법에",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          289.64,
+          245.13,
+          526.4,
+          394.13
+        ],
+        "page_area_fraction": 0.0705
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          245.13,
+          274.41,
+          394.13
+        ],
+        "page_area_fraction": 0.0649
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0018",
+    "caption": "2011-2027 빅데이터 마켓 성장추이 (출처, BigDataMonthly42, K-ICT, 2018)",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 24 -",
+    "caption_and_following_text": "[그림 8] 2015-2020 국내 빅데이터 성장 추이\n(출처, 국내외빅데이터 시장전망보고서, KRG,2018)\n[그림 7] 2011-2027 빅데이터 마켓 성장추이\n(출처, BigDataMonthly42, K-ICT, 2018)\n㉱ 구글, 페이스북등의 인터넷 서비스 기업들은 이용자의 웹 사용 로그를 비식별화하여 광고에\n사용하는 리타케팅 기법을 사용하여 이익을 창출하고 있으며, 미국의 경우 이와 관련해 온\n라인 행태 정보 수집, 이용, 공개를 규제하는 법안 초안이 작성됨\n⑤ 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술\n목록 구분 기관명(년도) 도메인 특징\nPAM IBM(2012년)",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          289.64,
+          245.13,
+          526.4,
+          394.13
+        ],
+        "page_area_fraction": 0.0705
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          245.13,
+          274.41,
+          394.13
+        ],
+        "page_area_fraction": 0.0649
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0019",
+    "caption": "2015-2020 국내 빅데이터 성장 추이 (출처, 국내외빅데이터 시장전망보고서, KRG,2018)",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 24 -\n[그림 8] 2015-2020 국내 빅데이터 성장 추이\n(출처, 국내외빅데이터 시장전망보고서, KRG,2018)\n[그림 7] 2011-2027 빅데이터 마켓 성장추이\n(출처, BigDataMonthly42, K-ICT, 2018)\n㉱ 구글, 페이스북등의 인터넷 서비스 기업들은 이용자의 웹 사용 로그를 비식별화하여 광고에\n사용하는 리타케팅 기법을 사용하여 이익을 창출하고 있으며, 미국의 경우 이와 관련해 온\n라인 행태 정보 수집, 이용, 공개를 규제하는 법안 초안이 작성됨\n⑤ 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술\n목록 구분 기관명(년도) 도메인 특징",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          289.64,
+          245.13,
+          526.4,
+          394.13
+        ],
+        "page_area_fraction": 0.0705
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          245.13,
+          274.41,
+          394.13
+        ],
+        "page_area_fraction": 0.0649
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0020",
+    "caption": "시장영역별 국내 빅데이터 시장 규모",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 25 -\n고 있다.\n빅데이터를 활용하기 위해서는 개인정보보호법등의 개인정보에 대한 제약 때문에, 여전히 빅\n데이터를 도입한 기업 중 35%정도는 파일럿 수준이며, 미도입 기업들도 약 42% 향후 도입\n계획이 있는 것으로 나타나서, 개인정보에 대한 비식별 시장은 여전히 크고 앞으로도 더욱",
+    "caption_and_following_text": "성장할 것으로 보인다.\n② 국내․외 주요 수요처 현황\n㉮ 국내 주요 수요처 현황\n[표 11] 시장영역별 국내 빅데이터 시장 규모 공공부문에서는 행정안전부에서는 공공기관이 생성 또는 취득하여 보유하고 있는 공공데이\n터를 한 곳에서 제공하는 통합창구로 공공데이터 포털을 운영하고 있다. 2013년 5,272건에서\n2017년 12월 24,636건으로 5배가량 늘어났다. 더 많은 공공부문에서도 데이터 공개에 따라 더\n많은 시장이 열릴 것이다. 민간부문에서는 네이버( 네이버 데이터 랩) 와 SK(SK 빅데이터 허\n브) 등과 같이 다른 데이터와 결합하여 분석, 활용할 수 있는 시장을 더 키워가고 있다.\n(3) 국내․외 경쟁기관 현황\n(가) 본 기술/제품과 직접적 경쟁관계에 있는 국내․외 기관․기업 현황",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.19,
+          472.28,
+          504.57,
+          619.36
+        ],
+        "page_area_fraction": 0.1218
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0021",
+    "caption": "IDENTITY SHIELD (개인정보 비식별조치 솔루션)",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 27 -",
+    "caption_and_following_text": "⑦ ㈜이지서티 – 아이덴티티 쉴드 (IDENTITY SHIELD) ㉮ 빅데이터 내의 정형, 비정형 데이터에서 개인정보를 식별하고 가명화, 익명화 등의 고\n전적 비식별뿐만 아니라 K,L,T 프라이버시모델(K-익명성, L-다양성, T-근접성)을 이용\n한 비식별화 솔루션\n[그림 10] IDENTITY SHIELD (개인정보 비식별조치 솔루션) ㉯ 국내 최대 비식별화 구축 사업 진행\n[그림 10] IDENTITY SHIELD 주요 구축사례\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.63,
+          493.86,
+          473.03,
+          697.28
+        ],
+        "page_area_fraction": 0.155
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          82.83,
+          529.99,
+          437.16
+        ],
+        "page_area_fraction": 0.314
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0022",
+    "caption": "IDENTITY SHIELD 주요 구축사례",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 27 -\n⑦ ㈜이지서티 – 아이덴티티 쉴드 (IDENTITY SHIELD) ㉮ 빅데이터 내의 정형, 비정형 데이터에서 개인정보를 식별하고 가명화, 익명화 등의 고",
+    "caption_and_following_text": "전적 비식별뿐만 아니라 K,L,T 프라이버시모델(K-익명성, L-다양성, T-근접성)을 이용\n한 비식별화 솔루션\n[그림 10] IDENTITY SHIELD (개인정보 비식별조치 솔루션) ㉯ 국내 최대 비식별화 구축 사업 진행\n[그림 10] IDENTITY SHIELD 주요 구축사례\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.63,
+          493.86,
+          473.03,
+          697.28
+        ],
+        "page_area_fraction": 0.155
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          82.83,
+          529.99,
+          437.16
+        ],
+        "page_area_fraction": 0.314
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0023",
+    "caption": "파수닷컴 – Analytic DID",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\n㉰ 주요특징\n㉠ GS 인증(1등급) 획득 2018.8\n㉡ 비식별 가이드라인 충족",
+    "caption_and_following_text": "㉢ 공인인증기관 유일 BMT 통과\n㉣ 국내 유일 빅데이터 적용\n⑧ 파수닷컴 - 애널리틱 디아이디 (Analytic DID) ㉮ 빅데이터 내의 개인정보를 마스킹을 통해 비식별화 솔루션\n[그림 11] 파수닷컴 – Analytic DID\n⑨ 보메트릭 코리아 – 보메트릭 토큰 서버\n㉮ 어플리케이션 단계에서의 토큰화 기술을 통해 데이터를 가명 처리 및 마스킹 처리를 하는\n기술\n㉯ 동적인 데이터 마스킹 및 속성 유지 토큰화 기술을 이용하여 데이터의 형식을 보존하\n여 성능의 영향 없이 민감한 정보를 보호할 수 있다.\n[그림 12] 보메트릭 - 토큰서버",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.57,
+          490.62,
+          517.16,
+          614.21
+        ],
+        "page_area_fraction": 0.1135
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          148.28,
+          499.29,
+          352.54
+        ],
+        "page_area_fraction": 0.1648
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0024",
+    "caption": "보메트릭 - 토큰서버",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\n㉰ 주요특징\n㉠ GS 인증(1등급) 획득 2018.8\n㉡ 비식별 가이드라인 충족\n㉢ 공인인증기관 유일 BMT 통과",
+    "caption_and_following_text": "㉣ 국내 유일 빅데이터 적용\n⑧ 파수닷컴 - 애널리틱 디아이디 (Analytic DID) ㉮ 빅데이터 내의 개인정보를 마스킹을 통해 비식별화 솔루션\n[그림 11] 파수닷컴 – Analytic DID\n⑨ 보메트릭 코리아 – 보메트릭 토큰 서버\n㉮ 어플리케이션 단계에서의 토큰화 기술을 통해 데이터를 가명 처리 및 마스킹 처리를 하는\n기술\n㉯ 동적인 데이터 마스킹 및 속성 유지 토큰화 기술을 이용하여 데이터의 형식을 보존하\n여 성능의 영향 없이 민감한 정보를 보호할 수 있다.\n[그림 12] 보메트릭 - 토큰서버\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.57,
+          490.62,
+          517.16,
+          614.21
+        ],
+        "page_area_fraction": 0.1135
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.47,
+          148.28,
+          499.29,
+          352.54
+        ],
+        "page_area_fraction": 0.1648
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0025",
+    "caption": "개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "Wins 스나이퍼 APTX 네트워크 트래픽 신속한 역접속 탐지·차단이 가능\nComputer Associate Etrust 시스템 콜 분석 OS의 취약성을 통한 접근 시도\n차단\nIBM PAM\n각 종 프로토콜\n및 MS오피스 및\nPDF 등 문서 파일",
+    "caption_and_following_text": "기존 패턴 매칭의 탐지 방법에서\n벗어나 프로토콜을 디코딩 하는\n방법을 택함\n[표 12] 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술\n⑩ 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0026",
+    "caption": "데이터 익명화를 다루는 대표적 기술에 대한 국내 특허 현황",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 65,
+    "prefix_match_only": false,
+    "text_before": "절차\n(주)파수닷컴\n대한민국 1018792660000 2016.09.27 개인정보 비식별화 검증\n시스템\n(주)조은아이앤에\n스\n대한민국 1018596360000 2017.07.19 보안기능을 가지는 개인정보",
+    "caption_and_following_text": "비식별화 시스템 및 방법\n주식회사\n디지털즈\n[표 13] 데이터 익명화를 다루는 대표적 기술에 대한 국내 특허 현황\n(4) 국내․외 지식재산권 현황\n(가) 관련 기술/제품의 국내 지식재산권(특허 등) 현황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0027",
+    "caption": "데이터 익명화를 다루는 대표적 기술에 대한 국외 특허 현황",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 77,
+    "prefix_match_only": false,
+    "text_before": "CHINA MARITIME\nPOLICE ACADEMY\n일본 JP29138991 A 2017.02.17\nPERSONAL INFORMATION\nANONYMIZATION METHOD,\nPERSONAL INFORMATION\nANONYMIZATION PROGRAM,",
+    "caption_and_following_text": "AND INFORMATION\nPROCESSING APPARATUS\nTERARECON INC\n[표 14] 데이터 익명화를 다루는 대표적 기술에 대한 국외 특허 현황\n(나) 관련 기술/제품의 국외 지식재산권(특허 등) 현황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0028",
+    "caption": "개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 32 -\n(다) 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술\n기관\n구분 특허 명 도메인 특징\nIBM X-FORCE Shellcode Heuristics (SCH) 파일 포맷\n파일 포맷 취약점을 공격하는\nShellcode를 행위 기반으로 인식하\n여 차단\n[표 15] 개인정보 접근 비정상 행위 패턴, 부적절 이용 탐지 기술\n① 데이터 익명화 기법 및 도구들은 지속적으로 연구/개발 되어 왔음",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0029",
+    "caption": "금융거래 패턴정보 허용범위 재설정",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 33 -\n[그림 13] 금융거래 패턴정보 허용범위 재설정\n㉯ 침입 탐지 시스템 기능 패키지 (TTAS.KO-12.0026) ㉠ 침입 탐지 시스템의 보안 요구사항을 서술하는 보호 프로파일이나 보안목표 명세\n서를 작성할 때 참고할 수 있는 기능 패키지\n② 금융 빅데이터 환경에서 비식별 처리를 위한 소프트웨어의 구조 및 기능\n㉮ 금융보안원 산하 금융보안표준화협회에서 표준화 제정 (2018-12)\n㉯ 표준화 제안 : 이지서티, 파수닷컴, 펜타시스템\n㉰ 목적 및 주요 내용\n금융회사는 고객의 요구에 부합하는 다양한 금융서비스 개발 및 확대를 위하여 고객의\n금융 데이터 등이 포함된 빅데이터 분석 및 활용을 필요로 한다. 금융회사는 이 과정에",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.41,
+          606.42,
+          468.47,
+          784.42
+        ],
+        "page_area_fraction": 0.1217
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.62,
+          89.78,
+          499.29,
+          300.15
+        ],
+        "page_area_fraction": 0.1613
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0030",
+    "caption": "빅데이터 활용을 위한 비식별 처리 소프트웨어 구조",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "서를 작성할 때 참고할 수 있는 기능 패키지\n② 금융 빅데이터 환경에서 비식별 처리를 위한 소프트웨어의 구조 및 기능\n㉮ 금융보안원 산하 금융보안표준화협회에서 표준화 제정 (2018-12)\n㉯ 표준화 제안 : 이지서티, 파수닷컴, 펜타시스템\n㉰ 목적 및 주요 내용\n금융회사는 고객의 요구에 부합하는 다양한 금융서비스 개발 및 확대를 위하여 고객의\n금융 데이터 등이 포함된 빅데이터 분석 및 활용을 필요로 한다. 금융회사는 이 과정에",
+    "caption_and_following_text": "서 개인정보보호를 위하여 비식별 처리가 필요하다. ㉠ 비식별처리 소프트웨어 구조\n㉡ 비식별처리 소프트웨어 계층별 요구사항\n㉢ 비식별처리 소프트웨어 기능\n[그림 14] 빅데이터 활용을 위한 비식별 처리 소프트웨어 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 기술개발 대상의 국내외 현황",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.41,
+          606.42,
+          468.47,
+          784.42
+        ],
+        "page_area_fraction": 0.1217
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.62,
+          89.78,
+          499.29,
+          300.15
+        ],
+        "page_area_fraction": 0.1613
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0031",
+    "caption": "개인정보침해 신고 상담 건수",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "㉠ 한국전자통신연구원에서 연구를 수행한 Zasmin 기술이 국제전기통신연합(ITU￾T)5)에 의해 국제 표준화 과제(X.sisfreq)로 신규 채택된 바 있음\n㉰ GDPR\n㉠ EU의 개인정보 보호 규정(GDPR, General Data Protection Regulation)이 2016년 4\n월 14일 유럽의회를 통과했으며, EU 국가 내에서 활동 중인 모든 기업들은 발효인인\n2018년 5월부터 새로운 종합 데이터 보호법을 적용해야 함; 영국 정부는 이를\n‘post-Brexit’ 영국 법령집에 적용시킬 것을 발표\n다. 기술개발의 중요성",
+    "caption_and_following_text": "(1) 개발 대상 기술․제품의 중요성\n(가) 개인 정보 유출 피해 사례 증가\n① 매년 개인 정보 유출 피해가 증가하는 추세 ( [그림 15] 참조 )\n[그림 15] 개인정보침해 신고 상담 건수\n② 2011년 네이트의 데이터베이스에 저장된 가입자 3500만 명의 개인정보 유출 사고 (조선\n일보 2011.07.26.)\n㉮ 가입자들의 아이디, 비밀번호, 이름, 주민등록번호, 연락처 등의 개인정보 유출\n㉯ 전화 금융사기, 보이스피싱 등 개인정보 유출에 따른 2차 피해 발생\n③ 2014년 KB 국민카드, NH 농협카드, 롯데카드가 가지고 있던 약 1억 580만 건의 개인 정보\n4) 출처 : 침입탐지시스템 IDS 정리, 2013년 1월 23일, http://we.bit.ac.kr/~phil",
+    "section_context_candidate": "다. 기술개발의 중요성",
+    "heading_candidates": [
+      "다. 기술개발의 중요성"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.14,
+          224.27,
+          504.69,
+          387.9
+        ],
+        "page_area_fraction": 0.1274
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0032",
+    "caption": "최종개발 목표시스템",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 37 -",
+    "caption_and_following_text": "구분 내용\n최종목표\no 최종목표\n[그림 18] 최종개발 목표시스템\no 빅데이터에서 개인정보 식별 엔진 개발\n- 개인정보 이용주기, 민감도에 따른 개인정보보호 정책 생성\n- 정책 기반의 자동화된 개인정보 선별 기술\n- 빅데이터 내 반정형·비정형 개인정보 고속 탐지 기술\no 개인정보 익명처리를 위한 비식별화 정보 생성 엔진 개발\n- 개인정보 형식 판별 및 형식 유지 기반 익명처리 알고리즘 및 기술",
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "heading_candidates": [
+      "1-3. 연구개발 범위"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          449.99,
+          510.09,
+          646.45
+        ],
+        "page_area_fraction": 0.146
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0033",
+    "caption": "주요 핵심 기술개발",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 39 -",
+    "caption_and_following_text": "구분 내용\n세부목표\no 주요 기능\n[그림 19 ]주요 핵심 기술개발\no 빅데이터에서 개인정보 식별 엔진 개발\n- 빅데이터 내 프라이버시 정보 검색 및 식별 기능\no 개인정보 익명처리를 위한 비식별화 정보 생성 엔진 개발\n- 비식별화 정보생성 기능\n- 인메모리 기반 개인정보 고속 비식별화 기능\n- KLT 비식별화 데이터에 대한 익명성 측정 기능",
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.45,
+          643.46,
+          516.92,
+          724.61
+        ],
+        "page_area_fraction": 0.0625
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0034",
+    "caption": "처리속도 및 목표 건수",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "등록화자 수 1천명 기준\n오수락율\n(False accept\nrate)\n% ≤ 0.2\n처리시간 sec < 2.0\n[표 22 ] 음성데이터 비식별화 기술의 목표",
+    "caption_and_following_text": "Roll-up 일반화 트랜잭션 생성 기술\n- 실시간 비식별 데이터 스트림의 사생활 보존 일반화 빈발 패턴 탐사 연구\no 주요 성능치\n- 처리속도 및 목표 건수\n핵심 기술/제품\n성능지표 단위 달성목표 국내최고\n수준\n세계최고수준\n(보유국, 기업/기관명)\n1 빅데이터 내 프라이버시",
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0035",
+    "caption": "음성데이터 비식별화 기술의 목표",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 23,
+    "prefix_match_only": false,
+    "text_before": "오거부율\n(False reject rate) % ≤ 20 문장 독립형 방식, 화자 등록을 위해 최소\n30초 발성 데이터 필요, 인식을 위해 최소 15초\n발성 데이터 필요\n등록화자 수 1천명 기준\n오수락율\n(False accept",
+    "caption_and_following_text": "rate)\n% ≤ 0.2\n처리시간 sec < 2.0\n[표 22 ] 음성데이터 비식별화 기술의 목표\nRoll-up 일반화 트랜잭션 생성 기술\n- 실시간 비식별 데이터 스트림의 사생활 보존 일반화 빈발 패턴 탐사 연구\no 주요 성능치\n- 처리속도 및 목표 건수\n핵심 기술/제품\n성능지표 단위 달성목표 국내최고",
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0036",
+    "caption": "개인정보 개체명 태그셋 구분",
+    "pdf_page_candidate": 72,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "향상\n번호 범주 Tag\n1 PERSON PS\n2 LOCATION LC\n3 ORGANIZTION OG\n4 DATE DT\n5 TIME TI",
+    "caption_and_following_text": "6 CIVILIZTION CV\n7 QUANTITY QT\n8 MATERIAL MT\n[표 23 ]개인정보 개체명 태그셋 구분\n세부 연구목표 개인정보 제공 요청자에 대한 접근 통제 기술\n연구개발 수행 내용\n시스템 감사로그 증적 기능\n사용자별/메뉴별/기능별 사용 권한 관리 기능\n비정상 행위/부적절 이용탐지 시 개인정보 제공 요청자의 시스템\n이용 통제",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          188.3,
+          137.49,
+          521.72,
+          285.77
+        ],
+        "page_area_fraction": 0.0988
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0037",
+    "caption": "비정상행위/부적절 이용 탐지 및 차단 작업 흐름도",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "연구결과\nŸ 비정상 행위 패턴과 부적절한 이용이 감지되었을 경우 해당 사용\n자에 대한 로그인 차단 및 정보보안 담당자에게로의 자동알람 기\n능 개발\n구체적 내용\nŸ 비정상 행위 패턴, 부적절 이용 탐지 기능의 결과에 따른 특정\n사용자에 대한 시스템 이용 차단 기능",
+    "caption_and_following_text": "- 업무시스템 사양 및 환경분석\n- 각 업무단위 별 업무에 따라 임계치 조절\n- 사용자 별 임계치 조절\n[그림 21 ] 비정상행위/부적절 이용 탐지 및 차단 작업 흐름도\n․ 탐지된 행위에 대한 이력 관리 시스템 개발\n[그림 22 ] 탐지된 행위에 대한 이력 관리 시스템 개발\n․ 비정상 행위별 위험도 부여 및 위험도를 통한 경계 대상자 알\n림 시스템 개발\n[그림 23 ]비정상 행위/패턴\n위험도 기준 설정",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          453.58,
+          526.4,
+          573.93
+        ],
+        "page_area_fraction": 0.0789
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.17,
+          257.96,
+          529.88,
+          400.0
+        ],
+        "page_area_fraction": 0.0936
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.17,
+          100.09,
+          361.6,
+          187.96
+        ],
+        "page_area_fraction": 0.0283
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          367.6,
+          99.85,
+          522.44,
+          188.91
+        ],
+        "page_area_fraction": 0.0276
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0038",
+    "caption": "] 탐지된 행위에 대한 이력 관리 시스템 개발",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 73 -\n세부 연구목표 비정상 행위/부적절 이용 탐지 및 차단 기술",
+    "caption_and_following_text": "연구개발 수행 내용\n비정상 행위 패턴, 부적절 이용 탐지 기능의 결과에 따른 특정\n사용자에 대한 시스템 이용 차단 기능\n탐지된 행위에 대한 이력 관리 시스템 개발\n비정상 행위별 위험도 부여 및 위험도를 통한 경계 대상자 알림\n시스템 개발\n연구결과\nŸ 비정상 행위 패턴과 부적절한 이용이 감지되었을 경우 해당 사용\n자에 대한 로그인 차단 및 정보보안 담당자에게로의 자동알람 기\n능 개발",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          453.58,
+          526.4,
+          573.93
+        ],
+        "page_area_fraction": 0.0789
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.17,
+          257.96,
+          529.88,
+          400.0
+        ],
+        "page_area_fraction": 0.0936
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.17,
+          100.09,
+          361.6,
+          187.96
+        ],
+        "page_area_fraction": 0.0283
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          367.6,
+          99.85,
+          522.44,
+          188.91
+        ],
+        "page_area_fraction": 0.0276
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0039",
+    "caption": "비정상 행위/패턴 위험도 기준 설정",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "사용자에 대한 시스템 이용 차단 기능\n- 업무시스템 사양 및 환경분석\n- 각 업무단위 별 업무에 따라 임계치 조절\n- 사용자 별 임계치 조절\n[그림 21 ] 비정상행위/부적절 이용 탐지 및 차단 작업 흐름도\n․ 탐지된 행위에 대한 이력 관리 시스템 개발\n[그림 22 ] 탐지된 행위에 대한 이력 관리 시스템 개발",
+    "caption_and_following_text": "․ 비정상 행위별 위험도 부여 및 위험도를 통한 경계 대상자 알\n림 시스템 개발\n[그림 23 ]비정상 행위/패턴\n위험도 기준 설정\n[그림 24] 경계 대상자 알림\n시스템\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          453.58,
+          526.4,
+          573.93
+        ],
+        "page_area_fraction": 0.0789
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.17,
+          257.96,
+          529.88,
+          400.0
+        ],
+        "page_area_fraction": 0.0936
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.17,
+          100.09,
+          361.6,
+          187.96
+        ],
+        "page_area_fraction": 0.0283
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          367.6,
+          99.85,
+          522.44,
+          188.91
+        ],
+        "page_area_fraction": 0.0276
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0040",
+    "caption": "경계 대상자 알림 시스템",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 73 -\n세부 연구목표 비정상 행위/부적절 이용 탐지 및 차단 기술\n연구개발 수행 내용\n비정상 행위 패턴, 부적절 이용 탐지 기능의 결과에 따른 특정",
+    "caption_and_following_text": "사용자에 대한 시스템 이용 차단 기능\n탐지된 행위에 대한 이력 관리 시스템 개발\n비정상 행위별 위험도 부여 및 위험도를 통한 경계 대상자 알림\n시스템 개발\n연구결과\nŸ 비정상 행위 패턴과 부적절한 이용이 감지되었을 경우 해당 사용\n자에 대한 로그인 차단 및 정보보안 담당자에게로의 자동알람 기\n능 개발\n구체적 내용\nŸ 비정상 행위 패턴, 부적절 이용 탐지 기능의 결과에 따른 특정",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          453.58,
+          526.4,
+          573.93
+        ],
+        "page_area_fraction": 0.0789
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.17,
+          257.96,
+          529.88,
+          400.0
+        ],
+        "page_area_fraction": 0.0936
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.17,
+          100.09,
+          361.6,
+          187.96
+        ],
+        "page_area_fraction": 0.0283
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          367.6,
+          99.85,
+          522.44,
+          188.91
+        ],
+        "page_area_fraction": 0.0276
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0041",
+    "caption": "개인정보 탐지 및 마스킹 요청 이력",
+    "pdf_page_candidate": 80,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "고도화를 통한 통합 데이터베이스 접근제어 기능 모듈화 및 상용화\n준비\n연구결과\nŸ 비식별화 S/W에 텍스트 혹은 파일 내 개인정보 탐지 및 마스킹\n기능과 개인정보 접근 통제 시스템을 융합한 통합 개인정보보호\n솔루션을 구축하고 상용화하여 분리발주 사업 진행\n구체적 내용",
+    "caption_and_following_text": "Ÿ 비식별화 S/W에 텍스트 혹은 파일 내 개인정보 탐지 및 마스킹 기\n능과 개인정보 접근 통제 시스템을 융합한 개인정보보호 솔루션을\n구축 및 상용화하여 분리발주 사업 진행\n[그림 25 ]개인정보 탐지 및 마스킹 요청 이력\n- 비식별화 S/W에 텍스트 혹은 파일 내 개인정보 탐지 및 마스킹\n기능 추가\n·다양한 개인정보 탐지 및 마스킹 정책설정(개인정보 관리, 첨부\n파일 관리, 금칙어 관리, 예외 정책 관리) ·요청한 텍스트 내 개인정보 탐지 및 마스킹\n·요청한 파일 내 개인정보 탐지와 hml 파일 내 개인정보 탐지 및\n마스킹",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          201.25,
+          426.13,
+          523.64,
+          570.22
+        ],
+        "page_area_fraction": 0.0928
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0042",
+    "caption": "SODAS와 개인정보 탐지 및 비식별 솔루션",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "연구개발 수행 내용\n데이터 연계 플랫폼인 CKAN을 통해 제공될 비정형/반정형/정형\n데이터에 대한 개인정보 탐지 및 비식별 처리를 위한 기능 개발\n개인정보 탐지 및 비식별 처리 데이터의 이력관리 및 검증 수행\n기능 개발\n연구결과 Ÿ CKAN SODAS에서 제공하는 데이터를 비식별 처리하고 이에 대한\n이력 관리 및 검증 수행 기능을 개발",
+    "caption_and_following_text": "구체적 내용\nŸ CKAN SODAS에서 제공하는 비정형/반정형/정형 데이터 내 개인정\n보를 탐지 및 비식별 처리하고 이에 대한 이력관리와 검증 기능 개발\n[그림 26 ]SODAS와 개인정보 탐지 및 비식별 솔루션\n연계 시스템\n- Docker Container 기반 구축 과정\n·Docker 이미지 Import\n[그림 27 ]Docker 이미지 Import ·Docker 이미지 확인\n[그림 28 ]Doker 이미지 확인\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.6,
+          507.29,
+          493.29,
+          617.09
+        ],
+        "page_area_fraction": 0.0574
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.24,
+          382.38,
+          526.88,
+          406.24
+        ],
+        "page_area_fraction": 0.0147
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.73,
+          313.7,
+          517.16,
+          336.23
+        ],
+        "page_area_fraction": 0.0139
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0043",
+    "caption": "Docker 이미지 Import",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "개인정보 탐지 및 비식별 처리 데이터의 이력관리 및 검증 수행\n기능 개발\n연구결과 Ÿ CKAN SODAS에서 제공하는 데이터를 비식별 처리하고 이에 대한\n이력 관리 및 검증 수행 기능을 개발\n구체적 내용\nŸ CKAN SODAS에서 제공하는 비정형/반정형/정형 데이터 내 개인정\n보를 탐지 및 비식별 처리하고 이에 대한 이력관리와 검증 기능 개발",
+    "caption_and_following_text": "[그림 26 ]SODAS와 개인정보 탐지 및 비식별 솔루션\n연계 시스템\n- Docker Container 기반 구축 과정\n·Docker 이미지 Import\n[그림 27 ]Docker 이미지 Import ·Docker 이미지 확인\n[그림 28 ]Doker 이미지 확인\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.6,
+          507.29,
+          493.29,
+          617.09
+        ],
+        "page_area_fraction": 0.0574
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.24,
+          382.38,
+          526.88,
+          406.24
+        ],
+        "page_area_fraction": 0.0147
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.73,
+          313.7,
+          517.16,
+          336.23
+        ],
+        "page_area_fraction": 0.0139
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0044",
+    "caption": "Doker 이미지 확인",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "연구결과 Ÿ CKAN SODAS에서 제공하는 데이터를 비식별 처리하고 이에 대한\n이력 관리 및 검증 수행 기능을 개발\n구체적 내용\nŸ CKAN SODAS에서 제공하는 비정형/반정형/정형 데이터 내 개인정\n보를 탐지 및 비식별 처리하고 이에 대한 이력관리와 검증 기능 개발\n[그림 26 ]SODAS와 개인정보 탐지 및 비식별 솔루션\n연계 시스템",
+    "caption_and_following_text": "- Docker Container 기반 구축 과정\n·Docker 이미지 Import\n[그림 27 ]Docker 이미지 Import ·Docker 이미지 확인\n[그림 28 ]Doker 이미지 확인\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          231.6,
+          507.29,
+          493.29,
+          617.09
+        ],
+        "page_area_fraction": 0.0574
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.24,
+          382.38,
+          526.88,
+          406.24
+        ],
+        "page_area_fraction": 0.0147
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.73,
+          313.7,
+          517.16,
+          336.23
+        ],
+        "page_area_fraction": 0.0139
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0045",
+    "caption": "빅데이터 플랫폼 등 Legacy 메타정보를 활용한 연계 시각화",
+    "pdf_page_candidate": 82,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "Ÿ Hadoop System 상에서 Working하는 고속 SQL 처리코드의 결과물\n을 비식별화하는 연계기술 개발 완료\n- 메타관리를 통한 Legacy 시스템 메타정보 시각화\n·빅데이터 플랫폼 등 Legacy 메타정보 연계\n·메타정보 시각화를 통한 사용자 인터페이스(UX) 최적화\n·Key 값 자동 인식을 통한 하나 이상의 테이블 Join 자동화\n- 개방대상 데이터 유형에 따른 I/F 유형 관리",
+    "caption_and_following_text": "·개방대상 데이터 유형에 따른 I/F 유형 사전 정의\n·데이터 개방 담당자가 능동적으로 Raw 데이터 I/F 처리 (업무절\n차 개선) ·그룹화 기능을 통한 Raw 데이터에 대한 다양한 전처리 수행\n[그림 29 ] 빅데이터 플랫폼 등 Legacy 메타정보를 활용한 연계 시각화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          192.74,
+          244.89,
+          532.27,
+          370.39
+        ],
+        "page_area_fraction": 0.0852
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0046",
+    "caption": "Anatomy와 Incognito의 RCE 비교",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "- DS는 준식별자와 민감 정보를 포함한 차원 공간\n는 원본 데이터의 확률 분포 함수\n- 는 익명화된 데이터의 확률 분포 함수\nŸ 사용데이터\n- Adult dataset 데이터를 이용한 실험을 통해 개발한 테이블 분리\n기반 비식별화 기술을 통하여 비식별화한 데이터의 복원 오류\n측정",
+    "caption_and_following_text": "- Adult dataset - 데이터 속성: 7개의 칼럼 (6개의 준식별자, 1개의 민감 정보) - 30,162개의 레코드\n- k=3, 5, 10 사용\n- l=2 사용\n[그림 30 ]Anatomy와 Incognito의 RCE 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 연구개발 목표 및 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          254.14,
+          170.43,
+          471.42,
+          300.15
+        ],
+        "page_area_fraction": 0.0563
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0047",
+    "caption": "B.I.G 포럼 전시 부스 운영",
+    "pdf_page_candidate": 97,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "2015-10-15\n경기창조경제혁신\n센터(판교)\n‧ 경기도와 서울대학교가 주최하고 경기콘텐츠진흥원, 한국정보화진흥원이 주관하는\n‘2015 빅포럼(B.I.G Forum : Big data Initiative of Gyeonggi)’의 전시 참가 업체로 빅\n데이터 내 개인정보 비식별화 제품에 대한 전시 부스 운영. 행사 참여를 통해 빅데이\n터 비식별화 연구과제의 성과 홍보 및 빅데이터 내 개인정보 비식별화 제품 및 비식",
+    "caption_and_following_text": "별화의 필요성에 대한 대외적인 홍보, 국내의 빅데이터 관련 제품 동향, 연구 성과를\n통한 사업화를 위해 국내 시장에서 빅데이터 내 개인정보 비식별화 대한 수요 등을\n확인\n[그림 32] B.I.G 포럼 전시 부스 운영\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [
+      "■ 경제적 성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.42,
+          224.27,
+          484.42,
+          444.59
+        ],
+        "page_area_fraction": 0.1603
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0048",
+    "caption": "K-ICT 빅데이터 비식별화 시범 서비스",
+    "pdf_page_candidate": 98,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 97 -\n‐ K-ICT 빅데이터 센터 빅데이터 비식별화 시범서비스\n‧ K-ICT 빅데이터 센터는 미래창조과학부와 한국정보화진흥원이 ICT가 선도하는 창조 한\n국 실현을 위한 핵심 성장 동력으로 ICBMS를 지목하고 이를 전략산업으로 육성하기 위\n해 설립한 센터로 빅데이터 정책 개발과 실행, 빅데이터 인프라 운영, 전문 인력 양성\n에 기여하고 있다.\n‧ 2세부 과제의 4차년도에 진행예정인 빅데이터 비식별화의 사업화를 위한 사전 시범서",
+    "caption_and_following_text": "비스를 운영하여 비식별화 서비스에 대한 시장의 반응 및 개인정보가 포함된 빅데이터\n를 보유하고 있는 기관이 빅데이터를 분석하여 활용할 수 있도록 K-ICT 빅데이터 센터\n를 통한 빅데이터 비식별화 서비스를 제공.\n[그림 33] K-ICT 빅데이터 비식별화 시범 서비스\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.06,
+          312.5,
+          499.77,
+          576.45
+        ],
+        "page_area_fraction": 0.2082
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0049",
+    "caption": "추상 레코드 생성 및 분포속성 생성 기술 개요",
+    "pdf_page_candidate": 99,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 98 -",
+    "caption_and_following_text": "② ㈜보아라((구)그리즐리)\n■ 연구수행내용\n○ 정형 개인식별 정보에 대해 재식별이 불가능한 비식별화 기술 개발\n[그림 34] 추상 레코드 생성 및 분포속성 생성 기술 개요\n‐ 개인정보의 N:1 그룹핑 기술 개발\n‧ N개의 원본 레코드들을 묶어 1개의 대표레코드를 생성하기 위해, 동일한 범주형 속성\n들을 갖고 있는 레코드들을 묶어 대그룹 집합을 형성하여 수치형 속성값이 연속적으로\n나열되도록 정렬하는 기술을 개발\n‐ 개인정보의 추상 레코드 생성 기술 개발\n‧ 추상화 진행 대상 선정속성으로 로 범주형 및 수치형 타입을 선택할 수 있어야하며 해",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.94,
+          590.23,
+          509.97,
+          695.12
+        ],
+        "page_area_fraction": 0.0849
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0050",
+    "caption": "추상화 기반 비식별화 성능 평가",
+    "pdf_page_candidate": 100,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 99 -\n[그림 35] 추상화 기반 비식별화 성능 평가\n○ 데이터 접근 기록 실시간 정상 프로파일 생성 기술(연구기간: 2015.06 ~ 2016.05)\n[그림 36] 데이터 접근 기록 실시간 정상 프로파일 생성 기술 개요\n‐ 개인정보 접근 로그 정상 프로파일 생성 기술 개발\n‐ 수동적 개입을 최소화한 실시간 개인정보 접근 로그 상황 학습 기술 개발\n‐ 지속적 상황 관리 수행 및 특정 상황 변동에 대한 상황 재학습 기술 연구\n‐ 정상 프로파일링 기반의 정상 행위 판별 기술 개발\n‧ 실시간으로 들어오는 t 시점의 개인정보 접근 로그 데이터를 동일 시점의 정상 패턴 프\n로파일과 비교하여 개인정보 접근 로그 정상 프로파일을 실시간으로 모니터링 하여 정",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.43,
+          632.07,
+          520.52,
+          784.42
+        ],
+        "page_area_fraction": 0.1328
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.35,
+          373.03,
+          515.48,
+          549.0
+        ],
+        "page_area_fraction": 0.1499
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0051",
+    "caption": "데이터 접근 기록 실시간 정상 프로파일 생성 기술 개요",
+    "pdf_page_candidate": 100,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 99 -\n[그림 35] 추상화 기반 비식별화 성능 평가\n○ 데이터 접근 기록 실시간 정상 프로파일 생성 기술(연구기간: 2015.06 ~ 2016.05)\n[그림 36] 데이터 접근 기록 실시간 정상 프로파일 생성 기술 개요\n‐ 개인정보 접근 로그 정상 프로파일 생성 기술 개발\n‐ 수동적 개입을 최소화한 실시간 개인정보 접근 로그 상황 학습 기술 개발\n‐ 지속적 상황 관리 수행 및 특정 상황 변동에 대한 상황 재학습 기술 연구\n‐ 정상 프로파일링 기반의 정상 행위 판별 기술 개발\n‧ 실시간으로 들어오는 t 시점의 개인정보 접근 로그 데이터를 동일 시점의 정상 패턴 프\n로파일과 비교하여 개인정보 접근 로그 정상 프로파일을 실시간으로 모니터링 하여 정",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.43,
+          632.07,
+          520.52,
+          784.42
+        ],
+        "page_area_fraction": 0.1328
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.35,
+          373.03,
+          515.48,
+          549.0
+        ],
+        "page_area_fraction": 0.1499
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0052",
+    "caption": "정상행위 프로파일 생성 성능 측정 결과",
+    "pdf_page_candidate": 101,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 100 -\n[그림 37] 정상행위 프로파일 생성 성능 측정 결과\n■ 기술적 성과\n○ 기술문서\n번호 기관명 상세 구분\n1 ㈜보아라\n((구)그리즐리)\n비식별화 변환을 위한 개인정보 그룹핑 및 대표 레코드 생성 기술\n구현\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          617.09,
+          523.28,
+          784.42
+        ],
+        "page_area_fraction": 0.151
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0053",
+    "caption": "잡음제거 알고리즘/기술 및 특징정보추출 기술개발/모듈화",
+    "pdf_page_candidate": 102,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 101 -\n③ 아이알링크㈜",
+    "caption_and_following_text": "■ 연구수행내용\n○ 문장종속형 개인식별 기반 기술 개발\n‐ 개인 식별을 위한 음성 전처리 기술 개발\n[그림 38] 잡음제거 알고리즘/기술 및 특징정보추출 기술개발/모듈화\n‐ 패스워드 복수 발성 데이터를 이용한 화자모델 등록기술 개발\n‧ 5가지(HMM, GMM, SVM, JFA, i-Vector) 방식의 화자모델 등록기술 및 본인인증 알고리\n즘 개발 및 성능비교\n[그림 39] 본인인증 알고리즘 및 성능비교\n‐ 패스워드 발성형 개인식별 기술개발\n‧ 5가지 방식 중 최적방식으로 다채널 개인식별용 SDK 개발 및 시연프로그램 제작",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          552.48,
+          526.88,
+          665.39
+        ],
+        "page_area_fraction": 0.1016
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.0,
+          291.28,
+          524.84,
+          414.99
+        ],
+        "page_area_fraction": 0.1107
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0054",
+    "caption": "본인인증 알고리즘 및 성능비교",
+    "pdf_page_candidate": 102,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 101 -\n③ 아이알링크㈜\n■ 연구수행내용\n○ 문장종속형 개인식별 기반 기술 개발\n‐ 개인 식별을 위한 음성 전처리 기술 개발\n[그림 38] 잡음제거 알고리즘/기술 및 특징정보추출 기술개발/모듈화",
+    "caption_and_following_text": "‐ 패스워드 복수 발성 데이터를 이용한 화자모델 등록기술 개발\n‧ 5가지(HMM, GMM, SVM, JFA, i-Vector) 방식의 화자모델 등록기술 및 본인인증 알고리\n즘 개발 및 성능비교\n[그림 39] 본인인증 알고리즘 및 성능비교\n‐ 패스워드 발성형 개인식별 기술개발\n‧ 5가지 방식 중 최적방식으로 다채널 개인식별용 SDK 개발 및 시연프로그램 제작\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          552.48,
+          526.88,
+          665.39
+        ],
+        "page_area_fraction": 0.1016
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.0,
+          291.28,
+          524.84,
+          414.99
+        ],
+        "page_area_fraction": 0.1107
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0055",
+    "caption": "다채널 개인식별용 SDK 개발 및 시연프로그램",
+    "pdf_page_candidate": 103,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 102 -\n[그림 40] 다채널 개인식별용 SDK 개발\n및 시연프로그램\n○ 개인정보 활용 동의 마케팅 프로그램 설계\n‐ 개인식별기술 활용목적의 TM(텔레마케팅) 어플리케이션 설계\n‧ 마케팅 프로그램 요구사항 정의 및 프로세스 설계\n‧ 마케팅 프로그램 테이블 및 UI 설계\n○ 비식별화 변환된 대표레코드에 대하여 적용 가능한 실시간 클러스터링 기법 연구\n‐ 비식별화 데이터에 대한 개인 시그네쳐 기반 실시간 클러스터링 기법 연구\n‧ 가상화 데이터 스트림에 대해 시그네처(가상 개인) 별 실시간 그리드 기반 클러스터링 수행",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          211.21,
+          671.74,
+          413.54,
+          784.42
+        ],
+        "page_area_fraction": 0.0456
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0056",
+    "caption": "허가된 인력에 대한 출입통제 실시 ( 지문인증, 출입증 발급 )",
+    "pdf_page_candidate": 105,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "▪검증을 위한 실제 빅데이터 준비\n및 검증 프로세스 수립\n·빅데이터 제공 및 검증\n·시스템 지원 방안 수립\n▪빅데이터 비식별화 검증을 위한\n시스템 환경 구성\n·빅데이터 준비 및 초기검증",
+    "caption_and_following_text": "ㆍ개인정보(100만건), 대출개설정보(50만건), 카드개설정보(100만건), 연체정보(1만건) ·검증/시연을 위한 시스템 환경 준비 및 지원\n‐ 물리적 통제환경 구성 실증사레\n[그림 41] 허가된 인력에 대한 출입통제 실시\n( 지문인증, 출입증 발급 ) [그림 42] 별도의 독립된 공간을 할당하여\n추가적인 출입통제 강화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "1 ㈜코리아 크레딧뷰로 인터뷰 결과 보고서 (K-Format 빅데이터 리스트)"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.49,
+          137.49,
+          286.53,
+          392.57
+        ],
+        "page_area_fraction": 0.1127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          308.35,
+          267.07,
+          529.4,
+          527.9
+        ],
+        "page_area_fraction": 0.1152
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0057",
+    "caption": "별도의 독립된 공간을 할당하여 추가적인 출입통제 강화",
+    "pdf_page_candidate": 105,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "및 검증 프로세스 수립\n·빅데이터 제공 및 검증\n·시스템 지원 방안 수립\n▪빅데이터 비식별화 검증을 위한\n시스템 환경 구성\n·빅데이터 준비 및 초기검증\nㆍ개인정보(100만건), 대출개설정보(50만건), 카드개설정보(100만건), 연체정보(1만건) ·검증/시연을 위한 시스템 환경 준비 및 지원",
+    "caption_and_following_text": "‐ 물리적 통제환경 구성 실증사레\n[그림 41] 허가된 인력에 대한 출입통제 실시\n( 지문인증, 출입증 발급 ) [그림 42] 별도의 독립된 공간을 할당하여\n추가적인 출입통제 강화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "1 ㈜코리아 크레딧뷰로 인터뷰 결과 보고서 (K-Format 빅데이터 리스트)"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.49,
+          137.49,
+          286.53,
+          392.57
+        ],
+        "page_area_fraction": 0.1127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          308.35,
+          267.07,
+          529.4,
+          527.9
+        ],
+        "page_area_fraction": 0.1152
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0058",
+    "caption": "형태소기반 자연어 처리를 이용한 비정형 데이터에서의 개인정보 탐지 정확도 향상",
+    "pdf_page_candidate": 107,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "○ 반정형/비정형 개인정보 탐지 기술의 정확도 향상\n‐ 반정형/비정형 개인정보 탐지 학습데이터 구축\n‐ 다양한 데이터 도메인에 대한 적응성 향상\n‐ 형태소 기반 자연어 처리를 통한 개인정보 탐지 정확도 향상\n‧ 형태소 기반 자연어 처리 기술 분석\n‧ 패턴탐지 기반 개인정보 탐지와 형태소 기반 자연어 처리기술의 융합에 대한 고찰\n‧ 패턴탐지 기반 개인정보 탐지 처리 기술과 형태소 기반 자연어 처리 기술의 통합 처리",
+    "caption_and_following_text": "시스템 설계\n‧ 시스템 프로토 타입 개발\n[그림 43] 형태소기반 자연어 처리를 이용한 비정형 데이터에서의 개인정보 탐지\n정확도 향상\n○ 개인정보 이용주기, 민감도에 따른 개인정보보호 정책 생성\n‐ 개인정보 생명주기( 수집,관리,이용,파기 ) 에 따른 관리 시스템 개발\n‐ 개인정보 유형별 관리 정책 수립 및 시스템 개발\n‧ 개인정보 유형별 민감도 설정 기능\n‧ 민감도에 따른 개인정보 제3자 제공 제한 기능\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          253.28,
+          488.86,
+          431.77
+        ],
+        "page_area_fraction": 0.1381
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0059",
+    "caption": "MapReduce를 이용한 데이터 비식별화 기법 설계",
+    "pdf_page_candidate": 108,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "○ KLT (k-anonymity, l-diversity, t-closeness) 비식별화 고속처리 기술 (분산환경 중심)\n‐ 관련 연구 및 동향 분석\n‧ 대용량 데이터의 분산 처리 기술 분석\n‧ 기존 서버 클러스터 기반 데이터 비식별화 기술 분석\n‧ 기존 데이터 비식별화 기법 한계 분석\n‧ 기존 기법들의 한계 극복에 대한 고찰\n‧ 서버 클러스터 기반 익명화 알고리즘 설계",
+    "caption_and_following_text": "‐ MapReduce를 이용한 비식별화 알고리즘 설계\n‧ Reduce 단계에서 비식별화 기법 적용\n(1) 그림 8과 같은 데이터 비식별화 방법에 대한 개략적인 구상\n[그림 44] MapReduce를 이용한 데이터 비식별화 기법 설계\n‐ 서버 클러스터 기반 익명화된 데이터 저장 방법 개발\n‧ 데이터 유출 시 프라이버시를 보호하기 위한 저장 기법 개발\n‧ 데이터의 결합을 통한 프라이버시 노출을 막기 위해 효율적인 분산 저장 기법 연구\n‐ 익명화 데이터 모니터링 기술 개발\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.58,
+          218.16,
+          494.61,
+          397.48
+        ],
+        "page_area_fraction": 0.1408
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0060",
+    "caption": "데이터 프라이버시 보호 유지를 위한 모니터링",
+    "pdf_page_candidate": 109,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 108 -\n‧ 익명화된 데이터의 프라이버시 보호 유지를 위한 모니터링 기술 개발\n‧ 주기적으로 Hadoop 내의 데이터를 관찰 (그림 9 참조)\n[그림 45] 데이터 프라이버시 보호 유지를 위한 모니터링\n‐ 서버 클러스터를 이용한 분산 비식별화 처리 기술 개발\n‧ 서버 클러스터 환경 구축\n‧ 대용량 데이터를 분산처리 하기 위한 최적화 알고리즘 설계\n‧ 분산 비식별화 처리를 위한 데이터 분할 실험 및 비식별화 수행\n‐ Anatomy기법의 성능을 향상 시킨 비식별화 기법 개발\n‧ 기존 Anatomy 기법의 한계분석",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.12,
+          472.88,
+          455.76,
+          695.12
+        ],
+        "page_area_fraction": 0.1406
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0061",
+    "caption": "발전된 Anatomy 비식별화 모델 구상",
+    "pdf_page_candidate": 110,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 58,
+    "prefix_match_only": false,
+    "text_before": "(47906, flu, 30000)\n(54, M)\n(60, M)\n(60, M)\n(64, F)\n(47305, gastritis, 50000)\n(47302, flu, 50000)",
+    "caption_and_following_text": "(47302, dyspepsia, 40000)\n(47305, dyspepsia, 30000)\n비식별화 기법 적용 후 데이터\n[그림 46] 발전된 Anatomy 비식별화 모델 구상\n‐ 유효성을 측정하기 위한 메트릭 개발\n‧ 데이터의 정보손실 측정을 위한 수식 연구\n‧ 민감한 속성 집합의 익명화 척도를 측정하는 모델 연구\n‧ 비식별화 데이터에 대한 정확성과 신뢰성을 측정하기 위한 정보 유용성 메트릭 개발\n‐ 개인정보 형식 판별 및 형식 유지 기반 익명처리 기능 개발\n‧ 개인정보의 형식 유지 한계에 따른 익명처리 기능 개발",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0062",
+    "caption": "2016 Data Magic Week 부스 운영",
+    "pdf_page_candidate": 113,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 112 -\n[그림 47] 2016 Data Magic Week 부스 운영\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.14,
+          554.51,
+          495.69,
+          784.42
+        ],
+        "page_area_fraction": 0.1776
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0063",
+    "caption": "대표 로그 레코드 생성 기술 개요",
+    "pdf_page_candidate": 114,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 113 -\n② ㈜보아라((구)그리즐리)\n○ 반정형 로그 데이터의 대표로그데이터화 비식별화 기술 개발\n[그림 48] 대표 로그 레코드 생성 기술 개요\n‐ 로그성 반정형 데이터의 정형화 기술 연구\n‧ 개인 로그 데이터 중 비식별화 대상이 반정형 트랜잭션 형태인 경우 비식별화를 수행\n할 수 있도록 트랜잭션 레코드를 디트랜잭션화(de-transactionize)하여 정형화 변환할 수\n있는 기술 개발\n‐ 대표레코드 별 반정형 로그 데이터의 그룹화 기술 연구\n‧ 정형화 로그 레코드에 대해 개인 신상 데이터의 그룹핑 정보를 연결하여 그룹별 로그",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.6,
+          552.24,
+          465.23,
+          724.85
+        ],
+        "page_area_fraction": 0.1123
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          182.56,
+          536.71,
+          336.59
+        ],
+        "page_area_fraction": 0.1386
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0064",
+    "caption": "대표레코드 별 반정형 로그 데이터의 그룹화 과정",
+    "pdf_page_candidate": 114,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "② ㈜보아라((구)그리즐리)\n○ 반정형 로그 데이터의 대표로그데이터화 비식별화 기술 개발\n[그림 48] 대표 로그 레코드 생성 기술 개요\n‐ 로그성 반정형 데이터의 정형화 기술 연구\n‧ 개인 로그 데이터 중 비식별화 대상이 반정형 트랜잭션 형태인 경우 비식별화를 수행\n할 수 있도록 트랜잭션 레코드를 디트랜잭션화(de-transactionize)하여 정형화 변환할 수\n있는 기술 개발",
+    "caption_and_following_text": "‐ 대표레코드 별 반정형 로그 데이터의 그룹화 기술 연구\n‧ 정형화 로그 레코드에 대해 개인 신상 데이터의 그룹핑 정보를 연결하여 그룹별 로그\n데이터를 매핑 및 추출하는 기술을 개발\n[그림 49] 대표레코드 별 반정형 로그 데이터의 그룹화 과정\n‐ 로그 데이터의 통합 기술 연구\n‧ 그룹별 로그 데이터의 단일 항목 속성에 대해 속성별 빈도수를 계산하고, 개인 식별 가\n능성이 있는 항목들은 제거하고 분석에 필요한 최소한의 항목들을 보존할 수 있도록\n비식별 총계 처리하는 기술 개발\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.6,
+          552.24,
+          465.23,
+          724.85
+        ],
+        "page_area_fraction": 0.1123
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          182.56,
+          536.71,
+          336.59
+        ],
+        "page_area_fraction": 0.1386
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0065",
+    "caption": "로그 데이터의 통합 과정",
+    "pdf_page_candidate": 115,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 114 -\n[그림 50] 로그 데이터의 통합 과정\n‐ 비식별화된 추상레코드 테이블 간의 데이터 동기화(연계) 기술 연구\n[그림 51] 비식별화된 대표레코드 테이블 간의 데이터 동기화(연계) 개요\n‧\n‧ 추상화 기반 비식별화를 통해 데이터 유통 문제를 해결하기 위해 대표레코드의 연계\n기술인 동기화 기술을 적용하여 연계된 비식별화 레코드 세트를 생성하는 기술을 개발\n하였음, 동기화 기술을 비식별 레코드간 통계적 유사성 측정을 기반으로 하는 레코드\n연계 기술이며 동기화레코드 세트를 통해 통계 모형을 개발하여 분석 수행이 가능\n○ 개인정보 내용 기반 Anomaly 탐지 기술 기반의 실시간 비정상 지수생성 및 비정상 탐지",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          630.51,
+          522.44,
+          784.42
+        ],
+        "page_area_fraction": 0.1341
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          402.76,
+          522.44,
+          563.5
+        ],
+        "page_area_fraction": 0.14
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0066",
+    "caption": "비식별화된 대표레코드 테이블 간의 데이터 동기화(연계) 개요",
+    "pdf_page_candidate": 115,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 114 -\n[그림 50] 로그 데이터의 통합 과정\n‐ 비식별화된 추상레코드 테이블 간의 데이터 동기화(연계) 기술 연구\n[그림 51] 비식별화된 대표레코드 테이블 간의 데이터 동기화(연계) 개요\n‧\n‧ 추상화 기반 비식별화를 통해 데이터 유통 문제를 해결하기 위해 대표레코드의 연계\n기술인 동기화 기술을 적용하여 연계된 비식별화 레코드 세트를 생성하는 기술을 개발\n하였음, 동기화 기술을 비식별 레코드간 통계적 유사성 측정을 기반으로 하는 레코드\n연계 기술이며 동기화레코드 세트를 통해 통계 모형을 개발하여 분석 수행이 가능\n○ 개인정보 내용 기반 Anomaly 탐지 기술 기반의 실시간 비정상 지수생성 및 비정상 탐지",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          630.51,
+          522.44,
+          784.42
+        ],
+        "page_area_fraction": 0.1341
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          402.76,
+          522.44,
+          563.5
+        ],
+        "page_area_fraction": 0.14
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0067",
+    "caption": "실시간 행위도 산출 과정",
+    "pdf_page_candidate": 116,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 115 -\n[그림 52] 실시간 행위도 산출 과정\n‐ 비정상 지수 생성 기술 연구\n[그림 53] 실시간 비정상 지수생성 및 비정상 탐지 과정\n‧ 실시간으로 입력되는 개인정보 접근 로그 데이터를 (t-1) 시점까지의 정상 프로파일과\n비교하여, 비정상 범주에 포함되는 데이터를 비정상으로 판단하는 기술을 개발함. 비정\n상 판단된 데이터는 좌, 우측으로 통계치 산출하고 이를 기반으로 비정상 정도 3단계로\n정의(비정상 정도가 낮은 경우, 보통인 경우, 높은 경우로 각각 순서대로 예외레벨 0,\n1, 2)하는 기술로 확장\n‐ 실시간 비정상 탐지 기술 연구",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.14,
+          607.61,
+          508.77,
+          784.42
+        ],
+        "page_area_fraction": 0.1423
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.75,
+          374.71,
+          517.04,
+          540.61
+        ],
+        "page_area_fraction": 0.139
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0068",
+    "caption": "실시간 비정상 지수생성 및 비정상 탐지 과정",
+    "pdf_page_candidate": 116,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 115 -\n[그림 52] 실시간 행위도 산출 과정\n‐ 비정상 지수 생성 기술 연구\n[그림 53] 실시간 비정상 지수생성 및 비정상 탐지 과정\n‧ 실시간으로 입력되는 개인정보 접근 로그 데이터를 (t-1) 시점까지의 정상 프로파일과\n비교하여, 비정상 범주에 포함되는 데이터를 비정상으로 판단하는 기술을 개발함. 비정\n상 판단된 데이터는 좌, 우측으로 통계치 산출하고 이를 기반으로 비정상 정도 3단계로\n정의(비정상 정도가 낮은 경우, 보통인 경우, 높은 경우로 각각 순서대로 예외레벨 0,\n1, 2)하는 기술로 확장\n‐ 실시간 비정상 탐지 기술 연구",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.14,
+          607.61,
+          508.77,
+          784.42
+        ],
+        "page_area_fraction": 0.1423
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.75,
+          374.71,
+          517.04,
+          540.61
+        ],
+        "page_area_fraction": 0.139
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0069",
+    "caption": "녹음 등에 의한 오용 방지기술 개발",
+    "pdf_page_candidate": 118,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 117 -\n[그림 54] 녹음 등에 의한 오용 방지기술 개발\n③ 아이알링크(주)\n■ 연구수행내용\n○ 문장종속형 화자그룹분류/판별을 위한 상용화 기술 개발\n‐ 상용화를 위한 다채널 방식의 화자그룹분류/판별 SW 개발\n‧ API 설계 및 다채널 서버 SW 구현. 서버와 클라이언트 사이의 통신 프로토콜 설계 및 구현\n‐ 녹음 등에 의한 오용 방지기술 개발\n‧ 오용방지기술 평가용 DB 제작\n‧ 유사도 비교를 통한 녹취재생음 판별 기술 개발",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.07,
+          348.82,
+          476.26,
+          487.51
+        ],
+        "page_area_fraction": 0.1062
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          166.83,
+          81.99,
+          427.93,
+          171.77
+        ],
+        "page_area_fraction": 0.0468
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0070",
+    "caption": "음질변이 보상기술 적용에 따른 EER",
+    "pdf_page_candidate": 118,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "‐ 상용화를 위한 다채널 방식의 화자그룹분류/판별 SW 개발\n‧ API 설계 및 다채널 서버 SW 구현. 서버와 클라이언트 사이의 통신 프로토콜 설계 및 구현\n‐ 녹음 등에 의한 오용 방지기술 개발\n‧ 오용방지기술 평가용 DB 제작\n‧ 유사도 비교를 통한 녹취재생음 판별 기술 개발\n‧ 시나리오적 대처 기술 개발\n‐ 환경 또는 신체적 변화에 의한 음질 변이 시의 화자그룹분류/판별 성능 개선",
+    "caption_and_following_text": "‧ 음질 변이 시의 성능 평가용 DB 제작\n‧ 잡음 및 채널변이에 강인한 음성특징 변환 기술 개발\n‧ 정규화(VTLN), 특징 매핑(feature mapping) 기술 개발\n[그림 55] 음질변이 보상기술 적용에 따른 EER\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.07,
+          348.82,
+          476.26,
+          487.51
+        ],
+        "page_area_fraction": 0.1062
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          166.83,
+          81.99,
+          427.93,
+          171.77
+        ],
+        "page_area_fraction": 0.0468
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0071",
+    "caption": "Speech type에 따른 지표",
+    "pdf_page_candidate": 119,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 118 -\n‐ 음성정보를 이용한 개인생체정보 비식별화",
+    "caption_and_following_text": "‧ 유사한 음성 특성을 보이는 개인들의 그룹핑 기술 개발\n‧ 임의 사용자 음성을 분석하여 그룹을 식별하는 기술 개발\n‧ 화자모델 또는 그룹모델의 비식별화 기술 개발(고수준 및 저수준 추상화)\n[그림 56] Speech type에 따른 지표\n○ 마케팅 프로그램 개발\n‐ 마케팅 프로그램 UI 디자인/개발\n‧ 문장 종속형 화자그룹 판별 모듈과 연동한 마케팅프로그램(TM시스템) 구현\n‧ 마케팅프로그램 설계 및 개발 완료 및 SW등록\n[그림 57] 마케팅 프로그램 UI\n○ 비식별화 변환된 대표로그레코드에 대하여 적용 가능한 빈발패턴/연관규칙 탐사 기법 연구",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.18,
+          492.06,
+          412.58,
+          665.39
+        ],
+        "page_area_fraction": 0.0798
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          228.59,
+          469.79,
+          335.75
+        ],
+        "page_area_fraction": 0.0842
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0072",
+    "caption": "마케팅 프로그램 UI",
+    "pdf_page_candidate": 119,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 118 -\n‐ 음성정보를 이용한 개인생체정보 비식별화\n‧ 유사한 음성 특성을 보이는 개인들의 그룹핑 기술 개발\n‧ 임의 사용자 음성을 분석하여 그룹을 식별하는 기술 개발",
+    "caption_and_following_text": "‧ 화자모델 또는 그룹모델의 비식별화 기술 개발(고수준 및 저수준 추상화)\n[그림 56] Speech type에 따른 지표\n○ 마케팅 프로그램 개발\n‐ 마케팅 프로그램 UI 디자인/개발\n‧ 문장 종속형 화자그룹 판별 모듈과 연동한 마케팅프로그램(TM시스템) 구현\n‧ 마케팅프로그램 설계 및 개발 완료 및 SW등록\n[그림 57] 마케팅 프로그램 UI\n○ 비식별화 변환된 대표로그레코드에 대하여 적용 가능한 빈발패턴/연관규칙 탐사 기법 연구\n‐ 비식별화 트랜잭션 DB 생성 기법 연구\n‐ 빅데이터 처리 엔진(hadoop. 등) 기반의 빈발패턴, 연관규칙 탐사 기법 연구",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.18,
+          492.06,
+          412.58,
+          665.39
+        ],
+        "page_area_fraction": 0.0798
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          228.59,
+          469.79,
+          335.75
+        ],
+        "page_area_fraction": 0.0842
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0073",
+    "caption": "비식별화 테스트 및 검증 시연을 위해 사용자 단말, 어플리케이션 서버 및 데이터 베이스 서버 환경 구성",
+    "pdf_page_candidate": 121,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "신용정보 조회사이트 LOG정보(50만건)\n○ 빅데이터 제공 및 검증시스템 지원 방안 수립 보고서 마련\n‐ 빅데이터 및 검증 개념 정립\n‐ 빅데이터 준비 및 검증을 위한 방안 마련 및 선정(안) 제시\n‐ 검증/시연을 위한 시스템 운영관리 기본방향 수립\n○ 빅데이터 준비 및 초기검증\n‐ 빅데이터 준비 및 인터뷰 수행",
+    "caption_and_following_text": "○ 검증/시연을 위한 시스템 환경 준비 및 지원\n‐ 시스템 마련\n[그림 58] 비식별화 테스트 및 검증 시연을 위해 사용자 단말, 어플리케이션 서버 및 데이터\n베이스 서버 환경 구성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          174.89,
+          528.56,
+          318.13
+        ],
+        "page_area_fraction": 0.1294
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0074",
+    "caption": "실제 금융회사 환경과 동일한, 테스트 환경 구성",
+    "pdf_page_candidate": 122,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 121 -\n[그림 60] 검증 테스트 절차\n‐ 검증/지원 시스템 구성도\n[그림 59] 실제 금융회사 환경과 동일한, 테스트 환경 구성\n‐ 검증 테스트 절차\n■ 기술적 성과\n번호 기관명 상세 구분\n1 ㈜코리아크레딧뷰로 ㈜이지서티 IDENTITY SHIELD 테스트 수행 결과 보고서\n○ 기타\n‐ 대용량 검증을 위한, 양적 확대 및 (검증 데이터)카테고리 세분화",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "1 ㈜코리아크레딧뷰로 ㈜이지서티 IDENTITY SHIELD 테스트 수행 결과 보고서"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.96,
+          456.82,
+          517.16,
+          560.39
+        ],
+        "page_area_fraction": 0.0903
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.36,
+          657.24,
+          520.52,
+          754.69
+        ],
+        "page_area_fraction": 0.0869
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0075",
+    "caption": "검증 테스트 절차",
+    "pdf_page_candidate": 122,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 121 -\n[그림 60] 검증 테스트 절차\n‐ 검증/지원 시스템 구성도\n[그림 59] 실제 금융회사 환경과 동일한, 테스트 환경 구성\n‐ 검증 테스트 절차\n■ 기술적 성과\n번호 기관명 상세 구분\n1 ㈜코리아크레딧뷰로 ㈜이지서티 IDENTITY SHIELD 테스트 수행 결과 보고서\n○ 기타\n‐ 대용량 검증을 위한, 양적 확대 및 (검증 데이터)카테고리 세분화",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "1 ㈜코리아크레딧뷰로 ㈜이지서티 IDENTITY SHIELD 테스트 수행 결과 보고서"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.96,
+          456.82,
+          517.16,
+          560.39
+        ],
+        "page_area_fraction": 0.0903
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.36,
+          657.24,
+          520.52,
+          754.69
+        ],
+        "page_area_fraction": 0.0869
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0076",
+    "caption": "비식별화 데이터 재식별 불가성 검증 기술 개요",
+    "pdf_page_candidate": 127,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 126 -",
+    "caption_and_following_text": "② ㈜보아라((구)그리즐리)\n■ 연구수행내용\n○ 유통형 비식별화 변환된 유통용 빅데이터의 재식별 불가성 검증 기술 연구\n[그림 61] 비식별화 데이터 재식별 불가성 검증 기술 개요\n‐ 비식별 변환의 핵심 제거 성질 (유일성, 동일성, 유사성, 연속성) 검증 기술 개발\n‧ 원본 데이터 세트에서 유일한 속성값(혹은 속성값 조합)을 동일하게 비식별데이터에 검\n색했을 때에도 해당 레코드 조합이 유일하게 찾아진다면 상황으로 판단하여 검출하는\n기술을 개발. [유사성 제거/ 유일성 제거 / 동일성 제거] 지표를 재식별 불가성 성질로\n정의하고 이를 검증하는 기술을 모듈화 하여 개발\n‧ 동일성: 비식별화 변환 시 특정 민감 속성이 원본 레코드의 속성값과 온전히 동일하여",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.03,
+          538.69,
+          516.68,
+          695.12
+        ],
+        "page_area_fraction": 0.134
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0077",
+    "caption": "데표레코드 생성 시 유사도 기반 그루핑 기술 연구",
+    "pdf_page_candidate": 128,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 127 -\n○ 비식별 데이터의 분석 품질 향상을 위한 비식별화 데이터 품질 고도화 기술 개발\n‐ 대표레코드 생성 시 유사도 기반 그루핑 기술 연구\n[그림 62] 데표레코드 생성 시 유사도 기반 그루핑 기술 연구\n‧ 추상화 그루핑 시 일부 최적화 대상 속성을 기준으로 그루핑하여 추상 레코드 생성하\n도록 로직을 변경하였고 차분 프라이버시 (Differential privacy ) 모델 적용을 시도함. 그리드 기반 클러스터링 기법을 활용하여 Sensitivity를 최소화하여 Differential privacy\n적용 시 Noise를 최소화\n‐ MAS 솔루션 개발 및 성능 평가 수행\n‧ 모든 매핑 원본 레코드의 유사도가 최대~최소 유사도 범주 안에 들어오도록 추상 레코\n드를 재조정하는 단계를 추가개발하 였고 비식별화를 마친 후 결과 데이터를 검토하는",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.28,
+          523.23,
+          527.48,
+          734.92
+        ],
+        "page_area_fraction": 0.1947
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.76,
+          32.24,
+          558.42,
+          258.2
+        ],
+        "page_area_fraction": 0.2175
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0078",
+    "caption": "MAS solution 개발",
+    "pdf_page_candidate": 128,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "[그림 62] 데표레코드 생성 시 유사도 기반 그루핑 기술 연구\n‧ 추상화 그루핑 시 일부 최적화 대상 속성을 기준으로 그루핑하여 추상 레코드 생성하\n도록 로직을 변경하였고 차분 프라이버시 (Differential privacy ) 모델 적용을 시도함. 그리드 기반 클러스터링 기법을 활용하여 Sensitivity를 최소화하여 Differential privacy\n적용 시 Noise를 최소화\n‐ MAS 솔루션 개발 및 성능 평가 수행\n‧ 모든 매핑 원본 레코드의 유사도가 최대~최소 유사도 범주 안에 들어오도록 추상 레코\n드를 재조정하는 단계를 추가개발하 였고 비식별화를 마친 후 결과 데이터를 검토하는",
+    "caption_and_following_text": "과정에서 선택적 최적화를 통해 일부 레코드들에 대해서만 레코드 수정이 가해 활용이\n가능하게 함. 결과적으로 레코드 손실율을 낮추고, 추상 레코드 세트의 전체적인 유사\n도를 향상\n[그림 63] MAS solution 개발\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.28,
+          523.23,
+          527.48,
+          734.92
+        ],
+        "page_area_fraction": 0.1947
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.76,
+          32.24,
+          558.42,
+          258.2
+        ],
+        "page_area_fraction": 0.2175
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0079",
+    "caption": "추상화 기술 고도화 및 재식별 불가성 검증",
+    "pdf_page_candidate": 129,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 128 -\n[그림 64] 추상화 기술 고도화 및 재식별 불가성 검증\n■ 기술적 성과\n○ 지식재산권(특허, 상표, 실용신안 등)\n번호 출원인 명칭 국명 출원일 출원번호 NTIS\n등록번호 기여율\n1\n㈜보아라\n((구)그리즐\n리)",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "2 동일성, 유일성 제거 검증 기술 개발 및 성능평가 보고서",
+      "3 유사도 최적화 추상화 기술 개발 및 성능평가 보고서",
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          670.19,
+          538.27,
+          896.14
+        ],
+        "page_area_fraction": 0.2175
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0080",
+    "caption": "음성 비식별화 과정에서 각 단계별 data 변환 과정",
+    "pdf_page_candidate": 130,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 129 -\n[그림 65] 음성 비식별화 과정에서 각 단계별 data 변환 과정\n‐ 화자변곡점 검출 및 문장 독립형 화자그룹 분류/판별 기술 개발\n‧ 상담 녹취파일에서 상대방의 음성 구간만을 자동으로 추출하기 위한 기술 개발\n‧ 임의 텍스트를 발화한 음성으로 화자그룹을 판별할 수 있는 기술 개발\n[그림 66] 화자별 음성구간 분류 과정 및 개념도\n‐ 실시간 상담 데이터에 대한 화자그룹 분류/판별 기술 및 서버형 다채널 SW 개발\n‧ 실시간 i-vector 추출 및 사기자/유의자 모델과의 비교 기술 구현 진행\n‧ 추출 데이터의 비식별화 연계 및 특정 화자그룹의 판별\n‧ 녹취 전화기 기반 화자분리(Rx,Tx) 녹음의 실시간 전송 기술 개발",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.54,
+          647.65,
+          500.25,
+          784.42
+        ],
+        "page_area_fraction": 0.1054
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.26,
+          342.46,
+          511.64,
+          491.34
+        ],
+        "page_area_fraction": 0.1215
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0081",
+    "caption": "화자별 음성구간 분류 과정 및 개념도",
+    "pdf_page_candidate": 130,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 129 -\n[그림 65] 음성 비식별화 과정에서 각 단계별 data 변환 과정",
+    "caption_and_following_text": "‐ 화자변곡점 검출 및 문장 독립형 화자그룹 분류/판별 기술 개발\n‧ 상담 녹취파일에서 상대방의 음성 구간만을 자동으로 추출하기 위한 기술 개발\n‧ 임의 텍스트를 발화한 음성으로 화자그룹을 판별할 수 있는 기술 개발\n[그림 66] 화자별 음성구간 분류 과정 및 개념도\n‐ 실시간 상담 데이터에 대한 화자그룹 분류/판별 기술 및 서버형 다채널 SW 개발\n‧ 실시간 i-vector 추출 및 사기자/유의자 모델과의 비교 기술 구현 진행\n‧ 추출 데이터의 비식별화 연계 및 특정 화자그룹의 판별\n‧ 녹취 전화기 기반 화자분리(Rx,Tx) 녹음의 실시간 전송 기술 개발\n‧ 서버형 다채널 실시간 화자/화자그룹 판별을 위한 요구사항 분석 및 SW 구조 설계\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.54,
+          647.65,
+          500.25,
+          784.42
+        ],
+        "page_area_fraction": 0.1054
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.26,
+          342.46,
+          511.64,
+          491.34
+        ],
+        "page_area_fraction": 0.1215
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0082",
+    "caption": "실시간 통화음성에 대한 화자그룹 판별 외",
+    "pdf_page_candidate": 131,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 130 -\n[그림 67] 실시간 통화음성에 대한 화자그룹 판별 외\n○ 비식별화 스트림 데이터 실시간 빈발패턴, 연관규칙 탐사 기법 연구\n‐ 개인 시그네쳐 그룹 기반 실시간 빈발패턴, 연관규칙 탐사 기법 연구\n‐ 실시간 빈발패턴/연관규칙의 개인 시그네처 그룹 기반 지지도/신뢰도 보정 기법 연구\n■ 기술적 성과\n○ 지식재산권(특허, 상표, 실용신안 등)\n번호 출원인 명칭 국명 출원일 출원번호 NTIS\n등록번호 기여율\n1 아이알링",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "2 화자변곡점 검출 및 화자분류 기술개발 및 성능평가 보고서"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.3,
+          645.25,
+          509.49,
+          784.42
+        ],
+        "page_area_fraction": 0.1124
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0083",
+    "caption": "전시회 참가",
+    "pdf_page_candidate": 132,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "CallCenter/CRM Demo &\nConference 2018 in Tokyo\n2018-11-15\n~\n2018-11-16\nTokyo, Japan\n‧ 일본에서 매년 개최하는 콜센터 전문 전시회로 음성인식과 화자인식 기술을 이용한 발성형",
+    "caption_and_following_text": "개인식별을 통한 음성인식율 높이는 전처리 제품을 개발 전시하고 전시회를 통해 빅데이터\n비식별화 연구과제의 성과 홍보 및 빅데이터 내 음성인식과 화자인식 관련 제품과 그 필요\n성에 대한 시장성과 상품화 아이디어를 바이어 상담을 통해 얻고자 하였으며, 대외적인 홍\n보, 국내의 빅데이터 관련 제품 동향, 연구 성과를 통한 사업화를 위해 전시회 참가\n[그림 68] 전시회 참가\n④ ㈜코리아크레딧뷰로\n■ 연구수행내용\n○ 비식별화 기법, 통계적 유의성 검증 및 미비점 보완\n‐ 빅데이터 비식별 데이터 검토 사항\n· 데이터 비식별 목적",
+    "section_context_candidate": "■ 경제적 성과",
+    "heading_candidates": [
+      "■ 경제적 성과",
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.16,
+          315.85,
+          452.64,
+          504.77
+        ],
+        "page_area_fraction": 0.1131
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0084",
+    "caption": "실제 금융회사 환경과 동일한, 테스트 환경 구성",
+    "pdf_page_candidate": 133,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 26,
+    "prefix_match_only": false,
+    "text_before": "신용여부 미조치(Y/N값) · k-익명성, l-다양성 기준\n분석기법 적용대상(속성자) 평가기준값\nk-익명성 성별, 직업구분코드 2개 항목 k≥5\nl-다양성 기준 대출약정금액, 카드이용금액 등의 민감정보 항목 l≥2\n○ 비식별화 수준 및 한계 등을 확인하기 위한 검증 가능한 신용정보 데이터 확보\n‐ 제공정보의 종류 : 개인정보, 대출개설정보, 카드개설정보, 연체정보 등\n‐ 개인정보(500만건), 대출개설정보(200만건), 카드개설정보(500만건), 연체정보(10만건), 개인",
+    "caption_and_following_text": "신용정보 조회사이트 LOG정보(100만건), 비정형 SAM FILE 카드실적정보(500만건)\n○ 물리적/시스템적 검증을 위한 환경 구축 및 유지\n‐ 엔진 설치 등을 위한 하드웨어/장비 설치 및 물리적 검증 환경 구성 완료\n[그림 69] 실제 금융회사 환경과 동일한, 테스트 환경 구성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.8,
+          167.94,
+          516.08,
+          256.16
+        ],
+        "page_area_fraction": 0.0771
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0085",
+    "caption": "비식별화 테스트 및 검증 시연을 위해 사용자 단말, 어플리케이션 서버 및 데이터 베이스 서버 환경 구성",
+    "pdf_page_candidate": 134,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 133 -\n[그림 70] 비식별화 테스트 및 검증 시연을 위해 사용자 단말, 어플리케이션 서버 및\n데이터 베이스 서버 환경 구성\n○ 빅데이터 준비 및 검증/시연 지원\n‐ 검증용 데이터 추출 및 File/Table 생성 및 (기술개발 테스트 요청시) 결과 검증 및 유의\n성 평가(검증데이터 준비 및 비식별 검증절차서 마련)\n‐ 출입통제 시설 및 별도로 제공된 테스트 및 시연 장소 제공\n‐ KCB 내부 서버, 테스트 시연을 위한 서버 로그인 및 조회\n[그림 71] 검증용 서버 준비 및 로그인\n○ KCB 내부 비식별화 적정성 평가 매뉴얼 마련",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "1 ㈜코리아크레딧뷰로 ㈜보아라((구)그리즐리) 테스트결과서"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.91,
+          673.54,
+          509.96,
+          784.42
+        ],
+        "page_area_fraction": 0.0942
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.23,
+          383.46,
+          445.68,
+          481.39
+        ],
+        "page_area_fraction": 0.0541
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0086",
+    "caption": "검증용 서버 준비 및 로그인",
+    "pdf_page_candidate": 134,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 133 -\n[그림 70] 비식별화 테스트 및 검증 시연을 위해 사용자 단말, 어플리케이션 서버 및\n데이터 베이스 서버 환경 구성\n○ 빅데이터 준비 및 검증/시연 지원\n‐ 검증용 데이터 추출 및 File/Table 생성 및 (기술개발 테스트 요청시) 결과 검증 및 유의",
+    "caption_and_following_text": "성 평가(검증데이터 준비 및 비식별 검증절차서 마련)\n‐ 출입통제 시설 및 별도로 제공된 테스트 및 시연 장소 제공\n‐ KCB 내부 서버, 테스트 시연을 위한 서버 로그인 및 조회\n[그림 71] 검증용 서버 준비 및 로그인\n○ KCB 내부 비식별화 적정성 평가 매뉴얼 마련\n■ 기술적 성과\n○ 기술문서\n번호 기관명 상세 구분\n1 ㈜코리아크레딧뷰로 ㈜보아라((구)그리즐리) 테스트결과서\n‐ 수집전문인 K-Format을 통해 금융회사로부터 제공되는 신상정보, 대출개설정보, 카드개",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "1 ㈜코리아크레딧뷰로 ㈜보아라((구)그리즐리) 테스트결과서"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.91,
+          673.54,
+          509.96,
+          784.42
+        ],
+        "page_area_fraction": 0.0942
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.23,
+          383.46,
+          445.68,
+          481.39
+        ],
+        "page_area_fraction": 0.0541
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0087",
+    "caption": "CKAN 플랫폼과 연계",
+    "pdf_page_candidate": 136,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "○ 개인정보 탐지기능과 비식별화 기능 융합을 통한 통합 개인정보보호 솔루션 구축 및 상\n용화 준비\n‐ 통합 개인정보보호 솔루션 구축 관점에서 비식별화 S/W 내 고객 Legacy System 게시판\n및 e-mail 본문과 첨부파일에 대한 개인정보 탐지 및 차단, 모니터링 기능 융합 수행\n‐ 비정상 행위 및 부적절 이용 탐지이력 분석 및 모니터링 기능 고도화를 통한 통합 데이\n터베이스 접근제어 기능 모듈화 및 상용화 준비\n○ 데이터 보안 솔루션과 CKAN 플랫폼과의 연계 수행",
+    "caption_and_following_text": "‐ 데이터 연계 플랫폼인 CKAN을 통해 제공될 비정형/반정형/정형 데이터에 대한 개인정\n보 탐지 및 비식별 처리를 위한 기능 개발\n‐ 개인정보 탐지 및 비식별 처리 데이터의 이력관리 및 검증 수행 기능 개발\n[그림 72] CKAN 플랫폼과 연계\n○ 스키마 스캔 및 메타정보 시각화를 통한 빅데이터 플랫폼(Super Hadoop)과 비식별화 S/W\n연계 기술\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.78,
+          166.98,
+          451.92,
+          328.32
+        ],
+        "page_area_fraction": 0.0868
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0088",
+    "caption": "테이블 분리 기반 비식별화",
+    "pdf_page_candidate": 137,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 136 -\n‐ 스키마 스캔을 통한 빅데이터 플랫폼(Super Hadoop) 내 메타정보 시각화 기술 개발\n‐ 선택된 정보요소에 대한 결합 및 추출, 분할, 그룹화, Pivoting 등 다양한 전처리\nInterface 기술 개발\n‐ 총괄 산출물인 Hadoop System 상에서 Working하는 고속 SQL 처리코드를 활용하여 전처리\n기능 별 SQL 처리코드 생성 알고리즘 개발 및 이를 통한 빅데이터 플랫폼 내 비식별 대상\n데이터 연계기술 개발(H전력공사 빅데이터 플랫폼인 Hadoop에서 연계기술 적용 및 실증)",
+    "caption_and_following_text": "○ 비식별 데이터의 정보 손실을 줄이기 위한 통계적 정확성 유지 비식별화 기술 개발(고려대)\n‐ 통계적 유효성을 고려한 프라이버시 모델을 만족시키는 일반화 기반 비식별화 기법 개발\n‐ 통계적 유효성을 고려한 테이블 분리 기반의 비식별화 기법 개발\n[그림 73] 테이블 분리 기반 비식별화\n○ 실시간 프라이버시 보존형 트랜잭션 항목 일반화 기법 연구(연세대)\n‐ 비식별 트랜잭션의 항목 일반화 계층 구조 매핑 기술 및 실시간 Roll-up 일반화 트랜잭션\n생성 기술\n‐ 실시간 비식별 데이터 스트림의 사생활 보존 일반화 빈발패턴 탐사 연구\n○ 비식별 데이터의 통계적 유용성 검증 조사 연구 (동덕여대)\n‐ 원본 데이터 기반의 통계적 분류 모형과 비식별 처리된 데이터의 통계적 분류모형의 비교",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.47,
+          411.99,
+          434.29,
+          546.48
+        ],
+        "page_area_fraction": 0.0736
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0089",
+    "caption": "제출문",
+    "pdf_page_candidate": 139,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 138 -\n○ 금융 빅데이터 환경에서 비식별처리를 위한 소프트웨어의 구조 및 기능\n‐ 2018년 7월 ㈜이지서티 표준화 참여\n‐ 2018년 12월 표준 제정\n‐ 주요 내용",
+    "caption_and_following_text": "· 비식별처리 소프트웨어 구조\n· 비식별처리 소프트에어 계층별 요구사항\n· 비식별처리 소프트에어 기능\n[그림 74] 제출문\n[그림 75]정책 표준\n○ 저작권(소프트웨어, 서적 등)\n번\n호\n기관명 저작권명 창작일 저작자\n명",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.07,
+          348.94,
+          292.28,
+          590.95
+        ],
+        "page_area_fraction": 0.0649
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.96,
+          409.35,
+          436.8,
+          576.09
+        ],
+        "page_area_fraction": 0.0446
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0090",
+    "caption": "정책 표준",
+    "pdf_page_candidate": 139,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 138 -\n○ 금융 빅데이터 환경에서 비식별처리를 위한 소프트웨어의 구조 및 기능\n‐ 2018년 7월 ㈜이지서티 표준화 참여\n‐ 2018년 12월 표준 제정\n‐ 주요 내용\n· 비식별처리 소프트웨어 구조",
+    "caption_and_following_text": "· 비식별처리 소프트에어 계층별 요구사항\n· 비식별처리 소프트에어 기능\n[그림 74] 제출문\n[그림 75]정책 표준\n○ 저작권(소프트웨어, 서적 등)\n번\n호\n기관명 저작권명 창작일 저작자\n명\n등록일 등록번호",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.07,
+          348.94,
+          292.28,
+          590.95
+        ],
+        "page_area_fraction": 0.0649
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.96,
+          409.35,
+          436.8,
+          576.09
+        ],
+        "page_area_fraction": 0.0446
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0091",
+    "caption": "안전한 개인정보 비식별 활용 기술 세미나",
+    "pdf_page_candidate": 141,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 140 -\n■ 대외적 성과",
+    "caption_and_following_text": "○ 솔루션 전시 및 시연회\n번호 주최기관 행사명 일시 장소\n1 KISA 안전한 개인정보 비식별 활용 기술\n세미나\n2018-05-31\n13:00~18:00\n소노펠리체 컨벤션\n사파이어홀\n‐ 안전한 개인정보 비식별 활용 기술 세미나\n· ㈜이지서티 기술 세미나 부스 운영 및 시연회 진행",
+    "section_context_candidate": "■ 대외적 성과",
+    "heading_candidates": [
+      "■ 대외적 성과",
+      "1 KISA 안전한 개인정보 비식별 활용 기술"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          164.34,
+          538.27,
+          313.22
+        ],
+        "page_area_fraction": 0.1433
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          268.27,
+          538.27,
+          585.56
+        ],
+        "page_area_fraction": 0.3054
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0092",
+    "caption": "IDENTITY SHIELD V3.0 소프트웨어 품질 인증서",
+    "pdf_page_candidate": 142,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 141 -\n○ 인증\n번호 기관명 제품명 평가기관 인증명 등급 인증일\n1 ㈜이지서티 IDENTITY SHIELD\nV3.0\n한국산업기술시\n험원",
+    "caption_and_following_text": "소프트웨어\n품질인증(GS) 1등급 2018-08-17\n‐ IDENTITY SHIELD V3.0(개인정보 비식별화 솔루션) GS인증 1등급 획득\n[그림 77] IDENTITY SHIELD V3.0 소프트웨어 품질 인증서\n· 소프트웨어 명칭: IDENTITY SHIELD V3.0\n· 인증등급: 1등급\n· 인증번호: 18-0014\n· 제조자 및 제조국가: ㈜이지서티 / 대한민국\n· 인증연월일: 2018년 8월 17일\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1 KISA 안전한 개인정보 비식별 활용 기술",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.56,
+          260.23,
+          442.2,
+          633.75
+        ],
+        "page_area_fraction": 0.2162
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0093",
+    "caption": "디지털데일리 기사",
+    "pdf_page_candidate": 143,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 142 -\n○ 언론 및 미디어\n번호 기관명 언론사 기자 기사명 등록일시\n1 ㈜이지서티 디지털데일\n리\n최민지 이지서티, 개인정보 비식별화\n솔루션 GS인증 1등급 획득",
+    "caption_and_following_text": "2018-09-03\n17:17:48\n‐ 이지서티, 개인정보 비식별화 솔루션 GS인증 1등급 획득\n[그림 78] 디지털데일리 기사\n② ㈜보아라((구)그리즐리)\n○ 빅데이터 처리 엔진 기반의 병렬 익명화 처리 모듈 구현\n[그림 79] 추상화 기술 전체 기술도와 병렬 추상화 처리 모듈 개요\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1 KISA 안전한 개인정보 비식별 활용 기술",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          372.19,
+          305.24,
+          633.75
+        ],
+        "page_area_fraction": 0.1195
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.24,
+          372.31,
+          529.99,
+          632.91
+        ],
+        "page_area_fraction": 0.117
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.16,
+          70.96,
+          528.56,
+          245.61
+        ],
+        "page_area_fraction": 0.1579
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0094",
+    "caption": "추상화 기술 전체 기술도와 병렬 추상화 처리 모듈 개요",
+    "pdf_page_candidate": 143,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "1 ㈜이지서티 디지털데일\n리\n최민지 이지서티, 개인정보 비식별화\n솔루션 GS인증 1등급 획득\n2018-09-03\n17:17:48\n‐ 이지서티, 개인정보 비식별화 솔루션 GS인증 1등급 획득",
+    "caption_and_following_text": "[그림 78] 디지털데일리 기사\n② ㈜보아라((구)그리즐리)\n○ 빅데이터 처리 엔진 기반의 병렬 익명화 처리 모듈 구현\n[그림 79] 추상화 기술 전체 기술도와 병렬 추상화 처리 모듈 개요\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1 KISA 안전한 개인정보 비식별 활용 기술",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          372.19,
+          305.24,
+          633.75
+        ],
+        "page_area_fraction": 0.1195
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.24,
+          372.31,
+          529.99,
+          632.91
+        ],
+        "page_area_fraction": 0.117
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.16,
+          70.96,
+          528.56,
+          245.61
+        ],
+        "page_area_fraction": 0.1579
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0095",
+    "caption": "오픈 소스 빅데이터 처리 엔진 기반의 병렬 추상화 비식별화 변환 단계",
+    "pdf_page_candidate": 144,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 143 -\n‐ 병렬화를 위한 원본레코드 파티셔닝 기법 연구\n· Apache Hadoop 기반의 Apache 스파크 클러스터 환경에서 구동되는 병렬처리 기반의 추\n상화 기술을 개발함. 이를 위해 원본 데이터를 해야하며 원본 데이터의 스키마 및 분포",
+    "caption_and_following_text": "고려한 파티셔닝기법에 대해 연구 개발 함 최종적으로 현재 가용한 executor의 memory\nsize & 개수까지 고려하여 실제 구동\n‐ 오픈 소스 빅데이터 처리 엔진 기반의 병렬 추상화 비식별화 변환 기술 개발\n[그림 80] 오픈 소스 빅데이터 처리 엔진 기반의 병렬 추상화 비식별화 변환 단계\n· Spark API 및 내장 라이브러리를 활용하여 추상화 로직을 스파크 기반으로 포팅하고 로직\n내 파티셔닝 최적화로 성능 최적화\n‐ MAS solution 개선 및 성능 평가\n[그림 81] MAS solution UX 개선 : 반자동화, spark 연동UI 추가\n○ 빅데이터 처리 엔진 기반의 병렬 익명화 레코드 연계 모듈 구현\n‐ 병렬화 기반의 연계를 위한 추상화 레코드 파티셔닝 기법 연구",
+    "section_context_candidate": "1 KISA 안전한 개인정보 비식별 활용 기술",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.96,
+          478.52,
+          525.68,
+          639.86
+        ],
+        "page_area_fraction": 0.1473
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.52,
+          135.09,
+          525.2,
+          335.51
+        ],
+        "page_area_fraction": 0.1785
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0096",
+    "caption": "MAS solution UX 개선 : 반자동화, spark 연동UI 추가",
+    "pdf_page_candidate": 144,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "‐ 병렬화를 위한 원본레코드 파티셔닝 기법 연구\n· Apache Hadoop 기반의 Apache 스파크 클러스터 환경에서 구동되는 병렬처리 기반의 추\n상화 기술을 개발함. 이를 위해 원본 데이터를 해야하며 원본 데이터의 스키마 및 분포\n고려한 파티셔닝기법에 대해 연구 개발 함 최종적으로 현재 가용한 executor의 memory\nsize & 개수까지 고려하여 실제 구동\n‐ 오픈 소스 빅데이터 처리 엔진 기반의 병렬 추상화 비식별화 변환 기술 개발\n[그림 80] 오픈 소스 빅데이터 처리 엔진 기반의 병렬 추상화 비식별화 변환 단계",
+    "caption_and_following_text": "· Spark API 및 내장 라이브러리를 활용하여 추상화 로직을 스파크 기반으로 포팅하고 로직\n내 파티셔닝 최적화로 성능 최적화\n‐ MAS solution 개선 및 성능 평가\n[그림 81] MAS solution UX 개선 : 반자동화, spark 연동UI 추가\n○ 빅데이터 처리 엔진 기반의 병렬 익명화 레코드 연계 모듈 구현\n‐ 병렬화 기반의 연계를 위한 추상화 레코드 파티셔닝 기법 연구\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1 KISA 안전한 개인정보 비식별 활용 기술",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.96,
+          478.52,
+          525.68,
+          639.86
+        ],
+        "page_area_fraction": 0.1473
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.52,
+          135.09,
+          525.2,
+          335.51
+        ],
+        "page_area_fraction": 0.1785
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0097",
+    "caption": "병렬화 기반의 연계를 위한 추상화 레코드 파티셔닝 기법 과정",
+    "pdf_page_candidate": 145,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 144 -\n[그림 82] 병렬화 기반의 연계를 위한 추상화 레코드 파티셔닝 기법 과정\n· Hadoop 기반 스파크 클러스터의 executor 수 및 memory size와 추상화 데이터 세트 내\n선택된 동기화 속성의 분포를 고려한 최적 파티셔닝 기법 개발\n‐ 오픈 소스 빅데이터 처리 엔진 기반의 병렬 동기화 기술 개발\n· 실제 동기화 기술의 병목 지점은 join operation( range, exact, cross join, …)이며, Spark\nSQLlibrary의 DataSetoperation 및 SQL Hint 등 활용한 optimization 기술을 연구 함. 특히\n저수준 동기화, 고수준 동기화 별로 활용 되는 join operation이 다르므로 각각의 최적화\n로직을 구현\n■ 기술적 성과",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.75,
+          615.41,
+          522.8,
+          786.82
+        ],
+        "page_area_fraction": 0.1477
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0098",
+    "caption": "디지털 데일리 기사",
+    "pdf_page_candidate": 147,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "㈜보아라\n((구)그리즐\n리)\n디지털데일\n리\n최민지 KISA, 국외 전문가 초청 개인정보\n비식별 활용 세미나 개최",
+    "caption_and_following_text": "2018-06-01\n10:18:57\n‐ KISA, 국외 전문가 초청 개인정보 비식별 활용 세미나 개최\n[그림 83] 디지털 데일리 기사\n○ 인증\n번호 제품명 평가기관 인증명 등급 인증일\n1 MAS(다수준 추상화 &\n동기화) 마법사 v1.0\n한국정보통신기\n술협회",
+    "section_context_candidate": "1 KISA 안전한 개인정보 비식별 활용 기술",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          391.85,
+          294.32,
+          640.34
+        ],
+        "page_area_fraction": 0.1081
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.2,
+          509.56,
+          511.77,
+          786.22
+        ],
+        "page_area_fraction": 0.1203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.18,
+          125.38,
+          257.38,
+          309.86
+        ],
+        "page_area_fraction": 0.0517
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0099",
+    "caption": "MAS(다수준 추상화 & 동기화) 마법사 v1.0소프트웨어 품질인증서 Ⅱ",
+    "pdf_page_candidate": 147,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 23,
+    "prefix_match_only": false,
+    "text_before": "번호 제품명 평가기관 인증명 등급 인증일\n1 MAS(다수준 추상화 &\n동기화) 마법사 v1.0\n한국정보통신기\n술협회\n소프트웨어\n품질인증(GS) 1등급 2016-11-28",
+    "caption_and_following_text": "‐ MAS(다수준 추상화 & 동기화) 마법사 v1.0 GS인증 1등급 획득/ v3.0 GS 1등급 획득\n[그림 84] MAS(다수준\n추상화 & 동기화) 마법사\nv1.0소프트웨어 품질인증서 Ⅱ\n· 소프트웨어 명칭: MAS(다수준 추상화 &\n동기화) 마법사 v1.0/ v3.0 GS 1등급 획득\n· 인증등급: 1등급\n· 인증번호: 16-0425\n· 제조자 및 제조국가: ㈜보아라((구)그리즐\n리) / 대한민국",
+    "section_context_candidate": "1 KISA 안전한 개인정보 비식별 활용 기술",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.64,
+          391.85,
+          294.32,
+          640.34
+        ],
+        "page_area_fraction": 0.1081
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.2,
+          509.56,
+          511.77,
+          786.22
+        ],
+        "page_area_fraction": 0.1203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.18,
+          125.38,
+          257.38,
+          309.86
+        ],
+        "page_area_fraction": 0.0517
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0100",
+    "caption": "클라우드 임팩트 2019 컨퍼런스",
+    "pdf_page_candidate": 150,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "행정안전부, 방송통신위원회, 개인정보보호 위원회\n개인정보보호 페어\n(PIS FAIR 2019)\n2019-06-25\n~\n2019-06-26\n코엑스 그랜드볼룸",
+    "caption_and_following_text": "4 ㈜이지서티 ㈜이지서티 Partner’s\nDay 2019-05-15 양재동 엘타워\n스포타임\n‐ 클라우드 임팩트 2019 컨퍼런스\n· 클라우드 환경에서의 개인정보보호를 위한 개인정보 비식별화 솔루션 부스 운영\n· 클라우드 환경에서의 개인정보보호를 위한 개인정보 비식별화 전략 발표\n[그림 85] 클라우드 임팩트 2019 컨퍼런스\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 대외적 성과",
+    "heading_candidates": [
+      "■ 대외적 성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.12,
+          126.1,
+          485.74,
+          226.55
+        ],
+        "page_area_fraction": 0.0369
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.26,
+          231.95,
+          485.74,
+          386.22
+        ],
+        "page_area_fraction": 0.1161
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.14,
+          126.1,
+          293.0,
+          226.67
+        ],
+        "page_area_fraction": 0.037
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0101",
+    "caption": "2019 세계보안 엑스포 – SECON 2019",
+    "pdf_page_candidate": 151,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 150 -\n‐ 2019 세계보안 엑스포(SECON 2019) · 개인정보보호를 위한 개인정보보호 솔루션 부스 운영\n· 다시보는 개인정보접속기록관리의 중요성’CPO workshop 발표\n[그림 86] 2019 세계보안 엑스포 – SECON 2019\n‐ 개인정보보호 페어(PIS FAIR 2019) · 개인정보보호를 위한 개인정보보호 솔루션 전시 및 시연\n· 빅데이터 환경에서의 개인정보보호를 위한 비식별화 전략 발표\n[그림 87] PIS FAIR 2019\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 대외적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.95,
+          480.79,
+          501.93,
+          705.07
+        ],
+        "page_area_fraction": 0.1833
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.23,
+          253.76,
+          499.53,
+          362.96
+        ],
+        "page_area_fraction": 0.0882
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.23,
+          138.33,
+          294.56,
+          245.61
+        ],
+        "page_area_fraction": 0.0427
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.56,
+          137.97,
+          499.53,
+          248.25
+        ],
+        "page_area_fraction": 0.0452
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0102",
+    "caption": "PIS FAIR 2019",
+    "pdf_page_candidate": 151,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 150 -",
+    "caption_and_following_text": "‐ 2019 세계보안 엑스포(SECON 2019) · 개인정보보호를 위한 개인정보보호 솔루션 부스 운영\n· 다시보는 개인정보접속기록관리의 중요성’CPO workshop 발표\n[그림 86] 2019 세계보안 엑스포 – SECON 2019\n‐ 개인정보보호 페어(PIS FAIR 2019) · 개인정보보호를 위한 개인정보보호 솔루션 전시 및 시연\n· 빅데이터 환경에서의 개인정보보호를 위한 비식별화 전략 발표\n[그림 87] PIS FAIR 2019\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 대외적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.95,
+          480.79,
+          501.93,
+          705.07
+        ],
+        "page_area_fraction": 0.1833
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.23,
+          253.76,
+          499.53,
+          362.96
+        ],
+        "page_area_fraction": 0.0882
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.23,
+          138.33,
+          294.56,
+          245.61
+        ],
+        "page_area_fraction": 0.0427
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.56,
+          137.97,
+          499.53,
+          248.25
+        ],
+        "page_area_fraction": 0.0452
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0103",
+    "caption": "디지털 데일리 기사 Ⅱ",
+    "pdf_page_candidate": 152,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "2 ㈜이지서티 전자신문\n이지서티, ‘보건의료 빅데이터\n플랫폼’에 개인정보 비식별 조치\n솔루션 공급\n2019-02-27\n3 ㈜이지서티 보안뉴스 이지서티, 빅데이터와 클라우드 시대의\n개인정보보호를 말하다 2019-06-28",
+    "caption_and_following_text": "4 ㈜이지서티 브릿지 경제 이지서티, ‘파트너스데이’개최... 보안\n협력 견고히 다진다. 2019-05-16\n‐ (기사)공공부문 클라우드 활성화, 개인정보 비식별화 전략도 세워야\n[그림 88] 디지털 데일리 기사 Ⅱ\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 대외적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          162.06,
+          299.6,
+          450.95
+        ],
+        "page_area_fraction": 0.1223
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.55,
+          161.82,
+          504.21,
+          451.91
+        ],
+        "page_area_fraction": 0.1128
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0104",
+    "caption": "전자신문 기사",
+    "pdf_page_candidate": 153,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 152 -\n‐ (기사) “이지서티, ‘보건의료 빅데이터 플랫폼’에 개인정보 비식별 조치 솔루션 공급”\n[그림 89] 전자신문 기사\n‐ (기사) “이지서티, 빅데이터와 클라우드 시대의 개인정보보호를 말하다”\n[그림 91] 보안뉴스 기사\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 대외적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.77,
+          512.56,
+          421.33,
+          748.1
+        ],
+        "page_area_fraction": 0.1038
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.52,
+          83.67,
+          448.56,
+          406.24
+        ],
+        "page_area_fraction": 0.1902
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.87,
+          77.92,
+          457.91,
+          400.48
+        ],
+        "page_area_fraction": 0.1902
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0105",
+    "caption": "보안뉴스 기사",
+    "pdf_page_candidate": 153,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 152 -",
+    "caption_and_following_text": "‐ (기사) “이지서티, ‘보건의료 빅데이터 플랫폼’에 개인정보 비식별 조치 솔루션 공급”\n[그림 89] 전자신문 기사\n‐ (기사) “이지서티, 빅데이터와 클라우드 시대의 개인정보보호를 말하다”\n[그림 91] 보안뉴스 기사\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 대외적 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.77,
+          512.56,
+          421.33,
+          748.1
+        ],
+        "page_area_fraction": 0.1038
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.52,
+          83.67,
+          448.56,
+          406.24
+        ],
+        "page_area_fraction": 0.1902
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.87,
+          77.92,
+          457.91,
+          400.48
+        ],
+        "page_area_fraction": 0.1902
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0106",
+    "caption": "브릿지 경제 기사",
+    "pdf_page_candidate": 154,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 153 -\n‐ (기사) “2019 이지서티 솔루션 파트너 세미나”\n[그림 92] 브릿지 경제 기사\n② ㈜보아라\n■ 연구수행내용\n○ 추상화 비식별화 기법의 실시간 병렬 고속화 기술 개발\n[그림 93] 추상화 비식별화 기법의 실시간 병렬 고속화 기술 개요\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          168.63,
+          467.13,
+          443.28,
+          751.82
+        ],
+        "page_area_fraction": 0.1563
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.36,
+          109.2,
+          530.35,
+          292.12
+        ],
+        "page_area_fraction": 0.1667
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0107",
+    "caption": "추상화 비식별화 기법의 실시간 병렬 고속화 기술 개요",
+    "pdf_page_candidate": 154,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 153 -\n‐ (기사) “2019 이지서티 솔루션 파트너 세미나”\n[그림 92] 브릿지 경제 기사",
+    "caption_and_following_text": "② ㈜보아라\n■ 연구수행내용\n○ 추상화 비식별화 기법의 실시간 병렬 고속화 기술 개발\n[그림 93] 추상화 비식별화 기법의 실시간 병렬 고속화 기술 개요\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "■ 연구수행내용",
+    "heading_candidates": [
+      "■ 연구수행내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          168.63,
+          467.13,
+          443.28,
+          751.82
+        ],
+        "page_area_fraction": 0.1563
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.36,
+          109.2,
+          530.35,
+          292.12
+        ],
+        "page_area_fraction": 0.1667
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0108",
+    "caption": "실시간 원본레코드 파티셔닝 최적화 기술 연구",
+    "pdf_page_candidate": 155,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 154 -\n‐ 실시간 원본레코드 파티셔닝 최적화 기술 연구\n[그림 94] 실시간 원본레코드\n파티셔닝 최적화 기술 연구\n· Timestamp와 spark의 watermark 개념을 도입한 window 관리 기술과 실제 데이터들이\n들어오는 속도에 따라 Window size(w)를 적절히 조정하여 최적의 w를 찾고 window 내\n데이터를 최적 파티셔닝 하는 기법에 대해 연구\n‐ 실시간화 빅데이터 처리 엔진 기반의 병렬 추상화 비식별화 변환 기술의 연구\n[그림 95] 실시간화 빅데이터 처리 엔진 기반의 병령 추상화\n비식별화 변환 기술의 연구",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "1 ㈜보아라((구)그리즐리)) MASQ 실시간 추상화 Spark 모듈 평가서"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          221.16,
+          676.78,
+          393.63,
+          754.7
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.72,
+          421.22,
+          248.39,
+          521.07
+        ],
+        "page_area_fraction": 0.0193
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          273.93,
+          424.34,
+          463.07,
+          524.43
+        ],
+        "page_area_fraction": 0.0378
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0109",
+    "caption": "실시간화 빅데이터 처리 엔진 기반의 병령 추상화 비식별화 변환 기술의 연구",
+    "pdf_page_candidate": 155,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 154 -\n‐ 실시간 원본레코드 파티셔닝 최적화 기술 연구\n[그림 94] 실시간 원본레코드\n파티셔닝 최적화 기술 연구\n· Timestamp와 spark의 watermark 개념을 도입한 window 관리 기술과 실제 데이터들이\n들어오는 속도에 따라 Window size(w)를 적절히 조정하여 최적의 w를 찾고 window 내",
+    "caption_and_following_text": "데이터를 최적 파티셔닝 하는 기법에 대해 연구\n‐ 실시간화 빅데이터 처리 엔진 기반의 병렬 추상화 비식별화 변환 기술의 연구\n[그림 95] 실시간화 빅데이터 처리 엔진 기반의 병령 추상화\n비식별화 변환 기술의 연구\n· spark sql library로 구현된 추상화 로직을 spark structured steaming library로 포팅하여\n실시간 추상화 모듈을 구현 해당 과정에서 하나의 어플리케이션으로 구현 불가한 부분\n들이 발견되어 단계별로 하나의 어플리케이션으로 분리하여 개발. 실시간 추상화만을\n위한 별도의 UI를 갖춘 SW를 추가 개발\n■ 기술적 성과\n○ 산업재산권(특허, 상표, 실용신안 등)",
+    "section_context_candidate": "■ 기술적 성과",
+    "heading_candidates": [
+      "■ 기술적 성과",
+      "1 ㈜보아라((구)그리즐리)) MASQ 실시간 추상화 Spark 모듈 평가서"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          221.16,
+          676.78,
+          393.63,
+          754.7
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.72,
+          421.22,
+          248.39,
+          521.07
+        ],
+        "page_area_fraction": 0.0193
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          273.93,
+          424.34,
+          463.07,
+          524.43
+        ],
+        "page_area_fraction": 0.0378
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0110",
+    "caption": "비식별화 데이터 유효성 검증",
+    "pdf_page_candidate": 165,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 164 -",
+    "caption_and_following_text": "빈발패턴 보정 전/후간 유사도) - 비식별화 데이터의 통계적 활용의 유효성에 대한 검증 방법 개발 및 사례 검증 수행\n·원본 데이터 기반의 통계적 분류모형과 비식별화 데이터 기반의 분류모형의 비교를 통해\n비식별 처리가 통계적 분류모형에 미치는 영향을 파악\n그림 96 비식별화 데이터 유효성 검증\n- 음성 화자그룹 분류/판별 성능 지표\n·오거부율 (False reject rate) : 등록된 사용자가 거절될 오류율\n·오수락율 (False accept rate) : 비등록 사용자가 승인되거나 다른 사용자로 식별될 오류율\n·처리시간 : 발성 종료 후 식별 시까지의 응답 시간\n· 성능목표치 근거\n- NIST8) 화자인식 I-vector challenge의 leaderboard 수치",
+    "section_context_candidate": "3-2. 목표 달성여부",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.67,
+          525.51,
+          482.14,
+          668.87
+        ],
+        "page_area_fraction": 0.1104
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0111",
+    "caption": "Adult dataset 실험결과 (k=5)",
+    "pdf_page_candidate": 172,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "라. 수행 결과 상세\n○ KLT 비식별화 고속처리 기술(인메모리 중심)\n‐ GPGPU를 활용한 속도 향상\n‐ GPGPU에 적합한 병렬도를 높이고 분기문을 최소화하는 비식별화 기법 개발\n# of QID CPU(sec) GPU(sec) CPU/GPU Data size(KB) record/sec\n3 0.744 0.503 1.479 599 59,964\n4 2.712 1.184 2.290 653 25,474",
+    "caption_and_following_text": "5 5.636 2.258 2.496 635 13,357\n6 11.902 4.601 2.587 883 6,556\n7 45.304 17.567 2.567 846 1,774\n<표 > Adult dataset 실험결과 (k=5)\n○ 대용량 데이터의 KLT 비식별화를 위한 서버 클러스터 기반 분산 알고리즘 개발\n‐ 분산환경 기반 개인정보 고속 비식별화 기능\n‐ 지속적인 비식별화 데이터 모니터링 기술 개발\n○ 비식별화 정보 조합을 통한 재식별 가능성에 대한 검증 기술 (인메모리 기반 / 분산환경 기반)\n○ KLT 비식별화 데이터에 대한 인메모리 기반 익명성 측정 알고리즘 개발\n‐ 인메모리 기반 데이터 익명화 기법 분석",
+    "section_context_candidate": "다. 수행 결과 요약",
+    "heading_candidates": [
+      "다. 수행 결과 요약",
+      "라. 수행 결과 상세"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0112",
+    "caption": "Anatomy와 Incognito의 RCE 비교",
+    "pdf_page_candidate": 176,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 31,
+    "prefix_match_only": false,
+    "text_before": "- 는 익명화된 데이터의 확률 분포 함수\nŸ 사용데이터\n- Adult dataset 데이터를 이용한 실험을 통해 개발한 테이블 분리\n기반 비식별화 기술을 통하여 비식별화한 데이터의 복원 오류\n측정\n- Adult dataset\n- 데이터 속성: 7개의 칼럼 (6개의 준식별자, 1개의 민감 정보)",
+    "caption_and_following_text": "- 30,162개의 레코드\n- k=3, 5, 10 사용\n- l=2 사용\n[그림 97 ]Anatomy와 Incognito의 RCE 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 연차별 수행 내역 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          235.55,
+          122.84,
+          452.88,
+          252.56
+        ],
+        "page_area_fraction": 0.0563
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I40-V0113",
+    "caption": "추진체계",
+    "pdf_page_candidate": 188,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 187 -\n[그림 98 ] 추진체계\n본 과제를 통해 주관기관 및 참여업체와 위탁기관은 다년간 협업하여 연구개발하여 주요\n핵심.원천기술을 획득하였음. 결과물을 통해, 상호 유기적으로 연계 및 반영하여 시너지 있\n는 기술개발, 시스템, 서비스를 창출하였음. 향후, 핵심적인 개발과 서비스는 ㈜이지서티 주관으로 ㈜보아라와 함께 수행되나 가급적\n서비스 모형을 통해 다양한 산업분야의 개발사와 협업 함으로써 개발의 효율성을 높이고\n개발기간을 단축코자 함.\n4-4. 기타\no 해당 없음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.16,
+          580.89,
+          511.64,
+          756.01
+        ],
+        "page_area_fraction": 0.1556
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

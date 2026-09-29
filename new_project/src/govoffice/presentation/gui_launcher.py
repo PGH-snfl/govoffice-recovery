@@ -48,7 +48,7 @@ class 범정부오피스GUI:
         self.창.title("범정부오피스")
         self.창.geometry("300x680+0+0")
         self.창.resizable(False, False)
-        self.창.attributes("-topmost", True)
+        self.창.attributes("-topmost", False)
         self.한글: 복구한글어댑터 | None = None
         self.전체기능 = 검증완료기능목록()
         self.현재탭 = "사용"
@@ -153,7 +153,7 @@ class 범정부오피스GUI:
         dialog = self.tk.Toplevel(self.창)
         dialog.title("범정부오피스 오류")
         dialog.geometry("360x140+320+100")
-        dialog.attributes("-topmost", True)
+        dialog.attributes("-topmost", False)
         self.tk.Label(dialog, text=message, wraplength=330, justify="left").pack(fill="both", expand=True, padx=15, pady=10)
         self._버튼(dialog, "확인", dialog.destroy, width=10).pack(pady=(0, 10))
 

@@ -1,0 +1,545 @@
+[
+  {
+    "visual_id": "S35-V0001",
+    "caption": "1단계 및 2단계 연구개발 개요",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "○ 다중 감각의 학습과 인지는 높은 수준의 인공지능에 필수적인 요소로 여러 감각 정보를 융합적으로\n통합하고 자율적으로 인지하는 기술이 필요하지만, 현재까지 인공신경망 기반의 인공지능은 개별\n감각 정보를 배타적으로 학습된 정보에 대해서만 한정되어 인지하는 한계를 갖고 있음. ○ 본 연구에서는 다중 감각을 자연스럽게 융합하고 정보를 처리하여 학습할 수 있는 뇌의 다중 감각\n인지 메커니즘을 바탕으로하는 스파이크 신경망 (Spiking Neural Network)를 개발하고, 별도의 외부\n지시 없이 스파이크 신경망이 스스로 학습하여 다중감각의 정보처리 도메인을 확장할 수 있는\n자율적 자가 지도(Self-supervised) 학습 AI 기술을 개발하고자 함\n○ 본 다중감각에 대한 자율적 자가지도 학습 AI 기술을 성공적으로 개발하기 위해, 뇌의 다중 감각",
+    "caption_and_following_text": "인지 메커니즘을 이해하고, 다중 감각을 인지할 수 있는 스파이크 신경망을 개발하며, 다중 감각에\n대한 자가 지도 학습 기술을 연구함으로써 기존 인공지능의 한계를 뛰어넘어 인간의 자연 지능에\n가까운 새로운 인공지능 원천 기술 개발을 목표로 함\n[그림1] 1단계 및 2단계 연구개발 개요\n2. 연구과제의 수행 과정 및 수행 내용\n1) 1단계 주요 연구 수행 과정\n○ 본 연구 과제 수행을 위해 다음과 같은 세부 연구 목표를 두고 연구를 수행하였음\n- (1단계) 1차년도: 뇌의 생물학적 다중 감각 인지 메커니즘의 이해\n- (1단계) 2차년도: 뇌 다중 감각 인지 신경세포 및 신경회로 모사 스파이크 신경망 모델 개발\n- (1단계) 3차년도: 뇌모사 스파이크 신경망을 이용한 다중 감각 인지 기술 개발",
+    "section_context_candidate": "1. 연구과제의 개요",
+    "heading_candidates": [
+      "1. 연구과제의 개요",
+      "2. 연구과제의 수행 과정 및 수행 내용",
+      "1) 1단계 주요 연구 수행 과정",
+      "2) 1단계 세부 연구 수행 과정"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.83,
+          342.11,
+          515.72,
+          566.86
+        ],
+        "page_area_fraction": 0.1913
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0002",
+    "caption": "다중감각 처리영역의 동시 뇌활성 측정 및 뇌 신경회로 분석",
+    "pdf_page_candidate": 6,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 6 -\n경로를 발굴하여 통합 신경망 분석",
+    "caption_and_following_text": "- 다중 전극을 뇌의 청각 (auditory), 시각 (visual) 피질과 통합 영역인 후두영역(Posterior\nParietal Cortex)에 삽입하고, 감각 자극을 줄 때 신경회로 활성을 측정하고 Granger Functional\nConnectivity 등의 분석 기법 활용\n[그림2] 다중감각 처리영역의 동시 뇌활성 측정 및 뇌 신경회로 분석\n○ 뇌 다중 감각 인지 신경세포 및 신경회로 모사 스파이크 신경망 모델 개발\n- 뇌 정보처리 원리 기반의 스파이크 신경망 모델 개발을 위해 신경세포의 전기생리학적 특징을 모사할\n수 있는 Hodgkin-Huxley 신경세포 모델을 이용하여, 신경세포의 발화적 특징을 모사할 것임. 이는\n향후 스파이크 신경망 모델의 효율성 증대를 위해 Integrate-and-fire 모델 혹은 Izhikevich 모델\n등으로 대체 가능하게 설계\n- 스파이크 신경망 모델 개발을 위해 신경세포 간의 연결은 지수함수 모델을 이용하여 신경망 연결을",
+    "section_context_candidate": "2) 1단계 세부 연구 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          612.89,
+          502.65,
+          705.79
+        ],
+        "page_area_fraction": 0.0762
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.86,
+          370.52,
+          637.7,
+          484.87
+        ],
+        "page_area_fraction": 0.1199
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.63,
+          125.74,
+          509.37,
+          258.68
+        ],
+        "page_area_fraction": 0.1126
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0003",
+    "caption": "생물학적 뇌 정보처리 특성을 나타내는 신경세포의 수리적 계산 모델 구축",
+    "pdf_page_candidate": 6,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "Parietal Cortex)에 삽입하고, 감각 자극을 줄 때 신경회로 활성을 측정하고 Granger Functional\nConnectivity 등의 분석 기법 활용\n[그림2] 다중감각 처리영역의 동시 뇌활성 측정 및 뇌 신경회로 분석\n○ 뇌 다중 감각 인지 신경세포 및 신경회로 모사 스파이크 신경망 모델 개발\n- 뇌 정보처리 원리 기반의 스파이크 신경망 모델 개발을 위해 신경세포의 전기생리학적 특징을 모사할\n수 있는 Hodgkin-Huxley 신경세포 모델을 이용하여, 신경세포의 발화적 특징을 모사할 것임. 이는\n향후 스파이크 신경망 모델의 효율성 증대를 위해 Integrate-and-fire 모델 혹은 Izhikevich 모델",
+    "caption_and_following_text": "등으로 대체 가능하게 설계\n- 스파이크 신경망 모델 개발을 위해 신경세포 간의 연결은 지수함수 모델을 이용하여 신경망 연결을\n구성하며, 이는 앞서 밝혀진 다중감각 정보처리 신경망 구조를 이용하여 모델링\n[그림3] 생물학적 뇌 정보처리 특성을 나타내는 신경세포의 수리적 계산 모델 구축\n○ 뇌모사 스파이크 신경망을 이용한 다중 감각 인지 기술 개발\n- 감각 정보가 스파이크 신경망에서 제대로 표현되고, 입력된 정보가 스파이크 신경망에서 처리된 뒤\n얻어지는 신경망 활성이 감각 정보에 있어 어떤 정보를 담는지를 정의하는 과정이 필수적\n- 따라서 개별 감각 정보를 스파이크로 표현하는 인코딩/디코딩 프로세스를 감각 정보의 시계열 표현 방식인\nTemporal Coding 방식과 발화율 기반의 Rate Coding 방식을 이용하여 정의\n- 또한 감각 정보에 대한 디코딩 방식을 연구하기 위해 시각 정보는 특정 물체/사람 얼굴 등을 포함한",
+    "section_context_candidate": "2) 1단계 세부 연구 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          612.89,
+          502.65,
+          705.79
+        ],
+        "page_area_fraction": 0.0762
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.86,
+          370.52,
+          637.7,
+          484.87
+        ],
+        "page_area_fraction": 0.1199
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.63,
+          125.74,
+          509.37,
+          258.68
+        ],
+        "page_area_fraction": 0.1126
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0004",
+    "caption": "다중감각 처리에 활용되는 신경망 모델 구조를 기반으로 다중감각 처리 스파이킹 신경망 모델 구축",
+    "pdf_page_candidate": 6,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "등으로 대체 가능하게 설계\n- 스파이크 신경망 모델 개발을 위해 신경세포 간의 연결은 지수함수 모델을 이용하여 신경망 연결을\n구성하며, 이는 앞서 밝혀진 다중감각 정보처리 신경망 구조를 이용하여 모델링\n[그림3] 생물학적 뇌 정보처리 특성을 나타내는 신경세포의 수리적 계산 모델 구축\n○ 뇌모사 스파이크 신경망을 이용한 다중 감각 인지 기술 개발\n- 감각 정보가 스파이크 신경망에서 제대로 표현되고, 입력된 정보가 스파이크 신경망에서 처리된 뒤\n얻어지는 신경망 활성이 감각 정보에 있어 어떤 정보를 담는지를 정의하는 과정이 필수적",
+    "caption_and_following_text": "- 따라서 개별 감각 정보를 스파이크로 표현하는 인코딩/디코딩 프로세스를 감각 정보의 시계열 표현 방식인\nTemporal Coding 방식과 발화율 기반의 Rate Coding 방식을 이용하여 정의\n- 또한 감각 정보에 대한 디코딩 방식을 연구하기 위해 시각 정보는 특정 물체/사람 얼굴 등을 포함한\n[그림4] 다중감각 처리에 활용되는 신경망 모델 구조를 기반으로 다중감각 처리 스파이킹 신경망 모델 구축\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 1단계 세부 연구 수행 과정",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.11,
+          612.89,
+          502.65,
+          705.79
+        ],
+        "page_area_fraction": 0.0762
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.86,
+          370.52,
+          637.7,
+          484.87
+        ],
+        "page_area_fraction": 0.1199
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.63,
+          125.74,
+          509.37,
+          258.68
+        ],
+        "page_area_fraction": 0.1126
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0005",
+    "caption": "(A) 수술 환경 (B) 두개골 천공 및 머리고정장치 고정 (C) 다채널 전극 배치 (D) 행동실험 패러다임 구축",
+    "pdf_page_candidate": 7,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "□ 뇌 감각피질 전기 신호 측정을 위한 실험 패러다임 구축\n- 본 연구진은 다중감각 처리에 필요한 뇌 정보처리 원리 및 신경망 구조 파악을 위해 쥐(C57B6J Mouse)의 뇌에\n다중 전극을 삽입하여 신경회로가 보존되어 정보처리를 수행하고 있는 상태로 뇌 신호를 측정할 수 있는 in\nvivo 실험 기법을 구축하여 본 연구를 진행함\n- 전기적 신호를 측정하기 위한 뇌 영역의 상단 부분의 두개골에 직경 1mm의 구멍을 고속 마이크로 모터에 연결\n된 드릴(Foredom Electric. Co.)로 천공하고, 3D프린터를 이용하여 출력되거나 금속 재질의 머리 고정 장치\n(Head-fix plate)를 부착하여 머리를 고정하였음",
+    "caption_and_following_text": "- 고정된 머리에서 다채널 전극(Neuronexus Technologies Inc.)을 뇌정위 고정장치(Stereotaxic)로 뇌 신호를 측\n정하기 위한 위치로 삽입하였으며, Tucker Davies Technology 사의 RZ2 Multisignal processor 혹은 OpenEphys\n사의 Acquisition System을 이용하여 다중 전극으로부터 뇌 신호를 20~30 kHz의 샘플링 주파수로 획득함\n[그림5] (A) 수술 환경 (B) 두개골 천공 및 머리고정장치 고정 (C) 다채널 전극 배치 (D) 행동실험 패러다임 구축\n□ 뇌 감각피질 신경활성 데이터 분석을 통한 신경 세포의 활성 분석\n○ 촉각 감각 자극에 의한 뇌 신경신호 및 계층적 활동 분석 [학술대회 발표 성과]\n- 본 연구진은 실험 패러다임의 검증을 위해 쥐의 가장 명확한 감각자극 중 촉각자극을 이용하여 뇌 신경신호\n획득 및 분석 기법을 검증하였으며, Whisker-pad를 전기적으로 자극하여 이에 대한 반응을 획득함\n1. 뇌 감각피질 전기 신호 측정을 위한 실험 패러다임 구축\n- 다중전극의 동시 삽입 패러다임을 구축 (1차년도)",
+    "section_context_candidate": "3. 연구과제의 수행 결과 및 목표 달성 정도",
+    "heading_candidates": [
+      "3. 연구과제의 수행 결과 및 목표 달성 정도",
+      "1) 연구수행 결과",
+      "□ 뇌 모사 스파이크 신경망 개발을 위해, 뇌 감각피질로부터의 전기 신호 측정 패러다임을"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.28,
+          219.24,
+          523.76,
+          261.43
+        ],
+        "page_area_fraction": 0.0372
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.28,
+          177.17,
+          523.76,
+          219.24
+        ],
+        "page_area_fraction": 0.0371
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0006",
+    "caption": "(A) 기존의 알려진 촉각자극에 따른 신경망 구조 (B) 각 영역별 신경 신호 측정 결과 (C) 각 영역별 신경신호의 Current-Source Density 분석 (D) 영역간 반응 지연 시간 분석",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 8 -\n[그림 6] (A) 기존의 알려진 촉각자극에 따른 신경망 구조 (B) 각 영역별 신경 신호 측정 결과 (C) 각 영역별 신경신호의\nCurrent-Source Density 분석 (D) 영역간 반응 지연 시간 분석\n- 촉각자극과 연관된 일차체성감각피질 (Primary Somatosensory Cortex), 시상(Thalamus), 이차체성감각피질\n(Secondary Somatosensory Cortex) 간의 자극에 따른 반응 지연시간 (Latency) 및 발화 반응을 분석하여, 각\n뇌 영역간의 반응 지연 시간 분석 등을 통해 신경신호 획득기능적 뇌신경망 구조를 파악할 수 있었음\n- 본 연구는 한국분자세포생물학회에서 2021년 포스터 발표됨\n○ 시각 및 청각의 다중 감각 정보 처리에 따른 뇌 신경신호 및 계층적 활동 분석\n- 단일 자극과 다중 자극간의 뇌 기능적 차이점을 연구하기 위해 단일자극(Tone: 1~8kHz, Grating:\n0~315deg)을 각각 주었을 때와 각기 다르게 주었을 때를 나누어 비교 분석하였으며, 단일 자극 대",
+    "section_context_candidate": "□ 뇌 모사 스파이크 신경망 개발을 위해, 뇌 감각피질로부터의 전기 신호 측정 패러다임을",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          682.65,
+          538.27,
+          770.28
+        ],
+        "page_area_fraction": 0.0843
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          595.15,
+          538.27,
+          682.65
+        ],
+        "page_area_fraction": 0.0842
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.96,
+          218.52,
+          498.57,
+          401.32
+        ],
+        "page_area_fraction": 0.1526
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0007",
+    "caption": "(A-B) 개별 청각 (A) 및 시각 (B) 자극에 대한 spike 반응 (C-D) 단일자극만 주었을 때 (왼쪽)과 다중자극으로 함께 주었을 때(오른쪽)에 대한 발화율 그래프로 개별 자극에 대한 선택성이 나타나는 것을 확인함",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "(Secondary Somatosensory Cortex) 간의 자극에 따른 반응 지연시간 (Latency) 및 발화 반응을 분석하여, 각\n뇌 영역간의 반응 지연 시간 분석 등을 통해 신경신호 획득기능적 뇌신경망 구조를 파악할 수 있었음\n- 본 연구는 한국분자세포생물학회에서 2021년 포스터 발표됨\n○ 시각 및 청각의 다중 감각 정보 처리에 따른 뇌 신경신호 및 계층적 활동 분석\n- 단일 자극과 다중 자극간의 뇌 기능적 차이점을 연구하기 위해 단일자극(Tone: 1~8kHz, Grating:\n0~315deg)을 각각 주었을 때와 각기 다르게 주었을 때를 나누어 비교 분석하였으며, 단일 자극 대\n비 다중 자극이 주어졌을 때 신경세포에서의 정보처리 반응이 자극에 대한 반응 선택성이 달라지는",
+    "caption_and_following_text": "점을 확인함\n[그림7] (A-B) 개별 청각 (A) 및 시각 (B) 자극에 대한 spike 반응 (C-D) 단일자극만 주었을 때 (왼쪽)과\n다중자극으로 함께 주었을 때(오른쪽)에 대한 발화율 그래프로 개별 자극에 대한 선택성이 나타나는 것을\n확인함 □ 뇌 감각피질 통합 신경망 구조 분석\n- 다중감각에 대한 생물학적 뇌 통합 정보처리 원리 및 뇌 신경망 구조를 반영하는 신경망 모델 개발을 위해 시\n각 및 청각 자극에 대한 통합 신경망 구조를 분석함\n- DiI을 이용해 Electrode의 Trace를 기반으로 신경세포의 위치 분석을 통해 계층별 신경세포의 발화\n지연 특성에 대해 분석하였으며 이는 신경망 구조 획득에 활용할 수 있음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 뇌 모사 스파이크 신경망 개발을 위해, 뇌 감각피질로부터의 전기 신호 측정 패러다임을",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          682.65,
+          538.27,
+          770.28
+        ],
+        "page_area_fraction": 0.0843
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          595.15,
+          538.27,
+          682.65
+        ],
+        "page_area_fraction": 0.0842
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.96,
+          218.52,
+          498.57,
+          401.32
+        ],
+        "page_area_fraction": 0.1526
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0008",
+    "caption": "(A) 개별 청각 (A) 및 시각 (B) 자극에 대한 spike 반응 (C-D) 단일자극만 주었을 때 (왼쪽)과 다중자극으로 함께 주었을 때(오른쪽)에 대한 발화율 그래프로 개별 자극에 대한 선택성이 나타나는 것을 확인함",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 9 -\n[그림8] (A) 개별 청각 (A) 및 시각 (B) 자극에 대한 spike 반응 (C-D) 단일자극만 주었을 때 (왼쪽)과\n다중자극으로 함께 주었을 때(오른쪽)에 대한 발화율 그래프로 개별 자극에 대한 선택성이 나타나는 것을\n확인함\n- 또한 계층별 신호에 기반하여 신경망 구조를 추정하기 위해 Cross-correlation에 기반하여 신경망\n구조를 획득하였음. 해당 구조는 2단계에서 GLM 기반 Granger Causality를 사용하여 Causality 분\n석을 통해 direction을 고려한 구조를 도출해낼 것임\n[그림9] (A-B) 단일 감각 자극에 대한 신경망 구조 (C) 다중 감각 자극에 대해 반응하는 신경망 구조 도출\n추진목표2: 실험 데이터 기반의 신경세포 및 스파이크 신경망 모델 개발\n1. 생물학적 뇌 정보처리 원리 기반의 신경세포 모델 구축",
+    "section_context_candidate": "□ 생물학적 뇌 정보처리 원리 기반의 뇌모사 스파이크 신경망 개발을 통해 다중감각의 통합처리에",
+    "heading_candidates": [
+      "□ 생물학적 뇌 정보처리 원리 기반의 뇌모사 스파이크 신경망 개발을 통해 다중감각의 통합처리에"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          636.5,
+          538.27,
+          770.28
+        ],
+        "page_area_fraction": 0.1288
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          374.83,
+          538.27,
+          530.06
+        ],
+        "page_area_fraction": 0.1494
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0009",
+    "caption": "(A-B) 단일 감각 자극에 대한 신경망 구조 (C) 다중 감각 자극에 대해 반응하는 신경망 구조 도출",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 9 -\n[그림8] (A) 개별 청각 (A) 및 시각 (B) 자극에 대한 spike 반응 (C-D) 단일자극만 주었을 때 (왼쪽)과\n다중자극으로 함께 주었을 때(오른쪽)에 대한 발화율 그래프로 개별 자극에 대한 선택성이 나타나는 것을\n확인함",
+    "caption_and_following_text": "- 또한 계층별 신호에 기반하여 신경망 구조를 추정하기 위해 Cross-correlation에 기반하여 신경망\n구조를 획득하였음. 해당 구조는 2단계에서 GLM 기반 Granger Causality를 사용하여 Causality 분\n석을 통해 direction을 고려한 구조를 도출해낼 것임\n[그림9] (A-B) 단일 감각 자극에 대한 신경망 구조 (C) 다중 감각 자극에 대해 반응하는 신경망 구조 도출\n추진목표2: 실험 데이터 기반의 신경세포 및 스파이크 신경망 모델 개발\n1. 생물학적 뇌 정보처리 원리 기반의 신경세포 모델 구축\n- 시각 피질 및 청각 피질의 주요 신경세포의 작동특성을 모방하는 신경세포 모델 개발\n2. 생물학적 다중 감각 통합 신경망에 기반한 시각 및 청각 신경망 모델 구축\n- 시각 피질 및 청각 피질의 Feedforward 구조를 모방하는 다중감각 신경망 모델 구축\n- 다중감각 신경망 모델에서의 신경부호 전달 특성 분석",
+    "section_context_candidate": "□ 생물학적 뇌 정보처리 원리 기반의 뇌모사 스파이크 신경망 개발을 통해 다중감각의 통합처리에",
+    "heading_candidates": [
+      "□ 생물학적 뇌 정보처리 원리 기반의 뇌모사 스파이크 신경망 개발을 통해 다중감각의 통합처리에"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          636.5,
+          538.27,
+          770.28
+        ],
+        "page_area_fraction": 0.1288
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          374.83,
+          538.27,
+          530.06
+        ],
+        "page_area_fraction": 0.1494
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0010",
+    "caption": "(A) 각 피질 및 청각 피질 신경세포 모델의 패러미터 (B) 신겨세포 모델의 전류-주파수 반응 (Current-Frequency Curve, F-I Curve) (Inset: 전기생리학 실험을 통해 획득된 F-I Curve) (C) 피드포워드 구조의 신경망 구조 (D) 신경망 구조에서의 신경 패턴 전달 규명",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 10 -",
+    "caption_and_following_text": "모사하도록 수정하였으며 동일한 1초 동안의 Step Current 자극을 주입하여 모델을 검증함\n[그림10] (A) 각 피질 및 청각 피질 신경세포 모델의 패러미터 (B) 신겨세포 모델의 전류-주파수 반응 (Current-Frequency\nCurve, F-I Curve) (Inset: 전기생리학 실험을 통해 획득된 F-I Curve) (C) 피드포워드 구조의 신경망 구조 (D)\n신경망 구조에서의 신경 패턴 전달 규명\n□ 시각 및 청각 피질에 적합한 신경세포 모델 및 이중 신경망 모델 구축\n- 생물학적 원리를 기반으로 구축된 신경세포 모델을 이용하여 감각피질의 다계층 구조를 모방하는\nFeedforward Network 구조를 가진 모델을 구축하였으며, NetPyNE 시뮬레이터를 이용함\n- 뇌 신경망 구조를 모사하여 시각 정보 및 청각 정보를 통합적으로 처리할 수 있는 신경망 구조를\n제시하여, 시각 피질 및 청각 피질의 Canonical Feedforward Network Circuit을 구성하였으며, 이\n는 통합 영역 구조를 반영하여 추후 레이어에서 통합되도록 구성함",
+    "section_context_candidate": "□ 생물학적 뇌 정보처리 원리 기반의 뇌모사 스파이크 신경망 개발을 통해 다중감각의 통합처리에",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.45,
+          258.2,
+          531.55,
+          393.77
+        ],
+        "page_area_fraction": 0.1268
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.45,
+          122.63,
+          531.55,
+          258.2
+        ],
+        "page_area_fraction": 0.1268
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          581.6,
+          538.27,
+          755.29
+        ],
+        "page_area_fraction": 0.1672
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0011",
+    "caption": "(A) 다중감각 통합을 위한 생물학적 다계층 구조를 모방하는 신경망 모델 구조 (B) Cross-modal 연결성에 의한 신경정보 전달 특성 변화 (C) Cross-modal 연결성에 따른 입출력 특성 차이 (D) Cross-modal 연결성에 의한 정보전달 차이 (E) Cross-modal 연결 구조에 따른 정보전달 차이",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "신경망 구조에서의 신경 패턴 전달 규명\n□ 시각 및 청각 피질에 적합한 신경세포 모델 및 이중 신경망 모델 구축\n- 생물학적 원리를 기반으로 구축된 신경세포 모델을 이용하여 감각피질의 다계층 구조를 모방하는\nFeedforward Network 구조를 가진 모델을 구축하였으며, NetPyNE 시뮬레이터를 이용함\n- 뇌 신경망 구조를 모사하여 시각 정보 및 청각 정보를 통합적으로 처리할 수 있는 신경망 구조를\n제시하여, 시각 피질 및 청각 피질의 Canonical Feedforward Network Circuit을 구성하였으며, 이\n는 통합 영역 구조를 반영하여 추후 레이어에서 통합되도록 구성함",
+    "caption_and_following_text": "- 이 때 시각 피질 구조와 청각 피질 구조 간의 연결로 인한 신경 부호 전달의 확장 여부를 분석하였으며, 상위 계층 시각 피질 구조와 청각 피질 구조 간의 Interaction이 신경 정보 전달에 매우 중요함을 밝힘\n[그림11] (A) 다중감각 통합을 위한 생물학적 다계층 구조를 모방하는 신경망 모델 구조 (B) Cross-modal 연결성에 의한\n신경정보 전달 특성 변화 (C) Cross-modal 연결성에 따른 입출력 특성 차이 (D) Cross-modal 연결성에 의한 정보전달\n차이 (E) Cross-modal 연결 구조에 따른 정보전달 차이\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 생물학적 뇌 정보처리 원리 기반의 뇌모사 스파이크 신경망 개발을 통해 다중감각의 통합처리에",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.45,
+          258.2,
+          531.55,
+          393.77
+        ],
+        "page_area_fraction": 0.1268
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.45,
+          122.63,
+          531.55,
+          258.2
+        ],
+        "page_area_fraction": 0.1268
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          581.6,
+          538.27,
+          755.29
+        ],
+        "page_area_fraction": 0.1672
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0012",
+    "caption": "(A) 시각 피질의 군집화 현상 (B) 일반적인 이진트리 신경망 모델 (C) 시냅스 클러스터링 효과를 활용한 클러스터된 모델 (D) MNIST 이미지 데이터 셋을 이용한 이미지 인식 모델 결과 (E) fMNIST 이미지 데이터셋을 이용한 이미지 인식 모델 결과",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 11 -\n추진목표3: 뇌모사 스파이크 신경망을 이용한 다중 감각 인지 기술 개발\n□ 시각 피질의 특성을 갖춘 신경세포 모델의 정보처리 검증 [학술대회 발표 및 특허 출원 성과]\n- 시각피질 내 시냅스 군집화(Clustering) 현상에 대해 모방할 수 있는 신경세포 모델을 개발하여, 이를 이용한 Dendritic Structure 구조를 갖도록 신경망 모델을 구축하였으며, 이에 대해 이미지\n데이터 셋(MNIST 및 fMNIST)를 이용하여 실제 시냅스 군집화 현상에 의해 이미지 인식 성능이 더",
+    "caption_and_following_text": "증가할 수 있음을 확인하였음\n[그림12] (A) 시각 피질의 군집화 현상 (B) 일반적인 이진트리 신경망 모델 (C) 시냅스 클러스터링 효과를 활용한 클러스터된\n모델 (D) MNIST 이미지 데이터 셋을 이용한 이미지 인식 모델 결과 (E) fMNIST 이미지 데이터셋을 이용한 이미지 인식\n모델 결과\n□ 스파이크 신경망 모델 기반의 딥러닝 모델 구축 [학술대회 발표, 특허 출원 및 논문 게재 성과]\n- 실제 뇌 감각 정보 처리 원리와 Spike Timing-dependent plasticity 시냅스 가소성 모델을 기반\n으로 하는 신경망 모델을 개발함으로써 뇌 정보처리원리 기반의 신경망을 조기에 구축하여 계열\n1. 시각 피질의 특성을 갖춘 신경망 모델 구축을 통한 시각 인식 성능 향상 검증\n- 시각 피질에서 나타나는 시냅스 군집화(Clustering) 현상에 대한 신경세포 모델 및 정보처리 검증\n2. 스파이크 신경망 기반의 딥러닝 과제 수행 검증",
+    "section_context_candidate": "□ 시각 피질의 특성을 갖춘 신경세포 모델의 정보처리 검증 [학술대회 발표 및 특허 출원 성과]",
+    "heading_candidates": [
+      "□ 시각 피질의 특성을 갖춘 신경세포 모델의 정보처리 검증 [학술대회 발표 및 특허 출원 성과]",
+      "□ 스파이크 신경망 모델 기반의 딥러닝 모델 구축 [학술대회 발표, 특허 출원 및 논문 게재 성과]",
+      "1. 시각 피질의 특성을 갖춘 신경망 모델 구축을 통한 시각 인식 성능 향상 검증",
+      "2. 스파이크 신경망 기반의 딥러닝 과제 수행 검증"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          187.24,
+          538.27,
+          443.28
+        ],
+        "page_area_fraction": 0.2465
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0013",
+    "caption": "(A) 시계열 데이터에 대한 뇌 정보처리 원리 기반 신경망 모델 정보 변환 (B) 신경망 모델 구조 (C) 분류를 위한 다양한 시계열 데이터 (D) 다양한 시계열 데이터를 기반으로 분류 성능 (E) 딥러닝 모델 개발 및 분석 정확도 분류",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 12 -",
+    "caption_and_following_text": "데이터 처리 성능을 검증하고, 언어 모델을 활용한 태깅 방식의 유효성 검증 모델 구축을 통해\n뇌정보처리 원리의 딥러닝 학습 패러다임 적용 방법에 대해 연구함\n[그림13] (A) 시계열 데이터에 대한 뇌 정보처리 원리 기반 신경망 모델 정보 변환 (B) 신경망 모델 구조 (C) 분류를 위한\n다양한 시계열 데이터 (D) 다양한 시계열 데이터를 기반으로 분류 성능 (E) 딥러닝 모델 개발 및 분석 정확도 분류\n□ 뇌 신경망 구조를 이용한 다중 감각 인지 모델 구축\n- 생물학적 뇌신경망 구조 데이터를 반영하는 다중 감각 인지 모델 구축을 진행하기 위해 아래와 같\n이 다중 감각 태스크를 수행하기 위한 Neuromorphic MNIST Dataset (시각) 및 Auditory Spoken\nDigit (Spike Heidelberg Dataset) 청각 데이터 각각에 대해 학습하여 테스트하는데 성공하였음\n[그림14] (A) 다중 감각 처리를 위한 스파이킹 신경망 모델 및 다중 감각 분류 태스크를 위한 개별 감각 분류 결과\n(2) 세부 정량적 연구성과: [붙임1] 참조",
+    "section_context_candidate": "2) 목표 달성 수준",
+    "heading_candidates": [
+      "2) 목표 달성 수준"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          556.91,
+          538.27,
+          740.31
+        ],
+        "page_area_fraction": 0.1765
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          346.66,
+          538.27,
+          467.01
+        ],
+        "page_area_fraction": 0.1158
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S35-V0014",
+    "caption": "(A) 다중 감각 처리를 위한 스파이킹 신경망 모델 및 다중 감각 분류 태스크를 위한 개별 감각 분류 결과",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 12 -\n데이터 처리 성능을 검증하고, 언어 모델을 활용한 태깅 방식의 유효성 검증 모델 구축을 통해\n뇌정보처리 원리의 딥러닝 학습 패러다임 적용 방법에 대해 연구함\n[그림13] (A) 시계열 데이터에 대한 뇌 정보처리 원리 기반 신경망 모델 정보 변환 (B) 신경망 모델 구조 (C) 분류를 위한\n다양한 시계열 데이터 (D) 다양한 시계열 데이터를 기반으로 분류 성능 (E) 딥러닝 모델 개발 및 분석 정확도 분류\n□ 뇌 신경망 구조를 이용한 다중 감각 인지 모델 구축",
+    "caption_and_following_text": "- 생물학적 뇌신경망 구조 데이터를 반영하는 다중 감각 인지 모델 구축을 진행하기 위해 아래와 같\n이 다중 감각 태스크를 수행하기 위한 Neuromorphic MNIST Dataset (시각) 및 Auditory Spoken\nDigit (Spike Heidelberg Dataset) 청각 데이터 각각에 대해 학습하여 테스트하는데 성공하였음\n[그림14] (A) 다중 감각 처리를 위한 스파이킹 신경망 모델 및 다중 감각 분류 태스크를 위한 개별 감각 분류 결과\n(2) 세부 정량적 연구성과: [붙임1] 참조\n2) 목표 달성 수준\n추 진 목 표 달 성 내 용\n달성도\n(%)\n뇌의 생물학적 다중",
+    "section_context_candidate": "2) 목표 달성 수준",
+    "heading_candidates": [
+      "2) 목표 달성 수준"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          556.91,
+          538.27,
+          740.31
+        ],
+        "page_area_fraction": 0.1765
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          346.66,
+          538.27,
+          467.01
+        ],
+        "page_area_fraction": 0.1158
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

@@ -1,0 +1,902 @@
+[
+  {
+    "pdf_page": 10,
+    "text": "[표 1] 주어진 예산에서 최적의 언어모델 학습을 위한 모델 크기와 토큰 수 ······································5",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 2] 대표적 최신 언어모델의 GLUE 벤치마크 성능 비교 결과 ···························································6",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 3] LinkBERT와 DeBERTaV3모델의 QA 태스크 성능 비교 ·····························································7",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 4] BioLinkBERT의 BLURB 벤치마크 성능 비교 결과 ······································································7",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 5] 응용성, 의존성 및 필요성 등 측면에서 데이터 증강 방법 선택 비교. ····································10",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 6] 자연어 처리 분야 데이터 증강기술의 차이점에 대한 개관 [Chen2021b]. ·······························11",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 7] 4종류 데이터 셋에서 EDA, SSMBA, MixUP, LINDA 데이터 증강기술의 성능 비교 ······· 16",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 8] ID와 OOD를 고려한 6종류 데이터 셋에서 EDA, SSMBA, MixUP, LINDA 데이터 증강기",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 9] 각 모델별 사전학습용 코퍼스 비교 ··································································································26",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 10] 사전학습 언어모델의 biomedical 분야 태스크별 성능 비교 표 [Gu2020] ·····························26",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 11] PubMedBERT의 학습 데이터 형태(abstract, abstract+full-text)에 따른 성능 비교 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 12] BioBERT모델의 사전학습 코퍼스 및 step 수와 Biomedical 분야 NER 태스크 성능 측정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 13] PubMedBERT의 vocab과 사전학습 방법에 따른 성능 차이 비교 [Gu2020] ·······················30",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 14] roberta base 모델과 large모델의 architecture 차이 ···································································36",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 15] 개체명 인식 F1 점수 ·························································································································42",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 16] 관계추출 F1점수 ·································································································································43",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 17] SciDeBERTa-BIO 모델 기반 태스크 모델에서 IFT 기법 적용 시 성능 개선 결과 ··········46",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 18] SuperGLUE 벤치마크 SOTA 언어 모델 ······················································································47",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 19] SciDeBERTa 모델의 사전학습 방안 요약 ····················································································48",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 20] SciDeBERTa-BIO 예비 모델들의 학습 방안 비교 ·····································································49",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 21] SciDeBERTa-BIO 예비 모델의 BLURB 벤치마크 성능 비교 결과 ······································49",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 22] 자체 개발한 SciDeBERTa 모델의 SciERC 및 GENIA 벤치마킹 결과 ·································51",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 23] 의공학분야 대표적 벤치마크 데이터셋인 BLURB에서의 성능평가 결과 ······························52",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 24] Neural Sequence Learning Model을 이용한 WSD 태스크의 성능 비교 ······························55",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 25] GlossBERT에 입력되는 문장 형식 (상단은 문맥 문장과 정의 문장 페어를 입력, 하단은",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 26] WSD 벤치마킹 데이터 셋을 활용한 성능 비교 결과 ································································57",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 27] Sense Vocabulary Compression 방법을 통한 압축률 ·······························································59",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 28] Sense Vocabulary Compression 방법의 성능 비교 ···································································59",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 10,
+    "text": "[표 29] Extractive Sense Comprehension 방법의 성능 비교 ·································································60",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 1] 인공지능기술연구단 연구 내용 구성도 ··························································································1",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 2] 2018년에서부터 2020년까지 언어모델 규모의 변화 ····································································2",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 3] 모델 성능과 각 scale factor와의 거듭제곱 관계 ·········································································3",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 4] OpenAI에서 2020년 제안한 언어모델의 규모의 법칙 ································································3",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 5] DeepMind에서 최근 발표한 언어모델의 규모의 법칙 ································································4",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 6] 최적의 언어모델 학습 조합을 찾기 위한 실험 결과 ··································································4",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 7] LinkBERT 모델의 사전학습 수행과정 ··························································································5",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 8] ELECTRA의 모델 학습 구조 ··········································································································8",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 9] Vanilla embedding sharing ··············································································································8",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 10] Gradient-disentangled embedding sharing ················································································9",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 11] EDA를 통한 적은 데이터셋에서의 과적합 방지 효과와 성능개선 ···································13",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 12] 역번역 기술 [chaudhary2020] ······································································································14",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 13] 다양한 언어를 통한 역번역 기술을 통한 데이터 증강 예시[chaudhary2020] ··················14",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 14] LINDA 프레임워크 아키텍쳐 ·······································································································16",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 15] 논문 데이터 연구 분야 분포 ········································································································29",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 16] 비전분야 딥뉴럴 네트워크의 표현 학습 ····················································································31",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 17] 언어모델 분야 딥 뉴럴 네트워크의 표현 학습 ········································································32",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 18] 재초기화를 통한 학습 손실로 확인되는 과적합 해소 효과 ··················································33",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 19] 계층별 재초기화를 통한 NER 태스크 성능 변화 ···································································33",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 20] 계층별 재초기화를 통한 RE 태스크 성능 변화 ·······································································34",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 21] 학습데이터에 따른 모델의 성능 변화 ························································································35",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 22] 대소문자 구분에 따른 성능 변화 ································································································35",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 23] SciERC 데이터셋 IE 태스크에 대한 모델 크기에 따른 성능 비교 ····································36",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 24] 학습 방법 및 데이터셋 크기 변화에 따른 성능 변화 ····························································37",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 25] Optimizer변화에 따른 정보추출 파인튜닝 태스크 성능 비교 ··············································38",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 26] 딥러닝 모델 optimizer의 발전 과정 ···························································································39",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 27] AdamW optimizer 알고리즘 ········································································································39",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 28] RAdam optimizer 알고리즘 ··········································································································40",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 29] AdamP optimizer 알고리즘 ··········································································································40",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 30] DYGIE++ framework ·····················································································································41",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 31] Dygie++ 모델의 성능 개선 (타겟 : JRE ) ···············································································43",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 32] Dygie++ 모델의 성능 개선 (타겟 : NER) ················································································43",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 33] 의공학분야에서 IFT 기법의 검증 실험 결과. ··········································································45",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 34] 일반적 언어 모델의 사전학습과 파인튜닝 수행 과정 ····························································46",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 35] 도메인 특화 언어 모델 학습을 위한 두 가지 방안 ································································47",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 36] DeBERTa 모델의 구조 ··················································································································47",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 11,
+    "text": "[그림 37] S2ORC 데이터셋의 구성요소와 분야별 분포 ···········································································48",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 38] 배치크기 변화에 따라 throughput 및 정확률 성능 향상 ······················································50",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 39] Node 개수 증가에 따른 batch 크기 증가에 따라 throughput과 정확률 성능 향상 ······· 50",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 40] SciDeBERTa 모델의 SciERC 기준 세계 1위 달성 (2022.10.24. 기준 Paperswithcode 페",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 41] WSD 태스크를 위한 Bidirectional LSTM 기반의 Neural Sequence Learning Model 구",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 42] WSD 태스크를 위한 Attention 층을 추가한 Bidirectional LSTM 기반의 Neural",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 43] WSD 태스크를 위한 Attention 층을 추가한 인코더-디코더 기반의 Neural Sequence",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 44] WSD 태스크를 위한 Attention 층을 추가한 인코더-디코더 기반의 Neural Sequence",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 45] BERT 모델을 활용한 GlossBERT 구조도 ···············································································56",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 46] 워드넷 센스를 신셋 번호로 압축하는 방법 개요도 ································································58",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 47] 워드넷의 상하위 개념 관계를 이용한 압축 방식 ····································································58",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 48] Extractive Sense Comprehension 방법 개요도 ·······································································60",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 49] DeBERTa 모델을 활용한 ConSec의 상대적 위치 추가 방식 ··············································61",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 50] ConSec의 성능 평가 결과(최고 성능 달성) ·············································································61",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 51] BEM과 ESR을 동시에 활용한 하이브리드 모형 ·····································································65",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 52] SACE 아키텍처+DeBERTa, ESR 방식의 후보 문장 증강을 활용한 하이브리드 모형 · 67",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 53] QAngaroo의 질문/답변 예시 ········································································································68",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 54] QAngaroo 리더보드 (2021년 12월) ····························································································68",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 55] HotpotQA 리더보드 (2021년 12월) ·····························································································69",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 56] BigBird의 어텐션 메카니즘 ··········································································································70",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 57] SAE 시스템 구조 ····························································································································70",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 58] HopRetriever의 추론과정 ··············································································································71",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 59] Data2Vec의 Multi-Modal 통합 학습 방식 ···············································································72",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 60] VilBert의 변형 트랜스포머 사용 모델 구조 ·············································································73",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 12,
+    "text": "[그림 61] 호주의 데이터 공유 검색 서비스 (Research Data Australia) ·············································74",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 13,
+    "text": "[그림 1]￾ 인공지능기술연구단 연구 내용 구성도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 14,
+    "text": "[그림 2]￾ 2018년에서부터 2020년까지 언어모델 규모의 변화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "[그림 3]￾ 모델 성능과 각￾ scale￾ factor와의 거듭제곱 관계",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 15,
+    "text": "[그림 4]￾ OpenAI에서 2020년 제안한 언어모델의 규모의 법칙",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "[그림 5]￾ DeepMind에서 최근 발표한 언어모델의 규모의 법칙",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 16,
+    "text": "[그림 6]￾ 최적의 언어모델 학습 조합을 찾기 위한 실험 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "[표 1]￾ 주어진 예산에서 최적의 언어모델 학습을 위한 모델 크기와 토큰 수",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 17,
+    "text": "[그림 7]￾ LinkBERT￾ 모델의 사전학습 수행과정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 18,
+    "text": "[표 2]￾ 대표적 최신 언어모델의 GLUE￾ 벤치마크 성능 비교 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "[표 3]￾ LinkBERT와 DeBERTaV3모델의 QA￾ 태스크 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 19,
+    "text": "[표 4]￾ BioLinkBERT의 BLURB￾ 벤치마크 성능 비교 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "[그림 8]￾ ELECTRA의 모델 학습 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 20,
+    "text": "[그림 9]￾ Vanilla￾ embedding￾ sharing",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 21,
+    "text": "[그림 10]￾ Gradient-disentangled￾ embedding￾ sharing",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 22,
+    "text": "[표 5]￾ 응용성,￾ 의존성 및 필요성 등 측면에서 데이터 증강 방법 선택 비교. •데이터 증강은 노이즈 샘플 추가한 학습을 Tikhonov",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 24,
+    "text": "[표 6]￾ 자연어 처리 분야 데이터 증강기술의 차이점에 대한 개관 [Chen2021b].",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 25,
+    "text": "[그림 11]￾ EDA를 통한 적은 데이터셋에서의 과적합 방지 효과와 성능개선",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "[그림 12]￾ 역번역 기술 [chaudhary2020]",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 26,
+    "text": "[그림 13]￾ 다양한 언어를 통한 역번역 기술을 통한 데이터 증강",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "[그림 14]￾ LINDA￾ 프레임워크 아키텍쳐",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 28,
+    "text": "[표 7]￾ 4종류 데이터 셋에서 EDA,￾ SSMBA,￾ MixUP,￾ LINDA￾ 데이터 증강기술의 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 29,
+    "text": "[표 8]￾ ID와 OOD를 고려한 6종류 데이터 셋에서 EDA,￾ SSMBA,￾ MixUP,￾ LINDA￾ 데이터",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "[표 9]￾ 각￾ 모델별 사전학습용 코퍼스 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 38,
+    "text": "[표 10]￾ 사전학습 언어모델의 biomedical￾ 분야 태스크별 성능 비교 표 [Gu2020]",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 39,
+    "text": "[표 11]￾ PubMedBERT의 학습 데이터 형태(abstract,￾ abstract+full-text)에 따른 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 40,
+    "text": "[표 12]￾ BioBERT모델의 사전학습 코퍼스 및 step￾ 수와 Biomedical￾ 분야 NER￾ 태스크 성능 측정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 41,
+    "text": "[그림 16]￾ 논문 데이터 연구 분야 분포",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 42,
+    "text": "[표 13]￾ PubMedBERT의 vocab과 사전학습 방법에 따른 성능 차이 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 43,
+    "text": "[그림 17]￾ 비전분야 딥뉴럴 네트워크의 표현 학습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 44,
+    "text": "[그림 18]￾ 언어모델 분야 딥 뉴럴 네트워크의 표현 학습",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "[그림 19]￾ 재초기화를 통한 학습 손실로 확인되는 과적합 해소 효과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 45,
+    "text": "[그림 20]￾ 계층별 재초기화를 통한 NER￾ 태스크 성능 변화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 46,
+    "text": "[그림 21]￾ 계층별 재초기화를 통한 RE￾ 태스크 성능 변화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "[그림 22]￾ 학습데이터에 따른 모델의 성능 변화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 47,
+    "text": "[그림 23]￾ 대소문자 구분에 따른 성능 변화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "[표 14]￾ roberta￾ base￾ 모델과 large모델의 architecture￾ 차이",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 48,
+    "text": "[그림 24]￾ SciERC￾ 데이터셋 IE￾ 태스크에 대한 모델 크기에 따른 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 49,
+    "text": "[그림 25]￾ 학습 방법 및 데이터셋 크기 변화에 따른 성능 변화",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 50,
+    "text": "[그림 26]￾ Optimizer변화에 따른 정보추출 파인튜닝 태스크 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "[그림 27]￾ 딥러닝 모델 optimizer의 발전 과정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 51,
+    "text": "[그림 28]￾ AdamW￾ optimizer￾ 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "[그림 29]￾ RAdam￾ optimizer￾ 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 52,
+    "text": "[그림 30]￾ AdamP￾ optimizer￾ 알고리즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 53,
+    "text": "[그림 31]￾ DYGIE++￾ framework",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 54,
+    "text": "[표 15]￾ 개체명 인식 F1￾ 점수",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "[표 16]￾ 관계추출 F1점수",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "[그림 32]￾ Dygie++￾ 모델의 성능 개선 (타겟 :￾ JRE￾ )",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 55,
+    "text": "[그림 33]￾ Dygie++￾ 모델의 성능 개선 (타겟 :￾ NER)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 57,
+    "text": "[그림 34]￾ 의공학분야에서 IFT￾ 기법의 검증 실험 결과. - 본 연구에서는 DeBERTa모델을 기반으로 과학기술특화 언어모델인",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "[표 17]￾ SciDeBERTa-BIO￾ 모델 기반 태스크 모델에서 IFT￾ 기법 적용 시 성능 개선",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 58,
+    "text": "[그림 35]￾ 일반적 언어 모델의 사전학습과 파인튜닝 수행 과정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "[그림 36]￾ 도메인 특화 언어 모델 학습을 위한 두 가지 방안",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "[표 18]￾ SuperGLUE￾ 벤치마크 SOTA￾ 언어 모델",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 59,
+    "text": "[그림 37]￾ DeBERTa￾ 모델의 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "[그림 38]￾ S2ORC￾ 데이터셋의 구성요소와 분야별 분포",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 60,
+    "text": "[표 19]￾ SciDeBERTa￾ 모델의 사전학습 방안 요약",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "[표 20]￾ SciDeBERTa-BIO￾ 예비 모델들의 학습 방안 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 61,
+    "text": "[표 21]￾ SciDeBERTa-BIO￾ 예비 모델의 BLURB￾ 벤치마크 성능 비교 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "[그림 39]￾ 배치크기 변화에 따라 throughput￾ 및 정확률 성능 향상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 62,
+    "text": "[그림 40]￾ Node￾ 개수 증가에 따른 batch￾ 크기 증가에 따라 throughput과 정확률 성능 향상",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 63,
+    "text": "[표 22]￾ 자체 개발한 SciDeBERTa￾ 모델의 SciERC￾ 및 GENIA￾ 벤치마킹 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "[그림 41]￾ SciDeBERTa￾ 모델의 SciERC￾ 기준 세계 1위 달성 (2022.10.24.￾ 기준",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 64,
+    "text": "[표 23]￾ 의공학분야 대표적 벤치마크 데이터셋인 BLURB에서의 성능평가 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 65,
+    "text": "[그림 42]￾ WSD￾ 태스크를 위한 Bidirectional￾ LSTM￾ 기반의",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "[그림 43]￾ WSD￾ 태스크를 위한 Attention￾ 층을 추가한 Bidirectional￾ LSTM￾",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "[그림 44]￾ WSD￾ 태스크를 위한 Attention￾ 층을 추가한 인코더-디코더 기반의 Neural￾",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 66,
+    "text": "[그림 45]￾ WSD￾ 태스크를 위한 Attention￾ 층을 추가한 인코더-디코더",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 67,
+    "text": "[표 24]￾ Neural￾ Sequence￾ Learning￾ Model을 이용한 WSD￾ 태스크의 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "[그림 46]￾BERT￾모델을 활용한 GlossBERT￾구조도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 68,
+    "text": "[표 25]￾ GlossBERT에 입력되는 문장 형식 (상단은 문맥 문장과 정의 문장 페어를 입력,￾ 하단은 타깃 단어를 하이라이팅하고,￾ 정의 문장에 한 번 더 입력하는 Weak￾ Supervision￾",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 69,
+    "text": "[표 26]￾ WSD￾ 벤치마킹 데이터 셋을 활용한 성능 비교 결과",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "[그림 47]￾ 워드넷 센스를 신셋 번호로 압축하는 방법 개요도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 70,
+    "text": "[그림 48]￾ 워드넷의 상하위 개념 관계를 이용한 압축 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "[표 27]￾ Sense￾ Vocabulary￾ Compression￾ 방법을 통한 압축률",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 71,
+    "text": "[표 28]￾ Sense￾ Vocabulary￾ Compression￾ 방법의 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "[그림 49]￾ Extractive￾ Sense￾ Comprehension￾ 방법 개요도",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 72,
+    "text": "[표 29]￾ Extractive￾ Sense￾ Comprehension￾ 방법의 성능 비교",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "[그림 50]￾ DeBERTa￾ 모델을 활용한 ConSec의 상대적 위치 추가 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 73,
+    "text": "[그림 51]￾ ConSec의 성능 평가 결과(최고 성능 달성)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 77,
+    "text": "[그림 52]￾ BEM과 ESR을 동시에 활용한 하이브리드 모형",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 79,
+    "text": "[그림 53]￾ SACE￾ 아키텍처+DeBERTa,￾ ESR￾ 방식의 후보 문장 증강을 활용한 하이브리드 모형",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "[그림 54]￾ QAngaroo의 질문/답변 예시",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 80,
+    "text": "[그림 55]￾ QAngaroo￾ 리더보드 (2021년 12월)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 81,
+    "text": "[그림 56]￾ HotpotQA￾ 리더보드 (2021년 12월)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "[그림 57]￾ BigBird의 어텐션 메카니즘",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 82,
+    "text": "[그림 58]￾ SAE￾ 시스템 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 83,
+    "text": "[그림 59]￾ HopRetriever의 추론과정",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 84,
+    "text": "[그림 60]￾ Data2Vec의 Multi-Modal￾ 통합 학습 방식",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 85,
+    "text": "[그림 61]￾ VilBert의 변형 트랜스포머 사용 모델 구조",
+    "verification": "pdf_text_candidate_not_visual_review"
+  },
+  {
+    "pdf_page": 86,
+    "text": "[그림 62]￾ 호주의 데이터 공유 검색 서비스 (Research￾ Data￾ Australia)",
+    "verification": "pdf_text_candidate_not_visual_review"
+  }
+]

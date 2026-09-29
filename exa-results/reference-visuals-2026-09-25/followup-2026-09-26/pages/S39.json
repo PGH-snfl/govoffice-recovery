@@ -1,0 +1,864 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 204,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 427,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 94,
+      "3": 2,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 918,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 204,
+      "3": 1,
+      "2": 69,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1885,
+    "heading_candidates": [
+      "1. 연구개발 성과",
+      "2. 활용계획"
+    ],
+    "section_context_candidate": "1. 연구개발 성과",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 393,
+      "3": 4,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 673,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 활용계획",
+    "prior_heading_candidate": {
+      "text": "2. 활용계획",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 44,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 466,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "2. 활용계획",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 I-1] 헬스케어 패러다임의 변화 (SERI 보고서, 2012)",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "- 빅데이터 분석 기술의 진보로 인해 보편적 맞춤 치료 방법에서 개인별 특성에 맞춘 질병\n예측 및 예방관리 방법으로 헬스케어 사업을 확대하고 있음\n- 의료 데이터는 의료산업 혁명의 핵심 자원으로 공공 및 임상연구에 활용하고 의료정보기\n술의 적용이 필요함",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 104,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.03,
+          296.32,
+          534.55,
+          619.96
+        ],
+        "page_area_fraction": 0.2791
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 559,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발과제의 개요",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 I-2] 헬스케어 3.0시대 변화 키워드 (SERI 보고서, 2012)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "2",
+        "after": "나. 기계학습 (Machine Learning)과 예측모델\n­빅데이터를 효과적으로 처리 분석하는 방법으로 기계학습법이 제안됨\n­기계학습은 인공 지능의 한 분야로, 컴퓨터가 학습할 수 있도록 하는 알고리즘과 기술을\n개발하는 분야를 의미함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 I-3] 인공지능, 머신러닝, 딥러닝의 관계도",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "learning의 예로 Logistic Regression, Support Vector Machines, Random Forests, Neural\nnetworks등이 있음\n­기계학습은 빅데이터를 활용하여 훈련 데이터(Training Data)를 통해 학습된 알려진 속성\n을 기반으로 예측에 활용됨",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 99,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.85,
+          562.54,
+          514.64,
+          822.66
+        ],
+        "page_area_fraction": 0.2011
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.28,
+          110.04,
+          492.93,
+          322.33
+        ],
+        "page_area_fraction": 0.1479
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 887,
+    "heading_candidates": [
+      "다. 예측모델과 전자의무기록 (EHR: Electronic Health Record) ­그러나 기계 학습을 적용한 예측모델을 개발하는데 아직 전자의무기록을 활용한 연구는",
+      "1-2. 급성심정지 연구",
+      "가. 배경"
+    ],
+    "section_context_candidate": "다. 예측모델과 전자의무기록 (EHR: Electronic Health Record) ­그러나 기계 학습을 적용한 예측모델을 개발하는데 아직 전자의무기록을 활용한 연구는",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발과제의 개요",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 I-4] 전자의무기록을 이용한 기존 예측모델연구의 제한점",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "에서 아직 미흡한 연구들이 많음\n­전자의무기록에 적용한 예측모델 방법을 분석한 한 체계적 문헌고찰에서는 2009-2014년\n발표된 연구들이 대부분 누락 자료, 추적관찰 중단, 반복측정자료 등의 처리가 적절하게\n이루어지지 못하였음을 지적하며 향후 예측모델 구축시 보완해야 할 점을 지적함",
+        "after": "1-2. 급성심정지 연구\n가. 배경\n­우리나라에서는 연간 약 3만건의 급성심장정지가 병원밖에서 발생하여 119에 의해 이송\n되며, 표준화 발생률은 약 42명/10만명임 (2016년, 급성심장정지조사자료). ­급성심정지는 심장의 갑작스런 박동 정지로 뇌 및 주요 장기로의 혈류가 멈추어서 치료",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 195,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.61,
+          321.01,
+          474.11,
+          540.37
+        ],
+        "page_area_fraction": 0.148
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 280,
+    "heading_candidates": [
+      "나. 필요성"
+    ],
+    "section_context_candidate": "나. 필요성",
+    "prior_heading_candidate": {
+      "text": "가. 배경",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 I-5] 우리나라 급성심정지 발생현황",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "­의학적 측면: 심정지는 심장박동의 소실로 혈액의 흐름이 중단되어서 급속히 사망에 이\n르는 응급질환이며, 뇌기능 회복률도 낮음.\n­경제적 측면: 심정지 발생시 병원밖 심정지 예후(생존, 뇌기능 회복)를 결정하는 생존체\n인의 첫 번째 단계가 일반인(목격자) 심폐소생술임.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 60,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.0,
+          198.74,
+          298.64,
+          446.27
+        ],
+        "page_area_fraction": 0.1082
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          308.83,
+          235.3,
+          527.48,
+          409.59
+        ],
+        "page_area_fraction": 0.0762
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.88,
+          555.95,
+          533.59,
+          779.87
+        ],
+        "page_area_fraction": 0.2044
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 215,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 필요성",
+    "prior_heading_candidate": {
+      "text": "나. 필요성",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 31,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.0,
+          646.57,
+          439.8,
+          768.84
+        ],
+        "page_area_fraction": 0.0879
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.0,
+          415.83,
+          545.83,
+          643.82
+        ],
+        "page_area_fraction": 0.2122
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 445,
+    "heading_candidates": [
+      "라. 연구범위"
+    ],
+    "section_context_candidate": "라. 연구범위",
+    "prior_heading_candidate": {
+      "text": "나. 필요성",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 87,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.5,
+          551.28,
+          480.1,
+          768.84
+        ],
+        "page_area_fraction": 0.1559
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.33,
+          330.96,
+          479.74,
+          548.52
+        ],
+        "page_area_fraction": 0.1528
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 290,
+    "heading_candidates": [
+      "가. 배경"
+    ],
+    "section_context_candidate": "가. 배경",
+    "prior_heading_candidate": {
+      "text": "라. 연구범위",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 63,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          466.05,
+          532.03,
+          655.8
+        ],
+        "page_area_fraction": 0.1733
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          136.53,
+          520.04,
+          353.97
+        ],
+        "page_area_fraction": 0.1934
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 167,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 배경",
+    "prior_heading_candidate": {
+      "text": "가. 배경",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 25,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          437.4,
+          520.04,
+          699.92
+        ],
+        "page_area_fraction": 0.2335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          105.12,
+          484.3,
+          378.19
+        ],
+        "page_area_fraction": 0.2234
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 595,
+    "heading_candidates": [
+      "나. 기존 연구의 제한점"
+    ],
+    "section_context_candidate": "나. 기존 연구의 제한점",
+    "prior_heading_candidate": {
+      "text": "가. 배경",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 123,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          173.55,
+          427.93,
+          421.45,
+          714.54
+        ],
+        "page_area_fraction": 0.142
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          90.26,
+          556.62,
+          210.37
+        ],
+        "page_area_fraction": 0.1156
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 921,
+    "heading_candidates": [
+      "다. 필요성",
+      "라. 연구 목적"
+    ],
+    "section_context_candidate": "다. 필요성",
+    "prior_heading_candidate": {
+      "text": "나. 기존 연구의 제한점",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 171,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.89,
+          517.23,
+          540.55,
+          770.28
+        ],
+        "page_area_fraction": 0.2436
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 737,
+    "heading_candidates": [
+      "2. 연구수행내용 및 성과",
+      "2-1. 병원밖 심근정지 연구 수행내용 및 성과",
+      "가. 연구과정",
+      "나. 연구내용"
+    ],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "라. 연구 목적",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 135,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          273.06,
+          360.65,
+          496.62
+        ],
+        "page_area_fraction": 0.1358
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 340,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구내용",
+    "prior_heading_candidate": {
+      "text": "나. 연구내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 40,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.96,
+          545.52,
+          490.42,
+          746.66
+        ],
+        "page_area_fraction": 0.1634
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          113.88,
+          506.37,
+          433.33
+        ],
+        "page_area_fraction": 0.2871
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 116,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구내용",
+    "prior_heading_candidate": {
+      "text": "나. 연구내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 6,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          352.77,
+          487.18,
+          729.16
+        ],
+        "page_area_fraction": 0.3239
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1349,
+    "heading_candidates": [
+      "2-2. 급성심근경색 연구 수행내용 및 성과",
+      "가. 연구과정",
+      "나. 연구내용"
+    ],
+    "section_context_candidate": "2-2. 급성심근경색 연구 수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "나. 연구내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 315,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 808,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구내용",
+    "prior_heading_candidate": {
+      "text": "나. 연구내용",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 12,
+      "1": 137,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          411.39,
+          536.95,
+          611.69
+        ],
+        "page_area_fraction": 0.1923
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1941,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구내용",
+    "prior_heading_candidate": {
+      "text": "나. 연구내용",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 147,
+      "1": 366,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 680,
+    "heading_candidates": [
+      "2-3. 대표적 성과 (총 5개 이내)"
+    ],
+    "section_context_candidate": "2-3. 대표적 성과 (총 5개 이내)",
+    "prior_heading_candidate": {
+      "text": "나. 연구내용",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 89,
+      "1": 121,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 852,
+    "heading_candidates": [
+      "3. 목표 달성도 및 관련 분야 기여도",
+      "3-1. 목표",
+      "가. 연차별 연구 주제",
+      "나. 연차별 평가 목표",
+      "3-2. 목표 달성여부"
+    ],
+    "section_context_candidate": "3. 목표 달성도 및 관련 분야 기여도",
+    "prior_heading_candidate": {
+      "text": "2-3. 대표적 성과 (총 5개 이내)",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 37,
+      "1": 212,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1215,
+    "heading_candidates": [
+      "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)",
+      "가. 목표 미달성 원인",
+      "4. 연구개발성과의 활용 계획 등",
+      "가. 연구개발 성과",
+      "나. 활용계획"
+    ],
+    "section_context_candidate": "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)",
+    "prior_heading_candidate": {
+      "text": "3-2. 목표 달성여부",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 37,
+      "1": 296,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 1869,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 활용계획",
+    "prior_heading_candidate": {
+      "text": "나. 활용계획",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 39,
+      "1": 256,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

@@ -1,0 +1,1744 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 1041,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 253,
+      "2": 132,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1969,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구결과 요약문 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 2 -",
+        "after": "연구개요\n본 연구는 안전한 인공지능 시스템 구현을 위한 적대적 공격의 방어 기술을 개발하\n는 것을 목표로 함. 최근 자연어 처리, 이미지 처리 등의 딥러닝 기술의 고도화로 인\n해 딥러닝이 사회 전반에 많은 영향을 끼치고 있음. 하지만, 인공지능 모델은 학습",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 495,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1042,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 06",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 06",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 16"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 06",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "붙임1 세부 정량적 연구개발성과",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 16\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 16\n6. 자체점검표 ······················································································································ 17\n7. 참고문헌 ·························································································································· 17",
+        "after": "<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 28\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "5. 연구개발성과의 관리 및 활용 계획 ·········································································· 16\n6. 자체점검표 ······················································································································ 17\n7. 참고문헌 ·························································································································· 17\n<붙임1 세부 정량적 연구개발성과> ·············································································· 19",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 91,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1248,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "가. 연구개발의 목적",
+      "나. 연구개발의 필요성"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 16",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 301,
+      "3": 1,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          393.65,
+          538.27,
+          584.36
+        ],
+        "page_area_fraction": 0.1836
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1139,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "나. 연구개발의 필요성",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 286,
+      "2": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          183.74,
+          496.74,
+          411.02,
+          604.5
+        ],
+        "page_area_fraction": 0.0489
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.18,
+          174.17,
+          474.58,
+          306.5
+        ],
+        "page_area_fraction": 0.0937
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1774,
+    "heading_candidates": [
+      "1) 정성적 연구개발성과(연구개발결과)"
+    ],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "나. 연구개발의 필요성",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 456,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1811,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 531,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1910,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 450,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1716,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 433,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1833,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 580,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 2111,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 535,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 2031,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 494,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1473,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 346,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.91,
+          418.22,
+          509.85,
+          580.53
+        ],
+        "page_area_fraction": 0.1378
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1645,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 377,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.97,
+          520.59,
+          463.91,
+          580.53
+        ],
+        "page_area_fraction": 0.0399
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.97,
+          460.78,
+          463.91,
+          520.59
+        ],
+        "page_area_fraction": 0.0398
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1612,
+    "heading_candidates": [
+      "2) 세부 정량적 연구개발성과: [붙임1] 참조",
+      "3) 목표 달성 수준",
+      "4) 목표 미달 시 원인 분석(해당 시)",
+      "4-1) 목표 미달 원인(사유) 자체분석 내용"
+    ],
+    "section_context_candidate": "2) 세부 정량적 연구개발성과: [붙임1] 참조",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 385,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1195,
+    "heading_candidates": [
+      "4-3) 연구개발 과정의 성실성",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)",
+      "5. 연구개발성과의 관리 및 활용 계획"
+    ],
+    "section_context_candidate": "4-3) 연구개발 과정의 성실성",
+    "prior_heading_candidate": {
+      "text": "4-1) 목표 미달 원인(사유) 자체분석 내용",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 303,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 2815,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 482,
+      "2": 46,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 3490,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 505,
+      "2": 41,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1028,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 251,
+      "2": 72,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1802,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 259,
+      "2": 40,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1493,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 203,
+      "2": 38,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 1729,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 245,
+      "2": 39,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 1648,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 233,
+      "2": 39,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 374,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 37,
+      "2": 20,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 1531,
+    "heading_candidates": [
+      "080813 미활용 50",
+      "087006 미활용 50",
+      "087024 미활용 50"
+    ],
+    "section_context_candidate": "080813 미활용 50",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 315,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 2540,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 309,
+      "2": 34,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 794,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 82,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 1005,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 162,
+      "2": 34,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 2145,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 543,
+      "2": 49,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.63,
+          463.24,
+          538.27,
+          507.59
+        ],
+        "page_area_fraction": 0.0194
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.63,
+          419.01,
+          538.27,
+          463.24
+        ],
+        "page_area_fraction": 0.0193
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 58,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          656.88,
+          529.76,
+          749.06
+        ],
+        "page_area_fraction": 0.0872
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          564.7,
+          529.76,
+          656.88
+        ],
+        "page_area_fraction": 0.0872
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          472.52,
+          529.76,
+          564.7
+        ],
+        "page_area_fraction": 0.0872
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          380.34,
+          529.76,
+          472.52
+        ],
+        "page_area_fraction": 0.0872
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          288.17,
+          529.76,
+          380.34
+        ],
+        "page_area_fraction": 0.0872
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          195.99,
+          529.76,
+          288.16
+        ],
+        "page_area_fraction": 0.0872
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          104.17,
+          529.76,
+          195.99
+        ],
+        "page_area_fraction": 0.0868
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 79,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          677.02,
+          524.84,
+          768.24
+        ],
+        "page_area_fraction": 0.0854
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          585.8,
+          524.84,
+          677.02
+        ],
+        "page_area_fraction": 0.0854
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          494.58,
+          524.84,
+          585.8
+        ],
+        "page_area_fraction": 0.0854
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          403.36,
+          524.84,
+          494.58
+        ],
+        "page_area_fraction": 0.0854
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          312.14,
+          524.84,
+          403.36
+        ],
+        "page_area_fraction": 0.0854
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          220.92,
+          524.84,
+          312.14
+        ],
+        "page_area_fraction": 0.0854
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          130.06,
+          524.84,
+          220.92
+        ],
+        "page_area_fraction": 0.085
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 1708,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 437,
+      "2": 49,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          186.02,
+          359.73,
+          410.18,
+          438.0
+        ],
+        "page_area_fraction": 0.0351
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 68,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          690.09,
+          525.8,
+          768.24
+        ],
+        "page_area_fraction": 0.0733
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          611.93,
+          525.8,
+          690.09
+        ],
+        "page_area_fraction": 0.0733
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          533.78,
+          525.8,
+          611.93
+        ],
+        "page_area_fraction": 0.0733
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          455.62,
+          525.8,
+          533.78
+        ],
+        "page_area_fraction": 0.0733
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          377.47,
+          525.8,
+          455.62
+        ],
+        "page_area_fraction": 0.0733
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          299.31,
+          525.8,
+          377.47
+        ],
+        "page_area_fraction": 0.0733
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          221.16,
+          525.8,
+          299.31
+        ],
+        "page_area_fraction": 0.0733
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          143.0,
+          525.8,
+          221.16
+        ],
+        "page_area_fraction": 0.0733
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 92,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          688.65,
+          533.71,
+          768.24
+        ],
+        "page_area_fraction": 0.0759
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          609.05,
+          533.71,
+          688.65
+        ],
+        "page_area_fraction": 0.0759
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          529.46,
+          533.71,
+          609.05
+        ],
+        "page_area_fraction": 0.0759
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          449.87,
+          533.71,
+          529.46
+        ],
+        "page_area_fraction": 0.0759
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          370.27,
+          533.71,
+          449.87
+        ],
+        "page_area_fraction": 0.0759
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          290.68,
+          533.71,
+          370.28
+        ],
+        "page_area_fraction": 0.0759
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          211.09,
+          533.71,
+          290.68
+        ],
+        "page_area_fraction": 0.0759
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          132.34,
+          533.71,
+          211.09
+        ],
+        "page_area_fraction": 0.0751
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 1267,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 302,
+      "2": 49,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.47,
+          309.38,
+          496.41,
+          427.81
+        ],
+        "page_area_fraction": 0.097
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 93,
+      "2": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          686.49,
+          536.35,
+          768.24
+        ],
+        "page_area_fraction": 0.0784
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          604.74,
+          536.35,
+          686.49
+        ],
+        "page_area_fraction": 0.0784
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          522.99,
+          536.35,
+          604.74
+        ],
+        "page_area_fraction": 0.0784
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          441.24,
+          536.35,
+          522.99
+        ],
+        "page_area_fraction": 0.0784
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          359.49,
+          536.35,
+          441.24
+        ],
+        "page_area_fraction": 0.0784
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          277.74,
+          536.35,
+          359.49
+        ],
+        "page_area_fraction": 0.0784
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          195.99,
+          536.35,
+          277.74
+        ],
+        "page_area_fraction": 0.0784
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          115.07,
+          536.35,
+          195.99
+        ],
+        "page_area_fraction": 0.0776
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 1392,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 352,
+      "2": 49,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.68,
+          323.53,
+          449.52,
+          482.59
+        ],
+        "page_area_fraction": 0.0963
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 72,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.34,
+          688.17,
+          562.5,
+          768.84
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.34,
+          607.49,
+          562.5,
+          688.17
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.34,
+          526.82,
+          562.5,
+          607.5
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.34,
+          446.15,
+          562.5,
+          526.82
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.34,
+          365.48,
+          562.5,
+          446.15
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.34,
+          284.81,
+          562.5,
+          365.48
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.34,
+          204.14,
+          562.5,
+          284.81
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.34,
+          124.06,
+          562.5,
+          204.14
+        ],
+        "page_area_fraction": 0.0856
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 77,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.23,
+          686.01,
+          561.06,
+          768.84
+        ],
+        "page_area_fraction": 0.0884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.23,
+          603.18,
+          561.06,
+          686.01
+        ],
+        "page_area_fraction": 0.0884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.23,
+          520.35,
+          561.06,
+          603.18
+        ],
+        "page_area_fraction": 0.0884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.23,
+          437.52,
+          561.06,
+          520.35
+        ],
+        "page_area_fraction": 0.0884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.23,
+          354.69,
+          561.06,
+          437.52
+        ],
+        "page_area_fraction": 0.0884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.23,
+          271.86,
+          561.06,
+          354.69
+        ],
+        "page_area_fraction": 0.0884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.23,
+          189.03,
+          561.06,
+          271.86
+        ],
+        "page_area_fraction": 0.0884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          27.23,
+          106.44,
+          561.06,
+          189.03
+        ],
+        "page_area_fraction": 0.0881
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 1332,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 324,
+      "2": 49,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.21,
+          301.11,
+          286.17,
+          439.44
+        ],
+        "page_area_fraction": 0.0453
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.12,
+          303.51,
+          495.93,
+          425.29
+        ],
+        "page_area_fraction": 0.0486
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 88,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          690.21,
+          525.08,
+          768.24
+        ],
+        "page_area_fraction": 0.0731
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          612.17,
+          525.08,
+          690.2
+        ],
+        "page_area_fraction": 0.0731
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          534.14,
+          525.08,
+          612.17
+        ],
+        "page_area_fraction": 0.0731
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          456.1,
+          525.08,
+          534.14
+        ],
+        "page_area_fraction": 0.0731
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          378.07,
+          525.08,
+          456.1
+        ],
+        "page_area_fraction": 0.0731
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          300.03,
+          525.08,
+          378.07
+        ],
+        "page_area_fraction": 0.0731
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          222.0,
+          525.08,
+          300.03
+        ],
+        "page_area_fraction": 0.0731
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          144.44,
+          525.08,
+          222.0
+        ],
+        "page_area_fraction": 0.0726
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "087024 미활용 50",
+    "prior_heading_candidate": {
+      "text": "087024 미활용 50",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 74,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          688.29,
+          536.83,
+          768.24
+        ],
+        "page_area_fraction": 0.0767
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          608.34,
+          536.83,
+          688.29
+        ],
+        "page_area_fraction": 0.0767
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          528.38,
+          536.83,
+          608.34
+        ],
+        "page_area_fraction": 0.0767
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          448.43,
+          536.83,
+          528.38
+        ],
+        "page_area_fraction": 0.0767
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          368.48,
+          536.83,
+          448.43
+        ],
+        "page_area_fraction": 0.0767
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          288.52,
+          536.83,
+          368.48
+        ],
+        "page_area_fraction": 0.0767
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          208.57,
+          536.83,
+          288.53
+        ],
+        "page_area_fraction": 0.0767
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          128.62,
+          536.83,
+          208.57
+        ],
+        "page_area_fraction": 0.0767
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

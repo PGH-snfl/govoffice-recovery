@@ -1,0 +1,3732 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 265,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 21,
+      "2": 13,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 578,
+    "heading_candidates": [
+      "1. 용 .!!..:il.셔상의 기째 내용이 사킹엄훌 확약하여. 앙약. 샤엉이 아닐 경우",
+      "2. 갱&톨션· .연구새빠 싼피규경 36aε에 띠를 요고서 훌끼 '.훌에 톨억"
+    ],
+    "section_context_candidate": "1. 용 .!!..:il.셔상의 기째 내용이 사킹엄훌 확약하여. 앙약. 샤엉이 아닐 경우",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 2,
+      "2": 1,
+      "1": 149,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          595.78,
+          841.05
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          413.02,
+          467.61,
+          503.22,
+          532.49
+        ],
+        "page_area_fraction": 0.0117
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 550,
+    "heading_candidates": [
+      "1. 동 보고서상의 기재 내용이 사실임을 확약하며, 만약, 사실이 아닐 경우",
+      "2. 정보통신․방송연구개발 관리규정 제36조에 따른 보고서 공개·활용에 동의"
+    ],
+    "section_context_candidate": "1. 동 보고서상의 기재 내용이 사실임을 확약하며, 만약, 사실이 아닐 경우",
+    "prior_heading_candidate": {
+      "text": "2. 갱&톨션· .연구새빠 싼피규경 36aε에 띠를 요고서 훌끼 '.훌에 톨억",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 155,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 988,
+    "heading_candidates": [
+      "1. 2차년도 목표 : AI 및 허니넷 기반 딥웹 악성코드 수집 및 분석 기술개발"
+    ],
+    "section_context_candidate": "1. 2차년도 목표 : AI 및 허니넷 기반 딥웹 악성코드 수집 및 분석 기술개발",
+    "prior_heading_candidate": {
+      "text": "2. 정보통신․방송연구개발 관리규정 제36조에 따른 보고서 공개·활용에 동의",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 222,
+      "2": 80,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 471,
+    "heading_candidates": [
+      "2. 연구개발성과물(2차년도)",
+      "3. 정량적 성과",
+      "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행"
+    ],
+    "section_context_candidate": "2. 연구개발성과물(2차년도)",
+    "prior_heading_candidate": {
+      "text": "1. 2차년도 목표 : AI 및 허니넷 기반 딥웹 악성코드 수집 및 분석 기술개발",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 152,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 375,
+    "heading_candidates": [],
+    "section_context_candidate": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+    "prior_heading_candidate": {
+      "text": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 86,
+      "2": 9,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.32,
+          366.56,
+          513.68,
+          636.38
+        ],
+        "page_area_fraction": 0.1932
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 196,
+    "heading_candidates": [],
+    "section_context_candidate": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+    "prior_heading_candidate": {
+      "text": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "토르 브라우저 기반 크롤러",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 5 -",
+        "after": "- 딥웹 기반 허니넷\n<딥웹 기반 허니넷>\n- 딥웹 및 토르기반 악성코드 탐지 및 분석 SW\n<딥웹 및 토르기반 악성코드 탐지 및 분석 SW>",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "딥웹 기반 허니넷",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 5 -\n<토르 브라우저 기반 크롤러>\n- 딥웹 기반 허니넷",
+        "after": "- 딥웹 및 토르기반 악성코드 탐지 및 분석 SW\n<딥웹 및 토르기반 악성코드 탐지 및 분석 SW>\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "딥웹 및 토르기반 악성코드 탐지 및 분석 SW",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "<토르 브라우저 기반 크롤러>\n- 딥웹 기반 허니넷\n<딥웹 기반 허니넷>\n- 딥웹 및 토르기반 악성코드 탐지 및 분석 SW",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 37,
+      "2": 7,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.32,
+          600.3,
+          439.68,
+          765.48
+        ],
+        "page_area_fraction": 0.0694
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          206.29,
+          366.32,
+          462.47,
+          505.85
+        ],
+        "page_area_fraction": 0.0714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          236.75,
+          97.33,
+          432.13,
+          269.83
+        ],
+        "page_area_fraction": 0.0673
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 216,
+    "heading_candidates": [],
+    "section_context_candidate": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+    "prior_heading_candidate": {
+      "text": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "PC용 악성코드 보안에이전트",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 6 -\n- PC용 악성코드 보안에이전트",
+        "after": "- 모바일용 악성코드 보안에이전트\n<모바일용 악성코드 보안에이전트>\n- 딥웹 URI 수집/관리 인터페이스\n<딥웹 URI 수집/관리 인터페이스>",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "모바일용 악성코드 보안에이전트",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 6 -\n- PC용 악성코드 보안에이전트\n<PC용 악성코드 보안에이전트>\n- 모바일용 악성코드 보안에이전트",
+        "after": "- 딥웹 URI 수집/관리 인터페이스\n<딥웹 URI 수집/관리 인터페이스>\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "딥웹 URI 수집/관리 인터페이스",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "<PC용 악성코드 보안에이전트>\n- 모바일용 악성코드 보안에이전트\n<모바일용 악성코드 보안에이전트>\n- 딥웹 URI 수집/관리 인터페이스",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 38,
+      "2": 7,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.15,
+          613.13,
+          429.85,
+          730.24
+        ],
+        "page_area_fraction": 0.0446
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          254.5,
+          356.25,
+          414.38,
+          518.67
+        ],
+        "page_area_fraction": 0.0519
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          251.15,
+          98.89,
+          417.86,
+          261.79
+        ],
+        "page_area_fraction": 0.0543
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 225,
+    "heading_candidates": [],
+    "section_context_candidate": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+    "prior_heading_candidate": {
+      "text": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "딥웹 통합관리 시스템",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 7 -\n- 딥웹 통합관리 시스템",
+        "after": "- 딥웹 악성코드 트래픽 분석기\n<딥웹 악성코드 트래픽 분석기>\n연구개발성과의\n활용계획",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "딥웹 악성코드 트래픽 분석기",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 7 -\n- 딥웹 통합관리 시스템\n<딥웹 통합관리 시스템>\n- 딥웹 악성코드 트래픽 분석기",
+        "after": "연구개발성과의\n활용계획\n(기대효과)\no 활용분야",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 39,
+      "2": 9,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.02,
+          508.72,
+          479.74,
+          730.24
+        ],
+        "page_area_fraction": 0.1287
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          191.66,
+          197.66,
+          477.34,
+          412.35
+        ],
+        "page_area_fraction": 0.1226
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 605,
+    "heading_candidates": [],
+    "section_context_candidate": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+    "prior_heading_candidate": {
+      "text": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 140,
+      "2": 25,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 859,
+    "heading_candidates": [],
+    "section_context_candidate": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+    "prior_heading_candidate": {
+      "text": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 73,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 600,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1-1. 연구개발 목적"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "사. 6개 항목에 대해 한국정보통신기술협회(TTA)의 공인시험 수행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1] 연구개발 최종목표",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 10 -\n1. 연구개발과제의 개요\n1-1. 연구개발 목적",
+        "after": "o 본 과제는 악성코드의 베타 테스트가 수행되고, 서비스 형태로 거래되고 있는 딥웹(Deep\nWeb)의 악성코드를 능동적으로 수집/탐지/분석함으로써, 악성코드로 인한 피해를 최소화\n하는 기술을 개발하는 것임.\no 특히 전체 악성코드 중 70% 이상이 랜섬웨어 악성코드인 최근 상황에서 악성코드로 인해",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 150,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.97,
+          379.39,
+          534.91,
+          688.53
+        ],
+        "page_area_fraction": 0.2934
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1089,
+    "heading_candidates": [
+      "1-2. 연구개발의 필요성"
+    ],
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "1-1. 연구개발 목적",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2 PC/모바일용 악성코드 연차별 발견",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "o 최근 신규 악성코드가 2017년 2분기 대비 10% 증가한 5,760만개가 2017년 3분기에 발견\n되어 전체 발견된 악성코드가 7억 8,000만개를 상회하고 있음. 이는 딥웹의 활성화로 인\n해 악성코드의 증가세로 이어지는 것으로 파악되어 악성코드 감염에 의한 피해를 감소시\n키기 위해서는 딥웹 상의 악성코드를 수집 및 탐지/분석하는 기술개발은 매우 시급함.",
+        "after": "추이(출처 : 보안뉴스)\no 또한, 신규 모바일용 악성코드는 2분기 대비 약 60%만큼 급증하였으며, 보안업체에서는\n이를 대응하기 위한 기술개발로 사용자의 PC/모바일 등으로 유입되는 악성코드를 실시간\n으로 탐지/차단하는 제품으로 상용화하고 있지만, 악성코드는 딥웹에서 서피스웹으로 이",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 283,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.35,
+          324.48,
+          431.41,
+          507.16
+        ],
+        "page_area_fraction": 0.0979
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1319,
+    "heading_candidates": [],
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "1-2. 연구개발의 필요성",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 361,
+      "2": 87,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 732,
+    "heading_candidates": [],
+    "section_context_candidate": "1-2. 연구개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "1-2. 연구개발의 필요성",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 3] PowerShell과 WMIC를 이용한 악성행위 발견",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "생하며, 윈도우(Windows)에 탑재된 파워쉘(PowerShell)과 윈도우관리도구인 명령 유틸리티\n(WMIC, Windows Management Instrument Command)를 통해 악성행위가 이루어짐. 파일\n이 없는 상태로 메모리에만 존재하기 때문에 기존의 파일 기반 탐지만으로는 탐지가 어\n려워 스크립트를 실행하여 탐지/분석하는 기술개발이 필요함.",
+        "after": "횟수(출처 : 한국인터넷진흥원)\n[그림 4] 국내의 파일리스 악성코드 공격 현황\n(출처 : 한국인터넷진흥원)\no 특히 2017년도에 발견된 악성코드는 VM 기반 가상화 환경을 인지하는 지능형 악성코드",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 4] 국내의 파일리스 악성코드 공격 현황",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "이 없는 상태로 메모리에만 존재하기 때문에 기존의 파일 기반 탐지만으로는 탐지가 어\n려워 스크립트를 실행하여 탐지/분석하는 기술개발이 필요함.\n[그림 3] PowerShell과 WMIC를 이용한 악성행위 발견\n횟수(출처 : 한국인터넷진흥원)",
+        "after": "(출처 : 한국인터넷진흥원)\no 특히 2017년도에 발견된 악성코드는 VM 기반 가상화 환경을 인지하는 지능형 악성코드\n로 진화하여 정보보안업체에서 상용화 하고 있는 제품들의 행위 기반 기술을 회피하여\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 166,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.32,
+          486.67,
+          448.56,
+          553.43
+        ],
+        "page_area_fraction": 0.0403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.38,
+          182.56,
+          485.5,
+          395.93
+        ],
+        "page_area_fraction": 0.1604
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 509,
+    "heading_candidates": [
+      "1-3. 연구개발 범위",
+      "가. 연차별 연구개발 범위"
+    ],
+    "section_context_candidate": "1-3. 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "1-2. 연구개발의 필요성",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 5] 연차별 연구개발 범위",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "의 파일 자산을 보호하기 위한 측면에서 개인정보보호 서비스와 악성코드 탐지 서비스의\n결합을 요구하여 본 기술개발이 필요함.\n1-3. 연구개발 범위\n가. 연차별 연구개발 범위",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 117,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.19,
+          148.76,
+          510.69,
+          504.77
+        ],
+        "page_area_fraction": 0.3034
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1060,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 연차별 연구개발 범위",
+    "prior_heading_candidate": {
+      "text": "가. 연차별 연구개발 범위",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 293,
+      "2": 32,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 921,
+    "heading_candidates": [
+      "2. 연구수행내용 및 성과",
+      "2-1. 연구수행내용",
+      "가. 주요 연구수행내용"
+    ],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "가. 연차별 연구개발 범위",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 231,
+      "2": 41,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1031,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구수행내용",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 263,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 965,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 주요 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구수행내용",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 241,
+      "2": 19,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1157,
+    "heading_candidates": [
+      "나. 세부 연구수행내용"
+    ],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "가. 주요 연구수행내용",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 264,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 1394,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 332,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 1273,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 298,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1385,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 317,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 932,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 222,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 647,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 6] 토르 브라우저 기반 크롤러 세부 모듈 구조",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 24 -",
+        "after": "① 딥웹 사이트 수집 모듈\n- 딥웹 검색사이트 관리 : 딥웹 사이트 정보를 수집할 수 있는 딥웹 검색엔진\n사이트 관리\n- 검색 키워드 설정 : 딥웹 검색엔진을 이용해 원하는 형태의 딥웹 사이트를",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 164,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.34,
+          506.21,
+          474.82,
+          774.47
+        ],
+        "page_area_fraction": 0.1938
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 720,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 7] 딥웹 사이트 수집 모듈 세부 절차",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "- DB 쿼리 처리 : 데이터베이스를 통해 정보를 Insert/Delete/Select/Update 수\n행하기 위한 쿼리 관리\n(나) 주요 기능 세부 설계\n① 딥웹 사이트 수집 모듈 세부 설계",
+        "after": "- 딥웹 사이트 수집모듈에서는 딥웹에 존재하는 검색엔진을 활용하여 딥웹의\n사이트 목록을 수집\n- Fresh Onion, not Evil, Candle, Ahmia 등과 같은 딥웹 검색사이트를 통해\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 169,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 587,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 8] 딥웹 사이트 검색 모듈 세부 절차",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 검색사이트를 통해 검색을 수행하기 위한 키워드로 악성코드/아동음란물/범\n죄행위와 관련된 키워드를 검색 키워드로 설정하여 관리\n- malware/ransomware/exploit/0day 등과 같은 키워드를 설정\n② 딥웹 사이트 검색 모듈",
+        "after": "- “딥웹 사이트 검색 모듈”에서 설정된 그룹중 하나를 분석대상 그룹으로\n설정하고 분석을 수행\n- 설정된 그룹 내 딥웹 사이트들의 URL을 토대로 크롤링 모듈을 통해 크롤\n링을 수행",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 132,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 499,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 9] 딥웹 사이트 분석/크롤링 모듈 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 27 -",
+        "after": "- “딥웹 사이트 검색 모듈”에서 설정된 그룹중 하나를 분석대상 그룹으로\n설정하고 분석을 수행\n- 설정된 그룹내 딥웹 사이트들의 URL을 토대로 크롤링 모듈을 통해 크롤링\n을 수행",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 114,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 549,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 10] 딥웹 연동 모듈 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 28 -",
+        "after": "- 딥웹을 통해 실질적인 페이지 및 첨부파일, URL링크 추출을 수행하기 위한\n모듈\n- 딥웹은 Tor 브라우저를 통해 접속 가능한데, Tor 브라우저를 수행한 상태\n에서 Tor의 프록시 포트를 통해 수집을 수행하기 위해 딥웹 통신 연동을",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 140,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 522,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 11] 딥웹 및 토르기반 악성코드 탐지 및 분석 SW",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 29 -",
+        "after": "모듈 구조\n① 컨테이너 기반 우회 악성코드 탐지 모듈\n- 분석 대상 악성코드 파일의 분석을 위한 가상화 컨테이너 관리\n- 가상화 컨테이너의 파일 및 프로세스 모니터링",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 131,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.81,
+          477.2,
+          460.07,
+          774.47
+        ],
+        "page_area_fraction": 0.1932
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 363,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 12] 컨테이너 기반 우회 악성코드 탐지 모듈 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 30 -",
+        "after": "- 크롤러에서 수집한 딥웹 및 토르기반 악성코드의 적재를 위한 가상화 환경 구\n성\n- 가상환경에서 격리 분석을 위한 컨테이너 생성 및 분석대상 파일 적재 관리\n- 분석기법을 우회하는 악성코드 탐지를 위한 행동 및 존재 탐지를 수행",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 13] 행위 기반 악성코드 분석/탐지 모듈 세부 절차",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "- 가상환경에서 격리 분석을 위한 컨테이너 생성 및 분석대상 파일 적재 관리\n- 분석기법을 우회하는 악성코드 탐지를 위한 행동 및 존재 탐지를 수행\n- 추출된 악성파일 후보군을 행위기반 악성코드 탐지 모듈로 전송\n② 행위 기반 악성코드 탐지 분석/탐지 모듈",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 84,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.46,
+          568.9,
+          490.3,
+          774.47
+        ],
+        "page_area_fraction": 0.1585
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.14,
+          126.58,
+          488.74,
+          344.5
+        ],
+        "page_area_fraction": 0.1666
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 539,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 14] 딥러닝 기반 악성코드 탐지/분석 모듈 세부 절차",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 악성 행위를 공격기반과 대상기반에 분류하여 분석하여 탐지\n- 탐지결과의 교차 검증을 위한 딥러닝 기반 악성코드 탐지 모듈로 분석대상\n파일과 결과셋을 전송\n③ 딥러닝 기반 악성코드 탐지/분석 모듈",
+        "after": "- 행위기반 악성코드 결과 파일과 Raw 파일을 수신\n- 학습용 전처리 데이터셋 생성\n- 학습용 전처리 데이터셋 Feature 생성 및 앙상블 기반 딥러닝 수행\n- 예측(탐지) 시나리오 데이터셋 생성 및 딥러닝 연동",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 130,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          416.07,
+          507.21,
+          631.35
+        ],
+        "page_area_fraction": 0.1641
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 406,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 15] 딥웹 허니넷 모듈 구조",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 32 -",
+        "after": "① PC 파일 관리 모듈\n- PC용 파일 업로드 및 다운로드\n② 모바일 파일 관리 모듈\n- 모바일용 파일 업로드 및 다운로드",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 98,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.24,
+          611.69,
+          446.52,
+          774.47
+        ],
+        "page_area_fraction": 0.097
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 363,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 16] PC 파일 관리 모듈 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 33 -",
+        "after": "- 사용자는 UI를 통해 PC 파일 관리를 선택\n- 사용자 PC에 저장되어있는 파일을 업로드/다운로드\n- 업로드/다운로드된 파일을 데이터베이스/사용자 PC에 저장\n② 모바일 파일 관리 모듈",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 17] 모바일 파일 관리 모듈 세부 절차",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "- 사용자는 UI를 통해 PC 파일 관리를 선택\n- 사용자 PC에 저장되어있는 파일을 업로드/다운로드\n- 업로드/다운로드된 파일을 데이터베이스/사용자 PC에 저장\n② 모바일 파일 관리 모듈",
+        "after": "- 사용자는 UI를 통해 모바일 파일 관리를 선택\n- 사용자 모바일 기기에 저장되어있는 파일을 업로드/다운로드\n- 업로드/다운로드된 파일을 데이터베이스/사용자 모바일 기기에 저장\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 85,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          582.8,
+          431.17,
+          774.47
+        ],
+        "page_area_fraction": 0.117
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.16,
+          198.74,
+          444.6,
+          383.7
+        ],
+        "page_area_fraction": 0.1088
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 320,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 18] 게시물 관리 모듈 세부 절차",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 34 -\n③ 게시물 관리 모듈",
+        "after": "- 사용자는 UI를 통해 게시물 작성을 선택\n- 사용자 사용자가 원하는 정보를 양식에 맞게 작성\n- 작성된 정보를 데이터베이스에 저장\n④ 데이터베이스 연동/통신 인터페이스 모듈",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 19] 데이터베이스 연동/통신 인터페이스 모듈",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 사용자는 UI를 통해 게시물 작성을 선택\n- 사용자 사용자가 원하는 정보를 양식에 맞게 작성\n- 작성된 정보를 데이터베이스에 저장\n④ 데이터베이스 연동/통신 인터페이스 모듈",
+        "after": "세부 절차\n- 데이터베이스 정보를 통신 인터페이스를 통해 전송\n- 데이터베이스와 연동\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 65,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.92,
+          559.07,
+          438.96,
+          736.83
+        ],
+        "page_area_fraction": 0.1006
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.51,
+          209.41,
+          435.37,
+          370.03
+        ],
+        "page_area_fraction": 0.0885
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 621,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 20] PC용 악성코드 보안에이전트 모듈 구조",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 35 -\n(6) PC용 악성코드 보안에이전트 설계\n(가) PC용 악성코드 보안에이전트 주요 기능",
+        "after": "① 사용자 인증 모듈\n- 관리서버와 통신을 통해 인가된 사용자인지 여부를 ID/PW 기반으로 인증하\n기 위한 모듈\n② 실시간 분석 모듈",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 153,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          166.47,
+          539.65,
+          428.41,
+          709.26
+        ],
+        "page_area_fraction": 0.0888
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 335,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 21] 사용자 인증 모듈 세부 절차",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 36 -\n① 사용자 인증 모듈",
+        "after": "- GUI에서 ID/PW를 입력 및 로그인 버튼일 통해 사용자 인증이 시작\n- 사용자 인증 모듈을 통해 입력된 ID/PW를 확인한 뒤 관리시스템과 연결을\n시도\n- 관리시스템과 연결되면 보안채널을 형성하고 사용자 인증을 시도",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 67,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.47,
+          479.36,
+          419.54,
+          736.83
+        ],
+        "page_area_fraction": 0.1256
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 426,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 22] 악성코드 탐지 모듈 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 37 -",
+        "after": "- 사용자에 의해 악성코드 탐지 요청이 수행되면 PC 내 실행가능한 파일들을\n모두 수집\n- 수집된 실행가능한 파일을 하나씩 시그니처 기반으로 검사를 수행\n- 시그니처 정보는 관리시스템으로부터 주기적으로 업데이트 수행",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 89,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.89,
+          527.78,
+          473.98,
+          774.47
+        ],
+        "page_area_fraction": 0.1741
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 468,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 23] 실시간 분석 모듈 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 38 -",
+        "after": "- 실시간 분석 모듈에서는 파일을 실시간으로 감시하기 위해 Minifilter 드라\n이버를 활용\n- Minifilter 드라이버에서 파일 유입에 대해 실시간으로 감시하다가 실행관련\n파일이 들어왔을 경우 파일정보를 확인",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 24] 사용자 행위정보 수집 모듈 세부 절차",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "검사를 수행\n- 시그니처가 존재하지 않는 파일일 경우 의심파일로 판단하고, 악성코드 분\n석요청 모듈을 통해 전송하여 악성여부를 분석할 수 있도록 처리\n④ 사용자 행위정보 수집 모듈",
+        "after": "- 사용자 행위정보를 수집하기 위해 프로그램에서 발생하는 모든 행위관련\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 95,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          187.1,
+          563.86,
+          407.78,
+          774.47
+        ],
+        "page_area_fraction": 0.0929
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.74,
+          141.68,
+          488.14,
+          286.73
+        ],
+        "page_area_fraction": 0.1105
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 680,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 25] 악성코드 분석 요청 모듈 세부 절차",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "- 사용자 행위정보 수집 모듈에서 이런 일련의 행위정보들을 수집하여 PC/모\n바일에 기록하고, 해당 정보들을 관리시스템으로 전송하여 관리할 수 있도\n록 처리\n⑤ 악성코드 분석 요청 모듈",
+        "after": "- 악성코드 탐지모듈 및 실시간 분석모듈에서 점검중인 실행가능한 파일에\n대해 시그니처가 존재하지 않는다고 판단했을 경우 의심파일로 설정하여\n악성코드 분석 요청 모듈을 통해 전송을 수행\n- 악성코드 분석요청 모듈에서 의심파일 정보를 수신한 뒤 악성코드 분석서",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 146,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.01,
+          344.98,
+          458.87,
+          578.61
+        ],
+        "page_area_fraction": 0.1507
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 506,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 26] 모바일용 악성코드 보안에이전트 모듈 구조",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 40 -",
+        "after": "① 사용자 인증 모듈\n- 사용자 관리\n- ID/PW 기반의 사용자 인증 수행\n② 패킷 수집 및 분석 보듈",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 117,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.85,
+          625.84,
+          457.91,
+          764.4
+        ],
+        "page_area_fraction": 0.0889
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 315,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 27] 모바일 악성코드 보안에이전트 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 41 -",
+        "after": "- 유저 인터페이스를 통해 아이디와 비밀번호를 입력\n- 입력한 아이디와 비밀번호는 서버에 전송되고 DB와 일치하는지 확인 후 결\n과를 에이전트에 전송\n- 결과가 성공일 경우 다음 화면으로 전환되고, 실패일 경우 아이디와 비밀번",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 28] 패킷 수집 및 분석",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "과를 에이전트에 전송\n- 결과가 성공일 경우 다음 화면으로 전환되고, 실패일 경우 아이디와 비밀번\n호를 다시 입력\n② 패킷 수집 및 분석 모듈",
+        "after": "모듈 세부 절차\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 65,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.73,
+          586.76,
+          464.03,
+          774.47
+        ],
+        "page_area_fraction": 0.125
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          216.24,
+          132.21,
+          378.52,
+          362.36
+        ],
+        "page_area_fraction": 0.0746
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 369,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 29] 악성코드 탐지 모듈 세부 절차",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 42 -\n- 모바일 에이전트에 실시간으로 수집되는 패킷은 에이전트 관리 서버로 전송\n- 에이전트 관리 서버에서 패킷 분석 결과정보를 모니터링\n③ 악성코드 탐지 모듈",
+        "after": "- 모바일 기기에 설치되어있는 모든 앱 및 파일을 탐색 및 분석\n- 탐색이 완료된 파일 중 시그니처 목록에 존재하는 파일은 차단하고, 그렇지\n않은 파일은 분석을 위해 딥웹 악성코드 분석 서버로 전송\n- 분석이 완료된 파일 결과정보는 DB에 저장",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 78,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.48,
+          358.29,
+          443.52,
+          639.02
+        ],
+        "page_area_fraction": 0.1638
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 367,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 30] 사용자 행위정보 수집 모듈 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 43 -",
+        "after": "- 사용자의 방문 기록 등의 행위정보를 실시간으로 수집\n- 수집된 정보는 관리시스템으로 송신하고, 그 정보는 DB에 저장\n- 관리시스템에서 사용자 행위정보를 모니터링\n⑤ 에이전트 관리 모듈",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 31] 에이전트 관리 모듈 세부 절차",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "- 사용자의 방문 기록 등의 행위정보를 실시간으로 수집\n- 수집된 정보는 관리시스템으로 송신하고, 그 정보는 DB에 저장\n- 관리시스템에서 사용자 행위정보를 모니터링\n⑤ 에이전트 관리 모듈",
+        "after": "- 모바일 에이전트에서 위변조 방지를 위해 무결성 검증 데이터를 생성\n- 생성된 데이터는 무결성 검증 수행을 위해 에이전트 관리 서버로 송신\n- 무결성 검증 수행 결과는 DB에 저장\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 78,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.87,
+          581.6,
+          506.01,
+          774.47
+        ],
+        "page_area_fraction": 0.1608
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.31,
+          198.26,
+          498.57,
+          392.45
+        ],
+        "page_area_fraction": 0.1561
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 609,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 32] 딥웹 악성코드 탐지 통합관리 시스템 모듈 구조",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 44 -\n(8) 딥웹 악성코드 탐지 통합관리 시스템 설계\n(가) 딥웹 악성코드 탐지 통합관리 시스템 주요 기능",
+        "after": "① 사용자 관리 모듈\n- 사용자 정보 생성/수정/삭제\n② 접근제어 정책 설정 모듈\n- 강제적 접근통제(MAC) 정책 설정",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 150,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.79,
+          521.67,
+          491.98,
+          691.76
+        ],
+        "page_area_fraction": 0.1323
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 566,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 33] 사용자 관리 모듈 세부 절차",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "- 허니넷 트래픽 수집 결과 출력\n- 허니넷 악성코드 의심파일 수집 결과 출력\n(나) 주요 기능 세부 설계\n① 사용자 관리 모듈",
+        "after": "- 사용자는 UI를 통해 생성/수정/삭제 기능을 선택\n- 사용자가 선택한 기능을 통해 사용자의 생성/수정/삭제\n- DB와 연동하여 그룹관리 결과를 저장\n② 접근제어 정책 및 규칙 설정 모듈",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 148,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.77,
+          263.59,
+          471.11,
+          405.64
+        ],
+        "page_area_fraction": 0.0986
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 329,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 34] 접근제어 정책 및 규칙 설정 모듈 세부 절차",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 46 -",
+        "after": "- 역할기반 접근통제에 사용할 역할을 생성\n- 사용자에게 역할을 부여\n- 각 역할별 시스템 접근에 대한 규칙을 설정\n③ 로그 관리 모듈",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 35] 로그 관리 모듈 세부 절차",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "- 역할기반 접근통제에 사용할 역할을 생성\n- 사용자에게 역할을 부여\n- 각 역할별 시스템 접근에 대한 규칙을 설정\n③ 로그 관리 모듈",
+        "after": "- 각 시스템에서 에서 악성코드 수집/분석 결과를 DB에 저장\n- 사용자가 유저 인터페이스를 통해 로그 관리를 선택\n- 로그 관리는 DB에서 해당 결과를 불러와 출력\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 74,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          624.28,
+          450.72,
+          774.47
+        ],
+        "page_area_fraction": 0.0975
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.81,
+          170.57,
+          470.99,
+          435.12
+        ],
+        "page_area_fraction": 0.1825
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 263,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 36] 성능 관리 모듈 세부 절차",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 47 -\n④ 성능 관리 모듈",
+        "after": "- 유저 인터페이스에서 성능관리 메뉴를 선택\n- 성능 관리에서 통신 인터페이스를 통해 각 시스템과 통신\n- 각 시스템의 현재 성능 상태를 수신하여 화면에 출력\n⑤ 에이전트 관리 모듈",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 37] 에이전트 관리 모듈 세부 절차",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 유저 인터페이스에서 성능관리 메뉴를 선택\n- 성능 관리에서 통신 인터페이스를 통해 각 시스템과 통신\n- 각 시스템의 현재 성능 상태를 수신하여 화면에 출력\n⑤ 에이전트 관리 모듈",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 52,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.19,
+          492.06,
+          510.57,
+          719.33
+        ],
+        "page_area_fraction": 0.1937
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.12,
+          130.78,
+          449.76,
+          305.31
+        ],
+        "page_area_fraction": 0.1063
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 340,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 38] 악성코드 분석 서버 관리 모듈",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- 에이전트 관리에서 PC/모바일 여부를 확인\n- PC인 경우 PC 에이전트에 대한 배포 및 무결성 확인을 수행\n- 모바일인 경우 모바일 에이전트에 대한 배포 및 무결성 확인을 수행\n⑥ 악성코드 분석 서버 관리 모듈",
+        "after": "세부 절차\n- 행위 수집 및 처리, 위험도 분석 결과를 수신\n- 분석서버 우회 탐지 결과를 수신\n- 딥러닝 분석 결과를 수신",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 77,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.62,
+          404.68,
+          417.14,
+          666.59
+        ],
+        "page_area_fraction": 0.1254
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 233,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 39] 악성코드 수집 서버 관리 모듈",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 49 -",
+        "after": "세부 절차\n- 딥웹 기반 검색어 및 URI 수집 결과를 수신\n- 딥웹 기반 사이트의 스크립트 분석 결과를 수신\n- 딥웹 기반 악성코드 수집 결과를 수신",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 45,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.16,
+          420.62,
+          444.84,
+          774.47
+        ],
+        "page_area_fraction": 0.2084
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 222,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 40] 딥웹 트래픽 분석 서버 관리 모듈",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 50 -",
+        "after": "세부 절차\n- HTTP request 처리 결과를 수신\n- HTTP response 처리 결과를 수신\n- 파일 전송 트래픽 처리 결과를 수신",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 39,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.59,
+          453.46,
+          431.29,
+          774.47
+        ],
+        "page_area_fraction": 0.1717
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 266,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 41] 딥웹 허니넷 관리 모듈 세부",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 51 -",
+        "after": "절차\n- 딥웹 허니넷에서 수집된 악성코드 정보를 모니터링\n- 딥웹 허니넷에 나타나는 트래픽 정보를 모니터링\n(9) 딥웹 악성코드 트래픽 분석기 설계",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 42] 딥웹 악성코드 트래픽 분석기 모듈 구조",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 딥웹 허니넷에서 수집된 악성코드 정보를 모니터링\n- 딥웹 허니넷에 나타나는 트래픽 정보를 모니터링\n(9) 딥웹 악성코드 트래픽 분석기 설계\n(가) 딥웹 악성코드 트래픽 분석기 주요 기능",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 52,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          200.65,
+          535.57,
+          399.62,
+          774.47
+        ],
+        "page_area_fraction": 0.095
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.89,
+          132.46,
+          529.88,
+          299.31
+        ],
+        "page_area_fraction": 0.1551
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 761,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 43] Compromised Node 모듈 세부 절차",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "하여 데이터를 수행\n- 추출한 트래픽 분석 데이터를 악성코드 분석 시스템으로 전송\n(나) 주요 기능 세부 설계\n① Compromised Node 모듈",
+        "after": "- 딥웹과 통신하는 서버(크롤러) 앞단에서 트래픽을 검출\n- 통신 노드설정에 따라 노드로 유입되는 트래픽을 로드\n- 트래픽의 검증을 위한 패킷 전처리를 수행\n- 암호화 패킷 여부를 판별하여 분기하여 패킷 인터페이스로 전달",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 178,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 410,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 44] 악성코드 트래픽 수집 모듈 세부 절차",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 53 -\n② 악성코드 트래픽 수집 모듈",
+        "after": "- 패킷 인터페이스를 통해 악성 트래픽을 전달\n- 해당 트래픽을 수집하여 데이터를 파싱 처리\n- 암호화 여부를 판별하여 복호화 필요시 복호화 Flag를 삽입\n- 파일 존재 유무를 판발혀아 파일유무 Flag를 삽입",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 45] 악성코드 트래픽 분석 모듈 세부 절차",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "- 파일 존재 유무를 판발혀아 파일유무 Flag를 삽입\n- 데이터 포맷을 검증하고 트래픽 데이터셋을 생성\n- 통신 인터페이슬 통하여 악성코드 트래픽 분석 모듈로 전송\n③ 악성코드 트래픽 분석 모듈",
+        "after": "- 1차 분석 데이터셋을 전발받아 데이터 파싱을 수행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 90,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 849,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 159,
+      "2": 75,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 984,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 169,
+      "2": 81,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 1249,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 207,
+      "2": 87,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 875,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 154,
+      "2": 81,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 961,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 171,
+      "2": 86,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 765,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 109,
+      "2": 68,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 929,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 145,
+      "2": 208,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 924,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 147,
+      "2": 177,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 938,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 147,
+      "2": 208,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 1438,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 216,
+      "2": 288,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 901,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 141,
+      "2": 176,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 1067,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 168,
+      "2": 230,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 1353,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 201,
+      "2": 244,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 958,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 149,
+      "2": 185,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 1576,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 231,
+      "2": 278,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 1232,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 175,
+      "2": 283,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 72,
+    "text_characters": 1584,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 세부 연구수행내용",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 198,
+      "2": 297,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 73,
+    "text_characters": 486,
+    "heading_candidates": [
+      "2-2. 연구수행결과"
+    ],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "나. 세부 연구수행내용",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 46] 토르 브라우저 기반 크롤러 GUI",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "BTRE\nE\n2-2. 연구수행결과\n(1) 토르 브라우저 기반 크롤러",
+        "after": "- 딥웹 내 크롤링 수행을 위해 검색 도메인을 추가/선택하여 검색 대상 수집\n- 수집된 사이트 내 특정 키워드 검색 기능 제공\n- 수집된 사이트 정보의 그룹화를 통해 그룹점검 기능 제공\n- 검색 대상에 대한 증분점검 기능 제공",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 102,
+      "2": 65,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 74,
+    "text_characters": 305,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 47] 딥웹 및 토르기반 악성코드 탐지 및 분석 SW GUI - 컨테이너 기반 가상화 환경을 통한 악성코드 탐지 및 분석 기능 제공",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 72 -\n(2) 딥웹 및 토르기반 악성코드 탐지 및 분석 SW",
+        "after": "- 악성코드의 행위들과 관련된 API 별로 상관도 분석을 수행하여 악성코드\n의심파일의 위험도를 산정\n- 행위 기반 분석 결과, 임계치 초과 여부에 따라 의심파일 유입/차단\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 64,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 75,
+    "text_characters": 336,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 48] 딥웹 허니넷 GUI - 딥웹 내 허니팟의 보안 설정을 낮춰 악성코드의 공격을 유도하는 허니넷",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 73 -\n(3) 딥웹 허니넷",
+        "after": "개발\n- 딥웹 토르기반 웹사이트에 PC용 악성코드 파일 업/다운로드를 통한 보안\n시험 기능 제공\n- 딥웹 토르기반 웹사이트에 모바일용 악성코드 파일 업/다운로드를 통한 보",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 71,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.61,
+          484.27,
+          529.28,
+          736.83
+        ],
+        "page_area_fraction": 0.234
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 76,
+    "text_characters": 302,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 49] PC용 악성코드 보안에이전트 GUI - 사용자의 방문 기록 등 행위 정보를 실시간으로 수집하여 관리시스템으로",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 74 -\n(4) PC용 악성코드 보안에이전트",
+        "after": "송신\n- PC 환경에서 유입되는 패킷에 대한 실시간 수집 및 분석 기능 제공\n- 점검 폴더를 선택하여 시그니처 기반의 악성코드 탐지 기능 제공\n- USB 삽입 시, 악성코드 탐지 및 치료 기능 제공",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 61,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 77,
+    "text_characters": 264,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 50] 모바일용 악성코드 보안에이전트 GUI",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 75 -\n(5) 모바일용 악성코드 보안에이전트",
+        "after": "- 모바일 환경에서 유입되는 패킷에 대한 실시간 수집 및 분석 기능 제공\n- 설치된 애플리케이션의 악성코드 여부를 탐지하는 기능 제공\n- 보안에이전트의 버전 관리 및 위변조 방지 등을 위한 관리서버 구축\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 46,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.84,
+          394.25,
+          449.04,
+          741.39
+        ],
+        "page_area_fraction": 0.2103
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 78,
+    "text_characters": 304,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 51] 딥웹 URI 수집/관리 인터페이스 GUI",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 76 -\n(6) 딥웹 URI 수집/관리 인터페이스",
+        "after": "- 사용자 URL/ID/PW/기타 파라미터 정보의 수동 입력에 의한 자동 로그인 기\n능 제공\n- 딥웹 상에 존재하는 웹 포럼, 마켓플레이스 등의 로그인이 필요한 딥웹 사\n이트를 대상으로 크롤링을 수행하였으며, 그 중 대표적인 28개의 웹페이지",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 63,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 79,
+    "text_characters": 1021,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 51,
+      "2": 36,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 80,
+    "text_characters": 568,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 52] 딥웹 통합관리 시스템 GUI - 사용자에 따른 정책설정 등의 사용자 관리 및 접근제어 기능 제공",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 78 -\n(7) 딥웹 통합관리 시스템",
+        "after": "- 도메인 수집 및 컨텐츠 수집 등의 크롤링 결과 관리 기능 제공\n- 악성코드 분석결과, 블랙리스트 관리 등의 악성코드 관리 기능 제공\n22 http://5yh4qmygx72tl65u.onion/\n23 http://exploitv3xqqzs2j.onion/",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 64,
+      "3": 1,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.52,
+          165.3,
+          512.36,
+          492.78
+        ],
+        "page_area_fraction": 0.2813
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 81,
+    "text_characters": 260,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 연구수행결과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 53] 딥웹 악성코드 트래픽 분석기 GUI - Compromised Node 설치를 통해 암호화 기반의 딥웹 악성코드 트래픽 분석",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 79 -\n(8) 딥웹 악성코드 트래픽 분석기",
+        "after": "기능 수행\n- 암호화된 데이터의 악성코드 여부를 판단하는 기능 수행\n- 도메인별 딥웹 악성코드 분석 결과 제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 45,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.6,
+          382.62,
+          514.28,
+          719.33
+        ],
+        "page_area_fraction": 0.2918
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 82,
+    "text_characters": 571,
+    "heading_candidates": [
+      "2-3. 연구개발성과",
+      "가. 정량적 기대 성과의 목표 대비 성과 요약"
+    ],
+    "section_context_candidate": "2-3. 연구개발성과",
+    "prior_heading_candidate": {
+      "text": "2-2. 연구수행결과",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 197,
+      "2": 98,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 83,
+    "text_characters": 787,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+      "pdf_page": 82
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 138,
+      "2": 139,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 84,
+    "text_characters": 594,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+      "pdf_page": 82
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 109,
+      "2": 158,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 85,
+    "text_characters": 618,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+      "pdf_page": 82
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 134,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 86,
+    "text_characters": 472,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+      "pdf_page": 82
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 101,
+      "2": 39,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 87,
+    "text_characters": 408,
+    "heading_candidates": [
+      "3. 목표 달성도 및 관련 분야 기여도",
+      "3-1. 목표",
+      "가. 최종 목표"
+    ],
+    "section_context_candidate": "3. 목표 달성도 및 관련 분야 기여도",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 기대 성과의 목표 대비 성과 요약",
+      "pdf_page": 82
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 54] 시스템 구조",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "3. 목표 달성도 및 관련 분야 기여도\n3-1. 목표\n가. 최종 목표\n◦ PC/모바일 환경에서 딥웹 및 토르기반 악성코드의 지능형 분석 기술개발",
+        "after": "◦ End Product - 토르 브라우저 기반 크롤러(서버탑재형SW) - 딥웹 기반 허니넷(서버탑재형SW) - 딥웹 및 토르기반 악성코드 탐지 및 분석 SW(서버탑재형SW) - PC용 악성코드 보안에이전트(단말탑재형SW) - 모바일용 악성코드 보안에이전트(단말탑재형SW) - 딥웹 URI 수집/관리 인터페이스(단말탑재형SW) - 딥웹 악성코드 트래픽 분석기(단말탑재형SW)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 103,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          288.29,
+          549.54,
+          639.38
+        ],
+        "page_area_fraction": 0.3459
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 88,
+    "text_characters": 728,
+    "heading_candidates": [
+      "나. 세부 목표"
+    ],
+    "section_context_candidate": "나. 세부 목표",
+    "prior_heading_candidate": {
+      "text": "가. 최종 목표",
+      "pdf_page": 87
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 196,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 89,
+    "text_characters": 348,
+    "heading_candidates": [
+      "3-2. 목표 달성여부"
+    ],
+    "section_context_candidate": "3-2. 목표 달성여부",
+    "prior_heading_candidate": {
+      "text": "나. 세부 목표",
+      "pdf_page": 88
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 55] 공인시험 수행을 위한 시스템 구조",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "술개발의 핵심 기능들을 정량적 목표 항목으로 설정하고, 각 항목별 시험 결과\n의 객관성을 확보하기 위해 1/2차년도 매년 공인시험기관인 TTA(한국정보통신기\n술협회)에서 공인시험을 수행함. ◦ 정량적 목표 검증을 위한 공인시험을 받기 위한 시스템 구조는 다음 [그림 55]와\n같음.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 76,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.7,
+          405.64,
+          481.18,
+          589.28
+        ],
+        "page_area_fraction": 0.1349
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 90,
+    "text_characters": 808,
+    "heading_candidates": [
+      "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)"
+    ],
+    "section_context_candidate": "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)",
+    "prior_heading_candidate": {
+      "text": "3-2. 목표 달성여부",
+      "pdf_page": 89
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "정량적 목표 항목",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 88 -",
+        "after": "평가 항목\n(주요성능\nSpec1))\n단위",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 180,
+      "2": 77,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 91,
+    "text_characters": 685,
+    "heading_candidates": [
+      "4. 연구개발성과의 활용 계획 등",
+      "4-1. 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획)",
+      "가. 요소기술/목표제품/서비스 활용"
+    ],
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)",
+      "pdf_page": 90
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 165,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 92,
+    "text_characters": 919,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 요소기술/목표제품/서비스 활용",
+    "prior_heading_candidate": {
+      "text": "가. 요소기술/목표제품/서비스 활용",
+      "pdf_page": 91
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연도별 주요 활동계획(요약표)",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "- 2022년 01월: 국내 시장 및 일본 사업화 활동 개시\n- 2023년 01월: 해외시장 진출을 위한 MOU 체결 및 KOTRA\n지원사업 추진\n- 2024년 01월: 동남아 및 미국 사업화 활동 개시",
+        "after": "구분 종료+1\n(2020년)\n종료+2\n(2021년)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 267,
+      "2": 64,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 93,
+    "text_characters": 891,
+    "heading_candidates": [
+      "4-2. 주요 성과활용 (기대)성과목표",
+      "4-3. 성과활용·관리 추진체계"
+    ],
+    "section_context_candidate": "4-2. 주요 성과활용 (기대)성과목표",
+    "prior_heading_candidate": {
+      "text": "가. 요소기술/목표제품/서비스 활용",
+      "pdf_page": 91
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연도별 성과활용 (기대)성과목표(요약표)",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "악성코드 정보를 제공 중에 있음.\no 본 과제 수행 완료 후 6개월 내 딥웹 악성코드 서비스 센터를 개설 및 운영하여 공공기\n관 등에 악성코드 정보를 공유함.\n(2) 정량적 목표",
+        "after": "구분 종료+1\n(2020년)\n종료+2\n(2021년)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 247,
+      "2": 44,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 94,
+    "text_characters": 369,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 82,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 95,
+    "text_characters": 1310,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 339,
+      "2": 1602,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 96,
+    "text_characters": 1128,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 287,
+      "2": 108,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.93,
+          706.39,
+          166.24,
+          749.54
+        ],
+        "page_area_fraction": 0.0093
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.75,
+          706.39,
+          539.95,
+          749.54
+        ],
+        "page_area_fraction": 0.0323
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 97,
+    "text_characters": 484,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 131,
+      "2": 71,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 98,
+    "text_characters": 721,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 183,
+      "2": 88,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 99,
+    "text_characters": 1023,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 295,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 100,
+    "text_characters": 244,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 47,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 101,
+    "text_characters": 231,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 40,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 102,
+    "text_characters": 256,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 42,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.31,
+          89.54,
+          498.45,
+          643.58
+        ],
+        "page_area_fraction": 0.4453
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 103,
+    "text_characters": 309,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 45,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.46,
+          108.0,
+          481.42,
+          651.37
+        ],
+        "page_area_fraction": 0.3996
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 104,
+    "text_characters": 264,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 52,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          241.66,
+          538.27,
+          590.83
+        ],
+        "page_area_fraction": 0.3361
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 105,
+    "text_characters": 191,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 34,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.17,
+          218.64,
+          459.95,
+          639.26
+        ],
+        "page_area_fraction": 0.273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.24,
+          234.7,
+          449.88,
+          635.18
+        ],
+        "page_area_fraction": 0.2438
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 106,
+    "text_characters": 192,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.98,
+          200.9,
+          476.14,
+          664.67
+        ],
+        "page_area_fraction": 0.331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.05,
+          216.96,
+          466.07,
+          660.6
+        ],
+        "page_area_fraction": 0.2988
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 107,
+    "text_characters": 204,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 33,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 108,
+    "text_characters": 194,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 29,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 109,
+    "text_characters": 394,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "딥웹 및 토르기반 악성코드 분석 기술 개발",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "6. TTA 공인시험\n◦ 본 과제 개발 결과물의 성능에 대한 객관성 및 공정성을 확보하기 위해 1/2차년도\n모두 TTA(한국정보통신기술협회)에서 공인시험을 진행함. ◦ 총 시험항목(1차년도 4개 시험항목/2차년도 6개 시험항목)은 수행계획서에 명시된\n정량적 목표 항목과 일치하며, 모든 시험항목들에 대해 목표달성 성공 판정을",
+        "after": "- 시험기간 : 2018. 10. 22 ~ 2018. 10. 23\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 91,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          85.71,
+          516.44,
+          600.78
+        ],
+        "page_area_fraction": 0.4509
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 110,
+    "text_characters": 194,
+    "heading_candidates": [],
+    "section_context_candidate": "4-3. 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "딥웹 및 토르기반 악성코드 분석 기술 개발",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 108 -\n○ 2차년도 공인시험 성적서",
+        "after": "- 시험기간 : 2019. 12. 18 ~ 2019. 12. 19\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.2,
+          195.39,
+          519.8,
+          714.06
+        ],
+        "page_area_fraction": 0.4608
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 111,
+    "text_characters": 263,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신·방송 연구개발사업의 보고서입",
+      "2. 이 보고서 내용을 발표하는 때에는 반드시 과학기술정보통신부에서 시행한 사업의 연구",
+      "3. 국가과학기술 기밀유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는 안됩니다."
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신·방송 연구개발사업의 보고서입",
+    "prior_heading_candidate": {
+      "text": "4-3. 성과활용·관리 추진체계",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 46,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

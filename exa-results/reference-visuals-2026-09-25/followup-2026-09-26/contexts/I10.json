@@ -1,0 +1,765 @@
+[
+  {
+    "visual_id": "I10-V0001",
+    "caption": "기존 클라우드 VDI 서비스를 NFV 프레임워크 기반 전체 SW 가상화",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "리 시스템들은 정적으로 구성되어, 클라우드의 장점인 실시간으로 요구에 따라 즉시적\n서비스 구성 프로비저닝이나, 네트워크로 부하에 동적으로 조절 (Scaling up/down)하는\n서비스 등이 불가능하였음\n(3) 최근에 5G와 SDN을 기반으로 한 분산 클라우드 데이터 센터에서 모든 서비스와 네트\n워크 장비를 표준에 따라 전체 SW 가상화하여 상호운용할 수 있게 하는 ETSI(\nEuropean Telecommunications Standards Institute) NFV 국제 표준 프레임워크가 2012\n년부터 정의되어 감에 따라, 클라우드 오픈소스들도 NFV 프레임워크화하는 변화가 활",
+    "caption_and_following_text": "발히 진행되고 있음\n(4) 그에 따라 국내 VDI 솔루션도 NFV 프레임워크를 통해 국제 경쟁력일 확보할 필요가\n있음\n그림 1 기존 클라우드 VDI 서비스를 NFV 프레임워크 기반 전체 SW 가상화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 1 절 개발기술의 중요성 및 필요성",
+    "heading_candidates": [
+      "제 1 절 개발기술의 중요성 및 필요성",
+      "1. 개발 대상 기술․제품의 개요 및 필요성",
+      "가. 개요 : 기존 클라우드 VDI 서비스 시스템을 NFV (Network Function Virtualization) 가상",
+      "나. 필요성"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.76,
+          178.72,
+          524.12,
+          360.21
+        ],
+        "page_area_fraction": 0.1644
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0002",
+    "caption": "클라우드/NFV 프레임워크에서 동적 컴포넌트 구성 및 이동/변경",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "확장성을 확보하고 서비스 성능/효율을 높이는 기술\n(1) 서비스 브로커 및 스크린 프락시 기능, 사용자 가상 데스크탑 VM이 NFV 프레임워크하\n에서 가상네트워크기능(VNF: virtual network function) 컴포넌트화 하여, 서비스 기능\n과 네트워크 장치들까지 모두 SW기반으로 가상화 함\n(2) 모든 서비스가 가상화 됨에 따라, 서비스 제공 프로비저닝(Provisioning)이 실시간 동적\n으로 가능해지고, 사용자 이동이나 네트워크 변화에 따라 동적으로 대응하여 가상 서\n비스 컴포넌트도 마찬가지로 이동(migration)시키거나 동적으로 확대축소(scaling",
+    "caption_and_following_text": "up/down)이 가능해 짐\n(3) 그에 따라, 사용자의 스마트폰, Wearable 장치등과 같이 소형/이동형 장치를 더욱 잘\n지원할 수 있게 됨\n그림 2 클라우드/NFV 프레임워크에서 동적 컴포넌트 구성 및 이동/변경\n나. 클라우드/NFV 기반 VDI 서비스 시스템에 GPU 가상화 기능을 추가 함으로써, 3D 게임,\nVR（virtual reality) 등과 같은 고성능 그래픽이 필요한 서비스를 가능하게 하는 기술\n(1) GPU 가상화가 포함되지 않은 기존 클라우드 VDI 서비스에서는 고성능 3D 그래픽을 지\n원하지 않아, 게임이나 VR 등의 application 프로그램들을 실행할 수 없었음\n(2) 제안한 GPU 가상화를 VDI 서비스에 확장함으로써, 이러한 서비스들이 가능하게 되어,\n사용자는 실제 데스크탑에 할 수 있는 모든 일들이 가능해질 뿐 아니라, 인프라에서 가",
+    "section_context_candidate": "나. 필요성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.6,
+          316.33,
+          527.96,
+          552.0
+        ],
+        "page_area_fraction": 0.2135
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0003",
+    "caption": "클라우드/NFV 프레임워크에서 GPU 가상화를 통해 고성능 3D 앱이 가능",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 25 -\n그림 3 클라우드/NFV 프레임워크에서 GPU 가상화를 통해 고성능 3D 앱이 가능\n제 2 절 국내‧외 관련 기술 및 시장의 현황\n1. 국내․외 기술 현황\n가. 국내 기술 동향 및 수준\n클라우드/NFV기반 GPU 지원 VDI 인프라 핵심 기술은 클라우드/NFV 기술과 응용 및 서비\n스 기술, GPU 가상화 기술, 가상화면 고속 전송 기술 등의 요소 기술들이 결합되어 고객\n서비스를 제공할 수 있음.\n(1) [클라우드 기반 고품질 미디어 서비스 기술]\n(가) 클라우드 기반 응용 서비스를 제공하기 위한 국내 기술은 Citrix, VMware 또는",
+    "section_context_candidate": "가. 국내 기술 동향 및 수준",
+    "heading_candidates": [
+      "가. 국내 기술 동향 및 수준"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          519.15,
+          509.97,
+          764.52
+        ],
+        "page_area_fraction": 0.2223
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0004",
+    "caption": "네트워크 기능 가상화의 비젼",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 27 -\n그림 4 네트워크 기능 가상화의 비젼 (Network Functions\nVirtualization - Introductory White Paper 참조)\n(다) 통신사업자 및 글로벌 솔루션 벤더의 주도로 다양한 공개 소프트웨어 기반의\nNFV 플랫폼이 출현하고 있으나, 아직 연구시제품 수준의 기능을 제공하는 수준\n에 불과함\n(라) NFV의 상호운용성을 보장하기 위하여, 통신 사업자 주도의 오픈소스 커뮤니티\n인 OPNFV (Open Platform for NFV)가 2014년 10월 출범하였음. OPNFV는 2015\n년 6월 첫번째 버전인 Arno를 배포하였고, 2016년 2월 두번째 버전인\nBrahmaputra를 배포",
+    "section_context_candidate": "나. 국외 기술 동향 및 수준",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          149.08,
+          528.86,
+          445.92,
+          764.52
+        ],
+        "page_area_fraction": 0.1398
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0005",
+    "caption": "가상화 기술의 라이프사이클",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\n가. 국내․외 시장 규모 및 수출․입 현황\n(1) [클라우드/NFV 시장 상황]",
+    "caption_and_following_text": "(가) Gartner가 주요 기술의 성숙도를 나타내는 하이프사이클에서 클라우드 SDN과\nNFV는 기대 고조기(Peak of Inflated Expectations)를 지나 거품 제거기(Through\nof Disillusionment)에 접어든 상태\n그림 5 가상화 기술의 라이프사이클\n(나) 제품 생명주기(Product Life Cycle ; PLC)과 연관 지어 시장의 발전단계와 매칭\n시켜 본다면 클라우드/NFV는 시장 도입기 단계로 해석할 수 있음\n(다) NFV는 통신사업자들이 핵심 네트워크 기능 보다는 운영지원시스템(OSS),\nPCRF(Policy and Charging Rule Function)등 통신서비스 인프라 지원시스템에\n우선 도입하며 초기 시장을 형성\n(라) 클라우드/NFV을 주요 수요자를 기준으로 통신사업자 시장과 기업 및 데이터센",
+    "section_context_candidate": "나. 국외 기술 동향 및 수준",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          419.66,
+          509.97,
+          676.66
+        ],
+        "page_area_fraction": 0.2328
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0006",
+    "caption": "SDN 기술별 특허 출원 분포",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 34 -\n나. 관련 기술/제품의 국외 지식재산권(특허 등) 현황\n(1) [SDN/NFV 기술]\n(가) SDN 기술의 8가지 분류 중 네트워크 가상화 기술이 32%로 가장 큰 비중을 차지",
+    "caption_and_following_text": "하였으며, SDN 컨트롤러 기술과 SDN 응용·서비스 기술이 그 뒤를 잇고 있음\n(나) 네트워크 가상화 기술은 포괄적 L2/L3 VPN 관련 기술을 다 포함하고 있는 개념\n으로서 2000년 초반부터 꾸준히 증가되고 있음\n그림 6 SDN 기술별 특허 출원 분포\n(다) SDN과 연계하여 유의미한 특허는 2008년 이후 부터로 보이며, 일본, 한국, 미국, 유럽 등에서 2010년 전후하여 전체적으로 증가하고 있음\n그림 7 국가별 ․ 년도별 특허 출원 분포\n(라) SDN 관련Top 10 출원인 랭킹을 살펴보면 일본의 NEC 사와 FUJITSU 사가 각각\n10건, 7건으로 가장 많은 특허를 출원한 것으로 나타났음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 국외 기술 동향 및 수준",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.55,
+          440.76,
+          433.21,
+          642.5
+        ],
+        "page_area_fraction": 0.1095
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.59,
+          196.46,
+          437.17,
+          352.77
+        ],
+        "page_area_fraction": 0.0817
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0007",
+    "caption": "국가별 ․ 년도별 특허 출원 분포",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 34 -\n나. 관련 기술/제품의 국외 지식재산권(특허 등) 현황\n(1) [SDN/NFV 기술]\n(가) SDN 기술의 8가지 분류 중 네트워크 가상화 기술이 32%로 가장 큰 비중을 차지\n하였으며, SDN 컨트롤러 기술과 SDN 응용·서비스 기술이 그 뒤를 잇고 있음\n(나) 네트워크 가상화 기술은 포괄적 L2/L3 VPN 관련 기술을 다 포함하고 있는 개념",
+    "caption_and_following_text": "으로서 2000년 초반부터 꾸준히 증가되고 있음\n그림 6 SDN 기술별 특허 출원 분포\n(다) SDN과 연계하여 유의미한 특허는 2008년 이후 부터로 보이며, 일본, 한국, 미국, 유럽 등에서 2010년 전후하여 전체적으로 증가하고 있음\n그림 7 국가별 ․ 년도별 특허 출원 분포\n(라) SDN 관련Top 10 출원인 랭킹을 살펴보면 일본의 NEC 사와 FUJITSU 사가 각각\n10건, 7건으로 가장 많은 특허를 출원한 것으로 나타났음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 국외 기술 동향 및 수준",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.55,
+          440.76,
+          433.21,
+          642.5
+        ],
+        "page_area_fraction": 0.1095
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          175.59,
+          196.46,
+          437.17,
+          352.77
+        ],
+        "page_area_fraction": 0.0817
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0008",
+    "caption": "주요 출원인 상위 10 개 기관 현황",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 35 -\n그림 8 주요 출원인 상위 10 개 기관 현황\n(마) 미국은 SDN 응용서비스 기술에 17건, 네트워크 가상화 기술에 12건을 출원하여\n이 분야에 가장 집중하였으며, 일본은 SDN 컨트롤러 기술에 27건, 네트워크 가\n상화 기술에 20건 출원하였으며 그 외 기술 분야에 대한 출원은 많지 않은 것으\n로 나타남\n(바) 한국 및 유럽은 대체적으로 세부 기술에 대한 개발이 고르게 나타남\n(사) NFV와 관련하여 IBM, MS, Intel 등이 미국에서 NFV 서비스 네트워크 연동기술\n등과 관련하여 20여건 이상의 특허를 출원한 상태이며, Cisco는 FaaS (Function\nas a Service)와 보안 관련 특허 2종이 공개되었으며, VMware, Amazon, Oracle",
+    "section_context_candidate": "나. 국외 기술 동향 및 수준",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.54,
+          565.54,
+          483.46,
+          764.52
+        ],
+        "page_area_fraction": 0.1479
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0009",
+    "caption": "GPU 가상화 및 NFV 기반 VDI 서비스 시스템 동작 구성도",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 45 -\n한글 가상 데스크탑, 클라우드, 네트워크가상화, 원격 스크린, 가상화 서비스\n영문 VDI, Cloud, NFV, Remote Screen, Virtual service\n제 2 절 연차별 개발 내용 및 개발범위\n1. 당해년도(2017년)",
+    "caption_and_following_text": "가. 개발 목표\n가상화된 VDI 가상 네트워크 서비스 SW 컴포넌트와 GPU 가상화를 기반으로, 고성능 고화\n질의 그래픽 VDI 서비스와 동적 서비스 제어를 가능하게 하는 프레임워크 기술 개발\n그림 9 GPU 가상화 및 NFV 기반 VDI 서비스 시스템 동작 구성도\n(1) 주관기관(오픈스케일)\n(가) NFV 기반 VDI 서비스 기술 요구사항 정의\n(나) GPU 가상화 기반 가상화면 고성능 그래픽 실시간 전달 기술 요구사항 정의\n(다) NFV 기반 VDI 서비스 기술 현장 검증 시험\n(라) GPU 가상화 기반 가상화면 고성능 그래픽 실시간 전달 기술 현장 검증 시험\n(2) 참여기관 1(한국전자통신연구원)",
+    "section_context_candidate": "제 2 절 연차별 개발 내용 및 개발범위",
+    "heading_candidates": [
+      "제 2 절 연차별 개발 내용 및 개발범위",
+      "가. 개발 목표"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          299.31,
+          476.62,
+          581.24
+        ],
+        "page_area_fraction": 0.2366
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0010",
+    "caption": "GPU 가상화 및 NFV 기반 VDI 서비스 시스템 기능 구조도",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 46 -\n(라) 브로커 가상 네트워크 컴포넌트 기술\n(마) 스크린 프락시 컴포넌트 기술",
+    "caption_and_following_text": "(바) 사용자 가상 데스크탑 컴포넌트 기술\n(사) 서비스 연동 포탈 기술\n나. 개발 내용 및 범위 (시스템 구성도, 구조 등을 그림으로 구체적 표현)\n그림 10 GPU 가상화 및 NFV 기반 VDI 서비스 시스템 기능 구조도\n(1) 주관기관 : 오픈 스케일\n(가) NFV 기반 VDI 서비스 기술 요구사항 정의\n① VDI 가상 네트워크 컴포넌트 관리 요구사항 정의\n② VDI 가상 네트워크 컴포넌트 기능 요구사항 정의\n③ 서비스 연동 포탈 요구사항 정의\n④ 리소스 모니터링 및 대시보드 기술 요구사항 정의",
+    "section_context_candidate": "나. 개발 내용 및 범위 (시스템 구성도, 구조 등을 그림으로 구체적 표현)",
+    "heading_candidates": [
+      "나. 개발 내용 및 범위 (시스템 구성도, 구조 등을 그림으로 구체적 표현)"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.27,
+          433.45,
+          508.53,
+          658.68
+        ],
+        "page_area_fraction": 0.1892
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0011",
+    "caption": "연구개발 추진 체계",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n그림 11 연구개발 추진 체계\n가. 기 보유한 NFV 프레임워크 개발 관련 소프트웨어기술을 기반으로 VDI VNF 개발 추진\n(1) 오픈스케일(주관기관)은 요구사항 협의와 테스트/시험 담당\n(2) 한국전자통신연구원(연구원)은 알고리즘 설계 등 기반/핵심기술 개발 담당\n나. GPU 가상화 개발 방법\n(1) GPU 가상화 오픈소스와 오픈스택 클라우드 OS 오픈소스를 기반으로, VDI 서비스 가상\n데스크탑을 위한 자원가상화 통합 제어 개발 및 화면 인코딩 전송 추가 개발\n2. 한국전자통신연구원 추진 내역\n가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계",
+    "section_context_candidate": "가. 기 보유한 NFV 프레임워크 개발 관련 소프트웨어기술을 기반으로 VDI VNF 개발 추진",
+    "heading_candidates": [
+      "가. 기 보유한 NFV 프레임워크 개발 관련 소프트웨어기술을 기반으로 VDI VNF 개발 추진",
+      "나. GPU 가상화 개발 방법",
+      "2. 한국전자통신연구원 추진 내역",
+      "가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          464.85,
+          553.26,
+          764.52
+        ],
+        "page_area_fraction": 0.2885
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0012",
+    "caption": "가상화면 데스크탑 VDI VNF와 이전 클라우드 기반 VM의 비교",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 56 -\n그림 12 가상화면 데스크탑 VDI VNF와 이전 클라우드 기반 VM의 비교\n가상화면 전송 VNF는 위의 그림의 형태로 서비스가 제공된다. 사용자의 단말은 vByod VNF\n에 접속하여, 원하는 VM의 화면을 원격접속할 수 있게 된다. 이때, VNF는 화면 성능 향상\n을 위해 화면 압축된 데이터의 프락시 연결을 수행한다. 또한, VNF는 그림과 같이 NFV 프\n레임워크하에서 다른 VNF와 chaining 이 이루어질 수 있다.\n그리고, 분산 환경에서 다음 그림과 같이 여려 개의 SA VNF가 동작하여, 사용자에게 가까\n운 VNF가 서비스될 수 있다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          563.74,
+          484.18,
+          764.52
+        ],
+        "page_area_fraction": 0.1655
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          295.48,
+          418.93,
+          467.37
+        ],
+        "page_area_fraction": 0.1193
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0013",
+    "caption": "클라우드/NFV 인프라에서의 VDI VNF가 차지하는 영역",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n그림 13 클라우드/NFV 인프라에서의 VDI VNF가 차지하는 영역\n이를 위해 개발하는 내용과 결과물은 다음과 같다. 사용자 vDevice 컴포넌트 추가 개발\n- 사용자 공용/개별 vDevice 컴포넌트/이미지 관리 기술 개발\n- vDevice 컴포넌트 등록 및 상태 관리 기술 개발 (윈도우용 에이전트) - 사용자 별 vDevice 정보조회/인증접속/이동관리 클라이언트 개발\nvByod VNF 브로커/프락시 컴포넌트 고도화\n- vDevice 컴포넌트 등록 및 상태 관리 고도화 (브러커용) - 콤포넌트 VM 마이그레이션 관리 및 VNFM 연동 기술 개발\n- vDevice/proxy 컴포넌트 scaling 관리 기술 고도화 개발\n근거리 연결/고가용 자동 스케줄러 기술 개발\n- 사용자 단말/서버 근거리 연결 자동 스케줄링 기술 개발",
+    "section_context_candidate": "가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          514.0,
+          517.76,
+          764.52
+        ],
+        "page_area_fraction": 0.2309
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0014",
+    "caption": "VNFM 모듈 구조도",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 61 -\n그림 14 VNFM 모듈 구조도\nREST API 처리 기능(TackerApiService)는 메시지 파싱과 생성에 대한 기능을 수행하고, VNFMControl은 제어유닛, VNFMPluginDb은 dB제어 기능 수행, heat driver는 heat template\n생성에 필요한 기능(VNFD와 resource imput parameter definition을 바탕으로)을 수행하고\nmgmt_driver는 형상 정보를 VNF 인터페이스 블록에 전달하기위한 정보를 생성하는 기능을\n수행한다. 각각의 외부 인터페이스 블럭은 REST 프로토콜 통신 방식을 통해 요청과 응답을 처리할 수\n있도록 구현된다. 또한 주요 프로세싱 블럭인 VNF LCM(Life-cycle Management)블럭, VNF\n가장 자원 관리, VNF 형상관리 블럭등은 확장이 가능하도록 PlugIn 형태로 로드되어 인터페\n이스 블록을 통해 들어온 요청을 처리하고 응답할 수 있도록 구현된다. 이러한 VNFM은 외부 서비스 포탈과 직접 관리를 수해아하는 VDI VNF와 연동을 통해 각\nVNF 를 관리하게 된다. 다음은 해당 시스템 구조도를 나타낸다.",
+    "section_context_candidate": "가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          459.58,
+          523.76,
+          764.52
+        ],
+        "page_area_fraction": 0.27
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0015",
+    "caption": "서비스 프로비저닝 연동 흐름",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 66 -\n그림 15 서비스 프로비저닝 연동 흐름\n② 내부 사용자 서비스 생성 및 제어 연동 흐름\n기능 요구사항 중 주요기능인 System_control 제어, Service_control 제어, status_monitor 제\n어 연동 흐름을 나타내고 있다.\n그림 16 내부 사용자 서비스 생성 및 제어 연동 흐름\nSystem_control 기능은 처음 VNF의 VM과 관련 네트워크를 NVF 인프라를 통해 Provisioning\n한 후에, VNF 의 컴포넌트의 실행 및 제어와 관련된 기능으로, 다음의 기능이 있다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          513.04,
+          468.11,
+          764.52
+        ],
+        "page_area_fraction": 0.1947
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          157.51,
+          562.38,
+          434.17
+        ],
+        "page_area_fraction": 0.2663
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0016",
+    "caption": "내부 사용자 서비스 생성 및 제어 연동 흐름",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 66 -\n그림 15 서비스 프로비저닝 연동 흐름\n② 내부 사용자 서비스 생성 및 제어 연동 흐름\n기능 요구사항 중 주요기능인 System_control 제어, Service_control 제어, status_monitor 제\n어 연동 흐름을 나타내고 있다.\n그림 16 내부 사용자 서비스 생성 및 제어 연동 흐름\nSystem_control 기능은 처음 VNF의 VM과 관련 네트워크를 NVF 인프라를 통해 Provisioning\n한 후에, VNF 의 컴포넌트의 실행 및 제어와 관련된 기능으로, 다음의 기능이 있다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          513.04,
+          468.11,
+          764.52
+        ],
+        "page_area_fraction": 0.1947
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          157.51,
+          562.38,
+          434.17
+        ],
+        "page_area_fraction": 0.2663
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0017",
+    "caption": "외부 사용자 접속 연동 흐름",
+    "pdf_page_candidate": 69,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 68 -\n그림 17 외부 사용자 접속 연동 흐름\n만약, 서비스를 수행해 줄 SPC가 없거나, 혹은 성능향상을 위해, VM에 더 가까운 컴포넌트\n를 실행하고자 할 때, SPC를 추가 실행하는 과정이 추가될 수 있다. 다. GPU 가상화 기술 개발\nVDI(Virtual Desktop Infrastructure) 서비스를 제공함에 있어 사용자의 그래픽 어플리케\n이션을 지원하기 위해, GPU 가상화 기능은 필수적이다. 해당 GPU 리소스들을 오픈스택의\n인프라스트럭처와도 연동하여 사용자 및 관리자가 쉽게 상태를 파악하고 관리 할 수 있는\n시스템을 개발하였다. 다음의 GPU 가상화의 자원 공유 개념도를 나타낸다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          490.98,
+          450.96,
+          764.52
+        ],
+        "page_area_fraction": 0.2024
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0018",
+    "caption": "GPU 가상화 자원 공유 개념도",
+    "pdf_page_candidate": 70,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 69 -\n그림 18 GPU 가상화 자원 공유 개념도\n이를 위해, KVMGT라는 오픈소스를 포팅하여, 각 VM에 GPU자원이 연결이 가능하도록 수정\n하였다. KVMGT는 리눅스 커널을 수정하여, 가장 GPU자원을 가상 PCI 자원에 자원 프로파\n일을 기준으로 분할하여 생성해주는 기능을 지원한다. 각각 생성된 가상 PCI 장치는 가상\nGPU의 역할을 하여, VM이 생성될 때에 QEMU를 통해 연결된다. 다음은 해당 동작 구조를\n나타낸다.\n이때, 생성된 VM내에서는 가상화면 캡처 agent가 동작하여, 3D 어플리케이션을 캡처링하고\n동영상 인코딩하여 전송하는 agent가 동작한다. 이러한 agent는 QEMU의 가상 네트워크 연\n결 장치를 통해 외부 클라이언트로 연결된다. 또한, SPICE 서버는 원격 클라이언트에 대응",
+    "section_context_candidate": "가. 가상화면 전송 VDI VNF 개발을 위한 기능 설계",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.13,
+          512.08,
+          396.63,
+          764.52
+        ],
+        "page_area_fraction": 0.1001
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          192.39,
+          416.42,
+          399.16
+        ],
+        "page_area_fraction": 0.1425
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0019",
+    "caption": "서비스 관리 포탈 시스템 구조",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 70 -",
+    "caption_and_following_text": "라. 서비스 관리 및 포탈 기술 개발\n(1) 서비스 관리 기능 개발\n본 기능은 Openstack을 기반으로 한 VDI 서비스 관리 기능을 제공한다.\n그림 19 서비스 관리 포탈 시스템 구조\n위의 그림에서처럼 유저는 웹브라우저를 통해 웹 포탈에 접속하여, VDI 서비스 관리가 가\n능하다.VDI 리소스 생성, 삭제 등의 기능을 오픈스택과 연동하여 수행하며, 오픈스택 키스톤\n과 연계하여 사용자 관리를 수행하도록 한다. VDI 연결을 위해서는 VDI Broker(Guacamole)\n와 연계되어, 웹 포탈에서 접속하여 사용이 가능하도록 한다. VDI 리소스는 모두 오픈스택\n을 이용하여 처리되도록 개발하며, 사용자가 실제로 VDI를 연결하여 사용하기 위해\nGuacamole를 연동하여 RDP 형식으로 연결되도록 한다. 이번 단락에서는 사용자 Project에 속한 VDI 관리에 대해 기술한다. VDI 생성 및 삭제, 사",
+    "section_context_candidate": "라. 서비스 관리 및 포탈 기술 개발",
+    "heading_candidates": [
+      "라. 서비스 관리 및 포탈 기술 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          434.88,
+          532.03,
+          694.16
+        ],
+        "page_area_fraction": 0.2338
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          101.53,
+          531.2,
+          250.65
+        ],
+        "page_area_fraction": 0.1342
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0020",
+    "caption": "테스트베드에 설치된 개발 과제",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 76 -\n나. 사업화를 위한 개발 기능 통합 테스트베드 설치 및 시험/데모 수행\n개발 과제 설치 테스트 및 검증, 데모를 위해 통합 테스트베드에 개발 결과물을 설치하였",
+    "caption_and_following_text": "다. 이 후 결과물 기능 테스트 및 점검을 수행하였으며, 사업화 기술 외부 전시를 위해 데\n모를 진행 하였다. 이후 외부 전시를 위해 데모를 진행한 결과 촬영을 하였으며, 해당 영상\n을 편집하여 외부 전시에 활용하였다. 그 결과는 다음과 같다. (1) 사업화를 위한 개발 기능 통합 테스트베드 설치 수행\n그림 20 테스트베드에 설치된 개발 과제\n(가) 테스트베드 정보\n① 테스트베드 : 미디어 VNFM 클라우드 플랫폼(에트리 內)\n② 호스트 정보 : VIM-S02 오픈스택 인프라\n③ 웹 포털 : 미디어 VNFM 클라우드 플랫폼으로 생성한 VM(etri-vdi-portal)\n④ 외부 접속 : VNC 서버 사용(129.254.221.245:15909)\n(나) 설치 정보",
+    "section_context_candidate": "나. 사업화를 위한 개발 기능 통합 테스트베드 설치 및 시험/데모 수행",
+    "heading_candidates": [
+      "나. 사업화를 위한 개발 기능 통합 테스트베드 설치 및 시험/데모 수행",
+      "다. 이 후 결과물 기능 테스트 및 점검을 수행하였으며, 사업화 기술 외부 전시를 위해 데"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          371.59,
+          538.27,
+          659.04
+        ],
+        "page_area_fraction": 0.2767
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0021",
+    "caption": "VDI 연결/ 인터넷 접속 테스트",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 77 -\n(2) 기능 검증을 위한 서비스 포탈 및 모니터링 기능 시험 진행 내용\n그림 21 VDI 연결/ 인터넷 접속 테스트\n(가) 서비스 포탈 기능 시험 정보\n① VDI : 조회 / 생성 테스트\n② VDI 연결 : 정상 연결 여부 확인, 네트워크 확인, 디스크 확인, 인터넷 연결 확인\n③ 인증 : 프로젝트 / 사용자 / 역할 조회 및 생성 테스트\n(나) 모니터링 기능 시험 정보\n① 대시보드 조회 테스트\n② 시스템 상태 및 상세 조회 테스트",
+    "section_context_candidate": "다. 이 후 결과물 기능 테스트 및 점검을 수행하였으며, 사업화 기술 외부 전시를 위해 데",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          439.32,
+          538.27,
+          746.9
+        ],
+        "page_area_fraction": 0.2961
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0022",
+    "caption": "데모 영상 일부분",
+    "pdf_page_candidate": 79,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 78 -\n(3) 사업화 기술 외부 전시 데모 진행 내용\n그림 22 데모 영상 일부분\n(가) ICT 매칭 전시회 참가\n① 2018 ICT 기술 사업화 페스티벌 참가\n② 기간 : 2018.05.23. ~ 2018.05.26.\n③ 전시 내용 : 웹 포털 및 모니터링 기능 데모 영상 시연, 기술 상담\n그림 23 기술 발표 자료 표지\n(나) 기술 발표 참여\n① 주제 : VDI 서비스 및 클라우드 기반 가상 네트워크 SW 컴포넌트",
+    "section_context_candidate": "다. 이 후 결과물 기능 테스트 및 점검을 수행하였으며, 사업화 기술 외부 전시를 위해 데",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.38,
+          515.56,
+          485.38,
+          746.9
+        ],
+        "page_area_fraction": 0.1738
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          194.55,
+          450.36,
+          401.68
+        ],
+        "page_area_fraction": 0.1465
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0023",
+    "caption": "기술 발표 자료 표지",
+    "pdf_page_candidate": 79,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 78 -\n(3) 사업화 기술 외부 전시 데모 진행 내용\n그림 22 데모 영상 일부분\n(가) ICT 매칭 전시회 참가",
+    "caption_and_following_text": "① 2018 ICT 기술 사업화 페스티벌 참가\n② 기간 : 2018.05.23. ~ 2018.05.26.\n③ 전시 내용 : 웹 포털 및 모니터링 기능 데모 영상 시연, 기술 상담\n그림 23 기술 발표 자료 표지\n(나) 기술 발표 참여\n① 주제 : VDI 서비스 및 클라우드 기반 가상 네트워크 SW 컴포넌트\n② 발표 일자 : 2018.05.24. 오전\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 이 후 결과물 기능 테스트 및 점검을 수행하였으며, 사업화 기술 외부 전시를 위해 데",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.38,
+          515.56,
+          485.38,
+          746.9
+        ],
+        "page_area_fraction": 0.1738
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          194.55,
+          450.36,
+          401.68
+        ],
+        "page_area_fraction": 0.1465
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0024",
+    "caption": "망분리 솔루션 시장 전망",
+    "pdf_page_candidate": 80,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "공공뿐 아니라 금융권 및 보안을 요구하는 기업/서비스를 포함하여, 망분리를 시행해야\n하는 요구는 지속적으로 높아지고 있다. 물리적 망분리의 경우 물리적인 업무망을 완벽하게\n분리할 수 있어 보안의 이점이 높지만, 신규 망구축 및 각각의 PC가 필요해 고비용이 소요\n된다. 관리 부담 또한 상대적으로 높다. VDI 방식의 경우 물리방식에 비해 비용효율이 높고 사용자 데스크톱 및 업무데이터 중앙화\n를 통해 관리 효율성 및 보안성을 제고할 수 있다는 장점이 있지만 가상화 서버팜 구축비\n용이 단점으로 꼽힌다. 국내에서는 정보 유출 방지 목적으로 망분리 초기에 많은 기관과 기업에 물리적 망분리가\n도입 됐다. 하지만 인터넷망과 업무망을 오가며 업무를 처리해야 하는 상황에서 구성원의",
+    "caption_and_following_text": "불편으로 인한 보안 취약성이 지속적으로 나타났다. 이 외에도 물리적 망분리가 가진 여러 불편사항(과다한 비용, 해외·지방 지사 관리 어려움)\n으로 VDI 방식의 망분리 수요가 늘어나기 시작했다. 이에 따라 높은 서비스 안정성 및 보안\n성이 중요해 졌고, 이러한 요구사항은 도입 기관들이 VDI 방식을 선택하는 계기가 됐다.\n그림 24 망분리 솔루션 시장 전망\n이에 따라 가상화 솔루션 부문 성장이 본격적으로 이루어지고 있다. 망분리 사업에는 망분\n리 솔루션만 도입되는 것이 아니다. VDI 방식으로 구축되는 망분리 사업을 예로 들면 VDI\n솔루션을 포함해 망연계 솔루션, 서버, 스토리지, 스위치 등 여러 솔루션들이 들어가게 된\n다. 즉, 망분리 솔루션도 중요하지만 다른 부분들 역시 함께 고려해야 한다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 3 절 시장현황 및 사업화 전망(당초 기술개발 시작 시점의 조",
+    "heading_candidates": [
+      "제 3 절 시장현황 및 사업화 전망(당초 기술개발 시작 시점의 조"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.88,
+          195.87,
+          310.15,
+          366.56
+        ],
+        "page_area_fraction": 0.0786
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0025",
+    "caption": "국내 클라우드 서비스 시장 전망",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 80 -",
+    "caption_and_following_text": "나. 클라우드 인프라 시장\n국내 클라우드 시장의 현황과 성장세 및 전망은 다음과 같다.\n그림 25 국내 클라우드 서비스 시장\n전망\n퍼블릭 클라우드 시장의 성장세도 놀랍지만, 프라이빗(Private) 클라우드 시장 역시 꾸준히\n성장하고 있음을 보게 된다. 프라이빗 클라우드 시장은 네트웍 가상화, 컴퓨팅 가상화, 스토\n리지 가상화를 요구하며, 현재로는 이 프라이빗 클라우드 시장의 상당 부분이 오픈소스 기\n반인 오픈스택 솔루션을 기반으로 하고 있다. 프라이빗 클라우드의 도입은 사내 데스크탑 자원 역시 클라우드 인프라를 활용할 수 있음\n을 의미하며, 사내 클라우드를 도입한 경우 데스크탑 자원을 클라우드 인프라 위에서 가상\n화 하는 것은 비용/관리 측면에서 매우 효과적이므로, 여러 기업들이 이러한 솔루션을 원하",
+    "section_context_candidate": "2. ㈜오픈스케일 VDI 사업화 계획",
+    "heading_candidates": [
+      "2. ㈜오픈스케일 VDI 사업화 계획",
+      "1) 웹기반 VDI 로 애플리케이션 가상화를 개발한 해외사례 연구",
+      "2) 웹기반 VDI 적용/현장 검증 및 보완",
+      "나) 성능 평가 자료를 기반으로 한 pre-marketing 수행"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.81,
+          552.72,
+          410.18,
+          711.78
+        ],
+        "page_area_fraction": 0.0659
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I10-V0026",
+    "caption": "기존 VDI 사업 아이템을 과제 결과물을 이용하여 고도화",
+    "pdf_page_candidate": 86,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "(다) 가상화면 실시간 고속압축 전송 기술\n- 동영상 고속압축기술을 활용한 가상데스크탑 전송 (고품질, 고성능)\n(라) 가상화면 접속 포탈 기술\n- 사용자에게 할당된 가상화면 접속을 관리하기 위한 기술\n(마) GPU 가상화 기술\n- GPU 가상화를 통하여 일반 사용자들에게 GPU 자원을 사용하는 데스크탑 제공\n(2) 과제 결과물과 기존 오픈소스를 사용하여, 100% 순수 자체개발 기술로 서비스화",
+    "caption_and_following_text": "(3) 목표서비스\n(가) 가상 네트워크 기반으로 기업 및 일반사용자에게 GPU 자원을 사용할 수 있는\n원격 가상 데스크탑을 제공해 주는 VDI 서비스\n그림 26 기존 VDI 사업 아이템을 과제 결과물을 이용하여 고도화\n나. 사업화를 위한 시장환경 및 경쟁력 분석 (SWOT 분석)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 5 절 연구개발결과의 활용계획",
+    "heading_candidates": [
+      "제 5 절 연구개발결과의 활용계획",
+      "가. 요소기술/목표제품/서비스 활용 (사업화 Business Model )"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.75,
+          147.2,
+          554.1,
+          363.8
+        ],
+        "page_area_fraction": 0.1962
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

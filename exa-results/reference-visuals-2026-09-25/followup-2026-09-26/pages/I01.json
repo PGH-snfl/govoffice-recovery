@@ -1,0 +1,899 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 1016,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 250,
+      "2": 132,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 2459,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구결과 요약문 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 2 -",
+        "after": "연구개요\n6G 이동통신에서 본격적으로 펼쳐질 초연결 네트워크에서는 통신의 주체가 사람에서 기계, 로\n봇, 센서, 드론 등의 사물로 급격히 이동하며, 자율주행자동차, 스마트 팩토리, 확장 현실(AR,\nVR), 원격 수술 및 진료 등의 정확한 순서로 적시(iso-synchronous)의 동작 수행이 필요한",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 574,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1042,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 00",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 00",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 00"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용 ································································ 00",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "붙임1 세부 정량적 연구개발성과",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 00\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 00\n6. 자체점검표 ······················································································································ 00\n7. 참고문헌 ·························································································································· 00",
+        "after": "<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 00\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "5. 연구개발성과의 관리 및 활용 계획 ·········································································· 00\n6. 자체점검표 ······················································································································ 00\n7. 참고문헌 ·························································································································· 00\n<붙임1 세부 정량적 연구개발성과> ·············································································· 00",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 91,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1867,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 00",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1. 6G 초연결‧초정밀 네트워크의 미션크리티컬 서비스",
+        "line_index": 30,
+        "toc_like": false,
+        "before": "널추정 등의 기술을 부분적으로 개선하는 것이 아니라, 초연결 네트워크에서 생산되는 빅데이터를 통해\n학습된 심층신경망을 활용하여 무선 이동통신의 근본적인 패러다임 변화를 추구하는 데 있다. 본 연구\n에서 얻어진 성과는 다가오는 6G 초연결‧초정밀 네트워크 시대의 핵심 인프라로 활용되어 초연결 시대\n에 생겨나는 다양한 서비스를 뒷받침하는 밑거름 역할을 할 것이다.",
+        "after": "형태 모식도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 449,
+      "3": 88,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1906,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발과제의 개요",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2. 네트워크 슬라이싱을 위한 액션 제거 기능을 갖춘 심층 Q 네트워크. 본 연구에서는 초정밀 데이터 전송을 위한 네트워크 슬라이싱 기법을 연구하였다. 본 연구의 목표는 다양한 서비",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 5 -\n2. 연구개발과제의 수행 과정 및 수행 내용\n(1) 초정밀 데이터 전송을 위한 모바일 스케줄링 기법 연구",
+        "after": "스(eMBB, URLLC, mMTC 등)를 지원하면서 시스템 처리량을 향상시킬 수 있는 심층강화학습(Deep\nreinforcement learning; DRL) 기반 네트워크 슬라이싱(DRL-based network slicing; DRL-NS)이라고 불리는 네\n트워크 슬라이싱 기법을 제안하는 것이다. 본 연구에서는 순차적인 의사결정 문제를 해결하는 데 특화된 효율적인\n학습 기반 기법인 DRL을 사용하여 gNB(에이전트)가 채널 상태, 데이터 속도 제약, 지연 요구사항(상태)을 관찰한",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 601,
+      "3": 54,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 2025,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 3. D-STiCE 구조",
+        "line_index": 66,
+        "toc_like": false,
+        "before": "생 메모리에서 미니 배치 데이터를 무작위로 샘플링하고 의 손실 값을 최소화하는 방향으로 DQN의 가중치를\n업데이트한다.\n(2) 초연결 네트워크를 위한 심층신경망 기반 무선 접속 자동화 기법 연구\n2.1. 환경인지(environment-aware) 기반 빔 분할(beam division) 단말 식별 기법",
+        "after": "현재 서비스하는 5G NR의 경우 기기 및 센서들이 기지국과 통신하기 위해서는 단말이 랜덤 액세스 절차를 통해\n접속할 수 있는 자원을 할당받아야 한다. 본 연구에서는 빔 각도를 통해 단말을 식별하는 빔 분할 단말 식별 기법\n을 연구하였다. mmWave/THz 통신에서는 경로 희소성 때문에 수신한 신호로부터 출발각과 도래각을 추정하는 문\n제는 희소 신호 복원 모델로 변환할 수 있다. 하지만 기존 희소 신호 복원 알고리즘의 단점은 출발각과 도래각을",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 687,
+      "3": 79,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 2147,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 4. PST 전송 기법의 모식도",
+        "line_index": 69,
+        "toc_like": false,
+        "before": "크(fully connected network)를 통해 전파경로의 출발각과 도래각으로 맵핑(mapping)된다. 결과적으로 D-STiCE\n는 수신한 파일럿 신호로부터 출발갹과 도래각을 추정하기 때문에, 추정한 출발각과 도래각으로부터 단말의 위치를\n특정하고 단말을 식별할 수 있다. 또한 시뮬레이션을 통해 파일럿 신호로부터 접속한 단말에 전송되는 비트 오류율\n(bit error rate; BER)이 기존 기법에 비해 향상됨을 확인할 수 있다. 2.2.2 딥러닝 기반 동기 신호 생략 및 충돌 해소 전송 기법",
+        "after": "그림 4. 딥러닝 기반 희소 신호 복원 알고리즘 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 4. 딥러닝 기반 희소 신호 복원 알고리즘 구조",
+        "line_index": 70,
+        "toc_like": false,
+        "before": "는 수신한 파일럿 신호로부터 출발갹과 도래각을 추정하기 때문에, 추정한 출발각과 도래각으로부터 단말의 위치를\n특정하고 단말을 식별할 수 있다. 또한 시뮬레이션을 통해 파일럿 신호로부터 접속한 단말에 전송되는 비트 오류율\n(bit error rate; BER)이 기존 기법에 비해 향상됨을 확인할 수 있다. 2.2.2 딥러닝 기반 동기 신호 생략 및 충돌 해소 전송 기법\n그림 4. PST 전송 기법의 모식도",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 708,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          196.81,
+          199.94,
+          397.95,
+          277.98
+        ],
+        "page_area_fraction": 0.0314
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.48,
+          97.93,
+          446.28,
+          176.09
+        ],
+        "page_area_fraction": 0.0465
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 2242,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 6. Two-stage IRS 채널 추정 기법 구조 그림 7. L-PSCV 구조",
+        "line_index": 36,
+        "toc_like": false,
+        "before": "터 간 상관도가 높은 경우의 성능 열화를 해소할 수 있다. 전체적인 딥러닝 기반 희소 신호 복원 알고리즘은 [그림\n4]와 같다.\n(3) 초정밀 네트워크를 위한 심층강화학습 기반 지능형 반사평면 통신 기법 연구\n3.2.1 Fast-time varying V2X 채널을 위한 two-stage IRS 채널 추정 기법",
+        "after": "최근 지능형 교통 시스템(ITS)의 성장과 함께, 많은 차량용 애플리케이션이 큰 관심을 받았다. 다양한 차량용 애플리케\n이션 중, 군집 주행, 안전 경보, 자율 주행과 같은 차량 서비스들은 미래 ITS의 청사진에 핵심적인 역할을 한다. 이러한\n서비스는 차량 대 차량(V2V), 차량 대 인프라(V2I) 및 차량 대 네트워크(V2N)를 포함한 vehicle-to-everything\n(V2X) 통신의 필요성을 가속화하고 있다. 차량은 정확하고 신속하게 정보를 교환해야 하므로 V2X 시스템의 서비스 품",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 629,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.96,
+          209.53,
+          291.68,
+          381.78
+        ],
+        "page_area_fraction": 0.0777
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.32,
+          294.76,
+          523.16,
+          373.87
+        ],
+        "page_area_fraction": 0.0357
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.32,
+          215.64,
+          523.16,
+          294.76
+        ],
+        "page_area_fraction": 0.0357
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 2803,
+    "heading_candidates": [],
+    "section_context_candidate": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 998,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1219,
+    "heading_candidates": [
+      "4.2 연구 결과"
+    ],
+    "section_context_candidate": "4.2 연구 결과",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구에서는 M개의 기지국이 K개의 단말을 지원하는 하향링크 시스템을 가정하였다. 기지국 혹은 gNB들은 중",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 8. 다중 에이전트 심층강화학습 기반 사용자 연결 기법 세부 구조",
+        "line_index": 49,
+        "toc_like": false,
+        "before": "\n m in \n(4) 초연결 네트워크를 위한 연합학습 기반 모바일 엣지 컴퓨팅 기법 연구\n4.2 연구 결과",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 475,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.49,
+          100.33,
+          470.27,
+          374.59
+        ],
+        "page_area_fraction": 0.1895
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 3116,
+    "heading_candidates": [
+      "다. 이에 따라서, actor network가 에너지 효율이 가장 높게 예측되는 행동을 수행하기 위해서, critic network에서"
+    ],
+    "section_context_candidate": "다. 이에 따라서, actor network가 에너지 효율이 가장 높게 예측되는 행동을 수행하기 위해서, critic network에서",
+    "prior_heading_candidate": {
+      "text": "4.2 연구 결과",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 1092,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 2139,
+    "heading_candidates": [
+      "1) 정성적 연구개발성과(연구개발결과)",
+      "다. 시뮬레이션 결과에서 수신 샘플이 많을수록 성능이 향상되었지만, 수신 샘플이 많아짐에 따라 샘플을 얻는 시",
+      "2) 세부 정량적 연구개발성과: [붙임1] 참조",
+      "3) 목표 달성 수준"
+    ],
+    "section_context_candidate": "1) 정성적 연구개발성과(연구개발결과)",
+    "prior_heading_candidate": {
+      "text": "다. 이에 따라서, actor network가 에너지 효율이 가장 높게 예측되는 행동을 수행하기 위해서, critic network에서",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 576,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1983,
+    "heading_candidates": [
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)"
+    ],
+    "section_context_candidate": "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)",
+    "prior_heading_candidate": {
+      "text": "3) 목표 달성 수준",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 479,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 2200,
+    "heading_candidates": [
+      "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로"
+    ],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 583,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 280,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 49,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 2996,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 438,
+      "2": 43,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 3001,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 384,
+      "2": 36,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1233,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 197,
+      "2": 34,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 2289,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 428,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1966,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 352,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1831,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 334,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 2008,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 348,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 1955,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 339,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 119,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "< 대표적 연구실적 사본 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 24 -",
+        "after": "No 1\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 12,
+      "2": 10,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          96.25,
+          531.79,
+          717.78
+        ],
+        "page_area_fraction": 0.5902
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          115.19,
+          566.58,
+          770.28
+        ],
+        "page_area_fraction": 0.6676
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 101,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 6,
+      "2": 10,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          79.47,
+          565.14,
+          738.75
+        ],
+        "page_area_fraction": 0.67
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 101,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 6,
+      "2": 10,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          134.61,
+          566.58,
+          738.75
+        ],
+        "page_area_fraction": 0.6157
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 101,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 6,
+      "2": 10,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          108.84,
+          563.94,
+          738.75
+        ],
+        "page_area_fraction": 0.6386
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 101,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 6,
+      "2": 10,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          111.36,
+          544.27,
+          738.75
+        ],
+        "page_area_fraction": 0.6114
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+    "prior_heading_candidate": {
+      "text": "다. ③ 센서를 활용한 네트워크 부하 감소 및 운영비용 감축: 서비스를 요청하는 기기 수의 증가 및 종류의 다양화로",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          113.28,
+          563.46,
+          770.28
+        ],
+        "page_area_fraction": 0.6655
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

@@ -1,0 +1,2633 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 987,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 248,
+      "2": 132,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 2207,
+    "heading_candidates": [
+      "□ 본 연구의 최종 목표: 대규모 무선 네트워크에서의 설명 가능한 지능형 무선 자원",
+      "□ 1차년도 목표: 단일 셀 무선 네트워크 시스템에서 설명 가능한 지능형 무선 자원 할",
+      "□ 2차년도 목표: 다수 셀 무선 네트워크 시스템에서 설명 가능한 지능형 셀 간 간섭",
+      "□ 3차년도: 대규모 시스템에서의 설명 가능한 통합형/지능형 무선 자원 관리 알고리즘 개발",
+      "□ 기술적 파급효과: 딥러닝 모델을 활용한 융합기술에서 설명 가능한 인공지능 관련 연구",
+      "□ 학문적 파급효과: 기존의 무선 네트워크와 인공지능의 융합 기법은 설명이 어려운 불투",
+      "□ 산업·경제적 파급효과: 본 연구를 통해 설명 가능한 지능형 무선 자원 관리 핵심 기술을",
+      "□ 사회적 파급효과: 본 연구는 미래 무선 네트워크에서의 mission-critical 서비스에 적용되"
+    ],
+    "section_context_candidate": "□ 본 연구의 최종 목표: 대규모 무선 네트워크에서의 설명 가능한 지능형 무선 자원",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구결과 요약문 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 2 -",
+        "after": "연구개요\n미래 무선 네트워크를 위해 딥러닝 모델이 적극적으로 활용되고 있으나, 딥러닝 모델\n의 불투명성을 해결하기 위해 무선 네트워크 분야의 도메인 지식을 심도있게 고려한\n설명 가능한 인공지능 기술에 관한 연구는 국내·외에서 찾아보기 어려움. 본 연구에서",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 563,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1044,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용 ·································································· 4",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 12",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 13"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용 ·································································· 4",
+    "prior_heading_candidate": {
+      "text": "□ 사회적 파급효과: 본 연구는 미래 무선 네트워크에서의 mission-critical 서비스에 적용되",
+      "pdf_page": 2
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "붙임1 세부 정량적 연구개발성과",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 13\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 13\n6. 자체점검표 ······················································································································ 14\n7. 참고문헌 ·························································································································· 14",
+        "after": "<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 17\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "5. 연구개발성과의 관리 및 활용 계획 ·········································································· 13\n6. 자체점검표 ······················································································································ 14\n7. 참고문헌 ·························································································································· 14\n<붙임1 세부 정량적 연구개발성과> ·············································································· 15",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 91,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 2243,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "1) 주요 연구 변경사항",
+      "2) 연구과제의 수행 과정 및 수행 내용"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 13",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 625,
+      "2": 23,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 2679,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 836,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.98,
+          581.12,
+          397.11,
+          615.05
+        ],
+        "page_area_fraction": 0.0149
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 2571,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 729,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 2392,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 776,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 2391,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "심층신경망을 활용한 셀 간 간섭 조절 및 설명가능한 셀 간 간섭 조절 프레임워크 개요도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 8 -",
+        "after": "이제 제안한 프레임워크에 관하여 설명한다. 먼저 위 그림에서 최적 셀 간 간섭 조절 (inter-cell\ninterference coordination, ICIC) 알고리즘은 앞서 언급한 WMMSE 알고리즘이 해당된다. (다른 형\n태의 알고리즘도 얼마든지 사용될 수 있다.) 최적 셀 간 간섭 조절 알고리즘의 동작을 모사하는 심\n층 신경망의 학습을 위해서는 먼저 데이터셋을 구성해야한다. 이를 위해 임의의 자원 할당 상황에서",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 692,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          697.52,
+          519.08,
+          765.48
+        ],
+        "page_area_fraction": 0.0563
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 2206,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 689,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.24,
+          322.45,
+          423.97,
+          394.37
+        ],
+        "page_area_fraction": 0.0392
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.12,
+          122.03,
+          423.97,
+          192.15
+        ],
+        "page_area_fraction": 0.0382
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 2226,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 연구과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "계층적 & 분산적 설명 가능한 지능형 무선 자원 관리 프레임워크",
+        "line_index": 62,
+        "toc_like": false,
+        "before": "적으로 자원 관리를 수행할 수 있도록 한다. 또한 단일 셀의 자원 할당 문제와 셀 간 간섭 조절을\n위한 전송 전력 결정 문제는 1차년도와 2차년도에서 설명 가능한 지능형 알고리즘을 통해 해결한 바\n있으므로, 앞서 연구한 알고리즘을 통합적으로 활용하여 대규모 시스템에서의 자원 관리 문제를 지\n능적으로 해결할 수 있다. 앞서 설명한 프레임워크를 그림으로 나타내면 아래와 같다.",
+        "after": "(3) 실험 결과\n본 연구에서 제안한 설명 가능한 지능형 무선 자원 관리 프레임워크를 검증하기 위해 모의실험을\n진행하였다. 다수 셀 환경에서의 셀 간 간섭 알고리즘을 검증할 필요가 있으므로 총 7개의 기지국으\n로 구성된 환경을 고려한다. 각 셀의 토폴로지는 오른쪽 그림과 같고 각 기지국 간의 거리는 150m",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 688,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.6,
+          236.74,
+          538.27,
+          329.4
+        ],
+        "page_area_fraction": 0.0842
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 2267,
+    "heading_candidates": [
+      "다. 본 결과에서는 제안 프레임워크를 사용하는 경우 DNN"
+    ],
+    "section_context_candidate": "다. 본 결과에서는 제안 프레임워크를 사용하는 경우 DNN",
+    "prior_heading_candidate": {
+      "text": "2) 연구과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "모의실험 셀 토폴로지",
+        "line_index": 51,
+        "toc_like": false,
+        "before": "하지 않는 선택 불가능한 서술적인 무선 자원 할당 결정\n의 경우에는 NaN 값으로 표기하였다. 해당 그림에서 채널\n상태 정보의 인덱스는 작을수록 좋은 채널 상태를 갖는 것을 의미하고, multiplier 상태 정보의 인\n덱스는 작을수록 서비스 품질 요구조건을 잘 만족시켜주고 있다는 것을 의미한다. 각 상태 정보는",
+        "after": "<기지국 0 사용자 평균 전송률>\n<기지국 0 행동-상태 가치 함수 근사>\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "기지국 0 사용자 평균 전송률",
+        "line_index": 52,
+        "toc_like": false,
+        "before": "의 경우에는 NaN 값으로 표기하였다. 해당 그림에서 채널\n상태 정보의 인덱스는 작을수록 좋은 채널 상태를 갖는 것을 의미하고, multiplier 상태 정보의 인\n덱스는 작을수록 서비스 품질 요구조건을 잘 만족시켜주고 있다는 것을 의미한다. 각 상태 정보는\n<모의실험 셀 토폴로지>",
+        "after": "<기지국 0 행동-상태 가치 함수 근사>\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "기지국 0 행동-상태 가치 함수 근사",
+        "line_index": 53,
+        "toc_like": false,
+        "before": "상태 정보의 인덱스는 작을수록 좋은 채널 상태를 갖는 것을 의미하고, multiplier 상태 정보의 인\n덱스는 작을수록 서비스 품질 요구조건을 잘 만족시켜주고 있다는 것을 의미한다. 각 상태 정보는\n<모의실험 셀 토폴로지>\n<기지국 0 사용자 평균 전송률>",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 558,
+      "2": 159,
+      "3": 443,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          400.94,
+          630.99,
+          538.27,
+          768.24
+        ],
+        "page_area_fraction": 0.0377
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.76,
+          147.56,
+          492.7,
+          244.41
+        ],
+        "page_area_fraction": 0.0232
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 2462,
+    "heading_candidates": [
+      "다. 위의 결과를 보면 0번째 기지국의 전송 전력에 가",
+      "1) 정성적 연구개발성과(연구개발결과)"
+    ],
+    "section_context_candidate": "다. 위의 결과를 보면 0번째 기지국의 전송 전력에 가",
+    "prior_heading_candidate": {
+      "text": "다. 본 결과에서는 제안 프레임워크를 사용하는 경우 DNN",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "셀 간 간섭조절 모델의 특징 중요성 분석 결과",
+        "line_index": 49,
+        "toc_like": false,
+        "before": "의 각 기지국의 무선 자원 할당과 셀 간 간섭 제어 결과의 설명을 관찰하였고, 해당 설명이 도메\n인 지식과 일치함을 확인함. 또한, 제안 기법의 경우 무선 자원 관리가 분산적, 계층적으로 이루\n어져 대규모 시스템에 적합함. 결과적으로 연구의 최종 목표인 대규모 시스템에서의 설명 가능한\n통합형/지능형 무선 자원 관리 알고리즘 개발을 성공적으로 달성함",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 677,
+      "2": 3,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          339.54,
+          541.45,
+          538.27,
+          686.37
+        ],
+        "page_area_fraction": 0.0576
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 2319,
+    "heading_candidates": [
+      "2) 세부 정량적 연구개발성과: [붙임1] 참조",
+      "3) 목표 달성 수준",
+      "4) 목표 미달 시 원인 분석(해당 시)",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)",
+      "5. 연구개발성과의 관리 및 활용 계획"
+    ],
+    "section_context_candidate": "2) 세부 정량적 연구개발성과: [붙임1] 참조",
+    "prior_heading_candidate": {
+      "text": "1) 정성적 연구개발성과(연구개발결과)",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 635,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 2156,
+    "heading_candidates": [
+      "7. 참고문헌"
+    ],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 310,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 2586,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 407,
+      "2": 120,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1024,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 132,
+      "2": 78,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1379,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 212,
+      "2": 28,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 2000,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 487,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 112,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 19 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 9,
+      "3": 33,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          734.56,
+          538.27,
+          753.5
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          715.62,
+          538.27,
+          734.56
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          696.68,
+          538.27,
+          715.62
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          677.74,
+          538.27,
+          696.68
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          658.8,
+          538.27,
+          677.74
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          639.86,
+          538.27,
+          658.8
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          620.92,
+          538.27,
+          639.86
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          601.98,
+          538.27,
+          620.92
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          583.04,
+          538.27,
+          601.98
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          564.1,
+          538.27,
+          583.04
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          545.16,
+          538.27,
+          564.1
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          526.22,
+          538.27,
+          545.16
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          507.29,
+          538.27,
+          526.22
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          488.35,
+          538.27,
+          507.29
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          469.41,
+          538.27,
+          488.35
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          450.47,
+          538.27,
+          469.41
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          431.53,
+          538.27,
+          450.47
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          412.59,
+          538.27,
+          431.53
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          393.65,
+          538.27,
+          412.59
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          374.71,
+          538.27,
+          393.65
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          355.77,
+          538.27,
+          374.71
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          336.83,
+          538.27,
+          355.77
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          317.89,
+          538.27,
+          336.83
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          298.95,
+          538.27,
+          317.89
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          280.01,
+          538.27,
+          298.95
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          261.07,
+          538.27,
+          280.01
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          242.13,
+          538.27,
+          261.07
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          223.2,
+          538.27,
+          242.13
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          204.26,
+          538.27,
+          223.2
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          185.32,
+          538.27,
+          204.26
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          166.38,
+          538.27,
+          185.32
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          147.44,
+          538.27,
+          166.38
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          130.54,
+          538.27,
+          147.44
+        ],
+        "page_area_fraction": 0.0163
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 2008,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 492,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 112,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 21 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 9,
+      "3": 33,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          734.56,
+          538.27,
+          753.5
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          715.62,
+          538.27,
+          734.56
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          696.68,
+          538.27,
+          715.62
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          677.74,
+          538.27,
+          696.68
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          658.8,
+          538.27,
+          677.74
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          639.86,
+          538.27,
+          658.8
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          620.92,
+          538.27,
+          639.86
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          601.98,
+          538.27,
+          620.92
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          583.04,
+          538.27,
+          601.98
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          564.1,
+          538.27,
+          583.04
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          545.16,
+          538.27,
+          564.1
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          526.22,
+          538.27,
+          545.16
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          507.29,
+          538.27,
+          526.22
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          488.35,
+          538.27,
+          507.29
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          469.41,
+          538.27,
+          488.35
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          450.47,
+          538.27,
+          469.41
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          431.53,
+          538.27,
+          450.47
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          412.59,
+          538.27,
+          431.53
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          393.65,
+          538.27,
+          412.59
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          374.71,
+          538.27,
+          393.65
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          355.77,
+          538.27,
+          374.71
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          336.83,
+          538.27,
+          355.77
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          317.89,
+          538.27,
+          336.83
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          298.95,
+          538.27,
+          317.89
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          280.01,
+          538.27,
+          298.95
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          261.07,
+          538.27,
+          280.01
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          242.13,
+          538.27,
+          261.07
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          223.2,
+          538.27,
+          242.13
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          204.26,
+          538.27,
+          223.2
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          185.32,
+          538.27,
+          204.26
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          166.38,
+          538.27,
+          185.32
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          147.44,
+          538.27,
+          166.38
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          130.54,
+          538.27,
+          147.44
+        ],
+        "page_area_fraction": 0.0163
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 2043,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 496,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 112,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 23 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 9,
+      "3": 33,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          734.56,
+          538.27,
+          753.5
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          715.62,
+          538.27,
+          734.56
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          696.68,
+          538.27,
+          715.62
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          677.74,
+          538.27,
+          696.68
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          658.8,
+          538.27,
+          677.74
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          639.86,
+          538.27,
+          658.8
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          620.92,
+          538.27,
+          639.86
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          601.98,
+          538.27,
+          620.92
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          583.04,
+          538.27,
+          601.98
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          564.1,
+          538.27,
+          583.04
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          545.16,
+          538.27,
+          564.1
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          526.22,
+          538.27,
+          545.16
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          507.29,
+          538.27,
+          526.22
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          488.35,
+          538.27,
+          507.29
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          469.41,
+          538.27,
+          488.35
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          450.47,
+          538.27,
+          469.41
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          431.53,
+          538.27,
+          450.47
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          412.59,
+          538.27,
+          431.53
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          393.65,
+          538.27,
+          412.59
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          374.71,
+          538.27,
+          393.65
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          355.77,
+          538.27,
+          374.71
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          336.83,
+          538.27,
+          355.77
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          317.89,
+          538.27,
+          336.83
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          298.95,
+          538.27,
+          317.89
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          280.01,
+          538.27,
+          298.95
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          261.07,
+          538.27,
+          280.01
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          242.13,
+          538.27,
+          261.07
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          223.2,
+          538.27,
+          242.13
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          204.26,
+          538.27,
+          223.2
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          185.32,
+          538.27,
+          204.26
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          166.38,
+          538.27,
+          185.32
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          147.44,
+          538.27,
+          166.38
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          130.54,
+          538.27,
+          147.44
+        ],
+        "page_area_fraction": 0.0163
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 33,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          751.34,
+          538.27,
+          770.28
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          732.4,
+          538.27,
+          751.34
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          713.46,
+          538.27,
+          732.4
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          694.52,
+          538.27,
+          713.46
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          675.58,
+          538.27,
+          694.52
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          656.64,
+          538.27,
+          675.58
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          637.7,
+          538.27,
+          656.64
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          618.76,
+          538.27,
+          637.7
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          599.82,
+          538.27,
+          618.76
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          580.89,
+          538.27,
+          599.82
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          561.95,
+          538.27,
+          580.88
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          543.01,
+          538.27,
+          561.95
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          524.07,
+          538.27,
+          543.01
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          505.13,
+          538.27,
+          524.07
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          486.19,
+          538.27,
+          505.13
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          467.25,
+          538.27,
+          486.19
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          448.31,
+          538.27,
+          467.25
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          429.37,
+          538.27,
+          448.31
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          410.43,
+          538.27,
+          429.37
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          391.49,
+          538.27,
+          410.43
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          372.55,
+          538.27,
+          391.49
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          353.61,
+          538.27,
+          372.55
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          334.67,
+          538.27,
+          353.61
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          315.73,
+          538.27,
+          334.67
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          296.8,
+          538.27,
+          315.73
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          277.86,
+          538.27,
+          296.79
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          258.92,
+          538.27,
+          277.86
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          239.98,
+          538.27,
+          258.92
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          221.04,
+          538.27,
+          239.98
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          202.1,
+          538.27,
+          221.04
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          183.16,
+          538.27,
+          202.1
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          164.22,
+          538.27,
+          183.16
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          147.32,
+          538.27,
+          164.22
+        ],
+        "page_area_fraction": 0.0163
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 2045,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 513,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 112,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 26 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 9,
+      "3": 33,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          734.56,
+          538.27,
+          753.5
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          715.62,
+          538.27,
+          734.56
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          696.68,
+          538.27,
+          715.62
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          677.74,
+          538.27,
+          696.68
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          658.8,
+          538.27,
+          677.74
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          639.86,
+          538.27,
+          658.8
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          620.92,
+          538.27,
+          639.86
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          601.98,
+          538.27,
+          620.92
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          583.04,
+          538.27,
+          601.98
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          564.1,
+          538.27,
+          583.04
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          545.16,
+          538.27,
+          564.1
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          526.22,
+          538.27,
+          545.16
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          507.29,
+          538.27,
+          526.22
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          488.35,
+          538.27,
+          507.29
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          469.41,
+          538.27,
+          488.35
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          450.47,
+          538.27,
+          469.41
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          431.53,
+          538.27,
+          450.47
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          412.59,
+          538.27,
+          431.53
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          393.65,
+          538.27,
+          412.59
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          374.71,
+          538.27,
+          393.65
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          355.77,
+          538.27,
+          374.71
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          336.83,
+          538.27,
+          355.77
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          317.89,
+          538.27,
+          336.83
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          298.95,
+          538.27,
+          317.89
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          280.01,
+          538.27,
+          298.95
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          261.07,
+          538.27,
+          280.01
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          242.13,
+          538.27,
+          261.07
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          223.2,
+          538.27,
+          242.13
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          204.26,
+          538.27,
+          223.2
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          185.32,
+          538.27,
+          204.26
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          166.38,
+          538.27,
+          185.32
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          147.44,
+          538.27,
+          166.38
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          130.54,
+          538.27,
+          147.44
+        ],
+        "page_area_fraction": 0.0163
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 2025,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 501,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 112,
+    "heading_candidates": [],
+    "section_context_candidate": "7. 참고문헌",
+    "prior_heading_candidate": {
+      "text": "7. 참고문헌",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 28 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 9,
+      "3": 33,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          734.56,
+          538.27,
+          753.5
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          715.62,
+          538.27,
+          734.56
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          696.68,
+          538.27,
+          715.62
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          677.74,
+          538.27,
+          696.68
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          658.8,
+          538.27,
+          677.74
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          639.86,
+          538.27,
+          658.8
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          620.92,
+          538.27,
+          639.86
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          601.98,
+          538.27,
+          620.92
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          583.04,
+          538.27,
+          601.98
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          564.1,
+          538.27,
+          583.04
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          545.16,
+          538.27,
+          564.1
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          526.22,
+          538.27,
+          545.16
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          507.29,
+          538.27,
+          526.22
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          488.35,
+          538.27,
+          507.29
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          469.41,
+          538.27,
+          488.35
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          450.47,
+          538.27,
+          469.41
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          431.53,
+          538.27,
+          450.47
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          412.59,
+          538.27,
+          431.53
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          393.65,
+          538.27,
+          412.59
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          374.71,
+          538.27,
+          393.65
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          355.77,
+          538.27,
+          374.71
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          336.83,
+          538.27,
+          355.77
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          317.89,
+          538.27,
+          336.83
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          298.95,
+          538.27,
+          317.89
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          280.01,
+          538.27,
+          298.95
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          261.07,
+          538.27,
+          280.01
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          242.13,
+          538.27,
+          261.07
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          223.2,
+          538.27,
+          242.13
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          204.26,
+          538.27,
+          223.2
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          185.32,
+          538.27,
+          204.26
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          166.38,
+          538.27,
+          185.32
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          147.44,
+          538.27,
+          166.38
+        ],
+        "page_area_fraction": 0.0182
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          130.54,
+          538.27,
+          147.44
+        ],
+        "page_area_fraction": 0.0163
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

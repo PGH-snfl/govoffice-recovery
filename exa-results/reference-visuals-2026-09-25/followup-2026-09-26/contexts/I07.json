@@ -1,0 +1,2029 @@
+[
+  {
+    "visual_id": "I07-V0001",
+    "caption": "LISP 기반 주소 가상화 기술",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 42,
+    "prefix_match_only": false,
+    "text_before": "달성\n2.2.2. 세계 최고 수준의 네트워크 하이퍼바이저 설계\n▷ 분산형 컨트롤러 기반의 네트워크 하이퍼바이저 설계\nŸ 분산형 네트워크 하이퍼바이저 설계를 위하여\n1) SDN 네트워크 구조에 대한 조사 진행,\n2) 관련 논문 스터디 및 전문가 초빙 세미나를 통한 지식 습득,\n3) SDN 2.0 요구 사항 조사",
+    "caption_and_following_text": "Ÿ 네트워크 가상화 기능을 수행하기 위한 네트워크 하이퍼바이저의 구성 요소 및\n기능 정의를 통한 요구사항 정의서 산출\nŸ 주소 가상화 등 대표적인 하이퍼바이저 핵심 기술 설계\n그림 3. LISP 기반 주소 가상화 기술\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          211.93,
+          67.25,
+          432.25,
+          194.31
+        ],
+        "page_area_fraction": 0.0559
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0002",
+    "caption": "컨테이너 기반의 가상 스위치의 구조",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 20 -\n▷ 스위치 자원 추상화 및 고립 모델 설계: 컨테이너 기반의 가상 스위치 추상화 방식\n설계 완료\n그림 4. 컨테이너 기반의 가상 스위치의 구조\n▷ 단말과 네트워크 하이퍼바이저 간 인증 모듈 설계\nŸ 무선 AP 가상화 지원을 위해 네트워크 하이퍼바이저에 필요한 자료구조 설계\nŸ 에너지를 고려한 무선 단말 인증 기법을 제공하는 가상 SDN 컨트롤러 설계\n2.2.3. 캐리어 네트워크 적용을 위한 컨트롤러 Southbound Interface (SBI) 확장 기술 설계\n▷ 네트워크 장비 데이터 플레인 추상화\nŸ OpenFlow 뿐만 아니라 확장된 SBI를 통해 다양한 프로토콜을 지원하도록 설계를",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          553.79,
+          429.85,
+          725.21
+        ],
+        "page_area_fraction": 0.0793
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          196.33,
+          244.53,
+          447.72,
+          345.58
+        ],
+        "page_area_fraction": 0.0508
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.56,
+          66.41,
+          491.62,
+          150.67
+        ],
+        "page_area_fraction": 0.0571
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0003",
+    "caption": "데이터 평면이 추상화 된 환경에서 패킷이 전달되는 형태",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "▷ 단말과 네트워크 하이퍼바이저 간 인증 모듈 설계\nŸ 무선 AP 가상화 지원을 위해 네트워크 하이퍼바이저에 필요한 자료구조 설계\nŸ 에너지를 고려한 무선 단말 인증 기법을 제공하는 가상 SDN 컨트롤러 설계\n2.2.3. 캐리어 네트워크 적용을 위한 컨트롤러 Southbound Interface (SBI) 확장 기술 설계\n▷ 네트워크 장비 데이터 플레인 추상화\nŸ OpenFlow 뿐만 아니라 확장된 SBI를 통해 다양한 프로토콜을 지원하도록 설계를\n진행",
+    "caption_and_following_text": "Ÿ 기존 존재하는 네트워크 하이퍼바이저21)에서 지원하지 않는 MPLS를 기반으로 한\n데이터 평면 추상화 기법을 설계\n그림 5. 데이터 평면이 추상화 된 환경에서 패킷이\n전달되는 형태\n▷ Protocol Abstraction Layer 설계\nŸ 기존 SBI를 확장하여 다양한 장비들의 동작을 추상화한 인터페이스를 정의함\n그림 6. Protocal Abstraction Layer\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          553.79,
+          429.85,
+          725.21
+        ],
+        "page_area_fraction": 0.0793
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          196.33,
+          244.53,
+          447.72,
+          345.58
+        ],
+        "page_area_fraction": 0.0508
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.56,
+          66.41,
+          491.62,
+          150.67
+        ],
+        "page_area_fraction": 0.0571
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0004",
+    "caption": "Protocal Abstraction Layer",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "2.2.3. 캐리어 네트워크 적용을 위한 컨트롤러 Southbound Interface (SBI) 확장 기술 설계\n▷ 네트워크 장비 데이터 플레인 추상화\nŸ OpenFlow 뿐만 아니라 확장된 SBI를 통해 다양한 프로토콜을 지원하도록 설계를\n진행\nŸ 기존 존재하는 네트워크 하이퍼바이저21)에서 지원하지 않는 MPLS를 기반으로 한\n데이터 평면 추상화 기법을 설계\n그림 5. 데이터 평면이 추상화 된 환경에서 패킷이",
+    "caption_and_following_text": "전달되는 형태\n▷ Protocol Abstraction Layer 설계\nŸ 기존 SBI를 확장하여 다양한 장비들의 동작을 추상화한 인터페이스를 정의함\n그림 6. Protocal Abstraction Layer\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          553.79,
+          429.85,
+          725.21
+        ],
+        "page_area_fraction": 0.0793
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          196.33,
+          244.53,
+          447.72,
+          345.58
+        ],
+        "page_area_fraction": 0.0508
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.56,
+          66.41,
+          491.62,
+          150.67
+        ],
+        "page_area_fraction": 0.0571
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0005",
+    "caption": "벤더 독립적 LISP 구성도",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 21 -\n▷ 벤더 독립적 MPLS, LISP S/W 설계",
+    "caption_and_following_text": "Ÿ 현존하는 OpenFlow스위치가 MPLS 프로토콜에 대한 지원할 수 있는 지 확인\nŸ 벤더에 의존적인 LISP 프로토콜을 사용할 수 있도록 LISP 기반의 스위치 소프트웨\n어를 설계함\n그림 7. 벤더 독립적 LISP 구성도\n▷ xSBI 검증용 웅용 소프트웨어 설계\nŸ xSBI 검증을 위한 LISP xTR 관련 시험 설계 완료\n그림 8. LISP SBI 기반 핸드오버\n그림 9. MPLS-TE SBI 기반의 장애우회\n2.2.4. SDN 가상 네트워크 기반 Traffic Engineering 알고리즘 설계\n▷ 트래픽/네트워크 모니터링 툴 설계",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.31,
+          519.39,
+          442.56,
+          704.35
+        ],
+        "page_area_fraction": 0.104
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          183.14,
+          271.86,
+          411.74,
+          436.08
+        ],
+        "page_area_fraction": 0.075
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.75,
+          152.11,
+          503.13,
+          230.39
+        ],
+        "page_area_fraction": 0.0643
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0006",
+    "caption": "LISP SBI 기반 핸드오버",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 21 -\n▷ 벤더 독립적 MPLS, LISP S/W 설계\nŸ 현존하는 OpenFlow스위치가 MPLS 프로토콜에 대한 지원할 수 있는 지 확인\nŸ 벤더에 의존적인 LISP 프로토콜을 사용할 수 있도록 LISP 기반의 스위치 소프트웨\n어를 설계함",
+    "caption_and_following_text": "그림 7. 벤더 독립적 LISP 구성도\n▷ xSBI 검증용 웅용 소프트웨어 설계\nŸ xSBI 검증을 위한 LISP xTR 관련 시험 설계 완료\n그림 8. LISP SBI 기반 핸드오버\n그림 9. MPLS-TE SBI 기반의 장애우회\n2.2.4. SDN 가상 네트워크 기반 Traffic Engineering 알고리즘 설계\n▷ 트래픽/네트워크 모니터링 툴 설계\nŸ 기존 비가상화 상황에서의 SDN 트래픽 모니터링 연구 분석 및 가상화 시 발생할\n수 있는 이슈를 기존 연구경험을 기반으로 분석함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.31,
+          519.39,
+          442.56,
+          704.35
+        ],
+        "page_area_fraction": 0.104
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          183.14,
+          271.86,
+          411.74,
+          436.08
+        ],
+        "page_area_fraction": 0.075
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.75,
+          152.11,
+          503.13,
+          230.39
+        ],
+        "page_area_fraction": 0.0643
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0007",
+    "caption": "MPLS-TE SBI 기반의 장애우회",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 21 -\n▷ 벤더 독립적 MPLS, LISP S/W 설계\nŸ 현존하는 OpenFlow스위치가 MPLS 프로토콜에 대한 지원할 수 있는 지 확인\nŸ 벤더에 의존적인 LISP 프로토콜을 사용할 수 있도록 LISP 기반의 스위치 소프트웨\n어를 설계함\n그림 7. 벤더 독립적 LISP 구성도",
+    "caption_and_following_text": "▷ xSBI 검증용 웅용 소프트웨어 설계\nŸ xSBI 검증을 위한 LISP xTR 관련 시험 설계 완료\n그림 8. LISP SBI 기반 핸드오버\n그림 9. MPLS-TE SBI 기반의 장애우회\n2.2.4. SDN 가상 네트워크 기반 Traffic Engineering 알고리즘 설계\n▷ 트래픽/네트워크 모니터링 툴 설계\nŸ 기존 비가상화 상황에서의 SDN 트래픽 모니터링 연구 분석 및 가상화 시 발생할\n수 있는 이슈를 기존 연구경험을 기반으로 분석함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.31,
+          519.39,
+          442.56,
+          704.35
+        ],
+        "page_area_fraction": 0.104
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          183.14,
+          271.86,
+          411.74,
+          436.08
+        ],
+        "page_area_fraction": 0.075
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.75,
+          152.11,
+          503.13,
+          230.39
+        ],
+        "page_area_fraction": 0.0643
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0008",
+    "caption": "제어평면 오버헤드를 줄이기 위한 네트워크 모니터링 기법 기존 연구 분석",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 22 -\n기법 연구사례\nOpenFlow의 Time-out 메커니즘을 이용하여 컨트롤러의 모니터링 오버헤드를 감소 FlowSense22), PayLess23)\n거대한 플로우를 식별하고 해당 플로우를 위주로 모니터링 OpenSample24), PayLess2)",
+    "caption_and_following_text": "개별 플로우를 묶어 모니터링 대상을 감소시킴 OpenSketch25)\n컨트롤러의 외부 Entity에 모니터링 오버헤드 전가\n(별도의 모니터링을 위한 서버 또는 호스트를 수정) MicroTE26)\n표 2. 제어평면 오버헤드를 줄이기 위한 네트워크 모니터링 기법 기존 연구 분석 Ÿ 가상화된 환경을 고려한 네트워크 모니터 플랫폼을 설계함\n그림 10. Monitoring platform for virtualized SDN\n▷ Dynamic 로드 밸런싱 알고리즘 설계\nŸ 기존 연구들에서 제안된 기법들을 분석하고 개선해야 할 지점을 정리함\nŸ 요구사항을 충족하기 위한 방식 및 알고리즘을 설계함\n그림 11. OpenFlow 기반의 데이터 평면 로드\n밸런싱 그림 12. SELECT 타입의 그룹 테이블",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.06,
+          410.19,
+          461.99,
+          581.36
+        ],
+        "page_area_fraction": 0.0958
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.51,
+          219.48,
+          315.67,
+          312.74
+        ],
+        "page_area_fraction": 0.0418
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          332.7,
+          202.94,
+          512.24,
+          316.21
+        ],
+        "page_area_fraction": 0.0406
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0009",
+    "caption": "Monitoring platform for virtualized SDN",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 22 -\n기법 연구사례\nOpenFlow의 Time-out 메커니즘을 이용하여 컨트롤러의 모니터링 오버헤드를 감소 FlowSense22), PayLess23)\n거대한 플로우를 식별하고 해당 플로우를 위주로 모니터링 OpenSample24), PayLess2)\n개별 플로우를 묶어 모니터링 대상을 감소시킴 OpenSketch25)",
+    "caption_and_following_text": "컨트롤러의 외부 Entity에 모니터링 오버헤드 전가\n(별도의 모니터링을 위한 서버 또는 호스트를 수정) MicroTE26)\n표 2. 제어평면 오버헤드를 줄이기 위한 네트워크 모니터링 기법 기존 연구 분석 Ÿ 가상화된 환경을 고려한 네트워크 모니터 플랫폼을 설계함\n그림 10. Monitoring platform for virtualized SDN\n▷ Dynamic 로드 밸런싱 알고리즘 설계\nŸ 기존 연구들에서 제안된 기법들을 분석하고 개선해야 할 지점을 정리함\nŸ 요구사항을 충족하기 위한 방식 및 알고리즘을 설계함\n그림 11. OpenFlow 기반의 데이터 평면 로드\n밸런싱 그림 12. SELECT 타입의 그룹 테이블\n▷ Fast-failover 알고리즘 설계",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.06,
+          410.19,
+          461.99,
+          581.36
+        ],
+        "page_area_fraction": 0.0958
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.51,
+          219.48,
+          315.67,
+          312.74
+        ],
+        "page_area_fraction": 0.0418
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          332.7,
+          202.94,
+          512.24,
+          316.21
+        ],
+        "page_area_fraction": 0.0406
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0010",
+    "caption": "OpenFlow 기반의 데이터 평면 로드 밸런싱",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "거대한 플로우를 식별하고 해당 플로우를 위주로 모니터링 OpenSample24), PayLess2)\n개별 플로우를 묶어 모니터링 대상을 감소시킴 OpenSketch25)\n컨트롤러의 외부 Entity에 모니터링 오버헤드 전가\n(별도의 모니터링을 위한 서버 또는 호스트를 수정) MicroTE26)\n표 2. 제어평면 오버헤드를 줄이기 위한 네트워크 모니터링 기법 기존 연구 분석 Ÿ 가상화된 환경을 고려한 네트워크 모니터 플랫폼을 설계함\n그림 10. Monitoring platform for virtualized SDN\n▷ Dynamic 로드 밸런싱 알고리즘 설계",
+    "caption_and_following_text": "Ÿ 기존 연구들에서 제안된 기법들을 분석하고 개선해야 할 지점을 정리함\nŸ 요구사항을 충족하기 위한 방식 및 알고리즘을 설계함\n그림 11. OpenFlow 기반의 데이터 평면 로드\n밸런싱 그림 12. SELECT 타입의 그룹 테이블\n▷ Fast-failover 알고리즘 설계\nŸ 본 연구에서 다루는 fast-failover는 가상 네트워크를 제어하는 컨트롤러가 가상\n네트워크를 대상으로 수행하는 failover임\nŸ 캐리어급 네트워크가 수용할 만한 수준의 데이터 평면 fast-failover 방식 설계\nŸ 제어 평면의 실패(failure)가 발생할 때 이를 복구할 수 있는 failover 방식 제안\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.06,
+          410.19,
+          461.99,
+          581.36
+        ],
+        "page_area_fraction": 0.0958
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.51,
+          219.48,
+          315.67,
+          312.74
+        ],
+        "page_area_fraction": 0.0418
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          332.7,
+          202.94,
+          512.24,
+          316.21
+        ],
+        "page_area_fraction": 0.0406
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0011",
+    "caption": "SELECT 타입의 그룹 테이블",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "거대한 플로우를 식별하고 해당 플로우를 위주로 모니터링 OpenSample24), PayLess2)\n개별 플로우를 묶어 모니터링 대상을 감소시킴 OpenSketch25)\n컨트롤러의 외부 Entity에 모니터링 오버헤드 전가\n(별도의 모니터링을 위한 서버 또는 호스트를 수정) MicroTE26)\n표 2. 제어평면 오버헤드를 줄이기 위한 네트워크 모니터링 기법 기존 연구 분석 Ÿ 가상화된 환경을 고려한 네트워크 모니터 플랫폼을 설계함\n그림 10. Monitoring platform for virtualized SDN\n▷ Dynamic 로드 밸런싱 알고리즘 설계",
+    "caption_and_following_text": "Ÿ 기존 연구들에서 제안된 기법들을 분석하고 개선해야 할 지점을 정리함\nŸ 요구사항을 충족하기 위한 방식 및 알고리즘을 설계함\n그림 11. OpenFlow 기반의 데이터 평면 로드\n밸런싱 그림 12. SELECT 타입의 그룹 테이블\n▷ Fast-failover 알고리즘 설계\nŸ 본 연구에서 다루는 fast-failover는 가상 네트워크를 제어하는 컨트롤러가 가상\n네트워크를 대상으로 수행하는 failover임\nŸ 캐리어급 네트워크가 수용할 만한 수준의 데이터 평면 fast-failover 방식 설계\nŸ 제어 평면의 실패(failure)가 발생할 때 이를 복구할 수 있는 failover 방식 제안\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.06,
+          410.19,
+          461.99,
+          581.36
+        ],
+        "page_area_fraction": 0.0958
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.51,
+          219.48,
+          315.67,
+          312.74
+        ],
+        "page_area_fraction": 0.0418
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          332.7,
+          202.94,
+          512.24,
+          316.21
+        ],
+        "page_area_fraction": 0.0406
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0012",
+    "caption": "데이터 평면 fast-failover",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 23 -\n그림 13. 데이터 평면 fast-failover 그림 14. 제어 평면에서의 traffic engineering\n▷ 슬라이스 간 장애 우회 알고리즘 설계\nŸ 기존의 Resiliency 관련 방식 분석 및 문제점 파악27): 가상화된 SDN에서는 각 가\n상 네트워크가 네트워크 하이퍼바이저를 통해 제공된다. 즉, 네트워크 하이퍼바이\n저는 물리 자원과 논리 자원 사이의 맵핑을 유지하며 물리 스위치에게는 컨트롤\n러, 가상 네트워크를 제어하는 컨트롤러에게는 물리 네트워크가 된다. Ÿ 개선된 장애 우회 방식 설계\n그림 15. Seamless Failover 구조도\n2.2.5. 분산형 컨트롤러 및 MPLS, LISP 프로토콜을 이용한 테스트베드 설계\n▷ 오픈플로우 switch, LISP xTR 시험 설계",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.16,
+          657.24,
+          323.47,
+          757.81
+        ],
+        "page_area_fraction": 0.0491
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          345.89,
+          653.89,
+          504.81,
+          775.91
+        ],
+        "page_area_fraction": 0.0388
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.42,
+          305.67,
+          451.68,
+          511.84
+        ],
+        "page_area_fraction": 0.139
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0013",
+    "caption": "제어 평면에서의 traffic engineering",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 23 -\n그림 13. 데이터 평면 fast-failover 그림 14. 제어 평면에서의 traffic engineering\n▷ 슬라이스 간 장애 우회 알고리즘 설계\nŸ 기존의 Resiliency 관련 방식 분석 및 문제점 파악27): 가상화된 SDN에서는 각 가\n상 네트워크가 네트워크 하이퍼바이저를 통해 제공된다. 즉, 네트워크 하이퍼바이\n저는 물리 자원과 논리 자원 사이의 맵핑을 유지하며 물리 스위치에게는 컨트롤\n러, 가상 네트워크를 제어하는 컨트롤러에게는 물리 네트워크가 된다. Ÿ 개선된 장애 우회 방식 설계\n그림 15. Seamless Failover 구조도\n2.2.5. 분산형 컨트롤러 및 MPLS, LISP 프로토콜을 이용한 테스트베드 설계\n▷ 오픈플로우 switch, LISP xTR 시험 설계",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.16,
+          657.24,
+          323.47,
+          757.81
+        ],
+        "page_area_fraction": 0.0491
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          345.89,
+          653.89,
+          504.81,
+          775.91
+        ],
+        "page_area_fraction": 0.0388
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.42,
+          305.67,
+          451.68,
+          511.84
+        ],
+        "page_area_fraction": 0.139
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0014",
+    "caption": "Seamless Failover 구조도",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 23 -\n그림 13. 데이터 평면 fast-failover 그림 14. 제어 평면에서의 traffic engineering\n▷ 슬라이스 간 장애 우회 알고리즘 설계\nŸ 기존의 Resiliency 관련 방식 분석 및 문제점 파악27): 가상화된 SDN에서는 각 가",
+    "caption_and_following_text": "상 네트워크가 네트워크 하이퍼바이저를 통해 제공된다. 즉, 네트워크 하이퍼바이\n저는 물리 자원과 논리 자원 사이의 맵핑을 유지하며 물리 스위치에게는 컨트롤\n러, 가상 네트워크를 제어하는 컨트롤러에게는 물리 네트워크가 된다. Ÿ 개선된 장애 우회 방식 설계\n그림 15. Seamless Failover 구조도\n2.2.5. 분산형 컨트롤러 및 MPLS, LISP 프로토콜을 이용한 테스트베드 설계\n▷ 오픈플로우 switch, LISP xTR 시험 설계\nŸ 1차년도의 경우 오픈소스 소프트웨어를 활용하여 OpenFlow 스위치를 활용하고\n있으며, 2차년도부터는 물리 스위치를 구매하여 테스트베드를 설계할 예정으로 관\n련 정보를 수집함\nŸ LISP xTR은 관련 오픈소스 소프트웨어 기반으로 테스트베드를 시험 설계하였으",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.16,
+          657.24,
+          323.47,
+          757.81
+        ],
+        "page_area_fraction": 0.0491
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          345.89,
+          653.89,
+          504.81,
+          775.91
+        ],
+        "page_area_fraction": 0.0388
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.42,
+          305.67,
+          451.68,
+          511.84
+        ],
+        "page_area_fraction": 0.139
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0015",
+    "caption": "네트워크 하이퍼바이저 비교",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "(VLAN) X X\nŸ 가상 네트워크별 고립이 완벽하게 보장\n되지 않음\nŸ 분산 네트워크 하이퍼바이저 구조\nŸ 실질적인 비교검증 불가\nOpenVirte\nX O △ X O",
+    "caption_and_following_text": "Ÿ FlowVisor 기반\nŸ 주소 가상화에 개선 여지가 존재함\nŸ 비교적 연구사례가 많음\n표 3 네트워크 하이퍼바이저 비교\n그림 16. 소프트웨어 기반 테스트베드 구축 상황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          201.25,
+          472.88,
+          442.92,
+          578.25
+        ],
+        "page_area_fraction": 0.0509
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0016",
+    "caption": "소프트웨어 기반 테스트베드 구축 상황",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 가상 네트워크별 고립이 완벽하게 보장\n되지 않음\nŸ 분산 네트워크 하이퍼바이저 구조\nŸ 실질적인 비교검증 불가\nOpenVirte\nX O △ X O\nŸ FlowVisor 기반",
+    "caption_and_following_text": "Ÿ 주소 가상화에 개선 여지가 존재함\nŸ 비교적 연구사례가 많음\n표 3 네트워크 하이퍼바이저 비교\n그림 16. 소프트웨어 기반 테스트베드 구축 상황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          201.25,
+          472.88,
+          442.92,
+          578.25
+        ],
+        "page_area_fraction": 0.0509
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0017",
+    "caption": "LISP 개념을 기반으로 하는 IP 주소 가상화 기법",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 32,
+    "prefix_match_only": false,
+    "text_before": "스위치 기반\n테스트베드 구현\nŸ 하드웨어 기반 오픈플로우 스위치 실험환경 구축\nŸ 실험을 위한 LISP 스위치 테스트베드 구축 달성\n2.3.2. 네트워크 하이퍼바이저 및 스위치 가상화 구현\n▷ 네트워크 하이퍼바이저 주소 가상화 개발\nŸ LISP 개념을 기반으로 한 IP 주소 가상화 기법 개발 완료",
+    "caption_and_following_text": "- 각 단말의 가상 주소를 인접 스위치의 물리 주소로 캡슐화하여 패킷을 전송\n- OpenVirteX에 주소 가상화 구현 및 OpenVSwitch 확장 (OpenFlow 1.0, 1.3\n기반 터널링 액션 구현)\n그림 17. LISP 개념을 기반으로 하는 IP 주소 가상화 기법\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.08,
+          102.13,
+          488.98,
+          267.07
+        ],
+        "page_area_fraction": 0.1101
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0018",
+    "caption": "SDN 컨트롤러를 통한 Docker 컨테이너를 동적으로 할당",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 가상 네트워크의 동적 자원 할당 지원\nŸ 가상 네트워크의 패킷 처리량에 따라 자원을 차등 할당하여 자원 활용율 최대화\n▷ 컨테이너 기반 가상스위치 개발\nŸ Docker를 활용한 컨테이너 기반 가상 스위치 개발 완료\nŸ 10G환경에서 Native, Linux Bridge, OpenVSwitch의 성능 비교 실험 및 분석 완료\n▷ 자원 고립 및 정책 할당 기술 개발\nŸ 가상 스위치 레벨에서의 자원 스케줄링을 통한 성능 제어",
+    "caption_and_following_text": "Ÿ Cgroup을 활용하여 가상 스위치 단위로 CPU, 메모리, 네트워크 자원 할당\nŸ 가상 스위치 단위 자원 고립 및 서로 다른 가상 네트워크에 따른 정책 할당 가능\n그림 18. SDN 컨트롤러를 통한 Docker 컨테이너를\n동적으로 할당\n2.3.3. 확장 Southbound Interface (SBI) 구현\n▷ MPLS 프로토콜 지원 기술 개발\nŸ 제어평면 (리베라 하이퍼바이저) - Openflowj 라이브러리 기반 오픈 플로우 버전 업그레이드 (1.1→1.3) - 가상 네트워크 플로우 단위 MPLS 라벨 할당\nŸ 데이터 평면 (OpenVSwitch) - 오픈플로우 v 1.3의 확장된 매치필드 활용\n▷ 벤더 독립적 LISP 프로토콜 개발\nŸ 제어평면 (리베라 하이퍼바이저) − 가상 네트워크 지원 맵핑서버 구축 − LISP의 헤더 encap/decap 동작을 위한 오픈 플로우 Action 구현",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          194.3,
+          432.49,
+          449.76,
+          600.66
+        ],
+        "page_area_fraction": 0.0859
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0019",
+    "caption": "LISP 프로토콜을 이용한 마이그레이션 예시",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 27 -\n그림 19. LISP 프로토콜을 이용한 마이그레이션 예시\n2.3.4. 트래픽 엔지니어링 구현(네트워크 하이퍼바이저)\n▷ 네트워크 모니터링 플랫폼 개발\nŸ 기존 연구를 개선한 프로토타입 개발 − 기존 기법의 문제점인 모니터링 정확성 문제를 해결하면서도 오버헤드 감소 − 선별적, 적응적 모니터링 기법 적용\nŸ 가상화, 비가상화 오버헤드 비교 분석 완료\n▷ 슬라이스 간 장애우회 알고리즘 개발\nŸ 네트워크의 트래픽 상태를 반영하는 슬라이스 간 장애우회 프로토타입 개발 − Link cost 계산 루틴 개발 − Link cost, disjoint path를 도출하는 라우팅 알고리즘 개선 − 장애 발생 시 Path cost를 통한 최적 대체자원 선택\nŸ 시나리오 기반 실험을 통해 구현물의 정상 동작 확인\n그림 20. 네트워크 하이퍼바이저에서의 트래픽",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.66,
+          533.54,
+          461.63,
+          784.42
+        ],
+        "page_area_fraction": 0.1399
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          206.29,
+          132.7,
+          437.88,
+          294.64
+        ],
+        "page_area_fraction": 0.075
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0020",
+    "caption": "네트워크 하이퍼바이저에서의 트래픽 엔지니어링 프로토타입",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 27 -\n그림 19. LISP 프로토콜을 이용한 마이그레이션 예시\n2.3.4. 트래픽 엔지니어링 구현(네트워크 하이퍼바이저)\n▷ 네트워크 모니터링 플랫폼 개발\nŸ 기존 연구를 개선한 프로토타입 개발 − 기존 기법의 문제점인 모니터링 정확성 문제를 해결하면서도 오버헤드 감소 − 선별적, 적응적 모니터링 기법 적용\nŸ 가상화, 비가상화 오버헤드 비교 분석 완료\n▷ 슬라이스 간 장애우회 알고리즘 개발",
+    "caption_and_following_text": "Ÿ 네트워크의 트래픽 상태를 반영하는 슬라이스 간 장애우회 프로토타입 개발 − Link cost 계산 루틴 개발 − Link cost, disjoint path를 도출하는 라우팅 알고리즘 개선 − 장애 발생 시 Path cost를 통한 최적 대체자원 선택\nŸ 시나리오 기반 실험을 통해 구현물의 정상 동작 확인\n그림 20. 네트워크 하이퍼바이저에서의 트래픽\n엔지니어링 프로토타입\n2.3.5. 스위치 기반 테스트베드 구현\n▷ 하드웨어 기반 오픈플로우 스위치 실험환경 구축\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.66,
+          533.54,
+          461.63,
+          784.42
+        ],
+        "page_area_fraction": 0.1399
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          206.29,
+          132.7,
+          437.88,
+          294.64
+        ],
+        "page_area_fraction": 0.075
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0021",
+    "caption": "하드웨어 기반의 오픈플로우 스위치 테스트베드 구축",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\nŸ 오픈플로우 v1.3 지원 델 10G 스위치 S4048 스위치 구입",
+    "caption_and_following_text": "Ÿ Rack 스케일의 노드 및 ToR 스위치로 구성된 실험환경 구축\nŸ 소프트웨어 기반 스위치 및 하드웨어 기반 오픈플로우 스위치를 이용한 다양한\n테스트 가능\n그림 21. 하드웨어 기반의 오픈플로우 스위치 테스트베드 구축\n▷ 실험을 위한 LISP 스위치 테스트베드 구축\nŸ LISP 기반 테스트베드 설계 및 새로운 노드에 대한 맵핑 정보 저장/업데이트 동작\n테스트\nŸ 마이그레이션이 이루어지는 상황에서 노드 간 통신 연결 테스트\n그림 22. LISP 테스트를 위한 소프트웨어 기반 환경 구축\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.47,
+          606.3,
+          471.71,
+          707.47
+        ],
+        "page_area_fraction": 0.0605
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          168.87,
+          359.25,
+          459.35,
+          486.55
+        ],
+        "page_area_fraction": 0.0739
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0022",
+    "caption": "LISP 테스트를 위한 소프트웨어 기반 환경 구축",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\nŸ 오픈플로우 v1.3 지원 델 10G 스위치 S4048 스위치 구입\nŸ Rack 스케일의 노드 및 ToR 스위치로 구성된 실험환경 구축\nŸ 소프트웨어 기반 스위치 및 하드웨어 기반 오픈플로우 스위치를 이용한 다양한\n테스트 가능\n그림 21. 하드웨어 기반의 오픈플로우 스위치 테스트베드 구축\n▷ 실험을 위한 LISP 스위치 테스트베드 구축",
+    "caption_and_following_text": "Ÿ LISP 기반 테스트베드 설계 및 새로운 노드에 대한 맵핑 정보 저장/업데이트 동작\n테스트\nŸ 마이그레이션이 이루어지는 상황에서 노드 간 통신 연결 테스트\n그림 22. LISP 테스트를 위한 소프트웨어 기반 환경 구축\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.47,
+          606.3,
+          471.71,
+          707.47
+        ],
+        "page_area_fraction": 0.0605
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          168.87,
+          359.25,
+          459.35,
+          486.55
+        ],
+        "page_area_fraction": 0.0739
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0023",
+    "caption": "OpenVirteX 대비 스위치별 물리 네트워크 플로우 룰의 수",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n그림 23. OpenVirteX 대비 스위치별 물리 네트워크 플로우 룰의 수\n▷ 100개 이상의 슬라이싱 지원과 자원 효율성 향상을 위한 가상 스위치 최적화 연구\nŸ 커널 수준 네트워크 스택\n- 네트워크 스택의 낮은 패킷 처리 성능으로 가상 스위치 성능 저하\n- 빠른 속도로 패킷이 유입되는 경우 메모리의 할당/해제가 반복 → 성능 저하\n발생\nŸ 사용자 수준 네트워크 스택\n- 커널을 거치지 않고 사용자 어플리케이션이 직접 패킷 처리, Intel의\nDPDK(Data Plane Development Kit)가 대표적",
+    "section_context_candidate": "2.4.2. 가상 네트워크 확장성 및 자원 효율성 증대를 위한 시스템 최적화 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.64,
+          623.44,
+          487.42,
+          769.08
+        ],
+        "page_area_fraction": 0.0963
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.91,
+          129.58,
+          473.27,
+          267.43
+        ],
+        "page_area_fraction": 0.0833
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0024",
+    "caption": "성능 비교 실험 결과",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "- 기존 커널의 네트워크 스택을 활용하지 못하는 문제 → 사용자 프로그램에\n네트워크 스택을 구현해야 함\nŸ 고성능 가상 스위치 개발 (KVS: Kernel-level virtual switch) - 실제 리눅스 커널 네트워크 스택과 가장 보편적인 가상 스위치인 OpenvSwitch\n를 기반으로 하여 다양한 기능 제공\n- 커널 레벨에서의 최적화를 통해 커널 수준의 보안성 유지\nŸ 실험 결과\n- 물리 머신 (Xeon E5-2650@2.6GHz, 2*hexa core, 48GB) 2대를 10GbE로 연결",
+    "caption_and_following_text": "하여 싱글 코어의 IP 패킷 포워딩 성능 측정\n- 실험 결과 Native 리눅스 대비 패킷 처리량 4배 향상\n- DPDK-OVS의 40% 성능수준\n그림 24. 성능 비교 실험 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.4.2. 가상 네트워크 확장성 및 자원 효율성 증대를 위한 시스템 최적화 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.64,
+          623.44,
+          487.42,
+          769.08
+        ],
+        "page_area_fraction": 0.0963
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.91,
+          129.58,
+          473.27,
+          267.43
+        ],
+        "page_area_fraction": 0.0833
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0025",
+    "caption": "트래픽 엔지니어링 플랫폼 구조",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 31 -\n2.4.3. 가상화된 SDN을 위한 통합 트래픽 엔지니어링 플랫폼 연구\n▷ 가상 네트워크 모니터링 기법 최적화\nŸ 기존연구: 가상네트워크에 대한 트래픽 엔지니어링 지원 없음",
+    "caption_and_following_text": "Ÿ 하이퍼바이저 수준 트래픽 엔지니어링 지원 필요\n- 가상 네트워크와 물리 네트워크의 토폴로지에 차이 존재 → 최적화 한계\n- 가상화 계층(하이퍼바이저)로 인한 병목\n그림 25. 트래픽 엔지니어링 플랫폼 구조\n▷ 가상 네트워크 지원을 위한 로드 밸런싱 기법 개발\nŸ 기존연구: 정적으로 물리자원-가상자원의 맵핑 → 물리 네트워크 변화 시 맵핑 변\n경 및 병목 대응 불가\n- 물리 네트워크 상태 변경 시 최적화 불가\n- 가상 네트워크의 효율적인 트래픽 분산 불가\nŸ 본 연구 목표: 자원 재할당을 통한 가상 자원의 처리량 향상",
+    "section_context_candidate": "2.4.3. 가상화된 SDN을 위한 통합 트래픽 엔지니어링 플랫폼 연구",
+    "heading_candidates": [
+      "2.4.3. 가상화된 SDN을 위한 통합 트래픽 엔지니어링 플랫폼 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          208.09,
+          485.59,
+          436.08,
+          670.79
+        ],
+        "page_area_fraction": 0.0844
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.92,
+          54.54,
+          488.14,
+          191.19
+        ],
+        "page_area_fraction": 0.0907
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0026",
+    "caption": "OVX대비 BLB기법이 적용된 네트워크 하이퍼바이저의 대역폭",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "저하 고려\nŸ 연구내용\n- Soft reallocation : Packet ordering을 고려하여 가상\n자원에 일정 시간동안 트래픽이 없을 때 물리자원 재할당\n- Hard reallocation: Starvation을 방지하기 위하여 일정\n주기로 물리자원 재할당\n- 재할당 시 네트워크 트래픽 변동 반영",
+    "caption_and_following_text": "Ÿ 실험 결과\n- 최적 성능이 50Mbps인 네트워크에서 30초에 병목 트래픽 발생 시, 본 기법은\n성공적으로 재할당을 수행\n그림 26. OVX대비 BLB기법이 적용된 네트워크 하이퍼바이저의 대역폭\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.4.3. 가상화된 SDN을 위한 통합 트래픽 엔지니어링 플랫폼 연구",
+    "heading_candidates": [
+      "2.4.3. 가상화된 SDN을 위한 통합 트래픽 엔지니어링 플랫폼 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          208.09,
+          485.59,
+          436.08,
+          670.79
+        ],
+        "page_area_fraction": 0.0844
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.92,
+          54.54,
+          488.14,
+          191.19
+        ],
+        "page_area_fraction": 0.0907
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0027",
+    "caption": "Path 가상화 방식",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "→ End-to-end Failover, 트래픽 엔지니어링 수행에 한계\nŸ 본 연구: Path 수준의 가상화 abstraction 정의 및 개발\n- 개별 플로우 룰로부터 컨트롤러가 결정한 End host 간의 경로를 추적\n- 트래픽 엔지니어링 정책(e.g. Failover 기능)에 따라 컨트롤러의 경로\n외에 추가 Traffic engineering 경로 생성\n- 물리 경로를 관리하고 플로우 룰 설치\nŸ Fast failover 기능",
+    "caption_and_following_text": "- 가상 경로 외 추가 Backup TE 설치\n- 물리 스위치 또는 링크의 장애 발생 시, 장애 지원과 맵핑된 가상 자원을 대\n체 물리 자원에 맵핑하여 복구\n그림 27. Path 가상화 방식\n2.4.3. 실험실 단위 테스트베드 구현\n▷ 소프트웨어 기반 가상 스위치 실험 환경 구축\nŸ 기 개발한 가상 스위치를 이용, 오픈소스 소프트웨어 스위치(OpenvSwitch) 실험\n환경 구축 완료\nŸ Line rate traffic generator (DPDK Pktgen)을 활용하여 소프트웨어 스위치 IP 포워\n딩 성능 측정 완료",
+    "section_context_candidate": "2.4.3. 가상화된 SDN을 위한 통합 트래픽 엔지니어링 플랫폼 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          201.61,
+          416.78,
+          442.56,
+          574.41
+        ],
+        "page_area_fraction": 0.0759
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0028",
+    "caption": "SDN 장비의 하이브리드 환경 구축",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 33 -\n그림 28. SDN 장비의 하이브리드 환경 구축\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.4.3. 가상화된 SDN을 위한 통합 트래픽 엔지니어링 플랫폼 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          147.16,
+          617.33,
+          509.37,
+          789.94
+        ],
+        "page_area_fraction": 0.1249
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0029",
+    "caption": "가상 스위치 패킷 포워딩 시 병목 분석",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 41,
+    "prefix_match_only": false,
+    "text_before": "2.5.2. 고성능 가상 스위치 개발\n▷ 가상 스위치의 고속 패킷 매치 지원을 위한 Hyper-mega cache 구조 개발\nŸ 가상 스위치의 패킷 포워딩 병목 개선 수행\n1) 가상 스위치의 패킷 포워딩 병목 분석: 패킷 포워딩 시 패킷 매치를 위한\nHashing이 병목\nŸ 해결책: Hyper-mega cache 구조 개발\n1) NIC에서 제공되는 RSS Hash값을 skb에 기입",
+    "caption_and_following_text": "2) 가상 스위치가 RSS hash 값을 사용할 수 있도록 동일한 해시 알고리즘\n(Toeplitz)을 구현\n그림 29. 가상 스위치 패킷 포워딩 시 병목\n분석\n그림 30. Hyper-mega cache 구조도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.5.2. 고성능 가상 스위치 개발",
+    "heading_candidates": [
+      "2.5.2. 고성능 가상 스위치 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          76.72,
+          267.7,
+          216.12
+        ],
+        "page_area_fraction": 0.056
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          289.64,
+          65.33,
+          524.48,
+          190.47
+        ],
+        "page_area_fraction": 0.0587
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0030",
+    "caption": "Hyper-mega cache 구조도",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 42,
+    "prefix_match_only": false,
+    "text_before": "▷ 가상 스위치의 고속 패킷 매치 지원을 위한 Hyper-mega cache 구조 개발\nŸ 가상 스위치의 패킷 포워딩 병목 개선 수행\n1) 가상 스위치의 패킷 포워딩 병목 분석: 패킷 포워딩 시 패킷 매치를 위한\nHashing이 병목\nŸ 해결책: Hyper-mega cache 구조 개발\n1) NIC에서 제공되는 RSS Hash값을 skb에 기입\n2) 가상 스위치가 RSS hash 값을 사용할 수 있도록 동일한 해시 알고리즘",
+    "caption_and_following_text": "(Toeplitz)을 구현\n그림 29. 가상 스위치 패킷 포워딩 시 병목\n분석\n그림 30. Hyper-mega cache 구조도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.5.2. 고성능 가상 스위치 개발",
+    "heading_candidates": [
+      "2.5.2. 고성능 가상 스위치 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          76.72,
+          267.7,
+          216.12
+        ],
+        "page_area_fraction": 0.056
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          289.64,
+          65.33,
+          524.48,
+          190.47
+        ],
+        "page_area_fraction": 0.0587
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0031",
+    "caption": "트래픽 엔지니어링 기능 통합 구조도",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "2) 플로우 룰을 모아 하나의 End-to-end 경로를 파악하는 기능을 구현\n3) 동적으로 제약 기반 라우팅 등을 수행하여 물리 경로를 설정\n4) 단일 가상 경로에 복수 물리 경로를 맵핑할 수 있도록 함\n5) 로드 밸런싱, Failover 등의 기능 통합에 용이\nŸ 로드 밸런싱 및 Failover 기능을 통합적으로 수행\n1) 3차년도까지 개발한 로드 밸런싱, Failover 기능을 경로 가상화 및 모니터링 기\n능과 통합",
+    "caption_and_following_text": "2) 경로 가상화 모듈 내에서 선별적으로 로드 밸런싱 및 Failover를 제공\n3) OpenFlow에서 제공하는 Group Table의 select 및 fast-failover type을 이용하여\n각 기능을 구현\n그림 31. 트래픽 엔지니어링 기능 통합 구조도\nŸ 트래픽 엔지니어링을 통한 성능 보장\n1) 성능 목표에 대응되는 트래픽 엔지니어링 기능 및 물리 네트워크에 필요한 정\n책을 구현\nŸ 제어 트래픽 차등화 기법\n1）테넌트별 제어 트래픽을 예측하는 모델 개발\n2) 개발된 모델의 컨트롤 트래픽 예측 정확도: 약 95.67%",
+    "section_context_candidate": "3) 동적으로 제약 기반 라우팅 등을 수행하여 물리 경로를 설정",
+    "heading_candidates": [
+      "3) 동적으로 제약 기반 라우팅 등을 수행하여 물리 경로를 설정",
+      "1) 3차년도까지 개발한 로드 밸런싱, Failover 기능을 경로 가상화 및 모니터링 기",
+      "1) 성능 목표에 대응되는 트래픽 엔지니어링 기능 및 물리 네트워크에 필요한 정",
+      "2) 개발된 모델의 컨트롤 트래픽 예측 정확도: 약 95.67%"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          199.33,
+          357.69,
+          444.72,
+          526.1
+        ],
+        "page_area_fraction": 0.0826
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.09,
+          76.96,
+          442.08,
+          227.15
+        ],
+        "page_area_fraction": 0.072
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0032",
+    "caption": "실제 트래픽 대비 예측값 비율",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "2) 경로 가상화 모듈 내에서 선별적으로 로드 밸런싱 및 Failover를 제공\n3) OpenFlow에서 제공하는 Group Table의 select 및 fast-failover type을 이용하여\n각 기능을 구현\n그림 31. 트래픽 엔지니어링 기능 통합 구조도\nŸ 트래픽 엔지니어링을 통한 성능 보장\n1) 성능 목표에 대응되는 트래픽 엔지니어링 기능 및 물리 네트워크에 필요한 정\n책을 구현",
+    "caption_and_following_text": "Ÿ 제어 트래픽 차등화 기법\n1）테넌트별 제어 트래픽을 예측하는 모델 개발\n2) 개발된 모델의 컨트롤 트래픽 예측 정확도: 약 95.67%\n그림 32. 실제 트래픽 대비 예측값 비율\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3) 동적으로 제약 기반 라우팅 등을 수행하여 물리 경로를 설정",
+    "heading_candidates": [
+      "3) 동적으로 제약 기반 라우팅 등을 수행하여 물리 경로를 설정",
+      "1) 3차년도까지 개발한 로드 밸런싱, Failover 기능을 경로 가상화 및 모니터링 기",
+      "1) 성능 목표에 대응되는 트래픽 엔지니어링 기능 및 물리 네트워크에 필요한 정",
+      "2) 개발된 모델의 컨트롤 트래픽 예측 정확도: 약 95.67%"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          199.33,
+          357.69,
+          444.72,
+          526.1
+        ],
+        "page_area_fraction": 0.0826
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.09,
+          76.96,
+          442.08,
+          227.15
+        ],
+        "page_area_fraction": 0.072
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0033",
+    "caption": "연구 기법의 설계",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 36 -\nŸ 트래픽 로드 밸런싱을 이용한 대역폭 보장 기법\n1) 물리 링크의 사용가능 대역폭 및 테넌트의 요구 대역폭을 기반으로 경로를 할\n당\n2) 각 테넌트의 대역폭 요구량이 서로 간섭 되지 않도록 복수 경로 계산. 단일 경\n로로 테넌트의 대역폭 요구량을 만족할 수 없는 경우 포함함",
+    "caption_and_following_text": "3) 주기적으로 네트워크 자원을 재할당함. 가상 경로에 맵핑된 물리 경로에 대해\n모니터링 수행하고, 모니터링 결과에 따라 로드 밸런싱 및 Failover를 위한 물리\n네트워크 자원을 재할당\n그림 33. 연구 기법의 설계\n▷ 가상 네트워크 플랫폼 응용 서비스 개발\nŸ 플랫폼 활용성을 높이기 위한 다양한 응용 서비스를 개발\nŸ Network snapshotting 기능 프로토타입\n1) 특정 시점에서 물리 네트워크에 설치된 플로우 룰을 저장 및 복원\n2) 플로우 룰을 가상 네트워크와 물리 네트워크 간 분리시키고, 각 네트워크 마다\n생성한 객체를 저장하고 맵핑하는 레이어 개발",
+    "section_context_candidate": "2) 개발된 모델의 컨트롤 트래픽 예측 정확도: 약 95.67%",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.97,
+          440.88,
+          399.03,
+          645.97
+        ],
+        "page_area_fraction": 0.082
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0034",
+    "caption": "테스트베드 구조도",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 37 -\n그림 34. 테스트베드 구조도 그림 35. White-box 스위치 구성\nŸ 하드웨어 테스트베드를 기반으로 주요 성능치 측정: VM 마이그레이션 시 네트워\n크 재설정 시간, 가상 스위치 포워딩 성능 검증\nŸ 하드웨어 테스트베드 하에서 네트워크 재설정 시간 측정\n1) 가상 머신을 다른 서버로 마이그레이션 발생시킴\n2) 가상 머신은 UDP 패킷을 송신하며 패킷의 전송 시간 간격을 변경하며 실험\n3) 실험 결과 패킷 손실이 발생하지 않으며 마이그레이션을 성공적으로 수행\n4) 플로우 룰 설치의 증가로 인해 소프트웨어 스위치에 비해 재설정 시간이 더 소\n모됨. 소프트웨어 시뮬레이션에 비해 약 4ms 증가",
+    "section_context_candidate": "3) 실험 결과 패킷 손실이 발생하지 않으며 마이그레이션을 성공적으로 수행",
+    "heading_candidates": [
+      "3) 실험 결과 패킷 손실이 발생하지 않으며 마이그레이션을 성공적으로 수행"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.07,
+          608.34,
+          319.51,
+          782.98
+        ],
+        "page_area_fraction": 0.0563
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.51,
+          608.09,
+          486.1,
+          784.42
+        ],
+        "page_area_fraction": 0.0587
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0035",
+    "caption": "White-box 스위치 구성",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 37 -\n그림 34. 테스트베드 구조도 그림 35. White-box 스위치 구성\nŸ 하드웨어 테스트베드를 기반으로 주요 성능치 측정: VM 마이그레이션 시 네트워\n크 재설정 시간, 가상 스위치 포워딩 성능 검증\nŸ 하드웨어 테스트베드 하에서 네트워크 재설정 시간 측정\n1) 가상 머신을 다른 서버로 마이그레이션 발생시킴\n2) 가상 머신은 UDP 패킷을 송신하며 패킷의 전송 시간 간격을 변경하며 실험\n3) 실험 결과 패킷 손실이 발생하지 않으며 마이그레이션을 성공적으로 수행\n4) 플로우 룰 설치의 증가로 인해 소프트웨어 스위치에 비해 재설정 시간이 더 소\n모됨. 소프트웨어 시뮬레이션에 비해 약 4ms 증가",
+    "section_context_candidate": "3) 실험 결과 패킷 손실이 발생하지 않으며 마이그레이션을 성공적으로 수행",
+    "heading_candidates": [
+      "3) 실험 결과 패킷 손실이 발생하지 않으며 마이그레이션을 성공적으로 수행"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.07,
+          608.34,
+          319.51,
+          782.98
+        ],
+        "page_area_fraction": 0.0563
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.51,
+          608.09,
+          486.1,
+          784.42
+        ],
+        "page_area_fraction": 0.0587
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0036",
+    "caption": "Single skb 동작방식",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 38,
+    "prefix_match_only": false,
+    "text_before": "검증\n달성\n2.6.2. 고성능 가상 스위치 및 네트워크 재설정 기술 최적화\n▷ 가상 스위치 커널 오브젝트 할당 기술 최적화\nŸ 가상스위치가 패킷 전송에 필요한 sk_buff 및 데이터 버퍼를 미리 할당하여 캐시\n미스를 줄이는 설계 및 개발 완료\nŸ 이는 고속 패킷 처리를 위한 메모리 할당 방식 개선에 해당됨(Single skb) - pkt buffer를 미리 할당하여 큐로 관리 및 재사용 → 메모리 할당/해제 오버",
+    "caption_and_following_text": "헤드 제거\n- 패킷의 정보를 담고 있는 sk_buff를 CPU별로 하나만 두고 재사용 → CPU\nL3 캐쉬 miss 감소\n그림 36. Single skb 동작방식\n▷ 네트워크 재설정 기술의 경로 관리 기법 복잡도 개선\nŸ 알고리즘의 순회에 소모되는 변수를 제외하고, 동기화 과정 최적화를 통해 O(1)\n복잡도를 갖도록 알고리즘 개선\nŸ 자체 평가를 통해 목표하는 네트워크 재설정 시간 달성\n- Linear 토폴로지: 스위치 수에 따른 호스트 이동 시간은 다음과 같음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3) 실험 결과 패킷 손실이 발생하지 않으며 마이그레이션을 성공적으로 수행",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          204.85,
+          155.11,
+          439.32,
+          271.02
+        ],
+        "page_area_fraction": 0.0543
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0037",
+    "caption": "ONF와의 협력관계 및 네트워크 가상화 솔루션 권한 위임",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "재설정 시간 35ms 39ms 43ms - 즉, 개선된 알고리즘을 통해 목표한 최종 성능을 달성하였음.\n2.6.3. 국가 테스트망 (KREONET) 및 글로벌 커뮤니티를 통한 플랫폼 실증\n▷ KREONET 테스트베드 네트워크 구축 및 소프트웨어 스위치 실증\nŸ 개발된 가상 스위치를 크레오넷 테스트베드와 연동하여 실제 네트워크에서의 성\n능 실증 완료\nŸ 약 5개의 크레오넷 홉을 거칠 때 64B 패킷 기준 76.43Mbps 달성\n- Linux pktgen, vnstat이용 측정, 각 10회 이상 반복 측정하여 평균값 산출",
+    "caption_and_following_text": "▷ ONF (Open Networking Foundation)로부터 OpenVirteX 소스코드 및 커뮤니티 이관, 운영\nŸ 연구개발물 공개를 위해 코드 governance, 공개 커뮤니티용 사이트의 소유자 권\n한을 모두 이양받고 2019년 2월부터 운영\n그림 37. ONF와의 협력관계 및 네트워크 가상화 솔루션 권한 위임\nŸ 2019년 6월 1일부터 2019년 11월 10일까지 24,482회 방문\n▷ OpenFlow 1.3 기반의 확장 SBI를 OpenVirteX를 기반으로 통합 개발 및 공개검증\nŸ 가장 연구적 수요가 높은 확장 SBI 연구를 코드 정리 이후 공식 Github를 통해 공\n개함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.6.3. 국가 테스트망 (KREONET) 및 글로벌 커뮤니티를 통한 플랫폼 실증",
+    "heading_candidates": [
+      "2.6.3. 국가 테스트망 (KREONET) 및 글로벌 커뮤니티를 통한 플랫폼 실증"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          204.61,
+          132.21,
+          455.52,
+          378.66
+        ],
+        "page_area_fraction": 0.1236
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0038",
+    "caption": "네트워크 하이퍼바이저에서 SAL의 구조",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "- SAL을 통해 이종의 SDN 컨트롤러가 이종의 SDN 지원\n스위치를 제어할 수 있는 하나의 통합 인터페이스를 제공\nŸ 스위치 추상화 계층 (SAL)\n1) 가상 플로우 테이블 설계\n- 이종의 하드웨어 지원을 위해 모든 종류의 매치 필드 액션을 수용 후\n스위치 특정 핸들러를 호출해 처리\n2) 스위치 특정 파이프라인 핸들러 설계",
+    "caption_and_following_text": "- 가상 플로우 테이블에서 수용한 가상 파이프라인을 스위치가 수용할 수\n있는 물리 파이프라인으로 변환 후 스위치에 전송\n그림 38. 네트워크 하이퍼바이저에서\nSAL의 구조\n2.6.5. 하드웨어 기반 테스트베드에서 시스템 안정화 및 검증\n▷ 플랫폼의 네트워크 스위치 구성별 제어 성능 측정\nŸ 실제 물리 토폴로지에서 안정적으로 동작\nŸ SDN 스위치에서 SAL 적용시 발생하는 지연 측정\n1) SAL에서 플로우 룰 처리 시작 시간부터 모든 물리 플로우 룰을\n전송하기까지 시간 측정",
+    "section_context_candidate": "2.6.4. 프로그래머블 데이터평면 기반 확장성 연구",
+    "heading_candidates": [
+      "2.6.4. 프로그래머블 데이터평면 기반 확장성 연구",
+      "2.6.5. 하드웨어 기반 테스트베드에서 시스템 안정화 및 검증"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          207.37,
+          313.58,
+          387.39,
+          516.88
+        ],
+        "page_area_fraction": 0.0731
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0039",
+    "caption": "물리 토폴로지 구성",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n그림 39. 물리 토폴로지 구성 그림 40. 가상 네트워크 토폴로지\n구성\n그림 41. SAL로 인한 추가\n지연\n▷ 기존 연구와 본 연구의 네트워크 제어 기능 비교 검증\nŸ SAL의 파이프라인 변환으로 설치된 플로우 룰\n1) 생성된 플로우 룰의 개수\n- OF-DPA는 VLAN 라우팅: 3개, L3 라우팅: 5개 생성, 나머지는 1개씩 생성\n2) 멀티 테이블 구조의 스위치(e,g. OF-DPA) 지원을 위해 발생하는 본질적인",
+    "section_context_candidate": "2.6.5. 하드웨어 기반 테스트베드에서 시스템 안정화 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          645.61,
+          215.04,
+          768.0
+        ],
+        "page_area_fraction": 0.038
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.08,
+          644.66,
+          389.79,
+          773.15
+        ],
+        "page_area_fraction": 0.0436
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          350.81,
+          642.62,
+          588.28,
+          784.42
+        ],
+        "page_area_fraction": 0.0673
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          353.97,
+          286.29,
+          469.17
+        ],
+        "page_area_fraction": 0.0529
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.81,
+          243.81,
+          285.21,
+          348.22
+        ],
+        "page_area_fraction": 0.0474
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.36,
+          245.61,
+          534.55,
+          458.14
+        ],
+        "page_area_fraction": 0.1012
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0040",
+    "caption": "가상 네트워크 토폴로지 구성",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n그림 39. 물리 토폴로지 구성 그림 40. 가상 네트워크 토폴로지\n구성\n그림 41. SAL로 인한 추가\n지연\n▷ 기존 연구와 본 연구의 네트워크 제어 기능 비교 검증\nŸ SAL의 파이프라인 변환으로 설치된 플로우 룰\n1) 생성된 플로우 룰의 개수\n- OF-DPA는 VLAN 라우팅: 3개, L3 라우팅: 5개 생성, 나머지는 1개씩 생성\n2) 멀티 테이블 구조의 스위치(e,g. OF-DPA) 지원을 위해 발생하는 본질적인",
+    "section_context_candidate": "2.6.5. 하드웨어 기반 테스트베드에서 시스템 안정화 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          645.61,
+          215.04,
+          768.0
+        ],
+        "page_area_fraction": 0.038
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.08,
+          644.66,
+          389.79,
+          773.15
+        ],
+        "page_area_fraction": 0.0436
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          350.81,
+          642.62,
+          588.28,
+          784.42
+        ],
+        "page_area_fraction": 0.0673
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          353.97,
+          286.29,
+          469.17
+        ],
+        "page_area_fraction": 0.0529
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.81,
+          243.81,
+          285.21,
+          348.22
+        ],
+        "page_area_fraction": 0.0474
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.36,
+          245.61,
+          534.55,
+          458.14
+        ],
+        "page_area_fraction": 0.1012
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0041",
+    "caption": "SAL로 인한 추가 지연",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 41 -",
+    "caption_and_following_text": "그림 39. 물리 토폴로지 구성 그림 40. 가상 네트워크 토폴로지\n구성\n그림 41. SAL로 인한 추가\n지연\n▷ 기존 연구와 본 연구의 네트워크 제어 기능 비교 검증\nŸ SAL의 파이프라인 변환으로 설치된 플로우 룰\n1) 생성된 플로우 룰의 개수\n- OF-DPA는 VLAN 라우팅: 3개, L3 라우팅: 5개 생성, 나머지는 1개씩 생성\n2) 멀티 테이블 구조의 스위치(e,g. OF-DPA) 지원을 위해 발생하는 본질적인\n지연",
+    "section_context_candidate": "2.6.5. 하드웨어 기반 테스트베드에서 시스템 안정화 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          645.61,
+          215.04,
+          768.0
+        ],
+        "page_area_fraction": 0.038
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.08,
+          644.66,
+          389.79,
+          773.15
+        ],
+        "page_area_fraction": 0.0436
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          350.81,
+          642.62,
+          588.28,
+          784.42
+        ],
+        "page_area_fraction": 0.0673
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          353.97,
+          286.29,
+          469.17
+        ],
+        "page_area_fraction": 0.0529
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.81,
+          243.81,
+          285.21,
+          348.22
+        ],
+        "page_area_fraction": 0.0474
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.36,
+          245.61,
+          534.55,
+          458.14
+        ],
+        "page_area_fraction": 0.1012
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0042",
+    "caption": "OVS(위)와 DELL(아래)에 설치된 물리 플로우 룰",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "그림 41. SAL로 인한 추가\n지연\n▷ 기존 연구와 본 연구의 네트워크 제어 기능 비교 검증\nŸ SAL의 파이프라인 변환으로 설치된 플로우 룰\n1) 생성된 플로우 룰의 개수\n- OF-DPA는 VLAN 라우팅: 3개, L3 라우팅: 5개 생성, 나머지는 1개씩 생성\n2) 멀티 테이블 구조의 스위치(e,g. OF-DPA) 지원을 위해 발생하는 본질적인",
+    "caption_and_following_text": "지연\n- 지연 시간은 라우팅을 위해 설치되는 플로우 룰의 개수와 비례\n그림 42. OVS(위)와 DELL(아래)에 설치된 물리\n플로우 룰\n그림 43. OF-DPA에 설치된 물리 플로우 룰\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.6.5. 하드웨어 기반 테스트베드에서 시스템 안정화 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          645.61,
+          215.04,
+          768.0
+        ],
+        "page_area_fraction": 0.038
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.08,
+          644.66,
+          389.79,
+          773.15
+        ],
+        "page_area_fraction": 0.0436
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          350.81,
+          642.62,
+          588.28,
+          784.42
+        ],
+        "page_area_fraction": 0.0673
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          353.97,
+          286.29,
+          469.17
+        ],
+        "page_area_fraction": 0.0529
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.81,
+          243.81,
+          285.21,
+          348.22
+        ],
+        "page_area_fraction": 0.0474
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.36,
+          245.61,
+          534.55,
+          458.14
+        ],
+        "page_area_fraction": 0.1012
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0043",
+    "caption": "OF-DPA에 설치된 물리 플로우 룰",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "지연\n▷ 기존 연구와 본 연구의 네트워크 제어 기능 비교 검증\nŸ SAL의 파이프라인 변환으로 설치된 플로우 룰\n1) 생성된 플로우 룰의 개수\n- OF-DPA는 VLAN 라우팅: 3개, L3 라우팅: 5개 생성, 나머지는 1개씩 생성\n2) 멀티 테이블 구조의 스위치(e,g. OF-DPA) 지원을 위해 발생하는 본질적인\n지연",
+    "caption_and_following_text": "- 지연 시간은 라우팅을 위해 설치되는 플로우 룰의 개수와 비례\n그림 42. OVS(위)와 DELL(아래)에 설치된 물리\n플로우 룰\n그림 43. OF-DPA에 설치된 물리 플로우 룰\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.6.5. 하드웨어 기반 테스트베드에서 시스템 안정화 및 검증",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          645.61,
+          215.04,
+          768.0
+        ],
+        "page_area_fraction": 0.038
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          220.08,
+          644.66,
+          389.79,
+          773.15
+        ],
+        "page_area_fraction": 0.0436
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          350.81,
+          642.62,
+          588.28,
+          784.42
+        ],
+        "page_area_fraction": 0.0673
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          353.97,
+          286.29,
+          469.17
+        ],
+        "page_area_fraction": 0.0529
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.81,
+          243.81,
+          285.21,
+          348.22
+        ],
+        "page_area_fraction": 0.0474
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.36,
+          245.61,
+          534.55,
+          458.14
+        ],
+        "page_area_fraction": 0.1012
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0044",
+    "caption": "공개된 Libera repository",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 최종 연구물 통합 개발 및 소스코드 공개\nŸ 개발된 원천기술에 대한 논문 및 특허 확보 달성\n2.7.2. OpenVirteX 오픈소스 커뮤니티 운영 및 연구결과 공개를 통한 검증, 원천기\n술 확보\n▷ 최종 연구물 OpenVirteX 통합 개발 및 소스코드 공개\nŸ 본 연구진은 연구성과의 파급력을 극대화하기 위하여, 오픈소스 네트워크 가상화\n솔루션을 운영하고 SDN 분야의 표준 및 레퍼런스 디자인을 주도하는 Open",
+    "caption_and_following_text": "Networking Foundation과 협력을 추진함\nŸ 5차년도 기존 오픈소스 소프트웨어의 commit 및 개선이 아닌, 본 연구과제의 결\n과물이 집약된 새로운 네트워크 하이퍼바이저 Libera 공개\n그림 44. 공개된 Libera repository\n그림 45. 최종 연구결과물이 공개된 공개소프트웨어 사이트\n▷ 개발된 원천기술에 대한 논문 및 특허 확보\nŸ 최종 네트워크 하이퍼바이저 프레임워크를 담은 논문이 IEEE Communications\nMagazine (SCIE JCR 랭킹 상위 2%, Impact factor 10.356)에 출판28)됨\nŸ 트래픽 엔지니어링 기술을 담은 논문이 한국연구재단 기준 SCIE인정 최우수 학술\n대회이자 Microsoft Academic 기준 Computer Network 분야 H-index 2위에 해당하",
+    "section_context_candidate": "2.7.2. OpenVirteX 오픈소스 커뮤니티 운영 및 연구결과 공개를 통한 검증, 원천기",
+    "heading_candidates": [
+      "2.7.2. OpenVirteX 오픈소스 커뮤니티 운영 및 연구결과 공개를 통한 검증, 원천기"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          286.37,
+          475.66,
+          479.6
+        ],
+        "page_area_fraction": 0.1248
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.34,
+          150.79,
+          449.76,
+          311.42
+        ],
+        "page_area_fraction": 0.0871
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0045",
+    "caption": "최종 연구결과물이 공개된 공개소프트웨어 사이트",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 개발된 원천기술에 대한 논문 및 특허 확보 달성\n2.7.2. OpenVirteX 오픈소스 커뮤니티 운영 및 연구결과 공개를 통한 검증, 원천기\n술 확보\n▷ 최종 연구물 OpenVirteX 통합 개발 및 소스코드 공개\nŸ 본 연구진은 연구성과의 파급력을 극대화하기 위하여, 오픈소스 네트워크 가상화\n솔루션을 운영하고 SDN 분야의 표준 및 레퍼런스 디자인을 주도하는 Open\nNetworking Foundation과 협력을 추진함",
+    "caption_and_following_text": "Ÿ 5차년도 기존 오픈소스 소프트웨어의 commit 및 개선이 아닌, 본 연구과제의 결\n과물이 집약된 새로운 네트워크 하이퍼바이저 Libera 공개\n그림 44. 공개된 Libera repository\n그림 45. 최종 연구결과물이 공개된 공개소프트웨어 사이트\n▷ 개발된 원천기술에 대한 논문 및 특허 확보\nŸ 최종 네트워크 하이퍼바이저 프레임워크를 담은 논문이 IEEE Communications\nMagazine (SCIE JCR 랭킹 상위 2%, Impact factor 10.356)에 출판28)됨\nŸ 트래픽 엔지니어링 기술을 담은 논문이 한국연구재단 기준 SCIE인정 최우수 학술\n대회이자 Microsoft Academic 기준 Computer Network 분야 H-index 2위에 해당하\n는 국제학술대회에 수락29)됨 (2020 IEEE International Conference on Computer",
+    "section_context_candidate": "2.7.2. OpenVirteX 오픈소스 커뮤니티 운영 및 연구결과 공개를 통한 검증, 원천기",
+    "heading_candidates": [
+      "2.7.2. OpenVirteX 오픈소스 커뮤니티 운영 및 연구결과 공개를 통한 검증, 원천기"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          286.37,
+          475.66,
+          479.6
+        ],
+        "page_area_fraction": 0.1248
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.34,
+          150.79,
+          449.76,
+          311.42
+        ],
+        "page_area_fraction": 0.0871
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0046",
+    "caption": "연구결과가 집약된 SCIE 최상위 학술지 논문",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 43 -\nCommunications) Ÿ 상기 학술대회 논문에 대해 국내 특허출원을 진행중이며, 완료되는 대로 미국 특\n허출원 진행 예정\n그림 46. 연구결과가 집약된 SCIE 최상위 학술지 논문\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2.7.2. OpenVirteX 오픈소스 커뮤니티 운영 및 연구결과 공개를 통한 검증, 원천기",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.0,
+          507.29,
+          487.18,
+          722.93
+        ],
+        "page_area_fraction": 0.1423
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0047",
+    "caption": "WBS 차트 작성 및 Tracking",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 44 -\n2-8. SW 품질관리계획 추진 내용\n▷ 본 연구는 SW세부품질관리계획을 구축하고, 매년 연구주제 및 연구성과에 부합하도\n록 점검하면서 수행되었음. ▷ 구체적으로 계획 대비 수행 내용은 다음과 같음\nŸ SW품질관리 교육 참석(2015년 5월 29일)을 통한 품질제고 기법 및 연구 추진방향",
+    "caption_and_following_text": "수립\nŸ IITP에서 지원하는 SW품질관리 컨설팅을 받아, 품질관리의 기틀을 준비함 (2015\n년) Ÿ WBS 차트를 통한 연구진행 및 품질 관리 수행\n그림 47. WBS 차트 작성 및 Tracking\nŸ 요구사항 정의서 작성 및 주기적 확인을 통한 품질관리 추진\n그림 48. 요구사항 정의서 작성 및 관리\nŸ cppcheck, nsiqcppstyle 등의 도구를 활용한 코드 정적분석 수행\n그림 49. cppcheck 예시 그림 50. nsiqcppstyle 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-8. SW 품질관리계획 추진 내용",
+    "heading_candidates": [
+      "2-8. SW 품질관리계획 추진 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          492.54,
+          520.04,
+          610.37
+        ],
+        "page_area_fraction": 0.1048
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          267.19,
+          515.6,
+          438.84
+        ],
+        "page_area_fraction": 0.1512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.19,
+          12.47,
+          577.85,
+          276.06
+        ],
+        "page_area_fraction": 0.2537
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.8,
+          138.09,
+          505.05,
+          212.65
+        ],
+        "page_area_fraction": 0.0318
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0048",
+    "caption": "요구사항 정의서 작성 및 관리",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 44 -\n2-8. SW 품질관리계획 추진 내용\n▷ 본 연구는 SW세부품질관리계획을 구축하고, 매년 연구주제 및 연구성과에 부합하도\n록 점검하면서 수행되었음. ▷ 구체적으로 계획 대비 수행 내용은 다음과 같음\nŸ SW품질관리 교육 참석(2015년 5월 29일)을 통한 품질제고 기법 및 연구 추진방향\n수립\nŸ IITP에서 지원하는 SW품질관리 컨설팅을 받아, 품질관리의 기틀을 준비함 (2015",
+    "caption_and_following_text": "년) Ÿ WBS 차트를 통한 연구진행 및 품질 관리 수행\n그림 47. WBS 차트 작성 및 Tracking\nŸ 요구사항 정의서 작성 및 주기적 확인을 통한 품질관리 추진\n그림 48. 요구사항 정의서 작성 및 관리\nŸ cppcheck, nsiqcppstyle 등의 도구를 활용한 코드 정적분석 수행\n그림 49. cppcheck 예시 그림 50. nsiqcppstyle 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-8. SW 품질관리계획 추진 내용",
+    "heading_candidates": [
+      "2-8. SW 품질관리계획 추진 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          492.54,
+          520.04,
+          610.37
+        ],
+        "page_area_fraction": 0.1048
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          267.19,
+          515.6,
+          438.84
+        ],
+        "page_area_fraction": 0.1512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.19,
+          12.47,
+          577.85,
+          276.06
+        ],
+        "page_area_fraction": 0.2537
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.8,
+          138.09,
+          505.05,
+          212.65
+        ],
+        "page_area_fraction": 0.0318
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0049",
+    "caption": "cppcheck 예시",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "▷ 본 연구는 SW세부품질관리계획을 구축하고, 매년 연구주제 및 연구성과에 부합하도\n록 점검하면서 수행되었음. ▷ 구체적으로 계획 대비 수행 내용은 다음과 같음\nŸ SW품질관리 교육 참석(2015년 5월 29일)을 통한 품질제고 기법 및 연구 추진방향\n수립\nŸ IITP에서 지원하는 SW품질관리 컨설팅을 받아, 품질관리의 기틀을 준비함 (2015\n년) Ÿ WBS 차트를 통한 연구진행 및 품질 관리 수행\n그림 47. WBS 차트 작성 및 Tracking",
+    "caption_and_following_text": "Ÿ 요구사항 정의서 작성 및 주기적 확인을 통한 품질관리 추진\n그림 48. 요구사항 정의서 작성 및 관리\nŸ cppcheck, nsiqcppstyle 등의 도구를 활용한 코드 정적분석 수행\n그림 49. cppcheck 예시 그림 50. nsiqcppstyle 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-8. SW 품질관리계획 추진 내용",
+    "heading_candidates": [
+      "2-8. SW 품질관리계획 추진 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          492.54,
+          520.04,
+          610.37
+        ],
+        "page_area_fraction": 0.1048
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          267.19,
+          515.6,
+          438.84
+        ],
+        "page_area_fraction": 0.1512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.19,
+          12.47,
+          577.85,
+          276.06
+        ],
+        "page_area_fraction": 0.2537
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.8,
+          138.09,
+          505.05,
+          212.65
+        ],
+        "page_area_fraction": 0.0318
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0050",
+    "caption": "nsiqcppstyle 예시",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "▷ 본 연구는 SW세부품질관리계획을 구축하고, 매년 연구주제 및 연구성과에 부합하도\n록 점검하면서 수행되었음. ▷ 구체적으로 계획 대비 수행 내용은 다음과 같음\nŸ SW품질관리 교육 참석(2015년 5월 29일)을 통한 품질제고 기법 및 연구 추진방향\n수립\nŸ IITP에서 지원하는 SW품질관리 컨설팅을 받아, 품질관리의 기틀을 준비함 (2015\n년) Ÿ WBS 차트를 통한 연구진행 및 품질 관리 수행\n그림 47. WBS 차트 작성 및 Tracking",
+    "caption_and_following_text": "Ÿ 요구사항 정의서 작성 및 주기적 확인을 통한 품질관리 추진\n그림 48. 요구사항 정의서 작성 및 관리\nŸ cppcheck, nsiqcppstyle 등의 도구를 활용한 코드 정적분석 수행\n그림 49. cppcheck 예시 그림 50. nsiqcppstyle 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-8. SW 품질관리계획 추진 내용",
+    "heading_candidates": [
+      "2-8. SW 품질관리계획 추진 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          492.54,
+          520.04,
+          610.37
+        ],
+        "page_area_fraction": 0.1048
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.96,
+          267.19,
+          515.6,
+          438.84
+        ],
+        "page_area_fraction": 0.1512
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.19,
+          12.47,
+          577.85,
+          276.06
+        ],
+        "page_area_fraction": 0.2537
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          291.8,
+          138.09,
+          505.05,
+          212.65
+        ],
+        "page_area_fraction": 0.0318
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I07-V0051",
+    "caption": "상세한 연구진행 기록 및 주기 점검 시행",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 45 -\nŸ 주차별, 월별, 분기별 연구노트 작성 및 연구수행 점검 수행\n그림 51. 상세한 연구진행 기록 및 주기 점검 시행\nŸ Git을 통한 코드 형상관리 수행\n− 코드 리뷰 과정을 반영하여, 1) 코드 리뷰 이전의 개발물 관리 repository,\n2) 코드 리뷰 이후의 개발물 이관 repository, 3) 최종 기능 통합 네트워크\n가상화 플랫폼 repository으로 구분하여 관리\n− 기능 개발용 repository: 브랜치 23개, commit 1,252회\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 코드 리뷰 이후의 개발물 이관 repository, 3) 최종 기능 통합 네트워크",
+    "heading_candidates": [
+      "2) 코드 리뷰 이후의 개발물 이관 repository, 3) 최종 기능 통합 네트워크"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.96,
+          566.26,
+          486.22,
+          753.62
+        ],
+        "page_area_fraction": 0.1229
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

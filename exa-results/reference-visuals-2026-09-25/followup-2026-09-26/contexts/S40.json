@@ -1,0 +1,6083 @@
+[
+  {
+    "visual_id": "S40-V0001",
+    "caption": "세계 농업 로봇 시장 규모 예측(Tractica)",
+    "pdf_page_candidate": 5,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 5 -\n1. 연구개발과제의 개요\n○ 농작업의 자동화, 무인화를 위한 농업로봇 개발 요구는 계속해서 커지고 있으며, 이와 더불어\n농업 로봇의 세계 시장 규모도 계속해서 확대되고 있음\n○ 농업 로봇의 도입 목적은 노동력 감소, 투입 비용 절감, 작업자 안전 확보, 생산성 향상,\n기후 변화 대응, 농산물 안전성 및 품질 확보 등으로 나타남",
+    "caption_and_following_text": "○ 세계 농업 로봇 시장 규모는 2024년에 740억달러를 넘어 2025년에는 870억달러에 달할 것으로\n예상됨(Tractica)\n* 농업 로봇 포함 항목 : 무인작업기, 무인항공기, 토양 관리, 작물 관리, 축산 관리 등\n그림 2. 세계 농업 로봇 시장 규모 예측(Tractica)\n○ 농업 로봇 개발의 핵심 기술 중 하나인 객체 인식 기술은 자연광, 장애물, 대상 겹침 등 주변\n환경의 영향을 많이 받아 알고리즘 구현이 어렵고, 인식 결과에서 높은 정확도를 확보하기가\n어려운 실정임\n○ 이에, 작물 전체와 작물의 특성에 따른 부분 객체(잎, 과실, 화방 등)의 정확한 인식을 위해\n영상 획득 방안부터 영상처리 기술 및 인공지능 기반 인식 기술 개발까지 농업 로봇의 전반\n적인 인식 기술에 대한 연구개발이 절실한 상황임",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [
+      "1. 연구개발과제의 개요"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.8,
+          381.57,
+          458.64,
+          576.45
+        ],
+        "page_area_fraction": 0.1252
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0002",
+    "caption": "국내 작물별 재배 농가 수 및 재배 면적(통계청, 2021)",
+    "pdf_page_candidate": 8,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "<세부목표1> 인공지능 기반 시설 작물의 주요 생육지표 인식 알고리즘 개발\n□ 시설 작물의 형태학적 특성 조사 및 주요 영상 인식 객체 선정\n○ 인공지능 기반 객체 인식 알고리즘 개발을 위한 대상 작물 선정\n- 농작물생산조사(통계청, 2021) 자료에 따르면 작물의 국내 재배 농가 수는 고추가\n27,984 농가로 가장 많고 그 뒤를 이어 딸기(8,247), 상추(7,308), 수박(6,934), 배추\n(6,628) 등으로 확인됨\n- 같은 자료에서 시설 작물의 재배 면적은 수박이 8,957ha로 가장 넓었으며 그 뒤를 이",
+    "caption_and_following_text": "어 딸기(5,634ha), 토마토(5,521ha), 오이(3,652ha), 참외(3,409ha) 등으로 확인됨\n- 따라서 시설 작물의 국내 재배 농가 수와 재배 면적 및 추후 연구개발 내용의 적용성\n을 고려하여 대상 작물을 딸기로 선정함\n그림 2. 국내 작물별 재배 농가 수 및 재배 면적(통계청, 2021)\n○ 딸기 주요 생장 기관의 형태학적 특성 분석 및 인식 객체 선정\n- 우리나라에서 재배되는 주요 품종(장희, 매향, 설향, 금향, 대왕)에 대해 형태학적 특\n성을 분석하였음(표 1)\n- 품종에 따라 차이가 발생할 수 있으나 딸기는 반개장형(초형의 한 종류로 초형이 중간\n형태를 띰), 직립형 식물체로 엽형(옆의 형태적인 구분으로 엽장과 엽폭에 기반해 조\n사됨)은 원형, 타원형 및 장타원형에 가까운 작물임",
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+    "heading_candidates": [
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+      "1) 연구 수행 결과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          391.41,
+          481.92,
+          479.25
+        ],
+        "page_area_fraction": 0.0647
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          303.57,
+          481.92,
+          391.41
+        ],
+        "page_area_fraction": 0.0647
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0003",
+    "caption": "딸기의 품종별 형태학적 특성(농업기술길잡이 40, 2019)",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 9 -\n을 보임\n표 1. 딸기의 품종별 형태학적 특성(농업기술길잡이 40, 2019)\n품종 초형 초세 엽형 과형 과색 꽃 수\n(개/화방)\n경도\n(∅)\n엽수\n평균\n과중",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.24,
+          201.33,
+          498.72,
+          423.33
+        ],
+        "page_area_fraction": 0.1783
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0004",
+    "caption": "딸기 재배 중 자동화가 필요한 농작업과 그 대상 객체 모식도",
+    "pdf_page_candidate": 9,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 20,
+    "prefix_match_only": false,
+    "text_before": "설향 반개장형 강 타원형 원추형 선홍 15.6 176 - 14.7\n금향 반개장형 강 원형 원추형 진홍 9.7 - - 16.3\n대왕 직립형 매우 강 장타원형 원추형 선홍 12.7 302 9.9 17.7\n- 분석된 형태학적 특성과 함께 추후 농작업의 자동화 및 무인화(모니터링, 수확, 적엽,\n적화 등) 기술 개발에 활용 가능한 대상을 인식 객체로 선정하고자 하였음\n- 따라서, 과실, 노엽, 꽃, 런너를 중점 인식 객체로 선정함\n・ 과실 : 수확 시기 모니터링 및 수확을 위한 유무 및 숙과 인식",
+    "caption_and_following_text": "・ 노엽 : 노엽 제거를 위한 정상 잎과 노엽 구분\n・ 꽃 : 적화 및 수정 시기 모니터링을 위한 유무 인식\n・ 런너 : 주기적인 런너 모니터링 및 제거를 위한 유무 인식\n그림 3. 딸기 재배 중 자동화가 필요한 농작업과 그 대상 객체 모식도\n□ 관행 객체 인식 기술 특성 분석 및 로봇 적용 가능성 구명\n○ 관행 객체 인식 기술 특성 분석\n- 객체 인식 기술은 농업을 포함한 다양한 산업 분야에서 안면 인식, 사물 인식 등 수많\n은 알고리즘이 활용되고 있음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.24,
+          201.33,
+          498.72,
+          423.33
+        ],
+        "page_area_fraction": 0.1783
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0005",
+    "caption": "Color threshold 알고리즘 예시",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "*\nb\n*\n, HSV, YCbCr 등)의 문턱값(Threshold)을 기준으로 영상을 이진화하고, 비교적\n단순한 모폴로지 연산을 추가하여 최종적으로 인식 대상만 추출하는 고전적이고 가장\n단순한 객체 인식 기술임\n- Color threshold 알고리즘은 타 알고리즘과 다르게 별도의 학습 과정이 요구되지 않으",
+    "caption_and_following_text": "며, 낮은 Computing 자원으로도 빠르고 간단하게 결과를 확인할 수 있는 장점이 있으\n나, 데이터 취득 시 환경(광 조건) 변화에 크게 영향을 받고, 배경과 관심 대상의 색\n상 차이가 뚜렷하지 않으면 인식 결과가 상당히 낮은 단점이 있음\n그림 4. Color threshold 알고리즘 예시\n- 두 번째 객체 인식 알고리즘은 Viola-Jones 알고리즘으로 2000년대 초반에 안면 인식\n을 위해 제안되었음\n- 해당 알고리즘은 총 4가지 형태로 구성된 직사각형의 Haar 필터를 이용해 영상을 필터\n링하여 Feature를 추출하는 방식이며, 연산 과정에서 연산 속도를 극대화하기 위해\nIntegral image 연산을 도입했고 Feature selection의 속도와 성능을 확보하기 위해\nAdaBoost 알고리즘을 활용함",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.44,
+          342.93,
+          510.0,
+          485.49
+        ],
+        "page_area_fraction": 0.1208
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0006",
+    "caption": "Viola-Jones 알고리즘 관련 예시(Viola & Jones, 2001)",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 11 -\n그림 5. Viola-Jones 알고리즘 관련 예시(Viola & Jones, 2001)\n- 세 번째 Aggregate channel features 알고리즘은 2010년대에 제안됐으며 두 번째 알고\n리즘과 유사하게 Multi-view 안면 인식을 위해 활용되고 있음\n- Input 영상의 RGB 채널을 Extended image channels로 확장하는 개념을 도입한 특징이\n있으며 색상 정보를 포함하는 3개 채널과 Gradient magnitude 1개 채널, Gradient\nhistograms 6개 채널로 구성됨\n- Gradient magnitude 채널은 영상에서의 기울기 값 즉, Gradient의 크기를 영상에 표시\n한 결과로 값이 클수록 해당 위치에서의 Intensity 변화가 크다는 것을 의미하며 이는\n영상 내 Boundary나 Edge 부분일 확률이 상당히 높음을 의미함",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.36,
+          618.93,
+          495.84,
+          767.01
+        ],
+        "page_area_fraction": 0.1172
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.08,
+          217.17,
+          459.12,
+          335.49
+        ],
+        "page_area_fraction": 0.0763
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0007",
+    "caption": "Aggregate channel features 알고리즘 분석 흐름도 예시(Yang 등, 2014)",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "histograms 6개 채널로 구성됨\n- Gradient magnitude 채널은 영상에서의 기울기 값 즉, Gradient의 크기를 영상에 표시\n한 결과로 값이 클수록 해당 위치에서의 Intensity 변화가 크다는 것을 의미하며 이는\n영상 내 Boundary나 Edge 부분일 확률이 상당히 높음을 의미함\n- 총 6개의 Gradient histograms 채널은 Gradient의 각기 다른 방향에서 수행한 결과값\n으로 영상 내 Intensity의 방향성을 확인할 수 있는 채널의 영상임\n- 또한, Number of weak classifiers를 통해 기계학습의 인식 결과를 최대로 활용하고자",
+    "caption_and_following_text": "했으며 Multi-scale 이미지를 도입해 Scale에 대한 강점을 확보하고자 하였음\n- 앞선 2종류의 알고리즘과 비교했을 때 분석에 대한 소요 시간이 더 필요하며 별도의\nNegative 데이터를 구성해야 하는 단점이 있음\n그림 6. Aggregate channel features 알고리즘 분석 흐름도 예시(Yang 등, 2014)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.36,
+          618.93,
+          495.84,
+          767.01
+        ],
+        "page_area_fraction": 0.1172
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.08,
+          217.17,
+          459.12,
+          335.49
+        ],
+        "page_area_fraction": 0.0763
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0008",
+    "caption": "꽃, 과실 및 노엽 인식을 위한 Color threshold 기반 Decision tree",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 12 -\n○ 관행 객체 인식 기술 비교 분석 및 농업 로봇 적용 가능성 구명\n- Color threshold 알고리즘의 Decision tree는 그림 7과 같이 표현할 수 있음\n그림 7. 꽃, 과실 및 노엽 인식을 위한 Color threshold 기반 Decision tree\n- 해당 채널의 특정 Intensity 값을 문턱값으로 설정하고 해당 값보다 크고 작음을 판단\n해 잎, 배경, 노이즈를 제거하여 최종적으로 꽃과 과실 및 노엽의 영역을 X, Y 좌표값\n으로 연산하고 그 영역을 직사각형 Box로 표시함\n- 또한 단계적으로 Decision tree를 수행했을 때 그림 8, 9, 10과 같이 객체 인식의 중\n간 결과를 확인함\n그림 8. Color threshold 기반 꽃 인식 결과 예시",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.2,
+          662.61,
+          521.76,
+          714.21
+        ],
+        "page_area_fraction": 0.0462
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.2,
+          611.01,
+          521.76,
+          662.61
+        ],
+        "page_area_fraction": 0.0462
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.2,
+          559.41,
+          521.76,
+          611.01
+        ],
+        "page_area_fraction": 0.0462
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.2,
+          508.29,
+          521.76,
+          559.41
+        ],
+        "page_area_fraction": 0.0458
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.28,
+          188.13,
+          481.68,
+          386.61
+        ],
+        "page_area_fraction": 0.1459
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0009",
+    "caption": "Color threshold 기반 꽃 인식 결과 예시",
+    "pdf_page_candidate": 12,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 12 -\n○ 관행 객체 인식 기술 비교 분석 및 농업 로봇 적용 가능성 구명\n- Color threshold 알고리즘의 Decision tree는 그림 7과 같이 표현할 수 있음\n그림 7. 꽃, 과실 및 노엽 인식을 위한 Color threshold 기반 Decision tree\n- 해당 채널의 특정 Intensity 값을 문턱값으로 설정하고 해당 값보다 크고 작음을 판단\n해 잎, 배경, 노이즈를 제거하여 최종적으로 꽃과 과실 및 노엽의 영역을 X, Y 좌표값",
+    "caption_and_following_text": "으로 연산하고 그 영역을 직사각형 Box로 표시함\n- 또한 단계적으로 Decision tree를 수행했을 때 그림 8, 9, 10과 같이 객체 인식의 중\n간 결과를 확인함\n그림 8. Color threshold 기반 꽃 인식 결과 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.2,
+          662.61,
+          521.76,
+          714.21
+        ],
+        "page_area_fraction": 0.0462
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.2,
+          611.01,
+          521.76,
+          662.61
+        ],
+        "page_area_fraction": 0.0462
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.2,
+          559.41,
+          521.76,
+          611.01
+        ],
+        "page_area_fraction": 0.0462
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.2,
+          508.29,
+          521.76,
+          559.41
+        ],
+        "page_area_fraction": 0.0458
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.28,
+          188.13,
+          481.68,
+          386.61
+        ],
+        "page_area_fraction": 0.1459
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0010",
+    "caption": "Color threshold 기반 과실 인식 결과 예시",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 13 -\n그림 9. Color threshold 기반 과실 인식 결과 예시\n그림 10. Color threshold 기반 노엽 인식 결과 예시\n- Viola-Jones 알고리즘 기반 꽃, 과실 및 노엽의 인식 결과의 일부를 그림 11에 나타내\n었음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.28,
+          568.53,
+          481.68,
+          767.01
+        ],
+        "page_area_fraction": 0.1459
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0011",
+    "caption": "Color threshold 기반 노엽 인식 결과 예시",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 13 -\n그림 9. Color threshold 기반 과실 인식 결과 예시\n그림 10. Color threshold 기반 노엽 인식 결과 예시\n- Viola-Jones 알고리즘 기반 꽃, 과실 및 노엽의 인식 결과의 일부를 그림 11에 나타내\n었음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.28,
+          568.53,
+          481.68,
+          767.01
+        ],
+        "page_area_fraction": 0.1459
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0012",
+    "caption": "Viola-Jones 알고리즘 기반 꽃, 과실 및 노엽 인식 결과 예시",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 14 -\n그림 11. Viola-Jones 알고리즘 기반 꽃, 과실 및 노엽 인식 결과 예시\n- Aggregate channel features 알고리즘을 구현하면서 적용한 꽃과 과실 및 노엽 Input\n데이터에 대한 Extended image channels 일부 결과를 그림 12에 나타내었음\n- Gradient 값의 변화에 따라 강조되는 영역이 다르게 나타남을 확인할 수 있었으며 생\n성된 10장의 Image channel을 사용해 학습을 수행함\n- 3종류의 관행 객체 인식 알고리즘의 성능을 시각적으로 비교하고자 학습에 사용되지\n않은 영상에 대해 수행한 객체별 인식 결과를 그림 13, 14, 15에 나타내었음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.92,
+          681.33,
+          497.28,
+          767.01
+        ],
+        "page_area_fraction": 0.0683
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.92,
+          595.65,
+          497.28,
+          681.33
+        ],
+        "page_area_fraction": 0.0683
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.92,
+          509.97,
+          497.28,
+          595.65
+        ],
+        "page_area_fraction": 0.0683
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.92,
+          425.01,
+          497.28,
+          509.97
+        ],
+        "page_area_fraction": 0.0677
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0013",
+    "caption": "Aggregate channel features 알고리즘 내 Extended image channels 결과 예시",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 15 -\n그림 12. Aggregate channel features 알고리즘 내 Extended image channels 결과 예시\n그림 13. 관행 객체 인식 알고리즘별 꽃 인식 결과 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.96,
+          581.01,
+          472.08,
+          767.01
+        ],
+        "page_area_fraction": 0.137
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.96,
+          395.25,
+          472.08,
+          581.01
+        ],
+        "page_area_fraction": 0.1368
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          283.89,
+          496.08,
+          344.13
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          223.65,
+          496.08,
+          283.89
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          163.41,
+          496.08,
+          223.65
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          103.17,
+          496.08,
+          163.41
+        ],
+        "page_area_fraction": 0.0477
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0014",
+    "caption": "관행 객체 인식 알고리즘별 꽃 인식 결과 비교",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 15 -\n그림 12. Aggregate channel features 알고리즘 내 Extended image channels 결과 예시\n그림 13. 관행 객체 인식 알고리즘별 꽃 인식 결과 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.96,
+          581.01,
+          472.08,
+          767.01
+        ],
+        "page_area_fraction": 0.137
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.96,
+          395.25,
+          472.08,
+          581.01
+        ],
+        "page_area_fraction": 0.1368
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          283.89,
+          496.08,
+          344.13
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          223.65,
+          496.08,
+          283.89
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          163.41,
+          496.08,
+          223.65
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          103.17,
+          496.08,
+          163.41
+        ],
+        "page_area_fraction": 0.0477
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0015",
+    "caption": "관행 객체 인식 알고리즘별 과실 인식 결과 비교",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 16 -\n그림 14. 관행 객체 인식 알고리즘별 과실 인식 결과 비교\n그림 15. 관행 객체 인식 알고리즘별 노엽 인식 결과 비교\n- Color threshold 알고리즘은 색상 기반의 결과에 강인하기 때문에 숙성도가 뚜렷하게\n나타나는 빨간 과실에서 인식 정확도가 높았으며, Scale 변화에도 강인한 결과가 나타\n났으나 관심 객체와 비슷한 색상의 대상을 오인식하여 전체적인 정확도는 낮게 나타남\n- Viola-Jones 알고리즘과 Aggregate channel features 알고리즘의 결과에서는 상대적으\n로 Scale에 대한 성능이 확보되기 어려웠으나 색상이 비슷한 대상 사이에서도 관심 객\n체를 인식하는 경향이 관측됨\n- 또한, 3종류 알고리즘의 정량적인 인식 결과를 비교하고자 학습에 활용되지 않은 객체",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          706.77,
+          496.08,
+          767.01
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          646.53,
+          496.08,
+          706.77
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          586.29,
+          496.08,
+          646.53
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          526.05,
+          496.08,
+          586.29
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          416.85,
+          496.08,
+          477.09
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          356.61,
+          496.08,
+          416.85
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          296.37,
+          496.08,
+          356.61
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          236.13,
+          496.08,
+          296.37
+        ],
+        "page_area_fraction": 0.0477
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0016",
+    "caption": "관행 객체 인식 알고리즘별 노엽 인식 결과 비교",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 16 -\n그림 14. 관행 객체 인식 알고리즘별 과실 인식 결과 비교\n그림 15. 관행 객체 인식 알고리즘별 노엽 인식 결과 비교\n- Color threshold 알고리즘은 색상 기반의 결과에 강인하기 때문에 숙성도가 뚜렷하게\n나타나는 빨간 과실에서 인식 정확도가 높았으며, Scale 변화에도 강인한 결과가 나타\n났으나 관심 객체와 비슷한 색상의 대상을 오인식하여 전체적인 정확도는 낮게 나타남\n- Viola-Jones 알고리즘과 Aggregate channel features 알고리즘의 결과에서는 상대적으\n로 Scale에 대한 성능이 확보되기 어려웠으나 색상이 비슷한 대상 사이에서도 관심 객\n체를 인식하는 경향이 관측됨\n- 또한, 3종류 알고리즘의 정량적인 인식 결과를 비교하고자 학습에 활용되지 않은 객체",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          706.77,
+          496.08,
+          767.01
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          646.53,
+          496.08,
+          706.77
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          586.29,
+          496.08,
+          646.53
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          526.05,
+          496.08,
+          586.29
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          416.85,
+          496.08,
+          477.09
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          356.61,
+          496.08,
+          416.85
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          296.37,
+          496.08,
+          356.61
+        ],
+        "page_area_fraction": 0.0477
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.12,
+          236.13,
+          496.08,
+          296.37
+        ],
+        "page_area_fraction": 0.0477
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0017",
+    "caption": "관행 객체 인식 알고리즘별 꽃 인식 결과 비교",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 17 -\n별 20장의 테스트 데이터를 사용하여 3종류 알고리즘의 인식 정확도를 비교하였음\n표 2. 관행 객체 인식 알고리즘별 꽃 인식 결과 비교\nAlgorithm Ground truth True positive Detection rate False positive Precision\nColor threshold\n73\n61 83.6% 28 0.685\nViola-Jones 33 45.2% 44 0.429\nACF 47 64.4% 15 0.758\n- 꽃이 포함된 20장의 테스트 데이터에서 전체 객체 수(Ground truth)는 73개로 파악됐",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0018",
+    "caption": "관행 객체 인식 알고리즘별 과실 인식 결과 비교",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "- 꽃이 포함된 20장의 테스트 데이터에서 전체 객체 수(Ground truth)는 73개로 파악됐\n으며 꽃의 Detection rate는 알고리즘별(Color threshold, Viola-Jones, Aggregate\nchannel features) 83.6, 45.2, 64.4%로 확인됐고, Precision은 각각 0.685, 0.429,\n0.758로 확인됨(표 2)\n- 꽃의 특성상 배경(잎, 줄기, 과실, 온실 구조물 등)과 색상의 차이가 확실한 부분(꽃\n암수술)이 존재해 Color threshold의 Detection rate가 높게 나타났으나, 배경 내 꽃\n과 비슷한 색상의 물체가 존재하면 꽃으로 인식되는 현상이 발견되어 Precision은",
+    "caption_and_following_text": "Aggregate channel features 알고리즘에 비해 낮게 나타남\n- Detection rate와 Precision을 함께 고려하면 Aggregate channel features 알고리즘이\n꽃 인식에 상대적으로 적합하다고 판단됨\n표 3. 관행 객체 인식 알고리즘별 과실 인식 결과 비교\nAlgorithm Ground truth True positive Detection rate False positive Precision\nColor threshold\n47\n18 38.3% 9 0.667\nViola-Jones 20 42.5% 68 0.227\nACF 37 78.7% 25 0.597",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0019",
+    "caption": "관행 객체 인식 알고리즘별 노엽 인식 결과 비교",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 18 -\n표 4. 관행 객체 인식 알고리즘별 노엽 인식 결과 비교\nAlgorithm Ground truth True positive Detection rate False positive Precision\nColor threshold\n56\n25 44.6% 110 0.185\nViola-Jones 27 46.6% 103 0.208\nACF 35 62.5% 129 0.213\n- 노엽이 포함된 20장의 테스트 데이터에서 전체 객체 수(Ground truth)는 56개로 파악\n됐으며 노엽의 Detection rate는 알고리즘별(Color threshold, Viola-Jones,",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0020",
+    "caption": "첨단디지털온실(위), 테스트베드(가운데) 및 농가(아래)에서 취득한 RGB 영상 예시",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 19 -\n그림 16. 첨단디지털온실(위), 테스트베드(가운데) 및 농가(아래)에서 취득한 RGB 영상 예시\n○ 딸기 영상 데이터 취득 방안\n- 영상 데이터 취득에 사용될 RGB 영상 센서는 아래와 같은 사용 조건을 바탕으로 GoPro\nHERO10(GoPro Inc., USA)을 선정하였음\n・ 온실 내 영상 데이터 취득 환경을 고려하여 별도의 컴퓨터 연결이 필요 없는 RGB\n영상 센서\n・ 고품질 데이터 취득을 위한 고해상도(UHD) 영상 취득 지원\n・ 휴대성 및 현장 조작성이 우수한 RGB 영상 센서\n표 5. GoPro 카메라 사양",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.48,
+          522.93,
+          504.72,
+          767.01
+        ],
+        "page_area_fraction": 0.2017
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.16,
+          192.21,
+          242.16,
+          343.17
+        ],
+        "page_area_fraction": 0.0524
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0021",
+    "caption": "GoPro 카메라",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 19 -\n그림 16. 첨단디지털온실(위), 테스트베드(가운데) 및 농가(아래)에서 취득한 RGB 영상 예시\n○ 딸기 영상 데이터 취득 방안\n- 영상 데이터 취득에 사용될 RGB 영상 센서는 아래와 같은 사용 조건을 바탕으로 GoPro\nHERO10(GoPro Inc., USA)을 선정하였음\n・ 온실 내 영상 데이터 취득 환경을 고려하여 별도의 컴퓨터 연결이 필요 없는 RGB",
+    "caption_and_following_text": "영상 센서\n・ 고품질 데이터 취득을 위한 고해상도(UHD) 영상 취득 지원\n・ 휴대성 및 현장 조작성이 우수한 RGB 영상 센서\n표 5. GoPro 카메라 사양\n구분 사양\n해상도\n최대 23MP(사진)\n최대 5.3K(동영상)\n렌즈 타입\n광각, 리니어, SuperView,",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.48,
+          522.93,
+          504.72,
+          767.01
+        ],
+        "page_area_fraction": 0.2017
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.16,
+          192.21,
+          242.16,
+          343.17
+        ],
+        "page_area_fraction": 0.0524
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0022",
+    "caption": "GoPro 카메라 사양",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 19 -\n그림 16. 첨단디지털온실(위), 테스트베드(가운데) 및 농가(아래)에서 취득한 RGB 영상 예시\n○ 딸기 영상 데이터 취득 방안\n- 영상 데이터 취득에 사용될 RGB 영상 센서는 아래와 같은 사용 조건을 바탕으로 GoPro\nHERO10(GoPro Inc., USA)을 선정하였음\n・ 온실 내 영상 데이터 취득 환경을 고려하여 별도의 컴퓨터 연결이 필요 없는 RGB",
+    "caption_and_following_text": "영상 센서\n・ 고품질 데이터 취득을 위한 고해상도(UHD) 영상 취득 지원\n・ 휴대성 및 현장 조작성이 우수한 RGB 영상 센서\n표 5. GoPro 카메라 사양\n구분 사양\n해상도\n최대 23MP(사진)\n최대 5.3K(동영상)\n렌즈 타입\n광각, 리니어, SuperView,",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.48,
+          522.93,
+          504.72,
+          767.01
+        ],
+        "page_area_fraction": 0.2017
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.16,
+          192.21,
+          242.16,
+          343.17
+        ],
+        "page_area_fraction": 0.0524
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0023",
+    "caption": "생육단계에 따른 데이터베이스 예시와 적용 가능한 농작업 내용",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 21 -\n표 6. 생육단계에 따른 데이터베이스 예시와 적용 가능한 농작업 내용\n구분 및 취득일 필요 작업\n적용 가능성\n높은 농작업 영상 데이터 예시\n정식후\n보온개시 직후\n(22. 07. 06.)\n적엽, 노엽 제거,\n런너 제거",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          635.01,
+          522.96,
+          717.33
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          550.05,
+          522.96,
+          632.37
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          465.09,
+          522.96,
+          547.41
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          379.89,
+          522.96,
+          462.21
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          294.93,
+          522.96,
+          377.25
+        ],
+        "page_area_fraction": 0.0247
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0024",
+    "caption": "취득 장소에 따른 RGB 영상 데이터 취득 사항",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 33,
+    "prefix_match_only": false,
+    "text_before": "비대·성숙기\n(22. 08. 03.)\n(22. 08. 10.)\n런너 제거 런너 제거\n수확기\n(22. 08. 24.)\n수확, 런너 제거,",
+    "caption_and_following_text": "노엽 제거\n수확, 런너 제\n거, 노엽 제거\n표 7. 취득 장소에 따른 RGB 영상 데이터 취득 사항\n취득 장소 RGB 영상 취득 기간 취득 횟수 재배지 특징\n첨단디지털온실 2022.7.6. ∼ 2023.4.13. 14회 COCO배지, 고설베드\n테스트베드 2023.3.8. ∼ 2023.3.14. 3회 녹색멀칭, 고설베드\n농가 2023.12.4. ∼ 2023.12.20. 3회 상토, 행잉베드\n○ 인공지능 학습용 Dataset 구축\n- 일부 관행 객체 인식 기술에서도 객체의 Labeling 작업이 필요하듯 Labeling 작업은",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          635.01,
+          522.96,
+          717.33
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          550.05,
+          522.96,
+          632.37
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          465.09,
+          522.96,
+          547.41
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          379.89,
+          522.96,
+          462.21
+        ],
+        "page_area_fraction": 0.0247
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          372.72,
+          294.93,
+          522.96,
+          377.25
+        ],
+        "page_area_fraction": 0.0247
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0025",
+    "caption": "Labelme 소프트웨어를 사용해 수행한 Labeling 예시",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 22 -\n수행하였음\n- 일반적으로 2차원 영상에서는 객체를 포함할 수 있는 가장 작은 Box의 좌표를 포함하\n는 Bounding box style과 객체의 외각 테두리 정보를 전부 포함하는 Polygon style로\nLabeling이 가능함\n- Polygon style의 Labeling 방식은 영상 내 객체 위치 정보와 형태적 특성 정보를 포함\n할 수 있고, 좌표값을 이용해 Bounding box를 계산할 수 있다는 점에서 활용도가 높지",
+    "caption_and_following_text": "만 많은 작업 시간과 노동력이 필요함\n- 본 연구에서는 객체의 위치 추론과 추후 농업 로봇의 작업 또는 정밀한 모니터링 작업\n에 활용성이 높도록 Polygon style로 Labeling을 수행하였음\n그림 18. Labelme 소프트웨어를 사용해 수행한 Labeling 예시\n- Labeling 작업 시 작업자의 주관적인 판단을 최소화하기 위해 아래와 같은 특징을 가\n진 객체에 대해 일괄적인 작업이 가능하도록 작업 기준 및 객체의 클래스를 설정하였\n음\n・ 영상 내 2개 이상의 베드가 포함된 경우 추후 농작업 자동화를 고려하여 물리적으\n로 작업이 가능한 영상 센서와 가까운 베드의 객체만을 대상으로 함(그림 19)\n・ 영상 내 작물과 함께 촬영된 24개의 기준 색상을 포함한 Color checker(ColorChecker",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.96,
+          344.85,
+          524.4,
+          608.61
+        ],
+        "page_area_fraction": 0.2376
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0026",
+    "caption": "영상 내 2개 이상의 베드가 포함된 경우에 대한 Labeling 예시",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "상으로 ‘노엽’으로 Labeling 클래스를 부여하였음\n・ 숙과 객체를 대상으로 식별 가능한 꽃자루에 대해 ‘수확지점’으로 Labeling 클래\n스를 부여하였음\n・ 영상 취득 각도에 따라서 형태적 특성이 숙과, 미숙과로 명확히 구분되지 않는 경\n우에 대해 ‘미식별과’로 Labeling 클래스를 부여하였음\n・ 자묘 번식을 위해 기는줄기 형태로 발생하는 객체에 대해 ‘런너’로 Labeling 클\n래스를 부여하였음",
+    "caption_and_following_text": "- 최종적으로 본 연구에서 RGB 영상 내에서 인공지능 기반 인식 대상은 8종류(컬러 체\n커, 꽃, 미숙과, 숙과, 노엽, 수확지점, 미식별과, 런너)의 클래스로 구분하였고 그\n예시를 그림 20에 나타내었음\n그림 19. 영상 내 2개 이상의 베드가 포함된 경우에 대한 Labeling 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.04,
+          360.93,
+          529.92,
+          538.29
+        ],
+        "page_area_fraction": 0.1645
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0027",
+    "caption": "클래스가 부여된 (a)컬러 체커, (b)꽃, (c)숙과, (d)미숙과, (e)노엽, (f의 노란색 박스) 수확지점, (g)미식별과, (h)런너 객체 예시",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 24 -\n그림 20. 클래스가 부여된 (a)컬러 체커, (b)꽃, (c)숙과, (d)미숙과, (e)노엽, (f의 노란색 박스)\n수확지점, (g)미식별과, (h)런너 객체 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.0,
+          634.53,
+          510.96,
+          767.01
+        ],
+        "page_area_fraction": 0.1129
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.0,
+          502.05,
+          510.96,
+          634.53
+        ],
+        "page_area_fraction": 0.1129
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.0,
+          369.57,
+          510.96,
+          502.05
+        ],
+        "page_area_fraction": 0.1129
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.0,
+          237.09,
+          510.96,
+          369.57
+        ],
+        "page_area_fraction": 0.1129
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.0,
+          104.61,
+          510.96,
+          237.09
+        ],
+        "page_area_fraction": 0.1129
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0028",
+    "caption": "인공지능 학습용 데이터 내 클래스별 객체 분포",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 25 -\n- 앞서 선별된 인공지능 학습용 Raw 데이터 전체에 대해 Labeling이 수행된 후 클래스별\n객체 수는 표 8과 같음\n표 8. 인공지능 학습용 데이터 내 클래스별 객체 분포\n컬러 체커 꽃 숙과 미숙과 노엽 수확지점 미식별과 런너\n객체 수 591 2,610 937 6,792 769 666 1,635 112\n- 앞서 설명한 바와 같이 Labeling 작업에 소요되는 시간을 단축하고자 Autodistill 알\n고리즘을 사용하여 자동으로 Labeling을 수행하고자 하였음\n- Autodistill의 특징은 다음과 같음\n・ 대규모 데이터로 훈련된 모델을 이용하여 증류된 모델을 출력하는 알고리즘",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.28,
+          345.09,
+          844.32,
+          422.13
+        ],
+        "page_area_fraction": 0.1105
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0029",
+    "caption": "꽃, 노엽, 숙과 및 미숙과에 대해 입력한 온톨로지 예시",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "・ 대규모 데이터로 훈련된 모델을 이용하여 증류된 모델을 출력하는 알고리즘\n・ 본 연구에서는 GroundedSAM 알고리즘에 온톨로지를 입력함으로써, 온톨로지에 서술\n된 설명 텍스트를 해석하고, 해석과 대응하여 유사성이 높은 영상 내 위치에\nLabeling을 수행하는 과정으로 진행됨\n・ 온톨로지 : 텍스트 캡션이 포함된 기본 모델 표시 및 클래스 이름에 맵핑함\n・ GroundedSAM : 입력된 텍스트를 이용해 인식 및 분할 작업을 수행할 수 있으며,\nGrounded DINO 알고리즘과 SAM 알고리즘을 결함함",
+    "caption_and_following_text": "・ Grounded DINO : 영상과 텍스트를 입력으로 텍스트와 높은 유사성을 가진 객체를\n인식하는 알고리즘\n・ SAM : 영상 segmentation 작업에 대한 Foundation model\n그림 21. 꽃, 노엽, 숙과 및 미숙과에 대해 입력한 온톨로지 예시\n- 꽃, 미숙과, 숙과에 대해 Autodistill 알고리즘을 적용한 결과는 다음과 같음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          125.28,
+          345.09,
+          844.32,
+          422.13
+        ],
+        "page_area_fraction": 0.1105
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0030",
+    "caption": "원본(위) 영상에 대한 Autodistill을 이용한 Labeling 결과(가운데) 및 Ground truth(아래)",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 26 -\n그림 22. 원본(위) 영상에 대한 Autodistill을 이용한 Labeling 결과(가운데) 및 Ground truth(아래)\n- 영상 내 명확한 형태로 표현된 객체에 대해서는 자동 Labeling이 잘 수행됐으나 객체\n의 폐색이 존재하거나 포함된 객체가 명확하게 표현되지 않는 각도로 존재하는 경우\n자동 Labeling이 불가능함을 확인하였음\n- 해당 알고리즘이 영상 내 모든 객체에 대한 Labeling 작업을 대신할 수 없지만,\nAutodistill이 적용된 Labeling에 대해 높은 정확도와 정밀도를 보이기 때문에 수작업\n으로 수행되는 전체 작업량의 일부에 적용할 수 있다고 판단됨\n- Labeling 완료 후 인공지능 학습을 위해 Training, Validation 및 Test에 각각 72,\n18, 10% 비율로 무작위하게 영상 데이터를 나누었으며 각 Dataset 내 영상 수와 객체",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.08,
+          660.69,
+          482.88,
+          767.01
+        ],
+        "page_area_fraction": 0.0787
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.08,
+          554.61,
+          482.88,
+          660.69
+        ],
+        "page_area_fraction": 0.0785
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0031",
+    "caption": "Training, Validation 및 Test dataset 구성 정보",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "자동 Labeling이 불가능함을 확인하였음\n- 해당 알고리즘이 영상 내 모든 객체에 대한 Labeling 작업을 대신할 수 없지만,\nAutodistill이 적용된 Labeling에 대해 높은 정확도와 정밀도를 보이기 때문에 수작업\n으로 수행되는 전체 작업량의 일부에 적용할 수 있다고 판단됨\n- Labeling 완료 후 인공지능 학습을 위해 Training, Validation 및 Test에 각각 72,\n18, 10% 비율로 무작위하게 영상 데이터를 나누었으며 각 Dataset 내 영상 수와 객체\n의 수는 다음과 같음(표 9)",
+    "caption_and_following_text": "- Labeling 정보의 포맷은 간편한 변환을 위해 CSV 포맷의 파일로 모든 정보를 저장하였\n으며 이때, CSV 파일은 영상 파일명, 객체명, Bounding box 좌표, Polygon 좌표, 영상\n높이, 너비 정보로 구성됨\n표 9. Training, Validation 및 Test dataset 구성 정보\n구분 Training Validation Test\n영상 데이터 수 786 197 110\n컬러 체커 411 112 68\n꽃 1,808 472 330\n숙과 688 174 75\n미숙과 4,909 1,218 665",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.08,
+          660.69,
+          482.88,
+          767.01
+        ],
+        "page_area_fraction": 0.0787
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.08,
+          554.61,
+          482.88,
+          660.69
+        ],
+        "page_area_fraction": 0.0785
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0032",
+    "caption": "Precision과 Recall을 구하는 수식",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 28 -\n그림 23. Precision과 Recall을 구하는 수식\n- YOLO v8 segmentation 알고리즘은 구성되는 가중치의 크기에 따라 5가지(n, s, m, l,\nx) 구조를 포함하고 있으며 본 연구에서 구현된 5가지 구조의 알고리즘 구성 Layer 수\n와 s 구조에 대한 학습파라미터 수의 비를 표 10에 나타내었음\n표 10. YOLO v8 segmentation 알고리즘의 5가지 구조에 따른 특성 비교\n구분 n s m l x\nLayer 수 261 261 331 401 401\n파라미터 수 비율 0.277 1 2.311 3.896 6.085\n- YOLO v8 segmentation 알고리즘의 구조별 인식 성능 비교 결과, 표 11에 나타나듯이",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0033",
+    "caption": "YOLO v8 segmentation 알고리즘의 5가지 구조에 따른 특성 비교",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 28 -\n그림 23. Precision과 Recall을 구하는 수식",
+    "caption_and_following_text": "- YOLO v8 segmentation 알고리즘은 구성되는 가중치의 크기에 따라 5가지(n, s, m, l,\nx) 구조를 포함하고 있으며 본 연구에서 구현된 5가지 구조의 알고리즘 구성 Layer 수\n와 s 구조에 대한 학습파라미터 수의 비를 표 10에 나타내었음\n표 10. YOLO v8 segmentation 알고리즘의 5가지 구조에 따른 특성 비교\n구분 n s m l x\nLayer 수 261 261 331 401 401\n파라미터 수 비율 0.277 1 2.311 3.896 6.085\n- YOLO v8 segmentation 알고리즘의 구조별 인식 성능 비교 결과, 표 11에 나타나듯이\n큰 차이는 없었고 Layer 수와 학습파라미터의 크기가 증가할수록 실시간으로 처리 가\n능한 Input 영상 데이터의 FPS가 떨어지는 것을 확인하였음",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0034",
+    "caption": "YOLO v8 segmentation 알고리즘의 5가지 구조에 따른 클래스별 인식 성능(AP50) 및 FPS 비교",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 29 -\n표 11. YOLO v8 segmentation 알고리즘의 5가지 구조에 따른 클래스별 인식 성능(AP50) 및 FPS 비교\n구분\nn s m l x\nbox seg box seg box seg box seg box seg\n컬러 체커 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00 1.00\n꽃 0.67 0.61 0.74 0.64 0.75 0.67 0.76 0.66 0.76 0.66\n숙과 0.87 0.88 0.94 0.96 0.94 0.90 0.92 0.90 0.93 0.92\n미숙과 0.81 0.78 0.84 0.81 0.83 0.81 0.84 0.78 0.86 0.80\n노엽 0.46 0.46 0.51 0.49 0.49 0.46 0.53 0.45 0.56 0.51",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0035",
+    "caption": "RetinaNet, YOLO v8 segmentation, Faster R-CNN 및 Mask R-CNN을 사용한 객체 인식 결과 비교(AP50)",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n표 12. RetinaNet, YOLO v8 segmentation, Faster R-CNN 및 Mask R-CNN을 사용한 객체 인식 결과 비교(AP50)\nRetinaNet YOLO v8-seg Faster R-CNN Mask R-CNN\nbox seg box seg box seg box seg\n컬러 체커 0.98 - 1.00 1.00 1.00 - 1.00 1.00\n꽃 0.56 - 0.74 0.64 0.64 - 0.60 0.59\n숙과 0.77 - 0.94 0.96 0.83 - 0.87 0.87\n미숙과 0.72 - 0.84 0.81 0.75 - 0.72 0.68\n노엽 0.30 - 0.51 0.49 0.55 - 0.32 0.35\n수확지점 0.00 - 0.14 0.24 0.00 - 0.10 0.01",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.44,
+          134.85,
+          518.88,
+          483.33
+        ],
+        "page_area_fraction": 0.3097
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0036",
+    "caption": "YOLO v8 segmentation s 알고리즘의 Confusion matrix",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "box seg box seg box seg box seg\n컬러 체커 0.98 - 1.00 1.00 1.00 - 1.00 1.00\n꽃 0.56 - 0.74 0.64 0.64 - 0.60 0.59\n숙과 0.77 - 0.94 0.96 0.83 - 0.87 0.87\n미숙과 0.72 - 0.84 0.81 0.75 - 0.72 0.68\n노엽 0.30 - 0.51 0.49 0.55 - 0.32 0.35\n수확지점 0.00 - 0.14 0.24 0.00 - 0.10 0.01",
+    "caption_and_following_text": "런너 0.21 - 0.75 0.73 0.40 - 0.49 0.00\n미식별과 0.21 - 0.40 0.42 0.19 - 0.23 0.23\nmAP50 0.47 - 0.66 0.66 0.54 - 0.54 0.47\n그림 24. YOLO v8 segmentation s 알고리즘의 Confusion matrix\n- Confusion matrix를 통해 각 객체 간 혼동 비율과 각 객체의 인식률을 확인할 수 있음\n- 인식 단계에서 각 객체 간 오분류가 발생되면 연계되는 농작업 시 정밀한 작업이 불가\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.44,
+          134.85,
+          518.88,
+          483.33
+        ],
+        "page_area_fraction": 0.3097
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0037",
+    "caption": "영상 내 2개 이상 재배 베드가 포함된 경우의 객체 인식 결과(위: 원본, 가운데: 인식 결과, 아래: Ground truth)",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 32 -\n그림 25. 영상 내 2개 이상 재배 베드가 포함된 경우의 객체 인식 결과(위: 원본, 가운데: 인식 결과,\n아래: Ground truth)\n그림 26. 숙과 및 미숙과에 대한 Tracking(ID 부여 및 Counting) 기술 결과 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.64,
+          557.97,
+          526.56,
+          767.01
+        ],
+        "page_area_fraction": 0.191
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.64,
+          348.93,
+          526.56,
+          557.97
+        ],
+        "page_area_fraction": 0.191
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.8,
+          132.21,
+          530.64,
+          308.13
+        ],
+        "page_area_fraction": 0.1635
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0038",
+    "caption": "숙과 및 미숙과에 대한 Tracking(ID 부여 및 Counting) 기술 결과 예시",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 32 -\n그림 25. 영상 내 2개 이상 재배 베드가 포함된 경우의 객체 인식 결과(위: 원본, 가운데: 인식 결과,\n아래: Ground truth)\n그림 26. 숙과 및 미숙과에 대한 Tracking(ID 부여 및 Counting) 기술 결과 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.64,
+          557.97,
+          526.56,
+          767.01
+        ],
+        "page_area_fraction": 0.191
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.64,
+          348.93,
+          526.56,
+          557.97
+        ],
+        "page_area_fraction": 0.191
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.8,
+          132.21,
+          530.64,
+          308.13
+        ],
+        "page_area_fraction": 0.1635
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0039",
+    "caption": "관행 객체 인식 알고리즘별 꽃 인식 결과 비교",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 33 -\n○ 딸기 객체 인식을 위한 최적 알고리즘 도출\n- 앞서 설명한 관행 객체 인식 기술의 딸기 객체 인식 정확도와 인공지능 기반 딸기 객\n체 인식 알고리즘의 정확도를 비교하여 딸기 객체 인식을 위한 최적 알고리즘을 도출\n하고자 하였음",
+    "caption_and_following_text": "- 관행 객체 인식 기술의 성능 검증에 동일하게 사용된 꽃이 포함된 20장의 테스트 데이\n터에서 전체 객체(Ground truth) 73개 중 YOLO v8 segmentation s 알고리즘의\nDetection rate는 98.6%로 확인됐고, Precision은 0.986으로 나타남(표 13)\n표 13. 관행 객체 인식 알고리즘별 꽃 인식 결과 비교\nAlgorithm Ground truth True positive Detection rate False positive Precision\nColor threshold\n73\n61 83.6% 28 0.685\nViola-Jones 33 45.2% 44 0.429\nACF 47 64.4% 15 0.758",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0040",
+    "caption": "관행 객체 인식 알고리즘별 과실 인식 결과 비교",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "Algorithm Ground truth True positive Detection rate False positive Precision\nColor threshold\n73\n61 83.6% 28 0.685\nViola-Jones 33 45.2% 44 0.429\nACF 47 64.4% 15 0.758\nYOLO v8 72 98.6% 1 0.986",
+    "caption_and_following_text": "- 과실의 경우도 마찬가지로 20장의 테스트 데이터에서 전체 객체(Ground truth) 47개\n중 YOLO v8 segmentation s 알고리즘의 Detection rate는 87.2%로 확인됐고,\nPrecision은 1로 나타남(표 14)\n표 14. 관행 객체 인식 알고리즘별 과실 인식 결과 비교\nAlgorithm Ground truth True positive Detection rate False positive Precision\nColor threshold\n47\n18 38.3% 9 0.667\nViola-Jones 20 42.5% 68 0.227\nACF 37 78.7% 25 0.597",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0041",
+    "caption": "관행 객체 인식 알고리즘별 노엽 인식 결과 비교",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "Algorithm Ground truth True positive Detection rate False positive Precision\nColor threshold\n47\n18 38.3% 9 0.667\nViola-Jones 20 42.5% 68 0.227\nACF 37 78.7% 25 0.597\nYOLO v8 41 87.2% 0 1",
+    "caption_and_following_text": "- 노엽의 경우 20장의 테스트 데이터에서 전체 객체(Ground truth) 56개 중 YOLO v8\nsegmentation s 알고리즘의 Detection rate는 64.3%로 확인됐고, Precision은 1로 나\n타남(표 15)\n표 15. 관행 객체 인식 알고리즘별 노엽 인식 결과 비교\nAlgorithm Ground truth True positive Detection rate False positive Precision\nColor threshold\n56\n25 44.6% 110 0.185\nViola-Jones 27 46.6% 103 0.208\nACF 35 62.5% 129 0.213",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0042",
+    "caption": "관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 꽃 인식 결과 비교",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 34 -\n28, 29에 동일한 영상에 대한 인식 결과를 알고리즘별로 표시하여 나타내었음\n- 결과적으로 꽃, 과실, 노엽 객체 모두에 대해 관행 객체 인식 기술의 인식 결과보다\n인공지능 기반 알고리즘(YOLO v8 segmentation s)의 인식 성능이 상대적으로 우수하게\n나타났음\n- 또한, False positive의 수가 0 또는 1로 정밀도가 높게 나타났음을 확인할 수 있었으",
+    "caption_and_following_text": "나 노엽의 경우 Detection rate가 64.3%로 타 객체에 비해 낮게 나타났음\n- 학습용 데이터의 노엽 객체가 타 객체에 비해 부족한 점과 정상 잎과 노엽의 형태학적\n구조가 유사해 상대적으로 낮게 나타났다고 판단됨\n그림 27. 관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 꽃 인식 결과 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.12,
+          340.05,
+          533.76,
+          626.37
+        ],
+        "page_area_fraction": 0.2689
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0043",
+    "caption": "관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 과실 인식 결과 비교",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 35 -\n그림 28. 관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 과실 인식 결과 비교\n그림 29. 관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 노엽 인식 결과 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          480.69,
+          535.2,
+          767.01
+        ],
+        "page_area_fraction": 0.2689
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          161.49,
+          535.2,
+          447.81
+        ],
+        "page_area_fraction": 0.2689
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0044",
+    "caption": "관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 노엽 인식 결과 비교",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 35 -\n그림 28. 관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 과실 인식 결과 비교\n그림 29. 관행 객체 인식 기술(3가지)과 인공지능 기반 알고리즘의 노엽 인식 결과 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          480.69,
+          535.2,
+          767.01
+        ],
+        "page_area_fraction": 0.2689
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          161.49,
+          535.2,
+          447.81
+        ],
+        "page_area_fraction": 0.2689
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0045",
+    "caption": "학습 데이터(위)에서 장애물 클래스를 포함하여 수행한 Labeling 결과(아래) 예시",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "배 베드 지지선, 철제 기둥 및 일부 센서를 장애물로 선정하였음\n- 따라서, 앞서 기술한 8종의 객체 클래스에 장애물 클래스를 추가하여 추후 농작업 자\n동화에 활용 가능하도록 객체 인식 알고리즘을 보완하고자 하였음\n- 기존 Labeling 방법과 동일하게 장애물을 Polygon style로 Labeling을 추가 수행하였\n으며 일부를 그림 30에 나타내었음\n- 추가된 장애물 클래스의 전체 객체 수는 876개이며 Training, Validation 및 Test\ndataset에 각 619, 154, 103개로 비율을 구성하였음",
+    "caption_and_following_text": "- 앞서 8종류의 클래스에 대한 객체 인식 성능이 우수하게 나타난 YOLO v8 segmentation\ns 알고리즘을 대상으로 장애물 클래스를 포함한 영상 데이터를 기반으로 학습을 수행\n하였음\n그림 30. 학습 데이터(위)에서 장애물 클래스를 포함하여 수행한 Labeling 결과(아래) 예시\n- 표 16에 장애물 클래스를 추가하여 학습한 YOLO v8 segmentation s 알고리즘의 인식\n성능을 나타냈으며 장애물 클래스의 인식 성능은 AP50 기준 Box 0.72, Segmentation\n0.56으로 나타났음\n- 장애물 클래스의 유무에 따른 YOLO v8 segmentation s 알고리즘의 기존 객체 인식 성\n능에는 영향이 크게 없음을 확인하였음\n- 추후 연구에서 재배 시설에 따른 장애물 종류와 객체 수를 추가로 확보하여 인식 알고",
+    "section_context_candidate": "1) 연구 수행 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          322.05,
+          533.52,
+          503.01
+        ],
+        "page_area_fraction": 0.1693
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0046",
+    "caption": "장애물 클래스 포함 여부에 따른 YOLO v8 segmentation s 인식 성능 비교(AP50)",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 37 -\n표 16. 장애물 클래스 포함 여부에 따른 YOLO v8 segmentation s 인식 성능 비교(AP50)\n장애물 미포함 장애물 포함\nbox seg box seg\n컬러 체커 1.00 1.00 1.00 1.00\n꽃 0.74 0.64 0.78 0.70\n숙과 0.94 0.96 0.89 0.82\n미숙과 0.84 0.81 0.83 0.80\n노엽 0.51 0.49 0.52 0.40\n수확지점 0.14 0.24 0.19 0.15",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [
+      "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0047",
+    "caption": "Stereo vision 기법을 활용한 객체 인식 및 거리 정보 예측 결과 예시",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 38 -\n그림 31. Stereo vision 기법을 활용한 객체 인식 및 거리 정보 예측 결과 예시\n그림 32. ZED를 이용한 대상 객체와의 거리 예측 결과\n- 구조화 광을 활용한 3D reconstruction 기법\n・ 물체에 다양한 명암 패턴의 광을 조사함\n・ 물체에 조사된 광은 물체 표면을 굴곡이 표현됨\n・ 굴곡이 발생 된 광 패턴을 영상 센서로 촬영하고 초기 구조화 광의 패턴과 차이를\n분석하여 물체 표면을 3D로 재구성함\n・ 동시에 촬영된 색상 정보와 3D 위치 정보를 매핑하여 3D reconstruction 모델을 생\n성함",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.04,
+          507.33,
+          521.52,
+          767.01
+        ],
+        "page_area_fraction": 0.2334
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.8,
+          237.81,
+          476.4,
+          473.73
+        ],
+        "page_area_fraction": 0.1683
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0048",
+    "caption": "ZED를 이용한 대상 객체와의 거리 예측 결과",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 38 -\n그림 31. Stereo vision 기법을 활용한 객체 인식 및 거리 정보 예측 결과 예시\n그림 32. ZED를 이용한 대상 객체와의 거리 예측 결과\n- 구조화 광을 활용한 3D reconstruction 기법\n・ 물체에 다양한 명암 패턴의 광을 조사함\n・ 물체에 조사된 광은 물체 표면을 굴곡이 표현됨\n・ 굴곡이 발생 된 광 패턴을 영상 센서로 촬영하고 초기 구조화 광의 패턴과 차이를\n분석하여 물체 표면을 3D로 재구성함\n・ 동시에 촬영된 색상 정보와 3D 위치 정보를 매핑하여 3D reconstruction 모델을 생\n성함",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.04,
+          507.33,
+          521.52,
+          767.01
+        ],
+        "page_area_fraction": 0.2334
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.8,
+          237.81,
+          476.4,
+          473.73
+        ],
+        "page_area_fraction": 0.1683
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0049",
+    "caption": "첨단디지털온실에서 취득된 딸기 Point cloud 데이터 예시",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 39 -",
+    "caption_and_following_text": "적으로 영상 센서 내에 탑재되어 단일 구성으로 활용 가능한 상용품이 있으나 가격이\n일반 RGB 영상 센서와 비교하면 고가인 단점이 있음\n- 본 연구에서는 Zivid 2+(Zivid, Oslo, Norway)가 활용됨\n그림 33. 첨단디지털온실에서 취득된 딸기 Point cloud 데이터 예시\n그림 34. 농가에서 취득된 딸기 Point cloud 데이터 예시\n- 취득된 3D 영상에서 꽃, 과실를 대상으로 3D Labeling을 수행하고 그 결과를 그림 35\n에 나타내었음\n- Labeling 작업에는 Open3D 기반 LabelCloud 소프트웨어를 사용했으며 육면체 형태의\nCube로 대상을 Labeling 작업을 수행하였음\n- Labeling 정보는 3D detection 알고리즘에 주로 활용되는 Kitti 포맷으로 저장됨",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          624.21,
+          537.12,
+          714.21
+        ],
+        "page_area_fraction": 0.0849
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          490.05,
+          541.2,
+          590.61
+        ],
+        "page_area_fraction": 0.0956
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.08,
+          260.61,
+          534.48,
+          369.09
+        ],
+        "page_area_fraction": 0.1018
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0050",
+    "caption": "농가에서 취득된 딸기 Point cloud 데이터 예시",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 39 -\n적으로 영상 센서 내에 탑재되어 단일 구성으로 활용 가능한 상용품이 있으나 가격이",
+    "caption_and_following_text": "일반 RGB 영상 센서와 비교하면 고가인 단점이 있음\n- 본 연구에서는 Zivid 2+(Zivid, Oslo, Norway)가 활용됨\n그림 33. 첨단디지털온실에서 취득된 딸기 Point cloud 데이터 예시\n그림 34. 농가에서 취득된 딸기 Point cloud 데이터 예시\n- 취득된 3D 영상에서 꽃, 과실를 대상으로 3D Labeling을 수행하고 그 결과를 그림 35\n에 나타내었음\n- Labeling 작업에는 Open3D 기반 LabelCloud 소프트웨어를 사용했으며 육면체 형태의\nCube로 대상을 Labeling 작업을 수행하였음\n- Labeling 정보는 3D detection 알고리즘에 주로 활용되는 Kitti 포맷으로 저장됨\n그림 35. 취득된 딸기 Point cloud 데이터 기반 3D Labeling 예시",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          624.21,
+          537.12,
+          714.21
+        ],
+        "page_area_fraction": 0.0849
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          490.05,
+          541.2,
+          590.61
+        ],
+        "page_area_fraction": 0.0956
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.08,
+          260.61,
+          534.48,
+          369.09
+        ],
+        "page_area_fraction": 0.1018
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0051",
+    "caption": "취득된 딸기 Point cloud 데이터 기반 3D Labeling 예시",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "적으로 영상 센서 내에 탑재되어 단일 구성으로 활용 가능한 상용품이 있으나 가격이\n일반 RGB 영상 센서와 비교하면 고가인 단점이 있음\n- 본 연구에서는 Zivid 2+(Zivid, Oslo, Norway)가 활용됨\n그림 33. 첨단디지털온실에서 취득된 딸기 Point cloud 데이터 예시\n그림 34. 농가에서 취득된 딸기 Point cloud 데이터 예시\n- 취득된 3D 영상에서 꽃, 과실를 대상으로 3D Labeling을 수행하고 그 결과를 그림 35\n에 나타내었음",
+    "caption_and_following_text": "- Labeling 작업에는 Open3D 기반 LabelCloud 소프트웨어를 사용했으며 육면체 형태의\nCube로 대상을 Labeling 작업을 수행하였음\n- Labeling 정보는 3D detection 알고리즘에 주로 활용되는 Kitti 포맷으로 저장됨\n그림 35. 취득된 딸기 Point cloud 데이터 기반 3D Labeling 예시\n- 취득된 Point cloud 데이터에서 보이듯이 자연광이 직접적으로 조사되는 객체는 정확\n하게 취득되지 못하였는데 이는 영상 센서 자체에서 조사되는 광 패턴이 자연광보다\n세기가 약해서 발생한 사례로 판단됨\n- 전체 작물을 대상으로 3D 데이터를 취득하기 위해서는 자연광이 없는 일몰 이후에 데\n이터를 취득한다면 보다 고품질의 데이터가 확보될 수 있을 것으로 판단됨\n- 결과적으로 Stereo vision 또는 구조화 광을 통해 고품질의 3D 영상 데이터가 취득된",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          624.21,
+          537.12,
+          714.21
+        ],
+        "page_area_fraction": 0.0849
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          490.05,
+          541.2,
+          590.61
+        ],
+        "page_area_fraction": 0.0956
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.08,
+          260.61,
+          534.48,
+          369.09
+        ],
+        "page_area_fraction": 0.1018
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0052",
+    "caption": "파장별 과실 영상 데이터 예시",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "- 다분광 센서는 다양한 파장 영역의 데이터를 취득하여 분석에 활용되는 기술로 작물의\n생육 상태, 병해 조기 예측, 품질 예측 등에 활용되고 있음\n- 본 연구에서 활용한 다분광 센서는 Monarch multi spectral(UNISPECTRAL LTD., Ramat\nGan, Israel)으로 총 10개(713, 736, 759, 782, 805, 828, 851, 874, 897, 920nm)의\n파장에서의 Intensity를 취득할 수 있음\n- 분광 센서의 Gain 값이 클수록 Exposure time이 길수록 영상의 Saturation이 쉽게 발\n생하기 때문에 경험적인 방법에 의해 취득 시 분광 센서는 Gain 1, Exposure time",
+    "caption_and_following_text": "1/20초로 설정하였음\n- 과실, 꽃, 런너를 주요 대상으로 농가에서 취득한 파장별 영상 데이터 예시를 그림\n36, 37, 38에 나타냈음\n그림 36. 파장별 과실 영상 데이터 예시\n그림 37. 파장별 꽃 영상 데이터 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          423.33,
+          537.84,
+          573.57
+        ],
+        "page_area_fraction": 0.1419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          239.49,
+          540.72,
+          389.73
+        ],
+        "page_area_fraction": 0.1427
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0053",
+    "caption": "파장별 꽃 영상 데이터 예시",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "생육 상태, 병해 조기 예측, 품질 예측 등에 활용되고 있음\n- 본 연구에서 활용한 다분광 센서는 Monarch multi spectral(UNISPECTRAL LTD., Ramat\nGan, Israel)으로 총 10개(713, 736, 759, 782, 805, 828, 851, 874, 897, 920nm)의\n파장에서의 Intensity를 취득할 수 있음\n- 분광 센서의 Gain 값이 클수록 Exposure time이 길수록 영상의 Saturation이 쉽게 발\n생하기 때문에 경험적인 방법에 의해 취득 시 분광 센서는 Gain 1, Exposure time\n1/20초로 설정하였음",
+    "caption_and_following_text": "- 과실, 꽃, 런너를 주요 대상으로 농가에서 취득한 파장별 영상 데이터 예시를 그림\n36, 37, 38에 나타냈음\n그림 36. 파장별 과실 영상 데이터 예시\n그림 37. 파장별 꽃 영상 데이터 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          423.33,
+          537.84,
+          573.57
+        ],
+        "page_area_fraction": 0.1419
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          239.49,
+          540.72,
+          389.73
+        ],
+        "page_area_fraction": 0.1427
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0054",
+    "caption": "파장별 런너 영상 데이터 예시",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n그림 38. 파장별 런너 영상 데이터 예시\n- 일부 파장 영상에서 관심 객체에 대한 Intensity 차이가 나타나기 때문에 특정 객체를\n대상으로 분광 센서를 통한 객체 인식 기술 개발에 활용 가능하다고 판단됨(그림 39)\n그림 39. 897nm 파장 영상을 이용한 런너 인식 결과 예시\n- 하지만 3D 센서와 유사하게 자연광이 직접 조사되는 경우 영상 내 Saturation이 발생\n함을 확인할 수 있었음\n- 3D 센서의 경우 일몰 이후에 데이터 취득이 유리하나 분광 센서는 특정 파장 영역의\n광이 조사되지 않으면 해당 파장 영상을 취득할 수 없어 별도의 균일한 광원이 필요함\n- 또한, 다른 환경에서 취득한 분광 데이터 간의 재현성 확보 측면에서 암막 시스템이",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          616.77,
+          540.72,
+          767.01
+        ],
+        "page_area_fraction": 0.1427
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.72,
+          436.29,
+          437.28,
+          548.61
+        ],
+        "page_area_fraction": 0.0629
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.72,
+          323.97,
+          437.28,
+          436.29
+        ],
+        "page_area_fraction": 0.0629
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0055",
+    "caption": "897nm 파장 영상을 이용한 런너 인식 결과 예시",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 41 -",
+    "caption_and_following_text": "그림 38. 파장별 런너 영상 데이터 예시\n- 일부 파장 영상에서 관심 객체에 대한 Intensity 차이가 나타나기 때문에 특정 객체를\n대상으로 분광 센서를 통한 객체 인식 기술 개발에 활용 가능하다고 판단됨(그림 39)\n그림 39. 897nm 파장 영상을 이용한 런너 인식 결과 예시\n- 하지만 3D 센서와 유사하게 자연광이 직접 조사되는 경우 영상 내 Saturation이 발생\n함을 확인할 수 있었음\n- 3D 센서의 경우 일몰 이후에 데이터 취득이 유리하나 분광 센서는 특정 파장 영역의\n광이 조사되지 않으면 해당 파장 영상을 취득할 수 없어 별도의 균일한 광원이 필요함\n- 또한, 다른 환경에서 취득한 분광 데이터 간의 재현성 확보 측면에서 암막 시스템이\n필요하며 이동이 쉽고 별도의 광원이 장착된 분광 영상 취득 시스템을 아래 모식도(그",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          616.77,
+          540.72,
+          767.01
+        ],
+        "page_area_fraction": 0.1427
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.72,
+          436.29,
+          437.28,
+          548.61
+        ],
+        "page_area_fraction": 0.0629
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.72,
+          323.97,
+          437.28,
+          436.29
+        ],
+        "page_area_fraction": 0.0629
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0056",
+    "caption": "분광 데이터 취득을 위한 암막 장치 모식도",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 42 -\n조절이 가능하도록 X-Y 스테이지를 함께 설계함(그림 41)\n그림 40. 분광 데이터 취득을 위한 암막 장치 모식도\n그림 41. 암막 장치를 구성하는 광원 및 분광 센서 챔버 모식도\n- 앞서 기술한 바와 같이 분광 데이터를 활용한 일부 객체에 대해 인식이 가능해 객체\n인식 목표와 대상 객체에 따라 분광 센서의 농업 로봇으로의 활용은 가능하다고 판단\n됨\n- 추후 연구에서 설계된 분광 영상 취득 시스템을 사용한 딸기의 분광 영상의 취득과 분\n광 영상 기반 객체 인식 기술 개발이 필요함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.64,
+          586.29,
+          477.6,
+          749.49
+        ],
+        "page_area_fraction": 0.1175
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          482.13,
+          530.64,
+          552.69
+        ],
+        "page_area_fraction": 0.0656
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          411.57,
+          530.64,
+          482.13
+        ],
+        "page_area_fraction": 0.0656
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0057",
+    "caption": "암막 장치를 구성하는 광원 및 분광 센서 챔버 모식도",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 42 -\n조절이 가능하도록 X-Y 스테이지를 함께 설계함(그림 41)\n그림 40. 분광 데이터 취득을 위한 암막 장치 모식도\n그림 41. 암막 장치를 구성하는 광원 및 분광 센서 챔버 모식도\n- 앞서 기술한 바와 같이 분광 데이터를 활용한 일부 객체에 대해 인식이 가능해 객체\n인식 목표와 대상 객체에 따라 분광 센서의 농업 로봇으로의 활용은 가능하다고 판단\n됨\n- 추후 연구에서 설계된 분광 영상 취득 시스템을 사용한 딸기의 분광 영상의 취득과 분\n광 영상 기반 객체 인식 기술 개발이 필요함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 작물의 생육지표 인식을 위한 다차원 영상 활용 가능성 조사",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.64,
+          586.29,
+          477.6,
+          749.49
+        ],
+        "page_area_fraction": 0.1175
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          482.13,
+          530.64,
+          552.69
+        ],
+        "page_area_fraction": 0.0656
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          411.57,
+          530.64,
+          482.13
+        ],
+        "page_area_fraction": 0.0656
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0058",
+    "caption": "논산 소재 딸기 농가 현장 방문",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 43 -\n<세부목표2> 시설 작물의 주요 객체 인식을 위한 로봇 팔 제어 기술 개발\n□ 다중센서 기반 작물 위치 인식 방법 연구\n○ 온실 환경 내 재배 환경 분석 및 센서 선정을 위한 공간정보 분석",
+    "caption_and_following_text": "- 딸기, 토마토 등 작물의 국내 농가 현황, 연구 적합성 및 향후 활용성 기반 적합도 조\n사 후 작물 선정을 위해 농가 현장 방문 실시\n방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 42. 논산 소재 딸기 농가 현장 방문\n방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 43. 김제 소재 오이 농가 현장 방문\n방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 44. 딸기 실습 현장 방문\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [
+      "□ 다중센서 기반 작물 위치 인식 방법 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          586.29,
+          236.88,
+          662.61
+        ],
+        "page_area_fraction": 0.0229
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          510.69,
+          236.88,
+          586.29
+        ],
+        "page_area_fraction": 0.0227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.12,
+          513.81,
+          386.16,
+          659.97
+        ],
+        "page_area_fraction": 0.0435
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          586.29,
+          537.12,
+          661.89
+        ],
+        "page_area_fraction": 0.0226
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          511.41,
+          537.12,
+          586.29
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          394.05,
+          236.88,
+          469.65
+        ],
+        "page_area_fraction": 0.0227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          319.17,
+          236.88,
+          394.05
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          394.05,
+          537.12,
+          469.65
+        ],
+        "page_area_fraction": 0.0226
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          319.17,
+          537.12,
+          394.05
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          202.53,
+          236.88,
+          277.41
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          127.65,
+          236.88,
+          202.53
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          202.53,
+          537.12,
+          277.41
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          127.65,
+          537.12,
+          202.53
+        ],
+        "page_area_fraction": 0.0224
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0059",
+    "caption": "김제 소재 오이 농가 현장 방문",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 43 -\n<세부목표2> 시설 작물의 주요 객체 인식을 위한 로봇 팔 제어 기술 개발\n□ 다중센서 기반 작물 위치 인식 방법 연구\n○ 온실 환경 내 재배 환경 분석 및 센서 선정을 위한 공간정보 분석\n- 딸기, 토마토 등 작물의 국내 농가 현황, 연구 적합성 및 향후 활용성 기반 적합도 조\n사 후 작물 선정을 위해 농가 현장 방문 실시",
+    "caption_and_following_text": "방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 42. 논산 소재 딸기 농가 현장 방문\n방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 43. 김제 소재 오이 농가 현장 방문\n방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 44. 딸기 실습 현장 방문\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [
+      "□ 다중센서 기반 작물 위치 인식 방법 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          586.29,
+          236.88,
+          662.61
+        ],
+        "page_area_fraction": 0.0229
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          510.69,
+          236.88,
+          586.29
+        ],
+        "page_area_fraction": 0.0227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.12,
+          513.81,
+          386.16,
+          659.97
+        ],
+        "page_area_fraction": 0.0435
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          586.29,
+          537.12,
+          661.89
+        ],
+        "page_area_fraction": 0.0226
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          511.41,
+          537.12,
+          586.29
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          394.05,
+          236.88,
+          469.65
+        ],
+        "page_area_fraction": 0.0227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          319.17,
+          236.88,
+          394.05
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          394.05,
+          537.12,
+          469.65
+        ],
+        "page_area_fraction": 0.0226
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          319.17,
+          537.12,
+          394.05
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          202.53,
+          236.88,
+          277.41
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          127.65,
+          236.88,
+          202.53
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          202.53,
+          537.12,
+          277.41
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          127.65,
+          537.12,
+          202.53
+        ],
+        "page_area_fraction": 0.0224
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0060",
+    "caption": "딸기 실습 현장 방문",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "<세부목표2> 시설 작물의 주요 객체 인식을 위한 로봇 팔 제어 기술 개발\n□ 다중센서 기반 작물 위치 인식 방법 연구\n○ 온실 환경 내 재배 환경 분석 및 센서 선정을 위한 공간정보 분석\n- 딸기, 토마토 등 작물의 국내 농가 현황, 연구 적합성 및 향후 활용성 기반 적합도 조\n사 후 작물 선정을 위해 농가 현장 방문 실시\n방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 42. 논산 소재 딸기 농가 현장 방문",
+    "caption_and_following_text": "방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 43. 김제 소재 오이 농가 현장 방문\n방문 농가 소재 위치 전경 방문 농가 현장 의견수렴 방문 농가 운영 시설 전경\n그림 44. 딸기 실습 현장 방문\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [
+      "□ 다중센서 기반 작물 위치 인식 방법 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          586.29,
+          236.88,
+          662.61
+        ],
+        "page_area_fraction": 0.0229
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          510.69,
+          236.88,
+          586.29
+        ],
+        "page_area_fraction": 0.0227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.12,
+          513.81,
+          386.16,
+          659.97
+        ],
+        "page_area_fraction": 0.0435
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          586.29,
+          537.12,
+          661.89
+        ],
+        "page_area_fraction": 0.0226
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          511.41,
+          537.12,
+          586.29
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          394.05,
+          236.88,
+          469.65
+        ],
+        "page_area_fraction": 0.0227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          319.17,
+          236.88,
+          394.05
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          394.05,
+          537.12,
+          469.65
+        ],
+        "page_area_fraction": 0.0226
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          319.17,
+          537.12,
+          394.05
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          202.53,
+          236.88,
+          277.41
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.4,
+          127.65,
+          236.88,
+          202.53
+        ],
+        "page_area_fraction": 0.0225
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          202.53,
+          537.12,
+          277.41
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          387.36,
+          127.65,
+          537.12,
+          202.53
+        ],
+        "page_area_fraction": 0.0224
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0061",
+    "caption": "온실 내 딸기 재배환경 구조 및 로봇팔",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "템을 도입하거나 인력에 의한 작업을 대체하기 위한 기술 도입이 필요함\n- 아래 그림과 같이, 온실 내 설치된 레일 위를 이동하며 로봇팔을 운용하기 위해 작물이\n재배되고 있는 공간에서 3차원 위치정보를 인식해야 함\n- 3차원 위치정보를 인식하기 위한 다중 정보 취득이 가능한 센서는 로봇팔과 같은 매니\n퓰레이터에 적용이 가능하도록 하기 위해서, 작물이 재배되고 있는 공간 내에서 물리\n적 3차원 공간 정보를 고려하고, 제어 시 가반 하중에 영향을 최소화할 수 있도록 경\n량화된 모델을 선정해야 함",
+    "caption_and_following_text": "- 아래 그림은 RGB 색상 정보와 3차원 Depth 정보를 동시에 취득할 수 있는 영상 데이터\n센서로, 스테레오 비전 기반 Point Cloud Data 형식으로 Depth 정보를 측정하여 물체\n표면과의 거리값을 나타내주는 ZED mini 카메라를 선정하였음\n그림 45. 온실 내 딸기 재배환경 구조 및 로봇팔\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.12,
+          518.61,
+          523.44,
+          555.33
+        ],
+        "page_area_fraction": 0.0333
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.12,
+          481.89,
+          523.44,
+          518.61
+        ],
+        "page_area_fraction": 0.0333
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.12,
+          445.17,
+          523.44,
+          481.89
+        ],
+        "page_area_fraction": 0.0333
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.12,
+          408.45,
+          523.44,
+          445.17
+        ],
+        "page_area_fraction": 0.0333
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.12,
+          371.73,
+          523.44,
+          408.45
+        ],
+        "page_area_fraction": 0.0333
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.12,
+          335.01,
+          523.44,
+          371.73
+        ],
+        "page_area_fraction": 0.0333
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.12,
+          298.29,
+          523.44,
+          335.01
+        ],
+        "page_area_fraction": 0.0333
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.12,
+          266.61,
+          523.44,
+          298.29
+        ],
+        "page_area_fraction": 0.0287
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0062",
+    "caption": "ZED mini 카메라, ‘Stereolabs’사 (USA)",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 45 -\n그림 46. ZED mini 카메라, ‘Stereolabs’사 (USA)\n- 선정된 ZED mini 카메라의 상세 스펙은 표 17과 같음\n표 17. ZED mini 카메라의 기능별 상세스펙\nVideo Output\n비디오모드 FPS Resolution\n2.2k 15 4416×1242\n1080p 30 3840×1080\n720p 60 2560×720\nWVGA 100 1344×376",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.28,
+          600.21,
+          485.28,
+          767.01
+        ],
+        "page_area_fraction": 0.1258
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0063",
+    "caption": "ZED mini 카메라의 기능별 상세스펙",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 45 -\n그림 46. ZED mini 카메라, ‘Stereolabs’사 (USA)\n- 선정된 ZED mini 카메라의 상세 스펙은 표 17과 같음\n표 17. ZED mini 카메라의 기능별 상세스펙\nVideo Output\n비디오모드 FPS Resolution\n2.2k 15 4416×1242\n1080p 30 3840×1080\n720p 60 2560×720\nWVGA 100 1344×376",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.28,
+          600.21,
+          485.28,
+          767.01
+        ],
+        "page_area_fraction": 0.1258
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0064",
+    "caption": "재배 작물을 촬영한 데이터로부터 발견된 딸기 객체가 포함된 RGBD 샘플 데이터",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "로부터 영상정보를 이용하여 점진적 접근 하는 방식의 제어를 수행해야 함\n- 작물의 주요 객체(노엽 및 과실, 꽃 등)인식을 용이하게 하도록 로봇팔을 제어하기 위\n해서는, 인식된 주요 객체가 RGB영상 데이터 속에서 어느 방향 및 위치에 있는지 여부\n를 알아야 하며, 실제 3차원 정보와 일치한 값을 분석하여 3축(x,y,z)좌표값을 로봇팔\n의 제어기에 전송 시켜줘야 함\n- 이때, RGB 정보를 기반으로하는 스테레오 영상 데이터를 통해 주요 객체의 위치를 대\n략적으로 추정하고, Point Cloud Data 형식으로 표현된 Depth 데이터로부터 3차원 좌",
+    "caption_and_following_text": "표값을 계산하여 적용시켜야 함\n- RGBD(Red, Green, Blue, Depth) 정보를 기반으로 작물의 주요 객체를 인식하기 위해\nZED-mini 카메라를 이용하여 영상 데이터를 취득하여 분석하였음\n그림 47. 재배 작물을 촬영한 데이터로부터 발견된 딸기 객체가 포함된 RGBD 샘플 데이터\n그림 48. 재배 작물을 촬영한 데이터로부터 발견된 노엽 객체가 포함된 RGBD 샘플 데이터\n- RGBD 샘플 데이터를 분석한 결과, RGB 이미지 데이터를 이용하여 인식된 주요 객체에\n대한 위치 정보와 Depth 데이터의 Point Cloud Data 값으로부터 분석된 거리 값을 결\n합하면 아래 그림과 같이 3차원 위치 정보를 추정할 수 있음을 확인하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.68,
+          354.93,
+          551.76,
+          535.17
+        ],
+        "page_area_fraction": 0.1676
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.68,
+          145.17,
+          551.76,
+          325.41
+        ],
+        "page_area_fraction": 0.1676
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0065",
+    "caption": "재배 작물을 촬영한 데이터로부터 발견된 노엽 객체가 포함된 RGBD 샘플 데이터",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "- 작물의 주요 객체(노엽 및 과실, 꽃 등)인식을 용이하게 하도록 로봇팔을 제어하기 위\n해서는, 인식된 주요 객체가 RGB영상 데이터 속에서 어느 방향 및 위치에 있는지 여부\n를 알아야 하며, 실제 3차원 정보와 일치한 값을 분석하여 3축(x,y,z)좌표값을 로봇팔\n의 제어기에 전송 시켜줘야 함\n- 이때, RGB 정보를 기반으로하는 스테레오 영상 데이터를 통해 주요 객체의 위치를 대\n략적으로 추정하고, Point Cloud Data 형식으로 표현된 Depth 데이터로부터 3차원 좌\n표값을 계산하여 적용시켜야 함",
+    "caption_and_following_text": "- RGBD(Red, Green, Blue, Depth) 정보를 기반으로 작물의 주요 객체를 인식하기 위해\nZED-mini 카메라를 이용하여 영상 데이터를 취득하여 분석하였음\n그림 47. 재배 작물을 촬영한 데이터로부터 발견된 딸기 객체가 포함된 RGBD 샘플 데이터\n그림 48. 재배 작물을 촬영한 데이터로부터 발견된 노엽 객체가 포함된 RGBD 샘플 데이터\n- RGBD 샘플 데이터를 분석한 결과, RGB 이미지 데이터를 이용하여 인식된 주요 객체에\n대한 위치 정보와 Depth 데이터의 Point Cloud Data 값으로부터 분석된 거리 값을 결\n합하면 아래 그림과 같이 3차원 위치 정보를 추정할 수 있음을 확인하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.68,
+          354.93,
+          551.76,
+          535.17
+        ],
+        "page_area_fraction": 0.1676
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.68,
+          145.17,
+          551.76,
+          325.41
+        ],
+        "page_area_fraction": 0.1676
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0066",
+    "caption": "수평면상 직교 구조 일 때 객체의 3차원 좌표 측위 정밀도를 위한 실험 모습",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 47 -\n- 다중 영상 데이터 취득을 위해 선정한 ZED–mini 카메라의 특위 오차 특성을 파악하기\n위해 객체인식 알고리즘(YOLO)을 ROS에서 실행시켰으며, ZED SDK에서 제공되는 depth",
+    "caption_and_following_text": "sensing 노드를 삽입하여 객체 인식 및 거리값 산출이 동시에 이루어지도록 하였음\n- 그림 49에 Ultralytics 에서 기본적으로 제공되는 학습 파일을 사용하여 테스트하는\n모습을 타나내었음\n그림 49. 수평면상 직교 구조 일 때 객체의 3차원 좌표 측위 정밀도를 위한 실험 모습\n- Depth value(Bounding Box 정중앙)는 10번 측정할 때 마다 평균값을 1번 산출하도록\n하였으며 각 거리인자마다 40회 측정하였음(거리인자 당 400회 측정)\n- 표준편차 및 오차율을 산출하기 위하여 아래와 같은 함수를 활용하여 계산하였음\n- 측정 결과, 곡선으로 이루어진 외형으로 인해 오차가 발생하였으며, 이 부분을 감안\n하더라도 오차율이 약1% 정도로 낮다는 것을 확인할 수 있었음\n- 상관계수 분석을 통해 산출하였을 때 0.99이상 나오는 것으로 확인되었으며, Depth",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          633.09,
+          457.2,
+          675.57
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          590.61,
+          457.2,
+          633.09
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          548.13,
+          457.2,
+          590.61
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          505.65,
+          457.2,
+          548.13
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          465.33,
+          457.2,
+          505.65
+        ],
+        "page_area_fraction": 0.0259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.68,
+          188.13,
+          326.88,
+          233.49
+        ],
+        "page_area_fraction": 0.0235
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.68,
+          142.77,
+          326.88,
+          188.13
+        ],
+        "page_area_fraction": 0.0235
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0067",
+    "caption": "균등한 거리에 따른 거리 측정 오차율 실험 개념도",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 39,
+    "prefix_match_only": false,
+    "text_before": "편차(mm)\n오차율\n(%)\n800 2.89 0.42\n700 1.82 0.41\n600 0.63 1.13\n500 0.94 1.62",
+    "caption_and_following_text": "400 1.23 1.64\n300 0.64 1.46\n200 1.11 2.69\n그림 50. 균등한 거리에 따른 거리 측정 오차율 실험 개념도 표 18. 표준편차 및 오차율 측정 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          633.09,
+          457.2,
+          675.57
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          590.61,
+          457.2,
+          633.09
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          548.13,
+          457.2,
+          590.61
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          505.65,
+          457.2,
+          548.13
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          465.33,
+          457.2,
+          505.65
+        ],
+        "page_area_fraction": 0.0259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.68,
+          188.13,
+          326.88,
+          233.49
+        ],
+        "page_area_fraction": 0.0235
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.68,
+          142.77,
+          326.88,
+          188.13
+        ],
+        "page_area_fraction": 0.0235
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0068",
+    "caption": "표준편차 및 오차율 측정 결과",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 39,
+    "prefix_match_only": false,
+    "text_before": "편차(mm)\n오차율\n(%)\n800 2.89 0.42\n700 1.82 0.41\n600 0.63 1.13\n500 0.94 1.62",
+    "caption_and_following_text": "400 1.23 1.64\n300 0.64 1.46\n200 1.11 2.69\n그림 50. 균등한 거리에 따른 거리 측정 오차율 실험 개념도 표 18. 표준편차 및 오차율 측정 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          633.09,
+          457.2,
+          675.57
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          590.61,
+          457.2,
+          633.09
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          548.13,
+          457.2,
+          590.61
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          505.65,
+          457.2,
+          548.13
+        ],
+        "page_area_fraction": 0.0273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.36,
+          465.33,
+          457.2,
+          505.65
+        ],
+        "page_area_fraction": 0.0259
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.68,
+          188.13,
+          326.88,
+          233.49
+        ],
+        "page_area_fraction": 0.0235
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.68,
+          142.77,
+          326.88,
+          188.13
+        ],
+        "page_area_fraction": 0.0235
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0069",
+    "caption": "온실 구조를 모방한 로봇팔 시작기 실험 모형 설계도(원예원소재 첨단온실 시설 정보 참조)",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "- 상용 매니퓰레이터 제어 시스템을 테스트할 수 있는 환경을 구축하기 위해 온실 구조\n를 모방한 로봇팔 시작기 실험용 모형 구조물 시작기를 제작하여 활용하였음\n- 토마토 및 딸기와 같은 온실 환경에서 재배하는 작물들의 경우, 공간적 활용도를 높이\n기 위해 약 50m 길이로 조성된 배지 또는 토양에 재식 되어 있음\n- 로봇팔이 작물의 열 사이를 이동하며 작업 구간 내 영상 기반의 인식 및 제거 임무를\n수행하기 위해 하부에 이동체가 필요하며, 온실 내부에 고소작업차를 활용할 수 있도\n록 파이프로 제작된 레일이 설치되어 있는 경우, 이를 활용할 수 있다고 판단됨",
+    "caption_and_following_text": "- 이를 위해 그림 51과 같이, 실내 재배 작목을 대상으로 생육 환경에서 로봇팔을 활용\n하기 위한 실험 기구부를 제작하였음\n그림 51. 온실 구조를 모방한 로봇팔 시작기 실험 모형 설계도(원예원소재 첨단온실 시설 정보\n참조)\n- 그림 52는 상기 제작한 모형(그림 51)에서 로봇팔 실험 수행을 위해 이동용 플랫폼을\n제작한 도면을 나타내고 있음\n- 그림 56에서 3차원 좌표값 측위를 위한 프레임 정렬을 위해 온실 재배 공간을 모방한\n모형 제작 시 3차원 직교 성분을 직관적으로 분석하기 용이하도록 레이저수평기를 활\n용함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.04,
+          276.69,
+          533.04,
+          520.77
+        ],
+        "page_area_fraction": 0.2192
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0070",
+    "caption": "로봇팔제어 시스템 1차 시작기 설계 도면",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 49 -\n그림 52. 로봇팔제어 시스템 1차 시작기 설계 도면\n그림 53. 이동용 레일상에 위치한 로봇팔제어 시스템 1차 시작기 저측 사시도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0071",
+    "caption": "이동용 레일상에 위치한 로봇팔제어 시스템 1차 시작기 저측 사시도",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 49 -\n그림 52. 로봇팔제어 시스템 1차 시작기 설계 도면\n그림 53. 이동용 레일상에 위치한 로봇팔제어 시스템 1차 시작기 저측 사시도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0072",
+    "caption": "시작기 내부 투시도 및 온실 환경 이동용 레일 위 가상 배치도",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n그림 54. 시작기 내부 투시도 및 온실 환경 이동용 레일 위 가상 배치도\n그림 55. 시설 온실 예(토마토 재배 포장) 및 재배 구역 공간을 모형으로 구현한 구조물\n그림 56. 3차원 좌표값 측위를 위한 프레임 정렬 및 로봇팔제어 시스템 1차 시작기 배치\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.64,
+          596.85,
+          265.44,
+          767.01
+        ],
+        "page_area_fraction": 0.0546
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          510.69,
+          295.2,
+          571.89
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          449.49,
+          295.2,
+          510.69
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          389.01,
+          295.2,
+          449.49
+        ],
+        "page_area_fraction": 0.022
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          510.69,
+          488.16,
+          571.89
+        ],
+        "page_area_fraction": 0.0223
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          449.49,
+          488.16,
+          510.69
+        ],
+        "page_area_fraction": 0.0223
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          389.01,
+          488.16,
+          449.49
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.12,
+          179.97,
+          290.4,
+          366.69
+        ],
+        "page_area_fraction": 0.069
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          308.37,
+          495.36,
+          373.17
+        ],
+        "page_area_fraction": 0.0251
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          243.57,
+          495.36,
+          308.37
+        ],
+        "page_area_fraction": 0.0251
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          178.77,
+          495.36,
+          243.57
+        ],
+        "page_area_fraction": 0.0251
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0073",
+    "caption": "시설 온실 예(토마토 재배 포장) 및 재배 구역 공간을 모형으로 구현한 구조물",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n그림 54. 시작기 내부 투시도 및 온실 환경 이동용 레일 위 가상 배치도\n그림 55. 시설 온실 예(토마토 재배 포장) 및 재배 구역 공간을 모형으로 구현한 구조물\n그림 56. 3차원 좌표값 측위를 위한 프레임 정렬 및 로봇팔제어 시스템 1차 시작기 배치\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.64,
+          596.85,
+          265.44,
+          767.01
+        ],
+        "page_area_fraction": 0.0546
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          510.69,
+          295.2,
+          571.89
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          449.49,
+          295.2,
+          510.69
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          389.01,
+          295.2,
+          449.49
+        ],
+        "page_area_fraction": 0.022
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          510.69,
+          488.16,
+          571.89
+        ],
+        "page_area_fraction": 0.0223
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          449.49,
+          488.16,
+          510.69
+        ],
+        "page_area_fraction": 0.0223
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          389.01,
+          488.16,
+          449.49
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.12,
+          179.97,
+          290.4,
+          366.69
+        ],
+        "page_area_fraction": 0.069
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          308.37,
+          495.36,
+          373.17
+        ],
+        "page_area_fraction": 0.0251
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          243.57,
+          495.36,
+          308.37
+        ],
+        "page_area_fraction": 0.0251
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          178.77,
+          495.36,
+          243.57
+        ],
+        "page_area_fraction": 0.0251
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0074",
+    "caption": "3차원 좌표값 측위를 위한 프레임 정렬 및 로봇팔제어 시스템 1차 시작기 배치",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n그림 54. 시작기 내부 투시도 및 온실 환경 이동용 레일 위 가상 배치도\n그림 55. 시설 온실 예(토마토 재배 포장) 및 재배 구역 공간을 모형으로 구현한 구조물\n그림 56. 3차원 좌표값 측위를 위한 프레임 정렬 및 로봇팔제어 시스템 1차 시작기 배치\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.64,
+          596.85,
+          265.44,
+          767.01
+        ],
+        "page_area_fraction": 0.0546
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          510.69,
+          295.2,
+          571.89
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          449.49,
+          295.2,
+          510.69
+        ],
+        "page_area_fraction": 0.0222
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.04,
+          389.01,
+          295.2,
+          449.49
+        ],
+        "page_area_fraction": 0.022
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          510.69,
+          488.16,
+          571.89
+        ],
+        "page_area_fraction": 0.0223
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          449.49,
+          488.16,
+          510.69
+        ],
+        "page_area_fraction": 0.0223
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.28,
+          389.01,
+          488.16,
+          449.49
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.12,
+          179.97,
+          290.4,
+          366.69
+        ],
+        "page_area_fraction": 0.069
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          308.37,
+          495.36,
+          373.17
+        ],
+        "page_area_fraction": 0.0251
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          243.57,
+          495.36,
+          308.37
+        ],
+        "page_area_fraction": 0.0251
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.96,
+          178.77,
+          495.36,
+          243.57
+        ],
+        "page_area_fraction": 0.0251
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0075",
+    "caption": "로봇팔제어 시스템 2차 시작기 설계 도면",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 51 -\n- 1차 시작기 제작 후 온실 재배 공간 구조 모형에 배치하여 분석한 결과, 딸기가 심어져\n있는 고설 벤치 간격을 고려했을 때 하방으로 늘어뜨려진 딸기 과실 및 잎과의 거리가",
+    "caption_and_following_text": "10cm 미만으로 매우 근접하여 이미지 센서를 적용하기 어려운 상태인 것으로 확인됨\n- 그림 57은, 상기 문제를 보완하여 2차 시작기를 제작하기 위해 설계된 도면을 나타내고\n있음\n그림 57. 로봇팔제어 시스템 2차 시작기 설계 도면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          638.13,
+          498.24,
+          679.17
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          597.09,
+          498.24,
+          638.13
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          556.05,
+          498.24,
+          597.09
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          515.01,
+          498.24,
+          556.05
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          473.97,
+          498.24,
+          515.01
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          432.93,
+          498.24,
+          473.97
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          391.89,
+          498.24,
+          432.93
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          350.85,
+          498.24,
+          391.89
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          309.81,
+          498.24,
+          350.85
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          268.77,
+          498.24,
+          309.81
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          227.73,
+          498.24,
+          268.77
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          186.69,
+          498.24,
+          227.73
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          145.65,
+          498.24,
+          186.69
+        ],
+        "page_area_fraction": 0.0331
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.32,
+          110.37,
+          498.24,
+          145.65
+        ],
+        "page_area_fraction": 0.0284
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0076",
+    "caption": "로봇팔 및 이동 플랫폼 제어기 설치 모습",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 52 -\n그림 58. 로봇팔 및 이동 플랫폼 제어기 설치 모습\n□ 로봇 팔 및 하드웨어 구동 메커니즘 구명\n○ 다중 센서에 의한 3차원 공간 좌표값 분석을 위한 제어 시스템 구성\n- 향후 개발할 인공지능 모델에서 Depth 카메라에 의해 제거 작업대상 객체의 3차원 위\n치를 인식할 때, 로봇팔의 하단 중심을 기준으로 좌표값을 인식 해야함\n- 하부 이동 플랫폼이 레일과 수직으로 정교하게 놓여 있어야 정확한 측위가 가능하므\n로, 평행으로 설치된 파이프 상에서 일정한 궤적을 유지하며 이동할 수 있도록 디스크\n타입의 휠 간격이 조정 가능하도록 구동부를 개발하였음\n그림 59. 제작된 스테핑모터 기반 이동장치 설계도면",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0077",
+    "caption": "제작된 스테핑모터 기반 이동장치 설계도면",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 52 -\n그림 58. 로봇팔 및 이동 플랫폼 제어기 설치 모습\n□ 로봇 팔 및 하드웨어 구동 메커니즘 구명\n○ 다중 센서에 의한 3차원 공간 좌표값 분석을 위한 제어 시스템 구성\n- 향후 개발할 인공지능 모델에서 Depth 카메라에 의해 제거 작업대상 객체의 3차원 위\n치를 인식할 때, 로봇팔의 하단 중심을 기준으로 좌표값을 인식 해야함",
+    "caption_and_following_text": "- 하부 이동 플랫폼이 레일과 수직으로 정교하게 놓여 있어야 정확한 측위가 가능하므\n로, 평행으로 설치된 파이프 상에서 일정한 궤적을 유지하며 이동할 수 있도록 디스크\n타입의 휠 간격이 조정 가능하도록 구동부를 개발하였음\n그림 59. 제작된 스테핑모터 기반 이동장치 설계도면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0078",
+    "caption": "로봇팔 제어 시스템 이동용 플랫폼 시작기 및 구동부 수동 제어 인터페이스 패널",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 53 -\n그림 60. 로봇팔 제어 시스템 이동용 플랫폼\n시작기 및 구동부 수동 제어 인터페이스 패널\n그림 61. 구동부 자동 제어 인터페이스 보드,\n모터 제어부, 기어박스 및 휠 구성부\n표 19. 시작기 구동부 구성품 및 세부 기능 내역\n1.비상정지 스위치 탑재 7.자동 이동 제어(PC연동)\n2.통합 전원 차단 스위치 8.스테핑모터구동 제어\n3.전∙후진상태 알림 LED 9.레일 이동용 휠디스크\n4.구동부제어 상태 알림 LCD 10.로봇팔 통합제어기 탑재함",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          666.21,
+          282.96,
+          730.29
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          602.13,
+          282.96,
+          666.21
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          538.05,
+          282.96,
+          602.13
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          478.29,
+          282.24,
+          537.33
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          419.25,
+          282.24,
+          478.29
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          360.93,
+          282.24,
+          419.25
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.68,
+          678.45,
+          514.08,
+          728.85
+        ],
+        "page_area_fraction": 0.0196
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.68,
+          628.05,
+          514.08,
+          678.45
+        ],
+        "page_area_fraction": 0.0196
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          318.96,
+          561.09,
+          514.8,
+          626.61
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          318.96,
+          496.29,
+          514.8,
+          561.09
+        ],
+        "page_area_fraction": 0.0253
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.4,
+          428.61,
+          513.36,
+          494.85
+        ],
+        "page_area_fraction": 0.0255
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.4,
+          362.37,
+          513.36,
+          428.61
+        ],
+        "page_area_fraction": 0.0255
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0079",
+    "caption": "구동부 자동 제어 인터페이스 보드, 모터 제어부, 기어박스 및 휠 구성부",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 53 -",
+    "caption_and_following_text": "그림 60. 로봇팔 제어 시스템 이동용 플랫폼\n시작기 및 구동부 수동 제어 인터페이스 패널\n그림 61. 구동부 자동 제어 인터페이스 보드,\n모터 제어부, 기어박스 및 휠 구성부\n표 19. 시작기 구동부 구성품 및 세부 기능 내역\n1.비상정지 스위치 탑재 7.자동 이동 제어(PC연동)\n2.통합 전원 차단 스위치 8.스테핑모터구동 제어\n3.전∙후진상태 알림 LED 9.레일 이동용 휠디스크\n4.구동부제어 상태 알림 LCD 10.로봇팔 통합제어기 탑재함\n5.수동 이동 제어(스위치) 11.자체 전원 공급용 납축전지",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          666.21,
+          282.96,
+          730.29
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          602.13,
+          282.96,
+          666.21
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          538.05,
+          282.96,
+          602.13
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          478.29,
+          282.24,
+          537.33
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          419.25,
+          282.24,
+          478.29
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          360.93,
+          282.24,
+          419.25
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.68,
+          678.45,
+          514.08,
+          728.85
+        ],
+        "page_area_fraction": 0.0196
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.68,
+          628.05,
+          514.08,
+          678.45
+        ],
+        "page_area_fraction": 0.0196
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          318.96,
+          561.09,
+          514.8,
+          626.61
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          318.96,
+          496.29,
+          514.8,
+          561.09
+        ],
+        "page_area_fraction": 0.0253
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.4,
+          428.61,
+          513.36,
+          494.85
+        ],
+        "page_area_fraction": 0.0255
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.4,
+          362.37,
+          513.36,
+          428.61
+        ],
+        "page_area_fraction": 0.0255
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0080",
+    "caption": "시작기 구동부 구성품 및 세부 기능 내역",
+    "pdf_page_candidate": 53,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 53 -\n그림 60. 로봇팔 제어 시스템 이동용 플랫폼",
+    "caption_and_following_text": "시작기 및 구동부 수동 제어 인터페이스 패널\n그림 61. 구동부 자동 제어 인터페이스 보드,\n모터 제어부, 기어박스 및 휠 구성부\n표 19. 시작기 구동부 구성품 및 세부 기능 내역\n1.비상정지 스위치 탑재 7.자동 이동 제어(PC연동)\n2.통합 전원 차단 스위치 8.스테핑모터구동 제어\n3.전∙후진상태 알림 LED 9.레일 이동용 휠디스크\n4.구동부제어 상태 알림 LCD 10.로봇팔 통합제어기 탑재함\n5.수동 이동 제어(스위치) 11.자체 전원 공급용 납축전지\n6.무선 이동 제어(리모컨)",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          666.21,
+          282.96,
+          730.29
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          602.13,
+          282.96,
+          666.21
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          538.05,
+          282.96,
+          602.13
+        ],
+        "page_area_fraction": 0.0246
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          478.29,
+          282.24,
+          537.33
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          419.25,
+          282.24,
+          478.29
+        ],
+        "page_area_fraction": 0.0224
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          360.93,
+          282.24,
+          419.25
+        ],
+        "page_area_fraction": 0.0221
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.68,
+          678.45,
+          514.08,
+          728.85
+        ],
+        "page_area_fraction": 0.0196
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          319.68,
+          628.05,
+          514.08,
+          678.45
+        ],
+        "page_area_fraction": 0.0196
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          318.96,
+          561.09,
+          514.8,
+          626.61
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          318.96,
+          496.29,
+          514.8,
+          561.09
+        ],
+        "page_area_fraction": 0.0253
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.4,
+          428.61,
+          513.36,
+          494.85
+        ],
+        "page_area_fraction": 0.0255
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.4,
+          362.37,
+          513.36,
+          428.61
+        ],
+        "page_area_fraction": 0.0255
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0081",
+    "caption": "구동부 소프트웨어 제어를 위한 프로토콜 정보",
+    "pdf_page_candidate": 54,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 54 -\n그림 62. 구동부 소프트웨어 제어를 위한 프로토콜 정보\n□ 인식 작물 생육 환경기반 매니퓰레이터 제어 적합도 분석\n○ 온실 내 재배 작물의 생육 환경 정보 및 농작업용 엔드이펙터 개발\n- 딸기의 환경 및 및 작업 반경 가능성 환경 테스트를 위해 하부 이동 플랫폼에 설치하\n고 시작기를 온실 모형 구조물에 위치한 후, 회전 반경 및 최대 리치 테스트를 수행함\n- 사전에 입력된 좌표값을 이용하여 반복 동작시 동일한 위치 접근 여부 실험을 수행함\n- 온실 구조를 모방한 로봇팔 시작기 실험 모형 구조물을 제작하고, 소프트웨어적 입력\n신호에 의해 작업 구간별 이동이 가능한 구동 플랫폼을 기준으로 설치된 로봇팔의 제\n어 실험을 수행한 결과, 사전에 입력된 좌표값을 기준으로 반복 수행시 매우 정확하게",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.56,
+          488.37,
+          541.44,
+          767.01
+        ],
+        "page_area_fraction": 0.2651
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0082",
+    "caption": "로봇팔 및 기구부 설치",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n그림 63. 로봇팔 및 기구부 설치 그림 64. 통합제어기 연결 및 설치\n그림 65. 동작 정확도 테스트 그림 66. 태블릿 입력 가상 모델 동기화 모습\n- 로봇팔(RB5-850, 레인보우로보틱스)과 통합제어기 연동을 위한 각 부별 구동 성능 검\n토 구현을 위해 로봇팔을 이동이 가능한 구동부와 같은 플랫폼에 장착하고 CAN통신 기\n반의 제어기로 산업용 PC를 활용하여 구성하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.76,
+          540.45,
+          295.2,
+          761.97
+        ],
+        "page_area_fraction": 0.0961
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.48,
+          538.29,
+          530.16,
+          764.13
+        ],
+        "page_area_fraction": 0.1008
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.8,
+          286.77,
+          297.12,
+          514.53
+        ],
+        "page_area_fraction": 0.1001
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          458.13,
+          529.92,
+          516.45
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          399.81,
+          529.92,
+          458.13
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          341.49,
+          529.92,
+          399.81
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          283.89,
+          529.92,
+          341.49
+        ],
+        "page_area_fraction": 0.0257
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0083",
+    "caption": "통합제어기 연결 및 설치",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n그림 63. 로봇팔 및 기구부 설치 그림 64. 통합제어기 연결 및 설치\n그림 65. 동작 정확도 테스트 그림 66. 태블릿 입력 가상 모델 동기화 모습\n- 로봇팔(RB5-850, 레인보우로보틱스)과 통합제어기 연동을 위한 각 부별 구동 성능 검\n토 구현을 위해 로봇팔을 이동이 가능한 구동부와 같은 플랫폼에 장착하고 CAN통신 기\n반의 제어기로 산업용 PC를 활용하여 구성하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.76,
+          540.45,
+          295.2,
+          761.97
+        ],
+        "page_area_fraction": 0.0961
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.48,
+          538.29,
+          530.16,
+          764.13
+        ],
+        "page_area_fraction": 0.1008
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.8,
+          286.77,
+          297.12,
+          514.53
+        ],
+        "page_area_fraction": 0.1001
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          458.13,
+          529.92,
+          516.45
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          399.81,
+          529.92,
+          458.13
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          341.49,
+          529.92,
+          399.81
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          283.89,
+          529.92,
+          341.49
+        ],
+        "page_area_fraction": 0.0257
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0084",
+    "caption": "동작 정확도 테스트",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n그림 63. 로봇팔 및 기구부 설치 그림 64. 통합제어기 연결 및 설치\n그림 65. 동작 정확도 테스트 그림 66. 태블릿 입력 가상 모델 동기화 모습\n- 로봇팔(RB5-850, 레인보우로보틱스)과 통합제어기 연동을 위한 각 부별 구동 성능 검\n토 구현을 위해 로봇팔을 이동이 가능한 구동부와 같은 플랫폼에 장착하고 CAN통신 기\n반의 제어기로 산업용 PC를 활용하여 구성하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.76,
+          540.45,
+          295.2,
+          761.97
+        ],
+        "page_area_fraction": 0.0961
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.48,
+          538.29,
+          530.16,
+          764.13
+        ],
+        "page_area_fraction": 0.1008
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.8,
+          286.77,
+          297.12,
+          514.53
+        ],
+        "page_area_fraction": 0.1001
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          458.13,
+          529.92,
+          516.45
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          399.81,
+          529.92,
+          458.13
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          341.49,
+          529.92,
+          399.81
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          283.89,
+          529.92,
+          341.49
+        ],
+        "page_area_fraction": 0.0257
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0085",
+    "caption": "태블릿 입력 가상 모델 동기화 모습",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n그림 63. 로봇팔 및 기구부 설치 그림 64. 통합제어기 연결 및 설치\n그림 65. 동작 정확도 테스트 그림 66. 태블릿 입력 가상 모델 동기화 모습\n- 로봇팔(RB5-850, 레인보우로보틱스)과 통합제어기 연동을 위한 각 부별 구동 성능 검\n토 구현을 위해 로봇팔을 이동이 가능한 구동부와 같은 플랫폼에 장착하고 CAN통신 기\n반의 제어기로 산업용 PC를 활용하여 구성하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.76,
+          540.45,
+          295.2,
+          761.97
+        ],
+        "page_area_fraction": 0.0961
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.48,
+          538.29,
+          530.16,
+          764.13
+        ],
+        "page_area_fraction": 0.1008
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.8,
+          286.77,
+          297.12,
+          514.53
+        ],
+        "page_area_fraction": 0.1001
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          458.13,
+          529.92,
+          516.45
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          399.81,
+          529.92,
+          458.13
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          341.49,
+          529.92,
+          399.81
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.72,
+          283.89,
+          529.92,
+          341.49
+        ],
+        "page_area_fraction": 0.0257
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0086",
+    "caption": "온실 모형 기구부 내 하드웨어 시스템 배치",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 56 -\n그림 67. 온실 모형 기구부 내 하드웨어 시스템 배치\n표 20. RB5-850 모델 Specification\n적재량 5 kg\n도달범위 850 mm\n반복정밀도 ±0.05 mm\n설치면적 ⏀ 173 mm\n재질 알루미늄, 플라스틱, 스틸\n툴출력 M10 12-pin 커넥터 (12/24,~2A)\n케이블길이(로봇암) 5 m",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.2,
+          546.69,
+          507.36,
+          767.01
+        ],
+        "page_area_fraction": 0.1856
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0087",
+    "caption": "RB5-850 모델 Specification",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 56 -\n그림 67. 온실 모형 기구부 내 하드웨어 시스템 배치\n표 20. RB5-850 모델 Specification\n적재량 5 kg\n도달범위 850 mm\n반복정밀도 ±0.05 mm\n설치면적 ⏀ 173 mm\n재질 알루미늄, 플라스틱, 스틸\n툴출력 M10 12-pin 커넥터 (12/24,~2A)\n케이블길이(로봇암) 5 m",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.2,
+          546.69,
+          507.36,
+          767.01
+        ],
+        "page_area_fraction": 0.1856
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0088",
+    "caption": "상용 전동가위 기반 제어 기능 구현 실험",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 57 -",
+    "caption_and_following_text": "- 가상으로 설정한 제거 대상의 3차원 위치 데이터를 기반으로 좌표값에 따른 위치 제어\n정확도 테스트를 위해 서보모터 기반으로 개발한 절단기가 작물의 줄기나 잎 사이의\n특정 위치에 접근하여 작업이 가능하도록 소형화하여 제작하였음\n그림 68. 상용 전동가위 기반 제어 기능 구현 실험 그림 69. 상용 전동가위의 PCB 호환성 문제\n- 상기 문제로부터, 기존 상용 제품을 로봇팔에 결합하여 사용하려고 했던 시도는 전자\n적 제어를 위한 인터페이스의 부재와 별도의 전원 장치를 마련해야 하는 한계점을 확\n인하였음\n- 그림 70은 작물의 주요 객체 간 협소한 공간에서 작업을 수행해야하는 조건을 고려하\n여 설계한 서보모터 기반 절단날 제어가 가능한 엔드이펙터 설계도를 나타내고 있음\n그림 70. 서보모터 기반 설계 수행",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0089",
+    "caption": "상용 전동가위의 PCB 호환성 문제",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 57 -",
+    "caption_and_following_text": "- 가상으로 설정한 제거 대상의 3차원 위치 데이터를 기반으로 좌표값에 따른 위치 제어\n정확도 테스트를 위해 서보모터 기반으로 개발한 절단기가 작물의 줄기나 잎 사이의\n특정 위치에 접근하여 작업이 가능하도록 소형화하여 제작하였음\n그림 68. 상용 전동가위 기반 제어 기능 구현 실험 그림 69. 상용 전동가위의 PCB 호환성 문제\n- 상기 문제로부터, 기존 상용 제품을 로봇팔에 결합하여 사용하려고 했던 시도는 전자\n적 제어를 위한 인터페이스의 부재와 별도의 전원 장치를 마련해야 하는 한계점을 확\n인하였음\n- 그림 70은 작물의 주요 객체 간 협소한 공간에서 작업을 수행해야하는 조건을 고려하\n여 설계한 서보모터 기반 절단날 제어가 가능한 엔드이펙터 설계도를 나타내고 있음\n그림 70. 서보모터 기반 설계 수행",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0090",
+    "caption": "서보모터 기반 설계 수행",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 57 -\n- 가상으로 설정한 제거 대상의 3차원 위치 데이터를 기반으로 좌표값에 따른 위치 제어\n정확도 테스트를 위해 서보모터 기반으로 개발한 절단기가 작물의 줄기나 잎 사이의\n특정 위치에 접근하여 작업이 가능하도록 소형화하여 제작하였음\n그림 68. 상용 전동가위 기반 제어 기능 구현 실험 그림 69. 상용 전동가위의 PCB 호환성 문제\n- 상기 문제로부터, 기존 상용 제품을 로봇팔에 결합하여 사용하려고 했던 시도는 전자\n적 제어를 위한 인터페이스의 부재와 별도의 전원 장치를 마련해야 하는 한계점을 확",
+    "caption_and_following_text": "인하였음\n- 그림 70은 작물의 주요 객체 간 협소한 공간에서 작업을 수행해야하는 조건을 고려하\n여 설계한 서보모터 기반 절단날 제어가 가능한 엔드이펙터 설계도를 나타내고 있음\n그림 70. 서보모터 기반 설계 수행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0091",
+    "caption": "1차 엔드이펙터 개발",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n그림 71. 1차 엔드이펙터 개발 그림 72. 2차 엔드이펙터 개발\n- 절단 기능 구현을 위한 엔드이펙터 1차 시작기 개발결과, 한쪽 날이 움직이며 다른 쪽\n날의 곡면 안쪽으로 쓸어 넣듯이 움직이는 구조로 제작되었음\n- 엔드이펙터 1차 시작기를 이용하여 절단 동작시 절단날과 고정날의 최대 간격이 7.5cm\n까지 벌어지고, 이는 작물의 어미 줄기 및 주변 정상 과실등에 닿을 수 있는 확률이\n매우높은 것으로 분석됨\n- 절단 동작의 간격을 최소화시키기 위해 절단날 부위 자체를 작게 설계한 엔드이펙터 2\n차 시작기를 제작하여 테스트한 결과, 절단 기능에는 문제가 없으나 ±1cm 정도의 약\n간의 흔들림만 있어도 정확한 제어가 어렵다는 문제점을 발견하였음",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.56,
+          500.85,
+          500.64,
+          767.01
+        ],
+        "page_area_fraction": 0.2157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.52,
+          105.33,
+          356.88,
+          332.13
+        ],
+        "page_area_fraction": 0.1319
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          255.81,
+          527.04,
+          331.41
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          180.21,
+          527.04,
+          255.81
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          105.33,
+          527.04,
+          180.21
+        ],
+        "page_area_fraction": 0.0254
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0092",
+    "caption": "2차 엔드이펙터 개발",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n그림 71. 1차 엔드이펙터 개발 그림 72. 2차 엔드이펙터 개발\n- 절단 기능 구현을 위한 엔드이펙터 1차 시작기 개발결과, 한쪽 날이 움직이며 다른 쪽\n날의 곡면 안쪽으로 쓸어 넣듯이 움직이는 구조로 제작되었음\n- 엔드이펙터 1차 시작기를 이용하여 절단 동작시 절단날과 고정날의 최대 간격이 7.5cm\n까지 벌어지고, 이는 작물의 어미 줄기 및 주변 정상 과실등에 닿을 수 있는 확률이\n매우높은 것으로 분석됨\n- 절단 동작의 간격을 최소화시키기 위해 절단날 부위 자체를 작게 설계한 엔드이펙터 2\n차 시작기를 제작하여 테스트한 결과, 절단 기능에는 문제가 없으나 ±1cm 정도의 약\n간의 흔들림만 있어도 정확한 제어가 어렵다는 문제점을 발견하였음",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.56,
+          500.85,
+          500.64,
+          767.01
+        ],
+        "page_area_fraction": 0.2157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.52,
+          105.33,
+          356.88,
+          332.13
+        ],
+        "page_area_fraction": 0.1319
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          255.81,
+          527.04,
+          331.41
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          180.21,
+          527.04,
+          255.81
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          105.33,
+          527.04,
+          180.21
+        ],
+        "page_area_fraction": 0.0254
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0093",
+    "caption": "2차 제작 엔드이펙터를 이용한 식물체 줄기 절삭력 테스트",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 58 -\n그림 71. 1차 엔드이펙터 개발 그림 72. 2차 엔드이펙터 개발\n- 절단 기능 구현을 위한 엔드이펙터 1차 시작기 개발결과, 한쪽 날이 움직이며 다른 쪽\n날의 곡면 안쪽으로 쓸어 넣듯이 움직이는 구조로 제작되었음\n- 엔드이펙터 1차 시작기를 이용하여 절단 동작시 절단날과 고정날의 최대 간격이 7.5cm\n까지 벌어지고, 이는 작물의 어미 줄기 및 주변 정상 과실등에 닿을 수 있는 확률이\n매우높은 것으로 분석됨",
+    "caption_and_following_text": "- 절단 동작의 간격을 최소화시키기 위해 절단날 부위 자체를 작게 설계한 엔드이펙터 2\n차 시작기를 제작하여 테스트한 결과, 절단 기능에는 문제가 없으나 ±1cm 정도의 약\n간의 흔들림만 있어도 정확한 제어가 어렵다는 문제점을 발견하였음\n그림 73. 2차 제작 엔드이펙터를 이용한 식물체 줄기 절삭력 테스트\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.56,
+          500.85,
+          500.64,
+          767.01
+        ],
+        "page_area_fraction": 0.2157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.52,
+          105.33,
+          356.88,
+          332.13
+        ],
+        "page_area_fraction": 0.1319
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          255.81,
+          527.04,
+          331.41
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          180.21,
+          527.04,
+          255.81
+        ],
+        "page_area_fraction": 0.0256
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          357.12,
+          105.33,
+          527.04,
+          180.21
+        ],
+        "page_area_fraction": 0.0254
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0094",
+    "caption": "3차 엔드이펙터 개발을 위한 절단 날 곡률 반경 설계 도면",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 59 -\n- 그림 74는 양날형 절단날 형태를 갖는 3차 엔드이펙터 개발을 위한 설계 도면임\n그림 74. 3차 엔드이펙터 개발을 위한 절단 날 곡률 반경 설계 도면\n그림 75. 양날형 절단날 벌림 및 교차 상태 구조\n- 양날이 교차하는 구조는 일반적인 가위의 형태와 유사하지만 안쪽 절삭면이 곡선 형태\n로 설계되어있음\n- 양날이 동일한 회전 축을 공유하고 절삭을 위해 간격이 좁혀지면서 회전축으로부터\n26.8mm의 거리를 절삭 위치로 가정 할 때, 곡선 형태의 절단 날이 닿는 접선의 기울기\n가 평형을 유지하는 곡률 반경을 기준으로 설계됨\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          692.13,
+          435.6,
+          746.13
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          638.13,
+          435.6,
+          692.13
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          584.13,
+          435.6,
+          638.13
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          530.13,
+          435.6,
+          584.13
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          476.85,
+          435.6,
+          530.13
+        ],
+        "page_area_fraction": 0.0296
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          395.49,
+          448.56,
+          448.77
+        ],
+        "page_area_fraction": 0.0321
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          342.21,
+          448.56,
+          395.49
+        ],
+        "page_area_fraction": 0.0321
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          288.93,
+          448.56,
+          342.21
+        ],
+        "page_area_fraction": 0.0321
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          235.65,
+          448.56,
+          288.93
+        ],
+        "page_area_fraction": 0.0321
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          185.25,
+          448.56,
+          235.65
+        ],
+        "page_area_fraction": 0.0303
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0095",
+    "caption": "양날형 절단날 벌림 및 교차 상태 구조",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 59 -\n- 그림 74는 양날형 절단날 형태를 갖는 3차 엔드이펙터 개발을 위한 설계 도면임\n그림 74. 3차 엔드이펙터 개발을 위한 절단 날 곡률 반경 설계 도면\n그림 75. 양날형 절단날 벌림 및 교차 상태 구조\n- 양날이 교차하는 구조는 일반적인 가위의 형태와 유사하지만 안쪽 절삭면이 곡선 형태\n로 설계되어있음\n- 양날이 동일한 회전 축을 공유하고 절삭을 위해 간격이 좁혀지면서 회전축으로부터\n26.8mm의 거리를 절삭 위치로 가정 할 때, 곡선 형태의 절단 날이 닿는 접선의 기울기\n가 평형을 유지하는 곡률 반경을 기준으로 설계됨\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          692.13,
+          435.6,
+          746.13
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          638.13,
+          435.6,
+          692.13
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          584.13,
+          435.6,
+          638.13
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          530.13,
+          435.6,
+          584.13
+        ],
+        "page_area_fraction": 0.03
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.96,
+          476.85,
+          435.6,
+          530.13
+        ],
+        "page_area_fraction": 0.0296
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          395.49,
+          448.56,
+          448.77
+        ],
+        "page_area_fraction": 0.0321
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          342.21,
+          448.56,
+          395.49
+        ],
+        "page_area_fraction": 0.0321
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          288.93,
+          448.56,
+          342.21
+        ],
+        "page_area_fraction": 0.0321
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          235.65,
+          448.56,
+          288.93
+        ],
+        "page_area_fraction": 0.0321
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.88,
+          185.25,
+          448.56,
+          235.65
+        ],
+        "page_area_fraction": 0.0303
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0096",
+    "caption": "로봇팔 제어 시스템 연동이 가능한 서보모터 제어 기반 3차 시작기 설계도",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 60 -\n그림 76. 로봇팔 제어 시스템 연동이 가능한 서보모터 제어 기반 3차 시작기 설계도\n그림 77. 로봇팔 제어 시스템 연동이 가능한 서보모터 제어 기반 3차 시작기 제작 결과\n- 실험을 수행한 결과, 줄기 형태의 제거 대상이 흔들리지 않도록 최소한의 공간에 안정\n적으로 위치하도록 접근한 후, 적정 회전 반경을 갖는 절단용 날을 동작시켜 확인하였\n음\n- 딸기 노엽과 같은 가느다란 형태부터, 토마토의 측지와 같은 굵은 가지까지 제거 작업\n에 활용할 수 있도록 약 1cm 폭의 간격으로 날이 벌어진 채 준비된 상태에서 주변의\n줄기 및 과실에 닿지 않고 제거 대상에 접근시켜 동작이 가능한 크기로 제작하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          730.29,
+          513.36,
+          764.13
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          696.45,
+          513.36,
+          730.29
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          662.61,
+          513.36,
+          696.45
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          628.77,
+          513.36,
+          662.61
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          594.93,
+          513.36,
+          628.77
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          561.09,
+          513.36,
+          594.93
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          527.25,
+          513.36,
+          561.09
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          494.13,
+          513.36,
+          527.25
+        ],
+        "page_area_fraction": 0.0285
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          425.73,
+          510.48,
+          460.29
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          391.17,
+          510.48,
+          425.73
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          356.61,
+          510.48,
+          391.17
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          322.05,
+          510.48,
+          356.61
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          287.49,
+          510.48,
+          322.05
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          252.93,
+          510.48,
+          287.49
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          221.25,
+          510.48,
+          252.93
+        ],
+        "page_area_fraction": 0.0269
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0097",
+    "caption": "로봇팔 제어 시스템 연동이 가능한 서보모터 제어 기반 3차 시작기 제작 결과",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 60 -\n그림 76. 로봇팔 제어 시스템 연동이 가능한 서보모터 제어 기반 3차 시작기 설계도\n그림 77. 로봇팔 제어 시스템 연동이 가능한 서보모터 제어 기반 3차 시작기 제작 결과\n- 실험을 수행한 결과, 줄기 형태의 제거 대상이 흔들리지 않도록 최소한의 공간에 안정\n적으로 위치하도록 접근한 후, 적정 회전 반경을 갖는 절단용 날을 동작시켜 확인하였\n음\n- 딸기 노엽과 같은 가느다란 형태부터, 토마토의 측지와 같은 굵은 가지까지 제거 작업\n에 활용할 수 있도록 약 1cm 폭의 간격으로 날이 벌어진 채 준비된 상태에서 주변의\n줄기 및 과실에 닿지 않고 제거 대상에 접근시켜 동작이 가능한 크기로 제작하였음\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          730.29,
+          513.36,
+          764.13
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          696.45,
+          513.36,
+          730.29
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          662.61,
+          513.36,
+          696.45
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          628.77,
+          513.36,
+          662.61
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          594.93,
+          513.36,
+          628.77
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          561.09,
+          513.36,
+          594.93
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          527.25,
+          513.36,
+          561.09
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.08,
+          494.13,
+          513.36,
+          527.25
+        ],
+        "page_area_fraction": 0.0285
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          425.73,
+          510.48,
+          460.29
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          391.17,
+          510.48,
+          425.73
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          356.61,
+          510.48,
+          391.17
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          322.05,
+          510.48,
+          356.61
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          287.49,
+          510.48,
+          322.05
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          252.93,
+          510.48,
+          287.49
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          221.25,
+          510.48,
+          252.93
+        ],
+        "page_area_fraction": 0.0269
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0098",
+    "caption": "3차원 공간상에서 Depth 카메라와 객체간 물리적 구조 개념도",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 61 -\n□ 다중센서 기반 하드웨어 제어 기술\n○ 스테레오 비젼 기반 객체 위치 인식기술 및 물리적 특성 분석\n- 물체의 깊이를 나타내는 깊이 값(Depth)은 촬영을 수행하는 depth camera의 평행면을\n기준으로 결정되며 물체까지의 실제 거리(Range)와는 다른 개념임\n- Depth 정보가 산출되는 원리를 고려하였을 때 카메라 렌즈와 객체의 위치가 서로 수직\n상태에 놓여있어야 하기 때문에 객체의 중심점을 RGBD 화면의 중심과 일치시켜야 함",
+    "caption_and_following_text": "- 아래 그림 78과 같이 Depth 카메라와 인식해야 할 객체간 3차원 공간상에서의 물리적\n관계를 고려하여 좌표값을 해석해야 함\n(1.객체인식 -> 2.중심점 이동 -> 3.거리값 정확도 확보 -> 4.목표 대상으로 접근)\n그림 78. 3차원 공간상에서 Depth 카메라와 객체간 물리적 구조 개념도\n- 객체인식을 위한 중심점 이동 제어 방법은 다음과 같은 2가지 방법으로 수행할 수 있음\n① 엔드이펙터와 객체와 수직을 이루는 평면상에서 움직이도록 하는 방법\n② 엔드이펙터가 장착된 로봇팔과 객체의 중심이 수직을 이루도록 제어하는 방법\n- 객체인식 알고리즘으로 물체 인식 시, Bounding Box 정중앙과 RGBD 화면의 정중앙사이\n의 pixel을 도출하였기 때문에 이를 실제 거리로 변환하기 위한 작업이 필요함\n그림 79. 중심점 이동 제어 방법 1안 그림 80. 중심점 이동 제어 방법 2안",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          556.77,
+          458.64,
+          605.73
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          507.81,
+          458.64,
+          556.77
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          458.85,
+          458.64,
+          507.81
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          410.61,
+          458.64,
+          458.85
+        ],
+        "page_area_fraction": 0.0313
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          265.17,
+          291.6,
+          325.65
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          204.69,
+          291.6,
+          265.17
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          145.65,
+          291.6,
+          204.69
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          265.17,
+          529.2,
+          326.37
+        ],
+        "page_area_fraction": 0.0278
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          203.97,
+          529.2,
+          265.17
+        ],
+        "page_area_fraction": 0.0278
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          144.21,
+          529.2,
+          203.97
+        ],
+        "page_area_fraction": 0.0271
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0099",
+    "caption": "중심점 이동 제어 방법 1안",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "상태에 놓여있어야 하기 때문에 객체의 중심점을 RGBD 화면의 중심과 일치시켜야 함\n- 아래 그림 78과 같이 Depth 카메라와 인식해야 할 객체간 3차원 공간상에서의 물리적\n관계를 고려하여 좌표값을 해석해야 함\n(1.객체인식 -> 2.중심점 이동 -> 3.거리값 정확도 확보 -> 4.목표 대상으로 접근)\n그림 78. 3차원 공간상에서 Depth 카메라와 객체간 물리적 구조 개념도\n- 객체인식을 위한 중심점 이동 제어 방법은 다음과 같은 2가지 방법으로 수행할 수 있음\n① 엔드이펙터와 객체와 수직을 이루는 평면상에서 움직이도록 하는 방법",
+    "caption_and_following_text": "② 엔드이펙터가 장착된 로봇팔과 객체의 중심이 수직을 이루도록 제어하는 방법\n- 객체인식 알고리즘으로 물체 인식 시, Bounding Box 정중앙과 RGBD 화면의 정중앙사이\n의 pixel을 도출하였기 때문에 이를 실제 거리로 변환하기 위한 작업이 필요함\n그림 79. 중심점 이동 제어 방법 1안 그림 80. 중심점 이동 제어 방법 2안\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          556.77,
+          458.64,
+          605.73
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          507.81,
+          458.64,
+          556.77
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          458.85,
+          458.64,
+          507.81
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          410.61,
+          458.64,
+          458.85
+        ],
+        "page_area_fraction": 0.0313
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          265.17,
+          291.6,
+          325.65
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          204.69,
+          291.6,
+          265.17
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          145.65,
+          291.6,
+          204.69
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          265.17,
+          529.2,
+          326.37
+        ],
+        "page_area_fraction": 0.0278
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          203.97,
+          529.2,
+          265.17
+        ],
+        "page_area_fraction": 0.0278
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          144.21,
+          529.2,
+          203.97
+        ],
+        "page_area_fraction": 0.0271
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0100",
+    "caption": "중심점 이동 제어 방법 2안",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "상태에 놓여있어야 하기 때문에 객체의 중심점을 RGBD 화면의 중심과 일치시켜야 함\n- 아래 그림 78과 같이 Depth 카메라와 인식해야 할 객체간 3차원 공간상에서의 물리적\n관계를 고려하여 좌표값을 해석해야 함\n(1.객체인식 -> 2.중심점 이동 -> 3.거리값 정확도 확보 -> 4.목표 대상으로 접근)\n그림 78. 3차원 공간상에서 Depth 카메라와 객체간 물리적 구조 개념도\n- 객체인식을 위한 중심점 이동 제어 방법은 다음과 같은 2가지 방법으로 수행할 수 있음\n① 엔드이펙터와 객체와 수직을 이루는 평면상에서 움직이도록 하는 방법",
+    "caption_and_following_text": "② 엔드이펙터가 장착된 로봇팔과 객체의 중심이 수직을 이루도록 제어하는 방법\n- 객체인식 알고리즘으로 물체 인식 시, Bounding Box 정중앙과 RGBD 화면의 정중앙사이\n의 pixel을 도출하였기 때문에 이를 실제 거리로 변환하기 위한 작업이 필요함\n그림 79. 중심점 이동 제어 방법 1안 그림 80. 중심점 이동 제어 방법 2안\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          556.77,
+          458.64,
+          605.73
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          507.81,
+          458.64,
+          556.77
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          458.85,
+          458.64,
+          507.81
+        ],
+        "page_area_fraction": 0.0317
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.92,
+          410.61,
+          458.64,
+          458.85
+        ],
+        "page_area_fraction": 0.0313
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          265.17,
+          291.6,
+          325.65
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          204.69,
+          291.6,
+          265.17
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          145.65,
+          291.6,
+          204.69
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          265.17,
+          529.2,
+          326.37
+        ],
+        "page_area_fraction": 0.0278
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          203.97,
+          529.2,
+          265.17
+        ],
+        "page_area_fraction": 0.0278
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.68,
+          144.21,
+          529.2,
+          203.97
+        ],
+        "page_area_fraction": 0.0271
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0101",
+    "caption": "스테레오 비젼 기반 다중 센서의 측위 실험을 위한 직교좌표 배치도",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 62 -\n- Depth 센서와 Object간 거리 별로 pixel당 실제 거리가 달라지기 때문에 거리별 비례",
+    "caption_and_following_text": "식을 세우기 위해서 다음과 같이 실험을 설정하였으며, 이때 로봇팔의 영점에 해당하\n는 베이스 위치로부터 작물에 재배되고 있는 고설벤치까지의 최대 거리와 센서가 나타\n낼 수 있는 최소 Depth를 고려하였음\n그림 81. 스테레오 비젼 기반 다중 센서의 측위 실험을 위한 직교좌표 배치도\n- 그림 82는 mm/pixel을 산출하는 것을 목적으로 직교 형태로 각 위치값을 고려하여 배\n치한 구조를 나타낸 것이며, 각 거리 사이의 관계를 통해 선형적인 비례식을 구하는\n것임\n- 실제로 촬영 시 객체인식, depth값이 모두 산출되는 지점은 빨간색으로 표시한 부분과\n같으며, 이는 zed mini의 두 개 렌즈 중 왼쪽 렌즈가 RGB를 인식하는 것이 원인이 되\n는 것으로 판단됨",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          659.01,
+          510.48,
+          693.57
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          624.45,
+          510.48,
+          659.01
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          589.89,
+          510.48,
+          624.45
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          555.33,
+          510.48,
+          589.89
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          520.77,
+          510.48,
+          555.33
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          488.37,
+          510.48,
+          520.77
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          319.89,
+          511.92,
+          355.17
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          284.61,
+          511.92,
+          319.89
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          249.33,
+          511.92,
+          284.61
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          214.05,
+          511.92,
+          249.33
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          178.77,
+          511.92,
+          214.05
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          143.49,
+          511.92,
+          178.77
+        ],
+        "page_area_fraction": 0.0304
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0102",
+    "caption": "다중 센서의 영상 데이터의 픽셀당 선형 거리 측위 실험",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "식을 세우기 위해서 다음과 같이 실험을 설정하였으며, 이때 로봇팔의 영점에 해당하\n는 베이스 위치로부터 작물에 재배되고 있는 고설벤치까지의 최대 거리와 센서가 나타\n낼 수 있는 최소 Depth를 고려하였음\n그림 81. 스테레오 비젼 기반 다중 센서의 측위 실험을 위한 직교좌표 배치도\n- 그림 82는 mm/pixel을 산출하는 것을 목적으로 직교 형태로 각 위치값을 고려하여 배\n치한 구조를 나타낸 것이며, 각 거리 사이의 관계를 통해 선형적인 비례식을 구하는\n것임",
+    "caption_and_following_text": "- 실제로 촬영 시 객체인식, depth값이 모두 산출되는 지점은 빨간색으로 표시한 부분과\n같으며, 이는 zed mini의 두 개 렌즈 중 왼쪽 렌즈가 RGB를 인식하는 것이 원인이 되\n는 것으로 판단됨\n그림 82. 다중 센서의 영상 데이터의 픽셀당 선형 거리 측위 실험\n- 거리별로 Pixel 값을 기반으로 거리값을 산출할 때 depth의 오차는 ±10mm 이고, 두\n정 중앙값의 오차는 약 5 pixel이며, 렌즈와 수직을 이루는 지점 내에서는 거리가 멀\n어질수록 최대 약 25 pixel 정도의 오차 범위를 가짐\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 다중센서 기반 작물 위치 인식 방법 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          659.01,
+          510.48,
+          693.57
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          624.45,
+          510.48,
+          659.01
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          589.89,
+          510.48,
+          624.45
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          555.33,
+          510.48,
+          589.89
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          520.77,
+          510.48,
+          555.33
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          488.37,
+          510.48,
+          520.77
+        ],
+        "page_area_fraction": 0.0275
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          319.89,
+          511.92,
+          355.17
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          284.61,
+          511.92,
+          319.89
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          249.33,
+          511.92,
+          284.61
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          214.05,
+          511.92,
+          249.33
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          178.77,
+          511.92,
+          214.05
+        ],
+        "page_area_fraction": 0.0304
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.64,
+          143.49,
+          511.92,
+          178.77
+        ],
+        "page_area_fraction": 0.0304
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0103",
+    "caption": "측정 가능한 각 직교 위치별 거리 값 측정 결과",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 63 -\n- 산출된 모든 값은 100mm/알고리즘에서 도출된 각 지점 사이의 pixel 값으로 나타내었\n으며, 센서의 렌즈로부터 멀어질수록 mm/pixel이 증가하는 것을 확인할 수 있었음\n- 렌즈 굴절 특성으로 인해 거리 별 픽셀당 거리값에 대한 오차 비율이 비선형적으로 다",
+    "caption_and_following_text": "르게 계산되는 것을 확인함\n- 산출된 값을 통해 선형방정식을 산출하고, 로봇팔을 중심점으로 이동하기 위한 실제\n거리와 이상적인 범위를 분석해야 할 필요성이 있음\n그림 83. 측정 가능한 각 직교 위치별 거리 값 측정 결과\n□ 영상 데이터 획득을 위한 최적 경로 생성 연구\n○ 다중 영상 센서 데이터 분석 기반 로봇팔 제어 알고리즘 시뮬레이션\n- 아래 그림은 depth 카메라를 이용하여 딸기 작물을 대상으로 수집된 영상데이터 및\ndepth 데이터 결과를 나타내고 있음\n그림 84. 인식된 노엽 RGB 이미지 데이터와 Depth 데이터의 매칭 결과 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 영상 데이터 획득을 위한 최적 경로 생성 연구",
+    "heading_candidates": [
+      "□ 영상 데이터 획득을 위한 최적 경로 생성 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          622.29,
+          529.2,
+          658.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          586.29,
+          529.2,
+          622.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          550.29,
+          529.2,
+          586.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          514.29,
+          529.2,
+          550.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          478.29,
+          529.2,
+          514.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          445.89,
+          529.2,
+          478.29
+        ],
+        "page_area_fraction": 0.0301
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          293.97,
+          510.48,
+          332.85
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          255.09,
+          510.48,
+          293.97
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          216.21,
+          510.48,
+          255.09
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          177.33,
+          510.48,
+          216.21
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          138.45,
+          510.48,
+          177.33
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          100.29,
+          510.48,
+          138.45
+        ],
+        "page_area_fraction": 0.0326
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0104",
+    "caption": "인식된 노엽 RGB 이미지 데이터와 Depth 데이터의 매칭 결과 비교",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "으며, 센서의 렌즈로부터 멀어질수록 mm/pixel이 증가하는 것을 확인할 수 있었음\n- 렌즈 굴절 특성으로 인해 거리 별 픽셀당 거리값에 대한 오차 비율이 비선형적으로 다\n르게 계산되는 것을 확인함\n- 산출된 값을 통해 선형방정식을 산출하고, 로봇팔을 중심점으로 이동하기 위한 실제\n거리와 이상적인 범위를 분석해야 할 필요성이 있음\n그림 83. 측정 가능한 각 직교 위치별 거리 값 측정 결과\n□ 영상 데이터 획득을 위한 최적 경로 생성 연구",
+    "caption_and_following_text": "○ 다중 영상 센서 데이터 분석 기반 로봇팔 제어 알고리즘 시뮬레이션\n- 아래 그림은 depth 카메라를 이용하여 딸기 작물을 대상으로 수집된 영상데이터 및\ndepth 데이터 결과를 나타내고 있음\n그림 84. 인식된 노엽 RGB 이미지 데이터와 Depth 데이터의 매칭 결과 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 영상 데이터 획득을 위한 최적 경로 생성 연구",
+    "heading_candidates": [
+      "□ 영상 데이터 획득을 위한 최적 경로 생성 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          622.29,
+          529.2,
+          658.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          586.29,
+          529.2,
+          622.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          550.29,
+          529.2,
+          586.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          514.29,
+          529.2,
+          550.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          478.29,
+          529.2,
+          514.29
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.36,
+          445.89,
+          529.2,
+          478.29
+        ],
+        "page_area_fraction": 0.0301
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          293.97,
+          510.48,
+          332.85
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          255.09,
+          510.48,
+          293.97
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          216.21,
+          510.48,
+          255.09
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          177.33,
+          510.48,
+          216.21
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          138.45,
+          510.48,
+          177.33
+        ],
+        "page_area_fraction": 0.0332
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.8,
+          100.29,
+          510.48,
+          138.45
+        ],
+        "page_area_fraction": 0.0326
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0105",
+    "caption": "측면에서 관찰한 Depth 데이터 분포 상태",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 64 -\n- 그림 84에서 왼쪽은 viewer tool을 사용하여 RGB영상과 depth 정보와 일치되는 부분을\n나타낸 것이고, 오른쪽은 depth 카메라의 중심을 기준으로 실제 거리값을 반영하여 표",
+    "caption_and_following_text": "현된 depth 데이터의 분포상태를 나타내고 있음\n- 그림 85는, 상기 Depth 데이터를 입체적으로 관찰하기 위해 분석한 그래프를 나타낸\n것임\n그림 85. 측면에서 관찰한 Depth 데이터 분포 상태 그림 86. 상부에서 관찰한 Depth 데이터 분포 상태\n- 그림 85에서 관찰된 바와 같이, 다중 센서로 선정한 ZED-mini 카메라의 FOV 정보가 물\n리적으로 3차원 공간내에서 매우 정확게 관찰됨을 알 수 있음\n- 그러나 카메라를 고정된 위치에서 Depth 데이터 분포상태를 측정하였을 때, 동일 좌표\n값으로 표현되지 못하고 흔들리는 듯한 상태로 매우 불안정하게 해석되는 문제가 있\n어, 별도의 연구수행을 통해 소프트웨어적으로 해결해야 할 부분이 있음\n그림 87. 3차원 공간 내 분포된 Depth 데이터 상태 그림 88. 주요 객체에 대한 Depth 데이터 분류 예",
+    "section_context_candidate": "□ 영상 데이터 획득을 위한 최적 경로 생성 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.12,
+          439.41,
+          296.88,
+          679.17
+        ],
+        "page_area_fraction": 0.1118
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.2,
+          439.65,
+          534.0,
+          678.93
+        ],
+        "page_area_fraction": 0.1112
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.88,
+          109.17,
+          275.28,
+          304.29
+        ],
+        "page_area_fraction": 0.078
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          238.53,
+          520.56,
+          303.33
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          173.73,
+          520.56,
+          238.53
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          109.65,
+          520.56,
+          173.73
+        ],
+        "page_area_fraction": 0.0266
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0106",
+    "caption": "상부에서 관찰한 Depth 데이터 분포 상태",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 64 -\n- 그림 84에서 왼쪽은 viewer tool을 사용하여 RGB영상과 depth 정보와 일치되는 부분을\n나타낸 것이고, 오른쪽은 depth 카메라의 중심을 기준으로 실제 거리값을 반영하여 표",
+    "caption_and_following_text": "현된 depth 데이터의 분포상태를 나타내고 있음\n- 그림 85는, 상기 Depth 데이터를 입체적으로 관찰하기 위해 분석한 그래프를 나타낸\n것임\n그림 85. 측면에서 관찰한 Depth 데이터 분포 상태 그림 86. 상부에서 관찰한 Depth 데이터 분포 상태\n- 그림 85에서 관찰된 바와 같이, 다중 센서로 선정한 ZED-mini 카메라의 FOV 정보가 물\n리적으로 3차원 공간내에서 매우 정확게 관찰됨을 알 수 있음\n- 그러나 카메라를 고정된 위치에서 Depth 데이터 분포상태를 측정하였을 때, 동일 좌표\n값으로 표현되지 못하고 흔들리는 듯한 상태로 매우 불안정하게 해석되는 문제가 있\n어, 별도의 연구수행을 통해 소프트웨어적으로 해결해야 할 부분이 있음\n그림 87. 3차원 공간 내 분포된 Depth 데이터 상태 그림 88. 주요 객체에 대한 Depth 데이터 분류 예",
+    "section_context_candidate": "□ 영상 데이터 획득을 위한 최적 경로 생성 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.12,
+          439.41,
+          296.88,
+          679.17
+        ],
+        "page_area_fraction": 0.1118
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.2,
+          439.65,
+          534.0,
+          678.93
+        ],
+        "page_area_fraction": 0.1112
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.88,
+          109.17,
+          275.28,
+          304.29
+        ],
+        "page_area_fraction": 0.078
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          238.53,
+          520.56,
+          303.33
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          173.73,
+          520.56,
+          238.53
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          109.65,
+          520.56,
+          173.73
+        ],
+        "page_area_fraction": 0.0266
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0107",
+    "caption": "3차원 공간 내 분포된 Depth 데이터 상태",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "나타낸 것이고, 오른쪽은 depth 카메라의 중심을 기준으로 실제 거리값을 반영하여 표\n현된 depth 데이터의 분포상태를 나타내고 있음\n- 그림 85는, 상기 Depth 데이터를 입체적으로 관찰하기 위해 분석한 그래프를 나타낸\n것임\n그림 85. 측면에서 관찰한 Depth 데이터 분포 상태 그림 86. 상부에서 관찰한 Depth 데이터 분포 상태\n- 그림 85에서 관찰된 바와 같이, 다중 센서로 선정한 ZED-mini 카메라의 FOV 정보가 물\n리적으로 3차원 공간내에서 매우 정확게 관찰됨을 알 수 있음",
+    "caption_and_following_text": "- 그러나 카메라를 고정된 위치에서 Depth 데이터 분포상태를 측정하였을 때, 동일 좌표\n값으로 표현되지 못하고 흔들리는 듯한 상태로 매우 불안정하게 해석되는 문제가 있\n어, 별도의 연구수행을 통해 소프트웨어적으로 해결해야 할 부분이 있음\n그림 87. 3차원 공간 내 분포된 Depth 데이터 상태 그림 88. 주요 객체에 대한 Depth 데이터 분류 예\n- 아래 그림 89는, 다중센서로 인식된 작물의 주요 객체의 3차원 위치를 인식하고, 해당\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 영상 데이터 획득을 위한 최적 경로 생성 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.12,
+          439.41,
+          296.88,
+          679.17
+        ],
+        "page_area_fraction": 0.1118
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.2,
+          439.65,
+          534.0,
+          678.93
+        ],
+        "page_area_fraction": 0.1112
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.88,
+          109.17,
+          275.28,
+          304.29
+        ],
+        "page_area_fraction": 0.078
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          238.53,
+          520.56,
+          303.33
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          173.73,
+          520.56,
+          238.53
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          109.65,
+          520.56,
+          173.73
+        ],
+        "page_area_fraction": 0.0266
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0108",
+    "caption": "주요 객체에 대한 Depth 데이터 분류 예",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "나타낸 것이고, 오른쪽은 depth 카메라의 중심을 기준으로 실제 거리값을 반영하여 표\n현된 depth 데이터의 분포상태를 나타내고 있음\n- 그림 85는, 상기 Depth 데이터를 입체적으로 관찰하기 위해 분석한 그래프를 나타낸\n것임\n그림 85. 측면에서 관찰한 Depth 데이터 분포 상태 그림 86. 상부에서 관찰한 Depth 데이터 분포 상태\n- 그림 85에서 관찰된 바와 같이, 다중 센서로 선정한 ZED-mini 카메라의 FOV 정보가 물\n리적으로 3차원 공간내에서 매우 정확게 관찰됨을 알 수 있음",
+    "caption_and_following_text": "- 그러나 카메라를 고정된 위치에서 Depth 데이터 분포상태를 측정하였을 때, 동일 좌표\n값으로 표현되지 못하고 흔들리는 듯한 상태로 매우 불안정하게 해석되는 문제가 있\n어, 별도의 연구수행을 통해 소프트웨어적으로 해결해야 할 부분이 있음\n그림 87. 3차원 공간 내 분포된 Depth 데이터 상태 그림 88. 주요 객체에 대한 Depth 데이터 분류 예\n- 아래 그림 89는, 다중센서로 인식된 작물의 주요 객체의 3차원 위치를 인식하고, 해당\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 영상 데이터 획득을 위한 최적 경로 생성 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.12,
+          439.41,
+          296.88,
+          679.17
+        ],
+        "page_area_fraction": 0.1118
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.2,
+          439.65,
+          534.0,
+          678.93
+        ],
+        "page_area_fraction": 0.1112
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.88,
+          109.17,
+          275.28,
+          304.29
+        ],
+        "page_area_fraction": 0.078
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          238.53,
+          520.56,
+          303.33
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          173.73,
+          520.56,
+          238.53
+        ],
+        "page_area_fraction": 0.0269
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.48,
+          109.65,
+          520.56,
+          173.73
+        ],
+        "page_area_fraction": 0.0266
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S40-V0109",
+    "caption": "다중센서가 장착된 로봇팔을 제어하기 위한 궤적 시뮬레이션 결과",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 65 -\n좌표로 로봇팔을 이동시키기 위해 엔드이펙터가 직접 연결된 마지막 관절의 중심축을\n센서의 중심과 일치시켜 제어하는 경우 궤적을 예상하기 위한 시뮬레이션 결과를 나타\n내고 있음\n- 노엽 제거 작업을 가정하는 경우, 주요객체에 대한 위치 인식의 용이성을 위해 카메라",
+    "caption_and_following_text": "렌즈가 관찰 가능한 각도의 1/2(45도)의 범위내에서 1차 궤적과 같이 움직이며 가시성\n을 확보하고, 엔드이펙터에 의해 줄기부분을 정확히 찾기 위한 가시성 확보를 위해 2\n차 궤적과 같이 로봇팔을 움직여 절단 작업을 완료할 수 있음\n그림 89. 다중센서가 장착된 로봇팔을 제어하기 위한 궤적 시뮬레이션 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 영상 데이터 획득을 위한 최적 경로 생성 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

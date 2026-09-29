@@ -1,0 +1,1137 @@
+[
+  {
+    "visual_id": "S34-V0001",
+    "caption": "자동으로 신경다발을 클러스터링한 결과를 표시한 그림. (A)원본 데이터, (B)클러스 터링 결과 데이터. (C)클러스터링 결과의 1-3번 데이터. (D) 클러스터링 데이터의 4-6번 데이 터",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 13 -\n그림 1. 자동으로 신경다발을 클러스터링한 결과를 표시한 그림. (A)원본 데이터, (B)클러스\n터링 결과 데이터. (C)클러스터링 결과의 1-3번 데이터. (D) 클러스터링 데이터의 4-6번 데이\n터.\n․ 7.0T MRI-SRT 데이터를 이용하여 심부 뇌의 초고해상도 트랙밀도 기반 3-D map 구성\n․ 뇌기능-신경회로망 융합 SRT map 구성을 위해 필요한 기능적 분자 영상맵을 얻을 수 있는\nPET영상의 해상도와 민감도를 동시에 향상시킬 수 있는 PET 영상획득 기법의 개발\n(가) SRT 데이터를 기반으로 한 브로드만 영역 간 연결성 분석기법개발로 신경다발의 경로\n및 기능의 분석 결과를 정량 객관화 할 수 있게 함.\n(나) AI기법의 일종인 un-supervised 학습기법을 신경다발 클러스터링에 적용하여 대량의",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          507.77,
+          529.28,
+          760.21
+        ],
+        "page_area_fraction": 0.2385
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0002",
+    "caption": "기하학적 왜곡 수정 전후 비교",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 14 -\n- 3D SRT map의 구축\nŸ 기 보유 고해상도 7T MRI 데이터 이용: T2* MRI(in-plane 해상도: 0.2mm), DWI(1.8",
+    "caption_and_following_text": "mm isotropic resolution; High angular resolution diffusion-weighted imaging\n(HARDI): 64 방향; b-value = 2,000 s/mm2)\nŸ point spread function (PSF)를 이용한 DWI 데이터의 기하학적 왜곡 수정\n그림 2. 기하학적 왜곡 수정 전후 비교.\nŸ DWI 전처리 과정 (Mrtrix3이용): Dicom data -> NIfTI data -> DWI data (b-value,\nb-vector 포함) -> response function 추출 -> constrained spherical deconvolution\n-> fiber-orientation distribution data\nŸ 전체 뇌의 tractography (알고리즘: iFOD1, 최소길이: 20mm, 최대길이: 220mm,\nangle: 36°, step size: 0.5, cut-off: 0.3)\nŸ 전체 뇌 tractography 결과의 track-density imaging (TDI) 변환: 0.2 mm isotropic",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          490.86,
+          533.83,
+          653.29
+        ],
+        "page_area_fraction": 0.1443
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.83,
+          118.55,
+          533.35,
+          303.15
+        ],
+        "page_area_fraction": 0.1636
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0003",
+    "caption": "기저핵 및 중뇌 부분에 대한 Axial 3D SRT map 예시",
+    "pdf_page_candidate": 14,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "(HARDI): 64 방향; b-value = 2,000 s/mm2)\nŸ point spread function (PSF)를 이용한 DWI 데이터의 기하학적 왜곡 수정\n그림 2. 기하학적 왜곡 수정 전후 비교.\nŸ DWI 전처리 과정 (Mrtrix3이용): Dicom data -> NIfTI data -> DWI data (b-value,\nb-vector 포함) -> response function 추출 -> constrained spherical deconvolution\n-> fiber-orientation distribution data\nŸ 전체 뇌의 tractography (알고리즘: iFOD1, 최소길이: 20mm, 최대길이: 220mm,",
+    "caption_and_following_text": "angle: 36°, step size: 0.5, cut-off: 0.3)\nŸ 전체 뇌 tractography 결과의 track-density imaging (TDI) 변환: 0.2 mm isotropic\nresolution을 갖는 color-encoded (빨강: 좌-우 방향; 초록: 앞-뒤 방향; 파랑: 위- 아래 방향) 3D SRT map 구현\n그림 3. 기저핵 및 중뇌 부분에 대한 Axial 3D SRT map 예시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          490.86,
+          533.83,
+          653.29
+        ],
+        "page_area_fraction": 0.1443
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.83,
+          118.55,
+          533.35,
+          303.15
+        ],
+        "page_area_fraction": 0.1636
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0004",
+    "caption": "심부 뇌(기저핵 및 시상)의 관심영역과 하위 구조의 영상분할 경계. (Front. Neuroanat. 15, 739576, 2021)",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 15 -",
+    "caption_and_following_text": "- 일반적인 MRI 구조 영상에서 관찰하기 어려운 시상의 하부구조를 7.0T MRI-SRT 트랙밀도\n영상을 이용하여 맵핑함.\n그림 4. 심부 뇌(기저핵 및 시상)의 관심영역과 하위 구조의 영상분할 경계. (Front.\nNeuroanat. 15, 739576, 2021)\n- 7.0T MRI-SRT 트랙밀도영상 기반의 H-field의 맵핑과 SN의 하부구조 맵핑\n① pallidothalamic pathway를 구성하는 백질 경로인 H2, al은 매우 좁은 영역인\nH-field에서 합쳐져 H1을 통해 시상으로 입력되기 때문에 pallidothalamic pathway를 추\n적하기 위한 가장 좋은 seed 영역은 H-field로서 이를 정의하기 위해 7.0T MRI-SRT 트랙\n밀도영상과 T2* MRI 영상을 이용하여 정의하는 방법을 구축하고 추출에 성공함.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.77,
+          478.64,
+          535.99,
+          719.45
+        ],
+        "page_area_fraction": 0.2297
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0005",
+    "caption": "(A-D) pallidothalamic pathway를 추적하기 위한 seed 영역으로서 H-field의 T2* 및 TDI 영상, (E-H) nigrothalamic pathway를 추적하기 위한 seed 영역으로서 SNr을 SNc로부터 구분하는 영상. (Front. Neuroanat. 15, 739576, 2021)",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 16 -\n그림 5. (A-D) pallidothalamic pathway를 추적하기 위한 seed 영역으로서 H-field의 T2* 및\nTDI 영상, (E-H) nigrothalamic pathway를 추적하기 위한 seed 영역으로서 SNr을 SNc로부터\n구분하는 영상. (Front. Neuroanat. 15, 739576, 2021)\n② 해부학적으로 매우 밀접하게 붙어있는 SN의 subregion인 SNr(reticulata, 그물부)과\nSNc(compacta, 치밀부)은 그동안 MRI 영상에서 뚜렷히 구별하기 어려웠지만 두 구조의\n트랙밀도영상 대조도의 차이를 통해 구별하여 nigrothalamic pathway를 정의할 수 있는\nseed 영역을 얻을 수 있었음.\n그림 6. TDI영상과 T2* MRI영상에서 SNr과 SNc의 대조도 차이. (Front. Neuroanat. 15,\n739576, 2021)",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          60.57,
+          522.75,
+          534.31,
+          760.21
+        ],
+        "page_area_fraction": 0.2248
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          60.57,
+          120.83,
+          534.19,
+          356.73
+        ],
+        "page_area_fraction": 0.2233
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0006",
+    "caption": "TDI영상과 T2* MRI영상에서 SNr과 SNc의 대조도 차이. (Front. Neuroanat. 15, 739576, 2021)",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 16 -\n그림 5. (A-D) pallidothalamic pathway를 추적하기 위한 seed 영역으로서 H-field의 T2* 및\nTDI 영상, (E-H) nigrothalamic pathway를 추적하기 위한 seed 영역으로서 SNr을 SNc로부터\n구분하는 영상. (Front. Neuroanat. 15, 739576, 2021)\n② 해부학적으로 매우 밀접하게 붙어있는 SN의 subregion인 SNr(reticulata, 그물부)과\nSNc(compacta, 치밀부)은 그동안 MRI 영상에서 뚜렷히 구별하기 어려웠지만 두 구조의",
+    "caption_and_following_text": "트랙밀도영상 대조도의 차이를 통해 구별하여 nigrothalamic pathway를 정의할 수 있는\nseed 영역을 얻을 수 있었음.\n그림 6. TDI영상과 T2* MRI영상에서 SNr과 SNc의 대조도 차이. (Front. Neuroanat. 15,\n739576, 2021)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          60.57,
+          522.75,
+          534.31,
+          760.21
+        ],
+        "page_area_fraction": 0.2248
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          60.57,
+          120.83,
+          534.19,
+          356.73
+        ],
+        "page_area_fraction": 0.2233
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0007",
+    "caption": "초고해상도 7T 트랙밀도영상 대조도에서 나타나는 ZI 구조와 3차원 모델링",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 17 -",
+    "caption_and_following_text": "- 7.0T MRI-SRT 트랙밀도영상 기반의 zona incerta (ZI) 구조 맵핑: 초고해상도 트랙밀도\n영상을 이용하여 ZI의 구조를 선명하게 관찰함. 특히 그동안 특정한 구조 및 형태로서 관\n찰된 바 없는 ZI의 3차원 구조를 트랙밀도영상의 대조도를 통해 처음으로 관찰함.\n그림 7. 초고해상도 7T 트랙밀도영상 대조도에서 나타나는 ZI 구조와 3차원 모델링\n(2) 구조적 관점의 neural circuit 분석\n․ 7.0T MRI-SRT데이터를 이용한 시상 영역의 신경다발 분석\n․ 7.0T MRI-SRT데이터 및, HCP데이터 (human connectome proejct,\nhttps://www.humanconnectome.org/)를 이용한 변연계 영역의 신경다발 분석\n․ 신경회로망 정보를 이용한 신경망 지도 작업\n․ 7.0T MRI-SRT 데이터 및 HCP 데이터를 이용한 대상신경다발 과 2차 시각피질",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.68,
+          393.89,
+          528.2,
+          678.7
+        ],
+        "page_area_fraction": 0.2627
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0008",
+    "caption": "왼쪽: 수평면에서 본 anterior nucleus에서 대상피질까지에 대한 기존의 추정경로가 파란색으로 표시되었고, 제안하는 경로는 빨간색으로 표시된 그림. 오른쪽: anterior nucleus 에서의 fiber tracking 결과를 시상면에 전사한 그림",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 18 -\n(가) 시상에서 대상피질로의 신경다발 경로 규명\n- 시상에서 피질로 연결되는 신경다발 중 대상피질로 연결되는 시상피질신경로 신경다\n발 분석함. 일반적인 시상피질 신경로와는 달리 시상에서 대상피질로 연결되는 신경",
+    "caption_and_following_text": "다발은 옆이 아닌 앞쪽으로 전달됨을 확인\n그림 8. 왼쪽: 수평면에서 본 anterior nucleus에서 대상피질까지에 대한 기존의 추정경로가\n파란색으로 표시되었고, 제안하는 경로는 빨간색으로 표시된 그림. 오른쪽: anterior nucleus\n에서의 fiber tracking 결과를 시상면에 전사한 그림.\n(나) 파페츠 회로를 구성하는 5개의 모든 구성 신경다발 영상화 성공\n- 파페츠 회로를 구성하는 5개의 구성 신경다발(fornix (1), mammillothalamic tract\n(2), AN thalamocortical fiber (3), cingulum (4), perforant path (5)) 영상화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          421.94,
+          524.48,
+          653.28
+        ],
+        "page_area_fraction": 0.2163
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          82.83,
+          535.51,
+          259.88
+        ],
+        "page_area_fraction": 0.1694
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0009",
+    "caption": "파페츠 회로를 fiber tracking 한 결과를 시상면에 표시한 그림. perforant 경로와 대 상피질,뇌궁이 표시되어 있음",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 19 -\n그림 9. 파페츠 회로를 fiber tracking 한 결과를 시상면에 표시한 그림. perforant 경로와 대\n상피질,뇌궁이 표시되어 있음.\n(다) 신경회로망 지도책 완성\n(라) 선조외 피질 시각영역에서의 새로운 등쪽 시각경로 규명\n- 1차시각피질에서 어디정보를 담당하는 후두정피질 영역으로 정보가 전달되는 경로로\n알려진 등쪽경로에 모순점을 확인하고 새로운 개선된 어디정보 전달 경로 제시함\n그림 10. 고위 시각경로에 대한 새로운 모델을 설명하는 그림. 기존의 추정 시각경로에서 등\n쪽 경로는 바로 등쪽으로 전달되는 반면, 제안하는 모델은 내측으로 거친 후 등쪽으로 전달\n됨.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          330.96,
+          546.67,
+          526.46
+        ],
+        "page_area_fraction": 0.1915
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0010",
+    "caption": "고위 시각경로에 대한 새로운 모델을 설명하는 그림. 기존의 추정 시각경로에서 등 쪽 경로는 바로 등쪽으로 전달되는 반면, 제안하는 모델은 내측으로 거친 후 등쪽으로 전달 됨",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 19 -\n그림 9. 파페츠 회로를 fiber tracking 한 결과를 시상면에 표시한 그림. perforant 경로와 대\n상피질,뇌궁이 표시되어 있음.\n(다) 신경회로망 지도책 완성\n(라) 선조외 피질 시각영역에서의 새로운 등쪽 시각경로 규명\n- 1차시각피질에서 어디정보를 담당하는 후두정피질 영역으로 정보가 전달되는 경로로",
+    "caption_and_following_text": "알려진 등쪽경로에 모순점을 확인하고 새로운 개선된 어디정보 전달 경로 제시함\n그림 10. 고위 시각경로에 대한 새로운 모델을 설명하는 그림. 기존의 추정 시각경로에서 등\n쪽 경로는 바로 등쪽으로 전달되는 반면, 제안하는 모델은 내측으로 거친 후 등쪽으로 전달\n됨.\n(마) 대상피질을 위쪽 층과 아래쪽 층으로 구분하여 신경다발 경로를 분석하여 규명함\n- 대상피질을 2개의 층 구조 형태로 설정하여 신경다발을 분석함. 상층 대상피질과 하층\n대상피질을 구분해서 새로운 개선된 대상파질 연결성 제안\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          330.96,
+          546.67,
+          526.46
+        ],
+        "page_area_fraction": 0.1915
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0011",
+    "caption": "대상피질에 대한 새로운 전달 모델 제시. 대상피질을 새롭게 두 개의 층으로 구분해 서 대상피질 신경다발에 대한 새로운 연결 전달 모델을 제시함",
+    "pdf_page_candidate": 20,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 20 -\n그림 11. 대상피질에 대한 새로운 전달 모델 제시. 대상피질을 새롭게 두 개의 층으로 구분해\n서 대상피질 신경다발에 대한 새로운 연결 전달 모델을 제시함.\n(바) 7.0T MRI-SRT 데이터 및 HCP 데이터와 뇌 영역 구획화 데이터를 이용한\n신경다발의 종류별 피질에서의 밀도정보 지도 완성\n- 신경다발을 크게 commissural fiber, association fiber, proejction fiber로 구분하\n여 피질에서의 상호 밀도를 색깔별로 매핑하여 확인할 수 있는 새로운 신경다발 뇌지\n도 형태 제시함.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          62.13,
+          281.21,
+          453.12,
+          760.21
+        ],
+        "page_area_fraction": 0.3743
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0012",
+    "caption": "교련신경다발은 빨간색으로, 연합신경다발은 파란색으로, 전사신경다발은 초록색으로 표시해서 매핑한 그림 (A-D). 짧은 연합신경다발은 초록색으로, 긴 연합신경다발은 빨간색으 로 표시해서 매핑한 그림 (E). 신경다발 밀도를 포시한 그림 (F)",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 21 -\n그림 12. 교련신경다발은 빨간색으로, 연합신경다발은 파란색으로, 전사신경다발은 초록색으로\n표시해서 매핑한 그림 (A-D). 짧은 연합신경다발은 초록색으로, 긴 연합신경다발은 빨간색으\n로 표시해서 매핑한 그림 (E). 신경다발 밀도를 포시한 그림 (F)\n(사) 7.0T MRI-SRT 데이터 기반의 심부 뇌와 주변 백질 구조의 영상화\n- 기 보유 7.0T MRI-SRT 영상 프로토콜의 확립\nŸ Tractography 알고리즘 비교 및 최적화: iFOD2\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          413.43,
+          519.44,
+          760.21
+        ],
+        "page_area_fraction": 0.3207
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0013",
+    "caption": "Tractography 알고리즘 iFOD1과 iFOD2의 결과 비교. 관심 영역: Centrum semiovale",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 22 -\n그림 13. Tractography 알고리즘 iFOD1과 iFOD2의 결과 비교. 관심 영역: Centrum semiovale\nŸ Tractography 파라미터 최적화: seed 수 대비 track selection 수 조사\n그림 14. 대표적인 tractography 파라미터인 cut-off, curvature angle, step-size의 최\n적화\nŸ Tractography 파라미터 확정: Cutoff: 0.4, Angle: 36 deg, Step size: 0.9 mm\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          580.04,
+          531.43,
+          760.21
+        ],
+        "page_area_fraction": 0.171
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.0,
+          164.82,
+          528.68,
+          489.55
+        ],
+        "page_area_fraction": 0.3009
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0014",
+    "caption": "대표적인 tractography 파라미터인 cut-off, curvature angle, step-size의 최적화",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 22 -",
+    "caption_and_following_text": "그림 13. Tractography 알고리즘 iFOD1과 iFOD2의 결과 비교. 관심 영역: Centrum semiovale\nŸ Tractography 파라미터 최적화: seed 수 대비 track selection 수 조사\n그림 14. 대표적인 tractography 파라미터인 cut-off, curvature angle, step-size의 최\n적화\nŸ Tractography 파라미터 확정: Cutoff: 0.4, Angle: 36 deg, Step size: 0.9 mm\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          580.04,
+          531.43,
+          760.21
+        ],
+        "page_area_fraction": 0.171
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.0,
+          164.82,
+          528.68,
+          489.55
+        ],
+        "page_area_fraction": 0.3009
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0015",
+    "caption": "pallidothalamic pathway와 nigrothalamic pathway의 전체 경로. (Front. Neuroanat. 15, 739576, 2021)",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 23 -\n- 흑질(Substantia Nigra; SN)에 밀접한 시상하핵(Subthalamic Nucleus; STN), Zona\nIncerta(ZI)를 둘러싸고 있는 주변 백질 구조의 영상화\n① SN, STN, ZI를 둘러싸고 있는 주요한 백질 경로로서 pallidothalamic pathway의\nfields of Forel - fasciculus thalamicus (H1), field H (fasciculus lenticularis\n(H2), ansa lenticularis(al))과 nigrothalamic pathway의 전체 경로를 시각화함. 특\n히 그동안 소동물의 신경세포 tracing과 염색으로만 보고되어 온 nigrothalamic",
+    "caption_and_following_text": "pathway를 in-vivo 인간 뇌영상에서 처음으로 조명하여 그 연구 결과를 출판함\n(Front. Neuroanat. 15, 739576, 2021).\n그림 15. pallidothalamic pathway와 nigrothalamic pathway의 전체 경로. (Front.\nNeuroanat. 15, 739576, 2021)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          485.95,
+          538.27,
+          576.33
+        ],
+        "page_area_fraction": 0.087
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0016",
+    "caption": "pallidothalamic과 nigrothalamic 경로의 3차원 모델링(A)과 트랙의 방향성 영상(B; red: 좌우; green:앞뒤; blue:위아래), (C)두 경로의 색 구분 영상, (D) axial평면에서의 트 랙 분포 양상, (E) pallidothalamic과 nigrothalamic 경로의 전체 경로 요약. (Front. Neuroanat. 15, 739576, 2021)",
+    "pdf_page_candidate": 24,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 24 -",
+    "caption_and_following_text": "그림 16. pallidothalamic과 nigrothalamic 경로의 3차원 모델링(A)과 트랙의 방향성 영상(B;\nred: 좌우; green:앞뒤; blue:위아래), (C)두 경로의 색 구분 영상, (D) axial평면에서의 트\n랙 분포 양상, (E) pallidothalamic과 nigrothalamic 경로의 전체 경로 요약. (Front.\nNeuroanat. 15, 739576, 2021)\n② 대뇌 피질에서 STN에 이르는 hyperdirect pathway (HP)가 기존 기저핵 네트워크\n모델과 달리 바깥 창백핵(external globus pallidus; GPe)을 통과하는 일부 HP가 새\n로 관찰됨.\nŸ 이러한 Ctx-GPe-STN 경로는 Ctx-STN HP의 일부이며 GPe-STN 연결과는 다른 연\n결임이 tractography 상에서 관찰되었고, 설치류 기저핵 연구에 대한 KIST 신\n경망영상화 연구실과의 협업으로 세포 수준의 이론적 근거 수집과 침습적 검증",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          378.07,
+          526.52,
+          760.21
+        ],
+        "page_area_fraction": 0.3589
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0017",
+    "caption": "KIST 신경망영상화 연구실과의 협업으로 관찰된 STN의 새로운 신경회로망",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 25 -\n그림 17. KIST 신경망영상화 연구실과의 협업으로 관찰된 STN의 새로운 신경회로망\n그림 18. 좌) 위쪽 GPe axial 단면에서 Ctx-STN 연결과 Ctx-GPe-STN 연결의 tractography 결\n과, (중간) STN axial 단면에서 tractography 결과, (우) 설치류 뇌에서 STN-GPe-Ctx 연결의\n확인. double retrograde tracer는 피라미드형 뉴런의 일부 집단이 GPe와 STN에 대한 투영을\n모두 가지고 있음을 보여줌. (Cell Reports 38, 110439, 2022)\n(3) 기능적 관점의 neural circuit 분석\n․ 초고해상도 트랙밀도영상 와 SRT를 통한 전두엽과 측두엽, 두정엽을 연결하는 신경다발은\n상세로 다발 신경 경로 세분화 분석\n․ SRT를 기반으로 한 기능적 분석을 위해 중국과학원의 Brainnetome 연구소와의 협업",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.24,
+          605.82,
+          556.26,
+          770.16
+        ],
+        "page_area_fraction": 0.1603
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.93,
+          321.73,
+          536.95,
+          562.66
+        ],
+        "page_area_fraction": 0.2306
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0018",
+    "caption": "좌) 위쪽 GPe axial 단면에서 Ctx-STN 연결과 Ctx-GPe-STN 연결의 tractography 결 과, (중간) STN axial 단면에서 tractography 결과, (우) 설치류 뇌에서 STN-GPe-Ctx 연결의 확인. double retrograde tracer는 피라미드형 뉴런의 일부 집단이 GPe와 STN에 대한 투영을 모두 가지고 있음을 보여줌. (Cell Reports 38, 110439, 2022)",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 25 -\n그림 17. KIST 신경망영상화 연구실과의 협업으로 관찰된 STN의 새로운 신경회로망",
+    "caption_and_following_text": "그림 18. 좌) 위쪽 GPe axial 단면에서 Ctx-STN 연결과 Ctx-GPe-STN 연결의 tractography 결\n과, (중간) STN axial 단면에서 tractography 결과, (우) 설치류 뇌에서 STN-GPe-Ctx 연결의\n확인. double retrograde tracer는 피라미드형 뉴런의 일부 집단이 GPe와 STN에 대한 투영을\n모두 가지고 있음을 보여줌. (Cell Reports 38, 110439, 2022)\n(3) 기능적 관점의 neural circuit 분석\n․ 초고해상도 트랙밀도영상 와 SRT를 통한 전두엽과 측두엽, 두정엽을 연결하는 신경다발은\n상세로 다발 신경 경로 세분화 분석\n․ SRT를 기반으로 한 기능적 분석을 위해 중국과학원의 Brainnetome 연구소와의 협업\n․ 7.0T MRI-SRT 데이터를 이용하여 시상하핵과 대뇌피질간의 연결성 분석 진행\n․ 기억상태에 따른 신경세포, 신경망단계에서의 변화한 작용상태인 엔그램으로부터의",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.24,
+          605.82,
+          556.26,
+          770.16
+        ],
+        "page_area_fraction": 0.1603
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          57.93,
+          321.73,
+          536.95,
+          562.66
+        ],
+        "page_area_fraction": 0.2306
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0019",
+    "caption": "상세로다발의 10구획 모델. 고해상도 TDI를 기반으로 해서 상세로 다발을 관 상면과 시상면 기준으로 해서 10개의 세부 구역으로 구분해서 표시한 그림",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "언어, 기억, 판단 등의 고위 인지기능에 대한 신경회로망 상관성 분석\n(가) 상세로다발 신경경로 세분화을 통한 언어중추 연결성 정보 확인\n- 상세로다발을 기존의 4개 구역(SLF I, SLF II, SLF III, AF)이 아닌 10개의 구역 (SLF\nIa,SLF Ib, SLF I, SLF II, SLF III, AF, AF I, AF II, AF III, AF IV) 으로 세분화해\n서 분석함. 이중 하나이 AF는 언어중추인 브로카 영역과 베르니케 영역을 연결함 (그\n림 19).\n- 중국과학원의 Brainnetome 연구소와의 협업을 통해 SRT를 기반으로 한 브로드만 영역",
+    "caption_and_following_text": "간 연결성 분석기법 향상\n- 단어를 이용한 다양한 fMRI 실험 (그림 20)\n그림 19. 상세로다발의 10구획 모델. 고해상도 TDI를 기반으로 해서 상세로 다발을 관\n상면과 시상면 기준으로 해서 10개의 세부 구역으로 구분해서 표시한 그림\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.36,
+          234.22,
+          523.4,
+          556.43
+        ],
+        "page_area_fraction": 0.2911
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0020",
+    "caption": "한자와 한글의 단어 인지 과정이나 방식의 차이를 알아보기 위한 fMRI 실험에 서의 실험 자극",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 27 -\n그림 20. 한자와 한글의 단어 인지 과정이나 방식의 차이를 알아보기 위한 fMRI 실험에\n서의 실험 자극 - 기존 실험 데이터 재분석 및 새로운 자극 패러다임을 적용한 실험 데이터와의 비교분\n석 (그림 21, 22, 23, 24)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          436.56,
+          534.91,
+          760.21
+        ],
+        "page_area_fraction": 0.29
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0021",
+    "caption": "표음문자(Phonologic Language)와 표의문자(Logographic Language)의 fMRI 실험 결 과비교. 왼쪽: 한글(Phonologic Script) 읽기 결과. 오른쪽: 한자(Logographic Script) 읽기 결과",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 28 -\n그림 21. 표음문자(Phonologic Language)와 표의문자(Logographic Language)의 fMRI 실험 결\n과비교. 왼쪽: 한글(Phonologic Script) 읽기 결과. 오른쪽: 한자(Logographic Script) 읽기\n결과.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          435.6,
+          531.55,
+          760.21
+        ],
+        "page_area_fraction": 0.3081
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0022",
+    "caption": "서로 빼기 (eg. Phonologic - Logographic, Logographic - Phonologic) 데이터를 통 해 활성화가 약한 부위 (Minority Data) 추출.  데이터는 전두엽 에서 약한 활성화를 보이고 있으며,  데이터는 1, 2차 시각 영역의 Minority Data와 전두엽 쪽의 브로카 영역의 활성화를 보여주고 있음",
+    "pdf_page_candidate": 29,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": 0,
+    "prefix_match_only": true,
+    "text_before": "",
+    "caption_and_following_text": "- 29 -\n그림 22. 서로 빼기 (eg. Phonologic - Logographic, Logographic - Phonologic) 데이터를 통\n해 활성화가 약한 부위 (Minority Data) 추출. <Phonologic - Logographic> 데이터는 전두엽\n에서 약한 활성화를 보이고 있으며, <Logographic- Phonologic> 데이터는 1, 2차 시각 영역의\nMinority Data와 전두엽 쪽의 브로카 영역의 활성화를 보여주고 있음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          413.19,
+          530.59,
+          760.21
+        ],
+        "page_area_fraction": 0.3287
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0023",
+    "caption": "브레인넷톰 지도책 (Brainnetome Atlas)으로 표시한 기존 fMRI 실험 결과",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 30 -\n그림 23. 브레인넷톰 지도책 (Brainnetome Atlas)으로 표시한 기존 fMRI 실험 결과\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          425.17,
+          526.4,
+          760.21
+        ],
+        "page_area_fraction": 0.3145
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0024",
+    "caption": "Phonologic Pathway와 Logographic Pathway의 비교. 뇌의 대칭성(Symmetry) 개념과 도 일치하는 결과로, Phonologic Pathway는 Ventral Pathway로 Wernicke's Area와 Ventral Broca's area (Brodmann's Area 45)가 동시에 활성화된 것을 알 수 있으며, 이에 반해 Logographic Pathway는 Dorsal Pathway를 형성하며 Frontal Premotor Area와 Dorsal Broca's Area (Brodmann's Area 44)와 전두엽 부분까지 연결되어 있는 것을 확인할 수 있음",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": true,
+    "text_before": "",
+    "caption_and_following_text": "- 31 -\n그림 24. Phonologic Pathway와 Logographic Pathway의 비교. 뇌의 대칭성(Symmetry) 개념과\n도 일치하는 결과로, Phonologic Pathway는 Ventral Pathway로 Wernicke's Area와 Ventral\nBroca's area (Brodmann's Area 45)가 동시에 활성화된 것을 알 수 있으며, 이에 반해\nLogographic Pathway는 Dorsal Pathway를 형성하며 Frontal Premotor Area와 Dorsal Broca's\nArea (Brodmann's Area 44)와 전두엽 부분까지 연결되어 있는 것을 확인할 수 있음.\n․ fiber tracking 기법을 기반으로 한 구조적 연결성 분석을 통해 기존의 복측 언어전달 경\n로 (SLF III, 또는 arcuate fasciculus)와 함께 새롭게 등쪽 언어전달 경로(MFG <--> MTG) 를\n발견해서 보고함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          414.27,
+          529.99,
+          760.21
+        ],
+        "page_area_fraction": 0.3273
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0025",
+    "caption": "(A) SLF 연결의 3-세그먼트 모델과 AF 연결의 (B) 2-세그먼트 모델의 요약. SLF, 상 종다발; AF, 아치형 근막; AG, 각이랑; IFG, 하전두이랑; MFG, 중전두이랑; MITG, 중간 및 하 측 측두회; SFG, 상전두이랑; Pcun, precuneus; SMG, 변연상회; SMTG, 상측 및 중측두회",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 32 -\n그림 25. (A) SLF 연결의 3-세그먼트 모델과 AF 연결의 (B) 2-세그먼트 모델의 요약. SLF, 상\n종다발; AF, 아치형 근막; AG, 각이랑; IFG, 하전두이랑; MFG, 중전두이랑; MITG, 중간 및 하\n측 측두회; SFG, 상전두이랑; Pcun, precuneus; SMG, 변연상회; SMTG, 상측 및 중측두회.\n(나) 선조외 피질 시각영역에서의 고위 시각정보 처리에 대한 새로운 모델 제시\n(다) 시상하핵(subthalamic nucleus, STN)의 기능적 연결성 분석에 있어서 영역간의\ntractography 정보에 의한 연결성 분석과 연결 강도의 산출\n- 7.0T MRI-SRT 데이터 기반의 ROI로부터 3차원 뇌모델링 및 연결성 분석\nŸ 대뇌 피질(앞쪽 연관피질 prefrontal associative cortex (PFA), 운동피질 motor\ncortex, 나머지 연관피질 remaining associative cortex (ReA), 변연피질 limbic",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          595.63,
+          538.27,
+          760.21
+        ],
+        "page_area_fraction": 0.1584
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0026",
+    "caption": "뇌 피질 네 영역(a)으로부터 입력되는 STN의 연결성에 대한 3차원 모델링(b)과 STN 종단 및 STN passing track을 이용한 각 피질 영역과의 연결 강도 측정 결과(c). d 설 치류의 운동피질(MOp)에 tracer 주입에 의한 STN의 hyperdirect 경로의 대표적인 축삭 투 영 (위)와 각 하위 지역에 대한 STN 투영 강도의 로그 스케일 막대 플롯 (아래) (Cell Reports 38, 110439, 2022)",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": true,
+    "text_before": "",
+    "caption_and_following_text": "- 33 -\n그림 26. 뇌 피질 네 영역(a)으로부터 입력되는 STN의 연결성에 대한 3차원 모델링(b)과\nSTN 종단 및 STN passing track을 이용한 각 피질 영역과의 연결 강도 측정 결과(c). d 설\n치류의 운동피질(MOp)에 tracer 주입에 의한 STN의 hyperdirect 경로의 대표적인 축삭 투\n영 (위)와 각 하위 지역에 대한 STN 투영 강도의 로그 스케일 막대 플롯 (아래) (Cell\nReports 38, 110439, 2022)\n(라) 언어능력을 바탕으로 한 기억과 인지능력, 및 고위 인지기능에 대한 가설 제안\n- SLF(superior vertical fasciculus) 및 AF(arcuate fasciculus)와 같은 인간 두뇌의 언\n어 관련 섬유 경로는 Brainnetome 아틀라스를 기반으로 선택된 관심 영역과 함께\ntractography에 대한 섬유 방향 분포 추정 방법을 사용하여 더 정교한 연결 정보를 생성",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.72,
+          554.03,
+          529.04,
+          770.16
+        ],
+        "page_area_fraction": 0.2001
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0027",
+    "caption": "(A) PFC-IPC 연결; (B) PFC-TC 연결; (C) 등쪽 언어 경로의 구조적 연결성의 블록 다이어그램. A44v, ventral area of BA44; AF, arcuate fasciculus; AG, angular gyrus; DLPFC, dorsolateral prefrontal cortex; FG, fusiform gyrus; IFJ, inferior frontal junction; IPC, inferior parietal cortex; PFC, prefrontal cortex; SLF, superior longitudinal fasciculus; SMG, supramarginal gyrus; TC, temporal cortex",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": true,
+    "text_before": "",
+    "caption_and_following_text": "- 34 -\n그림 27. (A) PFC-IPC 연결; (B) PFC-TC 연결; (C) 등쪽 언어 경로의 구조적 연결성의 블록\n다이어그램. A44v, ventral area of BA44; AF, arcuate fasciculus; AG, angular gyrus;\nDLPFC, dorsolateral prefrontal cortex; FG, fusiform gyrus; IFJ, inferior frontal\njunction; IPC, inferior parietal cortex; PFC, prefrontal cortex; SLF, superior\nlongitudinal fasciculus; SMG, supramarginal gyrus; TC, temporal cortex.\n(4) SRT 정보를 임상에 적용\n․ 서울대학교병원 파킨슨센터의 협력 연구진과 STN-심부뇌자극술에 활용 가능하도록 의학적\n자문을 구하고 연계 연구에 대해 논의함.\n(가) 3D SRT의 임상적 활용을 위한 영상 분석 프로토콜 확립",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          335.51,
+          516.08,
+          760.21
+        ],
+        "page_area_fraction": 0.39
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0028",
+    "caption": "MRI data processing pipeline",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 35 -\n그림 28. MRI data processing pipeline\n(나) STN의 입력 연결성의 형태계측 분석\n- 중증 파킨슨병 환자의 증상 개선을 위해 시행되는 심부뇌자극술(Deep Brain\nStimulation; DBS)의 중요 자극 표적이 되는 시상하핵(STN)의 대뇌피질과의 연결성을 7T\nMRI-SRT로 생성하고, 트랙밀도영상 기법과 3차원 디지털 뇌 모델링을 사용하여 STN의 구\n심성 연결 영역을 고해상도로 맵핑함.\n- 대뇌 피질 네 영역(PFA, Motor, ReA, Limbic)의 연결성에 기반한 STN 내 네 영역의 트랙\n밀도영상의 신호강도 사이에서 상당한 겹침이 관찰됨.\n- whole-track 트랙밀도 영상에서 각 영역의 신호강도 profile을 추출하여 그 겹침 정도를",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.12,
+          457.78,
+          526.64,
+          760.21
+        ],
+        "page_area_fraction": 0.2771
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0029",
+    "caption": "7T MRI whole-track 트랙밀도영상(SRT) 맵핑을 이용한 STN의 기능 영역 맵핑(좌)과",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 36 -\n그림 29. 7T MRI whole-track 트랙밀도영상(SRT) 맵핑을 이용한 STN의 기능 영역 맵핑(좌)과\n축에 따른 각 기능영역의 profile(가운데) 및 겹침정도(overlap) 비교 결과. (Cell Reports\n38, 110439, 2022)\n- 설치류 기저핵 연구에 대한 KIST 신경망영상화 연구실과의 협업을 통한 대뇌 피질과 STN\n의 연결성에 대한 세포 수준의 이론적 근거 수집과 침습적 검증에서도 대뇌 피질과의 연\n결성에 기반한 STN 내 하위 기능영역의 상당한 겹침이 관찰됨 (Cell Reports 38,\n110439, 2022).\n그림 30. 설치류 STN 하위 영역의 재구성된 투영 밀도 패턴. (Cell Reports 38, 110439,\n2022)",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.13,
+          584.0,
+          535.75,
+          770.16
+        ],
+        "page_area_fraction": 0.1773
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.17,
+          148.64,
+          530.71,
+          424.33
+        ],
+        "page_area_fraction": 0.2571
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0030",
+    "caption": "설치류 STN 하위 영역의 재구성된 투영 밀도 패턴. (Cell Reports 38, 110439, 2022)",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 36 -\n그림 29. 7T MRI whole-track 트랙밀도영상(SRT) 맵핑을 이용한 STN의 기능 영역 맵핑(좌)과\n축에 따른 각 기능영역의 profile(가운데) 및 겹침정도(overlap) 비교 결과. (Cell Reports\n38, 110439, 2022)\n- 설치류 기저핵 연구에 대한 KIST 신경망영상화 연구실과의 협업을 통한 대뇌 피질과 STN\n의 연결성에 대한 세포 수준의 이론적 근거 수집과 침습적 검증에서도 대뇌 피질과의 연",
+    "caption_and_following_text": "결성에 기반한 STN 내 하위 기능영역의 상당한 겹침이 관찰됨 (Cell Reports 38,\n110439, 2022).\n그림 30. 설치류 STN 하위 영역의 재구성된 투영 밀도 패턴. (Cell Reports 38, 110439,\n2022)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.13,
+          584.0,
+          535.75,
+          770.16
+        ],
+        "page_area_fraction": 0.1773
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.17,
+          148.64,
+          530.71,
+          424.33
+        ],
+        "page_area_fraction": 0.2571
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0031",
+    "caption": "STN의 각 기능적 하부 영역의 트랙밀도 분포와 중심위치 맵핑(좌), 증상의 호전을 동반한 STN-DBS의 자극 위치 맵핑(우)",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 37 -\n- STN의 기능적 하부영역 트랙밀도영상의 신호강도 사이에서 상당한 겹침이 관찰됨에 따라\n최적의 STN-DBS의 자극 목표지점의 설정이 중요해짐. 이를 위해 whole-track 트랙밀도영\n상에서 STN의 각 기능적 하부영역의 무게중심(center of gravity; COG)을 추출하여 맵핑",
+    "caption_and_following_text": "하고, 서울대병원에서 시행한 STN-DBS에서 파킨슨 증상의 호전이 동반된 자극 위치만을\n추출하여 COG 맵과 비교한 결과 STN의 중심(center)이 중요한 자극 위치로 유력함.\n그림 31. STN의 각 기능적 하부 영역의 트랙밀도 분포와 중심위치 맵핑(좌), 증상의 호전을\n동반한 STN-DBS의 자극 위치 맵핑(우)\n- 서울대학교병원 파킨슨센터의 연구진과 협업을 통해 STN-심부뇌자극술에 활용 가능한 임\n상 정보(재수술 비율 및 수술 경과 정보)를 토대로 STN의 DBS 자극 위치로 STN의 중심부\n가 적합함.\n그림 32. STN-DBS electrode 위치 유형 및 재수술 비율\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          563.14,
+          538.27,
+          673.3
+        ],
+        "page_area_fraction": 0.106
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.72,
+          102.13,
+          526.04,
+          438.36
+        ],
+        "page_area_fraction": 0.3073
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0032",
+    "caption": "STN-DBS electrode 위치 유형 및 재수술 비율",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "- STN의 기능적 하부영역 트랙밀도영상의 신호강도 사이에서 상당한 겹침이 관찰됨에 따라\n최적의 STN-DBS의 자극 목표지점의 설정이 중요해짐. 이를 위해 whole-track 트랙밀도영\n상에서 STN의 각 기능적 하부영역의 무게중심(center of gravity; COG)을 추출하여 맵핑\n하고, 서울대병원에서 시행한 STN-DBS에서 파킨슨 증상의 호전이 동반된 자극 위치만을\n추출하여 COG 맵과 비교한 결과 STN의 중심(center)이 중요한 자극 위치로 유력함.\n그림 31. STN의 각 기능적 하부 영역의 트랙밀도 분포와 중심위치 맵핑(좌), 증상의 호전을\n동반한 STN-DBS의 자극 위치 맵핑(우)",
+    "caption_and_following_text": "- 서울대학교병원 파킨슨센터의 연구진과 협업을 통해 STN-심부뇌자극술에 활용 가능한 임\n상 정보(재수술 비율 및 수술 경과 정보)를 토대로 STN의 DBS 자극 위치로 STN의 중심부\n가 적합함.\n그림 32. STN-DBS electrode 위치 유형 및 재수술 비율\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          563.14,
+          538.27,
+          673.3
+        ],
+        "page_area_fraction": 0.106
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.72,
+          102.13,
+          526.04,
+          438.36
+        ],
+        "page_area_fraction": 0.3073
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0033",
+    "caption": "Wobbling과 Convertible PET 모식도",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "․ 뇌기능-신경회로망 융합 SRT map을 실제 임상에서 획득 및 적용하기 위한 초고해상도 PET\n기반의 MRI 융합시스템 기술 고안\n(가) 뇌기능 정보를 반영하는 분자 영상 중 하나인 PET 촬영의 영상 해상도를 Wobbling과\nZooming 촬영 기법을 활용하여 향상시킴.\n- 초정밀 워블링 샘플링 (wobbling 샘플링 기술)을 도입하여 기존 PET에선 불가능한 높은\n공간해상도의 PET 영상을 획득할 수 있으며 동시에 촬영 부위에 따라 최적화된 형태로\nPET 검출기 배열 구조가 변환될 수 있는 기술(전신-뇌 가변 FOV 기술)을 도입하여 촬영",
+    "caption_and_following_text": "부위 및 대상에 대해 시스템이 얻을 수 있는 가장 높은 민감도의 PET 영상을 획득할 수\n있는 기술임. 구현된 기술에 의한 연구 결과를 출판함 (IEEE TRANSACTIONS ON MEDICAL\nIMAGING, 38(12), 2019).\n그림 33. Wobbling과 Convertible PET 모식도\n- Wobbling 샘플링의 경우 PET에서 기대되는 해상도를 얻기 위해 필요한 샘플링 조건인 검출\n기 크기(d)의 1/4보다 작은 샘플링 간격을 갖는 데이터를 얻을 수 있게 함으로써 기존\nPET의 공간해상도 한계인 d/2까지 끌어올릴 수 있게 해줌으로써 초고해상도의 PET영상을\n가능하게 해줌.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.88,
+          271.02,
+          535.39,
+          448.19
+        ],
+        "page_area_fraction": 0.1655
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0034",
+    "caption": "4-point wobble sampling의 모식도. (a)d/2의 해상도를 얻기 위해 PET에서 요 구되는 샘플링 조건 Δr < d/4, (b) 기존 PET의 샘플링 간격 d, (c) Δr < d/4인 조건을 만족시킬 수 있는 wobbling PET. (IEEE TRANSACTIONS ON MEDICAL IMAGING, 38(12), 2019)",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 39 -",
+    "caption_and_following_text": "그림 34. 4-point wobble sampling의 모식도. (a)d/2의 해상도를 얻기 위해 PET에서 요\n구되는 샘플링 조건 Δr < d/4, (b) 기존 PET의 샘플링 간격 d, (c) Δr < d/4인 조건을\n만족시킬 수 있는 wobbling PET. (IEEE TRANSACTIONS ON MEDICAL IMAGING, 38(12),\n2019)\n- 동시에 촬영대상의 크기에 따라 검출기 배열을 매우 높은 정밀도로 변경할 수 있는 가변\nFOV 기술을 구현함으로써 촬영 시 시스템의 solid angle (or geometric coverage ratio)\n을 증가시켜 공간해상도 향상과 동시에 시스템 민감도를 향상시킬 수 있도록 하였음. 가\n변 FOV 기술은 시스템의 고성능을 보장하면서도 촬영 대상을 제한하지 않기 때문에 전신\nPET 수준의 높은 활용성을 확보할 수 있게 해줌.\n- 일반적으로 4mm 가량의 검출기를 사용하는 상용 PET의 경우 검출기 크기에 의해 제한되",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.88,
+          523.11,
+          524.12,
+          760.21
+        ],
+        "page_area_fraction": 0.2148
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0035",
+    "caption": "Wobbling과 Deconvolution 기술을 이용하여 얻은 고해상도 PET의 해상도 팬텀 영상 결과. (좌) 해상도 팬텀의 CT영상, (가운데) 2.5mm 공간분해능을 보여주는 기존 HRRT PET의 해상도 팬텀 영상, (우) 1mm 간격까지 구별 가능한 제안된 PET의 [18F] FDG PET 영상. (Front. Neuroanat. 15, 739576, 2021)",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 40 -",
+    "caption_and_following_text": "그림 35. Wobbling과 Deconvolution 기술을 이용하여 얻은 고해상도 PET의 해상도 팬텀\n영상 결과. (좌) 해상도 팬텀의 CT영상, (가운데) 2.5mm 공간분해능을 보여주는 기존\nHRRT PET의 해상도 팬텀 영상, (우) 1mm 간격까지 구별 가능한 제안된 PET의 [18F] FDG\nPET 영상. (Front. Neuroanat. 15, 739576, 2021)\n- 이론적으로 수치적 시뮬레이션의 결과 ultra-high field 7.0T MRI에서 기대할 수 있는\n서브 밀리미터 공간 해상도를 구현하기 위해 요구되는 wobble sampling의 수는 32-point\n로 산출되며 이는 초고해상도 7.0T MRI-SRT map과 융합할 수 있는 분자영상 기반의 기능\n적 뇌 영상을 얻을 수 있음을 의미함.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.4,
+          565.06,
+          532.87,
+          748.82
+        ],
+        "page_area_fraction": 0.1676
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0036",
+    "caption": "각 해상도 목표에 대해 샘플링 요구 사항의 % 충족에 대한 시뮬레이션 결과. 2.4mm FWHM(HRRT ~ 2.5mm)과 같은 저해상도 이미징은 샘플링 거리가 1.2mm일 때만 8-point 워블링이 필요하지만 0.8mm FWHM과 같은 고해상도 이미징은 작은 샘플링 거리(<0.4mm)와 최대 32-point 워블 샘플링이 필요함",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 41 -",
+    "caption_and_following_text": "그림 36. 각 해상도 목표에 대해 샘플링 요구 사항의 % 충족에 대한 시뮬레이션 결과. 2.4mm\nFWHM(HRRT ~ 2.5mm)과 같은 저해상도 이미징은 샘플링 거리가 1.2mm일 때만 8-point 워블링이\n필요하지만 0.8mm FWHM과 같은 고해상도 이미징은 작은 샘플링 거리(<0.4mm)와 최대 32-point\n워블 샘플링이 필요함.\n(나) 고해상도 및 고민감도의 분자영상을 위한 wobbling과 zooming하는 PET 기반의 융합시\n스템 특허 출원\n- 발명의 효과\n① 고정밀도의 전동 모터 제어를 이용하여 전신이 통과할 수 있도록 PET 검출기 고리의\n구조를 확장-복구 또는 분리-복구할 수 있는 자동개폐 시스템과 PET 시스템 자체의 레\n일(rail) 이동을 이용한 밀착형 융합플랫폼 구축",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          413.31,
+          512.12,
+          760.21
+        ],
+        "page_area_fraction": 0.3158
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0037",
+    "caption": "레일웨이를 따라 PET 시스템 자체의 슬라이드 이동. 2 : 침대; 40a : 이동형 검 출모듈; 70 : 머리 지지대; 100 : PET; 110 : 레일부; 200 : PET실; 202 : 차폐문; 210 : 도킹장치; 220 : 진단용 의료기기; 300 : 융합실",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 42 -\n그림 37. 레일웨이를 따라 PET 시스템 자체의 슬라이드 이동. 2 : 침대; 40a : 이동형 검\n출모듈; 70 : 머리 지지대; 100 : PET; 110 : 레일부; 200 : PET실; 202 : 차폐문; 210 :\n도킹장치; 220 : 진단용 의료기기; 300 : 융합실\n③ PET와 MRI가 도킹 지점에서 정확하게 밀착됨에 따라 정밀도와 안전성을 높일 수 있\n고, 결합 후 환자의 이동이 한 시스템 내에서 이루어짐으로써 환자의 움직임에 의한 오\n차를 최소화할 수 있음.\n④ 융합되는 MRI와 PET의 상호간섭 문제에서 대부분 자유로움.\n그림 38. 일체형/삽입형 PET-MRI의 상호간섭 문제\n⑤ 분자영상 기반 뇌기능 – 7.0T MRI-SRT 구조 융합의 영상 정보를 동시에 획득할 수 있음.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.96,
+          614.81,
+          528.92,
+          760.21
+        ],
+        "page_area_fraction": 0.1345
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.95,
+          194.91,
+          525.08,
+          432.25
+        ],
+        "page_area_fraction": 0.2064
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0038",
+    "caption": "일체형/삽입형 PET-MRI의 상호간섭 문제",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 42 -\n그림 37. 레일웨이를 따라 PET 시스템 자체의 슬라이드 이동. 2 : 침대; 40a : 이동형 검\n출모듈; 70 : 머리 지지대; 100 : PET; 110 : 레일부; 200 : PET실; 202 : 차폐문; 210 :\n도킹장치; 220 : 진단용 의료기기; 300 : 융합실\n③ PET와 MRI가 도킹 지점에서 정확하게 밀착됨에 따라 정밀도와 안전성을 높일 수 있",
+    "caption_and_following_text": "고, 결합 후 환자의 이동이 한 시스템 내에서 이루어짐으로써 환자의 움직임에 의한 오\n차를 최소화할 수 있음.\n④ 융합되는 MRI와 PET의 상호간섭 문제에서 대부분 자유로움.\n그림 38. 일체형/삽입형 PET-MRI의 상호간섭 문제\n⑤ 분자영상 기반 뇌기능 – 7.0T MRI-SRT 구조 융합의 영상 정보를 동시에 획득할 수 있음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.96,
+          614.81,
+          528.92,
+          760.21
+        ],
+        "page_area_fraction": 0.1345
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.95,
+          194.91,
+          525.08,
+          432.25
+        ],
+        "page_area_fraction": 0.2064
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0039",
+    "caption": "뇌-전신 가변형 PET 기반 밀착형 융합시스템의 개념도. (위) PET 자체가 레일을 따 라 도킹 지점(210)까지 이동 후 wobbling이 가능한 검출기 고리(40a)의 뇌 촬영 모드, (아래) 검출기 고리의 전신 모드 변환으로 시스템 내에서 환자가 바로 MRI로 이동하여 뇌 구조영상 촬영",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 43 -",
+    "caption_and_following_text": "그림 39. 뇌-전신 가변형 PET 기반 밀착형 융합시스템의 개념도. (위) PET 자체가 레일을 따\n라 도킹 지점(210)까지 이동 후 wobbling이 가능한 검출기 고리(40a)의 뇌 촬영 모드, (아래)\n검출기 고리의 전신 모드 변환으로 시스템 내에서 환자가 바로 MRI로 이동하여 뇌 구조영상\n촬영\n(다) 기능적 연결성과 구조적 연결성의 융합을 위한 기술의 미래 전망\n- PET-MRI 융합 시스템의 고해상도는 뇌간, 해마 및 시상의 작은 하위 구조에서 대사 및\n분자 정보의 정량화를 가능하게 함.\n- 정신 질환에서 의료 영상의 임상적 유용성을 높이기 위해 고해상도 PET-MRI 융합 시스템\n은 뇌의 미세 구조에서 분자(기능적 연결성) 및 구조적 연결성 측면 모두에 대한 중요한\n정보를 제공함으로써 핵심 역할을 할 수 있음.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          359.73,
+          484.06,
+          760.21
+        ],
+        "page_area_fraction": 0.3421
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S34-V0040",
+    "caption": "(a) 1.5T(왼쪽) 및 7.0T(오른쪽) MRI에서 해마 영상의 비교. (b) 7.0T MR 이미지에서 해마 하부 구조의 해부학적 라벨링. (c) 건강한 개인의 해마에 대한 7.0T 구조적 MRI 및 상 응하는 [18F]FDG PET-MRI 융합 이미지 (d) 및 (e) 7.0T MR 이미지의 해마 위축 및 변형 및 [ 18F] 알츠하이머병 환자의 FDG ET-MRI. FFA; 방추형 얼굴 영역, CA1-4; 코르누 암모니아",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 44 -",
+    "caption_and_following_text": "그림 40. (a) 1.5T(왼쪽) 및 7.0T(오른쪽) MRI에서 해마 영상의 비교. (b) 7.0T MR 이미지에서\n해마 하부 구조의 해부학적 라벨링. (c) 건강한 개인의 해마에 대한 7.0T 구조적 MRI 및 상\n응하는 [18F]FDG PET-MRI 융합 이미지 (d) 및 (e) 7.0T MR 이미지의 해마 위축 및 변형 및 [\n18F] 알츠하이머병 환자의 FDG ET-MRI. FFA; 방추형 얼굴 영역, CA1-4; 코르누 암모니아.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "다. 추진내용 및 연구개발 결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          456.94,
+          548.23,
+          760.21
+        ],
+        "page_area_fraction": 0.2979
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

@@ -1,0 +1,2252 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 330,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 55,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 1640,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 185,
+      "2": 158,
+      "5": 7
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1638,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 2,
+      "1": 349,
+      "5": 7
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -0.12,
+          -0.09,
+          595.12,
+          841.09
+        ],
+        "page_area_fraction": 1.0006
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          273.27,
+          38.77,
+          430.81,
+          184.55
+        ],
+        "page_area_fraction": 0.0459
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1803,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 455,
+      "2": 64,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 961,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 68,
+      "1": 234,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 336,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요 · 1",
+      "2. 연구개발과제의 수행 과정 및 수행 내용 · 5",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 · 51",
+      "4. 목표 미달 또는 미흡한 사항에 대한 원인분석 · 60",
+      "5. 연구개발성과의 관련 분야에 대한 기여 정도 · 63",
+      "6. 연구개발성과의 관리 및 활용 계획 · 64",
+      "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획 · 67",
+      "8. 연구개발비 사용실적 · 68"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요 · 1",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 460,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1659,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "1-1. 배경"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "8. 연구개발비 사용실적 · 68",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 397,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1171,
+    "heading_candidates": [],
+    "section_context_candidate": "1-1. 배경",
+    "prior_heading_candidate": {
+      "text": "1-1. 배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2 개별분리 클라우드 개념도",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "컴포넌트 간 옮기는데 생기는 오버헤드를 최소화하고, 또한 성능 요구에 따른\n확장성과 비용을 개선할 수 있다(그림 1 참고). 현재 Intel, Facebook, HP 등의\n업체들이 각각 자체적인 아키텍처를 개발 중이며, 학계 또한 현재도 활발히 연\n구가 진행 중이다.",
+        "after": "1-2. 차세대 데이터-중심 클라우드 보안기술 제안\n개별분리 아키텍처가 최근 많은 관심을 받는 것에 비해 보안 측면의 고려가 현재\n까지 매우 부족한 상황이다. 예를 들어, 현재 아키텍처에서는 악의적인 CPU가 다\n른 CPU에 할당된 메모리에 접근할 때 해당 메모리의 무결성을 보장할 수 없다. 또",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 288,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.44,
+          355.77,
+          516.56,
+          625.95
+        ],
+        "page_area_fraction": 0.2366
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 818,
+    "heading_candidates": [],
+    "section_context_candidate": "1-1. 배경",
+    "prior_heading_candidate": {
+      "text": "1-1. 배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 3 본 과제에서 연구 및 개발한한 시스템의 기본개념도",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "Ÿ 안전한 가속기 오프로딩\n가속기와 CPU에서 실행될 코드와 데이터를 처리하고, 서로 데이터를 주고받으\n면 데이터의 무결성을 보장하기 위해 암호화된 채널을 통해 안전하게 오프로딩\n하는 프로토콜이 필요하다.",
+        "after": "1-3. 기술의 용도 및 적용 분야\nŸ 개별분리 클라우드 컴퓨팅 기술의 도입 촉진\n개별분리 아키텍처는 데이터-중심 클라우드 환경 구성에 있어 확장성과 성능적\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 194,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.54,
+          143.72,
+          474.58,
+          357.45
+        ],
+        "page_area_fraction": 0.1512
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 688,
+    "heading_candidates": [],
+    "section_context_candidate": "1-1. 배경",
+    "prior_heading_candidate": {
+      "text": "1-1. 배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 161,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1422,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "2-1. 1년차(2020년)의 연구 범위",
+      "2-1-1. 설계 개요"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "1-1. 배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 340,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1591,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1-1. 설계 개요",
+    "prior_heading_candidate": {
+      "text": "2-1-1. 설계 개요",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 360,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 779,
+    "heading_candidates": [
+      "2) 전체 시스템 개요"
+    ],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2-1-1. 설계 개요",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 4 전체 개별분리 시스템의 개요",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "인한 성능 감소를 최소화한다. 메모리 풀 관리자는 메모리를 효율적으로 관리하기 위한 구성 요소다. 메모리의 형\n태는 DRAM, NVMe 등 여러 형태가 될 수가 있으며 용량도 다양하다. 이를 효율적\n으로 관리하기 위해서는 중앙에서 관리하고 이러한 메모리 모듈로의 통신을 지원\n하는 중앙집중적인 메모리 풀 관리자가 필요하다. 그림 3은 본 과제에서 수행한 개별분리 시스템 구현의 전체적인 개요를 나타낸다.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 185,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.24,
+          61.61,
+          511.77,
+          395.81
+        ],
+        "page_area_fraction": 0.2862
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1006,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 5 컴퓨팅 노드(Computing Node)의 전체적인 구조",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "(1) 기본 구성\n컴퓨팅 노드를 구성하기 위해선, 그림 4와 같이, 일반적인 컴퓨팅을 위한 요소\n(e.g. CPU)와 이를 개별분리 인터커넥트와 이어주는 인터커넥트 로직 (Interconnect\nLogic)이 필요하다.",
+        "after": "(2) 인터커넥트 로직\nŸ 프로토콜 변환\n가장 먼저 인터커넥트 로직과 CPU 등의 컴퓨팅 요소는 임의의 인터커넥트를\n통해 연결돼야 한다. 하지만, 이러한 프로세서를 위한 인터커넥트는 개별분리",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 4에서 보여주듯, 인터커넥트 로직은 2가지의 위치에 존재할 수 있다. 첫",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "인터커넥트에서 사용하는 주소 공간(Fabric Address Space)에는 차이가 있다. 그\n렇기에 트래픽들을 알맞은 목적지 노드 (예: 메모리 노드)에 보내기 위해서는, 노드 내부 주소 공간을 중심으로 이루어진 트래픽들을 개별분리 인터커넥트의\n주소 공간에 맞게끔 변환하는 과정이 필요하다.\nŸ 위치",
+        "after": "번째로, 기존 시스템에 주변장치를 연결하기 위해 사용하는, PCIe 인터커넥트에\n부착이 될 수 있다. 즉, 이 방식을 사용한다면 인터커넥트 로직은 하나의 PCIe\n카드의 형태가 된다. 하지만, 이러한 방식을 사용할 시, 컴퓨팅 요소들의 변형\n이 필요하지 않다는 장점이 있다. 하지만, 현존하는 CPU들은 PCIe로 전송되는",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 240,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          508.96,
+          531.43,
+          683.49
+        ],
+        "page_area_fraction": 0.1631
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1300,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 318,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1235,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 6 인터커넥트의 구성",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 10 -",
+        "after": "(2) 인터커넥트의 토폴로지\n인터커넥트의 토폴로지는 2가지 형태로 설계하였다. 개별분리 시스템은 새롭게 개\n발 및 연구되고 있는 시스템 아키텍처로, 선제적으로 보안 위협에 대응할 수 있는\n보안 기법을 연구하는 본 과제의 목표이다. 또한, 개별분리 시스템에 대한 효율적",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 317,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.49,
+          607.97,
+          538.63,
+          798.57
+        ],
+        "page_area_fraction": 0.1836
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1430,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 350,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1180,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 7 풀 관리자를 포함하지 않는 인터커넥트의 토폴로지 예시(Crossbar)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 12 -",
+        "after": "(5) 신뢰 가능한 전송\n개별분리 시스템은 수많은 CPU와 메모리, 그리고 가속기 등이 서로 메시지를 주고\n받으며 동작하는 거대한 시스템이다. 패킷이 손실되거나 손상된다면 시스템 전체가\n불안정해질 수 있으므로 신뢰 가능한 통신은 매우 중요하다. 본 시스템에서 인터커",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 274,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.22,
+          601.62,
+          478.9,
+          798.57
+        ],
+        "page_area_fraction": 0.1427
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1603,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 412,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1038,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 8 Fabric MMIO를 통한 CPU 노드와 가속기 노드 간의",
+        "line_index": 16,
+        "toc_like": false,
+        "before": "개별분리 시스템에서의 가속기(예: GPU)들은 CPU와 같은 컴퓨팅 노드이지만, CPU\n로부터 연산 작업을 오프로딩 받는 CPU 종속성을 가진다. 따라서 가속기 노드는\nCPU 노드 및 메모리 풀에서 할당받은 메모리와 워크그룹(workgroup)을 형성하고\nCPU가 주도하는 연산에서 일부를 전달받아 가속하는 역할을 수행한다.",
+        "after": "통신\n(3) CPU 노드-가속기 노드 간 통신\n개별분리 시스템에서도 기존 클라우드 아키텍처와 마찬가지로 CPU와 GPU는 메모\n리 매핑 기반 통신 (Memory-Mapped IO, MMIO)을 통하여 통신한다. 본 과제에서",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 254,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          147.76,
+          220.08,
+          501.21,
+          414.99
+        ],
+        "page_area_fraction": 0.1377
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1564,
+    "heading_candidates": [
+      "2-1-2. 구현 개요"
+    ],
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 415,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 1701,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "prior_heading_candidate": {
+      "text": "2-1-2. 구현 개요",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 434,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 1223,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "prior_heading_candidate": {
+      "text": "2-1-2. 구현 개요",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "표 1 패킷 클래스의 추가된 코드",
+        "line_index": 49,
+        "toc_like": false,
+        "before": "uint32 seq_num:32;\nuint8 ret:8; // 32 response codes\nuint32 crc:32;\n} PACKET_RESPONSE;",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 149,
+      "2": 23,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1123,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "prior_heading_candidate": {
+      "text": "2-1-2. 구현 개요",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 9 우리 시스템을 위한 2-레벨 팻트리 토폴로지 구성",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "커넥트를 설명한다. 토폴로지는 루트 라우터와 다수의 리프 라우터로 구성된 2-레\n벨의 팻트리로 구성된다. 리프 노드의 라우터는 클러스터 형식으로 이뤄진 구성 요\n소의 풀과 연결된다. 풀 관리자가 없는 토폴로지를 사용하기 위해서는 단순히 가넷이 지원하는 토폴로\n지 중 하나를 선택하거나, 새로운 토폴로지를 생성하여 사용하도록 설정한다.",
+        "after": "(3) 인터페이스\n인터커넥트 시뮬레이터에서 구성 요소로부터 받은 패킷을 라우팅을 위한 패킷으로\n변환하기 위한 기능을 구현하였다. 가넷과 구성 요소는 루비 시스템의 캐시 컨트롤\n러에 의해 연결된다. 가넷의 스탠드얼론(standalone)에서 캐시 컨트롤러는 더미 프",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 271,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          53.37,
+          447.11,
+          541.75,
+          664.31
+        ],
+        "page_area_fraction": 0.212
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 867,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "prior_heading_candidate": {
+      "text": "2-1-2. 구현 개요",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 10 메모리 풀 관리자의 구조",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "의 크로스바 (Crossbar) 클래스를 수정했다. 기존 크로스바 클래스는 단순히 여러\n포트를 통해 Gem5 구성 요소를 연결하는 기능만 가지고 있으며, 개별분리 시스템\n에 해당하는 패킷 라우팅 및 헤더 처리 기능은 갖추고 있지 않았다. 이를 수정하\n여, 상기 설계에서 언급한 기능을 추가했다.",
+        "after": "Ÿ 인터커넥트 로직을 통해 인터커넥트와 연결 (그림 9에서 메모리 풀 관리자의 인\n터커넥트 로직 내 인터커넥트 인터페이스 부분) Ÿ 여러 개의 메모리 컨트롤러와 연결 (그림 9에서 오른쪽 둥근 사각형 부분) Ÿ 라우팅 정보를 참고하여 패킷을 올바르게 전달 (상기 설계의 패킷 다중화 항목, 위 그림 9에서 Packet의 목적지 CID 정보를 참고해 올바른 메모리 컨트롤러로\n패킷을 전달하는 것을 나타낸 주황색 화살표 흐름)\n상기 설계에서는 오류 제어 기능을 포함했으나, 시뮬레이터 상에서 이러한 기능을",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 213,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.69,
+          318.49,
+          531.43,
+          549.24
+        ],
+        "page_area_fraction": 0.2157
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 969,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1-2. 구현 개요",
+    "prior_heading_candidate": {
+      "text": "2-1-2. 구현 개요",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 11 하나의 메모리 컨트롤러에 다수의 DRAM과 NVM이 연결된 모습",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 20 -\n(2) 메모리 컨트롤러와 다양한 미디어 지원",
+        "after": "위 설계에서 언급한 메모리 풀 관리자의 기능을 구현하기 위해, Gem5 시뮬레이터\n의 MemCtrl 클래스를 수정했다. 기존 MemCtrl 클래스는 하나의 DRAM 미디어와\n하나의 NVM 미디어만을 연결할 수 있었다. 개별분리 시스템에서는 여러 개의 저\n장 미디어를 유연하게 관리할 수 있어야 하므로, 이러한 제한을 해결하기 위해 다",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 228,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          155.32,
+          635.78,
+          439.8,
+          760.21
+        ],
+        "page_area_fraction": 0.0707
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1416,
+    "heading_candidates": [
+      "2-2. 2년차(2021년)의 연구 범위",
+      "2-2-1 개발 목표",
+      "2-2-2. 개발 내용 및 범위",
+      "1) 가속기 풀 컨트롤러 (Accelerator Pool Controller)의 개발"
+    ],
+    "section_context_candidate": "2-2. 2년차(2021년)의 연구 범위",
+    "prior_heading_candidate": {
+      "text": "2-1-2. 구현 개요",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 339,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 1462,
+    "heading_candidates": [
+      "2) 개별분리 CPU TEE, 가속기 원격 인증 및 키 교환 모델 개발",
+      "2-2-3. 설계 개요"
+    ],
+    "section_context_candidate": "2) 개별분리 CPU TEE, 가속기 원격 인증 및 키 교환 모델 개발",
+    "prior_heading_candidate": {
+      "text": "1) 가속기 풀 컨트롤러 (Accelerator Pool Controller)의 개발",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 331,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1483,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2-3. 설계 개요",
+    "prior_heading_candidate": {
+      "text": "2-2-3. 설계 개요",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 355,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 936,
+    "heading_candidates": [
+      "2) 전체 시스템 개요"
+    ],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2-2-3. 설계 개요",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 12 개별분리 시스템의 보안 위협",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "Ÿ Capability 기반의 접근제어\nCapability 기반의 접근제어 (Capability-based Access Control) 는 신뢰할 수 없\n는 각 컴퓨트 노드가 원격 메모리에 접근하는 것을 통제하기 위해 사용된다. 우리의 시스템에서, 각 컴퓨트 노드는 원격 메모리를 메모리 풀 매니저를 통해\n할당받는다. 할당받은 원격 메모리는 인터커넥트 로직을 통해 접근할 수 있다. 그러나 이때, 다음과 같은 보안 문제가 발생할 수 있다.",
+        "after": "녹색 배경의 컴퓨트 노드에 녹색 배경의 원격 메모리 풀이 할당되었다. 정상\n적인 접근 경로는 파란색 화살표이다. 이 때 발생 가능한 보안 위협은 붉은\n색 화살표로 표시되었다. 파란색 점선은 인터커넥트가 신뢰 가능할 때 정상\n적으로 메모리 접근 라우팅되는 경로이다. 1) 어느 한 컴퓨트 노드가 자신이 할당받은 범위를 벗어난 원격 메모리에 접근",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 228,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          367.16,
+          535.51,
+          664.31
+        ],
+        "page_area_fraction": 0.2548
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 1654,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 404,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 727,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 13 Capability 기반 접근 제어",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 26 -\n3) Capability-based Access Control의 설계",
+        "after": "신뢰 가능한 요소는 보라색 배경으로 나타낸 중앙 관리 유닛, 메모리 풀 매니저, 인터커넥트 로직이다. 각 요소가 접근 가능한 키가 같이 표시되어 있다. 방패 표\n시는 세 요소들에 의해 위협이 차단되는 지점을 나타낸다. 우리 시스템에서 설계된 capability 기반의 접근제어는 중앙 관리 유닛, 메모리 풀\n매니저, 인터커넥트 로직에서 수행된다. 각 컴퓨트 노드 및 가속기는 초기화 과정\n에서 자신이 사용할 수 있는 원격 메모리 영역을 할당받는다. 이때, 신뢰할 수 있",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 170,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.47,
+          320.05,
+          538.75,
+          779.39
+        ],
+        "page_area_fraction": 0.4152
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 1579,
+    "heading_candidates": [],
+    "section_context_candidate": "2) 전체 시스템 개요",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 390,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 1478,
+    "heading_candidates": [
+      "가) 전달된 capability의 검증"
+    ],
+    "section_context_candidate": "가) 전달된 capability의 검증",
+    "prior_heading_candidate": {
+      "text": "2) 전체 시스템 개요",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 357,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 1406,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 전달된 capability의 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전달된 capability의 검증",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 346,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 1437,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 전달된 capability의 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전달된 capability의 검증",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 340,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 1228,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 전달된 capability의 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전달된 capability의 검증",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 14 Capability 프로토콜",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "소 간의 통신을 포함하는 과정은 전송되는 데이터의 무결성을 보장할 수 있는\n방식으로 수행되어야 한다. 그림 13은 인터커넥트에 의해 발생할 수 있는 위협\n과, 위협을 방지하기 위해 전송 도중에 HMAC/서명값을 포함하는 것을 나타낸\n다.",
+        "after": "파란색 화살표는 시스템 초기화와 작동 과정에서 요소 간 할당 정보,\ncapability, 메모리 요청 전달을 나타낸다. 전송 과정 중 인터커넥트에 의한 침\n해를 방지하기 위해 서명 또는 HMAC 이 해당되는 키로 생성되어 같이 전달\n된다. 가) 중앙 관리 유닛의 capability 생성과 전달 과정 보호",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 282,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          318.73,
+          538.63,
+          472.52
+        ],
+        "page_area_fraction": 0.1328
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 1519,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 전달된 capability의 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전달된 capability의 검증",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 374,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 1117,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 전달된 capability의 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전달된 capability의 검증",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 15 원격 인증과 키 교환 흐름도",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "성을 주는 AES-GCM과 같은 입증된 암호화 기법을 사용하고, 리플레이\n(replaying)에 저항성을 갖추기 위해 단조 증가하는 카운터를 사용한다. 또한 부\n채널(side-channel)을 방지하기 위해 채널에서는 고정된 통신 메시지(fixed\ncommunication message)를 이용한다.",
+        "after": "(2) 안전한 가속을 위한 하드웨어 교체\n가속기가 안전한 가속을 지원하기 위해 하드웨어 교체가 필요하다. 먼저, 키 저\n장소는 root endorsement key(EK)를 저장하고 있다. 이 root endorsement key는\n가속기의 진위성을 증명하는 신뢰점(root of trust)의 역할을 한다. 또한 GPU에",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 264,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          206.77,
+          538.99,
+          472.52
+        ],
+        "page_area_fraction": 0.2297
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 1093,
+    "heading_candidates": [
+      "다. 이는 사용자가 메모리 풀 매니저에게 다른 요청을 하면 수행된다. 그리고"
+    ],
+    "section_context_candidate": "다. 이는 사용자가 메모리 풀 매니저에게 다른 요청을 하면 수행된다. 그리고",
+    "prior_heading_candidate": {
+      "text": "가) 전달된 capability의 검증",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 16 커널과 데이터 오프로딩 흐름도",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "capability transference key를 생성해 가속기로 보낸다. 가속기는 이 키를 사용\n해 사용자의 메모리에 접근한다. 가속기는 사용자의 데이터를 온칩(on-chip) 메\n모리에 복사하고, 데이터를 복호화하고, 컴퓨팅을 수행하기 위한 DMA 요청을\n수행한다.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 260,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          68.68,
+          535.39,
+          319.09
+        ],
+        "page_area_fraction": 0.2146
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 989,
+    "heading_candidates": [
+      "2-2-4. 구현 개요"
+    ],
+    "section_context_candidate": "2-2-4. 구현 개요",
+    "prior_heading_candidate": {
+      "text": "다. 이는 사용자가 메모리 풀 매니저에게 다른 요청을 하면 수행된다. 그리고",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 216,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 1135,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2-4. 구현 개요",
+    "prior_heading_candidate": {
+      "text": "2-2-4. 구현 개요",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 225,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 1496,
+    "heading_candidates": [
+      "가) 전달받은 capability의 검증"
+    ],
+    "section_context_candidate": "가) 전달받은 capability의 검증",
+    "prior_heading_candidate": {
+      "text": "2-2-4. 구현 개요",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 332,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 1600,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 전달받은 capability의 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전달받은 capability의 검증",
+      "pdf_page": 43
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 350,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 1310,
+    "heading_candidates": [
+      "가) 전송받은 메모리 패킷의 HMAC 검증"
+    ],
+    "section_context_candidate": "가) 전송받은 메모리 패킷의 HMAC 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전달받은 capability의 검증",
+      "pdf_page": 43
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 301,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 1151,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 전송받은 메모리 패킷의 HMAC 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전송받은 메모리 패킷의 HMAC 검증",
+      "pdf_page": 45
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 193,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 939,
+    "heading_candidates": [],
+    "section_context_candidate": "가) 전송받은 메모리 패킷의 HMAC 검증",
+    "prior_heading_candidate": {
+      "text": "가) 전송받은 메모리 패킷의 HMAC 검증",
+      "pdf_page": 45
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 135,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 1582,
+    "heading_candidates": [
+      "2-3. 3년차(2022년)의 연구 범위",
+      "2-3-1. 개발 목표",
+      "2-3-2. 검증 개요"
+    ],
+    "section_context_candidate": "2-3. 3년차(2022년)의 연구 범위",
+    "prior_heading_candidate": {
+      "text": "가) 전송받은 메모리 패킷의 HMAC 검증",
+      "pdf_page": 45
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 386,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 1307,
+    "heading_candidates": [
+      "2-3-3. 검증 방법"
+    ],
+    "section_context_candidate": "2-3-3. 검증 방법",
+    "prior_heading_candidate": {
+      "text": "2-3-2. 검증 개요",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "표 2 실험 파라미터 항목과 설정값",
+        "line_index": 40,
+        "toc_like": false,
+        "before": "백엔드 지연시간 10 ns/packet\n메모리 모듈\n메모리 컨트폴러 당 메모리 모듈 갯수 2\n메모리 모듈 크기 256 MB",
+        "after": "각 컴퓨트 노드는 x86 아키텍처와 L3 캐시를 갖춘 Derive03CPU 모델로 설정하였다. 이러한 컴퓨트 노드는 메모리 풀로부터 메모리를 제공받는다. 모든 실험은 2.2 GHz로\n동작하는 2개의 AMD EPYC 7601 프로세서와 512 GB의 램, 그리고 우분투 18.04.5 (커\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 310,
+      "2": 35,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 1470,
+    "heading_candidates": [
+      "2-3-4. 종합적 안전성 및 보안성 검증 결과"
+    ],
+    "section_context_candidate": "2-3-4. 종합적 안전성 및 보안성 검증 결과",
+    "prior_heading_candidate": {
+      "text": "2-3-3. 검증 방법",
+      "pdf_page": 49
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "표 3 보안성 검증 목록",
+        "line_index": 33,
+        "toc_like": false,
+        "before": "A3. 패킷 헤더 변조 데이터링크 계층 HMAC\nA4. 패킷 데이터 변조 노드간 대칭키 암호 (AES-GCM)\nA5. 패킷 재전송 공격 데이터링크 계층 HMAC\n기타 A6. 혼동된 대리인 공격 Capability기반 접근제어",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 342,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 1734,
+    "heading_candidates": [],
+    "section_context_candidate": "2-3-4. 종합적 안전성 및 보안성 검증 결과",
+    "prior_heading_candidate": {
+      "text": "2-3-4. 종합적 안전성 및 보안성 검증 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 417,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 1038,
+    "heading_candidates": [
+      "2-3-5. 프로토타입 전체 성능 측정 및 평가"
+    ],
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "prior_heading_candidate": {
+      "text": "2-3-4. 종합적 안전성 및 보안성 검증 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 16은 SPEC CPU2006으로 측정한 기존 머신 기반의 시스템과 개별분리 시스템의",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "capability 에 명시되지 않은 메모리에 접근을 시도하는 경우도 마찬가지로 인터커넥트\n로직에서 예외를 발생시키며 정상적으로 접근 제어를 수행하였다.\n2-3-5. 프로토타입 전체 성능 측정 및 평가\nŸ 실험 1: 머신 기반 시스템과 개별분리 시스템의 성능 비교",
+        "after": "성능 차이를 보여준다. 이 실험으로 개별분리 시스템에서는 캐시 미스율이 클 수록 기\n존 머신 기반의 시스템 보다 훨씬 큰 성능하락이 생김을 알 수 있다. 최악의 경우\ngobmk 어플리케이션은 7.85배의 성능하락과 2.93%의 캐시 미스를 발생시켰고, 지역성\n(locality)이 높은 hmer와 libquantum은 최소한의 성능하락으로 그쳤다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 17 기존 머신 기반의 시스템과 개별분리 시스템과의",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "성능 차이를 보여준다. 이 실험으로 개별분리 시스템에서는 캐시 미스율이 클 수록 기\n존 머신 기반의 시스템 보다 훨씬 큰 성능하락이 생김을 알 수 있다. 최악의 경우\ngobmk 어플리케이션은 7.85배의 성능하락과 2.93%의 캐시 미스를 발생시켰고, 지역성\n(locality)이 높은 hmer와 libquantum은 최소한의 성능하락으로 그쳤다.",
+        "after": "성능 차이\n실험1의 결과는 메모리 접근 지연시간이 개별분리 시스템에서 가장 큰 성능 하락의 원\n인임을 보여준다. 캐시 미스가 발생함에 따라 원격에 있는 메모리에 접근하는데 많은\n지연시간이 생기기 때문이다. 메모리 접근 지연시간은 많은 요소로 인해 발생되는데, 예르들어 주소 변환 지연시간, 스위치 처리 시연시간 등이 있다. 이러한 지연시간을 최",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 241,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.97,
+          308.54,
+          476.38,
+          491.7
+        ],
+        "page_area_fraction": 0.1242
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 778,
+    "heading_candidates": [],
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "prior_heading_candidate": {
+      "text": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+      "pdf_page": 52
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 17은 SPECint2006 벤치마크의 결과 중 컴퓨트 노드 갯수가 1, 2, 4, 8개로 증가할",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 47 -\nŸ 실험 2: 컴퓨트 노트 갯수와 전체 시스템의 성능 관계",
+        "after": "때 컴퓨트 노드 1개에서 측정된 성능 하락을 보여준다. 컴퓨트 노드 서로가 공유된 네\n트워크를 사용하여 메모리에 접근하는 만큼, 각각의 컴퓨트 노드가 성능에 간섭이 생\n김을 알 수 있다. 특히 컴퓨트 노드 갯수가 가장 많은, 8개 컴퓨트 노트 실험에서는\ngobmk 벤치마크에서 최대 8.59%의 성능 하락이 발생했다. 또한 그림 16의 실험과 같",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 18 멀티 컴퓨트 노드 환경에서 컴퓨트 노드 1개당 성능",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "김을 알 수 있다. 특히 컴퓨트 노드 갯수가 가장 많은, 8개 컴퓨트 노트 실험에서는\ngobmk 벤치마크에서 최대 8.59%의 성능 하락이 발생했다. 또한 그림 16의 실험과 같\n은 패턴의 결과가 발생함을 확인했다. 이러한 멀티 컴퓨트 노드 환경에서 패킷을 처리\n하는 성능에 따라 실험 3에서 확인했다.",
+        "after": "하락\nŸ 실험 3: 멀티 컴퓨트 노드 환경에서 패킷 처리 용량과 성능의 상관관계\n본 연구팀은 실험 2에서 멀티 컴퓨트 노드 환경에서 컴퓨트 노드가 많이질 수록 성능\n에 간섭이 생김을 확인했다. 이것의 원인을 파악하기 위해서 본 연구팀은 패킷 처리",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 198,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.61,
+          432.97,
+          479.86,
+          625.96
+        ],
+        "page_area_fraction": 0.1335
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 521,
+    "heading_candidates": [],
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "prior_heading_candidate": {
+      "text": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+      "pdf_page": 52
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 19 SPECint2006 벤치마크 결과 중 패킷 처리 큐의 갯수",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 48 -",
+        "after": "변경과 병목현상 개선 현상\n그림 20 STREAM 벤치마크 결과 중 패킷 처리 큐의 갯수 변경과 병목현상 개선 현상\n그림 18과 그림 19는 패킷 처리 큐의 갯수와 병목현상의 상관관계를 보여준다. 패킷\n처리 큐의 갯수가 많이질 수록 병목현상이 크게 개선됨을 알 수 있다. 특히 컴퓨트 노",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 20 STREAM 벤치마크 결과 중 패킷 처리 큐의 갯수 변경과 병목현상 개선 현상",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 48 -\n그림 19 SPECint2006 벤치마크 결과 중 패킷 처리 큐의 갯수\n변경과 병목현상 개선 현상",
+        "after": "그림 18과 그림 19는 패킷 처리 큐의 갯수와 병목현상의 상관관계를 보여준다. 패킷\n처리 큐의 갯수가 많이질 수록 병목현상이 크게 개선됨을 알 수 있다. 특히 컴퓨트 노\n드가 많아질 수록, 지역성이 떨어져 원격 메모리 접근이 많을 수록 개선효과가 두드러\n진다. STREAM 벤치마크에서 copy와 scale은 배열 2개를 이용하고 add와 triad는 배열",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 18과 그림 19는 패킷 처리 큐의 갯수와 병목현상의 상관관계를 보여준다. 패킷",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 48 -\n그림 19 SPECint2006 벤치마크 결과 중 패킷 처리 큐의 갯수\n변경과 병목현상 개선 현상\n그림 20 STREAM 벤치마크 결과 중 패킷 처리 큐의 갯수 변경과 병목현상 개선 현상",
+        "after": "처리 큐의 갯수가 많이질 수록 병목현상이 크게 개선됨을 알 수 있다. 특히 컴퓨트 노\n드가 많아질 수록, 지역성이 떨어져 원격 메모리 접근이 많을 수록 개선효과가 두드러\n진다. STREAM 벤치마크에서 copy와 scale은 배열 2개를 이용하고 add와 triad는 배열\n3개를 이용하여 덧셈, 곱셈 등 간단한 연산을 한다. 이러한 벤치마크 특성은 실험 결과",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 128,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.49,
+          656.4,
+          473.98,
+          798.57
+        ],
+        "page_area_fraction": 0.095
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.33,
+          504.89,
+          476.14,
+          649.93
+        ],
+        "page_area_fraction": 0.0982
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          332.52,
+          546.91,
+          438.84
+        ],
+        "page_area_fraction": 0.1021
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.56,
+          198.26,
+          546.91,
+          306.27
+        ],
+        "page_area_fraction": 0.1037
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 804,
+    "heading_candidates": [],
+    "section_context_candidate": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+    "prior_heading_candidate": {
+      "text": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+      "pdf_page": 52
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 21 메모리 컨트롤러 갯수 및 메모리 모듈과",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "각의 갯수를 달리하여 SPECint2006 벤치마크를 동작시켰다. 결과적으로, 그림 20과 같\n이 메모리 컨트롤러와 메모리 모듈의 갯수가 증가하더라도 시스템의 전반적인 영향은\n미비했다. 즉, 메모리 컴포넌트들의 병렬성은 효과가 매우 적었다. 충분한 양의 메모리\n가 탑재된다면 메모리 컴포넌트가 시스템의 성능에 미치는 영향은 적다고 볼 수 있다.",
+        "after": "성능의 상관관계\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 193,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          154.0,
+          304.83,
+          459.47,
+          472.52
+        ],
+        "page_area_fraction": 0.1024
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.36,
+          126.1,
+          461.99,
+          299.07
+        ],
+        "page_area_fraction": 0.1074
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 857,
+    "heading_candidates": [
+      "2-3-6. 구현하지 못한 다른 보안요소 구성 방법 제안"
+    ],
+    "section_context_candidate": "2-3-6. 구현하지 못한 다른 보안요소 구성 방법 제안",
+    "prior_heading_candidate": {
+      "text": "2-3-5. 프로토타입 전체 성능 측정 및 평가",
+      "pdf_page": 52
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 22 인터커넥트의 소재에 따른 지연시간과 성능의 상관관계",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "자식 인터커넥트 스위치는 광학식 인터커넥트 보다 평균 약 5.78배 더 큰 지연시간이\n발생했으며, 이것은 시스템 전반에 2.5배의 성능하락을 보여주었다. 시스템 설계자는\n인터커넥트의 소재를 선택함에 있어서 이러한 성능하락을 예측하고 요구되는 성능에\n부합하는 설계를 하는 것이 중요하다.",
+        "after": "2-3-6. 구현하지 못한 다른 보안요소 구성 방법 제안\nŸ 외장 가속기의 내장 메모리 접근 제어\n본 과제에서 구현한 개별분리 시스템에서 GPU와 같은 가속기를 연결하기 위해서는 GPU\n의 공유 메모리에 대한 접근권한이 필요하다. 예를들어, 한 메모리 공간에 여러 CPU노드",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 202,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.81,
+          352.53,
+          484.54,
+          606.78
+        ],
+        "page_area_fraction": 0.1807
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 1437,
+    "heading_candidates": [
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+      "1) 연구수행 결과",
+      "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)"
+    ],
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+    "prior_heading_candidate": {
+      "text": "2-3-6. 구현하지 못한 다른 보안요소 구성 방법 제안",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 345,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 1626,
+    "heading_candidates": [],
+    "section_context_candidate": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+    "prior_heading_candidate": {
+      "text": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 정량적 연구개발성과표 ",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 52 -\n(2) 정량적 연구개발성과\n본 과제를 통해 SCI급 저널 5편(계획된 4편보다 1편 초과달성)을 저술 및 출판하였으\n며, 특허 5건 출원, 소프트웨어 등록 1건을 등록하였다.",
+        "after": "(단위 : 건, 천원)\n연도\n성과지표명\n1단계",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "에스시아이 Expanded(SCIE), 비SCIE, 평균Impact Factor(IF)",
+        "line_index": 22,
+        "toc_like": false,
+        "before": "실적(누적)\n목표(단계별)\n실적(누적)\n계 실적(누적) 11 100%",
+        "after": "ㆍ장비, 기술요약정보, 저작권(소프트웨어, 서적 등), 생명자원(생명정보, 생물자원), 표준화(국내, 국제), 화합물, 신품종 등을\n말하며, 논문, 학술발표, 특허의 경우 목표 대비 실적은 기재하지 않아도 됩니다.\n* 2」연구개발과제 특성 반영 지표: 기술실시(이전), 기술료, 사업화(투자실적, 제품화, 매출액, 수출액, 고용창출, 고용효과, 투자유\n치), 비용 절감, 기술(제품)인증, 시제품 제작 및 인증, 신기술지정, 무역수지개선, 경제적 파급효과, 산업지원(기술지도), 교육지",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 472,
+      "2": 77,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 1378,
+    "heading_candidates": [],
+    "section_context_candidate": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+    "prior_heading_candidate": {
+      "text": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 258,
+      "2": 121,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 1422,
+    "heading_candidates": [],
+    "section_context_candidate": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+    "prior_heading_candidate": {
+      "text": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 335,
+      "2": 162,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 2191,
+    "heading_candidates": [],
+    "section_context_candidate": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+    "prior_heading_candidate": {
+      "text": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 611,
+      "2": 159,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 878,
+    "heading_candidates": [
+      "□ 사업화 계획 및 무역 수지 개선 효과"
+    ],
+    "section_context_candidate": "□ 사업화 계획 및 무역 수지 개선 효과",
+    "prior_heading_candidate": {
+      "text": "다. Ÿ 국제공동연구 성과 (성균관대학교, CISPA 참여)",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 284,
+      "2": 187,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 691,
+    "heading_candidates": [
+      "□ 고용 효과",
+      "□ 경제적 파급 효과",
+      "□ 정책활용 내용"
+    ],
+    "section_context_candidate": "□ 고용 효과",
+    "prior_heading_candidate": {
+      "text": "□ 사업화 계획 및 무역 수지 개선 효과",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 221,
+      "2": 177,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 904,
+    "heading_candidates": [
+      "□ 전문 연구 인력 양성",
+      "□ 다른 국가연구개발사업에의 활용",
+      "□ 국제화 협력성과",
+      "□ 연구시설ㆍ장비"
+    ],
+    "section_context_candidate": "□ 전문 연구 인력 양성",
+    "prior_heading_candidate": {
+      "text": "□ 정책활용 내용",
+      "pdf_page": 63
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 231,
+      "2": 169,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 378,
+    "heading_candidates": [
+      "2) 목표 달성 수준"
+    ],
+    "section_context_candidate": "2) 목표 달성 수준",
+    "prior_heading_candidate": {
+      "text": "□ 연구시설ㆍ장비",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 101,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 1743,
+    "heading_candidates": [
+      "4. 목표 미달 또는 미흡한 사항에 대한 원인분석",
+      "1) 목표 미달 또는 미흡한 연구결과에 대한 원인(사유) 자체분석 내용"
+    ],
+    "section_context_candidate": "4. 목표 미달 또는 미흡한 사항에 대한 원인분석",
+    "prior_heading_candidate": {
+      "text": "2) 목표 달성 수준",
+      "pdf_page": 65
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 429,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 1338,
+    "heading_candidates": [
+      "2) 미달 또는 미흡한 결과물에 대한 보완 활동",
+      "3) 연구개발 과정의 성실성"
+    ],
+    "section_context_candidate": "2) 미달 또는 미흡한 결과물에 대한 보완 활동",
+    "prior_heading_candidate": {
+      "text": "1) 목표 미달 또는 미흡한 연구결과에 대한 원인(사유) 자체분석 내용",
+      "pdf_page": 66
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 340,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 207,
+    "heading_candidates": [],
+    "section_context_candidate": "3) 연구개발 과정의 성실성",
+    "prior_heading_candidate": {
+      "text": "3) 연구개발 과정의 성실성",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 27,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 1573,
+    "heading_candidates": [
+      "5. 연구개발성과의 관련 분야에 대한 기여 정도",
+      "다. 본 연구과제에서는 개별분리 시스템에서 발생 가능한 보안 위협을 종류별로 정리"
+    ],
+    "section_context_candidate": "5. 연구개발성과의 관련 분야에 대한 기여 정도",
+    "prior_heading_candidate": {
+      "text": "3) 연구개발 과정의 성실성",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 394,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 934,
+    "heading_candidates": [
+      "6. 연구개발성과의 관리 및 활용 계획"
+    ],
+    "section_context_candidate": "6. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "다. 본 연구과제에서는 개별분리 시스템에서 발생 가능한 보안 위협을 종류별로 정리",
+      "pdf_page": 69
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구개발성과 활용계획표 ",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 64 -\n6. 연구개발성과의 관리 및 활용 계획",
+        "after": "구분(정량 및 정성적 성과 항목) 연구개발 종료 후 5년 이내\n국외논문\nSCIE 1\n비SCIE",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 218,
+      "2": 54,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 1272,
+    "heading_candidates": [
+      "1) 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획) Ÿ 시뮬레이터 활용 및 확산",
+      "2) 주요 성과활용 (기대)성과목표"
+    ],
+    "section_context_candidate": "1) 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획) Ÿ 시뮬레이터 활용 및 확산",
+    "prior_heading_candidate": {
+      "text": "6. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 70
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연도별 주요 활동계획(요약표)",
+        "line_index": 21,
+        "toc_like": false,
+        "before": "것으로 기대되며, 다음의 후속 연구도 계획하고 있다.\n- 개별분리 아키텍처에서 동작하는 OS의 보안성 향상 연구\n- 개별분리 아키텍처의 side channel 연구\n- 개별분리 아키텍처의 secure layer 연구 등",
+        "after": "구분 종료+1\n(2023년)\n종료+2\n(2024년)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 337,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 72,
+    "text_characters": 299,
+    "heading_candidates": [
+      "3) 성과활용·관리 추진체계"
+    ],
+    "section_context_candidate": "3) 성과활용·관리 추진체계",
+    "prior_heading_candidate": {
+      "text": "2) 주요 성과활용 (기대)성과목표",
+      "pdf_page": 71
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연도별 성과활용 (기대)성과목표(요약표)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 66 -",
+        "after": "구분 종료+1\n(2023년)\n종료+2\n(2024년)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 69,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 73,
+    "text_characters": 497,
+    "heading_candidates": [
+      "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획"
+    ],
+    "section_context_candidate": "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획",
+    "prior_heading_candidate": {
+      "text": "3) 성과활용·관리 추진체계",
+      "pdf_page": 72
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 103,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 74,
+    "text_characters": 1615,
+    "heading_candidates": [
+      "8. 연구개발비 사용실적",
+      "1) 연구개발비 사용명세서"
+    ],
+    "section_context_candidate": "8. 연구개발비 사용실적",
+    "prior_heading_candidate": {
+      "text": "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 374,
+      "2": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 75,
+    "text_characters": 303,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신・방송연구개발사업의 ○○연구",
+      "2. 이 연구개발내용을 대외적으로 발표할 때에는 반드시 과학기술정보통신부(정보통신기",
+      "3. 국가과학기술 기밀 유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는 안 된다."
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신・방송연구개발사업의 ○○연구",
+    "prior_heading_candidate": {
+      "text": "1) 연구개발비 사용명세서",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 53,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

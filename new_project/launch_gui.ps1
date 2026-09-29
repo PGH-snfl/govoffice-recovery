@@ -2,7 +2,8 @@
 $Utf8NoBom = [System.Text.UTF8Encoding]::new($false)
 try{[Console]::InputEncoding = $Utf8NoBom;[Console]::OutputEncoding = $Utf8NoBom}catch{}
 $LayoutPreview = $env:GOVOFFICE_LAYOUT_PREVIEW -eq '1'
-$SkipElevation = $env:GOVOFFICE_SKIP_ELEVATION -eq '1'
+$InstalledPackage = Test-Path -LiteralPath (Join-Path $PSScriptRoot 'deployment.json')
+$SkipElevation = $InstalledPackage -or $env:GOVOFFICE_SKIP_ELEVATION -eq '1'
 
 # HWPFrame.HwpObject가 설치된 한글의 권한 수준과 호출자 권한이 다르면
 # COM 생성이 반환되지 않고 대기할 수 있다. 원본을 실제로 검증한 조건과
@@ -22,6 +23,13 @@ if (-not $LayoutPreview -and -not $SkipElevation -and -not $principal.IsInRole($
     exit 0
 }
 Add-Type -AssemblyName PresentationFramework
+if(-not ('GovOfficePollGuard' -as [type])){
+    Add-Type -Path (Join-Path $PSScriptRoot 'gui_poll_guard.cs') -ReferencedAssemblies @(
+        [System.Windows.Window].Assembly.Location,
+        [System.Windows.Media.Visual].Assembly.Location,
+        [System.Windows.Threading.Dispatcher].Assembly.Location,'System.dll','System.Core.dll','System.Xaml.dll')
+}
+[GovOfficePollGuard]::Initialize()
 $MutexCreated=$false
 $MutexName=if($LayoutPreview){"Local\GovOfficeRecoveredApplicationPreview_$PID"}else{'Local\GovOfficeRecoveredApplication'}
 $AppMutex=[System.Threading.Mutex]::new($true,$MutexName,[ref]$MutexCreated)
@@ -34,6 +42,18 @@ Add-Type -TypeDefinition @'
 using System;
 using System.Diagnostics;
 using System.Runtime.InteropServices;
+
+public static class GovOfficeWindowIdentity
+{
+    // Give the native GUI its own taskbar group instead of the PowerShell host.
+    [DllImport("shell32.dll", CharSet = CharSet.Unicode)]
+    private static extern int SetCurrentProcessExplicitAppUserModelID(string appId);
+
+    public static void Initialize()
+    {
+        Marshal.ThrowExceptionForHR(SetCurrentProcessExplicitAppUserModelID("GovOffice.Desktop"));
+    }
+}
 
 public static class GovOfficeSelectionMouse
 {
@@ -112,7 +132,8 @@ public static class GovOfficeSelectionMouse
 
 $ProjectDir = if($env:GOVOFFICE_PROJECT_DIR){[System.IO.Path]::GetFullPath($env:GOVOFFICE_PROJECT_DIR)}else{Split-Path -Parent $MyInvocation.MyCommand.Path}
 $WorkspaceDir = Split-Path -Parent $ProjectDir
-$RuntimeReportDir = Join-Path $ProjectDir 'reports\runtime'
+$RuntimeReportDir = Join-Path $ProjectDir 'development\reports\runtime'
+if ($InstalledPackage) { $RuntimeReportDir = Join-Path $env:LOCALAPPDATA 'GovOffice\logs' }
 $RuntimeErrorLog = Join-Path $RuntimeReportDir 'gui_runtime_errors.log'
 [void][System.IO.Directory]::CreateDirectory($RuntimeReportDir)
 function Write-GuiRuntimeError([string]$Context,[object]$Failure) {
@@ -124,11 +145,29 @@ function Write-GuiRuntimeError([string]$Context,[object]$Failure) {
         [System.IO.File]::AppendAllText($RuntimeErrorLog,$Entry,$Utf8NoBom)
     } catch {}
 }
-$Python = Get-ChildItem -LiteralPath $WorkspaceDir -Directory | Where-Object { $_.Name -like '*1303_*' -and (Test-Path -LiteralPath (Join-Path $_.FullName 'python313\python.exe')) } | Select-Object -First 1 | ForEach-Object { Join-Path $_.FullName 'python313\python.exe' }
+$Python = Join-Path $ProjectDir 'runtime\python\python.exe'
+if (-not (Test-Path -LiteralPath $Python)) {
+    $Python = Get-ChildItem -LiteralPath $WorkspaceDir -Directory | Where-Object { $_.Name -like '*1303_*' -and (Test-Path -LiteralPath (Join-Path $_.FullName 'python313\python.exe')) } | Select-Object -First 1 | ForEach-Object { Join-Path $_.FullName 'python313\python.exe' }
+}
 if (-not $Python) { [System.Windows.MessageBox]::Show('번들 Python을 찾지 못했습니다.'); exit 1 }
+if ($InstalledPackage -and -not $LayoutPreview) {
+    try {
+        $CheckOutput = & $Python (Join-Path $ProjectDir 'product\support\deployment_check.py') --register
+        if ($LASTEXITCODE -ne 0) {
+            $CheckReport = ($CheckOutput -join "`n") | ConvertFrom-Json
+            $Problems = @($CheckReport.checks | Where-Object { -not $_.ok } | ForEach-Object { "$($_.name): $($_.detail)" }) -join "`n"
+            throw $Problems
+        }
+    } catch {
+        [System.Windows.MessageBox]::Show("실행 준비를 완료하지 못했습니다.`n$($_.Exception.Message)", '범정부오피스 설치 확인') | Out-Null
+        exit 1
+    }
+}
 
 $script:Backend = $null
 $script:BackendUnhealthy = $false
+$script:BackendRequestInFlight = $false
+$script:GuiClosing = $false
 $script:BackendStartupTimeoutMilliseconds = 15000
 
 function ConvertTo-AsciiJson([object]$Value) {
@@ -147,6 +186,7 @@ function Get-BackendRequestTimeout([hashtable]$Command) {
     # DispatcherTimer와 버튼 이벤트는 모두 UI 스레드에서 호출된다. COM이
     # 응답하지 않을 때 창 전체가 무기한 멈추지 않도록 작업 성격별 상한을 둔다.
     $Action=[string]$Command.action
+    if($Action -eq 'climate_plan_generate'){return 60000}
     if($Action -in @(
         'hwp_document_status','style_preset_selection_status',
         'style_preset_selection_probe','style_preset_selection_clear',
@@ -166,7 +206,23 @@ function Wait-BackendLineTask {
         [Parameter(Mandatory=$true)][string]$Context
     )
     if($TimeoutMilliseconds -le 0){throw [System.ArgumentOutOfRangeException]::new('TimeoutMilliseconds')}
-    if(-not $ReadTask.Wait($TimeoutMilliseconds)){
+    $DispatcherType='System.Windows.Threading.Dispatcher' -as [type]
+    $Dispatcher=if($null -ne $DispatcherType){$DispatcherType::FromThread([System.Threading.Thread]::CurrentThread)}else{$null}
+    if($null -ne $Dispatcher -and -not $ReadTask.IsCompleted){
+        # Keep WPF painting/input alive while waiting. Send-Backend serializes
+        # requests and both polling timers skip ticks during this nested loop.
+        $WaitFrame=[System.Windows.Threading.DispatcherFrame]::new()
+        $WaitClock=[System.Diagnostics.Stopwatch]::StartNew()
+        $WaitTimer=[System.Windows.Threading.DispatcherTimer]::new()
+        $WaitTimer.Interval=[TimeSpan]::FromMilliseconds(20)
+        $WaitTimer.Add_Tick({
+            if($ReadTask.IsCompleted -or $WaitClock.ElapsedMilliseconds -ge $TimeoutMilliseconds){$WaitFrame.Continue=$false}
+        }.GetNewClosure())
+        try{$WaitTimer.Start();[System.Windows.Threading.Dispatcher]::PushFrame($WaitFrame)}
+        finally{$WaitTimer.Stop();$WaitClock.Stop()}
+        $Completed=$ReadTask.IsCompleted
+    }else{$Completed=$ReadTask.Wait($TimeoutMilliseconds)}
+    if(-not $Completed){
         throw [System.TimeoutException]::new("$Context 응답 대기 시간이 종료되었습니다.")
     }
     return $ReadTask.GetAwaiter().GetResult()
@@ -276,7 +332,9 @@ $script:PreviewHwpDocument = [ordered]@{
 }
 
 function Send-Backend([hashtable]$Command) {
+    if($script:BackendRequestInFlight){throw '한글에서 이전 작업을 처리하고 있습니다. 완료 후 다시 누르세요.'}
     if ($LayoutPreview) {
+        if($Command.action -like 'favorite_*'){return Invoke-FavoritePreview $Command}
         if($Command.action -eq 'hwp_document_status'){
             return [pscustomobject]$script:PreviewHwpDocument
         }
@@ -332,9 +390,11 @@ function Send-Backend([hashtable]$Command) {
         if($Action -ne 'connect'){
             throw '기능 백엔드 연결이 끊어졌습니다. 상단의 다시 연결을 눌러 백엔드를 안전하게 다시 시작하세요.'
         }
-        [void](Start-BackendProcess)
+        $script:BackendRequestInFlight=$true
+        try{[void](Start-BackendProcess)}catch{$script:BackendRequestInFlight=$false;throw}
     }
     $TimeoutMilliseconds=Get-BackendRequestTimeout $Command
+    $script:BackendRequestInFlight=$true
     try{
         $script:Backend.StandardInput.WriteLine((ConvertTo-AsciiJson $Command))
         $script:Backend.StandardInput.Flush()
@@ -356,11 +416,14 @@ function Send-Backend([hashtable]$Command) {
         }
         $Recovery=if($Cleaned){' 상단의 다시 연결을 눌러 재시작하세요.'}else{' 프로그램을 종료한 뒤 다시 실행하세요.'}
         throw [System.InvalidOperationException]::new("기능 백엔드 통신이 끊어졌습니다.$Recovery",$Failure.Exception)
-    }
+    }finally{$script:BackendRequestInFlight=$false}
 }
 
+if(-not $LayoutPreview){
+    try{[GovOfficeWindowIdentity]::Initialize()}catch{Write-GuiRuntimeError 'window app identity' $_}
+}
 [xml]$Xaml = @'
-<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Title="범정부오피스" Width="300" Height="824" Left="0" Top="0" Topmost="True" ResizeMode="NoResize" WindowStyle="None" Background="White" ShowInTaskbar="True" UseLayoutRounding="True" SnapsToDevicePixels="True">
+<Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Title="범정부오피스" Width="300" Height="824" Left="0" Top="0" Topmost="False" ResizeMode="CanMinimize" WindowStyle="SingleBorderWindow" Background="White" ShowInTaskbar="True" UseLayoutRounding="True" SnapsToDevicePixels="True">
   <Viewbox Name="MainViewbox" Stretch="Uniform" StretchDirection="DownOnly">
     <Canvas Name="Root" Width="300" Height="824" Background="White">
       <Canvas Name="TopBar" Width="300" Height="50" Canvas.Left="0" Canvas.Top="0" Background="White"/>
@@ -391,12 +454,17 @@ function Send-Backend([hashtable]$Command) {
   </Viewbox>
 </Window>
 '@
+# Application must exist before XAML creates the main Window, otherwise that
+# window is absent from Application.Windows. Closing a child then initiates
+# shutdown and the next ShowDialog can leave the main window disabled.
+$script:WpfApplication=[System.Windows.Application]::Current
+if($null -eq $script:WpfApplication){$script:WpfApplication=[System.Windows.Application]::new()}
 $Window = [Windows.Markup.XamlReader]::Load([System.Xml.XmlNodeReader]::new($Xaml))
+$script:WpfApplication.MainWindow=$Window
+$script:WpfApplication.ShutdownMode=[System.Windows.ShutdownMode]::OnMainWindowClose
 if($LayoutPreview){$Window.WindowStyle='SingleBorderWindow';$Window.Topmost=$false;$Window.Title='범정부오피스 레이아웃 미리보기'}
 $TopBar = $Window.FindName('TopBar'); $Content = $Window.FindName('Content'); $Navigation = $Window.FindName('Navigation'); $Status = $Window.FindName('Status')
 $script:MainStatus=$Status
-$script:WpfApplication=[System.Windows.Application]::Current
-if($null -eq $script:WpfApplication){$script:WpfApplication=[System.Windows.Application]::new()}
 $script:WpfApplication.Add_DispatcherUnhandledException({
     $eventArgs=$_
     try{
@@ -410,8 +478,20 @@ $HwpDocumentPanel=$Window.FindName('HwpDocumentPanel');$HwpDocumentState=$Window
 $HwpDocumentOpen=$Window.FindName('HwpDocumentOpen');$HwpDocumentShow=$Window.FindName('HwpDocumentShow');$HwpDocumentMinimize=$Window.FindName('HwpDocumentMinimize');$HwpDocumentClose=$Window.FindName('HwpDocumentClose')
 $Assets = Join-Path $ProjectDir 'assets\icons'
 $Layout = Get-Content -LiteralPath (Join-Path $ProjectDir 'config\original_layout.json') -Raw -Encoding UTF8 | ConvertFrom-Json
+# Native institution features come from their library manifest, not a stale
+# snapshot of the recovered executable's layout.
+$SeoultechManifestPath=Join-Path $ProjectDir 'src\govoffice\institutions\packages\seoultech\manifest.json'
+if(Test-Path -LiteralPath $SeoultechManifestPath){
+    $SeoultechManifest=Get-Content -LiteralPath $SeoultechManifestPath -Raw -Encoding UTF8 | ConvertFrom-Json
+    $Layout.institutions.seoultech | Add-Member -MemberType NoteProperty -Name custom_features -Value @($SeoultechManifest.custom_features) -Force
+}
 $TabMap = @{}; foreach ($Tab in $Layout.tabs) { $TabMap[$Tab.id] = $Tab }
 $CurrentTab = '사용'; $NavButtons = @{}
+. (Join-Path $ProjectDir 'favorites_ui.ps1')
+. (Join-Path $ProjectDir 'workspace_windows.ps1')
+. (Join-Path $ProjectDir 'profile_table_ui.ps1')
+. (Join-Path $ProjectDir 'document_authoring_ui.ps1')
+. (Join-Path $ProjectDir 'document_authoring_flow_ui.ps1')
 
 function Get-FitScale([double]$Width, [double]$Height, [double]$Margin=0) {
     $Area = [System.Windows.SystemParameters]::WorkArea
@@ -559,7 +639,7 @@ function Set-HwpDocumentControlsBusy {
 }
 
 function Refresh-HwpDocumentStatus([bool]$Silent=$true) {
-    if($script:HwpDocumentBusy){return}
+    if($script:ProfileReviewActive -or $script:HwpDocumentBusy -or $script:BackendRequestInFlight){return}
     if(-not $LayoutPreview -and ($null -eq $Backend -or $Backend.HasExited)){
         Set-HwpDocumentPanelState ([pscustomobject]@{ok=$false;message='기능 백엔드가 종료되었습니다.'})
         return
@@ -695,7 +775,7 @@ function Open-ManualStyleCandidate($Analysis,$OwnerWindow=$Window) {
         $begin=Send-Backend @{action='style_preset_manual_selection_begin';draft_id=$Analysis.draft_id};if(-not $begin.ok){throw $begin.message};$script:ManualSelectionToken=[string]$begin.selection_token;$Import.IsEnabled=$false;$SelectionStatus.Text=$begin.message;$SelectionPanel.Background='#F8F6FB';$SelectionPanel.BorderBrush='#D9D2E7'
     }.GetNewClosure()
     $Choose.Add_Click({try{& $BeginManualSelection;$script:SelectionReturnWindow=$Dialog;if(-not (Activate-SelectionHwp)){$SelectionStatus.Text='화면에 표시된 관리 한글 창을 찾지 못했습니다.'}}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
-    $ManualStateTimer=[System.Windows.Threading.DispatcherTimer]::new();$ManualStateTimer.Interval=[TimeSpan]::FromMilliseconds(300);$ManualStateTimer.Add_Tick({
+    $ManualStateTimer=[System.Windows.Threading.DispatcherTimer]::new();$ManualStateTimer.Interval=[TimeSpan]::FromMilliseconds(300);$ManualStateTimer.Add_Tick([GovOfficePollGuard]::Wrap({
         try{
             if(-not $script:ManualSelectionToken){return}
             # 100ms 마우스 폴링이 짧은 드래그를 놓치더라도 한글이 전면이고
@@ -712,7 +792,7 @@ function Open-ManualStyleCandidate($Analysis,$OwnerWindow=$Window) {
             $state=Send-Backend @{action='style_preset_selection_status';probe=$false}
             if($state.selection_ready){$Import.IsEnabled=$true;$SelectionStatus.Text='직접 선택한 값이 확인되었습니다. 선택값 가져오기를 누르세요.';$SelectionPanel.Background='#ECF8F0';$SelectionPanel.BorderBrush='#54A56B'}
         }catch{}
-    }.GetNewClosure());$ManualStateTimer.Start()
+    }.GetNewClosure()));$ManualStateTimer.Start()
     $Import.Add_Click({try{$fieldName=[string]$Field.Text;if([string]::IsNullOrWhiteSpace($fieldName)){$SelectionStatus.Text='대표필드를 선택하거나 새 이름을 입력하세요.';return};$response=Send-Backend @{action='style_preset_manual_candidate';draft_id=$Analysis.draft_id;selection_token=$script:ManualSelectionToken;field_name=$fieldName.Trim()};if(-not $response.ok){throw $response.message};$script:ManualCandidateResult=$response;$Dialog.Close()}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
     $Cancel.Add_Click({$Dialog.Close()});$Dialog.Add_Closed({$ManualStateTimer.Stop();if($script:SelectionReturnWindow -eq $Dialog){$script:SelectionReturnWindow=$null};if($script:ManualSelectionToken){try{[void](Send-Backend @{action='style_preset_manual_selection_cancel';selection_token=$script:ManualSelectionToken})}catch{}}}.GetNewClosure());try{& $BeginManualSelection}catch{Show-Error $_.Exception.Message};[void]$Dialog.ShowDialog();$result=$script:ManualCandidateResult;$script:ManualCandidateResult=$null;$script:ManualSelectionToken=$null;return $result
 }
@@ -721,7 +801,7 @@ function Open-StyleCaptureReview($Analysis,$OwnerWindow=$Window) {
     $Grid=[System.Windows.Controls.Grid]::new();$Dialog.Content=$Grid;foreach($height in @(58,88,'*',48)){$row=[System.Windows.Controls.RowDefinition]::new();if($height -eq '*'){$row.Height=[System.Windows.GridLength]::new(1,[System.Windows.GridUnitType]::Star)}else{$row.Height=[System.Windows.GridLength]::new([double]$height)};[void]$Grid.RowDefinitions.Add($row)}
     $Header=[System.Windows.Controls.Border]::new();$Header.Background='#66558F';[System.Windows.Controls.Grid]::SetRow($Header,0);[void]$Grid.Children.Add($Header);$HeaderText=[System.Windows.Controls.TextBlock]::new();$HeaderText.Text='어떤 값을 입력 필드로 저장할지 확인하세요';$HeaderText.Foreground='White';$HeaderText.FontSize=17;$HeaderText.FontWeight='Bold';$HeaderText.Margin='16,15';$Header.Child=$HeaderText
     Set-OriginalSectionHeader $Header $HeaderText
-    $Guide=[System.Windows.Controls.TextBlock]::new();$Guide.Margin='16,8';$Guide.TextWrapping='Wrap';$Guide.Foreground='#555555';$Guide.Text=if(@($Analysis.candidates).Count){'이동 손잡이를 원하는 대표필드 제목 위에 놓으세요. 하위필드는 그 대표필드 아래로 이동하고, 대표필드는 전체 구조를 유지한 채 다른 대표필드의 하위 구조로 이동합니다. 값이나 필드끼리는 자동으로 합치지 않습니다.'}else{'선택 영역에서 필드 후보를 찾지 못했습니다. 확인하면 원본 내용과 서식을 그대로 저장합니다.'};[System.Windows.Controls.Grid]::SetRow($Guide,1);[void]$Grid.Children.Add($Guide)
+    $Guide=[System.Windows.Controls.TextBlock]::new();$Guide.Margin='16,8';$Guide.TextWrapping='Wrap';$Guide.Foreground='#555555';$Guide.Text=if(@($Analysis.candidates).Count){'이동 손잡이를 원하는 대표필드 묶음 안에 놓으세요. 제목뿐 아니라 값·하위필드 영역에도 놓을 수 있습니다. 대표필드를 끌면 그 안의 하위필드들이 대상 대표필드로 옮겨집니다. 하위필드도 개별 이동할 수 있습니다. 처음 체크된 후보를 먼저 표시하며 각 항목군 안의 기존 순서는 유지합니다.'}else{'선택 영역에서 필드 후보를 찾지 못했습니다. 확인하면 원본 내용과 서식을 그대로 저장합니다.'};[System.Windows.Controls.Grid]::SetRow($Guide,1);[void]$Grid.Children.Add($Guide)
     $Scroll=[System.Windows.Controls.ScrollViewer]::new();$Scroll.Margin='16,4';$Panel=[System.Windows.Controls.StackPanel]::new();$Scroll.Content=$Panel;[System.Windows.Controls.Grid]::SetRow($Scroll,2);[void]$Grid.Children.Add($Scroll)
     # 대표필드/하위필드 계층은 유지한다. 완전히 같은 필드와 값은 한 줄로
     # 접어 중복 노출을 없애고, 유사 관계는 병합하지 않은 채 정렬에만 쓴다.
@@ -771,27 +851,76 @@ function Open-StyleCaptureReview($Analysis,$OwnerWindow=$Window) {
         if($Count -eq 0){return};$Summary=[System.Windows.Controls.Border]::new();$Summary.Background=$Color;$Summary.BorderBrush='#DED8EA';$Summary.BorderThickness=1;$Summary.CornerRadius=9;$Summary.Margin='0,6,8,4';$Summary.Padding='10,5';$Summary.HorizontalAlignment='Left';$SummaryText=[System.Windows.Controls.TextBlock]::new();$SummaryText.Text=("{0} · {1}개" -f $Title,$Count);$SummaryText.FontWeight='SemiBold';$SummaryText.Foreground=$Foreground;$Summary.Child=$SummaryText;[void]$Panel.Children.Add($Summary)
     }.GetNewClosure()
     $RenderGroups={param([object[]]$Rows)
-        # 최초로 읽힌 항목의 위치가 대표 순서다. 뒤에서 발견된 동일·유사
-        # 관계 항목은 가나다순으로 튀지 않고 최초 항목의 묶음 아래에 붙는다.
+        # 최초 문서/관계 순서를 만든 뒤, 최초 추천 여부로 안정 분할한다.
+        # 사용자가 체크를 바꿀 때마다 위치가 튀지 않도록 Selected는 정렬에 쓰지 않는다.
         $groups=[ordered]@{};foreach($row in @($Rows|Sort-Object relationship_anchor_order,document_order)){if(-not $groups.Contains([string]$row.group_key)){$groups[[string]$row.group_key]=New-Object System.Collections.ArrayList};[void]$groups[[string]$row.group_key].Add($row)}
-        foreach($groupKey in @($groups.Keys)){
+        $priorityGroups=New-Object System.Collections.ArrayList;$otherGroups=New-Object System.Collections.ArrayList
+        foreach($key in @($groups.Keys)){
+            $priorityRows=@($groups[$key]|Where-Object{[bool]$_.confirmed})
+            $otherRows=@($groups[$key]|Where-Object{-not [bool]$_.confirmed})
+            $groups[$key]=@($priorityRows)+@($otherRows)
+            if($priorityRows.Count){[void]$priorityGroups.Add($key)}else{[void]$otherGroups.Add($key)}
+        }
+        foreach($groupKey in (@($priorityGroups)+@($otherGroups))){
             $GroupRows=@($groups[$groupKey]);$groupTitle=[string]$GroupRows[0].representative;$groupMovedCount=0;foreach($groupRow in $GroupRows){foreach($candidateId in @($groupRow.ids)){if($CandidateOverrides.ContainsKey([string]$candidateId)){$groupMovedCount++}}};$GroupCard=[System.Windows.Controls.Border]::new();$GroupCard.BorderBrush=if($groupMovedCount){'#66558F'}else{'#D9D2E5'};$GroupCard.BorderThickness=if($groupMovedCount){2}else{1};$GroupCard.CornerRadius=12;$groupDepth=[Math]::Max(0,@($groupTitle -split '>').Count-1);$GroupCard.Margin=("{0},8,0,4" -f ([Math]::Min(72,$groupDepth*18)));$GroupPanel=[System.Windows.Controls.StackPanel]::new();$GroupCard.Child=$GroupPanel
-            $HeaderRestBackground=if($groupMovedCount){'#F3F0F8'}else{'#F8F6FB'};$HeaderContext=[pscustomobject]@{row=$GroupRows[0];actions=$ReviewActions;guide=$Guide;rest_background=$HeaderRestBackground};$HeaderBorder=[System.Windows.Controls.Border]::new();$HeaderBorder.Background=$HeaderRestBackground;$HeaderBorder.BorderBrush='#DED8EA';$HeaderBorder.BorderThickness='0,0,0,1';$HeaderBorder.Padding='10,8';$HeaderBorder.AllowDrop=$true;$HeaderBorder.Tag=$HeaderContext;$HeaderBorder.ToolTip='하위필드나 대표필드를 놓으면 이 대표필드 아래로 이동합니다. 같은 필드로 합치지는 않습니다.';$HeaderContent=[System.Windows.Controls.DockPanel]::new();$GroupDragHandle=[System.Windows.Controls.Border]::new();$GroupDragHandle.Background=New-PurpleAccentBrush;$GroupDragHandle.CornerRadius=8;$GroupDragHandle.Padding='8,4';$GroupDragHandle.Margin='10,0,0,0';$GroupDragHandle.Cursor='Hand';$GroupDragLabel=[System.Windows.Controls.TextBlock]::new();$GroupDragLabel.Text='≡ 대표필드 끌기';$GroupDragLabel.Foreground='White';$GroupDragLabel.FontSize=10;$GroupDragHandle.Child=$GroupDragLabel;[System.Windows.Controls.DockPanel]::SetDock($GroupDragHandle,[System.Windows.Controls.Dock]::Right);[void]$HeaderContent.Children.Add($GroupDragHandle);$GroupHeader=[System.Windows.Controls.CheckBox]::new();$GroupHeader.FontWeight='Bold';$GroupHeader.FontSize=13;$GroupHeader.Foreground=if($groupMovedCount){'#55447A'}else{'#262626'};$GroupHeader.IsThreeState=$true;$movedHeaderText=if($groupMovedCount){" · ✓ 구조 이동 $groupMovedCount개"}else{''};$GroupHeader.Content=("대표필드: {0} · 하위 항목 {1}개{2}" -f $groupTitle,$GroupRows.Count,$movedHeaderText);[void]$HeaderContent.Children.Add($GroupHeader);$HeaderBorder.Child=$HeaderContent;[void]$GroupPanel.Children.Add($HeaderBorder)
+            $HeaderRestBackground=if($groupMovedCount){'#F3F0F8'}else{'#F8F6FB'};$HeaderContext=[pscustomobject]@{row=$GroupRows[0];actions=$ReviewActions;guide=$Guide;rest_background=$HeaderRestBackground};$HeaderBorder=[System.Windows.Controls.Border]::new();$HeaderBorder.Background=$HeaderRestBackground;$HeaderBorder.BorderBrush='#DED8EA';$HeaderBorder.BorderThickness='0,0,0,1';$HeaderBorder.Padding='10,8';$HeaderBorder.AllowDrop=$true;$HeaderBorder.Tag=$HeaderContext;$HeaderBorder.ToolTip='하위필드를 놓으면 이 묶음으로 이동하고, 대표필드를 놓으면 그 안의 하위필드들이 이 묶음으로 이동합니다.';$HeaderContent=[System.Windows.Controls.DockPanel]::new();$GroupDragHandle=[System.Windows.Controls.Border]::new();$GroupDragHandle.Background=New-PurpleAccentBrush;$GroupDragHandle.CornerRadius=8;$GroupDragHandle.Padding='8,4';$GroupDragHandle.Margin='10,0,0,0';$GroupDragHandle.Cursor='Hand';$GroupDragLabel=[System.Windows.Controls.TextBlock]::new();$GroupDragLabel.Text='≡ 대표필드 끌기';$GroupDragLabel.Foreground='White';$GroupDragLabel.FontSize=10;$GroupDragHandle.Child=$GroupDragLabel;[System.Windows.Controls.DockPanel]::SetDock($GroupDragHandle,[System.Windows.Controls.Dock]::Right);[void]$HeaderContent.Children.Add($GroupDragHandle);$GroupHeader=[System.Windows.Controls.CheckBox]::new();$GroupHeader.FontWeight='Bold';$GroupHeader.FontSize=13;$GroupHeader.Foreground=if($groupMovedCount){'#55447A'}else{'#262626'};$GroupHeader.IsThreeState=$false;$movedHeaderText=if($groupMovedCount){" · ✓ 구조 이동 $groupMovedCount개"}else{''};$GroupHeader.Content=("대표필드: {0} · 하위 항목 {1}개{2}" -f $groupTitle,$GroupRows.Count,$movedHeaderText);[void]$HeaderContent.Children.Add($GroupHeader);$HeaderBorder.Child=$HeaderContent;[void]$GroupPanel.Children.Add($HeaderBorder)
+            # 제목뿐 아니라 값/체크박스 위의 드롭도 대표필드로 전달한다.
+            # 터널 이벤트로 내부 컨트롤보다 먼저 받아 중복 실행을 막는다.
+            $GroupCard.AllowDrop=$true
+            $GroupCard.Background=[System.Windows.Media.Brushes]::Transparent
+            $GroupCard.Tag=$HeaderContext
+            $HeaderContext | Add-Member -NotePropertyName drop_header -NotePropertyValue $HeaderBorder
+            $GroupCard.ToolTip='이 묶음 안에 놓으면 대표필드 아래로 이동합니다.'
+            $GroupCard.Add_PreviewDragOver({
+                $eventArgs=$_
+                try{
+                    $payload=[string]$eventArgs.Data.GetData([string])
+                    if($payload.StartsWith('govoffice-candidate:') -or $payload.StartsWith('govoffice-group:')){
+                        $this.Background='#ECF9F0'
+                        $eventArgs.Effects=[System.Windows.DragDropEffects]::Move
+                        $eventArgs.Handled=$true
+                    }
+                }catch{Write-GuiRuntimeError 'style review group drag over' $_}
+            }.GetNewClosure())
+            $GroupCard.Add_DragLeave({$this.Background=[System.Windows.Media.Brushes]::Transparent}.GetNewClosure())
+            $GroupCard.Add_PreviewDrop({
+                $eventArgs=$_
+                try{
+                    $payload=[string]$eventArgs.Data.GetData([string])
+                    if(-not ($payload.StartsWith('govoffice-candidate:') -or $payload.StartsWith('govoffice-group:'))){return}
+                    $header=$this.Tag.drop_header
+                    $this.Background=[System.Windows.Media.Brushes]::Transparent
+                    $context=$this.Tag
+                    if($payload.StartsWith('govoffice-candidate:')){
+                        $sourceId=$payload.Substring(20)
+                        & ($context.actions.MoveChild) $sourceId $context.row
+                    }else{
+                        $sourceGroup=$payload.Substring(16)
+                        & ($context.actions.MoveGroup) $sourceGroup $context.row
+                    }
+                    $header.Background=$this.Tag.rest_background
+                    $eventArgs.Handled=$true
+                }catch{
+                    Write-GuiRuntimeError 'style review group drop' $_
+                    $this.Tag.guide.Text="구조 이동 오류: $($_.Exception.Message)"
+                    $eventArgs.Handled=$true
+                }
+            }.GetNewClosure())
             & $AttachDragSource $GroupDragHandle "govoffice-group:$groupKey"
             $HeaderBorder.Add_DragEnter({$eventArgs=$_;try{if($eventArgs.Data.GetDataPresent([string])){$this.Background='#B7F0CA';$this.BorderBrush='#16803C';$this.BorderThickness=2;$eventArgs.Effects=[System.Windows.DragDropEffects]::Move;$eventArgs.Handled=$true}}catch{$failure=$_;Write-GuiRuntimeError 'style review representative drag enter' $failure;$eventArgs.Handled=$true}}.GetNewClosure());$HeaderBorder.Add_DragLeave({try{$this.Background=$this.Tag.rest_background;$this.BorderThickness=0}catch{Write-GuiRuntimeError 'style review representative drag leave' $_}}.GetNewClosure());$HeaderBorder.Add_Drop({$eventArgs=$_;try{$context=$this.Tag;$this.Background=$context.rest_background;$this.BorderThickness=0;$payload=[string]$eventArgs.Data.GetData([string]);if($payload.StartsWith('govoffice-candidate:')){$sourceId=$payload.Substring(20);& ($context.actions.MoveChild) $sourceId $context.row}elseif($payload.StartsWith('govoffice-group:')){$sourceGroup=$payload.Substring(16);& ($context.actions.MoveGroup) $sourceGroup $context.row};$eventArgs.Handled=$true}catch{$failure=$_;Write-GuiRuntimeError 'style review representative drop' $failure;$this.Tag.guide.Text="구조 이동 오류를 복구했습니다: $($failure.Exception.Message)";$eventArgs.Handled=$true}}.GetNewClosure())
             $ChildChecks=New-Object System.Collections.ArrayList;$GroupState=[pscustomobject]@{Parent=$GroupHeader;Children=$ChildChecks;Updating=$false};$GroupHeader.Tag=$GroupState
             foreach($row in $GroupRows){
                 $allSelected=$true;foreach($candidateId in @($row.ids)){if(-not [bool]$Selected[[string]$candidateId]){$allSelected=$false;break}}
-                $rowMoved=[bool]$row.moved;$RowRestBackground=if($rowMoved){'#ECF9F0'}else{'Transparent'};$RowContext=[pscustomobject]@{row=$row;actions=$ReviewActions;guide=$Guide;rest_background=$RowRestBackground};$RowContainer=[System.Windows.Controls.DockPanel]::new();$RowContainer.Margin='24,3,8,3';$RowContainer.Background=$RowRestBackground;$RowContainer.AllowDrop=$false;$RowContainer.Tag=$RowContext;$RowContainer.ToolTip='이 하위필드를 옮기려면 손잡이를 다른 대표필드 제목 위에 놓으세요.';$Check=[System.Windows.Controls.CheckBox]::new();$Check.Padding='7';$Check.FontSize=11;$Check.Tag=[pscustomobject]@{row=$row;group=$GroupState};$Check.IsChecked=$allSelected
+                $rowMoved=[bool]$row.moved;$RowRestBackground=if($rowMoved){'#ECF9F0'}else{'Transparent'};$RowContext=[pscustomobject]@{row=$row;actions=$ReviewActions;guide=$Guide;rest_background=$RowRestBackground};$RowContainer=[System.Windows.Controls.DockPanel]::new();$RowContainer.Margin='24,3,8,3';$RowContainer.Background=$RowRestBackground;$RowContainer.AllowDrop=$true;$RowContainer.Tag=$RowContext;$RowContainer.ToolTip='손잡이를 원하는 대표필드 묶음 안에 놓으세요.';$Check=[System.Windows.Controls.CheckBox]::new();$Check.Padding='7';$Check.FontSize=11;$Check.Tag=[pscustomobject]@{row=$row;group=$GroupState};$Check.IsChecked=$allSelected
                 $statusText=if([bool]$row.confirmed){'확정'}else{'미확정'};$styleText=if([bool]$row.style){' · 셀 서식 판별'}else{''};$childText=if([string]::IsNullOrWhiteSpace([string]$row.child)){'(대표필드 직접 값)'}else{[string]$row.child};$valueText=@($row.values)-join ' / ';$positionText=[string]$row.positions[0];$duplicateText=if($row.ids.Count -gt 1){" · 연결 위치 $($row.ids.Count)곳"}else{''}
                 $DragHandle=[System.Windows.Controls.Border]::new();$DragHandle.Background='White';$DragHandle.BorderBrush='#D9D2E5';$DragHandle.BorderThickness=1;$DragHandle.CornerRadius=8;$DragHandle.Padding='8,5';$DragHandle.Margin='10,0,0,0';$DragHandle.Cursor='Hand';$DragLabel=[System.Windows.Controls.TextBlock]::new();$DragLabel.Text='≡ 하위필드 옮기기';$DragLabel.Foreground='#55447A';$DragLabel.FontWeight='SemiBold';$DragHandle.Child=$DragLabel;[System.Windows.Controls.DockPanel]::SetDock($DragHandle,[System.Windows.Controls.Dock]::Right);[void]$RowContainer.Children.Add($DragHandle)
                 if($rowMoved){$MoveBadge=[System.Windows.Controls.Border]::new();$MoveBadge.Background='#2F855A';$MoveBadge.CornerRadius=10;$MoveBadge.Padding='8,3';$MoveBadge.Margin='8,2,0,2';$MoveBadge.VerticalAlignment='Top';$MoveBadgeText=[System.Windows.Controls.TextBlock]::new();$MoveBadgeText.Text='✓ 이동됨';$MoveBadgeText.Foreground='White';$MoveBadgeText.FontSize=10;$MoveBadgeText.FontWeight='Bold';$MoveBadge.Child=$MoveBadgeText;[System.Windows.Controls.DockPanel]::SetDock($MoveBadge,[System.Windows.Controls.Dock]::Right);[void]$RowContainer.Children.Add($MoveBadge)}
                 $moveLine='';if($rowMoved){$changedOrigins=@($row.original_fields|Where-Object{[string]$_ -ne [string]$row.full_field}|Sort-Object -Unique);$kindLabels=@($row.move_kinds|ForEach-Object{if($_ -eq 'child'){'하위필드 이동'}elseif($_ -eq 'representative'){'대표필드 구조 이동'}else{'구조 이동'}}|Sort-Object -Unique);$kindText=$kindLabels -join ', ';$moveLine=("✓ {0}: {1}  →  {2}`n" -f $kindText,($changedOrigins -join ', '),$row.full_field)}
                 $Text=[System.Windows.Controls.TextBlock]::new();$Text.TextWrapping='Wrap';$Text.Foreground=if($rowMoved){'#195C37'}else{'#222222'};$Text.Text=("{0}하위필드: {1}`n값: {2}`n{3}{4} · {5} · {6}{7}" -f $moveLine,$childText,$valueText,$positionText,$duplicateText,$statusText,$row.registration,$styleText);$Check.Content=$Text;$Check.Background='Transparent';[void]$RowContainer.Children.Add($Check);[void]$ChildChecks.Add($Check);[void]$Checks.Add($Check);[void]$GroupPanel.Children.Add($RowContainer)
                 & $AttachDragSource $DragHandle "govoffice-candidate:$([string]$row.ids[0])"
-                $Check.Add_Click({$state=$this.Tag.group;if([bool]$state.Updating){return};$checkedCount=0;foreach($child in @($state.Children)){if($child.IsChecked -eq $true){$checkedCount++}};$state.Updating=$true;if($checkedCount -eq 0){$state.Parent.IsChecked=$false}elseif($checkedCount -eq $state.Children.Count){$state.Parent.IsChecked=$true}else{$state.Parent.IsChecked=$null};$state.Updating=$false}.GetNewClosure())
+                $Check.Add_Click({$state=$this.Tag.group;if([bool]$state.Updating){return};$checkedCount=0;foreach($child in @($state.Children)){if($child.IsChecked -eq $true){$checkedCount++}};$state.Updating=$true;$state.Parent.IsChecked=($checkedCount -gt 0);$state.Updating=$false}.GetNewClosure())
             }
-            $initialChecked=0;foreach($child in @($ChildChecks)){if($child.IsChecked -eq $true){$initialChecked++}};if($initialChecked -eq 0){$GroupHeader.IsChecked=$false}elseif($initialChecked -eq $ChildChecks.Count){$GroupHeader.IsChecked=$true}else{$GroupHeader.IsChecked=$null}
+            $initialChecked=0;foreach($child in @($ChildChecks)){if($child.IsChecked -eq $true){$initialChecked++}};$GroupHeader.IsChecked=($initialChecked -gt 0)
             $GroupHeader.Add_Click({$state=$this.Tag;if([bool]$state.Updating){return};$state.Updating=$true;$target=($this.IsChecked -eq $true);foreach($child in @($state.Children)){$child.IsChecked=$target};$state.Updating=$false}.GetNewClosure());[void]$Panel.Children.Add($GroupCard)
         }
     }.GetNewClosure()
@@ -812,25 +941,45 @@ function Open-StyleCaptureReview($Analysis,$OwnerWindow=$Window) {
         & $ReviewActions.Rebuild;$Guide.Text=("구조 이동 완료: '{0}'을(를) '{1}' 아래로 옮겼습니다. 값과 다른 필드는 합치지 않았습니다." -f $SourceRow.full_field,$targetRepresentative)
     }.GetNewClosure()
     $ReviewActions.MoveGroup={param([string]$SourceGroup,[object]$TargetRow)
-        & $SyncChecks;$sourceRows=@($AllCandidates|Where-Object{[string]$_.group_key -eq $SourceGroup});if($sourceRows.Count -eq 0-or $null -eq $TargetRow){return};$sourceRepresentative=[string]$sourceRows[0].representative;$targetRepresentative=[string]$TargetRow.representative;if($SourceGroup -eq [string]$TargetRow.group_key){$Guide.Text='대표필드를 자기 자신 아래로 옮길 수 없습니다.';return};if($targetRepresentative -eq $sourceRepresentative-or $targetRepresentative.StartsWith("$sourceRepresentative > ",[System.StringComparison]::OrdinalIgnoreCase)){$Guide.Text='대표필드를 자기 하위 구조 안으로 옮길 수 없습니다.';return}
-        $sourceLeaf=@($sourceRepresentative -split '>')[-1].Trim();if([string]::IsNullOrWhiteSpace($sourceLeaf)){throw '이동할 대표필드 이름을 확인할 수 없습니다.'};$newRepresentative="$targetRepresentative > $sourceLeaf";$collision=@($AllCandidates|Where-Object{[string]$_.group_key -ne $SourceGroup -and [string]$_.representative -eq $newRepresentative}|Select-Object -First 1);if($collision.Count){$Guide.Text="'$newRepresentative' 구조가 이미 있습니다. 자동 병합하지 않았습니다.";return}
-        $newGroup="moved-group:$([string]$sourceRows[0].ids[0])";foreach($sourceRow in $sourceRows){$targetChild=[string]$sourceRow.child;$targetField=if([string]::IsNullOrWhiteSpace($targetChild)){$newRepresentative}else{"$newRepresentative > $targetChild"};foreach($candidateId in @($sourceRow.ids)){$existingKind=if($CandidateOverrides.ContainsKey([string]$candidateId)){[string]$CandidateOverrides[[string]$candidateId].kind}else{''};$moveKind=if($existingKind -eq 'child'){'child'}else{'representative'};$moveParent=if($moveKind -eq 'child'){$newRepresentative}else{$targetRepresentative};$CandidateOverrides[[string]$candidateId]=[pscustomobject]@{field=$targetField;group_key=$newGroup;child_key=[string]$sourceRow.child_key;representative=$newRepresentative;child=$targetChild;kind=$moveKind;target_parent=$moveParent}}}
-        & $ReviewActions.Rebuild;$Guide.Text=("구조 이동 완료: 대표필드 '{0}'을(를) '{1}'의 하위 구조로 옮겼습니다. 기존 하위필드와 값은 그대로 유지됩니다." -f $sourceRepresentative,$targetRepresentative)
+        & $SyncChecks
+        $sourceRows=@($AllCandidates|Where-Object{[string]$_.group_key -eq $SourceGroup})
+        if($sourceRows.Count -eq 0-or $null -eq $TargetRow){return}
+        $sourceRepresentative=[string]$sourceRows[0].representative
+        $targetRepresentative=[string]$TargetRow.representative;$targetGroup=[string]$TargetRow.group_key
+        if($SourceGroup -eq $targetGroup){$Guide.Text='이미 같은 대표필드 묶음입니다.';return}
+        if($targetRepresentative.StartsWith("$sourceRepresentative > ",[System.StringComparison]::OrdinalIgnoreCase)){$Guide.Text='대표필드를 자기 하위 구조 안으로 옮길 수 없습니다.';return}
+        # 전체를 먼저 검증한다. 충돌 시 일부 하위필드만 이동되는 일이 없어야 한다.
+        $pending=@{}
+        foreach($sourceRow in $sourceRows){
+            $targetChild=[string]$sourceRow.child
+            if([string]::IsNullOrWhiteSpace($targetChild)){$targetChild=@($sourceRepresentative -split '>')[-1].Trim()}
+            if([string]::IsNullOrWhiteSpace($targetChild)){throw '이동할 하위필드 이름을 확인할 수 없습니다.'}
+            $collision=@($AllCandidates|Where-Object{[string]$_.group_key -eq $targetGroup -and [string]$_.child -eq $targetChild}|Select-Object -First 1)
+            if($collision.Count){$Guide.Text="'$targetRepresentative' 아래에 '$targetChild' 필드가 이미 있습니다. 묶음 전체를 이동하지 않았습니다. 값은 자동 병합하지 않았습니다.";return}
+            $targetField="$targetRepresentative > $targetChild"
+            $targetChildKey=if([string]::IsNullOrWhiteSpace([string]$sourceRow.child_key)){"moved-child:$($targetChild.ToLowerInvariant())"}else{[string]$sourceRow.child_key}
+            foreach($candidateId in @($sourceRow.ids)){
+                $pending[[string]$candidateId]=[pscustomobject]@{field=$targetField;group_key=$targetGroup;child_key=$targetChildKey;representative=$targetRepresentative;child=$targetChild;kind='child';target_parent=$targetRepresentative}
+            }
+        }
+        foreach($candidateId in @($pending.Keys)){$CandidateOverrides[$candidateId]=$pending[$candidateId]}
+        & $ReviewActions.Rebuild
+        $Guide.Text=("이동 완료: '{0}'의 하위필드 {1}개를 '{2}' 묶음으로 옮겼습니다. 원래 묶음 이름은 경로에 넣지 않으며 필드명과 값은 유지됩니다." -f $sourceRepresentative,$sourceRows.Count,$targetRepresentative)
     }.GetNewClosure()
     if($LayoutPreview -and $env:GOVOFFICE_LAYOUT_PREVIEW_DRAG_SELFTEST -eq '1'){
         if($AllCandidates.Count -lt 3){throw '드래그 자체검증에 필요한 후보가 부족합니다.'};$firstRow=$AllCandidates[0];$secondRow=$AllCandidates[1];$firstId=[string]$firstRow.ids[0];$secondId=[string]$secondRow.ids[0];$eventContext=[pscustomobject]@{actions=$ReviewActions;row=$secondRow};& ($eventContext.actions.MoveChild) $firstId $eventContext.row;if($CandidateOverrides.Count -lt 1-or $CandidateOverrides.ContainsKey($secondId)-or $CandidateById[$firstId].group_key -ne $CandidateById[$secondId].group_key){throw '하위필드 구조 이동 자체검증에 실패했습니다.'};$visualTexts=New-Object System.Collections.ArrayList;$visualQueue=[System.Collections.Generic.Queue[System.Windows.DependencyObject]]::new();$visualQueue.Enqueue($Panel);while($visualQueue.Count){$visualNode=$visualQueue.Dequeue();if($visualNode -is [System.Windows.Controls.TextBlock]){[void]$visualTexts.Add([string]$visualNode.Text)};for($visualIndex=0;$visualIndex -lt [System.Windows.Media.VisualTreeHelper]::GetChildrenCount($visualNode);$visualIndex++){$visualQueue.Enqueue([System.Windows.Media.VisualTreeHelper]::GetChild($visualNode,$visualIndex))}};$visualText=$visualTexts -join "`n";if($visualText -notlike '*✓ 구조 이동 적용 중*'-or $visualText -notlike '*✓ 이동됨*'){throw '구조 이동 결과 시각 표시 자체검증에 실패했습니다.'};$CandidateOverrides.Clear();& $ReviewActions.Rebuild
-        $firstRow=$AllCandidates[0];$secondRow=$AllCandidates[1];$firstId=[string]$firstRow.ids[0];$sourceLeaf=@([string]$firstRow.representative -split '>')[-1].Trim();$targetRepresentative=[string]$secondRow.representative;& $ReviewActions.MoveGroup ([string]$firstRow.group_key) $secondRow;if($CandidateOverrides.Count -lt 1-or -not ([string]$CandidateOverrides[$firstId].field).StartsWith("$targetRepresentative > $sourceLeaf",[System.StringComparison]::OrdinalIgnoreCase)){throw '대표필드 하위 구조 이동 자체검증에 실패했습니다.'};$CandidateOverrides.Clear();& $ReviewActions.Rebuild
+        $firstRow=$AllCandidates[0];$secondRow=$AllCandidates[1];$firstId=[string]$firstRow.ids[0];$sourceChild=[string]$firstRow.child;if([string]::IsNullOrWhiteSpace($sourceChild)){$sourceChild=@([string]$firstRow.representative -split '>')[-1].Trim()};$targetRepresentative=[string]$secondRow.representative;& $ReviewActions.MoveGroup ([string]$firstRow.group_key) $secondRow;if($CandidateOverrides.Count -lt 1-or [string]$CandidateOverrides[$firstId].field -ne "$targetRepresentative > $sourceChild"-or $CandidateById[$firstId].group_key -ne $CandidateById[$secondId].group_key){throw '대표필드 하위필드 일괄 이동 자체검증에 실패했습니다.'};$CandidateOverrides.Clear();& $ReviewActions.Rebuild
         $firstId=[string]$AllCandidates[0].ids[0];$secondId=[string]$AllCandidates[1].ids[0];$thirdId=[string]$AllCandidates[2].ids[0];& $ReviewActions.MoveChild $firstId $CandidateById[$secondId];& $ReviewActions.MoveChild $firstId $CandidateById[$thirdId];if($CandidateOverrides.Count -ne 1-or $CandidateById[$firstId].group_key -ne $CandidateById[$thirdId].group_key-or $CandidateById[$firstId].key -eq $CandidateById[$thirdId].key){throw '하위필드 연속 구조 이동 자체검증에 실패했습니다.'};$script:PreviewReviewSelfTest='DRAG_REVIEW_SELFTEST_OK';return [pscustomobject]@{confirmed=$false}
     }
     & $RenderAll
     $Buttons=[System.Windows.Controls.StackPanel]::new();$Buttons.Orientation='Horizontal';$Buttons.HorizontalAlignment='Right';$Buttons.Margin='16,6,16,8';$Manual=[System.Windows.Controls.Button]::new();$Manual.Content='직접 항목 추가';$Manual.Width=110;$Manual.Margin='0,0,8,0';$ResetMove=[System.Windows.Controls.Button]::new();$ResetMove.Content='구조 이동 되돌리기';$ResetMove.Width=145;$ResetMove.Margin='0,0,8,0';$ResetMove.IsEnabled=$false;$ReviewActions.Reset=$ResetMove;$Confirm=[System.Windows.Controls.Button]::new();$Confirm.Content='이대로 저장';$Confirm.Width=175;$Confirm.Margin='0,0,8,0';$Confirm.Background='#66558F';$Confirm.Foreground='White';$ReviewActions.Confirm=$Confirm;$Cancel=[System.Windows.Controls.Button]::new();$Cancel.Content='취소';$Cancel.Width=75;[void]$Buttons.Children.Add($Manual);[void]$Buttons.Children.Add($ResetMove);[void]$Buttons.Children.Add($Confirm);[void]$Buttons.Children.Add($Cancel);[System.Windows.Controls.Grid]::SetRow($Buttons,3);[void]$Grid.Children.Add($Buttons)
     Set-OriginalFlatButton $Manual $false;Set-OriginalFlatButton $ResetMove $false;Set-OriginalFlatButton $Confirm $true;Set-OriginalFlatButton $Cancel $false
-    $Result=$null
+    $ReviewResult=[pscustomobject]@{Value=$null}
     $Manual.Add_Click({try{$manualResult=Open-ManualStyleCandidate $Analysis $Dialog;if($null -eq $manualResult){return};& $SyncChecks;foreach($id in @($manualResult.conflicting_candidate_ids)){$Selected[[string]$id]=$false};foreach($candidate in @($manualResult.candidates)){$candidateId=[string]$candidate.candidate_id;$found=-1;for($sourceIndex=0;$sourceIndex -lt $SourceCandidates.Count;$sourceIndex++){if([string]$SourceCandidates[$sourceIndex].candidate_id -eq $candidateId){$found=$sourceIndex;break}};if($found -ge 0){$SourceCandidates[$found]=$candidate}else{[void]$SourceCandidates.Add($candidate)};$Selected[$candidateId]=-not [bool]$manualResult.multiple_locations};& $ReviewActions.Rebuild}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
     $ResetMove.Add_Click({try{& $SyncChecks;$CandidateOverrides.Clear();& $ReviewActions.Rebuild;$this.IsEnabled=$false;$Guide.Text=$DefaultGuideText}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
-    $Confirm.Add_Click({& $SyncChecks;$selected=New-Object System.Collections.Generic.HashSet[string];foreach($id in @($Selected.Keys)){if([bool]$Selected[$id]){[void]$selected.Add([string]$id)}};$fieldOverrides=@{};foreach($id in @($CandidateOverrides.Keys)){$move=$CandidateOverrides[$id];$fieldOverrides[[string]$id]=@{field=[string]$move.field;kind=[string]$move.kind;target_parent=[string]$move.target_parent}};$script:StyleReviewResult=[pscustomobject]@{confirmed=$true;candidate_ids=@($selected);candidate_field_overrides=$fieldOverrides};$Dialog.Close()}.GetNewClosure())
+    $Confirm.Add_Click({& $SyncChecks;$selectedIds=New-Object System.Collections.Generic.HashSet[string];foreach($id in @($Selected.Keys)){if([bool]$Selected[$id]){[void]$selectedIds.Add([string]$id)}};$fieldOverrides=@{};foreach($id in @($CandidateOverrides.Keys)){$move=$CandidateOverrides[$id];$fieldOverrides[[string]$id]=@{field=[string]$move.field;kind=[string]$move.kind;target_parent=[string]$move.target_parent}};$ReviewResult.Value=[pscustomobject]@{confirmed=$true;candidate_ids=@($selectedIds);candidate_field_overrides=$fieldOverrides};$Dialog.Close()}.GetNewClosure())
     $Cancel.Add_Click({$Dialog.Close()})
-    $script:StyleReviewResult=$null;[void]$Dialog.ShowDialog();$Result=$script:StyleReviewResult;$script:StyleReviewResult=$null;return $Result
+    [void]$Dialog.ShowDialog();return $ReviewResult.Value
 }
 function Open-StyleOutputValues($Preset,$OwnerWindow=$Window) {
     if(@($Preset.fields).Count -eq 0){return @{}}
@@ -867,6 +1016,7 @@ function Open-StyleOutputValues($Preset,$OwnerWindow=$Window) {
     $Cancel.Add_Click({$Dialog.Close()});[void]$Dialog.ShowDialog();$result=$script:StyleOutputResult;$script:StyleOutputResult=$null;return $result
 }
 function Open-StylePresetManager($OwnerWindow=$Window) {
+    if(Test-WorkspaceWindow 'presets'){return}
     $Dialog = [System.Windows.Window]::new()
     $Dialog.Title = '서식 프리셋'
     $Dialog.Width = 430
@@ -956,7 +1106,7 @@ function Open-StylePresetManager($OwnerWindow=$Window) {
         }catch{Show-Error $_.Exception.Message}
     }.GetNewClosure())
 
-    function Refresh-StylePresetList {
+    $RefreshStylePresetList = {
         $response=Send-Backend @{action='style_preset_list'}
         if(-not $response.ok){throw $response.message}
         $List.Items.Clear()
@@ -968,7 +1118,7 @@ function Open-StylePresetManager($OwnerWindow=$Window) {
         }
         $EmptyPresetState.Visibility=if($List.Items.Count -eq 0){'Visible'}else{'Collapsed'}
         $LocalStatus.Text=$response.message
-    }
+    }.GetNewClosure()
     $Capture.Add_Click({
         try{
             $state=Send-Backend @{action='style_preset_selection_status';probe=$true}
@@ -989,12 +1139,12 @@ function Open-StylePresetManager($OwnerWindow=$Window) {
                 $response=Send-Backend @{action='style_preset_capture';name=$presetName;draft_id=$analysis.draft_id;selected_candidate_ids=@($review.candidate_ids);candidate_field_overrides=$review.candidate_field_overrides}
             }
             if(-not $response.ok){throw $response.message}
-            $Name.Clear(); Refresh-StylePresetList; $LocalStatus.Text=$response.message; $Status.Text=$response.message
+            $Name.Clear(); & $RefreshStylePresetList; $LocalStatus.Text=$response.message; $Status.Text=$response.message
         }catch{Show-Error $_.Exception.Message}
-    })
-    $AddRow.Add_Click({try{$response=Send-Backend @{action='table_edit';operation='insert_lower_row'};if(-not $response.ok){throw $response.message};$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}})
-    $AddLeftColumn.Add_Click({try{$response=Send-Backend @{action='table_edit';operation='insert_left_column'};if(-not $response.ok){throw $response.message};$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}})
-    $AddRightColumn.Add_Click({try{$response=Send-Backend @{action='table_edit';operation='insert_right_column'};if(-not $response.ok){throw $response.message};$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}})
+    }.GetNewClosure())
+    $AddRow.Add_Click({try{$response=Send-Backend @{action='table_edit';operation='insert_lower_row'};if(-not $response.ok){throw $response.message};$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
+    $AddLeftColumn.Add_Click({try{$response=Send-Backend @{action='table_edit';operation='insert_left_column'};if(-not $response.ok){throw $response.message};$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
+    $AddRightColumn.Add_Click({try{$response=Send-Backend @{action='table_edit';operation='insert_right_column'};if(-not $response.ok){throw $response.message};$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
     $Apply.Add_Click({
         if(-not $List.SelectedItem){$LocalStatus.Text='출력할 프리셋을 선택하세요.';return}
         try{
@@ -1004,23 +1154,23 @@ function Open-StylePresetManager($OwnerWindow=$Window) {
             if(-not $response.ok){throw $response.message}
             $LocalStatus.Text=$response.message; $Status.Text=$response.message
         }catch{Show-Error $_.Exception.Message}
-    })
-    $List.Add_MouseDoubleClick({if($List.SelectedItem){$Apply.RaiseEvent([System.Windows.RoutedEventArgs]::new([System.Windows.Controls.Button]::ClickEvent))}})
+    }.GetNewClosure())
+    $List.Add_MouseDoubleClick({if($List.SelectedItem){$Apply.RaiseEvent([System.Windows.RoutedEventArgs]::new([System.Windows.Controls.Button]::ClickEvent))}}.GetNewClosure())
     $Delete.Add_Click({
         if(-not $List.SelectedItem){$LocalStatus.Text='삭제할 프리셋을 선택하세요.';return}
         try{
             $response=Send-Backend @{action='style_preset_delete';preset_id=$List.SelectedItem.id}
             if(-not $response.ok){throw $response.message}
-            Refresh-StylePresetList; $LocalStatus.Text=$response.message
+            & $RefreshStylePresetList; $LocalStatus.Text=$response.message
         }catch{Show-Error $_.Exception.Message}
-    })
-    $Close.Add_Click({$Dialog.Close()})
+    }.GetNewClosure())
+    $Close.Add_Click({$Dialog.Close()}.GetNewClosure())
     # 마우스 후킹 결과만 기다리지 않고 한글 COM의 saveblock을 주기적으로 직접
     # 확인한다. 드래그가 끝난 뒤에는 별도 버튼 없이 선택 상태가 바로 갱신된다.
-    $SelectionStateTimer=[System.Windows.Threading.DispatcherTimer]::new();$SelectionStateTimer.Interval=[TimeSpan]::FromMilliseconds(700);$SelectionStateTimer.Add_Tick({try{if(-not [GovOfficeSelectionMouse]::LeftButtonDown()){& $RefreshSelectionState $true}}catch{}}.GetNewClosure());$SelectionStateTimer.Start()
+    $SelectionStateTimer=[System.Windows.Threading.DispatcherTimer]::new();$SelectionStateTimer.Interval=[TimeSpan]::FromMilliseconds(700);$SelectionStateTimer.Add_Tick([GovOfficePollGuard]::Wrap({try{if(-not [GovOfficeSelectionMouse]::LeftButtonDown()){& $RefreshSelectionState $true}}catch{}}.GetNewClosure()));$SelectionStateTimer.Start()
     $Dialog.Add_Closed({$SelectionStateTimer.Stop();if($script:SelectionReturnWindow -eq $Dialog){$script:SelectionReturnWindow=$null}}.GetNewClosure())
-    try{& $RefreshSelectionState $true;Refresh-StylePresetList}catch{Show-Error $_.Exception.Message}
-    [void]$Dialog.ShowDialog()
+    try{& $RefreshSelectionState $true;& $RefreshStylePresetList}catch{Show-Error $_.Exception.Message}
+    Show-WorkspaceWindow $Dialog 'presets'
 }
 function Get-GeometrySize($Geometry, [double]$DefaultWidth, [double]$DefaultHeight) {
     $Width=$DefaultWidth;$Height=$DefaultHeight
@@ -1035,6 +1185,7 @@ function Get-GeometrySize($Geometry, [double]$DefaultWidth, [double]$DefaultHeig
     return [pscustomobject]@{Width=$Width;Height=$Height}
 }
 function Open-Institution([string]$InstitutionId) {
+    if(Test-WorkspaceWindow "institution:$InstitutionId"){return}
     $Property=$Layout.institutions.PSObject.Properties[$InstitutionId]
     if($null -eq $Property){Show-Error "기관 정보를 찾을 수 없습니다: $InstitutionId";return}
     $Institution=$Property.Value
@@ -1054,7 +1205,7 @@ function Open-Institution([string]$InstitutionId) {
         }
         $BaseWidth=[math]::Max($FixedWidth,[double]$BaseGeometry.Width);$BaseHeight=[math]::Max($FixedHeight,[double]$BaseGeometry.Height)
 
-        $Dialog=[System.Windows.Window]::new();$Dialog.Title="범정부오피스 · $($Institution.name)";$Dialog.Topmost=$true;$Dialog.Owner=$Window;$Dialog.WindowStyle='None';$Dialog.ResizeMode='NoResize';$Dialog.Background=[System.Windows.Media.Brushes]::White;$Dialog.UseLayoutRounding=$true;$Dialog.SnapsToDevicePixels=$true
+        $Dialog=[System.Windows.Window]::new();$Dialog.Title="범정부오피스 · $($Institution.name)";$Dialog.Topmost=$false;$Dialog.Owner=$Window;$Dialog.WindowStyle='None';$Dialog.ResizeMode='NoResize';$Dialog.Background=[System.Windows.Media.Brushes]::White;$Dialog.UseLayoutRounding=$true;$Dialog.SnapsToDevicePixels=$true
         $Canvas=[System.Windows.Controls.Canvas]::new();$Canvas.Background=[System.Windows.Media.Brushes]::White;$Canvas.ClipToBounds=$true
         $Viewbox=[System.Windows.Controls.Viewbox]::new();$Viewbox.Stretch='Uniform';$Viewbox.StretchDirection='DownOnly';$Viewbox.Child=$Canvas;$Dialog.Content=$Viewbox
         $Close=New-ImageButton $Canvas ($BaseWidth-50) 0 50 50 '상단바\닫기.PNG' {$Dialog.Close()}.GetNewClosure() '닫기' $true
@@ -1147,7 +1298,7 @@ function Open-Institution([string]$InstitutionId) {
         }
         [System.Windows.Controls.Panel]::SetZIndex($Close,100000)
         $Status.Text="$($Institution.name) · 기본 버튼 $($BaseButtons.Count)개 · 페이지 $($Pages.Count)개"
-        [void]$Dialog.ShowDialog();return
+        Add-InstitutionFavorites $Dialog $InstitutionId;Show-WorkspaceWindow $Dialog "institution:$InstitutionId";return
     }
 
     $LayoutButtons=@($Institution.layout_buttons|Where-Object enabled)
@@ -1155,7 +1306,7 @@ function Open-Institution([string]$InstitutionId) {
         $NominalWidth=[double]$Institution.window.width;$NominalHeight=[double]$Institution.window.height
         foreach($ButtonItem in $LayoutButtons){$NominalWidth=[math]::Max($NominalWidth,[double]$ButtonItem.x+[double]$ButtonItem.width);$NominalHeight=[math]::Max($NominalHeight,[double]$ButtonItem.y+[double]$ButtonItem.height)}
         $DialogScale=Get-FitScale $NominalWidth $NominalHeight 12
-        $Dialog=[System.Windows.Window]::new();$Dialog.Title="범정부오피스 · $($Institution.name)";$Dialog.Width=$NominalWidth*$DialogScale;$Dialog.Height=$NominalHeight*$DialogScale;$Dialog.Topmost=$true;$Dialog.Owner=$Window;$Dialog.WindowStyle='None';$Dialog.ResizeMode='NoResize';$Dialog.Background=[System.Windows.Media.Brushes]::White;$Dialog.UseLayoutRounding=$true;$Dialog.SnapsToDevicePixels=$true
+        $Dialog=[System.Windows.Window]::new();$Dialog.Title="범정부오피스 · $($Institution.name)";$Dialog.Width=$NominalWidth*$DialogScale;$Dialog.Height=$NominalHeight*$DialogScale;$Dialog.Topmost=$false;$Dialog.Owner=$Window;$Dialog.WindowStyle='None';$Dialog.ResizeMode='NoResize';$Dialog.Background=[System.Windows.Media.Brushes]::White;$Dialog.UseLayoutRounding=$true;$Dialog.SnapsToDevicePixels=$true
         $Area=[System.Windows.SystemParameters]::WorkArea;$Dialog.Left=[math]::Max($Area.Left,$Area.Right-$Dialog.Width-12);$Dialog.Top=[math]::Max($Area.Top,[math]::Min($Area.Top+100,$Area.Bottom-$Dialog.Height))
         $Canvas=[System.Windows.Controls.Canvas]::new();$Canvas.Width=$NominalWidth;$Canvas.Height=$NominalHeight;$Canvas.Background=[System.Windows.Media.Brushes]::White;$Canvas.ClipToBounds=$true
         $Viewbox=[System.Windows.Controls.Viewbox]::new();$Viewbox.Stretch='Uniform';$Viewbox.StretchDirection='DownOnly';$Viewbox.Child=$Canvas;$Dialog.Content=$Viewbox
@@ -1165,13 +1316,13 @@ function Open-Institution([string]$InstitutionId) {
         [System.Windows.Controls.Panel]::SetZIndex($Drag,-100)
         foreach($ButtonItem in $LayoutButtons){$Captured=$ButtonItem;[void](New-ImageButton $Canvas $ButtonItem.x $ButtonItem.y $ButtonItem.width $ButtonItem.height $ButtonItem.icon {Invoke-LayoutButton $Captured}.GetNewClosure() $ButtonItem.name $true)}
         $Status.Text="$($Institution.name) · 원본 기관 버튼 $($LayoutButtons.Count)개"
-        [void]$Dialog.ShowDialog();return
+        Add-InstitutionFavorites $Dialog $InstitutionId;Show-WorkspaceWindow $Dialog "institution:$InstitutionId";return
     }
     if(@($Institution.functions).Count -eq 0){
         $CustomFeatures=@($Institution.custom_features)
         $NominalHeight=if($CustomFeatures.Count){220+($CustomFeatures.Count*58)}else{220}
         $DialogScale=Get-FitScale 300 $NominalHeight 12
-        $Dialog=[System.Windows.Window]::new();$Dialog.Title="범정부오피스 · $($Institution.name)";$Dialog.Width=300*$DialogScale;$Dialog.Height=$NominalHeight*$DialogScale;$Dialog.Topmost=$true;$Dialog.Owner=$Window;$Dialog.WindowStyle='None';$Dialog.ResizeMode='NoResize';$Dialog.Background=[System.Windows.Media.Brushes]::White;$Dialog.UseLayoutRounding=$true;$Dialog.SnapsToDevicePixels=$true
+        $Dialog=[System.Windows.Window]::new();$Dialog.Title="범정부오피스 · $($Institution.name)";$Dialog.Width=300*$DialogScale;$Dialog.Height=$NominalHeight*$DialogScale;$Dialog.Topmost=$false;$Dialog.Owner=$Window;$Dialog.WindowStyle='None';$Dialog.ResizeMode='NoResize';$Dialog.Background=[System.Windows.Media.Brushes]::White;$Dialog.UseLayoutRounding=$true;$Dialog.SnapsToDevicePixels=$true
         $Area=[System.Windows.SystemParameters]::WorkArea;$Dialog.Left=[math]::Max($Area.Left,$Area.Right-$Dialog.Width-12);$Dialog.Top=[math]::Max($Area.Top,[math]::Min($Area.Top+100,$Area.Bottom-$Dialog.Height))
         $Canvas=[System.Windows.Controls.Canvas]::new();$Canvas.Width=300;$Canvas.Height=$NominalHeight;$Canvas.Background=[System.Windows.Media.Brushes]::White;$Viewbox=[System.Windows.Controls.Viewbox]::new();$Viewbox.Stretch='Uniform';$Viewbox.StretchDirection='DownOnly';$Viewbox.Child=$Canvas;$Dialog.Content=$Viewbox
         $CloseButton=New-ImageButton $Canvas 250 0 50 50 '상단바\닫기.PNG' {$Dialog.Close()}.GetNewClosure() '닫기' $true
@@ -1186,16 +1337,30 @@ function Open-Institution([string]$InstitutionId) {
             $CapturedFeature=$Feature
             $FeatureButton=New-ImageButton $Canvas 10 $FeatureY 280 48 '' {
                 if($CapturedFeature.action -eq 'style_preset_manager'){Open-StylePresetManager $Dialog;return}
+                if($CapturedFeature.action -eq 'document_authoring'){Open-DocumentAuthoring $Dialog;return}
+                if($CapturedFeature.action -eq 'climate_plan_generate'){
+                    try {
+                        $Status.Text='기후부 연구계획서 예시 생성 중… 원본은 변경하지 않습니다.'
+                        $Dialog.IsEnabled=$false
+                        $Reply=Send-Backend @{action='climate_plan_generate'}
+                        if(-not $Reply.ok){throw $Reply.message}
+                        $Status.Text="예시 생성 완료 · $($Reply.result.pages)쪽 · 실제 제출 전 검토 필요"
+                        Start-Process -FilePath $Reply.result.hwp_path | Out-Null
+                        Start-Process -FilePath 'explorer.exe' -ArgumentList ('"'+$Reply.result.output_dir+'"') | Out-Null
+                    } catch {Show-Error $_.Exception.Message}
+                    finally {$Dialog.IsEnabled=$true}
+                    return
+                }
                 Show-Error "지원하지 않는 기관 기능입니다: $($CapturedFeature.action)"
             }.GetNewClosure() $Feature.name $true
             $FeatureButton.FontSize=12;$FeatureButton.Height=48;$FeatureY+=58
         }
         $Footer=[System.Windows.Controls.TextBlock]::new();$Footer.Text='범정부오피스';$Footer.Width=276;$Footer.HorizontalAlignment='Center';$Footer.TextAlignment='Center';$Footer.FontFamily='맑은 고딕';$Footer.FontSize=9;$Footer.Foreground='#8A8A8A';[System.Windows.Controls.Canvas]::SetLeft($Footer,12);[System.Windows.Controls.Canvas]::SetTop($Footer,$NominalHeight-30);[void]$Canvas.Children.Add($Footer)
         $Status.Text="$($Institution.name) · 기관 기능 $($CustomFeatures.Count)개"
-        [void]$Dialog.ShowDialog();return
+        Add-InstitutionFavorites $Dialog $InstitutionId;Show-WorkspaceWindow $Dialog "institution:$InstitutionId";return
     }
     $GenericArea=[System.Windows.SystemParameters]::WorkArea
-    $Dialog=[System.Windows.Window]::new();$Dialog.Title="범정부오피스 · $($Institution.name)";$Dialog.Width=[math]::Min(460,[math]::Max(1,$GenericArea.Width-24));$Dialog.Height=[math]::Min(620,[math]::Max(1,$GenericArea.Height-24));$Dialog.Topmost=$true;$Dialog.Owner=$Window;$Dialog.WindowStartupLocation='CenterOwner';$Dialog.Background=[System.Windows.Media.Brushes]::White
+    $Dialog=[System.Windows.Window]::new();$Dialog.Title="범정부오피스 · $($Institution.name)";$Dialog.Width=[math]::Min(460,[math]::Max(1,$GenericArea.Width-24));$Dialog.Height=[math]::Min(620,[math]::Max(1,$GenericArea.Height-24));$Dialog.Topmost=$false;$Dialog.Owner=$Window;$Dialog.WindowStartupLocation='CenterOwner';$Dialog.Background=[System.Windows.Media.Brushes]::White
     $Grid=[System.Windows.Controls.Grid]::new();$Dialog.Content=$Grid
     foreach($height in @(42,34,'*',34,38,26)){ $row=[System.Windows.Controls.RowDefinition]::new(); if($height -eq '*'){$row.Height=[System.Windows.GridLength]::new(1,[System.Windows.GridUnitType]::Star)}else{$row.Height=[System.Windows.GridLength]::new([double]$height)};[void]$Grid.RowDefinitions.Add($row)}
     $Title=[System.Windows.Controls.TextBlock]::new();$Title.Text="$($Institution.name) 기능";$Title.FontFamily='맑은 고딕';$Title.FontSize=18;$Title.FontWeight='Bold';$Title.Margin=10;$Grid.Children.Add($Title)|Out-Null
@@ -1206,16 +1371,16 @@ function Open-Institution([string]$InstitutionId) {
     $Args=[System.Windows.Controls.TextBox]::new();$Args.Text='[]';$Args.VerticalContentAlignment='Center';$ArgumentGrid.Children.Add($Args)|Out-Null
     $Run=[System.Windows.Controls.Button]::new();$Run.Content='실행';$Run.Margin='5,0,0,0';[System.Windows.Controls.Grid]::SetColumn($Run,1);$ArgumentGrid.Children.Add($Run)|Out-Null
     $LocalStatus=[System.Windows.Controls.TextBlock]::new();$LocalStatus.Margin='8,4';$LocalStatus.Text="정상 연결 기능 $($Institution.functions.Count)개";[System.Windows.Controls.Grid]::SetRow($LocalStatus,5);$Grid.Children.Add($LocalStatus)|Out-Null
-    function Refresh-InstitutionList { $List.Items.Clear();foreach($Function in $Institution.functions){if(-not $Search.Text -or $Function.name -like "*$($Search.Text)*"){$List.Items.Add($Function)|Out-Null}} }
-    $Search.Add_TextChanged({Refresh-InstitutionList})
-    $List.Add_SelectionChanged({if($List.SelectedItem){$parameters=@($List.SelectedItem.parameters);$ParameterLabel.Text=if($parameters.Count){'매개변수: '+($parameters -join ', ')}else{'매개변수 없음'};$Args.Text='[]'}})
+    $RefreshInstitutionList = { $List.Items.Clear();foreach($Function in $Institution.functions){if(-not $Search.Text -or $Function.name -like "*$($Search.Text)*"){$List.Items.Add($Function)|Out-Null}} }.GetNewClosure()
+    $Search.Add_TextChanged({& $RefreshInstitutionList}.GetNewClosure())
+    $List.Add_SelectionChanged({if($List.SelectedItem){$parameters=@($List.SelectedItem.parameters);$ParameterLabel.Text=if($parameters.Count){'매개변수: '+($parameters -join ', ')}else{'매개변수 없음'};$Args.Text='[]'}}.GetNewClosure())
     $Run.Add_Click({
         if(-not $List.SelectedItem){return}
         try{$values=@(ConvertFrom-Json -InputObject $Args.Text);$function=$List.SelectedItem;if($values.Count -lt @($function.parameters).Count){throw '필수 매개변수 값을 JSON 배열로 입력하세요.'};$operation=[pscustomobject]@{type='method';method=$function.method;args=$values};$response=Send-Backend @{action='run_sequence';operations=@($operation)};$LocalStatus.Text=$response.message;$Status.Text="$($Institution.name) · $($response.message)";if(-not $response.ok){Show-Error $response.message}}catch{Show-Error $_.Exception.Message}
-    })
-    $List.Add_MouseDoubleClick({if($List.SelectedItem -and @($List.SelectedItem.parameters).Count -eq 0){$Run.RaiseEvent([System.Windows.RoutedEventArgs]::new([System.Windows.Controls.Button]::ClickEvent))}})
-    Refresh-InstitutionList
-    [void]$Dialog.ShowDialog()
+    }.GetNewClosure())
+    $List.Add_MouseDoubleClick({if($List.SelectedItem -and @($List.SelectedItem.parameters).Count -eq 0){$Run.RaiseEvent([System.Windows.RoutedEventArgs]::new([System.Windows.Controls.Button]::ClickEvent))}}.GetNewClosure())
+    & $RefreshInstitutionList
+    Add-InstitutionFavorites $Dialog $InstitutionId;Show-WorkspaceWindow $Dialog "institution:$InstitutionId"
 }
 function Open-BasicProfileEditor($OwnerWindow=$Window) {
     $Profile=Send-Backend @{action='user_profile_get'};if(-not $Profile.ok){throw $Profile.message}
@@ -1237,7 +1402,11 @@ function Open-BasicProfileEditor($OwnerWindow=$Window) {
     $Cancel.Add_Click({$Dialog.Close()});return $Dialog.ShowDialog()
 }
 function Open-DocumentFieldManager($OwnerWindow=$Window) {
-    $Dialog=[System.Windows.Window]::new();$Dialog.Title='대표필드 · 입력값 · 별칭 관리';$Dialog.Width=850;$Dialog.Height=610;$Dialog.Owner=$OwnerWindow;$Dialog.WindowStartupLocation='CenterOwner';$Dialog.ResizeMode='NoResize';$Dialog.Background='White';$Dialog.FontFamily='맑은 고딕'
+    if(Test-WorkspaceWindow 'profile-manager'){return}
+    Invoke-ProfileReviewSession $OwnerWindow {param($owner) Show-DocumentFieldManager $owner}
+}
+function Show-DocumentFieldManager($OwnerWindow) {
+    $Dialog=[System.Windows.Window]::new();$Dialog.Title='대표필드 · 입력값 · 별칭 관리';$Dialog.Width=1020;$Dialog.Height=740;$Dialog.MinWidth=850;$Dialog.MinHeight=610;$Dialog.Owner=$OwnerWindow;$Dialog.WindowStartupLocation='CenterOwner';$Dialog.ResizeMode='CanResize';$Dialog.Background='White';$Dialog.FontFamily='맑은 고딕'
     $Grid=[System.Windows.Controls.Grid]::new();$Dialog.Content=$Grid
     foreach($height in @(58,170,42,'*',36,42)){$row=[System.Windows.Controls.RowDefinition]::new();if($height -eq '*'){$row.Height=[System.Windows.GridLength]::new(1,[System.Windows.GridUnitType]::Star)}else{$row.Height=[System.Windows.GridLength]::new([double]$height)};[void]$Grid.RowDefinitions.Add($row)}
     $Header=[System.Windows.Controls.Border]::new();$Header.Background='#66558F';[System.Windows.Controls.Grid]::SetRow($Header,0);[void]$Grid.Children.Add($Header)
@@ -1264,67 +1433,74 @@ function Open-DocumentFieldManager($OwnerWindow=$Window) {
     $DeleteField=[System.Windows.Controls.Button]::new();$DeleteField.Content='필드 삭제';$DeleteField.Width=88
     [void]$CommandPanel.Children.Add($Add);[void]$CommandPanel.Children.Add($SetParent);[void]$CommandPanel.Children.Add($SaveAliases);[void]$CommandPanel.Children.Add($SetDefault);[void]$CommandPanel.Children.Add($Delete);[void]$CommandPanel.Children.Add($DeleteField);[System.Windows.Controls.Grid]::SetRow($CommandPanel,2);[void]$Grid.Children.Add($CommandPanel)
 
-    $Table=[System.Windows.Controls.DataGrid]::new();$Table.Margin='16,4,16,6';$Table.AutoGenerateColumns=$false;$Table.CanUserAddRows=$false;$Table.IsReadOnly=$true;$Table.SelectionMode='Single';$Table.HeadersVisibility='Column';$Table.GridLinesVisibility='Horizontal';$Table.RowBackground='White';$Table.AlternatingRowBackground='#F4F7FA'
-    $FieldColumn=[System.Windows.Controls.DataGridTextColumn]::new();$FieldColumn.Header='필드 경로';$FieldColumn.Width=155;$FieldColumn.Binding=[System.Windows.Data.Binding]::new('field_name');[void]$Table.Columns.Add($FieldColumn)
-    $AliasColumn=[System.Windows.Controls.DataGridTextColumn]::new();$AliasColumn.Header='별칭';$AliasColumn.Width=190;$AliasColumn.Binding=[System.Windows.Data.Binding]::new('aliases');[void]$Table.Columns.Add($AliasColumn)
-    $ValueColumn=[System.Windows.Controls.DataGridTextColumn]::new();$ValueColumn.Header='저장된 입력값';$ValueColumn.Width=[System.Windows.Controls.DataGridLength]::new(1,[System.Windows.Controls.DataGridLengthUnitType]::Star);$ValueColumn.Binding=[System.Windows.Data.Binding]::new('value');[void]$Table.Columns.Add($ValueColumn)
-    $DefaultColumn=[System.Windows.Controls.DataGridTextColumn]::new();$DefaultColumn.Header='기본';$DefaultColumn.Width=55;$DefaultColumn.Binding=[System.Windows.Data.Binding]::new('default_mark');[void]$Table.Columns.Add($DefaultColumn)
-    $RelationColumn=[System.Windows.Controls.DataGridTextColumn]::new();$RelationColumn.Header='같은 값의 다른 필드';$RelationColumn.Width=165;$RelationColumn.Binding=[System.Windows.Data.Binding]::new('related_fields');[void]$Table.Columns.Add($RelationColumn)
-    [System.Windows.Controls.Grid]::SetRow($Table,3);[void]$Grid.Children.Add($Table)
+    $TableScroll=[System.Windows.Controls.ScrollViewer]::new();$TableScroll.Margin='16,4,16,6';$TableScroll.HorizontalScrollBarVisibility='Auto';$TableScroll.VerticalScrollBarVisibility='Auto'
+    $TableGrid=[System.Windows.Controls.Grid]::new();$TableGrid.Name='DocumentFieldTreeTable';$TableGrid.Background='White';$TableGrid.VerticalAlignment='Top';$TableScroll.Content=$TableGrid
+    [System.Windows.Controls.Grid]::SetRow($TableScroll,3);[void]$Grid.Children.Add($TableScroll)
     $LocalStatus=[System.Windows.Controls.TextBlock]::new();$LocalStatus.Margin='16,8';$LocalStatus.Foreground='#555555';$LocalStatus.TextTrimming='CharacterEllipsis';[System.Windows.Controls.Grid]::SetRow($LocalStatus,4);[void]$Grid.Children.Add($LocalStatus)
     $Bottom=[System.Windows.Controls.StackPanel]::new();$Bottom.Orientation='Horizontal';$Bottom.HorizontalAlignment='Right';$Bottom.Margin='16,4,16,8';$Close=[System.Windows.Controls.Button]::new();$Close.Content='닫기';$Close.Width=80;$Close.Height=28;[void]$Bottom.Children.Add($Close);[System.Windows.Controls.Grid]::SetRow($Bottom,5);[void]$Grid.Children.Add($Bottom)
     foreach($OriginalButton in @($Add,$SetParent,$SaveAliases,$SetDefault,$Delete,$DeleteField,$Close)){Set-OriginalFlatButton $OriginalButton ($OriginalButton -eq $Add)}
 
-    function Refresh-DocumentFieldRows {
-        $response=Send-Backend @{action='user_profile_get'};if(-not $response.ok){throw $response.message}
-        $Table.Items.Clear()
-        $selectedParentId=if($Parent.SelectedItem){[string]$Parent.SelectedItem.id}else{''};$Parent.Items.Clear();[void]$Parent.Items.Add([pscustomobject]@{id='';path='(상위 없음 — 대표필드로 저장)'});foreach($parentGroup in @($response.field_groups)){if($parentGroup.name -notin @('이름','전화번호','이메일')){[void]$Parent.Items.Add($parentGroup)}};$Parent.SelectedIndex=0;for($parentIndex=0;$parentIndex -lt $Parent.Items.Count;$parentIndex++){if([string]$Parent.Items[$parentIndex].id -eq $selectedParentId){$Parent.SelectedIndex=$parentIndex;break}}
-        $Links=@{};foreach($link in @($response.value_links)){$Links[[string]$link.value]=@($link.fields) -join ', '}
-        foreach($group in @($response.field_groups)){
-            if($group.name -in @('이름','전화번호','이메일')){continue}
-            $aliasText=@($group.aliases) -join ', '
-            $storedValues=@($group.values);if($storedValues.Count -eq 0){$storedValues=@('')}
-            foreach($storedValue in $storedValues){
-                $otherFields=@($Links[[string]$storedValue]|ForEach-Object{$_})
-                [void]$Table.Items.Add([pscustomobject]@{profile_field_id=[string]$group.id;parent_field_id=[string]$group.parent_id;field_name=if($group.path){[string]$group.path}else{[string]$group.name};leaf_name=[string]$group.name;aliases=$aliasText;value=[string]$storedValue;default_mark=if([string]$storedValue -eq [string]$group.default){'●'}else{''};related_fields=[string]$Links[[string]$storedValue]})
-            }
+    $Table=@{Dialog=$Dialog;Grid=$TableGrid;Profile=$null;Note=$LocalStatus;Row=1;Depth=1;DragStart=$null;DragSource=$null;PageId=[Guid]::NewGuid().ToString();SelectedItem=$null;DocumentFieldsOnly=$true}
+    $Table.Select={param($field,$storedValue,$kind)
+        if($kind -eq 'field'){$storedValue=[string]$field.default}
+        $Table.SelectedItem=[pscustomobject]@{profile_field_id=[string]$field.id;parent_field_id=[string]$field.parent_id;field_name=[string]$field.path;leaf_name=[string]$field.name;aliases=(@($field.aliases)-join ', ');value=[string]$storedValue}
+        $FieldName.Text=[string]$field.name;$Value.Text=[string]$storedValue;$Aliases.Text=(@($field.aliases)-join ', ')
+        $Parent.SelectedIndex=0
+        for($i=0;$i -lt $Parent.Items.Count;$i++){if([string]$Parent.Items[$i].id -eq [string]$field.parent_id){$Parent.SelectedIndex=$i;break}}
+        $related=@($Table.Profile.field_groups|Where-Object{$_.id -ne $field.id -and $storedValue -and $_.values -ccontains $storedValue}|ForEach-Object{$_.path})
+        $LocalStatus.Text='선택: '+$field.path+$(if($related.Count){' · 같은 값이 있는 필드: '+($related -join ', ')}else{' · 더블클릭으로 이름·값 수정 / 우클릭으로 관리'})
+    }.GetNewClosure()
+    $Table.OnRefreshed={
+        $response=$Table.Profile;$previous=$Table.SelectedItem
+        $selectedParentId=if($Parent.SelectedItem){[string]$Parent.SelectedItem.id}else{''}
+        $Parent.Items.Clear();[void]$Parent.Items.Add([pscustomobject]@{id='';path='(상위 없음 — 대표필드로 저장)'})
+        foreach($group in @($response.field_groups)){if($group.name -notin @('이름','전화번호','이메일')){[void]$Parent.Items.Add($group)}}
+        $Parent.SelectedIndex=0
+        for($i=0;$i -lt $Parent.Items.Count;$i++){if([string]$Parent.Items[$i].id -eq $selectedParentId){$Parent.SelectedIndex=$i;break}}
+        $LocalStatus.Text='대표 필드 → 하위 필드 → 저장값 · 상단 열 경계 끌기: 너비 조절 · 더블클릭: 수정'
+        $Table.SelectedItem=$null
+        if($previous){
+            $field=@($response.field_groups|Where-Object{$_.id -eq $previous.profile_field_id})|Select-Object -First 1
+            if($field){$selectedValue=if($field.values -ccontains $previous.value){$previous.value}else{$field.default};& $Table.Select $field $selectedValue 'value'}
+            else{$FieldName.Clear();$Value.Clear();$Aliases.Clear()}
         }
-        $LocalStatus.Text="저장된 값 $($Table.Items.Count)개 · 별칭은 문서에서 같은 대표필드로 자동 연결됩니다."
-    }
+    }.GetNewClosure()
+    $RefreshDocumentFieldRows = {Update-ProfileTable $Table}.GetNewClosure()
     $Add.Add_Click({
         try{
             $aliasValues=@($Aliases.Text -split '[,;，；]'|ForEach-Object{$_.Trim()}|Where-Object{$_})
-            $parentId=if($Parent.SelectedItem){[string]$Parent.SelectedItem.id}else{''};$response=Send-Backend @{action='user_profile_entry_add';parent_field_id=$parentId;field_name=$FieldName.Text;value=$Value.Text;aliases=$aliasValues};if(-not $response.ok){throw $response.message}
-            $LocalStatus.Text=$response.message;$Value.Clear();Refresh-DocumentFieldRows;$Status.Text=$response.message
+            $parentId=if($Parent.SelectedItem){[string]$Parent.SelectedItem.id}else{''};$response=Send-Backend @{snapshot=$Table.Profile.values;action='user_profile_entry_add';parent_field_id=$parentId;field_name=$FieldName.Text;value=$Value.Text;aliases=$aliasValues};if(-not $response.ok){throw $response.message}
+            $LocalStatus.Text=$response.message;$Table.SelectedItem=$null;$Value.Clear();& $RefreshDocumentFieldRows;$Status.Text=$response.message
         }catch{Show-Error $_.Exception.Message}
-    })
+    }.GetNewClosure())
     $SetParent.Add_Click({
         if(-not $Table.SelectedItem){$LocalStatus.Text='상위를 변경할 필드를 먼저 선택하세요.';return}
-        try{$parentId=if($Parent.SelectedItem){[string]$Parent.SelectedItem.id}else{''};$response=Send-Backend @{action='user_profile_field_parent_set';field_id=$Table.SelectedItem.profile_field_id;parent_field_id=$parentId};if(-not $response.ok){throw $response.message};Refresh-DocumentFieldRows;$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}
-    })
+        try{$parentId=if($Parent.SelectedItem){[string]$Parent.SelectedItem.id}else{''};$response=Send-Backend @{snapshot=$Table.Profile.values;action='user_profile_field_parent_set';field_id=$Table.SelectedItem.profile_field_id;parent_field_id=$parentId};if(-not $response.ok){throw $response.message};& $RefreshDocumentFieldRows;$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}
+    }.GetNewClosure())
     $SaveAliases.Add_Click({
         if(-not $Table.SelectedItem){$LocalStatus.Text='별칭을 수정할 대표필드의 값을 하나 선택하세요.';return}
-        try{$aliasValues=@($Aliases.Text -split '[,;，；]'|ForEach-Object{$_.Trim()}|Where-Object{$_});$response=Send-Backend @{action='user_profile_aliases_set';field_id=$Table.SelectedItem.profile_field_id;aliases=$aliasValues};if(-not $response.ok){throw $response.message};Refresh-DocumentFieldRows;$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}
-    })
+        try{$aliasValues=@($Aliases.Text -split '[,;，；]'|ForEach-Object{$_.Trim()}|Where-Object{$_});$response=Send-Backend @{snapshot=$Table.Profile.values;action='user_profile_aliases_set';field_id=$Table.SelectedItem.profile_field_id;aliases=$aliasValues};if(-not $response.ok){throw $response.message};& $RefreshDocumentFieldRows;$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}
+    }.GetNewClosure())
     $SetDefault.Add_Click({
         if(-not $Table.SelectedItem){$LocalStatus.Text='기본으로 사용할 입력값을 선택하세요.';return}
-        try{$response=Send-Backend @{action='user_profile_default_set';field_id=$Table.SelectedItem.profile_field_id;value=$Table.SelectedItem.value};if(-not $response.ok){throw $response.message};Refresh-DocumentFieldRows;$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}
-    })
+        try{$response=Send-Backend @{snapshot=$Table.Profile.values;action='user_profile_default_set';field_id=$Table.SelectedItem.profile_field_id;value=$Table.SelectedItem.value};if(-not $response.ok){throw $response.message};& $RefreshDocumentFieldRows;$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}
+    }.GetNewClosure())
     $Delete.Add_Click({
         if(-not $Table.SelectedItem){$LocalStatus.Text='삭제할 입력값을 선택하세요.';return}
         if([string]::IsNullOrWhiteSpace([string]$Table.SelectedItem.value)){$LocalStatus.Text='이 필드에는 삭제할 값이 없습니다. 필드 삭제를 사용하세요.';return}
-        try{$response=Send-Backend @{action='user_profile_entry_delete';field_name=$Table.SelectedItem.field_name;value=$Table.SelectedItem.value};if(-not $response.ok){throw $response.message};Refresh-DocumentFieldRows;$LocalStatus.Text=$response.message}catch{Show-Error $_.Exception.Message}
-    })
+        try{$response=Send-Backend @{snapshot=$Table.Profile.values;action='user_profile_entry_delete';field_name=$Table.SelectedItem.field_name;value=$Table.SelectedItem.value};if(-not $response.ok){throw $response.message};& $RefreshDocumentFieldRows;$LocalStatus.Text=$response.message}catch{Show-Error $_.Exception.Message}
+    }.GetNewClosure())
     $DeleteField.Add_Click({
         if(-not $Table.SelectedItem){$LocalStatus.Text='삭제할 대표필드를 선택하세요.';return}
         $answer=[System.Windows.MessageBox]::Show("$($Table.SelectedItem.field_name) 대표필드와 모든 값·별칭을 삭제할까요?",'대표필드 삭제',[System.Windows.MessageBoxButton]::YesNo,[System.Windows.MessageBoxImage]::Warning);if($answer -ne [System.Windows.MessageBoxResult]::Yes){return}
-        try{$response=Send-Backend @{action='user_profile_field_delete';field_id=$Table.SelectedItem.profile_field_id};if(-not $response.ok){throw $response.message};Refresh-DocumentFieldRows;$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}
-    })
-    $Table.Add_SelectionChanged({if($Table.SelectedItem){$FieldName.Text=[string]$Table.SelectedItem.leaf_name;$Value.Text=[string]$Table.SelectedItem.value;$Aliases.Text=[string]$Table.SelectedItem.aliases;for($parentIndex=0;$parentIndex -lt $Parent.Items.Count;$parentIndex++){if([string]$Parent.Items[$parentIndex].id -eq [string]$Table.SelectedItem.parent_field_id){$Parent.SelectedIndex=$parentIndex;break}}}})
-    $Value.Add_KeyDown({if($_.Key -eq 'Enter'){$Add.RaiseEvent([System.Windows.RoutedEventArgs]::new([System.Windows.Controls.Button]::ClickEvent))}})
-    $Close.Add_Click({$Dialog.Close()})
-    try{Refresh-DocumentFieldRows}catch{Show-Error $_.Exception.Message}
-    [void]$Dialog.ShowDialog()
+        try{$response=Send-Backend @{snapshot=$Table.Profile.values;action='user_profile_field_delete';field_id=$Table.SelectedItem.profile_field_id};if(-not $response.ok){throw $response.message};& $RefreshDocumentFieldRows;$LocalStatus.Text=$response.message;$Status.Text=$response.message}catch{Show-Error $_.Exception.Message}
+    }.GetNewClosure())
+    $Value.Add_KeyDown({if($_.Key -eq 'Enter'){$Add.RaiseEvent([System.Windows.RoutedEventArgs]::new([System.Windows.Controls.Button]::ClickEvent))}}.GetNewClosure())
+    $RefreshButton=New-ProfileToolButton '새로고침';$RefreshButton.Height=28;$RefreshButton.Padding='10,2';[void]$Bottom.Children.Insert(0,$RefreshButton)
+    $RefreshButton.Add_Click({try{& $RefreshDocumentFieldRows}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
+    $Close.Add_Click({$Dialog.Close()}.GetNewClosure())
+    try{& $RefreshDocumentFieldRows}catch{Show-Error $_.Exception.Message}
+    Show-WorkspaceWindow $Dialog 'profile-manager'
 }
 function Render-PersonalTab {
     $Content.Children.Clear()
@@ -1343,9 +1519,14 @@ function Render-PersonalTab {
 
     $OtherTitle=[System.Windows.Controls.TextBlock]::new();$OtherTitle.Text='문서 출력 필드';$OtherTitle.FontSize=12;$OtherTitle.FontWeight='Bold';$OtherTitle.Foreground='#262626';[System.Windows.Controls.Canvas]::SetLeft($OtherTitle,10);[System.Windows.Controls.Canvas]::SetTop($OtherTitle,185);[void]$Content.Children.Add($OtherTitle)
     $Manage=[System.Windows.Controls.Button]::new();$Manage.Content='새 값 입력 · 관리';$Manage.Width=112;$Manage.Height=28;$Manage.FontSize=9;[System.Windows.Controls.Canvas]::SetLeft($Manage,178);[System.Windows.Controls.Canvas]::SetTop($Manage,178);[void]$Content.Children.Add($Manage);Set-OriginalFlatButton $Manage $true
-    $FieldList=[System.Windows.Controls.ListBox]::new();$FieldList.Width=280;$FieldList.Height=152;$FieldList.FontSize=10;$FieldList.BorderBrush='#DBDBDB';$FieldList.Background='#FAFAFA';$FieldList.Padding='4';[System.Windows.Controls.ScrollViewer]::SetHorizontalScrollBarVisibility($FieldList,[System.Windows.Controls.ScrollBarVisibility]::Disabled);[System.Windows.Controls.Canvas]::SetLeft($FieldList,10);[System.Windows.Controls.Canvas]::SetTop($FieldList,215);[void]$Content.Children.Add($FieldList)
-    $LocalStatus=[System.Windows.Controls.TextBlock]::new();$LocalStatus.Width=280;$LocalStatus.FontSize=9;$LocalStatus.Foreground='#555555';$LocalStatus.TextTrimming='CharacterEllipsis';[System.Windows.Controls.Canvas]::SetLeft($LocalStatus,10);[System.Windows.Controls.Canvas]::SetTop($LocalStatus,374);[void]$Content.Children.Add($LocalStatus)
+    $FieldList=[System.Windows.Controls.TreeView]::new();$FieldList.Name='PersonalFieldTree';$FieldList.Width=280;$FieldList.Height=130;$FieldList.FontSize=10;$FieldList.BorderBrush='#DBDBDB';$FieldList.Background='#FAFAFA';$FieldList.Padding='4';[System.Windows.Controls.ScrollViewer]::SetHorizontalScrollBarVisibility($FieldList,[System.Windows.Controls.ScrollBarVisibility]::Auto);[System.Windows.Controls.Canvas]::SetLeft($FieldList,10);[System.Windows.Controls.Canvas]::SetTop($FieldList,170);[void]$Content.Children.Add($FieldList)
+    $BasicCard.Height=92;[System.Windows.Controls.Canvas]::SetTop($OtherTitle,144);[System.Windows.Controls.Canvas]::SetTop($Manage,138)
+    $PersonalActions=@{}
+    $LocalStatus=[System.Windows.Controls.TextBlock]::new();$LocalStatus.Width=280;$LocalStatus.FontSize=9;$LocalStatus.Foreground='#555555';$LocalStatus.TextTrimming='CharacterEllipsis';[System.Windows.Controls.Canvas]::SetLeft($LocalStatus,10);[System.Windows.Controls.Canvas]::SetTop($LocalStatus,302);[void]$Content.Children.Add($LocalStatus)
     $BasicFields=@('이름','전화번호','이메일')
+    $ImportPersonal=New-ProfileToolButton '선택 영역 → 개인정보 저장';$ImportPersonal.Width=168;$ImportPersonal.Height=28;$ImportPersonal.FontSize=9;$ImportPersonal.Padding='2';$ImportPersonal.Margin='0';[System.Windows.Controls.Canvas]::SetLeft($ImportPersonal,10);[System.Windows.Controls.Canvas]::SetTop($ImportPersonal,320);[void]$Content.Children.Add($ImportPersonal)
+    $DataTable=New-ProfileToolButton '데이터 표 관리';$DataTable.Width=106;$DataTable.Height=28;$DataTable.FontSize=9;$DataTable.Padding='2';$DataTable.Margin='0';[System.Windows.Controls.Canvas]::SetLeft($DataTable,184);[System.Windows.Controls.Canvas]::SetTop($DataTable,320);[void]$Content.Children.Add($DataTable)
+    $FavoriteScroll=[System.Windows.Controls.ScrollViewer]::new();$FavoriteScroll.Width=288;$FavoriteScroll.Height=48;$FavoriteScroll.VerticalScrollBarVisibility='Auto';$FavoriteScroll.Content=New-FavoriteStrip $Window;[System.Windows.Controls.Canvas]::SetLeft($FavoriteScroll,6);[System.Windows.Controls.Canvas]::SetTop($FavoriteScroll,352);[void]$Content.Children.Add($FavoriteScroll)
     # 개인 탭은 이 함수가 끝난 뒤에도 화면에 남는다. 이벤트에서 다시 쓸
     # 갱신 코드를 지역 함수로 만들면 함수 스코프 종료와 함께 사라지므로,
     # UI 컨트롤을 캡처한 클로저로 보관한다.
@@ -1353,13 +1534,22 @@ function Render-PersonalTab {
         $response=Send-Backend @{action='user_profile_get'};if(-not $response.ok){throw $response.message}
         $name=[string]$response.values.이름;$phone=[string]$response.values.전화번호;$email=[string]$response.values.이메일
         $NameValue.Text=if($name){$name}else{'저장된 이름 없음'};$AvatarText.Text=if($name){$name.Substring(0,1)}else{'+'};$PhoneValue.Text=if($phone){$phone}else{'저장된 값 없음'};$EmailValue.Text=if($email){$email}else{'저장된 값 없음'}
-        $FieldList.Items.Clear();foreach($group in @($response.field_groups)){if($group.name -in $BasicFields -and -not $group.parent_id){continue};$values=@($group.values);$aliasText=if(@($group.aliases).Count){' · 별칭 '+(@($group.aliases)-join ', ')}else{''};$displayName=if($group.path){$group.path}else{$group.name};$FieldItem=[System.Windows.Controls.TextBlock]::new();$FieldItem.Width=250;$FieldItem.Margin='3,4';$FieldItem.TextWrapping='Wrap';$FieldItem.Foreground='#262626';$FieldItem.Text=("{0} ({1}){2}`n{3}" -f $displayName,$values.Count,$aliasText,($values -join ' / '));[void]$FieldList.Items.Add($FieldItem)}
-        if($FieldList.Items.Count -eq 0){$EmptyFieldItem=[System.Windows.Controls.TextBlock]::new();$EmptyFieldItem.Text='저장된 기타 출력 필드가 없습니다.';$EmptyFieldItem.Foreground='#8E8E8E';$EmptyFieldItem.Margin='3,8';[void]$FieldList.Items.Add($EmptyFieldItem)}
+        Show-PersonalFieldTree $FieldList $response $Window $PersonalActions.Refresh
         $LocalStatus.Text="현재 출력값 미리보기 · 기타 필드 $(@($response.field_groups|Where-Object{$_.name -notin $BasicFields}).Count)개"
     }.GetNewClosure()
+    $PersonalActions.Refresh=$RefreshPersonalView
     $EditBasic.Add_Click({try{[void](Open-BasicProfileEditor $Window);& $RefreshPersonalView}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
-    $Manage.Add_Click({Open-DocumentFieldManager $Window;try{& $RefreshPersonalView}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
-    $FieldList.Add_MouseDoubleClick({Open-DocumentFieldManager $Window;try{& $RefreshPersonalView}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
+    $ImportPersonal.Add_Click({
+        $ImportPersonal.IsEnabled=$false;$DataTable.IsEnabled=$false
+        try{Open-ProfileSelectionImport $Window;Add-WorkspaceClosedAction 'profile-import' $RefreshPersonalView;& $RefreshPersonalView}catch{Show-Error $_.Exception.Message}
+        finally{$ImportPersonal.IsEnabled=$true;$DataTable.IsEnabled=$true}
+    }.GetNewClosure())
+    $DataTable.Add_Click({
+        $ImportPersonal.IsEnabled=$false;$DataTable.IsEnabled=$false
+        try{Open-ProfileDataTable $Window;Add-WorkspaceClosedAction 'profile-data' $RefreshPersonalView;& $RefreshPersonalView}catch{Show-Error $_.Exception.Message}
+        finally{$ImportPersonal.IsEnabled=$true;$DataTable.IsEnabled=$true}
+    }.GetNewClosure())
+    $Manage.Add_Click({Open-DocumentFieldManager $Window;Add-WorkspaceClosedAction 'profile-manager' $RefreshPersonalView;try{& $RefreshPersonalView}catch{Show-Error $_.Exception.Message}}.GetNewClosure())
     try{& $RefreshPersonalView;$Status.Text='개인 · 사용자 정보'}catch{Show-Error $_.Exception.Message}
 }
 function Render-Tab([string]$Name) {
@@ -1387,14 +1577,15 @@ for($i=0;$i -lt $Tabs.Count;$i++){
 $Window.Add_KeyDown({if($_.Key -eq 'Z' -and [System.Windows.Input.Keyboard]::Modifiers -band [System.Windows.Input.ModifierKeys]::Control){Invoke-LayoutButton ([pscustomobject]@{operations=@([pscustomobject]@{type='method';method='취소';args=@(1)});name='취소'})}})
 $DocumentStatusTimer=[System.Windows.Threading.DispatcherTimer]::new()
 $DocumentStatusTimer.Interval=[TimeSpan]::FromMilliseconds(1500)
-$DocumentStatusTimer.Add_Tick({Refresh-HwpDocumentStatus $true})
+$DocumentStatusTimer.Add_Tick([GovOfficePollGuard]::Wrap({Refresh-HwpDocumentStatus $true}))
 $DocumentStatusTimer.Start()
 $script:SelectionMouseDown=$false
 $script:SelectionStart=@(0,0)
 $script:SelectionReturnWindow=$null
 $SelectionProbeTimer=[System.Windows.Threading.DispatcherTimer]::new()
 $SelectionProbeTimer.Interval=[TimeSpan]::FromMilliseconds(100)
-$SelectionProbeTimer.Add_Tick({
+$SelectionProbeTimer.Add_Tick([GovOfficePollGuard]::Wrap({
+    if($script:ProfileReviewActive -or $script:BackendRequestInFlight){return}
     if($LayoutPreview -or $null -eq $Backend -or $Backend.HasExited){return}
     $foregroundPid=[GovOfficeSelectionMouse]::ForegroundProcessId()
     if($foregroundPid -le 0){$script:SelectionMouseDown=$false;return}
@@ -1418,9 +1609,10 @@ $SelectionProbeTimer.Add_Tick({
             else{if(-not $script:ManualSelectionToken){[void](Send-Backend @{action='style_preset_selection_clear'})}}
         }catch{}
     }
-})
+}))
 $SelectionProbeTimer.Start()
 $Window.Add_Closed({
+    $script:GuiClosing=$true
     $DocumentStatusTimer.Stop()
     $SelectionProbeTimer.Stop()
     if($null -ne $script:Backend){

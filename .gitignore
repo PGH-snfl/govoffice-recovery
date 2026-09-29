@@ -1,7 +1,29 @@
 __pycache__/
-*.py[cod]
+*.pyc
+*.pyo
 *.log
 .pytest_cache/
 new_project/config/user_profile.json
 
 # 원본과 대형 자동 산출물은 별도 보존 정책을 정한 뒤 버전 관리한다.
+
+# Local previews and recoverable cleanup/system backups (not source files)
+/tmp/
+/system_backups/
+
+# Local secrets and operating-system metadata
+.env
+.env.*
+!.env.example
+!.env.sample
+Thumbs.db
+.DS_Store
+
+# Private working documents stay on the owner's PC. Keep navigation and the
+# two existing generic feature examples, plus the blank built-in source form.
+/materials/**
+!/materials/**/
+!/materials/**/README.md
+!/materials/examples/범피스 예시1.hwp
+!/materials/examples/범피스 예시2.hwp
+!/materials/submission-reference/제출서류/\[제출서류1\] 신청용 연구개발계획서(2026)-기후부(수정_재공고).hwp

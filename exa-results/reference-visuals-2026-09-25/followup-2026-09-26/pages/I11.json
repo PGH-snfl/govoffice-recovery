@@ -1,0 +1,2461 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 181,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 34,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 477,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 110,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 94,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 590,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 100,
+      "2": 55,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1595,
+    "heading_candidates": [
+      "2. 개요"
+    ],
+    "section_context_candidate": "2. 개요",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "4G/LTE 대비 새로운 5G 코어 네트워크 구조/개념도",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "중심으로 가상화 기능 확장을 포함한 기술 반영 및 표준 채택을 추진하고, 중장기적으로\n는 5G를 위한 새로운 코어 네트워크 기술을 대응하는 새로운 표준 규격을 3GPP SA 및\nITU-T 중심으로 개발하여 국내외 기술시장을 선도함을 최종 목표로 하고 과제를 수행하\n였다.",
+        "after": "EPC\nLTE MME Data Network\nS-GW P-GW 4G\nHSS eNodeB",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 299,
+      "3": 721,
+      "2": 99,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1322,
+    "heading_candidates": [
+      "3. 결과 요약"
+    ],
+    "section_context_candidate": "3. 결과 요약",
+    "prior_heading_candidate": {
+      "text": "2. 개요",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 272,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1534,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 결과 요약",
+    "prior_heading_candidate": {
+      "text": "3. 결과 요약",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 319,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 763,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 결과 요약",
+    "prior_heading_candidate": {
+      "text": "3. 결과 요약",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 174,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 942,
+    "heading_candidates": [
+      "4. 기술 및 경제적 성과"
+    ],
+    "section_context_candidate": "4. 기술 및 경제적 성과",
+    "prior_heading_candidate": {
+      "text": "3. 결과 요약",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 225,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1215,
+    "heading_candidates": [
+      "5. 기술적, 사회·경제적 파급 효과 및 기대 효과"
+    ],
+    "section_context_candidate": "5. 기술적, 사회·경제적 파급 효과 및 기대 효과",
+    "prior_heading_candidate": {
+      "text": "4. 기술 및 경제적 성과",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "출처- 5G 이동통신분야 TTA 표준화전략맵",
+        "line_index": 30,
+        "toc_like": false,
+        "before": "형성할 전망\no 국내 5G 이동통신 시장은 2020년 상반기 상용서비스가 개시되어,\n기존의 이동통신 시장을 점진적으로 대체하며 시장이 확산될\n전망이며 2020년 1조 420억 원 규모에서 2026년 32조 8,832억 원",
+        "after": "해외 시장\no 세계 이동통신 시장은 2016년 1조 4,733억 달러 규모를 기록한\n가운데, 연평균 2.5%의 성장률을 기록하며 2021년에는 1조 6,689억\n달러에 이를 전망",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "출처- 5G 이동통신분야 TTA 표준화전략맵",
+        "line_index": 37,
+        "toc_like": false,
+        "before": "가운데, 연평균 2.5%의 성장률을 기록하며 2021년에는 1조 6,689억\n달러에 이를 전망\no 세계 5G 이동통신 시장 규모는 2020년 57억 달러에서 2026년 1조\n3,686억 달러로 연평균 149%의 높은 성장률을 기록할 것으로 전망",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 310,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 87,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 기술적, 사회·경제적 파급 효과 및 기대 효과",
+    "prior_heading_candidate": {
+      "text": "5. 기술적, 사회·경제적 파급 효과 및 기대 효과",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "5": 1,
+      "1": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 673,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 기술적, 사회·경제적 파급 효과 및 기대 효과",
+    "prior_heading_candidate": {
+      "text": "5. 기술적, 사회·경제적 파급 효과 및 기대 효과",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "정보통신․방송 표준개발지원 사업 주요 성과",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 11 -",
+        "after": "사업명 정보통신방송표준개발지원사업\n과제명(과제번호) 5G 코어 네트워크 기술 표준개발 (2016-0-00567)\n주관\n기관",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 167,
+      "2": 146,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 211,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 기술적, 사회·경제적 파급 효과 및 기대 효과",
+    "prior_heading_candidate": {
+      "text": "5. 기술적, 사회·경제적 파급 효과 및 기대 효과",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 41,
+      "2": 54,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1638,
+    "heading_candidates": [
+      "□ 구체적인 연구 성과"
+    ],
+    "section_context_candidate": "□ 구체적인 연구 성과",
+    "prior_heading_candidate": {
+      "text": "5. 기술적, 사회·경제적 파급 효과 및 기대 효과",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 248,
+      "2": 73,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1923,
+    "heading_candidates": [
+      "1-12 ITU-T SG13 제정 개발 Proposed Figures for Clause 6",
+      "1-13 ITU-T SG13 제정 개발",
+      "1-14 ITU-T SG13 제정 개발 Proposed updates on the Draft",
+      "1-15 ITU-T SG13 제정 개발",
+      "1-16 ITU-T SG13 제정 개발 Proposed revision of",
+      "1-17 ITU-T SG13 제정 개발",
+      "1-18 ITU-T SG13 제정 개발 Revised draft Y.IMT2020-frame",
+      "1-19 ITU-T SG13 제정 개발",
+      "1-20 ITU-T SG13 제정 개발",
+      "1-21 ITU-T SG13 제정 개발"
+    ],
+    "section_context_candidate": "1-12 ITU-T SG13 제정 개발 Proposed Figures for Clause 6",
+    "prior_heading_candidate": {
+      "text": "□ 구체적인 연구 성과",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 265,
+      "2": 94,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1815,
+    "heading_candidates": [
+      "1-29 3GPP SA2 제정 개발",
+      "1-30 3GPP SA2 제정 개발",
+      "1-31 3GPP SA2 제정 개발 Updates to Agreement on the",
+      "1-32 3GPP SA5 제정 개발",
+      "1-33 ETSI NFV ISG 제정 개발 SOL003 - Interface design for",
+      "1-34 3GPP SA2 제정 개발",
+      "1-35 3GPP SA2 제정 개발 CCNF relocation during",
+      "1-36 3GPP SA2 제정 개발",
+      "1-37 3GPP SA2 제정 개발 TS 23.501 P-CR 5.3.2.3",
+      "1-38 3GPP SA2 제정 개발",
+      "1-39 3GPP SA2 제정 개발 TS 23.502: P-CR to add the"
+    ],
+    "section_context_candidate": "1-29 3GPP SA2 제정 개발",
+    "prior_heading_candidate": {
+      "text": "1-21 ITU-T SG13 제정 개발",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 267,
+      "2": 91,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1749,
+    "heading_candidates": [
+      "1-40 3GPP SA2 제정 개발 TS 23.501: clarification of",
+      "1-41 3GPP SA2 제정 개발",
+      "1-42 3GPP SA2 제정 개발 23.501: Network Slice Instance",
+      "1-43 3GPP SA2 제정 개발",
+      "1-44 3GPP SA2 제정 개발",
+      "1-45 3GPP SA2 제정 개발",
+      "1-46 3GPP SA2 제정 개발",
+      "1-47 3GPP SA2 제정 개발",
+      "1-48 3GPP SA2 제정 개발",
+      "1-49 3GPP SA2 제정 개발 23.791: Solution for Key Issue"
+    ],
+    "section_context_candidate": "1-40 3GPP SA2 제정 개발 TS 23.501: clarification of",
+    "prior_heading_candidate": {
+      "text": "1-39 3GPP SA2 제정 개발 TS 23.502: P-CR to add the",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 260,
+      "2": 154,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 207,
+    "heading_candidates": [
+      "1-50 3GPP SA2 제정 개발 23.740: Architectural"
+    ],
+    "section_context_candidate": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+    "prior_heading_candidate": {
+      "text": "1-49 3GPP SA2 제정 개발 23.791: Solution for Key Issue",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 18,
+      "2": 28,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 867,
+    "heading_candidates": [],
+    "section_context_candidate": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+    "prior_heading_candidate": {
+      "text": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 166,
+      "2": 59,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 402,
+    "heading_candidates": [],
+    "section_context_candidate": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+    "prior_heading_candidate": {
+      "text": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 86,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1896,
+    "heading_candidates": [
+      "5-8 특허 네트워크 슬라이스 내에서 네트워크 기능 선택 방법 출원 대한민국 2016-0107022",
+      "5-15 특허 네트워크 슬라이싱을 이용한 통신 방법 및 장치 출원 대한민국 2017-0048448",
+      "5-16 특허 5G 단말 서비스 연속성 관리를 위한 방법 출원 대한민국 2017-0084486",
+      "5-23 특허 위치기반 서비스를 지원하기 위한 5G 시스템 장치 및 방법 출원 대한민국 2018-0005720"
+    ],
+    "section_context_candidate": "5-8 특허 네트워크 슬라이스 내에서 네트워크 기능 선택 방법 출원 대한민국 2016-0107022",
+    "prior_heading_candidate": {
+      "text": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+      "pdf_page": 18
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 367,
+      "2": 88,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 774,
+    "heading_candidates": [],
+    "section_context_candidate": "5-23 특허 위치기반 서비스를 지원하기 위한 5G 시스템 장치 및 방법 출원 대한민국 2018-0005720",
+    "prior_heading_candidate": {
+      "text": "5-23 특허 위치기반 서비스를 지원하기 위한 5G 시스템 장치 및 방법 출원 대한민국 2018-0005720",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 150,
+      "2": 49,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 418,
+    "heading_candidates": [
+      "9. 정성적 성과"
+    ],
+    "section_context_candidate": "9. 정성적 성과",
+    "prior_heading_candidate": {
+      "text": "5-23 특허 위치기반 서비스를 지원하기 위한 5G 시스템 장치 및 방법 출원 대한민국 2018-0005720",
+      "pdf_page": 21
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 98,
+      "3": 15,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.19,
+          236.62,
+          352.61,
+          344.5
+        ],
+        "page_area_fraction": 0.0579
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 294,
+    "heading_candidates": [
+      "10. 기타 성과",
+      "11. 과제내용 및 수행체계 등 주요변경 이력"
+    ],
+    "section_context_candidate": "10. 기타 성과",
+    "prior_heading_candidate": {
+      "text": "9. 정성적 성과",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 61,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "11. 과제내용 및 수행체계 등 주요변경 이력",
+    "prior_heading_candidate": {
+      "text": "11. 과제내용 및 수행체계 등 주요변경 이력",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 476,
+    "heading_candidates": [
+      "제 1 절 과제의 개요 · 27",
+      "제 2 장 과제 수행의 내용 및 결과 · 31",
+      "제 1 절 최종 목표 및 평가 방법 · 31",
+      "제 2 절 단계 목표 및 평가 방법 · 32",
+      "제 3 절 연차별 개발 내용 및 개발 범위 · 33",
+      "제 4 절 수행 결과의 보안등급 · 45",
+      "제 5 절 유형적 발생품(연구시설, 연구장비 등) 구입 및 관리 현황 · 46",
+      "제 3 장 결과 및 사업화 계획 · 47",
+      "제 1 절 표준개발/활동 최종 결과 · 47",
+      "제 2 절 표준개발/활동 추진 체계 · 69",
+      "제 4 절 고용 창출 효과 · 76"
+    ],
+    "section_context_candidate": "제 1 절 과제의 개요 · 27",
+    "prior_heading_candidate": {
+      "text": "11. 과제내용 및 수행체계 등 주요변경 이력",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 1483,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 87,
+    "heading_candidates": [],
+    "section_context_candidate": "제 4 절 고용 창출 효과 · 76",
+    "prior_heading_candidate": {
+      "text": "제 4 절 고용 창출 효과 · 76",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "5": 1,
+      "1": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 772,
+    "heading_candidates": [
+      "제 1 절 과제의 개요",
+      "1. 연구의 정의 및 범위"
+    ],
+    "section_context_candidate": "제 1 절 과제의 개요",
+    "prior_heading_candidate": {
+      "text": "제 4 절 고용 창출 효과 · 76",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 1) 본 과제 연구범위 및 접근방법",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "가상화(NFV), 개방형 인터페이스(SDN) 네트워크 기술들을 통해 4G LTE EPC 구\n조의 성능 및 용량 개선을 통한 고도화를 위해 기존 표준을 확장하는 방식과 중장\n기적으로는 5G를 위한 새로운 코어 네트워크 기술을 대응하는 참조 구조 및 이에\n따른 세부 표준 규격을 개발하는 방식을 모두 포함하였다 (그림 1 참조).",
+        "after": "※ NFV (Network Functions Virtualization)는 통신 사업자들이 사용하고 있는 네트워\n크 장비 내 L4-L7 서비스 기능들을 저가의 범용 서버 등으로 분리시켜 소프트웨어\n적으로 유연하게 제어·관리가 가능하게 가상화하는 기술로서, 컴퓨팅, 서버, 그리고\n네트워크 자원을 추상화하고, 오픈 인터페이스를 통하여 소프트웨어적으로 컴퓨팅",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 174,
+      "3": 45,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1510,
+    "heading_candidates": [
+      "2. 연구의 중요성 및 필요성"
+    ],
+    "section_context_candidate": "2. 연구의 중요성 및 필요성",
+    "prior_heading_candidate": {
+      "text": "1. 연구의 정의 및 범위",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 383,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 661,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구의 중요성 및 필요성",
+    "prior_heading_candidate": {
+      "text": "2. 연구의 중요성 및 필요성",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 2) IMT-2020(5G)를 위한 8대 기능목표 (출처 –ITU-R)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 29 -",
+        "after": "우리나라 이동통신사업자는 5G 기술 도입을 적극 추진 중에 있으나, 3GPP로\n대변하는 무선 표준기술과는 달리, 특히 코어 네트워크와 같은 유선쪽 표준화는\n최근 3GPP외에도, ITU-T, ETSI, IETF 등 여러 국제표준화기구에서의 공격적인 표\n준화 선언에 대해 최선의 표준기술의 선택에 대한 많은 고민과 어려움을 안고 있",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 3) 5G 네트워크에서의 가상화 구조 (출처 - ITU-T)",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "의 주요 기술적 목표인 네트워크 운용 편의성, 신규서비스 수용 용이성,\nCAPEX/OPEX 절감 등을 지원하기 위해서는 기존의 무선 구간의 기술발전 외에도\n5G 코어 네트워크와 유선구간에 대한 혁신적인 기술제공 및 이를 위한 표준화의\n선행이 반드시 병행되어야 한다.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 152,
+      "3": 20,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.01,
+          206.53,
+          398.96,
+          358.34
+        ],
+        "page_area_fraction": 0.0834
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 87,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구의 중요성 및 필요성",
+    "prior_heading_candidate": {
+      "text": "2. 연구의 중요성 및 필요성",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "5": 1,
+      "1": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 693,
+    "heading_candidates": [
+      "제 2 장 과제 수행의 내용 및 결과",
+      "제 1 절 최종 목표 및 평가 방법"
+    ],
+    "section_context_candidate": "제 2 장 과제 수행의 내용 및 결과",
+    "prior_heading_candidate": {
+      "text": "2. 연구의 중요성 및 필요성",
+      "pdf_page": 29
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 4) 5G 코어 네트워크 기술 표준화 목표 및 대상 표준화 기구",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "기술반영 및 표준채택을 추진하고 (3GPP/ETSI/TTA, '16~18),\n- 중장기적으로는 5G를 위한 새로운 코어 네트워크 기술을 대응하는 표준\n규격을 ITU-T 중심으로 개발하여 국내외 기술시장을 선도함\n(ITU-T/TTA, '17~18, 표준특허 발굴)",
+        "after": "4G 5G\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 169,
+      "2": 15,
+      "3": 65,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 1449,
+    "heading_candidates": [
+      "제 2 절 단계 목표 및 평가 방법"
+    ],
+    "section_context_candidate": "제 2 절 단계 목표 및 평가 방법",
+    "prior_heading_candidate": {
+      "text": "제 1 절 최종 목표 및 평가 방법",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 348,
+      "2": 22,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 951,
+    "heading_candidates": [
+      "제 3 절 연차별 개발 내용 및 개발 범위",
+      "1. 1차년도 연구내용 (2016년)"
+    ],
+    "section_context_candidate": "제 3 절 연차별 개발 내용 및 개발 범위",
+    "prior_heading_candidate": {
+      "text": "제 2 절 단계 목표 및 평가 방법",
+      "pdf_page": 33
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 223,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 637,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 1차년도 연구내용 (2016년)",
+    "prior_heading_candidate": {
+      "text": "1. 1차년도 연구내용 (2016년)",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 130,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 1008,
+    "heading_candidates": [
+      "2. 2차년도 연구내용 (2017년)"
+    ],
+    "section_context_candidate": "2. 2차년도 연구내용 (2017년)",
+    "prior_heading_candidate": {
+      "text": "1. 1차년도 연구내용 (2016년)",
+      "pdf_page": 34
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 239,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 506,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 2차년도 연구내용 (2017년)",
+    "prior_heading_candidate": {
+      "text": "2. 2차년도 연구내용 (2017년)",
+      "pdf_page": 36
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 110,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 1027,
+    "heading_candidates": [
+      "3. 3차년도 연구내용 (2018년)"
+    ],
+    "section_context_candidate": "3. 3차년도 연구내용 (2018년)",
+    "prior_heading_candidate": {
+      "text": "2. 2차년도 연구내용 (2017년)",
+      "pdf_page": 36
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 239,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 533,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 3차년도 연구내용 (2018년)",
+    "prior_heading_candidate": {
+      "text": "3. 3차년도 연구내용 (2018년)",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 116,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 1480,
+    "heading_candidates": [
+      "4. 과제 수행의 개발 범위"
+    ],
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "prior_heading_candidate": {
+      "text": "3. 3차년도 연구내용 (2018년)",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 1] 5G 코어 네트워크의 구조적 특징",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "(Mobile Edge Computing) 등의 지원을 용이하게 하며, 서비스 확장에 따른 네트\n워크의 스케일링(scaling)을 가능하도록 한다. 또한 다양한 유무선 액세스 기술의\n통합으로 인해 WiFi, 유무선 통합 등 Non-3GPP 액세스 기반 새로운 비즈니스들도\n5G내에서 함께 수용되고 동일하게 관리가 가능하게 될 것으로 전망된다.",
+        "after": "설계원칙 주요 구조적 특징 향후 활용 장점 및 시사점\n소프트웨어\n(Software)-기반\n코어구조",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 340,
+      "2": 25,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 1337,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "prior_heading_candidate": {
+      "text": "4. 과제 수행의 개발 범위",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 313,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 1362,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "prior_heading_candidate": {
+      "text": "4. 과제 수행의 개발 범위",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 5) 5G 공통 코어 구조",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 41 -",
+        "after": "라. 네트워크 슬라이싱 (Network Slicing)\n네트워크 슬라이싱 기술은 기존 이동 통신 네트워크 기술에서는 사용되지 않았\n던 5G 네트워크의 새로운 개념으로서, 특정 서비스에 필요한 5G 서비스를 위한\nNF들을 연결하여 맞춤형 5G 네트워크 서비스를 제공할 수 있다. 현재 5G Phase-1",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 6)은 현재 정의된 네트워크 슬라이싱 구조를 도식화 한 것이다. UE는 제",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "규격에서는 복수개의 네트워크 슬라이스에 동시 연결 구조 및 NSSF (Network\nSlice Selection Function), 식별자 등 기본적인 기능만이 합의되어 기술되어 있으\n며, 향후 Phase-2 작업에는 네트워크 슬라이스 로밍 등 추가적인 연구들이 필요할\n것으로 생각된다.",
+        "after": "공받는 서비스에 따라 단일 5G 액세스 연결을 통해 하나 이상의 네트워크 슬라이\n스 인스턴스들에 동시 연결이 가능하며, 현재 규격에는 LTE 무선 베어러 (Radio\nBearer)의 제약에 따라 단일 UE는 최대 8개의 네트워크 슬라이스에 동시에 연결\n가능하도록 되어 있다. UE 연결 및 이동성 관리 등의 단일화를 위해 UE 당 하나",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 308,
+      "2": 54,
+      "3": 972,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 1369,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "prior_heading_candidate": {
+      "text": "4. 과제 수행의 개발 범위",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 6) 5G 네트워크 슬라이싱 구조",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 42 -\nmIoT 등으로 정의되어 있다. SD 정보는 슬라이스 인스턴스의 구체화된 속성 (예:\nTenant, 성능 등) 을 기술하여 동일 SST 의 다른 속성을 지원하는 네트워크 슬라\n이스 인스턴스를 선택하는데 사용된다.",
+        "after": "마. 세션 관리 및 MEC 지원 로컬 데이터 네트워크 액세스 기술\n세션 관리 기술은 5G 시스템 내의 사용자와 5G 시스템 외부의 데이터 네트워\n크간 패킷 트래픽 전달을 위해 세션을 관리하는 기술을 말한다. 3GPP에서 새롭게\n정의한 5G 사용자 평면 (User Plane) 구조의 핵심은 UPF 기능의 유연성 및 분산",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 322,
+      "2": 173,
+      "3": 1354,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 1507,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "prior_heading_candidate": {
+      "text": "4. 과제 수행의 개발 범위",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 7) 5G 세션 관리 및 분산화된 유연한 UPF 배치",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 43 -",
+        "after": "5G 네트워크에서는 UPF가 지역적으로 다양하게 분산되어 있으므로, 단말이 액\n세스 하는 RAN에 가까운 UPF를 선택하여 단말을 엣지 서버가 있는 로컬 데이터\n네트워크로 연결시킬 수 있다. 이를 통해 5G 네트워크에서는 엣지 컴퓨팅을 구현\n가능하며, 단말이 직접 엣지 컴퓨팅 서버와의 연결을 요청하는 LADN (Local",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 341,
+      "2": 198,
+      "3": 1108,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 261,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "prior_heading_candidate": {
+      "text": "4. 과제 수행의 개발 범위",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 42,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 125,
+    "heading_candidates": [
+      "제 4 절 수행 결과의 보안등급"
+    ],
+    "section_context_candidate": "제 4 절 수행 결과의 보안등급",
+    "prior_heading_candidate": {
+      "text": "4. 과제 수행의 개발 범위",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 146,
+    "heading_candidates": [
+      "제 5 절 유형적 발생품(연구시설, 연구장비 등) 구입 및 관리 현황"
+    ],
+    "section_context_candidate": "제 5 절 유형적 발생품(연구시설, 연구장비 등) 구입 및 관리 현황",
+    "prior_heading_candidate": {
+      "text": "제 4 절 수행 결과의 보안등급",
+      "pdf_page": 46
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 23,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 724,
+    "heading_candidates": [
+      "제 3 장 결과 및 사업화 계획",
+      "제 1 절 표준개발/활동 최종 결과",
+      "1. 연구개발 추진 일정"
+    ],
+    "section_context_candidate": "제 3 장 결과 및 사업화 계획",
+    "prior_heading_candidate": {
+      "text": "제 5 절 유형적 발생품(연구시설, 연구장비 등) 구입 및 관리 현황",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 165,
+      "2": 712,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 637,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 연구개발 추진 일정",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발 추진 일정",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 143,
+      "2": 712,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 674,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 연구개발 추진 일정",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발 추진 일정",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 152,
+      "2": 712,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 646,
+    "heading_candidates": [
+      "2. 연구개발 추진실적",
+      "가. 정량적 주요 성과 및 기타 성과"
+    ],
+    "section_context_candidate": "2. 연구개발 추진실적",
+    "prior_heading_candidate": {
+      "text": "1. 연구개발 추진 일정",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 178,
+      "2": 218,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 358,
+    "heading_candidates": [],
+    "section_context_candidate": "가. 정량적 주요 성과 및 기타 성과",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 주요 성과 및 기타 성과",
+      "pdf_page": 51
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 98,
+      "2": 87,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 1108,
+    "heading_candidates": [
+      "나. 목표 대비 세부 추진사항"
+    ],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "가. 정량적 주요 성과 및 기타 성과",
+      "pdf_page": 51
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 273,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 869,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 8) ITU-T FG IMT-2020내 5G 구조 대표도",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "→ ITU-T FG IMT-2020 에디터 수임 2건\n▹Framework of IMT-2020 network architecture (에디터: 안병준 책임)\n▹Requirements of IMT-2020 from network perspective (에디터 강신각\n책임)",
+        "after": "- 5G 코어 네트워크 가상화 기능 구조 국제특허 개발 (표준특허연계용)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 177,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.17,
+          258.56,
+          365.08,
+          397.48
+        ],
+        "page_area_fraction": 0.0663
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 1154,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 9) 3GPP 네트워크 슬라이싱 인스턴스 선택 특허 및 기고 대표도",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "→ NextGen Key Issue #1 네트워크 슬라이싱 관련 기고 및 기술반영\n▹Network Slicing Solution Update 기고 외\n▹표준특허 기반의 기고반영 및 국내외 특허 우선권 출원완료\n▹노키아, ZTE, 삼성전자 등과 공동기고 작업",
+        "after": "→ Key Issue #7 네트워크 기능 상호연동 관련 기고 및 기술반영\n▹Update of Solution 7.1 for non UE associated signalling support\n기고 등 솔루션 반영\n▹노키아 등과 공동기고 작업",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 261,
+      "3": 20487,
+      "2": 39,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 1095,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 10) NFV 기술 관련 3GPP SA5 표준개발 범위 및 관련 인터페이스",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "→ 3GPP SA5 기술반영 기고 표준 개발 1건 (‘16.1~16.12)\n※ 3GPP TS 28.525: Lifecycle management of mobile networks that\ninclude VNFs 표준개발\n→ 네트워크 서비스 라이프사이클 관리 기술 관련 기고 및 기술반영",
+        "after": "▹Add requirements for NS instance lifecycle change notification 및\nUse case for NS instance querying and NS instance termination 등\n기고 표준 개발 1건\n→ ETSI NFV SOL WG 기술반영 기고 표준 개발 1건",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 243,
+      "2": 55,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 286,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 11) vEPC 적용 가능한 VNF생성 절차 기고반영",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 56 -",
+        "after": "- NFV 상호운용성 지원 vEPC 요구사항 국내 표준 개발\n(TTA 단체표준/기술보고서 개발)\n→ TTA 단체표준/기술보고서 2종 제정 승인 (‘16.12)\n▹분산 이동성 관리를 위한 요구사항",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 55,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.02,
+          615.81,
+          394.36,
+          760.69
+        ],
+        "page_area_fraction": 0.0817
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 825,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 12) ITU-T IMT-2020 네트워크 프레임워크 네트워크 슬라이싱 구조",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "▹ITU-T Y.IMT2020-reqts, Y.IMT2020-frame, Y.IMT2020-arch등 총 3건\n▹표준문서 에디터 : 안병준 책임\n- ITU-T IMT-2020 네트워크 관련 권고안 1건 Consent 완료 (‘17.11)\n▹(Y.3101) Requirements of the IMT-2020 network",
+        "after": "- TTA 단체표준 3종 제정 제안 승인(‘17.6) 및 1건 제정 완료\n▹(2017-400) IMT-2020 네트워크 용어 정의 (‘17.12 표준제정 완료)\n▹(2017-401) IMT-2020 네트워크 요구사항\n▹(2017-402) IMT-2020 네트워크 프레임워크",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 143,
+      "3": 36,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 411,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 13) TTA IMT-2020 단체표준 3종 문서",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 58 -",
+        "after": "- TTA SPG32 5G 국내 표준검토 워크샵 진행 (‘17.8)\n▹ IMT-2020 네트워크 요구사항 표준 등 국내 산업체간 검토 및 의견수렴\n. 일시: ‘17.8.31~9.1\n. 장소: 부산 센텀호텔 에메랄드홀",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 14) TTA SPG32 5G 국내 표준검토 워크샵 진행",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "▹ IMT-2020 네트워크 요구사항 표준 등 국내 산업체간 검토 및 의견수렴\n. 일시: ‘17.8.31~9.1\n. 장소: 부산 센텀호텔 에메랄드홀\n. 삼성전자, LG전자, 에릭슨엘지, KT, SK텔레콤 등 60여명 전문가참석",
+        "after": "- TTA 5G 표준개발특별위원회(STC3) 신설 및 5G네트워크 표준화그룹\n의장단 수임 (TTA SPG32) (‘17.7)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 83,
+      "3": 157,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.54,
+          270.3,
+          428.41,
+          443.39
+        ],
+        "page_area_fraction": 0.1065
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 1115,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 258,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 586,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 15) 3GPP 네트워크 슬라이싱 인스턴스 선택 특허 및 기고 대표도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 60 -",
+        "after": "(그림 16) 3GPP 5G 시스템 이동성관리/세션관리 특허 및 기고 대표도\n- 3GPP SA2 5G 시스템 구조 - non-3GPP 엑세스 통합관리 기고 표준 개발\n→ 5G 시스템 non-3GPP 엑세스 통합관리 관련 기고 및 기술반영\n▹Non-3GPP 액세스 통합 5G 시스템에서 접속 방식 기고 외",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 16) 3GPP 5G 시스템 이동성관리/세션관리 특허 및 기고 대표도",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 60 -\n(그림 15) 3GPP 네트워크 슬라이싱 인스턴스 선택 특허 및 기고 대표도",
+        "after": "- 3GPP SA2 5G 시스템 구조 - non-3GPP 엑세스 통합관리 기고 표준 개발\n→ 5G 시스템 non-3GPP 엑세스 통합관리 관련 기고 및 기술반영\n▹Non-3GPP 액세스 통합 5G 시스템에서 접속 방식 기고 외\n▹표준특허 기반의 기고반영 및 국내외 특허 출원완료",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 123,
+      "3": 13,
+      "2": 27,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.98,
+          569.98,
+          405.02,
+          766.2
+        ],
+        "page_area_fraction": 0.1157
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 692,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 17) 3GPP 5G 시스템 non-3GPP 액세스 통합관리 특허 및 기고 대표도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 61 -",
+        "after": "- 3GPP SA5 시스템 관리 및 가상화 지원기술 표준개발\n→ 3GPP SA5 기술반영 기고 표준 개발\n▹네트워크 슬라이스 관리 및 MEC 기술반영 기고\n▹네트워크 슬라이스 관리 및 프로비져닝 WID 3건 공동협력 진행",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 18) NFV 기술 관련 3GPP SA5 표준개발 범위",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "▹네트워크 슬라이스 관리 및 프로비져닝 WID 3건 공동협력 진행\n※ 3GPP TS 28.530: Management of Network Slicing in Mobile Networks,\nConcepts, Use cases and Requirements /TS 28.531: Provisioning of\nnetwork slicing for 5G networks and services 등 표준개발 공동참여",
+        "after": "3GPP 액세스 페이징 기반 non-3GPP 세션 핸드오버 (특허&표준반영)\n3GPP\n기지국\nNon-3GPP",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 146,
+      "2": 204,
+      "3": 2836,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 1143,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 248,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 141,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 19) 3GPP SA5 #115차 부산회의 (Hosted by ETRI)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 63 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 15,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.89,
+          598.03,
+          458.63,
+          766.2
+        ],
+        "page_area_fraction": 0.1323
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 493,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 20) ITU-T Y.3101, Y.3102 권고안",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "표준개발 6건 (‘18.1 ~ 12)\n▹(Y.3101) Requirements of IMT-2020 network 표준제정 완료 (‘18.1)\n▹(Y.3102) Framework of IMT-2020 network 표준제정 완료 (‘18.5)\n▹(Y.3014) Architecture of IMT-2020 network 표준제정 완료 (‘18.12))",
+        "after": "(그림 21) ITU-T IMT-2020 네트워크 기능구조/프레임워크\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "(그림 21) ITU-T IMT-2020 네트워크 기능구조/프레임워크",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "▹(Y.3101) Requirements of IMT-2020 network 표준제정 완료 (‘18.1)\n▹(Y.3102) Framework of IMT-2020 network 표준제정 완료 (‘18.5)\n▹(Y.3014) Architecture of IMT-2020 network 표준제정 완료 (‘18.12))\n(그림 20) ITU-T Y.3101, Y.3102 권고안",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 86,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.9,
+          437.76,
+          367.0,
+          576.09
+        ],
+        "page_area_fraction": 0.0689
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.9,
+          239.14,
+          429.61,
+          396.89
+        ],
+        "page_area_fraction": 0.0983
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 669,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 22) TTA PG220 국내 표준검토 워크샵",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "▹ 5G 네트워크 요구사항 표준 등 산업체간 검토 및 의견수렴 진행\n. 일시: ‘18.8.16~8.17\n. 장소: 부산 센텀호텔 에메랄드홀\n. KT, SK텔레콤, LGU+, 삼성전자, 에릭슨엘지 등 40여명 전문가참석",
+        "after": "- 5G 정책지정 과제 관련 표준화 총괄 지원 및 국내의견 수렴\n→ TTA 5G 표준개발특별위원회(STC3) 운영 및 5G네트워크 표준화그룹\n의장단 활동 (TTA SPG32) (‘18.1~’18.12)\n▹SPG32 의장 (신명기 실장) 및 간사 (이수환 선임)",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 154,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.58,
+          411.27,
+          360.05,
+          583.16
+        ],
+        "page_area_fraction": 0.0867
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 862,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 23) 3GPP 5G 시스템 이동성관리 특허 및 기고 대표도",
+        "line_index": 21,
+        "toc_like": false,
+        "before": "→ 5G Phase I 이동성관리 구조 및 절차 관련 기고 및 기술반영\n▹Mobile Edge Computing (MEC) 서비스 지원을 위한 5G 이동성관리 방식\n기고 외\n▹표준특허 기반의 기고반영 및 국내외 특허 출원완료",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 201,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.6,
+          220.56,
+          463.43,
+          324.61
+        ],
+        "page_area_fraction": 0.079
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 837,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 24) 3GPP 5G 시스템 MEC 세션관리 기고 대표도",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "▹AF 기반의 MEC 적용을 위한 세션 UP 수정 절차 관련 기고\n▹엘지, 삼성, SKT, AT&T 등과 함께 MEC 기능 확장 관련 신규 스터디\n제안 승인\n’",
+        "after": "- 3GPP SA2 5G 시스템 구조 – 기타 기고 및 신규 스터디 제안\n→ 5G Phase II 네트워크 지능 기술관련 기고 및 기술 반영\n→ 5G Phase II 인공위성 통신 기능 구조 확장관련 신규 스터디 제안\n▹화웨이, 탈레스, 인텔 등과 함께 기술 기고 및 신규 스터디 제안 승인",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 208,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.7,
+          470.36,
+          408.86,
+          649.09
+        ],
+        "page_area_fraction": 0.1086
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 793,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 169,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 860,
+    "heading_candidates": [
+      "제 2 절 표준개발/활동 추진 체계"
+    ],
+    "section_context_candidate": "제 2 절 표준개발/활동 추진 체계",
+    "prior_heading_candidate": {
+      "text": "나. 목표 대비 세부 추진사항",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(그림 25) 5G 코어 네트워크 표준개발 추진 체계",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "험 등 검증이 가능하도록 하여 산업파급 효과가 극대화 되도록 하였으며, 국내 5G\n코어 네트워크 규격 개발 후 실제 개발된 규격이 구체적으로 활용될 수 있도록 국\n내 장비사업자들간의 선단형 협력체계를 구축하여 네트워크 산업의 새로운 생태계\n조성 및 상생 발전이 가능하도록 추진하였다.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 201,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.84,
+          214.09,
+          451.68,
+          458.26
+        ],
+        "page_area_fraction": 0.1853
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 1212,
+    "heading_candidates": [
+      "1. 성과 활용 방향"
+    ],
+    "section_context_candidate": "1. 성과 활용 방향",
+    "prior_heading_candidate": {
+      "text": "제 2 절 표준개발/활동 추진 체계",
+      "pdf_page": 70
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 299,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 72,
+    "text_characters": 1270,
+    "heading_candidates": [
+      "2. 성과활용 차수별 활용계획"
+    ],
+    "section_context_candidate": "2. 성과활용 차수별 활용계획",
+    "prior_heading_candidate": {
+      "text": "1. 성과 활용 방향",
+      "pdf_page": 71
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 268,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 73,
+    "text_characters": 880,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 성과활용 차수별 활용계획",
+    "prior_heading_candidate": {
+      "text": "2. 성과활용 차수별 활용계획",
+      "pdf_page": 72
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 183,
+      "2": 13,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 74,
+    "text_characters": 666,
+    "heading_candidates": [
+      "3. 기대효과"
+    ],
+    "section_context_candidate": "3. 기대효과",
+    "prior_heading_candidate": {
+      "text": "2. 성과활용 차수별 활용계획",
+      "pdf_page": 72
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 156,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 75,
+    "text_characters": 1184,
+    "heading_candidates": [
+      "4. 표준성과기술서"
+    ],
+    "section_context_candidate": "4. 표준성과기술서",
+    "prior_heading_candidate": {
+      "text": "3. 기대효과",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 292,
+      "2": 14,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          199.09,
+          193.23,
+          450.36,
+          394.73
+        ],
+        "page_area_fraction": 0.1012
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 76,
+    "text_characters": 756,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 표준성과기술서",
+    "prior_heading_candidate": {
+      "text": "4. 표준성과기술서",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 178,
+      "2": 29,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          165.27,
+          589.28,
+          484.18,
+          743.55
+        ],
+        "page_area_fraction": 0.0983
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 77,
+    "text_characters": 307,
+    "heading_candidates": [
+      "제 4 절 고용 창출 효과"
+    ],
+    "section_context_candidate": "제 4 절 고용 창출 효과",
+    "prior_heading_candidate": {
+      "text": "4. 표준성과기술서",
+      "pdf_page": 75
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 65,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 78,
+    "text_characters": 989,
+    "heading_candidates": [],
+    "section_context_candidate": "제 4 절 고용 창출 효과",
+    "prior_heading_candidate": {
+      "text": "제 4 절 고용 창출 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 274,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 79,
+    "text_characters": 87,
+    "heading_candidates": [],
+    "section_context_candidate": "제 4 절 고용 창출 효과",
+    "prior_heading_candidate": {
+      "text": "제 4 절 고용 창출 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "5": 1,
+      "1": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 80,
+    "text_characters": 1574,
+    "heading_candidates": [
+      "1. 국제·사실 표준화 기구 승인/개발/제안 문서"
+    ],
+    "section_context_candidate": "1. 국제·사실 표준화 기구 승인/개발/제안 문서",
+    "prior_heading_candidate": {
+      "text": "제 4 절 고용 창출 효과",
+      "pdf_page": 77
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 246,
+      "2": 73,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 81,
+    "text_characters": 1913,
+    "heading_candidates": [
+      "1-12 ITU-T SG13 제정 개발 Proposed Figures for Clause 6",
+      "1-13 ITU-T SG13 제정 개발",
+      "1-14 ITU-T SG13 제정 개발 Proposed updates on the Draft",
+      "1-15 ITU-T SG13 제정 개발",
+      "1-16 ITU-T SG13 제정 개발 Proposed revision of",
+      "1-17 ITU-T SG13 제정 개발",
+      "1-18 ITU-T SG13 제정 개발 Revised draft Y.IMT2020-frame",
+      "1-19 ITU-T SG13 제정 개발",
+      "1-20 ITU-T SG13 제정 개발",
+      "1-21 ITU-T SG13 제정 개발"
+    ],
+    "section_context_candidate": "1-12 ITU-T SG13 제정 개발 Proposed Figures for Clause 6",
+    "prior_heading_candidate": {
+      "text": "1. 국제·사실 표준화 기구 승인/개발/제안 문서",
+      "pdf_page": 80
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 261,
+      "2": 93,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 82,
+    "text_characters": 1802,
+    "heading_candidates": [
+      "1-29 3GPP SA2 제정 개발",
+      "1-30 3GPP SA2 제정 개발",
+      "1-31 3GPP SA2 제정 개발 Updates to Agreement on the",
+      "1-32 3GPP SA5 제정 개발",
+      "1-33 ETSI NFV ISG 제정 개발 SOL003 - Interface design for",
+      "1-34 3GPP SA2 제정 개발",
+      "1-35 3GPP SA2 제정 개발 CCNF relocation during",
+      "1-36 3GPP SA2 제정 개발",
+      "1-37 3GPP SA2 제정 개발 TS 23.501 P-CR 5.3.2.3",
+      "1-38 3GPP SA2 제정 개발"
+    ],
+    "section_context_candidate": "1-29 3GPP SA2 제정 개발",
+    "prior_heading_candidate": {
+      "text": "1-21 ITU-T SG13 제정 개발",
+      "pdf_page": 81
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 265,
+      "2": 79,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 83,
+    "text_characters": 1738,
+    "heading_candidates": [
+      "1-39 3GPP SA2 제정 개발",
+      "1-40 3GPP SA2 제정 개발 TS 23.501: clarification of",
+      "1-41 3GPP SA2 제정 개발",
+      "1-42 3GPP SA2 제정 개발 23.501: Network Slice Instance",
+      "1-43 3GPP SA2 제정 개발",
+      "1-44 3GPP SA2 제정 개발",
+      "1-45 3GPP SA2 제정 개발",
+      "1-46 3GPP SA2 제정 개발",
+      "1-47 3GPP SA2 제정 개발",
+      "1-48 3GPP SA2 제정 개발 23.502: Location reporting"
+    ],
+    "section_context_candidate": "1-39 3GPP SA2 제정 개발",
+    "prior_heading_candidate": {
+      "text": "1-38 3GPP SA2 제정 개발",
+      "pdf_page": 82
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 259,
+      "2": 154,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 84,
+    "text_characters": 1118,
+    "heading_candidates": [
+      "2. 연구시설·장비 현황",
+      "1-49 3GPP SA2 제정 개발",
+      "1-50 3GPP SA2 제정 개발 23.740: Architectural"
+    ],
+    "section_context_candidate": "2. 연구시설·장비 현황",
+    "prior_heading_candidate": {
+      "text": "1-48 3GPP SA2 제정 개발 23.502: Location reporting",
+      "pdf_page": 83
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 205,
+      "2": 42,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 85,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+    "prior_heading_candidate": {
+      "text": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+      "pdf_page": 84
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 86,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+    "prior_heading_candidate": {
+      "text": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+      "pdf_page": 84
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 87,
+    "text_characters": 230,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신․방송표준개발지원사업의",
+      "2. 이 표준개발/활동 내용을 대외적으로 발표할 때에는 반드시 과학기술정보"
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신․방송표준개발지원사업의",
+    "prior_heading_candidate": {
+      "text": "1-50 3GPP SA2 제정 개발 23.740: Architectural",
+      "pdf_page": 84
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 34,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

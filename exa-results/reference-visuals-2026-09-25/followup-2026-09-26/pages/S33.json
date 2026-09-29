@@ -1,0 +1,2971 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 269,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 26,
+      "3": 3,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          195.84,
+          608.4,
+          428.28,
+          630.12
+        ],
+        "page_area_fraction": 0.0101
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          194.4,
+          153.12,
+          402.0,
+          188.76
+        ],
+        "page_area_fraction": 0.0148
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 345,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 31,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 586,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 85,
+      "1": 37,
+      "2": 31,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1220,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 15,
+      "1": 92,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 652,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 22,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1035,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1-1 국가우주개발 중장기계획 우주과학분야 로드맵 (2013)",
+        "line_index": 21,
+        "toc_like": false,
+        "before": "구개발을 함께 수행하고 기술 체계로 발전시킬 예정임\n KASI 주도형 시스템 엔지니어링 기법을 체계화하고 관련 우주망원경 사업에 적용하여 과학\n임무 사전조사 요구사항 도출 일정 개발 비용 계산 , , WBS, , , trade-off study, 시험성능평가\n방법 연구 위기 평가 등을 년 동안 예비 연구 형태로 수행할 예정임 , 2",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 60,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.2,
+          61.32,
+          513.0,
+          355.2
+        ],
+        "page_area_fraction": 0.2526
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1103,
+    "heading_candidates": [
+      "1. 국외 동향"
+    ],
+    "section_context_candidate": "1. 국외 동향",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1-2 대형미션 우주망원경 NASA JWST",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "NIRSpec, 5 ~ 28.5 m μ 중적외선에서 분광과 기능을 가진 와 근적외선 그리즘 분광 IFU MIRI\n에 최적화된 등이 있어 의 긴 파장 범위와 높은 감도는 초기 우주의 재이온화 NIRSS JWST\n시기에 은하들의 역할을 제고함과 더불어 초기 은하의 특성 연구에 매우 중요한 역할을 할\n것으로 기대",
+        "after": " SPHEREx (SPectro-PHotometer for the Extragalactic structure, Reionization and ice\nExplorer) Mission Caltech 은 미국 주도로 한국천문연구원과 함께 NASA MEDEX 미션에 제\n안되고 년 월에 최종 확정되고 진행 중인 프로젝트로서 년에 발사하여 2019 2 , 2023 0.75 ~ 5\nμm 영역에서 전천 분광탐사를 하는 것을 목적으로 하고 있다 초기 우주 구조인 큰 규모 .",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 69,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.2,
+          267.0,
+          483.0,
+          491.64
+        ],
+        "page_area_fraction": 0.1662
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 522,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 국외 동향",
+    "prior_heading_candidate": {
+      "text": "1. 국외 동향",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1-3 NASA MEDEX 미션으로 개발 중인 SPHEREx 우주망원경 국제협력 중 (KASI )",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 7 -",
+        "after": " WFIRST( 2.4m) 2016 주경 는 년에 개발을 시작하여 현재 일정에 있는 적외선 우주 PDR NASA\n망원경 미션으로 년 발사 예정이다 는 가시광 및 근적외선 영역에서 2025 . WFIRST 0.48-2um\n기존 허블 우주망원경의 성능으로 수천평방도에 이르는 광활한 영역에 대한 탐사를 계획.\n주요 관측기기는 와 코로나그래프임 WFI",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 1-4 NASA WFIRST 우주망원경",
+        "line_index": 6,
+        "toc_like": false,
+        "before": " WFIRST( 2.4m) 2016 주경 는 년에 개발을 시작하여 현재 일정에 있는 적외선 우주 PDR NASA\n망원경 미션으로 년 발사 예정이다 는 가시광 및 근적외선 영역에서 2025 . WFIRST 0.48-2um\n기존 허블 우주망원경의 성능으로 수천평방도에 이르는 광활한 영역에 대한 탐사를 계획.\n주요 관측기기는 와 코로나그래프임 WFI",
+        "after": " 미국 에서는 미션으로 년 년에 걸쳐 망원경 직경 을 NASA UV 2003 -2013 GALEX ( 50cm)\n690km 태양동기궤도에서 운영하였으며 다양한 은하를 자외선에서 관측 수행하였음\n그림 1-5 NASA GALEX 자\n외선우주망원경",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 1-5 NASA GALEX 자",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "주요 관측기기는 와 코로나그래프임 WFI\n그림 1-4 NASA WFIRST 우주망원경\n 미국 에서는 미션으로 년 년에 걸쳐 망원경 직경 을 NASA UV 2003 -2013 GALEX ( 50cm)\n690km 태양동기궤도에서 운영하였으며 다양한 은하를 자외선에서 관측 수행하였음",
+        "after": "외선우주망원경\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 34,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.08,
+          622.92,
+          507.12,
+          785.28
+        ],
+        "page_area_fraction": 0.1357
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          181.44,
+          333.12,
+          413.76,
+          509.88
+        ],
+        "page_area_fraction": 0.0819
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          226.8,
+          82.32,
+          368.28,
+          255.24
+        ],
+        "page_area_fraction": 0.0488
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1595,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 국외 동향",
+    "prior_heading_candidate": {
+      "text": "1. 국외 동향",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1-6 에서 개발 중인 우주망원경 ESA Euclid",
+        "line_index": 26,
+        "toc_like": false,
+        "before": " ESA는 현재 가시광과 근적외선 영역을 관측하는 망원경 주경 을 년 발 Euclid (1.2m SiC ) 2022\n사 목표로 개발 진행 중에 있으며 관측 파장은 가시광 , 550nm 920nm (6 x 6 mosaic e2V –\nCCDs), 1 m 2 m (4 x 4 mosaic H2RG detectors) 근적외선 μ μ – 영역에서 관측기기를 개발하\n고 있고 암흑에너지를 찾고 우주초기의 가속팽창을 연구하는 것이 주요 목적임 ,",
+        "after": " 최근 년 월에는 인도 에서 가시광에서부터 2015 9 ISRO UV, X-ray 5 이르는 개의 다파장 관측\n기기를 탑재한 우주망원경 을 발사 지구 태양동기궤도에서 운영하고 있음 Astrosat\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 86,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.28,
+          238.44,
+          463.8,
+          313.32
+        ],
+        "page_area_fraction": 0.0497
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.28,
+          163.56,
+          463.8,
+          238.44
+        ],
+        "page_area_fraction": 0.0497
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          131.28,
+          126.24,
+          463.8,
+          163.56
+        ],
+        "page_area_fraction": 0.0248
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 816,
+    "heading_candidates": [
+      "2. 국내 동향"
+    ],
+    "section_context_candidate": "2. 국내 동향",
+    "prior_heading_candidate": {
+      "text": "1. 국외 동향",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1-7 ISRO Astrosat 다파장 우주망원경",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 9 -",
+        "after": "2. 국내 동향\n 천문연은 미국 버클리 대학과 과학기술위성 호의 자외선 우주관측 탑재체 개발로 우 1 FIMS\n주용 관측기기 개발을 시작하였으며 관측 자료 활용을 통해 이미 수십 편의 논문 , FIMS SCI\n을 출판하였고 이로부터 우주 관측기기에 대한 개발과 우주 환경 시험에 대한 경험을 획득 ,",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 1-8 과학기술위성 호 우주관측카메라 3 MIRIS",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "주요 적외선 탐사를 수행하였으며 현재는 관측된 자료들을 바탕으로 과학연구를 진행 중 ,\n임 개발을 통해 적외선 굴절 광학계에 대한 설계 및 해석 적외선 관측을 위한 열설 . MIRIS ,\n계 및 해석 궤도 해석 광기계부에 대한 구조해석 적외선 광학계에 대한 검교정 등의 기술 , , ,\n을 얻을 수 있었음",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 45,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.36,
+          589.92,
+          450.84,
+          785.28
+        ],
+        "page_area_fraction": 0.1195
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.76,
+          181.8,
+          415.44,
+          260.52
+        ],
+        "page_area_fraction": 0.037
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.76,
+          142.44,
+          415.44,
+          181.8
+        ],
+        "page_area_fraction": 0.0185
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.76,
+          103.44,
+          415.44,
+          142.44
+        ],
+        "page_area_fraction": 0.0183
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1204,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 국내 동향",
+    "prior_heading_candidate": {
+      "text": "2. 국내 동향",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1-9 관측으로부터 얻은 우리은하면의 MIRIS Pa-α 탐사 지도 아래 ( )",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 10 -",
+        "after": " 2012년부터는 차세대 소형위성 시리즈가 시작되었으며 적외선 영상카메라인 후속으 , MIRIS\n로 차세대 소형위성 호 탑재체로 근적외선 영상분광기 를 개발하여 년 월에 발 1 NISS 2018 12\n사함. 파장범위는 근적외선 대부분을 포함하는 0.9 ~ 3.8 m, μ 파장분해능은 저분산으로 λ Δλ /\n~ 20 , 정도이며 전체 시야는 도 도로 평방도를 관측할 수 있다 주경은 이고 비축 2 × 2 4 . 15cm ,",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 1-10 비행모델 좌 과 차세대소형위성 호에 조립된 모습 우 NISS ( ) 1 ( )",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "NISS는 저분산이지만 적외선 영상분광 기술 비축 광학계에 대한 설계 정렬 및 검교정 기 , ,\n술을 필요로 하며 이는 우주개발 중장기 개발에서 소형 우주망원경에 해당하는 것으로 중 ,\n대형 우주망원경에 필요한 우주핵심 기술들을 개발하고 이를 통해 우주과학 연구를 하는\n것을 목적으로 함",
+        "after": " CIBER(Cosmic Infrared Background Experiment) NASA 는 과학로켓을 이용한 적외선 우주배\n경복사 관측실험으로 두 대의 적외선 광시야카메라와 저분산 분광기 그리고 고분산 분광기 ,\n로 구성되어 있으며 한국천문연구원 , , Caltech/JPL, ISAS/JAXA가 국제공동 개발하였고,\nNASA의 과학로켓에 실려 총 차례 우주로 발사되었음 , 4",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 75,
+      "3": 867,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.88,
+          692.52,
+          529.2,
+          785.28
+        ],
+        "page_area_fraction": 0.0857
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1098,
+    "heading_candidates": [
+      "3 제 절 연구개발의 필요성 및 중요성"
+    ],
+    "section_context_candidate": "3 제 절 연구개발의 필요성 및 중요성",
+    "prior_heading_candidate": {
+      "text": "2. 국내 동향",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1-11 형상 위 및 과학로켓 아래 CIBER2 ( ) NASA ( )",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 11 -",
+        "after": "3. 시사점 분석\n 우주 선진국에서 Herschel, JWST, Euclid, WFIRST 등 대형 우주망원경을 통해 먼 우주의 미\n세 구조를 고분해능 고분산으로 관측할 수 있음을 감안하여 한국에서 개발하려는 중소형 , ,\n우주망원경의 독창성 확보 필요",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 54,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          167.64,
+          679.08,
+          427.56,
+          785.28
+        ],
+        "page_area_fraction": 0.0551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          167.64,
+          583.8,
+          427.56,
+          673.68
+        ],
+        "page_area_fraction": 0.0466
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1148,
+    "heading_candidates": [],
+    "section_context_candidate": "3 제 절 연구개발의 필요성 및 중요성",
+    "prior_heading_candidate": {
+      "text": "3 제 절 연구개발의 필요성 및 중요성",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 1-12 우주망원경 관측 파장",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 12 -",
+        "after": " 한국천문연구원은 년 과학기술위성 호 원자외선분광기를 개발 발사한 이래 년 과 2003 1 , 2013\n학기술위성 호 다목적적외선영상시스템 년 차세대소형위성 호 근적외선영상분광기를 3 , 2017 1\n개발 발사 성공하였고 이러한 탑재체 기반 기술의 토대가 마련되어 있음 , .\n 우주망원경을 이용한 우주 탄생 및 진화 규명은 인류의 궁극적 의문에 대한 답을 제시하는",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 61,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.96,
+          675.72,
+          516.36,
+          785.28
+        ],
+        "page_area_fraction": 0.0956
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.96,
+          566.28,
+          516.36,
+          675.72
+        ],
+        "page_area_fraction": 0.0955
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1162,
+    "heading_candidates": [
+      "4 제 절 선행연구의 내용 및 결과"
+    ],
+    "section_context_candidate": "4 제 절 선행연구의 내용 및 결과",
+    "prior_heading_candidate": {
+      "text": "3 제 절 연구개발의 필요성 및 중요성",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 122,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1638,
+    "heading_candidates": [
+      "2. 사전조사의 목표와 내용"
+    ],
+    "section_context_candidate": "2. 사전조사의 목표와 내용",
+    "prior_heading_candidate": {
+      "text": "4 제 절 선행연구의 내용 및 결과",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 69,
+      "2": 1,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1239,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 사전조사의 목표와 내용",
+    "prior_heading_candidate": {
+      "text": "2. 사전조사의 목표와 내용",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 88,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 2084,
+    "heading_candidates": [
+      "3. 해외 우주망원경 계획 현황"
+    ],
+    "section_context_candidate": "3. 해외 우주망원경 계획 현황",
+    "prior_heading_candidate": {
+      "text": "2. 사전조사의 목표와 내용",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 97,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 172,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 해외 우주망원경 계획 현황",
+    "prior_heading_candidate": {
+      "text": "3. 해외 우주망원경 계획 현황",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 6,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.04,
+          422.4,
+          503.04,
+          748.2
+        ],
+        "page_area_fraction": 0.2672
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.04,
+          107.16,
+          503.04,
+          343.44
+        ],
+        "page_area_fraction": 0.1938
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 178,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 해외 우주망원경 계획 현황",
+    "prior_heading_candidate": {
+      "text": "3. 해외 우주망원경 계획 현황",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 7,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.04,
+          459.72,
+          516.6,
+          765.72
+        ],
+        "page_area_fraction": 0.2592
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.04,
+          216.6,
+          503.04,
+          383.28
+        ],
+        "page_area_fraction": 0.1367
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 227,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 해외 우주망원경 계획 현황",
+    "prior_heading_candidate": {
+      "text": "3. 해외 우주망원경 계획 현황",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "표 2-5. X-ray 영역 관측이 가능한 우주 망원경들의 비교",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 19 -",
+        "after": "다 년대와 년대에 발사될 주요 망원경들의 비교 . 2020 2030\n그림 2-1. 2020년대에 발사될 주요 우주 망원경들의 구경과 관측 가능한\n파장 영역 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-1. 2020년대에 발사될 주요 우주 망원경들의 구경과 관측 가능한",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 19 -\n표 2-5. X-ray 영역 관측이 가능한 우주 망원경들의 비교\n다 년대와 년대에 발사될 주요 망원경들의 비교 . 2020 2030",
+        "after": "파장 영역 비교\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 13,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.04,
+          435.0,
+          503.04,
+          735.84
+        ],
+        "page_area_fraction": 0.2467
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.16,
+          101.4,
+          509.52,
+          361.2
+        ],
+        "page_area_fraction": 0.2117
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1419,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 해외 우주망원경 계획 현황",
+    "prior_heading_candidate": {
+      "text": "3. 해외 우주망원경 계획 현황",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-2. 2030년대에 발사될 주요 우주 망원경들의 구경과 관측",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 20 -",
+        "after": "가능한 파장 영역 비교\n라 주요 우주망원경 사양 및 과학임무 분석 .\n앞서 언급된 다양한 종류와 크기를 가진 우주망원경 중에서 본 장에서는 앞으로 좋은 연구결 ,\n과가 기대되어 년대 이후를 이끌어나갈 핵심 우주망원경들에 대해 조금 더 복합적인 비 2020",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 76,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.88,
+          534.72,
+          497.28,
+          786.36
+        ],
+        "page_area_fraction": 0.1925
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 2288,
+    "heading_candidates": [
+      "2 ) 년 내에 천구상의 모든 천체에 대해 저분산 의 분광 관측 탐사를 수행할 예정이다 (R~40-130) ."
+    ],
+    "section_context_candidate": "2 ) 년 내에 천구상의 모든 천체에 대해 저분산 의 분광 관측 탐사를 수행할 예정이다 (R~40-130) .",
+    "prior_heading_candidate": {
+      "text": "3. 해외 우주망원경 계획 현황",
+      "pdf_page": 17
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 129,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 1868,
+    "heading_candidates": [],
+    "section_context_candidate": "2 ) 년 내에 천구상의 모든 천체에 대해 저분산 의 분광 관측 탐사를 수행할 예정이다 (R~40-130) .",
+    "prior_heading_candidate": {
+      "text": "2 ) 년 내에 천구상의 모든 천체에 대해 저분산 의 분광 관측 탐사를 수행할 예정이다 (R~40-130) .",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 102,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1519,
+    "heading_candidates": [
+      "5. 학회원을 대상으로 한 설문조사 결과"
+    ],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "2 ) 년 내에 천구상의 모든 천체에 대해 저분산 의 분광 관측 탐사를 수행할 예정이다 (R~40-130) .",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 133,
+      "2": 72,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 687,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 35,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.92,
+          511.44,
+          455.28,
+          662.04
+        ],
+        "page_area_fraction": 0.0948
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.2,
+          162.0,
+          531.0,
+          328.92
+        ],
+        "page_area_fraction": 0.1555
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 1082,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 54,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.6,
+          441.6,
+          522.6,
+          591.72
+        ],
+        "page_area_fraction": 0.1348
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 991,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 56,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.16,
+          646.08,
+          503.04,
+          785.28
+        ],
+        "page_area_fraction": 0.1141
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.04,
+          207.36,
+          509.04,
+          373.56
+        ],
+        "page_area_fraction": 0.1403
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 805,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 44,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.24,
+          479.88,
+          513.96,
+          662.04
+        ],
+        "page_area_fraction": 0.1573
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1244,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 110,
+      "2": 21,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 1900,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 97,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 1380,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 79,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 1715,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 69,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 918,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 36,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 404,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 17,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.56,
+          411.84,
+          276.6,
+          623.4
+        ],
+        "page_area_fraction": 0.0819
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 478,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-9. NASA Space Telescope Core-technology",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 34 -",
+        "after": "망원경 서브시스템 중 망원경 조립 모듈 에 대한 (OTA) 최근 국내 동향 파악\n∎ 과기부 주관 항우연 주도 /\n- KOMSAT 시리즈 개발\n① 개발완료: K5-SAR 1m/2800 /1400kg, K3A 0.55m/2400 /1100kg 억 소요 억 소요",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 30,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.64,
+          432.96,
+          526.08,
+          785.28
+        ],
+        "page_area_fraction": 0.33
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 1134,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 학회원을 대상으로 한 설문조사 결과",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-10. K3 OTA 모듈 형상",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 35 -",
+        "after": "* OTA 국내 기술 현황 파악\n∎ 한국표준과학연구원 주도로 대형광학계 기술 개발 진행 중\n- 1m 현재 급 경량화 기술까지 확보\n- 1m 현재 급 우주급 미러 기술 개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 65,
+      "3": 977,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 1757,
+    "heading_candidates": [
+      "5 Q-matrix를 활용한 technology trade-off study, feasibility 분석 필수"
+    ],
+    "section_context_candidate": "5 Q-matrix를 활용한 technology trade-off study, feasibility 분석 필수",
+    "prior_heading_candidate": {
+      "text": "5. 학회원을 대상으로 한 설문조사 결과",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 132,
+      "3": 5,
+      "2": 33,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 1404,
+    "heading_candidates": [],
+    "section_context_candidate": "5 Q-matrix를 활용한 technology trade-off study, feasibility 분석 필수",
+    "prior_heading_candidate": {
+      "text": "5 Q-matrix를 활용한 technology trade-off study, feasibility 분석 필수",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-11. Science Traceability Matrix (Source: NASA Habex) 작성 예시",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "있다 이 스펙이 포함되어 있는 작성을 하면 관측 기기가 실제 기술적으로 제작 가능한 . Matrix ,\n지 확인할 수 있는 기본 자료가 된다 이러한 결과 자료는 미션을 정의할 때 정량적으로 정의 .\n하는데 도움을 준다 아래 그림은 일반적인 우주미션을 수행할 때 작성하는 . Science\nTraceability Matrix를 보여준다.",
+        "after": "2) Project Orgnization Chart 작성\n모든 프로젝트는 효율적이고 성공적 업무 수행을 위해서 조직 체계를 잘 구성해야 한다 이.\n러한 조직 구성을 할 때는 인적 자원이 가지고 있는 기술 과 조직간의 팀웍 을 (skill) (teamwork)\n신중히 검토해야 하고 관련한 기술적 성숙도 , (mature technology), 프로젝트를 수행하기 위한",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 74,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.76,
+          381.24,
+          520.44,
+          644.52
+        ],
+        "page_area_fraction": 0.2341
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 1134,
+    "heading_candidates": [],
+    "section_context_candidate": "5 Q-matrix를 활용한 technology trade-off study, feasibility 분석 필수",
+    "prior_heading_candidate": {
+      "text": "5 Q-matrix를 활용한 technology trade-off study, feasibility 분석 필수",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-12. Project Orgnization Chart",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 38 -\n책임을 잘 정의하여야 한다 분명한 역할과 책임의 구분은 프로젝트를 수행할 때 업무의 불확 .\n실성을 제거할 수 있다 우주미션을 위한 조직은 각 조직이 연합하여 하나의 시스템으로 잘 기 .\n능할 수 있도록 구성해야 한다.",
+        "after": "3) Mission Definition (Level 1) 작성\n미션을 정의하는 의 문장을 작성하는 것으로써 정량적인 수치를 포함한 개의 문 Level 1 , 1~2\n장으로 완성하는 것이 일반적이다 이러한 미션 정의 작성을 통해서 개발하는 하드웨어의 최종 .\n목표를 정확하게 확인할 수 있다 또한 이 정의는 최상위 요구사항으로 사용되며 이 요구사항 . ,",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 59,
+      "3": 5,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.16,
+          562.56,
+          501.72,
+          716.28
+        ],
+        "page_area_fraction": 0.1284
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.92,
+          285.48,
+          515.4,
+          381.72
+        ],
+        "page_area_fraction": 0.0853
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 1125,
+    "heading_candidates": [
+      "5) Q-matrix technology trade-off study, feasibility 를 활용한 분석",
+      "7) Main Review 수행"
+    ],
+    "section_context_candidate": "5) Q-matrix technology trade-off study, feasibility 를 활용한 분석",
+    "prior_heading_candidate": {
+      "text": "5 Q-matrix를 활용한 technology trade-off study, feasibility 분석 필수",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 64,
+      "3": 7,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.36,
+          392.28,
+          510.72,
+          632.04
+        ],
+        "page_area_fraction": 0.204
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 775,
+    "heading_candidates": [],
+    "section_context_candidate": "7) Main Review 수행",
+    "prior_heading_candidate": {
+      "text": "7) Main Review 수행",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-14. Life-cycle Cost Impacts (Source: NASA SE Handbook)",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 40 -\n림 참조 2-14 ).",
+        "after": "8) WBS (Work Breakdown Structure) 작성\n프로젝트의 목적을 위해서 각 업무분담을 효율적으로 수행해야 한다 는 계층 . WBS top-down\n구조의 분해 방식으로 작성된다. workpackage WBS 는 의 가장 최소 단위이며 이 , workpackage\n레벨까지 업무를 나누어야 한다. workpackage는 한 프로젝트에서 연관된 업무의 그룹을 의미",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-15. NASA Standard Space Flight Project WBS (Source: NASA Cost Estimating",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "parts approval . 등이다\nWBS를 나누는 방식은 그림 에서와 같이 일반적인 2-15 space flight project를 고려한 표준\n방식이 있으며 기능 활동 을 중심으로 나누는 , ( ) Functional WBS 방식이 있다 이러한 업무분담구 .\n조는 차트 등을 활용하여 효율적으로 관리할 수 있다 Gantt .",
+        "after": "Handbook 4.0)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 39,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.52,
+          481.44,
+          478.08,
+          767.64
+        ],
+        "page_area_fraction": 0.203
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.28,
+          123.72,
+          535.8,
+          264.36
+        ],
+        "page_area_fraction": 0.1337
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 1697,
+    "heading_candidates": [],
+    "section_context_candidate": "7) Main Review 수행",
+    "prior_heading_candidate": {
+      "text": "7) Main Review 수행",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 111,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 1296,
+    "heading_candidates": [],
+    "section_context_candidate": "7) Main Review 수행",
+    "prior_heading_candidate": {
+      "text": "7) Main Review 수행",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-16. Technology Readiness Level",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "보할 수 있다 그래서 새로운 도전적인 미션들은 이러한 기술검증이 부족한 영역이 존재하기 .\n때문에 새로운 적용 기술은 이전에 초기 단계에서 검증할 필요가 있다 이러한 기술개발 , PDR .\n및 검증을 위한 계획을 작성하여야 한다 아래 그림은 일반적으로 기술성숙도 기준을 나타내고 .\n있으며 이 기준을 가지고 기술성숙도를 평가한다 , .",
+        "after": "(Source: NASA SE Handbook)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 70,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          183.72,
+          93.84,
+          411.36,
+          327.72
+        ],
+        "page_area_fraction": 0.1062
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 990,
+    "heading_candidates": [],
+    "section_context_candidate": "7) Main Review 수행",
+    "prior_heading_candidate": {
+      "text": "7) Main Review 수행",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-17. NASA 5x5 Risk Matrix",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "션을 위해서 사용하는 일반적인 자료인 NASA 5x5 Matrix를 활용한다 이 에서 . Matrix Risk level\n이 일반적으로 인 경우가 대부분이어야 하며 Low , Medium level이 되면 중점관리 대상이 되어\n야 한다 일반적으로 가 이 되는 대상이 나오면 우주미션을 하기 이전에 그 대 . Risk High level ,\n상에 대한 기술검증이 먼저 완료된 후 우주미션을 수행해야 한다.",
+        "after": "18) Interface & Configuration management\n시스템을 개발할 때 각 서브시스템 간의 인터페이스 및 형상 관리는 함께 이뤄져야 한다 이.\n러한 효율적 관리를 위해서 ICD(Interface Control Document) 문서를 작성해야 한다 각 서브시 .\n스템을 최종 제작할 때 이러한 인터페이스 관리는 긴밀한 팀웍을 통해서 실수가 없도록 해야",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 53,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.44,
+          472.2,
+          473.64,
+          644.52
+        ],
+        "page_area_fraction": 0.1211
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 380,
+    "heading_candidates": [],
+    "section_context_candidate": "7) Main Review 수행",
+    "prior_heading_candidate": {
+      "text": "7) Main Review 수행",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-18. Habex Error Budget 미션 분석 예시",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 44 -",
+        "after": "20) Mission operation plan 작성\n우주 미션을 수행하기 위해서 사전 우주망원경이 운영될 궤도 및 운영에 대한 계획을 검토\n해야 하고 그 운영개념을 로 작성해야 한다 이러한 운영개념은 미션 초기에 충분히 검 ConOps .\n토해야 하고 이 운영개념의 분석을 통해서 임무의 한계를 분명히 분석할 수 있다 또한 운영 , .",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 18,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.64,
+          537.12,
+          436.56,
+          785.28
+        ],
+        "page_area_fraction": 0.1376
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 874,
+    "heading_candidates": [],
+    "section_context_candidate": "7) Main Review 수행",
+    "prior_heading_candidate": {
+      "text": "7) Main Review 수행",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 67,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.88,
+          224.88,
+          503.28,
+          345.84
+        ],
+        "page_area_fraction": 0.1077
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 801,
+    "heading_candidates": [
+      "1. KASI 납품 비행모델 및 시험 결과 HDD EGSE"
+    ],
+    "section_context_candidate": "1. KASI 납품 비행모델 및 시험 결과 HDD EGSE",
+    "prior_heading_candidate": {
+      "text": "7) Main Review 수행",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-20.",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- CIBER2 과제 진행 중 진동 시험 중에 CIBER2 CIBER2-HDD 보드가 고장 나는 만일\n의 상황을 대비하여 CIBER2-HDD FM 1 보드를 장 추가로 제작하였음.\n- CIBER2 GSE software의 디버깅을 진행해서 로체스터 공과대학에서 개 채널 모두 , 3\n정상적으로 센서 데이터를 읽어내서 디코딩하는 것을 확인함 H2RG .",
+        "after": "CIBER2 시스템\nE-box . 모습 가장\n왼쪽 슬롯 곳에 2\n천문연이 제작한",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-21.",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "천문연이 제작한\nCIBER2-HDD\n보드 장이 2\n꽂혀있다.",
+        "after": "천문연이 추가로\n제작한 CIBER2-\nHDD . 보드\n그림 2-22. CIBER2 GSE 소프트웨어. CIBER2 3개 채널 영상 이미지를 얻고, raw data를 디코",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-22. CIBER2 GSE 소프트웨어. CIBER2 3개 채널 영상 이미지를 얻고, raw data를 디코",
+        "line_index": 24,
+        "toc_like": false,
+        "before": "그림 2-21.\n천문연이 추가로\n제작한 CIBER2-\nHDD . 보드",
+        "after": "딩해서 화면에 표시한 모습임 PC .\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 72,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.76,
+          392.16,
+          179.16,
+          543.36
+        ],
+        "page_area_fraction": 0.0342
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          316.56,
+          444.0,
+          435.96,
+          550.08
+        ],
+        "page_area_fraction": 0.0253
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          316.56,
+          390.96,
+          435.96,
+          444.0
+        ],
+        "page_area_fraction": 0.0126
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.84,
+          236.16,
+          525.24,
+          349.08
+        ],
+        "page_area_fraction": 0.1026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.84,
+          123.36,
+          525.24,
+          236.16
+        ],
+        "page_area_fraction": 0.1025
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 280,
+    "heading_candidates": [
+      "2. CIBER2 진동시험 결과",
+      "3. NASA Wallops Flight Center CIBER2 에서 조립 수행"
+    ],
+    "section_context_candidate": "2. CIBER2 진동시험 결과",
+    "prior_heading_candidate": {
+      "text": "1. KASI 납품 비행모델 및 시험 결과 HDD EGSE",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-23. CIBER2 로켓 조립 수행 모습",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 47 -\n2. CIBER2 진동시험 결과\n- CIBER2를 로켓에 전체 조립 후 진동 시험 수행\n- 진동시험 후 성능 확인 이상 없음",
+        "after": "3. NASA Wallops Flight Center CIBER2 에서 조립 수행\n그림 2-24. CIBER2 전자부 성능 시험 수행\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-24. CIBER2 전자부 성능 시험 수행",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "- CIBER2를 로켓에 전체 조립 후 진동 시험 수행\n- 진동시험 후 성능 확인 이상 없음\n그림 2-23. CIBER2 로켓 조립 수행 모습\n3. NASA Wallops Flight Center CIBER2 에서 조립 수행",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 17,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.16,
+          419.64,
+          505.92,
+          697.32
+        ],
+        "page_area_fraction": 0.2309
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.32,
+          66.48,
+          503.88,
+          341.76
+        ],
+        "page_area_fraction": 0.2266
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 371,
+    "heading_candidates": [],
+    "section_context_candidate": "3. NASA Wallops Flight Center CIBER2 에서 조립 수행",
+    "prior_heading_candidate": {
+      "text": "3. NASA Wallops Flight Center CIBER2 에서 조립 수행",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-25. CIBER2 탑재체 모듈 조립 모습",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 48 -",
+        "after": "4. CIBER2 (TBD) 발사\n- 2월부터 코로나 로 인해서 업무가 재택근무로 전환되면서 업무연기 발생 19 NASA\n- 미국의 코로나 상황에 따라서 년 발사가 힘들게 됨 19 2020 .\n- , 따라서 연초 성과목표로 제시되었던 발사 성공 은 년 목표로 수정 “CIBER2 ” 2021 .",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 30,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.76,
+          279.84,
+          468.24,
+          785.28
+        ],
+        "page_area_fraction": 0.3333
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 1361,
+    "heading_candidates": [
+      "1. 기본 분석 설계 검토 및 사전 자료 연구",
+      "2. 문헌 조사를 통한 광기계 연구 분석기법 및 마운팅 기법 조사",
+      "1) 개발하는 망원경 시스템의 목표성능을 달성하기 위해서는 광학계를 이루는 모든 광",
+      "3) 광기계 연구는 주경 부경 릴레이 렌즈 초점면 관측기기에 이르기까지 시스템 통합 , , ,"
+    ],
+    "section_context_candidate": "1. 기본 분석 설계 검토 및 사전 자료 연구",
+    "prior_heading_candidate": {
+      "text": "3. NASA Wallops Flight Center CIBER2 에서 조립 수행",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-26. Telescope assembly example (Source:",
+        "line_index": 14,
+        "toc_like": false,
+        "before": "운팅 형상에 따라 각 변형들이 광학적 성능에 어떻게 영향을 미치는지 함께 검토할 수 있을\n것으로 예상된다 이러한 결과들은 향후 차년도의 시스템의 통합 분석 성능 해석을 위한 기초 . 2\n데이터로 활용될 것이다 또한 이러한 연구들은 기존의 망원경의 사례를 함께 조사하고 그 망 . , ,\n원경의 마운팅 구조를 연구하고 그 결과들을 힘께 비교 연구할 것이다.",
+        "after": "Mounting Optics in Optical Instruments, 2008)\n2. 문헌 조사를 통한 광기계 연구 분석기법 및 마운팅 기법 조사\n1) 개발하는 망원경 시스템의 목표성능을 달성하기 위해서는 광학계를 이루는 모든 광\n학 소자들이 광학 성능을 유지할 수 있도록 적합한 방식으로 마운팅하는 기법을 필요로",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 58,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.96,
+          299.04,
+          444.12,
+          514.92
+        ],
+        "page_area_fraction": 0.1263
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 704,
+    "heading_candidates": [],
+    "section_context_candidate": "3) 광기계 연구는 주경 부경 릴레이 렌즈 초점면 관측기기에 이르기까지 시스템 통합 , , ,",
+    "prior_heading_candidate": {
+      "text": "3) 광기계 연구는 주경 부경 릴레이 렌즈 초점면 관측기기에 이르기까지 시스템 통합 , , ,",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 36,
+      "3": 14,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.88,
+          523.08,
+          304.56,
+          574.08
+        ],
+        "page_area_fraction": 0.0237
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.88,
+          472.08,
+          304.56,
+          523.08
+        ],
+        "page_area_fraction": 0.0237
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.88,
+          421.32,
+          304.56,
+          472.08
+        ],
+        "page_area_fraction": 0.0236
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.44,
+          521.4,
+          523.32,
+          571.32
+        ],
+        "page_area_fraction": 0.0218
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.44,
+          471.48,
+          523.32,
+          521.4
+        ],
+        "page_area_fraction": 0.0218
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.44,
+          421.8,
+          523.32,
+          471.48
+        ],
+        "page_area_fraction": 0.0217
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.64,
+          321.48,
+          297.24,
+          395.4
+        ],
+        "page_area_fraction": 0.0337
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.64,
+          247.68,
+          297.24,
+          321.48
+        ],
+        "page_area_fraction": 0.0337
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.24,
+          347.16,
+          526.56,
+          397.08
+        ],
+        "page_area_fraction": 0.0228
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.24,
+          297.24,
+          526.56,
+          347.16
+        ],
+        "page_area_fraction": 0.0228
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.24,
+          247.32,
+          526.56,
+          297.24
+        ],
+        "page_area_fraction": 0.0228
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.56,
+          186.0,
+          305.64,
+          240.72
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.56,
+          131.28,
+          305.64,
+          186.0
+        ],
+        "page_area_fraction": 0.026
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.56,
+          76.56,
+          305.64,
+          131.28
+        ],
+        "page_area_fraction": 0.026
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 1437,
+    "heading_candidates": [
+      "3. 미러의 소재 크기 두께에 따른 미러 변형 연구 , ,"
+    ],
+    "section_context_candidate": "3. 미러의 소재 크기 두께에 따른 미러 변형 연구 , ,",
+    "prior_heading_candidate": {
+      "text": "3) 광기계 연구는 주경 부경 릴레이 렌즈 초점면 관측기기에 이르기까지 시스템 통합 , , ,",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 107,
+      "2": 93,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 1172,
+    "heading_candidates": [
+      "4. 우주망원경의 에서 FPI relay optics configuration 조사연구"
+    ],
+    "section_context_candidate": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+    "prior_heading_candidate": {
+      "text": "3. 미러의 소재 크기 두께에 따른 미러 변형 연구 , ,",
+      "pdf_page": 52
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-28. Optical layout of relay lens",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "레이 광학계는 한 장의 렌즈 또는 그룹으로 구성되고 반사 릴레이 광학계의 경우 릴레 , , offner\n이 또는 다양한 그 유사 형태로 구성될 수 있다 여기서는 잘 알려진 우주망원경인 .\nJWST(James Webb Space Telescope), EUCLID, Solar orbir 그리고 에 적용된 릴레이 광학구성에\n대해 기술하였다.",
+        "after": "그림 2-29. Optical layout of Offner relay\n가 사례 . 1 JWST : James Webb Space Telescope –\nJWST 18 는 개의 조각거울로 이루어진 직경 미터의 주경을 갖는 우주망원경으로 지구로부터 6.5\n1,500,000 킬로미터 떨어진 Earth Sun L2 (Lagrange point) – 에서 근적외선과 중적외선에서 관측",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-29. Optical layout of Offner relay",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "이 또는 다양한 그 유사 형태로 구성될 수 있다 여기서는 잘 알려진 우주망원경인 .\nJWST(James Webb Space Telescope), EUCLID, Solar orbir 그리고 에 적용된 릴레이 광학구성에\n대해 기술하였다.\n그림 2-28. Optical layout of relay lens",
+        "after": "가 사례 . 1 JWST : James Webb Space Telescope –\nJWST 18 는 개의 조각거울로 이루어진 직경 미터의 주경을 갖는 우주망원경으로 지구로부터 6.5\n1,500,000 킬로미터 떨어진 Earth Sun L2 (Lagrange point) – 에서 근적외선과 중적외선에서 관측\n을 수행한다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 56,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.44,
+          492.36,
+          452.76,
+          626.88
+        ],
+        "page_area_fraction": 0.0833
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.76,
+          301.44,
+          430.32,
+          450.6
+        ],
+        "page_area_fraction": 0.079
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 975,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+    "prior_heading_candidate": {
+      "text": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-30. JWST JWST 이미지와 광학계의 개념도",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "(reimaging)이 되는 광학설계와 재결상이 없는 광학설계가 있다 전자의 경우에 해당하는 경우 .\n가 타입 이고 에서 와 용도로 사용되는 가 후자에 해당 Korsh TMA JWST collimator focusing TMA\n한다 를 적용할 경우 파장 의존성과 수차의 최소화할 수 있는 잇점이 있지만 공간구성 . TMA , ,\n과 구현의 난이도를 고려하여 설계를 적용해야 한다 TMA .",
+        "after": "(1) NIRISS Optics\nNIRSS(Near Infrared Imager and Slitless Spectrograph)는 릴레이 구성으로 두 개의 구성을 TMA\n사용하고 있다 이 모두 반사면으로 구성되어 있다 주광학계의 초점면에 위치한 . . JWST\npick-off mirror (POM)를 통해 반사된 빛은 three-mirror collimator assembly(collimator TMA),",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-31. Schematic of NIRISS optical path",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "사용하고 있다 이 모두 반사면으로 구성되어 있다 주광학계의 초점면에 위치한 . . JWST\npick-off mirror (POM)를 통해 반사된 빛은 three-mirror collimator assembly(collimator TMA),\ndual pupil/filter wheel assembly, three-mirror camera assembly(camera TMA)를 거쳐 초점면에\n결상된다.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 46,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.84,
+          472.8,
+          301.08,
+          603.84
+        ],
+        "page_area_fraction": 0.0518
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.6,
+          471.84,
+          492.36,
+          609.24
+        ],
+        "page_area_fraction": 0.0509
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.32,
+          81.6,
+          455.76,
+          342.12
+        ],
+        "page_area_fraction": 0.1645
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 173,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+    "prior_heading_candidate": {
+      "text": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-32. Optical layout of NIRISS",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 54 -",
+        "after": "그림 2-33. Solid body rendering of NIRISS >\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-33. Solid body rendering of NIRISS >",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 54 -\n그림 2-32. Optical layout of NIRISS",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          134.16,
+          485.52,
+          460.92,
+          785.28
+        ],
+        "page_area_fraction": 0.1954
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.72,
+          101.4,
+          504.48,
+          408.6
+        ],
+        "page_area_fraction": 0.2536
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 389,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+    "prior_heading_candidate": {
+      "text": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-34. Solid body rendering of MIRI",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "(2) MIRI Optics\nMIRI(Mid-Infrared Instrument)Imager 18-station filter wheel, coronagraphic masks, 는 그리고\nsingle 1k × 1k pixel mid-infrared detector로 구성되어 있다 의 경우 결상을 위해 . MIRI\ndetector 앞 광학구성이 로 되어 있다 TMA .",
+        "after": "그림 2-35. optical design and path of MIRI\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-35. optical design and path of MIRI",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "MIRI(Mid-Infrared Instrument)Imager 18-station filter wheel, coronagraphic masks, 는 그리고\nsingle 1k × 1k pixel mid-infrared detector로 구성되어 있다 의 경우 결상을 위해 . MIRI\ndetector 앞 광학구성이 로 되어 있다 TMA .\n그림 2-34. Solid body rendering of MIRI",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 15,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.68,
+          373.44,
+          458.64,
+          697.32
+        ],
+        "page_area_fraction": 0.208
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.92,
+          104.88,
+          311.64,
+          296.4
+        ],
+        "page_area_fraction": 0.0966
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          311.64,
+          105.48,
+          536.28,
+          293.4
+        ],
+        "page_area_fraction": 0.0842
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 491,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+    "prior_heading_candidate": {
+      "text": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-36. schematic of the NIRSpec optical path",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "NIRSpec(Near Infrared Spectrograph) Micro-Shutter Assembly (MSA), Integral Field Unit 는\n(IFU), Fixed Slits (FSs) 그리고 로 구성되어 있으며, 0.6 5.3 m near-IR spectroscopy – μ 대역의 를\n제공한다 에서는 광 릴레이를 위해 개의 . NIRSpec 3 TMA(Fore-optics TMA, Collimator TMA,\nCamera TMA) 구성이 포함되어 있다",
+        "after": "그림 2-37. detailed schematic of NIRSpec's optical path\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-37. detailed schematic of NIRSpec's optical path",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "(IFU), Fixed Slits (FSs) 그리고 로 구성되어 있으며, 0.6 5.3 m near-IR spectroscopy – μ 대역의 를\n제공한다 에서는 광 릴레이를 위해 개의 . NIRSpec 3 TMA(Fore-optics TMA, Collimator TMA,\nCamera TMA) 구성이 포함되어 있다\n그림 2-36. schematic of the NIRSpec optical path",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 20,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          484.08,
+          510.12,
+          679.68
+        ],
+        "page_area_fraction": 0.1659
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.6,
+          150.48,
+          462.6,
+          424.68
+        ],
+        "page_area_fraction": 0.1805
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 640,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+    "prior_heading_candidate": {
+      "text": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-38. Opto-mechanical design of NIRSpec",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 57 -",
+        "after": "나 사례 . 2 EUCLID –\nEuclid 우주망원경은 주경이 aperture stop 0.45 deg off-axis field Korsch 이 되는 의 를 갖는 타\n입 광학계이다 TMA Entrance pupil diameter 1.2 m , 0.79 × 1.16 deg² 는 이고 차폐없이 의\nFOV . 를 갖는다 dichroic mirror를 빔스플리터로 사용하여 각각의 관측기기에 분기된 빛을 보낸",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-39. Euclid Solid body rendering 의 과 광학구성도",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "다 관측기기로서 . NISP(Near-infrared Spectrometer and Photometer) VIS(Visual Imager) 와 가 있\n다 로는 릴레이 광학구성 없이 직접 결상이 이루어지며 의 경우 근적외선 분광을 위 . VIS , NISP ,\n해 와 전과 후 렌즈 구성을 이용해 시준과 결상 역할을 하는 릴레이 렌즈구성이 filter Grism ,\n포함되어 있다.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 35,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          584.04,
+          510.12,
+          785.28
+        ],
+        "page_area_fraction": 0.1707
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.96,
+          517.08,
+          510.12,
+          584.04
+        ],
+        "page_area_fraction": 0.0568
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.52,
+          90.12,
+          451.56,
+          316.92
+        ],
+        "page_area_fraction": 0.1394
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 238,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+    "prior_heading_candidate": {
+      "text": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-40. Euclid Solid body rendering 의",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 58 -",
+        "after": "그림 2-41. Euclid optical design 의\n그림 2-42. NISP (cold part) before thermal Multi Layer installation\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-41. Euclid optical design 의",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 58 -\n그림 2-40. Euclid Solid body rendering 의",
+        "after": "그림 2-42. NISP (cold part) before thermal Multi Layer installation\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-42. NISP (cold part) before thermal Multi Layer installation",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 58 -\n그림 2-40. Euclid Solid body rendering 의\n그림 2-41. Euclid optical design 의",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 9,
+      "3": 3,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          181.32,
+          603.84,
+          413.76,
+          785.28
+        ],
+        "page_area_fraction": 0.0841
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.84,
+          362.04,
+          450.36,
+          579.6
+        ],
+        "page_area_fraction": 0.1326
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.68,
+          81.12,
+          479.52,
+          320.28
+        ],
+        "page_area_fraction": 0.1736
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 1247,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+    "prior_heading_candidate": {
+      "text": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-43. Schematic views of Metis coronagraph ray-tracings",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "서 와 에서 의 거리를 갖는 타원 궤도로 임무를 수행함 아래 그림은 1.2AU perihelion 0.28AU .\nsolar orbiter의 탑재체인 Metis coronagraph ray-tracing을 나타내는 그림이다 아래 그림의 . VL\nchannel의 하단에 CD(Collimating Doublet) FLS(Focusing Lens System) 와 로 표시된 부분이 시\n준과 결상역할을 수행하는 릴레이 광학요소들이다.",
+        "after": "상) UV channel; ) VL channel. ) coronal light optical path 하 그림 상 은 의 을 나타내고 그림 ,\n하 는 에 차단된 ) M0 sun disk edge로부터 나온 빛을 보여준다.\n각 구성요소에 대한 약어 설명\nIEO: inverted external occulter; M0, M1 and M2 are the mirrors along the Metis optical path;",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-44. Metis polarimeter (VL channel) Optical Lauout 의",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "LS:Lyot Stop; IO: Internal Occulter; FS: Field Stop; IF: Interference Filter; UV/VL FP:\nUltraViolet / Visible LightFocal Plane; CD: Collimating Doublet; BP: Band Pass filter; QW:\nQuarter Wave plate; PMP: PolarizationModule Package; LP: Linear Polarizer; FLS: Focusing\nLens System.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 53,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.88,
+          447.48,
+          466.2,
+          626.88
+        ],
+        "page_area_fraction": 0.1207
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.96,
+          72.6,
+          471.12,
+          247.32
+        ],
+        "page_area_fraction": 0.121
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 630,
+    "heading_candidates": [
+      "1. 청정실 청정도 유지를 위한 헤파필터 정기교체 수행"
+    ],
+    "section_context_candidate": "1. 청정실 청정도 유지를 위한 헤파필터 정기교체 수행",
+    "prior_heading_candidate": {
+      "text": "4. 우주망원경의 에서 FPI relay optics configuration 조사연구",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 49,
+      "3": 1166,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          194.64,
+          248.52,
+          400.44,
+          331.08
+        ],
+        "page_area_fraction": 0.0339
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          194.64,
+          165.96,
+          400.44,
+          248.52
+        ],
+        "page_area_fraction": 0.0339
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          194.64,
+          83.64,
+          400.44,
+          165.96
+        ],
+        "page_area_fraction": 0.0338
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 387,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 청정실 청정도 유지를 위한 헤파필터 정기교체 수행",
+    "prior_heading_candidate": {
+      "text": "1. 청정실 청정도 유지를 위한 헤파필터 정기교체 수행",
+      "pdf_page": 61
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-47. KASINICS 필터 교체 현황",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "KASINICS 근적외선카메라 약 년 사용 중 의 성능 업그레이드를 위해서 필터 세 ( 12 ) 2\n트 교체 작업 수행 지원\n- 실험실 청정부스에서 분해 작업 후 필터 교체 수행후 다시 재조립 수행 지원\n- 보현산천문대에서 시험 관측 수행 정상 운영 중 ( )",
+        "after": "그림 2-48. KASINICS 필터 교체 모습\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-48. KASINICS 필터 교체 모습",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "트 교체 작업 수행 지원\n- 실험실 청정부스에서 분해 작업 후 필터 교체 수행후 다시 재조립 수행 지원\n- 보현산천문대에서 시험 관측 수행 정상 운영 중 ( )\n그림 2-47. KASINICS 필터 교체 현황",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 26,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.76,
+          539.64,
+          518.28,
+          662.04
+        ],
+        "page_area_fraction": 0.1054
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.76,
+          417.36,
+          518.28,
+          539.64
+        ],
+        "page_area_fraction": 0.1053
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.64,
+          239.76,
+          538.56,
+          374.64
+        ],
+        "page_area_fraction": 0.1297
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.64,
+          104.88,
+          538.56,
+          239.76
+        ],
+        "page_area_fraction": 0.1297
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 1250,
+    "heading_candidates": [
+      "4. 차세대중형위성 호용 탑재체 및 탑재체 개발 3 KGRB GRM"
+    ],
+    "section_context_candidate": "4. 차세대중형위성 호용 탑재체 및 탑재체 개발 3 KGRB GRM",
+    "prior_heading_candidate": {
+      "text": "1. 청정실 청정도 유지를 위한 헤파필터 정기교체 수행",
+      "pdf_page": 61
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-49. CsI 검출기 모습 그림 2-50. GRM 전자부 보드 모습",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "를 이용하여 의 GRB Localization을 수행할 예정이다 현재 . GRM FM #1의 조립이 이루어졌으\n며 는 프로젝트 진행 일정에 맞춰서 추가로 동일한 과정으로 조립이 진행될 예 , #2 ~ #4 SNIPE\n정이다 아래 사진에 을 구성하는 검출기 및 전자부 보드 사진들과 의 . GRM FM CsI , GRM FM\n조립 절차별로 조립된 모습을 표시하였다.",
+        "after": "그림 2-51. GRM-AMP\n보드 조립\n그림 2-52. GRM-MPU\n보드 조립",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-51. GRM-AMP",
+        "line_index": 19,
+        "toc_like": false,
+        "before": "며 는 프로젝트 진행 일정에 맞춰서 추가로 동일한 과정으로 조립이 진행될 예 , #2 ~ #4 SNIPE\n정이다 아래 사진에 을 구성하는 검출기 및 전자부 보드 사진들과 의 . GRM FM CsI , GRM FM\n조립 절차별로 조립된 모습을 표시하였다.\n그림 2-49. CsI 검출기 모습 그림 2-50. GRM 전자부 보드 모습",
+        "after": "보드 조립\n그림 2-52. GRM-MPU\n보드 조립\n그림 2-53. GRM FM",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-52. GRM-MPU",
+        "line_index": 21,
+        "toc_like": false,
+        "before": "조립 절차별로 조립된 모습을 표시하였다.\n그림 2-49. CsI 검출기 모습 그림 2-50. GRM 전자부 보드 모습\n그림 2-51. GRM-AMP\n보드 조립",
+        "after": "보드 조립\n그림 2-53. GRM FM\n#1 조립 완성\n그림 2-54. GRM FM",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-53. GRM FM",
+        "line_index": 23,
+        "toc_like": false,
+        "before": "그림 2-51. GRM-AMP\n보드 조립\n그림 2-52. GRM-MPU\n보드 조립",
+        "after": "#1 조립 완성\n그림 2-54. GRM FM\n#1에 이리디움 모듈\n결합함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "그림 2-54. GRM FM",
+        "line_index": 25,
+        "toc_like": false,
+        "before": "그림 2-52. GRM-MPU\n보드 조립\n그림 2-53. GRM FM\n#1 조립 완성",
+        "after": "#1에 이리디움 모듈\n결합함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 85,
+      "3": 18,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          61.8,
+          368.16,
+          301.56,
+          484.68
+        ],
+        "page_area_fraction": 0.0557
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.96,
+          369.6,
+          543.6,
+          483.24
+        ],
+        "page_area_fraction": 0.053
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 1267,
+    "heading_candidates": [
+      "5. 탑재체 활용 연구"
+    ],
+    "section_context_candidate": "5. 탑재체 활용 연구",
+    "prior_heading_candidate": {
+      "text": "4. 차세대중형위성 호용 탑재체 및 탑재체 개발 3 KGRB GRM",
+      "pdf_page": 63
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 74,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 1251,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 탑재체 활용 연구",
+    "prior_heading_candidate": {
+      "text": "5. 탑재체 활용 연구",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 127,
+      "2": 21,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 650,
+    "heading_candidates": [
+      "2 제 절 당초 연구개발 목표 및 연차점검의 주요 착안점"
+    ],
+    "section_context_candidate": "2 제 절 당초 연구개발 목표 및 연차점검의 주요 착안점",
+    "prior_heading_candidate": {
+      "text": "5. 탑재체 활용 연구",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 71,
+      "2": 20,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 736,
+    "heading_candidates": [
+      "3 제 절 목표 달성도"
+    ],
+    "section_context_candidate": "3 제 절 목표 달성도",
+    "prior_heading_candidate": {
+      "text": "2 제 절 당초 연구개발 목표 및 연차점검의 주요 착안점",
+      "pdf_page": 66
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 64,
+      "2": 17,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 457,
+    "heading_candidates": [],
+    "section_context_candidate": "3 제 절 목표 달성도",
+    "prior_heading_candidate": {
+      "text": "3 제 절 목표 달성도",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 27,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 1239,
+    "heading_candidates": [],
+    "section_context_candidate": "3 제 절 목표 달성도",
+    "prior_heading_candidate": {
+      "text": "3 제 절 목표 달성도",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 133,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 3041,
+    "heading_candidates": [
+      "1. 국가 우주개발 중장기 계획 관계부처 합동 , 2013,"
+    ],
+    "section_context_candidate": "1. 국가 우주개발 중장기 계획 관계부처 합동 , 2013,",
+    "prior_heading_candidate": {
+      "text": "3 제 절 목표 달성도",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 66,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 265,
+    "heading_candidates": [
+      "1. 이 보고서는 한국천문연구원에서 시행한 년도 주요사업의 연구보고서입니다 2020 .",
+      "2. 이 보고서 내용을 발표하는 때에는 반드시 한국천문연구원에서 시행한 주요사업의",
+      "3. 국가과학기술 기밀 유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는"
+    ],
+    "section_context_candidate": "1. 이 보고서는 한국천문연구원에서 시행한 년도 주요사업의 연구보고서입니다 2020 .",
+    "prior_heading_candidate": {
+      "text": "1. 국가 우주개발 중장기 계획 관계부처 합동 , 2013,",
+      "pdf_page": 70
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 9,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

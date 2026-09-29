@@ -1,0 +1,1050 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 186,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 387,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 83,
+      "3": 2,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 890,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 197,
+      "3": 1,
+      "2": 69,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1549,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 352,
+      "2": 23,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 674,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 44,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1022,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "가. 연구개발 기본 개념도"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 223,
+      "3": 163,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.45,
+          512.32,
+          538.39,
+          709.15
+        ],
+        "page_area_fraction": 0.1868
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 867,
+    "heading_candidates": [
+      "나. 연구배경"
+    ],
+    "section_context_candidate": "나. 연구배경",
+    "prior_heading_candidate": {
+      "text": "가. 연구개발 기본 개념도",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1] 좌측: 대한민국 심방세동 2006-2015년 기간의 연간 유병률,",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "Ÿ 심방세동은 가장 흔한 부정맥으로 전체 유병률은 2% 정도로 특히 60세 이상 인구의\n5%, 80세 이상의 15%에서 발견됨. Ÿ 심방세동은 허혈성 뇌졸중의 위험을 5배 증가키고 (연간6-10%),(3-9) 심부전증을 초래\n하고 (30%),치매의 원인을 제공함. Ÿ 심방세동 환자의 총 사망률은 일반인구에 비해 2배 가량 증가함. Ÿ 노령화 인구비율의 증가에 따라 심방세동으로 인한 입원률, 의료비 지출이 전 세계적으\n로 증가 추세임.",
+        "after": "우측: 대한민국 심방세동의 예측 유병률. (Am Heart J 2018)\n¡ 심방세동의 분류와 진행성\nŸ 심방세동은 발현 양상, 지속 기간, 심방세동의 자발적 종료 여부에 따라 전통적으로 다\n섯 가지 (처음으로 진단된 심방세동, 발작성 심방세동, 지속성 심방세동, 장기간의 지속",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 13,
+      "1": 221,
+      "3": 132,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.95,
+          281.09,
+          558.9,
+          479.72
+        ],
+        "page_area_fraction": 0.1826
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          316.27,
+          280.49,
+          538.27,
+          465.81
+        ],
+        "page_area_fraction": 0.0822
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 948,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구배경",
+    "prior_heading_candidate": {
+      "text": "나. 연구배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 1] 심방세동의 패턴",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "3",
+        "after": "Ÿ 심방세동은 심전도 상 전형적인 심방세동의 패턴 (명확히 구분할 수 있는 p파가 없으며\n불규칙한 RR 간격)을 기록함으로써 이루어지는데 시간이 지남에 따라 많은 환자들이\n지속적인 형태의 심방세동으로 진행하게 되며 또한 일부에서는 지속성에서 발작성으로\n진행함.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 2] 심방세동은 진행(progression)하는 질환으로 발작성(paroxysmal)에서 시작해 지속",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "Ÿ 심방세동은 심전도 상 전형적인 심방세동의 패턴 (명확히 구분할 수 있는 p파가 없으며\n불규칙한 RR 간격)을 기록함으로써 이루어지는데 시간이 지남에 따라 많은 환자들이\n지속적인 형태의 심방세동으로 진행하게 되며 또한 일부에서는 지속성에서 발작성으로\n진행함.",
+        "after": "성(persistent)을 거쳐 영속성(permanent)으로 변화하며 이에 따라 치료가 점점 어려워짐 .\n(Circ Res. 2014;114:1483-1499.)\n심방세동의 패턴 정의\n처음으로 진단된",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 32,
+      "1": 201,
+      "3": 131,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          108.3,
+          145.04,
+          520.52,
+          338.99
+        ],
+        "page_area_fraction": 0.1598
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 805,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구배경",
+    "prior_heading_candidate": {
+      "text": "나. 연구배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 3] 최근 10년간 우리나라 심방세동 관련 입원률과 입원비용 및 사망률의 변화:",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "Ÿ 우리나라에서 심방세동에 의한 입원은 백만명당 2006년 767명에서 2015년 3986명으로\n4배 이상이 증가하였고, 대부분이 70세 이상으로 고혈압, 심부전, 만성폐질환등의 합병증을\n동반하는 경우가 많았음. 동일 기간에 의료비는 5.7배 이상이 증가함 (Korean Circ J\n2017; Heart J 2018).",
+        "after": "한국 건강보험공단 데이터 (백용수 등, Korean Circ J 2017;47(1):56-64)\nŸ 심방세동은 전체 허혈성 뇌경색 원인의 약 20-30%를 차지하며, 심방세동이 있는 환자\n는 연 6-10% 허혈성 뇌졸중의 위험이 있음이 알려짐. Ÿ 또한 심방세동은 심부전증을 초래하고, 사망률을 2배로 증가시킴. 여러 치료에도 불구\n하고 심방세동의 사망률은 매년 증가하고 있음.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 4] 원인불명의 뇌졸중 환자에서 약 30% 넘게 심방세동이 발견됨",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "한국 건강보험공단 데이터 (백용수 등, Korean Circ J 2017;47(1):56-64)\nŸ 심방세동은 전체 허혈성 뇌경색 원인의 약 20-30%를 차지하며, 심방세동이 있는 환자\n는 연 6-10% 허혈성 뇌졸중의 위험이 있음이 알려짐. Ÿ 또한 심방세동은 심부전증을 초래하고, 사망률을 2배로 증가시킴. 여러 치료에도 불구\n하고 심방세동의 사망률은 매년 증가하고 있음.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 206,
+      "3": 116,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.28,
+          405.4,
+          538.27,
+          571.9
+        ],
+        "page_area_fraction": 0.1517
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          326.34,
+          102.01,
+          538.27,
+          252.92
+        ],
+        "page_area_fraction": 0.0639
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.22,
+          101.89,
+          326.34,
+          252.56
+        ],
+        "page_area_fraction": 0.066
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 786,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구배경",
+    "prior_heading_candidate": {
+      "text": "나. 연구배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 5] 고식적 방법으로는 부정맥 발견의 낮은 yield 의 문제가 있음. (Ben Freedman,",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "5\nŸ 원인불명의 뇌졸중환자에서 발견 못한 심방세동이 약 1/3 가량의 원인임. (Sanna T et\nal. N Eng J Med. 2014;370:2478-86)",
+        "after": "JAMA Cardiology 2019, Vol 4 Number 2)\n¡ 심방세동의 치료\nŸ 심방세동의 적절한 치료로 정상리듬을 유지할 경우 유의한 사망률의 감소와 삶의\n질 개선이 입증됨. Ÿ 그러나, 심방세동을 포함한 부정맥 질환은 약제 반응성이 낮고, 약제 독성으로 인한",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 12,
+      "1": 217,
+      "3": 111,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.87,
+          457.66,
+          576.53,
+          743.43
+        ],
+        "page_area_fraction": 0.2751
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1559,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구배경",
+    "prior_heading_candidate": {
+      "text": "나. 연구배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 470,
+      "3": 220,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 916,
+    "heading_candidates": [
+      "2. 연구수행내용 및 성과",
+      "2-1. 연구수행내용 및 성과"
+    ],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "나. 연구배경",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 236,
+      "3": 93,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 649,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 6] 12-lead ECG based CNN 모델 개발",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "8\nü 본 연구의 목표를 달성하기 위해 아래와 같은 접근 방법을 취함",
+        "after": "ü 기존 연구의 경우 Lead II 파형만을 대상으로 분류하기 때문에 Real-Normal VS.\nPAF-Normal 및 PAF-Abnormal VS. CAF-Abnormal를 판별하는 데에는 한계가 있음\nü 이에, 본 연구는 12리드 표준 심전도 파형을 모두 고려하여 목적한 판별 기능을 구현하\n고자 함",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 14,
+      "1": 193,
+      "3": 89,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          585.2,
+          531.55,
+          621.64
+        ],
+        "page_area_fraction": 0.0322
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          631.23,
+          538.39,
+          735.16
+        ],
+        "page_area_fraction": 0.0933
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          453.82,
+          524.72,
+          570.82
+        ],
+        "page_area_fraction": 0.1018
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 789,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 7] De-trending에서 Training dataset 으로의 과정",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "9",
+        "after": "¡ Frequency-domain으로 변환\nŸ Frequency-domain으로 변환하는 기법은 MFCC 또는 Mel Spectrogram기법을 사용함\nŸ Mel Frequency Cepstral Coefficient(MFCC)란 비선형 mel-scale frequency에 대한 로\n그 파워 스펙트럼의 선형 코사인 변환에 기반한 단기 파워 스펙트럼을 의미",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 8] MFCC로 변환한 예",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "그 파워 스펙트럼의 선형 코사인 변환에 기반한 단기 파워 스펙트럼을 의미\nŸ 주로 입력된 신호에서 노이즈 및 배경 소리로 부터 실제 유효한 소리의 특징을 추출하\n는데 쓰이는 기법이며 입력된 소리 전체를 대상으로 하는 것이 아니라, 일정 구간\n(Short time)식 나누어, 이 구간에 대한 스펙트럼을 분석하여 특징을 추출하는 기법임",
+        "after": "(Real-Normal 심전도와 발작성 심방세동환자가 가지는 정상 심전도의 차이)\nŸ Spectrogram은 소리나 파동을 시각화하여 파악하기 위한 도구로, 파형(waveform)과\n스펙트럼(spectrum)의 특징이 조합되어 있음\nŸ 파형에서는 시간축의 변화에 따른 진폭 축의 변화를 볼 수 있고, 스펙트럼에서는 주",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 13,
+      "1": 248,
+      "3": 108,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.63,
+          655.92,
+          538.39,
+          770.28
+        ],
+        "page_area_fraction": 0.1007
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.46,
+          284.45,
+          538.27,
+          487.99
+        ],
+        "page_area_fraction": 0.1704
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 328,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 9] Mel Spectrogram으로 변환한 예",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "10",
+        "after": "¡ GAN으로 Data augmentation\nŸ 부족한 ECG데이타를 보강하기 위해 Deep Convolutional Generative Adversarial\nNetwork (DCGAN)을 이용하여 데이터셋을 증강함(Data Augmentation)\n[그림 10] Data augmentation by Generative Adversarial Network",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 10] Data augmentation by Generative Adversarial Network",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[그림 9] Mel Spectrogram으로 변환한 예\n¡ GAN으로 Data augmentation\nŸ 부족한 ECG데이타를 보강하기 위해 Deep Convolutional Generative Adversarial\nNetwork (DCGAN)을 이용하여 데이터셋을 증강함(Data Augmentation)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 13,
+      "1": 65,
+      "3": 14,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.28,
+          588.68,
+          451.68,
+          770.28
+        ],
+        "page_area_fraction": 0.1094
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.54,
+          265.75,
+          538.27,
+          474.92
+        ],
+        "page_area_fraction": 0.1809
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1058,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 11] CNN기반 심방세동 패턴별 분석 비교",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "11\n¡ CNN기반 Real-Normal VS. PAF-Normal 및 PAF-Abnormal VS. CAF-Abnormal의 판별",
+        "after": "나. Recurrent Neural Network(RNN) 기법\n¡ 측정 기관 및 데이터\nŸ Dataset은 모두 normal case분류되는 ECG만을 포함하고 두 가지 그룹으로 레이블링\n되어 있음. 모든 진단(true label)과 심전도 데이터는 인하대학교 병원에서 심장내과 전",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 12,
+      "1": 338,
+      "3": 129,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.94,
+          561.11,
+          538.27,
+          736.35
+        ],
+        "page_area_fraction": 0.1486
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1212,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 12] 정상 동율동에서 발작성 심방세동을 예측하기위한 적정 구간 탐지를 위한 실험.",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "가 나타나기 이전의 P-wave 부근에서의 신호로 가정함. 이러한 정보를 반영하여,\nQ지점을 기점으로 점진적으로 P-wave구간을 포함하는 방향으로 구간 크기를 늘려\n가면서 실험을 수행함. 즉, 20-180 샘플의 범위 내에서 10 샘플씩 늘려가면서 구간\n길이(sequence length)로 지정하여 실험하여 분류 정확도의 추이를 관측함.",
+        "after": "Ÿ 진단모델은 Sequential data를 처리하는 데에 있어 최근 각광받는 Recurrent Neural\nNetwork\n(RNN)을 기반으로 둠. RNN은 시간을 기준으로 연속적으로 발생하는 신호를 순차적으로\n입력 받으며, 각 시각마다 압축한 정보를 전달하여 다음의 time-step에서의 연산에 연결되",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 427,
+      "3": 175,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.75,
+          402.4,
+          538.27,
+          602.58
+        ],
+        "page_area_fraction": 0.181
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1191,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 389,
+      "3": 160,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 767,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 13] 입력신호의 1계 미분값을 이용한 분류 정확도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "14",
+        "after": "<특허 출원 및 등록 : KR05017, 2018.12, 피앤티 특허 “딥러닝을 이용한 정상동율동 심전도 상태\n에서의 발작성 심방세동 예측방법 ”> Patent No. 10-2156087 특허 등록 : 2020 9. 9\nü 본 연구진은 본대학교 심장내과 전문의와 공과대학 교수진들이 공동연구하여 심전도\nraw data를 텍스트 파일로 추출 변환 후 인공지능 딥러닝 RNN(Recurrent Neural",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 213,
+      "3": 115,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.62,
+          484.51,
+          417.26,
+          770.28
+        ],
+        "page_area_fraction": 0.1368
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 257,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 14] 본 연구진에 의해 개발된 인공지능 심방세동 예측도 프로그램 성능 (AI deep learning",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "15",
+        "after": "algorithm Performance to predict PAF)\n[그림 15] Optimal section detection for AF prediction during NSR\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 15] Optimal section detection for AF prediction during NSR",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "15\n[그림 14] 본 연구진에 의해 개발된 인공지능 심방세동 예측도 프로그램 성능 (AI deep learning\nalgorithm Performance to predict PAF)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 14,
+      "1": 34,
+      "3": 13,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          56.61,
+          352.89,
+          499.65,
+          479.0
+        ],
+        "page_area_fraction": 0.1116
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.89,
+          552.72,
+          458.99,
+          770.28
+        ],
+        "page_area_fraction": 0.1405
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 149,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 17] 흐름도 (Inha AI ECG algorithm system to detect PAF)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "16",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 15,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.33,
+          339.95,
+          487.3,
+          770.28
+        ],
+        "page_area_fraction": 0.3139
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 878,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 16] ESUS환자에서 심전도 AI 연구 흐름도(study flow chart)",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "이용하여 부정맥 detection 하는 것과 이후 삽입형 사건 기록기 (ILR) 시술을 하는\n것을 토대로 아래와 같은 study flow 대로 연구 추진을 진행함. Ÿ ESUS 환자에서 인공지능 심전도 분석 프로그램(AI EKG analysis program)을 이\n용하여 부정맥 detection 하는 것과 이후 삽입형 사건 기록기 (ILR) 시술을 하는 것\n을 토대로 아래와 같은 study flow 대로 연구 추진을 진행함.",
+        "after": "ü ESUS 로 진단 받은 환자들에게서 환자동의를 구한뒤 1:1 randomization 하여 인공지능\n심전도 분석 프로그램을 이용하여 신경과 의사가 management 한 그룹과 홀터등을 이\n용한 고식적 방법으로 management 한 그룹으로 나누어 primary outcome 은 ILR\nimplantation 율과 심방세동 등의 발견율 및 재발, 뇌경색의 재발 및 환자의 삶의 질 등",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 12,
+      "1": 261,
+      "3": 122,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.8,
+          436.92,
+          507.45,
+          647.53
+        ],
+        "page_area_fraction": 0.1493
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 178,
+    "heading_candidates": [],
+    "section_context_candidate": "2-1. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 17] AI 예측도에 따른 ESUS 환자의 Kaplan curve 분석",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "18",
+        "after": "(본 대학교 심장내과/신경과 공동 연구 진행 pilot study 결과)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 29,
+      "3": 12,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.98,
+          533.9,
+          494.97,
+          770.28
+        ],
+        "page_area_fraction": 0.1776
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 600,
+    "heading_candidates": [
+      "2-2. 대표적 성과 (총 5개 이내)"
+    ],
+    "section_context_candidate": "2-2. 대표적 성과 (총 5개 이내)",
+    "prior_heading_candidate": {
+      "text": "2-1. 연구수행내용 및 성과",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 79,
+      "1": 139,
+      "3": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 846,
+    "heading_candidates": [
+      "3. 목표 달성도 및 관련 분야 기여도",
+      "3-1. 목표"
+    ],
+    "section_context_candidate": "3. 목표 달성도 및 관련 분야 기여도",
+    "prior_heading_candidate": {
+      "text": "2-2. 대표적 성과 (총 5개 이내)",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 216,
+      "3": 124,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 1514,
+    "heading_candidates": [
+      "3-2. 목표 달성여부"
+    ],
+    "section_context_candidate": "3-2. 목표 달성여부",
+    "prior_heading_candidate": {
+      "text": "3-1. 목표",
+      "pdf_page": 25
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 41,
+      "1": 311,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1406,
+    "heading_candidates": [
+      "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)",
+      "4. 연구개발성과의 활용 계획 등"
+    ],
+    "section_context_candidate": "3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)",
+    "prior_heading_candidate": {
+      "text": "3-2. 목표 달성여부",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 37,
+      "1": 420,
+      "3": 196,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 3412,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 활용 계획 등",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 501,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 2174,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 연구개발성과의 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 활용 계획 등",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "2": 11,
+      "1": 291,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

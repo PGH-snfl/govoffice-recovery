@@ -1306,19 +1306,38 @@ class 복구한글어댑터:
             raise RuntimeError("한글 새 출력 문서를 만들지 못했습니다.")
         return 결과
 
-    def 선택영역서식내보내기(self) -> str:
+    def 선택영역서식내보내기(self, *, 선택텍스트검증: bool = False) -> str:
         한글 = self._현재대상()
+        # Read-only diagnostics: never include document text or personal values.
+        self.최근선택진단 = {"stage": "selection_check"}
 
         def 선택범위확인(후보: Any) -> bool | None:
             """블록 시작·끝을 직접 확인한다. API 미지원 때만 None을 반환한다."""
 
             try:
+                모드원본 = int(후보.SelectionMode)
+                모드 = 모드원본 & 0x0F
+                self.최근선택진단.update(selection_mode=모드원본, selection_kind=모드)
+                # HWPSEL_STRICT_MODE (0x10) can accompany keyboard selection.
+                # Cell blocks are not text ranges: GetSelectedPosBySet may fail
+                # or expose an equal caret pair even while cells are selected.
+                if 모드 == 3:
+                    return True
+                if 모드 == 0:
+                    return False
+            except (AttributeError, TypeError, ValueError):
+                pass
+            except Exception as 오류:
+                self.최근선택진단["mode_error"] = type(오류).__name__
+            try:
                 시작 = 후보.CreateSet("ListParaPos")
                 끝 = 후보.CreateSet("ListParaPos")
                 if 후보.GetSelectedPosBySet(시작, 끝) is False:
+                    self.최근선택진단["text_range_available"] = False
                     return False
                 시작위치 = tuple(int(시작.Item(이름)) for 이름 in ("List", "Para", "Pos"))
                 끝위치 = tuple(int(끝.Item(이름)) for 이름 in ("List", "Para", "Pos"))
+                self.최근선택진단["text_range_nonempty"] = 시작위치 != 끝위치
                 return 시작위치 != 끝위치
             except Exception:
                 # 구형/가짜 COM 객체는 위치 API를 제공하지 않을 수 있다. 이때는
@@ -1326,12 +1345,74 @@ class 복구한글어댑터:
                 return None
 
         def 선택영역읽기(후보: Any) -> str | None:
-            if 선택범위확인(후보) is False:
+            범위확인 = 선택범위확인(후보)
+            if 범위확인 is False:
                 return None
+            선택텍스트 = None
+            if 선택텍스트검증:
+                # Personal import must fail closed. The preset's compatibility
+                # fallback is not proof that a CURRENT block exists.
+                if 범위확인 is not True or self.최근선택진단.get("selection_kind") not in (1, 2, 3):
+                    self.최근선택진단["stage"] = "selection_unproven"
+                    raise ValueError("현재 선택 영역을 확인하지 못해 가져오기를 중단했습니다.")
+                try:
+                    선택전 = (int(후보.SelectionMode), tuple(후보.GetPos()))
+                    if self.최근선택진단.get("selection_kind") == 3:
+                        self.최근선택진단["stage"] = "selected_cell_scan"
+                        from govoffice.services.cell_selection import cell_cursor
+                        셀커서 = cell_cursor(str(후보.KeyIndicator()[-1]))
+                        if 셀커서 is None:
+                            raise ValueError("현재 셀 주소를 확인하지 못했습니다.")
+                        조각 = []
+                        종료됨 = False
+                        스캔시작 = time.monotonic()
+                        try:
+                            if not 후보.InitScan(7, 255):
+                                raise ValueError("한글이 선택 범위 읽기를 시작하지 못했습니다.")
+                            for _ in range(10000):
+                                상태, 텍스트 = 후보.GetText()
+                                if 상태 not in (0, 1, 2, 3, 4, 5):
+                                    raise ValueError("한글이 선택 셀 읽기를 완료하지 못했습니다.")
+                                조각.append(str(텍스트))
+                                if 상태 in (0, 1):
+                                    종료됨 = True
+                                    break
+                                if time.monotonic() - 스캔시작 > 5:
+                                    break
+                            if not 종료됨:
+                                raise ValueError("선택 범위 읽기 제한을 초과했습니다.")
+                            선택텍스트 = ''.join(조각)
+                        finally:
+                            후보.ReleaseScan()
+                    else:
+                        선택텍스트 = 후보.GetTextFile("UNICODE", "saveblock")
+                except Exception as 오류:
+                    self.최근선택진단["stage"] = "selection_text_unavailable"
+                    raise ValueError("현재 선택 영역의 텍스트를 확인하지 못했습니다.") from 오류
             try:
+                self.최근선택진단["stage"] = "saveblock"
                 결과 = 후보.GetTextFile("HWPML2X", "saveblock")
-            except Exception:
+            except Exception as 오류:
+                self.최근선택진단["export_error"] = type(오류).__name__
                 return None
+            self.최근선택진단["export_nonempty"] = isinstance(결과, str) and bool(결과.strip())
+            if 선택텍스트검증 and isinstance(결과, str) and 결과.strip():
+                self.최근선택진단["stage"] = "selection_text_crosscheck"
+                try:
+                    선택후 = (int(후보.SelectionMode), tuple(후보.GetPos()))
+                except Exception as 오류:
+                    raise ValueError("읽는 동안 선택 영역이 유지됐는지 확인하지 못했습니다.") from 오류
+                if 선택전 != 선택후:
+                    raise ValueError("읽는 동안 선택 영역이 바뀌어 가져오기를 중단했습니다.")
+                if self.최근선택진단.get("selection_kind") == 3:
+                    from govoffice.services.cell_selection import crop_scanned_cells
+                    결과, 셀진단 = crop_scanned_cells(결과, 선택텍스트, 셀커서)
+                    self.최근선택진단.update(셀진단)
+                    self.최근선택진단["stage"] = "selected_cells_extracted"
+                else:
+                    from govoffice.services.selection_scope import assert_same_selection_text
+                    assert_same_selection_text(결과, 선택텍스트)
+                self.최근선택진단["selection_text_matches"] = True
             return 결과 if isinstance(결과, str) and 결과.strip() else None
 
         # 원래 정상 동작하던 경로처럼 현재 연결 문서를 가장 먼저 읽는다.
@@ -1344,7 +1425,7 @@ class 복구한글어댑터:
 
         # 앱이 경로로 연 문서가 있으면 다른 수동 Hwp 창으로 연결 대상을 바꾸지
         # 않는다. 선택이 없다는 오류를 그대로 반환해 관리 문서를 지속 유지한다.
-        if self._관리대상 is not None:
+        if self._관리대상 is not None or 선택텍스트검증:
             raise ValueError(
                 "프로그램이 연 문서에서 선택 영역을 찾지 못했습니다. 저장할 영역을 "
                 "선택한 상태로 '선택 영역 저장'을 다시 누르세요."

@@ -1,0 +1,974 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 950,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 244,
+      "3": 1,
+      "2": 132,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 924,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구결과 요약문 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 2 -",
+        "after": "연구개요\n바퀴기반 고속 자율주행 로봇 플랫폼을 개발하고 모션 플랫폼을 이용한 동적균형제\n어 기술을 개발하여 탑재물에 가해지는 외력을 적절하게 상쇄시켜 안정적인 고속배\n달이 가능하도록 하는 제어 알고리즘 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 198,
+      "3": 3,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 880,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용 ·································································· 4",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 10",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 11"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용 ·································································· 4",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "붙임1 세부 정량적 연구개발성과",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "2. 연구개발과제의 수행 과정 및 수행 내용 ·································································· 4\n3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 10\n4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 11\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 11",
+        "after": "<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 15\n<붙임3 연구개발성과 활용계획서> ················································································ 22\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "3. 연구개발과제의 수행 결과 및 목표 달성 정도 ······················································ 10\n4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 11\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 11\n<붙임1 세부 정량적 연구개발성과> ·············································································· 12",
+        "after": "<붙임3 연구개발성과 활용계획서> ················································································ 22\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "붙임3 연구개발성과 활용계획서",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 11\n5. 연구개발성과의 관리 및 활용 계획 ·········································································· 11\n<붙임1 세부 정량적 연구개발성과> ·············································································· 12\n<붙임2 연구책임자 대표적 연구실적 및 증빙(요약문 및 사본)> ··························· 15",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 90,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1063,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "2. 연구개발과제의 수행 과정 및 수행 내용"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "4. 연구개발성과의 관련 분야에 대한 기여 정도 ························································ 11",
+      "pdf_page": 3
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "차륜구동방식의 고속 이동 플랫폼",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "(1차년도)\n▷ (연구내용) 차륜구동방식 및 전방향이동방식의 고속 이동 플랫폼 3D CAD 설계완료\n- 차륜구동방식의 고속 이동 플랫폼 설계 완료\n- 전방향이동방식의 고속 이동 플랫폼 설계 완료",
+        "after": "(2차년도)\n▷ (연구내용1) 3D Printing을 이용한 감속기 액츄에이터 모듈 개발\n- 3D Printing을 이용한 감속기는 유성기어 방식과 사이클로이드 기어 방식으로 개발함. - 모듈 형태로 설계되었으며 베어링, 핀, 볼트, 너트를 제외한 모든 부분이 3D 프린터를 이용해 제작됨. - 유성기어 감속기는 복합기어(Compound Gear)를 이용한 에피사이클(Epicycle) 유성 기어 구조임. - 에피사이클 유성기어 구조는 역구동성이 좋고 동력 전달 효율이 높음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "전방향이동방식의 고속 이동 플랫폼",
+        "line_index": 17,
+        "toc_like": false,
+        "before": "(1차년도)\n▷ (연구내용) 차륜구동방식 및 전방향이동방식의 고속 이동 플랫폼 3D CAD 설계완료\n- 차륜구동방식의 고속 이동 플랫폼 설계 완료\n- 전방향이동방식의 고속 이동 플랫폼 설계 완료",
+        "after": "(2차년도)\n▷ (연구내용1) 3D Printing을 이용한 감속기 액츄에이터 모듈 개발\n- 3D Printing을 이용한 감속기는 유성기어 방식과 사이클로이드 기어 방식으로 개발함. - 모듈 형태로 설계되었으며 베어링, 핀, 볼트, 너트를 제외한 모든 부분이 3D 프린터를 이용해 제작됨. - 유성기어 감속기는 복합기어(Compound Gear)를 이용한 에피사이클(Epicycle) 유성 기어 구조임. - 에피사이클 유성기어 구조는 역구동성이 좋고 동력 전달 효율이 높음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 270,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          28.78,
+          211.57,
+          358.49,
+          387.42
+        ],
+        "page_area_fraction": 0.1159
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          237.59,
+          228.11,
+          525.2,
+          381.54
+        ],
+        "page_area_fraction": 0.0882
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1360,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "표 1 3D 프린트로 제작가능한 유성기어 감속기와 사이클로이드 기어 감속기",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 5 -",
+        "after": "▷ (연구내용2) 메카넘 인-휠 모터 개발 및 고속 전방향 이동 플랫폼 개발\n- 전방향 이동을 위한 메카넘 휠은 보통 기어드 모터에 장착되기 때문에 길이방향으로 부피가 큼. - 이로 인해 플랫폼의 내부 공간이 좁아지고 배터리 부피를 키울 수 없어 운행시간이 줄어듬. - 메카넘 휠을 사용할 때는 반드시 서스펜션 장치를 이용하여 4개의 바퀴가 지면에 닿아 있어야 함. - 모터가 길이방향으로 긴 경우, 서스펜션의 설계가 복잡해지는 한계점이 있음. - 휠과 모터가 결합된 형태인 인-휠 모터를 사용하면 이를 해결할 수 있음. - 하지만 메카넘 인-휠 모터의 경우, 상용화된 사례가 거의 없고 있어도 매우 고가임.(대당\n300만원수준) - 따라서, 모바일 플랫폼 내부 공간 활용도를 높이며 고속주행이 가능하도록 감속기를 내장한\n사이클로이드 기어 기반의 메카넘 인-휠 모터를 개발함. - 메카넘 인-휠 모터는 3D 프린트로 제작된 사이클로이드 감속기 출력단 외륜부에 메카넘 롤러를",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "메카넘 인-휠 모터 설계도",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 전방향 이동을 위한 메카넘 휠은 보통 기어드 모터에 장착되기 때문에 길이방향으로 부피가 큼. - 이로 인해 플랫폼의 내부 공간이 좁아지고 배터리 부피를 키울 수 없어 운행시간이 줄어듬. - 메카넘 휠을 사용할 때는 반드시 서스펜션 장치를 이용하여 4개의 바퀴가 지면에 닿아 있어야 함. - 모터가 길이방향으로 긴 경우, 서스펜션의 설계가 복잡해지는 한계점이 있음. - 휠과 모터가 결합된 형태인 인-휠 모터를 사용하면 이를 해결할 수 있음. - 하지만 메카넘 인-휠 모터의 경우, 상용화된 사례가 거의 없고 있어도 매우 고가임.(대당\n300만원수준) - 따라서, 모바일 플랫폼 내부 공간 활용도를 높이며 고속주행이 가능하도록 감속기를 내장한\n사이클로이드 기어 기반의 메카넘 인-휠 모터를 개발함. - 메카넘 인-휠 모터는 3D 프린트로 제작된 사이클로이드 감속기 출력단 외륜부에 메카넘 롤러를\n장착하여 설계함. - 최대 20km/h 고속 주행을 위해 감속비를 14:1로 설정하였으며 그림 1에 구조를 나타냄.",
+        "after": "기어방식 에피사이클 유성기어 에피사이클 유성기어 사이클로이드 기어\n감속비 36:1 27:1 40:1\n재질 Tough PLA Tough PLA Tough PLA\n모터 Tarot 5008 340Kv Tarot 4008 330Kv Tarot 4008 330Kv",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 376,
+      "3": 4,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.17,
+          101.05,
+          465.83,
+          228.71
+        ],
+        "page_area_fraction": 0.0859
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.74,
+          466.29,
+          267.58,
+          541.09
+        ],
+        "page_area_fraction": 0.0116
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.08,
+          465.81,
+          380.68,
+          541.33
+        ],
+        "page_area_fraction": 0.0113
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          417.14,
+          466.17,
+          498.93,
+          541.09
+        ],
+        "page_area_fraction": 0.0122
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 547,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "독립형 서스펜션 모듈 설계도",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 6 -\n- 메카넘 휠의 지면과의 완벽한 접지를 위한 독립형 서스펜션 모듈을 설계함. - 메카넘 모바일 플랫폼의 스프렁 질량(Sprung mass)을 고려하여 무 부하시 가변 길이의 약1/3이\n압축되고 최대 약 20 kg의 페이로드를 가질 수 있도록 설계함. - 서스펜션 모듈의 사진과 사양을 그림 2에 나타냄.",
+        "after": "장착하여 최대 20 kg의 페이로드를 가지도록 함. 그림 3에 고속 전방향 이동 플랫폼을 나타냄.\n<고속 전방향 이동 플랫폼 설계도>\n▷ (연구내용3) 능동진동저감을 위한 전방향 이동형 머니퓰레이터 개발\n<전방향 이동형 협동로봇 (좌):3D CAD 모델 (우):조립 완성 사진>",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "고속 전방향 이동 플랫폼 설계도",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- 메카넘 휠의 지면과의 완벽한 접지를 위한 독립형 서스펜션 모듈을 설계함. - 메카넘 모바일 플랫폼의 스프렁 질량(Sprung mass)을 고려하여 무 부하시 가변 길이의 약1/3이\n압축되고 최대 약 20 kg의 페이로드를 가질 수 있도록 설계함. - 서스펜션 모듈의 사진과 사양을 그림 2에 나타냄.\n<독립형 서스펜션 모듈 설계도> - 결과적으로 메카넘 인-휠 모터를 이용하여 고속 전방향 이동 플랫폼을 개발함. - 6인치 메카넘 롤러를 사용하여 최대 20 km/h로 고속주행이 가능하며 독립형 서스펜션 모듈을\n장착하여 최대 20 kg의 페이로드를 가지도록 함. 그림 3에 고속 전방향 이동 플랫폼을 나타냄.",
+        "after": "▷ (연구내용3) 능동진동저감을 위한 전방향 이동형 머니퓰레이터 개발\n<전방향 이동형 협동로봇 (좌):3D CAD 모델 (우):조립 완성 사진>\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "전방향 이동형 협동로봇 (좌):3D CAD 모델 (우):조립 완성 사진",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "<독립형 서스펜션 모듈 설계도> - 결과적으로 메카넘 인-휠 모터를 이용하여 고속 전방향 이동 플랫폼을 개발함. - 6인치 메카넘 롤러를 사용하여 최대 20 km/h로 고속주행이 가능하며 독립형 서스펜션 모듈을\n장착하여 최대 20 kg의 페이로드를 가지도록 함. 그림 3에 고속 전방향 이동 플랫폼을 나타냄.\n<고속 전방향 이동 플랫폼 설계도>\n▷ (연구내용3) 능동진동저감을 위한 전방향 이동형 머니퓰레이터 개발",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 149,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.87,
+          581.0,
+          496.89,
+          702.31
+        ],
+        "page_area_fraction": 0.0967
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.07,
+          347.38,
+          495.69,
+          489.42
+        ],
+        "page_area_fraction": 0.1126
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.84,
+          94.58,
+          311.71,
+          280.49
+        ],
+        "page_area_fraction": 0.0605
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          304.16,
+          88.7,
+          462.23,
+          287.33
+        ],
+        "page_area_fraction": 0.0627
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1100,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "<그림 5 VESCular6 다기능 모터제어기> <그림 6 Gazebo 시뮬레이터>",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- 동적 안정화 모션을 위한 6자유도 매니퓰레이터를 3D Printing 모듈형 감속기를 이용하여 제작함. - 1, 2번 관절은 36:1 유성기어 감속기, 3번 관절은 27:1 유성기어 감속기 나머지 4, 5, 6번 관절은\n40:1 사이클로이드 기어 감속기를 사용함. - 관절에는 드론에 주로 사용되는 BLDC 모터로 Tarot사의 4008 모터를 사용함. - 모터제어에는 자체 개발한 VESCular6 다기능 모터제어기를 이용함. 그림 5에 나타냄. - DPS(Degree Per Second) 제어와 Goto 제어 기능을 개발하여 정확한 위치제어가 가능하도록 함. - 매니퓰레이터의 페이로드는 1.5kg이며 정확도는 무부하시 최대 2mm로 설계함. - 커피잔을 나르거나, 가벼운 음식을 나르는 작업을 수행할 수 있을 것으로 예상됨. - 전방향 이동 플랫폼과 6자유도 매니퓰레이터를 결합하여 고속 전방향 이동형 머니퓰레이터를 개발함. - 주제어기는 NVIDIA사의 Jetson Nano를 이용하며 ARM 코어용 Ubuntu 18.04를 운영체제로 사용함. - Robot 소프트웨어는 ROS Melodic에서 구동되며 주로 C++ 언어와 Python으로 구성됨. ▷ (연구내용4) 동적균형제어 연구을 위한 Gazebo 시뮬레이터 개발\n- 동적균형제어를 MPC(Model Predictive Control)을 이용하여 구현하기 위한 시뮬레이터 개발\n- Solidworks에서 URDF(Universal Robot Description File) 포맷으로 출력하여 Gazebo 모델 완성. - ROS(Robot Operating System)와 연동되는 Gazebo를 이용하여 제어 시뮬레이션 수행예정.",
+        "after": "(3차년도)\n▷ (연구내용1) ROS기반의 고속자율이동을 위한 Task-space Control 기법 개발\n<메카넘 모바일 플랫폼 좌표>\n<Feedfoward + Feedback 제어도>",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "메카넘 모바일 플랫폼 좌표",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "- Solidworks에서 URDF(Universal Robot Description File) 포맷으로 출력하여 Gazebo 모델 완성. - ROS(Robot Operating System)와 연동되는 Gazebo를 이용하여 제어 시뮬레이션 수행예정.\n<그림 5 VESCular6 다기능 모터제어기> <그림 6 Gazebo 시뮬레이터>\n(3차년도)\n▷ (연구내용1) ROS기반의 고속자율이동을 위한 Task-space Control 기법 개발",
+        "after": "<Feedfoward + Feedback 제어도>\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Feedfoward + Feedback 제어도",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "<그림 5 VESCular6 다기능 모터제어기> <그림 6 Gazebo 시뮬레이터>\n(3차년도)\n▷ (연구내용1) ROS기반의 고속자율이동을 위한 Task-space Control 기법 개발\n<메카넘 모바일 플랫폼 좌표>",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 260,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.32,
+          342.7,
+          222.96,
+          495.42
+        ],
+        "page_area_fraction": 0.0432
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          224.04,
+          342.11,
+          513.56,
+          504.89
+        ],
+        "page_area_fraction": 0.0942
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          106.92,
+          314.11,
+          248.13
+        ],
+        "page_area_fraction": 0.0722
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.11,
+          113.64,
+          536.59,
+          210.13
+        ],
+        "page_area_fraction": 0.0429
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 296,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Gazebo 시뮬레이션",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- 모바일 매니퓰레이터가 공간상에서 이동시에 하부 바퀴형 플랫폼과 상부 머니퓰레이터가 동시에 제어되\n는 Task-space Control 기법을 적용\n- 목표로 하는 위치에 정확하고 효과적으로 도달하기 위한 제어방법을 ROS 기반으로 제어\n- Gazebo 시뮬레이터 상에서 원활한 제어 확인",
+        "after": "<시뮬레이션 엔드-이펙터 경로>\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "시뮬레이션 엔드-이펙터 경로",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "는 Task-space Control 기법을 적용\n- 목표로 하는 위치에 정확하고 효과적으로 도달하기 위한 제어방법을 ROS 기반으로 제어\n- Gazebo 시뮬레이터 상에서 원활한 제어 확인\n<Gazebo 시뮬레이션>",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 54,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.89,
+          574.77,
+          535.99,
+          690.33
+        ],
+        "page_area_fraction": 0.1102
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          10.43,
+          183.16,
+          594.16,
+          518.43
+        ],
+        "page_area_fraction": 0.3911
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 399,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "모바일 매니퓰레이션 실험",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 9 -\n- 실험을 통해 원하는 물체를 고속으로 정확하게 수집하는 실험 성공",
+        "after": "▷ (연구내용2) ROS기반의 고속자율이동로봇의 실내 자기위치 추정방법에 대한 연구\n- Template Matching 방법 기반의 실내 자기위치 추정방법을 개발함\n- 기준 이미지와 현재 이미지간의 유사도 평가를 통해 로봇의 위치를 추정할 수 있음. - Kalman Filter를 이용하여 자기위치 추정 정확도를 향상시킴. - 해당 알고리즘을 ROS 환경에서 로봇에 적용함.\n<Template Matching 기법> <로봇의 위치 추정>",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "로봇의 위치 추정",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "<모바일 매니퓰레이션 실험>\n▷ (연구내용2) ROS기반의 고속자율이동로봇의 실내 자기위치 추정방법에 대한 연구\n- Template Matching 방법 기반의 실내 자기위치 추정방법을 개발함\n- 기준 이미지와 현재 이미지간의 유사도 평가를 통해 로봇의 위치를 추정할 수 있음. - Kalman Filter를 이용하여 자기위치 추정 정확도를 향상시킴. - 해당 알고리즘을 ROS 환경에서 로봇에 적용함.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 86,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.8,
+          341.15,
+          513.2,
+          754.33
+        ],
+        "page_area_fraction": 0.3562
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.64,
+          117.11,
+          305.24,
+          220.68
+        ],
+        "page_area_fraction": 0.0492
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.24,
+          119.03,
+          527.12,
+          210.37
+        ],
+        "page_area_fraction": 0.0405
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 622,
+    "heading_candidates": [
+      "3. 연구개발과제의 수행 결과 및 목표 달성 수준",
+      "1) 정성적 연구개발성과(연구개발결과)",
+      "2) 세부 정량적 연구개발성과: [붙임1] 참조"
+    ],
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 수준",
+    "prior_heading_candidate": {
+      "text": "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "pdf_page": 4
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "칼만필터 기반의 위치추정 정확도 향상",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 10 -",
+        "after": "▷ (연구내용3) Tracking 카메라와 Wheel Odometry 정보를 활용한 상대위치추정\n- Intel Realsense T265 Tracking 카메라와 바퀴의 Odometry(위치) 정보를 활용한 상대위치추정 알고리\n즘 개발\n- Tracking 카메라와 바퀴의 위치정보를 Kalman Filter를 이용해 융합하여 보다 정확한 상대위치 추정",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Wheel-Visual-Inertial Odometry 실험결과",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "즘 개발\n- Tracking 카메라와 바퀴의 위치정보를 Kalman Filter를 이용해 융합하여 보다 정확한 상대위치 추정\n- ROS기반 환경에서 해당 알고리즘을 로봇에 적용함\n<Mecanum Mobile>",
+        "after": "3. 연구개발과제의 수행 결과 및 목표 달성 수준\n1) 정성적 연구개발성과(연구개발결과)\n▷ 고속 자율주행 배달을 위한 능동진동저감 전방향 이동형 머니퓰레이터 하드웨어 제작 완료\n▷ 차륜구동방식 고속 이동로봇의 동적균형제어 알고리즘 개발 완료",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 128,
+      "3": 3,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          158.91,
+          646.45,
+          435.97,
+          779.75
+        ],
+        "page_area_fraction": 0.0738
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          362.36,
+          207.37,
+          523.35
+        ],
+        "page_area_fraction": 0.0389
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.12,
+          363.8,
+          511.16,
+          514.96
+        ],
+        "page_area_fraction": 0.0882
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 965,
+    "heading_candidates": [
+      "3) 목표 달성 수준",
+      "4. 연구개발성과의 관련 분야에 대한 기여 정도(연구개발결과의 중요성)",
+      "5. 연구개발성과의 관리 및 활용 계획"
+    ],
+    "section_context_candidate": "3) 목표 달성 수준",
+    "prior_heading_candidate": {
+      "text": "2) 세부 정량적 연구개발성과: [붙임1] 참조",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 231,
+      "2": 14,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1555,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 285,
+      "2": 98,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 2048,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 340,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 646,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 122,
+      "2": 88,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 608,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 101,
+      "2": 26,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1006,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 226,
+      "2": 49,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          127.61,
+          274.5,
+          289.88,
+          418.46
+        ],
+        "page_area_fraction": 0.0467
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.8,
+          275.82,
+          468.59,
+          410.79
+        ],
+        "page_area_fraction": 0.0469
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1410,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 335,
+      "2": 49,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.4,
+          265.39,
+          328.62,
+          384.3
+        ],
+        "page_area_fraction": 0.0628
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          328.14,
+          269.95,
+          531.68,
+          358.41
+        ],
+        "page_area_fraction": 0.036
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 930,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 228,
+      "2": 49,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.4,
+          278.45,
+          303.56,
+          440.64
+        ],
+        "page_area_fraction": 0.0775
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          303.56,
+          281.93,
+          521.6,
+          420.98
+        ],
+        "page_area_fraction": 0.0606
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 113,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 1",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 19 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 10,
+      "3": 567,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.32,
+          88.58,
+          525.68,
+          736.71
+        ],
+        "page_area_fraction": 0.5911
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 113,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 2",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 20 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 10,
+      "3": 575,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.89,
+          97.81,
+          529.88,
+          729.52
+        ],
+        "page_area_fraction": 0.587
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 113,
+    "heading_candidates": [],
+    "section_context_candidate": "5. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관리 및 활용 계획",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 대표적 연구실적 사본 3",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 21 -",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 10,
+      "3": 1101,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.63,
+          189.15,
+          497.13,
+          753.5
+        ],
+        "page_area_fraction": 0.4506
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.58,
+          106.32,
+          478.3,
+          383.82
+        ],
+        "page_area_fraction": 0.2006
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

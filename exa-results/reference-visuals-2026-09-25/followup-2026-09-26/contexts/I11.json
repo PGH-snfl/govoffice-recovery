@@ -1,0 +1,570 @@
+[
+  {
+    "visual_id": "I11-V0001",
+    "caption": "본 과제 연구범위 및 접근방법",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "제 1 절 과제의 개요\n1. 연구의 정의 및 범위\n5G 기술은 IMT-Advanced 고도화와 이후의 IMT-2020 이동통신시스템을 위한\n단말과 기지국 사이의 무선 인터페이스, 이동통신 액세스 네트워크, 이동통신 코어\n네트워크 및 서비스 지원에 관련된 기술로 정의되며, 본 과제의 범위는 5G 이동통\n신 시스템을 위한 코어 네트워크 기술의 표준화를 대상으로 하였다. 단기적으로는\n가상화(NFV), 개방형 인터페이스(SDN) 네트워크 기술들을 통해 4G LTE EPC 구",
+    "caption_and_following_text": "조의 성능 및 용량 개선을 통한 고도화를 위해 기존 표준을 확장하는 방식과 중장\n기적으로는 5G를 위한 새로운 코어 네트워크 기술을 대응하는 참조 구조 및 이에\n따른 세부 표준 규격을 개발하는 방식을 모두 포함하였다 (그림 1 참조).\n(그림 1) 본 과제 연구범위 및 접근방법\n※ NFV (Network Functions Virtualization)는 통신 사업자들이 사용하고 있는 네트워\n크 장비 내 L4-L7 서비스 기능들을 저가의 범용 서버 등으로 분리시켜 소프트웨어\n적으로 유연하게 제어·관리가 가능하게 가상화하는 기술로서, 컴퓨팅, 서버, 그리고\n네트워크 자원을 추상화하고, 오픈 인터페이스를 통하여 소프트웨어적으로 컴퓨팅\n지원 및 네트워크 기능 제어가 가능하도록 함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 1 절 과제의 개요",
+    "heading_candidates": [
+      "제 1 절 과제의 개요",
+      "1. 연구의 정의 및 범위"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0002",
+    "caption": "IMT-2020(5G)를 위한 8대 기능목표 (출처 –ITU-R)",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 29 -\n(그림 2) IMT-2020(5G)를 위한 8대 기능목표 (출처 –ITU-R)\n우리나라 이동통신사업자는 5G 기술 도입을 적극 추진 중에 있으나, 3GPP로\n대변하는 무선 표준기술과는 달리, 특히 코어 네트워크와 같은 유선쪽 표준화는\n최근 3GPP외에도, ITU-T, ETSI, IETF 등 여러 국제표준화기구에서의 공격적인 표\n준화 선언에 대해 최선의 표준기술의 선택에 대한 많은 고민과 어려움을 안고 있\n음. 따라서 이에 대한 정부 차원의 표준개발 사업을 발굴하여 통신3사와 함께 공\n동으로 표준개발을 함으로서 국가적인 차원의 적극적인 지원을 할 필요가 있다.\n특히 4G까지의 기술은 주로 무선기술의 향상에 초점을 두어 발전되어 왔으나, 5G\n의 주요 기술적 목표인 네트워크 운용 편의성, 신규서비스 수용 용이성,",
+    "section_context_candidate": "2. 연구의 중요성 및 필요성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.01,
+          206.53,
+          398.96,
+          358.34
+        ],
+        "page_area_fraction": 0.0834
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0003",
+    "caption": "5G 네트워크에서의 가상화 구조 (출처 - ITU-T)",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "대변하는 무선 표준기술과는 달리, 특히 코어 네트워크와 같은 유선쪽 표준화는\n최근 3GPP외에도, ITU-T, ETSI, IETF 등 여러 국제표준화기구에서의 공격적인 표\n준화 선언에 대해 최선의 표준기술의 선택에 대한 많은 고민과 어려움을 안고 있\n음. 따라서 이에 대한 정부 차원의 표준개발 사업을 발굴하여 통신3사와 함께 공\n동으로 표준개발을 함으로서 국가적인 차원의 적극적인 지원을 할 필요가 있다.\n특히 4G까지의 기술은 주로 무선기술의 향상에 초점을 두어 발전되어 왔으나, 5G\n의 주요 기술적 목표인 네트워크 운용 편의성, 신규서비스 수용 용이성,",
+    "caption_and_following_text": "CAPEX/OPEX 절감 등을 지원하기 위해서는 기존의 무선 구간의 기술발전 외에도\n5G 코어 네트워크와 유선구간에 대한 혁신적인 기술제공 및 이를 위한 표준화의\n선행이 반드시 병행되어야 한다.\n(그림 3) 5G 네트워크에서의 가상화 구조 (출처 - ITU-T)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구의 중요성 및 필요성",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.01,
+          206.53,
+          398.96,
+          358.34
+        ],
+        "page_area_fraction": 0.0834
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0004",
+    "caption": "5G 코어 네트워크 기술 표준화 목표 및 대상 표준화 기구",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "음과 같으며, 평가 방법은 해당 표준화기구에서의 기고 반영 및 채택 절차를 따른\n다 (그림 4 참조). § 최종목표 : 2020년 5G 서비스 실현을 위한 3대 성능목표(초고용량, 초저지연,\n다수 기기접속)를 지원하는 코어 네트워크 기술의 국내외 표준개발 및 표준\n특허를 확보를 위해,\n- 단기적으로는 4G LTE EPC 구조의 성능 및 용량 개선을 통한 고도화를\n위해 기존 표준을 확장하여 3GPP, ETSI NFV 표준기구 등을 중심으로\n기술반영 및 표준채택을 추진하고 (3GPP/ETSI/TTA, '16~18),",
+    "caption_and_following_text": "- 중장기적으로는 5G를 위한 새로운 코어 네트워크 기술을 대응하는 표준\n규격을 ITU-T 중심으로 개발하여 국내외 기술시장을 선도함\n(ITU-T/TTA, '17~18, 표준특허 발굴)\n(그림 4) 5G 코어 네트워크 기술 표준화 목표 및 대상 표준화 기구\n4G 5G\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 2 장 과제 수행의 내용 및 결과",
+    "heading_candidates": [
+      "제 2 장 과제 수행의 내용 및 결과",
+      "제 1 절 최종 목표 및 평가 방법"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0005",
+    "caption": "5G 코어 네트워크의 구조적 특징",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "코어 기술은 (표 1)과 같은 기본 원칙을 가지고 설계되어, 서비스-기반 구조\n(Service-Based Architecture), CP/UP (Control Plane/User Plane, 제어 평면/사용\n자 평면) 기능의 분리 및 NF (Network Function, 네트워크 기능) 모듈화,\nNon-3GPP 액세스에도 3GPP 액세스와 동일한 N1/N2 인터페이스 사용 등 새로운\n5G를 위한 구조적인 특징을 가지고 설계되었다. 이러한 5G 네트워크의 구조적 특\n징은 향후 클라우드 기반의 가상화 기술을 비롯하여 네트워크 슬라이싱, MEC\n(Mobile Edge Computing) 등의 지원을 용이하게 하며, 서비스 확장에 따른 네트",
+    "caption_and_following_text": "워크의 스케일링(scaling)을 가능하도록 한다. 또한 다양한 유무선 액세스 기술의\n통합으로 인해 WiFi, 유무선 통합 등 Non-3GPP 액세스 기반 새로운 비즈니스들도\n5G내에서 함께 수용되고 동일하게 관리가 가능하게 될 것으로 전망된다.\n[표 1] 5G 코어 네트워크의 구조적 특징\n설계원칙 주요 구조적 특징 향후 활용 장점 및 시사점\n소프트웨어\n(Software)-기반\n코어구조\nŸ 서비스-기반 구조 (Service-Based\nArchitecture) Ÿ 비상태 네트워크 기능 (Stateless",
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "heading_candidates": [
+      "4. 과제 수행의 개발 범위"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0006",
+    "caption": "5G 공통 코어 구조",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n(그림 5) 5G 공통 코어 구조\n라. 네트워크 슬라이싱 (Network Slicing)\n네트워크 슬라이싱 기술은 기존 이동 통신 네트워크 기술에서는 사용되지 않았\n던 5G 네트워크의 새로운 개념으로서, 특정 서비스에 필요한 5G 서비스를 위한\nNF들을 연결하여 맞춤형 5G 네트워크 서비스를 제공할 수 있다. 현재 5G Phase-1\n규격에서는 복수개의 네트워크 슬라이스에 동시 연결 구조 및 NSSF (Network\nSlice Selection Function), 식별자 등 기본적인 기능만이 합의되어 기술되어 있으\n며, 향후 Phase-2 작업에는 네트워크 슬라이스 로밍 등 추가적인 연구들이 필요할\n것으로 생각된다.",
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0007",
+    "caption": "5G 네트워크 슬라이싱 구조",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 42 -",
+    "caption_and_following_text": "mIoT 등으로 정의되어 있다. SD 정보는 슬라이스 인스턴스의 구체화된 속성 (예:\nTenant, 성능 등) 을 기술하여 동일 SST 의 다른 속성을 지원하는 네트워크 슬라\n이스 인스턴스를 선택하는데 사용된다.\n(그림 6) 5G 네트워크 슬라이싱 구조\n마. 세션 관리 및 MEC 지원 로컬 데이터 네트워크 액세스 기술\n세션 관리 기술은 5G 시스템 내의 사용자와 5G 시스템 외부의 데이터 네트워\n크간 패킷 트래픽 전달을 위해 세션을 관리하는 기술을 말한다. 3GPP에서 새롭게\n정의한 5G 사용자 평면 (User Plane) 구조의 핵심은 UPF 기능의 유연성 및 분산\n화에 있다. 종래의 LTE EPC 구조는 단말의 이동성 지원을 위한 망내 분산된\nS-GW와 IP 연결을 위한 중앙 집중화된 P-GW로 구성되어 사용자 평면 구조가 고",
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0008",
+    "caption": "5G 세션 관리 및 분산화된 유연한 UPF 배치",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 43 -\n(그림 7) 5G 세션 관리 및 분산화된 유연한 UPF 배치\n5G 네트워크에서는 UPF가 지역적으로 다양하게 분산되어 있으므로, 단말이 액\n세스 하는 RAN에 가까운 UPF를 선택하여 단말을 엣지 서버가 있는 로컬 데이터\n네트워크로 연결시킬 수 있다. 이를 통해 5G 네트워크에서는 엣지 컴퓨팅을 구현\n가능하며, 단말이 직접 엣지 컴퓨팅 서버와의 연결을 요청하는 LADN (Local\nAccess Data Network) 적용 방식과 응용 (AF: Application Function) 이 5G 코어\n망에 해당 서비스를 위한 엣지 컴퓨팅 정책을 내리는 응용 기반 라우팅 (AF\ninfluence routing)으로 실현 할 수 있다.\n바. 접속 및 이동성 관리 기술",
+    "section_context_candidate": "4. 과제 수행의 개발 범위",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0009",
+    "caption": "ITU-T FG IMT-2020내 5G 구조 대표도",
+    "pdf_page_candidate": 54,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "공동으로 표준개발에 참여할 수 있는 교두보 마련함\n- 5G 코어 네트워크 가상화 구조 제안 및 기술반영\n(ITU-T IMT-2020 FG 국제표준화 총괄대응 및 표준개발)\n→ ITU-T FG IMT-2020 기술반영 표준 개발 총 5건 (‘16.1~12)\n※ Framework of IMT-2020 network architecture 표준개발\n※ Requirements of IMT-2020 from network perspective 표준개발\n→ ITU-T FG IMT-2020 에디터 수임 2건",
+    "caption_and_following_text": "▹Framework of IMT-2020 network architecture (에디터: 안병준 책임)\n▹Requirements of IMT-2020 from network perspective (에디터 강신각\n책임)\n(그림 8) ITU-T FG IMT-2020내 5G 구조 대표도\n- 5G 코어 네트워크 가상화 기능 구조 국제특허 개발 (표준특허연계용)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.17,
+          258.56,
+          365.08,
+          397.48
+        ],
+        "page_area_fraction": 0.0663
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0010",
+    "caption": "3GPP 네트워크 슬라이싱 인스턴스 선택 특허 및 기고 대표도",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 54 -\n(3GPP SA2 5G 네트워크 시스템 및 구조 표준개발 및 특허출원/기술반영)\n→ 3GPP SA2 TR 23.799 기술반영 표준 개발 총 3건 (‘16.1~16.12)\n※ 3GPP TR 23.799 FS_NextGen (Study on Architecture for Next\nGeneration System) 표준개발 주도적 참여\n→ NextGen Key Issue #1 네트워크 슬라이싱 관련 기고 및 기술반영",
+    "caption_and_following_text": "▹Network Slicing Solution Update 기고 외\n▹표준특허 기반의 기고반영 및 국내외 특허 우선권 출원완료\n▹노키아, ZTE, 삼성전자 등과 공동기고 작업\n(그림 9) 3GPP 네트워크 슬라이싱 인스턴스 선택 특허 및 기고 대표도\n→ Key Issue #7 네트워크 기능 상호연동 관련 기고 및 기술반영\n▹Update of Solution 7.1 for non UE associated signalling support\n기고 등 솔루션 반영\n▹노키아 등과 공동기고 작업\n→ 관련 학술연구 및 지재권 확보\n▹특허 4건 우선권출원 완료 및 표준2건 반영: “Non UE associated 시그널",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0011",
+    "caption": "NFV 기술 관련 3GPP SA5 표준개발 범위 및 관련 인터페이스",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "▹IMT-2020 네트워크 구조 프레임워크 기술보고서\no 4G EPC 구조 고도화 표준 확장 및 기술 반영\n- 4G EPC 구조 진화 요구사항 기술반영\n- 다중벤더간 가상EPC (vEPC) 상호운용 지원 인터페이스 표준초안 기술반영\n- 다중벤더간 가상EPC (vEPC) 상호운용 지원 정보모델 설계\n(3GPP SA5 시스템 관리 및 가상화 기술 표준개발)\n→ 3GPP SA5 기술반영 기고 표준 개발 1건 (‘16.1~16.12)",
+    "caption_and_following_text": "※ 3GPP TS 28.525: Lifecycle management of mobile networks that\ninclude VNFs 표준개발\n→ 네트워크 서비스 라이프사이클 관리 기술 관련 기고 및 기술반영\n(그림 10) NFV 기술 관련 3GPP SA5 표준개발 범위 및 관련 인터페이스\n▹Add requirements for NS instance lifecycle change notification 및\nUse case for NS instance querying and NS instance termination 등\n기고 표준 개발 1건\n→ ETSI NFV SOL WG 기술반영 기고 표준 개발 1건\n▹Interface design for CreateVNFId 기고 반영\nNFV Orchestrator",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0012",
+    "caption": "vEPC 적용 가능한 VNF생성 절차 기고반영",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 56 -\n(그림 11) vEPC 적용 가능한 VNF생성 절차 기고반영\n- NFV 상호운용성 지원 vEPC 요구사항 국내 표준 개발\n(TTA 단체표준/기술보고서 개발)\n→ TTA 단체표준/기술보고서 2종 제정 승인 (‘16.12)\n▹분산 이동성 관리를 위한 요구사항\n▹차세대 모바일 코어 네트워크에서의 단말 이동성 관리기술 기술보고서\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.02,
+          615.81,
+          394.36,
+          760.69
+        ],
+        "page_area_fraction": 0.0817
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0013",
+    "caption": "ITU-T IMT-2020 네트워크 프레임워크 네트워크 슬라이싱 구조",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "- ITU-T IMT-2020 네트워크 관련 권고개발 제안 3건 (‘17.2) 및 기고 반영\n표준 개발 4건 (’17.2~17.11)\n▹(Y.IMT2020-reqts) Requirements of IMT-2020 network 표준초안개발\n▹(Y.IMT2020-frame) Framework of IMT-2020 network 표준초안개발\n▹(Y.IMT2020-arch) Architecture of IMT-2020 network 표준초안개발\n- ITU-T IMT-2020 국제표준개발 에디터 수임 3건\n▹ITU-T Y.IMT2020-reqts, Y.IMT2020-frame, Y.IMT2020-arch등 총 3건",
+    "caption_and_following_text": "▹표준문서 에디터 : 안병준 책임\n- ITU-T IMT-2020 네트워크 관련 권고안 1건 Consent 완료 (‘17.11)\n▹(Y.3101) Requirements of the IMT-2020 network\n(그림 12) ITU-T IMT-2020 네트워크 프레임워크 네트워크 슬라이싱 구조\n- TTA 단체표준 3종 제정 제안 승인(‘17.6) 및 1건 제정 완료\n▹(2017-400) IMT-2020 네트워크 용어 정의 (‘17.12 표준제정 완료)\n▹(2017-401) IMT-2020 네트워크 요구사항\n▹(2017-402) IMT-2020 네트워크 프레임워크\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0014",
+    "caption": "TTA IMT-2020 단체표준 3종 문서",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n(그림 13) TTA IMT-2020 단체표준 3종 문서\n- TTA SPG32 5G 국내 표준검토 워크샵 진행 (‘17.8)\n▹ IMT-2020 네트워크 요구사항 표준 등 국내 산업체간 검토 및 의견수렴\n. 일시: ‘17.8.31~9.1\n. 장소: 부산 센텀호텔 에메랄드홀\n. 삼성전자, LG전자, 에릭슨엘지, KT, SK텔레콤 등 60여명 전문가참석\n(그림 14) TTA SPG32 5G 국내 표준검토 워크샵 진행\n- TTA 5G 표준개발특별위원회(STC3) 신설 및 5G네트워크 표준화그룹\n의장단 수임 (TTA SPG32) (‘17.7)",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.54,
+          270.3,
+          428.41,
+          443.39
+        ],
+        "page_area_fraction": 0.1065
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0015",
+    "caption": "TTA SPG32 5G 국내 표준검토 워크샵 진행",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n(그림 13) TTA IMT-2020 단체표준 3종 문서\n- TTA SPG32 5G 국내 표준검토 워크샵 진행 (‘17.8)\n▹ IMT-2020 네트워크 요구사항 표준 등 국내 산업체간 검토 및 의견수렴\n. 일시: ‘17.8.31~9.1\n. 장소: 부산 센텀호텔 에메랄드홀\n. 삼성전자, LG전자, 에릭슨엘지, KT, SK텔레콤 등 60여명 전문가참석\n(그림 14) TTA SPG32 5G 국내 표준검토 워크샵 진행\n- TTA 5G 표준개발특별위원회(STC3) 신설 및 5G네트워크 표준화그룹\n의장단 수임 (TTA SPG32) (‘17.7)",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.54,
+          270.3,
+          428.41,
+          443.39
+        ],
+        "page_area_fraction": 0.1065
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0016",
+    "caption": "3GPP 네트워크 슬라이싱 인스턴스 선택 특허 및 기고 대표도",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 60 -\n(그림 15) 3GPP 네트워크 슬라이싱 인스턴스 선택 특허 및 기고 대표도\n(그림 16) 3GPP 5G 시스템 이동성관리/세션관리 특허 및 기고 대표도\n- 3GPP SA2 5G 시스템 구조 - non-3GPP 엑세스 통합관리 기고 표준 개발\n→ 5G 시스템 non-3GPP 엑세스 통합관리 관련 기고 및 기술반영\n▹Non-3GPP 액세스 통합 5G 시스템에서 접속 방식 기고 외\n▹표준특허 기반의 기고반영 및 국내외 특허 출원완료\n▹ETRI 원내 5G코어 기술개발 과제와의 긴밀한 협업을 통한 ETRI 개발\n기술의 표준반영 추진\nCentral Data Network UE",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.98,
+          569.98,
+          405.02,
+          766.2
+        ],
+        "page_area_fraction": 0.1157
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0017",
+    "caption": "3GPP 5G 시스템 이동성관리/세션관리 특허 및 기고 대표도",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 60 -\n(그림 15) 3GPP 네트워크 슬라이싱 인스턴스 선택 특허 및 기고 대표도\n(그림 16) 3GPP 5G 시스템 이동성관리/세션관리 특허 및 기고 대표도\n- 3GPP SA2 5G 시스템 구조 - non-3GPP 엑세스 통합관리 기고 표준 개발\n→ 5G 시스템 non-3GPP 엑세스 통합관리 관련 기고 및 기술반영\n▹Non-3GPP 액세스 통합 5G 시스템에서 접속 방식 기고 외\n▹표준특허 기반의 기고반영 및 국내외 특허 출원완료\n▹ETRI 원내 5G코어 기술개발 과제와의 긴밀한 협업을 통한 ETRI 개발\n기술의 표준반영 추진\nCentral Data Network UE",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.98,
+          569.98,
+          405.02,
+          766.2
+        ],
+        "page_area_fraction": 0.1157
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0018",
+    "caption": "3GPP 5G 시스템 non-3GPP 액세스 통합관리 특허 및 기고 대표도",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 61 -\n(그림 17) 3GPP 5G 시스템 non-3GPP 액세스 통합관리 특허 및 기고 대표도\n- 3GPP SA5 시스템 관리 및 가상화 지원기술 표준개발\n→ 3GPP SA5 기술반영 기고 표준 개발\n▹네트워크 슬라이스 관리 및 MEC 기술반영 기고\n▹네트워크 슬라이스 관리 및 프로비져닝 WID 3건 공동협력 진행\n※ 3GPP TS 28.530: Management of Network Slicing in Mobile Networks,\nConcepts, Use cases and Requirements /TS 28.531: Provisioning of\nnetwork slicing for 5G networks and services 등 표준개발 공동참여\n(그림 18) NFV 기술 관련 3GPP SA5 표준개발 범위",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0019",
+    "caption": "NFV 기술 관련 3GPP SA5 표준개발 범위",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 61 -\n(그림 17) 3GPP 5G 시스템 non-3GPP 액세스 통합관리 특허 및 기고 대표도\n- 3GPP SA5 시스템 관리 및 가상화 지원기술 표준개발\n→ 3GPP SA5 기술반영 기고 표준 개발\n▹네트워크 슬라이스 관리 및 MEC 기술반영 기고\n▹네트워크 슬라이스 관리 및 프로비져닝 WID 3건 공동협력 진행",
+    "caption_and_following_text": "※ 3GPP TS 28.530: Management of Network Slicing in Mobile Networks,\nConcepts, Use cases and Requirements /TS 28.531: Provisioning of\nnetwork slicing for 5G networks and services 등 표준개발 공동참여\n(그림 18) NFV 기술 관련 3GPP SA5 표준개발 범위\n3GPP 액세스 페이징 기반 non-3GPP 세션 핸드오버 (특허&표준반영)\n3GPP\n기지국\nNon-3GPP\n기지국\nUE",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0020",
+    "caption": "3GPP SA5 #115차 부산회의 (Hosted by ETRI)",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 63 -\n(그림 19) 3GPP SA5 #115차 부산회의 (Hosted by ETRI)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.89,
+          598.03,
+          458.63,
+          766.2
+        ],
+        "page_area_fraction": 0.1323
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0021",
+    "caption": "ITU-T Y.3101, Y.3102 권고안",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 64 -\n3) 3차년도 (2018년)\no 5G 코어 네트워크 참조 구조 핵심 표준 개발\n- ITU-T IMT-2020 국제표준 개발\n→ ITU-T SG13 IMT-2020 네트워크 관련 권고안 3건 제정 및 기고 반영\n표준개발 6건 (‘18.1 ~ 12)",
+    "caption_and_following_text": "▹(Y.3101) Requirements of IMT-2020 network 표준제정 완료 (‘18.1)\n▹(Y.3102) Framework of IMT-2020 network 표준제정 완료 (‘18.5)\n▹(Y.3014) Architecture of IMT-2020 network 표준제정 완료 (‘18.12))\n(그림 20) ITU-T Y.3101, Y.3102 권고안\n(그림 21) ITU-T IMT-2020 네트워크 기능구조/프레임워크\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.9,
+          437.76,
+          367.0,
+          576.09
+        ],
+        "page_area_fraction": 0.0689
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.9,
+          239.14,
+          429.61,
+          396.89
+        ],
+        "page_area_fraction": 0.0983
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0022",
+    "caption": "ITU-T IMT-2020 네트워크 기능구조/프레임워크",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 64 -\n3) 3차년도 (2018년)\no 5G 코어 네트워크 참조 구조 핵심 표준 개발\n- ITU-T IMT-2020 국제표준 개발\n→ ITU-T SG13 IMT-2020 네트워크 관련 권고안 3건 제정 및 기고 반영\n표준개발 6건 (‘18.1 ~ 12)\n▹(Y.3101) Requirements of IMT-2020 network 표준제정 완료 (‘18.1)",
+    "caption_and_following_text": "▹(Y.3102) Framework of IMT-2020 network 표준제정 완료 (‘18.5)\n▹(Y.3014) Architecture of IMT-2020 network 표준제정 완료 (‘18.12))\n(그림 20) ITU-T Y.3101, Y.3102 권고안\n(그림 21) ITU-T IMT-2020 네트워크 기능구조/프레임워크\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.9,
+          437.76,
+          367.0,
+          576.09
+        ],
+        "page_area_fraction": 0.0689
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.9,
+          239.14,
+          429.61,
+          396.89
+        ],
+        "page_area_fraction": 0.0983
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0023",
+    "caption": "TTA PG220 국내 표준검토 워크샵",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 65 -\n- IMT-2020기술 관련 TTA 단체표준 개발",
+    "caption_and_following_text": "→ TTA 단체표준 2종 제정 완료 (‘18.12)\n▹ IMT-2020 네트워크 요구사항\n▹IMT-2020 네트워크 프레임워크\n- TTA PG220 국내 표준검토 워크샵 개최\n▹ 5G 네트워크 요구사항 표준 등 산업체간 검토 및 의견수렴 진행\n. 일시: ‘18.8.16~8.17\n. 장소: 부산 센텀호텔 에메랄드홀\n. KT, SK텔레콤, LGU+, 삼성전자, 에릭슨엘지 등 40여명 전문가참석\n(그림 22) TTA PG220 국내 표준검토 워크샵\n- 5G 정책지정 과제 관련 표준화 총괄 지원 및 국내의견 수렴",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.58,
+          411.27,
+          360.05,
+          583.16
+        ],
+        "page_area_fraction": 0.0867
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0024",
+    "caption": "3GPP 5G 시스템 이동성관리 특허 및 기고 대표도",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "▹5G Phase II 네트워크 슬라이싱 확장 구조 신규 스터디 제안 및 기고\n기술반영\n▹네트워크 지능화 기술을 네트워크 슬라이스 선택에 활용하기 위한 서비스\n수정 기고 외\n▹ZTE, Telecom Italia, 노키아, 엘지 등과 공동기고 작업\n- 3GPP SA2 5G 시스템 구조/절차 – 이동성관리 기고 표준 개발\n→ 5G Phase I 이동성관리 구조 및 절차 관련 기고 및 기술반영",
+    "caption_and_following_text": "▹Mobile Edge Computing (MEC) 서비스 지원을 위한 5G 이동성관리 방식\n기고 외\n▹표준특허 기반의 기고반영 및 국내외 특허 출원완료\n(그림 23) 3GPP 5G 시스템 이동성관리 특허 및 기고 대표도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.6,
+          220.56,
+          463.43,
+          324.61
+        ],
+        "page_area_fraction": 0.079
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0025",
+    "caption": "3GPP 5G 시스템 MEC 세션관리 기고 대표도",
+    "pdf_page_candidate": 68,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 67 -\n- 3GPP SA2 5G 시스템 구조 - 세션관리 기고 표준 개발\n→ 5G Phase I MEC 절차 관련 표준수정 기고 및 기술반영\n→ 5G Phase II MEC 기능 확장 관련 신규 스터디 제안\n▹AF 기반의 MEC 적용을 위한 세션 UP 수정 절차 관련 기고",
+    "caption_and_following_text": "▹엘지, 삼성, SKT, AT&T 등과 함께 MEC 기능 확장 관련 신규 스터디\n제안 승인\n’\n(그림 24) 3GPP 5G 시스템 MEC 세션관리 기고 대표도\n- 3GPP SA2 5G 시스템 구조 – 기타 기고 및 신규 스터디 제안\n→ 5G Phase II 네트워크 지능 기술관련 기고 및 기술 반영\n→ 5G Phase II 인공위성 통신 기능 구조 확장관련 신규 스터디 제안\n▹화웨이, 탈레스, 인텔 등과 함께 기술 기고 및 신규 스터디 제안 승인\n- NFV 지원 5G 시스템 연동 기술 관련 TTA 기술보고서 개발\n→ TTA 기술보고서 제정 2건 완료",
+    "section_context_candidate": "나. 목표 대비 세부 추진사항",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.7,
+          470.36,
+          408.86,
+          649.09
+        ],
+        "page_area_fraction": 0.1086
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I11-V0026",
+    "caption": "5G 코어 네트워크 표준개발 추진 체계",
+    "pdf_page_candidate": 70,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "구 등을 중심으로 non-3GPP 액세스, 네트워크 슬라이싱, 이동성/세션관리, NFV\n기술 등 5G를 위한 코어 네트워크 기술을 기술개발과제와의 연계 및 협업을 통해\n개발하여 국내외 기술시장을 선도하도록 하였다.\n세부적으로는 5G 네트워크 참조모델 구조는 공인표준화기구인 ITU-T 등을 중심\n으로, 가상화 인터페이스와 개방형 인터페이스와 같은 세부 기능 표준 등은 3GPP\n표준 활동 등을 통해 표준제정 및 기술반영을 동시에 추진하고, TTA등을 통해 시\n험 등 검증이 가능하도록 하여 산업파급 효과가 극대화 되도록 하였으며, 국내 5G",
+    "caption_and_following_text": "코어 네트워크 규격 개발 후 실제 개발된 규격이 구체적으로 활용될 수 있도록 국\n내 장비사업자들간의 선단형 협력체계를 구축하여 네트워크 산업의 새로운 생태계\n조성 및 상생 발전이 가능하도록 추진하였다.\n(그림 25) 5G 코어 네트워크 표준개발 추진 체계\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 2 절 표준개발/활동 추진 체계",
+    "heading_candidates": [
+      "제 2 절 표준개발/활동 추진 체계"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.84,
+          214.09,
+          451.68,
+          458.26
+        ],
+        "page_area_fraction": 0.1853
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

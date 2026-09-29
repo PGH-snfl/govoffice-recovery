@@ -1,0 +1,4989 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 204,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 20,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 404,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 3,
+      "1": 75,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -1.69,
+          -1.23,
+          596.92,
+          842.23
+        ],
+        "page_area_fraction": 1.009
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          418.31,
+          490.54,
+          496.77,
+          556.08
+        ],
+        "page_area_fraction": 0.0103
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 1159,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 272,
+      "3": 1,
+      "2": 71,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 1629,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 481,
+      "3": 4,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 598,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 43,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 664,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "가. 연구개발의 개요"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 172,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          96.38,
+          497.61,
+          403.36
+        ],
+        "page_area_fraction": 0.2552
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1373,
+    "heading_candidates": [
+      "나. 연구개발의 필요성 및 중요성"
+    ],
+    "section_context_candidate": "나. 연구개발의 필요성 및 중요성",
+    "prior_heading_candidate": {
+      "text": "가. 연구개발의 개요",
+      "pdf_page": 6
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 349,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1483,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구개발의 필요성 및 중요성",
+    "prior_heading_candidate": {
+      "text": "나. 연구개발의 필요성 및 중요성",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 393,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1493,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구개발의 필요성 및 중요성",
+    "prior_heading_candidate": {
+      "text": "나. 연구개발의 필요성 및 중요성",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 378,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1410,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구개발의 필요성 및 중요성",
+    "prior_heading_candidate": {
+      "text": "나. 연구개발의 필요성 및 중요성",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 366,
+      "2": 18,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 660,
+    "heading_candidates": [],
+    "section_context_candidate": "나. 연구개발의 필요성 및 중요성",
+    "prior_heading_candidate": {
+      "text": "나. 연구개발의 필요성 및 중요성",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 130,
+      "2": 22,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 547,
+    "heading_candidates": [
+      "다. 연구개발의 최종목표"
+    ],
+    "section_context_candidate": "다. 연구개발의 최종목표",
+    "prior_heading_candidate": {
+      "text": "나. 연구개발의 필요성 및 중요성",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 149,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.31,
+          210.13,
+          497.13,
+          491.7
+        ],
+        "page_area_fraction": 0.2239
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 883,
+    "heading_candidates": [
+      "2. 연구수행내용 및 성과"
+    ],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "다. 연구개발의 최종목표",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "xyz-stage와 microtube를 이용한 multicantilever의 표면처리 플랫폼",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "방법이 필요하다. 따라서 본 연구에서 xyz-stage와 microtube를 이용하여 효과적으로 각\n각의 cantilever 표면을 원하는 물질로 표면화 시켰다. - Microtube를 각각의 cantilever에 삽입시켜 cantilever 하나하나의 표면 처리 성공. - 기존의 방법으로 cantilever의 표면 처리를 하면\n1) 샘플의 양이 많이 필요하다. 2) 원하는 위치에 정확히 표면 처리가 불가능 하다. 는 두가지 단점이 생긴다. 하지만 사진과 같이 microtube를 이용하여 각각의 cantilever\n에 정확하게 표면 처리를 하면 적은 양의 샘플로 더 정확한 표면 처리가 가능하다. - xyz-stage와 microtube를 이용한 multicantilever의 다중 표면 처리",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 203,
+      "2": 9,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.18,
+          97.09,
+          493.05,
+          441.48
+        ],
+        "page_area_fraction": 0.2669
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 567,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "일반 공진센서와 다공성 공진센서의 광학 현미경 이미지 및 AFM 표면 이미지",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "□ 공진센서에 다공성 구조물 합성\n- 공진센서의 민감도를 높이기 위하여 공진센서의 표면 다공성 처리가 필요하다. 이러한\n목적에 따라 공진센서의 표면 다공성 작업을 진행하였다. - 일반 공진센서와 다공성 처리를 진행한 공진센서의 표면을 광학 현미경과 원자력현미경\n(AFM)으로 비교해본 결과, 표면의 거칠기가 매우 증가했음을 알 수 있다. - 따라서 다공성 구조물이 공진센서에 잘 증착되었음을 확인하였다.",
+        "after": "- 증착된 공진센서 위에 DNA를 기능화 시켰을 때 일반 공진센서보다 더 많은 양의 DNA\n가 기능화 되어야 다공성 물질의 의미가 생긴다. - 형광 현미경을 이용하여 다공성 공진센서와 일반 캔틸레버 위에 증착된 DNA의 비교를\n진행하였다. - 이미지에서 알 수 있듯, 다공성 공진센서 위에 더 많은 양의 DNA가 증착되었음을 확인\n하였다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 131,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          459.1,
+          535.51,
+          660.0
+        ],
+        "page_area_fraction": 0.1893
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 453,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "일반 공진센서와 다공성 공진센서에 증착된 DNA의 비교",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 14 -",
+        "after": "□ 골드 나노입자를 이용한 질량 증폭\n- 공진센서의 신호를 증폭시키기 위해선, 센서에 검출되는 물질의 질량을 증폭시키는 것이\n매우 중요하다. DNA 자체는 그 질량의 변화가 매우 미미하기 때문에 금 나노 입자같은\n금속 입자를 DNA에 부착시켜 검출을 진행하게 되면 질량의 변화가 극대화 된다. - 금 나노 입자를 부착시킨 후 검출을 진행한 결과와 그냥 검출을 진행한 결과가 밑의 이",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "금 나노 입자를 이용한 질량 증폭 개념도 및 결과",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "매우 중요하다. DNA 자체는 그 질량의 변화가 매우 미미하기 때문에 금 나노 입자같은\n금속 입자를 DNA에 부착시켜 검출을 진행하게 되면 질량의 변화가 극대화 된다. - 금 나노 입자를 부착시킨 후 검출을 진행한 결과와 그냥 검출을 진행한 결과가 밑의 이\n미지에 나타나있다. 이에서 알 수 있듯이, 금 나노 입자를 부착한 후 검출을 하면 약 2\n배정도 신호가 증폭됨을 알 수 있다.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 109,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.59,
+          521.91,
+          505.77,
+          782.98
+        ],
+        "page_area_fraction": 0.2156
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          89.3,
+          535.51,
+          345.1
+        ],
+        "page_area_fraction": 0.241
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1205,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "AuNP와 catalytic DNA를 이용한 DNA 증폭 실험의 개략도",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "을 통해 원하는 반응의 증폭을 이끌어 낼 수 있다는 점임. - 하지만 타겟 DNA의 길이가 약 84mer 로 매우 길다는 단점이 있음. - 따라서 타겟 DNA를 이용하여 길이가 짧은 catalyst DNA를 분리해 내는 방법으로 짧은\nDNA를 catalyst로 이용이 가능함. - 아래 실험의 개략도를 보면 DNA의 catalytic reaction을 통해 금 미세입자 (AuNP)의 응집\n이 일어나고, 이에 따라 AuNP 용액의 색이 붉은색에서 파란색으로 변하는 것을 확인할\n수 있음. - 실험 결과, 8.7 fM 까지의 mutant DNA의 검출이 가능함을 확인함.",
+        "after": "◯ Wild type DNA와 mutant #2 일괄검출 방식 비교\n- 일반적으로 혈액 속에는 mutant DNA와 wildtype DNA가 함께 존재함. - 따라서 wildtype DNA가 존재하는 상태에서의 mutant DNA의 검출 실험이 필수적임. - Mutant DNA의 농도를 8.7 pM로 고정시키고, wildtype DNA의 농도를 변화시켜가며 실험\n을 진행함. - Mutant DNA와 wildtype DNA의 비율이 1:100까지 mutant DNA검출에 아무 문제가 없음\n을 확인.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 262,
+      "3": 1,
+      "2": 105,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          105.42,
+          399.04,
+          492.82,
+          589.63
+        ],
+        "page_area_fraction": 0.1476
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 932,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "A : 나노 다공성 구조물을 증착시키지 않은 전극에 형광 DNA를 고정화 시켰을때의 형광 이미지, B : 나노 다공성 구조물을 증착시킨 전극에 형광 DNA를 증착시킨 후 촬영항 형광 이미지",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "◯ 나노 다공성 구조물의 증착\n- 나노 다공성 구조물을 QCM 전극에 증착시켜 표면적의 극대화를 만듦. - 아래 그림으로 확인할수 있듯, 나노 다공성 구조물의 증착을 통해 전극의 표면적이 늘어\n났으며, 이에 따라 증착된 DNA의 양도 많아져, 타겟이 되는 DNA에 따른 질량 변화가\n더 민감해지기 때문에 고민감도 검출이 완성됨.",
+        "after": "[A : 나노 다공성 구조물이 증착되지 않은 전극의 표면 이미지, B : 나노 다공성 구조물이\n증착된 전극 표면 이미지, C : 나노 다공성 구조물이 증착된 전극의 SEM 이미지]\n400 450 500 550 600 650 700\n0.0",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 233,
+      "3": 3,
+      "2": 130,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.61,
+          252.56,
+          473.74,
+          397.37
+        ],
+        "page_area_fraction": 0.101
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.03,
+          123.46,
+          498.33,
+          210.73
+        ],
+        "page_area_fraction": 0.0695
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          591.55,
+          521.48,
+          644.53
+        ],
+        "page_area_fraction": 0.0484
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1122,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "A : 타겟 DNA의 검출 시간에 따른 농도별 실시간 검출 그래프, B : 30분대의 공진 주파수 변화량",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 17 -\n◯ 나노 다공성 구조물 증착을 통한 검출한계의 상승\n- 수정 진동자 저울을 이용하여 타겟 DNA의 실시간 검출이 가능함. - 검출 결과, 1 nM 수준의 저농도 DNA의 검출이 가능함.",
+        "after": "□ Hairpin DNA와 FRET을 이용한 ctDNA 검출\n◯ hairpin DNA와 형광공명에너지전이(FRET, Fluorescence Resonance Energy Transfer)를\n이용한 DNA 검출\n- Hairpin DNA는 Target DNA와 선택적으로 결합하여 반응하고 catalytic hairpin assembly",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 288,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.5,
+          600.3,
+          488.74,
+          730.24
+        ],
+        "page_area_fraction": 0.0985
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 526,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "FRET 설명도",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 18 -",
+        "after": "[실험의 개략도]\n[650nm/550nm의 형광값 비율을\nTarget DNA 농도별로 나타낸 그래프]\n[각 파장대 별 형광값의 세기를",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 119,
+      "3": 4,
+      "2": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -97.39,
+          591.07,
+          274.89,
+          782.98
+        ],
+        "page_area_fraction": 0.1428
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          285.81,
+          591.07,
+          658.09,
+          782.98
+        ],
+        "page_area_fraction": 0.1428
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.94,
+          405.4,
+          293.24,
+          556.55
+        ],
+        "page_area_fraction": 0.0569
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          310.15,
+          407.55,
+          503.13,
+          544.44
+        ],
+        "page_area_fraction": 0.0528
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 413,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "좌측: 실험의 개략도, 우측: MutS 효소 사용시 공진주파수 변화",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 19 -",
+        "after": "[위: 실험과정의 개략도, 아래: MutS 효소와 금 나노입자 부착 증명]\n◯ 공진센서와 MutS 효소를 사용한 KRAS DNA 단일염기 변이 검출. - KRAS DNA는 98%가 12번과 13번 코돈에서 단일염기 변이. - 위 실험의 개략도에서 공진 센서로 DNA를 검출 이후 MutS 효소와 금 나노입자가 붙은\n증폭제를 사용하여 DNA 검출\n- DNA를 고농도부터 저농도까지 농도별로 검출 하였으며, control신호의 3표준편차를 더하",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "위: 실험과정의 개략도, 아래: MutS 효소와 금 나노입자 부착 증명",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 19 -\n[좌측: 실험의 개략도, 우측: MutS 효소 사용시 공진주파수 변화]",
+        "after": "◯ 공진센서와 MutS 효소를 사용한 KRAS DNA 단일염기 변이 검출. - KRAS DNA는 98%가 12번과 13번 코돈에서 단일염기 변이. - 위 실험의 개략도에서 공진 센서로 DNA를 검출 이후 MutS 효소와 금 나노입자가 붙은\n증폭제를 사용하여 DNA 검출\n- DNA를 고농도부터 저농도까지 농도별로 검출 하였으며, control신호의 3표준편차를 더하\n여 100fM을 검출 한계로 판단 하였다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 100,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          633.39,
+          264.34,
+          743.79
+        ],
+        "page_area_fraction": 0.0442
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          264.22,
+          626.43,
+          466.19,
+          782.98
+        ],
+        "page_area_fraction": 0.0632
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.48,
+          380.82,
+          446.4,
+          602.34
+        ],
+        "page_area_fraction": 0.1279
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          140.8,
+          255.68,
+          457.55,
+          374.23
+        ],
+        "page_area_fraction": 0.075
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 687,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "KRAS DNA 농도에 따른 검출 신호",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 20 -",
+        "after": "◯ Wild type DNA와 Mutant type 일괄검출 방식 비교\n- 일반적으로 혈액 속에는 Mutant DNA와 Wild type DNA가 함께 존재. - 따라서 Wild type DNA가 존재하는 상태에서의 Mutant type DNA의 검출 실험이 필수. - Mutant type DNA의 농도를 100pM로 고정시키고, Wild type DNA의 농도를 변화시켜가\n며 실험을 진행. - Mutant DNA와 Wild type DNA의 비율이 1:1000까지 Mutant type DNA검출이 가능.\n[동일용액 상에서 Mutant, Wild type 혼재 시 검출 능력 비교]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "동일용액 상에서 Mutant, Wild type 혼재 시 검출 능력 비교",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[KRAS DNA 농도에 따른 검출 신호]\n◯ Wild type DNA와 Mutant type 일괄검출 방식 비교\n- 일반적으로 혈액 속에는 Mutant DNA와 Wild type DNA가 함께 존재. - 따라서 Wild type DNA가 존재하는 상태에서의 Mutant type DNA의 검출 실험이 필수. - Mutant type DNA의 농도를 100pM로 고정시키고, Wild type DNA의 농도를 변화시켜가\n며 실험을 진행. - Mutant DNA와 Wild type DNA의 비율이 1:1000까지 Mutant type DNA검출이 가능.",
+        "after": "◯ 다른 KRAS 변이에 따른 검출\n- KRAS변이는 많은 경우 존재 하지 않기 때문에 존재 여부가 주요 관심사\n- 앞서 실험한 동일한 probe와 증폭제를 사용하여 98%의 KRAS 검출 가능\n- 아래 그림에서 다음 4개의 변이가 총 KRAS의 80%의 변이정도, 가장 앞 부분의 것은 앞",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 174,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          147.88,
+          547.68,
+          450.48,
+          782.98
+        ],
+        "page_area_fraction": 0.1423
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          192.38,
+          258.2,
+          405.98,
+          418.1
+        ],
+        "page_area_fraction": 0.0683
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 841,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "100pM의 농도에 대한 다른 KRAS 변이에 따른 검출",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 21 -",
+        "after": "□ 극저 SNR 의 자가 정제 및 증폭 검출\n◯ 깁스 에너지를 조절하여 정상 DNA에 의한 정제 및 증폭과 전기화학적 검출 장비를\n이용한 DNA 검출\n- Target DNA에 템플릿을 부착하여 정상 DNA는 사슬 형태를 형성하도록 설계 하였다. - 깁스 에너지를 조절하여, Hairpin 구조를 가진 Probe DNA가 Target DNA와 결합 되었을",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 222,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          162.15,
+          572.97,
+          436.09,
+          782.98
+        ],
+        "page_area_fraction": 0.115
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 882,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 연구수행내용 및 성과",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 193,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.14,
+          606.42,
+          492.1,
+          782.98
+        ],
+        "page_area_fraction": 0.1362
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.04,
+          372.67,
+          266.02,
+          582.32
+        ],
+        "page_area_fraction": 0.0834
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          282.45,
+          373.63,
+          481.3,
+          576.93
+        ],
+        "page_area_fraction": 0.0808
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 484,
+    "heading_candidates": [
+      "□ SPR 기반의 ctDNA 검출 assay법 개발"
+    ],
+    "section_context_candidate": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "2. 연구수행내용 및 성과",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "전기영동 이미지",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 23 -\n- 위와 같은 cycle이 반복되면 적은 양의 Target DNA(암 DNA)만으로도 많은 양의 Catalyst\nDNA를 만들어내 검출의 효율을 높일 수 있다.",
+        "after": "[실험의 개략도]\n표면 플라즈몬 공명 센서 기반 다중 ctDNA 동시 검출기술\n□ SPR 기반의 ctDNA 검출 assay법 개발\n[SPR 센서 기반 point mutation된 DNA 검출 결과]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "SPR 센서 기반 point mutation된 DNA 검출 결과",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "[전기영동 이미지]\n[실험의 개략도]\n표면 플라즈몬 공명 센서 기반 다중 ctDNA 동시 검출기술\n□ SPR 기반의 ctDNA 검출 assay법 개발",
+        "after": "- 본 연구실은 ctDNA의 효율적인 검출을 위해 표면 플라스몬 공명(SPR;Surface Plasmon\nReseonance) 센서를 이용한 assay법을 개발하였음. - 본 연구실은 SPR 센서를 이용해 point mutation type의 TP53 DNA를 효율적으로 검출하\n였음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 103,
+      "3": 3,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.63,
+          568.3,
+          269.14,
+          713.7
+        ],
+        "page_area_fraction": 0.0524
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.6,
+          565.3,
+          509.61,
+          730.24
+        ],
+        "page_area_fraction": 0.0702
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.89,
+          252.56,
+          468.59,
+          455.86
+        ],
+        "page_area_fraction": 0.1376
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 555,
+    "heading_candidates": [],
+    "section_context_candidate": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Mutant probe linker 반응성",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 24 -",
+        "after": "[Total linker 반응성] - 신규 측정 방식의 Total linker와 Mutant probe linker의 feasibility test를 진행함. - 5’ 부분의 total probe linker에서는 WT, MUT 모두 유사한 수준의 시그널이 확인됨. - Mutant probe linker에서는 WT대비 MUT의 시그널이 약 2배 정도 높게 확인됨.\n[20bp mutant probe linker] [40bp mutant probe linker]\n[60bp mutant probe linker] [80bp mutant probe linker] - 길이별 mutant probe linker의 selectivity 성능 확인 결과 20bp linker의 sensitivity가 가\n장 높다고 판단되어 이후 실험은 20bp 길이의 linker로 진행함.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Total linker 반응성",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 24 -\n[Mutant probe linker 반응성]",
+        "after": "[20bp mutant probe linker] [40bp mutant probe linker]\n[60bp mutant probe linker] [80bp mutant probe linker] - 길이별 mutant probe linker의 selectivity 성능 확인 결과 20bp linker의 sensitivity가 가\n장 높다고 판단되어 이후 실험은 20bp 길이의 linker로 진행함.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 104,
+      "3": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.52,
+          629.19,
+          278.73,
+          772.68
+        ],
+        "page_area_fraction": 0.0597
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          276.81,
+          630.99,
+          481.54,
+          770.76
+        ],
+        "page_area_fraction": 0.0572
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.6,
+          386.7,
+          267.7,
+          513.88
+        ],
+        "page_area_fraction": 0.0498
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          276.81,
+          386.94,
+          472.91,
+          519.27
+        ],
+        "page_area_fraction": 0.0519
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.52,
+          222.6,
+          266.62,
+          363.2
+        ],
+        "page_area_fraction": 0.0551
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          276.81,
+          221.4,
+          472.91,
+          364.28
+        ],
+        "page_area_fraction": 0.056
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 659,
+    "heading_candidates": [],
+    "section_context_candidate": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "MUA:MU surface 표면에서의 selectivity와 sensitivity 확인(TBS환경)",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 25 -",
+        "after": "- MUA(11-mercapto-1-undecanoic acid, 활성화 표면)와 MU(11-mercapto-1-undecanol, 불활\n성화 표면)의 비율에 따른 mutant probe linker의 selectivity와 sensitivity를 확인한 결과, MUA:MU=1:4이상의 표면에서 selectivity 능력이 증가함을 확인. 향후, DNA의 steric\nhindrance를 고려하여 표면을 설계하도록 함.\n- Probe linker의 말단 SPR gold chip과의 부착을 위해 –SH(thiol),",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Linker 말단 modification별 고정화 능력",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "hindrance를 고려하여 표면을 설계하도록 함.\n- Probe linker의 말단 SPR gold chip과의 부착을 위해 –SH(thiol),\n- NH2(amine), biotin으로 modification하여 SPR 골드칩과의 고정화 작업을 수행하였음. - Biotin linker는 thiolated linker 대비 350%, amino linker 대비 250%의 고정화 능력을 보\n이는 것을 확인하여 linker 표면처리를 최적화 함.",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 117,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.07,
+          559.55,
+          508.29,
+          782.98
+        ],
+        "page_area_fraction": 0.1867
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.39,
+          93.38,
+          487.54,
+          375.31
+        ],
+        "page_area_fraction": 0.2232
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 726,
+    "heading_candidates": [],
+    "section_context_candidate": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Buffer환경별 mutant probe linker의 selectivity",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "- 다양한 buffer 환경에서 mutant probe linker와 mutant target과의 hybridization을 진행시\n켜본 결과, SSC(Saline Sodium Citrate)에서의 selectivity를 확보하면서 sensitivity가 가장\n높은 것으로 확인됨. - 고정화된 linker(20mer)와 deletion mutant(50mer)와의 hybridization의 적정 환경을 최적화\n실험 진행함.",
+        "after": "hybridization의 stringency를 강화하는 Formamide를 이용, sensitivity와 selectivity를 향\n상 시키고자 하였음. - 농도별 SSC buffer 환경에서 dsDNA 로의 hybidization을 진행시켜본 결과, SSC의 농도가\n높아질수록 target의 selectivity가 높아짐. - Formamide의 농도를 높여준 결과, 35% 농도에서 target의 sensitivity가 가장 뛰어남을\n알 수 있었음.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 129,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.94,
+          440.88,
+          512.36,
+          677.5
+        ],
+        "page_area_fraction": 0.1912
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 574,
+    "heading_candidates": [],
+    "section_context_candidate": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "농도별 FA에 따른 sensitivity 비교",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 27 -",
+        "after": "- 최적화 된 민감도 및 선택성을 가지는 버퍼 환경에서 5가지 ctDNA를 선택적으로 검출하\n는 실험을 진행함. - 최적 FA 농도인 30~35% 사이에서 검출하고자 하는 특정 유전자만 검출이 되고 다른 유\n전자의 검출 신호는 제거 되는 것을 확인 함. - 각각의 linker에 각기 다른 유전자 변이를 측정 할 수 있는 다중 검출 기술을 개발 함.\n[5가지 ctDNA (wildtype 및 mutant)의 선택적 검출]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "5가지 ctDNA (wildtype 및 mutant)의 선택적 검출",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[농도별 FA에 따른 sensitivity 비교]\n- 최적화 된 민감도 및 선택성을 가지는 버퍼 환경에서 5가지 ctDNA를 선택적으로 검출하\n는 실험을 진행함. - 최적 FA 농도인 30~35% 사이에서 검출하고자 하는 특정 유전자만 검출이 되고 다른 유\n전자의 검출 신호는 제거 되는 것을 확인 함. - 각각의 linker에 각기 다른 유전자 변이를 측정 할 수 있는 다중 검출 기술을 개발 함.",
+        "after": "- 높은 선택성을 가진 버퍼환경에서 최소 검출 농도를 확인하기 위한 실험을 진행함. - 동일한 두 개의 채널에 mutant 유전자를 검출하는 linker를 고정화 하고, 각각의 채널에\nwildtype, mutant를 각각 주입함. - Wildtype의 경우 표면의 링커와 결합하지 않아 신호가 일정한데 반해, mutant의 경우만\n농도에 따른 신호의 증가가 관찰됨.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 137,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.71,
+          499.49,
+          584.92,
+          782.98
+        ],
+        "page_area_fraction": 0.284
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.96,
+          201.26,
+          514.4,
+          350.38
+        ],
+        "page_area_fraction": 0.1283
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 462,
+    "heading_candidates": [],
+    "section_context_candidate": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "선택성을 유지한 상태에서의 농도별 검출",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 28 -\n- 최소 검출 농도는 100pM 수준으로 높은 선택성을 갖는 환경에서도 높은 민감도가 관찰\n됨.",
+        "after": "□ 골드나노입자(AuNP) 신호증폭을 이용한 ctDNA 검출\n◯ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출의 필요성\n- SPR 센서의 장점은 센서칩 표면에 고정된 각기 다른 리셉터에서 각각 개별적으로 특정\n검출 타겟을 검출하는 다중검출이 가능하나는 점임. - 그러나, 검출하고자 하는 대상이 DNA 인 경우 분자량이 매우 작아 검출신호가 매우 작",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 103,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.91,
+          486.31,
+          510.68,
+          747.86
+        ],
+        "page_area_fraction": 0.2163
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 1025,
+    "heading_candidates": [
+      "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발"
+    ],
+    "section_context_candidate": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ SPR 기반의 ctDNA 검출 assay법 개발",
+      "pdf_page": 24
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "금 나노 입자를 이용한 타겟 유전자 검출 개념도",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 29 -\n□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+        "after": "- 금 나노 입자의 표면에는 특정 타겟 DNA와 결합하도록 하는 probe DNA(target capture\nDNA)와, 센서 표면의 리셉터와 결합하는 barcode DNA (sensing DNA)로 이루어진 DNA\n가닥을 고정시킴. - 표면 처리가 된 금 나노 입자가 해당 타겟 유전자를 만나게 되면 probe DNA 부분이\n서로 이중가닥을 형성하게 됨. - 반응 용액 내부에 존재하던 이중가닥의 3` 부분을 인식하여 제거하는 효소인",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 252,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.87,
+          469.89,
+          516.08,
+          765.48
+        ],
+        "page_area_fraction": 0.2471
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 468,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "AuNP 표면 처리 검증 방법",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 30 -\n□ AuNP 표면 DNA 기능화 확인",
+        "after": "[AuNP상에 부착된 DNA hybridization 에 의한 나노플라즈모닉 현상 관찰]\n- Probe DNA가 AuNP에 부착하는 과정과 그 상태에서 상보적인 DNA의 결합이 가능함\nUV spectrometer를 통해 최대 흡광도를 가지는 peak값의 파장을 비교함으로써 검증함. - 샘플 1번과 2번은 DNA가 각기 따로 존재하므로 최대 흡광도를 가지는 파장영역이 고정\n되어있으나, 3번 샘플의 경우 상보적인 DNA를 가진 두 AuNP가 결합하여 최대흡광파장",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "AuNP상에 부착된 DNA hybridization 에 의한 나노플라즈모닉 현상 관찰",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 30 -\n□ AuNP 표면 DNA 기능화 확인\n[AuNP 표면 처리 검증 방법]",
+        "after": "- Probe DNA가 AuNP에 부착하는 과정과 그 상태에서 상보적인 DNA의 결합이 가능함\nUV spectrometer를 통해 최대 흡광도를 가지는 peak값의 파장을 비교함으로써 검증함. - 샘플 1번과 2번은 DNA가 각기 따로 존재하므로 최대 흡광도를 가지는 파장영역이 고정\n되어있으나, 3번 샘플의 경우 상보적인 DNA를 가진 두 AuNP가 결합하여 최대흡광파장\n이 8nm만큼 이동함. - 이때, peak가 이동된 샘플을 95도의 고온으로 가열하면, 상보적인 결합이 끊어지며 최대",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 107,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.35,
+          503.21,
+          496.89,
+          765.48
+        ],
+        "page_area_fraction": 0.2073
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.18,
+          215.88,
+          496.05,
+          477.08
+        ],
+        "page_area_fraction": 0.2056
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 605,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Exonuclease III에 의한 타겟결합부 DNA 제거 매커니즘 및 확인 결과",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 31 -\n흡광파장이 대조군과 동일해짐. - 위 과정을 통해 AuNP에 의해 나타나는 나노플라즈모닉 현상이 DNA가 상보결합 및\ndenaturation에 의하여 변화하는 것을 확인함으로써, AuNP의 표면에 probe DNA가 부착\n되어 있는 것을 확인함. □ Exonuclease III에 의한 DNA 분해효과 확인",
+        "after": "- 타겟DNA와 Probe DNA의 말단인 타겟결합부가 상보적으로 결합하여 이중가닥DNA가 된\n경우, 형광물질인 gel green이 층간삽입되었을 때 단일가닥 DNA에 비해 5~10배 밝은 형\n광을 띔. - 이 이중가닥 DNA를 Exonuclease III로 처리하여 probe DNA의 타겟결합부가 분해되면, 다시 단일가닥 DNA로 분리되어 형광이 약해지게 됨. - 따라서 Exonuclease III 반응 전 후의 샘플을 electrophoresis 하여 형광량의 차이가 발생\n하는 것을 확인함.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 136,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.38,
+          502.61,
+          494.97,
+          677.5
+        ],
+        "page_area_fraction": 0.1369
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 970,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "반응 하지 않은 AuNP에 부착된 DNA blocking 과정 및 조건 확립 결과",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 32 -\n□ 비 반응 AuNP 부반응 제거를 위한 blocking 과정 확인",
+        "after": "- 앞서 언급한 연구내용을 통해, 우리 연구실은 이미 AuNP에 부착된 probe DNA의 말단인\n타겟결합부가 제거된 경우와 제거되지 않은 경우 SPR 센서로 측정한 결과에 affinity에\n의한 차이가 발생 하는 것을 확인 함. - AuNP와 결합된 probe DNA의 말단부인 타겟결합부가 제거된 경우는 affinity가 높기 때\n문에 더 많은 AuNP가 센서칩 표면에 capture 되므로 높은 신호를 나타냄. - Probe DNA가 온전한 경우 말단의 타겟결합부가 제거되지 않아 센서칩의 probe linker",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 231,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.79,
+          488.23,
+          495.57,
+          747.86
+        ],
+        "page_area_fraction": 0.2038
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 1075,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "L858R 유전자 변이 검출 결과",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 33 -\n□ 금 나노 입자를 이용한 ctDNA 선택적 검출 확인.",
+        "after": "- Exonuclease III에 의한 선택적 검출성능을 확인함. - 금 나노 입자의 표면에 L858R mutant DNA와 결합하도록 디자인 된 probe DNA와, 결\n합하지 않는 probe DNA를 각각 부착함. - 두 가지의 금 나노 입자를 mutation DNA와 wild type 에 각각 첨가하고 Exonuclease III\n반응을 진행 시킨 후 SPR로 분석함. - 주황색 막대그래프는 wild type과 mutant DNA 둘다 결합하지 않는 금 나노 입자의 결과\n로, 반응 생성물이 생성 되지 않아 낮은 값을 보이는 것을 확인함. - 파란색 막대그래프는 타겟 mutant DNA에 결합하도록 디자인 된 금 나노 입자로, wild",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 275,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.9,
+          529.7,
+          477.7,
+          747.86
+        ],
+        "page_area_fraction": 0.1582
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 715,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+    "prior_heading_candidate": {
+      "text": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 179,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.42,
+          547.92,
+          480.94,
+          782.98
+        ],
+        "page_area_fraction": 0.1708
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.31,
+          102.01,
+          505.05,
+          259.99
+        ],
+        "page_area_fraction": 0.13
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 922,
+    "heading_candidates": [
+      "□ 화학적 리간드를 이용한 플라즈몬 나노입자의 표면 기능화 개선 기술 개발"
+    ],
+    "section_context_candidate": "□ 화학적 리간드를 이용한 플라즈몬 나노입자의 표면 기능화 개선 기술 개발",
+    "prior_heading_candidate": {
+      "text": "□ 금 나노 입자를 이용한 SPR 기반의 신호 증폭 및 ctDNA 검출 assay법 개발",
+      "pdf_page": 30
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 220,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.64,
+          453.1,
+          515.6,
+          607.26
+        ],
+        "page_area_fraction": 0.1334
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 541,
+    "heading_candidates": [
+      "□ 새로운 금/은 합금 나노 프로브 합성 및 광학적 특성 평가"
+    ],
+    "section_context_candidate": "□ 새로운 금/은 합금 나노 프로브 합성 및 광학적 특성 평가",
+    "prior_heading_candidate": {
+      "text": "□ 화학적 리간드를 이용한 플라즈몬 나노입자의 표면 기능화 개선 기술 개발",
+      "pdf_page": 36
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 130,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.03,
+          350.5,
+          498.21,
+          782.98
+        ],
+        "page_area_fraction": 0.3441
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 713,
+    "heading_candidates": [
+      "□ 유기 물질이 나노 프로브의 가역적 조립 현상에 미치는 영향 평가",
+      "□ 금 나노입자가 박힌 은 나노그물망 입자 합성법 개발"
+    ],
+    "section_context_candidate": "□ 유기 물질이 나노 프로브의 가역적 조립 현상에 미치는 영향 평가",
+    "prior_heading_candidate": {
+      "text": "□ 새로운 금/은 합금 나노 프로브 합성 및 광학적 특성 평가",
+      "pdf_page": 37
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 177,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.63,
+          586.88,
+          291.44,
+          781.42
+        ],
+        "page_area_fraction": 0.0754
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          318.91,
+          586.52,
+          500.61,
+          782.98
+        ],
+        "page_area_fraction": 0.0713
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.0,
+          254.84,
+          450.24,
+          404.08
+        ],
+        "page_area_fraction": 0.0901
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 656,
+    "heading_candidates": [
+      "□ 고분자 코팅으로 안정성이 향상된 나노 프로브 대량 합성법 개발"
+    ],
+    "section_context_candidate": "□ 고분자 코팅으로 안정성이 향상된 나노 프로브 대량 합성법 개발",
+    "prior_heading_candidate": {
+      "text": "□ 금 나노입자가 박힌 은 나노그물망 입자 합성법 개발",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 149,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.41,
+          554.87,
+          459.95,
+          782.98
+        ],
+        "page_area_fraction": 0.1466
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.74,
+          295.6,
+          264.94,
+          425.29
+        ],
+        "page_area_fraction": 0.0371
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          264.94,
+          295.6,
+          476.62,
+          424.82
+        ],
+        "page_area_fraction": 0.0547
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 318,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 고분자 코팅으로 안정성이 향상된 나노 프로브 대량 합성법 개발",
+    "prior_heading_candidate": {
+      "text": "□ 고분자 코팅으로 안정성이 향상된 나노 프로브 대량 합성법 개발",
+      "pdf_page": 39
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 67,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.03,
+          631.59,
+          439.32,
+          782.98
+        ],
+        "page_area_fraction": 0.0848
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.01,
+          94.46,
+          462.23,
+          502.01
+        ],
+        "page_area_fraction": 0.2657
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 683,
+    "heading_candidates": [
+      "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법"
+    ],
+    "section_context_candidate": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+    "prior_heading_candidate": {
+      "text": "□ 고분자 코팅으로 안정성이 향상된 나노 프로브 대량 합성법 개발",
+      "pdf_page": 39
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "RCA 검출 원리",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 40 -\n□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법\n◯ Rolling circle amplification(RCA) 등온증폭방법을 이용한 target DNA 검출 방법",
+        "after": "- 등온증폭방법 기반의 RCA법을 통해 DNA hydrogel 형성을 확인하고자 함. - 단일 가닥 형태의 template DNA와 타겟 DNA가 동시에 존재 시, ligation 과정을 거쳐서\nlinear 형태의 template DNA의 양쪽 말단이 이어 붙여져서 circular DNA template를 형\n성함. - Circular DNA는 RCA 과정에서 반복적으로 순환하는 형태로 extension이 일어나 길이가\n계속적으로 증가하게 되고, 이렇게 길이가 증가된 RCA product는 자체적으로 이중가닥",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 150,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.23,
+          317.53,
+          509.13,
+          712.74
+        ],
+        "page_area_fraction": 0.3316
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 985,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+    "prior_heading_candidate": {
+      "text": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "현미경을 이용한 PTFA tube 형상 및 미세구슬 분포",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 41 -\n- Target DNA 존재 시, circular DNA Template가 만들어져 RCA 반응이 일어난 후, 형성되\n는 product는 hydrogel을 형성시켜 점도가 높아짐을 확인함. □ RCA 기반 DNA 검출 장치의 미세 구슬 패킹 공정 개발.",
+        "after": "- 기존의 RCA의 반응 면적을 넓히면서 반응 공간은 최소화하는 방법과 장치를 제공하여\n핵산을 증폭하는데 소요되는 시간을 획기적으로 줄이고 검출한계를 혁신적으로 향상시\n키는 방법과 장치를 제공하려 함. - 핵산 증폭 및 검출용 미세구슬 패킹부는 마이크로미터 수준의 직경을 갖는 미세 구슬을\n규칙적으로 조밀하게 일정 길이만큼 패킹(packing)된 구조를 특징으로 함.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 231,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          250.07,
+          625.6,
+          348.17,
+          782.98
+        ],
+        "page_area_fraction": 0.0309
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          230.88,
+          396.41,
+          354.29,
+          547.8
+        ],
+        "page_area_fraction": 0.0373
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.39,
+          396.53,
+          215.04,
+          548.76
+        ],
+        "page_area_fraction": 0.0376
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          382.35,
+          402.04,
+          501.09,
+          548.76
+        ],
+        "page_area_fraction": 0.0348
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 702,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+    "prior_heading_candidate": {
+      "text": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "형광현미경을 통한 Primer 고정화 확인",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 42 -\n□ Bead 표면에 Primer immobilization 확인",
+        "after": "- Bead에서 hydrogel 형성 되기 위해서는 먼저 Primer 고정화 작업이 필요함. - Bead 표면에 Primer를 amine-coupling 반응을 이용하여 고정. - Primer 고정 됨을 확인하기 위해서, Primer를 붙인 sample과 붙이지 않은 sample을 준비\n한 뒤 washing하였고 상보적인 primer를 제작하여 5`에 FAM이라는 형광물질을 부착함. - primer가 고정 된 bead와 붙이지 않은 bead를 형광현미경으로 확인하였더니 primer가\n고정 된 bead에서 확연하게 형광을 띄는 것을 확인하였음.\n[Flowcytometry를 통한 Primer 고정화 확인]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Flowcytometry를 통한 Primer 고정화 확인",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "[형광현미경을 통한 Primer 고정화 확인]\n- Bead에서 hydrogel 형성 되기 위해서는 먼저 Primer 고정화 작업이 필요함. - Bead 표면에 Primer를 amine-coupling 반응을 이용하여 고정. - Primer 고정 됨을 확인하기 위해서, Primer를 붙인 sample과 붙이지 않은 sample을 준비\n한 뒤 washing하였고 상보적인 primer를 제작하여 5`에 FAM이라는 형광물질을 부착함. - primer가 고정 된 bead와 붙이지 않은 bead를 형광현미경으로 확인하였더니 primer가\n고정 된 bead에서 확연하게 형광을 띄는 것을 확인하였음.",
+        "after": "- 또한, FlowCytometry를 통해 Primer 붙인 sample과 그렇지 않은 sample과의 형광\nintensity를 측정하였음. - FlowCytometry에서의 FAM 형광 세기를 확인한 결과, primer가 비드 표면에 고정화 되었\n음을 확인. - Primer 고정화 비드에서의 100% 분해능의 intensity 차이 도출.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 152,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.14,
+          546.12,
+          286.77,
+          726.65
+        ],
+        "page_area_fraction": 0.0652
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          286.65,
+          542.53,
+          492.1,
+          747.86
+        ],
+        "page_area_fraction": 0.0843
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.12,
+          226.19,
+          303.68,
+          377.11
+        ],
+        "page_area_fraction": 0.0683
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          303.68,
+          226.19,
+          530.96,
+          377.71
+        ],
+        "page_area_fraction": 0.0688
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 584,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+    "prior_heading_candidate": {
+      "text": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Match Template와 Mismatch Template로 RCA 결과값",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 43 -\n□ Bead 기반 RCA 반응 확인",
+        "after": "- RCA 반응을 미세 구슬 표면에 고정된 Primer로부터 진행시키는 실험을 진행함. - 타겟과 정확한 결합을 하지 않는 Mismatch Template와 정확한 결합을 하는 Match\nTemplate로 같은 실험을 진행함. - Match Template에서만 반응이 일어나서 DNA Hydrogel 생성에 의한 Bead 뭉침 현상을\n확인하였음. □ Multi-rapid DNA 검출 kit 설계 및 실험결과\n[Multi-rapid DNA 검출 kit 설계 및 사진] - Chip을 설계한 뒤, 3D Printer로 제작한 chip에 미세구슬이 패킹된 마이크로 채널을 연결",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Multi-rapid DNA 검출 kit 설계 및 사진",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "[Match Template와 Mismatch Template로 RCA 결과값]\n- RCA 반응을 미세 구슬 표면에 고정된 Primer로부터 진행시키는 실험을 진행함. - 타겟과 정확한 결합을 하지 않는 Mismatch Template와 정확한 결합을 하는 Match\nTemplate로 같은 실험을 진행함. - Match Template에서만 반응이 일어나서 DNA Hydrogel 생성에 의한 Bead 뭉침 현상을\n확인하였음. □ Multi-rapid DNA 검출 kit 설계 및 실험결과",
+        "after": "한 형태로 칩을 제작 하였음. - Chip은 Sample inlet 부분, bead packed tube를 넣는 부분, 주사기를 연결하여 음압으로\n당기도록 설계.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 125,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          171.87,
+          634.59,
+          420.73,
+          747.86
+        ],
+        "page_area_fraction": 0.0563
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.38,
+          186.04,
+          476.98,
+          452.15
+        ],
+        "page_area_fraction": 0.1923
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 646,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+    "prior_heading_candidate": {
+      "text": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Target DNA 농도에 따른 △P의 차이",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 44 -",
+        "after": "- 본 기술의 최저 검출 한계인 Limit of detection(LOD) 값을 확인하는 실험을 진행함. - 실험은 target DNA 농도에 따라 0pM(coltrol), 0.01pM, 0.1pM, 1pM, 100pM, 10000pM 순\n으로 실험하였음. - Control sample에서는 평균적으로 △P=3.65kPa 일 때 ink가 진출하였지만 0.1pM일 때는\n평균적으로 △P=10kPa 정도에서 ink가 진출함. - Limit of detection는 target DNA 농도가 0.1pM까지 detection 가능함을 확인하였음.\n[Incubation 시간에 따른 △P의 차이]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Incubation 시간에 따른 △P의 차이",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "[Target DNA 농도에 따른 △P의 차이]\n- 본 기술의 최저 검출 한계인 Limit of detection(LOD) 값을 확인하는 실험을 진행함. - 실험은 target DNA 농도에 따라 0pM(coltrol), 0.01pM, 0.1pM, 1pM, 100pM, 10000pM 순\n으로 실험하였음. - Control sample에서는 평균적으로 △P=3.65kPa 일 때 ink가 진출하였지만 0.1pM일 때는\n평균적으로 △P=10kPa 정도에서 ink가 진출함. - Limit of detection는 target DNA 농도가 0.1pM까지 detection 가능함을 확인하였음.",
+        "after": "- 위 실험에 이어, 우리가 가진 Chip이 몇 분 이내에 target DNA를 detection 하는지 확인\n해보았음. - 실험은 target DNA 농도를 100pM로 고정한 뒤 실험을 진행하였음. - bead packed 된 tube에 RCA 용액을 넣고 incubation 시간을 5분, 10분, 15분 등 5분 단\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 145,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.44,
+          551.16,
+          478.18,
+          782.98
+        ],
+        "page_area_fraction": 0.1537
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.89,
+          171.41,
+          462.59,
+          403.96
+        ],
+        "page_area_fraction": 0.1546
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 644,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+    "prior_heading_candidate": {
+      "text": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 152,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.71,
+          302.19,
+          508.65,
+          677.5
+        ],
+        "page_area_fraction": 0.3187
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 664,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+    "prior_heading_candidate": {
+      "text": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "미세 유체칩 기반 유전자 증폭 키트 시스템",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 46 -\n유전자 증폭 및 검출 시작품 개발\n□ 마이크로 칩 기반 폐순환 DNA 증폭 시작품 제작\n◯ 마이크로 칩 제작 및 작동 원리",
+        "after": "- 폐 순환 루프 형태의 채널로서 용액 micro pump에 의해 유체가 순환하며 DNA가 증폭되\n는 시스템\n- 마이크로 채널은 COC(Cyclic olefin copolymer)상에 형성됨. - 채널형상이 새겨진 COC와 PCR tape으로 접착함. - Micro pump 내부의 magnetic stirrer가 마이크로 칩 외부에서 회전하는 자석에 의해 발\n생된 자기장에 따라 회전하며 반응 시료를 mixing 및 pumping하여 순환시킴. - DNA를 증폭하는 과정인 PCR 반응을 수행하기 위하여 3가지 온도로 시료의 온도를 변화",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 164,
+      "2": 9,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.32,
+          341.75,
+          514.16,
+          689.6
+        ],
+        "page_area_fraction": 0.303
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 448,
+    "heading_candidates": [
+      "□ 폐순환을 위한 관성펌프 시스템 개발"
+    ],
+    "section_context_candidate": "□ 폐순환을 위한 관성펌프 시스템 개발",
+    "prior_heading_candidate": {
+      "text": "□ 미세 구슬 패킹 기반 DNA 검출 장치 및 방법",
+      "pdf_page": 41
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "펌프 작동원리 및 펌핑 형광 이미지",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 47 -\n□ 폐순환을 위한 관성펌프 시스템 개발",
+        "after": "- 외부 회전하는 자석에 의해 발생된 자기장을 따라 내부 자성을 지닌 마그네틱바(SUS430)\n가 움직임\n- 마그네틱 바의 진동을 위하여 Chamber 의 형상을 제한하여 설계함. - 외부 자석으 회전 방향에 따라 마그네틱의 움직임이 한쪽방향으로 비대칭적으로 빠르게\n움직임",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "미세유체칩 도면 및 Heatblock 부착 이미지",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "- 마그네틱 바의 진동을 위하여 Chamber 의 형상을 제한하여 설계함. - 외부 자석으 회전 방향에 따라 마그네틱의 움직임이 한쪽방향으로 비대칭적으로 빠르게\n움직임\n- 이러한 비대칭적인 움직임이 한쪽 방향으로 더 많은 유량을 내보내어 유동을 만듦\n- Magnetic bar의 1회 진동으로   만큼 net flow가 발생함. □ 유전자 증폭을 위한 미세유체칩 설계",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 99,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          129.05,
+          477.92,
+          463.55,
+          730.24
+        ],
+        "page_area_fraction": 0.1687
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.65,
+          116.51,
+          274.17,
+          252.92
+        ],
+        "page_area_fraction": 0.0418
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          283.77,
+          120.83,
+          471.83,
+          253.64
+        ],
+        "page_area_fraction": 0.0499
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 583,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐순환을 위한 관성펌프 시스템 개발",
+    "prior_heading_candidate": {
+      "text": "□ 폐순환을 위한 관성펌프 시스템 개발",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "챔버 형상 및 결과",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "- 크기가 다른 Ceramic heater, Aluminium heat-block을 칩 하부에 부착하여 열전달을 함\n- Extension구간에서 열의 적절한 노출시간을 조절하기 위하여 Channel의 폭을 넓혀 유속을\n조절함\n□ 펌핑 최적화를 위한 Chamber 형상 별 성능",
+        "after": "순환 속도가 달라지는 것을 확인함. - 채널로부터 chamber로 들어가는 입구의 폭은 1.5mm, round 1mm 일 때 1cycle time은\n10초로 최적화 함.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 119,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.63,
+          346.66,
+          497.85,
+          589.64
+        ],
+        "page_area_fraction": 0.1958
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 453,
+    "heading_candidates": [
+      "□ 펌프 성능 결과"
+    ],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 폐순환을 위한 관성펌프 시스템 개발",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Inet,Outlet 위치에 따른 1cycle 시간 비교",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 49 -\n□ Inlet, Outlet 위치에 따른 펌핑성능 비교",
+        "after": "- 4가지 다른 디자인으로 잉크를 주입하여 1cycle time을 측정\n- A design이 가장 좋은 성능을 나타 냄\n□ 펌프 성능 결과\n[펌프의 1cycle 이미지 및 RPM별 유량 그래프]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "펌프의 1cycle 이미지 및 RPM별 유량 그래프",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "[Inet,Outlet 위치에 따른 1cycle 시간 비교] - Intet, Outlet의 위치에 따른 펌핑 성능을 비교하기 위하여 실험\n- 4가지 다른 디자인으로 잉크를 주입하여 1cycle time을 측정\n- A design이 가장 좋은 성능을 나타 냄\n□ 펌프 성능 결과",
+        "after": "- 180μm (15μl)으로 1cycle 4s의 결과로 40cycle 약 10분 소요예상 됨. - 2500RPM에서는 Saturation 되는 현상을 볼 수 있음\n- 모터의 RPM 으로 원하는 1Cycle time을 조절 할 수 있음.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 106,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.63,
+          513.76,
+          494.97,
+          730.24
+        ],
+        "page_area_fraction": 0.1719
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.79,
+          255.08,
+          301.64,
+          376.39
+        ],
+        "page_area_fraction": 0.0489
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          307.27,
+          235.78,
+          492.7,
+          385.5
+        ],
+        "page_area_fraction": 0.0555
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 354,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Tape 부착에 따른 열손실 및 Channel point 별 온도 측정",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "□ 샘플 증발 및 누출 문제 극복을 위한 가압시스템\n- Denaturation 95℃ 온도 노출 시 버블 생성 문제를 해결하기 위해 가압시스템 이용. - 알루미늄 블록과 유리를 사용하여 마이크로칩의 상하에서 압을 가하는 방식. - 가압 시스템을 사용하여 100도씨에서 버블 생성 및 샘플의 누출 없이 가열됨을 확인함.\n[가압시스템]\n□ PCR 반응을 위한 온도 조건 확립",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 77,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.14,
+          581.6,
+          401.18,
+          677.5
+        ],
+        "page_area_fraction": 0.0406
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          189.14,
+          510.88,
+          409.22,
+          581.6
+        ],
+        "page_area_fraction": 0.0311
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.08,
+          111.48,
+          440.28,
+          449.75
+        ],
+        "page_area_fraction": 0.1948
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 1000,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "미세유체칩 기반 PCR장비 구성도",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "황에서 heating block 표면, heating block 상단에 Tape을 부착한 표면의 온도 차이를 측\n정하여 열손실을 계산함. - Heating block에서 feedback 받는 온도계에 의한 PID제어는 실제 샘플이 접촉하는 COC\nchip 표면에서의 온도와는 열손실에 불일치하는 것을 확인함. - 따라서 Tape 표면에서의 온도를 기준으로 calibration 하여 실제 PCR 과정에서 필요한 온\n도로 열을 전달 할 수 있도록 제어함. □ 미세유체 칩 기반 PCR 장치 시작품 성능평가",
+        "after": "- 위, 아래 Clamping Rack은 Sample이 3단계 온도구배를 격는 과정에서 Bubble이 발생하\n지 않도록 압력을 높여주는 역할을 함. - PEEK Rack은 3개의 Heat Block과 Microfulidic Chip을 고정해 주는 역할을 함. - Ceramic 재질의 Heat Block은 각각 95℃, 55℃, 72℃로 Sample에 온도 변화를 줌. - Microfluidic Chip은 Sample에 유동을 만들어주는 Magnetic Bar와 Channel을 닫힌 System\n으로 만들어주는 Flim으로 이루어져 있음. - Tempered Glass는 Magnetic Bar의 움직임을 실시간으로 확인할 수 있게 해줌과 동시에\nChip에 압력을 가해주는 역할을 함.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 237,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.53,
+          303.27,
+          300.56,
+          554.51
+        ],
+        "page_area_fraction": 0.0889
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          269.02,
+          301.47,
+          501.57,
+          489.9
+        ],
+        "page_area_fraction": 0.0876
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 745,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Conventional PCR과 Clamp PCR 증폭결과",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 52 -",
+        "after": "만듬.\n- Heating block 의 노출시간을 1s(Denaturation), 1s(annealing) ,3s(extension) 의 극한의 조\n건으로 내부펌프(magnetic bar)를 이용하여 30cycle 반복함. - Heat block 온도가 saturation되는 시간을 포함하여 30cycle을 15분만에 완료함. - Clamp system에서 PCR과정이 끝난 sample을 회수하여 2% Agarose gel과 UV를 이용하\n여 밴드를 통해서 증폭을 확인함. □ 다중 분석용 표면 플라즈몬 공명센서 시작품 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 159,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.5,
+          611.21,
+          279.93,
+          782.98
+        ],
+        "page_area_fraction": 0.0606
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.0,
+          621.28,
+          488.98,
+          772.56
+        ],
+        "page_area_fraction": 0.0565
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.04,
+          172.49,
+          208.09,
+          328.8
+        ],
+        "page_area_fraction": 0.0403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          249.83,
+          188.55,
+          527.12,
+          331.08
+        ],
+        "page_area_fraction": 0.079
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 601,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "플루이딕 모듈의 3차원 설계도 및 실제 제작품",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "이 맞게 됨.\n- SPR 센서칩은 스퍼터링(Sputtering) 공정을 통해 0.5mm의 두께를 갖는 유리판 위에 크롬\n2nm, 금(Au) 45nm를 순차적으로 증착하여 제작됨.\n[SPR 센서칩]",
+        "after": "마이크로 채널을 형성 하는 구조로 플루이딕 모듈(Fluidic module)을 설계함에 따라 온도\n에 민감한 SPR 현상을 보정하기 위한 기준채널 설정을 가능토록 함.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 138,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.43,
+          430.81,
+          262.3,
+          617.08
+        ],
+        "page_area_fraction": 0.0629
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          290.12,
+          458.38,
+          512.96,
+          622.0
+        ],
+        "page_area_fraction": 0.0729
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          61.29,
+          181.48,
+          312.07,
+          353.73
+        ],
+        "page_area_fraction": 0.0863
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.96,
+          217.2,
+          420.49,
+          332.64
+        ],
+        "page_area_fraction": 0.0271
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          416.3,
+          219.36,
+          529.64,
+          332.64
+        ],
+        "page_area_fraction": 0.0257
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 620,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "SPR 센서 장치의 전자 제어부 블록 다이어그램",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 54 -\n◯ 전자 제어부",
+        "after": "[MCU 및 주변 전자 장치]\n- 본 연구실에서 개발한 SPR 장치는 PC상의 프로그램으로 제어하기 위해 마이크로 컨트\n롤러 유닛(Micro Controller Unit: MCU, 이하 MCU)을 사용하여 각각의 기능을 수행하는\n전자기판들과 연결이 되어 있으며, MCU와의 통신은 일반적인 통신 방법인 RS232 시리",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "MCU 및 주변 전자 장치",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 54 -\n◯ 전자 제어부\n[SPR 센서 장치의 전자 제어부 블록 다이어그램]",
+        "after": "- 본 연구실에서 개발한 SPR 장치는 PC상의 프로그램으로 제어하기 위해 마이크로 컨트\n롤러 유닛(Micro Controller Unit: MCU, 이하 MCU)을 사용하여 각각의 기능을 수행하는\n전자기판들과 연결이 되어 있으며, MCU와의 통신은 일반적인 통신 방법인 RS232 시리\n얼 통신을 이용하여 구현하였음.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "분석 소프트웨어의 실제 실행 화면",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- 각도 가변을 자동으로 제어하기 위하여 스텝모터(Step motor)를 이용하여 회전축을 회전\n시키도록 하였고, 이는 MCU를 이용하여 제어됨.\n- 온도에 민감한 SPR 장치에 온도의 영향을 예측하게 하기 위하여 온도센서를 장착하고, MCU를 통해 읽어 들인 뒤 ADC(Analog to Digital Conversion)를 거쳐 디지털 신호로 변\n환한 후 PC로 전송하여 분석 프로그램 상에서 확인 할 수 있도록 하였음. ◯ Software 개발",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 140,
+      "3": 3,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.15,
+          567.94,
+          361.25,
+          765.48
+        ],
+        "page_area_fraction": 0.1031
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          377.56,
+          569.02,
+          513.2,
+          759.25
+        ],
+        "page_area_fraction": 0.0516
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.83,
+          84.15,
+          514.4,
+          330.84
+        ],
+        "page_area_fraction": 0.2049
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 452,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 102,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.67,
+          387.18,
+          504.57,
+          695.12
+        ],
+        "page_area_fraction": 0.2529
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 1647,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 340,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 1078,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "EGFR 19 deletion mutation 진단을 위한 DNA template 디자인",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 타겟 Tumor biomarker의 선정과 선택적 검출 가능한 template 제작\n[EGFR 19 deletion mutation target 선정] - 폐암 biomarker 중 높은 확률로 변이가 일어나는 EGFR 19 deletion mutation을 표적 유\n전자로 선정함\n- EXON 19 site에서 10~15개 sequence가 삭제됨 (Figure 1)",
+        "after": "위, Red), complementary binding site (DNA 템플레이트 내 상보결합부위, Blue), LOOP\n(primer 결합부위, Yellow)로 이루어지며 덤벨 모양의 템플레이트로 디자인함으로써 효과\n적인 무한 회전환 증폭 (rolling circle amplification)이 가능함\n- LOOP 부분은 primer의 결합으로 DNA 증폭의 개시점이 됨. - 기존 DhITACT 시스템보다 진단 감도향상을 위한 DNA 템플레이트와 상보결합하는 염기",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 217,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.76,
+          480.67,
+          544.15,
+          712.74
+        ],
+        "page_area_fraction": 0.2181
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.52,
+          303.03,
+          528.56,
+          451.07
+        ],
+        "page_area_fraction": 0.1328
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 935,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "EGFR 19 deletion mutation 진단을 위한 DNA template 디자인",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 58 -\n◯ EGFR 19 deletion mutation 진단을 위한 template 제작",
+        "after": "DNA template 디자인 및 제작. - 타겟 유전자 선정에 따른 DNA template의 염기서열이 변경될 수 있으며 선정한 타겟 유\n전자마다 다르게 디자인하여 무한한 타겟 유전자를 진단함. - 타겟 유전자와 DNA template의 효과적인 hybridization을 위한 LOOP (Yellow) 의 크기와\n타겟 유전자 결합부위 (Red)의 비율을 조정하여 타겟 유전자에 선택적인 결합을 유도함. ◯ EGFR 19 deletion mutation 진단\n[EGFR 19 deletion mutation 진단 확인] - Microfluidic device 채널 내에 DNA template와 상보결합하는 primer를 고정시키고 타겟",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "EGFR 19 deletion mutation 진단 확인",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "[EGFR 19 deletion mutation 진단을 위한 DNA template 디자인] - EGFR 19 deletion mutation을 타겟 유전자로 하여 상보적인 결합부위를 갖는 덤벨모양의\nDNA template 디자인 및 제작. - 타겟 유전자 선정에 따른 DNA template의 염기서열이 변경될 수 있으며 선정한 타겟 유\n전자마다 다르게 디자인하여 무한한 타겟 유전자를 진단함. - 타겟 유전자와 DNA template의 효과적인 hybridization을 위한 LOOP (Yellow) 의 크기와\n타겟 유전자 결합부위 (Red)의 비율을 조정하여 타겟 유전자에 선택적인 결합을 유도함. ◯ EGFR 19 deletion mutation 진단",
+        "after": "유전자 주입을 통해 채널 내에서 라이게이션 반응 후 등온증폭 rolling circle\namplification (RCA) 을 통해 DNA 증폭산물을 형성함. - DNA template를 이용하여 폐암 biomarker인 EGFR 19 deletion mutation을 DhITACT-TR\nsystem에 적용하여 진단함. - SP (sample) 군에 EGFR 19 deletion mutation DNA template이 존재하여 타겟 유전자가\n존재할 경우 DNA template과 타겟 유전자가 hybridization되어 라이게이션이 유도됨.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 182,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.07,
+          558.11,
+          508.29,
+          747.86
+        ],
+        "page_area_fraction": 0.1586
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.79,
+          190.95,
+          433.45,
+          406.36
+        ],
+        "page_area_fraction": 0.1156
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 1108,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 펌프 성능 결과",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "DhlTACT와 DhlTACT-TR 시스템의 비교 (additional primer 적용)",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "로 결합함으로써 증폭산물이 증가함에 따라 fluorescence intensity가 증가함. - Naked eye (우) 의 경우 DNA 증폭산물의 물리적인 엉킴과 additional primer의 도입으로\n추가적인 증폭이 일어남으로써 DNA hydrogel의 microfluidic channel blocking 현상이 일\n어남. methylene blue dye를 통하여 blocking을 확인하였음. (Figure 4)\n◯ 진단 감도 향상",
+        "after": "킨 DhITACT-TR 시스템에 적용하여 타겟 유전자 진단 확인. (Figure 5)\n[DhlTACT-TR 시스템의 증폭 감도 향상] - 기존 DhITACT 시스템보다 증폭효율의 향상으로 타겟 유전자의 0.1 pM 까지 Relative\nfluorescence unit으로 검출 확인. (Figure 6)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "DhlTACT-TR 시스템의 증폭 감도 향상",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "어남. methylene blue dye를 통하여 blocking을 확인하였음. (Figure 4)\n◯ 진단 감도 향상\n[DhlTACT와 DhlTACT-TR 시스템의 비교 (additional primer 적용)] - MERS 진단을 위한 DNA template 제작 및 additional primer 도입하여 증폭효율 향상시\n킨 DhITACT-TR 시스템에 적용하여 타겟 유전자 진단 확인. (Figure 5)",
+        "after": "fluorescence unit으로 검출 확인. (Figure 6)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 223,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.07,
+          326.16,
+          508.29,
+          536.89
+        ],
+        "page_area_fraction": 0.1761
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.62,
+          83.07,
+          485.62,
+          284.33
+        ],
+        "page_area_fraction": 0.15
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 721,
+    "heading_candidates": [
+      "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인"
+    ],
+    "section_context_candidate": "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ 펌프 성능 결과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(Figure 8).",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "◯ siRNA 전달을 위한 표적 지향성 리간드 선택\n- 앱타머는 DNA나 RNA로 구성되어 있으며, 특정 세포 표면에 있는 특정 수용체 (MUC1\nS2.2) 가 인식할 수 있는 앱타머의 sequence를 확보하였음. - DNA 나노 구조체에 앱타머를 접목 가능하도록 siRNA의 anti-sense 3‘ 끝에 추가적이\n서열을 도입하였음 (Figure 7). 상온에서 나노 구조체와 hybrization이 가능하게 됨",
+        "after": "[표적 지향성 앱타머인 MUC1 S2.2의 구조 (위)및 서열(아래)]\n[앱타머와 DNA 나노 구조체의 구성]\n◯ apta-siRNA 의 전달 효율 비교\n- 고속 대량 스크리닝 방법을 통해 특정 세포라인에서 앰타머의 세포내 전달의 효율을 확",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "표적 지향성 앱타머인 MUC1 S2.2의 구조 (위)및 서열(아래)",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- 앱타머는 DNA나 RNA로 구성되어 있으며, 특정 세포 표면에 있는 특정 수용체 (MUC1\nS2.2) 가 인식할 수 있는 앱타머의 sequence를 확보하였음. - DNA 나노 구조체에 앱타머를 접목 가능하도록 siRNA의 anti-sense 3‘ 끝에 추가적이\n서열을 도입하였음 (Figure 7). 상온에서 나노 구조체와 hybrization이 가능하게 됨\n(Figure 8).",
+        "after": "[앱타머와 DNA 나노 구조체의 구성]\n◯ apta-siRNA 의 전달 효율 비교\n- 고속 대량 스크리닝 방법을 통해 특정 세포라인에서 앰타머의 세포내 전달의 효율을 확\n인함. apta-siRNA는 형광 염색 표지를 포함하고 있어 앱타머가 없는 siRNA와 비교시 쉽",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "앱타머와 DNA 나노 구조체의 구성",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "S2.2) 가 인식할 수 있는 앱타머의 sequence를 확보하였음. - DNA 나노 구조체에 앱타머를 접목 가능하도록 siRNA의 anti-sense 3‘ 끝에 추가적이\n서열을 도입하였음 (Figure 7). 상온에서 나노 구조체와 hybrization이 가능하게 됨\n(Figure 8).\n[표적 지향성 앱타머인 MUC1 S2.2의 구조 (위)및 서열(아래)]",
+        "after": "◯ apta-siRNA 의 전달 효율 비교\n- 고속 대량 스크리닝 방법을 통해 특정 세포라인에서 앰타머의 세포내 전달의 효율을 확\n인함. apta-siRNA는 형광 염색 표지를 포함하고 있어 앱타머가 없는 siRNA와 비교시 쉽\n게 효윻 확인이 가능하였음.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 173,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          225.12,
+          546.12,
+          378.28,
+          624.76
+        ],
+        "page_area_fraction": 0.0241
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.59,
+          394.61,
+          510.8,
+          539.53
+        ],
+        "page_area_fraction": 0.1211
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          132.34,
+          496.89,
+          412.83
+        ],
+        "page_area_fraction": 0.2188
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 837,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인",
+      "pdf_page": 61
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "앱타머와 나노구조체를 통한 siRNA의 세포 내 전달 효과 비교",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 61 -\n이 증가하였고, 구조체 도입시 전달 효과가 더 증가되었음. (Figure 9)",
+        "after": "◯ 침묵 유전자 효과 확인\n- GFP를 발현하는 세포를 이용하여 siRNA 를 도입한 나노 구조체의 유전자 침묵 효과 확\n인하였음.\n- siRNA의 엔도좀 방출을 위해 ER을 도입하였으며. 구조체 도입한 군에서 유전자 침묵 효",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "특정 수용체가 있는 세포를 이용하여 유전자 침묵 효과 비교",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "- GFP를 발현하는 세포를 이용하여 siRNA 를 도입한 나노 구조체의 유전자 침묵 효과 확\n인하였음.\n- siRNA의 엔도좀 방출을 위해 ER을 도입하였으며. 구조체 도입한 군에서 유전자 침묵 효\n과가 더 증가하는 것을 확인하였음.",
+        "after": "□ 표적 항암제 전달을 위한 DNA 구조체 제작\nD/L9\n2_S1\nCTCAACTGCCTCAGACGGACAGGTGATACGAGAGCCGG",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 111,
+      "3": 2,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.59,
+          608.34,
+          510.8,
+          765.48
+        ],
+        "page_area_fraction": 0.1313
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.07,
+          308.9,
+          508.29,
+          538.81
+        ],
+        "page_area_fraction": 0.1922
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 1057,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인",
+      "pdf_page": 61
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "L-DNA structure 제조 및 조건 확립",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "MgCl2 5 mM, SLOW cooling (95 °C 2 min incubation, 4 °C 로 1시간 동안 cooling) 시\n키는 것이 가장 최적화된 조건임을 확인함. ◯ L-DNA 나노 구조체 제조율 90% 이상 확보\n- 최적화된 조건에서 L-DNA 나노구조체의 제조율을 측정함. 제조율은 Biorad 젤 분석 소\n프트웨어를 이용하여 L-DNA 나노 구조체가 90% 이상 만들어지는 것을 확인함.",
+        "after": "◯ L-DNA 나노 구조체 제조율 90% 이상 확보\n- 최적화된 조건에서 L-DNA 나노구조체의 제조율을 측정함. 제조율은 Biorad 젤 분석 소\n프트웨어를 이용하여 L-DNA 나노 구조체가 90% 이상 만들어지는 것을 확인함.\n[L-DNA 나노 구조체의 제조율 분석 및 확인]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "L-DNA 나노 구조체의 제조율 분석 및 확인",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "[L-DNA structure 제조 및 조건 확립]\n◯ L-DNA 나노 구조체 제조율 90% 이상 확보\n- 최적화된 조건에서 L-DNA 나노구조체의 제조율을 측정함. 제조율은 Biorad 젤 분석 소\n프트웨어를 이용하여 L-DNA 나노 구조체가 90% 이상 만들어지는 것을 확인함.",
+        "after": "◯ AFM analysis를 통항 나노 구조체 분석 (입자 사이즈 및 형태 확인) - AFM을 이용하여 L-DNA 나노 구조체의 형태와 입자 크기 측정하고 입자 크기의 균일성\n확인함. 입자의 크기는 20 nm 높이는 1.5 nm로 확인됨. □ 저분자 항암물질 접목을 위한 약물봉입기술 확보\n◯ Doxorubicin을 봉입한 L-DNA 나노 구조체 제조\n- L-DNA 나노 구조체에 4 molar excess 농도에 해당하는 Doxorubicin을 넣고 상온에서 12",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 235,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          203.41,
+          495.42,
+          394.95,
+          610.49
+        ],
+        "page_area_fraction": 0.044
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          225.0,
+          276.3,
+          373.24,
+          403.12
+        ],
+        "page_area_fraction": 0.0376
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 470,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인",
+      "pdf_page": 61
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "AFM을 통한 L-DNA 나노 구조체 분석",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 63 -",
+        "after": "Doxorubicin이 없는 L-DNA와 비교 시 Doxorubicin이 봉입이 된 L-DNA가 진하게 보임. 염색한 젤 에서 L-DNA 나노 구조체 확인함.\n[L-DNA나노 구조체 Doxorubicin 봉입 확인 (위-염색 전, 아래- 염색 후)]\n◯ D-DNA 구조체와 L-DNA 구조체 간의 intercalation 차이점 확인\n- 5% PAGE 젤을 통해 D-DNA, L-DNA 나노 구조체에 Doxorubicin을 봉입된 것을 확인함. Doxorubicin-binding 에는 큰 차이가 없는 것으로 확인됨.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "L-DNA나노 구조체 Doxorubicin 봉입 확인 (위-염색 전, 아래- 염색 후)",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 63 -\n[AFM을 통한 L-DNA 나노 구조체 분석] - Doxorubicin은 특정 파장에서 흡광/형광 을 나타내기 때문에 염색되지 않은 젤에서\nDoxorubicin이 없는 L-DNA와 비교 시 Doxorubicin이 봉입이 된 L-DNA가 진하게 보임. 염색한 젤 에서 L-DNA 나노 구조체 확인함.",
+        "after": "◯ D-DNA 구조체와 L-DNA 구조체 간의 intercalation 차이점 확인\n- 5% PAGE 젤을 통해 D-DNA, L-DNA 나노 구조체에 Doxorubicin을 봉입된 것을 확인함. Doxorubicin-binding 에는 큰 차이가 없는 것으로 확인됨.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 99,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          234.71,
+          664.31,
+          363.65,
+          782.98
+        ],
+        "page_area_fraction": 0.0306
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.71,
+          568.3,
+          428.65,
+          657.72
+        ],
+        "page_area_fraction": 0.0463
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          193.34,
+          373.27,
+          405.02,
+          473.96
+        ],
+        "page_area_fraction": 0.0426
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          174.99,
+          261.79,
+          423.25,
+          366.68
+        ],
+        "page_area_fraction": 0.052
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.18,
+          66.53,
+          422.05,
+          167.22
+        ],
+        "page_area_fraction": 0.0495
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 738,
+    "heading_candidates": [
+      "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인"
+    ],
+    "section_context_candidate": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ 항암제 약물 감수성 증대 : 침묵 유전자 제작 및 효과 확인",
+      "pdf_page": 61
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "D-DNA와 L-DNA의 Doxorubicin 봉입 확인",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 64 -",
+        "after": "◯ L-DNA 나노 구조체 에서의 Doxorubicin 방출 경향 확인\n- Dialysis를 통해 doxorubicin과 doxorubicin이 봉입된 L-DNA 나노 구조체의 방출 경향을\n비교함. 5, 15, 30, 60, 180, 300분 후에 doxorubicin의 흡광을 측정함. L-DNA 나노 구조\n체가 doxorucibin 방출 속도를 조절하는 것을 확인함.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "L-DNA 나노 구조체를 통한 Doxorubicin의 방출 속도 측정",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "◯ L-DNA 나노 구조체 에서의 Doxorubicin 방출 경향 확인\n- Dialysis를 통해 doxorubicin과 doxorubicin이 봉입된 L-DNA 나노 구조체의 방출 경향을\n비교함. 5, 15, 30, 60, 180, 300분 후에 doxorubicin의 흡광을 측정함. L-DNA 나노 구조\n체가 doxorucibin 방출 속도를 조절하는 것을 확인함.",
+        "after": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인\n[L-Tds의 길이에 따른 HeLa 세포 내로의 나노 DNA 구조체 흡수 비교 (Blue channel :\nhoechst33342; Green channel: FAM labeled L-Tds; yellow channel: LysoTracker)]\n◯ 나노 DNA 구조체의 세포 내 거동을 확인하기 위한 Live cell imaging 기술 구축",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 150,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          206.65,
+          564.1,
+          391.59,
+          695.12
+        ],
+        "page_area_fraction": 0.0484
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.17,
+          250.17,
+          475.18,
+          498.77
+        ],
+        "page_area_fraction": 0.1749
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 552,
+    "heading_candidates": [],
+    "section_context_candidate": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+      "pdf_page": 65
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "나노 DNA 구조체의 세포 내 소기관 co-localization",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 65 -",
+        "after": "◯ 세포 내 흡수 경로 확인\n- caveolae 관련 endocytosis의 inhibitor인 genistein을 선 처리한 후 나노 DNA 구조체의\n세포 내 흡수 경과 확인. Inhibitor를 처리하지 않았을 때와 비교결과 L-Tds는 caveolae\n관련 endocytosis를 통해 세포 내로 흡수된다고 설명할 수 있음.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 105,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.22,
+          648.85,
+          479.02,
+          782.98
+        ],
+        "page_area_fraction": 0.0964
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.25,
+          291.16,
+          473.98,
+          536.89
+        ],
+        "page_area_fraction": 0.1717
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.22,
+          97.69,
+          479.02,
+          231.83
+        ],
+        "page_area_fraction": 0.0964
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 338,
+    "heading_candidates": [],
+    "section_context_candidate": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+      "pdf_page": 65
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "나노 DNA 구조체의 암세포 선택 흡수",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "◯ 나노 DNA 구조체의 암세포 지향 능력 검증\n- 뇌 내피 세포 (bEnd.3 cells)와 자궁암 세포 (HeLa cells)를 함께 배양한 후 나노 DNA 구\n조체를 처리하였을 때 암세포로 더 많이 흡수되는 것을 Live cell imaging 기술을 이용하\n여 확인.",
+        "after": "[상세포와 암세포에서의 나노 DNA 구조체와 세포 내 소기관의 Co-localization 정도 비교]\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "상세포와 암세포에서의 나노 DNA 구조체와 세포 내 소기관의 Co-localization 정도 비교",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "- 뇌 내피 세포 (bEnd.3 cells)와 자궁암 세포 (HeLa cells)를 함께 배양한 후 나노 DNA 구\n조체를 처리하였을 때 암세포로 더 많이 흡수되는 것을 Live cell imaging 기술을 이용하\n여 확인.\n[나노 DNA 구조체의 암세포 선택 흡수]",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 67,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          124.61,
+          453.34,
+          473.74,
+          695.12
+        ],
+        "page_area_fraction": 0.1687
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.22,
+          167.22,
+          479.02,
+          411.51
+        ],
+        "page_area_fraction": 0.1757
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 939,
+    "heading_candidates": [],
+    "section_context_candidate": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+      "pdf_page": 65
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 243,
+      "2": 16,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.82,
+          341.87,
+          487.54,
+          583.16
+        ],
+        "page_area_fraction": 0.1817
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 640,
+    "heading_candidates": [],
+    "section_context_candidate": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+      "pdf_page": 65
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 143,
+      "2": 2,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          532.82,
+          523.88,
+          765.48
+        ],
+        "page_area_fraction": 0.2138
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.28,
+          245.37,
+          528.08,
+          403.12
+        ],
+        "page_area_fraction": 0.1443
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 351,
+    "heading_candidates": [],
+    "section_context_candidate": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+    "prior_heading_candidate": {
+      "text": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+      "pdf_page": 65
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 75,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.38,
+          595.51,
+          479.98,
+          782.98
+        ],
+        "page_area_fraction": 0.1355
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.16,
+          305.9,
+          533.11,
+          518.67
+        ],
+        "page_area_fraction": 0.1943
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 478,
+    "heading_candidates": [
+      "□ 폐암, 대장암 환자의 cfDNA를 이용한 Whole Exome Sequencing (WES) 수행을 위한"
+    ],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Whole Exome Sequencing (WES) 수행을 위한",
+    "prior_heading_candidate": {
+      "text": "□ DNA 구조체를 이용한 항암제 전달 및 이를 이용한 세포수준에서의 치료효과 확인",
+      "pdf_page": 65
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 94,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          426.37,
+          525.8,
+          782.98
+        ],
+        "page_area_fraction": 0.3291
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 72,
+    "text_characters": 479,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Whole Exome Sequencing (WES) 수행을 위한",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Whole Exome Sequencing (WES) 수행을 위한",
+      "pdf_page": 71
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 94,
+      "3": 1,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          375.55,
+          535.39,
+          782.98
+        ],
+        "page_area_fraction": 0.3838
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 73,
+    "text_characters": 501,
+    "heading_candidates": [
+      "□ cfDNA의 유전자 변이 검출 프로세스 확립 (위탁연구 공동 수행)"
+    ],
+    "section_context_candidate": "□ cfDNA의 유전자 변이 검출 프로세스 확립 (위탁연구 공동 수행)",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Whole Exome Sequencing (WES) 수행을 위한",
+      "pdf_page": 71
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 122,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          518.19,
+          520.88,
+          782.98
+        ],
+        "page_area_fraction": 0.2417
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.31,
+          230.99,
+          495.93,
+          494.1
+        ],
+        "page_area_fraction": 0.207
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 74,
+    "text_characters": 481,
+    "heading_candidates": [
+      "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;"
+    ],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ cfDNA의 유전자 변이 검출 프로세스 확립 (위탁연구 공동 수행)",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 100,
+      "2": 2,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.79,
+          424.82,
+          495.57,
+          695.12
+        ],
+        "page_area_fraction": 0.2122
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          120.59,
+          534.31,
+          347.86
+        ],
+        "page_area_fraction": 0.2136
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 75,
+    "text_characters": 630,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 168,
+      "3": 1,
+      "2": 7,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.22,
+          558.11,
+          488.14,
+          782.98
+        ],
+        "page_area_fraction": 0.1698
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 76,
+    "text_characters": 365,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 78,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          485.35,
+          534.31,
+          782.98
+        ],
+        "page_area_fraction": 0.2797
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          111.96,
+          534.31,
+          373.27
+        ],
+        "page_area_fraction": 0.2456
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 77,
+    "text_characters": 377,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 71,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          520.95,
+          539.95,
+          782.98
+        ],
+        "page_area_fraction": 0.2492
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 78,
+    "text_characters": 95,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 4,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          71.24,
+          249.21,
+          527.12,
+          782.98
+        ],
+        "page_area_fraction": 0.4863
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 79,
+    "text_characters": 205,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 32,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          256.04,
+          534.31,
+          782.98
+        ],
+        "page_area_fraction": 0.4952
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 80,
+    "text_characters": 707,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 161,
+      "2": 23,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          120.11,
+          534.31,
+          499.73
+        ],
+        "page_area_fraction": 0.3568
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 81,
+    "text_characters": 323,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 66,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          580.41,
+          534.31,
+          782.98
+        ],
+        "page_area_fraction": 0.1904
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.48,
+          220.2,
+          532.39,
+          503.45
+        ],
+        "page_area_fraction": 0.2558
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 82,
+    "text_characters": 591,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 134,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          146.2,
+          583.88,
+          452.04,
+          782.98
+        ],
+        "page_area_fraction": 0.1217
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          241.54,
+          534.31,
+          471.8
+        ],
+        "page_area_fraction": 0.2164
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 83,
+    "text_characters": 698,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 156,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.49,
+          567.22,
+          464.87,
+          782.98
+        ],
+        "page_area_fraction": 0.1429
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          239.5,
+          534.31,
+          472.76
+        ],
+        "page_area_fraction": 0.2192
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 84,
+    "text_characters": 2286,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 312,
+      "2": 58,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 85,
+    "text_characters": 473,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 90,
+      "3": 2,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.06,
+          559.91,
+          484.18,
+          765.48
+        ],
+        "page_area_fraction": 0.1521
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.64,
+          136.53,
+          447.72,
+          314.66
+        ],
+        "page_area_fraction": 0.1058
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 86,
+    "text_characters": 424,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 101,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.16,
+          607.97,
+          454.08,
+          782.98
+        ],
+        "page_area_fraction": 0.1084
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.8,
+          356.85,
+          528.43,
+          460.78
+        ],
+        "page_area_fraction": 0.0953
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 87,
+    "text_characters": 258,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 51,
+      "3": 1,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          543.48,
+          501.69,
+          782.98
+        ],
+        "page_area_fraction": 0.1939
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 88,
+    "text_characters": 633,
+    "heading_candidates": [
+      "□ 기계학습 기반의 Biomarker 탐색 기술 연구"
+    ],
+    "section_context_candidate": "□ 기계학습 기반의 Biomarker 탐색 기술 연구",
+    "prior_heading_candidate": {
+      "text": "□ 폐암, 대장암 환자의 cfDNA를 이용한 Next Generation Sequencing 수행 (위탁연구수행;",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 110,
+      "3": 1,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          271.38,
+          511.64,
+          782.98
+        ],
+        "page_area_fraction": 0.4346
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 89,
+    "text_characters": 541,
+    "heading_candidates": [
+      "□ 기계학습 기반의 약물 병합치료 예측 모델 개발"
+    ],
+    "section_context_candidate": "□ 기계학습 기반의 약물 병합치료 예측 모델 개발",
+    "prior_heading_candidate": {
+      "text": "□ 기계학습 기반의 Biomarker 탐색 기술 연구",
+      "pdf_page": 88
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 125,
+      "3": 2,
+      "2": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.86,
+          557.39,
+          485.5,
+          712.74
+        ],
+        "page_area_fraction": 0.1157
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.82,
+          85.71,
+          496.53,
+          444.35
+        ],
+        "page_area_fraction": 0.2829
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 90,
+    "text_characters": 819,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 기계학습 기반의 약물 병합치료 예측 모델 개발",
+    "prior_heading_candidate": {
+      "text": "□ 기계학습 기반의 약물 병합치료 예측 모델 개발",
+      "pdf_page": 89
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 138,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.38,
+          346.78,
+          485.98,
+          623.08
+        ],
+        "page_area_fraction": 0.2063
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 91,
+    "text_characters": 802,
+    "heading_candidates": [
+      "□ 시계열 데이터를 이용한 유전자 조절 네트워크 추론 모델 개발"
+    ],
+    "section_context_candidate": "□ 시계열 데이터를 이용한 유전자 조절 네트워크 추론 모델 개발",
+    "prior_heading_candidate": {
+      "text": "□ 기계학습 기반의 약물 병합치료 예측 모델 개발",
+      "pdf_page": 89
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 164,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.38,
+          625.36,
+          516.44,
+          782.98
+        ],
+        "page_area_fraction": 0.1301
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.64,
+          286.25,
+          515.6,
+          528.98
+        ],
+        "page_area_fraction": 0.21
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 92,
+    "text_characters": 547,
+    "heading_candidates": [
+      "□ 지식베이스 구축을 위한 데이터 셋 구축 및 연구"
+    ],
+    "section_context_candidate": "□ 지식베이스 구축을 위한 데이터 셋 구축 및 연구",
+    "prior_heading_candidate": {
+      "text": "□ 시계열 데이터를 이용한 유전자 조절 네트워크 추론 모델 개발",
+      "pdf_page": 91
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 124,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          616.13,
+          508.77,
+          782.98
+        ],
+        "page_area_fraction": 0.1483
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.01,
+          135.81,
+          477.22,
+          431.77
+        ],
+        "page_area_fraction": 0.2107
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 93,
+    "text_characters": 845,
+    "heading_candidates": [
+      "□ 문헌기반 약물 표적 후보 선정 기술 개발"
+    ],
+    "section_context_candidate": "□ 문헌기반 약물 표적 후보 선정 기술 개발",
+    "prior_heading_candidate": {
+      "text": "□ 지식베이스 구축을 위한 데이터 셋 구축 및 연구",
+      "pdf_page": 92
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 193,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          356.13,
+          530.84,
+          589.64
+        ],
+        "page_area_fraction": 0.2178
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 94,
+    "text_characters": 357,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 문헌기반 약물 표적 후보 선정 기술 개발",
+    "prior_heading_candidate": {
+      "text": "□ 문헌기반 약물 표적 후보 선정 기술 개발",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 71,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.71,
+          569.14,
+          511.53,
+          782.98
+        ],
+        "page_area_fraction": 0.1815
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.05,
+          205.57,
+          530.84,
+          419.3
+        ],
+        "page_area_fraction": 0.1994
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 95,
+    "text_characters": 1434,
+    "heading_candidates": [
+      "3. 연구개발성과의 활용 계획 등",
+      "□ 학문∙기술적 파급효과",
+      "□ 사회∙경제적 파급효과"
+    ],
+    "section_context_candidate": "3. 연구개발성과의 활용 계획 등",
+    "prior_heading_candidate": {
+      "text": "□ 문헌기반 약물 표적 후보 선정 기술 개발",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 961,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 96,
+    "text_characters": 1751,
+    "heading_candidates": [
+      "4. 연구 과정에서 수집한 해외 과학기술 정보",
+      "□ 암 유전체 연구동향"
+    ],
+    "section_context_candidate": "4. 연구 과정에서 수집한 해외 과학기술 정보",
+    "prior_heading_candidate": {
+      "text": "□ 사회∙경제적 파급효과",
+      "pdf_page": 95
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 403,
+      "2": 7,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 97,
+    "text_characters": 1500,
+    "heading_candidates": [
+      "□ 항암치료 내성 극복 관련 연구 동향"
+    ],
+    "section_context_candidate": "□ 항암치료 내성 극복 관련 연구 동향",
+    "prior_heading_candidate": {
+      "text": "□ 암 유전체 연구동향",
+      "pdf_page": 96
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 367,
+      "3": 1,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.99,
+          527.66,
+          511.64,
+          678.34
+        ],
+        "page_area_fraction": 0.1246
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 98,
+    "text_characters": 1288,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 항암치료 내성 극복 관련 연구 동향",
+    "prior_heading_candidate": {
+      "text": "□ 항암치료 내성 극복 관련 연구 동향",
+      "pdf_page": 97
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 300,
+      "3": 3,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.08,
+          359.97,
+          217.92,
+          429.73
+        ],
+        "page_area_fraction": 0.0208
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          228.48,
+          358.41,
+          372.88,
+          438.96
+        ],
+        "page_area_fraction": 0.0232
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          410.66,
+          358.63,
+          524.37,
+          440.76
+        ],
+        "page_area_fraction": 0.0187
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 99,
+    "text_characters": 561,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 항암치료 내성 극복 관련 연구 동향",
+    "prior_heading_candidate": {
+      "text": "□ 항암치료 내성 극복 관련 연구 동향",
+      "pdf_page": 97
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "digital PCR 기반 ctDNA의 다중 분석 방법",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 98 -",
+        "after": "○ SPR 센싱 기술\n- 표면 플라스몬 공명(Surface plasmon resonance, SPR) 평평한 표면에 입사한 빛에 의해\n들뜬 상태가 된 표면 플라스몬의 상태를 가리키며, 금속구조에서 발생한 표면 플라스몬\n을 국소 표면 플라스몬 공명(Localized surface plasmon resonance, LSPR)이라고 함.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "기본적인 SPR 작동원리 개념도",
+        "line_index": 8,
+        "toc_like": false,
+        "before": "들뜬 상태가 된 표면 플라스몬의 상태를 가리키며, 금속구조에서 발생한 표면 플라스몬\n을 국소 표면 플라스몬 공명(Localized surface plasmon resonance, LSPR)이라고 함.\n- SPR 센서는 현존하는 가장 안정적이며 고민감도로 정량, 정성적 측정이 가능한 기술\n이며, SPR Image 센서는 수백개의 타겟물질을 동시에 검출할 수 있음",
+        "after": "[GE Healthcare] [KMAC] [SPREETA]\n○ SPR을 이용한 single mutation DNA 검출기술 개발\n- TP53 gene을 대상으로 검출기술 개발\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 115,
+      "3": 6,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.19,
+          613.01,
+          513.32,
+          774.47
+        ],
+        "page_area_fraction": 0.1346
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          46.17,
+          300.87,
+          276.93,
+          438.72
+        ],
+        "page_area_fraction": 0.0636
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          276.93,
+          302.07,
+          510.33,
+          431.29
+        ],
+        "page_area_fraction": 0.0603
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.08,
+          185.2,
+          302.84,
+          257.0
+        ],
+        "page_area_fraction": 0.0335
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          308.35,
+          181.94,
+          408.52,
+          276.66
+        ],
+        "page_area_fraction": 0.019
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          384.51,
+          183.64,
+          530.35,
+          266.83
+        ],
+        "page_area_fraction": 0.0242
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 100,
+    "text_characters": 616,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 항암치료 내성 극복 관련 연구 동향",
+    "prior_heading_candidate": {
+      "text": "□ 항암치료 내성 극복 관련 연구 동향",
+      "pdf_page": 97
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "BEAMing을 통한 혈액 내의 mutation detection",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "- BEAMing(Beads, Emulsification, Amplification, and Magnetics) - 혈중의 PIK3CA mutation detection 방법으로 feasible, accurate and sensitive함. - 전이성 질환의 mutation을 비외과적 수술 방법으로 접근 가능한 방법. - 높은 일치율을 보이며 기존의 standard 방법보다 효율적임. - Clinical Cancer Research, 2012\n○ PANA C-Melting\n- 소량의 돌연변이만을 선택적으로 증폭 후 검출하는 PCR기술과 형광 물질이 표지된\nPNA(Peptide Nucleic Acid) probe를 이용한 기술",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 107,
+      "3": 3,
+      "2": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.67,
+          589.52,
+          307.51,
+          737.43
+        ],
+        "page_area_fraction": 0.0641
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          334.86,
+          589.64,
+          523.28,
+          737.43
+        ],
+        "page_area_fraction": 0.0557
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -927.94,
+          75.64,
+          608.31,
+          593.83
+        ],
+        "page_area_fraction": 1.5909
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 101,
+    "text_characters": 1005,
+    "heading_candidates": [
+      "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map"
+    ],
+    "section_context_candidate": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+    "prior_heading_candidate": {
+      "text": "□ 항암치료 내성 극복 관련 연구 동향",
+      "pdf_page": 97
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 208,
+      "3": 2,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.71,
+          303.63,
+          567.78,
+          932.34
+        ],
+        "page_area_fraction": 0.5969
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          347.62,
+          487.54,
+          555.47
+        ],
+        "page_area_fraction": 0.1624
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 102,
+    "text_characters": 681,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+    "prior_heading_candidate": {
+      "text": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+      "pdf_page": 101
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "Connectivity Map의 개요",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 101 -",
+        "after": "결과를 제공하는 시스템.\n○ Connectivity Map에 기반을 두었으며, Kinase 정보를 이용하여 보다 효과적인 약물\n조합을 찾는것에 목적을 둠.\n○ 연구자는 K-map을 활용하여 자신이 연구하고자 하는 Kinase를 검색하고, 해당",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "K-map의 실제 사용 예시",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "Kinase가 특정 약물에 의하여 억제가 가능한지, 또 얼마나 억제되는지에 대한 정보를\n파악할 수 있음.\n○ Kinase와 Kinase inhibitor 간의 새로운 연관관계를 발견하여 새로운 적합 약물은 물론\n약물의 조합 발견에도 활용 가능.",
+        "after": "□ 암 Variants Database(ClinVar, MyCancerGenome) ○ Clinvar : 유전자 변이에 관련된 Clinical 관련성 정보를 제공하는 데이터베이스. 데이터베이스의 조회 및 관련 문헌을 검색할 수 있는 서비스를 제공 중. ○ MyCancerGenome : 암유전체 관련 정보를 전문가의 Annotation을 통한 지식베이스\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 145,
+      "3": 2,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.38,
+          611.33,
+          493.77,
+          772.55
+        ],
+        "page_area_fraction": 0.12
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.31,
+          185.44,
+          507.45,
+          392.45
+        ],
+        "page_area_fraction": 0.1676
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 103,
+    "text_characters": 597,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+    "prior_heading_candidate": {
+      "text": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+      "pdf_page": 101
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "ClinVar 프레임워크(좌) 및 MyCancerGenome 검색 예시(우)",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 102 -\n형태로 저장 및 제공.",
+        "after": "□ 표적형 나노구조체 기반 약물 전달 시스템\n○ Liposomal drug delivery systems - Liposome의 수용성 core부분은 친수성 약물로 encapsulate 되어 있고, 지용성 약물은\n인지질 이중층 사이에 embed된 형태로 표적 약물 전달에 사용됨. - Advanced Drug Delivery Reviews, 2012\n○ FePd nanowire를 이용한 magnetic drug delivery systems - 수용성 media에서 분산이 잘 되며, 세포독성이 없고 쉽게 phagocytose되어 보체반응을",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 112,
+      "3": 2,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.87,
+          566.38,
+          517.76,
+          753.97
+        ],
+        "page_area_fraction": 0.1597
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.01,
+          203.66,
+          428.53,
+          425.89
+        ],
+        "page_area_fraction": 0.1326
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 104,
+    "text_characters": 755,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+    "prior_heading_candidate": {
+      "text": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+      "pdf_page": 101
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 106,
+      "3": 2,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.08,
+          606.06,
+          520.64,
+          774.47
+        ],
+        "page_area_fraction": 0.152
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          341.58,
+          327.84,
+          522.08,
+          550.44
+        ],
+        "page_area_fraction": 0.0803
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 105,
+    "text_characters": 813,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+    "prior_heading_candidate": {
+      "text": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+      "pdf_page": 101
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 156,
+      "3": 2,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          104.34,
+          539.29,
+          505.29,
+          774.47
+        ],
+        "page_area_fraction": 0.1884
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.48,
+          186.28,
+          532.15,
+          364.64
+        ],
+        "page_area_fraction": 0.1621
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 106,
+    "text_characters": 404,
+    "heading_candidates": [
+      "5. 연구개발성과의 보안등급",
+      "6. 국가과학기술종합정보시스템에 등록한 연구시설·장비"
+    ],
+    "section_context_candidate": "5. 연구개발성과의 보안등급",
+    "prior_heading_candidate": {
+      "text": "□ 빅데이터 활용 유전체 분석 기술로의 Connectivity Map과 K-map",
+      "pdf_page": 101
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 80,
+      "3": 2,
+      "2": 23,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          91.51,
+          629.67,
+          352.97,
+          913.16
+        ],
+        "page_area_fraction": 0.1481
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          358.49,
+          558.83,
+          524.96,
+          739.35
+        ],
+        "page_area_fraction": 0.0601
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 107,
+    "text_characters": 1230,
+    "heading_candidates": [
+      "7. 연구개발과제 수행에 따른 연구실 등의 안전 조치 이행",
+      "가. 연구실 안전점검 및 정밀안전진단"
+    ],
+    "section_context_candidate": "7. 연구개발과제 수행에 따른 연구실 등의 안전 조치 이행",
+    "prior_heading_candidate": {
+      "text": "6. 국가과학기술종합정보시스템에 등록한 연구시설·장비",
+      "pdf_page": 106
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 366,
+      "2": 21,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 108,
+    "text_characters": 790,
+    "heading_candidates": [
+      "마. 추가이행 계획 : 연구실 안전시설 안전성 확보"
+    ],
+    "section_context_candidate": "마. 추가이행 계획 : 연구실 안전시설 안전성 확보",
+    "prior_heading_candidate": {
+      "text": "가. 연구실 안전점검 및 정밀안전진단",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 232,
+      "2": 30,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 109,
+    "text_characters": 1324,
+    "heading_candidates": [
+      "8. 연구개발과제의 대표적 연구 실적"
+    ],
+    "section_context_candidate": "8. 연구개발과제의 대표적 연구 실적",
+    "prior_heading_candidate": {
+      "text": "마. 추가이행 계획 : 연구실 안전시설 안전성 확보",
+      "pdf_page": 108
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 203,
+      "2": 27,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 110,
+    "text_characters": 2755,
+    "heading_candidates": [
+      "1. (2014~2021) 포스트게놈 다부처 유전체사업 추진계획(안), 국가과학기술심의회 운영위원회, 2014",
+      "2. 암 질환 분자 진단 및 분자 표적 치료 기술개발 동향, 한국과학기술기획평가원, 2010",
+      "3. 보건복지부 보건의료기술연구개발사업(5차), 유전체 기술개발 로드맵 수립을 위한 기획연구 특허동향 보",
+      "4. Future insight; 빅데이터를 활용한 보건산업 신산업 전망 및 정책방향, 정책연구단 미래정책기획팀, 2013",
+      "5. 2010 바비오경제연구센터 Roport II; Personalized Medicine의 실현을 위한 Biomarker, 바이오경제",
+      "6. 암정복추진연구개발사업 최종연구개발결과보고서(1220340); 맞춤의료를 위한 위암 분자진단시스템 개"
+    ],
+    "section_context_candidate": "1. (2014~2021) 포스트게놈 다부처 유전체사업 추진계획(안), 국가과학기술심의회 운영위원회, 2014",
+    "prior_heading_candidate": {
+      "text": "8. 연구개발과제의 대표적 연구 실적",
+      "pdf_page": 109
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 402,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 111,
+    "text_characters": 1244,
+    "heading_candidates": [],
+    "section_context_candidate": "6. 암정복추진연구개발사업 최종연구개발결과보고서(1220340); 맞춤의료를 위한 위암 분자진단시스템 개",
+    "prior_heading_candidate": {
+      "text": "6. 암정복추진연구개발사업 최종연구개발결과보고서(1220340); 맞춤의료를 위한 위암 분자진단시스템 개",
+      "pdf_page": 110
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 168,
+      "2": 4,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

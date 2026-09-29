@@ -7,6 +7,9 @@ import json
 import re
 import sys
 import time
+import os
+import tempfile
+from datetime import datetime
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from uuid import uuid4
@@ -21,10 +24,21 @@ for _스트림 in (sys.stdin, sys.stdout, sys.stderr):
 ROOT = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT / "src"))
 
+# The desktop backend also creates/attaches HWP objects. It must not load the
+# shared gen_py cache left incomplete by a previous process. Set this before
+# importing any library that can import win32com.client; never reset live COM
+# classes or delete another application's cache.
+_연결캐시 = None
+if os.name == 'nt':
+    from govoffice.adapters.com_worker_cache import configure_worker_cache
+    _연결캐시 = tempfile.TemporaryDirectory(prefix='govoffice_backend_com_')
+    configure_worker_cache(Path(_연결캐시.name)/'gen_py')
+
 from govoffice.adapters.recovered_hwp import 복구한글어댑터
 from govoffice.adapters.json_style_presets import JSON서식프리셋저장소
 from govoffice.adapters.json_user_profile import JSON사용자프로필저장소
 from govoffice.app.function_catalog import 검증완료기능목록, 필수인자목록
+from govoffice.app.deployment import data_directory
 from govoffice.domain.user_profile import 기본사용자정보필드
 from govoffice.services.format_copy import 서식복사서비스
 from govoffice.services.hwpml_table_analysis import (
@@ -34,7 +48,12 @@ from govoffice.services.hwpml_table_analysis import (
     select_review_candidates,
 )
 from govoffice.services.style_presets import HWPML등록필드분류기, 서식프리셋서비스
+from govoffice.services.style_review_fields import normalize_review_fields
+from govoffice.adapters.json_favorites import JSON즐겨찾기저장소
+from govoffice.services.favorite_commands import FavoriteCommands
+from govoffice.services.favorites import 즐겨찾기서비스
 from govoffice.services.user_profile import 사용자프로필서비스
+from govoffice.services.profile_table import ProfileTableCommands
 
 
 핵심기능 = {"한컴열기", "불러오기", "새창", "취소"}
@@ -42,8 +61,10 @@ from govoffice.services.user_profile import 사용자프로필서비스
 한글: 복구한글어댑터 | None = None
 서식복사 = 서식복사서비스()
 서식프리셋: 서식프리셋서비스 | None = None
-서식프리셋저장소 = JSON서식프리셋저장소(ROOT / "config" / "style_presets")
-사용자프로필저장소 = JSON사용자프로필저장소(ROOT / "config" / "user_profile.json")
+DATA_ROOT = data_directory(ROOT)
+서식프리셋저장소 = JSON서식프리셋저장소(DATA_ROOT / "style_presets")
+사용자프로필저장소 = JSON사용자프로필저장소(DATA_ROOT / "user_profile.json")
+개인정보표명령 = ProfileTableCommands(사용자프로필저장소)
 _프로토콜출력 = sys.stdout
 _서식초안: dict[str, object] | None = None
 _최근선택: dict[str, object] | None = None
@@ -51,7 +72,10 @@ _수동선택세션: dict[str, object] | None = None
 _최근선택유효초 = 300.0
 _서식초안유효초 = 900.0
 _프로필안정화완료 = False
+_자동작성명령 = None
 _최대미확정추천후보 = 10
+즐겨찾기저장소 = JSON즐겨찾기저장소(DATA_ROOT / "favorites.json")
+즐겨찾기명령 = FavoriteCommands(즐겨찾기저장소, json.loads((ROOT / "config" / "original_layout.json").read_text(encoding="utf-8-sig")), 허용기능)
 
 
 def 인자해석(value):
@@ -238,10 +262,12 @@ def 현재선택문서키() -> tuple[object, ...] | None:
 
     if 한글 is None:
         return None
+    # 문서상태()는 복구 기능이 바꿔 둔 연결을 관리 대상으로 복원할 수 있다.
+    # 따라서 복원 전 객체 ID와 복원 후 문서 ID를 섞어 키를 만들면 안 된다.
+    상태 = 안전문서상태()
     대상 = getattr(한글.원본, "대상", None)
     if 대상 is None:
         return None
-    상태 = 안전문서상태()
     활성문서id = 상태.get("active_document_id")
     if not isinstance(활성문서id, str) or not 활성문서id.strip():
         # 활성 문서를 COM DocumentID로 입증하지 못하면 경로/제목/Item(0)을
@@ -258,6 +284,30 @@ def 현재선택문서키() -> tuple[object, ...] | None:
 def 문서키가현재문서인가(문서키: object) -> bool:
     현재문서키 = 현재선택문서키()
     return 문서키 is not None and 현재문서키 is not None and 문서키 == 현재문서키
+
+
+def 개인정보선택영역읽기():
+    """Reuse the preset block exporter, without creating/saving a preset draft."""
+    assert 한글 is not None
+    문서키 = 현재선택문서키()
+    if 문서키 is None or not 문서키[2] or 문서키[1] != 문서키[3]:
+        상태 = 안전문서상태()
+        한글.최근선택진단 = {
+            "stage": "document_binding",
+            "connected": bool(상태.get("connected")),
+            "managed": bool(상태.get("managed")),
+            "document_open": bool(상태.get("document_open")),
+            "document_id": 상태.get("document_id"),
+            "active_document_id": 상태.get("active_document_id"),
+        }
+        raise ValueError("프로그램에서 불러온 한글 원문서를 화면에 표시한 뒤 영역을 선택하세요.")
+    출처 = "preset_saveblock"
+    # A recent drag does not prove the CURRENT cell range. Never fall back to
+    # a potentially wider selection, even from this document a moment ago.
+    원본 = 한글.선택영역서식내보내기(선택텍스트검증=True)
+    if not 문서키가현재문서인가(문서키):
+        raise ValueError("선택 중 문서가 변경되었습니다. 다시 선택하세요.")
+    return 원본, 문서키, 출처
 
 
 def 선택캐시가현재문서인가(선택: dict[str, object] | None) -> bool:
@@ -288,6 +338,8 @@ def 서식복사취소() -> None:
 def 종료정리() -> None:
     """인터프리터 종료 전에 한글 COM 프록시를 살아 있는 런타임에서 해제한다."""
     global 한글, 서식프리셋
+    if _자동작성명령 is not None:
+        _자동작성명령.close()
     서식복사취소()
     서식프리셋 = None
     어댑터 = 한글
@@ -305,8 +357,65 @@ def 종료정리() -> None:
 
 
 def 처리(command: dict) -> bool:
-    global _최근선택, _수동선택세션, _서식초안
+    global _최근선택, _수동선택세션, _서식초안, _자동작성명령
     action = command.get("action")
+    profile_writes = {'user_profile_entry_add', 'user_profile_aliases_set',
+                      'user_profile_default_set', 'user_profile_field_parent_set',
+                      'user_profile_field_delete', 'user_profile_entry_delete'}
+    if action in profile_writes and 'snapshot' in command:
+        if command['snapshot'] != 사용자프로필저장소.불러오기().사전():
+            raise ValueError('다른 화면에서 정보가 변경되었습니다. 새로고침 후 다시 시도하세요.')
+    if isinstance(action, str) and action.startswith('authoring_'):
+        if _자동작성명령 is None:
+            from govoffice.services.authoring_commands import AuthoringCommands
+            _자동작성명령 = AuthoringCommands(DATA_ROOT)
+        result = _자동작성명령.handle(command)
+        응답(True, '문서 자동작성 요청 처리', result=result)
+        return True
+    if action == "climate_plan_generate":
+        from govoffice.adapters.hwp_form_export import export_generated_hwp
+        from govoffice.institutions.packages.seoultech.climate_2026.generator import generate
+        result = generate(DATA_ROOT / "generated_documents" / "seoultech", export_generated_hwp)
+        응답(True, "기후부 연구개발계획서 예시를 생성했습니다. 실제 제출 전 확인이 필요합니다.", result=result)
+        return True
+    if action == "favorite_catalog":
+        institution = command.get("institution_id")
+        entries = [entry for entry in 즐겨찾기명령.catalog.values()
+                   if not institution or entry["institution_id"] in (None, institution)]
+        응답(True, "즐겨찾기 등록 가능 기능", entries=entries)
+        return True
+    if action == "favorite_list":
+        응답(True, "즐겨찾기 목록", favorites=즐겨찾기명령.listing(command.get("institution_id")))
+        return True
+    if action == "favorite_save":
+        item = 즐겨찾기명령.save(command.get("catalog_id"), command.get("name"), command.get("operations"), command.get("id"))
+        응답(True, "즐겨찾기를 저장했습니다.", favorite=item)
+        return True
+    if action in {"favorite_delete", "favorite_move"}:
+        id = str(command.get("id", ""))
+        즐겨찾기명령.find(id)
+        service = 즐겨찾기서비스(즐겨찾기저장소, None)
+        if action == "favorite_delete":
+            service.삭제(id)
+        else:
+            direction = command.get("direction")
+            if direction not in (-1, 1):
+                raise ValueError("순서 이동 방향이 올바르지 않습니다.")
+            visible = 즐겨찾기명령.listing(command.get("institution_id"))
+            index = next((i for i, item in enumerate(visible) if item["id"] == id), None)
+            if index is None:
+                raise ValueError("현재 기관의 즐겨찾기가 아닙니다.")
+            target = index + direction
+            if 0 <= target < len(visible):
+                all_items = list(즐겨찾기저장소.전체())
+                destination = next(i for i, item in enumerate(all_items) if item.id == visible[target]["id"])
+                service.이동(id, destination)
+        응답(True, "즐겨찾기를 변경했습니다.")
+        return True
+    if action == "favorite_run":
+        item = 즐겨찾기명령.find(str(command.get("id", "")))
+        # Stored methods are revalidated before the existing managed-document path.
+        return 처리({"action": "run_sequence", "operations": 즐겨찾기명령.operations(item)})
     if action == "shutdown":
         종료정리()
         응답(True, "백엔드 종료")
@@ -376,6 +485,28 @@ def 처리(command: dict) -> bool:
             "프로그램 전용 한글 문서를 저장 확인 대화상자 없이 정상 종료했습니다.",
             document=문서,
         )
+        return True
+    if action == "user_profile_selection_analyze":
+        # Reuse preset selection extraction/analysis; keep saving independent.
+        개인정보표명령.draft = None
+        서식프리셋준비()
+        assert 한글 is not None
+        try:
+            원본, 문서키, 선택출처 = 개인정보선택영역읽기()
+        except (RuntimeError, ValueError) as 오류:
+            응답(False, str(오류), selection_diagnostic=getattr(한글, "최근선택진단", {}))
+            return True
+        안정사용자프로필()
+        결과 = 개인정보표명령.analyze(원본, 문서키)
+        응답(True, "선택 영역의 개인정보 후보를 확인하세요. 아직 저장하지 않았습니다.", selection_source=선택출처, **결과)
+        return True
+    if action == "user_profile_selection_save":
+        개수 = 개인정보표명령.save_selection(command, 현재선택문서키())
+        응답(True, f"선택한 {개수}개 항목을 사용자 정보에 저장했습니다. 프리셋은 변경하지 않았습니다.")
+        return True
+    if action == "user_profile_table_mutate":
+        프로필 = 개인정보표명령.mutate(command)
+        응답(True, "사용자 데이터 변경을 저장했습니다.", values=프로필.사전())
         return True
     if action == "user_profile_get":
         프로필 = 안정사용자프로필()
@@ -677,6 +808,9 @@ def 처리(command: dict) -> bool:
         try:
             선택hwpml = 한글.선택영역서식내보내기()
         except (RuntimeError, ValueError):
+            # A new failed gesture must not leave an older drag eligible for import.
+            if _최근선택 and _최근선택.get("source") == "drag_probe":
+                _최근선택 = None
             응답(True, "선택 영역 없음", captured=False, managed_document_ready=True)
             return True
         문서키 = 현재선택문서키()
@@ -693,6 +827,7 @@ def 처리(command: dict) -> bool:
             "hwpml": 선택hwpml,
             "captured_at": 선택시각,
             "document_key": 문서키,
+            "source": "drag_probe",
             "manual_token": (
                 _수동선택세션.get("token") if _수동선택세션 is not None else None
             ),
@@ -1059,10 +1194,10 @@ def 처리(command: dict) -> bool:
                 상위경로 = 프로필.필드경로(상위)
                 등록별칭[경로] = tuple(
                     dict.fromkeys(
-                        (
+                        표현 for 별칭 in 필드.별칭 for 표현 in (
                             f"{상위경로} > {별칭}",
                             f"{상위경로} {필드.대표필드명}",
-                            *(f"{상위경로} {별칭}" for 별칭 in 필드.별칭),
+                            f"{상위경로} {별칭}",
                         )
                     )
                 )
@@ -1078,80 +1213,9 @@ def 처리(command: dict) -> bool:
             registered_values=등록값,
         ).as_dict()
         분석소요ms = round((time.perf_counter() - 분석시작) * 1000, 1)
-        후보 = 분석결과["candidates"]
-        for 항목 in 후보:
-            대표필드 = 프로필.대표필드찾기(str(항목.get("field", "")))
-            if 대표필드 is not None:
-                경로 = 프로필.필드경로(대표필드)
-                상위 = 프로필.대표필드ID찾기(대표필드.상위필드id)
-                항목["field"] = 경로
-                항목["field_path"] = 경로
-                항목["canonical_field"] = 경로
-                항목["profile_field_id"] = 대표필드.id
-                항목["parent_field"] = 프로필.필드경로(상위) if 상위 else None
-                항목["parent_profile_field_id"] = 상위.id if 상위 else None
-                항목["representative_field"] = (
-                    프로필.필드경로(상위) if 상위 else 경로
-                )
-                항목["child_field"] = 대표필드.대표필드명 if 상위 else None
-            elif ">" in str(항목.get("field", "")):
-                상위이름, 하위이름 = (
-                    부분.strip() for 부분 in str(항목["field"]).rsplit(">", 1)
-                )
-                항목["field_path"] = str(항목["field"])
-                항목["parent_field"] = 상위이름
-                항목["representative_field"] = 상위이름
-                항목["child_field"] = 하위이름
-            else:
-                항목["field_path"] = str(항목.get("field", ""))
-                항목["representative_field"] = str(항목.get("field", ""))
-                항목["child_field"] = None
-
-            # 1단계의 structural_group_id는 셀 좌표로 필드/값 관계를
-            # 입증한다. 2단계에서는 그 관계를 바꾸지 않고 등록 ID·별칭과
-            # 대표필드명을 보강한다. 이후 같은/유사 필드 또는 값을 검토용
-            # 관계 묶음으로만 연결하며 후보 선택 상태는 합치지 않는다.
-            구조대표명 = str(항목.get("structural_parent_field", "") or "").strip()
-            if 구조대표명:
-                의미대표필드 = None
-                상위ID = str(항목.get("parent_profile_field_id", "") or "").strip()
-                if 상위ID:
-                    의미대표필드 = 프로필.대표필드ID찾기(상위ID)
-                if 의미대표필드 is None:
-                    의미대표필드 = 프로필.대표필드찾기(구조대표명)
-                    if 의미대표필드 is not None and 의미대표필드.상위필드id:
-                        의미대표필드 = 프로필.대표필드ID찾기(
-                            의미대표필드.상위필드id
-                        )
-                if 의미대표필드 is not None:
-                    의미그룹ID = f"profile-parent:{의미대표필드.id}"
-                    의미대표명 = 프로필.필드경로(의미대표필드)
-                else:
-                    의미그룹ID = f"text-parent:{의미필드키(구조대표명)}"
-                    의미대표명 = 구조대표명
-
-                if 대표필드 is not None:
-                    의미하위ID = f"profile-field:{대표필드.id}"
-                    의미하위명 = 대표필드.대표필드명
-                else:
-                    원문하위명 = str(항목.get("label", 항목.get("child_field", "")))
-                    의미하위ID = f"text-field:{의미필드키(원문하위명)}"
-                    의미하위명 = 원문하위명
-            else:
-                의미대표명 = str(
-                    항목.get("representative_field", 항목.get("field", ""))
-                )
-                if 대표필드 is not None:
-                    의미그룹ID = f"profile-field:{대표필드.id}"
-                else:
-                    의미그룹ID = f"text-field:{의미필드키(의미대표명)}"
-                의미하위ID = ""
-                의미하위명 = str(항목.get("child_field", "") or "")
-
-            항목["semantic_group_id"] = 의미그룹ID
-            항목["semantic_representative_field"] = 의미대표명
-            항목["semantic_child_id"] = 의미하위ID
-            항목["semantic_child_field"] = 의미하위명
+        # 표/본문에서 읽은 같은 전체 경로는 하나의 대표필드에 연결한다.
+        # 후보별 값·위치·선택 여부는 유지하고, 등록은 저장 확정 때만 한다.
+        후보 = list(normalize_review_fields(분석결과["candidates"], 프로필))
         # 확정 추천은 개수 제한 없이 전부 전달하고, 충돌·저신뢰 등
         # 사용자가 판단해야 할 미확정 후보만 상위 10개로 제한한다.
         전체후보수 = len(후보)
@@ -1290,6 +1354,9 @@ def 처리(command: dict) -> bool:
             if any(후보locator겹침(후보, 직접후보) for 직접후보 in 반환후보):
                 후보["recommended"] = False
                 충돌ID.append(후보id)
+        # 수동 추가도 최초 분석과 같은 경로/식별 규칙을 적용한다.
+        기존후보 = list(normalize_review_fields(기존후보, 프로필))
+        반환후보 = [후보 for 후보 in 기존후보 if str(후보["candidate_id"]) in 반환ID]
         _서식초안["candidates"] = 기존후보
         _최근선택 = None
         _수동선택세션 = None
@@ -1454,9 +1521,22 @@ try:
                 추가상태 = {}
                 if isinstance(오류작업, str) and 오류작업.startswith("hwp_"):
                     추가상태 = {"action": 오류작업, "document": 안전문서상태()}
+                if 'Automation' in str(error) or 'win32com' in str(error) or 'CLSIDTo' in str(error):
+                    try:
+                        로그폴더=DATA_ROOT/'diagnostics';로그폴더.mkdir(exist_ok=True)
+                        (로그폴더/'last_hwp_connection_error.json').write_text(json.dumps({
+                            'time':datetime.now().isoformat(),'action':오류작업,
+                            'error_type':type(error).__name__,'error':str(error),
+                            'python':sys.executable,'private_com_cache':_연결캐시 is not None},
+                            ensure_ascii=False,indent=2),encoding='utf-8')
+                    except OSError:
+                        pass  # A diagnostic write must never hide the HWP error.
                 응답(False, str(error), error_type=type(error).__name__, **추가상태)
         if not 계속:
             break
 finally:
     # GUI가 예기치 않게 닫혀 표준입력이 끊긴 경우에도 COM 프록시를 명시적으로 해제한다.
     종료정리()
+    if _연결캐시 is not None:
+        try:_연결캐시.cleanup()
+        except OSError:pass  # Never close another process just to clean a cache.

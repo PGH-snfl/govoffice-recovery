@@ -1,0 +1,609 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="KO">
+<head>
+<link rel="canonical" href="https://scienceon.kisti.re.kr">
+<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+<meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/> 
+<meta name="viewport" content="width=device-width, initial-scale=0.25"/>
+<title>원문보기 - ScienceON</title>
+
+
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="/css/sionfont.css"/>
+<link rel="stylesheet" type="text/css" href="/css/sion2020.css?v=20200922" />
+<link rel="stylesheet" type="text/css" href="/css/inline.css"/>
+<link rel="stylesheet" type="text/css" href="/css/unified_search.css?v=20200922" />
+
+
+<!-- jQuery -->
+<script src="/js/jquery-3.2.1.min.js" type="text/javascript" ></script>
+<script src="/js/jquery-ui-12.js" type="text/javascript" ></script>
+<script src="/js/jquery-confirm.js" type="text/javascript" ></script>
+<script src="/js/jquery.bxslider.js" type="text/javascript" ></script>
+<script src="/js/jquery.ui.datepicker-ko.js" type="text/javascript" ></script>
+<script src="/js/jquery-ui-timepicker-addon.js" type="text/javascript" ></script>
+<script src="/js/jquery.blockUI.js" type="text/javascript" ></script>
+<script src="/js/jquery.bpopup.min.js" type="text/javascript" ></script>
+<script src="/js/jquery.cookie.js" type="text/javascript" ></script>
+
+<!-- 공통 -->
+<script src="/js/common-srch.js?v=20211014" type="text/javascript" ></script>
+<script src="/js/common.js" type="text/javascript" ></script>
+<script src="/js/common-function.js" type="text/javascript" ></script>
+
+<style type="text/css">
+header {
+	width: 100%;
+	height: 60px;
+	z-index: 2000;
+	background-color: #fff;
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+	display: inline-block;
+	height: 36px;
+	margin: 12px 0 12px 25px;
+}
+
+.logo>img {
+	height: 36px;
+}
+
+/* clearfix */
+#content-wrap:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+aside {
+	float: right;
+	width: 360px;
+}
+
+section {
+	float: left;
+	width: calc(100% - 360px)
+}
+
+.search_form {
+	top: 10px;
+	left: 230px
+}
+
+.search_inputbox {
+	border: 1px solid #e2e2e2 !important;
+	height: 40px;
+	padding: 10px !important
+}
+
+.index_searchbtn {
+	top: 7px
+}
+
+aside h1 {
+	font-size: 15px;
+	font-size: .9325rem;
+	padding: 12px;
+	color: #fff;
+	border: none;
+	font-weight: 500;
+	margin-left: 2px;
+	background-color: #00478b;
+	border-top: 2px solid #666;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+.detail_dotlist {
+	max-height: 300px;
+	overflow: auto;
+}
+.detail_dotlist>ul{
+   padding-right: 20px;
+}
+
+#content-wrap .detail_dotlist h4{
+	background: #0085d8;
+	color: #fff;
+}
+#content-wrap .detail_dotlist h4 a{
+	color: #fff;
+	padding-right: 15px;
+	float: right;
+}
+.detail_dotlist>ul>li>ol>li::before{
+	display: none;
+}
+.detail_dotlist2.detail_dotlist ul>li>a{
+	display: inline-block;
+	margin-bottom: 10px;
+	padding-right: 20px;
+	background: #fff url(/images/triangle.png) no-repeat right center;
+}
+.detail_dotlist2.detail_dotlist ul>li::before{
+	display: none;
+}
+.detail_dotlist2.detail_dotlist ul>li>a.on{
+	background: #fff url(/images/triangle_on.png) no-repeat right center;
+}
+.detail_dotlist>ul>li>ol{
+	display: none;
+}
+.detail_dotlist>ul>li>ol>li:last-child{
+	border-bottom: 1px solid #d7d7d7 !important;
+}
+.detail_dotlist>ul>li{
+	line-height: 1.5;
+}
+.detail_dotlist>ul>li .btnss {
+	padding: 0px 4px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+</style>
+<script type="text/javascript">
+function fnc_getArticleList(obj, cn, rno){
+	if($('#artListBox'+obj).find("ol").length > 0){
+		$('#artListBox'+obj).toggleClass("none");
+		$('#artListBox'+obj).closest("li").find("a").toggleClass("on")
+	}else{
+		$.ajax({
+			url : "/srch/getArticleList.do",
+			dataType: 'html',
+			data : {'cn' : cn, 'rno':rno },
+			//async: false,
+			success: function(data){
+				$('#artListBox'+obj).removeClass("none");
+				data = data.replace("class=\"reference_list\"","");
+				$('#artListBox'+obj).html(data);
+				$('#artListBox'+obj).closest("li").find("a").addClass("on")
+			},
+			beforeSend:function(){
+			},
+			complete:function(){
+			},
+			error: function( jqXhr, textStatus, errorThrown ){
+				console.log( errorThrown );
+			}
+		});
+	}
+}
+
+$(document).ready(function(){
+	var dbt = "TRKO";
+	var cttcode1 = "";
+	var cttcode2 = "";
+	var contentId = "";
+	var svccode2 = "OV01";
+	//논문
+	if(dbt.indexOf("JAKO") > -1 || dbt.indexOf("JAFO") > -1 || dbt.indexOf("JACH") > -1 || dbt.indexOf("JAJP") > -1 || dbt.indexOf("DIKO") > -1 || dbt.indexOf("CFKO") > -1 || dbt.indexOf("CFFO") > -1){
+		cttcode1 = "PP";
+		contentId = "TRKO202200004488";
+	}
+	if(dbt.indexOf("JAKO") > -1) {			//국내논문
+		cttcode2 = "PP01";
+	} else if(dbt.indexOf("JAFO") > -1) {	//해외논문
+		cttcode2 = "PP02";
+	} else if(dbt.indexOf("JACH") > -1) {	//해외논문(중국학술지)
+		cttcode2 = "PP02";
+	} else if(dbt.indexOf("JAJP") > -1) {	//해외논문(일본학술지)
+		cttcode2 = "PP02";
+	} else if(dbt.indexOf("DIKO") > -1) {	//학위논문
+		cttcode2 = "PP03";
+	} else if(dbt.indexOf("CFKO") > -1) {	//국내학술회의
+		cttcode2 = "PP04";
+	} else if(dbt.indexOf("CFFO") > -1) {	//해외학술회의
+		cttcode2 = "PP05";
+	}
+
+
+	//보고서
+	if(dbt.indexOf("TRKO") > -1 || dbt.indexOf("ANAL") > -1 || dbt.indexOf("RESEAT") > -1 || dbt.indexOf("KOSEN") > -1 || dbt.indexOf("ICON") > -1 || dbt.indexOf("KMR") > -1 || dbt.indexOf("KGPS") > -1) 	{
+		cttcode1 ="RP";
+		contentId = "TRKO202200004488";
+	}
+	if(dbt.indexOf("TRKO") > -1) {			//국가R&D보고서
+		cttcode2 = "RP01";
+	} else if(dbt.indexOf("RESEAT") > -1){	//ReSEAT분석 리포트 (외부 원문보기 링크)
+		cttcode2 = "RP02";
+		svccode2 = "OV03";
+	} else if(dbt.indexOf("KOSEN") > -1 || dbt.indexOf("ANAL") > -1){	//KOSEN분석 리포트 (외부 원문보기 링크)
+		cttcode2 = "RP03";
+		svccode2 = "OV03";
+	} else if(dbt.indexOf("ICON") > -1){	//ICON지식 리포트 (외부 원문보기 파일)
+		cttcode2 = "RP04";
+		svccode2 = "OV03";
+	} else if(dbt.indexOf("KMR") > -1){		//KISTI마켓 리포트
+		cttcode2 = "RP05";
+	} else if(dbt.indexOf("KGPS") > -1){	//KGPS국내정책리포트
+		cttcode2 = "RP06";
+	}
+
+	
+
+	/*[운영업무]요청번호-SR-0009972, 작업자-진승일, 작업일-2022.01.19*/
+	var urlCheck = "false";
+	//파일다운로드 block대상 키워드 포함한 경우 return 함
+	//20240424 임시 통과
+	if((contentId == "TRKO202200004771") || (contentId == "TRKO202200006679")){
+		urlCheck = false;
+	}
+	if( urlCheck == true || urlCheck == "true") {
+		alert("잘못된 접근입니다.");
+		location.href = "/";
+	}
+	
+	if(contentId != null && contentId.trim() != ""){
+		var _param =
+			{
+				"svcCode1"	: "OV",
+				"svcCode2" 	: svccode2,
+				"cttCode1" 	: cttcode1,
+				"cttCode2" 	: cttcode2,
+				"rUrl" 		: document.referrer,
+				"cn" : contentId,
+				"pageCode" 	: "",
+				"journal" 	: "",
+				"keyword" 	: ""
+			};
+		$.ajax({
+			url : "/logm/logSummton.do",
+			data: _param,
+			dataType: 'json',
+			type:'post',
+			success: function(data){
+				
+			},
+			error: function( jqXhr, textStatus, errorThrown ){
+				console.log( errorThrown );
+			}
+		});
+
+
+// 		if(!isInstallPdfReader()) {
+// 			$("#vcon").append("<div style='width:100%; text-align:center;'>원문을 이용하기 위해서 'PDF 뷰어'가 설치되어야 합니다.<br /><a href='/por/faqs/pdfDownloadList.do' title='ScienceON 다운로드' target='_blank'><strong>ScienceON 다운로드</strong></a> 페이지를 통해 다운로드 및 설치 후 이용 바랍니다.</div>");
+// 		} else {
+			var docurl = '/commons/util/orgDocDown.do?url=/tr_img/2022010/rttrko000000366779.pdf&amp;ex=pdf&amp;filename=초연결지능인프라원천기술연구개발&amp;cn=TRKO202200004488';
+// 			$("#vcon").append("<iframe id=\"pdf1\" src="+docurl+" width=\"100%\" height=\"1000\"></iframe>");
+			$("#vcon").append("<iframe id=\"pdf1\" src="+docurl+" width=\"100%\" height="+(window.innerHeight-60)+"></iframe>");
+			
+			var expire = new Date("9/29/2017 18:00:00");
+			var today = new Date();
+			if (today < expire) {
+				//layerOpen();
+			}
+// 		}
+	} else {
+		alert("잘못된 접근입니다.");
+		location.href = "/";
+	}
+	
+	// [개발업무], 개발-이태현, 개발일자-2023-08-31, 작업내용 : SO_COM_PAGE_LOG 로그 구현 
+	var refererUrl = document.referrer;
+	
+	document.comPageLogForm.cttCd1.value = cttcode1;
+	document.comPageLogForm.cttCd2.value = cttcode2;
+	document.comPageLogForm.refererUrl.value = refererUrl;
+	document.comPageLogForm.contentId.value = contentId;
+	document.comPageLogForm.svcCd.value = "OV";
+	
+	insertSystemLogPage();
+});
+
+//IE 인지를 반환(IE 라면 true 아니면 false)
+function is_IE() {
+        // IE11의 경우 기존 로직으로 확인 불가능으로 appversion 통해서 IE여부 확인하도록 추가 by 2016.04.14
+	if (navigator.appName.charAt(0) == "M" || (navigator.appVersion.indexOf('Trident/7.0') > -1 )||  (navigator.appVersion.indexOf('rv:11.0') > -1))
+		return true ;
+	else
+		return false ;
+}
+
+/*
+ * Acrobat Pdf 설치여부
+ * lhy 2013.09.02
+ * return boolean
+ */
+function isInstallPdfReader(){
+    var result = false;
+    if(is_IE()){
+        // load the activeX control
+        // AcroPDF.PDF is used by version 7 and later
+        // PDF.PdfCtrl is used by version 6 and earlier
+        var activeXObj = null;
+
+        try {
+            activeXObj = new ActiveXObject("AcroPDF.PDF");
+        } catch(e) {
+        }
+
+        if (activeXObj == null) {
+            try {
+                activeXObj = new ActiveXObject("PDF.PdfCtrl");
+            } catch(e) {
+            }
+        }
+
+        //activeX 객체가 있으면 해당 activeX가 존재함.
+        if (activeXObj != null) {
+            result = true;
+        }
+
+    } else {
+        for(key in navigator.plugins) {
+            var plugin = navigator.plugins[key];
+            if(plugin!=null){
+            	if( plugin.name == "Adobe Acrobat"
+            		|| plugin.name == "Chrome PDF Viewer"
+            		|| plugin.name == "Chromium PDF Viewer"
+            		|| plugin.name == "WebKit built-in PDF"
+            		|| plugin.name == "Apple Java Plug-In"
+            		|| plugin.name.indexOf('Adobe Acrobat')>=0
+            		|| plugin.name == "namedItem"
+            		|| plugin.name == "item"
+            		|| plugin.name == "refresh"
+                	|| plugin.name == "Shockwave Flash"
+                    || plugin.name == "Edge PDF Viewer" 
+                    || plugin.name == "Microsoft Edge PDF Viewer"){
+                result = true;
+                    break;
+            }
+        }
+    }
+    }
+
+    //결과 return
+    return result;
+}
+
+/*[운영업무]요청번호-SR-0009592(추가), 작업자-이라혜, 작업일-2021.07.01*/
+function fncPopup(){
+	window.open('/commons/util/originalViewPopup.do','안내','width=920px,height=680px,scrollbars=no')
+}
+
+//참고문헌, 인용문헌에서  각 아이콘 클릭시 실행
+function fncCiteInfo(citegubun,flag,cn,bibcn,dbt,url,target){
+
+	if(url.indexOf("koix.kisti.re.kr")>-1 ){
+
+		$.ajax({
+			url : "/srch/ndslOrgDocDownChk.do",
+			dataType: 'json',
+			data : {'cn' : cn, 'dbt':dbt, 'koi':url},
+			//async: false,
+			success: function(data){
+
+				var arr_data = data.result.split("*");
+				var dataArr0 = arr_data[0];
+				var dataArr1 = arr_data[1];
+				var dataArr2 = arr_data[2];
+				var dataArr3 = arr_data[3];
+				var dataArr4 = arr_data[4];
+				var dataArr5 = arr_data[5];
+				if (dataArr0 == "true") {
+					var url = "/commons/util/originalView.do";
+					url += "?cn=" + dataArr5 + "&oCn=" +  cn + "&dbt=" + dbt + "&journal=" + bibcn;
+
+					window.open(url, "newWin");
+					insertSystemLogInfo("linkYn=Y&useContCd=0001&linkURL="+ url + "&cn="+cn);
+				} else {
+					alert(dataArr1);
+				}
+			},
+			error: function( jqXhr, textStatus, errorThrown ){
+				console.log( errorThrown );
+			}
+		});
+
+	}else{
+
+		if(target == '_blank'){
+			window.open(url);
+		}else{
+			location.target = target;
+			location.href = url;
+		}
+	}
+
+}
+
+</script>
+
+</head>
+<body>
+<div id="wrap">
+	<header>
+		<a class="logo" href="/">
+			<img src="/images/usr/scienceon_logo.svg" height="36px"/>
+		</a>
+		<div class="main_searchbox">
+			<!-- 검색Ui-->
+			<form name="searchForm" id="searchForm" method="post" action="/srch/selectPORSrchTotal.do">
+				<div class="search_ui_wrap" style="position: static;">
+					<!-- [운영업무]요청번호-SR-0013148, 작업자-김성훈, 작업일-2026.02.27 원문보기 및 모바일 환경 UI/UX 최적화-->
+<!-- 					<div class="search_form"> -->
+<!-- 						<input type="text" id="searchKeyword" name="searchKeyword" title="메인검색창" class="search_inputbox" maxlength="140" > -->
+<!-- 						<input type="submit" value="검색" class="index_searchbtn" title="검색버튼"> -->
+<!-- 					</div> -->
+					<div style="position: absolute;top: 16px;padding-left: 250px;">
+					이 원문은 ScienceON에서 제공하고 있습니다.
+					</div>
+					<div style="position: absolute; top: 16px; right: 25px;">
+						<a href="javascript:fncPopup();" style="font-weight: bold; color: #00478b;">PDF 원문이 보이지 않는 경우</a>
+					</div>
+				</div>
+			</form>
+			<form name="comPageLogForm" id="comPageLogForm" action="" style="display: none;" onsubmit="return false;">
+				<input type="hidden" name="svcCd"/>
+				<input type="hidden" name="cttCd1"/>
+				<input type="hidden" name="cttCd2"/>
+				<input type="hidden" name="srchKeyword"/>
+				<input type="hidden" name="contentId"/>
+				<input type="hidden" name="refererUrl"/>
+			</form>
+		</div>
+	</header>
+	<div id="content-wrap">
+		<section id="vcon">
+		</section>
+		<aside>
+			<h1>ScienceON 추천자료</h1>
+			<div class="detailconbox_right">
+				
+				<div class="detail_dotlist mt20">
+					
+					<h4>이 보고서와 함께 이용한 콘텐츠</h4>
+					<ul>
+						
+						
+						
+						
+						
+						<li><a href="/srch/selectPORSrchReport.do?cn=TRKO202400004091&dbt=TRKO" title="상세보기" target="_blank">[보고서] 고신뢰·저지연 5G+ 코어 네트워크 및 5G-TSN 스위치 기술 개발</a></li>
+						
+						
+						
+						
+						
+						
+						<li><a href="/srch/selectPORSrchReport.do?cn=TRKO202400003962&dbt=TRKO" title="상세보기" target="_blank">[보고서] 제조 현장의 무선 연결성 한계 극복을 위한 산업용 비면허대역 무선 IoT 네트워크 핵심기술 개발</a></li>
+						
+						
+						
+						
+						
+						
+						<li><a href="/srch/selectPORSrchReport.do?cn=TRKO202300003605&dbt=TRKO" title="상세보기" target="_blank">[보고서] 인간 중심의 자율지능시스템 원천기술 연구</a></li>
+						
+						
+						
+						
+						
+						
+						<li><a href="/srch/selectPORSrchReport.do?cn=TRKO202300000451&dbt=TRKO" title="상세보기" target="_blank">[보고서] 국방 무기체계용 핵심 반도체 부품 자립화 플랫폼 개발</a></li>
+						
+						
+						
+						
+						
+						
+						<li><a href="/srch/selectPORSrchReport.do?cn=TRKO202400004307&dbt=TRKO" title="상세보기" target="_blank">[보고서] 5G MEC 개방/연동 네트워킹 기술 표준개발</a></li>
+						
+						
+						
+						
+					</ul>
+				</div>
+				
+				
+				
+				<div class="detail_dotlist mt20">
+					<h4>연관 보고서</h4>
+					<ul>
+					
+					
+					
+					
+					
+						
+						<li>
+							
+								
+									<a href="/srch/selectPORSrchReport.do?cn=TRKO201900003949&dbt=TRKO" title="상세보기" target="_blank">
+										<em class='keyword'>초</em><em class='keyword'>연결</em> <em class='keyword'>지능</em> <em class='keyword'>인프라</em> <em class='keyword'>원천</em><em class='keyword'>기술</em> <em class='keyword'>연구</em><em class='keyword'>개발</em>
+									</a>
+								
+								
+							
+						</li>
+					
+					
+					
+						
+						<li>
+							
+								
+									<a href="/srch/selectPORSrchReport.do?cn=TRKO202500010278&dbt=TRKO" title="상세보기" target="_blank">
+										<em class='keyword'>초</em><em class='keyword'>연결</em> <em class='keyword'>지능</em>도시 핵심 기술 개발 기획
+									</a>
+								
+								
+							
+						</li>
+					
+					
+					
+						
+						<li>
+							
+								
+									<a href="/srch/selectPORSrchReport.do?cn=TRKO202000003414&dbt=TRKO" title="상세보기" target="_blank">
+										사물-사람-공간의 유기적연결을 위한 <em class='keyword'>초</em><em class='keyword'>연결</em> 공간의 분산 <em class='keyword'>지능</em> 핵심<em class='keyword'>원천</em> <em class='keyword'>기술</em>
+									</a>
+								
+								
+							
+						</li>
+					
+					
+					
+						
+						<li>
+							
+								
+									<a href="/srch/selectPORSrchReport.do?cn=TRKO201900001697&dbt=TRKO" title="상세보기" target="_blank">
+										사물-사람-공간의 유기적 연결을 위한 <em class='keyword'>초</em><em class='keyword'>연결</em> 공간의 분산 <em class='keyword'>지능</em> 핵심<em class='keyword'>원천</em> <em class='keyword'>기술</em>
+									</a>
+								
+								
+							
+						</li>
+					
+					
+					
+						
+						<li>
+							
+								
+									<a href="/srch/selectPORSrchReport.do?cn=TRKO202600001729&dbt=TRKO" title="상세보기" target="_blank">
+										<em class='keyword'>초</em><em class='keyword'>연결</em> 초<em class='keyword'>지능</em> 하이브리드 상수도관망 운영관리시스템 개발
+									</a>
+								
+								
+							
+						</li>
+					
+					
+					</ul>
+				</div>
+				
+				
+				
+				<!-- 
+				<div class="detail_dotlist mt20">
+					<h4>이 논문과 함께 출판된 논문</h4>
+				</div>
+				 -->
+			</div>
+			<ul>
+			</ul>
+		</aside>
+	</div>
+</div>
+</body>
+</html>

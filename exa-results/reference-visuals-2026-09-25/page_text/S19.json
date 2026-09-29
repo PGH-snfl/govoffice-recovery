@@ -1,0 +1,890 @@
+[
+  {
+    "pdf_page": 1,
+    "width": 595.0,
+    "height": 841.0,
+    "text": " 일반과제 2017M1A2A2043132\r\n기후변화대응기술개발사업\r\nCO2 직접수소화 촉매 및 공정 개발 \r\n(Development CO2 direct hydrogenation catalyst process)\r\n한국화학연구원\r\n과 학 기 술 정 보 통 신 부\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 2,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 1 -\r\n제 출 문\r\n과학기술정보통신부 장관 귀하\r\n이 보고서를 \"CO2 직접수소화 촉매 및 공정 개발\"과제의 보고서로 제출합니\r\n다.\r\n2020. 01. 21\r\n총괄연구기관명 : 한국화학연구원\r\n총괄연구책임자 : 전기원\r\n세부주관기관명 : 한국과학기술연구원\r\n세부주관기관명 : 울산과학기술원\r\n세부주관기관명 : 인천대학교\r\n세부주관기관명 : 성균관대학교\r\n세부연구책임자 : 김홍곤\r\n세부연구책임자 : 곽자훈\r\n세부연구책임자 : 김지용\r\n세부연구책임자 : 김재훈\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 3,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 2 -\r\n보고서 요약서\r\n과제고유번호 2017M1A2A2\r\n043132\r\n해 당 단 계\r\n연 구 기 간\r\n2017.09.15. ~\r\n2020.02.14.\r\n단 계 구\r\n분\r\n1/2\r\n연 구 사 업 명 중 사 업 명 기후변화대응기술개발사업\r\n세부사업명 차세대 탄소자원화 사업단\r\n연 구 과 제 명\r\n총괄과제명 CO2 직접수소화 촉매 및 공정 개발\r\n세부과제명\r\n1) CO2 직접수소화를 통한 액체 탄화수소 연료 제조 촉매 및 공정 개발. 2)중온-저온 \r\n2단계 CO2 수소화 메탄올 합성 촉매반응공정 개발. 3) 이산화탄소로부터 경질올레핀\r\n을 생산하는 촉매 및 공정기술 개발. 4)최적화 기법을 이용한 CO2 직접자원화 설계\r\n기술 개발 및 평가. 5)CO2로부터 직접 방향족 화합물 제조를 위한 촉매 및 공정 개\r\n발 \r\n연 구 책 임 자 전기원\r\n해당단계\r\n참 여\r\n연구원수\r\n총 : 140명\r\n내부 : 140명\r\n외부 : 명\r\n해당단계\r\n연 구 비\r\n정부:2,784,000천원\r\n기업: 천원\r\n계: 2,784,000천원\r\n총연구기\r\n간\r\n참 여\r\n연구원수\r\n총 : 244명\r\n내부 : 244명\r\n외부 : 명\r\n총연구비\r\n정부:5,350,000천원\r\n기업 : 천원\r\n계:5,350,000천원\r\n연구기관명 및 \r\n소 속 부 서 명\r\n한국화학연구원 \r\n탄소자원화연구소 참여기업명\r\n국제공동연구 상대국명 : 상대국연구기관명 :\r\n위 탁 연 구 연구기관명 : 연구책임자 :\r\n요약(연구결과를 중심으로 개조식 500자 이내) 보고서면\r\n수\r\n140\r\nCO2로부터 액상탄화수소/메탄올/경질올레핀/방향족화합물을 제조하는 고효율 촉매 및 반응기술 개발\r\n[액상탄화수소] 전이금속과 질소가 단일 원자로 배위된 탄소(M-NC)를 지지체로 적용한 촉매 개발 \r\n(C3+ 수율 35.2%), 반응기 사이에 물 제거용 트랩을 설치한 2단 반응 효과를 관찰 (C3+ 수율 40.7%)\r\n[메탄올] 기상 반응에서 CZZ 촉매 최고 메탄올 수율 15.7%, 생산속도 560g MeOH/kgcat.h 도달, 액상 \r\n반응에서 비균질계 촉매 개발 (메탄올 생산속도 2.9g MeOH/Lrxt·h @ 140℃)\r\n[경질올레핀] Na-CoFe2O4 촉매를 개발하여 CO2 전환율 34.4%, 경질올레핀 선택도 39% 달성, Na-Fe/CNT 촉매를 개발 CO2 전환율 35%, 경질올레핀 선택도 43% 달성 \r\n[방향족화합물) FeAlOx/Zn-HZSM-5@SiO2 촉매 개발 CO2 전환율 45.2%, 방향족 선택도 38.7% 달성\r\nCO2 직접전환 공정 설계 및 최적화\r\n주요 CO2 자원화 기술 경로 규명, 기술 경제적 타당성 분석, 기계학습 기반 최적 CO2 수소화 촉매 \r\n설계, CO2 자원화 기술 자동 분석 플랫폼 개발, 5 개의 CO2 수소화 반응 기반 연료생산 공정 개발 \r\n및 기술경제성평가 수행\r\n색 인 어\r\n(각 5개 이상)\r\n한 글 이산화탄소, 재생에너지, 파워투리퀴드, 수소화, 탄화수소,\r\n메탄올\r\n영 어 CO2, Renewable energy, Power-to-Liquids, Hydrogenation,\r\nHydrocarbons, Methanol\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 4,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 3 -\r\n요 약 문\r\nⅠ. 제 목\r\nCO2 직접수소화 촉매 및 공정 개발\r\nⅡ. 연구개발의 목적 및 필요성\r\n본 총괄 연구과제의 목표는 재생에너지를 이용해 만들어진 수소를 이용해 CO2를 메탄\r\n올, 경질올레핀, 액상 탄화수소, 방향족 화합물로 직접 전환하는 촉매 및 반응시스템을 \r\n개발하는 것임\r\nŸ 재생에너지로부터 수소를 생산하는 기 개발된 모델을 평가하고 선별하여 이를 연계\r\n한 통합 시스템을 구축함\r\nŸ 메탄올, 경질 올레핀, 액상 탄화수소 각각의 생산 제품별 고효율의 CO2 전환 촉매 \r\n및 반응시스템을 개발함\r\nŸ 재생에너지의 유동적 공급에 적합한 촉매 및 운전 기술을 개발함\r\nŸ 공정설계 기술 및 운영전략 수립을 통해 실제 실증화 분석을 진행함\r\nŸ 기술상부구조 개발, 공정 통합을 위한 최적화 모델 개발, 전체적 플랜트 설계 기술 \r\n개발을 통해 최적의 CO2 전환 기술을 개발하고 공백 공정 기술을 규명함\r\nŸ 실제 CO2 전환 시장에 적용함으로써, 한국 CO2 자원화 기술의 경제적, 기술적, 환경\r\n적 타당성 및 효과를 분석, 실증화를 위한 전략을 제시\r\nⅢ. 연구개발의 내용 및 범위\r\nŸ CO2 직접전환 방식의 효율을 증대시키기 위한 target-oriented 고성능 CO2 전환 촉매 \r\n개발 (target: 액상탄화수소, 메탄올, 경질올레핀, 방향족 화합물 등) Ÿ 재생에너지의 유동적 공급에 적용이 가능한 안정적인 반응 기술 개발\r\nŸ 재생에너지를 이용한 수소 공급과 연계된 CO2 수소화 반응 통합 공정 최적화\r\nŸ Mini-Pilot plant 반응 시스템 운영을 통한 상용화 공정 설계\r\nŸ 주요 CO2 자원화 기술 경로 규명 및 기술 경제적 타당성 분석 \r\nŸ CO2 자원화 기술 자동 분석 플랫폼 개발\r\nⅣ. 연구개발결과\r\nCO2로부터 액상탄화수소/메탄올/경질올레핀/방향족화합물을 제조하는 고효율 촉매 및 반\r\n응기술\r\nŸ (액상탄화수소) 전이금속(코발트 또는 철)과 질소가 단일 원자로 배위된 탄소(M-NC)\r\n를 지지체로 적용한 FeK/M-NC 촉매 개발 (CO2 전환율 49%, C3+ 수율 35.2%)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 5,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 4 -\r\nŸ (액상탄화수소) 철 기반 촉매를 활용하여 반응기 사이에 물 제거용 트랩을 설치한 2\r\n단 반응 효과를 관찰함 (CO2 전환율 55.5%, C3+ 수율 40.7%) Ÿ (메탄올) 기상 반응에서 physical mixing 법으로 CZZ 촉매 최고 메탄올 수율 15.7%,\r\n생산속도 560g MeOH/kgcat.h 도달 \r\nŸ (메탄올) 액상 반응에서 비균질계 PP-EOF 담체, PP-EOF-Ru 촉매 개발 (메탄올 생산\r\n속도 2.9g MeOH/Lrxt·h @ 140oC) Ÿ (경질올레핀) Na-CoFe2O4 촉매를 개발하여 CO2 전환율 34.4%, 경질올레핀 선택도 \r\n39% 달성\r\nŸ (경질올레핀) Na이 첨가되고 CNT에 담지한 Fe촉매를 개발하여 CO2 전환율 35%, 경\r\n질올레핀 선택도 43% 달성 \r\nŸ (방향족화합물) FeAlOx/Zn-HZSM-5@SiO2 컴파짓 촉매 이용시 CO2 전환율 45.2%,\r\n방향족 화합물 선택도 38.7% 달성\r\n유동적 전력 공급에 적합한 고효율 반응 기술 개발\r\nŸ 재생에너지의 전력 공급 시나리오 별 다양한 전략에 대한 운전 기술 시험\r\nŸ 액상탄화수소 생산 촉매 360시간, 메탄올 생산 촉매 80 시간, 경질올레핀 생산 촉매 \r\n100 시간, 방향족화합물 생산 촉매 450 시간 동안 운전 안정성 확보\r\n재생에너지의 유동적 공급에 적합한 고효율 Power-to-X 통합공정 개념설계\r\nŸ CO2 직접수소화 공정 투자 예비 타당성 및 생산성 분석 자료 확보\r\nŸ CO2 직접전환 공정 설계 및 최적화\r\nŸ 주요 CO2 자원화 기술 경로 규명, 기술 경제적 타당성 분석, 기계학습 기반 최적 \r\nCO2 수소화 촉매 설계, CO2 자원화 기술 자동 분석 플랫폼 개발\r\nŸ 5 개의 CO2 수소화 반응 기반 연료생산 공정 개발 및 기술경제성평가 수행\r\nⅤ. 연구개발결과의 활용계획\r\nŸ 재생에너지의 유동적 공급에 최적화된 CO2 직접전환 반응 시스템을 개발함으로써,\r\n차세대 CO2 직접수소화 원천촉매 및 반응기술을 확보함\r\nŸ 기존의 에너지 집약적이고 대형 공정인 2단 간접 전환 방식을 극복, CO2 전환 반응 \r\n시스템의 고효율 모듈화로 국내 재생에너지 활용을 최대화할 수 있는 고효율 \r\nPower-to-Liquids 또는 Power-to-Chemicals 기술의 확보\r\nŸ 재생에너지의 장기 대용량 저장수단 개발로 재생에너지의 적극적인 보급과 탄소 활\r\n용 산업 창출\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 6,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 5 -\r\nS U M M A R Y\r\nⅠ. Title\r\nDevelopment CO2 direct hydrogenation catalyst process\r\nⅡ. Purpose\r\nŸ The goal of this project is to develop a catalyst and reaction system that converts\r\nCO2 directly into methanol, light olefins, liquid hydrocarbons, and aromatics using\r\nhydrogen produced from renewable energy. Ÿ Evaluation and selection of the developed models that produce hydrogen from\r\nrenewable energy and build an integrated system that links them. Ÿ Development of high-efficiency CO2 conversion catalyst and reaction system for\r\neach product of methanol, light olefin and liquid hydrocarbon\r\nŸ Develop catalysts and operating technologies suitable for the intermittent supply\r\nof renewable energy\r\nŸ Analysis on the actual demonstration by establishing process design technology\r\nand operation strategy\r\nŸ Development of the optimal CO2 conversion technology and identification of the\r\nblank process technology by developing technology superstructure, developing\r\noptimization model for process integration, and developing overall plant design\r\ntechnology\r\nŸ Applying to the actual CO2 conversion market, analyzing the economic, technical\r\nand environmental feasibility and effects of Korean CO2 recycling technology and\r\npresenting strategies for demonstration.\r\nⅢ. Contents\r\nŸ Development of target-oriented high-performance CO2 conversion catalysts to\r\nincrease the efficiency of CO2 direct conversion (target: liquid hydrocarbons,\r\nmethanol, light olefins, aromatic compounds, etc.) Ÿ Development of stable reaction technology applicable to the fluid supply of\r\nrenewable energy\r\nŸ Optimization of integrated process of CO2 hydrogenation reaction linked to\r\nhydrogen supply using renewable energy\r\nŸ Commercialization process design by operating Mini-Pilot plant reaction system\r\nŸ Identify major CO2 utilization technology paths and analyze technology economic\r\nfeasibility\r\nŸ Development of automatic analysis platform for CO2 utilization technology\r\nⅣ. Results\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 7,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 6 -\r\nHigh efficiency catalyst and reaction technology for producing liquid hydrocarbon /\r\nmethanol / light olefin / aromatic compound from CO2 hydrogenation\r\nŸ (Liquid hydrocarbon) Development of FeK / M-NC catalyst using transition metal\r\n(cobalt or iron) and nitrogen (M-NC) coordinated with a single atom as a support\r\n(49% CO2 conversion, 35.2% C3+ yield) Ÿ (Liquid hydrocarbon) Observation on the effect of a two-stage reaction with water\r\nremoval traps installed between reactors using iron-based catalysts (CO2\r\nconversion 55.5%, C3+ yield 40.7%) Ÿ (Methanol) In the gas phase reaction, CZZ catalyst reached the highest methanol\r\nyield of 15.7% and production rate of 560g MeOH/kgcat.h by physical mixing\r\nmethod. Ÿ (Methanol) Development of homogeneous PP-EOF carrier and PP-EOF-Ru catalyst\r\nin liquid phase reaction (methanol production rate 2.9g MeOH/Lrxt·h@140 ℃) Ÿ (Light Olefin) Na-CoFe2O4 catalyst was developed to achieve 34.4% CO2\r\nconversion and 39% light olefin selectivity\r\nŸ (Light Olefin) Achievement of 35% CO2 conversion and 43% light olefin selectivity\r\nby developing Fe catalyst supported on Na and added to CNT\r\nŸ (Aromatic Compound) Using FeAlOx/Zn-HZSM-5@SiO2 Composite Catalyst, 45.2%\r\nCO2 Conversion and 38.7% Aromatic Compound Selectivity\r\nDevelopment of high efficiency reaction technology suitable for flexible power\r\nsupply\r\nŸ Operation skills test for various strategies for each power supply scenario of\r\nrenewable energy\r\nŸ Operation stability for 360 hours for liquid hydrocarbon production catalyst, 80\r\nhours for methanol production catalyst, 100 hours for light olefin production\r\ncatalyst and 450 hours for aromatic compound production catalyst\r\nConceptual Design of High Efficiency Power-to-X Integrated Process for the\r\nFlexible Supply of Renewable Energy\r\nŸ Obtain preliminary feasibility and productivity analysis data for CO2 direct\r\nhydrogenation process investment Ÿ CO2 direct conversion process design and optimization\r\nŸ Identify key CO2 resource technology paths, analyze technology economic\r\nfeasibility, design optimal CO2 hydrogenation catalyst based on machine learning,\r\ndevelop automatic analysis platform of CO2 resource technology\r\nŸ Development of 5 CO2 hydrogenation-based fuel production processes and\r\nevaluation of technology economic feasibility\r\nⅤ. Expected contribution\r\nŸ By developing a CO2 direct conversion reaction system optimized for the fluid\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 8,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 7 -\r\nsupply of renewable energy, we have secured the next generation CO2 direct\r\nhydrogen source catalyst and reaction technology\r\nŸ Identification of obstacle technology through process design and development,\r\ncontributing to securing blank technology and securing original process technology\r\nŸ Achieved high-efficient power-to-liquids or power-to-chemicals technology that can\r\nmaximize the utilization of domestic renewable energy by overcoming the existing\r\nenergy-intensive and large-scale 2-stage indirect conversion system and high\r\nefficiency module conversion of CO2 conversion reaction system.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 9,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 8 -\r\nC O N T E N T S\r\nChapter 1 Outline ···························································································································10\r\nChapter 2 Background ··················································································································11\r\nChapter 3 Results ···························································································································28\r\nChapter 4 Achievement and contributions ···············································································121\r\nChapter 5 Future work ···············································································································128\r\nChapter 6 Information on science and technology ·································································130\r\nChapter 7 References ··················································································································134\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 10,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 9 -\r\n목 차\r\n제 1 장 연구개발과제의 개요 ······································································································10\r\n제 2 장 국내외 기술개발 현황 ····································································································11\r\n제 3 장 연구개발수행 내용 및 결과 ···························································································28\r\n제 4 장 목표달성도 및 관련분야에의 기여도 ·········································································121\r\n제 5 장 연구개발결과의 활용계획 ··························································································128\r\n제 6 장 연구개발과정에서 수집한 해외과학기술정보 ····························································130\r\n제 7 장 참고문헌 ·························································································································134\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 11,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 10 -\r\n제 1 장 연구개발과제의 개요\r\n◯ 본 총괄 연구과제의 목표는 재생에너지를 이용해 만들어진 수소를 이용해 CO2를 메탄올, 경질올레핀, 액상 탄화수소, 방향족 화합물로 직접 전환하는 촉매 및 반응시스템을 개발\r\n하는 것임\r\nl 재생에너지로부터 수소를 생산하는 기 개발된 모델을 평가하고 선별하여 이를 연계한 \r\n통합 시스템을 구축함\r\nl 메탄올, 경질 올레핀, 액상 탄화수소 각각의 생산 제품별 고효율의 CO2 전환 촉매 및 \r\n반응시스템을 개발함\r\nl 재생에너지의 유동적 공급에 적합한 촉매 및 운전 기술을 개발함\r\nl 공정설계 기술 및 운영전략 수립을 통해 실제 실증화 분석을 진행함\r\nl 기술상부구조 개발, 공정 통합을 위한 최적화 모델 개발, 전체적 플랜트 설계 기술 개발\r\n을 통해 최적의 CO2 전환 기술을 개발하고 공백 공정 기술을 규명함\r\nl 실제 CO2 전환 시장에 적용함으로써, 한국 CO2 자원화 기술의 경제적, 기술적, 환경적 \r\n타당성 및 효과를 분석, 실증화를 위한 전략을 제시함\r\nl CO2의 수소화에 의해서 얻을 수 있는 중요 산물은 액체연료, 메탄올, 경질올레핀, 방향\r\n족 화합물이며 각 세부과제가 이에 대한 핵심기술인 촉매와 반응공정 개발하고 재생에\r\n너지로부터 수소생산기술과 이의 유동적 활용기술은 공유함. 위탁연구로 각 기술에 대\r\n한 기술 상부구조 및 경제성 분석을 수행하고 이를 토대로 2단계 진입 기술에 대한 의\r\n사결정모델을 개발할 계획임 \r\n그림 1 재생에너지 활용에 적합한 고효율 Power-to-X 공정\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 12,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 11 -\r\n제 2 장 국내외 기술개발 현황\r\n1절 국내 기술개발 현황\r\no 국내에선 Korea CCS 2020 사업을 통해 CO2의 포집 및 처리에 관한 포괄적인 기술 개발\r\n이 이루어져 왔음\r\n- 이중 CO2를 직접 수소화하여 액상의 탄화수소를 생산하는 과제는 수행된 바 없으나, 피\r\n셔-트롭시 전 단계인 합성가스를 제조하는 기술 개발은 주로 전기화학반응을 타겟으로 \r\n수행됨 \r\n- 합성가스를 FTS반응으로까지 통합해 최종 액상 탄화수소 연료로 제조하는 다단 통합 반\r\n응 기술 또한 구현된 바 없음\r\no 단일 반응기에서 CO2 직접수소화를 통한 액상 탄화수소 제조 기술은 실험실 환경에서 촉\r\n매를 개발한 바가 있으나, bench scale 이상에서 촉매 및 반응 시스템이 검증된 바는 없\r\n으며, 따라서 아직 개발된 기술의 성숙도(Technology readiness level, TRL)는 3단계 이하\r\n임\r\no 액상 탄화수소 이외에 메탄올을 타겟 생성물로 하는 반응공정은 성숙도가 매우 높은 수\r\n준으로 기술 개발이 이루어져 왔음\r\nCO2와 수소를 높은 온도에서 반응시키는 역수성가스반응(reverse water-gas shift, RWGS, 반응\r\n온도 >800 ℃)으로 합성가스를 제조한 후, 이를 메탄올 합성반응에 이용하는 간접 다단 반응 \r\n기술은 KIST에서 TRL 6단계의 파일럿 스케일로 수행한 바 있음\r\n그림 1 KIST의 CO2로부터 메탄올 합성 공정 모식도\r\nCO2를 천연가스 및 수증기와 복합리포밍반응에 사용하고 생산되는 CO/CO2/H2 합성가스를 메\r\n탄올 합성에 이용한 공정은 KRICT에서 10 ton/day 급의 demo plant를 건설하여 1000시간 운전 \r\n성공한 바 있음 (TRL 8) \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 13,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 12 -\r\n그림 2 KRICT의 천연가스로 및 CO2로부터 메탄올 합성 공정 모식도\r\no 재생에너지를 이용한 수소 생산 모델\r\n- 재생에너지를 이용한 수소 생산은 여러 가지 방법이 고안/제안되고 실제 연구개발이 이\r\n루어지고 있으나, 본 과제에 적합한 모델은 다음과 같은 조건을 충족해야 함\r\n- 1) CO2를 의미있는 양으로 액상 탄화수소로 전환하려면 비교적 대량의 수소생산이 가능\r\n한 방법이어야 함 (5 kg/day의 액체연료를 생산하기 위한 mini-pilot 시험시, 시간당 0.11 \r\nNm3의 CO2와 0.33 Nm3의 수소가 필요) - 2) 유동적 재생에너지 공급에 적합한 빠른 shut-down, start-up 가능한 장비\r\n- Fast start-up/shut-down 조건을 충족하는 bench scale이상의 국내 기술은 고온 플라즈마\r\n에 의한 CO2와 메탄의 복합 리포밍 기술이 있음 (예: EN2core technology) \r\n그림 3 EN2core 사의 플라즈마 복합 리포밍 시스템\r\no 국내 CO2 수급 현황\r\n- 현재 국내에는 공업용, 음료용, 농업용, 드라이아이스의 형태로 CO2 가스를 소비함\r\n- 그 사용량은 소폭 증가하는 형태이나 향후 CO2 수급 현황을 확인하기 위하여 지속적인 \r\n국내 수요 파악이 필요 \r\n- 탄산가스 수요는 일반적으로 경제수준에 비례하여 점진적으로 완만하게 증가하는 것으\r\n로 알려져 있음 \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 14,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 13 -\r\n- 국내도 마찬가지로 국민 소득의 증대가 본격화된 70년대 이후 수요량의 증가가 계속되\r\n고 있으며 이러한 추세는 국내 경제규모의 확대에 발맞추어 향후로도 계속될 것으로 예\r\n상됨 \r\n- 2012년 국내 CO2 수요는 약 80만 톤이고 이중 약 60만 톤이 공업용으로 쓰이는 것으로 \r\n추정\r\no CO2 전환 시장 현황\r\n- 현재 국내 CO2 전환 상용 공정은 전무하나, 전세계적인 CO2 배출 저감, 재생에너지원 및 \r\n화학산업의 대체원료로의 사용에 대해 산업계의 주된 관심이 되고 있음\r\n- CO2 전환 기술은 이제 개발단계에 있으며 본격적인 상업적 시장 형성엔 시간이 걸릴 것\r\n으로 보임\r\n- CO2 전환 보다 먼저 기술 개발이 시작된 CO2 저장 관련 국내 시장은 2011년 2,940억 원, \r\n2021년 6,120억 원으로 전망되며, 2011~2021년간 총 4조 7,900 억원의 시장이 창출 될 것\r\n으로 기대됨 [자료: KISTI MARKET REPORT (2011)]\r\no 국내 에너지 현황\r\n- 우리나라는 세계 5위의 석유 수입국이자, 세계 2위의 LNG 수입국으로 세계 기본에너지 \r\n(PED, Primary Energy Demand)의 2%를 소비하는 높은 해외 에너지 의존 국가임\r\n- 2015년 에너지 수입 의존도는 95.2%\r\n- 특히 원유는 중동 의존도가 높아 세계의 다양한 외교적/정치적 변수에 수급이 취약한 구\r\n조임\r\n그림 4 국내 원유수입량 및 수입국, 중동의존도 추이\r\no 국내 석유제품 소비량 증가\r\n- 주요 석유제품인 경유/휘발유 등의 수송용 연료는 IMF때 감소했다가 그 이후 지속적으로 \r\n증가하는 추세\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 15,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 14 -\r\n- 수송용 연료인 경유 및 휘발유는 각각 연평균 2.29 % 및 1.61 %씩 증가한 것으로 나타\r\n남\r\n- 미세먼지 등의 환경적 영향으로 향후 초저황 청정 휘발유 및 청정 경유에 대한 수요가 \r\n급증할 것으로 전망\r\n그림 5 국내 석유제품 소비량 추이(자료, 에너지통계연보 2015)\r\no 탈황 공정에 대한 부담 증가 \r\n- 근래의 원유는 점차 중질화되어 황을 제거하기가 어려워지는 반면 황 성분에 대한 규제\r\n는 엄격해짐에 따라 정유사에서 탈황 공정 운영에 대한 부담이 증가하고 있는 상황\r\n- CO2로부터 제조한 액체연료는 근본적으로 황을 함유하고 있지 않기 때문에 종래 석유기\r\n반 액체연료에 다량 희석함으로써 환경정책에 유동적으로 대응할 수 있음\r\no 신재생에너지 연료 혼합 의무화제도에 따른 재생연료 수요 증가\r\n- 2015년 7월 31일에 시행된 제도로 수송룡 연료 공급자(혼합의무자)가 기존 화석연료(경\r\n유)에 바이오연료(바이오디젤)을 일정 비율 혼합하여 공급하도록 의무화 하는 제도\r\n- 현재는 신재생에너지로 바이오디젤만이 규정되어 있지만 향후 탄소 크레딧 및 온실가스 \r\n감축량이 의무화되면서 CO2로부터 제조되는 청정액체연료가 포함될 것이라는 전망\r\n시행년도 2015 2016 2017 2018 2019 2020\r\n혼합의무비율\r\n(%) BD2.5 BD2.5 BD2.5 BD3.0 BD3.0 BD3.0\r\n<연도별 신재생에너지 연료 혼합의무비율>\r\no 계절 및 시간에 따른 예비전력 변동성\r\n- 우리나라의 연간 전력수급 추이를 보면 봄/가을철에 설비용량 대비 20~30 %의 예비전력\r\n이 있음\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 16,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 15 -\r\no 신재생에너지 발전량 증가 추세\r\n- 2015년 신·재생에너지 발전량은 37,079GWh로 2014년 26,882GWh 대비 37.93% 증가\r\n- 국내 총발전량 대비 신·재생에너지 발전비중은 2014년 4.92%에서 2015년 6.61%로 \r\n1.69%p 증가\r\n그림 6 총발전량 대비 신재생에너지 발전량 증가 추이\r\n- 태양광, 풍력등의 불연속적이고 유동적인 재생에너지의 본질을 감안하여 CO2 전환 기술\r\n을 개발해야 함\r\no 재생에너지 발생 비용 하락 추세\r\n- 재생에너지비용은 다음 그림에서 보는 바와 같이 향후 급격히 낮아질 것으로 전망\r\n- 가까운 미래에는 재생에너지를 사용해 수소를 생산하고 CO2를 전환하는 것의 경제성이 \r\n상당히 향상될 것\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 17,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 16 -\r\n그림 7 세계 태양광 발전 단가 추이(Source: The power to change: solar \r\nand wind cost reduction potential to 2025, IRENA 2016)\r\n그림 8 세계 풍력 발전 단가 추이(Source: The power to change: solar \r\nand wind cost reduction potential to 2025, IRENA 2016)\r\no 재생에너지 3020 이행계획\r\n- 2030년 재생에너지 발전량 비중 20% 달성을 위해 다양한 방안이 마련되었으며, 재생에\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 18,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 17 -\r\n너지 보급확대를 기회로 에너지新산업의 동반 성장 추진\r\n- 재생에너지 3020 이행계획을 바탕으로 의견수렴을 거쳐 ‘제4차 신재생에너지 기본계획 \r\n수정안’을 확정할 계획\r\n- (보급목표) 2030년 재생에너지 발전량 비중 20%* 달성을 위해 `18~`30년간 48.7GW의 신\r\n규 재생에너지 발전설비 보급(누적 63.8GW) - 신규 재생에너지 발전설비의 95% 이상을 태양광(63%), 풍력(34%) 중심의 청정에너지로 \r\n보급\r\no 정부 지원의 CO2 포집·전환 기술 개발이 90년대부터 있었으나 이때는 전환기술에 필요\r\n한 재생에너지 비용이 너무 높고 CO2 저감 효과에 대한 회의론이 강했고 포집·저장에대\r\n한 필요성이 부각되었음\r\n- 미국 등 선진국과 마찬가지로 국내의 경우에도 CO2 전환 기술이 CO2 저감기술이 될 수 \r\n없다는 결론으로 연구활동이 중단됨\r\n- 최근 재생에너지를 사용, CO2 전환기술이 CO2 저감기술이 되기 위한 전제 조건이 인식\r\n되며 다시 전환 기술에 대한 재조명이 이루어지고 있음\r\no 본 사업이 착수되기 전(2017년 초) 상황으로는 CO2 수소화 과제는 진행되고 있지 않았으\r\n나 유사 과제로는 화학연구원의 Gas-to-Liquids(GTL) 및 에너지기술연구원의 \r\nCoal-to-Liquids(CTL) 등의 과제 등에서 CO와 CO2가 함께 있는 반응기류에 대한 전환 기\r\n술 개발이 진행된 바 있었음 \r\no 미래부 Korea CCS 2020 사업을 통해 이산화탄소 포집·저장(CCS) 및 전환이용(CCU)기술 \r\n개발 지원을 하고 있으나, CCU 원천기술개발 프로젝트에 투자되는 예산은 139억원(전체\r\n예산 1,727억원 중 8% 수준)으로 상대적 비중이 낮은 상황\r\no Korea CCS 2020 사업을 통해 CO2를 직접 수소화하여 액상 액체연료를 제조하는 촉매 및 \r\n반응 공정은 기술개발이 이루어진 바 없지만, 피셔-트롭시 전 단계인 합성가스를 제조하\r\n는 기술 개발이 주로 전기화학반응을 타겟으로 수행됨 \r\n- 합성가스 제조를 위한 CO2저온전기분해 혁신기술 개발, KIST \r\n- 가압 운전용 튜브셀 기반 CO2/H2O 동시 전해반응에 의한 syngas 제조기술 개발, 에기연\r\n- 이산화탄소 전환 합성가스 제조를 위한 고효율 고온 전해조 개발, 전력연\r\n2절 국외 기술개발 현황\r\no CO2로부터 액상의 탄화수소를 얻는 기술 중 가장 상용화에 가까운 기술은 독일 Audi사의 \r\ne-diesel 프로젝트임\r\n- 협력사인 Sunfire사의 Solid oxide electrolyser cell(SOEC)기술을 이용해 고온(>800 ℃)에서 \r\n물을 전기분해하여 얻은 수소를, CO2와 다시 고온에서 반응시키는 역수성가스화 반응\r\n(reverse water-gas shift, RWGS, 반응온도 >800 ℃)을 통해 합성가스를 만든 후, 저온의 \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 19,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 18 -\r\n피셔-트롭시 합성 반응(Fischer-Tropsch synthesis, FTS, 반응온도 ~250 ℃)으로 긴사슬의 \r\n탄화수소를 제조하는 다단 간접전환 방식임\r\n- 이 기술은 풍력과 같은 재생 전기에너지를 이용해 물을 전기분해하여 수소를 얻고 이를 \r\nCO2 환원에 이용함으로써, 이론적으로는 물과 CO2, 에너지만을 필요로 하는 청정기술임\r\n- 그러나 고온의 SOEC 및 RWGS 반응을 위해서는 기본적으로 많은 양의 에너지가 필요할 \r\n뿐만 아니라 유동적으로 공급되는 재생전기에너지의 특성을 고려할 때, 예열 등의 준비\r\n를 위해 비효율적으로 소비되는 에너지가 많음\r\n- 또한 RWGS 후단에 배치되는 FTS는 비교적 저온에서 동작하는 발열반응으로, 온도 차이\r\n가 심해 에너지 효율성이 떨어질 수밖에 없고 실질적인 CO2 감축 효과가 크지 않다고 \r\n판단됨\r\n- Sunfire사는 상기 공정을 사용하여 2021년 노르웨이 Heroya에서 연간 8000톤을 생산할 \r\n수 있는 PtL 공정을 상용화하겠다고 발표함. 이때 20 MW의 전력을 사용하며 연간 CO2\r\n저감량은 21,000톤이 될 것으로 예상. o CO2를 직접 수소화하여 액상의 탄화수소를 제조하는 기술은 한 반응기에서 RWGS와 FTS\r\n를 동시에 일어나게끔 하여 상기 에너지 효율성 문제를 극복할 수 있으나, 반응 온도가 \r\nRWGS와 FTS 반응의 중간 온도(~300 ℃)로 진행하게 되어 CO2 전환 자체는 고온의 단독 \r\nRWGS 만큼 높지 않고 C3+의 긴사슬 탄화수소에 대한 선택도 또한 단독 FTS 만큼 높지 \r\n않다는 문제가 있음\r\no CO2의 직접수소화에 의한 액상 탄화수소 제조 촉매는 RWGS와 FTS 모두 활성이 있는 Fe\r\n를 중심 금속으로 하고 이를 조금씩 개선하는 방향으로 연구 개발이 이루어져 옴\r\no 독일의 Rodemerck 등은 자체 개발한 evolutionary algorithm을 이용해 Fe계 촉매에 첨가\r\n되는 조촉매의 종류와 양을 최적화하고 대량스크리닝 실험을 통해 이를 검증함 \r\n[ChemCatChem 2013, 5, 1948-1955] - 이에 따르면 La, Cu, K가 조촉매로 첨가되고 지지체 없이 제조한 Fe촉매가 가장 높은 \r\n액상 탄화수소의 수율을 나타내었음 (C5-C15 수율 23%, H2/CO2 ratio 6) - 촉매 대량스크리닝 장비를 고안하고 시험한 좋은 예\r\no 중국의 Jiangan University에서는 RWGS와 FTS, isomerization이 동시에 일어나 고유동성의 \r\n액상 탄화수소를 제조하게끔 하는 촉매를 설계하고 열역학적 한계를 극복하기 위해 물을 \r\n제거하는 반응 시스템을 구축, 39%의 CO2 전환율과 78%의 C3+ 선택도를 달성함\r\n- 촉매와 반응 시스템을 동시에 개발한 예\r\no 반응중 생성되는 물을 제거하기 위해 멤브레인을 사용한 반응기를 설계하여 이용하기도 \r\n함\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 20,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 19 -\r\n- 주로 packed-bed 멤브레인을 이용하여 생성된 물만을 선택적으로 제거, CO2의 전환율을 \r\n높이는데 이용됨\r\n- 그중 Karlsruhe 대학에서 고안한 FTS용 멤브레인 반응기는 일반 packed-bed 반응기에 \r\n비해 50% 향상된 CO2 전환율을 보임[Ind. Eng. Chem. Res. 44 (2005) 9653-9658]\r\no Karlsruhe 대학에서는 또한 유동적으로 공급되는 재생에너지 및 그에 따른 CO2 수소화 공\r\n정 운영의 탄력성에 대한 연구가 진행되었음[Chem. Ing. Tech. 2015, 87, No. 6, 848–854] - 촉매는 CO2 수소화용 Fe 계열 촉매가 쓰였고, 일시적 반응에 대한 변화 조건으로는 갑\r\n작스런 계단식의 변화 또는 주기적 변화를 주어가며 모델링 진행함\r\n- 반응의 일시적 변화에 대한 CO2 전환율 성능은 정상상태(Transient condition)에서 도출한 \r\n반응 속도식 및 파라미터를 사용한 수학적 모델링으로써 예측 가능함\r\n- CO2 전환율 외에 액상 탄화수소의 선택도 및 촉매의 장기 안정성에 대한 연구가 진행되\r\n지 않아 이러한 부분을 추가적으로 연구해야 할 필요가 있음\r\no CO2 수급 현황\r\n- 세계 CO2 시장의 수요량은 연간 8천만 톤으로 추정되며, 이 가운데 과반인 5천만 톤이 \r\n북미에서 원유회수증진 (Enhanced oil recovery)에 사용되고 있음\r\n- 미국 내에서 거래되는 CO2 가격은 수요와 지역에 따라 편차가 발생하나, 화학산업에서 \r\n생산되는 부생 CO2의 경우 톤당 3~15달러에서 거래됨\r\no CO2 전환 시장\r\n- CO2 저감 관련 시장은 현재 시장형성 단계로, CO2 전환 기술의 경우 현행 CO2 수요 시\r\n장을 대체/보완하는 방향과 신규 CO2 시장 창출을 위한 기술 두 가지로 접근하고 있음\r\n- 최근 CCS를 통한 이산화탄소 저감의 한계로 CO2 전환 기술이 제안되고 있고, 제품 특성\r\n상 기존 화학적 전환을 통한 석유화학 원료 시장의 활용이 용이함 \r\n- Urea나 메탄올, 금속 탄산염을 이산화탄소 유래 화합물 제조로 대체함으로써, 기존 이산\r\n화탄소 시장의 몇 배에 달하는 신규 시장이 창출될 것으로 기대되고 있음\r\no CO2 전환기술을 통해 얻을 수 있는 액체연료는 주로 TRL이 높은 메탄올 위주로 예상을 \r\n했으나 최근 탄화수소로의 전환도 기술 수준의 향상이 기대되며 잠재적인 연간 CO2 수요\r\n처로 인식함\r\no 재생에너지에 의한 전력 공급 증가\r\n- 세계 각국은 재생에너지에 의한 전력 공급이 급격히 증가하는 추세\r\n- 2014년 6월 1일 미국 캘리포니아 전력 그리드에 실용 전력으로 생성된 태양광 전력이 \r\n정오시간에 4,767 메가와트로 최고 피크를 기록함\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 21,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 20 -\r\n- 전력 공급량을 게시하기 시작한 2010년 이후 최고의 양이며 매년 급격한 증가세를 보임\r\n- 매시간 데이터를 한 달 동안의 평균값으로 계산하는 경우, 2013년 5월 수준보다 1년 만\r\n에 150% 증가 \r\n- 2013년에는 2,145 메가와트의 태양에너지 발전설비가 캘리포니아에 들어섰으며, 이중 \r\n500 메가와트는 태양열 발전임\r\n- 캘리포니아는 2013년에 설치된 미국 태양에너지 발전설비의 75%차지함\r\no Sunfire Blue Crude 상용화 계획\r\n- 독일의 Sunfire사는 자신들의 PtL 공정을 2021년까지 상용화하는 계획을 세우고 있음\r\n- 공기 중으로부터 포집한 CO2를 SOEC, RWGS, FTS 공정을 사용하여 Blue crude를 생산\r\n하는 기술\r\n- 노르웨이 Heroya 지방에 Blue crude를 연간 8,000 톤 규모로 생산할 수 있는 공정을 세\r\n우고 있음\r\n- 20 MW의 전력을 사용하며 연간 21,000톤의 CO2를 저감할 수 있을것이라 기대함 \r\n- 본과제를 통해 예상하는 상용화 공정 규모도 이에 상응할 것으로 기대함\r\no 재생에너지원의 변동성\r\n- 태양에너지 생성은 하루 종일 비교적 일정한 패턴을 따르지만, 낮 시간에만 생성되며, 풍력의 경우 오후와 저녁 피크 수요시간과는 일치하지만 근본적으로 유동적 전력원임\r\n- 수력 또한 계절적 변동성이나 가뭄의 영향이 있어서 재생에너지원 모두가 근본적으로 \r\n전력생산의 유동성이 큼\r\n그림 9 캘리포니아의 계절별 재생에너지 공급량 및 추이(자료: eia 2014)\r\no 미국 연방 정부가 주도하는 대형 연구/개발 정책은 크게 에너지부 (Department of \r\nEnergy, DOE)와 국가과학재단 (National Science Foundation, NSF)을 중심으로 이루어짐\r\n- DOE의 Carbon Storage program은 Carbon Capture and Storage(CCS) 기술의 폭넓은 상\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 22,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 21 -\r\n용화를 2025~2035년으로 잡고 있음. \r\n- 2011년 NETL은 이산화탄소 저감을 위하여 CCU 기술이 필수적임을 인지하여 기존 CCS \r\n기술개발 포트폴리오에 탄소 활용 및 재활용 (Carbon Use and Reuse) 기술을 포함시킴\r\n그림 10 DOE의 CO2 전환 기술 맵\r\n- 화석에너지 사용으로 발생된 대규모의 CO2를 저감하기 위한 CO2 전환기술의 최종 제품\r\n은 수요가 많은 화학제품이어야 한다는 기조\r\no 미국의 Sandia National Lab은 1조 500억원을 들여 태양광과 CO2를 이용해 석유대체 합성 \r\n디젤연료를 제조하는 S2P(Sunshine to Petrol) 프로젝트를 진행중\r\n- 2010년 농축 태양열 에너지를 활용한 이산화탄소의 화학적 전환 기술 분야에 산학연이 \r\n구성됨\r\n- 이 기술은 태양열을 집적하여 이산화탄소와 물을 열화학적으로 전환하여 합성가스와 같\r\n은 플랫폼 화합물을 제조하여 디젤 연료와 같은 고부가 탄소화합물 제조에 활용하는 기\r\n술로써, 발전소 등과 같은 이산화탄소 대량 배출원에서 직접 전환이 가능한 상용기술의 \r\n개발을 목표로 함\r\n- 본 태양열 개질 시스템은 현재 캘리포니아 새크라멘토(Sacramento)에서 실증 중이며, 이 \r\n실증은 샌디아의 뉴멕시코 설비와 베이커즈필드의 발전소 프로젝트 모두에서 지속될 것\r\n임\r\n- 상업적 플랜트의 첫 번째 계획이 현재 미국 각지에서 진행 중\r\no 미국의 Lawrence Berkeley National Lab.은 DOE지원을 받아 2011년 Caltech과 함께 인공\r\n광합성공동연구센터를 설립하고 물, 이산화탄소, 햇빛으로부터 가솔린 대체 연료를 제조\r\n하는 기술을 연구 중. \r\n- 광촉매를 사용해 태양광을 직접 에너지로 이용하기도 하고, 전기화학촉매를 사용해 태\r\n양광으로부터 생산되는 전기를 이용하기도 함. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 23,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 22 -\r\n- 270개 이상의 논문 및 40개 이상의 특허 확보. 2015년 9월 태양광을 이용한 수소생산을 \r\n목표로 하는 1단계를 마치고 CO2를 연료로 전환하는 2단계가 진행 중임. \r\n- 2015년까지 프로토타입 개발 완료, 2020년 상용화를 목표\r\no 미국의 PhosphorTech사는 CCU 공정의 에너지/단가 문제 해결을 위하여, 태양광으로부터 \r\n이산 화탄소를 유용한 화합물로 전환시키기 위한 나노기반 촉매 개발 연구를 수행 \r\n(2010-2013) - 현재 광촉매의 고질적인 문제인 생산량 (0.01-0.1 v/v%)의 이슈 해결을 위하여 CO2 전환 \r\n성능 개선에 대한 연구에 주안점을 두고 있음\r\no NSF에서는 CCU 원천기술 개발을 위해 2012년 7월부터 Research Coordination Network을 \r\n만들고 자연과학, 공학, 사회과학 및 경제학 등을 기반으로한 다학제간 연구를 통해 \r\nCarbon Capture, Utilization and Storage (CCUS) 기술의 개발을 독려함\r\n- DOE를 통한 연구 개발은 연방정부 주도의 top-down 방식의 정책임에 반해 NSF를 통한 \r\n연구는 연구자들의 독립성을 어느 정도 보장하여 창의적인 기술 개발이 이루어지도록 \r\n유도, 대부분 학계에서 이루어짐\r\no 2011년 EU집행위원회(European Commission)는 \"Horizon 2020-The Framework \r\nProgramme for Research and Innovation\" 초안을 발표하였으며, 2013년 이후 온실가스의 \r\n감축을 위한 포집 이산화탄소의 대규모 재사용 기술의 개발을 명시함\r\no 2013년 EU집행위원회 산하 협력연구센터(JRC: Joint Research Center)는 이산화탄소 배출\r\n량의 저감 노력만으로는 불충분하며, 보다 적극적인 CCU(Carbon Capture & Utilization)과 \r\nCCS(Storage)가 미래의 지속가능한 에너지 공급과 다양한 탄소유래 화학제품 생산에 중요\r\n한 역할을 할 것으로 보고함\r\n- JTI를 통해 유럽의 과학 기술 및 상업 기술, 상용화 최종 물질까지 다양한 것들이 공유\r\n될 것으로 예상하고 있으며, 투자 규모는 38억 유로(EU 10억유로, 민간 파트너 투자: 28\r\n억 유로)에 이르는 대규모 전략 사업임. o 특히 CCU기술은 \"기후 대책(Climate Action)\"뿐만 아니라, 석유대체 및 신재생에너지의 \r\n저장 기술로 화석연료 수입국이 대부분인 유럽 국가들의 \"에너지 안보(Energy Security)\", \r\n및 \"산업 혁신(Industrial Innovation)\" 분야에서 EU의 20-20-20목표를 타겟으로 설정되어 \r\n추진되고 있음. - 20-20-20: 2020년까지 1)1990년 수준의 20% 배출 감소 2)신재생 에너지 사용 비율 20% \r\n이상 3)에너지 절감을 통한 전체 에너지 사용량 20% 감소\r\no 이산화탄소 직접 활용 기술과 관련하여 주로 독일을 중심으로 연구가 되고 있으며, 이산\r\n화탄소를 활용한 플라스틱제조, 메탄제조, 아크릴산 및 아세톤 같은 기초 화학물질 제조\r\n가 활발하게 연구되고 있으며, 신재생에너지와 결합하여 전환 에너지 확보, 광전환 연구 \r\n및 이산화탄소를 신재생 에너지의 저장 물질로 사용하는 연구가 진행 중\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 24,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 23 -\r\no 독일은 연방교육연구부(Federal Ministry of Education and Research, BMBF)의 FONA \r\nframework programme를 통해 이산화탄소 활용을 통한 지속가능하고 기후변화에 대응할 \r\n수 있는 미래 장기 전략(Technologies for Sustainability and Climate Protection - Chemical Processes and Use of CO2)을 수립하여 진행 중\r\n- 이는 1)자원의 생산성을 증폭 2)기본 원료 물질을 확보 3)이산화탄소를 활용한 원료 물질\r\n의 범위 확장 4)기술을 바탕으로 중소기업 효율성 혁신 지원 5)국제 협력을 통한 확대 6)\r\n추가 혁신을 통한 지속가능 기술 구현 가속화의 단계 전략으로 구성되어 있음\r\no 독일의 Dream Production\r\n- Bayer Materialscience AC와 RWE 등의 공동연구로 시작된 프로젝트로 이산화탄소를 이\r\n용해 고부가 화합물을 제조하는 것을 목표로 연구가 진행 중임 \r\no 독일의 신재생 에너지 기반 전기에너지를 천연가스로 저장하는 프로젝트\r\n- 천연가스를 이용한 열에너지 사용 망을 위해 신재생에너지로 생산된 전기에너지를 수소\r\n생산 및 이산화탄소 환원에 사용하여 메탄 형태로 전환하여 공급하는 기술로, 신재생 에\r\n너지 대체 과도기를 위한 공급 기술로 개발되고 있음\r\n- 상용화가 가장 근접한 PtG(Power to Gas) 기술로 전기 에너지를 이용하여 수소를 생산하\r\n고 화학반응을 통해 메탄을 제조하여 사용하는 기술\r\no 독일의 CO2RRECT 프로젝트\r\n- 신재생 에너지를 이용하여 이산화탄소를 탄소원으로 전환하는 프로젝트로 Dream \r\nProduction 및 신재생에너지 화학에너지 저장 기술을 포괄하는 미래 기술\r\n- Bayer, RWE, Siemens 및 막스플랑크 연구소, 10여개 대학이 공동으로 참여하는 대형 미\r\n래 기술 개발로 이산화탄소 포집/분리, 신재생에너지 활용 수소생산, CO2 촉매 반응에 \r\n의한 전환 기술 개발, 소재 개발 및 경제성 분석을 포괄하고 있음\r\n- 이 프로젝트는 2020년 이후 현실화를 목표로 하는 장기 프로젝트로 진행되며, 가시적인 \r\n성과 없이도 계속 지원을 보장하고 있음. 독일의 CO2활용 전략의 핵심 가치가 포함되어 \r\n있고 각 요소기술별 목표가 명확하게 설정되어 있기 때문에 다양한 파생기술로 인한 성\r\n과를 기대하고 있음\r\no 영국은 연방정부의 Engineering and Physical Sciences Research Council (EPSRC)의 지원\r\n으로 CCU 관련 학계, 산업계, 정책 수립자들의 네트워크를 CO2Chem 이라는 이름으로 구\r\n성함\r\n- Grand Challenge라는 이름으로 향후 20-40년의 장기적 계획을 세우며, 크게 화학물질의 \r\n화석연료 의존성을 약화시키는 데에 연구 방향을 결정함\r\no 영국의 4CU 프로젝트\r\n- A Comprehensive and Coordinated approach to Carbon Capture and Utilization\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 25,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 24 -\r\n- CO2 capture, activation, 프로세스 개발 평가 \r\no CDUUK 프로젝트 \r\n- UK Centre for Carbon Dioxide Utilization \r\n- University of Sheffield를 중심으로 다학제간 연구\r\no 재생에너지를 이용한 CO2 직접전환 기술의 특허 분석은 다음의 분석 기준으로 수행함\r\n- 검색 DB: Thompson Innovation\r\n- 검색구간: 1997.01.01.~2017.03.30\r\n- 검색국가 및 범위: 미국, 유럽, 일본, 한국, 중국의 출원 공개 및 등록 특허\r\n- 검색 필드: Title, Abstract, Claims (DWPI 포함) \r\n- CO2 수소화 검색식: CTB=((((carbon* adj1 dioxide*) or CO2 or carbondioxide*) near2 \r\n(hydrogenation* or hydrid* or ((hydrogen or H2) adj1 (react* or add* or insert*))))) AND \r\n(AY>=(1997) AND AY<=(2017)); 검색건수 430\r\n- CO2 수소화 + C3+ 액상탄화수소: CTB=((((carbon* adj1 dioxide*) or CO2 or \r\ncarbondioxide*) near2 (hydrogenation* or hydrid* or ((hydrogen or H2) adj1 (react* or \r\nadd* or insert*)))) AND (diesel* or gasoline* or petrol* or fuel* or fueled or LPG* or \r\n(liquefied adj1 (petroleum or propane or C3H8) adj1 gas*) or ((liquefied or liquefying or \r\nliquid* or liquefaction* or devolatilization* or liquescence*) near2 hydrocarbon*) or \r\nwax* or olefin* or ethylene* or ethene* or C2H4 or propylene* or propene* or C3H6 or \r\nbutylene* or butene* or C4H8 or paraffin*)) AND (AY>=(1997) AND AY<=(2017)); 검색건\r\n수 162\r\no CO2 수소화를 통한 전환 기술 관련 특허는 총 413건이 출원되었으며, 2007년 출원이 본\r\n격적으로 증가하여 2014년(미공개 구간* 제외) 54건으로 최다 출원건수를 나타냄. o 중국 내 출원이 50% 차지하고 있으며, 2009년 이후 중국의 CO2 수소화 기술 시장규모가 \r\n급성장하여 전체 시장을 견인하고 있는 것으로 판단됨.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 26,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 25 -\r\n그림 11 국가별 특허 출원 추이\r\no 중국 소재 기관이 40%로 가장 많은 특허를 출원하였으며, 기업보다는 CAS, Univ \r\nZhejiang, Univ Kunming, Univ Dalian 와 같은 학계 연구가 주를 이루고 있는 것으로 나\r\n타남. 최근에는 CAS에서 연구개발 및 특허출원에 집중하고 있음\r\no 독일의 BASF가 33건의 출원으로 2위를 차지하고 있으며, 사우디아라비아의 Saudi Basic\r\n이 22건으로 3위를 차지함\r\no 국내에서는 한국화학연구원이 10위권에 랭크되어 있으며, 기업(SK, GS, 현대제철, LG화학)\r\n과 정부연구기관(KRICT, KIST, KAIST)에서 본 연구를 선도하고 있는 것으로 나타남\r\n그림 12 기관별 특허 출원 등위\r\no CO2 직접 수소화 기술은 현재까지 대부분 methanol, formic acid 등과 같은 C1 공정에 적\r\n용되고 있는 실정임\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 27,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 26 -\r\no C3+ 액화 탄화수소 제조 기술 관련 신규발명특허는 총 13건(패밀리 특허 출원 없음) 정도\r\n로 연구개발이 미미한 수준으로 이루어지고 있으며, 2010년 이후로 특허출원 빈도가 잦아\r\n지고 있는 것으로 나타남\r\no 국가별 현황으로는 중국 내 출원이 8건을 차지하고 있으며, 일본, 미국, 한국에 소수 출원\r\n이 이루어지고 있음\r\n그림 13 CO2 수소화 기술의 특허 출원 수 추이\r\no 대부분의 출원인이 자국 내 출원을 하고 있는 것으로 나타났으며, 현재 세계적으로 본 분\r\n야에 대한 많은 기술력이 축적되지 못한 상황으로 시장형성이 미비한 상태인 것으로 보\r\n임\r\no 중국 소재 기관에서 가장 많은 특허를 보유하고 있으며, 한국에서는 GS에서 관련 특허를 \r\n출원함\r\no 전반적으로 대학 및 정부기관과 같은 공공연구기관에서 특허를 출원하고 있으며, 기업의 \r\n연구개발 참여율은 상대적으로 낮은 것으로, 제안기술 분야는 아직 기초연구단계에 있는 \r\n것으로 판단됨\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 28,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 27 -\r\n그림 14 기관별 특허 출원 등위\r\no 가장 최근, 중국 연구기관인 CAS, Univ Ningxia에서 본 분야 연구개발에 주력하고 있는 \r\n것으로 보이며, 한국의 GS는 2003년 이후 특허출원은 없는 것으로 \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 29,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 28 -\r\n제 3 장 연구개발수행 내용 및 결과\r\n1절 CO2 직접수소화를 통한 액체 탄화수소 연료 제조 촉매 및 공정 \r\n개발 (1세부)\r\n1. CO2 전환율과 C3+ 선택도가 향상된 고효율 촉매 개발\r\n 본 연구에서는 Fe 단일 촉매 대비 Fe-Cu-K 촉매의 CO2 수소화 반응에 대한 높은 활성 및 \r\n선택도를 보이는 원인을 규명하기 위한 체계적 연구를 수행하였다 [1-4]. 특히, Fe 촉매에 Cu\r\n와 K가 단일 또는 함께 존재할 경우의 시너지 효과를 개별적으로 평가함과 동시에, 각 촉매의 \r\n물리/화학적 특성 변화를 분석함으로써 활성 향상에 대한 원인 규명일 시도하였다 [5-11]. \r\n Cu 단일 촉매의 경우 21.1%의 CO2 전환율을 보였으며, 이 중 80%가 CO로 전환되었음을 \r\n알 수 있다. Cu-K 촉매는 약 21.6%의 CO2 전환율과 90.9%의 CO 선택도를 보이는 것으로, Cu \r\n표면에서의 추가적인 수소화 반응보다는 K의 첨가가 CO 탈착에 유리하다는 것을 암시한다. Fe 단일 촉매는 20.3%로 Cu와 유사한 CO2 전환율을 보이지만 메탄(CH4)에 대한 선택도가 \r\n58.2%로 높은 것을 알 수 있다. 그러나, Fe 촉매에 K를 첨가하면 메탄 형성이 현저하게 억제되\r\n고, C3+ 탄화수소 선택성이 12.9%(Fe)에서 50.9%(Fe-K)로 약 3.9배 향상되었다. Fe-Cu 촉매에 \r\nK를 첨가한 경우(Fe-Cu-K)도 C3+ 탄화수소 선택성이 32.4%에서 70.9%로 증가하였으며, 특히, C5+ 탄화수소에 대한 선택성이 5.6%(Fe-Cu)에서 50.4%(Fe-Cu-K)로 9배 높았다. K 첨가는 경질 \r\n탄화수소(C2-C4)의 올레핀 선택성에도 영향을 주어, 올레핀 선택성이 Fe-Cu 촉매의 10.3%에서 \r\nFe-Cu-K 촉매 70.5%로 6.8배 증가하였다. 이는 CO2 수소화 과정에서 생성된 탄소 종\r\n(carbonaceous species)의 수소화 반응을 억제하고 탄화수소의 사슬 성장(chain growth)을 촉진 \r\n시키는데 핵심적인 역할을 한다는 것을 나타낸다. 또한 이와 같은 결과를 DFT 계산을 통해 이\r\n론적으로 규명하였다 [12-20]. DFT 계산을 기반으로 하여 마이크로키네틱 모델링 연구 및 율속\r\n단계 분석 연구를 추가적으로 수행중에 있다 [21-27].\r\nFe 촉매에 Cu를 첨가한 Fe-Cu 촉매의 경우, Fe 촉매보다 1.7배 향상된 35.2%의 CO2 전환율\r\n을 나타낼 뿐만 아니라, 경질 탄화수소(C2-C4)에 선택도가 9배, C3+ 탄화수소 선택도가 2.5배 \r\n향상된 결과를 나타내었다. Fe-K와 Cu-K를 물리적으로 혼합한 경우, Fe-Cu 또는 Fe-Cu-K 촉\r\n매 대비 낮은 활성을 보이는 결과에 비추어, 위와 같은 결과는 Fe과 Cu가 독립적인 활성 사이\r\n트로 작용하는 것이 아니라, Fe과 Cu가 서로 밀접하게 접촉하여 Fe 표면 전자적/구조적 특성\r\n이 달라졌기 때문인 것으로 보인다. 이러한 특성은 다음의 분석 결과로부터 확인할 수 있다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 30,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 29 -\r\n그림 1 Cu, Cu-K, Fe, Fe-K, Fe-Cu, Fe-Cu-K 촉매를 이용한 \r\nCO2 hydrogenation 결과. 생성물 수율과 C2-C4 탄화수소에서의 \r\nolefin to paraffin 비율\r\n 또한 메조포러스탄소(mesoporous carbon, MPC)를 철계 촉매의 지지체로 도입하여 CO2 수\r\n소화 반응 활성 및 선택도에 미치는 영향을 살펴보았다. 일반적으로 사용 되던 Al2O3, TiO2, \r\nSiO2와 같은 산화물계 지지체들은 CO2 수소화 반응 활성 금속으로 작용하는 철(Fe) 입자와의 \r\n강한 상호작용(strong metal-support interaction)으로 촉매의 환원성(reducibility)을 저해시켜 \r\nCO2 수소화 반응에 대하여 낮은 활성 및 선택성을 보이게 된다. 반면에, 탄소계 지지체의 경우 \r\n철과의 약한 상호작용으로 CO2 수소화 반응의 활성상으로 작용하는 탄화철(iron carbide) 형성\r\n이 용이하여 C3+ 탄화수소 선택성 향상을 도모할 수 있을 것으로 기대하였다. \r\n그림 2 메조포러스 실리가 템플릿으로부터 FeK/MPC 촉매 제조 과정; TEM images of (a) \r\nmesoporous silica sphere template, (b) mesoporous carbon (MPC), (c) Fe/MPC, and (d) \r\nFeK/MPC\r\n CO2-FTS 반응에 대한 FeK/MPC, FeK/AC, FeK/Al2O3, FeK/TiO2 및 FeK/SiO2의 촉매 성능을 \r\n상기 그림 및 표와 같이 평가하였다. C2-C4 탄화수소에서 생성물 수율 및 올레핀 선택성을 나\r\n타낸다. CO2 전환율은 FeK/MPC (50.6%)에서 가장 높았으며, FeK/AC (37.5%), FeK/Al2O3\r\n(36.5%), FeK/TiO2 (30.7%) 및 FeK/SiO2 (14.1%) 순으로 나타났다. 특히, FeK/MPC 촉매는 상기 \r\n표에 요약된 바와 같이, 가장 높은 C5 + 선택성 (44.5%) 및 낮은 메탄 선택성 (15.4%)을 나타냈\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 31,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 30 -\r\n다. FeK/AC 및 FeK/Al2O3는 유사한 CO2 전환율을 나타내었지만, 많은 양의 경질올레핀을 생산\r\n하였다. 또한 FeK/MPC는 90 시간 동안 수행 된 반응 동안 현저한 비활성화를 나타내지 않았다. FeK/SiO2에서 나타난 가장 낮은 CO2 전환율은 SiO2와 Fe 산화물 사이의 강한 상호 작용에 기\r\n인하며, 이는 TPR 결과에서 관찰된 바와 같이 Fe의 상전이를 저해한다. 반응 후 FeK/SiO2의 \r\nXRD에서 Fe 탄화물 피크의 부재는 낮은 CO2 전환율 및 탄화수소 선택도의 원인으로 판단된\r\n다. 또한 Fe와 SiO2의 강한 상호 작용은 Fe 산화물의 환원 또는 침탄을 억제하고 Fe 규산염 \r\n(Fe2SiO4)의 형성을 유발하는 것으로 알려져 있다.\r\n그림 3 (a) CO2 수소화 반응 후 촉매의 XRD 패턴 및 (b) XRD로부터 계산된, 촉매 상의 \r\nFe 산화물, Fe 탄화물의 비율\r\n \r\n 단원자(single atom) 전이금속(M=Fe or Co)과 질소가 배위된 탄소(M-NC) 표면에 8-10 nm\r\n의 철 나노 입자가 담지된 이원기능성 촉매의 CO2 수소화 반응 특성을 알아보고자 하였다. 탄\r\n소 단일 지지체는 활성 금속 분산도 향상 등 물리적 특성에 영향을 주는 반면, CO2 수소화와 \r\n같은 촉매 화학 반응 활성에는 기여하지 않는다. 반면에, 전이금속과 질소가 원자 수준으로 도\r\n핑된 탄소의 경우 전혀 다른 촉매 활성을 나타내는 것으로 보고되고 있다. 특히, Fe-NC 촉매\r\n의 경우 산소환원반응에 백금과 유사한 성능을 나타낼 뿐만 아니라, CO2 전기화학적 환원 반\r\n응에도 촉매 작용을 하는 것으로 보고되었다. 그러나, 전이금속 단원자촉매(single atom \r\ncatalyst, SAC)가 촉매 화학적 CO2 수소화 반응을 위한 촉매로 적용된 예는 현재까지 없었다. 따라서, 본 연구에서 처음으로 전이금속 단원자촉매와 철 촉매를 조합한 이원기능성 촉매로써 \r\nCO2 수소화 반응에 대한 가능성을 살펴보았다. \r\n 본 연구에서는 포피린 계열의 Fe과 Co 전구체를 메조포러스 실리카 템플릿과 혼합하여 \r\n900 ℃, 질소 분위기에서 2시간 동안 열분해(pyrolysis) 한 후, 10% HF 수용액으로 실리카 템플\r\n릿을 제거함으로써, 80~100 nm 의 직경을 갖는 Co-NC, Fe-NC, FeCo-NC 단원자 촉매를 제조\r\n하였다. Co-NC, Fe-NC, FeCo-NC 단원자 촉매들의 TEM-EDS mapping 이미지를 통해, Fe, Co, \r\nN 가 원자 수준으로 고르게 도핑되어 있음을 확인하였다. 또한 Co-NC, Fe-NC, FeCo-NC 단원\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 32,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 31 -\r\n자 촉매들은 약 3% 정도의 질소 및 2% 내외의 전이금속(Co or/and Fe)과 탄소(>80%)로 이루어\r\n졌음을 ICP-AES 및 EA 분석을 통해 확인하였다. 이 후, sonication assisted-melt infiltration법을 \r\n이용하여 상기 제조된 Co-NC, Fe-NC, FeCo-NC 단원자 촉매 위에 20 wt% 철을 담지한 후, 조\r\n촉매로써 칼륨(K/Fe=0.25)을 함침법(IWI, incipient wetness impregnation)으로 담지하였다. 최종\r\n적으로 합성된 FeK/M-NC 촉매의 형상을 TEM 이미지로 나타내었으며, XRD 분석 결과 약 \r\n8~10 nm 크기의 철 나노 입자가 단원자 촉매 위에 고르게 분산되어 있음을 확인하였다. FeK/M-NC 촉매들은 626.3m2/g (FeK/Co-NC), 713.2 m2/g (FeK/Fe-NC), 727.8 m2/g \r\n(FeK/FeCo-NC)의 높은 비표면적을 갖고 있으며, 약 4.0 nm의 기공 크기를 갖고 있다.\r\n그림 4 촉매의 TEM 이미지; a) FeK/FeCo-NC, (b) FeK/Fe-NC, (c) FeK/Co-NC, and (d) \r\nFeK/Co-NC (30 wt% Fe)\r\n CO2 수소화 반응 실험은 300℃, 25 bar에서 H2/CO2=3 조건의 반응 가스를 GHSV=2,000 \r\nml/gcat/h로 주입하여 약 72시간 동안 진행하였으며, 반응 후 60 h 일 때의 촉매의 성능을 비\r\n교하였으며, 그 결과를 도시하였다. CO2 수소화 반응에 대하여 FeK/Co-NC 촉매에서 46.4%의 \r\n가장 높은 CO2 전환율을 보였으며, 그 뒤를 이어 FeK/FeCo-NC (38.1%), FeK/Fe-NC (32.9%), \r\n전이금속이 존재하지 않는 FeK/NC의 경우 가장 낮은 30.2%의 CO2 전환율을 보여주었다. CO2\r\n수소화 반응 생성물 중 C3+ 탄화수소 선택도는 CO2 전환율과 반대의 경향성을 보여주고 있으\r\n나, 그 차이는 크지 않은 것으로 나타났으며, 가장 높은 CO2 전환율을 나타낸 FeK/Co-NC의 경\r\n우 68.8%의 C3+ 선택도를 나타내었다. Co-NC 단원자 촉매를 적용한 FeK/Co-NC 촉매에서 가\r\n장 높은 CO2 전환율을 보여준 결과를 바탕으로, M-NC 단원자 촉매만의 CO2 수소화 반응 활성 \r\n여부를 평가하였다. 그 결과, Co-NC (8.3%) > FeCo-NC (3.6%) > Fe-NC (2.5%)의 순으로 CO2\r\n전환율을 보여주었으며, Co가 첨가된 경우 메탄에 대한 선택도가 증가하는 것을 관찰하였다. 이는, FeK/Co-NC 촉매에서 가장 높은 메탄 선택도를 보인 것과 관련성이 있는 것으로 판단된\r\n다. FeK/Co-NC 촉매에 철 나노입자의 담지량을 20 wt%에서 30 wt%로 증가시킨 촉매의 경우 \r\n같은 조건 (단, GHSV=4,500 ml/gcat/h)에서 44.8%의 CO2 전환율과 32.5%의 C3+ 수율로 가장 \r\n높은 촉매 활성 결과를 도출하였다. 이러한 결과를 바탕으로, 전이금속 단원자 촉매 표면에서 \r\nCO2 수소화 반응에 대한 활성을 DFT 계산과 물리/화학적 특성 분석을 연계한 연구를 수행 중\r\n에 있다 [28]. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 33,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 32 -\r\n그림 5 (a)FeK/Fe-NC, (b) FeK/FeCo-NC, (c) FeK/Co-NC, and (d) FeK/NC 촉매의 CO2\r\nhydrogenation 반응의 시간에 따른 CO2 conversion 및 생성물 선택도 변화\r\n그림 6 FeK/Fe-NC, FeK/FeCo-NC, FeK/Co-NC, FeK/NC 촉매의 CO2\r\nhydrogenation 반응 결과. 생성물 수율 및 C2-C4 탄화수소의 olefin to paraffin 비율. TOS=60 h, T=350℃, P=25 bar, H2/CO2=3, GHSV=2,000 ml/gcat/h\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 34,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 33 -\r\n2. 한계수율 돌파형 반응기술 개발\r\n 물 흡수용 트랩을 기준으로 전단의 반응기를 상단 반응기로 후단의 반응기를 하단 반응기\r\n로 명명하였다. 2단 반응의 기본 실험 설계는 상단에서 RWGS 반응을 통해 CO2로 CO로 전환\r\n하고, 하단에서 전환된 CO 와 미반응된 CO2를 동시에 전환하여 CO2 전환율을 향상시키고, C3+ 생성 수율을 향상 시키는 것이다. \r\n 2단 반응기 운전 최적화 전략 모델의 첫 번째 전략은 상단 반응과 하단 반응을 각각 최적\r\n화하는 것이다. RWGS 반응은 흡열반응으로 지속적인 열원을 공급해야하는데, 발열 반응인 \r\nCO2 FT 반응 촉매를 추가 충진함으로써 흡열과 발열을 조화시킬 수 있다. 이 경우, 추가적인 \r\n열 공급 없는 ‘heat neutral’ 상태를 만들 수 있다. 상단 반응기의 최적화 상태는‘heat \r\nneutral’ 뿐만 아니라 CO yield를 극대화시키는 것이다. 하단 반응기의 최적화 상태는 CO와 \r\nCO2를 동시에 전환시킴으로써 C3+ 생성 수율을 향상화 시키는 것이다. \r\n 두 번째 전략은 상/하단 반응기 CO2 FT 최적 촉매를 충진 시키는 것이다. 상단 반응기에\r\n서 CO2 전환반응을 진행시키고, 하단 반응기에서 미반응된 CO2를 추가 전환시키는 것이다. 이 \r\n반응의 특징은 FT 반응을 저해하는 H2O는 트랩에서 제거시킴으로써, 하단 반응기에는 활성을 \r\n저해하지 않는 것이다. 상/하단 반응 최적화 전략을 위해서 우선적으로 상단 반응 최적화 실험을 진행하였다. RWGS 반응용 촉매 (Pt-CeO2)에 CO2 FT 촉매를 추가적으로 충진하였으며, 충진시 physical \r\nmixing, 2-layered 구조, 4-layered 구조, 층상 구조시 상층 촉매변화를 주는 방법으로 상단 촉\r\n매 배치 방법을 설계하였다. 비교예로 RWGS 촉매 반응 실험을 진행하였다. \r\n공간속도 CO2 conv.(%) Yield (%) HCs sel. (%)\r\nCO HC CH4 C2 C3+\r\n4500 38.67 3.25 35.41 10.08 8.37 81.54\r\n3000 44.90 2.52 42.38 8.93 7.38 83.69\r\n1800 50.19 2.10 48.09 8.17 6.62 85.22\r\n900 56.30 1.99 54.32 6.69 5.32 87.99\r\n표 1 Fe-Cu-Al-K 촉매(K/Fe=0.15) 촉매의 공간속도에 따른 CO2 전환율 및 선택성 변화\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 35,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 34 -\r\n그림 7 상단 반응기 촉매 배치 방법\r\n \r\n환원은 400℃, 1 bar 조건에서 진행하였으며, 반응은 250-500℃, 압력 25 barg, 공간속도 4500 \r\ncc/gcat·h 조건에서 진행하여 결과를 얻었다. 결과중 CO2 전환율과 CO yield를 선택적으로 정\r\n리하였다. 비교예인 RWGS 촉매와의 비교 분석하였다. 반응 온도 250℃ 경우, CO2 전환율과 \r\nCO yield가 상대적으로 낮아서 비교에서 제외하였다. 300-450℃ 반응 온도 구간에서 비교예보\r\n다 전반적으로 CO2 전환율과 CO yield가 상승하는 것을 확인할 수 있었다. 특히 physical \r\nmixing 배치 방법은 열역학적 평형 전환율 (methanation 발생하지 않는 가정)과 유사한 결과를 \r\n보여 주고 있음을 확인하였다. 특히, 450 ℃ 반응에서 physical mixing 배치 방법은 CO2 전환율 \r\n40.3%, CO yield 38.4% 임을 확인할 수 있었다. 또한, Layering 1에서 CO2 전환율 39.8%, CO \r\nyield 39.7% 이었으며, Layering 3에서 CO2 전환율 39.9%, CO yield 37.4% 임을 확인할 수 있었\r\n다. RWGS 촉매만 배치하는 것 보다 CO2 FT 촉매를 추가적으로 충진하였을 경우, 열역학적 평\r\n형 전환율에 도달하는 것을 확인할 수 있었다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 36,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 35 -\r\n그림 8 상단 반응기 촉매 배치 방법에 따른 실험 결과 정리\r\n 상단 반응 최적화 실험 이후 하단 반응 최적화 실험을 진행하였다. 상단 반응 조건들 중에 \r\n최적화 조건을 확정하지 못하여 RWGS 반응용 촉매 (Pt-CeO2)를 상단에 배치하였으며, 하단에\r\n는 기개발한 촉매 (100Fe-6Cu-16Al-4K) (Energy Fuels 2013, 27, 6377) 와 본 과제에서 개선한 \r\n촉매(100Fe-13Cu-12Al-15K)를 배치하였다. 상단 반응은 450℃, 압력 25 barg, 공간속도 4500 \r\ncc/gcat·h 조건에서 CO2 전환율 38%, CO yield 35% 수렴하였을 경우, 하단 반응을 진행하였으\r\n며, 반응 온도에 따른 실험을 진행하였다. \r\n기개발된 촉매의 온도에 따른 활성은 CO2 전환율 44% 이상, C3+ yield가 27% 이상임을 확인\r\n그림 9 하단 반응 최적화 촉매 실험 결과\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 37,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 36 -\r\n할 수 있었다. 해당과제의 목표치를 달성하지는 못했지만, 상단 반응기에서 생성된 CO를 대부\r\n분 전환시키는 활성을 보여주었다. 과제 수행 중 개선 촉매의 경우는 CO2 전환율 49% 이상, C3+ yield가 35% 이상임을 확인할 수 있었다. 특히 320 ℃ 반응에서는 C3+ yield가 39.3% 정도\r\n로 목표치 수준까지 도달하는 것을 확인할 수 있었다. 하단 반응을 위한 촉매로서 과제 수행 \r\n중 개발된 촉매를 최적화된 촉매임을 확인하였다. 두 촉매의 조성이 다르기 때문에 비교는 어\r\n려우나, ‘K’ 함량이 많을수록 long chain hydrocarbon 생성이 잘 되는 사실과 부합된다. 2단 반응기 3대를 동시에 이용하여 반응을 진행했으며, 1번 반응기의 경우 상단 반응만 진행\r\n할 경우 공간속도 9000 cc/gcat·h, 2반응시 공간 속도 4500 cc/gcat·h 으로 되도록 설계하였\r\n으며, 2번, 3번 반응기는 각각 그림 10의 상부에 명시된 공간속도가 되도록 하였다. 압력 25 \r\nbarg, 촉매층의 온도는 각각 295-305℃ 되도록 진행하였다. \r\n 자세한 실험 설계는 그림 11의 상부에 명시된 바와 같다. 1번, 2번 조건은 상단 반응을 진\r\n행한 것이고, 3-6번 조건은 상/하단 반응을 진행한 것이다. 상/하단 반응에서는 하단에 배치된 \r\n촉매 양으로 인해 공간속도가 1/2 감소하게 된다. \r\n 각 반응기에서 조건 1번과 2번에서 알 수 있듯이, 동일 공간 속도에서 촉매층 온도가 5℃ \r\n상승할 경우 CO2 전환율, C3+ yield 가 상승하는 것을 확인할 수 있으며, 공간속도가 클수록 \r\n그 영향이 더 큰 것을 확인할 수 있다. 3번 조건에서는 2단 반응이 시작되며, CO2 전환율이 각\r\n각 13% 이상 상승하는 것을 확인할 수 있는데, 이는 상대적으로 공간속도가 1/2 감소하는 영\r\n향일 뿐 만 아니라 하단에서 CO2 전환 반응이 동시에 진행되기 때문이다. \r\n 3번 반응기에서 4,5,6 번 조건의 경우, CO2 전환율이 55% 이상이며, C3+ yield가 40% 이상\r\n으로 당해연도 목표치를 달성함을 확인하였다. 탄화수소 내에서 C3+ 선택도는 73% 내외 정도 \r\n였으며, 촉매 개선을 통해 선택도를 상승할 수 있도록 촉매 설계 중에 있다. 또한 공간속도가 \r\n상대적으로 낮았으나, 이는 상용조건에 비해서 대등한 수준임을 확인하였고, 벤치 반응기에서\r\n도 목표치를 달성할 것으로 기대된다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 38,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 37 -\r\n그림 10 CO2 FT 최적화 촉매의 2단 반응 결과 정리\r\n 물 흡수 트랩의 효과는 1번 반응기의 4번 조건과 3번 반응기의 2번 조건을 비교 분석함으로\r\n써 확인이 가능하였다. 두 반응기의 공간속도는 4500 cc/gcat·h로 동일하고, 촉매층 온도 30\r\n0℃로 동일하였다. 차이점은 단일 반응기와 물 흡수 트랩 2단 반응기로 구성된 것이다. 위에서 \r\n보는 바와 같이 CO2 전환율의 경우 7% 상승하고, CO yield 가 4% 정도 상승하여 C3+ yield 상\r\n승이 상대적으로 작았지만, C3+ yield는 3% 상승하는 것을 확인하였다. 물 트랩 다단 반응기를 \r\n활용할 경우 단일 반응기 보다는 C3+ yield를 상승시킬 수 있음을 확인하였다. 상단-하단 (CO2 FT- CO2 FT) 반응을 상단-하단 (RWGS-CO2 FT) 반응 비교시 CO2 전환율이 \r\n6%, C3+ yield 5% 높음을 확인할 뿐만 아니라, 반응시 상단의 온도를 150oC 정도 낮게 유지 \r\n할 수 있음을 확인하였다. C3+ Yield 높고, 반응 온도를 낮게 제어할 수 있기 때문에 상단-하\r\n단 (CO2 FT- CO2 FT) 반응이 2단 반응에 보다 적합한 것을 확인하였으며, 향후 2단 반응 실험\r\n시 적용할 예정이다. \r\n2단 반응시 전체 촉매(0.8g)를 기준으로 공간속도 2250 cc/gcat·h, 압력 25barg, 상/하단 온도 \r\n300oC에서 2단 반응의 장기 안정성을 확인하고자 반응을 진행하였다. 전체 반응 시간은 400시\r\n간 진행하였고, 2단 반응을 한정하였을 경우 300시간 반응을 진행하였다. \r\n 장기 안정성 확보 기준은 CO2 전환율 45% 이상, C3+ 수율 35% 이상, 반응 100시간 이상 운\r\n전시 steady state (TOS 50-100 h 에서 수율 변화가 10% 이내)에서의 수율 대비 80% 이상인 \r\n것으로 하였다. 총 반응 시간 150시간을 기준으로 하였을 경우, CO2 전환율 58.6%, C3+ 수율 \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 39,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 38 -\r\n41.95 % 이었으며, 총 반응시간 200시간에서는 CO2 전환율 58.7%, C3+ 수율 41.33 % 으로 \r\nsteady state 해당되었다. 이후 steady state 상태(총 반응 200시간) 이후 200 시간 시점 (총 반\r\n응 400시간)에서 C3+ 수율이 41.33% 에서 39.02% 으로 2.31% 하락하였다. 백분율 대비 94.4% \r\n유지하였으므로, 장기 안정성을 확보한 것으로 판단할 수 있다. 또한, 향후 벤치 규모급 반응기\r\n에서 반응할 경우, 2단 반응기를 활용할 수 있음을 확보 하였다. \r\n그림 11 상단-하단 (CO2 FT- CO2 FT) 반응 장기 안정성 실험 \r\n3. 유동적 전력 공급에 적합한 고효율 반응 기술 개발\r\n 본 연구에서 수소의 발생원은 신재생에너지에서 유래되는 것이다. 신재생에너지는 유동적\r\n으로 전력을 생산하기 때문에, 수소의 발생량 또한 유동적이다. 유동적인 수소 공급에 맞추어 \r\nCO2 직접 수소화반응 기술을 최적화 시키는 것이 필요하다. 재생에너지 전력 공급 시나리오 \r\n도출하고, 촉매 활성 및 안정성을 기준으로 성능에 부담을 저감시킬 수 있는 운전기술 도출 하\r\n고자 하였다. 3가지 운전 조건 (1.반응 ON/OFF, 2. H2/CO2 비율 변화, 3. 공간속도제어 (반응 \r\n유량 제어))을 통해서 non-steady state 시나리오 별 최적 운전 방법 확립하고자 하였다. \r\n 신재생에너지 유래 수소 발생에 있어서, 환경적인 요건에 의하여 수소 발생이 단시간 혹은 \r\n장시간 불가능 경우가 발생 될 수 있다. 매우 단시간 공급에 문제가 있을 경우, 비축된 수소를 \r\n활용할 수 있지만, 공급이 장시간 지연될 경우, 반응기로 반응물 공급을 OFF 시켜야 하는 경\r\n우가 발생될 수 있다. 이후 다시 수소 공급이 원활할 경우, 반응물 공급을 ON 시켜야 한다. 이\r\n런 경우를 대비하여‘반응 ON/OFF 전략’조건에서 실험을 진행하였다. 수소 공급 중단 시간\r\n에 따라 반응 OFF 시간이 변경될 수 있다. 반응을 단시간 OFF 시킬 경우, 반응 가스 대신 비\r\n활성 가스를 공급하고, 반응 온도(300oC)를 유지하여, 반응 대기 상태로 유지하도록 한다. 반응\r\n을 장시간 OFF 시킬 경우, 반응 가스 대신 비활성 가스를 공급하고, 반응기 전체를 shut-down \r\n시키는 경우가 발생 될 수 있다. 우선적으로 단시간 수소 미공급시를 대비하여 반응 ON/OFF \r\n실험을 진행하였다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 40,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 39 -\r\n 또한 장시간 수소 미공급시를 대비하여 반응 ON/OFF 실험을 진행하였다. 반응을 장시간 \r\nOFF 시킬 경우는 반응기 전체를 shut-down 시키는 경우로 가정하였다. 반응을 진행하지 않는 \r\n구간은 비활성 가스인 헬륨을 지속적으로 공급하였고, 반응기 온도를 상온까지 내린 이후, 다\r\n시 수소 등의 반응 가스 공급되는 시점에 맞추어 반응온도까지 승온 시키는 구간이다. \r\n그림 12 장시간 수소 미공급시 반응 ON/OFF 실험 장시간 수소 미공급시 반응 ON/OFF 실험도 총 5회 반응 OFF를 진행하였다. 반응 가스 공\r\n급이 중단 되는 시점부터 비활성 가스인 헬룸을 지속적으로 공급하고 반응 온도를 상온까지 \r\n하강 시킨 이후 반응 온도 300oC 까지 승온 시켰다. 총 600시간 반응을 진행하였으며, 반응을 \r\nOFF 하더라도 CO2 전환율이 37% 이상을 유지하고 있으며, C3+ 수율도 28% 이상을 유지하는 \r\n것을 확인하였다. 특히, 5차와 6차 반응에서는 비교적 장시간인 100시간 정도 반응을 진행하지 \r\n않더라도 촉매 활성에는 변화가 없는 것을 확인하였다. \r\n 수소 발생이 부족한 경우, H2/CO2 비율을 감소시키는 방향으로 운전을 진행해야 한다. 수\r\n소 공급 부족시 대비하여 H2/CO2 비율을 3에서 2로 조절하였고, 이후 수소 발생이 충분할 경우 \r\nH2/CO2 비율을 2에서 3으로 복귀시킨다. 비율을 복귀 시켰을 경우, 촉매 활성이 유지 여부를 \r\n확인하고자 하였다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 41,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 40 -\r\n그림 13 H2/CO2 비율에 조절에 따른 반응 결과 \r\n 반응 온도는 300 oC, 압력은 25 barg, 공간속도 4500 cc/gcat·h, H2/CO2 비율 3인 조건에\r\n서 반응을 시작하였고, 이후 H2/CO2 비율을 2로 감소시킨 이후 다시 3으로 하여 실험을 완료하\r\n였다. 비율을 감소시켰을 경우, 일반적인 문헌 결과들과 같이 CO2 전환율 감소, H.C. yield 감\r\n소, C3+ yield 감소 되었다. H2/CO2 비율을 3 으로 재설정하였을 경우, 초기 반응 결과값과 유\r\n사한 결과값을 보여주었다. 화학연 개발 촉매는 반응 조건에서 H2/CO2 비율이 2와 3 사이인 경\r\n우, 촉매 활성을 유지할 수 있음을 확인하였다. \r\n 그러나, H2/CO2 비율이 변화할 경우, 생성물의 조성이 달라지기 때문에, 이는 실제 상용 공\r\n장에서는 생산되는 액체탄화 수소 제품이 변하게 되는 것이다. 수소 부족 상황인 유동적 조건\r\n에서는 H2/CO2 비율을 변경하지 않는 것이 바람직한 것으로 판단하였다. \r\n 반응 온도는 300oC, 압력은 25barg, 공간속도 4500 cc/gcat·h, H2/CO2 비율 3인 조건에서 \r\n반응을 시작하였고, 공간속도 4500 cc/gcat·h을 기준으로 하였다. 수소 공급 부족 상황을 가정\r\n하여, 공간속도를 4500 -> 3600 -> 4500 -> 2700 -> 4500 cc/gcat·h 으로 변화시켰다. 공간속\r\n도를 감소시킨 이후 다시 기준 공간속도로 복원시킴으로써 공간속도 변화시 촉매 활성 유지 \r\n여부를 확인하였다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 42,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 41 -\r\n그림 14 공간속도 감소/복원에 따른 반응 결과\r\n 공간속도를 감소시킨 이후 다시 기준 공간속도로 복원시키더라도 촉매 활성이 유지 되는 \r\n것을 확인하였다. 공간속도가 4500 -> 3600 -> 2700으로 감소함에 CO2 전환율은 36.5%, 38.6%, \r\n40.0% 으로 증가하고, C3+ 수율도 26.7%, 28.7%, 30.0% 으로 증가함을 확인하였다. 공간속도가 \r\n낮을수록 촉매와 반응가스 contact time 증가하며, 탄화수소 chain-growth에 유리함과 잘 부합\r\n되는 결과를 보여주었다. 공간속도 4500 cc/gcat·h 인 경우는 총 3회이며, 각각의 CO2 전환율이 36.5%, 36.6%, \r\n35.4% 이며, C3+ 수율은 26.7%, 26.8%, 25.7% 수준이었다. 마지막 3회차의 촉매 활성은 각각 \r\n1% 낮지만, 다른 반응기에서 공간속도 4500 cc/gcat·h에서 진행한 360시간대의 실험결과와 유\r\n사한 것을 확인하였다. 종합적인 측면에서 촉매의 활성은 안정적으로 잘 유지 되는 것을 판단\r\n하였다. 수소 발생이 부족할 경우,반응 유량을 낮추어 반응을 진행할 경우, 촉매활성에 문제 없\r\n이 진행됨을 확인하였다. \r\n 수소 공급 과잉 상황을 가정하여, 공간속도를 4500 -> 5400 -> 4500 -> 2700 -> 6300 \r\ncc/gcat·h 으로 변화시켰다. 공간속도를 증가시킨 이후 다시 기준 공간속도로 복원시킴으로써 \r\n공간속도 변화시 촉매 활성 유지 여부를 확인하였다. 반응 온도는 300oC, 압력은 25barg, 공간속도 4500 cc/gcat·h, H2/CO2 비율 3인 조건에서 \r\n반응을 시작하였고, 공간속도 4500 cc/gcat·h을 기준으로 하였다. 공간속도를 증가시킨 이후 \r\n다시 기준 공간속도로 복원시키더라도 촉매 활성이 유지 되는 것을 확인하였다. 공간속도가 4500 -> 5400 -> 6300으로 증가함에 CO2 전환율은 37.1%, 35.4%, 33.6% 으로 \r\n감소하고, C3+ 수율도 27.3%, 25.6%, 23.9% 으로 감소함을 확인하였다. 공간속도가 높을수록 촉\r\n매와 반응가스 contact time 감소하며, 탄화수소 chain-growth에 불리함을 보여주었다. 수소 공급 부족/과잉 상황에서는 H2/CO2 비율을 고정시키고, 반응 유량을 감소/증가 시킨 \r\n이후 다시 기준 유량으로 복귀되더라도 촉매 활성에 문제 없이 반응을 진행시키는 것을 확인\r\n하였다. 유동적 전력 공급에 의해 수소 공급 변동적인 상황에 대비하여 3가지 조건(반응 ON/OFF, \r\nH2/CO2 비율 변화, 공간속도 제어)에 대해서 실험을 진행하였다. 모든 조건에서 화학연 개발 \r\n촉매는 안정적인 활성을 유지하였다. H2/CO2 비율 변화에 따라 실험할 경우, 생성물 분포가 달\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 43,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 42 -\r\n라지기 때문에 실제 공정에 적용하는 것은 바람직하지 못하다고 판단하였다. 수소 공급 부족하\r\n거나 과잉인 경우, 공간 속도를 적절하게 제어하고, 수소 공급이 기준 조건에 맞게 공급하게 \r\n되면, 기준 조건으로 반응을 복귀시키는 방법을 활용할 수 있다. 수소 공급이 불가능 상황에서\r\n는 비활성 가스를 공급하고, 단시간내 공급이 가능한 조건에서는 반응기 온도를 반응온도에서 \r\n대기한 이후 수소 공급시 바로 반응을 진행시키며, 공급이 장시간 소요될 경우, 반응기 \r\nshut-down 시키고, 수소 공급 시점에 맞추어 반응을 진행하도록 활용할 수 있다. \r\n 유동적 전력 공급에 의해 수소 공급 변동적인 상황을 고려해야 할 뿐만 아니라, 실제 공정\r\n에서 발생되는 이산화탄소를 포집하여 반응에 활용하여야 한다. 본 연구팀은 화력발전소에 발\r\n생된 이산화탄소를 포집하여 반응에 활용하였다. 반응 온도는 300oC, 압력은 25barg, 공간속도 \r\n4500 cc/gcat·h, H2/CO2 비율 3인 조건에서 반응을 시작하였다. \r\n그림 15 포집 이산화탄소 이용 반응 결과 \r\n 총 360시간 반응을 진행하였으며, 100시간, 200시간, 360시간 시점에서 CO2 전환율은 36.3%, \r\n36.4%, 35.3% 수준이었으며, C3+ 수율은 26.7%, 26.5%, 25.5% 수준이었다. 촉매 비활성화 없이 \r\n반응을 안정적으로 진행하였으며, 이는 포집 이산화탄소 활용을 하더라도 촉매 활성에 문제가 \r\n없음을 확인하였다. 향후 연구에서는 포집 이산화탄소를 활용하여 반응을 진행하고자 계획하고 \r\n있다. \r\n4. PtG+PtL 하이브리드 공정 모사 및 최적화\r\n PtL/PtG 하이브리드 공정도를 나타내었다. 하이브리드 공정의 경우 미반응 가스 및 경질\r\n탄화수소를 리사이클하여 다시 FT반응 전단으로 보내거나 후단의 메탄화공정으로 보내 고열량\r\n의 합성천연가스를 만들게 된다 [29-38]. 이때 압축된 수소가 추가로 들어간다. 공정의 리사이\r\n클비율이 에너지 효율, CO2 저감, 합성액체연료 및 합성천연가스 생산에 미치는 영향을 알아보\r\n기 위하여 총10가지 경우의 PTL/PTG 하이브리드 공정을 구현하여 계산해 보았다. 이에 대한 \r\n공정 조건과 계산 결과를 기본적인 PTL 공정인 경우와 비교하여 표에 나타내었다. 기본적인 \r\nPtL 공정의 경우 미반응 가스와 경질탄화수소는 개질기를 거쳐 합성가스로 전환된 후 다시 FT \r\n반응기의 전단으로 리사이클된다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 44,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 43 -\r\n그림 16 PtL/PtG 하이브리드 공정도\r\n그림 17 기본적인 PtL 공정도\r\n \r\n 리사이클비율에 따른 목적산물인 합성액체연료와 고열량의 합성천연가스의 생산량을 나타\r\n낸다. 리사이클비율이 늘어날수록 합성액체연료의 생산량은 증가하는 반면 합성천연가스의 생\r\n산량은 감소하는 것을 볼 수 있다. 이는 리사이클 비율이 늘어날수록 미반응 가스가 FT 합성\r\n반응기로 더 많이 들어가기 때문이다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 45,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 44 -\r\n0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0\r\n0.12\r\n0.14\r\n0.16\r\n0.18\r\n0.20\r\n0.22\r\n0.24\r\n0.26 Obtained product/Converted CO2\r\nRecycle ratio\r\n Syncrude\r\n High-calorie SNG\r\n그림 18 하이브리드 공정에서 리사이클 비율에 따른 합성액체연료 및 \r\n합성천연가스의 생산량\r\n \r\n 하이브리드 공정에서 리사이클 비율에 따른 에너지효율의 변화를 계산하여 나타낸 것이다. 에너지 효율은 리사이클 비율이 증가함에 따라 감소하는데, 이는 FT 합성 반응의 CO2 전환율\r\n이 메탄화공정의 그것보다 작기 때문이다. 또한 리사이클비율이 증가할수록 압축기에 필요한 \r\n에너지가 더 필요하게 되는 것도 하나의 원인이다.\r\nPTL/PTG-0 PTL/PTG-1 PTL/PTG-2 PTL/PTG-3 PTL/PTG-4 PTL/PTG-5 PTL/PTG-6 PTL/PTG-7 PTL/PTG-8 PTL/PTG-9 Base Case\r\n0.4\r\n0.6\r\n0.8 Energy efficiency\r\n그림 19 하이브리드 공정에서 리사이클비율에 따른 에너지효율\r\n PtL/PtG 하이브리드 공정의 리사이클 비율에 따른 여섯 가지 경우와 기본 PtL 공정에 대하\r\n여 총 자본투자, CO2 저감 비용을 계산하였다. 이때 전체적인 인풋과 아웃풋 유량 조건은 표에 \r\n나타냈다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 46,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 45 -\r\n PtL/PtG 하이브리드 공정 및 기본 PtL 공정에 대한 설비투자비용을 예상하여 아래 표 에 \r\n나타내었다. 표에 보이다시피 하이브리드 공정에 대한 총 설비투자비용은 28.29-33.92 M$로 리\r\n사이클 비율이 늘어날수록 증가함을 알 수 있다. 이는 FT 반응기의 자본투자비용이 리사이클\r\n비율이 0 에서 0.9 까지 증가함에 따라 15.33에서 26.44 M$로 증가하는 데서 주로 기인한다. \r\n 기본 PtL 공정의 설비투자비용은 54.92 M$로 계산되는데 이는 하이브리드 공정의 리사이\r\n클비율이 0 또는 0.9 인 경우와 비교해 26.63 및 21.00 M$ 높은 금액이다. 이는 개질반응기가 \r\n메탄화반응기에 비해 높은 설비투자비용을 요구하기 때문이다. \r\n 상기 주 설비 비용에 근거하여 총 PtL/PtG 하이브리드 공정 및 기본 PtL 공정에 대한 총 \r\n자본투자 비용을 계산하여 그 결과를 표에 나타내었다. 하이브리드 공정에 대한 총 자본투자비\r\n용은 공정의 리사이클비율이 0에서 0.9 까지 증가함에 따라 184.54에서 221.26 M$ 까지 증가하\r\n는 것을 알 수 있다. 기본 PtL 공정의 경우 총자본투자 비용은 358.24 M$로 나타나는데 이는 \r\n하이브리드 공정의 리사이클 비율이 0 과 0.9인 경우와 비교하여 각각 173.7 및 163.98 M$ 높\r\n은 금액이다. \r\n PtL/PtG 하이브리드 공정 및 기본 PtL 공정에 대한 총 자본투자 비용을 총 CO2 저감량에 \r\n근거해 계산한 결과를 나타냈다. PtL/PtG 하이브리드 공정의 총 자본투자비용은 리사이클 비율\r\n이 0에서 0.9로 증가함에 따라 532.9에서 662.93 $/Mt CO2/yr 까지 증가하는 것을 알 수 있다. 그러나 기본 PtL 공정의 경우 1550.28 $/Mt CO2/yr로 계산되는데 이는 리사이클 비율이 0 및 \r\n0.9 인 경우와 비교해 각각 1017.38 및 887.34 $/Mt CO2/yr 높은 금액이다. \r\nPTL/PTG-0 PTL/PTG-1 PTL/PTG-3 PTL/PTG-5 PTL/PTG-7 PTL/PTG-9Base case\r\n0\r\n200\r\n400\r\n600\r\n800\r\n1000\r\n1200\r\n1400\r\n1600 Total capital investment ($/Mt CO2/yr)\r\n Working capital \r\nTotal indrect costs\r\n Total direct costs\r\n그림 20 PtL/PtG 하이브리드 공정과 기본 PtL 공정의 CO2\r\n저감량 기준 총 자본 투자\r\n PtL/PtG 하이브리드 공정과 기본적인 PtL 공정에 대한 제품 생산 단가를 나타냈다. 기본\r\n적인 PtL 공정에 대한 합성원유 생산단가는 204.49 $/bbl 로 계산됐다. 하이브리드 공정의 경우 \r\n리사이클 비율이 0에서 0.9로 증가할 때, 합성원유의 단가는 210.56에서 202.58 $/bbl로 감소하\r\n고, 고열량 합성천연가스의 단가는 29.48에서 28.36 $/MMBTU로 감소하였다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 47,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 46 -\r\nPTL/PTG-0 PTL/PTG-1 PTL/PTG-3 PTL/PTG-5 PTL/PTG-7 PTL/PTG-9 Base Case\r\n0\r\n50\r\n100\r\n150\r\n200\r\n250\r\n300 Net CO2 reduction cost ($/Mt CO2\r\n)\r\n Reference oil prcie \r\n High oil prcie \r\n그림 21 PtL/PtG 하이브리드 공정과 기본 PtL 공정의 총 CO2\r\n저감 비용 (제품수익 반영후)\r\n그림 22 PtL/PtG 하이브리드 공정과 기본 PtL 공정의 \r\n제품 단가\r\n 수소 및 CO2와 같은 원료가격이 CAPEX에 미치는 영향을 민감도 분석을 통해 조사해서 \r\n이를 아래에 보였다. 이에서 자명하게 알 수 있듯이 수소의 가격이 CAPEX에 가장 민감한 요\r\n인으로 작용하고 CO2 가격 및 유틸리티 비용은 그보다는 작게 작용한다. 따라서 수소 가격과 \r\nCAPEX에 대한 연구를 더 깊이 진행하였다. 총 CO2 저감 비용은 수소가격이 감소함에 따라 큰 폭으로 감소하는데 수소 가격이 1000 \r\n$/Mt 이하로 내려갈 경우 두 공정 모두에 대해 CO2 저감비용은 음수까지도 나타나는 것을 볼 \r\n수 있다. 먼 미래에 수소가격이 250 $/Mt 정도로 형성된다면 총 CO2 저감 비용은 기본적인 \r\nPtL 공정 및 리사이클 비율이 0 및 0.9 인 하이브리드 공정에 대해 각각 –241.08, -207.42, \r\n-192.70 $/MtCO2까지 줄어드는 것으로 계산되었다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 48,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 47 -\r\n 상술한 바와 같이 CO2를 기본적인 PtL 공정을 통해 합성원유로 전환하는 것은 PtL/PtG 하\r\n이브리드 공정에 비해 에너지 효율적으로, 또한 CO2 감축효과의 관점에서 비효율적이다. 이는 \r\n기본적인 PtL 공정에서 나오는 메탄과 같은 경질탄화수소의 축적을 방지하기 위해 많은 에너\r\n지가 필요한 개질기를 쓰기 때문이다. 경제적 관점에서도 기본적인 PtL 공정은 PtL/PtG 하이브\r\n리드 공정에 비해 총 자본투자 및 CO2 저감 비용이 높아, 하이브리드 공정이 보다 경쟁력이 \r\n있는 것으로 판단할 수 있다. \r\n그림 23 수소가격에 따른 총 CO2 저감 비용 변화\r\n2절 중온-저온 2단계 CO2 수소화 메탄올 합성반응공정 개발 (2세부)\r\n1. 기상 메탄올 합성 촉매 개발\r\n 기상 CO2 수소화반응을 통한 메탄올 합성에는 CuO-ZnO 계열 불균일계 촉매가 활성이 높\r\n은 것으로 알려져 있다. 기존 산업용으로 개발된 메탄올 합성촉매로는 CuO-ZnO-Al2O3 계열이 \r\n주로 사용되고 있는데 [39-46], 본 연구에서는 여기에 Zirconium oxide (ZrO2)을 첨가하여 촉매\r\n활성은 향상시키는 연구를 진행하고 있다. CuO-ZnO-ZrO2-Al2O3 계열 촉매의 Cu, Zn, Zr, Al \r\n조성을 상용 ICI 촉매 조성(Cu/Zn/Al=6:3:1)에 맞춰 Cu/(Zn, Zr)/Al=6:3:1로 정하고 다양한 Zn/Zr \r\n비율의 촉매를 제조하고 촉매물성을 분석하였으며, 동시에 다양한 CO2/CO 조성의 원료를 이용\r\n하여 메탄올 합성반응을 수행하고 반응과 촉매물성 분석결과를 비교하여 반응에서 Zn과 Zr 성\r\n분의 역할은 규명하였다. \r\n 공침법으로 다양한 조성의 Cu/Zn/Zr/Al 촉매(CZZA)를 제조하고(Cu/Zn/Zr/Al 원소비율: \r\n6/3/0/1, 6/1.5/1.5/1, 6/0/3/1), 제조촉매의 구조를 TEM으로 관찰하여 ZnO는 Cu 위에 존재하고 \r\nZrO2는 ZnO/Cu과 뭉치지 않고 그 주변에 위치함을 확인하였다. 촉매 XRD 분석에서 Zn 함유 \r\n촉매의 ZnO 피크가 나타나지 않는 것으로부터 CZZA 촉매에는 ZnO가 비정질상으로 분산되어 \r\n있음을 확인하였다. CZZA 촉매의 조성변화에 따라 입자크기, 표면적, pore volume, 주 활성종인 Cu의 분포가 \r\n달라지며, 촉매의 수소 TPR 결과가 다르게 나타났다. Zn/Zr 비율이 1에 가까워질수록 촉매 비\r\n표면적이 증가하였고, ZnO를 ZrO2로 대체하는 만큼 Cu 분산도는 낮아져 Cu 분산도를 높이기 \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 49,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 48 -\r\n위해서는 Cu-ZnO 조합이 필요함을 확인하였다 [47-53]. CZZA 촉매의 조성비율 변화는 물성변화 뿐만 아니라 메탄올 합성 반응활성도 변화시켰다. 순수 CO2/H2를 원료로 조성이 다른 CZZA 촉매의 온도별 반응활성 변화를 비교하면 CuZnZrAl \r\n조성에서 Zn, Zr 함량비율이 Zr이 많은 경우보다 Zn이 많은 경우가 촉매활성이 높게 나타나서 \r\nCu-ZnO 조합이 필수적임을 확인할 수 있었다. 촉매활성은 Zn과 Zr이 같이 있을 때 좋고 Zn과 \r\nZr 함유량(원소비율)이 비슷할 때 높게 조사되어 Cu 분산도와 촉매 비표면적이 적절하게 조합\r\n된 촉매가 높은 촉매활성을 갖는 것으로 해석되었다. 순수 CO2/H2 대신 CO를 함유한 원료를 \r\n사용하면, CO 함유량이 많을수록 CZZA 촉매활성은 낮고, 특히 Zr 함유량이 많을 때 촉매활성\r\n이 낮게 나타났다. 이로부터 CO 함유량이 적은 CO2, H2 함유 원료에 대해서는 CZZA 촉매를 \r\n사용하는 것이 유리하고, CO 함유량이 많은 원료에 대해서는 ZrO2를 제외한 CZA 촉매\r\n(Cu/ZnO/Al2O2)를 사용하는 것이 유리함을 확인하였다. \r\n \r\n CZZA 촉매의 물성분석과 반응활성 비교로부터 CO2 수소화 메탄올 합성반응의 활성종은 \r\nCu와 ZrO2이며, ZnO는 활성점인 1가 Cu+를 안정화시키고 수소(H)를 저장하는 역할을 함을 규\r\n명하였다. 촉매의 수소 TPR 분석과 메탄올 합성반응 결과에서 Cu는 수소를 직접 흡착하기도 \r\n하지만 ZrO2는 수소흡착이 약하여 ZnO로부터 Cu로, Cu에서 ZrO2로의 H-spillover가 일어나고 \r\nCu-formate와 Zr-formate가 형성되어 메탄올이 합성되는 반응기구를 제안할 수 있었다.이로부\r\n터 활성종(Cu와 ZrO2)의 active site를 증가시키는 것이 촉매활성 개선에 중요함을 확인하였다. \r\n ZnO 결정의 침전을 유도하기 위해 침전제를 계속 추가하여야 하는데, 침전제 용량을 변\r\n화시키면 침전용액의 pH 값이 변하였으며, NH4OH를 사용한 경우가 침전제 용량 증가에 따른 \r\n침전용액의 pH 변화가 가장 작아 안정적인 조건에서 입자를 만들 수 있었다. 따라서 침전제로 \r\nNH4OH를 사용하는 것이 적절하다고 판단하였다. ZnO를 부분 대체할 ZrO2 제조용 전구체로는 Zr계 촉매와 support 제조에 주로 사용되는 \r\nzirconium(IV) oxychloride octahydrate (ZnOCl2·8H2O)와 zirconium(IV) oxynitrate hydrate \r\n그림 24 CuZnZrAl 촉매 조성에 따른 메탄올 제조활성 비교\r\n- CuZnZrAl 조성: (a) 6/3/0/1, (b) 6/2.5/0.5/1, (c) 6/1.5/1.5/1, (d) 6/0.5/2.5/1, (e) 6/0/3/1\r\n- 반응조건: 원료 CO2/H2=1:3, 압력 40 bar-g, GHSV 240,000\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 50,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 49 -\r\n(ZnO(NO3)2·xH2O)를 비교하고, 침전제로는 CuO와 ZnO 제조에서 선정된 NH4OH를 사용하였다. 침전법으로 제조한 ZrO2 입자의 결정성은 전구체에 따라 그다지 다르지 않았으나, CuO와 ZnO\r\n에 대한 잔류 염소의 영향을 우려하여 CuO와 ZnO 제조의 전구체와 동일하게 nitrate 계열 \r\nZnO(NO3)2·8H2O를 선정하였다. \r\n Cu-Zn-Zr-Al 촉매(CZZA)의 주 활성종인 Cu를 중심으로 그와 혼합되는 성분들(Zn, Zr, Al)이 \r\nCO2 수소화 메탄올 합성반응에 미치는 영향을 조사하였다 [54-60]. 알루미나는 공침법으로 혼\r\n합촉매를 제조하기 전에 미리 EISA(Evaporation Induced Self Assembly) 방법으로 균일한 세공\r\n의 mesoporous Al2O3를 만들고 이에 Cu를 습식함침법으로 담지해 Cu/m-Al2O3 촉매를 제조하였\r\n다. Cu/m-Al 촉매도 메탄올 제조활성이 높았지만 이에 ZnO를 함유시킨 Cu/m-ZnAl 촉매는 \r\nCO2 전환율이 향상되고 메탄올 선택도도 높아졌다. mesoporous Al2O3에 ZnO 대신 ZrO2를 넣은 \r\nCu/m-ZrAl 촉매는 메탄올보다 CO로의 전환율이 증가하고 촉매안정성이 떨어지는 것으로 나타\r\n났다. 이로부터 촉매활성과 내구성 향상을 위해 Cu-ZnO 조합이 중요하며, 공침법에서 Cu, \r\nZnO, ZrO2와 동시에 제조하는 Al2O3 성분보다는 별도로 제조한 mesoporous Al2O3를 혼합성분 \r\n촉매를 제조하는 공침법에 사용하는 것이 효과적임을 확인하였다. \r\n그림 25 Cu/Al, Cu/Zn/Al, Cu/Zn/Zr 촉매의 메탄올 합성 활성\r\n- 반응조건: 순수 CO2 사용, CO2:H2=1:3, 250oC, 50 bar 활성종의 비표면적을 증가시키기 위해 mesoporous Al2O3와 같이 ZrO2를 타 성분(Cu, ZnO)\r\n과 동시에 공침법으로 제조하기보다 별도로 hydrous ZrO2 (dried and sieved powder)를 만들고, 이를 공침법 단계에서 용액에 섞어 CuZnZr 촉매(CZZ)를 제조하는 방법과 효과를 조사하였다. ZrO2 제조하는 단계에서 침전용액(@ 100oC)의 reflux 시간을 변화시켜 제조한 hydrous ZrO2를 \r\n혼합하여 공침법으로 제조한 CZZ 촉매는 hydrous ZrO2 제조의 reflux 시간이 길어짐에 따라 \r\n표면적이 감소하고 pore size가 증가하는 경향을 보였다. 촉매입자의 결정성에서는 큰 차이가 \r\n나타나지는 않았지만 내부 mesopore 형성에 차이가 보였다. 침전용액의 reflux 시간을 달리하\r\n여 제조한 hydrous ZrO2로 합성한 CZZ 촉매의 CO2 수소화 반응활성을 비교하면 동일한 조성\r\n(Cu:Zn:Zr=6:2:2)으로 구성되어 있음에도 촉매활성에 큰 차이를 보였다. Hydrous ZrO2 제조 \r\naging time은 12시간 정도로 짧은 것이 유리함을 확인하였다. \r\n 제조한 CuZnZrAl 촉매(CZZA) 중 활성이 우수한 CZZA(6:1.5:1.5:1) 촉매에서 CO2를 수소화 \r\n반응시킬 때 메탄올을 높은 수율로 얻을 수 있는 원료공급속도를 조사하였다. 원료공급속도가 \r\n낮으면, 즉 원료 CO2와 촉매 간의 접촉시간(Wcat/F)이 길어지면 CO2 전환율을 증가하지만 메\r\n탄올 생산속도는 오히려 줄어드는 경향으로 나타났다. 원료와 촉매 간 접촉시간이 길어지면 반\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 51,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 50 -\r\n응열 축적으로 촉매층 온도가 상승하게 되어 CO 생성이 촉진되고 메탄올 생성량은 감소하는 \r\n것으로 추정되었다. 원료 공급속도를 높여 촉매와의 접촉시간을 줄이면 메탄올 선택도와 단위\r\n촉매 당 메탄올 생산량은 증가하지만 미반응원료(CO2, CO, H2)의분리와 recycle gas 양을 늘려\r\n야 하므로 공정에 부담이 커진다. 따라서 메탄올 생산속도를 높이기 위해 이 후 실험에서는 \r\nGHSV 값을 10,000 L/gcat.h로 설정하였다.\r\n그림 26 CuZnZrAl 촉매에서 접촉시간에 따른 CO2 전환율과 MeOH 생성속도 –\r\n반응조건: 원료 100% CO2, CO2/H2=1:3, 반응온도 200oC, 압력 40 bar CZZA, CZZ 촉매에 Ce, Pd, Ga, In 등 제3의 원소를 조촉매로 첨가하여 촉매활성 개선을 도\r\n모하였다. CZZA보다 단순한 2종 또는 3종 원소로 구성된 Cu계 촉매를 활용하여 제3 원소의 \r\n첨가 영향을 조사하였다. \r\n Cu/ZnO, Cu/ZnO/ZrO2 촉매에 Ce (cerium)을 첨가하여 공침법으로 제조한 혼합성분 촉매를 \r\n제조하고 물성을 조사하였다. CeO2로 ZrO2를 치환할수록 입경은 커지고 표면적은 감소하였으\r\n며, 소성온도가 높을 경우에 표면적 감소는 더 두드러졌다. 동일한 반응조건에서 CZZ 촉매와 \r\n활성을 비교하면, Ce이 첨가된 Cu/ZnO/CeO2나 Cu/ZnO/ZrO2/CeO2 촉매 모두 Cu/ZnO/ZrO2 촉매\r\n에 비해 CO2 전환율이 감소하고 CO 선택성이 높아져 결국 메탄올 선택성과 수율은 낮아졌다. Cu/ZnO/ZrO2 촉매조성에 CeO2으로 ZrO2를 일부 또는 전부 대체한 Cu/ZnO/ZrO2/CeO2 촉매의 \r\n경우에도, CeO2 조성이 증가할수록 CO 선택도가 증가하여 메탄올 수율은 낮아졌다. 따라서 \r\nCZZ 계열 촉매에 Ce 첨가는 촉매활성 개선에 도움 되지 않음을 확인하였다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 52,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 51 -\r\n(a) Cu/ZnO/CeO2, Cu/ZnO/ZrO2/CeO2 vs. Cu/ZnO/ZrO2\r\n그림 27 CuZnZr 촉매에 Ce을 첨가한 효과\r\n(1) 촉매소성: T=300°C for 6 h with 5%H2/N2\r\n(2) 반응조건: 10h @ P=5 MPa, SV=5000 L/kgcat·h, feed CO2=24%, H2=72%, N2 balance,\r\ncatalyst 0.4 g\r\n 활성이 낮은 Cu/m-Al2O3 촉매에 소량(0~1 wt%)의 Pd를 첨가하여 hydrogen spillover 현상 \r\n증대와 CO2 해리흡착 증진에 영향을 주어 촉매활성 개선효과가 있는지를 조사하였다. Pd가 소\r\n량 첨가된 경우는 촉매물성이 그다지 변하지 않았다. Pd 첨가가 촉매의 저온활성을 크게 향상\r\n시키지 않았으나 고온활성은 뚜렷하게 향상되었다. 그러나 Pd 첨가량이 많아지면 CO 생성이 \r\n촉진되어 메탄올 선택성과 수율이 낮아지므로 Pd을 적당량 첨가하는 것이 중요함을 확인하였\r\n다. \r\n Pd를 소량 첨가한 경우를 제외하고 Ce oxide로 ZrO2를 대체한 경우, Ga oxide로 ZnO를 대\r\n체한 경우, In oxide로 ZnO를 대체한 경우들은 원래의 촉매조합에 비해 메탄올 전환 활성은 나\r\n빠지고 CO 생성이 늘어나서 그를 첨가하는 것이 오히려 역효과인 것으로 판단되었다. 또한Ga \r\n대체 경우는 DME 생성이 증가하는 특징을 보였다. 소량의 Pd 첨가는 촉매활성을 향상시켰으\r\n나 고온에서는 CO 생성도 두드러지게 증가하여 저온에서 촉매활성을 발현시키는 방안에 대한 \r\n연구가 필요하다. \r\n 현재까지 실험한 촉매 중에서 공침법으로 제조한 CZZA 촉매와 공침법으로 제조한 Cu-ZnO \r\n입자에 mesoporous ZrO2를 물리적으로 혼합하여 제조한 CZZ 촉매가 가장 메탄올 수율이 높은 \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 53,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 52 -\r\n촉매로 조사되었다. \r\n one-pot 공침법으로 제조한 CZZA 촉매(Cu:Zn:Zr:Al=6:1.5:1.5:1)는 제조방법이 단순하여 재현\r\n성 있게 제조할 수 있었다. 220oC에서는 반응활성이 낮으나 240oC에서는 반응활성이 급격히 \r\n상승하고 240~250oC에서 가장 높은 활성을 보였다. 반응온도를 더 높여도 메탄올 수율은 증가\r\n하지 않고 CO 수율이 증가하여 적절한 반응온도 범위를 240~250oC로 판단하였다. 250oC, 60 \r\nbar, GHSV 10,000, 원료비 CO2/H2=1:3의 반응조건에서 평균 메탄올 생산속도 560g \r\nMeOH/kgcat.h, 수율 15.7%를 달성하여 메탄올 생산속도 목표(>500g MeOH/kgcat.h)는 달성하였\r\n으나 수율 목표(>17%)에는 도달하지 못하였다. 반응시간이 경과함에 따라 촉매활성은 서서히 \r\n감소하였으며, 촉매사용 초기에는 3%/h 속도로 활성이 감소하다가 안정화되는 시점에서는 활\r\n성감소속도가 0.74%/h로 느려졌다. \r\n그림 28 CZZA 촉매의 최고 메탄올 생산속도\r\n– 반응조건: P=6 MPa, SV=10,000 L/kgcat·h,\r\nfeed CO2:H2=1:3, catalyst 0.4 g\r\n 공침법으로 Cu-ZnO 입자를 제조한 후 별도로 제조한 mesoporous ZrO2를 물리적으로 혼합\r\n(physical mixing)하여 CZZ 촉매를 제조하였다. Physical mixing 법은 공침법으로 제조한 촉매보\r\n다 뛰어난 선택성을 갖는 촉매를 제조한 예가 소개되어 있고 이미 보편적으로 사용되는 방법\r\n이어서 그 아이디어를 채용하였다.(Adv. Mater. 2019, 31, 1803390) ZrO2 제조조건에 따라 \r\namorphous (비결정형), tetragonal, monoclinic 결정성을 갖는 ZrO2 분말을 제조할 수 있다. 이\r\n를 Cu-ZnO 분말과 physical mixing 하여 제조한 CZZ 촉매는 물리적 특성에서도 차이를 보였\r\n다. 180~240oC 반응온도에서 각 촉매의 메탄올 전환수율을 비교하면 mesoporous ZrO2 가 함유\r\n된 CZZ 촉매가 Cu-ZnO 촉매보다 우수한 활성을 보였으며, 특히 monoclinic 구조 ZrO2를 20 \r\nwt% 혼합한 CZZ의 촉매활성이 우수하게 나타났다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 54,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 53 -\r\n그림 29 Physical mixing으로 제조한 CZZ (20 wt% Zr)의 메탄올 제조 성능\r\n(1) 촉매소성: T=300°C for 6 h with 5%H2/N2\r\n(2) 반응조건: 10h @ P=5 MPa, SV=5000 L/kgcat·h, catalyst 0.4 g\r\nfeed CO2=24%, H2=72%, N2 balance\r\n monoclinic ZrO2 함량을 줄인 CZZ 촉매(Zr(5 wt%)/Cu-ZnO (Cu/Zn/Zr=6.65/2.85/0.5)를 이용하\r\n여 250oC, 50 bar, GHSV 10,000에서 반응시켜 메탄올 최대수율 503g MeOH/kgcat·h (메탄올 \r\n전환수율 14.5%)을 달성하였다. physical mixing으로 제조한 CZZ 촉매활성은 공침법으로 제조한 \r\nCZZA 촉매(6:1.5:1.5:1)와 비교하였을 때 비슷한 촉매활성을 보여 향후 CZZA 촉매를 physical \r\nmixing 법으로 제조하여 활성을 개선할 여지를 보여주었다.\r\nCatalyst Temp\r\n(\r\noC)\r\nCO2\r\nConv.\r\n(%)\r\nSelectivity (%) MeOH/CO\r\nformation\r\nratio\r\nMeOH productivity\r\nHC MeOH (g MeOH/kgcat·h) CO DME\r\nZr(5wt%)/CuZn\r\n(CuO/ZnO=7/3)\r\n180 8.7 0.0 83.0 16.9 0.1 4.91 246.8\r\n200 12.4 0.0 71.5 28.4 0.1 2.39 305.1\r\n220 17.6 0.0 63.6 36.3 0.1 1.75 385.5\r\n250 23.3 0.1 62.6 37.0 0.2 1.69 503.1\r\n그림 30 온도에 따른 physical mixing CZZ (5 wt% Zr)의 메탄올 생산속도\r\n– (1) 촉매소성: T=300°C for 6 h with 5%H2/N2\r\n(2) 반응조건: 10h @ P=5 MPa, SV=10000 L/kgcat·h, catalyst 0.4 g\r\nfeed CO2=24%, H2=72%, N2 balance 현재까지 제조된 촉매 중 활성이 우수한 physical mixing CZZ 촉매(ZrO2 20 wt%)를 이용하\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 55,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 54 -\r\n여 일정한 온도, 압력, 원료공급속도에서 촉매 내구성(stability)을 조사하였다. 짧은 기간 내 촉\r\n매비활성화 속도를 측정하기 위해 원료공급속도를 높여 가속실험을 하였다. 측정시간 내에서 \r\n촉매감소속도는 약 0.01%/h로, 동일한 비활성화 속도를 유지한다면 활성감소는 1%/100h로, 목\r\n표값 10%/100h 내의 비활성화를 보일 것으로 예측하고 있다.\r\nCO2\r\nConv\r\n(%)\r\nSelectivity (%) MeOH productivity\r\nHC MeOH CO DME (g MeOH/kgcat·h)\r\n11.4 0.0 58.8 41.2 0.0 461.3\r\n11.0 0.0 60.9 39.1 0.0 460.1\r\n11.4 0.0 63.1 36.9 0.0 496.2\r\n11.3 0.0 64.4 35.6 0.0 499.7\r\n11.0 0.0 64.1 35.9 0.0 485.0\r\n10.8 0.0 63.8 36.2 0.0 472.6\r\n10.6 0.0 63.1 36.9 0.0 460.5\r\n표 2 physical mixing CZZ 촉매의 stability test\r\n(1) 촉매소성: T=300°C for 6 h with 5%H2/N2\r\n(2) 반응조건: 10h @ P=5 MPa, SV=20000 L/kgcat·h, catalyst 0.2 g\r\nfeed CO2=24%, H2=72%, N2 balance\r\n \r\n 기상 반응에서 CO2를 원료로 수소화하여 메탄올을 합성하는 촉매로는 Cu-ZnO 계열의 \r\nCu-ZnO-ZrO2 (CZZ), Cu-ZnO-Al2O3 (CZA), Cu-ZnO-ZrO2-Al2O3 (CZZA) 촉매가 유효한 것으로 \r\n알려져 있고, 실험에서도 우수한 활성을 보였다. 공침법으로 제조한 CZZA 촉매는 원료 CO2에 \r\nCO가 50% 이내로 함유되면 Cu/Zn/Zr/Al=6:1.5:1.5:1 조합에서 가장 활성이 높았고, 원료 중 CO \r\n함유량이 높아지면 CZA 촉매를 사용하는 것이 유리한 것으로 나타났다. 따라서 다단반응기에\r\n서는 CO 농도가 낮은 원료가 공급되는 전단 반응기에 CZZA 촉매를, CO 농도가 높아지는 후\r\n단 반응기에는 CZA 촉매를 사용하는 방안을 세웠다. \r\n 공침법으로 촉매를 제조한 경우, 전반적으로 CZZ 촉매보다 CZZA 촉매의 메탄올 제조 활\r\n성이 높고 촉매 stability가 높은 것으로 조사되었다. \r\n mesoporous ZrO2 (monoclinic)을 제조하고 공침법으로 제조된 Cu-ZnO 촉매와 physical \r\nmixing 법으로 혼합하여 제조한 CZZ 촉매는 공침법으로 제조한 CZZA 촉매와 유사하게 높은 \r\n활성을 보였으며, stability도 높게 평가되었다. 향후 CZZA 촉매 제조에 physical mixing 법을 도\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 56,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 55 -\r\n입할 방안을 세웠다. \r\n Cu계 촉매에 조촉매 성분을 도입하는 효과에 대해 조사하였다 [61=65]. Ce을 첨가한 경우 \r\nCe 첨가량이 증가할수록 메탄올 수율은 낮아지고 CO 수율이 증가하는 경향을 보였다. Pd를 \r\n첨가한 경우 Pd 첨가량이 매우 적을 경우에 메탄올 선택성이 증가하였으며, Pd 함량이 많아지\r\n면 오히려 CO 생성이 활성화되었다 [66-70]. ZnO 일부를 Ga oxide로 대체하면 메탄올 수율은 \r\n감소하고 CO와 DME 수율이 증가하였다. ZnO 일부를 In oxide로 대체하면 촉매활성화 온도가 \r\n높아져 보편적이 CZZ, CZA, CZZA 촉매보다 높은 온도에서 반응활성이 나타났다. 조촉매 성분\r\n의 첨가는 소량의 Pd 첨가 외에는 긍정적인 효과를 보이지 않았다. \r\n 현재까지 최고활성은 CZZA (6:1.5:1.5:1) 촉매의 메탄올 생산속도 560g MeOH/kgcat·h (메탄\r\n올 전환수율 15.7% @ 250oC, 60 bar, GHSV 10,000)이고, 또 physical mixing CZZ (5% ZrO2) 촉\r\n매의 503g MeOH/kgcat·h (메탄올 전환수율 14.5% @ 250oC, 50 bar, GHSV 10,000)이었다. CZZA (6:1.5:1.5:1) 촉매의 50 bar에서의 활성이 490g MeOH/kgcat·h (메탄올 전환수율 13.7% \r\n@ 250oC, GHSV 10,000)인 것을 비교하면 60 bar에서 physical mixing CZZ 촉매의 활성이 더 \r\n높게 나올 수 있음을 예측하였다. \r\n mesoporous ZrO2를 제조하여 physical mixing 한 CZZ 촉매는 안정성에서도 우수하여 활성\r\n감소속도가 1%/100h 정도로 낮게 나타났다. 따라서 차후 활성이 우수한 CZZA 촉매도 \r\nphysical mixing 법으로 제조하는 방안을 세웠다. 차후 촉매 개선 방향에는 Cu-ZnO 구조를 유\r\n지하면서 촉매제조법 변경, 귀금속(Pt 등) 첨가효과 조사, 비활성화 개선방법으로 SiO2 첨가 등\r\n을 시도할 계획이다. \r\n \r\nCu 계열 촉매 CuO-ZnO-ZrO2, CuO-ZnO-Al2O3, CuO-ZnO-ZrO2-Al2O3\r\n활성, 선택성 개선 Pd, Pt, Ga, Mn, Ce, Th 첨가\r\n비활성화 억제 SiO2 첨가\r\n비표면적 개선 mesoporous Al2O3, mesoporous ZrO2, light/heavy MgO 첨가\r\n2. 액상 균질계 촉매를 이용한 메탄올 합성 \r\n 액상 메탄올 합성반응은 1) 아민기를 갖는 용매 내에 CO2 흡수(absorption), 2) 수소가 CO2\r\n를 흡수한 용매와 촉매활성종에서 접촉하여 물과 -CH=O 생성, 3) 추가 수소가 –CH=O와 반응\r\n하여 메탄올 합성의 순서로 진행된다 [71-74]. 따라서 수소를 용매 아민기에 부착된 –CO=O, \r\n-CH=O에 공급할 수 있는 촉매활성종을 찾는 것이 중요하다 [75]. 또한 CO2를 흡수하는 용매 \r\n종류에 따라 액상반응속도가 달라지므로 촉매-용매의 적절한 쌍을 찾는 것도 중요하다. \r\n 균질계 촉매인 Ru@macho 구조 촉매가 CO2 수소화 메탄올 합성반응에 대해 활성이 우수한 \r\n것으로 발표되었다.(J. Am. Chem. Soc., 138 (2016) 778-781) [76-80] 이를 액상반응의 기준으로 \r\n삼기 위해 실험실에서 Ru@macho 촉매를 제조하고 반응활성을 조사하였다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 57,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 56 -\r\ncarbonylhydrido(tetrahydroborato)[bis(2-diphenylphosphinoethyl)amine]ruthenium(II)\r\n그림 31 균질계 Ru@macho 촉매\r\n 일정량의 Ru@macho 촉매를 충진하고 CO2 흡수용매의 종류를 변화시켰을 때 메탄올 생성\r\n량 변화를 조사하였다. 예상한 바와 같이 CO2 흡수용매 종류에 따라 반응활성은 다르게 나타\r\n났고, 메탄올 합성용 용매로는 PEHA/THF 계가 적절함을 확인하였다. 용매를 PEHA/THF로 고\r\n정시키고 Ru@macho 촉매 충진량을 변화시키며 메탄올 생성량 변화를 관찰하여 적절한 \r\nRu@macho 충진량을 조사하였다. 실험범위에서는 Ru@macho 충진량이 많을수록 메탄올 생성\r\n량이 비례하여 증가하였다. \r\n 표 3 Ru@macho 촉매를 이용한 액상 메탄올 합성 반응 \r\n (a) CO2 흡수용매 영향\r\nEntry Catalyst Amine Production (TON)\r\nformic acid MeOH\r\n1 Ru@macho PEHA 127 1728\r\n2 Ru@macho DET 22 599\r\n3 Ru@macho TET 23 904\r\n4 Ru@macho Pr2NH 6 5\r\n5 Ru@macho (NH4)2CO3 127 32 (b) Ru@macho 충진량 영향\r\nEntry\r\nCatalyst\r\n(μmol\r\nRu@macho)\r\nAmine\r\n(mmol PEHA)\r\nProduction (TON)\r\nformic acid MeOH\r\n11 20 3.4 1 450\r\n12 40 6.8 2 1700\r\n13 60 10.2 3 2500\r\n13b 60 (recycled) 10.2 (recycled) 2 1500 * Reaction condition: CO2/H2 = 1:3, T= 95~155oC, P= 75 bar, Solvent (THF)= 10mL\r\n * TON = moles of MeOH / moles of Ru\r\n \r\n 생성된 메탄올은 증류로 반응용매와 분리하였는데, 이 때 사용한 용매 THF \r\n(tetrahydrofuran, bp 66oC)의 비점이 메탄올(bp 64.7oC)과 차이가 작아 증류 시 주 용매가 같이 \r\n제거되면서 아민에 용해된 촉매가 많이 손실되었다. 동일한 촉매를 2회 반복 사용하여 total \r\nTON >4,000을 달성할 수 있었지만, 촉매 분리회수 과정에서 촉매 loss가 발생하여 회분식 반응\r\n의 TON이 감소함을 확인하였다. \r\n 메탄올 합성 활성이 있는 Ru@macho를 전구체로 사용하여 직접 고분자화 하여 촉매회수가 \r\n가능한 비균질촉매를 제조하는 방법을 고안하였다 [81-84]. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 58,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 57 -\r\n AlCl3, CH2Cl2 촉매계를 사용하여 Ru@macho 고분자화를 시도하였다. Ru@macho 구조의 \r\n벤젠 ring에 –CH2- bridge가 생기고 이를 통해 Ru@macho 분자 간에 결합이 진행되어 고분자\r\n화에 성공하였다. 연노란색의 Ru@macho 고분자 powder를 얻을 수 있었고, IR spectrum 분석\r\n을 통해 고분자 구조가 Ru@macho 구조를 유지함을 확인하였다. 원소의 분포 분석을 통해 Ru, \r\nCl, N, P, C가 균일하게 분포됨을 확인하였고 이를 통해 polymeric Ru@macho 구조가 잘 형성\r\n되었음을 확인하였다.\r\n그림 32 AlCl3, CH3I 촉매를 사용한 Ru@macho 결정화\r\n 표 4 비균질계 Ru@macho 고분자 촉매를 이용한 액상 메탄올 합성 반응\r\nentry Temp. (°C)\r\ntotal pressureb\r\n(bar)\r\ntime (h) MeOHc\r\n(mmol)\r\nturnover numberd\r\n(TON)\r\nCatalyst amount MeOH production\r\n(g MeOH/L*h)\r\n1 155 40 12 0.297 30.6 20 mg 0.0198\r\n2 155 80 12 2.06 212 20 mg 0.137\r\n3 155 60 24 4.13 426 20 mg 0.275\r\n4 155 80 24 4.28 441 20 mg 0.286\r\n5 155 80 48 5.89 607 20 mg 0.197\r\n6 155 80 72 7.36 759 20 mg 0.164\r\n7 155 80 24 24.46 504 100 mg 1.63\r\na Reaction condition: catalyst, PEHA (10.2 mmol), THF (20 mL), K3PO4 (2 mmol).\r\nb Total pressure at room temperature (CO2:H2 = 1:3).\r\nc Yield based on 1H-NMR with 1,3,5-trimethoxybenzene as internal standard\r\nd TON = moles of MeOH / moles of Ru\r\n 연노란색 Ru@macho 고분자 촉매를 액상 CO2 수소화반응용 비균질 촉매로 사용하였다. 고\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 59,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 58 -\r\n분자화 Ru 촉매의 충진량을 늘리면 반응시간을 단축할 수 있음을 확인하였다.최대 1.63g \r\nMeOH/Lrxt.h (@ 155oC) 제조속도를 달성하였다. \r\n 액상 수소화반응 활성종인 Ru을 함유할 비균질 구조체로 bpim-CTFs (Covalent Triazine \r\nFrameworks)를 제조하였다.\r\n그림 33 Ru 함유 bpim-CTFs 촉매 개발 전략\r\n 일차로 bpim 전구체를 합성한 후 메탄올에 녹여 재결정하여 갈색 바늘 모양의 결정을 획득\r\n한 후 1H-NMR, 13C-NMR 분석을 통해 bpim 구조가 합성되었음을 확인하였다. bpim과 Ru \r\nchloride를 메탄올에 넣고 CO 분위기에서 교반하여 bpim에 Ru을 고정화시켰다. 충분히 반응시\r\n켜 검은색 입자를 회수하여 Ru-bpim-CTF 촉매를 얻었다. \r\n(a) bpim 합성\r\n(b) Ru 고정화\r\n(C) Ru-bpim-CTF\r\n촉매 제조\r\n그림 34 비균질계 Ru-bpim-CTFs 촉매 합성\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 60,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 59 -\r\n 인(P)을 함유하는 다양한 구조의 담체를 합성하여 표면적이 큰 다공성 담체(PP-EOF)를 \r\n발굴하고, 이에 Ru을 담지하여 비균질계 담체 담지형 Ru 촉매를 개발하였다. 각각의 표면적, pore volume, pore size를 측정하고, 이들 중 표면적이 큰 Scheme 5의 SUD921 담체에 Ru을 결\r\n합하여 비균질계 촉매를 제조하였다. \r\n 다공성 PP-고분자 담체에 Ru을 결합한 비균질계 촉매(Cat.3)를 이용하여 CO2 수소화 반응\r\n을 수행하였다. CO2 shuttle로 dimethylamine (DMA)을 사용하였다. 반응특성에 의해 DMA, CO2, 수소가 반응하여 메탄올과 고부가가치의 dimethylformamide (DMF)가 생성되며, DMF는 다시 \r\n수소화반응 시키면 추가로 메탄올이 생성되고 DMA로 재생되었다 [85-91]. 이 반응촉매는 \r\nRu@macho의 직접 고분자화로 제조한 비균질계 Ru 촉매에 비해 높은 반응활성과 안정성을 보\r\n였으며, 메탄올 생산률 2.9 g/Lrxt·h을 달성하였다. \r\n표 5 다공성 담체에 담지한 Ru-PP 촉매의 반응활성\r\n촉매 CO2 shuttle Products (mmol) Total\r\nH-products\r\nMeOH\r\nproductivity\r\nRu-PP\r\n(Ru 1 wt%)\r\nDMA\r\n(2% in THF)\r\nMeOH DMF TON (g/Lrxt·h)\r\n43.8 21.9 33,180 2.9\r\n* T= 140°C, P= 8 MPa (CO2/H2=1), time= 24h\r\n \r\n 저온 액상 CO2 수소화 반응용 촉매로 균질계 Ru 촉매와 비균질계 Ru 촉매를 개발하였다. 균질계 촉매로 Ru@macho를 합성하고 2회 사용에 누적 TON 4000을 달성하였으나, 촉매 회수\r\n와 재사용에서 촉매손실이 커 재사용 횟수가 증가함에 따라 촉매활성은 감소하는 경향을 보였\r\n다. 균질계 Ru@macho 촉매는 촉매회수에 어려움이 있고 고가여서 상업용으로 사용하기에는 \r\n적합하지 않다고 판단하였다. \r\n Ru@macho를 직접 고분자화 하여 Ru@macho 고분자 촉매(pore size 1.77nm) 합성에 성공\r\n하였다. 반응조건에 따라 메탄올 생산량 1.63g/Lrxt·h MeOH (@ 155oC)을 달성하였으나, 촉매 \r\n반복 사용에서 반응활성이 급격히 감소하였다. Ru@macho 고분자 촉매의 반복사용 시 반응활성 감소가 작은 pore size에 기인하는 것으\r\n로 판단하여 pore size를 키운 Ru@macho 고분자 촉매 합성법을 개발하였고, pore size가 큰 \r\nRu@macho 고분자 촉매(pore size 6.05nm)를 합성하였다. Pore size가 커졌음에도 메탄올 합성 \r\n반응활성은 0.25g/Lrxt·h MeOH (@ 155oC)로 오히려 낮았다. 비균질계 담체로 bpim-CTF 구조의 고분자 합성법을 개발하고, 여기에 Ru을 결합하여 \r\nbpim-CTF-RuCl3 촉매를 제조하였다. 액상 CO2 수소화 반응에서 formic acid가 주로 생성되었\r\n고 메탄올 선택도는 극히 나빴다. \r\n P, P를 함유하는 다공성 담체(PP-EOF)를 다양하게 합성하고, 그 중 비표면적이 큰 담체에 \r\nRu을 결합시켜 담체 담지형 촉매를 제조하였다. CO2 shuttle로 dimethylamine (DMA)을 사용하\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 61,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 60 -\r\n여 2.9g/Lrxt·h MeOH (@ 140oC) 메탄올 생산량을 달성하였다. \r\n 현재까지 개발한 액상반응 촉매들의 활성은 1단계 목표인 메탄올 생산량 >5g MeOH/ \r\nLrxt·h (@ Trxn <160°C, P <60 bar)에 미치지 못하였다. \r\n 액상반응은 반응시간이 길고, 메탄올 생산속도가 낮고, 기상 촉매반응과 메탄올 생산규모\r\n를 맞추려면 반응기가 기상 촉매반응기보다 100배 이상 커야 하는 문제점이 드러났다. 따라서 \r\n중온 기상반응과 저온 액상반응을 연결하는 공정은 장점이 없다고 판단하여 액상 촉매반응 연\r\n구를 종료하기로 하였다. \r\n 연구에서 개발한 bpim-CTF 담체는 메탄올 합성반응 대신 dehydrogenation 반응용 촉매의 \r\n담체로 활용되어 우수한 성능을 보였다.(Spin-off 성과: Sustainable Energy & Fuels, 3(4), \r\n(2019) 1042-1047) \r\n3. 중온-저온 다단 촉매 반응 공정 해석 및 최적화\r\n CO2를 원료로 사용하는 중온-저온 다단 반응시스템을 갖는 메탄올 제조 공정은 복잡한 장\r\n치 배치로 경제성을 가지고 타 메탄올 제조 공정과 경쟁할 수 있는지 의문이었다. 이를 검토하\r\n기 위해 구상할 수 있는 메탄올 제조공정을 설정하고, 기계학습법을 이용하여 super structure\r\n최적화를 실행하였다 [92]. 대상 공정을 기상반응으로 구성된 다단반응시스템, 반응물 정제, 생\r\n성물 분리 및 재순환 공정으로 구성된 초구조(super structure) 네트워크를 만들고, 수리최적화\r\n를 이용하여 해당공정의 최적 구조와 최적 운전조건에 대한 해를 동시에 찾는 방법으로 진행\r\n하였다. 초구조 네트워크에는 반응원료, 공정 option, 반응기 option, recycle system, 생성 메탄\r\n올 분리 등이 변수로 포함된다 [93-96]. 반응시스템은 온도와 촉매량을 달리하는 다단반응시스\r\n템으로 구성하였다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 62,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 61 -\r\n그림 35 초구조 기반의 CO2 직접 수소화 메탄올 생산 공정\r\n 예시한 CO2 직접 수소화 메탄올 생산 공정의 초구조 네트워크에 포함된 공정은 다음과 같\r\n다\r\n - 반응물 정제공정: 원료 CO2와 수소에 포함되어 있는 수분을 제거하기 위한 공정으로, 반응\r\n물의 수분을 제거할 경우 촉매활성을 증가시킬 뿐만 아니라 반응기 내부의 반응물 농도를 높\r\n여 메탄올 생산 수율을 증진시킬 수 있다 [97]. \r\n - 다단 반응시스템: 원료가 반응기를 통과함에 따라 반응물, 중간생성물, 메탄올의 농도가 구\r\n간별로 변하게 되는데, 이때 각 단에서 최적의 온도분포와 공간속도를 가질 수 있도록 다단 반\r\n응기로 구성하였다. 이를 통해 반응물의 전환율이 상승하고 미반응물의 재순환 유량을 감소시\r\n켜 메탄올 생산비용을 감소시킬 수 있다. \r\n - 생성물 분리 및 재순환 시스템: 반응기 각 단의 중간에서 생성물을 회수할 수 있는 중간 \r\n회수 시스템, 생성물의 포집 및 반응물과 분리시켜 미반응물을 재순환시키는 기액 분리기, 생\r\n성된 메탄올을 높은 순도로 분리해 주는 증류장치로 구성되며, 경제성 최적화를 통해 적용여부\r\n를 결정하였다 [98,99]. \r\n 초구조를 이용한 공정설계의 경우 최적설계 및 운전조건을 동시에 최적화 할 수 있다는 장\r\n점에도 불구하고 모델의 복잡성과 오랜 계산시간, 문제 구성의 어려움 등의 이유로 공정설계에 \r\n직접 적용하기 어려웠지만, 여기에서는 기계학습법 기반의 새로운 최적화 알고리즘을 개발하여 \r\n초구조를 해석해서 최적공정을 제시하였다 [100]. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 63,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 62 -\r\n그림 36 기계학습 기반의 초구조 최적화 알고리즘 예\r\n \r\n 이 알고리즘은 최적화를 진행하는 동안 주어진 데이터를 이용하여 불확실도를 정량화 하\r\n고 확률적으로 최적해가 존재 할 수 있는 탐색영역을 최소화 하여 계산시간을 줄였을 뿐만 아\r\n니라, 상대적으로 계산이 쉬운 대안모델을 제시하여 최적화 모델의 복잡도를 감소시켰다. 이를 \r\n통하여 최적의 메탄올 생산공정 설계를 도출하였다. 최적 메탄올 생산공정은 3단의 반응 시스\r\n템으로 구성되며 1단 반응기로부터 순차적으로 온도가 낮아지는 구조이다. 1단 반응기에서는 \r\n반응열에 의해 온도가 높으며 이로 인하여 메탄올과 함께 CO가 다량 생산되며, 생성된 CO는 \r\n후단 저온 반응기에서 메탄올로 전환된다. 반응기 각 단 사이에 있는 메탄올 회수시스템은 반\r\n응물을 중간에 회수하여 2단, 3단 반응기에서 전환율을 획기적으로 개선시켜 전체 미반응 원료\r\n물질의 재순환량을 저감시켜고 운전비용을 감소시킨다. 생성된 메탄올은 C01 기액 분리기에서 \r\n원료물질과 물/메탄올로 일차 분리된 뒤 증류탑을 통하여 고순도 메탄올로 회수되게 하였다. \r\n그림 37 초구조 최적화를 통해 도출된 최적의 CO2 직접 수소화 메탄올 생산 공정\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 64,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 63 -\r\n 초구조 최적화에서 다단 반응기의 단수별 최적 메탄올 온도 구배 및 촉매 Loading 량을 \r\n나타내었다. 3단 반응기의 경우 뒤 단으로 갈수가 많은 양의 촉매가 필요하며 이는 주입되는 \r\n원료물질의 농도가 줄어들기 때문이다. 따라서 높은 전환율을 유지하기 위해 후단 반응기에서\r\n의 공간속도가 낮아야 한다. 이에서 정리한 것과 같이 최적화된 결과는 3단 반응기를 사용하였\r\n을 때 장치비와 운전비가 최소로 되어 가장 낮은 메탄올 생산가(약 $435/ton MeOH)가 계산되\r\n었다. \r\n그림 38 CO2 직접 수소화 메탄올 생산 공정에 대한 초구조 최적화 해석 결과\r\n(a) 단수별 최적 메탄올 온도 구배 및 Catalyst loading 량\r\n(b) 3단 반응기에서의 원료물질 농도에 따른 공간속도 변화\r\n \r\n 300 ton/day MeOH 생산 공정을 기준으로 기존 1단 반응기 채용 공정과 비교하면 표의 값\r\n과 같이 AIC는 증가하지만($0.16x106/y) AOC가 감소하여($1.1x106/y) 전체 비용은 기존 공정 대\r\n비 27% ($0.85x106/y) 감소하는 것으로 나타났다. 따라서 1단 반응시스템 채택보다는 다단 반응\r\n시스템을 적용하는 것이 효과적임을 확인하였다. 표 6 다단반응시스템 채택 공정의 비용 비교\r\nReference Optimization\r\nAIC(M$) 1.19 1.35 14%↑\r\nAOC(M$) 43.5 42.4 3%↓\r\nProfit(M$) 41.5 41.4 -\r\nNPV(M$) -3.13 -2.30 27%↓\r\nNet profit ($/t) -31.3 -23.0 27%↓\r\nConversion 16.7% 52.5% 314%↑\r\n* AIC (Annual Investment Cost), AOC (Annual Operating Cost) PROFIT (Methanol 판매), Op. Value (AIC+AOC-PROFIT)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 65,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 64 -\r\n 최적화된 다단 반응기의 단수별 전환율 및 주요 운전비용(스팀, 전기, 수소 비용)의 변화량\r\n을 정리하였다. 메탄올 전환율은 단수가 다른 반응기를 도입한 경우라도 대부분 비슷한 값을 \r\n보이지만, 3단의 다단 반응기를 채택한 경우 전기비용이 최소가 되고 Purge로 버려지는 수소 \r\n양을 최소화 할 수 있어서 메탄올 생산비용을 최소화 시킬 수 있었다. \r\n그림 39 다단반응기 단수에 따른 메탄올 전환율과 주요 운전비용 관계\r\n 경제성 분석에 사용된 주요 변수의 민감도 분석을 실시한 결과 수소 가격이 경제성에 미치\r\n는 영향이 약 88%로 본 메탄올 생성공정의 경제성을 향상시키기 위해서는 저비용 수소 공급이 \r\n필요하다는 결론을 도출할 수 있었다. 이외에도 원료인 CO2 가격 역시 메탄올 전체 생산가의 \r\n9% 정도로 영향을 주는 것으로 나타났다.\r\n그림 40 주요 경제성 매개변수 전역 민감도 분석 결과\r\n 최적화된 메탄올 생산 공정이 경제성을 확보하기 위해서는 메탄올 판매가격이 올라가거나 \r\n수소 공급가격이 낮아져야 한다. 위 두 변수의 민감도 분석을 통해 경제성을 가질 수 있는 매\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 66,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 65 -\r\n개변수의 범위를 정량적으로 제시하였다. 예를 들어 수소 공급가가 kg 당 $1.4 일 경우 매탄올 \r\n최소 판매가는 약 $0.435/kg MeOH 정도 되며, 수소 공급가가 더 낮아질 경우 (예로 $1.1/kg 수\r\n소) 메탄올 판매가격은 약 $0.385/kg MeOH까지 낮아질 수 있음을 보였다. \r\n그림 41 메탄올 생산공정의 경제성 확보를 위한 수소와 메탄올 가격 heat map\r\n 최적화된 중온-저온 다단촉매반응을 채택한 공정은 단일 반응기를 사용하는 경우보다 NPV\r\n가 27% 정도 낮게 나타나 다단반응시스템 채택이 타당함을 확인하였다. 경제성 평가 변수의 \r\n민감도 분석에서 원료인 수소와 CO2 공급가격이 메탄올 가격을 결정하는 핵심요소로 나타났\r\n다. 변수 민감도 해석을 통해 메탄올 생산공정이 경제성을 갖기 위한 수소(원료)와 메탄올(제\r\n품)의 가격 범위를 제시하였다. 3절 이산화탄소로부터 경질 올레핀을 생산하는 촉매 및 공정기술 개\r\n발 (3세부)\r\n1. 알칼리 금속 프로모터(Potassium) 담지량에 따른 촉매 활성 비교\r\n 최적점의 활성을 가지는 포타슘 촉매에서 안정성 테스트를 50시간 동안진행 하였고, 3%이\r\n내의 촉매 비활성화를 관찰함. Potassium 함량이 늘어 감에 따라, Fe3O4(●) phase는 줄고, Fe5C2(★) phase가 증가함을 \r\n알 수 있음. 이는 Fe5C2 phase가 올레핀 선택도와 이산화탄소 전환율에 영향을 미친다는 것을 \r\n알 수 있음. \r\n Fe5C2 phase의 면밀한 분석을 위해 반응 후 촉매를 분석한 결과, Core-shell 구조를 가지\r\n는 것을 확인함. 내부의 격자 구조를 분석한 결과 Fe5C2 phase를 나타내었고, 외부의 2가지 껍\r\n질 구조를 분석한 결과를 통하여 Fe5C2 phase 가 표면에서는 Iron oxy carbide(Fe-O-C) phase\r\n를 형성하는 것을 EDS line scaning 분석을 통하여 확인함. 촉매 표면 분석을 위해, Potassium 함량이 늘어 감에 따라, CO-TPD 와 CO2-TPD분석을 진\r\n행 하였음. Pottassium 함량이 늘어 갈수록 CO, CO2 탈착량이 증가하고, 더 높은 온도에서 탈\r\n착됨을 확인함. 포타슘이 CO, CO2 와의 결합을 더 강하게 하는 역할을 하는 것을 확인함.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 67,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 66 -\r\n그림 42 알칼리 금속(Potassium)이 철촉매에 주는 영향 검증 및 분석\r\n K 이외의 Na, Rb 등의 알칼리 금속을 담지 효과를 확인함. 포타슘과 똑같은 몰수의 알칼\r\n리 금속을 담지 하였을 때 비슷한 경향성을 보인 것을 확인. K을 담지 하였을 때 올레핀 선택\r\n도가 증가함을 확인함. 엑스선 회절 분석을 통하여 포타슘을 담지 하였을 때, Fe5C2 phase가 가장 잘 형성 되는 \r\n것을 확인 하였음.\r\n그림 43 알칼리 금속 종류와 양 변화에 따른 엑스선 회절 분석\r\n Iron chloride를 NaOH로 precipiation 하여 합성한 Na-Fe3O4 촉매에 온도를 다르게 하며 \r\nCO gas treatment를 진행하였고, 온도에따라서 다른 Iron carbide phase 형성 확인함. Na-Fe3O4\r\n촉매에 같은 온도에서 다른 가스 조성으로 처리하였을 때, 다른 Iron carbide phase 가 형성되\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 68,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 67 -\r\n는 것을 확인함. CO-TPR분석을 통해서 전처리 가스와 Na-Fe3O4 촉매 사이에다른 상호 작용 \r\n확인.\r\n그림 44 알칼리 금속 여부 및 전처리 조건에 따른 아이언 카바이드 형성 분석\r\n 산화 탄소 전환율에 도움을 주는 코발트(Co)와 알칼리 금속을 도입한 CoFe2O4 나노입자를 \r\n합성하여 카본나노튜브에 올린 촉매를 제작함, \r\n CoFe2O4 ,Fe3O4 ,Co 나노입자를 합성하여 CO2 수소화 반응에 코발트와 알칼리 금속의 영\r\n향 검증(CoFe2O4, Fe3O4, Co, Fe3O4+Co 비교)\r\n 코발트 페라이트 나노입자가 다른 나노 입자 촉매에 비하여 높은 경질 올레핀 선택도를 \r\n보임(39%). 철 나노입자와 코발트 나노입자를 물리적으로 섞은 구조에서는 메탄이 주된 생성물로 생\r\n성됨.\r\n XAFS 와 XRD 결과로 보았을 때, Na 가 담지된 코발트 페라이트 나노입자가 다른 나노 \r\n입자 촉매에 비하여 더 많은 Fe5C2 상이 형성 되었음. 코발트 XANES로 확인 하였을 때, 코발트상도 반응후에 CO2C와 유사한 탄화 된 구조로 변\r\n하는 것으로 확인됨.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 69,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 68 -\r\n√HR-TEM 결과로 보았을 때, Na가 promoted된 모든 나노입자촉매에서 Fe5C2 구조가 관찰됨. √STEM 및 EDS mapping결과를 보았을 때, CoFe2O4구조에는 Co 와 Fe가 균일하게 섞여 있\r\n는것으로 관찰 된데 비해서 Fe3O4+Co 에서는 Co가 따로 뭉쳐 있는 부분이 관찰됨.\r\n그림 45 나노 페라이트 합성 모식도 및 결과\r\n그림 46 코발트의 CO2 전환율 및 경질올레핀 선택도에 영향 분석\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 70,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 69 -\r\n그림 47 CoFe2O4 나노입자 엑스레이 회절 및 흡수 분석\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 71,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 70 -\r\n그림 48 CoFe2O4 나노입자 HR-TEM 분석결과\r\nXRD, XAFS, HR-TEM 분석을 통하여 Fe5C2구조와 CO2C구조가 균일하게 섞여있는, \r\n(Fe1-xCox)5C2상이 경질올레핀 선택도에 영향을 미치는 것을 확인함. 산화탄소 전환율(34.4%) 및 경질 올레핀 선택도(39%) 달성함. 제올라이트의 활용에 따른 활성\r\n도, 선택도의 변화 확인. 극명한 O/P ratio의 변화가 감지됨으로 MFI Pelletizing 방향에 대한 수\r\n정이 필요함. 이를 이용한 특정 선택도의 향상을 도모 할 수 있게 됨. Liquid Product의 분석\r\n을 통하여 Product Distribution 의 변화 확인. 긴 체인을 생성을 확인하였으므로, 이를 방지하\r\n는 Acidic Site의 조절이나 Channel의 조정이 추후 연구의 목표가 될 수 있음을 검증. 제올라이\r\n트 Mixing way에 따른 활성도 분석. 같은 조성을 이루고 있음에도 활성과 선택도에 극명한 차\r\n이를 보여주므로 이에 따른 연구 또한 검증 되어야할 부분임을 제시함.제올라이트는 다공성의 \r\n알카리 및 알카리토금속의 규산알류미늄 수화물을 통칭하는 것으로, 촉매나 흡착제로도 많이 \r\n쓰임. 본 연구에서는 Ferrite 기반 촉매와 제올라이트를 복합화하여 경질올레핀의 선택도와 수\r\n율을 추가적으로 높이고자 하였음.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 72,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 71 -\r\n그림 49 제올라이트를 사용한 반응 촉매 모식도\r\n 앞에서 언급한 바와 같이 CO2 직접 수소화 반응은 RWGS와 FT 연속반응이 일어나야되고, RGWS반응이 흡열반응이기 때문에 전체적인 CO2 전환율이 낮다. \r\n 본 과제에서는 먼저 SAPO-34 등 적절한 제올라이트와 Ferrite 기반 촉매와의 복합화를 통해 \r\n경질올레핀의 선택도를 높일 수 있다. 또한 제올라이트를 (개질을 통해) 소수성을 띠게 하여 \r\nRWGS 과정에서 생성되는 물을 활성점으로 부터 효과적으로 제거함으로써, CO2 전환율도 동시\r\n에 향상시키고자 하였음.\r\n표 1 제올라이트 혼합화 방법에 따른 촉매 활성 비교 표\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 73,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 72 -\r\n그림 50 제올라이트 혼합화에 따른 생성물 분포도의 변화\r\n비슷한 채널 사이즈와 길이를 지닌 두 제올라이트를 선정하여 반응성의 차이 비교와 생성물의 \r\n변화 확인. 올라이트 ZSM-11을 사용한 결과가 ZSM-5를 사용했을 때보다 확연이 낮은 반응성\r\n과 선택도를 보여줌. 하지만 액체연료의 선택도를 확인하였을 때 특정한 모양을 지닌 탄화수소\r\n의 생성에 아주 큰 영향을 미친 것으로 확인.이를 통하여 액체연료의 선택도를 줄임과 동시에 \r\n실사용을 위한 반응 후 처리의 과정을 줄일 수 있는 가능성을 제시함.제올라이트 모양에 따른 \r\n활성도 차이가 나타남을 확인하였으므로, 이를 기반으로 한 연구 진행 및 결과 확인 예정.제올\r\n라이트 산점에 대한 연구를 진행하기 위해 ZSM-5 내부 산점 조절을 통한 생성물의 변화 추후 \r\n확인.\r\nNa 가 promoted 된 ZnFe2O4 촉매에 2차 금속 Cu의 도입을 통한 반응성의 변화 확인. 전반적\r\n그림 51 제올라이트 종류에 따른 촉매 반응 모식도 및 반응물 선택도 변화\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 74,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 73 -\r\n인 반응성의 결과는 알칼리 메탈만 더하였을 때와 큰 차이를 나타내지 못함. 하지만 액체연료\r\n의 분포에 있어 특정 비율의 2차 금속의 도입이 선택적인 액체연료 생성에 기여한다는 것을 \r\n확인.\r\n기존의 방법의 경우 NaOH로 pH를 조절하여 중요한 요소로 작용하는 Na이 포함된 상황이라 \r\n알칼리 메탈의 역할을 규명하기가 어려웠음. 높은 pH 조건에서 합성하여 Zn와 Fe 전구체의 비\r\n율이 1:1이 아니라 1:2를 이용하여 낭비되는 부분이 생길뿐 아니라 촉매적 성능도 저하됨. 여러 \r\n가지 변화를 시험하기 위한 기준 촉매 생산을 10배로 늘리기 위하여 큰 반응기를 이용하였으\r\n며 이러한 과정에서 증기압이 달라져 조건이 달라진 부분을 수정함\r\n현재 암모니아를 이용하고 Zn와 Fe 전구체의 비율을 1:1로 제작한 ZnFe2O4의 양을 10배로 늘\r\n리는데 성공함 (1g을 Ferrite 촉매를 만들 수 있는 조건을 용기와 용매의 양을 10배로 키워줌\r\n으로써 비슷한 물성의 Ferrite촉매 10g 의 합성을 만드는데 성공) 이를 기반으로 kg 단위의 촉\r\n매합성을 계획중이며, 이가 성공하면 실제 공정의 촉매 양산화를 구체화할 계획임\r\n그림 52 Cu 담지량에따른 ZnFe2O4 촉매 활성 비교표 및 생성물 분포 변화\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 75,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 74 -\r\n그림 53 기준이 되는 촉매의 양산화를 위한 반응조건 변화\r\n보고된 연구들에 따르면 온도와 압력을 변화시킴으로써 이산화탄소의 전환율뿐만 아니라 생산\r\n물들의 선택도 분포가 달라지는 것을 알 수 있음. 이를 검증하기 위하여 온도와 압력을 변화하\r\n여 실험을 진행한 결과 온도가 증가함에 따라 이산화탄소의 전환율은 증가하나 원하지 않는 \r\n부산물인 메탄과 일산화탄소가 같이 증가하는 것을 알 수 있으며 압력 증가의 경우에는 이산\r\n화탄소 전환율은 온도의 경우와 같이 증가하나 얻어지는 생산물들의 분포가 좀 더 사슬이 긴 \r\n쪽으로 집중되는 현상을 확인함. \r\n2. 신재생 수소생산 시스템과의 연계 및 통합\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 76,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 75 -\r\n그림 54 CO2 수소화 반응을 통한 (신재생 수소를 이용) 경질올레핀 생산 및 활용 모식도\r\n 이산화탄소 (CO2)를 수소화하여 경질올레핀을 만드는 공정이 실질적인 CO2 감축효과가 있\r\n기 위해서는 수소가 친환경 에너지원으로부터 생산되어야 함. 따라서 본 과제의 궁극적인 목적\r\n은 이산화탄소와 태양광수소로부터 경질올레핀을 만드는 것임. 태양광수소 기술을 상용화 하기위해서는 물속에서 안정하고 값싼 물질을 사용하여야하고 무\r\n엇보다도 10%를 상회하는 높은 효율을 가진 물질 개발이 필요함. 본 연차의 주요 연구 목표와 \r\n방향은 경질올레핀의 선택도와 전환율을 높이는데 집중되어있지만, 4차년도부터 실제로 태양광\r\n수소 생산시스템과의 연계를 하기위해선 지속적으로 광전극의 성능을 향상시키는 연구 수행이 \r\n중요함. 본 연구에서는 Fe2O3를 Ta2O5, Nb2O3 등의 물질로 coating 해줌으로써, 높은온도의 \r\ncalcination시 응집현상을 최소화해주고, 표면도핑 효과에 의해서 전화이동 속도를 향상시켜 높\r\n은 전류의 값을 기록하였음 (Advanced Functional Materials 2019 (IF=13.32), ACS Catalysis 2019 \r\n(IF=11.384), ACS Catalysis 2018 (IF=11.384), ChemCatChem 2019 (IF= 4.803), ChemSusChem \r\n2019 (IF =7.411)) \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 77,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 76 -\r\n4절 최적화 기법을 이용한 CO2 직접자원화 설계기술 개발 및 평가 (4\r\n세부)\r\n1. 메탄올 합성 공정 분석\r\n 메탄올을 합성하기 위해서는 전통적으로 수소와 일산화탄소로 주로 이루어진 합성가스를 \r\n통하여 메탄올을 합성하는 방법 (RWGS+MS)과 CO2를 직접적으로 전환하는 방법으로 나뉨. \r\n그림 1 2가지 메탄올 합성 공정의 공정 구조\r\n CO2 직접전환 메탄올 합성 기술을 활용하여 합성가스로 개질을 하지 않고 직접전환하는 \r\n공정에 대하여 상용모사기 (ASPEN PLUS)를 활용하여 모사 수행. 본 연구에서는 화력발전소 내 \r\n포집된 CO2를 사용하기로 가정하였기 때문에 CO2 사용량을 약 370kmol/hr로 가정함. 이는 \r\n30MW 화력발전소로부터 포집된 CO2의 양과 같음. 반응에 참여하지 않은 CO2와 H2는 다시 재\r\n사용되며 생성된 메탄올은 정제 공정을 통해 순도가 향상됨. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 78,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 77 -\r\n그림 2 상용공정모사기를 활용한 CO2 직접 전환 메탄올 합성 공정 흐름도\r\n표 7. 메탄올 합성 및 정제 공정 운전 조건.\r\n위는 CO2 직접전환을 통한 메탄올 합성 공정의 물질수지 및 에너지 사용량을 나타냄. CO2 직접전환 공정이 50bar에서 운전되기 때문에 주입된 CO2, H2를 가압해야 함. 이로 인해 \r\n많은 양의 전기가 사용됨. 생성된 메탄올의 순도를 높이기 위해 물을 제거 해야함. 이로 인해 \r\n증류탑에서 많은 양의 열을 사용하여 물을 제거함. \r\n메탄올 합성 공정 (CO2 hydrogenation) 메탄올 정제 공정 (MeOH purification)\r\n상수 값 상수 값\r\n촉매 종류 Cu/Zn/Al/Zr 증류탑 단수 (단) 25\r\n촉매 사용량 (kg) 450 피드 유입 단수 (단) 16\r\n베드 공극비 0.98 Reflux ratio 0.74\r\n운전 조건\r\n온도 (℃)\r\n압력 (bar)\r\n225\r\n50\r\n증류탑 상부 운전 조건\r\n온도 (℃)\r\n압력 (bar)\r\n30\r\n1\r\n증류탑 하부 운전 조건\r\n온도 (℃)\r\n압력 (bar)\r\n109\r\n1.14\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 79,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 78 -\r\n그림 3 CO2 직접전환 메탄올 합성 공정의 물질 흐름 및 에너지 사용량\r\n본 공정에 대한 탄소 효율, 에너지 효율, 및 이산화탄소 저감량은 표에서 확인 가능. 공정 내 \r\n사용된 전기 또는 열에 의한 이산화탄소 배출계수는 한국의 에너지 믹스를 고려하여 계산함. \r\n(전기- 석탄 (39.6%), 원자력 (30.0%), 천연가스 (22.4%), 수력 (1.2%), 기타 (4.2%); 열- 천연가스 \r\n(100%), 2016년 기준). 이산화탄소 배출계수; 0.114kg of CO2/1MJ of 전기, 0.062kg of CO2/1MJ \r\nof 열. 표 8. CO2 직접전환 메탄올 합성 공정의 지속가능성 평가 결과. 탄소 효율 (%)   ×  \r\n ×   ×   \r\n에너지 효율 (%)   ×    \r\n ×  ×   \r\nCO2 저감량 (kg)   ×  \r\n ×     ×     ×     \r\n      \r\n본 메탄올 생산 공정에서의 탄소 효율은 95.1%로 본 연구에서의 목표치 (탄소효율 95% 이상)\r\n를 충족시킴. 본 시스템에서의 에너지 효율은 59.5%이며 CO2 저감량은 0.66kg임. 0.66kg이란 \r\n메탄올 1kg을 생산할 때 0.66kg의 이산화탄소가 저감된다는 의미임.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 80,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 79 -\r\n그림 4 2가지 메탄올 합성 공정의 탄소 효율, 에너지 효율, CO2 저감량 분석 결과\r\n본 연구에서의 목표는 탄소 효율 95% 이상의 공정을 설계하는 것으로 두 가지 공정 모두 그 \r\n목적을 만족시킴. 1단계 합성 공정이 2단계 합성 공정보다 높은 에너지 효율을 가짐. 이는 1단\r\n계 공정에서 소모되는 에너지량이 적기 때문임. 그러나 각 공정의 에너지 효율은 열교환망을 \r\n설계함으로써 증가될 가능성이 있음. 메탄올을 생산함에 있어서 이산화탄소를 방출하지 않고 \r\n제거한다는 뜻. 공정 내 사용되는 전기, 또는 열을 화석연료가 아닌 신재생에너지원으로부터 \r\n공급 받는다면 저감량 또한 향상될 가능성이 있음.\r\n그림 5 2가지 메탄올 합성 공정의 공정 구조\r\n두 공정 모두 연간 운영비가 총 생산비용의 70% 이상을 차지. 2단계 메탄올 합성 공정이 더 \r\n많은 단위 공정을 필요로 하기 때문에 더 많은 투자비용이 소모됨.그러나 전체 공정의 경제성\r\n은 수소 생산 시설에 의해 결정되기 때문에 메탄올 합성 공정의 구조 차이에 의한 비용 차이\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 81,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 80 -\r\n는 크지 않음. 2단계 공정이 더 많은 투자비용을 필요로 하기 때문에 1단계 공정에 비해 높은 \r\n단위 생산 비용을 가짐. 본 연구에서의 목표 메탄올 생산단가는 대략 $0.3-$0.4 (Methanex사 \r\n기준 메탄올 생산단가: $0.34/kg)였으나 현재의 기술로는 이 목표치를 만족시키기 어려움. 이는 \r\n높은 운영비, 그 중에서도 높은 수소 비용에서 기인함. 이 생산단가를 시중 생산단가까지 낮추\r\n는 전략을 제시하고자 함. 2. 데이터 기반 공정 평가 플랫폼 개발\r\n 공정모사를 통해 촉매의 기술적, 경제적 성능을 평가할 수 있지만 상용화된 촉매의 특성만 \r\n분석할 수 있다는 단점이 존재함.그러나 개발 단계의 촉매가 실제 공정에서 가질 수 있는 성능\r\n을 예측하는 것은 촉매 개발에서 매우 필요로 하는 정보임.본 연구에서는 새로운 촉매의 경제\r\n성 및 지속가능성 예비평가가 가능한 데이터 기반 공정 평가 플랫폼을 개발하고자 함. 본 플랫\r\n폼을 통해 사용자는 상용 가능한 촉매의 선택도 및 전환율을 예측함으로써 촉매 개발에 관한 \r\n목표치를 설정할 수 있음.사용자의 목표값에 대해 자동으로 공정의 경제성 및 지속가능성이 평\r\n가되는 플랫폼을 개발하여 공정 지식이 부족한 경우에도 손쉽게 사용할 수 있도록 함.본 과제\r\n에서 세부 과제 목표의 타당성 및 경제적 파급 효과 등 정량적 지표 제공에 사용가능하도록 \r\n개발함.\r\n그림 6 데이터 기반 공정 평가 플랫폼 개발 순서도\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 82,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 81 -\r\n 문헌을 통해 자료를 수집하고 단위 공정에 대한 데이터를 확보함. 단위공정을 조합하여 최\r\n종 공정 모델을 만들고 최종 모델로부터 조작변수를 설정함. 조작변수에 따른 연산엔진을 개발\r\n하고 이를 활용하여 지속가능성을 평가함. 촉매 반응기를 제외한 다른 주요 공정 (분리기, 열\r\n변환기, 압력변환기 등)에 관한 비용 정보는 상용모사기를 통해 확보. 반응기에 대한 경제성은 \r\n기존 반응기 정보를 기반으로 rigorous process model 개발 후 확보함. 문헌을 통해 자료를 수\r\n집하고 단위 공정에 대한 데이터를 확보함. 단위공정을 조합하여 최종 공정 모델을 만들고 최\r\n종 모델로부터 조작변수를 설정함.조작변수에 따른 연산엔진을 개발하고 이를 활용하여 지속가\r\n능성을 평가함.\r\n1단계: 자동화 플랫폼을 위한 기초 연산엔진 개발 \r\n본 플랫폼 개발을 위해 다음과 같은 가정을 세움. 표 9. 연산엔진 개발에 사용된 가정사항\r\n 문헌상의 촉매 및 반응정보를 기반으로 하여 단위 공정에 대한 데이터베이스 구축. 압축\r\n기, 가열기, 펌프 등 물질 및 에너지 수지가 수식으로 표현되는 장치에 대해 수식기반 공정 모\r\n델링 삽입. CO2 기반 메탄올 합성 공정, 기액분리, 액체분리 공정과 같이 수식으로 표현하기 \r\n힘든 공정에 대해 상용모사기를 활용하여 데이터베이스 구축. 본 연구에서는 4가지 변수 (CO2\r\n전환율, MeOH 선택도, 초기 CO2 주입량, 공정 내 recycle 비율)에 의해 운전되는 공정 플랫폼\r\n을 개발함.실제 모사 결과와의 비교분석을 통해 계산엔진의 정확성을 검증함.370kmol의 CO2, CO2 전환율 23.9%, MeOH 선택도 100%, 공정 내 venout 비율 1%일 때, 1,077kmol의 수소가 필\r\n요하고 이로부터 342kmol의 메탄올이 생산됨.\r\n그림 7 연산엔진 개발을 위한 CO2 직접전환 메탄올 합성 공정도\r\n가정사항\r\n[1] 본 공정은 크게 반응기, 기액분리, 액체분리 구조를 갖는다.\r\n[2] 반응은 최적의 운전 조건에서만 일어난다.\r\n[3] 순도 99%, 회수율 99%의 메탄올 생산을 목적으로 한다.\r\n[4] 수소는 최적의 Stoichiometric number (SN, 최적값 2)를 만족시키기 위해\r\n필요한 만큼 주입된다.\r\n[5] 본 공정은 압력변화를 최소화하여 운전한다.\r\n[6] 본 연산엔진에서의 전환율, 수율, 선택도는 평형상태에서의 값이다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 83,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 82 -\r\n그림 8 연산엔진을 통해 계산된 메탄올 합성 공정의 물질 흐름\r\n공정에 대한 지식이 없는 사용자를 위해 주입량 대비 생성량을 확인할 수 있는 단순 공정도 \r\n제시. \r\n그림 9 CO2 직접 전환 메탄올 합성 공정의 단순 물질흐름도\r\n계산엔진으로부터의 결과를 활용하여 CO2 저감량, 탄소효율, 에너지효율 및 경제성 (총 소요비\r\n용, 항목별 세부 비용, 단위 생산 비용 등)을 확인할 수 있음.\r\n그림 10 연산엔진을 이용한 직접전환 메탄올 합성 공정의 탄소 효율\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 84,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 83 -\r\n그림 11 연산엔진로부터 계산된 메탄올 합성 공정의 (a) 에너지 효율, (b) CO2 저감량\r\n그림 12 메탄올 합성 공정의 (a) 총 생산 비용, (b) 연간 투자비, (c) 연간 운영비\r\n CO2 전환율 23.9%, 메탄올 선택도 100%, 공정 내 vent-out 비율이 1%일 때, 본 공정에서\r\n의 탄소 효율은 92.4%로 90%가 넘는 높은 값을 가짐. 에너지 효율은 \r\n[={1,722,461÷(2,071,958+566,963)}*100] 65.3%이며 메탄올 1kg 생성 시 0.94kg의 CO2가 저감됨. 총 생산 비용 중 98%가 운영비용이며 원료 공급비가 그 중 87%를 차지함. 특히, 수소 공급비\r\n가 전체 운영비의 81%를 차지함. 본 시스템에서의 주된 비용인자는 수소 공급비용으로 확인됨. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 85,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 84 -\r\n 본 공정에서의 단위생산비용은 $1.10/kg of MeOH로 앞서 상용모사기를 활용하여 얻은 결과\r\n값과 $0.04의 차이가 있음. 이는 본 계산엔진에서 탄소 효율은 92.4%로 모사된 공정에 비해 더 \r\n높은 vent-out 비율을 갖기 때문. Vent-out을 많이 할수록 공정 내 재사용 비율이 감소하고 이\r\n로 인해 전체 공정의 규모가 작아져 총 소요 비용이 감소함. 본 연구에서는 전환율, 선택도, Vent-out 비율에 따른 민감도 분석을 수행하여 CO2 직접 전환을 통한 메탄올 합성 공정의 경\r\n제적 및 환경적 변화를 평가함. \r\n그림 14 수득률 (yield)이 30%로 고정일 때 CO2 전환율 및 메탄올 선택도에 따른 단위 생산 비용 비교\r\n그림 13 (a) 변동 운영비 세부 항목, (b) 원료 공급비 세부 항목\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 86,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 85 -\r\n 위에 따르면 CO2 직접 전환 메탄올 합성 공정에서 동일한 수득률을 가지는 경우 CO2 전\r\n환율이 높을 때 더 많은 메탄올 생산 가능. 많은 생산량으로 인해 전환율이 상승함에 따라 단\r\n위 생산 비용이 감소함. 따라서 메탄올 합성 촉매 개발 시 선택도보다 전환율을 향상시키는 방\r\n향으로 연구할 필요가 있음. 공정 내 vent-out 비율에 따른 공정 전체의 경제성과 탄소 효율을 \r\n나타냄. Vent-out 비율이 증가하면 공정 밖으로 배출되는 양이 증가하기 때문에 메탄올 생성량\r\n이 감소하며 결과적으로 탄소 효율도 감소함. Vent-out 비율 증가로 인해 Recycle 흐름이 감소\r\n하게 되고 이로 인해 공정 규모가 작아져 연간 투자비 및 변동 운영비 (전기, 열 사용에 의한 \r\n비용)가 감소함. 그러나 비용 감소 대비 메탄올 생산량의 감소폭이 더 커서 결과적으로 메탄올 \r\n단위 생산 비용은 증가함.\r\n그림 15 Vent-out 비율에 따른 탄소 효율 및 단위 생산 비용\r\n 2단계: 연산엔진을 기반으로 한 그래픽 인터페이스 개발\r\n2단계의 연산엔진을 기반으로 한 그래픽 인터페이스 개발은 3차년도에 수행을 목표로 하고 있\r\n음. 그래픽 인터페이스 개발을 위한 후보 소프트웨어 조사 및 선정. 소스코드 제작을 위한 데\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 87,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 86 -\r\n이터 사이언스 학습. 3. 촉매 기반 전환 공정 모사\r\n앞선 2차년도에 수행되었던 메탄올 합성공정뿐만 아니라 액체탄화수소를 생산하기 위한 공정 \r\n모델을 개발. 2차년도 연구 수행을 통하여 개발되었던 2단계, 1단계 메탄올 합성공정에 대한 \r\n연구 결과에 따르면, 1단계를 통한 메탄올 생산이 경제적, 환경적으로 유리한 것을 확인. 따라\r\n서, 3차년도의 공정모델은 1단계의 액체탄화수소 생산을 전략으로 수립하여 공정모델을 개발.\r\n그림 16 이산화탄소 자원화 공정에 대한 기술 상부 구조 및 촉매 전환 공정에 대한 예시 공정\r\n- CO2의 직접 전환을 통한 Hydrocarbon 합성 공정\r\n문헌상의 CO2 직접전환 탄화수소 (C2-C4) 합성 공정에 대해 상용모사기 (ASPEN PLUS)를 활용\r\n하여 모사 수행.(19) 반응에 참여하지 않은 CO2와 H2를 다시 재사용하고, 부생성물로 생긴 CH4\r\n를 제거하기 위해 CO2 포집 공정, Cryogenic, PSA 공정을 차례로 배치함. 공정 흐름도와 반응\r\n식 및 kinetics는 아래에서 확인 가능.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 88,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 87 -\r\n그림 17 상용공정모사기를 활용한 CO2 직접 전환 액체탄화수소 합성 공정 흐름도\r\n그림 60 CO2 직접전환 액체탄화수소 합성 공정의 반응식 및 kinetics.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 89,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 88 -\r\n표 10. 액체탄화수소 합성 및 정제 공정 운전 조건.\r\n- CO2의 직접 전환을 통한 액체탄화수소 합성 공정의 물질 및 에너지 수지 분석\r\n문헌을 통해 액체탄화수소 합성 공정을 모사한 결과 부생성물인 CH4의 생성으로 인해 전환율\r\n이 감소하는 반면 CO는 전환율을 상승시킴. CH4를 제거하기 위한 공정이 필요하며 본 연구에\r\n서는 2가지의 분리 공정 구조를 개발함.\r\n그림 19 (a) 직접전환을 통한 액체탄화수소 공정 반응기, (b) CO 및 CH4에 따른 전환율 변화\r\n예상과 달리 SMR을 이용한 공정의 경우 증가한 CO의 양보다 수소의 양의 증가가 두드러지게 \r\n되어, 역으로 CH4의 생산량이 증가. 따라서, 액체탄화수소 합성을 위해서는 제시한 메탄가스 \r\n액체탄화수소 합성 공정 \r\n(CO2 hydrogenation)\r\nCO2 제거 공정 \r\n(MEA-based CO2 separation)\r\n상수 값 상수 값\r\n촉매 종류 Fe-K/γAl2O3 MEA 농도 (%) 25\r\n냉각 용량 (kW) -3,324 냉각 용량 (kW)\r\n재가열 용량 (kW)\r\n-2,205\r\n86,742\r\n운전 조건\r\n온도 (℃)\r\n압력 (bar)\r\nGHSV (ml/g.hr)\r\n300\r\n10\r\n2000\r\n흡수탑 운전 조건\r\n온도 (℃)\r\n압력 (bar)\r\n40\r\n9.8\r\n탈거탑 운전 조건\r\n온도 (℃)\r\n압력 (bar)\r\n60-160\r\n103\r\n심냉 분리법 (Cryogenic) 압력 순환 H2 분리 공정 (H2 PSA)\r\n상수 값 상수 값\r\n냉각 용량 (kW)\r\n재가열 용량 (kW)\r\n-48,024\r\n42,734\r\n베드 수\r\n베드 지름 (m)\r\n베드 높이 (m)\r\n3\r\n3\r\n15\r\n운전 조건\r\n압력 (bar) 9.7\r\n운전 조건\r\n온도 (℃)\r\n압력 (bar)\r\n30\r\n10\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 90,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 89 -\r\n개질 공정을 포함한 공정 경로보다 PSA를 이용한 수소를 정제하는 것이 액체탄화수소 생산에 \r\n적합하다고 결론 내릴수 있었으며, 추가 분석을 수행함. ㅣ\r\n그림 20 액체탄화수소 분리 공정: (a) SMR을 이용한 수소 생산, (b) PSA를 이용한 수소 정제\r\n아래는 CO2 직접전환을 통한 액체탄화수소 합성 공정중에서 PSA를 이용한 수소 정제 전략이 \r\n적용된 공정 경로의 물질수지 및 에너지 사용량 나타냄. 생성된 액체탄화수소를 분리해내기 위\r\n해 심냉분리 기술을 사용하였으며, 저온의 운전 조건으로 인하여 냉매제를 고려함.\r\n그림 21 CO2 직접전환 액체탄화수소 합성 공정의 물질 흐름 및 에너지 사용량\r\n본 시스템의 CO2 전환율은 20.1%이며 이 중 CO2→CO로의 선택도가 39%, CO2→CH4로의 선택\r\n도가 6%, CO2→액체탄화수소연료로의 선택도가 55%임. 사용된 총 에너지 (659,796MJ) 중에서 \r\n반응공정 (FT 반응기)에서 약 2%가 쓰이지만, 98%가 액체탄화수소 정제에 사용됨. 본 공정에 \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 91,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 90 -\r\n대한 탄소 효율, 에너지 효율, 및 이산화탄소 저감량은 표에서 확인 가능. 이산화탄소 배출계\r\n수; 0.114kg of CO2/1MJ of 전기, 0.062kg of CO2/1MJ of 열, 0.283kg of CO2/1MJ of 냉매. 표 11. CO2 직접전환 액체탄화수소 합성 공정의 지속가능성 평가 결과.\r\n액체탄화수소 합성공정은 메탄올 합성공정과 달리 48%의 낮은 탄소 효율과 10% 미만의 매우 \r\n낮은 에너지 효율을 보임. 이러한 결과는 탄화수소 공정의 전환율이 낮고 생성물에 대한 선택\r\n도가 낮기 때문이며, 탄화수소를 정제하는 과정에서 사용하는 CO2 분리 및 액체탄화수소 정제 \r\n공정에서 많은 에너지를 사용하였으며, 에너지 효율 또한 낮게 나옴. 심냉분리에서 사용되는 \r\n냉매제는 전기 또는 열에 비해 높은 CO2 배출 계수를 가지고 있어, 공정 내에서 유틸리티를 \r\n많이 사용하기 때문에 CO2를 저감하기 보다는 오히려 배출함. 현재의 공정 구조로는 개발 및 \r\n분석 가능성이 적기 때문에 다른 특성 (선택도 최우선)을 가진 촉매 개발 R&D 전략을 제시하\r\n고자 함. 역으로 환경적, 비용적, 에너지 효율적 측면에서 필요로 하는 촉매 특성을 제시하고 \r\n공정 구조를 개발하고자 함. 액체탄화수소 합성 공정에 대한 경제성 평가는 현재의 공정 구조\r\n보다 향상된 공정 구조를 개발한 뒤에 수행하도록 하겠음. \r\n4. CO2 자원화 전략 구축을 위한 최적화 모델 개발\r\n1차년도에 개발된 CO2 자원화 기술 상부 구조에 대해서 다목적변수에 맞는 최적의 자원화 전\r\n략을 개발하고자 함. 공정 모사 결과 및 문헌상의 정보를 토대로 최적화 모델을 개발한 뒤 목\r\n적에 맞는 최적 전략을 제시함. 최적 CO2 자원화 전략 구축을 위한 수리모델은 다음과 같이 \r\n개발됨. 본 최적화 모델은 크게 3가지 문제에 대한 해결책을 제시하는 것을 목적으로 함. \r\n1) 주어진 생산물을 만들기 위해 어떤 반응물을 이용해야 하는가?\r\n2) 주어진 반응물을 활용하여 어떤 생산물을 만들어야 하는가?\r\n3) 주어진 반응물로 특정 생산물을 만들고자 할 때 어떤 생산 방법을 이용해야 하는\r\n가?\r\n각 문제에 대해서 생산비용, 에너지 사용량, 생산량, 이익 등 4가지 평가기준에 맞는 최적 전략\r\n을 제시함. 1차년도에 수집한 정보 및 2차년도에 개발한 공정 모사 결과를 토대로 3차년도에 \r\n최적화 모델을 활용하여 자원화 전략을 제시하고자 함.\r\n탄소 효율 (%) \r\n\r\n\r\n ×  \r\n ×   ×  ×  ×  \r\n×   \r\n에너지 효율 (%)   ×    \r\n ×   ×   ×   ×   ×   ×  ×   \r\nCO2 저감량 (kg)   ×   ×   ×   ×   ×   × \r\n ×     ×   ×   ×   \r\n \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 92,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 91 -\r\n그림 22 자원화 전략을 위한 최적화 모델 개발 방법\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 93,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 92 -\r\n그림 23 최적화 모델에 사용된 기본 수리 모델링 구조 및 목적함수\r\n그림 24 다목적함수 (생산비용, 에너지 사용량, 생산량, 이익)에 대한 최적화 모델의 제약조건\r\n5. 수소 공급 전략 구축 및 평가\r\n앞선 1, 2차 년도의 연구를 통해, CO2 촉매 전환을 통한 메탄올 생산 공정의 생산단가는 대략 \r\n$1.15/kg으로 현재의 생산단가 ($0.3-$0.4/kg)에 비하면 경제성이 매우 떨어짐, 이러한 낮은 경\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 94,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 93 -\r\n제성은 높은 수소 공급비용에서 기인함. 즉, 메탄올 생산단가 저하를 위해서는 수소 공급비용\r\n을 낮출 방안을 모색해야 함. 다양한 방법을 통해 수소 생산이 가능하며 본 연구에서는 다양한 \r\n수소 source (부생수소, 습식수소, 다양한 수전해 수소)에 대해 분석함.\r\n그림 25 가능한 수소 공급 전략 예시\r\n1차년도에는 여러 공급 전략 중 2가지 전략에 대해 분석함 (#1: 상대적으로 저렴한 저순도 수\r\n소 (습식수소) 이용, #2: CH4 개질을 통한 On-site 수소 생산).그러나 지속 가능한 시스템을 구\r\n축하기 위해서는 화석연료 기반의 수소보다 신재생에너지 기반 수소를 이용해야 함. 2차년도에는 개괄적인 신재생에너지 기반의 수소를 사용하는 전략을 구축하고 데이터를 수집\r\n하였음.3차년도에는 앞서 조사된 데이터들을 활용하여 메탄올 생산비용을 분석하였으며, 다양\r\n한 대안들을 제시하여 더욱 확장된 연구를 수행함.\r\n- 태양열 기반 신기술을 활용한 수소 생산\r\nSunshine-to-Petrol (S2P) 공정 (태양열을 이용하여 물을 분해하는 공정)을 이용하여 수소 생\r\n산.(9) 물분해 시 필요로 하는 전기를 태양열로 얻는 신기술을 활용하기 때문에 전기 사용에 \r\n따른 이산화탄소 배출이 없음. 공정은 태양열을 통한 수소 생산 장치를 이용한 메탄올 합성 공\r\n정을 나타냄. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 95,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 94 -\r\n그림 26 태양열을 이용한 수소 생산 공정을 포함한 메탄올 합성 공정 흐름도\r\n370kmol/hr의 CO2를 활용하여 344kmol/hr의 메탄올이 생산 가능. 본 공정의 탄소 효율은 92.7%\r\n이며 (Vent-out 비율이 1%일 때), 에너지 효율은 67%임. 본 공정의 생산단가는 $1.026$/kg of \r\nMeOH로 신재생에너지 수소를 외부에서 공급을 받는 경우보다 ($1.14$/kg of MeOH) 10% 저렴\r\n하게 생산 가능. 태양열 포집 장치의 단가가 감소하거나 세금, 이자율 등의 요소가 바뀌게 되\r\n면 생산단가는 더욱 향상될 수 있으며 기존 가격 대비 최대 53% 저렴하게 생산 가능.\r\n그림 27 단위 생산 비용에 대한 민감도 분석 결과\r\n- 물 분해를 통한 수소 생산\r\n신재생에너지 (예. 풍력, 태양광 등)를 통하여 생산된 전기로 물분해를 거쳐 수소를 생산하는 \r\n방법. 가장 친환경적으로 수소를 생산하는 방법이지만 많은 비용이 발생한다는 단점이 있음. 이는 신재생에너지 기술 (예. 풍력발전기, 태양광패널 등)을 이용하여 생산된 전기가 비싸고 물\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 96,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 95 -\r\n분해 시 과량의 전기가 필요하기 때문임. 신재생에너지를 활용한 전기의 생산단가가 낮아지고, 물 분해의 효율 (수소 생산량/사용된 전기량)이 증가하면 수소 단가를 낮출 수 있음. \r\n1단계: 신재생에너지를 활용한 전기 생산 단가 변화\r\n지난 8년간 (2010-2017) 신재생에너지를 이용한 전기 생산단가는 감소하는 추세를 보임.이후 \r\n2020년까지 이 생산단가는 더욱 낮아질 것으로 예상되며 예상된 전기 생산단가는 화석연료를 \r\n이용하여 생산하는 단가와 비교하여 가격경쟁력을 가질 수 있음.\r\n그림 28 신재생에너지에 따른 전기 생산 단가\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 97,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 96 -\r\n그림 29 신재생에너지에 전기 생산 단가 예측\r\n2단계: 물분해 기술의 효율 향상에 따른 수소 생산량 변화\r\n수전해 기술은 크게 (i) ALK (alkaline) 전해조, (ii) PEM (proton exchange membrane) 전해조, \r\n(iii) SOEC (solid oxide electroyser cell) 전해조로 나눌 수 있음. 이 중 ALK 전해조는 현재 가장 \r\n상용화된 기술이며 PEM 전해조는 상용화가 진행 중인 반면, SOEC 전해조는 다른 두 기술에 \r\n비해 높은 효율을 가질 것으로 예상되지만 아직 연구 중인 기술임. 표12는 ALK와 PEM 전해조\r\n의 기술 경제성 평가를 나타내며 각 전해조의 효율은 68%, 64%까지 향상될 것으로 예상됨. 표 12. ALK, PEM 전해조의 기술 경제성 평가.(20)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 98,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 97 -\r\n3단계: 신재생에너지를 활용한 전기 생산 단가 변화\r\n물분해 공정에서 수소 1kg을 생산하는 데에 필요한 전기의 양이 40kWh에서 60kWh의 범위를 \r\n갖고, 신재생에너지를 활용한 전기의 단가가 $0.04/kWh에서 $0.2/kWh로 바뀔 때의 수소 생산\r\n단가는 아래 그림과 같음. 본 연구진은 신재생에너지 기반 전기 생산단가가 $0.1/kWh, 수소 생\r\n산에 필요한 전기량이 50kWh라 설정하고 그때의 수소 생산단가 $5.0를 활용함. 신재생에너지 \r\n기반 전기 생산단가는 최대 $0.04까지 향상될 수 있으며, 단위 수소를 생산하기 위해 필요한 \r\n전기량 또한 최대 49kWh까지 개발할 수 있음. 그림71 의 노란색 영역에 대해서 CO2 직접 전\r\n환 메탄올 합성 공정의 단위 생산 비용을 비교 분석함. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 99,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 98 -\r\n그림 30 신재생에너지 기술 개발에 따른 수소 생산 단가 변화\r\nCO2를 자원으로 사용하였을 경우, 이산화탄소 크레딧에 의해 단가를 낮출 수 있음. 본 연구에\r\n서는 이산화탄소 크레딧을 탄소 1kg을 사용하여 제거했을 때 얻는 경제적 이익으로 정의함. 이\r\n산화탄소 크레딧은 그 값의 범위가 매우 다양함. ($0.1/kg of CO2 - $0.5/kg of CO2)\r\n수소 생산 기술의 발전 및 이산화탄소 사용에 따른 탄소 크레딧을 반영한 메탄올 생산 단가를 \r\n확인 가능.\r\n그림 31 실현가능한 수소 생산 단가를 이용한 메탄올 단위 생산 비용 분석\r\n2차년도의 연구결과에서 CO2의 전환율을 고정하여 경제성이 분석되었다면, 본 연구의 최대 목\r\n표값을 적용하여 메탄올 생산단가를 분석함. 2차년도의 연구수행을 통하여 CO2를 활용한 메탄\r\n올 생산이 직접적인 공정인자 뿐만 아니라 이산화탄소 크레딧, 수소 생산단가에 의해서 크게 \r\n경제성이 변화한다는 것이 입증되었음. 3차년도는 전환율의 목표 값을 적용하여 경제성 개선 \r\n여부에 대하여 조사를 수행하였으며, 기존의 문헌 결과보다 실제 시장에서의 경쟁력이 더 있다\r\n는 것을 입증함. 2차년도의 연구결과를 통해 수소 생산단가는 2.0 ~ 3.0 $/kg, 이산화탄소 크레\r\n딧은 0.05 ~ 0.4$/kg of CO2의 일부 구간에서만이 실제 메탄올 가격과 오버랩 되었음. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 100,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 99 -\r\n그림 32 목표값 실현 시 가능한 메탄올 생산 단가\r\n기존의 문헌상의 CO2 전환율이 24% 일때와 동일한 방법론을 채택하여, 본 연구의 최대 목표값\r\n인 CO2의 전환율을 35%로 수정하여 메탄올 생산단가를 분석함. 앞선 결과와 동일하게 이산화\r\n탄소 크레딧, 수소생산단가에 따라서 메탄올 생산단가는 크게 변화하였음. 또한, CO2 전환율이 \r\n향상되면 실제 가격과의 간극을 더욱 줄일 수 있음. \r\n- 생산 단가 비교 분석\r\n아래 그림은 5가지 시나리오에 대한 메탄올 생산 단가를 나타냄. 현재의 수소 생산 기술 및 이산화탄소 크레딧이 반영되지 않은 메탄올은 높은 생산 단가를 가\r\n짐. (메탄올 생산 단가 대비 약 2.4배) 신재생 전기의 단가 하락 및 물분해 기술의 전환율 향상\r\n에 따라 수소 생산단가는 최대 $2/kg로 저감 가능하며 이때 메탄올은 $0.53/kg으로 생산 가능. 이산화탄소 크레딧을 최대로 반영하면 ($0.4/kg) 메탄올 생산단가는 최대 $0.26/kg까지 가능. 정\r\n제된 CO2, H2가 아니라 매립지가스와 같이 CO2, H2를 생산할 수 있는 물질을 사용하여 메탄올\r\n을 생산하게 되면 단가를 $0.38/kg까지 낮출 수 있음. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 101,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 100 -\r\n5절 CO2로부터 직접 방향족 화합물 제조를 위한 촉매 및 공정 개발 \r\n(5세부)\r\n1. 신규 bifunctional FeAlOx 촉매 설계 및 CO2 전환반응\r\n그림 33 CO2 hydrogenation over various catalysts. (a) CO2 conversion, CO selectivity, \r\nand hydrocarbon selectivity (excluding CO) of various types of catalysts. The FeAlOx-5 \r\ncatalyst was tested with two different CO2/H2 ratios (1:1 and 1:3). (b) CO2 conversion, \r\nCO selectivity, and hydrocarbon selectivity (excluding CO) of bimetallic FeAlOx catalysts with varying Fe/Al ratios. The numbers in the name of the FeAlOx catalyst, \r\ne.g., FeAlOx-8, represent the Fe/Al ratio in the bimetallic catalysts. (c) Detailed \r\ncarbon number distribution of the hydrocarbon species produced over the FeAlOx-5 \r\n(H2/CO2 ratio of 1:1) and (d) Na–Fe3O4 (H2/CO2 ratio of 1:1) catalysts with the ASF \r\nproduct distribution, where Wn represents the weight fraction of the product with \r\nrespect to the number (n) of carbon atoms. Pretreatment conditions: 450 ℃, 3.5 MPa, H2\r\nflow rate of 30 ml min–1 for 10 h. Reaction conditions: 330 ℃, 3.5 MPa, H2/CO2 = 1:1, \r\nand 2000 ml g\r\n–1 h\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 1000 ml g\r\n–1 h\r\n–1). \r\n 다양한 Fe / Al 비를 갖는 이작 용성 FeAlOx 촉매는 간단한 공 침법에 의해 합성되었다. CO2 수소화 반응은 1 : 1의 H2/CO2 비 및 2000 ml g-1 h-1의 공간 속도로 330 ℃ 및 3.5 MPa\r\n에서 FeAlOx에 대해 수행되었다. 도 1a에 도시 된 바와 같이, Fe / Al 비가 1 : 1 인 FeAlOx-5 \r\n촉매의 C5+ 액체 탄화수소 선택성은 20.2 %의 CO2 전환에서 77.0 % (CO 제외)의 값으로 매우 \r\n높았다. CO (16.8 %), CH4 (5.4 %) 및 C2-C4 (17.6 %)에 대한 선택성이 억제되었다. CO를 포함\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 102,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 101 -\r\n할 경우 C5+ 수율은 12.6 %였다. H2/CO2 비가 3 : 1로 증가한 경우, CO2 전환율은 36.8 %로 크게 증가하였고, CO 선택도는 \r\n7.2 %로 추가 억제되었으며, C5+ 탄화수소에 대한 선택성은 57.8%로 약간 감소 하였다 (CO 제\r\n외). CO2 전환율이 높기 때문에 3 : 1의 H2/CO2 비율에서 C5+ 수율은 19.7 %로 증가했다. 표13 C-C 커플링제로 제올라이트를 사용하여 C5+ 탄화수소를 생성하기 위한 CO2 수소화에 \r\n대한 이전에 보고된 결과 및 본 연구의 결과 비교\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 103,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 102 -\r\n그림 34 Comparison of CO2 conversion and C5+ selectivity obtained in the present work vs. \r\nthe data in the published literature, as listed in Tables 1 and 2; (a) single-metal \r\noxide catalysts excluding CO, (b) single-metal oxide catalysts including CO, (c) metal \r\noxide/zeolite composite catalysts excluding CO, (d) metal oxide/zeolite composite \r\ncatalysts including CO. The numbering of each data set represents the citation number of \r\nthe published paper in the bibliography at the end of supplementary data. The yield \r\nlines, denoted as Y = 10%, for example, indicate the yield of C5+ hydrocarbons (here \r\n10%), calculated by multiplying the CO2 conversion by the C5+ selectivity. \r\n 표에 나와 있는 것처럼 C5+ 선택도 계산에서 CO가 고려되지 않은 경우 (대부분의 이전 보\r\n고서에서와 같이), 가장 높은 C5+ 선택도 추가의 C-C 커플링 촉매 (예, 제올라이트)가 필요없\r\n이 1 : 1의 H2 / CO2 비에서 FeAlOx-5 촉매로 달성되었다. 또한, C5+ 선택도 계산에 CO가 포\r\n함 된 경우 (모든 CO2 전환 된 제품에 대해 완전한 C 균형을 제공하는 경우) FeAlOx-5 촉매는 \r\n다른 보고된 촉매 (3.0-16.1 %)와 비교하여 전례 없이 높은 C5+ 액체 탄화수소 수율 (19.7 %)을 \r\n나타냈다. 단일 유형 촉매의 낮은 C5+ 선택성으로 인해, 대부분의 이전 연구는 금속 산화물/제올라이\r\n트 복합 촉매를 사용 하였다. 제올라이트와 FeAlOx-5의 복합화를 통한 촉매 성능을 향상시킬 \r\n가능성을 조사하기 위해 SiO2/Al2O3 비가 80인 제올라이트를 이용하여 FeAlOx-5/HZSM-5를 합\r\n성하고 CO2 수소화를 평가 하였다. CO, CH4 및 C5+ 탄화수소에 대한 FeAlOx-5/HZSM-5 복합 \r\n촉매의 CO2 전환율 및 선택성은 1 : 1의 H2/CO2 비에서 단일 FeAlOx-5 촉매의 것과 유사 하였\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 104,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 103 -\r\n다. H2/CO2 비율이 3 : 1로 증가한 경우 FeAlOx-5/HZSM-5의 C5+ 선택성은 57.8%에서 70.0% \r\n(CO 제외)로 증가하여 C5+ 수율은 19.7%에서 21.6% (CO 포함)에서 약간 증가했습니다. 이전에 보고된 촉매와 달리, FeAlOx-5 촉매에 제올라이트의 혼입은 C5+ 수율을 유의하게 증가\r\n시키지 않았다. 예를 들어, C5+ 수율이 11.7% (Na-Fe3O4)에서 21.2% (Na-Fe3O4/ HZSM-5)로, \r\n16.1% (ZnFeOx)에서 24.3% (ZnFeOx/HZSM-5)로 증가한 것으로 이전에 보고되었다. 따라서, 바\r\n이메탈 FeAlOx-5 촉매에서 C-C 커플링제로서 제올라이트의 역할은 매우 적다. \r\n 한편, FeAlOx-5 촉매가 HZSM-5에 혼입 될 때 C2-C4 올레핀 및 파라핀에 대한 선택성이 \r\n크게 변한다. 예를 들어, FeAlOx-5를 사용하는 경우, C2-C4 올레핀 및 파라핀에 대한 선택성은 \r\n각각 16.2% 및 1.6 %였으며, 올레핀/파라핀 비 (O/P)는 10.1이었다. O/P 비가 0.1 인 \r\nFeAlOx-5/HZSM-5의 경우, 올레핀 (1.5 %) 및 파라핀 (15.1 %)에 대한 선택성이 반전되었다. 또\r\n한, FeAlOx-5/HZSM-5는 FeAlOx-5 (1.0 %)와 비교하여 방향족에 대한 선택성을 72.4 %로 상당\r\n히 향상시켰다. 따라서, FeAlOx-5/HZSM-5 촉매에서 제올라이트의 주요 역할은 C2-C4 올레핀\r\n의 포화 및 C-C 커플링보다는 방향족 화합물에 대한 선택성을 높이는 데 있다. \r\n 제올라이트를 포함하지 않고 고수율 C5+ 탄화수소를 생성하기 위한 FeAlOx-5 촉매의 역할\r\n그림 35 Comparison between CO2 conversion and product selectivity over FeAlOx-5 and \r\nFeAlOx-5/HZSM-5 at 330 ℃ and 3.5 MPa at different CO2/H2 ratios: (a) 1:1 (CO2 = 1000 ml g\r\n–1 h\r\n–\r\n1; H2 = 1000 ml g\r\n–1 h\r\n–1), and (b) 1:3 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 3000 ml g\r\n–1 h\r\n–1)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 105,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 104 -\r\n을 조사하기 위해, FeAlOx의 촉매 성능을 도시 된 바와 같이 Fe2O3, Al2O3, Na-Fe3O4의 촉매 \r\n성능과 비교 하였다. Fe2O3 및 Al2O3 촉매로 달성 된 CO2 전환율은 매우 낮았다 (각각 4.8% \r\n및 1.2%). 한편 Na-Fe3O4의 경우, C5+ 선택성 (CO 제외)은 FeAlOx-5 (77.0 %)에 비해 훨씬 낮\r\n았으며 (57.1 %), C2-C4 선택성 (CO 제외) 및 CO 선택성은 FeAlOx-5보다 각각 훨씬 높았다. \r\n CO2 전환 및 생성물 선택성에 대한 FeAlOx 촉매의 Fe 및 Al 함량의 영향을 평가하기 위\r\n해, Fe/Al 비가 1-9 인 FeAlOx 촉매를 그림 76b에 나타낸 바와 같이 평가 하였다. Fe/Al 비가 \r\n9에서 5로 감소함에 따라 CO2 전환율은 4.8%에서 20.2%로, C5+ 선택성은 20.0%에서 77.0%로 \r\n증가한 반면 CO 선택성은 60.0%에서 16.8%로 감소한다. 한편, Fe/Al 비가 5에서 1로 더 감소한 \r\n경우, CO2 전환율은 20.2%에서 13.0%로, C5+ 선택성은 77.0%에서 58.4%로 감소한 반면, CO 선\r\n택도는 16.8%에서 46.2 %까지 크게 증가한다. 이는 Fe/Al 비가 CO2 전환율 및 생성물 선택성을 \r\n결정하는데 중요한 역할을 한다는 것을 나타낸다. \r\n FeAlOx-5 및 Na-Fe3O4에 대한 반응으로부터의 생성물 분포는 유효 탄소수 방법을 사용하\r\n여 정량화되었다. FeAlOx-5의 경우, C2+ 올레핀에 대한 선택성은 78.5%로 높았으며, 여기서 \r\nC4+ 올레핀은 66.8%를 차지하고, 특히, C4+ linear alpha olefin (LAO)에 대한 선택성은 52.4%였\r\n다. 액체 올레핀 (C5-C18)에 대한 선택성은 62.3%였으며, 액체 LAO는 47.9%를 차지했습니다. 액체 제품의 LAO는 대부분 가소제 및 윤활유 생산에 산업적으로 중요한 화학 물질 인 C6-C11\r\n이다. FeAlOx-5로 수득한 C4+ LAO 및 총 C4+ 올레핀의 수율은 각각 10.6 % 및 13.5 %였으며, 이 값은 이전 연구에서 기록 된 것보다 전례 없이 높았다. 반면 Na-Fe3O4의 경우 C4+ LAO의 \r\n선택성은 FeAlOx-5의 선택보다 훨씬 낮았다 (4.8 %). \r\n 표 14. CO2 수소화로 C4+ 올레핀 생산을 위한 이전에 보고된 결과 및 본 연구결과 비교\r\n H2/CO2 비율을 0.5 : 1에서 3 : 1로 증가시키면 CO2 전환율이 12.5%에서 36.8%로 증가했으\r\n며 CO 선택도는 28.9%에서 7.2%로 급격히 감소한다. 결과적으로, H2/CO2 비가 0.5 : 1에서 3 : \r\n1로 증가 될 때 C5+ 수율은 6.7%에서 19.7 %로 증가하였고, 이는 FT 메커니즘을 통한 충분한 \r\nH2의 존재 하에서 CO2가 액체 탄화수소로 추가 전환되는 것을 나타낸다. 또한, 충분한 H2의 존\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 106,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 105 -\r\n재 하에서, 산소화 종 (예를 들어, 에탄올, 아세트산, 1- 부탄올)의 형성이 3.2 내지 0.7 %로 억\r\n제되었다. H2/CO2 비를 3 : 1로 증가 시키면 올레핀의 수소화를 통한 파라핀이 형성되는 것을 \r\n알 수 있다. C2+의 O/P 비는 3 : 1의 H2 / CO2 비에서 5.1에서 1.0의 H2 / CO2 비에서 2.3으로 \r\n감소한다. \r\n CO2 수소화 반응은 2 : 1의 H2/CO2 비로 330 ℃에서 0.5-3.5 MPa 범위의 다양한 압력에서 \r\n수행되었다. 반응 압력이 0.5에서 2.5 MPa로 증가함에 따라 CO2 전환율은 2.6%에서 25.7 %로 \r\n그림 36 Catalytic hydrogenation of CO2 over the FeAlOx-5 catalyst (a) at varying H2/CO2 ratios, \r\nand product distribution at H2/CO2 ratios of (b) 0.5 (c) 1, (d) 2, and (e) 3. Reaction \r\nconditions: 330 ℃, 3.5 MPa; the flow rate of the reactant gas mixture was: (b) 1500 ml g\r\n–1 h\r\n–1\r\n(CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 500 ml g\r\n–1 h\r\n–1 ), (c) 2000 ml g\r\n–1 h\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 1000 \r\nml g\r\n–1 h\r\n–1 ), (d) 3000 ml g\r\n–1 h\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 2000 ml g\r\n–1 h\r\n–1 ), and (e) 4000 ml g\r\n–1\r\nh\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 3000 ml g\r\n–1 h\r\n–1 )\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 107,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 106 -\r\n크게 증가했고 C5+ 선택도는 40.8%에서 66.8% (CO 제외)로 증가한 반면, 압력을 3.5 MPa로 증\r\n가시키면 CO2 전환율은 26.7%, C5+ 선택성은 71.7%로 다소 증가한다. 고정된 H2/CO2 비율이 1 : 1 인 CO2 및 H2 가스 혼합물의 공간 속도를 2000에서 10000 ml g-1 \r\nh-1로 증가시키면 CO2 전환율이 20.2%에서 13.2%로 감소하고 CO 선택성이 16.8%에서 35.6%으\r\n로 증가한 반면, C5+ 선택성은 71.0-77.0% 범위에서 크게 변하지 않는다.\r\n그림 37 Catalytic hydrogenation of CO2 over bimetallic FeAlOx-5 catalyst (a) at varying \r\noperating pressures; (b) product distribution at pressures of (b) 1.5 MPa (c) 2.5 MPa, and (d) \r\n3.5 MPa. Reaction conditions: 330 ℃, 3.5 MPa, H2/CO2 = 2:1, 3000 ml g\r\n–1 h\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 2000 ml g\r\n–1 h\r\n–1)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 108,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 107 -\r\n그림 38 Catalytic hydrogenation of CO2 over bimetallic FeAlOx-5 catalyst (a) at varying space \r\nvelocities; (b) product distribution at space velocities of (b) 2000 ml h\r\n–1 g\r\n–1, (c) 10000 ml h\r\n–1 g\r\n–1. Reaction conditions: 330 ℃, 3.5 MPa, H2/CO2 = 1:1\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 109,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 108 -\r\n 촉매 합성 및 CO2 전환 반응의 재현성을 평가하기 위해서 상이한 시간에 상이한 배치의 \r\nFeAlOx-5 촉매를 합성 하였다. 모든 촉매의 반응성과 선택성이 동일한 반응 조건에서 잘 재현\r\n되었음을 보여준다. \r\n FeAlOx-5 촉매의 장기 안정성을 평가하고 그 결과를 나타냈다. 초기 CO2 전환율 및 탄화\r\n수소 선택성은 최대 450 시간 동안 유지되었지만, CO 선택도는 17.2%에서 28.9%로 약간 증가\r\n그림 39 Reproducibility of catalytic hydrogenation of CO2 over different batches of the \r\nFeAlOx-5 catalyst. Reactions conditions: 330 ℃, 3.5 MPa, H2/CO2 = 2:1, 3000 ml g\r\n–1 h\r\n–1 (CO2 = \r\n1000 ml g\r\n–1 h\r\n–1; H2 = 2000 ml g\r\n–1 h\r\n–1)\r\n그림 40 Stability of bimetallic FeAlOx-5 catalyst. Reaction conditions: 330 ℃, 3.5 MPa, \r\nH2/CO2 = 1:1, and 2000 ml g\r\n–1 h\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 1000 ml g\r\n–1 h\r\n–1)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 110,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 109 -\r\n했다. 450 시간 반응 동안 C5+ 액체 수율이 11.9%에서 10.0 %로 약간 감소되었다. 따라서 \r\nFeAlOx-5 촉매는 장기운정성이 매우 뛰어난 것을 확인했다. \r\n그림 41 Structural characterization of catalyst. HR-TEM image of (a) fresh, (b) reduced, and \r\n(c) spent FeAlOx-5 catalysts. (d) XRD analysis of fresh, reduced, and spent FeAlOx-5 \r\ncatalysts. (e) Mössbauer spectra of the spent FeAlOx catalyst. Reaction conditions: 330 ℃, \r\n3.5 MPa, H2/CO2 = 1:1, and 2000 ml g\r\n–1 h\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 1000 ml g\r\n–1 h\r\n–1)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 111,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 110 -\r\n 위에 도시 된 바와 같이, 신선한 FeAlOx-5의 HR-TEM 및 XRD 패턴은 결정질 Fe2O3 상 및 \r\n비정질 AlOx의 두 가지상의 존재를 나타냈다. FeAlOx-5 촉매는 (104), (110), (116) 및 (214)면을 \r\n갖는 헤마 타이트 (Fe2O3) 상을 포함하였고, 결정성 Al2O3상과 관련된 피크는 관찰되지 않았다. \r\nICP-OES결과 새로운 FeAlOx-5 촉매에서 Fe 및 Al의 양이 각각 21.8 및 21.1 중량 %임을 나타\r\n내며, 이는 충분한 양의 Al 종이 존재함을 나타낸다. \r\n Al 종의 화학적 성질을 조사하기 위해 UHV-XPS 분석을 수행 하였다. 74.6 eV의 결합 에너\r\n지에서의 피크는 새로운 FeAlOx-5 촉매에서 비정질 산화 알루미늄의 존재를 나타낸다. 따라서, 신선한 FeAlOx-5 촉매는 결정성 Fe2O3 및 비정질 산화 알루미늄 상이 서로 근접해 있음을 알 \r\n수 있다. \r\n그림 42 Ultra-high vacuum X-ray photoelectron spectrum (UHV–XPS) of Al 2p region.\r\n그림 43 XRD patterns of (a) FeAlOx catalysts with varying Fe/Al ratios, \r\ncalcined at 600 ℃ for 6 h under static air conditions, and (b) FeAlOx-5 \r\ncatalysts calcined at 500–900 ℃ for 6 h under static air conditions. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 112,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 111 -\r\n 한편, Al 함량이 높은 FeAlOx 촉매 (FeAlOx-1 및 FeAlOx-2)는 45.8° (400) 및 66.8°의 2\r\nθ 값에서 결정질 Al2O3 상 (JCPDS No. 29–0063)과 관련된 특징적인 피크를 나타냈다. (440)는 \r\n다량의 Al을 혼입하면 결정성 Al2O3상을 형성시킬 수 있음을 나타낸다 (보조도 9a). 또한, Al이 \r\n풍부한 FeAlOx 촉매에서 NaAlO2 결정상 (JCPDS No. 19-1179)이 관찰되었으며, 이는 Al 및 Na\r\n가 바이메탈 옥사이드 상을 형성함을 나타낸다. FeAlOx-5 촉매의 결정 구조에 대한 소성 온도의 영향을 파악하기 위해 소성 온도를 \r\n500-900 ℃ 범위에서 변화시켰다. 900 ℃의 고온에서도 FeAlOx-5 촉매에서 결정질 Al2O3상의 \r\n형성은 관찰되지 않았으며, Fe2O3의 결정성은 온도가 증가함에 따라 증가 하였다. 이는 새로\r\n운 FeAlOx-5 촉매에서 Fe2O3 도메인의 존재가 Al2O3의 결정화를 억제함을 나타낸다. 600 ℃에\r\n서 소성된 FeAlOx-5 촉매에서 Fe2O3의 결정 크기는 모든 주요 평면 ((102), (104), (110), (204), \r\n(116), (214) 및 ( 300))는 Scherrer으로 계산할 경우 25.3 nm 이였다. 450 ℃ 및 3.5 MPa H2에서 \r\n환원 후, 30.1° (202), 35.5° (311), 43.1° (400), 57.0° (511) 및 62.6° (404)에서 XRD 피크에 \r\n의해 확인된 바와 같이, 적철석 상을 자철석 (Fe3O4) 상으로 전환시켰다. 환원된 FeAlOx-5 촉\r\n매의 XRD 패턴은 또한 44.7 °에서의 피크 (JPCDS No. 89-7194)에서 알수 있는 바와 같이 α\r\n-Fe상의 존재를 나타내었고, 이는 CO2 수소화를 위한 촉매의 활성을 향상시킬 수 있음을 나타\r\n낸다. 이는 반응 조건 하에서 활성 Fe5C2 및 Fe3O4 상으로 빠르게 변형되기 때문이다. 환원된 \r\nFeAlOx-5 촉매에서 Fe3O4상의 결정 크기는 Fe2O3에 비해(25.3nm) 20.7nm로 약간 감소했다. 표 15. Fe/Al 비가 다양한 FeAlOx 촉매의 BET 표면적, 기공 부피, 평균 메소포어 직경 및 결정 \r\n크기의 비교\r\n 330 ℃ 및 3.5 MPa에서 80 시간 동안 반응시킨 후 회수된 FeAlOx-5 촉매의 XRD 패턴은 \r\n탄화철과 관련된 피크를 나타냈다 (χ-Fe5C2, JCPDS, 51–0997) (도 9c-d). 이 결과는 Hägg 철 \r\n카바이드가 FT 합성을 통해 C-C 커플링 반응을 향상시켜 CH4 형성을 적극적으로 완화 할 수 \r\n있음을 나타낸다. 사용 된 FeAlOx-5의 XRD 패턴은 높은 밀러 지수 (510) 패싯의 강한 신호를 \r\n보였다. (510) 패싯은 χ-Fe5C2의 낮은 표면 에너지로 인해 주로 표면에 노출된 것을 알 수 있\r\n다. 따라서, (510) 패싯의 존재는 CO2 수소화를 위한 FeAlOx-5 촉매의 높은 활성을 확인시켜 \r\n준다. CO2 수소화에 대한 활성철상을 정량화 하기 위해, 사용된 FeAlOx-5 촉매를 Mössbauer 분광법\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 113,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 112 -\r\n에 의해 분석하였다. 사용된 촉매는 Fe3O4 (RWGS 반응) 및 χ-Fe5C2(C-C 커플링 반응)의 2 개\r\n의 식별 가능한 활성상을 포함 하였다. Fe3O4상에서 가장 잘 맞는 철 모델은 사용 된 촉매의 \r\n다상 스펙트럼으로 표시되며, 여기에는 Fe3O4–A (사면체 Fe3+ 이온 포함) 및 Fe3O4–B (팔면체 \r\n구조에서 Fe2+ 이온 및 Fe3+로 구성)에 해당하는 두 개의 비등가 철 사이트가 포함된다. 사용\r\n된 촉매에서 3 개의 서로 다른 비등가 철 사이트가 포함된 χ-Fe5C2이 64.7%에 해당되어 주성\r\n분임을 알 수 있으며, Fe3O4가 35.3%로 두 번째로 지배적인 상이었다. 따라서, RWGS의 반응\r\n을 책임지는 Fe3O4와 C-C 커플링 반응을 책임지는 χ-Fe5C2가 서로 잘 분배된 형태로 \r\nFeAlOx-5 촉매에 매우 양호한 활성을 부여한다.\r\n표 16. Mössbauer 분광법으로 계산된 사용된 FeAlOx-5촉매 내 존재하는 Fe 종류의 정량화\r\n그림 44 Comparison of catalytic performance of FeAlOx-5 and Na–Fe3O4 catalysts. Reaction \r\nconditions: 330 ℃, 3.5 MPa, H2/CO2 ratio of 1:3, 4000 ml g\r\n–1 h –1 (1000 ml h\r\n–1 g\r\n–1 of CO2; H2 = \r\n3000 ml g\r\n–1 h\r\n–1) CO2 수소화 및 생성물 선택성에 대한 비정질 AlOx상의 영향을 조사하기 위해, Na-Fe3O4로 \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 114,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 113 -\r\n얻은 생성물 분포를 FeAlOx-5로 얻은 것과 비교 하였다. FeAlOx-5 촉매는 Na-Fe3O4 (42.0 %)\r\n보다 C5+ 선택성이 높았다 (CO를 제외하고 57.6 %). 무정형 AlOx는 C2-C4 올레핀의 재흡착을 \r\n위한 효과적인 활성 부위를 제공할 수 있으며, 이는 C6-C12 LAO 선택성을 증가시키기 위해 \r\n추가적인 C-C 커플링을 위한 플랫폼을 제공 할 수 있다고 추정된다. 흡착된 CO는 추가의 FT \r\n합성을 거쳐 액체 탄화수소의 전체 수율을 증가시켜 Na-Fe3O4 (19.0 %)에 비해 CO 선택성이 \r\n낮다 (7.2 %). H2-TPD 분석에 의해 H2-spillover 효과를 조사하였다. H2-spillover는 촉매 표면에서의 흡착\r\n된 H2의 이용 가능성을 증가시킬 수 있으며, 이는 FT 합성을 통한 CO 수소화를 촉진하여 고수\r\n율의 장쇄 탄화수소 생성을 활성화 시킬 수 있다. 신선하고 환원된 FeAlOx-5 촉매에서 \r\nH2-spillover의 양은 0.27-0.40 mmol g-1 범위로 유사했으며, 총 H2 탈착 값은 0.65–0.74 mmol \r\ng-1이다. FeAlOx-0 (순수한 Al2O3)의 경우, 약한 H2 흡착의 증거는 없었지만, 총 H2 탈착은 0.54 \r\nmmol g-1이었다. 한편, 순수한 철 촉매 (Na-Fe3O4)는 고온 범위에서 극소량의 수소의 탈착을 \r\n보여 주었으며, 이는 순수한 철 기반 촉매가 H2-spillover에 효과적이지 않음을 나타낸다. 따라\r\n서 FeAlOx-5 촉매에서 상당한 H2-spillover의 주요 원인은 비정질 AlOx상의 존재임을 알 수 있\r\n다. 비정질 AlOx상은 H2 흡착열을 증가시키고 FeAlOx-5 촉매에서 H2-spillover를 향상시킴으로\r\n써 CO2를 LAO로 전환시키는 데 중요한 역할을 한다.\r\n그림 45 H2–TPD profiles of (a) fresh FeAlOx-5, (b) reduced FeAlOx-5, and (c) Na–Fe3O4. \r\nReduction conditions: 450 ℃, 3.5 MPa H2 pressure, 30 ml min –1 for 10 h\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 115,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 114 -\r\n그림 46 NH3–TPD profiles of (a) FeAlOx-10, (b) FeAlOx-8, (c) FeAlOx-5, (d) FeAlOx-1, (e) \r\nFeAlOx-0, and (f) Na–Fe3O4 비정질 AlOx상의 존재는 NH3-TPD 프로파일에 의해 입증된 바와 같이 FeAlOx-5 촉매의 \r\n산도를 유의하게 향상시켰다. 산 강도는 약한 (100-400 ℃), 중간 (401-650 ℃) 및 강한 \r\n(651-1000 ℃) 탈착 영역으로 분류된다. FeAlOx-10 (순수한 Fe2O3)의 경우, 산도는 낮았으며 \r\n(0.34mmol g-1), FeAlOx-5 촉매의 산도는 훨씬 높았다 (2.35mmol g-1). Al2O3 성분이 100 %인 \r\nFeAlOx-0의 경우 촉매의 산도는 2.48mmol g-1로 증가했다. 특히, FeAlOx-5, FeAlOx-1 및 \r\nFeAlOx-0 촉매에서 대부분의 산 부위는 중간 강도 영역에 속한다. C-C 커플 링 반응은 산성 \r\n부위의 유형 및 강도에 크게 의존하며, 결국 FT 합성을 통한 CO2 전환 동안 생성물의 선택성\r\n을 결정한다. 일반적으로, 강산성 부위 (예, 제올라이트)는 활성이 높은 것으로 간주되며 장쇄 \r\n탄화수소가 C1-C4 기체 종으로 과도하게 크래킹 될 수 있지만 약산성 부위는 올리고머화 반응\r\n에 강하게 활성화되지 않는다. 다수의 강하고 약한 산성 부위가 존재하는 것은 C5+ 액체 탄화\r\n수소의 선택적 생산에 바람직하지 않다. FeAlOx-5 촉매는 C5+ 액체 탄화수소를 생성하기 위해 \r\nC-C 커플 링 반응을 적극적으로 촉진 할 수 있는 비교적 더 중간 강도의 산성 부위 (2.35 \r\nmmol g-1)를 함유하고 있다. Al 이 풍부한 촉매 (FeAlOx-1 및 FeAlOx-0)도 많은 중간 강도의 \r\n산성 부위를 보유하고 있었지만, 매우 낮은 산화철의 존재로 RWGS 반응을 제한하여 CO2 전환\r\n율 및 C5+ 선택성이 낮았다. Na-Fe3O4의 경우, C-C 커플링 반응을 촉진하기 위해 중간 강도의 \r\n산성 부위 (0.04 mmol g-1)가 거의 없었으므로 C5+ 액체 탄화수소에 대한 선택성이 낮아졌다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 116,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 115 -\r\n그림 47 CO2–TPD profiles of (a) fresh FeAlOx-5, (b) reduced FeAlOx-5, and (c) Na–Fe3O4. \r\nReduction conditions: 450 ℃, 3.5 MPa H2 pressure, 30 ml min –1 for 10 h\r\n CO2 흡착을 조사하기 위해 FeAlOx-5 및 Na-Fe3O4 촉매의 표면 염기도는(CO2–TPD)을 사용\r\n하여 조사했다. 신선하고 환원된 FeAlOx-5 촉매의 경우, CO2 탈착은 주로 중간 강도 부위에서 \r\n일어났다. 신선하고 환원된 FeAlOx-5의 전체 염기도는 0.42–0.48 mmol g–1 이며, 강염기는 0.14\r\n–0.18 mmol g–1 으로 매우 유사했다. 한편, Na-Fe3O4의 경우, 중간 강도 부위는 거의 없었으며 \r\n(0.01 mmol g-1), 강염기 부위와 관련된 피크는 관찰되지 않았지만 약한 염기 부위 (0.12 mmol \r\ng–1)는 다소 관찰되었다. 강한 염기성 및 중간 강도의 염기성 부위는 FeAlOx-5 촉매상의 반응\r\n물 및 중간체 종의 흡착 동안 Fe-C 결합의 형성에 지배적인 역할을 한다. 올레핀의 형성은 \r\nFe-C 결합의 강도에 크게 의존한다. Fe-C 결합 강도가 증가함에 따라, 촉매 표면상의 CO/H2\r\n커버리지 비율이 증가하여 CH2- 모노머의 과도한 수소화를 억제하고, 따라서 파라핀 형성을 \r\n방해함으로써 올레핀에 대한 선택성을 향상시킬 수 있다. FeAlOx-5 촉매의 중간 및 고강도 염\r\n기 부위는 Fe5C2상의 형성에 기여할 수 있고, 따라서 C-C 커플 링 반응을 향상시킨다. ICP-OES를 사용하여 측정된 바이메탈 FeAlOx-5 촉매에서 잔류 나트륨의 양은 0.74 wt%였\r\n다. FeAlOx-5에서 Na의 존재는 CO2 전환 및 생성물 선택성에 중요한 영향을 끼친다. 알칼리 \r\n금속과 관련된 높은 염기성으로 인해 CO 흡착열은 증가하는 반면 H2 흡착열은 감소한다. CO\r\n의 우선 흡착은 FT 합성을 통한 C-C 커플링을 촉진하여 올레핀을 선택적으로 생성하며 과도\r\n한 수소화를 억제하여 바람직하지 않은 CH4 형성을 억제한다. FeAlOx-5 위에 C2-C4 올레핀을 \r\n형성한 후, Fe5C2 및 AlOx 활성 부위의 근접성으로 인해 비정질 AlOx 부위에서 C2-C4 올레핀\r\n의 재흡착이 활성화되어 C5+ 탄화수소의 선택적 생성을 초래할 수 있다 (77.0%). 한편, Na-Fe3O4 촉매의 경우, C2-C4 올레핀에 대한 높은 선택성 (34.5 %)은 C2-C4 올레핀의 재흡수\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 117,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 116 -\r\n가 활성화되지 않았음을 나타낸다.\r\n그림 48 In situ near ambient pressure X–ray photoelectron spectra (NAP–XPS) of the fresh \r\nFeAlOx-5 catalyst. (a) High-resolution O 1s spectrum, (b) high-resolution C 1s spectrum, and \r\n(c) high-resolution Fe 2p spectrum, which were compared with the spectrum collected under \r\nultra-high vacuum conditions 대기압 X-선 광전자 분광법 (NAP-XPS)을 사용하여 CO2 전환 (330 ℃, 0.1 mbar CO2, 0.1 \r\nmbar H2) 동안 FeAlOx-5 촉매의 화학적 환경의 변화를 조사하였다. NAP–XPS 데이터는 CO2\r\n전환 동안 새로운 FeAlOx-5 촉매가 환원되고 상당한 양의 표면 oxygen vacancies (21.6 %)이 \r\n생성되어 촉매 표면에서 CO2와 H2의 흡착을 촉진함을 나타낸다. 그림 89a에 도시 된 바와 같\r\n이, O1s 스펙트럼은 531.7eV에서 산소 결함에 근접한 산소 (O1s), 530.5eV에서 산소 격자 원자 \r\n및 529.6eV4에서 금속-산소 결합에 해당하는 피크로 나뉠 수 있다. 한편, CO2/H2 혼합물이 사\r\n용 된 경우, 금속 카바이드 및 금속 카복실레이트에 각각 해당하는 282.9 및 287.7 eV에서 2 \r\n개의 추가 피크가 관찰되었다. Fe 2p 영역에 대한 XPS 데이터 UHV 및 NAP 조건하에도 그림 \r\n89c에 도시되었다. UHV 조건 하에서, 스펙트럼은 Fe2O3에 해당하고 각각 709.8 및 723.5 eV에\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 118,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 117 -\r\n서 결합 에너지 피크를 갖는 Fe2p3/2 및 Fe2p1/2 상태는 Fe2O3을 나타낸다. 한편, 반응 가스 \r\n혼합물의 존재 하에서, FeAlOx-5에 대한 CO2 수소화 동안 Fe3O4 형성에 의한 더 높은 결합 에\r\n너지를 향한 피크 이동이 관찰되었다 (Fe2p3/2 및 Fe2p1/2 피크는 각각 711.0 및 724.2 eV에서 \r\n관찰됨). \r\n 환원된 FeAlOx-5 촉매의 활성 부위의 성질을 추가로 조사하기 위해 XAS을 사용하였다. 도 17a에 도시된 환원된 촉매의 XANES 스펙트럼은 표준 Fe3O4 및 Fe 포일의 스펙트럼과 유사\r\n하여 Fe2O3의 Fe3O4 로의 환원 및 금속성 α-Fe상의 형성을 확인할 수 있다. 도 17b에 도시 \r\n된 EXAFS 스펙트럼의 푸리에 변환 강도는 제 1 조정 쉘이 Fe3O4의 Fe-O 경로를 나타내고, 제 \r\n2 조정 쉘은 BCC 구조를 가진 금속 α-Fe의 Fe-Fe 경로에 대응함을 나타낸다. 세 번째 쉘은 \r\nFe3O4 단계에서 Fe–Fe 경로에 할당 될 수 있다. RWGS 반응의 활성 부위 인 환원 된 \r\nFeAlOx-5 촉매에서 Fe3O4 및 금속 철상의 존재는 NAP-XPS 및 XRD 결과와 잘 일치한다. 위에서 기술한 결과를 바탕으로 FeAlOx-5 촉매의 반응메커니즘을 제시하였다. Na-Fe3O4 촉매\r\n의 경우, 반응 결과는 Fe3O4 부위에 대한 RWGS 반응을 통해 CO2가 CO로 변환된 후 활성 \r\nHägg 철탄화물상이 FT 반응으로 CO2 및 H2를 C2–C4 경질 올레핀으로 변환함을 나타낸다. 일\r\n단 C2–C4 경질 올레핀이 탄화철상에서 탈착되면, 이들 종의 재흡착은 높은 열역학적 안정성과 \r\n그림 49 X-ray absorption spectra of Fe K-edge for reduced FeAlOx-5 with different standards \r\n(iron foil, FeO, and Fe3O4). (a) XANES spectra and (b) Fourier-transformed intensity of EXAFS \r\nspectra. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 119,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 118 -\r\n촉매 표면의 높은 CO 적용 범위로 인해 상당히 어려워지고, 궁극적으로 추가 사슬 성장의 진\r\n행을 감소시킨다. \r\n Na-Fe3O4와 유사하게, FeAlOx-5 촉매의 존재하에서 RWGS 반응은 결정질 Fe3O4상에서 발\r\n생하고 C-C 커플링 반응은 탄화철 표면에서 발생하여 C2-C4 올레핀을 생성한다. C2–C4 올레\r\n핀의 재흡착은 철카바이드 상에 가까운 비정질 AlOx 활성 부위의 존재로 인해 활발히 발생하\r\n여 C5+ 액체 탄화수소에 대한 높은 선택성을 초래한다는 것이 논리적으로 추측 될 수있다. α\r\n-올레핀의 올리고머화에 알루미늄계 루이스 및 브뤤스테드산 (예, AlCl3, 비정질 Al2O3-SiO2) 촉\r\n매가 널리 사용되는 것으로 알려져 있다. 따라서, 부피가 큰 분자 (C5+)가 AlOx 표면으로부터 \r\n탈착 될 때까지 C2-C4 올레핀의 재흡착에 의해 추가적인 C-C 결합이 발생할 수 있다. \r\n 상기 개발된 신규 FeAlOx-5 촉매를 이용하여 HZSM-5와 컴파짓 형성을 통해 CO2로부터 \r\n직접 방향족 화합물 합성을 시도하였다. FeAlOx-5 촉매를 이용하여 HZSM-5와 컴파짓 형성 절\r\n차를 나타내었다. 방향족 화합물 수율을 향상시키기 위해 HZSM-5에 Zn doping 및 HZSM-5의 \r\n표면에 SiO2 코팅을 수행하였다. \r\n그림 50 Proposed reaction mechanisms for the conversion of CO2 into C5+ olefins and paraffins \r\nover bifunctional FeAlOx-5 and over Na–Fe3O4\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 120,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 119 -\r\n그림 51 Proposed reaction mechanisms for the conversion of CO2 into C5+ olefins and paraffins \r\nover bifunctional FeAlOx-5 and over Na–Fe3O4\r\n그림 52 Catalytic hydrogenation of CO2 over FeAlOx-5/HZSM-5 catalyst (a) FeAlOx, (b) \r\nFeAlOx/HZSM-5(23), (c) FeAlOx/Zn-HZSM-5(23), (d) FeAlOx/HZSM-5(23)@SiO2 and (e) \r\nFeAlOx/Zn-HZSM-5(23)@SiO2. Reaction conditions: FeAlOx/HZSM-5 = 1:1, 335 ℃, 3.5 MPa, H2/CO2 = \r\n3:1, 4000 ml g\r\n–1 h\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 3000 ml g\r\n–1 h\r\n–1)\r\n 먼저 그림 93에서 FeAlOx를 이용할 경우 방향족 화합물의 형성은 관찰되지 않았으나, \r\nSi/Al 비가 23인 HZSM-5를 이용하여 FeAlOx/HZSM-5비를 1:1로 컴파짓을 형성한 \r\nFeAlOx/HZSM-5(23) 촉매의 경우 CO2 전환율이 31%, 방향족 선택도가 34.3%로 높았으나 BTEX \r\n(benzene, toluene, ethylbenzene, xylene) 선택도가 1.1%, PX (pare-xylene) 선택도가 0.4%로 낮\r\n았다. 이를 개선하기 위해서 Zn가 코팅된 HZSM-5를 이용하여 FeAlOx와 컴파짓을 형성한 \r\nFeAlOx/Zn-HZSM-5(23)의 경우 CO2 전환율이 43.1%로 증가하였으며, 방향족 선택도가 32.7%, \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 121,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 120 -\r\nBTEX 선택도가 9.9%, PX 선택도가 3.5%로 다소 증가하였다. \r\n BTEX 선택도 및 PX 선택도를 증가시키기 위해서 HZSM-5표면에 SiO2 코팅을 한 이후 \r\nFeAlOx와 컴파짓을 형성한 FeAlOx/HZSM-5(23)@SiO2 촉매의 경우 CO2 전환율이 41.2%, 방향족 \r\n선택도가 28.2%, BTEX 선택도가 12.9%, PX 선택도가 3.2%로 BTEX 선택도가 다소 증가하였음\r\n을 알 수 있었다. 한편 FeAlOx/Zn-HZSM-5(23)@SiO2를 이용할 경우 CO2 전환율이 26.6%로 다\r\n소 감소하였으며 방향족 선택도가 8.2%, BTEX 선택도가 5.4%, PX 선택도가 1.0%로 각각 감소\r\n하였다. \r\n CO2 전환율 및 방향족 화합물의 선택도를 향상시키기 위해서 370도에서 반응을 수행하였\r\n으며 그 결과를 나타내었다. FeAlOx/HZSM-5(23) 촉매를 이용할 경우 CO2 전환율이 46.8%로 \r\n335도에 비해 증가하였으며, 방향족 선택도가 9.9%, BTEX 선택도가 0.9%, PX 선택도가 0.7%로 \r\n매우 낮았다. 한편, FeAlOx/Zn-HZSM-5(23) 촉매를 이용할 경우 CO2 전환율이 39.6%로 다소 감\r\n소하였으나, 방향족 선택도가 24.2%, BTEX 선택도가 5%, PX 선택도가 2.7%로 다소 증가하였\r\n다. \r\n그림 53 Catalytic hydrogenation of CO2 over FeAlOx-5/HZSM-5 catalyst. (a) \r\nFeAlOx/HZSM-5(23), (b) FeAlOx/Zn-HZSM-5(23), (c) FeAlOx/HZSM-5(23)@SiO2 and (d) \r\nFeAlOx/Zn-HZSM-5(23)@SiO2. Reaction conditions: FeAlOx/HZSM-5 = 1:1, 370 ℃, 3.5 MPa, \r\nH2/CO2 = 3:1, 4000 ml g\r\n–1 h\r\n–1 (CO2 = 1000 ml g\r\n–1 h\r\n–1; H2 = 3000 ml g\r\n–1 h\r\n–1)\r\n \r\n \r\n FeAlOx/HZSM-5(23)@SiO2 촉매를 이용할 경우 CO2 전환율이 44.3%로 다소 증가하였으며, 방향족 선택도가 30.1%, BTEX 선택도가 9.6%, PX 선택도가 2.1%로 증가하는 경향을 나타냈다. 마지막으로 FeAlOx/Zn-HZSM-5(23)@SiO2를 이용할 경우 CO2 전환율이 45.2%, 방향족 선택도가 \r\n38.7%, BTEX 선택도가 22.8%, PX 선택도가 6.0%로 증가하였다. \r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 122,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 121 -\r\n제 4 장 목표달성도 및 관련분야에의 기여도\r\n1절 목표\r\n1. CO2 직접수소화를 통한 액체 탄화수소 연료 제조 촉매 및 공정 개발 (1세부)\r\no 촉매 활성 및 안정성 개선 연구\r\nŸ 이론계산 및 실험 데이터를 바탕으로 촉매 활성 개선 연구\r\nŸ Steady state에서의 촉매 안정성 개선 연구\r\n- CO2 전환율 > 45% \r\n- C3+ 수율 > 35% \r\n- 100시간 이상 운전시 Steady state* 에서의 수율 대비 80% 이상\r\no 유동적 전력공급에 적합한 반응기술\r\nŸ 촉매 활성 및 안정성을 기준으로 성능에 부담을 저감시킬 수 있는 운전기술 도출\r\nŸ 재생에너지 전력 공급 시나리오 도출 \r\nŸ 촉매 활성 및 안정성에 부담을 줄이는 반응 변수 도출 및 운전 기술 개발 \r\n- Non-steady state 시나리오 별 최적 운전 방법 확립\r\n2. 중온-저온 2단계 CO2 수소화 메탄올 합성반응공정 개발 (2세부)\r\no 기상 메탄올 합성반응용 촉매 개발 (중온, 저온용) Ÿ MeOH 수율 >17%, 생산량 >500g MeOH/kgcat·h @ Trxn<250°C, P<60 bar, \r\nGHSV<10,000\r\nŸ 촉매 내구성: >100h, 활성감소속도 <10%/100h\r\nŸ 촉매활성과 선택성 향상, 비활성화 방지방안 개발\r\n- 촉매물질, 조성, 분포, 구조 최적화 \r\n- 촉매 제조법 최적화 (precursor preparation, aging, synthesis, calcination) Ÿ 메탄올 전환속도와 전환율 최적화를 위한 반응온도, 압력 도출\r\nŸ 촉매 내구성(비활성화 특성) 평가\r\no 액상 메탄올 합성반응용 촉매 개발 (저온용) Ÿ >5g MeOH /Lrxt·h @ <160oC, P<60 bar\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 123,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 122 -\r\nŸ 촉매 설계와 반응성 개선 \r\n- Ru을 함유하는 균질 유기금속촉매 개발\r\n- 촉매분리가 용이한 Ru계 비균질 촉매 개발\r\nŸ 촉매, 용매, 아민계 첨가제 조합과 조성 최적화\r\no 공정개념 수립\r\nŸ Lab-scale 장치 test, Bench-scale 장치설계 \r\nŸ 중온-저온 2단계 반응시스템에 대한 공정개념 수립\r\n- 중온-저온 다단반응 공정 타당성, 경제성 평가 \r\n- Lab-scale (0.1 kg/d MeOH) 반응, 분리 단위장치 test - Bench-scale (1 kg/day MeOH) 장치 설계  \r\n3. 이산화탄소로부터 경질 올레핀을 생산하는 촉매 및 공정기술 개발 (3세부)\r\no 촉매 안정성 검증\r\nŸ 그래프가 안정해진 시점으로 부터 5%미만 감소\r\nŸ 100시간 이상 안정한가\r\no 촉매 및 반응 조건 최적화\r\nŸ 촉매와 프로모터, 반응조건을 전환율, 선택도, 안정성을 모두 고려하여 최적화\r\n- CO2 전환율 50% 이상 \r\n- 경질올레핀 선택도 50% 이상\r\n4. 최적화 기법을 이용한 CO2 직접자원화 설계기술 개발 및 평가 (4세부)\r\no CO2 수소화 및 고도화 기술합성을 통한 최적 CO2 직접자원화 공정 개발\r\nŸ CO2 분리, 수소화 및 고도화 등 단위 요소 기술 설계 \r\nŸ CO2 자원화 기술 상부 구조 개발\r\no 설계 결과를 기반으로 빅데이터 기법을 이용한 공정 자동 플랫폼 개발\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 124,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 123 -\r\nŸ 최적의 CO2 자원화 규명을 위한 혼합정수계획법기반 최적화 모델 개발\r\nŸ 탄소효율 (carbon efficiency) 95% 이상의 CO2 직접자원화 기술 설계집\r\n- 최적 재사용 기술 활용을 통한 기본공정 대비 물질 손실 10% 실현\r\n- 열교환망 합성 기술을 통한 기본공정 대비 에너지효율 20% 증대 실현\r\n- 3개 이상 대안 공정 설계집 및 공백기술 돌파전략 기안집\r\no CO2 직접자원화 최적 생산계획 수립 및 생산성 향상 전략 개발\r\nŸ CO2 직접자원화 공정 최적 운영전략 수립 \r\nŸ 신재생 수소 공급 전략을 포함하여 지속가능한 CO2 공정 운영전략 수립\r\nŸ 사례 연구를 통한 기술 실증화 및 투자 전략 수립\r\n- 기존 기술 및 시장 대비 최소판매비용 (MSP) 150% 확보 전략 제시 및 장애요소 규명\r\n5. CO2로부터 직접 방향족 화합물 제조를 위한 촉매 및 공정 개발 (5세부)\r\no 신규 금속산화물 활성점 설계\r\nŸ Rate-limiting step 중간체 수율 향상을 위한 신규 금속산화물 활성점 설계\r\nŸ 금속산화물 활성점/HZSM-5 컴파짓을 이용한 CO2 전환 연구\r\n- CO2 전환율 30% 이상, 방향족 화합물 선택도 50% 이상, BTEX 선택도 25% 이상, PX 선\r\n택도 10% 이상\r\n2절 목표 달성여부\r\n1. CO2 직접수소화를 통한 액체 탄화수소 연료 제조 촉매 및 공정 개발 (1세부)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 125,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 124 -\r\nŸ 촉매 성능 지표에서 3차년도 목표를 달성함 (자세한 내용은 아래 표에 기술)\r\n목 표 달 성 도(%) 내 용\r\n촉매 활성 및 안정\r\n성 개선 연구\r\n(목표 C3+ 수율 \r\n35%)\r\n100\r\n중형기공 탄소 지지체를 사용한 FeK/MPC 촉매를 사용하여 CO2 전\r\n환율 51%, C3+ 선택도 65%, C3+ 수율 33.4% 달성 (GHSV: 2,000 \r\nml/gcat, 온도: 300 ℃, 압력: 25 bar)\r\n단원자금속촉매(Fe/Co-NC)를 사용하여 CO2 전환율 49%, C3+ 선택\r\n도 72%, C3+ 수율 35.2% 달성 (GHSV: 2,000 ml/gcat, 온도: 300 \r\n℃, 압력: 25 bar) \r\n물 제거용 trap을 설치한 2단 반응시 CO2 전환율 55.5%, C3+ 수\r\n율 40.7% 달성 (반응온도 295-305 ℃ 구간에서 4회 실시 후 재\r\n현성 확인)\r\n화력발전소에서 발생한 이산화탄소를 활용하여 360 시간 이상 \r\n반응시험 가동. 100시간에서의 C3+ 수율 대비 95% 수준으로 유지 \r\n(26.7% → 25.5%, GHSV: 4,500 ml/gcat, 온도: 300 ℃, 압력: \r\n25 bar) \r\n유동적 전력공급에 \r\n적합한 반응기술 100\r\n재생에너지의 전력 공급 시나리오 별 3가지 전략에 대한 운전 \r\n기술 시험\r\n1) Feed 공급 on/off 전략; 2) H2/CO2 비율 변화 전략; 3) 운전 \r\n로드 변화 전략\r\n모든 조건에서 화학연개발 촉매는 안정적인 활성을 유지함\r\n촉매 활성 및 안정성을 기준으로 성능에 부담을 저감시킬 수 있\r\n는 운전기술 도출\r\n- H2/CO2비율 변화에 따라 실험할 경우, 생성물 분포가 달라지기 \r\n때문에 바람직하지 못함\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 126,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 125 -\r\n2. 중온-저온 2단계 CO2 수소화 메탄올 합성반응공정 개발 (2세부)\r\n목 표 달 성 도(%) 내 용\r\n기상 메탄올 합성반\r\n응용 촉매 개발\r\n(중온, 저온용)\r\n90\r\nCZZA 촉매 성분의 반응활성 역할 규명 \r\n- CO2 수소화반응에 적합한 Cu/Zn/Zr/Al 비율 찾음\r\n- CO 함유 CO2 수소화 반응에 적합한 촉매군 선정 \r\n촉매활성 향상 연구\r\n- physical mixing 법으로 CZZ 촉매활성 개선\r\n- 조촉매 성분(Ce, Ga, In, Pd) 첨가 효과 조사 \r\n- 최고 메탄올 수율 15.7%, 생산속도 560g \r\nMeOH/kgcat.h 도달 (목표: >17%, >500g MeOH/kgcat.h) \r\n촉매활성 stability 조사 (physical mixing CZZ, 80h) \r\n- 비활성화속도 1%/100h 수준 예측 (목표: <10%/100h)\r\n액상 메탄올 합성반\r\n응용 촉매 개발\r\n(저온용)\r\n70\r\n균질계 Ru@macho 촉매 합성과 반응성 조사 \r\n- 반복사용 시 촉매활성 감소\r\n비균질계 Ru@macho 고분자 촉매 제조법 개발 \r\n- 촉매활성 개선, 1.63g/Lrxt·h MeOH (@ 155oC) 달성\r\n- 반복사용 시 촉매활성 감소 \r\n비균질계 bpim-CTF 담체, bpim-CTF-RuCl3 촉매 개발\r\n- 메탄올 합성 촉매활성 낮음 \r\n비균질계 PP-EOF 담체, PP-EOF-Ru 촉매 개발\r\n- 메탄올 생산속도 2.9g MeOH/Lrxt·h (@ 140oC)\r\n (목표: >5g MeOH/Lrxt·h (@ <160oC)\r\n비균질계 bpim-CTF 담체 이용 논문 (Spin-off 성과) \r\n중온-저온 다단 반\r\n응시스템 적용 공정\r\n개념 수립\r\n100\r\n중온-저온 다단반응시스템 적용 공정 개념 수립\r\n- super-structure 최적화 해석으로 경제성 검토\r\n- 단일반응기 적용보다 경제성 있어 공정 타당성 확보 \r\n- 기계학습법 적용 최적공정 scheme 도출 \r\n90\r\n실험용 다단반응시스템 적용 공정 설계\r\n- Lab scale 단위장치 설계\r\n- Bench scale (1kg MeOH/d) 공정설계 \r\n \r\n3. 이산화탄소로부터 경질 올레핀을 생산하는 촉매 및 공정기술 개발 (3세부)\r\n- 최적 운전 방법은 수소 공급이 많거나 적은 경우 공간 속도를 \r\n제어하며, 장시간 수소 공급이 불가능할 경우, 비활성 가스를 \r\n공급하여 반응을 유지, 수소 재공급시 반응 재시작 하는 것\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 127,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 126 -\r\n목 표 달성도(%) 내 용\r\n촉매 안정성 검증\r\n그래프가 안정해진 시\r\n점으로 부터 5%미만 감\r\n소 및 100시간 이상 안\r\n정한 상태를 유지\r\n100 촉매의 안정성 100 시간 이상 확인함\r\nCO2 전환율 50% 이상, 경질올레핀 선택도 50% \r\n이상 90 -CO2 전환률 36% 이상\r\n-경질올레핀 선택도 40% 이상\r\n4. 최적화 기법을 이용한 CO2 직접자원화 설계기술 개발 및 평가 (4세부)\r\n \r\n5. CO2로부터 직접 방향족 화합물 제조를 위한 촉매 및 공정 개발 (5세부)\r\n목 표 달성도(%) 내 용\r\nCO2 전환율 30% 이상, 방향족 화합물 선택도 \r\n50% 이상 (방향족 화합\r\n물 수율 15%),\r\nBTEX 선택도 25% 이상 \r\n(BTEX 수율 7.5%),\r\nPX 선택도 10% 이상 (PX \r\n수율 3%)\r\n97\r\nFeAlOx/Zn-HZSM-5@SiO2 컴파짓 촉매 이용시 CO2 전환율 \r\n45.2%, 방향족 화합물 선택도 38.7% (방향족 화합물 수\r\n율 17.5%), BTEX 선택도 22.8% (BTEX 수율 10.3%), PX \r\n선택도 6.0% (PX 수율 2.7%)\r\n3절 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)\r\n목 표 달성도(%) 내 용\r\n중간체물질 (buidlng \r\nblock) 선정을 통한 \r\n요소 기술 모듈화 100%\r\n데이터 기반 분석 플랫폼 및 최적화 모델 개발\r\n촉매 성질 및 공정 변수를 반영한 지속가능성 평\r\n가 지표 적용\r\n최적의 CO2 직접 자원화 전략 제시를 위한 혼합 \r\n정수 모델 개발\r\n모듈화 기술 연결를 \r\n통한 CO2 직접자원화 \r\n공정 설계 및 개발\r\n다양한 중간체, 최종 \r\n생산품 고려를 통한 \r\n대안 공정 설계 및 개\r\n발 100%\r\n신가스생성을 통한 2단계 메탄올 합성 공정 개발\r\nCO2 직접 수소화 반응 기반 메탄올 합성 공정 개\r\n발\r\nFT반응을 이용한 CO2 올레핀 생산 공정 개발\r\n경제성 평가를 통한 \r\n비용지수 분석 및 장\r\n애요소 규명\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 128,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 127 -\r\n1. 기상 메탄올 합성 반응용 촉매 활성\r\n - 1단계 메탄올 생산속도 목표(>500 MeOH/kgcat.h)는 달성하였으나, 메탄올 수율 목표(>17%)\r\n는 달성하지 못함 \r\n - GHSV를 10,000에서 8,000으로 낮춰 촉매성능을 재실험 평가하는 것이 필요함\r\n2. 기상 메탄올 합성 반응용 촉매 내구성\r\n - 활성이 우수한 physical mixing CZZ 촉매를 이용하여 80h 촉매활성을 측정하고, \r\n 평균 활성감소속도 0.01%/h를 측정함 \r\n 촉매활성속도가 일정하게 감소한다면 1%/100h로 예측되어 비활성화속도 목표(<10%/100h) \r\n수준을 맞출 수 있을 것으로 예측함 \r\n - 잔여 연구기간 내에 CZZA(6:1.5:1.5:1)과 physical mixing CZZ(ZrO2 20%) 촉매의 stability 실\r\n험을 지속할 계획임 \r\n \r\n3. 액상 메탄올 합성 반응용 촉매 개발\r\n - 액상 반응 촉매 활성은 현재 보고되고 있는 논문의 메탄올 생산속도보다 낮지 않지만, 기\r\n상반응의 메탄올 생산속도의 1/100 이상 수준으로 낮음\r\n - 새로운 구조의 액상 메탄올 합성용 촉매 개발은 창의성이 있고 도전적인 내용으로 학문적 \r\n가치가 있으나, 아직 기상 메탄올 합성속도와 연계하기에는 촉매활성이 너무 낮고 실용적\r\n이지 않다고 판단하여 연구비중을 대폭 축소함 \r\n - 액상 반응용 불균질 담체로 개발한 기술은 창의성이 있어 타 반응의 비균질 촉매제조용 \r\n담체로 적용하여 논문을 작성하고 있음 (기술 spin-off) \r\n4. 중온-저온 다단 반응시스템 적용 공정개념 수립\r\n - Super structure 최적화 해석을 통해 중온-저온 다단반응시스템 적용 공정의 타당성을 확\r\n보하고, 경제성을 갖는 조건을 제안함 \r\n - Lab-scale 공정장치 test는 증류탑 2기의 서로 다른 충진제의 분리성능은 일부 확인하였고, 고압반응기는 촉매를 담는 basket의 열팽창으로 반응기와 분리되지 않아 수리 가공 중이\r\n어서 평가가 늦어짐\r\n - 잔여 연구기간 내에 고압반응기에서 취급 가능한 촉매량을 도출할 계획임\r\n - Bench-scale test plant의 장치 설계와 계기 선정은 마무리 단계에 있으며, 잔여 연구기간 \r\n내에 완료 가능함 \r\n5. 방향족 화합물 제조 촉매\r\n- 현재 다양한 공정조건 (온도, 압력, 공간속도, SiO2 코팅 두께 등)에서 실험을 수행하고 있\r\n으며 공정 최적화를 통해 목표를 달성하고자 한다. 또한 FT 반응 메커니즘의 \r\nFeAlOx/Zn-HZSM-5@SiO2 컴파짓 촉매 이외에도 PX의 수율을 향상시키기 위해서 메탄올 \r\n반응메커니즘을 갖는 Ga-doped ZnO/HZSM-5 컴파짓 촉매를 연구하고자 한다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 129,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 128 -\r\n제 5 장 연구개발결과의 활용계획\r\no Power-to-Liquids 기술 상용화 견인\r\n- 본 연구는 재생에너지를 사용해 CO2를 직접 전환하여 액상 탄화수소를 생산하는 기술을 \r\n개발하는 것임\r\n- 한국의 재생에너지 발생 환경에 적합하게 운전의 탄력성 및 효율성을 확보, 조기 상업화\r\n를 위한 기반기술의 성숙도를 제고함 \r\n- 국내의 엔지니어링/촉매/EPC 업체들이 개발된 고급기술 (촉매, 반응시스템, 공정설계 및 \r\n플랜트 기술)의 성과를 적극 활용하여 상업화로 연계하고 해외 진출할 수 있음\r\no 한계돌파형 원천 촉매 기술 개발 및 활용\r\n- CO2 직접 수소화용 한계돌파형 촉매 설계 및 제조로부터 원천기술을 개발, 핵심 촉매 라\r\n이센스를 확보하여 다양한 분야에 활용할 수 있음\r\n- 예) 촉매 관련 원천기술, 촉매 표면 제어 기술, 촉매 표면 개량 방법 등\r\no 저온 CO2 활성화 공정 개발을 통한 다른 제품으로의 응용\r\n- CO2 활성화를 위한 촉매 개발 공정과 저온 반응공정 관련 이론 및 실험 데이터를 CO2를 \r\n반응물로 사용하는 다른 화학전환 반응에 적용, 요소 기술로 활용할 수 있음 \r\n- 예) 저온 CO2 수소화 (RWGS) 반응, CO2로부터 DME 직접 합성 반응 등 \r\no 학문적 활용\r\n- 국내외에서 초기단계인 탄소 자원화에 대한 학문적 가능성을 제고하여, 후속 연구의 필\r\n요성 및 잠재성을 제시할 수 있다. - 특히, 기존 공정 대비 혁신적인 공정 효율 (탄소 전환 효율, 에너지 전환 효율 등)은 물\r\n론 경제성이 확보된 혁신적인 이산화탄소 고도화 및 자원화에 대한 원천 기술 (설계집 \r\n등)을 확보 하였다. - 국내외 학술대회 및 SCI급 해외 저명학술지에 관련 모델 개발에 관련한 연구를 다수 발\r\n표함으로써 한국의 학문적 위상을 제고하고 국내외 관련 분야 연구 활성화에 이바지할 \r\n수 있다. - 연구의 결과를 이용하여 관련 기업, 지방 지자체 등 다양한 기관에 제공하여, 장애기술\r\n을 규명하고 한계돌파 전략을 제시하여 관련 R&D 연구 (예, 촉매 관련 원천기술, 촉매 \r\n표면 제어 기술, 촉매 표면 개량방법, 반응기 설계 기술, 최적화 기법 개발 연구 등)에 \r\n정량적 연구 지형 구축에 기여할 수 있다. o 국가 정책적 활용\r\n- 현재 기술적 진보 및 사회의 발전에 수반되는 온실가스 배출로 인한 환경성 문제 해소 \r\n및 에너지원의 다변화에 대한 선험적인 결과를 제시하고 관련 법령 제시 및 인프라 구\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 130,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 129 -\r\n축(예, CO2 고정원 배출 제한, 탄소 거래 전략 등)에 대한 자료로써 활용될 수 있다. - 특히 정부에서 큰 관심을 두고 있는 지속 가능한 에너지 체제로의 전환 등 정부의 에너\r\n지 관련 정책의 실효성 입증에 활용될 수 있으며, 유동성이 큰 에너지 산업 전반에 걸쳐 \r\n다양한 해안을 제시하는 데 유용하게 사용될 수 있다. - 국가 차원에서의 투자사업에서, 장애기술 및 한계기술 (예, 촉매의 전환율, 반응기 구조, 분리 기술 등)에 대하여 규명할 수 있는 정보를 제공하고, 이를 바탕으로 국가 지원화 \r\n사업의 타당성을 제고할 수 있으며, 효율적인 자본운영에 기여할 수 있다. o 경제 산업적 활용\r\n- 미국의 셰일가스 혁명과 같이 기존의 석유, 석탄과 같은 화석연료를 기반으로 한 에너지\r\n시스템에 대한 혁신적인 변화가 이루어지고 있는 상황에서, 에너지 빈국인 한국에 CO2\r\n자원화에 대한 깊고 넓은 통찰을 제공하여 국가차원에서 대규모 투자 및 인프라 구성에 \r\n대한 필요성을 제시하여 관련 산업의 확대 및 선진화에 기여할 수 있다. - 국내 이산화탄소 고정원에 대한 실증화 연구 사례를 통하여 엔지니어링/촉매/EPC 기업\r\n들에 기술 이전 및 상용화에 필수적인 기술적, 경제적 자료 및 전략들을 제공할 수 있\r\n다. - 한국의 에너지 관련 공기관 및 에너지 기업들에게 중대한 차세대 에너지 사업으로서의 \r\n탄소 자원과 기술의 중요성을 환기시키고, 관련 경제성평가 자료 및 최적 생산전략 등, 공정 설계 및 운전 전략 수립에 필수적인 기술적, 경제적 데이터를 제공할 수 있다. - 본 과제의 목표대로 기술 개발이 완료 될 시 온실가스의 대량 저감 기술로 적합할 것으\r\n로 기대됨. 2030년 기준 재생에너지의 10%를 액체연료로의 전환에 사용할 시, 연간 CO2 \r\n644만톤저감, 액체연료 277만톤 생산 가능 (C12액체연료 기준, 수소생산 효율 72%, 탄소\r\n전환효율 95% 가정)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 131,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 130 -\r\n제 6 장 연구개발과정에서 수집한 해외과학기술정보\r\no CO2로부터 액상의 탄화수소를 얻는 기술 중 가장 상용화에 가까운 기술은 독일 Audi사의 \r\ne-diesel 프로젝트임\r\n- 협력사인 Sunfire사의 Solid oxide electrolyser cell(SOEC)기술을 이용해 고온(>800 ℃)에서 \r\n물을 전기분해하여 얻은 수소를, CO2와 다시 고온에서 반응시키는 역수성가스화 반응\r\n(reverse water-gas shift, RWGS, 반응온도 >800 ℃)을 통해 합성가스를 만든 후, 저온의 \r\n피셔-트롭시 합성 반응(Fischer-Tropsch synthesis, FTS, 반응온도 ~250 ℃)으로 긴사슬의 \r\n탄화수소를 제조하는 다단 간접전환 방식임\r\n그림 1 독일 Sunfire사의 Power-to-Liquids 공정 모식도\r\n- 이 기술은 풍력과 같은 재생 전기에너지를 이용해 물을 전기분해하여 수소를 얻고 이를 \r\nCO2 환원에 이용함으로써, 이론적으로는 물과 CO2, 에너지만을 필요로 하는 청정기술임\r\n- 그러나 고온의 SOEC 및 RWGS 반응을 위해서는 기본적으로 많은 양의 에너지가 필요할 \r\n뿐만 아니라 유동적으로 공급되는 재생전기에너지의 특성을 고려할 때, 예열 등의 준비\r\n를 위해 비효율적으로 소비되는 에너지가 많음\r\n- 또한 RWGS 후단에 배치되는 FTS는 비교적 저온에서 동작하는 발열반응으로, 온도 차이\r\n가 심해 에너지 효율성이 떨어질 수밖에 없고 실질적인 CO2 감축 효과가 크지 않다고 \r\n판단됨\r\n- Sunfire사는 상기 공정을 사용하여 2021년 노르웨이 Heroya에서 연간 8000톤을 생산할 \r\n수 있는 PtL 공정을 상용화하겠다고 발표함. 이때 20 MW의 전력을 사용하며 연간 CO2\r\n저감량은 21,000톤이 될 것으로 예상. o CO2를 직접 수소화하여 액상의 탄화수소를 제조하는 기술은 한 반응기에서 RWGS와 FTS\r\n를 동시에 일어나게끔 하여 상기 에너지 효율성 문제를 극복할 수 있으나, 반응 온도가 \r\nRWGS와 FTS 반응의 중간 온도(~300 ℃)로 진행하게 되어 CO2 전환 자체는 고온의 단독 \r\nRWGS 만큼 높지 않고 C3+의 긴사슬 탄화수소에 대한 선택도 또한 단독 FTS 만큼 높지 \r\n않다는 문제가 있음\r\no CO2의 직접수소화에 의한 액상 탄화수소 제조 촉매는 RWGS와 FTS 모두 활성이 있는 Fe\r\n를 중심 금속으로 하고 이를 조금씩 개선하는 방향으로 연구 개발이 이루어져 옴\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 132,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 131 -\r\no 독일의 Rodemerck 등은 자체 개발한 evolutionary algorithm을 이용해 Fe계 촉매에 첨가\r\n되는 조촉매의 종류와 양을 최적화하고 대량스크리닝 실험을 통해 이를 검증함 \r\n[ChemCatChem 2013, 5, 1948-1955] - 이에 따르면 La, Cu, K가 조촉매로 첨가되고 지지체 없이 제조한 Fe촉매가 가장 높은 \r\n액상 탄화수소의 수율을 나타내었음 (C5-C15 수율 23%, H2/CO2 ratio 6) - 촉매 대량스크리닝 장비를 고안하고 시험한 좋은 예\r\n그림 2 Rodemerck 등이 실험한 촉매 종류와 반응 결과\r\n그림 3 Leibniz-Institute, Fritz-Habor-Institute에서 고안한 촉매 \r\n대량 스크리닝 장치\r\no 중국의 Jiangan University에서는 RWGS와 FTS, isomerization이 동시에 일어나 고유동성의 \r\n액상 탄화수소를 제조하게끔 하는 촉매를 설계하고 열역학적 한계를 극복하기 위해 물을 \r\n제거하는 반응 시스템을 구축, 39%의 CO2 전환율과 78%의 C3+ 선택도를 달성함\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 133,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 132 -\r\n- 촉매와 반응 시스템을 동시에 개발한 예\r\n그림 4 Jianang University에서 고안한 다기능촉매 개념도\r\no 반응중 생성되는 물을 제거하기 위해 멤브레인을 사용한 반응기를 설계하여 이용하기도 \r\n함\r\n- 주로 packed-bed 멤브레인을 이용하여 생성된 물만을 선택적으로 제거, CO2의 전환율을 \r\n높이는데 이용됨\r\n- 그중 Karlsruhe 대학에서 고안한 FTS용 멤브레인 반응기는 일반 packed-bed 반응기에 \r\n비해 50% 향상된 CO2 전환율을 보임[Ind. Eng. Chem. Res. 44 (2005) 9653-9658]\r\n그림 5 Karlsruhe 대학에서 고안한 멤브레인 반응기 및 CO2 수소화 결과\r\no Karlsruhe 대학에서는 또한 유동적으로 공급되는 재생에너지 및 그에 따른 CO2 수소화 공\r\n정 운영의 탄력성에 대한 연구가 진행되었음[Chem. Ing. Tech. 2015, 87, No. 6, 848–854] - 촉매는 CO2 수소화용 Fe 계열 촉매가 쓰였고, 일시적 반응에 대한 변화 조건으로는 갑\r\n작스런 계단식의 변화 또는 주기적 변화를 주어가며 모델링 진행함\r\n- 반응의 일시적 변화에 대한 CO2 전환율 성능은 정상상태(Transient condition)에서 도출한 \r\n반응 속도식 및 파라미터를 사용한 수학적 모델링으로써 예측 가능함\r\n- CO2 전환율 외에 액상 탄화수소의 선택도 및 촉매의 장기 안정성에 대한 연구가 진행되\r\n지 않아 이러한 부분을 추가적으로 연구해야 할 필요가 있음\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 134,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 133 -\r\n그림 6 Karlsruhe 대학에서 진행한 일시적 공정조건(주기적 feed 주입)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 135,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 134 -\r\n제 7장 참고문헌\r\n[1] Nie, X.; Wang, H.; Janik, M. J.; Chen, Y.; Guo, X.; Song, C. Mechanistic insight \r\ninto C–C coupling over Fe–Cu bimetallic catalysts in CO2 hydrogenation. J. Phys. \r\nChem. C 2017, 121 (24), 13164-13174.\r\n[2] Nie, X.; Wang, H.; Janik, M. J.; Guo, X.; Song, C. Computational investigation of Fe\r\n–Cu bimetallic catalysts for CO2 hydrogenation. J. Phys. Chem. C 2016, 120 (17), \r\n9364-9373.\r\n[3] Amoyal, M.; Vidruk-Nehemya, R.; Landau, M. V.; Herskowitz, M. Effect of \r\npotassium on the active phases of Fe catalysts for carbon dioxide conversion to liquid \r\nfuels through hydrogenation. J. Catal. 2017, 348, 29-39.\r\n[4] Hwang, S.-M.; Han, S. J.; Min, J. E.; Park, H.-G.; Jun, K.-W.; Kim, S. K. \r\nMechanistic insights into Cu and K promoted Fe-catalyzed production of liquid \r\nhydrocarbons via CO2 hydrogenation. J. CO2 Util. 2019, 34, 522-532.\r\n[5] Kresse, G.; Hafner, J. Ab initio molecular-dynamics simulation of the \r\nliquid-metal-amorphous-semiconductor transition in germanium. Phys. Rev. B: \r\nCondens. Matter Mater. Phys. 1994, 49 (20), 14251-14269.\r\n[6] Kresse, G.; Furthmüller, J. Efficiency of ab-initio total energy calculations for \r\nmetals and semiconductors using a plane-wave basis set. Comput. Mater. Sci. 1996, 6 \r\n(1), 15-50.\r\n[7] Dion, M.; Rydberg, H.; Schroder, E.; Langreth, D. C.; Lundqvist, B. I. Van der \r\nWaals density functional for general geometries. Phys. Rev. Lett. 2004, 92 (24), \r\n246401.\r\n[8] Klimeš, J.; Bowler, D. R.; Michaelides, A. Van der Waals density functionals \r\napplied to solids. Phys. Rev. B 2011, 83, 195131.\r\n[9] Roman-Perez, G.; Soler, J. M. Efficient implementation of a van der Waals density \r\nfunctional: application to double-wall carbon nanotubes. Phys. Rev. Lett. 2009, 103, \r\n096102.\r\n[10] Lee, K.; Murray, É. D.; Kong, L.; Lundqvist, B. I.; Langreth, D. C. \r\nHigher-accuracy van der Waals density functional. Phys. Rev. B 2010, 82, 081101.\r\n[11] Ma, X.; Genest, A.; Spanu, L.; Rösch, N. Structures and vibrational frequencies of \r\nCO adsorbed on transition metals from calculations using the vdW-DF2 functional. \r\nComput. Theor. Chem. 2015, 1069, 147-154.\r\n[12] Henkelman, G.; Uberuaga, B. P.; Jónsson, H. A climbing image nudged elastic \r\nband method for finding saddle points and minimum energy paths. J. Chem. Phys. \r\n2000, 113 (22), 9901-9904.\r\n[13] Riedel, T.; Schulz, H.; Schaub, G.; Jun, K.-W.; Hwang, J.-S.; Lee, K.-W. \r\nFischer-Tropsch on iron with H2=CO and H2=CO2 as synthesis gases: the episodes of \r\nformation of the Fischer–Tropsch regime and construction of the catalyst. Top. Catal., \r\n2003, 26(1-4), 41-54.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 136,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 135 -\r\n[14] Guo, L.; Obot, I. B.; Zheng, X.; Shen, X.; Qiang, Y.; Kaya, S.; Kaya, C. \r\nTheoretical insight into an empirical rule about organic corrosion inhibitors containing \r\nnitrogen, oxygen, and sulfur atoms. Appl. Surf. Sci. 2017, 406, 301-306.\r\n[15] Chiou, W. Structure and stability of Fe3C-cementite surfaces from first \r\nprinciples. Surf. Sci. 2003, 530 (1-2), 88-100.\r\n[16] Sorescu, D. C. Plane-wave density functional theory investigations of the \r\nadsorption and activation of CO on Fe5C2 surfaces. J. Phys. Chem. C 2009, 113 (21), \r\n9256-9274.\r\n[17] Dong, C.; Sheng, S.; Qin, W.; Lu, Q.; Zhao, Y.; Wang, X.; Zhang, J. Density \r\nfunctional theory study on activity of α-Fe2O3 in chemical-looping combustion system. \r\nAppl. Surf. Sci. 2011, 257 (20), 8647-8652.\r\n[18] Yang, T.; Wen, X.-D.; Huo, C.-F.; Li, Y.-W.; Wang, J.; Jiao, H. Structure and \r\nenergetics of hydrogen adsorption on Fe3O4(111). J. Mol. Catal. A: Chem. 2009, 302 \r\n(1-2), 129-136.\r\n[19] Yu, X.; Huo, C.-F.; Li, Y.-W.; Wang, J.; Jiao, H. Fe3O4 surface electronic \r\nstructures and stability from GGA+U. Surf. Sci. 2012, 606 (9-10), 872-879.\r\n[20] Zhu, L.; Yao, K. L.; Liu, Z. L. First-principles study of the polar (111) surface of \r\nFe3O4. Phys. Rev. B 2006, 74, 035409.\r\n[21] Dietz, L.; Piccinin, S.; Maestri, M. Mechanistic insights into CO2 activation via \r\nreverse water–gas shift on metal surfaces. J. Phys. Chem. C 2015, 119 (9), \r\n4959-4966.\r\n[22] Medford, A. J.; Shi, C.; Hoffmann, M. J.; Lausche, A. C.; Fitzgibbon, S. R.; \r\nBligaard, T.; Nørskov, J. K. CatMAP: A software package for descriptor-based \r\nmicrokinetic mapping of catalytic trends. Catal. Lett. 2015, 145 (3), 794-807.\r\n[23] Schumann, J.; Medford, A. J.; Yoo, J. S.; Zhao, Z.-J.; Bothra, P.; Cao, A.; Studt, \r\nF.; Abild-Pedersen, F.; Nørskov, J. K. Selectivity of synthesis gas conversion to C2+ \r\noxygenates on fcc(111) transition-metal surfaces. ACS Catal. 2018, 8 (4), 3447-3453.\r\n[24] Stegelmann, C.; Andreasen, A.; Campbell, C. T. Degree of rate control: how \r\nmuch the energies of intermediates and transition states control rates. J. Am. Chem. \r\nSoc. 2009, 131 (23), 8077-8082.\r\n[25] Campbell, C. T. The degree of rate control: A powerful tool for catalysis \r\nresearch. ACS Catal. 2017, 7 (4), 2770-2779.\r\n[26] Bader, R. F. W., Atoms in Molecules: A Quantum Theory. Oxford University \r\nPress: New York, 1990.\r\n[27] Henkelman, G.; Arnaldsson, A.; Jónsson, H. A fast and robust algorithm for Bader \r\ndecomposition of charge density. Comput. Mater. Sci. 2006, 36 (3), 354-360.\r\n[28] Arévalo-Cid, P.; Isasi, J.; Martín-Hernández, F. Comparative study of core-shell \r\nnanostructures based on amino-functionalized Fe3O4@SiO2 and CoFe2O4@SiO2\r\nnanocomposites. J. Alloys Compd. 2018, 766, 609-618.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 137,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 136 -\r\n[29] 연구성과실용화진흥원, ‘탄소자원화 기술 및 시장동향 보고서’, S&T Market Report, 44,\r\nJan. 2017\r\n[30] Jeffrwy Bobeck, et al., ‘Carbon utilization: A vital and effective pathway for\r\ndecarbonization’, C2ES Summary Report, Auguest 2019\r\n[31] ‘Global roadmap for implementing CO2 utilization’, ICEF Roadmap Project, November\r\n2016\r\n[32] Issam Dairanieh, et al., ‘Carbon dioxide utilization (CO2U) - ICEF Roadmap 1.0’, ICEF\r\nReport, November 2016\r\n[33] David Sandalow, et al., ‘Carbon dioxide utilization (CO2U) - ICEF Roadmap 2.0’, ICEF\r\nReport, November 2017\r\n[34] David Sandalow, et al., ‘ICEF Industrial heat decarbonization Roadmap’, ICEF Report,\r\nOctober 2019\r\n[35] ‘The potential for CCS and CCU in Europe’, Report for the 32nd meeting of the\r\nEuropean gas regulatory forum, June 2019\r\n[36] ‘Novel carbon capture and utilisation (CCU) technologies: research and climate aspects’,\r\nSAPEA Scientific Experts Workshop, January 2018\r\n[37] Peter Styring, et al., ‘Carbon capture and utilisation in the green economy – Using\r\nCO2 to manufacture fuel, chemicals and materials’, Center for Low Carbon Futures Report,\r\nJuly 2011\r\n[38] Drayson Bratt, ‘Catalytic CO2 hydrogenation - Literature review: Technology\r\ndevelopment since 2014’, Wyoming Scholars Repository (Spring, 2016)\r\n[39] Giulia Bozzano, et al., ‘Efficient methanol synthesis: Perspectives, technologies and\r\noptimization strategies’, Progress in Energy and Combustion Science, 56, 71-105 (2016)\r\n[40] 김학주 외, ‘이산화탄소의 수소화에 의한 메탄올로의 전환’, KIC News, 18(2), 1-11 (2015)\r\n[41] Samrand Saeidi, et al., ‘Hydrogenation of CO2 to value-added products: A review and\r\npotential future developments’, J. CO2 Utilization, 5, 66–81 (2014)\r\n[42] Ibram Ganesh, ‘Conversion of carbon dioxide into methanol – a potential liquid fuel:\r\nFundamental challenges and opportunities (a review)’, Renewable and Sustainable\r\nEnergy Reviews, 31 (2014) 221–257\r\n[43] Suhas G. Jadhav, et al., ‘Catalytic carbon dioxide hydrogenation to methanol: A review\r\nof recent studies’, Chem. Eng. Res. Des., 92, 2557–2567 (2014)\r\n[44] Carlos V. Miguel, et al., ‘Direct CO2 hydrogenation to methane or methanol from\r\npost-combustion exhaust streams: A thermodynamic study’, J. Natural Gas Sci. Eng.,\r\n22, 1-8 (2015)\r\n[45] Amjad Riaz, et al., ‘A review of cleaner production methods for the manufacture of\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 138,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 137 -\r\nmethanol’, J. Cleaner Production, 57, 19-37 (2013)\r\n[46] George A. Olah, et al., ‘Chemical recycling of carbon dioxide to methanol and dimethyl\r\nether: From greenhouse gas to renewable, environmentally carbon neutral fuels and\r\nsynthetic hydrocarbons’, J. Org. Chem., 74(2), 487-498 (2009)\r\n[47] Jean-Paul Lange, ‘Methanol synthesis: a short review of technology improvements’,\r\nCatalysis Today, 64, 3-8 (2001)\r\n[48] Methanex Investor Presentation, March 2019\r\n[49] ‘Methanol and derivatives’, Air Liquide, June 2016\r\n[50] Xin-Mei Liu, et al., ‘Recent advances in catalysts for methanol synthesis via\r\nhydrogenation of CO and CO2’, Ind. Eng. Chem. Res., 42, 6518-6530 (2003)\r\n[51] Khozema Ahmed Ali, et al., ‘Recent development in catalytic technologies for methanol\r\nsynthesis from renewable sources: A critical review’, Renewable and Sustainable\r\nEnergy Reviews, 44, 508-518 (2015)\r\n[52] J. Skrzypek, et al., ‘Kinetics of methanol synthesis over commercial copper/zinc\r\noxide/alumina catalysts’, Engineering Science, 46(11), 2809-2813 (1991)\r\n[53] Jingang Wu, et al., ‘Optimization of preparation conditions and improvement of stability\r\nof Cu/ZnO-based multicomponent catalysts for methanol synthesis from CO2 and H2’,\r\nCatalysis Today 45, 215-220 (1998)\r\n[54] J.C.J. Bart, et al., ‘Copper-zinc oxide-alumina methanol catalysts revisited’, Catalysis\r\nToday 2, 1-124 (1987)\r\n[55] G.C. Chinchen, et al., ‘Synthesis of methanol – Part 1. Catalysts and kinetics’, Applied\r\nCatalysis, 36, 1-65 (1988)\r\n[56] K.C. Waugh, ‘Methanol synthesis’, Catalysis Today 15, 51-75 (1992)\r\n[57] Kenji Ushikoshi, et al., ‘A 50 kg/d class test plant for methanol synthesis from CO2\r\nand H2’, Studies in Surface Science and Catalysis, Vol. 114, 357-362 (1998)\r\n[58] Kenji Ushikoshi, et al., ‘Methanol synthesis from CO2 and H2 in a bench-scale test\r\nplant’, Appl. Organometal. Chem., 14, 819-825 (2000)\r\n[59] Kwang-Deog Jung, et al., ‘Role of hydrogen spillover in methanol synthesis’, J.\r\nCatalysis, 193, 207-223 (2000)\r\n[60] Congming Li, Xingdong Yuan, Kaoru Fujimoto, ‘Development of highly stable catalyst\r\nfor methanol synthesis from carbon dioxide’, Applied Catalysis A: General, 469, 306–\r\n311 (2014)\r\n[61] S.K. Wilkinson, et al., ‘Understanding the generation of methanol synthesis and water\r\ngas shift activity over copper-based catalysts – A spatially resolved experimental\r\nkinetic study using steady and non-steady state operation under CO/CO2/H2 feeds’, J.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 139,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 138 -\r\nCatalysis, 337, 208-220 (2016)\r\n[62] M. Dasog, et al., ‘CO2 to methanol conversion using hydride terminated porous silicon\r\nnanoparticles’, Chem. Commun., 53, 3114 (2017)\r\n[63] Jamil Toyir, et al., ‘Sustainable process for the production of methanol from CO2 and\r\nH2 using Cu/ZnO-based multicomponent catalyst’, Physics Procedia, 2, 1075-1079\r\n(2009)\r\n[64] An Xin, et al., ‘Methanol synthesis from CO2 hydrogenation with a Cu/Zn/Al/Zr\r\nfibrous catalyst’, Chinese J. Chem. Eng., 17(1), 88-94 (2009)\r\n[65] Yiping Zhang. et al., ‘Methanol synthesis from CO2 hydrogenation over Cu based\r\ncatalyst supported on zirconia modified γ-Al2O3’, Energy Conversion and Management,\r\n47. 3360–3367 (2006)\r\n[66] M. Sahibzada, et al., ‘Methanol synthesis from CO/CO2/H2 over Cu/ZnO/Al2O3 at\r\ndifferential and finite conversions’, J. Catal., 174, 111–118 (1998)\r\n[67] Zheng Xu, et al., ‘Methanol synthesis from CO2 and H2 over CuO-ZnO catalysts\r\ncombined with metal oxides under 13 atm pressure’, Bull. Chem. Soc. Jpn., 64(5),\r\n1658-1663 (1991)\r\n[68] Xiaoming Guo, et al., ‘Glycine–nitrate combustion synthesis of CuO–ZnO–ZrO2\r\ncatalysts for methanol synthesis from CO2 hydrogenation’, J. Catal., 271, 178–185\r\n(2010)\r\n[69] Xiaoming Guo, et al., ‘Combustion synthesis of CuO–ZnO–ZrO2 catalysts for the\r\nhydrogenation of carbon dioxide to methanol’, Catal. Comm., 10, 1661–1664 (2009)\r\n[70] Masahiro Saito, et al., ‘Advances in joint research between NIRE and RITE for\r\ndeveloping a novel technology for methanol synthesis from CO2 and H2’, Appl.\r\nOrganometal. Chem., 14, 763–772 (2000)\r\n[71] Tominaga, K.; Sasaki, Y.; Kawai, M.; Watanabe, T.; Saito, M. J. Chem. Soc. Chem.\r\nCommun., 7, 629 (1993)\r\n[72] E.C. Heydorn, et al., ‘Commercial-scale demonstration of the liquid phase methanol\r\n(LPMEOH) process’, Air Products Liquid Phase Conversion Company, L.P., Final\r\nReport (Vol. 2), June 2003\r\n[73] Ken-ichi Tominaga, et al., ‘Homogeneous hydrogenation of carbon dioxide to methanol\r\ncatalyzed by ruthenium cluster anions in the prsence of halide anions’, Bull. Chem.\r\nSoc. Jpn., 68, 2837-2842 (1995)\r\n[74] M. Everett and D. F. Wass, ‘Highly productive CO2 hydrogenation to methanol – A\r\ntandem catalytic approach via amide intermediates’, Chem. Comm., DOI:\r\n10.1039/C7CC04613H. (2017)\r\n[75] Jacob Schneidewind, et al., ‘Low-temperature hydrogenation of carbon dioxide to\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 140,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 139 -\r\nmethanol with a homogeneous cobalt catalyst’, Angew. Chem. Int. Ed., 56, 1890-1893\r\n(2017)\r\n[76] Jotheeswari Kothandaraman, et al., ‘Conversion of CO2 from air into methanol using a\r\npolyamine and a homogeneous Ruthenium catalyst’, J. Am. Chem. Soc., 138, 778−781\r\n(2016)\r\n[77] Julia R. Khusnutdinova, et al., ‘Combining low-pressure CO2 capture and hydrogenation\r\nto form methanol’, ACS Catal., 5, 2416−2422 (2015)\r\n[78] Sebastian Wesselbaum, et al., ‘Hydrogenation of carbon dioxide to methanol using a\r\nhomogeneous ruthenium–Triphos catalyst: from mechanistic investigations to\r\nmultiphase catalysis’, Chem. Sci., 6, 693-704 (2015)\r\n[79] Sebastian Wesselbaum, et al., ‘Hydrogenation of carbon dioxide to methanol by using a\r\nhomogeneous ruthenium–phosphine catalyst’, Angew. Chem. Int. Ed., 51, 7499-7502\r\n(2012)\r\n[80] Ekambaram Balaraman, et al, ‘Direct hydrogenation of amides to alcohols and amines\r\nunder mild conditions’, J. Am. Chem. Soc., 132, 16756-16758 (2010)\r\n[81] Bolian Xu, et al., ‘A new method of low temperature methanol synthesis’, Catal. Surv.\r\nAsia, 13, 147-163 (2009)\r\n[82] Chelsea A. Huff, et al., ‘Cascade catalysis for the homogeneous hydrogenation of CO2\r\nto methanol’, J. Am. Chem. Soc., 133, 18122-18125 (2011)\r\n[83] Nomaan M. Rezayee, et al., ‘Tandem amine and ruthenium-catalyzed hydrogenation of\r\nCO2 to methanol’, J. Am. Chem. Soc., 137, 1028-1031 (2015)\r\n[84] Oh-Shim Joo, et al., ‘Carbon dioxide hydrogenation to form methanol via a\r\nreverse-water-gas-shift reaction (the CAMERE process)’, Ind. Eng. Chem. Res., 38,\r\n1808-1812 (1999)\r\n[85] Laura A. Pellegrini, et al., ‘Economic analysis of a combined energy–methanol\r\nproduction plant’, Applied Energy, 88, 4891-4897 (2011)\r\n[86] Mar Pérez-Fortes, et al., ‘Methanol synthesis using captured CO2 as raw material:\r\nTechno-economic and environmental assessment’, Applied Energy, 161, 718–732 (2016)\r\n[87] D. Mignard, et al., ‘Methanol synthesis from flue-gas CO2 and renewable electricity: A\r\nfeasibility study’, Int’l J. Hydrogen Energy, 28, 455–464 (2003)\r\n[88] Florian Pontzen, et al., ‘CO2-based methanol and DME: Efficient technologies for\r\nindustrial scale production’, Catalysis Today, 171, 242–250 (2011)\r\n[89] Éverton Simões Van-Dal and Chakib Bouallou, ‘Design and simulation of a methanol\r\nproduction plant from CO2 hydrogenation’, J. Cleaner Production, 57, 38-45 (2013)\r\n[90] Van der Ham L.G.J., et al., ‘Hydrogenation of carbon dioxide for methanol production’,\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 141,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "- 140 -\r\nChemical Engineering Transactions, 29, 181-186 (2012)\r\n[91] Flavio Manenti, et al., ‘Dynamic modeling of the methanol synthesis fixed-bed reactor’,\r\nComputers and Chemical Engineering, 48, 325-334 (2013)\r\n[92] US 5,424,335, ‘Methanol synthesis’, Imperial Chemical Industries PLC (Jun. 13, 1995)\r\n[93] US 5,631,302, ‘Process of producing methanol’, Metallgesellschaft Aktiengesellschaft\r\n(May 20, 1997)\r\n[94] US 6,387,963 B1, ‘‘Methanol synthesis’, Imperial Chemical Industries PLC (May 14,\r\n2002)\r\n[95] US 6,433,029 B1, ‘‘Methanol synthesis’, Imperial Chemical Industries PLC (Aug. 13,\r\n2002)\r\n[96] US 4,778,662, ‘Synthesis process and reactor’, Imperial Chemical Industries PLC (Oct.\r\n18, 1988)\r\n[97] US 8,536,235 B2, ‘‘Methanol synthesis’, Johnson Matthey PLC (Sep. 17, 2013)\r\n[98] US 4,859,425, ‘System for improving the mixing of reacted gases and quench gases in\r\nheterogeneous synthesis reactors’, Ammonia Casale S.A. (Aug. 22, 1989)\r\n[99] US 2005/0154068 A1, ‘Methanol manufacture using pressure swing reforming’,\r\nExxonMobil Chemical Company (Jul. 14, 2005)\r\n[100] US 5,756,048, ‘Modernization of a reactor’, Methanol Casale, S.A. (May 26, 1998)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 142,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "별첨1 연구재단 단계평가(2020.02.1)의견 반영 조치사항\r\n※ 수정·보완 대비표\r\n◯ 전단계 성과 \r\n1단계 사업추진의 적절성\r\n점검 의견 수정․보완 조치 사항 비고 \r\n(해당 Page)\r\n1) 총괄과제별 달성목표치를 대부분 \r\n달성하고 있음. 조치 사항 불요\r\n2) 자체평가를 통한 세부과제의 재조정, 탄소자원화 전략 플랫폼을 통한 경제\r\n성 분석 및 사업홍보 등은 타당한 것\r\n으로 판단됨. 조치 사항 불요\r\n3) 사업의 경제성 분석과 탄소절감 전\r\n과정 분석결과 들과의 상관관계를 \r\n살펴보고, 그 결과들을 사업정책에 \r\n반영할 수 있도록 하는 정책적 제\r\n안의 보완이 요구됨 \r\n해당사항 없음 (사업단 조치사항)\r\n4) 당초의 RFP와 심사단계 의견이 충\r\n분히 반영되어 사업이 추진되었음 조치 사항 불요\r\n5) 각 총괄과제의 상호 연계성이 비교\r\n적 잘 구성되었음 조치 사항 불요\r\n6) 사업 추진 방향이 적절하고 전략도 \r\n우수함. 중간평가결과를 잘 반영하\r\n여 사업을 추진하였음. 조치 사항 불요\r\n7) 연차평가 시 지적된 사항들이 비교\r\n적 충실히 반영되어 단계 사업이 \r\n추진되었음\r\n조치 사항 불요\r\n8) 과제 선정 시 제시한 추진전략을 유\r\n지하며, 자체평가, 자문위원 의견 등\r\n을 유연하게 반영하며 1단계 사업\r\n을 추진하였음\r\n조치 사항 불요\r\n9) 온실가스 대량 저감을 위한 다양한 \r\n시도로는 적절하지만 대량 저감을 \r\n최종목표로 하기에는 전략방향이 미\r\n흡함\r\n해당사항 없음 (사업단 조치사항)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 143,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "연구목표 달성도 및 연구성과의 질적 우수성 [연구목표 달성도]\r\n점검 의견 수정․보완 조치 사항 비고 \r\n(해당 Page)\r\n10) 세부 과제별로 제시된 지표별 목표\r\n값은 대체로 달성된 것으로 판단\r\n됨. 다만 달성값 들의 객관성을 \r\n확보하기 위하여, 인증기관으로 \r\n부터 받은 값을 제시하기를 권고\r\n함. \r\n¡ 본 연구과제에서 수행하는 반응실험 \r\n장치는 특수 목적으로 제작한 것으로 \r\n일반적인 것이 아니기 때문에 촉매나 \r\n공정의 성능을 인증해 주는 기관이 \r\n없음. ¡ 2단계에서는 반응 생성물(혼합물)을 \r\n타 분석기관에 보내서 성분 분석을 \r\n받는 방법을 강구하겠음\r\n총괄 보고서 \r\np. 123-127\r\n총괄 계획서 \r\np. 56 \r\n11) 성능값의 지속기간을 측정하는 실\r\n험들의 보완이 요구됨 \r\n¡ 2단계에서 액체연료 생산 1000시간, 메탄올 생산 300시간, 방향족 화합물 \r\n생산 500시간 이상 운전하여 촉매 및 \r\n공정 안정성을 담보하고자 함. 총괄 계획서 \r\np. 44-59\r\n12) 각 총괄 및 세부 과제의 기술적 목\r\n표는 거의 모두 달성되었음. 성과지\r\n표의 목표치는 양적으로 달성되었\r\n으나, 질적 달성도는 보통임 \r\n¡ 2단계에서는 질적 성과 달성도를 제\r\n고시키도록 하겠음\r\n¡ 2단계 스케일 업 연구에서는 1단계에\r\n서 개발한 열역학적 한계를 뛰어넘는 \r\n반응 기술(다단 반응)을 적용하여 실\r\n용화 가능성을 높이고자 함. 총괄 계획서 \r\np. 44-59\r\n13) 일부 결과(반응 생성물)는 추가 처\r\n리가 필요한 경우도 보임 \r\n¡ 1세부 과제의 경우 생성물은 주로 탄화\r\n수소이나 산소가 포함된 생성물도 일부 \r\n생성 됨. (함산소 물질은 연료의 청정성\r\n과 품질을 올리는 성분이 될 수 있음) \r\n¡ 2단계 스케일업 연구에서 생성되는 수\r\n득물의 성분을 파악하고 이를 바로 내\r\n연기관 연료로 사용 가능한지를 수요기\r\n업(현대차)에서 테스트하고자 함. ¡ 바로 내연기관 연료로 사용이 불가능할 \r\n때는 석유화학 기초원료인 나프타로 활\r\n용될 수도 있으며 기존 정유 업그레이\r\n딩 공정을 활용하여 개질이 가능함.\r\n1세부 계획서 \r\np.47\r\n14) 일부 정량적 목표 달성이 미흡한 \r\n부분이 있으나 2단계 연구 수행에 \r\n크게 지장이 없는 수준으로 판단\r\n됨\r\n조치 사항 불요\r\n15) 온실가스 대량저감을 위한 기술로\r\n서는 미흡하지만 과제별로 설정된 \r\n목표는 성실하게 달성함\r\n조치 사항 불요\r\n연구목표 달성도 및 연구성과의 질적 우수성 [과학적/기술적/경제적/사회적 성과의 질적 우수성 및 파급효과]\r\n점검 의견 수정․보완 조치 사항 비고 \r\n(해당 Page)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 144,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "16) 발표된 논문들의 IF값들도 대체로 \r\n높은 것으로 판단되나, 세계 최고\r\n수준의 연구성과 달성을 뒷받침할 \r\n수 있는 우수 논문의 수에서는 다\r\n소 미흡한 것으로 판단됨. \r\n¤ 본 과제는 실용화형 과제로 분류되지만, 논문 또한 분야별 상위 10% 이내로 게\r\n재하였음. ¡ 2단계에는 상용화를 위한 스케일-업 연\r\n구에 초점을 맞추었지만, 촉매 개발 등\r\n의 원천연구도 함께 진행하여 우수 논\r\n문을 지속적으로 발표할 계획임. (스케\r\n일-업 개발을 하는 세부 과제 1, 2는 각\r\n각 IF>10 2편 이상, 그 외의 세부과제 \r\n3, 4는 각각 IF>20 1편 이상을 포함한 \r\nIF>10 2편을 목표로 하겠음) \r\n연구개발결과 \r\n활용 계획서\r\n총괄계획서 p. \r\n53-55\r\n17) 단위 연구들이 경제성 확보와 탄소\r\n저감을 동시에 달성하지 못할 경우, 어느 목적에 부합되는지에 관한 심\r\n층적 분석과 사업 방향의 제시가 \r\n요구됨 \r\n¡ 본 과제에서 개발하고자 하는 공정들의 \r\n경제성은 수소 가격에 가장 민감하게 \r\n결정되며 현재 상황에서느 경제성이 부\r\n족하지만, 온실가스 저감 효과가 크고 \r\n감축 잠재량도 매우 크기 때문에 기후\r\n변화대응기술로서 가치가 높음. ¡ 사업 초기에는 부생 수소 사용으로 경\r\n제성을 개선하고 향후 재생에너지 보급\r\n이 증대되면 이에 따라 신재생 수소 가\r\n격도 낮아지고 경제성도 개선될 것으로 \r\n예상함. ¡ 2단계에서는 여러 가지 사업화 시나리\r\n오를 세워서 이에 대한 세부적인 기술\r\n경제성 분석을 세부3(인천대)과제와 협\r\n력하여 수행 예정임.\r\n총괄 보고서 \r\np. 76-99\r\n총괄 계획서 \r\np. 56-60\r\n18) 대표성과로 말하는 상위 IF 논문의 \r\n본 과제 기여도가 낮은 편임 \r\n¡ 2단계에서는 본 과제에서 성과로 제시한 \r\n논문은 모두 기여도를 50% 이상으로 할 \r\n예정임\r\n총괄 계획서 \r\np. 53-55\r\n19) 경제적으로 따져볼 때 산업적 활용\r\n과는 아직 거리가 멀어서 파급 효\r\n과를 기대하기 어려움 \r\n¡ 본 과제의 목표대로 기술 개발이 완료 \r\n될 시 온실가스의 대량 저감 기술로 적\r\n합할 것으로 기대됨. 2030년 기준 재생\r\n에너지의 10%를 액체연료로의 전환에 \r\n사용할 시, 연간 CO2 644만톤저감, 액체\r\n연료 277만톤 생산 가능 (C12액체연료 \r\n기준, 수소생산 효율 72%, 탄소전환효율 \r\n95% 가정)\r\n¡ 본 사업은 기후변화대응기술개발사업 \r\n으로서 경제성 보다는 미래의 온실가\r\n스 감축 기술을 개발한다는 의미가 \r\n더 큼 (경제성이 부족한 경우에는 재\r\n생에너지와 마찬가지로 환경 비용으\r\n로 상쇄 기대됨).\r\n총괄 계획서 \r\np.64-67 \r\n20) 세계 최초, 세계 최고 등의 수식어\r\n를 검증할 수 있는 객관적인 비교\r\n분석 데이터를 제시해야 함 \r\n¡ 각 과제별 연구 목표를 설정할 때 세계 \r\n최고 수준의 도전성 있음을 증명할 수 \r\n있도록 충분한 참고문헌에 근거한 X-Y \r\n챠트를 제시한 바 있음. 이 X-Y 챠트에 \r\n총괄 보고서 \r\np. 121-126\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 145,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "성능 달성도를 표현하여 결과에 제시하\r\n였음.\r\n21) 논문의 질적 양적 수준이 우수하나 \r\n'first mover' 수준의 선도 소재/기\r\n술 관련된 논문/특허의 확보가 필\r\n요함 \r\n¡ 2단계에는 상용화를 위한 스케일-업 연\r\n구에 초점을 맞추었지만, 촉매 개발 등\r\n의 원천연구도 함께 진행하여 우수 논\r\n문을 지속적으로 발표할 계획임. (스케\r\n일-업 개발을 하는 세부 과제 1, 2는 각\r\n각 IF>10 2편 이상, 그 외의 세부과제 \r\n3, 4는 각각 IF>20 1편 이상을 포함한 \r\nIF>10 2편을 목표로 하겠음) \r\n¡ 특허 포트폴리오 전략을 수립하여 이\r\n에 맞춰 강한 지재권을 확보하도록 \r\n하겠음.\r\n총괄 계획서 \r\np. 53-55\r\n22) 사업이 목표로 하는 TRL 수준을 \r\n고려하면, 경제성 확보 목적보다는 \r\n원천연구의 성격이 강한 연구를 하\r\n는 것이 바람직함. 이러한 관점에\r\n서 볼 때, 연구 결과물의 양과 질\r\n이 많음에도 불구하고, 관련 분야에 \r\n파급력이 큰 연구는 다소 부족한 \r\n것으로 판단됨. \r\n해당사항 없음 (사업단 조치사항)\r\n23) 온실가스 감축효과 측면에서 파급\r\n력이 큰 원천기술 개발에 집중하는 \r\n것을 추천함 \r\n해당사항 없음 (사업단 조치사항)\r\n사업단 운영의 적절성\r\n점검 의견 수정․보완 조치 사항 비고 \r\n(해당 Page)\r\n24) 정기적인 과제관리 회의 운영, 적\r\n극적인 자체평가의 실시 및 결과\r\n의 환류, 자문위원단 운영 등은 우\r\n수함\r\n조치 사항 불요\r\n25) 과제간의 연관성이 낮은 과제도 \r\n있지만, 사무국에서 지속적으로 관\r\n리 및 운영되었음\r\n조치 사항 불요\r\n26) 2단계 사업에 진입할 경우, 1단계 \r\n사업과 목표가 달라지므로, 2단계 \r\n사업의 성격에 최적화된 사업단 \r\n운영으로 방향을 수정할 필요가 \r\n있음 \r\n해당사항 없음 (사업단 조치사항)\r\n27) 사업단장의 사업단 운영은 기술 \r\n전문 기업체 위주의 자문위원회 \r\n구성으로 장단점 그리고 중장기 \r\n운영 전략을 잘 수행하였음\r\n조치 사항 불요\r\n전단계 성과 종합의견 [우수한 점]\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 146,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "점검 의견 수정․보완 조치 사항 비고 \r\n(해당 Page)\r\n28) 세부사업별 목표값들을 달성하고 \r\n있으며, 효율적인 사무국 운영이 \r\n이루어지고 있음. 조치 사항 불요\r\n29) 탄소자원화 전략 플랫폼의 운영이 \r\n적절함. 조치 사항 불요\r\n30) 자체평가 및 연차별 평가 의견의 적극\r\n적인 반영을 위한 노력이 보임 조치 사항 불요\r\n31) 전반적 사업 수행 실적이 우수하\r\n고, 연구 목표의 달성도 및 질적 \r\n수준이 양호함. 우수 논문이 게재\r\n되었음\r\n조치 사항 불요\r\n32) 사업단 운영이 체계적으로 구성되\r\n고 운영되었으며, 연구성과도 우수\r\n함. 무엇보다 LCA분석 플랫폼이 \r\n잘 구축되어 있음\r\n조치 사항 불요\r\n33) 사업단 단장의 리더십으로 1단계 \r\n연구 결과는 우수하게 진행되었음 조치 사항 불요\r\n34) 온실가스 저감을 위한 다양한 접근\r\n방향에 대한 시도를 하였음 조치 사항 불요\r\n전단계 성과 종합의견 [보완 필요사항]\r\n점검 의견 수정․보완 조치 사항 비고 \r\n(해당 Page)\r\n35) 세계최고 수준 목표치(실증모델 3\r\n건 이상, 기술이전 3건 이상, 원천\r\n기술 3건 이상)별 구체적인 평가\r\n지표와 달성치를 명확히 제시할 \r\n필요가 있음. 해당사항 없음 (사업단 조치사항)\r\n36) 해외 특허의 경우, 등록 건이 전무\r\n함. 2단계에서 높은 등록 건수의 \r\n달성이 요구됨. 원천 소재 등에 \r\n대한 핵심 특허의 확보 등에 조\r\n금 더 집중하기를 권장함. \r\n¡ 특허실적에 대해서는 1단계 사업기간\r\n이 2년 5개월이었다는 점이 감안되어야 \r\n함. ¡ 소속기관들의 관련 규정 및 절차에 \r\n따라 국내 특허 우선권 주장 만료기\r\n간(1년)에 맞춰 해외 출원이 이루어지\r\n고 있으면 해외 특허의 경우 등록에 \r\n소요되는 기간에 2~3년 이상인 점이 \r\n감안되어야 함. ¡ 특허 포트폴리오 전략을 수립하여 이\r\n에 맞춰 강한 지재권을 확보하도록 \r\n하겠음.\r\n총괄 계획서 \r\np. 59, \r\n101-108\r\n37) 기술이전의 경우도 2건으로 되어 \r\n있으나, 금액이 매우 미미 함. 의미 \r\n있는 기술이전이 일어나도록 노력\r\n¡ 2단계에 실증 스케일업 연구를 위해 3\r\n개의 기업이 참여하기로 했고 또한 수\r\n요기업인 현대차와 MOU를 맺어 기술\r\n총괄 계획서 \r\np. 59\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 147,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "하여야 함. 이전 가능성을 제고하였음. 38) 참여 기업이 없는 총괄 과제의 경\r\n우 보완이 요구됨. 해당사항 없음\r\n39) 기술 및 공정의 경제성에 대해서\r\n는 논쟁이 있을 수 있으나, 분석자\r\n체는 정확해야 함. 해당사항 없음 (사업단 조치사항)\r\n40) 우수 논문뿐만 아니라 실용성을 \r\n고려해서 보완할 것. \r\n본 과제의 경우 2단계 최종 목표에서 액체\r\n연료 생산 1000시간, 메탄올 생산 300 시\r\n간, 방향족 화합물 500 시간 이상의 운전 \r\n시간을 설정했음. 참여기업도 각각 플랜트 \r\n설계, 촉매 대량생산, 대규모 수전해 설비 \r\n제작 등 스케일업을 위한 역할을 맡고 있\r\n으며 적극적으로 참여하고 있음\r\n총괄 계획서 \r\np. 49-55\r\n41) 온실가스 저감이라는 근본적인 목\r\n표의 관점에서 보면, 파급효과가 \r\n큰 원천기술의 개발은 미흡함. \r\n¡ 본 과제의 목표대로 기술 개발이 완료 \r\n될 시 온실가스의 대량 저감 기술로 적\r\n합할 것으로 기대됨. 2030년 기준 재생\r\n에너지의 10%를 액체연료로의 전환에 \r\n사용할 시, 연간 CO2 644만톤저감, 액체\r\n연료 277만톤 생산 가능 (C12액체연료 \r\n기준, 수소생산 효율 72%, 탄소전환효율 \r\n95% 가정)\r\n¡ 본 과제 단독 기술 또는 사업단내 \r\n타과제와의 연계된 통합 기술의 사업\r\n화 모델을 온실가스 감축 잠재량 및 \r\n경제성에 주안점을 두어 최적화하여 \r\n실증 사업 모델을 도출할 예정임. \r\n총괄 보고서 \r\np. 128-129\r\n총괄 계획서 \r\np. 57-60\r\n42) 온실가스 대량저감을 위한 다양한 \r\n접근방안에 대한 결과를 전과정 \r\n평가 자료로 축적하여 향후 전략추\r\n진에 도움이 되도록 정리해야 할 \r\n것임. 해당사항 없음 (사업단 조치사항)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 148,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "주 의\r\n1. 이 보고서는 과학기술정보통신부에서 시행한 기후변화대응기술개발사업의 연\r\n구보고서입니다.\r\n2. 이 보고서 내용을 발표하는 때에는 반드시 과학기술정보통신부에서 시행한 \r\n기후변화대응기술개발사업의 연구결과임을 밝혀야 합니다.\r\n3. 국가과학기술 기밀유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는 \r\n아니됩니다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  }
+]

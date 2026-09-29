@@ -1,0 +1,20 @@
+# Keep Windows launch scripts usable after clone/Download ZIP. UTF-8 BOM in
+# Korean PowerShell sources is preserved; do not set working-tree-encoding.
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.hwp binary
+*.hwpx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.exe binary
+*.dll binary
+*.pyd binary
+*.zip binary
+*.marshal binary
+*.hwpml binary
+*.hml binary
+new_project/src/govoffice/institutions/packages/seoultech/climate_2026/source_text.txt -text

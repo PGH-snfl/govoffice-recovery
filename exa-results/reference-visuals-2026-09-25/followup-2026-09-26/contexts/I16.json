@@ -1,0 +1,2094 @@
+[
+  {
+    "visual_id": "I16-V0001",
+    "caption": "현재 클라우드 SLA 보장 현황 및 한계",
+    "pdf_page_candidate": 10,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 10 -",
+    "caption_and_following_text": "한 I/O 중심의 작업 외에, 많은 CPU 작업을 요하는 하둡 (Hadoop) 등의 빅데이터 분석 도구\n를 수행하려는 경우에는 CPU 처리량, 혹은 사용률이 기준이 될 수 있음. 클라우드 서비스는\n이런 SLA의 보장을 미래 목표로 함.\no 현재 클라우드 SLA 보장 현황 및 한계\n▶ 현재 널리 사용되는 공용 클라우드 (public Cloud) 시스템에서는 사용자에게 이러한 SLA를\n제시하고, 이를 보장하기 위해 노력하고 있음. 2017년 기준 조사한 바에 따르면, 아직까지도\n성능/보안 SLA 보장은 제대로 이루어지지 않고 있으며, SLA 보장 역시 제한적인 수준에 이\n르고 있음. 표 1. 현재 클라우드 SLA 보장 현황 및 한계\n▶ 표 1에 대표적인 4개 클라우드 서비스 업체 및 공개SW인 오픈스택의 SLA 보장 현황을 나\n타내었음. 마이크로소프트의 Azure, 구글, 아마존 S3 서비스와 같은 클라우드 스토리지 서비",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0002",
+    "caption": "성능 및 보안 SLA 보장이 가능한 차세대 클라우드 인프라SW",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "양한 클라우드 서비스의 아웃소싱이 가능함. 이중 사용자 요구 기능의 품질 조건을 명세하\n는 SLA를 정의하여 서비스 충족도를 평가 가능함. 본 연구에서 SLA 보장을 통해서 클라우\n드 서비스의 아웃소싱 뿐 아니라, 더 나아가, 기존의 성능 및 보안 요구가 존재할 때 이에\n대한 성능 저하가 없고 안전한 서비스를 추구할 수 있음. 이를 위해서 분산 클라우드 시스\n템 SW는 크게 두 가지의 요소가 정의되어야 함. 첫 번째는 성능 위주의 클라우드 품질 분\n석/평가를 위한 성능 SLA 요소이고 두 번째는 안정성에 초점을 두는 보안 SLA 요소임. 각\n각은 현존하는 잘 알려진 공개 SW 기반 클라우드 플랫폼인 오픈 스택 위에서 스태킹이 가",
+    "caption_and_following_text": "능한 소프트웨어 컴포넌트로써 구축됨. 이를 통해서 하부의 클라우드 인프라는 일반적인 범\n용 공개 클라우드와 특수 목적의 기밀성이 요구되는 사설 클라우드 그리고, 이 두 가지 모\n두를 지원 가능한 하이브리드 형태의 클라우드 인프라를 관리하게 됨. ▶ 본 과제에서 개발하고자 하는 기술의 구조를 도식화하면 다음 그림과 같음\n그림 2. 성능 및 보안 SLA 보장이 가능한 차세대 클라우드 인프라SW\n▶ 위와 같은 차세대 클라우드 플랫폼은 아래와 같은 SLA 지원 내역을 가짐. 이를 위해 다음과\n같은 핵심 기술이 필요함\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.47,
+          107.64,
+          511.52,
+          373.99
+        ],
+        "page_area_fraction": 0.2278
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0003",
+    "caption": "SSD 컨트롤러와 여러 플래시 메모리 칩으로 구성된 SSD 내부 구조도",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "적으로 장치 큐의 크기가 32인 것을 감안하면, 스케줄러 큐와 장치 큐 모두가 충분한 양의 요\n청을 적재하고 있기는 어렵다고 할 수 있음. 이러한 성능-공평성 간의 이율배반성을 W. Jin 등이 SFQ(D) 스케줄러를 제안하며 자세하게\n밝힌 바 있음3). SFQ(D)는 네트워크 장치에서 사용되던 SFQ (Start Time Fair-queueing) 방식을\n스토리지에 적용한 스케줄러로, 괄호 안에 위치한 D는 스케줄러가 임의로 가정하는 장치 큐의\n길이를 의미함. 예를 들어 SFQ(1)은 장치 큐의 길이를 1개로 가정하고, 스케줄러 큐에 보다 많\n은 I/O 요청을 적재하고자 함. SFQ(32)는 최대 32개의 요청이 동시에 장치에서 처리될 수 있다\n고 가정하여, 장치 큐에 보다 많은 I/O 요청을 전달함. 실험 결과, SFQ(1)이 SFQ(32)에 비해 보",
+    "caption_and_following_text": "다 좋은 공평성, 혹은 성능 조절 능력을 보이며, 반면에 전체적인 HDD 성능은 떨어지는 결과\n를 보였음.\n그림 3. SSD 컨트롤러와 여러 플래시 메모리 칩으로\n구성된 SSD 내부 구조도\nl SSD에서 이율배반성이 심화되는 이유\nSSD에서는 앞서 밝힌 이율배반성이 더더욱 심화되어 나타남. 그 이유는 HDD 보다 장치 큐의\n역할이 더욱 복잡해지고 중대해진 SSD의 내부 구조에서 기인함. 그림 3은 SSD의 내부 구조를\n간략히 나타낸 것으로, 주요한 구성요소는 여러 채널로 연결된 다수의 플래시 메모리 칩과\nSSD 내부의 I/O 컨트롤러임4). SSD가 기존 HDD보다 높은 성능을 보이는 것은 첫째, 응답시간\n이 일정하고 낮은 플래시 칩의 특성과 둘째, 여러 플래시 칩을 병렬로 연결하여 동시에 사용",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          149.56,
+          355.05,
+          465.59,
+          498.06
+        ],
+        "page_area_fraction": 0.0903
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0004",
+    "caption": "플래시 장치를 위한 I/O 스케줄러 구조",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "내부의 다이(die)들, 4) 다이 내부의 플레인(plane)들, 5) 칩 내부의 복사 연산(copy-back)과 동\n시에 수행 가능한 읽기/쓰기 연산 등으로, 대단히 복잡한 계층을 가지고 있음. 각 계층별로 병\n렬성을 극대화하기 위해 SSD 컨트롤러는 복잡한 알고리즘을 가지고 있으며, 많은 제조업체들\n이 각자의 노하우를 개발하고 있음. 가능한 다수의 채널, 다수의 플래시 칩이 동시에 작업을 수행하여야 성능이 극대화되므로\nSSD 컨트롤러는 가능한 많은 수의 I/O 요청을 다루어야 함. 여러 I/O 요청이 장치 큐에 존재하\n여야 장치의 각 부분들이 유휴 시간 없이 동작하도록 할 수 있기 때문임. 따라서 큰 용량의\n장치 큐와 이에 적재되는 요청의 수가 많은 것은 SSD에서 성능을 좌우하는 커다란 요인임. 이",
+    "caption_and_following_text": "것은 물리적인 헤드의 움직임을 스케줄링하기 위한 HDD의 경우보다 더욱 큰 성능의 차이를\n보임.\nl SLA 보장을 위한 새로운 스케줄러 구조와 메인 아이디어\n그림 4. 플래시 장치를 위한 I/O 스케줄러 구조 그림 5. I/O 스케줄러의 주요 동작 방식\n우선 플래시 장치를 위한 새로운 스케줄러를 위한 구조를 작성하고 메인 아이디어를 개발하\n였음. 그림 4와 5는 각각 구조와 메인 아이디어를 나타내고 있음. 우선 새로운 스케줄러는 그\n림 4과 같이 실제 장치에서 측정된 성능을 스케줄러에 피드백하여 이를 스케줄링에 반영하는\n구조로 이루어져 있음. 이때 SLA 매니저가 사용자에게 전달받은 SLA를 기준으로 스케줄링 파\n라미터를 변경함. 스케줄러는 각 가상머신에 대한 큐(g-queue)를 유지하며 스케줄링 파라미터\n에 따라 각 큐의 요청을 디스패치 큐(dispatch queue)를 통해 장치로 전달함.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.6,
+          384.18,
+          296.36,
+          498.54
+        ],
+        "page_area_fraction": 0.052
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.67,
+          382.14,
+          534.43,
+          500.57
+        ],
+        "page_area_fraction": 0.0539
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0005",
+    "caption": "I/O 스케줄러의 주요 동작 방식",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "내부의 다이(die)들, 4) 다이 내부의 플레인(plane)들, 5) 칩 내부의 복사 연산(copy-back)과 동\n시에 수행 가능한 읽기/쓰기 연산 등으로, 대단히 복잡한 계층을 가지고 있음. 각 계층별로 병\n렬성을 극대화하기 위해 SSD 컨트롤러는 복잡한 알고리즘을 가지고 있으며, 많은 제조업체들\n이 각자의 노하우를 개발하고 있음. 가능한 다수의 채널, 다수의 플래시 칩이 동시에 작업을 수행하여야 성능이 극대화되므로\nSSD 컨트롤러는 가능한 많은 수의 I/O 요청을 다루어야 함. 여러 I/O 요청이 장치 큐에 존재하\n여야 장치의 각 부분들이 유휴 시간 없이 동작하도록 할 수 있기 때문임. 따라서 큰 용량의\n장치 큐와 이에 적재되는 요청의 수가 많은 것은 SSD에서 성능을 좌우하는 커다란 요인임. 이",
+    "caption_and_following_text": "것은 물리적인 헤드의 움직임을 스케줄링하기 위한 HDD의 경우보다 더욱 큰 성능의 차이를\n보임.\nl SLA 보장을 위한 새로운 스케줄러 구조와 메인 아이디어\n그림 4. 플래시 장치를 위한 I/O 스케줄러 구조 그림 5. I/O 스케줄러의 주요 동작 방식\n우선 플래시 장치를 위한 새로운 스케줄러를 위한 구조를 작성하고 메인 아이디어를 개발하\n였음. 그림 4와 5는 각각 구조와 메인 아이디어를 나타내고 있음. 우선 새로운 스케줄러는 그\n림 4과 같이 실제 장치에서 측정된 성능을 스케줄러에 피드백하여 이를 스케줄링에 반영하는\n구조로 이루어져 있음. 이때 SLA 매니저가 사용자에게 전달받은 SLA를 기준으로 스케줄링 파\n라미터를 변경함. 스케줄러는 각 가상머신에 대한 큐(g-queue)를 유지하며 스케줄링 파라미터\n에 따라 각 큐의 요청을 디스패치 큐(dispatch queue)를 통해 장치로 전달함.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.6,
+          384.18,
+          296.36,
+          498.54
+        ],
+        "page_area_fraction": 0.052
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          306.67,
+          382.14,
+          534.43,
+          500.57
+        ],
+        "page_area_fraction": 0.0539
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0006",
+    "caption": "새로운 I/O 스케줄러의 성능 차별화 실험 결과. (a) 대역폭, (b) IOPS, (c) 응답 시간 항목에 대해 다섯 가지 차별화 시나리오를 실험. 모두 의도한 대로 성능을 분배하는 결과를 보임",
+    "pdf_page_candidate": 21,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 21 -\n차이값이며, ΔDATi\nk-1는 이전 윈도우와 현재 윈도우의 DAT 차이 값임. 이 수식의 목표는 이전 윈도우에서 설정된 DAT 값이 어느 정도의 성능 변화를 야기했는지를\n바탕으로, 현재 성능과 목표 성능의 간극을 DAT값의 조정을 통해 메우고자 하는 것임. 본 연\n구팀은 최대한 단순한 구조의 피드백 컨트롤 수식을 세워, 다양한 메트릭에 동시에 적용될 수",
+    "caption_and_following_text": "있도록 하였음. 참고로 응답시간은 값이 낮을수록 성능이 좋은 것이며, 목표 응답시간이 낮아\n질수록 보다 많은 자원 할당을 필요로 하기 때문에 응답시간의 역수를 Perf로 설정함.\n그림 6. 새로운 I/O 스케줄러의 성능 차별화 실험 결과. (a) 대역폭, (b) IOPS, (c) 응답 시간\n항목에 대해 다섯 가지 차별화 시나리오를 실험. 모두 의도한 대로 성능을 분배하는 결과를 보임\nl 성능 평가\n본 연구팀은 개발한 스케줄러의 성능을 평가하기 위해 총 10개 VM을 수행하는 클라우드 환\n경을 구축하여 성능 SLA 보장 정도를 실험하였고, 그 결과 다양한 사용자 SLA 시나리오와\nVM이 새로이 추가되고 삭제되는 복잡한 환경에서 성공적으로 사용자 SLA를 보장함을 보였음. 첫 번째 결과로 위 그림 6과 같이, 다섯 개 VM에 대해 성능 차별화 (performance\ndifferentiation) 를 수행하는 기본적인 실험 결과를 제시하였음. 다섯 개 VM의 성능을 다섯 가\n지 시나리오에 맞게 분배하는 실험을 진행하였으며, 이때 시나리오는 모두 같은 성능을 제공",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.12,
+          512.56,
+          530.47,
+          643.7
+        ],
+        "page_area_fraction": 0.1188
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0007",
+    "caption": "새로운 I/O 스케줄러의 요구 성능 달성 정도를 세 가지 시나리오로 실험한 결과 VM1에 대한 40 MB/s 대역폭 제공, VM2에 대한 300 req/s 제한, VM3에 대한 5ms 응답시간 제공을 요구하는 시나리오들을 만족시킴을 보임. Noop은 리눅스 FIFO 스케줄러를 비교 대상으로 제시한 결과임",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "답시간을 제공하고자 하였음. 응답시간은 짧을수록 더 성능이 높다고 할 수 있으므로, 그림 7\n의 (c)에서 보듯, 기존 시나리오에서는 35ms, 7ms 정도의 성능을 보이던 VM3가 세 번째 시나\n리오에서는 5ms 이하의 응답시간으로 성능이 높아졌음을 알 수 있음. 이에 따라 다른 VM들은\n약간 성능이 저하됨을 확인할 수 있음. 위와 같이 실제와 같은 실험 시나리오에서 평가한 결과, 본 연구팀에서 개발한 새로운 I/O 스\n케줄러가 목표한 바와 같은 사용자 요구 성능 보장성을 갖추고 있음을 알 수 있었음. 보다 자\n세한 기술 설명과 추가 실험 결과는 기술 문서(“OIOS:Opportunistic I/O Scheduler for SLA\nGuarantee”) 로 작성하여 공개하였음.",
+    "caption_and_following_text": "그림 7. 새로운 I/O 스케줄러의 요구 성능 달성 정도를 세 가지 시나리오로 실험한 결과\nVM1에 대한 40 MB/s 대역폭 제공, VM2에 대한 300 req/s 제한, VM3에 대한 5ms\n응답시간 제공을 요구하는 시나리오들을 만족시킴을 보임. Noop은 리눅스 FIFO\n스케줄러를 비교 대상으로 제시한 결과임.\nn 네트워크장치 (10Gbps NIC)를 위한 SLA 보장 스케줄러 코드 개발\nl 자원 사용량에 따른 동적 네트워크 자원 할당 기법 개발\n그림 8. ANCS 구조\n본 연구에서는 클라우드 환경에서 성능 SLA 보장을 위한 네트워크 스케줄러인 Advanced\nNetwork Credit Scheduler (ANCS)를 개발하였음. ANCS는 비례 공정 스케줄러 (Proportional\nfair scheduler)를 기반으로 한 동적 네트워크 대역폭 할당 기법으로, 그림 8과 같이 Xen 기반",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.71,
+          421.22,
+          505.41,
+          633.03
+        ],
+        "page_area_fraction": 0.176
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.07,
+          117.71,
+          431.41,
+          259.04
+        ],
+        "page_area_fraction": 0.0721
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0008",
+    "caption": "ANCS 구조",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "약간 성능이 저하됨을 확인할 수 있음. 위와 같이 실제와 같은 실험 시나리오에서 평가한 결과, 본 연구팀에서 개발한 새로운 I/O 스\n케줄러가 목표한 바와 같은 사용자 요구 성능 보장성을 갖추고 있음을 알 수 있었음. 보다 자\n세한 기술 설명과 추가 실험 결과는 기술 문서(“OIOS:Opportunistic I/O Scheduler for SLA\nGuarantee”) 로 작성하여 공개하였음.\n그림 7. 새로운 I/O 스케줄러의 요구 성능 달성 정도를 세 가지 시나리오로 실험한 결과\nVM1에 대한 40 MB/s 대역폭 제공, VM2에 대한 300 req/s 제한, VM3에 대한 5ms\n응답시간 제공을 요구하는 시나리오들을 만족시킴을 보임. Noop은 리눅스 FIFO",
+    "caption_and_following_text": "스케줄러를 비교 대상으로 제시한 결과임.\nn 네트워크장치 (10Gbps NIC)를 위한 SLA 보장 스케줄러 코드 개발\nl 자원 사용량에 따른 동적 네트워크 자원 할당 기법 개발\n그림 8. ANCS 구조\n본 연구에서는 클라우드 환경에서 성능 SLA 보장을 위한 네트워크 스케줄러인 Advanced\nNetwork Credit Scheduler (ANCS)를 개발하였음. ANCS는 비례 공정 스케줄러 (Proportional\nfair scheduler)를 기반으로 한 동적 네트워크 대역폭 할당 기법으로, 그림 8과 같이 Xen 기반\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.71,
+          421.22,
+          505.41,
+          633.03
+        ],
+        "page_area_fraction": 0.176
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.07,
+          117.71,
+          431.41,
+          259.04
+        ],
+        "page_area_fraction": 0.0721
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0009",
+    "caption": "알고리즘 순서도",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 32,
+    "prefix_match_only": false,
+    "text_before": "유 정책은 전체 네트워크 자원을 각 가상머신의 가중치가 모든 가상머신의 가중치 합에서 차\n지하는 비율만큼 네트워크 자원을 할당하는 방식임. 가중치 기반 공유 정책에 의한 vif의 크레\n딧 계산은 수식(1)과 같다. vif(i)에 할당되는 네트워크 자원 변수인 CreditAlloc은 전체 시스템\n의 크레딧인 TotalCredit에서 vif(i)의 가중치인 Weighti가 전체 시스템에서 차지하는 비율로 계\n산됨. 따라서 각 가상머신의 네트워크 성능은 가중치에 비례하게 나타나며 가중치를 조절하여\n네트워크 대역폭 성능을 제어할 수 있음.\n(1)",
+    "caption_and_following_text": "이처럼 가중치에 따라 비례적으로 네트워크 자원을 할당하는 방식은 상대적인 네트워크 성능\n을 보장할 수 있지만, 사용자가 정량적인 성능 수치를 요구하는 경우에는 이를 만족시키기 어\n려움. 그러므로 사용자의 요구에 따라 정량적 네트워크 성능을 보장하기 위해 최소 대역폭 보\n그림 9. 알고리즘 순서도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          214.21,
+          97.57,
+          381.4,
+          133.53
+        ],
+        "page_area_fraction": 0.012
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          363.05,
+          559.55,
+          537.91,
+          798.57
+        ],
+        "page_area_fraction": 0.0835
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0010",
+    "caption": "ANCS 성능 평가 실험 결과",
+    "pdf_page_candidate": 25,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 25 -\n를 측정하였음. 실험 결과, 네트워크 작업을 수행하는 가상 라우터의 개수가 늘어남에 따라 각",
+    "caption_and_following_text": "가상 라우터의 네트워크 대역폭 성능이 서로 다르게 나타나는 것을 확인할 수 있었음. 이 때, 대역폭 값은 모두 동일한 값이 아닌 각 가상 라우터의 가중치에 따라 비례하게 나타났음. 또\n한 전체 대역폭의 합은 항상 940Mbps를 유지하여 네트워크 자원의 낭비 없이 네트워크 이용\n률이 100%를 달성함을 확인하였음.\n그림 10. ANCS 성능 평가 실험 결과\n그림 10.(b)는 VM1에 대해 최대 대역폭을 500Mbps로 제한했을 때의 실험 결과임. 이 경우\nVM1이 사용 가능한 네트워크 자원이 충분하더라도 실제 대역폭은 500Mbps를 초과하지 않도\n록 네트워크 자원 할당을 제한함. 따라서 T1의 경우 이전 실험 결과들과는 달리 VM1의 대역\n폭이 480Mbps로 나타남. T2~5의 경우는 VM1의 네트워크 대역폭이 500Mbps이기 때문에 이전\n과 같이 가중치 기반 공유 정책을 적용 받아 가중치에 따라 비례한 대역폭 성능이 측정됨. 그림 10.(c)은 최소대역폭 보장정책을 적용했을 때의 실험 결과임. 첫 번째로 실행하는 가상\n라우터인 VM1에 대해 최소대역폭을 200Mbps로 설정하였고, 나머지 가상 라우터들에는 4.2.1에",
+    "section_context_candidate": "2) SLA 보장 CPU 스케줄러 코드 개발",
+    "heading_candidates": [
+      "2) SLA 보장 CPU 스케줄러 코드 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.33,
+          559.67,
+          531.67,
+          697.04
+        ],
+        "page_area_fraction": 0.1286
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0011",
+    "caption": "실험에 사용된 머신 사양",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "자원 역시 필요함. 반가상화(Para-virtualization)의 경우 이러한 에뮬레이션 때문에 발생하는 오버\n헤드를 줄이기 위해, 가상 머신의 I/O 장치 드라이버를 가상화에 맞게 수정함. 예를 들어, KVM의\n경우 QEMU의 virtio를 사용하여 반가상화 형태로 가상 머신에게 I/O 장치를 제공하여 가상화 오버\n헤드를 줄임. 그러나 반가상화 환경이라도 가상 머신이 I/O 처리를 하는데 에뮬레이션 과정을 거\n치기 때문에 오버헤드가 존재하며, I/O 처리를 위해 CPU 자원이 필요함. 본 논문에선 이러한 가상\n화 환경에서 작업을 수행하는데 필요한 자원들의 관계를 자원 의존성이라고 정의함. 즉, 가상 머\n신이 블록 I/O 작업은 에뮬레이션을 위한 CPU 자원과 실제 I/O 처리를 위한 I/O 자원이 필요하므",
+    "caption_and_following_text": "로 블록 I/O 작업은 CPU와 블록 I/O 자원에 의존성이 존재함. 가상화 환경에서 작업의 자원 의존성을 확인하기 위해 KVM 기반의 가상화된 서버를 구성하였\n음. 가상화된 서버는 SSD를 사용하며, 두 개의 가상 머신이 동작함. 가상 머신들은 각각 블록 I/O\n작업 및 CPU 작업을 수행하며, 시나리오에 따라 요구 성능이 다르게 설정됨. 아래는 실험에 사용\n된 물리 머신 및 가상 머신의 사양과 실험 시나리오를 정리한 표임. 표 2. 실험에 사용된 머신 사양\nVersion\nHost server\nCPU Intel Xeon E5-2650 @ 2.30GHz\nMain memory 128 GB (DDR4 16G x 8)\nStorage Samsung SSD 850 Pro 256GB\nLinux version 4.4.0 (Ubuntu 16.04)",
+    "section_context_candidate": "2) SLA 보장 CPU 스케줄러 코드 개발",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0012",
+    "caption": "시나리오 2에 대한 가상 머신 성능",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 28 -\n그림 13. 시나리오 2에 대한 가상 머신 성능\n그림 14. 시나리오 2에 대한 SLA 만족도\n그림 14는 시나리오 2에서 각 가상 머신의 요구 성능에 대한 SLA 만족도를 나타내고 있음. 시\n나리오 1에서는 170%의 만족도를 나타내던 VM1이 시나리오 2에서는 약 70%로 나타나며, CPU 작\n업을 수행하는 VM2가 180%의 SLA 만족도를 나타내고 있음. 시나리오 1과 2의 실험을 비교하면\nCPU 작업에 의해 I/O 작업의 성능이 영향을 받는 것을 확인할 수 있음. 이러한 서로 다른 작업 간 성능 간섭이 발생하는 원인을 분석하기 위해 각 시나리오에 대해 가\n상 머신의 CPU 점유율과 I/O 성능을 확인하였음. 그림 15와 16은 각 시나리오별 가상 머신의 CPU\n점유율 및 I/O 성능을 나타내는 그래프임. 그림에서 에뮬레이터는 하이퍼바이저에서 수행하는 장\n치 에뮬레이션이 사용하는 CPU 점유율을 나타냄. 그리고 그래프의 CPU 점유율의 최대값이 1000%",
+    "section_context_candidate": "2) SLA 보장 CPU 스케줄러 코드 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.15,
+          662.28,
+          305.36,
+          792.93
+        ],
+        "page_area_fraction": 0.0567
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          316.39,
+          662.04,
+          536.83,
+          794.61
+        ],
+        "page_area_fraction": 0.0584
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.31,
+          269.95,
+          309.31,
+          398.09
+        ],
+        "page_area_fraction": 0.0553
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.23,
+          270.18,
+          531.67,
+          397.01
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0013",
+    "caption": "시나리오 2에 대한 SLA 만족도",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 28 -\n그림 13. 시나리오 2에 대한 가상 머신 성능\n그림 14. 시나리오 2에 대한 SLA 만족도\n그림 14는 시나리오 2에서 각 가상 머신의 요구 성능에 대한 SLA 만족도를 나타내고 있음. 시\n나리오 1에서는 170%의 만족도를 나타내던 VM1이 시나리오 2에서는 약 70%로 나타나며, CPU 작\n업을 수행하는 VM2가 180%의 SLA 만족도를 나타내고 있음. 시나리오 1과 2의 실험을 비교하면\nCPU 작업에 의해 I/O 작업의 성능이 영향을 받는 것을 확인할 수 있음. 이러한 서로 다른 작업 간 성능 간섭이 발생하는 원인을 분석하기 위해 각 시나리오에 대해 가\n상 머신의 CPU 점유율과 I/O 성능을 확인하였음. 그림 15와 16은 각 시나리오별 가상 머신의 CPU\n점유율 및 I/O 성능을 나타내는 그래프임. 그림에서 에뮬레이터는 하이퍼바이저에서 수행하는 장\n치 에뮬레이션이 사용하는 CPU 점유율을 나타냄. 그리고 그래프의 CPU 점유율의 최대값이 1000%",
+    "section_context_candidate": "2) SLA 보장 CPU 스케줄러 코드 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.15,
+          662.28,
+          305.36,
+          792.93
+        ],
+        "page_area_fraction": 0.0567
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          316.39,
+          662.04,
+          536.83,
+          794.61
+        ],
+        "page_area_fraction": 0.0584
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.31,
+          269.95,
+          309.31,
+          398.09
+        ],
+        "page_area_fraction": 0.0553
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.23,
+          270.18,
+          531.67,
+          397.01
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0014",
+    "caption": "시나리오 1에 대한 CPU 점유율 및 I/O 성능",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "그림 14는 시나리오 2에서 각 가상 머신의 요구 성능에 대한 SLA 만족도를 나타내고 있음. 시\n나리오 1에서는 170%의 만족도를 나타내던 VM1이 시나리오 2에서는 약 70%로 나타나며, CPU 작\n업을 수행하는 VM2가 180%의 SLA 만족도를 나타내고 있음. 시나리오 1과 2의 실험을 비교하면\nCPU 작업에 의해 I/O 작업의 성능이 영향을 받는 것을 확인할 수 있음. 이러한 서로 다른 작업 간 성능 간섭이 발생하는 원인을 분석하기 위해 각 시나리오에 대해 가\n상 머신의 CPU 점유율과 I/O 성능을 확인하였음. 그림 15와 16은 각 시나리오별 가상 머신의 CPU\n점유율 및 I/O 성능을 나타내는 그래프임. 그림에서 에뮬레이터는 하이퍼바이저에서 수행하는 장\n치 에뮬레이션이 사용하는 CPU 점유율을 나타냄. 그리고 그래프의 CPU 점유율의 최대값이 1000%",
+    "caption_and_following_text": "인 이유는 물리 코어의 수가 10개이며 각 코어를 완전히 점유했을 때 100%이기 때문에 가상 머신\n이 최대 점유할 수 있는 CPU 점유율은 1000%가 됨.\n그림 15. 시나리오 1에 대한 CPU 점유율 및\nI/O 성능\n그림 16. 시나리오 2에 대한 CPU 점유율 및\nI/O 성능\n그림 15를 보면 I/O 작업을 수행하는 가상 머신이 단독으로 존재할 경우 CPU 자원을 약 650%\n사용하는 것을 확인할 수 있음. 반면에 그림 16을 보면 I/O 작업을 수행하는 가상 머신(VM1)과\nCPU 작업을 수행하는 가상 머신(VM2)이 함께 존재할 경우, VM1의 CPU 점유율이 100% 정도인 것\n을 확인할 수 있음. 그리고 나머지 900%를 VM2가 사용하는 것을 확인할 수 있음. 그리고 이러한",
+    "section_context_candidate": "2) SLA 보장 CPU 스케줄러 코드 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.15,
+          662.28,
+          305.36,
+          792.93
+        ],
+        "page_area_fraction": 0.0567
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          316.39,
+          662.04,
+          536.83,
+          794.61
+        ],
+        "page_area_fraction": 0.0584
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.31,
+          269.95,
+          309.31,
+          398.09
+        ],
+        "page_area_fraction": 0.0553
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.23,
+          270.18,
+          531.67,
+          397.01
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0015",
+    "caption": "시나리오 2에 대한 CPU 점유율 및 I/O 성능",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "업을 수행하는 VM2가 180%의 SLA 만족도를 나타내고 있음. 시나리오 1과 2의 실험을 비교하면\nCPU 작업에 의해 I/O 작업의 성능이 영향을 받는 것을 확인할 수 있음. 이러한 서로 다른 작업 간 성능 간섭이 발생하는 원인을 분석하기 위해 각 시나리오에 대해 가\n상 머신의 CPU 점유율과 I/O 성능을 확인하였음. 그림 15와 16은 각 시나리오별 가상 머신의 CPU\n점유율 및 I/O 성능을 나타내는 그래프임. 그림에서 에뮬레이터는 하이퍼바이저에서 수행하는 장\n치 에뮬레이션이 사용하는 CPU 점유율을 나타냄. 그리고 그래프의 CPU 점유율의 최대값이 1000%\n인 이유는 물리 코어의 수가 10개이며 각 코어를 완전히 점유했을 때 100%이기 때문에 가상 머신\n이 최대 점유할 수 있는 CPU 점유율은 1000%가 됨.",
+    "caption_and_following_text": "그림 15. 시나리오 1에 대한 CPU 점유율 및\nI/O 성능\n그림 16. 시나리오 2에 대한 CPU 점유율 및\nI/O 성능\n그림 15를 보면 I/O 작업을 수행하는 가상 머신이 단독으로 존재할 경우 CPU 자원을 약 650%\n사용하는 것을 확인할 수 있음. 반면에 그림 16을 보면 I/O 작업을 수행하는 가상 머신(VM1)과\nCPU 작업을 수행하는 가상 머신(VM2)이 함께 존재할 경우, VM1의 CPU 점유율이 100% 정도인 것\n을 확인할 수 있음. 그리고 나머지 900%를 VM2가 사용하는 것을 확인할 수 있음. 그리고 이러한\nCPU 점유율 변화에 따라 I/O 성능 역시 변화하는 것을 볼 수 있음. 즉, 가상화 환경에서 I/O 작업\n의 자원 의존성이 I/O 자원뿐만 아니라 CPU 자원도 존재하기 때문에 위 실험과 같은 현상이 발생",
+    "section_context_candidate": "2) SLA 보장 CPU 스케줄러 코드 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.15,
+          662.28,
+          305.36,
+          792.93
+        ],
+        "page_area_fraction": 0.0567
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          316.39,
+          662.04,
+          536.83,
+          794.61
+        ],
+        "page_area_fraction": 0.0584
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.31,
+          269.95,
+          309.31,
+          398.09
+        ],
+        "page_area_fraction": 0.0553
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          320.23,
+          270.18,
+          531.67,
+          397.01
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0016",
+    "caption": "GoS 프레임 워크 구조",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "피드백 제어 스케줄링 기법임. GoS 프레임 워크의 핵심 아이디어는 가상 머신들의 SLA 만족도를 기준으로 가상 머신에게 자원\n을 차등 분배하는 것임. 자원의 차등 분배는 기존의 공평하게 자원을 분배하는 방식으로는 가상\n머신들이 요구하는 각기 다른 성능 조건을 만족할 수 없으므로, 가상 머신의 요구 성능 보장을 위\n해 필요함. 그리고 자원 차등 분배에서 중요한 요소가 바로 차등 분배 기준임. 자원 차등 분배 기\n준은 자원을 차등 분배할 때 해당 가상 머신이 할당받아야 할 자원을 결정하는 요소이기 때문에\n기준에 따라 분배 정책이 달라진다고 할 수 있음. GoS 프레임 워크는 자원 차등 분배 기준을 SLA\n만족도로 정하고, 가상 머신들의 SLA 만족도가 100%에 도달할 수 있도록 가상 머신 간 자원을 분",
+    "caption_and_following_text": "배하는 자원 분배 기법임. GoS 프레임 워크의 구성 요소에는 SLA 매니저, 자원 차등 분배 스케줄\n러 및 통계 수집기가 있음.\nn 프레임 워크 구조 설계\n그림 17. GoS 프레임 워크 구조\n그림 17은 본 논문에서 제안하는 GoS 프레임 워크의 구조임. GoS 프레임 워크는 I/O 스케줄러\n로 기존 기법인 OIOS를, CPU 스케줄러로는 리눅스의 기본 스케줄러인 CFS를 사용함. 그리고 GoS\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) SLA 보장 CPU 스케줄러 코드 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          192.26,
+          95.06,
+          432.85,
+          347.26
+        ],
+        "page_area_fraction": 0.1213
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0017",
+    "caption": "통합스케줄러 동작 방식",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 33 -\n그림 18. 통합스케줄러 동작 방식\nl 성능 모니터링 (Perf monitor) - 주기적으로 가상머신의 자원 사용량 모니터링 및 요구 성능/실\n제 성능 비교함. 1초마다 시스템 상에 동작하는 가상머신의 CPU 및 블록 I/O, 네트워크 I/O 사\n용량 및 성능 정보 수집함. CPU와 블록 I/O의 경우 각각 리눅스에서 제공하는 cGroup5) API와\n장치 통계정보를 이용하여 실시간 자원 사용량 및 성능을 계산함. 네트워크 I/O의 경우 KVM\n가상화 환경에서 가상머신의 네트워크 작업을 처리하는 vHost 드라이버에서 가상머신 별 송신\n하는 패킷의 개수와 대역폭을 계산함. 각 가상머신의 성능은 사용자로부터 입력받은 요구 성능\n과 비교하여 실제 성능이 요구 성능에 미치지 못하는 경우 2단계의 자원 경쟁 탐지 및 자원\n스케줄링 조절을 수행함",
+    "section_context_candidate": "2) SLA 보장 CPU 스케줄러 코드 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.48,
+          617.33,
+          479.5,
+          794.61
+        ],
+        "page_area_fraction": 0.1194
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0018",
+    "caption": "Stella-Horizon 화면 구성",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 34 -\n기법을 통해 실시간으로 목표 달성을 위한 CPU 사용량 제어가 가능하므로 프로파일링을 위한\n오버헤드를 최소화 할 수 있음. 가상머신 및 블록 I/O 및 네트워크 스레드의 CPU 사용량 제어",
+    "caption_and_following_text": "는 리눅스 cGroup에서 제공하는 API를 활용.\n4) CPU, 네트워크, 블록 I/O 통합 스케줄러 개발 및 오픈스택 노드에 적용\n가. SLO 세팅을 위한 대시보드 확장: Stella-Horizon 프로토타입\n그림 19. Stella-Horizon 화면 구성\nl 스텔라 클라우드를 통해 가상머신의 SLO를 설정하기 위해서는 기존 클라우드 환경에서 동\n작하는 대쉬보드를 수정하여 SLO configuration 기능을 추가 해야함. l 본 연구팀은 SLO 구성 기능이 추가된 대시보드를 Stella Dashboard로 명명함. 그리고, Stella\nDashboard의 OpenStack 버전을 Stella-Horizon으로 명명함. Stella-Horizon을 개발하기 위해\nOpenStack의 레퍼런스 대시보드인 Horizon을 수정했음 (그림 19). OpenStack Horizon은\nOpenStack의 하위 프로젝트 중 하나로 OpenStack 기반 클라우드에서 웹 기반 대시보드를\n지원함. Horizon은 Python 웹 프레임워크인 Django를 기반으로 만들어짐. Horizon은 대시보",
+    "section_context_candidate": "4) CPU, 네트워크, 블록 I/O 통합 스케줄러 개발 및 오픈스택 노드에 적용",
+    "heading_candidates": [
+      "4) CPU, 네트워크, 블록 I/O 통합 스케줄러 개발 및 오픈스택 노드에 적용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          443.39,
+          476.98,
+          651.01
+        ],
+        "page_area_fraction": 0.1406
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.96,
+          453.58,
+          466.79,
+          649.21
+        ],
+        "page_area_fraction": 0.1278
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0019",
+    "caption": "Stella-OpenStack의 구조 및 다른 컴포넌트와의 관계",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 35 -\n나. 클라우드 수준 Stella API 서비스 컴포넌트: Stella-OpenStack 프로토타입\n그림 20. Stella-OpenStack의 구조 및 다른 컴포넌트와의 관계\nl Stella-Horizon에서 구성한 SLO는 노드레벨 스케줄러에게 전달되어야 하는데, 이때 클라우드\n환경에서 전달 가능한 API의 형태여야 함. 노드레벨 스케줄러는 Stella Scheduler, 처리되는\nAPI를 Stella API로 명명함. l 또한 OpenStack 환경의 노드에서 Stella-Horizon로부터 구성된 사용자의 SLO를 Stella API를\n호출해서 Stella Scheduler의 SLO로 설정하는 OpenStack 컴포넌트가 있어야함. 이는\nStella-OpenStack으로 명명함. l 위 그림 20는 Stella-OpenStack 컴포넌트의 기능과 다른 OpenStack 컴포넌트와의 상호작용\n및 Stella-scheduler와의 상호작용을 나타내는 그림임. Stella-OpenStack은 호출한 API를 처\n리하는 Stella API server 와 Database로 구성됨. l Stella-OpenStack의 Database는 간단한 Key-Value 저장소로 Stella가 동작하는 OpenStack 클",
+    "section_context_candidate": "4) CPU, 네트워크, 블록 I/O 통합 스케줄러 개발 및 오픈스택 노드에 적용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.75,
+          557.99,
+          532.27,
+          786.1
+        ],
+        "page_area_fraction": 0.2049
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0020",
+    "caption": "Horizon에서 보는 가상머신 이름과 하이퍼바이저에서 가상머신 이름의 차이",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 36 -",
+    "caption_and_following_text": "token)을 받음. 이를 위해서 Keystone에는 Stella-OpenStack의 인증을 위한 정보가 미리 등\n록 되어 있어야함. 사전에 등록한 정보를 기반으로 접근 토큰을 받은 후에 Stella-OpenStack\n은 Compute 컴포넌트에게 정보를 요청할 수 있음.\n그림 21. Horizon에서 보는 가상머신 이름과 하이퍼바이저에서 가상머신 이름의 차이\nl SLO를 세팅하기 위해 Stella-OpenStack이 Compute 컴포넌트에게 하이퍼바이저의 IP와 하이\n퍼바이저내에서 쓰이는 가상머신의 이름을 요청하는 이유는 OpenStack에서 쓰이는 가상머\n신의 이름과 하이퍼바이저 내부에서 쓰이는 가상머신의 이름이 다르기 때문에 변환을 위해\n필요함. 위 그림 21은 OpenStack 환경에서 사용자가 보는 가상머신의 이름과 Hypervisor상\n에서 가상머신 이름의 차이를 보여줌. 우측의 Horizon UI의 이름은 사용자가 보는 가상머신\n의 이름임. 예를 들어 사용자가 사용하는 Stella_VM2는 Hypervior B라고 불리는 컴퓨트 노",
+    "section_context_candidate": "4) CPU, 네트워크, 블록 I/O 통합 스케줄러 개발 및 오픈스택 노드에 적용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.7,
+          561.83,
+          504.45,
+          734.44
+        ],
+        "page_area_fraction": 0.1369
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0021",
+    "caption": "스텔라 오픈스택 연동 구조",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 38 -\n다. 스텔라 클라우드 프로토타입\nl 스텔라 스케줄러를 클라우드 수준에서 보이기 위해서는 SLO를 관리하고, 통계를 수집해야\n하고, 수집데이터를 시각화 해 줄 필요가 있음. 따라서 스텔라에서 제공하는 기능을 클라우\n드 관리자에게 제공하기 위한 인터페이스인 Stella-Horizon을 만들고, 사용자의 요청을 내부",
+    "caption_and_following_text": "적으로 처리하는 Stella-OpenStack, 성능 모니터링을 위한 Telegraf, Infulxdb, Grafana를 통\n해 프로토타입에서 필요한 기능을 제공할 수 있었음. 언급한 모든 컴포넌트 및 기능을 통합\n한 테스트 클라우드의 구조는 아래 그림과 같음.\n그림 22. 스텔라 오픈스택 연동 구조\nl 오픈스택 클라우드 사용자는 스텔라 서비스를 이용하기 위해 웹을 통해 접근하거나\nStella-OpenStack 컴포넌트에서 제공하는 API를 통해 Stella 스케줄러의 기능을 사용할 수\n있음. 사용자는 웹 기반으로 클라우드 서비스를 제공하는 Stella-Horizon을 통해 기존 오픈\n스택의 서비스와 Stella-OpenStack의 서비스에 접근할 수 있음. 예를 들어 가상머신을 생성\n한 다음 생성한 가상머신의 SLO를 세팅하기 위해서는 Stella-Horizon을 통해 오픈스택 서비\n스인 Nova에 접근해서 가상머신을 만들고, SLO를 세팅하기 위해 Stella-OpenStack에게 공",
+    "section_context_candidate": "4) CPU, 네트워크, 블록 I/O 통합 스케줄러 개발 및 오픈스택 노드에 적용",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          101.46,
+          490.14,
+          499.89,
+          645.49
+        ],
+        "page_area_fraction": 0.1237
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0022",
+    "caption": "1단계 연구 결과물 공인시험 결과서",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 39 -\n그림 23. 1단계 연구 결과물 공인시험 결과서\n5) 클라우드 레벨에서 성능 SLA 보장을 위한 자원 관리 기법\n가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링\nl DRF 기반 자원 스케줄링: 클라우드 데이터센터에서는 다양한 워크로드가 수행되며 워크로드\n특성에 따라 서로 다른 종류의 자원을 동시에 필요로 함. 예를 들어 분산 파일처리 프레임워\n크인 Hadoop의 경우 작업 처리를 위해 CPU와 메모리 자원을 동시에 필요로 하며, 이러한 이\n종 자원에 대한 요구사항을 만족하기 위해 dominant resource fairness (DRF) 개념이 제시되\n었으며 표 4와 같이 이후 이를 기반으로 한 여러 스케줄링 방식이 제안되었음. l 성능 SLO 보장 측면에서의 DRF 방식의 한계점: DRF를 기반으로 한 클라우드 스케줄링 알고\n리즘은 스케줄링 목표에 따라 성능 고립을 제공하거나, 자원 활용율을 향상시킴. 그러나, DRF 기반의 스케줄링 알고리즘은 사용자가 작업의 성능 SLO 달성을 위한 1) 자원 요구량을",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [
+      "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          136.49,
+          371.11,
+          458.75,
+          794.61
+        ],
+        "page_area_fraction": 0.2727
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0023",
+    "caption": "가상머신에 할당되는 CPU 자원 (vCPU CPU limit)에 따른 패킷 처리 성능",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "만족할 수 있는 물리서버를 선택하여 작업을 수행하는 것을 목표로 함. 사용자로부터 작업\n수행 요청을 받아 물리 서버를 선택하는 클라우드 레벨 스케줄러와 물리 서버 상에서 SLO\n달성을 위해 동적으로 자원 할당을 수행하는 노드 레벨 스케줄러 2레벨로 구성되어 있음. 스\n케줄링 동작 순서는 크게 5단계로 구성되며 세부 내용은 다음과 같음. [1단계-클라우드 레벨 스케줄러] SLO 달성을 위한 CPU 사용량 예측: 클라우드 환경에서 수\n행되는 작업의 네트워크/스토리지 성능은 해당 작업에 할당되는 CPU 사용량에 비례함 (그림\n25 참조). 따라서, 네트워크/스토리지 SLO 달성을 위해서는 네트워크/스토리지 자원뿐만 아\n니라, CPU 자원의 할당이 필요함. 본 연구에서는 SLO 달성에 요구되는 CPU 자원 할당을 목",
+    "caption_and_following_text": "표로 하며, 이를 위해 선형 회귀 분석을 이용하여 네트워크/스토리지 SLO 달성에 필요한\nCPU 자원 양을 예측하는 방식을 제안함.\n그림 25. 가상머신에 할당되는 CPU 자원 (vCPU CPU limit)에 따른 패킷 처리\n성능\n[2, 3단계-클라우드 레벨 스케줄러] CPU/네트워크/스토리지 자원 요구량을 만족하는 물리 서버\n선택 및 정보 전달: 1단계에서 도출한 요구 자원을 할당 가능한 물리 서버를 선택하는 알고\n리즘은 다음과 같음. 물리 서버를 연결 리스트 형태로 관리하는 자료구조를 순회하며 각 물\n리서버의 CPU/네트워크/스토리지 가용 자원과 요구 자원을 비교하는데, 3개 자원에 대해 모\n두 가용 자원이 요구 자원보다 큰 값을 가지는 물리서버가 선택됨. 동시에 여러 물리 서버\n에서 가용 자원이 충분한 경우, 해당 작업이 수행되는 경우 자원 활용율이 가장 높아지는",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          119.22,
+          218.28,
+          485.86,
+          508.84
+        ],
+        "page_area_fraction": 0.2129
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0024",
+    "caption": "기존 오픈스택에서의 작업 분배 알고리즘 도식화",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "으로 실제 성능과 SLO를 비교하여 자원 할당을 조정함으로써 SLO 달성을 위한 자원양을 도\n출할 수 있음. 이 때, xGoS에 의해 도출된 SLO 달성을 위한 자원 양이 클라우드 레벨 스케\n줄러로부터 전달받은 필요한 자원 양과 차이가 있는 경우, xGoS는 클라우드 레벨 스케줄러\n에 해당 정보를 전달하여 예측 모델을 보완하도록 함. 다. SLO 기반 작업 분배 알고리즘 오픈스택에 적용\nl 기존 오픈스택 환경에서의 작업 분배 방식 분석\n- 그림 26과 같이 기존 오픈스택 환경에서는 필터, 웨이팅 2단계로 가상머신을 수행할 물리서버\n가 선택됨. 필터에서는 시스템 상에 존재하는 물리서버 중, 가상머신에 할당되는 CPU 개수, 메모리 및 디스크 크기를 수용 가능한 물리서버를 선택함. 웨이팅 단계에서는 필터에서 선",
+    "caption_and_following_text": "택된 여러 물리서버들의 가중치를 계산하여 가장 높은 가중치를 가지는 물리서버를 최종적\n으로 선택함. 가중치를 계산하는 방식은 시스템 설정에 따라 달라질 수 있으나, 기본적으로\n는 메모리 사용량이 가장 적은 물리서버를 선택하도록 되어있음.\n그림 26. 기존 오픈스택에서의 작업 분배 알고리즘 도식화\nl 오픈스택 환경에 SLO 기반 작업 분배 알고리즘 구현: 오픈스택 상에서 가상머신 생성은 그\n림 27와 같이 사용자가 오픈스택 대시보드에 가상머신 (VM)생성을 요청하면 노바 스케줄러\n에서 물리서버를 선택하여 노바 에이전트에 전달하는 순서로 동작함. 본 연구에서 제안하는\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.26,
+          114.47,
+          495.93,
+          395.33
+        ],
+        "page_area_fraction": 0.217
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0025",
+    "caption": "기존 오픈스택 가상머신 생성 동작 순서와 IReS 적용을 위한 동작 비교",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 43 -",
+    "caption_and_following_text": "IReS 적용을 위해 오픈스택 대시보드를 수정하여 사용자 요청을 노바 스케줄러가 아닌 IReS\n로 전달하도록 함. IReS는 파이썬 어플리케이션으로 구현되며 사용자 요청을 전달 받아 스케\n줄링 알고리즘을 수행하여 노바 에이전트에 최종 선택한 물리서버에 VM 생성을 요청함.\n그림 27. 기존 오픈스택 가상머신 생성 동작 순서와 IReS 적용을 위한 동작 비교\n6) 보안 SLA를 위한 BaaS 분석 및 보안 파라미터 추출\nl Blockchain-as-a-service (BaaS) - BaaS는 클라우드 환경에서 블록체인을 플랫폼으로 제공하기 위한 서비스임. 그중에서 IBM의\n하이퍼레저 패브릭의 경우 사전에 허가받고 신원이 있는 사용자만 블록체인에 접근할 수 있는\n블록체인임. 알려진 사용자의 노드만 블록체인에 접근하기 때문에 악의적인 사용자에 의한 트랜\n잭션 변조보다는 분산 환경에서 실패(Fault)에 대한 대비와 효율성에 더 집중하고 있음. 따라서\nBaaS의 성능/보안 SLA 보장 연구를 위해 먼저 하이퍼레저 패브릭의 동작 방식을 분석하였음.",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.72,
+          617.33,
+          539.35,
+          734.44
+        ],
+        "page_area_fraction": 0.1108
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0026",
+    "caption": "하이퍼레저의 구조",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 44 -\n그림 28. 하이퍼레저의 구조\n- 멤버십 서비스: 멤버십 서비스는 참여 조직, 피어 노드 및 클라이언트의 신원을 관리함. 네트워\n크 관련 신원 등록, 출입 통제 및 승인 권한을 관리함. - 블록체인: 합의 관리자, 분산 원장, P2P프로토콜로 구성됨. 합의 관리자는 트랜잭션 순서의 정확\n성에 관한 합의를 달성하고자 함. 정책의 유효성이 검증된 트랜잭션을 배치로 처리하여 블록을 생\n성하고 이를 다른 노드들에 배포하는 역할을 함. 분산 원장은 트랜잭션의 처리 상태와 원장 객체\n를 관리하고 저장함. P2P 프로토콜은 단일 연결을 통한 양방향 스트리밍, 흐름 제어 등 분산 환경\n에서 필요한 노드 제어에 관한 규약을 제공함. - 트랜잭션: 패브릭 네트워크는 트랜잭션들을 배치로 묶어서 하나의 블록을 생성하는 방식이며, 블록 생성 제한 시간이나 하나의 블록에 담을 수 있는 최대 트랜잭션 수를 초과할 경우 새로운\n블록을 생성함. - 체인코드: 체인코드는 유효성을 검사하는 노드에서 실행되는 분산 트랜잭션 프로그램임. 체인코\n드에는 보안 런타임 환경, 체인코드 레지스트리를 관리함.",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.99,
+          526.46,
+          506.01,
+          794.61
+        ],
+        "page_area_fraction": 0.2235
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0027",
+    "caption": "하이퍼레저 패브릭 네트워크의 거래 처리 방식",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 45 -\n- 하이퍼레저 패브릭 네트워크의 트랜잭션 처리 방식 분석\n그림 29. 하이퍼레저 패브릭 네트워크의 거래 처리 방식\n①클라이언트가 패브릭 네트워크에 트랜잭션 요청을 보내면, 보증 피어들은 검증 시스템 체인코드\n를 실행하여 트랜잭션 요청의 보증 정책에 관한 유효성을 검증함. ②클라이언트의 트랜잭션 요청에 관한 보증 피어들의 검증 시스템 체인코드 출력 결과가 모두 일\n치한다면 보증 정책을 위반하지 않은 것으로 판단하고 클라이언트에게 트랜잭션의 보증을 반환함. ③클라이언트는 검증받은 트랜잭션을 패브릭 네트워크의 합의 알고리즘 메커니즘에 따라 트랜잭\n션의 순서를 결정하고 블록을 생성하는 오더링 서비스 노드에게 제출함. ④오더링 서비스 노드는 해당 트랜잭션이 블록에 포함될 순서를 결정하고, 순서가 결정되면 해당\n트랜잭션이 블록 생성에 포함되었다는 것을 클라이언트에게 알림. 오더링 서비스 노드는 블록 생\n성 제한 시간이 만료되었거나 블록에 포함될 트랜잭션 수가 블록 크기 제한에 도달하면 새로운\n블록을 생성함. ⑤오더링 서비스 노드가 블록 생성을 완료하면, 블록에 관한 검증을 위하여 네트워크의 피어 노",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.85,
+          539.65,
+          464.39,
+          767.88
+        ],
+        "page_area_fraction": 0.1521
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0028",
+    "caption": "first network 실행 구조",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "지로부터 클라이언트용 cli 컨테이너와 오더러용 컨테이너가 각각 1개씩 실행되고 2개의 조직\n(1번 조직, 2번 조직)에 2개씩(1번 피어, 2번 피어) 총 4개의 피어 컨테이너가 실행됨.\n- 동작 방식: first network가 실행되면 cli에서 각 조직의 1번 피어에 체인코드를 인스톨함. 이는\n체인코드를 소스코드 형태로 각 피어 블록체인에 저장하는 것임. 그 후 2번 조직의 0번 피어\n에 체인코드를 인스턴스화하여 체인코드를 초기화시키고 변수 A에 100, 변수 B에 200을 저장\n함 (A=100, B=200). cli에서 1번 조직의 0번 피어에게 변수 A 값을 확인하는 쿼리 트랜잭션을\n보내면 각 피어들이 가지고 있는 블록체인은 동일한 값을 가지고 있으므로 100이라는 값을",
+    "caption_and_following_text": "반환함. 다음으로 cli에서 변수 A에서 변수 B로 10이라는 값을 이동시키는 인보크 트랜잭션을\n보냄 (A=90, B=210). cli에서 2번 조직의 1번 피어로 체인코드를 인스톨하고 아래의 그림과 같\n이 변수 A 값을 확인하는 쿼리 트랜잭션을 보내면 90이라는 값을 반환함.\n그림 30. first network 실행 구조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.84,
+          187.35,
+          527.12,
+          440.76
+        ],
+        "page_area_fraction": 0.2275
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0029",
+    "caption": "first network 동작 방식",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 47 -\n그림 31. first network 동작 방식\n○ high-throughput 예제\n- 목적: first network 예제에서 수정을 거치면 high-throughput 예제를 실행할 수 있음. high-throughput 예제는 수천 개의 초당 트랜잭션(TPS)을 다룰 때 체인코드 데이터 모델을 적\n절하게 디자인하는 방법을 이해하기 위한 네트워크로 BaaS 워크로드 분석에 있어 적합한 네\n트워크로 판단됨. - 구조: first network 예제와 동일한 구조임. - 동작 방식: first network와 동일한 구조의 네트워크가 생성되면 하이퍼레저 패브릭에서 제공\n한 스크립트들을 차례대로 실행시킴. 채널을 생성하여 각 피어 컨테이너들을 채널에 참가시키\n고 체인코드를 인스톨한 후 인스턴스화시킴. 체인코드를 인스톨하면서 설정된 페이로드 변수\n에 일정한 값을 증가시키거나 감소시키게 할 수 있는 인보크 트랜잭션을 수천 개 실행시킴.\nl 자원 사용량 분석",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -131.57,
+          551.88,
+          446.4,
+          794.61
+        ],
+        "page_area_fraction": 0.2804
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0030",
+    "caption": "컨테이너별 CPU 사용량",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 48 -\n하는 과정을 거치기 때문에 cli 컨테이너의 메모리 자원 사용량이 가장 많은 것으로 보임.\n3) 성능: 초당 82.34 트랜잭션 처리 (82.34 tps)\n그림 32. 컨테이너별 CPU 사용량\n표 5. 컨테이너별 메모리 사용량\n컨테이너 항목 메모리사용량 (MiB)\ndev-peer0.org1.example.com-bigdatacc-1.0 12.08\ncli 682.74\npeer1.org2.example.com 103.06\npeer1.org1.example.com 90.17",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.31,
+          568.9,
+          517.64,
+          745.22
+        ],
+        "page_area_fraction": 0.1516
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0031",
+    "caption": "컨테이너별 메모리 사용량",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 48 -",
+    "caption_and_following_text": "하는 과정을 거치기 때문에 cli 컨테이너의 메모리 자원 사용량이 가장 많은 것으로 보임.\n3) 성능: 초당 82.34 트랜잭션 처리 (82.34 tps)\n그림 32. 컨테이너별 CPU 사용량\n표 5. 컨테이너별 메모리 사용량\n컨테이너 항목 메모리사용량 (MiB)\ndev-peer0.org1.example.com-bigdatacc-1.0 12.08\ncli 682.74\npeer1.org2.example.com 103.06\npeer1.org1.example.com 90.17\npeer0.org1.example.com 218.99",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.31,
+          568.9,
+          517.64,
+          745.22
+        ],
+        "page_area_fraction": 0.1516
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0032",
+    "caption": "트랜잭션 요청 수 증가에 따른 Transfer, Query의 성능 변화",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 49 -\n급 노드로 구성함. 총 17개의 노드를 구성하여 실험함.\n2) 블록 설정: 패브릭 네트워크에서 생성되는 블록의 최대 크기는 2MB로 설정하였으며, 배\n치 타임아웃은 2초, 하나의 블록에 담을 수 있는 최대 트랜잭션 수는 600개로 설정함. 3) 트랜잭션 요청 속도 (Send rate): 하이퍼레저 캘리퍼를 활용, 초당 트랜잭션 요청 수를\n100TPS에서 2,000TPS로 선형적으로 증가시키며 이에 따른 성능 변화 관찰. 4) 체인코드: 실험에서는 단순한 뱅킹 시스템의 계좌 생성, 송금, 예금, 계좌 조회 트랜잭\n션을 처리하는 체인코드를 사용하였음. 뱅킹 체인코드를 사용하여 클라이언트 계좌의",
+    "caption_and_following_text": "변동을 처리하는 트랜잭션(Transfer)과 값의 변동이 없는 계좌 조회 쿼리(Query)에 관한\n성능 측정 실험을 진행함. 5) 데이터베이스: 패브릭의 장부와 상태 데이터베이스는 구글의 LevelDB 사용.\n- 실험 결과\n그림 33. 트랜잭션 요청 수 증가에 따른 Transfer, Query의 성능 변화\n1) 패브릭의 트랜잭션 처리 성능: Send rate가 증가함에 따라 처리 성능 또한 증가하여,\nSend rate가 500TPS일 때, 최대 처리 성능인 353.9TPS 달성함. 하지만 Send rate가\n500TPS이상이 되는 경우 오히려 처리 성능은 감소. Send rate가 100, 300TPS인 경우\nLatency는 평균 2.5s 정도지만, Send rate가 500TPS이상이 되면 Latency 가 급격하게\n증가함.\n2) 패브릭의 쿼리 처리 성능: Query 트랜잭션 요청이 1900TPS일 때, 처리 성능은",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.4,
+          278.22,
+          521.6,
+          491.58
+        ],
+        "page_area_fraction": 0.1911
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0033",
+    "caption": "패브릭 네트워크 노드 구성도",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n그림 34. 패브릭 네트워크 노드 구성도\n- 위의 두 실험 결과를 통해 하이퍼레저 패브릭의 트랜잭션 및 쿼리 처리 성능 (throughput,\nlatency)은 트랜잭션 요청 속도인 Send rate에 영향을 받는 것을 확인하였고, 이를 보안\n파라미터로 활용하여 BaaS에서의 보안 SLA 보장 연구를 차년도에 이어서 진행하였음.\nl 보안 SLA 보장을 위한 BaaS 감사 도구 설계\n- 분산 환경에서의 BaaS 지원을 위한 컨테이너 오케스트레이션 공개SW 적용: 본 연구에서는 클\n라우드 환경에서 동작하는 BaaS 프레임워크의 보안 SLA 감사를 목표로 하고 있음. 기존의 공\n개 SW BaaS 프레임워크인 하이퍼레저 패브릭에서는 사용자의 트랜잭션 처리에 대한 단순한\n성능 계측 기능만을 제공하고 트랜잭션 처리 성능 (TPS) 이나 지연 시간 (latency)와 같은 보",
+    "section_context_candidate": "가. 관련 연구 조사 및 분석 – 멀티 리소스 스케줄링",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.28,
+          566.26,
+          438.72,
+          794.61
+        ],
+        "page_area_fraction": 0.1289
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0034",
+    "caption": "쿠버네티스 기반 보안 SLA 감사 구조",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 51 -\n- 보안 SLA 감사를 위한 새로운 컴포넌트 연구: 기존 쿠버네티스와 하이퍼레저 패브릭에서는\n보안 SLA 감사 기능을 제공하지 않기 때문에, 본 연구에서는 쿠버네티스 제공하는 구성요소\n(kubectl, master, kubelet) 이외에 보안 SLA 감사를 위한 별도의 컴포넌트 (kubestar) 개발을\n진행할 예정임. kubestar는 kubelet과 유사하게 분산 서버에서 사용자 수준 에이전트로 동작하\n며, 하이퍼레저 API와 쿠버네티스 API를 모두 지원하여 하이퍼레저 패브릭과 kubelet으로부터\n트랜잭션 처리 정보, 실행 시간 등의 정보를 수집하는 역할을 수행함 (③). 수집한 정보는 보",
+    "caption_and_following_text": "안 SLA 형태로 가공하여 쿠버네티스 대시보드로 전달하는데 (④), 이때 별도의 master와 같은\n컨트롤러 없이 독립적으로 동작 가능하여 추가적인 연산 및 커뮤니케이션 오버헤드를 최소화\n할 수 있음.\n그림 35. 쿠버네티스 기반 보안 SLA 감사 구조\n7) Intra BaaS SLO 성능 보장 연구\nl BaaS 성능 SLO 분석/모니터링 기법 연구: 초당 트랜잭션 수, 트랜잭션 지연시간\n- 실시간 성능 모니터링을 위한 기존 성능 계측 도구 분석\n① 실시간 BaaS 성능 모니터링 기법의 필요성: BaaS SLO 보장을 위해서는 BaaS 서비스\n수행 시, 실시간으로 서비스 성능을 계측하여 실제 성능이 사용자의 SLO를 만족하는지\n판단하는 과정이 필요함. BaaS를 위한 기존 성능 계측 도구인 하이퍼레저 캘리퍼 (이하 ‘캘리퍼’라 함)는 서비스의 시작과 종료에 따라 전체 동작의 평균 성능 정보를 제공",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [
+      "7) Intra BaaS SLO 성능 보장 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          116.7,
+          441.36,
+          478.42,
+          618.28
+        ],
+        "page_area_fraction": 0.1279
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0035",
+    "caption": "하이퍼레저 캘리퍼의 구조",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 52 -\n③ 하이퍼레저 캘리퍼의 구조: 캘리퍼는 성능을 측정하고자 하는 BaaS 프레임워크\n(System Under Test, SUT)에 대한 워크로드를 생성하고 SUT에서 측정되는 지표들을 지\n속적으로 모니터링하여 수집한 데이터를 기반으로 보고서를 생성함. 그림 36에서 보는\n것과 같이 세 부분 (CLI, Core, Adapter)으로 구성됨.\n그림 36. 하이퍼레저 캘리퍼의 구조\n㉮ CLI: 사용자에게 명령어 인터페이스를 제공하며, 사용자가 설정해놓은 벤치마크 설정\n파일 (Benchmark Configuration)과 네트워크 설정 파일 (Network Configuration)에 따\n라 벤치마크를 실행할 수 있게 함. ㉯ Core: 캘리퍼의 핵심 부분으로 Caliper Master (이하 ‘Master’라 함), Caliper\nWorker (이하 ‘Worker’라 함), Rate Controller로 이루어짐. Master는 벤치마크 전",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.27,
+          542.89,
+          516.2,
+          711.78
+        ],
+        "page_area_fraction": 0.1424
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0036",
+    "caption": "하이퍼레저 패브릭에서의 Kafka 구조",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 55 -\n그림 37. 하이퍼레저 패브릭에서의 Kafka 구조\nKafka 합의 알고리즘을 사용하는 하이퍼레저 패브릭은 그림 37와 같이 오더링 서비스 노\n드가 Kafka의 producer와 consumer 역할을 수행하며 사용자의 트랜잭션 요청을 Kafka 클러\n스터에 저장 및 불러옴. Kafka 클러스터에 일정량 또는 일정 시간 동안의 트랜잭션이 저장\n되면, 각 오더링 서비스 노드들은 Kafka 클러스터에 저장되어 있는 트랜잭션을 불러와서 블\n록을 생성하여 피어 노드에게 전달하는 방식으로 동작함. ② Raft 합의 알고리즘\n하이퍼레저 패브릭에서 사용하는 또 다른 합의 알고리즘인 Raft는 리더 노드와 팔로워\n노드로 이루어진 클러스터로 구성되어 있음. 리더 노드는 팔로워 노드들의 Heart beat 투표\n로 선출되며, 리더 노드로 선출된 노드는 팔로워 노드들의 상태를 관리하며 데이터의 전파",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.25,
+          596.23,
+          477.46,
+          794.61
+        ],
+        "page_area_fraction": 0.1365
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          147.04,
+          88.22,
+          458.03,
+          313.58
+        ],
+        "page_area_fraction": 0.1401
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0037",
+    "caption": "하이퍼레저 패브릭에서의 Raft 구조",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "드가 Kafka의 producer와 consumer 역할을 수행하며 사용자의 트랜잭션 요청을 Kafka 클러\n스터에 저장 및 불러옴. Kafka 클러스터에 일정량 또는 일정 시간 동안의 트랜잭션이 저장\n되면, 각 오더링 서비스 노드들은 Kafka 클러스터에 저장되어 있는 트랜잭션을 불러와서 블\n록을 생성하여 피어 노드에게 전달하는 방식으로 동작함. ② Raft 합의 알고리즘\n하이퍼레저 패브릭에서 사용하는 또 다른 합의 알고리즘인 Raft는 리더 노드와 팔로워\n노드로 이루어진 클러스터로 구성되어 있음. 리더 노드는 팔로워 노드들의 Heart beat 투표\n로 선출되며, 리더 노드로 선출된 노드는 팔로워 노드들의 상태를 관리하며 데이터의 전파",
+    "caption_and_following_text": "를 담당함. 리더 노드는 지속적으로 Heart beat를 사용하여 팔로워 노드들의 상태를 확인\n함. 사용자로부터 데이터의 저장 및 복제 요청이 발생하면 리더 노드는 사용자가 요청한 데\n이터를 팔로워 노드들에게 전달하는 역할을 수행함.\n그림 38. 하이퍼레저 패브릭에서의 Raft 구조\nRaft 합의 알고리즘을 사용하는 하이퍼레저 패브릭은 그림 38과 같이 오더링 서비스 노드\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.25,
+          596.23,
+          477.46,
+          794.61
+        ],
+        "page_area_fraction": 0.1365
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          147.04,
+          88.22,
+          458.03,
+          313.58
+        ],
+        "page_area_fraction": 0.1401
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0038",
+    "caption": "멀티 시스템 구성",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "(다) 오더링 서비스 노드의 자원 사용량 및 성능 차이 분석\n① 실험 목적: 하이퍼레저 패브릭의 합의 알고리즘 Raft와 Kafka를 사용하는 오더링 서비스\n노드의 자원 사용량 및 성능 차이 분석하기 위함. ② 실험 환경: 오더링 서비스 노드의 자원 사용량 및 성능 차이를 분석하기 위하여 물리머\n신 하나에서 하이퍼레저 패브릭 컴포넌트가 동작하는 로컬 시스템과 BaaS가 실제 동작하\n는 클라우드 환경과 유사한 환경인 멀티 시스템에서 하이퍼레저 패브릭 컴포넌트가 동작\n하는 실험을 진행함. 로컬 시스템 실험은 Intel Xeon E5-2650v4, 24 Core@2.2GHz CPU,\n128 GB Memory, 256 GB SSD, Ubuntu 16.04 로 구성된 물리머신에서 실험을 진행함. 멀",
+    "caption_and_following_text": "티 시스템 실험은 아래 그림 39와 같이 Intel Xeon E5-2650 v3 10 Core@2.3GHz, 128 GB\nMemory, 256 GB SSD, Ubuntu 16.04, 10 GbE 네트워크 스위치로 구성된 7대의 물리머신\n에서 실험을 진행함.\n그림 39. 멀티 시스템 구성\n로컬 시스템에서는 하이퍼레저 패브릭 컴포넌트가 컨테이너 환경에서 동작하며, 멀티 시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          166.35,
+          109.08,
+          438.84,
+          459.46
+        ],
+        "page_area_fraction": 0.1908
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0039",
+    "caption": "작업 처리량",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 57 -\n스템에서는 하이퍼레저 패브릭 컴포넌트가 가상머신 안의 컨테이너 환경에서 동작함. 하이\n퍼레저 패브릭 컴포넌트는 Kafka의 경우, 3개의 오더링 서비스 노드, 4개의 피어 노드, 4개\n의 Kafka broker 노드, 3개의 Zookeeper 노드로 구성하고, Raft는 3개의 오더링 서비스 노\n드, 4개의 피어 노드로 구성함. ③ 실험 방법: 블록체인 성능 측정 툴인 하이퍼레저 캘리퍼를 이용하여 Kafka와 Raft로 구\n성된 오더링 서비스 노드의 자원 사용량과 성능을 측정함. 오더링 서비스 노드에서 생성\n되는 블록의 크기는 300개의 트랜잭션으로 제한하고, 사용자의 초당 트랜잭션 요청 수를",
+    "caption_and_following_text": "900 TPS (Transaction per seconds)로 제한하여 실험을 진행함. 실험에 사용한 체인코드는\n단순화된 뱅킹 시스템으로, 계좌 생성, 송금, 예금, 계좌 조회의 트랜잭션을 처리하는\nsmallbank 체인코드를 사용함. 실험은 smallbank 체인코드가 동작할 때 Kafka와 Raft로\n구성된 오더링 서비스 노드의 작업 처리량 (TPS)와 지연시간 (second)를 측정하고, 자원\n사용량 CPU 사이클(%)와 통신 작업 처리량 (MB/s)를 측정. ④ 실험 결과:\n㉮ 오더링 서비스 노드의 성능 작업 처리량과 지연시간\n그림 40. 작업 처리량\n그림 41. 지연시간\n그림 40과 41은 각각 로컬 시스템과 멀티 시스템에서 Raft와 Kafka로 구성된 오더링 서\n비스 노드의 작업 처리량과 지연시간 성능을 나타냄. Raft는 Kafka 보다 로컬 시스템과 멀",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.26,
+          339.71,
+          290.84,
+          496.98
+        ],
+        "page_area_fraction": 0.0561
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          307.27,
+          338.39,
+          492.82,
+          504.77
+        ],
+        "page_area_fraction": 0.0617
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0040",
+    "caption": "지연시간",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 57 -\n스템에서는 하이퍼레저 패브릭 컴포넌트가 가상머신 안의 컨테이너 환경에서 동작함. 하이\n퍼레저 패브릭 컴포넌트는 Kafka의 경우, 3개의 오더링 서비스 노드, 4개의 피어 노드, 4개\n의 Kafka broker 노드, 3개의 Zookeeper 노드로 구성하고, Raft는 3개의 오더링 서비스 노\n드, 4개의 피어 노드로 구성함. ③ 실험 방법: 블록체인 성능 측정 툴인 하이퍼레저 캘리퍼를 이용하여 Kafka와 Raft로 구\n성된 오더링 서비스 노드의 자원 사용량과 성능을 측정함. 오더링 서비스 노드에서 생성\n되는 블록의 크기는 300개의 트랜잭션으로 제한하고, 사용자의 초당 트랜잭션 요청 수를",
+    "caption_and_following_text": "900 TPS (Transaction per seconds)로 제한하여 실험을 진행함. 실험에 사용한 체인코드는\n단순화된 뱅킹 시스템으로, 계좌 생성, 송금, 예금, 계좌 조회의 트랜잭션을 처리하는\nsmallbank 체인코드를 사용함. 실험은 smallbank 체인코드가 동작할 때 Kafka와 Raft로\n구성된 오더링 서비스 노드의 작업 처리량 (TPS)와 지연시간 (second)를 측정하고, 자원\n사용량 CPU 사이클(%)와 통신 작업 처리량 (MB/s)를 측정. ④ 실험 결과:\n㉮ 오더링 서비스 노드의 성능 작업 처리량과 지연시간\n그림 40. 작업 처리량\n그림 41. 지연시간\n그림 40과 41은 각각 로컬 시스템과 멀티 시스템에서 Raft와 Kafka로 구성된 오더링 서\n비스 노드의 작업 처리량과 지연시간 성능을 나타냄. Raft는 Kafka 보다 로컬 시스템과 멀",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.26,
+          339.71,
+          290.84,
+          496.98
+        ],
+        "page_area_fraction": 0.0561
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          307.27,
+          338.39,
+          492.82,
+          504.77
+        ],
+        "page_area_fraction": 0.0617
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0041",
+    "caption": "CPU 사이클",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 58 -\n㉯ 오더링 서비스 노드의 자원 소모량\n그림 42. CPU 사이클\n그림 42는 로컬 시스템과 멀티 시스템에서 Raft와 Kafka 오더링 서비스 노드의 CPU 사\n이클을 나타냄. Kafka 오더링 서비스 노드는 Raft보다 로컬 시스템과 멀티 시스템에서 각\n각 67%, 77% 높은 CPU cycles를 보임. 이러한 차이가 발생하는 이유는 Kafka는 블록 생성\n이 모든 오더링 서비스 노드와 Kafka broker노드에서 이루어지는 반면, Raft는 블록 생성\n이 리더 노드에서만 발생하기 때문.\n그림 43. 통신 작업 처리량\n(transmission, TX)",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          213.01,
+          598.27,
+          392.19,
+          767.88
+        ],
+        "page_area_fraction": 0.0607
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.96,
+          319.57,
+          291.8,
+          458.74
+        ],
+        "page_area_fraction": 0.0422
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          324.67,
+          318.85,
+          465.11,
+          462.57
+        ],
+        "page_area_fraction": 0.0403
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0042",
+    "caption": "통신 작업 처리량 (transmission, TX)",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 58 -\n㉯ 오더링 서비스 노드의 자원 소모량\n그림 42. CPU 사이클\n그림 42는 로컬 시스템과 멀티 시스템에서 Raft와 Kafka 오더링 서비스 노드의 CPU 사\n이클을 나타냄. Kafka 오더링 서비스 노드는 Raft보다 로컬 시스템과 멀티 시스템에서 각\n각 67%, 77% 높은 CPU cycles를 보임. 이러한 차이가 발생하는 이유는 Kafka는 블록 생성",
+    "caption_and_following_text": "이 모든 오더링 서비스 노드와 Kafka broker노드에서 이루어지는 반면, Raft는 블록 생성\n이 리더 노드에서만 발생하기 때문.\n그림 43. 통신 작업 처리량\n(transmission, TX)\n그림 44. 통신 작업 처리량\n(reception, RX)\n그림 43과 44는 로컬 시스템과 멀티 시스템에서 Raft와 Kafka의 통신 작업 처리량 (TX,\nRX)을 나타냄. Kafka가 Raft보다 TX 49%, RX 47% 높은 통신 작업 처리량을 보임. 이는\nKafka 오더링 서비스 노드가 블록 생성을 위한 오더링 서비스 노드와 Kafka broker 노드\n간의 통신이 많기 때문임. 이에 비해 Raft의 블록 생성은 리더 오더링 서비스 노드에서 팔",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          213.01,
+          598.27,
+          392.19,
+          767.88
+        ],
+        "page_area_fraction": 0.0607
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.96,
+          319.57,
+          291.8,
+          458.74
+        ],
+        "page_area_fraction": 0.0422
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          324.67,
+          318.85,
+          465.11,
+          462.57
+        ],
+        "page_area_fraction": 0.0403
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0043",
+    "caption": "통신 작업 처리량 (reception, RX)",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "㉯ 오더링 서비스 노드의 자원 소모량\n그림 42. CPU 사이클\n그림 42는 로컬 시스템과 멀티 시스템에서 Raft와 Kafka 오더링 서비스 노드의 CPU 사\n이클을 나타냄. Kafka 오더링 서비스 노드는 Raft보다 로컬 시스템과 멀티 시스템에서 각\n각 67%, 77% 높은 CPU cycles를 보임. 이러한 차이가 발생하는 이유는 Kafka는 블록 생성\n이 모든 오더링 서비스 노드와 Kafka broker노드에서 이루어지는 반면, Raft는 블록 생성\n이 리더 노드에서만 발생하기 때문.",
+    "caption_and_following_text": "그림 43. 통신 작업 처리량\n(transmission, TX)\n그림 44. 통신 작업 처리량\n(reception, RX)\n그림 43과 44는 로컬 시스템과 멀티 시스템에서 Raft와 Kafka의 통신 작업 처리량 (TX,\nRX)을 나타냄. Kafka가 Raft보다 TX 49%, RX 47% 높은 통신 작업 처리량을 보임. 이는\nKafka 오더링 서비스 노드가 블록 생성을 위한 오더링 서비스 노드와 Kafka broker 노드\n간의 통신이 많기 때문임. 이에 비해 Raft의 블록 생성은 리더 오더링 서비스 노드에서 팔\n로워 오더링 서비스 노드로의 블록 복제로 인해 Kafka보다 통신 작업 처리량을 적게 사용\n함. 실험 결과로 하이퍼레저 패브릭의 Raft 오더링 서비스 노드가 Kafka 오더링 서비스 노",
+    "section_context_candidate": "7) Intra BaaS SLO 성능 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          213.01,
+          598.27,
+          392.19,
+          767.88
+        ],
+        "page_area_fraction": 0.0607
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.96,
+          319.57,
+          291.8,
+          458.74
+        ],
+        "page_area_fraction": 0.0422
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          324.67,
+          318.85,
+          465.11,
+          462.57
+        ],
+        "page_area_fraction": 0.0403
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0044",
+    "caption": "보안 SLA 감사 모듈 (QiOi) 구조",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "어 전반적인 서비스의 보안성이 저하될 수 있음. 이러한 문제를 해결하기 위해 BaaS 워크로드\n의 보안성에 대한 서비스 수준을 보장하기 위해 tps를 보안 SLA 지표로 설정하여 일정 이상의\n보안 수준을 제공하고자 함. 보안 SLA 감사 도구는 BaaS 워크로드가 수행되는 과정에서 실시\n간으로 보안 SLA를 만족하는지 감사(audit)하고 만약 사용자가 설정한 보안 SLA를 만족하지\n않는 경우 이를 보고 (report) 또는 개선하기 위한 제어(control)를 수행함.\n6차년도 연구 내용인 “BaaS 성능 SLO 분석 및 모니터링 기법 연구”를 수행한 결과, 기존\n의 BaaS 모니터링 기법은 사용자의 요청 처리가 모두 완료된 이후에 트랜잭션 처리 성능을",
+    "caption_and_following_text": "표시하기 때문에, 요청이 처리되는 과정에서는 성능 수치를 알기가 어려운 단점이 있음. 따라\n서, 실시간 BaaS 모니터링을 위해 주기적으로 성능 데이터를 수집하는 기술을 개발하였고, 이\n를 포함한 보안 SLA 감사 도구 전체 구조는 아래 그림과 같음.\n그림 45. 보안 SLA 감사 모듈 (QiOi) 구조\n보안 SLA 감사 도구의 기본 동작은 실시간으로 BaaS 워크로드의 성능을 모니터링하여 일정\n수준 이상 트랜잭션 처리 성능이 저하하는 경우 이를 CPU 자원 할당을 통해 개선하는 것을\n목표로 함. CPU 자원 할당의 의미는 하나의 서버상에 동작하는 여러 컨테이너의 CPU 사용량\n을 동적으로 제어하는 것을 의미함. CPU 사용량 제어를 위해 본 연구에서는 리눅스에서 제공\n하는 기능인 cgroups의 CPU bandwidth 기능을 사용함. CPU bandwidth 기능은 사용자가 설정\n하는 수치에 따라 사용자 프로세스의 CPU 사용량을 제어하며, 100%인 경우 하나의 CPU 코어",
+    "section_context_candidate": "가) 보안 SLA 감사 도구 개발",
+    "heading_candidates": [
+      "가) 보안 SLA 감사 도구 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          112.5,
+          343.3,
+          512.48,
+          482.11
+        ],
+        "page_area_fraction": 0.111
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0045",
+    "caption": "QiOi 모듈의 성능 평가 결과",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "② Performance monitor: 실시간으로 BaaS 워크로드의 성능 정보를 수집. 일반적으로\nBaaS 워크로드 성능 정보 수집을 위해 사용하는 하이퍼레저 캘리퍼에서는 실시간 성능 정보\n수집 기능을 제공하지 않고 있어서, 본 연구 과제에서는 추가적인 정보 수집을 통해 BaaS\n워크로드의 실시간 성능 수치를 계산함. 정보 수집을 위해 컨테이너가 저장하는 로그 파일\n을 활용하며, 해당 파일에 기록된 시간 정보와 처리된 블록에 대한 정보를 기반으로 실시간\n성능 수치를 계산하여 QiOi controller에 전달. ③ QiOi controller: QiOi interface에서 전달받은 보안 SLA 정보와 performance monitor로\n부터 전달받은 실시간 성능 정보를 비교하여 현재 보안 SLA를 만족하는지 주기적으로 확인",
+    "caption_and_following_text": "함. 현재 성능이 보안 SLA를 만족하지 못하는 경우 BaaS 워크로드를 수행하는 컨테이너에\n대해 CPU bandwidth 값을 설정하여 트랜잭션 처리 성능을 높이도록 하며, 설정하는 CPU\nbandwidth 값은 fabric service manager로부터 전달받은 최적 성능을 위한 값을 사용함. 나) 보안 SLA 감사도구 테스트\n그림 46. QiOi 모듈의 성능 평가 결과\n클라우드 환경에서는 가상머신 또는 컨테이너 형태로 다양한 서비스들이 수행되어, 하나의\n서버에 여러 작업이 동시에 수행될 수 있음. 특히, CPU나 메모리 같은 컴퓨팅 작업을 과도하\n게 점유하는 작업과 함께 수행되는 경우 이로 인해 성능 저하가 발생할 수 있음. 그림 46는\nBaaS 워크로드가 소수 연산을 연속적으로 수행하는 벤치마크 (i.e., sysbench)와 함께 수행되는\n경우 벤치마크의 스레드 숫자 증가에 따라 트랜잭션 처리 성능 (i.e., tps)이 최대 55% 저하되\n는 결과를 보여줌. 본 연구 과제에서는 이처럼 동일한 호스트 머신에서 수행되는 다른 워크로드에 의한 보안",
+    "section_context_candidate": "가) 보안 SLA 감사 도구 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.31,
+          267.07,
+          522.8,
+          519.51
+        ],
+        "page_area_fraction": 0.2121
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0046",
+    "caption": "이종 워크로드 특성 분류",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "서 동작하는 워크로드를 사용한 실험이 수반되지 않았다. 이에 본 연구에서는 컨테이너 기\n반 가상화 환경에서 CFS에 의한 성능 간섭을 확인하기 위하여 실제 클라우드에서 사용되는\n워크로드를 사용하여 성능 간섭을 확인하고 원인을 분석한다. l 이종 워크로드 구성: 본 연구에서 대상으로 하는 워크로드는 아래 표와 같다. Hyperledger\nFabric은 클라우드 서비스를 사용하여 블록체인 어플리케이션을 개발 및 호스팅 할 수 있는\n프레임워크이다. Hyperledger Fabric 워크로드는 사용자의 트랜잭션 처리 및 저장을 위한 네\n트워크 및 디스크의 I/O-intensive 워크로드 특성을 보인다. Memcached는 데이터 베이스의\n로드를 줄여 동적 웹 어플리이케이션의 성능을 높이는 분산 메모리 캐싱 시스템으로, 클라",
+    "caption_and_following_text": "우드에서 고성능 웹 서비스를 제공하기 위하여 사용된다. Memcached 워크로드는 웹 서비스\n에서 사용자의 request 처리를 위한 네트워크 I/O-intensive 워크로드 특성을 보인다. Spark\n는 대용량 데이터를 처리 및 분석하기 위한 병렬 분산 처리 프레임워크이다. Spark 워크로\n드는 대용량 데이터를 정렬 및 검증하기 위한 CPU-intensive 워크로드의 특성을 보인다. 표 6. 이종 워크로드 특성 분류\n워크로드 Hyperledger Fabric Memcached Spark\n벤치마크 Hyperledger Caliper’s\nsmallbank\nMemaslap’s\nmulti-set/get\nTeraSort",
+    "section_context_candidate": "9) 멀티 테넌트 기반 BaaS 성능 SLA 보장 연구",
+    "heading_candidates": [
+      "9) 멀티 테넌트 기반 BaaS 성능 SLA 보장 연구"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0047",
+    "caption": "이종워크로드 성능 측정 결과",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 31,
+    "prefix_match_only": false,
+    "text_before": "500000 Throughput (TPS)\nAlone Togther 0\n100\n200\n300\n400\nJob completion time (sec)",
+    "caption_and_following_text": "(a) Hyperledger\nFabric\n(b) Memcached (c) Spark\n그림 47. 이종워크로드 성능 측정 결과\nl 실험 결과: 그림 47은 Alone 과 Together 시나리오에서 측정한 각 워크로드의 성능을 나타\n냄. Alone 대비 Together에서 Hyperledger Fabric, Memcached, 그리고 Spark 의 성능은 각\n각 87.8%, 35.4%, 그리고 9% 감소함. CPU -intensive 워크로드인 Spark 워크로드에서 성능\n저하가 가장 작게 나타나며, I/O-intensive 워크로드인 Hyperledger Fabric에서 성능 저하가\n가장 크게 나타남. 즉, CFS가 각 워크로드에 공평하게 CPU 자원을 배분하지 못하여 성능\n간섭이 발생하며, 이 때 I/O-intensive 워크로드 (Hyperledger Fabric)에서 성능 저하가 가장",
+    "section_context_candidate": "9) 멀티 테넌트 기반 BaaS 성능 SLA 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0048",
+    "caption": "이종 워크로드의 time slice",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 38,
+    "prefix_match_only": false,
+    "text_before": "(a) Hyperledger\nFabric\n(b) Memcached (c) Spark\n그림 47. 이종워크로드 성능 측정 결과\nl 실험 결과: 그림 47은 Alone 과 Together 시나리오에서 측정한 각 워크로드의 성능을 나타\n냄. Alone 대비 Together에서 Hyperledger Fabric, Memcached, 그리고 Spark 의 성능은 각\n각 87.8%, 35.4%, 그리고 9% 감소함. CPU -intensive 워크로드인 Spark 워크로드에서 성능",
+    "caption_and_following_text": "저하가 가장 작게 나타나며, I/O-intensive 워크로드인 Hyperledger Fabric에서 성능 저하가\n가장 크게 나타남. 즉, CFS가 각 워크로드에 공평하게 CPU 자원을 배분하지 못하여 성능\n간섭이 발생하며, 이 때 I/O-intensive 워크로드 (Hyperledger Fabric)에서 성능 저하가 가장\n크게 나타나는 것을 알 수 있음. 표 7. 이종 워크로드의 time slice\nTime slice (ms) Alone Together\nHyperledger Fabric 0.32 0.23\nMemcached 5.01 2.07\nSpark 9.80 3.12\n표 7는 Alone과 Together에서 측정한 각 워크로드의 time slice를 나타냄. 먼저, Alone에서\nHyperledger Fabric은 가장 짧은 time slice를 보이며, Spark에서 가장 긴 time slice를 보임. 이",
+    "section_context_candidate": "9) 멀티 테넌트 기반 BaaS 성능 SLA 보장 연구",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0049",
+    "caption": "이종 워크로드의 스케줄링 지연과 문맥 교환",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 32,
+    "prefix_match_only": false,
+    "text_before": "0\n20000\n40000\n60000\n80000\n100000 Scheduling delay (ms)\nThe number of context switch/s Scheduling delay Context switch",
+    "caption_and_following_text": "(a) Hyperledger\nFabric\n(b) Memcached (c) Spark\n그림 48. 이종 워크로드의 스케줄링 지연과 문맥 교환\n그림 48는 Alone과 Together에서 측정한 평균 스케줄링 딜레이와 초당 컨텍스트 스위치 수를\n나타냄. 먼저, Together에서 평균 스케줄링 딜레이는 Hyperledger Fabric, Memcached, 그리고\nSpark 가 Alone 대비 각각 약 5배, 33배, 그리고 4배 증가함. 이는 각 워크로드가 CPU를 새롭\n게 할당 받기 위해서 동작 중인 다른 워크로드의 time slice가 모두 소진될 때까지 대기해야 하\n기 때문임\n다음으로, Hyperledger Fabric의 초당 컨텍스트 스위치 수는 31% 감소하는 반면, Memcached와",
+    "section_context_candidate": "1) 성능 고립을 위한 기법 설계: 본 연구에서는 하이퍼레저 패브릭과 같은 BaaS를 포함한 이종",
+    "heading_candidates": [
+      "1) 성능 고립을 위한 기법 설계: 본 연구에서는 하이퍼레저 패브릭과 같은 BaaS를 포함한 이종"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0050",
+    "caption": "하이퍼레저 패브릭 구성요소 단위 성능 간섭 프로파일링 결과",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 64 -\n그림 49. 하이퍼레저 패브릭 구성요소 단위 성능 간섭 프로파일링 결과\n하이퍼레저 패브릭 워크로드의 scheduling delay의 증가를 막기 위해 본 연구에서는 QiOi 모듈\n을 설계하였음. QiOi 데몬은 QiOi controller와 Performance monitor로 구성됨. 먼저, Performance monitor는 주기적으로 하이퍼레저 패브릭 워크로드의 성능을 모니터링함. 만약 현\n재의 성능이 사용자가 Fabric service manager를 통해 입력한 목표 성능에 도달하지 못하는 경\n우 QiOi controller를 통해 하이퍼레저 패브릭을 구성하는 Peer, Orderer의 scheduling delay를\n줄이기 위한 CPU 스케줄링 파라미터를 조절함. QiOi controller에서 조절하는 CPU 스케줄링 파\n라미터는 CPU share 값으로 CPU 상에 수행되는 프로세스의 가중치를 의미함. 기본적으로 설정\n되는 값은 1024로, 만약 두 개의 서로 다른 프로세스 P1, P2가 각각 1024, 2048의 share 값을\n가지는 경우 P2는 P1에 비해 2배 더 긴 CPU timeslice를 할당받게 됨. 따라서, P2는 P1에 비해",
+    "section_context_candidate": "10) 네트워크 가상화를 통한 테넌트 간 고립(isolation) 연구",
+    "heading_candidates": [
+      "10) 네트워크 가상화를 통한 테넌트 간 고립(isolation) 연구",
+      "1) 오픈플로우 확장을 통한 네트워크 하이퍼바이저의 주소 가상화 기능 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.21,
+          663.23,
+          561.9,
+          794.61
+        ],
+        "page_area_fraction": 0.1309
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0051",
+    "caption": "실험 환경 구성",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 65 -",
+    "caption_and_following_text": "관없는 자료구조로 변환하여 커널 모듈로 전달하는 것임. 커널 모듈은 오픈플로우에 의해 설정\n된 룰에 따라 실제 패킷을 처리하는 작업을 수행하기 때문에, 실제 캡슐화, 역 캡슐화 기능은\n커널 모듈에서 동작하도록 구현함.\n그림 50. 실험 환경 구성\n2) 하이퍼바이저 상에서의 주소 가상화 구현: 기존 OpenVirteX 하이퍼바이저는 각 가상화\n된 SDN 기반 네트워크 (virtualized SDN; vSDN) 컨 트롤러의 오픈플로우 FlowMod 패킷을 변조\n하여 rewriting 액션을 추가함으로써 주소 가상화를 구현 함. FlowMod 패킷은 오픈플로우 프로\n토콜에서 스위치의 플로우 테이블을 제어하기 위해 사용되는 패 킷 타입을 의미함. 제안하는\n기법은 rewriting 액션 대신 캡슐화/역 캡슐화 액션을 추가하여 주소 가상화를 구현함. 캡슐화\n액션에는 L2 주소, L3 주소 및 테넌트 ID가 포함되며, ingress edge 스위치에서 터널링 시 캡슐",
+    "section_context_candidate": "3) 실험을 통한 성능 평가: 제안하는 방식의 장점 제안하는 기법을 평가하기 위해 다음과 같은",
+    "heading_candidates": [
+      "3) 실험을 통한 성능 평가: 제안하는 방식의 장점 제안하는 기법을 평가하기 위해 다음과 같은"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.0,
+          512.92,
+          391.23,
+          725.93
+        ],
+        "page_area_fraction": 0.0733
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0052",
+    "caption": "이진 트리에서의 플로우 엔트리 수 측정",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 66 -\n그림 51. 이진 트리에서의 플로우 엔트리 수 측정 그림 52. 액션 처리 지연시간\n제안하는 기법이 플로우 엔트리를 적게 소모한다는 것을 보이기 위해 다양한 토폴로지에 대\n해 가상 네트워크를 생성하고, 플로우 엔트리 수를 측정하는 실험을 진행하였음. 첫 번째로 이\n진 트리 토폴로지를 구성하고, 트리의 레벨을 달리하여 실험을 반복하였음. 가상 네트워크 토폴\n로지는 물리 네트워크와 동일하게 구성하였으며, edge 스위치마다 2개의 호스트를 생성한 후\n호스트간 pair-wise ping 트래픽을 생성하여 플로우 엔트리 개수를 측정하였음. 그림 51은 트리 토폴로지에서 core 스위치의 플로우 엔트리 수를 측정한 결과를 나타냄. edge 스위치는 기존 기법과 동일한 플로우 엔트리 수를 사용하므로 따로 표기하지 않음. 레벨\n2 트리에서는 루트 스위치에 해당하는 Depth 1 스위치의 플로우 엔트리가 8개에서 2개로 줄\n어든 결과를 보였으며, 레벨 3 트리에서는 Depth 1 스위치의 플로우 엔트리가 32개에서 8개로, Depth 2 스위치 2개에서는 각각 40개에서 10개로 줄어드는 결과를 보임. 마지막으로 레벨 4 트\n리에 서는 Depth 1에서 128개가 32개로, Depth 2 스위치 2개에서는 160개에서 40개로, Depth 3",
+    "section_context_candidate": "3) 실험을 통한 성능 평가: 제안하는 방식의 장점 제안하는 기법을 평가하기 위해 다음과 같은",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          643.34,
+          343.02,
+          780.71
+        ],
+        "page_area_fraction": 0.0699
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          343.02,
+          642.5,
+          530.59,
+          786.1
+        ],
+        "page_area_fraction": 0.0538
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0053",
+    "caption": "액션 처리 지연시간",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 66 -\n그림 51. 이진 트리에서의 플로우 엔트리 수 측정 그림 52. 액션 처리 지연시간\n제안하는 기법이 플로우 엔트리를 적게 소모한다는 것을 보이기 위해 다양한 토폴로지에 대\n해 가상 네트워크를 생성하고, 플로우 엔트리 수를 측정하는 실험을 진행하였음. 첫 번째로 이\n진 트리 토폴로지를 구성하고, 트리의 레벨을 달리하여 실험을 반복하였음. 가상 네트워크 토폴\n로지는 물리 네트워크와 동일하게 구성하였으며, edge 스위치마다 2개의 호스트를 생성한 후\n호스트간 pair-wise ping 트래픽을 생성하여 플로우 엔트리 개수를 측정하였음. 그림 51은 트리 토폴로지에서 core 스위치의 플로우 엔트리 수를 측정한 결과를 나타냄. edge 스위치는 기존 기법과 동일한 플로우 엔트리 수를 사용하므로 따로 표기하지 않음. 레벨\n2 트리에서는 루트 스위치에 해당하는 Depth 1 스위치의 플로우 엔트리가 8개에서 2개로 줄\n어든 결과를 보였으며, 레벨 3 트리에서는 Depth 1 스위치의 플로우 엔트리가 32개에서 8개로, Depth 2 스위치 2개에서는 각각 40개에서 10개로 줄어드는 결과를 보임. 마지막으로 레벨 4 트\n리에 서는 Depth 1에서 128개가 32개로, Depth 2 스위치 2개에서는 160개에서 40개로, Depth 3",
+    "section_context_candidate": "3) 실험을 통한 성능 평가: 제안하는 방식의 장점 제안하는 기법을 평가하기 위해 다음과 같은",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          643.34,
+          343.02,
+          780.71
+        ],
+        "page_area_fraction": 0.0699
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          343.02,
+          642.5,
+          530.59,
+          786.1
+        ],
+        "page_area_fraction": 0.0538
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0054",
+    "caption": "Flo-v 구조",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 11,
+    "prefix_match_only": false,
+    "text_before": "한 번 더 하기 때문임. 반면 기존 기법의 set 액션을 두 번 실행하는 시간은 197.33ns 으로 측\n정되었음. 또한 대조군으로 실험한 VLAN 헤더를 추가하고 제거하는 실험에서는 약 45ns이 소\n모되었는데 이는 하드웨어가 헤더 처리 작업을 대신하기 때문에 처리 시간이 절감되는 효과가\n있음. 패킷 당 처리 시간의 증가와 달리, Iperf를 통한 UDP 트래픽의 전송 성능 측정 결과, 기\n존 기법과 제안하는 기법 모두 35.3 Mbits/s의 동일한 성능을 나타냄. 즉, 기존 기법에 의해 증\n가한 패킷 당 처리 지연은 전체 패킷 포워딩에 있어서 무시할 수준임을 확인할 수 있음. 마지\n막으로 네트워크 하이퍼바이저에서의 주소 가상화 처리시간을 측정함. vSDN 컨트롤러가 생성",
+    "caption_and_following_text": "한 오픈플로우 FlowMod 패킷을 네트워크 하이퍼바이저가 받은 시점부터, FlowMod 패킷을 수정\n하여 주 소 가상화 명령을 추가한 뒤 스위치로 전달하기까지의 시간을 측정하였음. 제안하는\n기법은 기존 기법에 비해 약 0.8ms의 추가 지연 시간이 발생함을 확인함. 라. 이종 멀티 테넌트를 위한 가상 네트워크 모니터링 기법 연구\n그림 53. Flo-v 구조\n1) 가상화된 SDN에서의 네트워크 모니터링 플랫폼 개발 (Flo-v): OVX를 포함한 대부분의 가상\n화된 SDN은 네트워크 가상화 자체를 제공하는 데 중점을 두었음. 응용 프로그램에서 가상화\n기술을 실제로 사용하려면 네트워크 관리 및 최적화에 대한 연구가 필요함. 그 첫 단계로, 네\n트워크 관리에 대한 전제 조건으로 네트워크 모니터링 연구(Flo-v)를 진행. OVX의 현재 네트워\n크 모니터링 모델은 정적으로 구성된 주기(기본 폴링 주기인 30초)로 모든 물리적 스위치에서\n네트워크 통계를 수집함. 이후 이 방법을 사전 모니터링이라고 부르며, 사전 모니터링의 문제",
+    "section_context_candidate": "1) 가상화된 SDN에서의 네트워크 모니터링 플랫폼 개발 (Flo-v): OVX를 포함한 대부분의 가상",
+    "heading_candidates": [
+      "1) 가상화된 SDN에서의 네트워크 모니터링 플랫폼 개발 (Flo-v): OVX를 포함한 대부분의 가상"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          215.04,
+          268.03,
+          390.03,
+          485.59
+        ],
+        "page_area_fraction": 0.0761
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0055",
+    "caption": "vSDN에서 측정된 네트워크 통계 정보",
+    "pdf_page_candidate": 69,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 69 -\n그림 54. vSDN에서 측정된 네트워크 통계 정보\n먼저, 정확도의 경우 가상 네트워크에 대한 기존의 네트워크 모니터링 기법은 정확도를 떨어뜨\n림. 그림 54은 vSDN의 각 모니터링 작업에서 플로우 수 및 플로우 룰에 매칭된 바이트 수를\n나타내는데, 그림 54 (a)인 사전 모니터링이 없는 경우는 vSDN 요청에 따라 물리적 스위치에서\n직접 통계를 수집하기 때문에 올바른 정보를 제공하는 경우에 해당됨. 반대로 OVX의 기본값인\nb의 경우 (30초 주기 사전 모니터링) vSDN에 부정확한 정보가 전달됨을 알 수 있음. 정확한 결\n과를 제공하기 위해서는 c와 같이 폴링 간격을 1초 이하로 설정해야함. 반면 Flo-v는 그래프 a\n와 유사하게, 정확한 정보를 제공함. 따라서 오버헤드의 경우 정확한 정보를 제공하는 1초 주\n기로 모니터링하는 OVX와 Flo-v를 비교함. 다음으로, 모니터링으로 인한 부가적인 오버헤드를 평가하기 위해 네트워크 하이퍼바이저에서",
+    "section_context_candidate": "11) BaaS 성능/보안 SLA 보장 효율성 향상을 위한 최적화 연구",
+    "heading_candidates": [
+      "11) BaaS 성능/보안 SLA 보장 효율성 향상을 위한 최적화 연구"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          476.72,
+          508.53,
+          786.1
+        ],
+        "page_area_fraction": 0.2547
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0056",
+    "caption": "네트워크 하이퍼바이저 지연시간",
+    "pdf_page_candidate": 70,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "있음. 이에 대한 해결방안으로 네트워크 제어부분과 패킷전송기능을 분리한\nsoftware-defined networking(SDN) 기반 네트워크 가상화(SDN-NV)가 제안되었음. 네트워크\n하이퍼바이저(NH)는 물리 네트워크를 가상화하여 가상 스위치, 링크, 포트 등을 제공하며, 각 테넌트는 컨트롤러(SDN controller)를 통해 NH가 제공하는 가상화된 네트워크 자원으로\nSDN-NV를 구성 할 수 있음. 또한 네트워크 인프라에서 발생하는 오류를 처리하고 각 테넌\n트에게 고성능 서비스를 제공하기 위해 가상 네트워크에 대한 모니터링이 필수로 요구됨8). 가상 네트워크 모니터링을 위해 테넌트 컨트롤러가 통계 요청 메시지를 보내면, NH는 물리\n네트워크(스위치)에 통계 요청 메시지를 전달하고 결과 수신을 기다림. 이 때 테넌트 컨트롤\n러의 통계 요청과 물리 스위치의 응답 사이의 지연(전송 지연)이 증가할 경우 오래된 네트",
+    "caption_and_following_text": "워크 통계 정보로 인해 테넌트 컨트롤러의 네트워크 최적화에 문제가 발생할 수 있음. 따라\n서 SDN-NV 모니터링 기법 설계 시 모니터링 비용을 최소화하기 위한 세심한 설계가 필요\n함.\n그림 55. 네트워크 하이퍼바이저 지연시간\nl 가상 네트워크 모니터링 설계: SDN-NV에서 가상 네트워크 모니터링 시 발생하는 모니터링\n비용은 크게 1) NH와 물리 스위치간의 통계 요청 및 응답에 소요되는 전송 지연과, 2) NH\n에서 가상 네트워크의 통계를 계산하고 생성하는 시간으로 구분됨. 본 연구에서는 NH와 물\n리 스위치간의 전송 지연을 최소화하기 위해 1) pStatistics cache와 2) Request interval\nestimation을 제안함. pStatistics cache는 테넌트 컨트롤러의 가상 네트워크의 통계 정보가 요청 되었을 때 물리\n네트워크의 통계 정보를 받아오는 것이 아닌, NH에 미리 물리 네트워크의 통계 정보를 캐",
+    "section_context_candidate": "11) BaaS 성능/보안 SLA 보장 효율성 향상을 위한 최적화 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.06,
+          204.62,
+          427.93,
+          414.75
+        ],
+        "page_area_fraction": 0.1032
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0057",
+    "caption": "하드웨어 및 소프트웨어 상세",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "으로 pStatistics 갱신 간격을 결정함. l 실험 환경 및 방법: 본 연구에서는 총 3개의 물리서버를 사용하며, 물리 네트워크(Mininet),\nNH(Libera) 및 테넌트 컨트롤러(ONOS)가 각 물리서버에서 독립적으로 실행됨. 따라서 모든\n서버 쌍의 RTT를 측정하며, 평균 및 95% tail RTT는 모든 서버 쌍에 대해 각각 0.15 ms 및\n0.18 ms임. 실험에 사용한 하드웨어 및 소프트웨어는 아래 표와 같음. 실험을 위해 1) 5개의\n스위치로 구성된 linear 토폴로지(그림 56a)와 2) 데이터 센터에서의 효과 분석을 위해 4-ary\nfat-tree topology 토폴로지(그림 56b)를 구성하여 실험을 진행했음. linear 토폴로지의 경우\n3개의 테넌트를 생성하며, 각 테넌트의 TCP 연결수를 2, 4, 6, 8, 10개로 늘려가며 실험함(즉",
+    "caption_and_following_text": "물리 네트워크에는 총 6, 12, 18, 24, 30개의 TCP 연결이 존재함). Fat-tree 토폴로지의 경우\n단일 테넌트에 대해 TCP 연결 수를 2, 4, 8, 16, 32개로 늘려가며 실험함. 통계 전송 지연시\n간을 측정하기 위해 ONOS 컨트롤러에서 통계 요청 및 응답 시간을 기록하도록 수정했으며, 각 가상 네트워크의 컨트롤러는 5초 간격으로 모든 플로우와 스위치의 포트에 대해 모니터\n링함. 표 8. 하드웨어 및 소프트웨어 상세\nServer (hardware) specifications.\nCPU Intel Xeon E5-2650 (2.30 GHz)\nMemory 64 GB\nNIC Intel 82599ES 10GbE NIC\nSoftware specifications.\nPN Mininet: 2.3.0d6 with Open vSwitch v2.9.5",
+    "section_context_candidate": "11) BaaS 성능/보안 SLA 보장 효율성 향상을 위한 최적화 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.96,
+          107.16,
+          281.49,
+          137.37
+        ],
+        "page_area_fraction": 0.0119
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          307.27,
+          81.63,
+          536.11,
+          163.02
+        ],
+        "page_area_fraction": 0.0372
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0058",
+    "caption": "실험에 사용한 네트워크 토폴로지",
+    "pdf_page_candidate": 71,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "Memory 64 GB\nNIC Intel 82599ES 10GbE NIC\nSoftware specifications.\nPN Mininet: 2.3.0d6 with Open vSwitch v2.9.5\nOS: Ubuntu 18.04\nNetwork hypervisor Libera: v0.1\nOS: Ubuntu 14.04",
+    "caption_and_following_text": "Tenant controller ONOS: v2.0.0\nOS: Ubuntu 16.04.6\n(a) linear (five switches). (b) fat-tree (4-ary).\n그림 56. 실험에 사용한 네트워크 토폴로지\nl 비교군\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "11) BaaS 성능/보안 SLA 보장 효율성 향상을 위한 최적화 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          83.96,
+          107.16,
+          281.49,
+          137.37
+        ],
+        "page_area_fraction": 0.0119
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          307.27,
+          81.63,
+          536.11,
+          163.02
+        ],
+        "page_area_fraction": 0.0372
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0059",
+    "caption": "통계 전송 지연 시간의 평균",
+    "pdf_page_candidate": 72,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 72 -\n1) Native: 물리적 스위치가 직접 연결되는 비가상화 SDN으로, NH 없이 ONOS 컨트롤에 연\n결됨. 2) NH+SM: SDN 기반 네트워크 가상화로, 기존의 NH는 네트워크 모니터링을 지원하지 않으",
+    "caption_and_following_text": "므로, 오픈 소스 NH인 Libera9)에 간단한 모니터링 기능을 구현했음. 3) V-Sight (본 연구): SDN 기반 네트워크 가상화로, 모니터링 비용 최소화 기법이 적용되었\n음. l 실험 결과: 그림 57는 두 개의 토폴로지에서의 통계 전송 지연의 평균을 그래프로 나타낸\n것임. V-Sight를 사용할 경우, linear 토폴로지의 플로우 및 포트 통계 전송 지연 시간의 평\n균은 각각 9.35 ms와 4.68 ms로 나타났음(그림 57a 및 57b). 또한 V-Sight는 NH+SM에 비해\n46배(플로우, 6개의 TCP 연결)에서 454배(포트 통계, 30개의 TCP 연결)의 통계 전송 지연시\n간을 개선함. Fat-tree 토폴로지의 경우 V-Sight의 플로우 및 포트 통계 전송 지연시간은 각\n각 9.75 ms, 7.29 ms로 나타났음(그림 57c 및 57d). 또한 V-Sight의 통계 전송 지연시간은\nNH+SM에 비해 14배(포트 통계, 2개의 TCP 연결)에서 269배(포트 통계, 32개의 TCP 연결)까\n지 향상되었음. 특히 NH+SM의 통계 전송 지연시간은 TCP 연결 수에 비례하여 증가한다(최\n대 2초 이상). 이는 연결 수가 많을수록 vStatistics에 필요한 pStatistics의 수가 증가하며",
+    "section_context_candidate": "11) BaaS 성능/보안 SLA 보장 효율성 향상을 위한 최적화 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          52.17,
+          338.87,
+          172.35,
+          427.33
+        ],
+        "page_area_fraction": 0.0212
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.59,
+          338.27,
+          293.96,
+          427.33
+        ],
+        "page_area_fraction": 0.0216
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.84,
+          334.08,
+          421.21,
+          427.33
+        ],
+        "page_area_fraction": 0.0232
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          421.21,
+          335.63,
+          545.59,
+          427.33
+        ],
+        "page_area_fraction": 0.0228
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0060",
+    "caption": "컨트롤 채널 트래픽 사용량",
+    "pdf_page_candidate": 73,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 73 -\n집함. pCollector filter는 통계 정보 요청 트래픽을 병합할 주기(pCollector period)를 결정하\n고 여러 개의 pCollector를 병합하여 통계 정보 요청 트래픽의 수를 줄이며 불필요한 패킷",
+    "caption_and_following_text": "헤더를 제거함. pCollector tuner는 병합된 pCollector의 시작 시간을 pCollector period의 95%\n만큼 의도적으로 지연시킴으로써 가상 네트워크 통계 정보가 요청된 시간과 pStatistics\ncache가 갱신된 시간의 차이를 줄여 통계의 정확도를 높임. l 실험 환경 및 방법: 실험 환경 및 방법은 네트워크 가상화 및 모니터링 비용 최소화 연구와\n동일함. l 실험 결과: 그림 58은 두 토폴로지에서 통계 전송을 위한 컨트롤 채널 트래픽 사용량 그래\n프임. TCP 연결 수가 많아짐에 따라 모니터링이 필요한 플로우 수도 증가하기 때문에 TCP\n연결 수에 비례하여 증가함. V-Sight는 linear 토폴로지(그림 58a)에서 컨트롤 채널 트래픽\n사용량을 NH+SM에 비해 평균 1.9배 향상했음. 또한 fat-tree 토폴로지(그림 58b)에서\nV-sight의 평균 컨트롤 채널 트래픽 사용량은 NH+SM에 비해 1.44배 개선되었음. CPU 사용\n량의 경우 V-Sight가 모니터링 최적화를 위해 pCollector를 별도의 쓰레드로 실행시킴에도\n불구하고 모니터링을 지원하지 않는 NH에 비해 linear 및 fat-tree 토폴로지에서 각각 평균",
+    "section_context_candidate": "11) BaaS 성능/보안 SLA 보장 효율성 향상을 위한 최적화 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.35,
+          231.35,
+          299.6,
+          363.2
+        ],
+        "page_area_fraction": 0.053
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.91,
+          230.63,
+          512.12,
+          363.2
+        ],
+        "page_area_fraction": 0.0536
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0061",
+    "caption": "CPU 사용량",
+    "pdf_page_candidate": 74,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 74 -\n(a) linear. (b) fat-tree.\n그림 59. CPU 사용량\n2) 이종 멀티테넌트 컨테이너 성능 최적화\nl 동기 및 기존 연구 분석: 본 연구에서는 이종의 컨테이너 실행환경으로, 최근 센서, fog\ncomputing, edge computing 등으로 활발히 연구되는 internet-of-things를 새로운 종류로 정\n하고, 성능을 최적화함. IIoT(Industrial internet of things)는 통신, 제어, 그리고 동시다발적인\n컴퓨팅을 할 수 있는 실행 환경을 필요로 하는데 이러한 환경을 제공할 수 있는 기술이 엣\n지 컴퓨팅임. IoT 장치의 특성상, 장치가 낼 수 있는 성능에는 한계가 있음. 이 한계를 극복\n하기 위해 엣지 컴퓨팅은 성능 향상에 도움을 줄 수 있고 배포가 쉬운 컨테이너를 중요 구",
+    "section_context_candidate": "11) BaaS 성능/보안 SLA 보장 효율성 향상을 위한 최적화 연구",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.14,
+          649.33,
+          305.0,
+          794.61
+        ],
+        "page_area_fraction": 0.0569
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          305.0,
+          653.41,
+          496.65,
+          794.61
+        ],
+        "page_area_fraction": 0.0541
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0062",
+    "caption": "native container 환경과 SCON에서의 그림 65. 패킷 처리시간",
+    "pdf_page_candidate": 77,
+    "location_evidence": "filename_hint_only",
+    "caption_line_index": 7,
+    "prefix_match_only": true,
+    "text_before": "- 77 -\n가 64B TCP 패킷을 전송할 때 각 레이어에서 발생하는 처리시간을 수집하고 각 레이어에서\n실행하는 함수들을 역할에 따라 분류하여 소모되는 CPU cycle의 양을 측정함. 그림 65은 레\n이어별 처리시간의 평균치를 나타낸다. 대부분의 패킷 프로파일링 처리시간은 기존 컨테이\n너 네트워크와 비슷하나 br_handle_frame() 함수의 경우 SCON 환경에서 소모되는 시간이\n44.6% 줄어들었음. 패킷당 처리시간은 그림 66에서 볼 수 있듯이 61.8 us (Container)에서\n52.9 us (SCON)으로 줄어들었음. 특히, 기존 컨테이너 환경에서 가장 많은 CPU 사용량을 차",
+    "caption_and_following_text": "지했던 Netfilter와 Routing의 경우 SCON에서는 각각 69.6%, 63.2% 줄어들었음. 따라서\nSCON의 Contable과 Confilter 디자인이 패킷 처리에서 발생하는 오버헤드를 성공적으로 줄\n일 수 있다는 것을 의미함.\n그림 64. native container 환경과 SCON에서의\n성능 비교\n그림 65. 패킷 처리시간\n그림 66. CPU 사용량 비교분석\n나. 통합 테스트 및 상호 운용 실험 수행 및 최적화\n1) 기계학습 기반 통합 제어 기술 최적화\nl 연구 동기: 클라우드 컴퓨팅 환경에서는 네트워크 SLO와 CPU 사용률의 SLO를 충족하는 것",
+    "section_context_candidate": "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화",
+    "heading_candidates": [
+      "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          454.06,
+          265.78,
+          622.24
+        ],
+        "page_area_fraction": 0.0693
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          287.61,
+          455.26,
+          535.39,
+          615.17
+        ],
+        "page_area_fraction": 0.0792
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.26,
+          256.52,
+          414.74,
+          416.42
+        ],
+        "page_area_fraction": 0.0749
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0063",
+    "caption": "CPU 사용량 비교분석",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "이어별 처리시간의 평균치를 나타낸다. 대부분의 패킷 프로파일링 처리시간은 기존 컨테이\n너 네트워크와 비슷하나 br_handle_frame() 함수의 경우 SCON 환경에서 소모되는 시간이\n44.6% 줄어들었음. 패킷당 처리시간은 그림 66에서 볼 수 있듯이 61.8 us (Container)에서\n52.9 us (SCON)으로 줄어들었음. 특히, 기존 컨테이너 환경에서 가장 많은 CPU 사용량을 차\n지했던 Netfilter와 Routing의 경우 SCON에서는 각각 69.6%, 63.2% 줄어들었음. 따라서\nSCON의 Contable과 Confilter 디자인이 패킷 처리에서 발생하는 오버헤드를 성공적으로 줄\n일 수 있다는 것을 의미함.",
+    "caption_and_following_text": "그림 64. native container 환경과 SCON에서의\n성능 비교\n그림 65. 패킷 처리시간\n그림 66. CPU 사용량 비교분석\n나. 통합 테스트 및 상호 운용 실험 수행 및 최적화\n1) 기계학습 기반 통합 제어 기술 최적화\nl 연구 동기: 클라우드 컴퓨팅 환경에서는 네트워크 SLO와 CPU 사용률의 SLO를 충족하는 것\n이 클라우드 컴퓨팅의 서비스 품질을 결정하는 주요 요소가 됨. 또한, 네트워크 작업은 CPU\n자원을 추가 소모하므로 네트워크 SLO를 충족하기 위해 CPU 사용률에 대한 추가적인 제어\n가 필요함. 이때, 네트워크 처리에 필요한 정확한 CPU 사용량은 여러 가지 요인(i.e., 워크로",
+    "section_context_candidate": "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화",
+    "heading_candidates": [
+      "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          454.06,
+          265.78,
+          622.24
+        ],
+        "page_area_fraction": 0.0693
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          287.61,
+          455.26,
+          535.39,
+          615.17
+        ],
+        "page_area_fraction": 0.0792
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.26,
+          256.52,
+          414.74,
+          416.42
+        ],
+        "page_area_fraction": 0.0749
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0064",
+    "caption": "CPU 사용량 비교분석",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "이어별 처리시간의 평균치를 나타낸다. 대부분의 패킷 프로파일링 처리시간은 기존 컨테이\n너 네트워크와 비슷하나 br_handle_frame() 함수의 경우 SCON 환경에서 소모되는 시간이\n44.6% 줄어들었음. 패킷당 처리시간은 그림 66에서 볼 수 있듯이 61.8 us (Container)에서\n52.9 us (SCON)으로 줄어들었음. 특히, 기존 컨테이너 환경에서 가장 많은 CPU 사용량을 차\n지했던 Netfilter와 Routing의 경우 SCON에서는 각각 69.6%, 63.2% 줄어들었음. 따라서\nSCON의 Contable과 Confilter 디자인이 패킷 처리에서 발생하는 오버헤드를 성공적으로 줄\n일 수 있다는 것을 의미함.",
+    "caption_and_following_text": "그림 64. native container 환경과 SCON에서의\n성능 비교\n그림 65. 패킷 처리시간\n그림 66. CPU 사용량 비교분석\n나. 통합 테스트 및 상호 운용 실험 수행 및 최적화\n1) 기계학습 기반 통합 제어 기술 최적화\nl 연구 동기: 클라우드 컴퓨팅 환경에서는 네트워크 SLO와 CPU 사용률의 SLO를 충족하는 것\n이 클라우드 컴퓨팅의 서비스 품질을 결정하는 주요 요소가 됨. 또한, 네트워크 작업은 CPU\n자원을 추가 소모하므로 네트워크 SLO를 충족하기 위해 CPU 사용률에 대한 추가적인 제어\n가 필요함. 이때, 네트워크 처리에 필요한 정확한 CPU 사용량은 여러 가지 요인(i.e., 워크로",
+    "section_context_candidate": "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화",
+    "heading_candidates": [
+      "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.73,
+          454.06,
+          265.78,
+          622.24
+        ],
+        "page_area_fraction": 0.0693
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          287.61,
+          455.26,
+          535.39,
+          615.17
+        ],
+        "page_area_fraction": 0.0792
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.26,
+          256.52,
+          414.74,
+          416.42
+        ],
+        "page_area_fraction": 0.0749
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0065",
+    "caption": "기계학습 회귀 알고리즘 별 실제 CPU 사용량과 예측 CPU 사용량",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "(over-allocation)을 보임. 또한, 실제 할당량 비율이 75%보다 증가하면 저할당\n(under-allocation)이 되어 네트워크 SLO를 달성하는데 필요한 충분한 CPU가 할당되지 못해\nSLO 위반이 발생하게 됨. SVR(그림 67(b))의 경우 LR과 유사한 결과를 보인다. RFR(그림\n67(c))의 경우 실제 할당량 비율이 50% 미만인 경우 LR과 SVR에 비해 초과 할당이 크게 감\n소함을 보임. 또한, 예측 정확도를 파악하기 위해 정확도를 파악할 때 사용하는 측정값인\n평균 제곱 로그 오차(RM-SLE)와 루트 평균 제곱 오차(RMSE)를 계산하여 각 모델의 성능을\n측정하였을 때, 표 A와 같이 RMSLE 0.159 및 RMSE 8087.562로 가장 좋은 예측을 제공함. 위 결과를 바탕으로 Model-G, Model-H에서 모두 RFR을 사용함. 이와 같이, 기계학습 모델",
+    "caption_and_following_text": "을 통해 네트워크 SLO를 달성하기 위한 CPU 사용량을 예측하고, Manager에서 각 워크로드\n별 예측 CPU 사용량을 할당 및 전체 워크플로우를 실행함.\n(a) Linear regression (b) Support vector regression (c) Random forest regression\n그림 67. 기계학습 회귀 알고리즘 별 실제 CPU 사용량과 예측 CPU 사용량\n표 9. 기계학습 회귀 알고리즘 별 RMSLE, RMSE\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.16,
+          192.15,
+          545.71,
+          276.18
+        ],
+        "page_area_fraction": 0.0778
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.38,
+          52.26,
+          437.04,
+          130.66
+        ],
+        "page_area_fraction": 0.0407
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0066",
+    "caption": "기계학습 회귀 알고리즘 별 RMSLE, RMSE",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "(under-allocation)이 되어 네트워크 SLO를 달성하는데 필요한 충분한 CPU가 할당되지 못해\nSLO 위반이 발생하게 됨. SVR(그림 67(b))의 경우 LR과 유사한 결과를 보인다. RFR(그림\n67(c))의 경우 실제 할당량 비율이 50% 미만인 경우 LR과 SVR에 비해 초과 할당이 크게 감\n소함을 보임. 또한, 예측 정확도를 파악하기 위해 정확도를 파악할 때 사용하는 측정값인\n평균 제곱 로그 오차(RM-SLE)와 루트 평균 제곱 오차(RMSE)를 계산하여 각 모델의 성능을\n측정하였을 때, 표 A와 같이 RMSLE 0.159 및 RMSE 8087.562로 가장 좋은 예측을 제공함. 위 결과를 바탕으로 Model-G, Model-H에서 모두 RFR을 사용함. 이와 같이, 기계학습 모델\n을 통해 네트워크 SLO를 달성하기 위한 CPU 사용량을 예측하고, Manager에서 각 워크로드",
+    "caption_and_following_text": "별 예측 CPU 사용량을 할당 및 전체 워크플로우를 실행함.\n(a) Linear regression (b) Support vector regression (c) Random forest regression\n그림 67. 기계학습 회귀 알고리즘 별 실제 CPU 사용량과 예측 CPU 사용량\n표 9. 기계학습 회귀 알고리즘 별 RMSLE, RMSE\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.16,
+          192.15,
+          545.71,
+          276.18
+        ],
+        "page_area_fraction": 0.0778
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          177.38,
+          52.26,
+          437.04,
+          130.66
+        ],
+        "page_area_fraction": 0.0407
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0067",
+    "caption": "본 연구(TS)와 통신 제어 기법(tc)과의 비교",
+    "pdf_page_candidate": 80,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "위해 CPU 코어를 완전히 활용해야 하기 때문임. 다음으로 그림 C에서 vCPU 우선 순위 지\n정 방식은 모든 경우에 단일 물리적 코어를 완벽하게 활용하면서 정규화된 대역폭의 변동이\n큼. 메시지 크기가 클수록 바이트당 패킷 처리 오버헤드가 감소하여 메시지 크기가 64B(그\n림 69(a))일 때 정규화된 대역폭은 약 1.53까지 증가하고, 메시지 크기가 1024B(그림 69(b))일\n때 약 7.15까지 증가함. 반면 본 연구는 CPU 예측을 기반으로 게스트와 호스트에 적절한\nCPU 사용량을 할당하므로 메시지 크기에 관계 없이 다양한 네트워크 SLO를 충족할 수 있\n으며 평균 1.01의 정규화된 대역폭을 보임. 또한, 본 연구와 달리 vCPU 우선 순위 지정 기",
+    "caption_and_following_text": "법은 Linux CFS를 사용하여 작업 보존 스케줄링을 수행하기 때문에 모든 경우에 100% CPU\n사용률을 할당하여 초과 할당하여 리소스 효율성이 저하됨.\n(a) 메시지 크기: 64B (b) 메시지 크기: 1024B\n그림 68. 본 연구(TS)와 통신 제어 기법(tc)과의 비교\n(a) 메시지 크기: 64B (b) 메시지 크기: 1024B\n그림 69. 본 연구(TS)와 CPU 우선순위 지정 기법(PR)과의 비교\n그림 70에서는 네트워크 기반 VM(network-bound VM)들이 네트워크 기반이 아닌 VM에 어떤\n영향을 받는지 확인하기 위해 소수를 계산하는 sysbench CPU 테스트를 실행하는 CPU 기반\nVM(CPU-bound VM)을 추가함. 네트워크 기반 VM(network-bound VM)의 경우 네트워크 SLO를\n200Mbps로 설정하고 메시지 크기가 64B인 Netperf를 실행함. 또한, 본 연구와 통신 제어 기법",
+    "section_context_candidate": "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.72,
+          440.04,
+          527.48,
+          583.52
+        ],
+        "page_area_fraction": 0.129
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.36,
+          244.05,
+          530.23,
+          391.37
+        ],
+        "page_area_fraction": 0.136
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I16-V0068",
+    "caption": "본 연구(TS)와 CPU 우선순위 지정 기법(PR)과의 비교",
+    "pdf_page_candidate": 80,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 12,
+    "prefix_match_only": false,
+    "text_before": "큼. 메시지 크기가 클수록 바이트당 패킷 처리 오버헤드가 감소하여 메시지 크기가 64B(그\n림 69(a))일 때 정규화된 대역폭은 약 1.53까지 증가하고, 메시지 크기가 1024B(그림 69(b))일\n때 약 7.15까지 증가함. 반면 본 연구는 CPU 예측을 기반으로 게스트와 호스트에 적절한\nCPU 사용량을 할당하므로 메시지 크기에 관계 없이 다양한 네트워크 SLO를 충족할 수 있\n으며 평균 1.01의 정규화된 대역폭을 보임. 또한, 본 연구와 달리 vCPU 우선 순위 지정 기\n법은 Linux CFS를 사용하여 작업 보존 스케줄링을 수행하기 때문에 모든 경우에 100% CPU\n사용률을 할당하여 초과 할당하여 리소스 효율성이 저하됨.",
+    "caption_and_following_text": "(a) 메시지 크기: 64B (b) 메시지 크기: 1024B\n그림 68. 본 연구(TS)와 통신 제어 기법(tc)과의 비교\n(a) 메시지 크기: 64B (b) 메시지 크기: 1024B\n그림 69. 본 연구(TS)와 CPU 우선순위 지정 기법(PR)과의 비교\n그림 70에서는 네트워크 기반 VM(network-bound VM)들이 네트워크 기반이 아닌 VM에 어떤\n영향을 받는지 확인하기 위해 소수를 계산하는 sysbench CPU 테스트를 실행하는 CPU 기반\nVM(CPU-bound VM)을 추가함. 네트워크 기반 VM(network-bound VM)의 경우 네트워크 SLO를\n200Mbps로 설정하고 메시지 크기가 64B인 Netperf를 실행함. 또한, 본 연구와 통신 제어 기법\n을 두 가지 지표 1) 네트워크 기반 VM(network-bound VM)의 네트워크 SLO를 통하여 정규화된\n네트워크 대역폭과 2) 최대 8개까지 sysbench 스레드 수가 증가하는 CPU 기반 VM의 작업 완",
+    "section_context_candidate": "나. 통합 테스트 및 상호 운용 실험 수행 및 최적화",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.72,
+          440.04,
+          527.48,
+          583.52
+        ],
+        "page_area_fraction": 0.129
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          68.36,
+          244.05,
+          530.23,
+          391.37
+        ],
+        "page_area_fraction": 0.136
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

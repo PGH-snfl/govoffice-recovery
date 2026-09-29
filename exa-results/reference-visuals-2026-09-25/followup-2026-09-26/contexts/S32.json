@@ -1,0 +1,4122 @@
+[
+  {
+    "visual_id": "S32-V0001",
+    "caption": "차세대 통합 예․경보 플랫폼(대국민) 기능 구성도 및 기관별 업무 분장",
+    "pdf_page_candidate": 11,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "1. 연구개발 목표 및 평가항목별 성과\n1-1. 연구개발 목표\n최종목표\no 재난안전 유관기관(NDMS 연계 기관 중심)의 재난 예․경보시스템 현황조사\no 다매체를 활용한 멀티미디어 기반 재난 통합 예․경보 플랫폼 설계",
+    "caption_and_following_text": "o 빅데이터 기반 상황인지 맞춤형 재난정보 자동 생성 및 전달 기술 개발\no 멀티미디어 기반 재난 통합 예․경보 플랫폼 개발/구축 및 이와 기존 통합\n발령시스템이 연계된 ‘차세대 통합 예․경보 플랫폼’ 시험\n<그림> 차세대 통합 예․경보 플랫폼(대국민) 기능 구성도 및 기관별 업무 분장\no 성과목표\n- 다매체를 활용한 멀티미디어 기반 통합 예·경보 플랫폼 및 매뉴얼\n- 차세대 통합 예·경보 플랫폼 시험운영 결과 보고서\n세부목표\no (2-A)NDMS 연계 유관기관 운영 재난 예․경보시스템 현황조사 및 분석\no (2-B)기존 예․경보시스템의 기능 및 연계 인터페이스 분석에 따른 호환성",
+    "section_context_candidate": "1. 연구개발 목표 및 평가항목별 성과",
+    "heading_candidates": [
+      "1. 연구개발 목표 및 평가항목별 성과",
+      "1-1. 연구개발 목표"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          190.22,
+          473.84,
+          526.64,
+          618.76
+        ],
+        "page_area_fraction": 0.0974
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0002",
+    "caption": "NDMS(국가재난안전관리시스템) 구성도",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "□ NDMS 연계 유관기관 운영 재난 예‧경보시스템 현황조사 및 분석\n❍ NDMS 연계 유관기관 운영 재난 예‧경보시스템 현황조사",
+    "caption_and_following_text": "- NDMS의 개요 및 서비스 개념 조사\nŸ NDMS란 행정안전부에서 국가 재난에 대한 체계적인 관리 및 대응을 위한 “국가재난관리\n정보시스템(National Disaster Management System)\"으로써 예방 및 대비, 신속한 대응, 복구업무 지원 등 전 과정을 정보화하여 대국민 재난안전 서비스를 제공하는 시스템\n<그림> NDMS(국가재난안전관리시스템) 구성도\nŸ 1995년도 8월 ‘21C 정보화 사회 대비 세계화추진위원회 과제’로 선정되면서 국가\n재난에 대한 정보 통합관리를 목표로 하여 시스템 구축의 토대를 마련하여 1996년 ‘국가안전\n관리 정보시스템 구축 기본계획 확정’에 따른 국무총리실 주관 16개 부처 합동으로\n기본계획 수립\nŸ ‘재난 대응’ 및 ‘긴급 구조’, ‘재난 지원’에 대한 3개 영역, 11대 이행과제별 우선순위를\n결정하였으며, 이후 ‘기반정비기’와 ‘고도화기’를 거쳐 국가 재난관리정보시스템의",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.23,
+          319.81,
+          508.65,
+          614.45
+        ],
+        "page_area_fraction": 0.2487
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0003",
+    "caption": "자동우량경보시스템 구성도",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "❍ 재난 예‧경보시스템 운영 현황 분석 및 개발기술 방향 도출\n- 자동우량경보시스템\nŸ 우량국, 감시국, 통제국, 그리고 경보국의 4개 서브시스템으로 구성\nŸ 강 상류지역의 우량국에서는 시간당 우량을 수집하여 일정량이 초과하면 자동으로 통제국에\n무선으로 전송하고, 감시국의 관리로 계곡의 하류부에 있는 경보국에서 경보발령 및\n안내방송을 실시\nŸ 계곡 상류부 및 계곡 하류부, 공원 관리 사무소 또는 읍면 사무소, 시군청 재해대책상황실에",
+    "caption_and_following_text": "각각 설치된 우량국과 경보국, 통제국, 감시국이 체계적으로 이루어져 우량을 자동 체크\nŸ 강우상황을 주기적으로 관측하여 일정치 이상의 강우량이 감지될 시에는 자동으로 통제국에\n데이터가 전송되며, 감시국의 관리로 계곡의 하류부에 경보발령 및 안내방송을 실시\n<그림> 자동우량경보시스템 구성도\n- 자동음성통보시스템\nŸ 자동음성통보시스템은 재난상황 발생 또는 우려 시, 재난대책본부에서 유무선 전화 등\n각종 통신수단을 이용하여 읍․면동사무소, 통․리반장, 재난 우려지구 주민들에게 재난상황을\n신속하게 음성으로 전달하는 시스템\nŸ 재난대책본부에 재난상황음성통보시스템을 두어 재난상황을 수집하고, PSTN망을 통해\n재난상황을 전송",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.11,
+          274.38,
+          422.65,
+          530.06
+        ],
+        "page_area_fraction": 0.128
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0004",
+    "caption": "자동음성통보시스템 구성도",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 자동음성통보시스템 구성도\n- DMB 재난경보시스템\nŸ DMB재난경보방송은 방송법 제75조에 의해 재난방송 중 재난 및 안전관리기본법 제38조의\n재난 예‧경보의 신속한 방송을 위해, 현재 시청하고 있는 방송의 중단 없이 지상파DMB의\n데이터 채널을 사용하여 재난관련 정보를 송신\nŸ 행정안전부에서 재난경보를 발령하면 수신한 정보를 KBS, MBC, SBS, YTN 및 TV미디어에\n전달하고 최종적으로 DMB시청자에게 전달됨\nŸ 운영시스템은 행정안전부 및 시‧도 재난상황실에 설치되어 있으며, 행정안전부 재난상황실에서\n24시간 상황근무자가 관리\nŸ 행정안전부 재난상황실의 통합발령서버시스템과 연계되어있어, 통합발령서버에서 경보를",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.43,
+          605.1,
+          418.46,
+          741.87
+        ],
+        "page_area_fraction": 0.0662
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.67,
+          141.68,
+          433.09,
+          317.65
+        ],
+        "page_area_fraction": 0.0954
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0005",
+    "caption": "DMB재난경보방송시스템 전달 체계",
+    "pdf_page_candidate": 28,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "재난 예‧경보의 신속한 방송을 위해, 현재 시청하고 있는 방송의 중단 없이 지상파DMB의\n데이터 채널을 사용하여 재난관련 정보를 송신\nŸ 행정안전부에서 재난경보를 발령하면 수신한 정보를 KBS, MBC, SBS, YTN 및 TV미디어에\n전달하고 최종적으로 DMB시청자에게 전달됨\nŸ 운영시스템은 행정안전부 및 시‧도 재난상황실에 설치되어 있으며, 행정안전부 재난상황실에서\n24시간 상황근무자가 관리\nŸ 행정안전부 재난상황실의 통합발령서버시스템과 연계되어있어, 통합발령서버에서 경보를",
+    "caption_and_following_text": "발령하면 전용선/행망을 이용하여 각 방송사, 민방위 중앙경보통제소, 시‧도 상황실 및\n유관기관에 경보가 전달됨\nŸ 각 방송사는 이 경보를 DMB송출서버에서 수신하여 DMB재난경보방송을 시행\n<그림> DMB재난경보방송시스템 전달 체계\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          176.43,
+          605.1,
+          418.46,
+          741.87
+        ],
+        "page_area_fraction": 0.0662
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.67,
+          141.68,
+          433.09,
+          317.65
+        ],
+        "page_area_fraction": 0.0954
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0006",
+    "caption": "민방위경보시스템 전국 네트워크",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 민방위 예‧경보시스템\nŸ 민방위 경보시스템은 시‧도경보통제소 및 시‧군‧구 경보사이렌에 경보전달을 담당하는 경보\n통제대, 방송사 및 주요기관에 경보를 전달함과 동시에 경보방송 및 텔레비전 문자방송",
+    "caption_and_following_text": "실시를 담당하는 방송통제대, 시‧도통제소 및 분배소에 경보를 전달함과 동시에 일제지령\n실시하는 일제지령대로 구성하여 운영\nŸ 방송사에 방송사 연결장치, 주요기관에 주요기관 연결장치, 그리고 옥외 경보사이렌 단말로 구분\n<그림> 민방위경보시스템 전국 네트워크\n- 미국의 재난통합경보시스템(IPAWS) Ÿ 통합재난경보시스템(IPAWS : Integrated Public Alert and Warning System)은 미국\n국민의 생명과 재산을 보호하기 위한 신속한 재난 예보 및 경보 전달을 위해 연방, 주, 지역 정부에 산재되어 있는 다양한 통신 수단을 사용하여 해당 지역 사회에 통합적인\n재난관련 서비스 제공을 목표로 기존의 라디오 및 TV를 사용하는 긴급경보시스템(EAS\n: Emergency Alert System)에 매체 및 네트워크를 확장한 차세대 인프라\nŸ 미국의 통합재난경보시스템(IPAWS)의 시스템 구성은 경보관할당국과 경보전달체계로 구성\nŸ 경보관할당국은 연방정부, 주정부, 지자체 관할의 재난관리책임기관으로 구성되며, 재난관리",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.96,
+          373.75,
+          446.04,
+          618.4
+        ],
+        "page_area_fraction": 0.1452
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0007",
+    "caption": "통합재난경보시스템(IPAWS) 구성도",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 통합재난경보시스템(IPAWS) 구성도\n- IPAWS와 개발플랫폼 비교‧분석\n<그림> 미국 IPAWS 및 개발 플랫폼 비교 분석\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          513.4,
+          488.38,
+          741.87
+        ],
+        "page_area_fraction": 0.1744
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          222.84,
+          507.09,
+          449.39
+        ],
+        "page_area_fraction": 0.1898
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0008",
+    "caption": "미국 IPAWS 및 개발 플랫폼 비교 분석",
+    "pdf_page_candidate": 30,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 통합재난경보시스템(IPAWS) 구성도\n- IPAWS와 개발플랫폼 비교‧분석\n<그림> 미국 IPAWS 및 개발 플랫폼 비교 분석\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.5,
+          513.4,
+          488.38,
+          741.87
+        ],
+        "page_area_fraction": 0.1744
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.79,
+          222.84,
+          507.09,
+          449.39
+        ],
+        "page_area_fraction": 0.1898
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0009",
+    "caption": "지진조기경보시스템 구성도",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "□ 기존 예․경보시스템의 기능 및 연계 인터페이스 분석에 따른 호환성 검토\n❍ 기존 예․경보시스템과의 연계 인터페이스 분석에 따른 호환성 검토\n- 기상청 지진조기경보 시스템",
+    "caption_and_following_text": "Ÿ 지진조기경보시스템이란 지진을 탐지∙분석하여 이에 대한 정보를 지진이 도달하기 전에\n피해 예상지역이나 시설물에 가능한 신속히 전파하고, 사람들의 대피가능 시간을 최대한\n확보할 수 있도록 신속한 정보 제공을 목적으로 하는 시스템\n<그림> 지진조기경보시스템 구성도\n- 자동음성통보시스템\nŸ 자동음성통보시스템이란 긴급 재해 상황전파가 요구되는 지역에 자동음성통보시스템을\n설치하여 유선전화, 핸드폰, 앰프 등 이용 가능한 통신수단을 활용하여 재해상황, 대피지시를\n실시간 자동 통보하여 재해에 능동적으로 대처할 수 있도록 지원하는 시스템\n<그림> 자동음성통보시스템 구성도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.61,
+          423.5,
+          478.54,
+          614.45
+        ],
+        "page_area_fraction": 0.1362
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.41,
+          112.08,
+          459.47,
+          272.1
+        ],
+        "page_area_fraction": 0.1036
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0010",
+    "caption": "자동음성통보시스템 구성도",
+    "pdf_page_candidate": 31,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "❍ 기존 예․경보시스템과의 연계 인터페이스 분석에 따른 호환성 검토\n- 기상청 지진조기경보 시스템\nŸ 지진조기경보시스템이란 지진을 탐지∙분석하여 이에 대한 정보를 지진이 도달하기 전에\n피해 예상지역이나 시설물에 가능한 신속히 전파하고, 사람들의 대피가능 시간을 최대한\n확보할 수 있도록 신속한 정보 제공을 목적으로 하는 시스템\n<그림> 지진조기경보시스템 구성도\n- 자동음성통보시스템",
+    "caption_and_following_text": "Ÿ 자동음성통보시스템이란 긴급 재해 상황전파가 요구되는 지역에 자동음성통보시스템을\n설치하여 유선전화, 핸드폰, 앰프 등 이용 가능한 통신수단을 활용하여 재해상황, 대피지시를\n실시간 자동 통보하여 재해에 능동적으로 대처할 수 있도록 지원하는 시스템\n<그림> 자동음성통보시스템 구성도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.61,
+          423.5,
+          478.54,
+          614.45
+        ],
+        "page_area_fraction": 0.1362
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.41,
+          112.08,
+          459.47,
+          272.1
+        ],
+        "page_area_fraction": 0.1036
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0011",
+    "caption": "버스정보시스템 서비스 개념도",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 버스정보시스템",
+    "caption_and_following_text": "Ÿ 버스에 GPS(Global Positioning System) 수신기와 무선통신 장치를 설치, 버스의 운행상황을\n실시간으로 파악하여 버스위치, 운행상태, 배차간격, 도착예정 시간 등의 정보를 운수회사\n및 시민에게 제공하는 시스템\n<그림> 버스정보시스템 서비스 개념도\n- 인터넷포털, SNS 연계\nŸ SNS를 통한 재난 알림 서비스는 위 ‘2.1 지진조기경보시스템’에서의 연계모듈을 이용하여\n재난정보를 수신하는 방식과, 트위터 API, 기상청 API 등과 같은 연계 시스템을 활용하는\n방식 등으로 나뉘며 트윗 알림 기능은 트위터에서 기상청 지진정보 서비스를 팔로우하고, 트윗 알림을 설정 시 기상청의 지진 알림 트윗을 실시간으로 받을 수 있음. 페이스북은\n피해자의 생존 정보 등을 알려주는 기능을 주로 운영하며, 그 밖에 부산시 등 일부 지방자치단체가\n자체적으로 재난 알림 메시지 전송에 사용하는 카카오톡, 지진발생 시 규모뿐만 아니라",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.62,
+          513.16,
+          414.26,
+          659.52
+        ],
+        "page_area_fraction": 0.0683
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0012",
+    "caption": "연동방식 비교",
+    "pdf_page_candidate": 32,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "실시간으로 파악하여 버스위치, 운행상태, 배차간격, 도착예정 시간 등의 정보를 운수회사\n및 시민에게 제공하는 시스템\n<그림> 버스정보시스템 서비스 개념도\n- 인터넷포털, SNS 연계\nŸ SNS를 통한 재난 알림 서비스는 위 ‘2.1 지진조기경보시스템’에서의 연계모듈을 이용하여\n재난정보를 수신하는 방식과, 트위터 API, 기상청 API 등과 같은 연계 시스템을 활용하는\n방식 등으로 나뉘며 트윗 알림 기능은 트위터에서 기상청 지진정보 서비스를 팔로우하고, 트윗 알림을 설정 시 기상청의 지진 알림 트윗을 실시간으로 받을 수 있음. 페이스북은",
+    "caption_and_following_text": "피해자의 생존 정보 등을 알려주는 기능을 주로 운영하며, 그 밖에 부산시 등 일부 지방자치단체가\n자체적으로 재난 알림 메시지 전송에 사용하는 카카오톡, 지진발생 시 규모뿐만 아니라\n시각, 진앙 위치까지 구제적인 정보를 전달하는 네이버 라인의 챗봇 등이 있음\n- 연동방식 비교\n<표> 연동방식 비교\n시스템 구간 연동 방식 공개여부 비고\n지진조기경보시스템 통보서버- 내부수신처\nFTP\nRemote DB Access 비공개\n중계서버- 수신처 TCP/IP 기반 자체 연동규격 비공개 CAP 메시지",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.62,
+          513.16,
+          414.26,
+          659.52
+        ],
+        "page_area_fraction": 0.0683
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0013",
+    "caption": "차세대 예‧경보 플랫폼 주제 영역별 엔티티(Entity)",
+    "pdf_page_candidate": 33,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 37,
+    "prefix_match_only": false,
+    "text_before": "수신처 정보 재난 경보 수신처의 기본 정보 및 인증 정보를 관리\n수신처 상태 재난 경보 수신처의 접속 및 동작 상태 정보\n발령 메시지 재난 경보 발령 메시지 정보\n전송 메시지 재난 경보 메시지 전송 상태 정보를 관리\n공통\n공통코드 공통코드의 관리\n행정구역코드 행정구역코드의 관리",
+    "caption_and_following_text": "사용자 통합관제 사용자 관리\n사용자 권한 통합관제 사용자 권한 관리\n기관 시스템 사용자의 소속기관\n<표> 차세대 예‧경보 플랫폼 주제 영역별 엔티티(Entity)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2-1. 추진내용 및 연구개발결과",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0014",
+    "caption": "긴급재난문자 실례 화면",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시\n❍ 중앙부처 및 지자체/민간 운영 멀티미디어 활용 가능 다매체 조사\n- 중앙에서 운영하는 멀티미디어 다매체로는 CBS, DMB, 재난방송이 있으며, 각 매체별 재난\n정보 전달의 실례는 다음과 같음",
+    "caption_and_following_text": "Ÿ CBS\n: 중앙부처, 지자체에서 운영하며 긴급재난에 대해 긴급재난문자를 발송할 수 있는 체계가 마련되어\n있음\n<그림> 긴급재난문자 실례 화면\nŸ DMB\n: DMB재난경보시스템의 경우 행정안전부, 시·도, 시·군에서 운영하며, 전국 DMB단말기\n시청자에게 재난경보를 전달할 수 있는 체계가 마련되어 있음\n<그림> DMB 실례 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [
+      "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.47,
+          462.57,
+          425.53,
+          590.83
+        ],
+        "page_area_fraction": 0.0656
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.03,
+          120.83,
+          355.73,
+          357.33
+        ],
+        "page_area_fraction": 0.0552
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0015",
+    "caption": "DMB 실례 화면",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "❍ 중앙부처 및 지자체/민간 운영 멀티미디어 활용 가능 다매체 조사\n- 중앙에서 운영하는 멀티미디어 다매체로는 CBS, DMB, 재난방송이 있으며, 각 매체별 재난\n정보 전달의 실례는 다음과 같음\nŸ CBS\n: 중앙부처, 지자체에서 운영하며 긴급재난에 대해 긴급재난문자를 발송할 수 있는 체계가 마련되어\n있음\n<그림> 긴급재난문자 실례 화면",
+    "caption_and_following_text": "Ÿ DMB\n: DMB재난경보시스템의 경우 행정안전부, 시·도, 시·군에서 운영하며, 전국 DMB단말기\n시청자에게 재난경보를 전달할 수 있는 체계가 마련되어 있음\n<그림> DMB 실례 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [
+      "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          169.47,
+          462.57,
+          425.53,
+          590.83
+        ],
+        "page_area_fraction": 0.0656
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          239.03,
+          120.83,
+          355.73,
+          357.33
+        ],
+        "page_area_fraction": 0.0552
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0016",
+    "caption": "재난방송 실례 화면",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 재난방송\n: 긴급 재난 정보에 대해 방송화면에 표출할 수 있는 재난경보 체계가 마련되어 있음\n<그림> 재난방송 실례 화면\n❍ 다매체별 멀티미디어 정보 표출 규격 분석\n- 재난정보 멀티미디어 정보 표출을 위한 재난별 요소 규격은 아래와 같음\nŸ 각 재난의 공통요소는 지도기반 재난에 대한 상세정보, 대응요령, 현장정보(이미지 및\n동영상), 과거 통계자료를 포함\n<표> 재난별 특정 요소 규격\n재난종류 요소 설명\n지진",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          532.1,
+          442.32,
+          694.76
+        ],
+        "page_area_fraction": 0.0942
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0017",
+    "caption": "재난별 특정 요소 규격",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 재난방송\n: 긴급 재난 정보에 대해 방송화면에 표출할 수 있는 재난경보 체계가 마련되어 있음\n<그림> 재난방송 실례 화면\n❍ 다매체별 멀티미디어 정보 표출 규격 분석",
+    "caption_and_following_text": "- 재난정보 멀티미디어 정보 표출을 위한 재난별 요소 규격은 아래와 같음\nŸ 각 재난의 공통요소는 지도기반 재난에 대한 상세정보, 대응요령, 현장정보(이미지 및\n동영상), 과거 통계자료를 포함\n<표> 재난별 특정 요소 규격\n재난종류 요소 설명\n지진\n재난지역 지도 지진발생에 대한 지역별 진도지도를 제공\n대피소정보 지진발생으로부터 안전한 대피소 정보를 지도 기반으로 제공\n태풍\n태풍경로 태풍의 현재위치 및 예상위치를 지도 기반으로 제공",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          532.1,
+          442.32,
+          694.76
+        ],
+        "page_area_fraction": 0.0942
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0018",
+    "caption": "CBS 경보(지진)",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "❍ 다매체별 멀티미디어 재난정보 콘텐츠 표출 방안 제시\n- 재난별 콘텐츠 표출을 위한 매체는 CBS, 재난방송, WEB의 형태로 선정하였으며, 각 매체",
+    "caption_and_following_text": "및 재난별 표출 방안은 다음과 같음\nŸ CBS(지진)\n: 지진의 경우 경보가 필요한 재난으로, 최초 경보 시 텍스트 형태로 신속한 경보를 발송\n<그림> CBS 경보(지진)\n<그림> CBS 후속경보(지진)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.95,
+          450.83,
+          372.88,
+          630.03
+        ],
+        "page_area_fraction": 0.0472
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.91,
+          122.39,
+          423.97,
+          423.74
+        ],
+        "page_area_fraction": 0.1524
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0019",
+    "caption": "CBS 후속경보(지진)",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "❍ 다매체별 멀티미디어 재난정보 콘텐츠 표출 방안 제시\n- 재난별 콘텐츠 표출을 위한 매체는 CBS, 재난방송, WEB의 형태로 선정하였으며, 각 매체\n및 재난별 표출 방안은 다음과 같음",
+    "caption_and_following_text": "Ÿ CBS(지진)\n: 지진의 경우 경보가 필요한 재난으로, 최초 경보 시 텍스트 형태로 신속한 경보를 발송\n<그림> CBS 경보(지진)\n<그림> CBS 후속경보(지진)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          240.95,
+          450.83,
+          372.88,
+          630.03
+        ],
+        "page_area_fraction": 0.0472
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          170.91,
+          122.39,
+          423.97,
+          423.74
+        ],
+        "page_area_fraction": 0.1524
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0020",
+    "caption": "CBS 후속경보(지진)",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> CBS 후속경보(지진)\nŸ 재난방송(경보)\n: 재난방송 경보는 텍스트로 신속한 경보를 함\n<그림> 재난방송 경보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          184.46,
+          475.16,
+          410.3,
+          741.87
+        ],
+        "page_area_fraction": 0.1204
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.12,
+          176.45,
+          452.76,
+          371.59
+        ],
+        "page_area_fraction": 0.1211
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0021",
+    "caption": "재난방송 경보",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> CBS 후속경보(지진)\nŸ 재난방송(경보)\n: 재난방송 경보는 텍스트로 신속한 경보를 함\n<그림> 재난방송 경보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          184.46,
+          475.16,
+          410.3,
+          741.87
+        ],
+        "page_area_fraction": 0.1204
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.12,
+          176.45,
+          452.76,
+          371.59
+        ],
+        "page_area_fraction": 0.1211
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0022",
+    "caption": "전달모듈 승인전달",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": ": 수동발령 ( 호우 주의보 )\n: 대국민상황전파화면 -> 전달모듈 승인전달\n<그림> 전달모듈 승인전달\n: 발령 승인 ( 지진, 미세먼지, 호우 )\nURL : http://(IP):(Port)/disasterinfo/delivery\nHttpMethods : GET\nQuery String Parameter :\nIDENTIFIER : String ( 발령 식별자 )\n\"text40\": String ( text40 문안 ),\n\"text80\": String ( text80 문안 ),",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.47,
+          210.61,
+          492.34,
+          239.38
+        ],
+        "page_area_fraction": 0.0226
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0023",
+    "caption": "통합관제시스템 구조도",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "□ 멀티미디어 기반 재난 통합 예․경보 플랫폼 기능 정의 및 구조/GUI 설계\n❍ 통합관제시스템 구조기능 설계\n- 통합관제시스템 구조 정의\nŸ 통합관제시스템은 소프트웨어로 이루어진 시스템으로 H/W에 크게 영향을 받지 않음. 다만, WEB기반의 통합관제모듈에 접속하는 사용자수에 따라 시스템의 기본적인 동작\n및 성능에 영향을 미칠 수 있으므로 추후 설계에 반영한다. 많은 사용자에게 익숙한 Windows\nOS를 사용하며 Windows OS 환경에서 운영될 수 있도록 각 모듈이 구현되어야 함. Ÿ 통합관제모듈과 상황인터페이스모듈은 동일 시스템에 구현될 수도 있고, 각각 독립된",
+    "caption_and_following_text": "시스템으로 구현될 수도 있음. 따라서 각 기능 요소들은 모듈화가 되어 구현함. 현재\n버전의 문서에서는 통합관제모듈과 상황인터페이스모듈이 한 개의 소프트웨어로 구현되는\n경우를 설계함.\n: 통합관제시스템 구조도\n<그림> 통합관제시스템 구조도\nŸ 이벤트가 발생하게 되면 멀티미디어정보 생성 모듈은 해당정보 데이터를 DB에 저장\n: DB에 저장할 때 즉시 전달할지 의사결정에 의해 전달할지 여부도 함께 저장\nŸ 재난상황 전달 모듈과 상황 인터페이스 모듈은 DB를 주기적으로 체킹하여 새로운 데이터가\n있는지 확인\nŸ 재난상황 전달 모듈에서는 새로운 데이터가 있는지 확인하고 새로운 데이터가 즉시 전달하는",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          171.63,
+          316.69,
+          423.13,
+          467.37
+        ],
+        "page_area_fraction": 0.0757
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0024",
+    "caption": "상황 인터페이스 모듈 소프트웨어 구조",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 통합관제 모듈은 의사결정 후 의사 결정된 데이터를 상황 인터페이스 모듈로 전달하고",
+    "caption_and_following_text": "상황 인터페이스 모듈은 의사결정데이터를 DB에 반영\nŸ 재난상황 전달모듈은 의사 결정된 내용을 확인하여 여러 매체에 발령을 전달\n: 상황 인터페이스 모듈\n<그림> 상황 인터페이스 모듈 소프트웨어 구조\nŸ 위 그림은 상황 인터페이스 모듈 소프트웨어 구조\nŸ DB인터페이스 기능은 주기적으로 DB를 체킹하여 새로운 정보데이터가 있는지 확인\nŸ 새로운 정보데이터가 입력되면 DB인터페이스 기능은 해당 정보데이터를 데이터관리 기능으로\n전달\nŸ 데이터관리 기능은 새로운 정보데이터가 의사결정이 필요한지 판단하여 의사결정이 필요한\n정보데이터일 경우 통합관제 모듈 인터페이스 기능을 통해 통합관제 모듈로 정보데이터를",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          117.54,
+          432.37,
+          477.34,
+          653.53
+        ],
+        "page_area_fraction": 0.159
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0025",
+    "caption": "통합관제 모듈 소프트웨어 구조",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": ": 통합관제 모듈\n<그림> 통합관제 모듈 소프트웨어 구조\nŸ 위 그림은 통합관제 모듈 소프트웨어 구조\nŸ 상황 인터페이스 모듈로부터 정보데이터를 수신하면 Business 기능으로 전달되며\nBusiness 기능에서는 필요한 기능으로 정보데이터를 전달\nŸ GISMAP 기능에서는 정보데이터를 화면에 표시\nŸ 데이터입력 기능은 내부 DB에 데이터를 저장\nŸ 의사결정 기능은 사용자에게 의사 결정할 수 있도록 표시해주며 사용자가 의사결정을\n하면 발령기능을 통해 의사결정 데이터가 Business 기능으로 전달\nŸ Business 기능은 의사결정 데이터를 상황 인터페이스 모듈로 전달하고 상황 인터페이스",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.52,
+          480.67,
+          456.35,
+          718.25
+        ],
+        "page_area_fraction": 0.1509
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0026",
+    "caption": "통합관제 모듈 소프트웨어 구조",
+    "pdf_page_candidate": 48,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": ": 모니터링 모듈\n<그림> 통합관제 모듈 소프트웨어 구조\nŸ 위 그림은 모니터링 모듈 소프트웨어 구조\nŸ 모니터링 모듈은 관리되어야 하는 서버들에 설치되며 모니터링시스템들 간에 TCP통신도\n가능\nŸ 서버로 지정된 모니터링 모듈은 클라이언트로 지정된 모니터링시스템의 정보를 수신 받아\n정보표출기능을 이용하여 정보를 표시\nŸ OS시스템정보를 수집하는 시스템모니터링 기능, 등록된 프로그램 정보를 수집하는 프로그램\n모니터링 기능이 있으며 이 두 기능으로부터 수집된 데이터는 Business 기능으로 전달\nŸ Business 기능은 전달받은 시스템수집데이터, 프로그램수집데이터를 정보표출기능으로",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.58,
+          414.75,
+          487.3,
+          718.25
+        ],
+        "page_area_fraction": 0.2303
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0027",
+    "caption": "멀티미디어 콘텐츠 생성 모듈 구조도",
+    "pdf_page_candidate": 49,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "❍ 멀티미디어 재난정보 콘텐츠 생성 모듈 구조기능 설계\n- 설계 개념\nŸ 차세대 통합 예·경보 플랫폼에서 사용하는 프로토콜은 본 과제의 표준화 범위에서 진행한 “재난정보 전달플랫폼을 위한 공통프로토콜 프로파일”을 준용하며, 플랫폼 내의 멀티미디어\n콘텐츠 생성 모듈은 자체 프로토콜을 사용",
+    "caption_and_following_text": "Ÿ 멀티미디어 콘텐츠 생성 모듈은 데이터 수집 모듈 및 경보 전송 모듈, 통합 DB와는 내부\n프로토콜을 사용하여 정보를 송수신하는 것을 기본으로 운용\n: 시스템 구조\n<그림> 멀티미디어 콘텐츠 생성 모듈 구조도\nŸ 텍스트 생성 모듈은 재난별, 지역별, 언어별 등 텍스트 재난콘텐츠를 종류별로 생성할 수\n있는 판단 기능이 있으며, 그에 따라 '종류별'로 텍스트를 생성\nŸ TTS 생성 모듈은 텍스트를 음성파일로 변환하는 기능을 가지고, 음성파일은 5가지 언어를\n제공하며, 5가지 언어의 종류는 추후 결정\nŸ 이미지 생성 모듈은 재난 및 지역에 따라 생성해야 하는 이미지를 판단하는 기능이 있으며, 그에 따라 이미지를 생성\nŸ 동영상 생성 모듈은 재난 및 지역에 따라 생성해야 하는 동영상을 판단하는 기능이 있으며, 그에 따라 동영상을 생성",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.74,
+          278.82,
+          485.14,
+          571.3
+        ],
+        "page_area_fraction": 0.2194
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0028",
+    "caption": "멀티미디어 콘텐츠 생성 모듈 흐름도",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ ‘CAP 생성’모듈은 생성된 멀티미디어 콘텐츠의 정보를 담고 있는 CAP파일을 생성\n: 기능 동작\n<그림> 멀티미디어 콘텐츠 생성 모듈 흐름도\n❍ 재난정보 전달모듈 송수신 인터페이스 설계(Ⅰ) - 요구사항 도출\nReq.ID 요구사항 내용 구현년도\nUIR.001\n대국민 차세대 통합 예‧경보 플랫폼은 기존 예‧경보\n시스템과의 연계를 위한 표준 인터페이스를 제공해야\n한다. 4차년도\nUFR-SR.001",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.04,
+          472.04,
+          444.84,
+          694.76
+        ],
+        "page_area_fraction": 0.1312
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0029",
+    "caption": "요구사항 도출",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ ‘CAP 생성’모듈은 생성된 멀티미디어 콘텐츠의 정보를 담고 있는 CAP파일을 생성\n: 기능 동작\n<그림> 멀티미디어 콘텐츠 생성 모듈 흐름도\n❍ 재난정보 전달모듈 송수신 인터페이스 설계(Ⅰ) - 요구사항 도출\nReq.ID 요구사항 내용 구현년도\nUIR.001\n대국민 차세대 통합 예‧경보 플랫폼은 기존 예‧경보\n시스템과의 연계를 위한 표준 인터페이스를 제공해야\n한다. 4차년도\nUFR-SR.001",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          150.04,
+          472.04,
+          444.84,
+          694.76
+        ],
+        "page_area_fraction": 0.1312
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0030",
+    "caption": "재난정보 전달모듈 소프트웨어 아키텍처",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 재난정보 전달모듈 구조 설계\n<그림> 재난정보 전달모듈 소프트웨어 아키텍처\n- 기능 동작 설계\n<그림> 재난정보 전달모듈 CAP메시지 전송 흐름도\n❍ Open API 설계(Ⅰ) - 재난정보 Open API 서비스 현황 조사\nŸ Open API란 자신이 보유한 정보나 애플리케이션 등을 타 정보 시스템에서 네트워크를\n통하여 활용할 수 있도록 공개하는 것으로써 데이터를 제어할 수 있는 간단하고 직관적인\n인터페이스의 제공을 통해 사용자의 참여를 유도하는 사용자 중심의 비즈니스 모델임\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.24,
+          489.66,
+          452.52,
+          718.25
+        ],
+        "page_area_fraction": 0.1417
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.38,
+          225.83,
+          414.5,
+          425.65
+        ],
+        "page_area_fraction": 0.0935
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0031",
+    "caption": "재난정보 전달모듈 CAP메시지 전송 흐름도",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 재난정보 전달모듈 구조 설계\n<그림> 재난정보 전달모듈 소프트웨어 아키텍처\n- 기능 동작 설계\n<그림> 재난정보 전달모듈 CAP메시지 전송 흐름도\n❍ Open API 설계(Ⅰ) - 재난정보 Open API 서비스 현황 조사\nŸ Open API란 자신이 보유한 정보나 애플리케이션 등을 타 정보 시스템에서 네트워크를\n통하여 활용할 수 있도록 공개하는 것으로써 데이터를 제어할 수 있는 간단하고 직관적인\n인터페이스의 제공을 통해 사용자의 참여를 유도하는 사용자 중심의 비즈니스 모델임\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          142.24,
+          489.66,
+          452.52,
+          718.25
+        ],
+        "page_area_fraction": 0.1417
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.38,
+          225.83,
+          414.5,
+          425.65
+        ],
+        "page_area_fraction": 0.0935
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0032",
+    "caption": "SoAP 및 RESTful 개념도",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 일반적으로 웹 서비스 형태로 배포되며 대표적인 Open API 웹 서비스 방식으로",
+    "caption_and_following_text": "SoAP(Simple Object Access Protocol), RESTful(Representational State Transfer)\n등이 주로 사용됨\n(a) SoAP 개념도 (b) RESTful 개념도\n<그림> SoAP 및 RESTful 개념도\nŸ Open API 개발 시 사용하는 데이터 형식으로는 XML, JSON, RSS 등이 있으며, XML\n형식이 보편적으로 사용되어 왔으나, 최근에는 JSON 형식을 주로 사용하고 있음\nŸ 본 연구에서 Open API 설계는 다음 그림과 같이 분석-설계-개발의 단계로 구분되며, 1차년도 연구기간에서는 Open API 목표서비스 정의를 위한 서비스 현황 및 요구사항을\n분석하였음\n<그림> Open API 설계 프로세스\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          542.17,
+          289.52,
+          664.79
+        ],
+        "page_area_fraction": 0.051
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.84,
+          550.8,
+          516.68,
+          656.16
+        ],
+        "page_area_fraction": 0.0463
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.43,
+          134.01,
+          492.34,
+          356.37
+        ],
+        "page_area_fraction": 0.1733
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0033",
+    "caption": "Open API 설계 프로세스",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 일반적으로 웹 서비스 형태로 배포되며 대표적인 Open API 웹 서비스 방식으로\nSoAP(Simple Object Access Protocol), RESTful(Representational State Transfer)\n등이 주로 사용됨\n(a) SoAP 개념도 (b) RESTful 개념도\n<그림> SoAP 및 RESTful 개념도\nŸ Open API 개발 시 사용하는 데이터 형식으로는 XML, JSON, RSS 등이 있으며, XML",
+    "caption_and_following_text": "형식이 보편적으로 사용되어 왔으나, 최근에는 JSON 형식을 주로 사용하고 있음\nŸ 본 연구에서 Open API 설계는 다음 그림과 같이 분석-설계-개발의 단계로 구분되며, 1차년도 연구기간에서는 Open API 목표서비스 정의를 위한 서비스 현황 및 요구사항을\n분석하였음\n<그림> Open API 설계 프로세스\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          542.17,
+          289.52,
+          664.79
+        ],
+        "page_area_fraction": 0.051
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          296.84,
+          550.8,
+          516.68,
+          656.16
+        ],
+        "page_area_fraction": 0.0463
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          102.43,
+          134.01,
+          492.34,
+          356.37
+        ],
+        "page_area_fraction": 0.1733
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0034",
+    "caption": "시스템 인터페이스 요구사항",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "재난 발생에 따른 실시간성 정보를 제공하는 서비스는 일부에 불과함\n: 따라서, 재난 상황에 따라 플랫폼에서 실시간으로 생성되는 다양한 멀티미디어 콘텐츠를 활용하여\n국민들이 재난정보를 쉽게 이해하고 그에 맞는 대응할 수 있도록 신속한 재난정보 서비스가\n필요함\n- 사용자 요구사항 정의\nŸ 서비스 현황 조사 및 연구진 회의를 통해 멀티미디어 재난정보 Open API 서비스에 대한\n요구사항을 다음과 같이 정의함",
+    "caption_and_following_text": "Ÿ 요구사항은 다음 표와 같이 유저 기능 요구사항(UFR, User Function Requirement),\n유저 기능 서비스 요구사항(UFR-SR, User Function Requirement-Service\nRequirement), 시스템 기능 요구사항(SFR, System Functinon Requirement), 시스템\n비기능 요구사항(SNR, System Non-Function Requirement), 시스템 인터페이스 요구사항\n(SIR, System Interface Requirement)으로 분류하였음\n<표> 시스템 인터페이스 요구사항\nReq.ID 요구사항 내용 구현년도\nUFR.001 재난정보전달 플랫폼은 Open API를 통해 재난관리 유관기관에게\n재난정보를 제공할 수 있어야 한다. 2차년도\nUFR-SR.001",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0035",
+    "caption": "접근제어 클래스다이어그램",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "❍ 통합관제시스템 상세 설계\n- 시스템 접근제어\nŸ 시스템클래스 다이어그램\n<그림> 접근제어 클래스다이어그램\nŸ 클래스일람표\n<표> 클래스일람표\n영문명 한글명 설명\nViewController 뷰컨트롤러 외부 요청중 html Page 수용하는 클래스\nApiController 에이피아이 컨트롤러 외부 요청중 Api 요청을 수용하는 클래스\nIService 서비스 인터페이스 서비스 클래스를 구축하기 위한 인터페이스",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          436.92,
+          456.84,
+          671.15
+        ],
+        "page_area_fraction": 0.1492
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0036",
+    "caption": "클래스일람표",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "❍ 통합관제시스템 상세 설계",
+    "caption_and_following_text": "- 시스템 접근제어\nŸ 시스템클래스 다이어그램\n<그림> 접근제어 클래스다이어그램\nŸ 클래스일람표\n<표> 클래스일람표\n영문명 한글명 설명\nViewController 뷰컨트롤러 외부 요청중 html Page 수용하는 클래스\nApiController 에이피아이 컨트롤러 외부 요청중 Api 요청을 수용하는 클래스\nIService 서비스 인터페이스 서비스 클래스를 구축하기 위한 인터페이스\nServiceImpl 서비스 임플리먼트 실질적 데이터처리 및 로직이 들어가 있는",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          436.92,
+          456.84,
+          671.15
+        ],
+        "page_area_fraction": 0.1492
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0037",
+    "caption": "접근제어 시퀀스도",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 시퀀스 다이어그램\n<그림> 접근제어 시퀀스도\n- 대국민 상황전파 시스템\nŸ 클래스 다이어그램\n<그림> 대국민상황전파화 클래스 다이어그램\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -391.76,
+          466.94,
+          570.55,
+          776.29
+        ],
+        "page_area_fraction": 0.5949
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.91,
+          106.68,
+          503.97,
+          413.43
+        ],
+        "page_area_fraction": 0.2532
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0038",
+    "caption": "대국민상황전파화 클래스 다이어그램",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 시퀀스 다이어그램",
+    "caption_and_following_text": "<그림> 접근제어 시퀀스도\n- 대국민 상황전파 시스템\nŸ 클래스 다이어그램\n<그림> 대국민상황전파화 클래스 다이어그램\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -391.76,
+          466.94,
+          570.55,
+          776.29
+        ],
+        "page_area_fraction": 0.5949
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          90.91,
+          106.68,
+          503.97,
+          413.43
+        ],
+        "page_area_fraction": 0.2532
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0039",
+    "caption": "클래스일람표",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 클래스일람표\n<표> 클래스일람표\n영문명 한글명 설명\nViewController 뷰컨트롤러 외부 요청중 html Page 수용하는 클래스\nApiController 에이피아이 컨트롤러 외부 요청중 Api 요청을 수용하는 클래스\nIService 서비스 인터페이스 서비스 클래스를 구축하기 위한 인터페이스\nServiceImpl 서비스 임플리먼트 실질적 데이터처리 및 로직이 들어가 있는\n서비스 클래스\nIDao 데이터접근인터페이스\nDB에 접근하기 위한 SQL문 함수와 연결되어",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -735.47,
+          109.52,
+          708.45,
+          439.84
+        ],
+        "page_area_fraction": 0.9531
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0040",
+    "caption": "대국민상황전파 시퀀스도",
+    "pdf_page_candidate": 58,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "있는 인터페이스\napiPayload 에이피아이 파라미터\n패키지 Api 요청 파라미터 패키지\napiResultContext 에이피아이 결과 패키지 Api 응답 파라미터 패키지\nvo 값 객체 패키지 DB 쿼리 결과매핑 패키지\nconfig 설정 설정 클래스\nHttpRequest Http 요청 외부 프로그램으로 Http Request 요청 보내는",
+    "caption_and_following_text": "클래스\nDebuglog 로그기록 로그 기록하는 클래스\nŸ 시퀀스(Sequence) 다이어그램\n<그림> 대국민상황전파 시퀀스도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -735.47,
+          109.52,
+          708.45,
+          439.84
+        ],
+        "page_area_fraction": 0.9531
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0041",
+    "caption": "대국민 차세대 예·경보 플랫폼 상세 설계",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "❍ 멀티미디어 재난정보 콘텐츠 생성 모듈 상세 설계\n<그림> 대국민 차세대 예·경보 플랫폼 상세 설계\n- 매체별 통보문안 및 다국어 생성\n- 음성변환(wave 파일 생성) - 멀티미디어 생성\nŸ 재난지역별 이미지 파일 생성\n- CAP 생성\nŸ CAP 생성 및 내역 DB 저장\n- 통합 관제 연계\n<그림> 멀티미디어 재난정보 콘텐츠 생성 모듈 설계\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.89,
+          459.46,
+          473.98,
+          718.25
+        ],
+        "page_area_fraction": 0.1826
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.93,
+          119.27,
+          456.95,
+          254.12
+        ],
+        "page_area_fraction": 0.086
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0042",
+    "caption": "멀티미디어 재난정보 콘텐츠 생성 모듈 설계",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "❍ 멀티미디어 재난정보 콘텐츠 생성 모듈 상세 설계\n<그림> 대국민 차세대 예·경보 플랫폼 상세 설계\n- 매체별 통보문안 및 다국어 생성\n- 음성변환(wave 파일 생성) - 멀티미디어 생성\nŸ 재난지역별 이미지 파일 생성",
+    "caption_and_following_text": "- CAP 생성\nŸ CAP 생성 및 내역 DB 저장\n- 통합 관제 연계\n<그림> 멀티미디어 재난정보 콘텐츠 생성 모듈 설계\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          120.89,
+          459.46,
+          473.98,
+          718.25
+        ],
+        "page_area_fraction": 0.1826
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          137.93,
+          119.27,
+          456.95,
+          254.12
+        ],
+        "page_area_fraction": 0.086
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0043",
+    "caption": "시스템 인터페이스 설계도",
+    "pdf_page_candidate": 60,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "❍ 재난정보 전달모듈 송수신 인터페이스 설계(Ⅱ) - 시스템 설계\n<그림> 시스템 인터페이스 설계도\nŸ 차세대 통합 예경보 시스템은 멀티미디어 재난 콘텐츠를 생성하는 정보생성 모듈과 생성된\n정보를 받아 연동된 외부 시스템에게 전달하는 재난정보 전달 모듈로 구성. 통합 인터페이스\n로 외부 시스템과 연동 및 재난정보를 전달, 수신 결과를 받음. 또한, 재난정보 전달모듈은\nXML 방식의 데이터 포맷을 지원하며, 사용자의 설정에 따라 선택하여 사용이 가능하며, 상황에 따라 수신연계모듈 또는 게이트웨이를 통하여 해당 기능 사용 가능. - 재난정보 전달모듈 기능 설계\nŸ 재난정보 수신\n: 멀티미디어 재난 컨텐츠 생성 모듈로부터 생성된 재난정보를 수신\nŸ 재난정보 수신처 접속 인증 및 상태 관리\n: 등록된 수신처에서 접속 요청 시 인증을 통한 접속 허용",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          110.82,
+          522.63,
+          483.94,
+          694.76
+        ],
+        "page_area_fraction": 0.1284
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0044",
+    "caption": "데이터베이스 설계도",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": ": 재난정보 전달 모듈로부터 전송된 재난정보를 수신",
+    "caption_and_following_text": "Ÿ 전달모듈 접속\n: 재난정보 수신 시 설정에 따라 XML 파일 저장, 재난정보 DB 저장\n- 데이터베이스 설계\n<그림> 데이터베이스 설계도\n❍ Open API 설계(Ⅱ) - Open API 목표 서비스 정의\nŸ 1차년도에는 Open API를 통한 재난정보 서비스 현황 조사 및 요구사항 분석을 수행하였으며, 조사 및 분석 결과를 통해 Open API 목표 서비스를 정의하였음\nŸ 기존의 텍스트 정보만으로는 재난상황을 이해하는데 한계가 있으므로 차세대 예‧경보\n플랫폼에서 생성하는 이미지, 동영상 등의 멀티미디어 콘텐츠를 함께 제공함으로써 재난\n상황에 대한 이해를 돕고 재난 정보의 활용성을 증진시킬 수 있음\nŸ 또한, 예측불허한 재난에 대한 예방 및 대응을 위해서는 무엇보다 정보전달에 신속함이",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          153.88,
+          453.94,
+          441.0,
+          647.53
+        ],
+        "page_area_fraction": 0.1111
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0045",
+    "caption": "Open API 목표 서비스 항목",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "통보문 식별자, 통보문 발송 기관명, 재난 구분, 재난 경보\n구분, 발표시간, 발표차수, 멀티미디어 유무\n발령 현황 상세 조회\n서비스\n발표시간(필수),\n재난구분(선택)\n통보문 식별자, 통보문 발송 기관명, 재난 구분, 재난 경보",
+    "caption_and_following_text": "구분, 통보문 제목, 발표시간, 발표차수, 내용 요약, 대응\n행동요령, 멀티미디어 설명, 멀티미디어 타입, 멀티미디어\nURL, 경보영향 지역, 지역코드(특보발령 지역 행정구역 코드)\n<표> Open API 목표 서비스 항목\nŸ 2차년도 연구개발에서는 호우, 지진, 미세먼지 등 3개 재난 상황별 멀티미디어 콘텐츠를\n탑재한 재난 통보문을 대상으로 서비스하였으며, 3차년도 연구개발에서는 다국어 서비스, 현황정보, 통계정보 등 차세대 예‧경보 플랫폼에서 생산하는 멀티미디어 콘텐츠를 활용한\n서비스를 추가할 예정임\n- Open API 인터페이스 및 표준안 설계\nŸ 멀티미디어 재난정보 Open API 모듈은 다매체 기반의 재난정보전달플랫폼 통합DB에\n저장되는 멀티미디어 재난정보 데이터를 조회 및 가공하여 사용자의 접근성과 활용성을",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.79,
+          241.3,
+          433.09,
+          329.76
+        ],
+        "page_area_fraction": 0.048
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0046",
+    "caption": "Open API 구성도",
+    "pdf_page_candidate": 62,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 28,
+    "prefix_match_only": false,
+    "text_before": "<표> Open API 목표 서비스 항목\nŸ 2차년도 연구개발에서는 호우, 지진, 미세먼지 등 3개 재난 상황별 멀티미디어 콘텐츠를\n탑재한 재난 통보문을 대상으로 서비스하였으며, 3차년도 연구개발에서는 다국어 서비스, 현황정보, 통계정보 등 차세대 예‧경보 플랫폼에서 생산하는 멀티미디어 콘텐츠를 활용한\n서비스를 추가할 예정임\n- Open API 인터페이스 및 표준안 설계\nŸ 멀티미디어 재난정보 Open API 모듈은 다매체 기반의 재난정보전달플랫폼 통합DB에\n저장되는 멀티미디어 재난정보 데이터를 조회 및 가공하여 사용자의 접근성과 활용성을",
+    "caption_and_following_text": "고려한 Restful API 기반으로 서비스를 제공하도록 설계함\nŸ HTTP 프로토콜의 GET 메서드를 통해 API를 호출하도록 설계하였으며, 사용자는 API\n호출을 통해 XML 형태의 서비스를 제공받도록 구성하였음\n<그림> Open API 구성도\nŸ 멀티미디어 재난정보 Open API 서비스를 위한 메시지 구성은 다음과 같으며, 실시간\n멀티미디어 통보문 서비스, 발령 현황 리스트 조회 서비스, 발령 현황 리스트 상세 조회\n서비스로 구분하여 구성됨\nŸ 실시간 멀티미디어 통보문 서비스 메시지 명세\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          161.79,
+          241.3,
+          433.09,
+          329.76
+        ],
+        "page_area_fraction": 0.048
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0047",
+    "caption": "실시간 멀티미디어 통보문 서비스 메시지 명세",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "ReportTime 발표시간 발표시간\nEventTime 통보시각 통보시각\nSequence 발표차수 1 경보, 2 이상 후속경보\ndescription 내용 요약 통보문 요약\ninstruction 대응 행동요령 대응 행동요령\nresourceDesc 멀티미디어 설명 멀티미디어 콘텐츠 설명\nmimeType 멀티미디어 타입 멀티미디어 콘텐츠 데이터 타입",
+    "caption_and_following_text": "uri 멀티미디어 URL 멀티미디어 콘텐츠 제공 URL\nareaDesc 경보영향 지역 경보영향권\ngeocode 지역코드 특보 발령 지역 행정구역 코드\n<표> 실시간 멀티미디어 통보문 서비스 메시지 명세\nŸ 발령 현황 리스트 조회 서비스 메시지 명세\n구분 파라메터 파라메터(국문) 항목설명\n요 청\n메시지\nKEY(필수) 인증키 Open API 인증키\nmetaid(필수) 메타아이디 데이터 고유 ID",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0048",
+    "caption": "발령 현황 리스트 조회 서비스 메시지 명세",
+    "pdf_page_candidate": 63,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "EventTime 통보시각 통보시각\nSequence 발표차수 1 경보, 2 이상 후속경보\ndescription 내용 요약 통보문 요약\ninstruction 대응 행동요령 대응 행동요령\nresourceDesc 멀티미디어 설명 멀티미디어 콘텐츠 설명\nmimeType 멀티미디어 타입 멀티미디어 콘텐츠 데이터 타입\nuri 멀티미디어 URL 멀티미디어 콘텐츠 제공 URL",
+    "caption_and_following_text": "areaDesc 경보영향 지역 경보영향권\ngeocode 지역코드 특보 발령 지역 행정구역 코드\n<표> 실시간 멀티미디어 통보문 서비스 메시지 명세\nŸ 발령 현황 리스트 조회 서비스 메시지 명세\n구분 파라메터 파라메터(국문) 항목설명\n요 청\n메시지\nKEY(필수) 인증키 Open API 인증키\nmetaid(필수) 메타아이디 데이터 고유 ID\nFromReportTime(필수) 발표시간(From) 통보문 발표시간(From)",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0049",
+    "caption": "발령 현황 상세 조회 서비스 메시지 명세",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 발령 현황 상세 조회 서비스 메시지 명세\n구분 파라메터 파라메터(국문) 항목설명\n요 청\n메시지\nKEY(필수) 인증키 Open API 인증키\nmetaid(필수) 메타아이디 데이터 고유 ID\nFromReportTime(필수) 발표시간(From) 통보문 발표시간(From)\nToReportTime(필수) 발표시간(To) 통보문 발표시간(To)\nevent(선택) 재난구분 재난 종류(ex. 태풍, 호우 등)\ncountPerPage(선택) 페이지당 출력 개수 페이지당 출력 개수",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0050",
+    "caption": "장애 메시지 규약",
+    "pdf_page_candidate": 64,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "EventTime 통보시각 통보시각\nSequence 발표차수 1 경보, 2 이상 후속경보\ndescription 내용 요약 통보문 요약\ninstruction 대응 행동요령 대응 행동요령\nresourceDesc 멀티미디어 설명 멀티미디어 콘텐츠 설명\nmimeType 멀티미디어 타입 멀티미디어 콘텐츠 데이터 타입\nuri 멀티미디어 URL 멀티미디어 콘텐츠 제공 URL",
+    "caption_and_following_text": "areaDesc 경보영향 지역 경보영향권\ngeocode 지역코드 특보 발령 지역 행정구역 코드\n<표> 발령 현황 상세 조회 서비스 메시지 명세\nŸ 장애 메시지 규약은 다음 표와 같이 정의하였음\n결과코드 내용\nINFO-000 정상 처리되었습니다. ERROR-300 필수 값이 누락되어 있습니다.\nINFO-100 인증키가 유효하지 않습니다. ERROR-600 데이터베이스 연결 오류입니다. ERROR-601 SQL문장 오류 입니다.\nINFO-200 해당하는 데이터가 없습니다.\n<표> 장애 메시지 규약\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0051",
+    "caption": "차세대 예‧경보 플랫폼 업무프로세스 모델링(자동 발령)",
+    "pdf_page_candidate": 65,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 업무 프로세스 모델링인 BPMN(Business Process Modeling and Notation)은 업무 절차를\n플로우 차트 형식으로 정의하는 표준 표기법으로 프로세스의 시작부터 관리, 사용에 이르기까지\n업무 전반의 프로세스를 쉽게 이해하고 주체별 구분이 확실하게 표현되는 프로세스 모델링\n방법임\nŸ 차세대 예‧경보 플랫폼의 데이터 요구사항을 명확하게 파악하여 플랫폼에 대한 구체화된\n엔티티를 도출하기 위해 1차년도에 수행한 업무흐름 분석 결과를 기반으로 업무프로세스\n모델링을 수행하였음",
+    "caption_and_following_text": "Ÿ 차세대 예‧경보 플랫폼의 업무프로세스 모델은 업무 상황에 따라 자동 발령 상황과 수동 발령\n상황으로 구분하여 모델링하였으며, 시스템과 사용자를 업무 주체로 구분하여 재난 발령으로부터\n경보 전송까지의 단계별 업무에 대한 프로세스를 도식화하였음\n<그림> 차세대 예‧경보 플랫폼 업무프로세스 모델링(자동 발령) - 데이터베이스 스키마(Schema) 설계\nŸ 차세대 예‧경보 플랫폼의 업무프로세스 모델링을 토대로 플랫폼의 데이터 베이스의 스키마\n(Schema)를 구분하였으며, 데이터베이스에서 구현하기 전 데이터의 불일치, 중복성 등을\n사전에 방지하기 위해 데이터 표준화를 선행하였음\nŸ 스키마는 업무 주제에 따라 차세대 예‧경보 플랫폼에서 모듈별 사용하는 플랫폼 스키마와\n사용자가 공유하며 공통으로 사용하는 공통 스키마로 구분하였으며, 공통 스키마는 플랫폼에서\n관리해야할 공통적인 엔티티와 개별 모듈에서 공통적으로 참조하는 엔티티로 구성되며, 재난코드, 통보문, 외부 연계데이터 등이 포함됨",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          66.2,
+          286.01,
+          528.55,
+          500.93
+        ],
+        "page_area_fraction": 0.1986
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0052",
+    "caption": "차세대 예‧경보 플랫폼 업무프로세스 모델링(수동 발령)",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 차세대 예‧경보 플랫폼 업무프로세스 모델링(수동 발령)\n<그림> 차세대 예‧경보 플랫폼 공통 분류 예시\nŸ 데이터 표준화를 위해서 표준 정책과 공공데이터포털에서 배포하는 “행정표준용어사전”\n을 참고하여 표준 용어, 표준 단어, 표준 도메인, 표준 코드 등에 대한 표준을 정의하였음\n<그림> 공공데이터포털 행정표준용어현황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.9,
+          570.22,
+          482.98,
+          741.87
+        ],
+        "page_area_fraction": 0.1273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.96,
+          420.14,
+          454.92,
+          529.7
+        ],
+        "page_area_fraction": 0.069
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          117.23,
+          499.53,
+          338.51
+        ],
+        "page_area_fraction": 0.1787
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0053",
+    "caption": "차세대 예‧경보 플랫폼 공통 분류 예시",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 차세대 예‧경보 플랫폼 업무프로세스 모델링(수동 발령)\n<그림> 차세대 예‧경보 플랫폼 공통 분류 예시\nŸ 데이터 표준화를 위해서 표준 정책과 공공데이터포털에서 배포하는 “행정표준용어사전”\n을 참고하여 표준 용어, 표준 단어, 표준 도메인, 표준 코드 등에 대한 표준을 정의하였음\n<그림> 공공데이터포털 행정표준용어현황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.9,
+          570.22,
+          482.98,
+          741.87
+        ],
+        "page_area_fraction": 0.1273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.96,
+          420.14,
+          454.92,
+          529.7
+        ],
+        "page_area_fraction": 0.069
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          117.23,
+          499.53,
+          338.51
+        ],
+        "page_area_fraction": 0.1787
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0054",
+    "caption": "공공데이터포털 행정표준용어현황",
+    "pdf_page_candidate": 66,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "<그림> 차세대 예‧경보 플랫폼 업무프로세스 모델링(수동 발령)",
+    "caption_and_following_text": "<그림> 차세대 예‧경보 플랫폼 공통 분류 예시\nŸ 데이터 표준화를 위해서 표준 정책과 공공데이터포털에서 배포하는 “행정표준용어사전”\n을 참고하여 표준 용어, 표준 단어, 표준 도메인, 표준 코드 등에 대한 표준을 정의하였음\n<그림> 공공데이터포털 행정표준용어현황\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.9,
+          570.22,
+          482.98,
+          741.87
+        ],
+        "page_area_fraction": 0.1273
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          139.96,
+          420.14,
+          454.92,
+          529.7
+        ],
+        "page_area_fraction": 0.069
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          95.35,
+          117.23,
+          499.53,
+          338.51
+        ],
+        "page_area_fraction": 0.1787
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0055",
+    "caption": "차세대 예‧경보 플랫폼 논리ERD(2차년도)",
+    "pdf_page_candidate": 67,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "생성될 테이블을 설계하는 물리 ERD로 구분됨\nŸ 1차년도에 분류한 기초 엔티티와 앞서 업무프로세스 분석을 통해 정의한 표준 스키마를\n기준으로 시스템화 하고자 하는 모듈별 개체 및 속성의 관계를 구체화하여 차세대 예‧경보\n플랫폼 ERD를 작성하여 데이터베이스로 구현하였음\nŸ 공통 ERD는 재난코드, 통보문, 통보문이력, 행정구역, 시스템 접근권한 등의 플랫폼에서\n공통으로 공유하는 테이블에 대하여 작성하였으며, 차세대 예‧경보 플랫폼 ERD에서는\n멀티미디어 생성모듈, 통합 관제 모듈, 재난정보 전송모듈, Open API 모듈 등 각 단위",
+    "caption_and_following_text": "모듈에서 개별적으로 사용하는 테이블에 대한 관계를 도식화함\nŸ 다음 그림은 공통 및 차세대 예‧경보 플랫폼의 테이블간 관계를 통합 설계하여 논리/물리\nERD를 작성하였음\n<그림> 차세대 예‧경보 플랫폼 논리ERD(2차년도)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.59,
+          114.11,
+          505.29,
+          424.57
+        ],
+        "page_area_fraction": 0.2579
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0056",
+    "caption": "재난정보전달 플랫폼 콘텐츠 구성 (지진)",
+    "pdf_page_candidate": 77,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "❍ 다매체별 제공 멀티미디어 재난정보 콘텐츠 가공처리 기술 구현\n- 재난별 콘텐츠 내용\nŸ ‘지진’ 구성 내용\n: 재난 상세 정보 : 지진 발생 지역 및 지역별 진도 값에 대해 이미지로 확인 가능\n: 지진정보 : 발생시각, 발생지역, 발생규모, 발생깊이, 참고사항에 대해 확인 가능\n: 행정구역별 최대진도값 : 발생 지진에 대한 행정구역별 진도값에 대해 확인 가능",
+    "caption_and_following_text": ": 대피소 현황 : 전국 대피소의 대피소명, 진앙거리, 주소 등의 정보를 확인 가능\n: 대응요령 : 지진 발생 시 대응요령에 대해 확인 가능\n: 피해현장 : 피해현장에 대한 사진을 확인 가능\n<그림> 재난정보전달 플랫폼 콘텐츠 구성 (지진)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.2,
+          154.75,
+          516.8,
+          529.7
+        ],
+        "page_area_fraction": 0.3286
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0057",
+    "caption": "‘지진’지도 콘텐츠",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 재난별 멀티미디어 콘텐츠 디자인",
+    "caption_and_following_text": "Ÿ 재난 발생 시 제공 지도 콘텐츠에 대해 기본적으로 발생지역, 재난종류, 재난등급 등이\n포함됨\nŸ 지도 콘텐츠 생성의 Tool은 GMT를 사용\n<그림>‘지진’지도 콘텐츠\n❍ 다국어용 다매체별 멀티미디어 재난정보 콘텐츠 생성 기능 고도화\n- 사회적 약자를 위한 재난정보 콘텐츠 생성 기능 고도화\nŸ 노약자 및 청각장애인을 위한 픽토그램 형태의 이미지 기능 고도화\n<표> 재난별/상황별 심볼 이미지 제작\n재난종류\n자연재난(3종) 사회재난(3종)",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          221.88,
+          502.85,
+          373.0,
+          653.53
+        ],
+        "page_area_fraction": 0.0455
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0058",
+    "caption": "재난별/상황별 심볼 이미지 제작",
+    "pdf_page_candidate": 78,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 재난별 멀티미디어 콘텐츠 디자인\nŸ 재난 발생 시 제공 지도 콘텐츠에 대해 기본적으로 발생지역, 재난종류, 재난등급 등이\n포함됨\nŸ 지도 콘텐츠 생성의 Tool은 GMT를 사용\n<그림>‘지진’지도 콘텐츠",
+    "caption_and_following_text": "❍ 다국어용 다매체별 멀티미디어 재난정보 콘텐츠 생성 기능 고도화\n- 사회적 약자를 위한 재난정보 콘텐츠 생성 기능 고도화\nŸ 노약자 및 청각장애인을 위한 픽토그램 형태의 이미지 기능 고도화\n<표> 재난별/상황별 심볼 이미지 제작\n재난종류\n자연재난(3종) 사회재난(3종)\n호우 태풍 지진 미세먼지 화재 산불\n주의보\n경보\nŸ 시각장애인을 위한 음성 콘텐츠 생성 기능 고도화",
+    "section_context_candidate": "□ 멀티미디어 활용 가능 다매체 조사 및 경보 표출(안) 제시",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          221.88,
+          502.85,
+          373.0,
+          653.53
+        ],
+        "page_area_fraction": 0.0455
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0059",
+    "caption": "승인관리 조작체계도",
+    "pdf_page_candidate": 79,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발\n❍ 통합관제시스템 개발",
+    "caption_and_following_text": "- 승인관리 체계\nŸ 재난상황에 대한 승인관리 체계는 앞서 설명한 바와 같이 매체의 선택과정과 지역에 대한\n선택과정이 수동조작으로 가능. 또한 승인 관리는 승인 또는 취소의 조작이 가능하고, 수동조작이 없는 경우 타임아웃에 의한 자동처리가 가능.\n<그림> 승인관리 조작체계도\n- 수동발송 조작체계\nŸ 재난경보발령시스템 운영자가 장비점검 또는 특정의 상황을 가정한 재난경보 발령조작에\n대한 수동 조작체계가 아래와 같이 제공되어 운영 가능\n<그림> 수동발송 조작체계도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [
+      "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.65,
+          420.26,
+          471.23,
+          614.45
+        ],
+        "page_area_fraction": 0.1349
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.98,
+          111.6,
+          475.9,
+          289.48
+        ],
+        "page_area_fraction": 0.1269
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0060",
+    "caption": "수동발송 조작체계도",
+    "pdf_page_candidate": 79,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발\n❍ 통합관제시스템 개발\n- 승인관리 체계\nŸ 재난상황에 대한 승인관리 체계는 앞서 설명한 바와 같이 매체의 선택과정과 지역에 대한\n선택과정이 수동조작으로 가능. 또한 승인 관리는 승인 또는 취소의 조작이 가능하고, 수동조작이 없는 경우 타임아웃에 의한 자동처리가 가능.\n<그림> 승인관리 조작체계도",
+    "caption_and_following_text": "- 수동발송 조작체계\nŸ 재난경보발령시스템 운영자가 장비점검 또는 특정의 상황을 가정한 재난경보 발령조작에\n대한 수동 조작체계가 아래와 같이 제공되어 운영 가능\n<그림> 수동발송 조작체계도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [
+      "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          123.65,
+          420.26,
+          471.23,
+          614.45
+        ],
+        "page_area_fraction": 0.1349
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.98,
+          111.6,
+          475.9,
+          289.48
+        ],
+        "page_area_fraction": 0.1269
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0061",
+    "caption": "수동발령화면",
+    "pdf_page_candidate": 80,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 운영화면\nŸ 수동발령\n<그림> 수동발령화면\n: 재난경보의 종류 선택이 가능한 기능 제공\n: 매체 선택이 가능한 기능 제공\n: 발령대상 선택이 가능한 기능 제공\n: 통신 매체(이더넷, DMB) 선택적 사용이 가능한 기능 제공\n: 재난 종류에따른 상세 입력이 가능한 기능 제공\n: 다양한 문안(Text40, Text80, Text180, Text315 등) 선택이 가능한 기능 제공\nŸ 승인 처리",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.38,
+          563.26,
+          414.38,
+          694.76
+        ],
+        "page_area_fraction": 0.0615
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          184.82,
+          222.36,
+          410.06,
+          348.94
+        ],
+        "page_area_fraction": 0.057
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0062",
+    "caption": "승인관리화면",
+    "pdf_page_candidate": 80,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 운영화면\nŸ 수동발령\n<그림> 수동발령화면\n: 재난경보의 종류 선택이 가능한 기능 제공\n: 매체 선택이 가능한 기능 제공\n: 발령대상 선택이 가능한 기능 제공\n: 통신 매체(이더넷, DMB) 선택적 사용이 가능한 기능 제공",
+    "caption_and_following_text": ": 재난 종류에따른 상세 입력이 가능한 기능 제공\n: 다양한 문안(Text40, Text80, Text180, Text315 등) 선택이 가능한 기능 제공\nŸ 승인 처리\n<그림> 승인관리화면\n: 매체 수정이 가능한 기능 제공\n: 대상지역 수정이 가능한 기능 제공\n: 통보문 승인 목록 조회하는 기능 제공\n: 문안편집이 가능한 기능 제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.38,
+          563.26,
+          414.38,
+          694.76
+        ],
+        "page_area_fraction": 0.0615
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          184.82,
+          222.36,
+          410.06,
+          348.94
+        ],
+        "page_area_fraction": 0.057
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0063",
+    "caption": "상세보기화면",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": ": 멀티미디어 미리보기 기능 제공\n: 수정된 내용을 생성모듈로 수정요청 가능한 기능 제공",
+    "caption_and_following_text": ": 발령최소가 가능한 기능 제공\n: 승인처리가 가능한 기능 제공\nŸ 상세보기\n<그림> 상세보기화면\n: 승인대기중인 재난경보의 세부내역 조회 가능\n: TEXT40자, 재해문자전광판 80자 텍스트, 2G,BIS등에 활용되는 180자 텍스트문안, 5G/포털\n/SNS등에 활용되는 315자 텍스트와 이미지정보, DITS, UHD등에 활용되는 TV재난방송용\n컨텐츠, 마을방송/자동음성통보/라디오 등에서 활용되는 음성안내멘트용 문안 등을 세부적으로\n확인이 가능\nŸ 승인상태 표시",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          185.06,
+          497.7,
+          409.94,
+          624.04
+        ],
+        "page_area_fraction": 0.0568
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.35,
+          143.96,
+          422.41,
+          284.57
+        ],
+        "page_area_fraction": 0.0703
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0064",
+    "caption": "승인후 운영화면",
+    "pdf_page_candidate": 81,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": ": 발령최소가 가능한 기능 제공\n: 승인처리가 가능한 기능 제공\nŸ 상세보기\n<그림> 상세보기화면\n: 승인대기중인 재난경보의 세부내역 조회 가능\n: TEXT40자, 재해문자전광판 80자 텍스트, 2G,BIS등에 활용되는 180자 텍스트문안, 5G/포털\n/SNS등에 활용되는 315자 텍스트와 이미지정보, DITS, UHD등에 활용되는 TV재난방송용",
+    "caption_and_following_text": "컨텐츠, 마을방송/자동음성통보/라디오 등에서 활용되는 음성안내멘트용 문안 등을 세부적으로\n확인이 가능\nŸ 승인상태 표시\n<그림> 승인후 운영화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          185.06,
+          497.7,
+          409.94,
+          624.04
+        ],
+        "page_area_fraction": 0.0568
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.35,
+          143.96,
+          422.41,
+          284.57
+        ],
+        "page_area_fraction": 0.0703
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0065",
+    "caption": "수신처 신규등록 화면",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 수신처 신규등록 화면\nŸ 이력 조회\n<그림> 사용이력 조회화면\n: 기간별 이력 조회가 가능한 기능 제공\n: 발령종류(자동, 수동)별 이력 조회가 가능한 기능 제공\n: 재난코드(재난종류)별 이력 조회가 가능한 기능 제공\n: 승인여부(승인, 취소)별 이력조회가 가능한 기능 제공\n: 단위 발령별 발령결과 조회가 가능한 기능 제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          209.53,
+          574.53,
+          385.35,
+          741.87
+        ],
+        "page_area_fraction": 0.0588
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.14,
+          300.39,
+          476.74,
+          501.89
+        ],
+        "page_area_fraction": 0.1444
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0066",
+    "caption": "사용이력 조회화면",
+    "pdf_page_candidate": 83,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 수신처 신규등록 화면\nŸ 이력 조회\n<그림> 사용이력 조회화면\n: 기간별 이력 조회가 가능한 기능 제공\n: 발령종류(자동, 수동)별 이력 조회가 가능한 기능 제공\n: 재난코드(재난종류)별 이력 조회가 가능한 기능 제공\n: 승인여부(승인, 취소)별 이력조회가 가능한 기능 제공\n: 단위 발령별 발령결과 조회가 가능한 기능 제공\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          209.53,
+          574.53,
+          385.35,
+          741.87
+        ],
+        "page_area_fraction": 0.0588
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.14,
+          300.39,
+          476.74,
+          501.89
+        ],
+        "page_area_fraction": 0.1444
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0067",
+    "caption": "리소스모니터링화면",
+    "pdf_page_candidate": 84,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 리소스모니터링\n<그림> 리소스모니터링화면\n: 주요서버 리소스(CPU, 메모리) 상태조회가 가능한 기능을 제공\n: 경계관리를 통해 리소스 사용량이 최대치를 넘어서는 경우 적색으로 알람 표시\n: 리소스 모니터링은 운영시스템의 자원과 프로세서의 동작상태를 표출하는 기능. CPU 사용율과\n메모리 사용율, 프로세서의 동작상태를 감시하여 표출함으로써 운영시스템이 안정적인지, 메모리의 증가현상이 발생하는지 등을 진단 가능. : 감시정보는 특정의 값을 초과하는 경우에는 자동으로 적색 등으로 경고를 할수 있도록 함으로써\n운영자의 시스템운영 환경을 보조\n- 로그인 화면\nŸ 로그인 관리화면\n<그림> 로그인화면",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.69,
+          618.76,
+          392.31,
+          718.25
+        ],
+        "page_area_fraction": 0.0377
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.77,
+          178.72,
+          462.11,
+          363.92
+        ],
+        "page_area_fraction": 0.1219
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0068",
+    "caption": "로그인화면",
+    "pdf_page_candidate": 84,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 리소스모니터링\n<그림> 리소스모니터링화면\n: 주요서버 리소스(CPU, 메모리) 상태조회가 가능한 기능을 제공\n: 경계관리를 통해 리소스 사용량이 최대치를 넘어서는 경우 적색으로 알람 표시",
+    "caption_and_following_text": ": 리소스 모니터링은 운영시스템의 자원과 프로세서의 동작상태를 표출하는 기능. CPU 사용율과\n메모리 사용율, 프로세서의 동작상태를 감시하여 표출함으로써 운영시스템이 안정적인지, 메모리의 증가현상이 발생하는지 등을 진단 가능. : 감시정보는 특정의 값을 초과하는 경우에는 자동으로 적색 등으로 경고를 할수 있도록 함으로써\n운영자의 시스템운영 환경을 보조\n- 로그인 화면\nŸ 로그인 관리화면\n<그림> 로그인화면\n: 로그인 계정을 통합하여 관리\n: 대국민관제 사용자는 대국민관제화면으로 연결하고, 대관 관제화면 사용자는 대관 관제화면으로\n바로 연결\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.69,
+          618.76,
+          392.31,
+          718.25
+        ],
+        "page_area_fraction": 0.0377
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.77,
+          178.72,
+          462.11,
+          363.92
+        ],
+        "page_area_fraction": 0.1219
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0069",
+    "caption": "로그인화면의 리소스표시",
+    "pdf_page_candidate": 85,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 리소스 모니터링\n<그림> 로그인화면의 리소스표시\n: 로그인 전이라도 기본적인 리소스 상태의 확인 가능\n: CPU사용율과 메모리 사용율을 감시하여 표시함으로써 운영시스템이 안정적인지 간단히 확인\n가능\nŸ 통합관리계정의 로그인 대상선택화면\n<그림> 통합계정의 시스템선택화면\n: 로그인 계정이 대관, 대국민 통합계정의 경우에는 위와 같이 대관 또는 대국민 관제화면 등\n운용하고자 하는 시스템 선택하여 접근할수 있다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.93,
+          560.63,
+          465.95,
+          718.26
+        ],
+        "page_area_fraction": 0.1062
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.98,
+          209.89,
+          487.78,
+          423.98
+        ],
+        "page_area_fraction": 0.1629
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0070",
+    "caption": "통합계정의 시스템선택화면",
+    "pdf_page_candidate": 85,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 리소스 모니터링\n<그림> 로그인화면의 리소스표시\n: 로그인 전이라도 기본적인 리소스 상태의 확인 가능",
+    "caption_and_following_text": ": CPU사용율과 메모리 사용율을 감시하여 표시함으로써 운영시스템이 안정적인지 간단히 확인\n가능\nŸ 통합관리계정의 로그인 대상선택화면\n<그림> 통합계정의 시스템선택화면\n: 로그인 계정이 대관, 대국민 통합계정의 경우에는 위와 같이 대관 또는 대국민 관제화면 등\n운용하고자 하는 시스템 선택하여 접근할수 있다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.93,
+          560.63,
+          465.95,
+          718.26
+        ],
+        "page_area_fraction": 0.1062
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.98,
+          209.89,
+          487.78,
+          423.98
+        ],
+        "page_area_fraction": 0.1629
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0071",
+    "caption": "자동발송(경보)",
+    "pdf_page_candidate": 86,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "❍ 상황인지(재난별) 맞춤형 재난정보 자동 생성 모듈 개발\n- 상황인지 맞춤형 재난정보 자동 생성 모듈의 경우 경보와 후속경보의 경우로 나눔\n- 자동발송(경보)\n<그림> 자동발송(경보) - 자동발송(후속경보)\n<그림> 자동발송(후속경보)\n❍ 중앙부처 및 지자체/민간 운영 다매체 연계 재난정보 전달 모듈 개발\n- 재난정보 전달모듈 동작 흐름\nŸ 접속 인증\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.89,
+          473.12,
+          459.11,
+          671.15
+        ],
+        "page_area_fraction": 0.1279
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.49,
+          218.04,
+          464.51,
+          408.99
+        ],
+        "page_area_fraction": 0.1275
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0072",
+    "caption": "자동발송(후속경보)",
+    "pdf_page_candidate": 86,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "❍ 상황인지(재난별) 맞춤형 재난정보 자동 생성 모듈 개발\n- 상황인지 맞춤형 재난정보 자동 생성 모듈의 경우 경보와 후속경보의 경우로 나눔\n- 자동발송(경보)\n<그림> 자동발송(경보) - 자동발송(후속경보)\n<그림> 자동발송(후속경보)\n❍ 중앙부처 및 지자체/민간 운영 다매체 연계 재난정보 전달 모듈 개발\n- 재난정보 전달모듈 동작 흐름\nŸ 접속 인증\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.89,
+          473.12,
+          459.11,
+          671.15
+        ],
+        "page_area_fraction": 0.1279
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.49,
+          218.04,
+          464.51,
+          408.99
+        ],
+        "page_area_fraction": 0.1275
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0073",
+    "caption": "재난정보 전달모듈 동작 흐름 순서도",
+    "pdf_page_candidate": 87,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 재난정보 전달모듈 동작 흐름 순서도\n: 재난정보전달 모듈로TCP 연결을 시도 재난정보 전달모듈에서 접속 인증 요청. 인증은 HTTP\nDigest 방식을 사용하며, 기존 예경보시스템 혹은 수신 연계 모듈은 인증 ID, PASSWORD\n정보와 서버정보를 병합하여 MD5 암호화 전송, 재난정보 전달 모듈은 수신된 접속 인증\n정보를 확인 후 접속 인증 결과 프로토콜을 접속 인증을 요청한 시스템으로 전송. HTTP Digest\n인증은 Password를 MD5로 Encoding하여 보안 부분을 강화하였고, 임의로 발급되는 값이\nnonce를 이용하여 Server나 Client 자체를 보호 가능. : 재난정보 전달모듈은 TCP 연결 후 *T1 시간 안에 기존 예경보시스템(수신연계모듈)로 인증\n요청 및 인증 재 요청을 받아야 함. 만일, *T1 시간 이상 요청이 없을 경우 세션을 정리. : 기존 예경보시스템(수신연계모듈)은 전달 모듈로 인증 요청 및 재 요청에 대한 응답을 *T3\n시간 안에 전달모듈로부터 받아야 하며, *T3 시간 이상 응답이 없을 경우 세션을 정리\n: 세션이 끊어진 기존 예경보시스템(수신연계모듈)은 *T4 시간마다 주기적으로 전달모듈에 TCP",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.72,
+          624.16,
+          449.04,
+          741.87
+        ],
+        "page_area_fraction": 0.0714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.82,
+          108.24,
+          416.06,
+          307.7
+        ],
+        "page_area_fraction": 0.0946
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0074",
+    "caption": "세션 체크 및 재접속 순서도",
+    "pdf_page_candidate": 87,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "Digest 방식을 사용하며, 기존 예경보시스템 혹은 수신 연계 모듈은 인증 ID, PASSWORD\n정보와 서버정보를 병합하여 MD5 암호화 전송, 재난정보 전달 모듈은 수신된 접속 인증\n정보를 확인 후 접속 인증 결과 프로토콜을 접속 인증을 요청한 시스템으로 전송. HTTP Digest\n인증은 Password를 MD5로 Encoding하여 보안 부분을 강화하였고, 임의로 발급되는 값이\nnonce를 이용하여 Server나 Client 자체를 보호 가능. : 재난정보 전달모듈은 TCP 연결 후 *T1 시간 안에 기존 예경보시스템(수신연계모듈)로 인증\n요청 및 인증 재 요청을 받아야 함. 만일, *T1 시간 이상 요청이 없을 경우 세션을 정리. : 기존 예경보시스템(수신연계모듈)은 전달 모듈로 인증 요청 및 재 요청에 대한 응답을 *T3\n시간 안에 전달모듈로부터 받아야 하며, *T3 시간 이상 응답이 없을 경우 세션을 정리",
+    "caption_and_following_text": ": 세션이 끊어진 기존 예경보시스템(수신연계모듈)은 *T4 시간마다 주기적으로 전달모듈에 TCP\n연결 요청을 시도\nŸ 세션 체크 및 재접속\n<그림> 세션 체크 및 재접속 순서도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.72,
+          624.16,
+          449.04,
+          741.87
+        ],
+        "page_area_fraction": 0.0714
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.82,
+          108.24,
+          416.06,
+          307.7
+        ],
+        "page_area_fraction": 0.0946
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0075",
+    "caption": "재난정보 메시지 전송 및 재전송 순서도",
+    "pdf_page_candidate": 88,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": ": 기존 예경보시스템(수신연계모듈)에서 *T2 시간마다 주기적으로 세션 체크 메시지를 전송, 재난정보 전송모듈은 *T3 시간 안에 응답을 해야 함. 해당 시간이 지났을 경우 세션을 정리. 재난정보 전송모듈은 *(T2 x n) 시간 안에 기존 예경보시스템(수신연계모듈)에서 세션 체크",
+    "caption_and_following_text": "요청이 안온다면 세션을 정리. : 세션이 끊어진 기존 예경보시스템(수신연계모듈)은 *T4 시간마다 주기적으로 전달모듈에 TCP\n연결 요청을 시도\nŸ 재난정보 메시지 전송 및 재전송\n<그림> 재난정보 메시지 전송 및 재전송 순서도\n: 멀티미디어 재난정보 수신 시 발령 설정에 따라 전송, 기존 예경보시스템 및 수신연계 모듈에서\n수신 후 결과메시지를 전송. 결과 메시지 미 수신 시 설정에 따라 재전송을 진행. : 재난정보 전달모듈에서 기존 예경보시스템(수신연계모듈)로 재난정보 전달 후 *T5 시간 안에\n응답을 받아야 하며, 기존 예경보시스템(수신연계모듈)은 재난정보 수신 후 *T3 시간 안에\n전달모듈로 응답 메시지를 보내야 함. : 전달모듈에서 재난정보를 전송 시 세션이 끊어지거나 응답이 *T5 시간 안에 없는 경우 재접속\n절차 이후 재난정보를 재전송. 또한, 응답 결과 원활한 전송이 실패한 상태일 경우 설정에\n따라 재전송 진행. - 재난정보 전달모듈 동작 검증",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          187.94,
+          420.74,
+          407.06,
+          600.78
+        ],
+        "page_area_fraction": 0.0788
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0076",
+    "caption": "재난경보 전송결과 관리 화면",
+    "pdf_page_candidate": 89,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 재난경보 전송결과 관리 검증\n: 재난정보 전달모듈이 재난경보 메시지를 전송하고 응답메시지를 수신하여 전송결과를 데이터\n베이스에 저장함을 검증\n<그림> 재난경보 전송결과 관리 화면\n❍ 멀티미디어 재난정보 콘텐츠 제공 Open API 개발\n- 멀티미디어 재난정보 콘텐츠 제공 웹 서비스 시범 구축\nŸ 앞선 연구를 통해 선정된 Open API 서비스 콘텐츠의 제공과 활용기관에서의 일관적인\n활용을 위하여 파라미터(Parameter) 등 요청, 응답, 오류 메시지에 대한 표준안을 구성하였으며, 멀티미디어 재난정보 Open API 서비스 검증 및 활용을 위한 Open API 시범사이트 서버를\n구축하여 Open API 서비스 소개, 활용절차, 사용자 및 인증키 관리 등의 서비스를 제공하도록\n구성하였음",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.51,
+          594.19,
+          500.37,
+          677.14
+        ],
+        "page_area_fraction": 0.0673
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0077",
+    "caption": "웹 서비스 기능 구성",
+    "pdf_page_candidate": 89,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 37,
+    "prefix_match_only": false,
+    "text_before": "인증키 발급\n서비스 중지, 연장 등 서비스 관리\n관리자\n기능\nOpen API\n관리 API 관리 API 서비스 등록, 삭제 등 API 관리\n트래픽 및 사용자 API 관리",
+    "caption_and_following_text": "사용자\n접속현황 접속현황 조회 서비스별 사용자 접속 현황 조회\n서비스 이용 통계\n<표> 웹 서비스 기능 구성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.51,
+          594.19,
+          500.37,
+          677.14
+        ],
+        "page_area_fraction": 0.0673
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0078",
+    "caption": "Open API 소개 화면",
+    "pdf_page_candidate": 90,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 사용자 기능으로는 멀티미디어 재난정보 Open API 소개 및 활용절차, Open API 서비스\n목록, My Page가 있으며, 관리자 기능은 Open API 서비스를 관리하는 Open API 관리, API 사용자 현황 및 트래픽을 관리하는 사용자 접속현황 기능으로 구성함",
+    "caption_and_following_text": "Ÿ 현재 1단계 연구개발에서는 사용자 위주의 기능으로 시범사이트를 구성하였음\nŸ Open API 소개 메뉴에서는 멀티미디어 재난정보 Open API에 대한 개념 및 서비스 활용에\n대한 절차 설명으로 구성하였음\n< 그림 > Open API 소개 화면\nŸ Open API 목록 메뉴에서는 현재 시범사이트를 통해 제공하고 있는 Open API의 서비스를\n목록화하였으며, 서비스 항목을 클릭하였을 경우 해당 서비스 활용 신청 화면으로 전환됨\nŸ 서비스 활용 신청 화면에서는 앞서 설명한 서비스별 요청 및 응답에 대한 메시지 파라미터\n규격을 확인할 수 있으며, 활용신청 버튼 클릭을 통해 인증키 발급을 신청할 수 있도록\n구성하였음\n< 그림 > Open API 활용 신청 화면",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          430.33,
+          442.32,
+          618.4
+        ],
+        "page_area_fraction": 0.109
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.46,
+          110.64,
+          416.54,
+          289.96
+        ],
+        "page_area_fraction": 0.0853
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0079",
+    "caption": "Open API 활용 신청 화면",
+    "pdf_page_candidate": 90,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "목록, My Page가 있으며, 관리자 기능은 Open API 서비스를 관리하는 Open API 관리, API 사용자 현황 및 트래픽을 관리하는 사용자 접속현황 기능으로 구성함\nŸ 현재 1단계 연구개발에서는 사용자 위주의 기능으로 시범사이트를 구성하였음\nŸ Open API 소개 메뉴에서는 멀티미디어 재난정보 Open API에 대한 개념 및 서비스 활용에\n대한 절차 설명으로 구성하였음\n< 그림 > Open API 소개 화면\nŸ Open API 목록 메뉴에서는 현재 시범사이트를 통해 제공하고 있는 Open API의 서비스를\n목록화하였으며, 서비스 항목을 클릭하였을 경우 해당 서비스 활용 신청 화면으로 전환됨",
+    "caption_and_following_text": "Ÿ 서비스 활용 신청 화면에서는 앞서 설명한 서비스별 요청 및 응답에 대한 메시지 파라미터\n규격을 확인할 수 있으며, 활용신청 버튼 클릭을 통해 인증키 발급을 신청할 수 있도록\n구성하였음\n< 그림 > Open API 활용 신청 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          152.44,
+          430.33,
+          442.32,
+          618.4
+        ],
+        "page_area_fraction": 0.109
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          178.46,
+          110.64,
+          416.54,
+          289.96
+        ],
+        "page_area_fraction": 0.0853
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0080",
+    "caption": "매체별 콘텐츠 형태 및 포함 정보",
+    "pdf_page_candidate": 91,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "재난종류, 발표시각, 특보지역, 통보내용, 참고사항, 대응요령 등\nSNS 텍스트 및\n멀티미디어\n재난종류, 발표시각, 특보지역, 통보내용, 참고사항, 대응요령 등\nUHD 텍스트 및\n멀티미디어 재난종류, 발표시각, 특보지역, 통보내용, 참고사항 등\n마을방송 및",
+    "caption_and_following_text": "자동음성통보시스템 TTS 재난종류, 발표시각, 특보지역, 통보내용, 참고사항 등\n버스정보시스템 텍스트 재난종류, 발표시각, 특보지역, 통보내용, 참고사항 등\n재해문자전광판 텍스트 재난종류, 발표시각, 특보지역, 통보내용, 참고사항 등\n<표> 매체별 콘텐츠 형태 및 포함 정보\nŸ 수신정보 규격에 매핑 기술\n재난종류 활용 재난 정보 재난 정보 출처\n기상청 NDMS\n태풍\n1. 기상특보정보\n1. 태풍경로예측-5일",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0081",
+    "caption": "재난별 활용 정보",
+    "pdf_page_candidate": 91,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 35,
+    "prefix_match_only": false,
+    "text_before": "1. 이재민수용시설정보\nO\n호우\n1. 기상특보정보\n1. 초단기예보_1시간강수량\n1. 이재민수용시설정보\nO",
+    "caption_and_following_text": "지진 1. 지진통보문\n1. 행정구역별 진도정보 O\n대규모화재 1. 소방긴급구조출동정보 O\n<표> 재난별 활용 정보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□‘차세대 통합 예․경보 플랫폼’ 연구시작품 개발",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0082",
+    "caption": "승인관리 및 상세보기 화면",
+    "pdf_page_candidate": 92,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "caption_and_following_text": "❍ 통합관제시스템 시제품 개발 및 운영시험\n- 2차년도 통합관제시스템 프로토타입 개선\nŸ 2차년 프로토타입을 개선한 대국민 통합관제시스템 시제품 제작\n<그림> 승인관리 및 상세보기 화면\nŸ V월드 지도활용 대신에 geoserver 활용한 GIS기반 표출\n<그림> 재난상황 발생정보 화면\nŸ 전달매체 수정의견 반영\n: 재난방송, 지자체, CBSDMB 등 3가지 유형으로 통합운영\n: 개별, 전체 선택하여 전달 가능\nŸ 재난경보 대상지역 행정구역 경계 표시",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [
+      "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.22,
+          495.9,
+          254.26,
+          648.97
+        ],
+        "page_area_fraction": 0.045
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          260.98,
+          495.78,
+          487.66,
+          649.57
+        ],
+        "page_area_fraction": 0.0697
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.21,
+          233.38,
+          466.55,
+          423.62
+        ],
+        "page_area_fraction": 0.1286
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0083",
+    "caption": "재난상황 발생정보 화면",
+    "pdf_page_candidate": 92,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발\n❍ 통합관제시스템 시제품 개발 및 운영시험\n- 2차년도 통합관제시스템 프로토타입 개선",
+    "caption_and_following_text": "Ÿ 2차년 프로토타입을 개선한 대국민 통합관제시스템 시제품 제작\n<그림> 승인관리 및 상세보기 화면\nŸ V월드 지도활용 대신에 geoserver 활용한 GIS기반 표출\n<그림> 재난상황 발생정보 화면\nŸ 전달매체 수정의견 반영\n: 재난방송, 지자체, CBSDMB 등 3가지 유형으로 통합운영\n: 개별, 전체 선택하여 전달 가능\nŸ 재난경보 대상지역 행정구역 경계 표시\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [
+      "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.22,
+          495.9,
+          254.26,
+          648.97
+        ],
+        "page_area_fraction": 0.045
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          260.98,
+          495.78,
+          487.66,
+          649.57
+        ],
+        "page_area_fraction": 0.0697
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          128.21,
+          233.38,
+          466.55,
+          423.62
+        ],
+        "page_area_fraction": 0.1286
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0084",
+    "caption": "수동발령 화면",
+    "pdf_page_candidate": 93,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 수동발령 및 개선된 CAP메시지 수용\n: 발령기관, 재난종류, 경보단계, 전달매체, 대상지역을 선택 후, 문안생성을 하면 템플릿에",
+    "caption_and_following_text": "따른 문안이 생성되어 표시\n: 이어 발령 버튼 조작으로 수동발령 프로세스를 실행\n: 이후부터는 자동발령의 프로세스와 동일한 수순을 통한 재난경보 처리\n<그림> 수동발령 화면\nŸ 승인된 재난메시지가 예경보 게이트웨이를 경유하여 지자체 예․경보시스템 등으로 최종전달된\n이력 관리\n<그림> 재난메시지 전송이력 조회화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.8,
+          413.43,
+          451.08,
+          630.03
+        ],
+        "page_area_fraction": 0.133
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.88,
+          106.8,
+          450.12,
+          317.65
+        ],
+        "page_area_fraction": 0.1286
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0085",
+    "caption": "재난메시지 전송이력 조회화면",
+    "pdf_page_candidate": 93,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 수동발령 및 개선된 CAP메시지 수용\n: 발령기관, 재난종류, 경보단계, 전달매체, 대상지역을 선택 후, 문안생성을 하면 템플릿에\n따른 문안이 생성되어 표시\n: 이어 발령 버튼 조작으로 수동발령 프로세스를 실행\n: 이후부터는 자동발령의 프로세스와 동일한 수순을 통한 재난경보 처리",
+    "caption_and_following_text": "<그림> 수동발령 화면\nŸ 승인된 재난메시지가 예경보 게이트웨이를 경유하여 지자체 예․경보시스템 등으로 최종전달된\n이력 관리\n<그림> 재난메시지 전송이력 조회화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          143.8,
+          413.43,
+          451.08,
+          630.03
+        ],
+        "page_area_fraction": 0.133
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.88,
+          106.8,
+          450.12,
+          317.65
+        ],
+        "page_area_fraction": 0.1286
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0086",
+    "caption": "UHD 방송을 통한 재난정보 수신 화면",
+    "pdf_page_candidate": 96,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "□‘재난안전정보공유플랫폼’및‘현장 맞춤형 상황전파 플랫폼’과의 통합연동 테스트\n❍ 다매체 기반의 멀티미디어 재난정보전달 플랫폼 통합연동 테스트\n- 새로운 방송 및 통신기술(UHD, 5G) 등 다매체 기반의 멀티미디어 재난정보전달 플랫폼 통합연동",
+    "caption_and_following_text": "테스트 실시\n- KBS 기술연구소 내 실험실 및 제주시 실증(21/3/16, 제주 테크노파크)을 통한 UHD 재난방송\n시범운영 실시\n<그림> UHD 방송을 통한 재난정보 수신 화면\n- KT 일산지사 내의 5G 실험실을 통한 5G CBS 송출 테스트 실시\n<그림> 5G 단말을 통한 재난문자 수신 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.85,
+          417.02,
+          473.02,
+          614.45
+        ],
+        "page_area_fraction": 0.1385
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.06,
+          157.87,
+          283.41,
+          351.34
+        ],
+        "page_area_fraction": 0.0403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          298.04,
+          157.51,
+          415.82,
+          352.89
+        ],
+        "page_area_fraction": 0.046
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0087",
+    "caption": "5G 단말을 통한 재난문자 수신 화면",
+    "pdf_page_candidate": 96,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "□‘재난안전정보공유플랫폼’및‘현장 맞춤형 상황전파 플랫폼’과의 통합연동 테스트\n❍ 다매체 기반의 멀티미디어 재난정보전달 플랫폼 통합연동 테스트\n- 새로운 방송 및 통신기술(UHD, 5G) 등 다매체 기반의 멀티미디어 재난정보전달 플랫폼 통합연동\n테스트 실시\n- KBS 기술연구소 내 실험실 및 제주시 실증(21/3/16, 제주 테크노파크)을 통한 UHD 재난방송",
+    "caption_and_following_text": "시범운영 실시\n<그림> UHD 방송을 통한 재난정보 수신 화면\n- KT 일산지사 내의 5G 실험실을 통한 5G CBS 송출 테스트 실시\n<그림> 5G 단말을 통한 재난문자 수신 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.85,
+          417.02,
+          473.02,
+          614.45
+        ],
+        "page_area_fraction": 0.1385
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.06,
+          157.87,
+          283.41,
+          351.34
+        ],
+        "page_area_fraction": 0.0403
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          298.04,
+          157.51,
+          415.82,
+          352.89
+        ],
+        "page_area_fraction": 0.046
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0088",
+    "caption": "차세대 예∙경보플랫폼 관제 화면을 통한 매체 수신처 관리 기능 화면",
+    "pdf_page_candidate": 97,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "❍ 기존 예․경보시스템 연동 검증 및 보완\n- 기존 예․경보시스템 연동 기능 검증\nŸ 시범서비스 지역 선정(충남 아산시 & 충북 청주시)에 따른 연동 예․경보시스템 확인\n: 충남 아산시(마을방송 및 자동음성통보시스템, 재해문자전광판시스템)와 충북 청주시(마을방송\n및 자동음성통보시스템, 버스정보시스템) 연동 시스템 확인\nŸ 차세대 예․경보 플랫폼 및 지자체 예․경보시스템 간 연동을 위해 ‘지자체 통합 게이트웨이",
+    "caption_and_following_text": "(1세부)’를 통한 재난정보 메시지 송수신 기능 구현\n: 차세대 예․경보 플랫폼의 관제화면을 통해 연동하기 위한 예․경보 매체 서버의 정보 입력에\n따른 관리(등록/수정/삭제) 기능 구현\n<그림> 차세대 예∙경보플랫폼 관제 화면을 통한 매체 수신처 관리 기능 화면\n❍ 기존 예․경보시스템 연동 문제점 도출 및 보완\n- 예․경보시스템 연동 문제점 도출 및 보완\nŸ 현재 운영되고 있는 지자체 예․경보시스템은 해당 지역 업체를 통해 구축되어 있어 자체\n프로토콜을 활용함에 따라 통합 운영에 무리가 있음\nŸ 이를 보완하기 위해 1세부에서 개발한 지자체 통합 게이트웨이를 통해 기존 예․경보시스템과의\n연동 테스트 실시",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.9,
+          351.82,
+          497.85,
+          547.68
+        ],
+        "page_area_fraction": 0.1499
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0089",
+    "caption": "행안부에서 구축한 대국민 상황전파시스템 체계 구성도",
+    "pdf_page_candidate": 98,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "❍ 중앙 통합발령시스템 연계방안 제시\n- 중앙 통합발령시스템 연계를 위한 주요기능 분석",
+    "caption_and_following_text": "Ÿ 통합발령시스템 연계 인터페이스 분석\n: 행안부에서 구축한 통합발령시스템(현, 대국민 상황전파시스템)은 CAP을 수용할 수\n있게 구현되어 있으나, 본 과제에서 표준화 된 CAP과는 상이하게 구성되어 있음\n<그림> 행안부에서 구축한 대국민 상황전파시스템 체계 구성도\nŸ CAP 기반 연계 프로토콜 호환성 검토 및 수신모듈 개발\n: 동일한 형태의 테스트 서버를 통한 연동테스트 실시\n<그림> 통합 발령시스템 테스트 구성도(좌) 및 CAP 수신 결과 화면(우)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.03,
+          407.67,
+          497.73,
+          630.03
+        ],
+        "page_area_fraction": 0.1781
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.06,
+          202.94,
+          316.39,
+          295.48
+        ],
+        "page_area_fraction": 0.0374
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          330.54,
+          201.14,
+          480.82,
+          305.9
+        ],
+        "page_area_fraction": 0.0315
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0090",
+    "caption": "통합 발령시스템 테스트 구성도(좌) 및 CAP 수신 결과 화면(우)",
+    "pdf_page_candidate": 98,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "❍ 중앙 통합발령시스템 연계방안 제시\n- 중앙 통합발령시스템 연계를 위한 주요기능 분석\nŸ 통합발령시스템 연계 인터페이스 분석\n: 행안부에서 구축한 통합발령시스템(현, 대국민 상황전파시스템)은 CAP을 수용할 수\n있게 구현되어 있으나, 본 과제에서 표준화 된 CAP과는 상이하게 구성되어 있음",
+    "caption_and_following_text": "<그림> 행안부에서 구축한 대국민 상황전파시스템 체계 구성도\nŸ CAP 기반 연계 프로토콜 호환성 검토 및 수신모듈 개발\n: 동일한 형태의 테스트 서버를 통한 연동테스트 실시\n<그림> 통합 발령시스템 테스트 구성도(좌) 및 CAP 수신 결과 화면(우)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.03,
+          407.67,
+          497.73,
+          630.03
+        ],
+        "page_area_fraction": 0.1781
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          114.06,
+          202.94,
+          316.39,
+          295.48
+        ],
+        "page_area_fraction": 0.0374
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          330.54,
+          201.14,
+          480.82,
+          305.9
+        ],
+        "page_area_fraction": 0.0315
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0091",
+    "caption": "차세대 통합 예∙경보 플랫폼 및 매체 간 연계 구성도",
+    "pdf_page_candidate": 99,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "❍ 시범서비스 지역 검토 및 운영 재난 예․경보시스템 연계 적용\n- 중앙, 지자체 예․경보시스템 및 민간 운영 다매체를 대상으로 연계 대상 선정\nŸ 매체별 시범서비스 운영을 위한 지역에 따라 연계 매체 구성\nŸ 재난별/매체별 시나리오에 따른 개발 및 통합 운영 실시\n: 재난상황에 따른 발령지역(전국, 시도, 시군구, 읍면동)에 따라 발령매체 또한 상이하게 연동 실시\n: 매월 시나리오 기반 시범운영에 따른 차세대 통합 예․경보 플랫폼의 통합 운영 진행\n❍ 게이트웨이 연동 방안 분석 및 적용",
+    "caption_and_following_text": "- 지자체 통합 게이트웨이가 설치된 지역(아산시 및 청주시)의 통신망 확인\nŸ 각각의 지자체 통합 게이트웨이 서버는 행정망 내에 설치하여 차세대 통합 예․경보 플랫폼(서울\nKITV 서버실 내)과 연동을 위해서는 방화벽을 통과할 수 있도록 IP와 포트 번호 등록 진행\n<그림> 차세대 통합 예∙경보 플랫폼 및 매체 간 연계 구성도\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          107.1,
+          211.09,
+          487.78,
+          467.01
+        ],
+        "page_area_fraction": 0.1947
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0092",
+    "caption": "시범서비스 적용 및 운영 구성도",
+    "pdf_page_candidate": 100,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "□ 시범서비스 지역 시범 구현 및 보완사항 도출\n❍ 시범서비스 지역 내 개발 플랫폼 적용 및 운영",
+    "caption_and_following_text": "- 통합 예․경보 플랫폼 설치 및 기존 예․경보시스템 연동\nŸ 시범서비스 운영을 위한 차세대 통합 예․경보 플랫폼(서울 KITV 서버실) 및 지자체 예․경보시스템\n연동 체계 구축\n<그림> 시범서비스 적용 및 운영 구성도\n- 재난안전정보 공유플랫폼 연동 및 테스트 실시\nŸ KISTI 주관으로 연구개발 된 ‘재난안전정보 공유플랫폼’에 대한 시험을 위한 연동 환경 구성\n<표> 연동 환경 구성\n구성 공간 구성 요소 설명\n원격 공간\n차세대 통합",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.12,
+          383.94,
+          449.64,
+          631.95
+        ],
+        "page_area_fraction": 0.1509
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0093",
+    "caption": "연동 환경 구성",
+    "pdf_page_candidate": 100,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "□ 시범서비스 지역 시범 구현 및 보완사항 도출\n❍ 시범서비스 지역 내 개발 플랫폼 적용 및 운영\n- 통합 예․경보 플랫폼 설치 및 기존 예․경보시스템 연동\nŸ 시범서비스 운영을 위한 차세대 통합 예․경보 플랫폼(서울 KITV 서버실) 및 지자체 예․경보시스템",
+    "caption_and_following_text": "연동 체계 구축\n<그림> 시범서비스 적용 및 운영 구성도\n- 재난안전정보 공유플랫폼 연동 및 테스트 실시\nŸ KISTI 주관으로 연구개발 된 ‘재난안전정보 공유플랫폼’에 대한 시험을 위한 연동 환경 구성\n<표> 연동 환경 구성\n구성 공간 구성 요소 설명\n원격 공간\n차세대 통합\n예․경보 플랫폼\n차세대 통합 예․경보 플랫폼에서 사용하기 위한 데이터를",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          145.12,
+          383.94,
+          449.64,
+          631.95
+        ],
+        "page_area_fraction": 0.1509
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0094",
+    "caption": "매체별 재난정보 표출",
+    "pdf_page_candidate": 101,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "❍ 통합 예․경보 플랫폼 및 기존 예․경보시스템 연계 시범 운영 및 검증\n- 월별 시범운영을 통한 차세대 예․경보 플랫폼 및 기존 예․경보시스템 간 연동 체계 검증 실시\n구분 시연 이미지 구분 시연 이미지\nUHD\nBIS",
+    "caption_and_following_text": "(버스정보\n시스템)\n5G CBS SNS\n<그림> 매체별 재난정보 표출\n- OpenAPI 검증용 서비스 개발 및 운영 검증\n구분 시연 이미지 구분 시연 이미지\nOpen\nAPI목록\n상세\nOpen",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.12,
+          586.64,
+          294.68,
+          665.87
+        ],
+        "page_area_fraction": 0.0232
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          392.91,
+          580.16,
+          461.63,
+          672.46
+        ],
+        "page_area_fraction": 0.0127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.72,
+          468.93,
+          216.24,
+          571.66
+        ],
+        "page_area_fraction": 0.0132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          221.16,
+          469.17,
+          288.68,
+          570.58
+        ],
+        "page_area_fraction": 0.0137
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          355.97,
+          476.84,
+          424.45,
+          563.62
+        ],
+        "page_area_fraction": 0.0119
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          429.49,
+          476.84,
+          498.57,
+          563.74
+        ],
+        "page_area_fraction": 0.012
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          245.13,
+          289.4,
+          367.16
+        ],
+        "page_area_fraction": 0.0369
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          359.45,
+          233.38,
+          517.16,
+          362.96
+        ],
+        "page_area_fraction": 0.0408
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0095",
+    "caption": "Open API 표출정보",
+    "pdf_page_candidate": 101,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 15,
+    "prefix_match_only": false,
+    "text_before": "<그림> 매체별 재난정보 표출\n- OpenAPI 검증용 서비스 개발 및 운영 검증\n구분 시연 이미지 구분 시연 이미지\nOpen\nAPI목록\n상세\nOpen",
+    "caption_and_following_text": "API\n인증키\n발급\n<그림> Open API 표출정보\n❍ 시범운영에 따른 보완사항 도출\n- 시범서비스에 대한 사용자 만족도 설문조사 및 분석\nŸ 시범서비스 운영 결과에 대한 설문조사 실시\n: 시범서비스 현장에서 오프라인을 통한 사용자 만족도 조사를 실시하려 하였으나, 코로나-19로\n인한 불발\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.12,
+          586.64,
+          294.68,
+          665.87
+        ],
+        "page_area_fraction": 0.0232
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          392.91,
+          580.16,
+          461.63,
+          672.46
+        ],
+        "page_area_fraction": 0.0127
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.72,
+          468.93,
+          216.24,
+          571.66
+        ],
+        "page_area_fraction": 0.0132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          221.16,
+          469.17,
+          288.68,
+          570.58
+        ],
+        "page_area_fraction": 0.0137
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          355.97,
+          476.84,
+          424.45,
+          563.62
+        ],
+        "page_area_fraction": 0.0119
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          429.49,
+          476.84,
+          498.57,
+          563.74
+        ],
+        "page_area_fraction": 0.012
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.17,
+          245.13,
+          289.4,
+          367.16
+        ],
+        "page_area_fraction": 0.0369
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          359.45,
+          233.38,
+          517.16,
+          362.96
+        ],
+        "page_area_fraction": 0.0408
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0096",
+    "caption": "온라인 설문조사 화면",
+    "pdf_page_candidate": 102,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": ": 시범서비스 운영 결과에 대한 화면을 통한 온라인 상으로 설문조사를 실시하였으며, 일반인/예경보 담당자/예경보 업체 관계자를 대상으로 진행\n<그림> 온라인 설문조사 화면\n- 통합 예․경보 플랫폼 및 연계 보완사항 도출\n<표> 보완사항\n구분 보완사항\n통합관제\n- 재난경보 발령 이력조회에 따른 상세정보 확인 기능 추가 필요(보안 완료) - geoserver 오류로 인한 지도 미구현(보완 완료) - 이력조회 등 표시기능의 개선; 수행이력 조회 위주에서 경보현황 등의\n개선 및 관련 DB테이블 보강 등(보완 완료)\n멀티미디어콘텐츠 생성\n- 음성문안 문구 수정시 수정반영 안되는 오류(보완 완료) - UHD 재난방송을 위한 전달 이미지에 대한 사이즈 검토 필요(방송사",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.06,
+          495.18,
+          294.92,
+          670.19
+        ],
+        "page_area_fraction": 0.0405
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.48,
+          511.48,
+          418.09,
+          697.88
+        ],
+        "page_area_fraction": 0.0431
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0097",
+    "caption": "보완사항",
+    "pdf_page_candidate": 102,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": ": 시범서비스 운영 결과에 대한 화면을 통한 온라인 상으로 설문조사를 실시하였으며, 일반인/예경보 담당자/예경보 업체 관계자를 대상으로 진행\n<그림> 온라인 설문조사 화면\n- 통합 예․경보 플랫폼 및 연계 보완사항 도출\n<표> 보완사항\n구분 보완사항\n통합관제\n- 재난경보 발령 이력조회에 따른 상세정보 확인 기능 추가 필요(보안 완료) - geoserver 오류로 인한 지도 미구현(보완 완료) - 이력조회 등 표시기능의 개선; 수행이력 조회 위주에서 경보현황 등의\n개선 및 관련 DB테이블 보강 등(보완 완료)\n멀티미디어콘텐츠 생성\n- 음성문안 문구 수정시 수정반영 안되는 오류(보완 완료) - UHD 재난방송을 위한 전달 이미지에 대한 사이즈 검토 필요(방송사",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          179.06,
+          495.18,
+          294.92,
+          670.19
+        ],
+        "page_area_fraction": 0.0405
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.48,
+          511.48,
+          418.09,
+          697.88
+        ],
+        "page_area_fraction": 0.0431
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0098",
+    "caption": "공공데이터포털을 통한 미세먼지 정보",
+    "pdf_page_candidate": 103,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 47,
+    "prefix_match_only": false,
+    "text_before": "항목명 itemCode 10 필 PM25 미세먼지 항목 구분\n경보단계 issueGbn 10 필 주의보 경보단계\n발령일 issueDate 10 필 2021-11-17 발령 날짜\n발령시간 issueTiime 5 필 03:00 발령 시간\n발령농도 issueVal 10 필 83 발령시 미세먼지\n농도(단위: ug/m3)\n해제일 clearDate 10 필 2021-11-17 해제 날짜",
+    "caption_and_following_text": "해제시간 clearTime 5 필 13:00 해제 시간\n해제농도 clearVal 10 필 25 해제시 미세먼지\n농도(단위: ug/m3)\n<표> 공공데이터포털을 통한 미세먼지 정보\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0099",
+    "caption": "대국민 통합관제시스템 운영화면",
+    "pdf_page_candidate": 104,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 통합관제시스템 보완\n: 4차년도 CS방식을 Web방식으로 개선\n> 여러명이 동시 운용 가능\n<그림> 대국민 통합관제시스템 운영화면\n: 재난현황 상세보기\n> 최종 승인된 재난경보를 목록과 지도화면에 표시\n> “자세히”버튼을 누르면 최종 승인된 재난경보의 세부정보 표시\n<그림> 재난현황 상세보기\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.23,
+          526.22,
+          431.65,
+          677.14
+        ],
+        "page_area_fraction": 0.081
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.23,
+          266.71,
+          434.65,
+          418.82
+        ],
+        "page_area_fraction": 0.0834
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.23,
+          114.71,
+          434.77,
+          266.83
+        ],
+        "page_area_fraction": 0.0835
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0100",
+    "caption": "재난현황 상세보기",
+    "pdf_page_candidate": 104,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "Ÿ 통합관제시스템 보완",
+    "caption_and_following_text": ": 4차년도 CS방식을 Web방식으로 개선\n> 여러명이 동시 운용 가능\n<그림> 대국민 통합관제시스템 운영화면\n: 재난현황 상세보기\n> 최종 승인된 재난경보를 목록과 지도화면에 표시\n> “자세히”버튼을 누르면 최종 승인된 재난경보의 세부정보 표시\n<그림> 재난현황 상세보기\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.23,
+          526.22,
+          431.65,
+          677.14
+        ],
+        "page_area_fraction": 0.081
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.23,
+          266.71,
+          434.65,
+          418.82
+        ],
+        "page_area_fraction": 0.0834
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.23,
+          114.71,
+          434.77,
+          266.83
+        ],
+        "page_area_fraction": 0.0835
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0101",
+    "caption": "승인대기목록 – 승인관리 화면",
+    "pdf_page_candidate": 105,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": ": 재난현황-승인관리화면\n> 승인대기 목록 중에서 승인절차가 필요한 재난경보의 우측 “자세히”버튼을 누르면\n재난경보의 세부정보화 승인화면을 표시\n<그림> 승인대기목록 – 승인관리 화면\n: 수동발령 화면. > 발령종류, 발령매체, 발령원, 상세정보(지진의 규모, 위경도, 발생지역 등 추가정보), 발령지역을\n지정 후, “문안생성”버튼을 눌러 재난상황별 템플릿에 따라 생성된 메시지 문안 표시\n이후, 절차는 자동(연계)발령과 동일.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.74,
+          482.47,
+          473.03,
+          683.13
+        ],
+        "page_area_fraction": 0.1409
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.74,
+          281.81,
+          473.15,
+          482.47
+        ],
+        "page_area_fraction": 0.1409
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0102",
+    "caption": "수동발령 화면",
+    "pdf_page_candidate": 106,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 수동발령 화면\n: 이력조회 화면 보완\n> 재난상황 이력을 조회하고 “자세히”버튼을 눌러 세부내용과 수행결과 정보를 확인\n> 전달된 메시지 문안의 내용과 이미지파일의 확대, 오디오파일 재생 등\n> 발령결과 정보 표시\n<그림> 이력조회 화면\n: 통합로그인 화면 보완\n> 대국민관제시스템 및 대관관제시스템의 로그인 연동 완료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.5,
+          530.18,
+          473.51,
+          741.87
+        ],
+        "page_area_fraction": 0.1489
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          185.18,
+          208.09,
+          512.6,
+          399.04
+        ],
+        "page_area_fraction": 0.1249
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.28,
+          208.09,
+          178.94,
+          399.16
+        ],
+        "page_area_fraction": 0.0369
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0103",
+    "caption": "이력조회 화면",
+    "pdf_page_candidate": 106,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 수동발령 화면\n: 이력조회 화면 보완\n> 재난상황 이력을 조회하고 “자세히”버튼을 눌러 세부내용과 수행결과 정보를 확인\n> 전달된 메시지 문안의 내용과 이미지파일의 확대, 오디오파일 재생 등\n> 발령결과 정보 표시\n<그림> 이력조회 화면\n: 통합로그인 화면 보완\n> 대국민관제시스템 및 대관관제시스템의 로그인 연동 완료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          121.5,
+          530.18,
+          473.51,
+          741.87
+        ],
+        "page_area_fraction": 0.1489
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          185.18,
+          208.09,
+          512.6,
+          399.04
+        ],
+        "page_area_fraction": 0.1249
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          82.28,
+          208.09,
+          178.94,
+          399.16
+        ],
+        "page_area_fraction": 0.0369
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0104",
+    "caption": "통합로그인-대국민관제시스템/대관관제시스템 연동",
+    "pdf_page_candidate": 107,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 통합로그인-대국민관제시스템/대관관제시스템 연동\nŸ OpenAPI 보완\n: open api 서비스 생성\n: api 서비스의 가이드 문서 추가\n: 서비스 요청 내역 저장\nŸ 기존 예․경보시스템 연계 보완\n: CAP 메시지에 대한 ‘Category’ 및 ‘DeviceType’ 변경에 따른 지자체 통합 G/W\n수신 기능 변경이 필요하며, 이에 대해 1세부에 변경을 요청\n구분 변경 전 변경 후\n상황 코드 상황 코드",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          615.05,
+          293.72,
+          741.87
+        ],
+        "page_area_fraction": 0.054
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.44,
+          615.05,
+          514.04,
+          741.87
+        ],
+        "page_area_fraction": 0.0541
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0105",
+    "caption": "CAP 메시지 변경 및 추가 항목",
+    "pdf_page_candidate": 107,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "산불 대피 - 산불 대피 MFV\n미세먼지 비상저감조치 시행 FDS 미세먼지 비상저감조치 시행 FDE\nDeviceType\n※ 지자체\n예경보시스템에\n한함 - 모든 유형 ALL\n자동음성통보시스템 BIS",
+    "caption_and_following_text": "마을방송시스템 CDB\n재해문자전광판시스템 VNS\n버스정보시스템 VBS\n<표> CAP 메시지 변경 및 추가 항목\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.72,
+          615.05,
+          293.72,
+          741.87
+        ],
+        "page_area_fraction": 0.054
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          300.44,
+          615.05,
+          514.04,
+          741.87
+        ],
+        "page_area_fraction": 0.0541
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0106",
+    "caption": "국내 학술대회 발표 논문",
+    "pdf_page_candidate": 108,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 차세대 통합 예․경보 플랫폼 공인인증 실시\nŸ 국내외 학회를 통한 연구개발 기술 검증",
+    "caption_and_following_text": ": 2021년 (사)한국재난정보학회 정기학술대회(재난/안전 Session)를 통한 국내 학술대회 논문\n발표 진행\n논문집 표지 논문 본문\n<그림> 국내 학술대회 발표 논문\n: Cute2021 The 15th KIPS International Conference(Session A-2 : CUTE)를 통한 국외\n학술대회 논문 발표 진행\n<그림> 국외 학술대회 발표 논문\n...\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.41,
+          433.33,
+          294.44,
+          650.77
+        ],
+        "page_area_fraction": 0.0704
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.48,
+          435.0,
+          459.23,
+          649.09
+        ],
+        "page_area_fraction": 0.0671
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.95,
+          123.94,
+          417.02,
+          324.36
+        ],
+        "page_area_fraction": 0.1026
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0107",
+    "caption": "국외 학술대회 발표 논문",
+    "pdf_page_candidate": 108,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 차세대 통합 예․경보 플랫폼 공인인증 실시\nŸ 국내외 학회를 통한 연구개발 기술 검증\n: 2021년 (사)한국재난정보학회 정기학술대회(재난/안전 Session)를 통한 국내 학술대회 논문\n발표 진행\n논문집 표지 논문 본문",
+    "caption_and_following_text": "<그림> 국내 학술대회 발표 논문\n: Cute2021 The 15th KIPS International Conference(Session A-2 : CUTE)를 통한 국외\n학술대회 논문 발표 진행\n<그림> 국외 학술대회 발표 논문\n...\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.41,
+          433.33,
+          294.44,
+          650.77
+        ],
+        "page_area_fraction": 0.0704
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.48,
+          435.0,
+          459.23,
+          649.09
+        ],
+        "page_area_fraction": 0.0671
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          160.95,
+          123.94,
+          417.02,
+          324.36
+        ],
+        "page_area_fraction": 0.1026
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0108",
+    "caption": "시험 결과 요약(TTA 공인인증시험성적서)",
+    "pdf_page_candidate": 109,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 시제품 출시를 위해 외부 공인인증 기관(TTA 등)을 통해 기능 및 성능 시험 인증\n: 요구사항 정의서 기반 6종의 공인인증 시험 항목 설정\n: TTA를 통한 공인인증시험 진행(21. 11. 25. / 케이아이티밸리(주) 회의실)\n<표> 시험 결과 요약(TTA 공인인증시험성적서)\n연번 시험 항목 판정 기준 시험 결과 판정\n1 관리자용 관제\n화면 제공기능\n차세대 통합 예경보 플랫폼의 예경보 통합\n관제 모듈에 정상적 접속 확인\n정상 동작 확인 합격",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0109",
+    "caption": "공인인증 시험성적서(TTA)",
+    "pdf_page_candidate": 110,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 공인인증 시험성적서(TTA)\nŸ 공인받은 인증시험 결과에 따른 보완\n: TTA를 통해 공인인증 시험 결과, 요구사항 및 정성적 성과지표에 해당하는 항목들에\n대해 ‘합격’ 판정에 따라 보완 불필요\n: 공인인증 시험 결과에 대한 자세한 내용은 TTA 시험성적서 참조\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.35,
+          399.16,
+          421.33,
+          751.34
+        ],
+        "page_area_fraction": 0.1752
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0110",
+    "caption": "Open API 서비스 생성 화면",
+    "pdf_page_candidate": 111,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 대국민용 재난정보 콘텐츠 제공을 위한 Open API 테스트 및 개선",
+    "caption_and_following_text": "Ÿ Open API 테스트 환경 설정 및 수행\n: open api 서비스 생성\n: 전체 33개의 api 서비스를 생성Open API 테스트 환경 설정 및 수행\n<그림> Open API 서비스 생성 화면\n: api 서비스의 가이드 문서 추가\n: 서비스를 사용하기 쉽게 가이드 문서를 추가하였고 hwp,pdf,docx 형식으로 사용자이 원하는\n문서로 받을 수 있도록 추가\n<그림> 문서 가이드 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.15,
+          377.59,
+          494.61,
+          647.53
+        ],
+        "page_area_fraction": 0.2128
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.98,
+          105.6,
+          484.78,
+          268.03
+        ],
+        "page_area_fraction": 0.1217
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0111",
+    "caption": "문서 가이드 화면",
+    "pdf_page_candidate": 111,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 대국민용 재난정보 콘텐츠 제공을 위한 Open API 테스트 및 개선\nŸ Open API 테스트 환경 설정 및 수행\n: open api 서비스 생성\n: 전체 33개의 api 서비스를 생성Open API 테스트 환경 설정 및 수행\n<그림> Open API 서비스 생성 화면",
+    "caption_and_following_text": ": api 서비스의 가이드 문서 추가\n: 서비스를 사용하기 쉽게 가이드 문서를 추가하였고 hwp,pdf,docx 형식으로 사용자이 원하는\n문서로 받을 수 있도록 추가\n<그림> 문서 가이드 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          100.15,
+          377.59,
+          494.61,
+          647.53
+        ],
+        "page_area_fraction": 0.2128
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.98,
+          105.6,
+          484.78,
+          268.03
+        ],
+        "page_area_fraction": 0.1217
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0112",
+    "caption": "지자체 버스정보시스템(좌) (충북 청주시)과 재해문자전광판시스템(우) (충남 아산시)을 통한 재난경보 발령 현황",
+    "pdf_page_candidate": 118,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 지자체 버스정보시스템(좌) (충북 청주시)과 재해문자전광판시스템(우) (충남\n아산시)을 통한 재난경보 발령 현황\n<그림> SNS (트위터)를 통한 재난경보 발령 현황(좌: 지진경보, 우: 산불경보)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          475.52,
+          296.6,
+          741.87
+        ],
+        "page_area_fraction": 0.1065
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          197.29,
+          475.76,
+          652.21,
+          816.67
+        ],
+        "page_area_fraction": 0.3099
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.24,
+          130.66,
+          495.81,
+          407.91
+        ],
+        "page_area_fraction": 0.1073
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.95,
+          131.86,
+          290.96,
+          400.72
+        ],
+        "page_area_fraction": 0.1032
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0113",
+    "caption": "SNS (트위터)를 통한 재난경보 발령 현황(좌: 지진경보, 우: 산불경보)",
+    "pdf_page_candidate": 118,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "<그림> 지자체 버스정보시스템(좌) (충북 청주시)과 재해문자전광판시스템(우) (충남\n아산시)을 통한 재난경보 발령 현황\n<그림> SNS (트위터)를 통한 재난경보 발령 현황(좌: 지진경보, 우: 산불경보)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.55,
+          475.52,
+          296.6,
+          741.87
+        ],
+        "page_area_fraction": 0.1065
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          197.29,
+          475.76,
+          652.21,
+          816.67
+        ],
+        "page_area_fraction": 0.3099
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.24,
+          130.66,
+          495.81,
+          407.91
+        ],
+        "page_area_fraction": 0.1073
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          98.95,
+          131.86,
+          290.96,
+          400.72
+        ],
+        "page_area_fraction": 0.1032
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0114",
+    "caption": "시범서비스 운영 간 발생 장애 요소 및 처리 내용",
+    "pdf_page_candidate": 119,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 60,
+    "prefix_match_only": false,
+    "text_before": "발령 불가\n- TTS를 통한 생성 음성메시지\n확장자에 따른 오류로 수정 완료\nSNS 및\n웹포털\n재난경보서비스\n․ 후속경보 현장사진이 상하 반전되어",
+    "caption_and_following_text": "표출\n- 트위터에서 제공되는 API 상의 문제로\n인해 처리 불가\n<표> 시범서비스 운영 간 발생 장애 요소 및 처리 내용\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0115",
+    "caption": "시범서비스 운영 간 도출된 개선 사항",
+    "pdf_page_candidate": 120,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 33,
+    "prefix_match_only": false,
+    "text_before": "SNS 및\n웹포털\n재난예경보\n서비스\n․ SNS (트위터)의 경우에는 차세대 통합 예경보 플랫폼으로부터 발령한 재난\n경보가 매우 빠르게 수신되어 표출(2초 이내)되기 때문에 ‘신속성’\n측면에서 매우 좋은 재난 예경보 매체로써 가능",
+    "caption_and_following_text": "- 이 또한 제도적 방안 마련이 시급하며, 또한 ‘허위정보’에 대한 위험성을\n배제하기 위해 정부 관계 부처(예, 행정안전부)에서 운영하는 계정을 통한\n재난정보 제공 필요\n<표> 시범서비스 운영 간 도출된 개선 사항\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0116",
+    "caption": "응답자별 기초 설문 문항",
+    "pdf_page_candidate": 121,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "❍ 사용자 만족도 조사(설문조사) 및 분석\n- 재난안전 플랫폼 기술개발 사업에 대한 사용자 만족도 조사에 적합한 설문 문항의 개발",
+    "caption_and_following_text": "Ÿ 응답자별 시범서비스 운영 결과에 대한 만족도 조사를 위해 일반인, 예경보 업체 관계자, 공무원으로 구분하여 문항 개발\nŸ 응답자별 속성 정보를 구분하기 위해 연령대, 성별, 국적, 거주지, 직업에 대한 기초 설문\n문항 개발\n<그림> 응답자별 기초 설문 문항\nŸ 응답자의 온라인 설문 도움을 위해 매체별 제공 콘텐츠에 대한 가시적 자료 제공\n<그림> 매체별 제공 콘텐츠에 대한 가시적 제공 자료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.14,
+          390.17,
+          414.74,
+          612.41
+        ],
+        "page_area_fraction": 0.1042
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.52,
+          113.28,
+          450.48,
+          312.02
+        ],
+        "page_area_fraction": 0.1215
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0117",
+    "caption": "매체별 제공 콘텐츠에 대한 가시적 제공 자료",
+    "pdf_page_candidate": 121,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "❍ 사용자 만족도 조사(설문조사) 및 분석\n- 재난안전 플랫폼 기술개발 사업에 대한 사용자 만족도 조사에 적합한 설문 문항의 개발\nŸ 응답자별 시범서비스 운영 결과에 대한 만족도 조사를 위해 일반인, 예경보 업체 관계자, 공무원으로 구분하여 문항 개발\nŸ 응답자별 속성 정보를 구분하기 위해 연령대, 성별, 국적, 거주지, 직업에 대한 기초 설문",
+    "caption_and_following_text": "문항 개발\n<그림> 응답자별 기초 설문 문항\nŸ 응답자의 온라인 설문 도움을 위해 매체별 제공 콘텐츠에 대한 가시적 자료 제공\n<그림> 매체별 제공 콘텐츠에 대한 가시적 제공 자료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          180.14,
+          390.17,
+          414.74,
+          612.41
+        ],
+        "page_area_fraction": 0.1042
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          144.52,
+          113.28,
+          450.48,
+          312.02
+        ],
+        "page_area_fraction": 0.1215
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0118",
+    "caption": "만족도 조사 문항 페이지",
+    "pdf_page_candidate": 122,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 매체별 제공 콘텐츠에 대한 만족도(필요성, 효용성)를 조사할 수 있는 문항 개발\n<그림> 만족도 조사 문항 페이지\nŸ 재난 및 매체별 제공 콘텐츠에 대한 전반적인 의견 및 만족도 수렴을 위한 ‘국민 의견\n수렴’ 문항 페이지 개발\n<그림> ‘국민 의견 수렴’ 문항 페이지\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.57,
+          473.24,
+          428.17,
+          718.25
+        ],
+        "page_area_fraction": 0.1105
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          106.92,
+          432.49,
+          377.47
+        ],
+        "page_area_fraction": 0.1266
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0119",
+    "caption": "‘국민 의견 수렴’ 문항 페이지",
+    "pdf_page_candidate": 122,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "Ÿ 매체별 제공 콘텐츠에 대한 만족도(필요성, 효용성)를 조사할 수 있는 문항 개발\n<그림> 만족도 조사 문항 페이지\nŸ 재난 및 매체별 제공 콘텐츠에 대한 전반적인 의견 및 만족도 수렴을 위한 ‘국민 의견\n수렴’ 문항 페이지 개발\n<그림> ‘국민 의견 수렴’ 문항 페이지\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          202.57,
+          473.24,
+          428.17,
+          718.25
+        ],
+        "page_area_fraction": 0.1105
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          198.37,
+          106.92,
+          432.49,
+          377.47
+        ],
+        "page_area_fraction": 0.1266
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0120",
+    "caption": "온라인 설문조사 화면",
+    "pdf_page_candidate": 123,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 성별, 연령, 거주지, 거주지역, 거주형태, 직업 등 다양한 사용자 인적사항 분포에 따른 설문조사\n실시",
+    "caption_and_following_text": "Ÿ 2021 대한민국 안전산업박람회에서 오프라인을 통한 사용자 만족도 조사를 실시하려 하였으나, 코로나-19로 인한 불발\nŸ 시범서비스 운영 결과에 대한 화면을 통한 온라인 상으로 설문조사를 실시하였으며, 일반인\n/ 예경보 업체 관계자 / 공무원을 대상으로 진행\n<그림> 온라인 설문조사 화면\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          138.05,
+          414.15,
+          292.28,
+          578.25
+        ],
+        "page_area_fraction": 0.0506
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.6,
+          380.7,
+          459.11,
+          611.81
+        ],
+        "page_area_fraction": 0.0723
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0121",
+    "caption": "온라인 설문조사 대상 및 방법",
+    "pdf_page_candidate": 124,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 7,
+    "prefix_match_only": false,
+    "text_before": "- 설문결과에 따른 보고서 작성 및 향후 개선사항 도출\nŸ 2021 안전산업박람회 온라인 전시관 및 온라인 설문조사를 통한 사용자 만족도 조사\n실시\n: 차세대 통합 예경보 플랫폼 및 각종 매체를 통한 멀티미디어 재난정보 콘텐츠, 서비스\n개선(안)을 위한 의견 수렴 등 다양한 분야의 국민을 대상으로 설문조사 실시\n구분 개요\n조사 대상 일반국민, 공무원, 예경보업체 종사자",
+    "caption_and_following_text": "응답자 수 총 602명(일반인: 529명, 공무원: 21명, 예경보업체: 52명)\n조사 방법 구조화된 설문지를 이용한 온라인 설문조사\n조사 기간 2021년 9월 14일 ~ 10월 20일(약 1달 간)\n<표> 온라인 설문조사 대상 및 방법\n: 설문조사 미응답과 중복 데이터는 분석에서 제외시키고 데이터 코딩(data coding)과\n데이터 클리닝(data cleaning) 과정을 거쳐, 통계패키지인 SPSS (Statistical Package\nfor Social Science) 및 R-studio에 의해 통계분석 실시\n① 빈도(Frequency) 분석, 교차(Cross) 분석, 일원배치 분산(One-way ANOVA) 분석, 독립표본 T-검정(Independent T-test)을 실시함\n② 기타의견 및 개선점에 대한 의견을 알아보기 위해 핵심단어를 시각적으로 돋보이게\n해주는 작업인 워드클라우드(Word Cloud)를 실시함",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.74,
+          292.24,
+          488.14,
+          353.49
+        ],
+        "page_area_fraction": 0.0467
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0122",
+    "caption": "온라인 설문조사 자료처리 및 분석방법 절차",
+    "pdf_page_candidate": 124,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 14,
+    "prefix_match_only": false,
+    "text_before": "응답자 수 총 602명(일반인: 529명, 공무원: 21명, 예경보업체: 52명)\n조사 방법 구조화된 설문지를 이용한 온라인 설문조사\n조사 기간 2021년 9월 14일 ~ 10월 20일(약 1달 간)\n<표> 온라인 설문조사 대상 및 방법\n: 설문조사 미응답과 중복 데이터는 분석에서 제외시키고 데이터 코딩(data coding)과\n데이터 클리닝(data cleaning) 과정을 거쳐, 통계패키지인 SPSS (Statistical Package\nfor Social Science) 및 R-studio에 의해 통계분석 실시",
+    "caption_and_following_text": "① 빈도(Frequency) 분석, 교차(Cross) 분석, 일원배치 분산(One-way ANOVA) 분석, 독립표본 T-검정(Independent T-test)을 실시함\n② 기타의견 및 개선점에 대한 의견을 알아보기 위해 핵심단어를 시각적으로 돋보이게\n해주는 작업인 워드클라우드(Word Cloud)를 실시함\n<그림> 온라인 설문조사 자료처리 및 분석방법 절차\nŸ 설문조사 대상자별 분석 결과 제시\n: 설문조사에 참여한 대상자(일반인, 공무원, 예경보업체 종사자)는 다양한 연령대와 성별, 국적, 거주지, 직업 등 존재\n: 분석 결과 전반적으로 높은 만족도 결과를 보여주고 있으나, 일부 매체 및 콘텐츠에\n대해서는 효용성이 높지 않음을 확인\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.74,
+          292.24,
+          488.14,
+          353.49
+        ],
+        "page_area_fraction": 0.0467
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0123",
+    "caption": "일반인 설문조사 대상자 현황",
+    "pdf_page_candidate": 125,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "직업\n전문직 73 13.8\n60대 9 1.7 자영업 30 5.7\n직장인 240 45.4 70대 이상 0 0.0 공무원 32 6.0\n연구원 11 2.1 성별 남 272 51.4\n여 257 48.6 주부 63 11.9\n학생 57 10.8",
+    "caption_and_following_text": "국적\n내국인 525 99.2\n군인 2 0.4 외국인 4 0.8 기타 21 4.0\n<표> 일반인 설문조사 대상자 현황\n● 재난문자(CBS) ● TV(재난방송)\n● 버스정보시스템(BIS) ● 소셜네트워크(SNS)\n▷ 일반인의 다매체 예·경보 플랫폼만족도를 살펴보면, 재난문자(CBS)가 7점 만점에 평균 5.50점으로\n가장 높게 나타났으며, 다음으로 TV(재난방송) 5.30점, 버스정보시스템(BIS) 5.28점, 소셜네트워크(SNS)\n4.85점 순으로 나타남\n▷ 일반인의 다매체 예·경보 플랫폼 종합 만족도를 살펴보면, 7점 만점에 5.68점으로 높은 수준으로",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          73.28,
+          338.27,
+          280.77,
+          459.46
+        ],
+        "page_area_fraction": 0.0502
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          310.75,
+          336.95,
+          520.28,
+          459.82
+        ],
+        "page_area_fraction": 0.0514
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          69.68,
+          181.96,
+          270.58,
+          294.4
+        ],
+        "page_area_fraction": 0.0451
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          307.64,
+          177.29,
+          510.21,
+          298.95
+        ],
+        "page_area_fraction": 0.0493
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0124",
+    "caption": "공무원 설문조사 대상자 현황",
+    "pdf_page_candidate": 126,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "자영업 0 0.0 60대 0 0.0\n직장인 2 9.5\n70대 이상 0 0.0 공무원 18 85.7\n연구원 1 4.8 성별 남 16 76.2\n여 5 23.8 주부 0 0.0\n학생 0 0.0\n국적",
+    "caption_and_following_text": "내국인 21 100.0\n군인 0 0.0\n외국인 0 0.0 기타 0 0.0\n<표> 공무원 설문조사 대상자 현황\n● 통합플랫폼 ● 재난문자(CBS)\n● TV(재난방송) ● 버스정보시스템(BIS)\n● 소셜네트워크(SNS) ▷ 공무원의 다매체 예·경보 플랫폼 만족도를 살펴보면, 소셜네트워크(SNS)가 7점 만점에 평균 5.44으로 가장 높게\n나타났으며, 다음으로 통합플랫폼 5.36점, 재난문자(CBS)\n5.16점, TV(재난방송) 5.07점,, 버스정보시스템 5.04점 순으로\n나타남",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.67,
+          363.44,
+          277.29,
+          469.05
+        ],
+        "page_area_fraction": 0.0388
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          325.27,
+          364.88,
+          507.57,
+          467.49
+        ],
+        "page_area_fraction": 0.0374
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          87.91,
+          228.83,
+          268.66,
+          334.43
+        ],
+        "page_area_fraction": 0.0381
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          325.86,
+          232.31,
+          508.17,
+          330.96
+        ],
+        "page_area_fraction": 0.0359
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          84.67,
+          92.3,
+          271.89,
+          202.82
+        ],
+        "page_area_fraction": 0.0413
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0125",
+    "caption": "경보업체 관계자 설문조사 대상자 현황",
+    "pdf_page_candidate": 127,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 21,
+    "prefix_match_only": false,
+    "text_before": "60대 1 1.9 자영업 0 0.0\n직장인 31 59.6\n70대 이상 0 0.0 공무원 0 0.0\n연구원 12 23.1 성별 남 44 84.6\n여 8 15.4 주부 0 0.0\n학생 0 0.0\n국적",
+    "caption_and_following_text": "내국인 52 100.0\n군인 0 0.0\n외국인 0 0.0 기타 0 0.0\n<표> 경보업체 관계자 설문조사 대상자 현황\n● 자동음성통보시스템 ● 재난문자(CBS)\n● TV(재난방송) ● 버스정보시스템(BIS)\n● 소셜네트워크(SNS) ▷ 경보업체의 다매체 예·경보 플랫폼 만족도를\n살펴보면, TV(재난방송)이 7점 만점에 평균 5.25점으로\n가장 높게 나타났으며, 다음으로 재난문자(CBS) 5.22점, 자동음성통시스템 4.96점, 소셜 네트워크 분석 (SNS)\n4.69점, 버스정보시스템(BIS) 4.44점 순으로 나타남",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          93.07,
+          365.24,
+          278.01,
+          473.36
+        ],
+        "page_area_fraction": 0.04
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          333.9,
+          366.32,
+          518.84,
+          472.28
+        ],
+        "page_area_fraction": 0.0392
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          227.27,
+          269.97,
+          336.35
+        ],
+        "page_area_fraction": 0.04
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          327.3,
+          230.87,
+          512.36,
+          332.88
+        ],
+        "page_area_fraction": 0.0377
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.59,
+          92.42,
+          269.97,
+          201.26
+        ],
+        "page_area_fraction": 0.0399
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0126",
+    "caption": "차세대 통합 예경보 플랫폼 고도화 및 활용 방안",
+    "pdf_page_candidate": 129,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 16,
+    "prefix_match_only": false,
+    "text_before": "분석\n3) 공공안전통신망을 적용한 지자체 예·경보 발령\n4) 재난 예경보시스템 매체 확대 및 관련 법제도 마련\n1) 클라우드 기반의 플랫폼 구축에\n따른 중앙 및 지자체 관계자\n활용·연계 매체 확장\n2) 현재 운영 중인 관련 시스템과의",
+    "caption_and_following_text": "통합 체계 구축\n- 대국민 상황전파시스템(행안부)\n및 EDBS 통합\n<표> 차세대 통합 예경보 플랫폼 고도화 및 활용 방안\n<그림> 차세대 통합 예경보 플랫폼 운영 모델(안)\n: 제시된 고도화 내용(개선사항 포함) 및 활용 방안을 토대로 중․장기 전망을 제시할 수\n있으며, 이에 대해 단계별 기본계획 수립을 통해 대국민 재난 예경보 체계에 대한 발전\n방안 마련\n: ‘중앙정부’에서는 지자체 예경보시스템에 대한 고도화 추진을 위한 관련 법․제도 개정\n및 시스템 구축에 대한 가이드라인(기술고시) 제시가 필요하며, ‘지자체’에서는 제시된",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.27,
+          309.14,
+          509.49,
+          507.77
+        ],
+        "page_area_fraction": 0.1684
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0127",
+    "caption": "차세대 통합 예경보 플랫폼 운영 모델(안)",
+    "pdf_page_candidate": 129,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "3) 공공안전통신망을 적용한 지자체 예·경보 발령\n4) 재난 예경보시스템 매체 확대 및 관련 법제도 마련\n1) 클라우드 기반의 플랫폼 구축에\n따른 중앙 및 지자체 관계자\n활용·연계 매체 확장\n2) 현재 운영 중인 관련 시스템과의\n통합 체계 구축",
+    "caption_and_following_text": "- 대국민 상황전파시스템(행안부)\n및 EDBS 통합\n<표> 차세대 통합 예경보 플랫폼 고도화 및 활용 방안\n<그림> 차세대 통합 예경보 플랫폼 운영 모델(안)\n: 제시된 고도화 내용(개선사항 포함) 및 활용 방안을 토대로 중․장기 전망을 제시할 수\n있으며, 이에 대해 단계별 기본계획 수립을 통해 대국민 재난 예경보 체계에 대한 발전\n방안 마련\n: ‘중앙정부’에서는 지자체 예경보시스템에 대한 고도화 추진을 위한 관련 법․제도 개정\n및 시스템 구축에 대한 가이드라인(기술고시) 제시가 필요하며, ‘지자체’에서는 제시된\n가이드라인에 준한 사업 발주를 통해 표준 체계 사업 방향을 유도하며, 이와 발맞추어 ‘민간’ 또는 ‘시스템 개발사’는 가이드라인 기준 제품 호환성 시험을 위한 공인인증시험",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.27,
+          309.14,
+          509.49,
+          507.77
+        ],
+        "page_area_fraction": 0.1684
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "S32-V0128",
+    "caption": "차세대 통합 예경보 플랫폼 고도화 및 개선사항에 대한 중․장기 추진 계획",
+    "pdf_page_candidate": 130,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 41,
+    "prefix_match_only": false,
+    "text_before": "기관\n협의\n중앙 통합 예경보\n플랫폼과의 연계\n공인인증 체계\n마련\n공인인증시험 기준 및",
+    "caption_and_following_text": "절차 마련\n공인인증시험 기관 마련 및 인증\n실시\n<표> 차세대 통합 예경보 플랫폼 고도화 및 개선사항에 대한 중․장기 추진 계획\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "□ 빅데이터 기반 상황인지 맞춤형 ‘차세대 통합 예․경보 플랫폼’ 시제품 개발",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]

@@ -8,6 +8,18 @@
   "legacy_window": null,
   "custom_features": [
     {
+      "id": "seoultech.document_authoring",
+      "name": "과제 문서 순차 작성",
+      "action": "document_authoring",
+      "placement": "top"
+    },
+    {
+      "id": "seoultech.climate_plan_generate",
+      "name": "기후부 연구계획서 자동작성 (예시)",
+      "action": "climate_plan_generate",
+      "placement": "top"
+    },
+    {
       "id": "seoultech.style_preset_manager",
       "name": "전체 디자인 서식 프리셋",
       "action": "style_preset_manager",

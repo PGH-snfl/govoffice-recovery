@@ -1,0 +1,176 @@
+[
+  {
+    "pdf_page": 1,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "과제고유번호 2019M3E5D1A02069617\r\n바이오·의료기술개발\r\n딥러닝 알고리즘을 이용한 12리드 심전도에서 심방세동 예측 자동화 연구\r\n인하대병원\r\n과학기술정보통신부\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 2,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "제 출 문\r\n과학기술정보통신부장관 귀하\r\n‘지역거점 혁신형의사과학자공동연구사업’(연구개발 기간：2019.07.01. ~ 2020.12.31) 과제의 \r\n최종보고서를 제출합니다.\r\n2020.12.21\r\n 주관연구기관명ː인하대병원 (대표자) 김 영 모 (직인생략) \r\n협동연구기관명ː (대표자) (직인생략)\r\n참여기관명ː (대표자) (직인생략)\r\n \r\n 주관연구기관책임자: 백 용 수\r\n 협동연구기관책임자: \r\n참여기관책임자: \r\n 과학기술정보통신부 소관 과학기술분야 연구개발사업 처리규정\r\n제35조에 따라 최종보고서 열람에 동의합니다.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 3,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "보고서 요약서\r\n과제 고유 번호 2019M3E5D1A\r\n02069617\r\n해당 단계\r\n연구 기간\r\n2019.07.01.~2\r\n020.12.31 단계구분 1단계\r\n연구사업명\r\n중사업명 바이오·의료기술개발\r\n세부사업명 지역거점혁신형의사과학자공동연구사업\r\n연구과제명\r\n대과제명 B2B·C2B 의사과학자 양성을 통한 공동연구성과 사업화\r\n세부과제명 딥러닝 알고리즘을 이용한 12리드 심전도에서 심방세동 예측 자동화 연구\r\n연구책임자\r\n해당단계\r\n참여연구원 \r\n수\r\n 총: 7명\r\n내부: 4명\r\n외부: 3명\r\n해당단계\r\n연구개발비\r\n정부:53,400천원\r\n민간:53,400천원\r\n 계:106,800천원\r\n총 연구기간\r\n참여연구원 \r\n수\r\n 총: 7 명\r\n내부: 4명\r\n외부: 3명\r\n총 연구개발비\r\n정부:113,400천원\r\n민간:113,400천원\r\n 계:226,800천원\r\n연구기관명 및 \r\n소속 부서명 인하대병원 심장내과\r\n참여기업명\r\n국제공동연구 상대국명: 상대국 연구기관명:\r\n위탁연구 연구기관명: 연구책임자:\r\n※ 국내·외의 기술개발 현황은 연구개발계획서에 기재한 내용으로 갈음\r\n연구개발성과의 \r\n보안등급 및 \r\n사유\r\n해당 없음\r\n9대 성과 등록·기탁 건수\r\n구분 논문 특허 보고서 \r\n원문\r\n연구시설\r\n·장비\r\n기술요약 \r\n정보\r\n소프트 \r\n웨어 화합물\r\n생명자원 신품종\r\n생명\r\n정보\r\n생물\r\n자원 정보 실물\r\n건수 1 1\r\n국가과학기술종합정보시스템에 등록한 연구시설·장비 현황\r\n구입기관 연구시설·\r\n장비명\r\n규격\r\n(모델명) 수량 구입연월일 구입가격\r\n(천원)\r\n구입처\r\n(전화)\r\n비고\r\n(설치장소)\r\nNTIS\r\n등록번호\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 4,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "요약문\r\n연구의\r\n목적 및 내용\r\n디지털 분석된 12리드 심전도(ECG, electrocardiogram)에서 인공지능 딥러닝 기법\r\n(Deep Neural Network)을 이용하여 정상 동율동 (NSR, normal sinus rhtyhm)상태\r\n에서 심방세동(AF, atrial fibrillation) 및 치명적 합병증을 예측하고 실제 임상\r\n진료에서 상업화·실용화 할 수 있는 예측 모델 프로그램의 개발하고 임상에 적용\r\n¡ 딥러닝 기법을 이용하여 12 리드 심전도에서의 지속성 심방세동(persistent \r\nAF)과 영구형 심방세동(permanent AF)을 구분(classification)하고 치료 \r\n 반응성을 예측\r\n¡ 12-리드 심전도 상에 정상 동율동을 나타낸 원인불명 뇌졸중(cryptogenic \r\nstroke)환자에서 딥러닝 알고리즘을 통해 뇌졸중 발생 및 관련 사망률 간의 \r\n관련성 확인 및 딥러닝 예측 모델 설계 \r\n연구개발성과\r\n¡ 정상인의 정상 동율동 심전도(real normal)와 발작성 심방세동환자의 정상 \r\n동율동 심전도 (PAF normal) 다수확보 : 본 연구진이 1년간 분석하여 각각 \r\n2500, 600 case 이상 확보하여 프로그램 개발 용이하며 추후 다수 case 추가 \r\n가능\r\n¡ 정상 동율동 심전도(real normal)와 발작성 심방세동환자의 정상 동율동 심\r\n전도 (PAF normal) 구분의 CNN(Convolutional Neural Network) 모델 개발 1건\r\n¡ 관련 SCI(E) 논문 1 편 발표 및 국제 학회 구연 발표(유럽 심장학회(ESC) \r\n2020) \r\n¡ 특허출원 및 등록 완료: 국 내 1건 -Recurrent Neural Network (RNN)기법을 \r\n이용한 정상동율동 심전도 상태에서의 발작성 심방세동 예측 프로그램\r\n연구개발성과의\r\n활용계획\r\n(기대효과)\r\n¡ 응용분야 \r\nŸ 심방세동의 치명적 합병증으로 사회적, 의료적, 경제적 부담이 되고 있는 \r\n뇌졸중, 심부전, 심근경색 및 심인성 급사 등의 선별적 감별.\r\nŸ 국민 건강 검진에서 부정맥 및 부정맥 합병증 예측 및 예방 프로그램 \r\n¡ 파급효과 \r\nŸ 기술적, 경제적 가치 : 심전도 빅데이터 분석이 빠른시간 가능. 휴대용 심전\r\n도 기록 장치 등 의료기기에 딥러닝 프로그램을 삽입하여 개인별 실시간 분\r\n석 가능.\r\nŸ 현재 헬스케어 시장에서 인공지능(AI)은 2025년까지 361억 달러(약 40.3조\r\n원) 규모가 예상되고 심전도 분석 인공지능 프로그램은 국민 의료 디지털 정\r\n보 호수(data lake)의 기반 기술이 될 것으로 기대됨. 국문핵심어\r\n(5개 이내) 심방세동 딥러닝 인공지능 심전도 뇌경색\r\n영문핵심어\r\n(5개 이내)\r\natrial \r\nfibrillation\r\ndeep learning\r\nartificial \r\nintelligence\r\nelectrocardiogram stroke \r\n※ 국문으로 작성(영문 핵심어 제외)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 5,
+    "width": 595.0,
+    "height": 841.0,
+    "text": " 〈 목 차 〉\r\n 1. 연구개발과제의 개요 ······································································································1\r\n 2. 연구수행내용 및 성과 ····································································································7\r\n 3. 목표 달성도 및 관련 분야 기여도 ············································································20\r\n 4. 연구개발성과의 활용 계획 등 ····················································································22\r\n 붙임. 참고 문헌 ················································································································23\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 6,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "1\r\n1. 연구개발과제의 개요\r\n가. 연구개발 기본 개념도 \r\n¡ 딥러닝 기법을 이용한 12리드 정상 심전도에서 발작성 심방세동(PAF, paroxysmal\r\natrial fibrillation)의 예측\r\nŸ 정상인에서의 심전도와 발작성 심방세동 환자에서의 정상동율동 심전도(PAF normal)\r\n에서 각각 디지털 신호를 추출하여 다양한 딥러닝 기법으로 분석 비교하여 선재적 감별\r\n(screen)시행\r\nŸ 딥러닝을 이용한 정상동율동 심전도 상태에서의 발작성 심방세동 예측 기술 개발\r\nŸ 딥러닝 기술을 이용한 예측 모델 프로그램을 통해 정상인과 발작성 심방세동 환자에서의\r\n심전도 유효 (validation) 시험 시행\r\n¡ 12-리드 심전도 상에 정상 동율동을 나타낸 원인불명 뇌졸중(cryptogenic stroke)환자\r\n에서 딥러닝 알고리즘을 통해 뇌졸중 발생 및 관련 사망률 간의 관련성 확인 및 딥러닝\r\n예측 모델 설계\r\nŸ 원인불명 뇌졸중 환자에서의 정상 심전도 추출분석 및 추적 관찰\r\nŸ 원인불명 뇌졸중 환자에서의 딥러닝 기법을 이용한 심방세동 예측 기술의 검증\r\n¡ 딥러닝 기법을 이용하여 12 리드 심전도에서의 지속성 심방세동(persistent AF)과 영구형\r\n심방세동(permanent AF)을 구분(classification)하고 치료 반응성을 예측\r\nŸ 딥러닝을 이용한 지속성 심방세동과 영구형 심방세동의 심전도 분석 및 감별 및 치료\r\n반응성 예측 모델을 딥러닝 기법을 이용하여 개발\r\n¡ 12-리드 심전도 신호의 파형 분석을 통해 심방세동 환자에 대한 항부정맥 약제 및\r\n전극도자절제술의 치료 반응성 예측 모델을 딥러닝 기법을 이용하여 설계. Ÿ 딥러닝을 이용한 심방세동 환자에서 항부정맥제에 대한 환자 개인에 따른 반응성 예측 연구\r\nŸ 딥러닝을 이용한 심방세동 환자에서 전극도자절제술에 대한 환자 개인에 따른 반응성\r\n예측 연구\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 7,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "2\r\n¡ 심방세동 환자 기본 의학 정보와 딥러닝 분석을 통한 12-리드 심전도의 융합\r\n데이터 인프라를 이용하여 치료 반응 예측 딥러닝 알고리즘 개발. Ÿ 딥러닝 분석 예측 프로그램과 환자의 기본 의학(baseline) 정보 사이의 관련성 파악 및 분석. Ÿ 심전도의 심방세동 분석 예측 프로그램과 환자 기본의학 정보를 융합한 치료 반응 예\r\n측 딥러닝 알고리즘 프로그램 개발하고 국민 의료 정보 디지털의 정보 호수 (data\r\nlake)의 근간 기술 개발.\r\n나. 연구배경\r\n¡ 높은 유병률\r\nŸ 심방세동은 가장 흔한 부정맥으로 전체 유병률은 2% 정도로 특히 60세 이상 인구의\r\n5%, 80세 이상의 15%에서 발견됨. Ÿ 심방세동은 허혈성 뇌졸중의 위험을 5배 증가키고 (연간6-10%),(3-9) 심부전증을 초래\r\n하고 (30%),치매의 원인을 제공함. Ÿ 심방세동 환자의 총 사망률은 일반인구에 비해 2배 가량 증가함. Ÿ 노령화 인구비율의 증가에 따라 심방세동으로 인한 입원률, 의료비 지출이 전 세계적으\r\n로 증가 추세임.\r\n[그림 1] 좌측: 대한민국 심방세동 2006-2015년 기간의 연간 유병률,\r\n우측: 대한민국 심방세동의 예측 유병률. (Am Heart J 2018)\r\n¡ 심방세동의 분류와 진행성\r\nŸ 심방세동은 발현 양상, 지속 기간, 심방세동의 자발적 종료 여부에 따라 전통적으로 다\r\n섯 가지 (처음으로 진단된 심방세동, 발작성 심방세동, 지속성 심방세동, 장기간의 지속\r\n성 심방세동, 영구적 심방세동) 분류되고 진행함. (Eur Heart J. 2016)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 8,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "3\r\n[표 1] 심방세동의 패턴\r\nŸ 심방세동은 심전도 상 전형적인 심방세동의 패턴 (명확히 구분할 수 있는 p파가 없으며\r\n불규칙한 RR 간격)을 기록함으로써 이루어지는데 시간이 지남에 따라 많은 환자들이\r\n지속적인 형태의 심방세동으로 진행하게 되며 또한 일부에서는 지속성에서 발작성으로\r\n진행함.\r\n[그림 2] 심방세동은 진행(progression)하는 질환으로 발작성(paroxysmal)에서 시작해 지속\r\n성(persistent)을 거쳐 영속성(permanent)으로 변화하며 이에 따라 치료가 점점 어려워짐 .\r\n(Circ Res. 2014;114:1483-1499.)\r\n심방세동의 패턴 정의\r\n처음으로 진단된\r\n심방세동 (First\r\ndiagnosed AF)\r\n부정맥의 지속 기간이나 심방세동 관련 증상의 경중과 무관하게,\r\n이전에는 한 번도 진단된 바 없는 심방세동\r\n발작성 심방세동\r\n(Paroxysmal AF)\r\n대부분 48시간 이내에 자발 종료되는 심방세동으로 일부에서는 7일까\r\n지 지속되기도 한다. 7일 이내에 심율동 전환을 하여 동리듬으로 회복\r\n이 되는 경우\r\n지속성 심방세동\r\n(Persistent AF)\r\n7일 이상 지속되는 심방세동. 7일 이상 지속되던 심방세동이 직\r\n류 심율동 전환이나 약물로 심율동 전환을 하여 동리듬으로 회\r\n복한 경우도 포함한다.\r\n장기간의 지속성\r\n심방세동\r\n(Long-standing\r\npersistent AF)\r\n일 년 이상 지속되는 심방세동으로 심율동 전환 치료를 하기로\r\n한 경우\r\n영구적 심방세동\r\n(Permanent AF)\r\n환자와 의료진이 심방세동으로 인지하고 심율동 전환을 고려하\r\n지 않는 경우. 만약 심율동 전환을 고려한다면 ‘장기간의 지속성\r\n심방세동에 속함\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 9,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "4\r\nŸ 심방세동의 지속 기간에 따른 환자의 분류는 심방세동 치료법을 결정하거나 그 치료\r\n반응성을 예측하는데 있어 유의미한 차이를 보임. (예를 들어, 전극도자절제술은 지\r\n속성 심방세동보다 발작성 심방세동에 더 효과적인 것으로 알려져 있음). Ÿ 심방세동의 증상과 지속기간에만 근거한 임상적 분류 방식은 주관적이어서 정확한\r\n분류와 치료예측이 거의 불가능했음.\r\n¡ 심방세동의 합병증과 경제적 부담\r\nŸ 우리나라에서 심방세동에 의한 입원은 백만명당 2006년 767명에서 2015년 3986명으로\r\n4배 이상이 증가하였고, 대부분이 70세 이상으로 고혈압, 심부전, 만성폐질환등의 합병증을\r\n동반하는 경우가 많았음. 동일 기간에 의료비는 5.7배 이상이 증가함 (Korean Circ J\r\n2017; Heart J 2018).\r\n[그림 3] 최근 10년간 우리나라 심방세동 관련 입원률과 입원비용 및 사망률의 변화:\r\n한국 건강보험공단 데이터 (백용수 등, Korean Circ J 2017;47(1):56-64)\r\nŸ 심방세동은 전체 허혈성 뇌경색 원인의 약 20-30%를 차지하며, 심방세동이 있는 환자\r\n는 연 6-10% 허혈성 뇌졸중의 위험이 있음이 알려짐. Ÿ 또한 심방세동은 심부전증을 초래하고, 사망률을 2배로 증가시킴. 여러 치료에도 불구\r\n하고 심방세동의 사망률은 매년 증가하고 있음.\r\n[그림 4] 원인불명의 뇌졸중 환자에서 약 30% 넘게 심방세동이 발견됨\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 10,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "5\r\nŸ 원인불명의 뇌졸중환자에서 발견 못한 심방세동이 약 1/3 가량의 원인임. (Sanna T et\r\nal. N Eng J Med. 2014;370:2478-86)\r\n[그림 5] 고식적 방법으로는 부정맥 발견의 낮은 yield 의 문제가 있음. (Ben Freedman,\r\nJAMA Cardiology 2019, Vol 4 Number 2)\r\n¡ 심방세동의 치료\r\nŸ 심방세동의 적절한 치료로 정상리듬을 유지할 경우 유의한 사망률의 감소와 삶의\r\n질 개선이 입증됨. Ÿ 그러나, 심방세동을 포함한 부정맥 질환은 약제 반응성이 낮고, 약제 독성으로 인한\r\n부작용 위험이 있음. Ÿ 심방세동이 항부정맥 약제로 장기적으로 조절되는 비율은 40% 미만임. Ÿ 항부정맥제 자체가 다양한 부작용과 또 다른 위험한 부정맥을 유발할 수 있어 심방\r\n세동에 대한 약물치료는 효과적이지도 않고 안전하지도 않음. Ÿ 항부정맥 약제의 한계 극복하기 위해 전극도자 절제시술이 지난20년 사이에 눈부시게\r\n발전함. Ÿ 심방세동 고주파 절제술의 1년 성공률은 80~95%이지만, 이후에도 지속적 재발을 하는 만성\r\n질환 임. Ÿ 2009년 이후 2900례 이상의 심방세동 도자절제 시술을 시행한 본 연구책임자의 5년\r\n장기 시술 성적도 약30~40%의 재발률을 보이며, 특히 만성 심방세동에서 재발률이\r\n높고, 반복시술이나 시술 실패로 인한 개인적 경제적 부담이 있음.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 11,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "6\r\n¡ 심방세동 심전도 분석에 있어 기존 머신 러닝 연구의 문제점과 딥러닝 기반의\r\n심방세동 발생 예측모델 개발\r\nŸ 기존 연구는 12리드 심전도의 시각적인 complexity parameter를 가지고 전극도자\r\n절제술의 결과를 예측하는 국외연구와 지속성 심방세동에서 전기충격술 (electrical\r\ncardioversion) 이후에 정상 리듬의 유지를 예측하는 심전도 분석과 심방세동의\r\n진행정도와 약물 치료에 의한 동율동 전환(pharmacologic cardioversion)의 예측을\r\n심전도 분석을 통해 보는 연구가 있음. Ÿ 또한 Time domain과 Frequency Domain 에 근거한 Machine Learning algorithm을\r\n이용하여 지속성 심방세동과 영구적 심방세동을 분류한 연구가 있음. 그러나 이제까\r\n지의 연구는 심전도의 시각적 분석을 통해 한 연구였고 심전도 신호를 디지털화하\r\n여 딥러닝 알고리즘(Deep learning algorithm)을 이용하여 실제 인공지능 컴퓨터가\r\n여러 심방세동 유형을 습득한 이후 분석하는 본 연구는 아직까지 국내외 전무함. Ÿ 머신 러닝을 이용한 심전도를 분석하는 기존의 연구들은 심전도에서의 fibrillatory\r\nP wave 전기적 신호의 시각적 특징을 잡아내어 time domain 과 frequency 신호분석\r\n기법을 이용하여 Area Under Curve를 통해 민감도, 정확도를 보는 고식적 방법을\r\n사용해옴. Ÿ 그러나 이 방법의 주된 제한점과 약점은 visualization에 의존한 shallow한 학습 구조와\r\n수작업으로 인해 높은 수준의 정확한 심전도 분류와 일관된 분석이 가능하지 않음. Ÿ 이에 심전도 분석에 새로운 접근방법으로 본 연구팀이 시행한 방법이 딥러닝 기법을\r\n이용한 심전도 분석이며 이는 숫자로 정량화되고 디지털화된 텍스트 파일로 심전도\r\n기계에서 raw 심전도 데이터를 추출하여 소위 deep neural network (DNN)을 이용\r\n하여 컴퓨터 프로그램을 학습시키는 방법. Ÿ 딥러닝 기술 외국 동향을 보면 Deep Learning 기술은 음성/이미지 인식, 분류, 예측\r\n부분에서 가장 많이 활용됨, ImageNet이라는 1,000개 클래스를 분류하는 세계대회\r\n에서 최근 3년간 상위 Rank된 팀 모두가 Deep Learning을 기반 기술을 사용하였음. Ÿ Deep Learning은 Image를 주로 처리하기 위해 설계된 CNN(Convolutional Neural\r\nNetwork)와 음성과 같이 연속적인 신호를 처리하기 위한 RNN(Recurrent Neural\r\nNetwork)가 있음\r\nŸ Google, Alibaba, Baidu와 같은 기업은 이미 자사 검색 서비스에 Deep Learning 기술을\r\n적용하였음, 주로 Commerce 영역에서 주로 사업이 이루어지고 있으나, 아직 국내외\r\n적으로 의료 부분에서 심전도 Deep Learning 적용하는 연구는 거의 전무한 실정.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 12,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "7\r\n2. 연구수행내용 및 성과\r\n 2-1. 연구수행내용 및 성과\r\n본 연구진은 인하대학교 심장내과 전문의와 공과대학 교수진들이 협업하여 심전도 raw\r\ndata를 텍스트 파일로 추출 변환 후 인공지능 딥러닝 Convolutional Neural Network(CNN)\r\n기법과 RNN(Recurrent Neural Network) 기법을 이용하여 예측 프로그램을 설계 및 검증\r\n시연함.\r\n가. Convolutional Neural Network(CNN) 기법\r\n항부정맥 약물 투여전의 400명의 심전도를 2명의 부정맥 전문의에 의해 획득한 이후 인하대\r\n학교 공과대학 교수진들과 co-work 하여 이를 심전도 raw data 텍스트 파일로 추출 변환한\r\n후 인공지능 딥러닝의 설계, 실행 및 검증을 아래와 같은 방법으로 사전연구 시행함.\r\n본 연구는 아래와 같은 판별을 인공지능 기법을 통하여 구현하는 것을 목표로 함.\r\n¡ Real-Normal VS. PAF-Normal Ÿ Real-Normal은 정상인의 ECG 파형 의미하며, Ÿ PAF-Normal은 Paroxysmal AFIB으로 electrical remodeling이 일어난 환자가 정상적인\r\n맥박을 보일 때 취득된 ECG 파형을 의미함\r\n¡ PAF-Abnormal VS. CAF-Abnormal Ÿ PAF-Abnormal은 Paroxysmal AFIB인 환자가 심방세동을 겪을 때 취득된 ECG파형을\r\n의미함\r\nŸ CAF-Abnormal으로 Chronic AFIB (Persistent AFIB, longstanding persistent AFIB,\r\nPermanent AFIB)인 환자의 ECG파형을 의미함\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 13,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "8\r\nü 본 연구의 목표를 달성하기 위해 아래와 같은 접근 방법을 취함\r\n[그림 6] 12-lead ECG based CNN 모델 개발\r\nü 기존 연구의 경우 Lead II 파형만을 대상으로 분류하기 때문에 Real-Normal VS.\r\nPAF-Normal 및 PAF-Abnormal VS. CAF-Abnormal를 판별하는 데에는 한계가 있음\r\nü 이에, 본 연구는 12리드 표준 심전도 파형을 모두 고려하여 목적한 판별 기능을 구현하\r\n고자 함\r\nü 본 연구의 진행 전략은 아래와 같음\r\n¡ ECG 파형 전처리\r\nŸ 첫 번째 단계로서, 취득한 ECG데이타의 추세를 제거함으로써 추세와 관련한 데이\r\n터의 변동에 중점을 두고 분석을 수행함. Ÿ ECG파형의 수직 드리프트로 인해 규칙적인 수직변위가 발생할 수 있는데\r\nde-trending 기법으로 추세를 제거함. Ÿ 유의미할 수 있는 추세라도 분석 유형에 따라 추세를 제거할 때 더 나은 결과를 나타낼\r\n수 있음. Ÿ De-trending 된 파형에서 RR-interval만 Clipping하여 training dataset을 구축함. (그림 7)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 14,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "9\r\n[그림 7] De-trending에서 Training dataset 으로의 과정\r\n¡ Frequency-domain으로 변환\r\nŸ Frequency-domain으로 변환하는 기법은 MFCC 또는 Mel Spectrogram기법을 사용함\r\nŸ Mel Frequency Cepstral Coefficient(MFCC)란 비선형 mel-scale frequency에 대한 로\r\n그 파워 스펙트럼의 선형 코사인 변환에 기반한 단기 파워 스펙트럼을 의미\r\nŸ 주로 입력된 신호에서 노이즈 및 배경 소리로 부터 실제 유효한 소리의 특징을 추출하\r\n는데 쓰이는 기법이며 입력된 소리 전체를 대상으로 하는 것이 아니라, 일정 구간\r\n(Short time)식 나누어, 이 구간에 대한 스펙트럼을 분석하여 특징을 추출하는 기법임\r\n[그림 8] MFCC로 변환한 예\r\n(Real-Normal 심전도와 발작성 심방세동환자가 가지는 정상 심전도의 차이)\r\nŸ Spectrogram은 소리나 파동을 시각화하여 파악하기 위한 도구로, 파형(waveform)과\r\n스펙트럼(spectrum)의 특징이 조합되어 있음\r\nŸ 파형에서는 시간축의 변화에 따른 진폭 축의 변화를 볼 수 있고, 스펙트럼에서는 주\r\n파수 축의 변화에 따른 진폭 축의 변화를 볼 수 있는 반면, 스펙트로그램에서는 시\r\n간축과 주파수 축의 변화에 따라 진폭의 차이를 인쇄 농도 / 표시 색상의 차이로\r\n나타남\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 15,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "10\r\n[그림 9] Mel Spectrogram으로 변환한 예\r\n¡ GAN으로 Data augmentation\r\nŸ 부족한 ECG데이타를 보강하기 위해 Deep Convolutional Generative Adversarial\r\nNetwork (DCGAN)을 이용하여 데이터셋을 증강함(Data Augmentation)\r\n[그림 10] Data augmentation by Generative Adversarial Network\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 16,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "11\r\n¡ CNN기반 Real-Normal VS. PAF-Normal 및 PAF-Abnormal VS. CAF-Abnormal의 판별\r\n[그림 11] CNN기반 심방세동 패턴별 분석 비교\r\n나. Recurrent Neural Network(RNN) 기법\r\n¡ 측정 기관 및 데이터\r\nŸ Dataset은 모두 normal case분류되는 ECG만을 포함하고 두 가지 그룹으로 레이블링\r\n되어 있음. 모든 진단(true label)과 심전도 데이터는 인하대학교 병원에서 심장내과 전\r\n문의료진들에 의해 검증 후 제공됨. 기존에 PAF 진단을 받은 병력이 있는 환자로부터\r\n취득한 데이터가 547case, 그리고 심장에 이상이 없는 정상인으로부터 취득한 데이터가\r\n2506case 이었음.\r\n¡ 진단장비\r\nŸ 모든 data file은 xml format으로, GE MAC5500 기계로 측정됨. 원래 12 leads에서\r\n심전도를 측정하지만, 기기 내 데이터저장 방식[1]에 따르면,xml 내부에서 Lead III,\r\navR, avL, avF를 제외한 8가지 lead의 데이터를 담고 있음. 본 연구에서는 Lead I,\r\nII, V1, V2, V3, V4, V5, V6으로 총 8가지의 측정된 lead신호만를 사용함. 각 lead들\r\n에서 동시에 10초간 측정하여 데이터를 취득함. 대부분의 신호에서 sampling rate는\r\n500(samples/sec)이며, 하나의 측정 단위당 5000개의 sample을 가진다. Xml 파일 하\r\n나가 한 번의 측정 case이며, <WaveFormData> tag에서 Base64 Encoding된 값을\r\n읽어오면, xml파일 하나 당 1차원 배열을 8개 얻음. 10초간의 신호 내에는 여러 번\r\n의 pulse가 있으며, 사람의 심박수에 따라 박동수가 달라한 사람당 약 10개 이상의\r\npulse를 얻을 수 있음. 실험 과정에서 이 8 by 5000으로 가공된 데이터를 한 묶음으\r\n로서 처리함.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 17,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "12\r\n¡ kernel 크기 최적화 방법\r\nŸ 심방이 미세하게 비정상적인 전기적 신호에 의해 떨리면서 발생하는 AF 는 심전도\r\n에서 P-파의 불규칙성으로 표현되며, 심전도에서의 QRS 는 심실의 탈분극을 나타\r\n내는 것이므로 AF발생 유무에 있어서 가장 차이가 유력할 구간으로 QRS complex\r\n가 나타나기 이전의 P-wave 부근에서의 신호로 가정함. 이러한 정보를 반영하여,\r\nQ지점을 기점으로 점진적으로 P-wave구간을 포함하는 방향으로 구간 크기를 늘려\r\n가면서 실험을 수행함. 즉, 20-180 샘플의 범위 내에서 10 샘플씩 늘려가면서 구간\r\n길이(sequence length)로 지정하여 실험하여 분류 정확도의 추이를 관측함.\r\n[그림 12] 정상 동율동에서 발작성 심방세동을 예측하기위한 적정 구간 탐지를 위한 실험.\r\nŸ 진단모델은 Sequential data를 처리하는 데에 있어 최근 각광받는 Recurrent Neural\r\nNetwork\r\n(RNN)을 기반으로 둠. RNN은 시간을 기준으로 연속적으로 발생하는 신호를 순차적으로\r\n입력 받으며, 각 시각마다 압축한 정보를 전달하여 다음의 time-step에서의 연산에 연결되\r\n는 구조임. ECG는 시간 순서대로 측정된 일련의 신호이고, 각 구간은 심방, 심실의 작용으\r\n로 인한 output이므로 연속적인 데이터의 관점에서 접근할 수 있음. 시간 축에서의 관계를\r\n긴밀하게 관측해내면 이는 심장의 물리적인 요소와 직결되며, RNN을 통하여 인접한 시간\r\n에서의 관계만 포착하는 것이 아니라, 입력신호를 전반적으로 고려하게 됨. Ÿ 진단모델에 적용한 RNN을 이용하여 추가로 고려한 사항은 다음과 같음. 첫째로 시간\r\n축의 흐름을 양방향으로 고려하기 위해 forward 및 backward states를 동시에 구성함.\r\n이러한 구조를 이중으로 중첩하고, 1차적으로 얻은 code를 다시 양방향으로 학습하여보\r\n다 고수준의 특징(high level feature)을 학습할 수 있게 모델을 구성함. 입력 sequence\r\n가 입력되는 첫 layer의 forward와 backward states는 각각 50개이다. 첫번째레이어에\r\n서 생성된 출력은 네트워크를 거쳐 최종적으로 100개의 은닉상태(hidden state) 정보를\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 18,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "13\r\n생성하게 됨. 이 code가 second layer의 input으로 학습되며, 역시 한 방향당 10개의\r\nstates로 구성된다. 결과적으로, Bidirectional RNN의 output은 20개의 code이고, 두 그\r\n룹간의 차이를 판별하기 위한 정보가 함축다. 이렇게 생성된code들은 classification\r\nlayer를 거쳐 최종 분류를 수행함. Ÿ 본 연구에서는 RNN기반으로 각 time-step간에 저장하는 다른 종류의 memory block을\r\n사용하는 LSTM과GRU에 대해 실험하였다. Long Short-Term Memory(LSTM)[3]는\r\nsequence data의 정보 중에서 필요한 정보를 적절히 기억하거나 잊을 수 있어, 두 그룹\r\n의 분별에 있어 의미 있는 정보를 잘 판단하여 축적할 수 있다. LSTM block은 input,\r\nforget, output 3가지의 gate로 구성되어 현재 time-step까지의 압축된 정보를 계산한다.\r\n또 다른 memory block은 [4]에 의해 제안된Gated Recurrent Unit(GRU)으로, LSTM의\r\n장점을 살리면서 간소화된 구조임.\r\n¡ 후처리 방법\r\nŸ 진단모델뿐 아니라 성능 검증을 위한 정확한 지표 또한 중요한 요소임. 앞서 사용한 진\r\n단모델은 pulse-by-pulse로 이진분류(binary classification)을 수행하나, 본 후처리 단계\r\n에서는 한 case내에서도 PAF-normal로 분류되는 pulse의 개수가 차이를 보이므로, 최\r\n종적인 분류를 위해서는 통계적인 분석방법을 이용하여 최종적인 PAF-normal 로 진단\r\n하기 위해 PAF-normal로 검출되는 pulse의 최적 개수를 설정함.\r\n¡ 최적 구간 탐지와 연속신호의 1계 미분에 다른 성능비교\r\nŸ 그림 14 (a)는 학습에 사용한 신호의 길이를 R-peak로부터 시작하여 Q방향으로 20\r\n부터 180까지 늘려가면서 실험한 결과이며, (b)는 개발한 모델의 hyper parameter와\r\n학습 조건에 대한 정보임. 전처리가 완료된 신호에 1계 미분을 적용한 신호를 진단\r\n모델의 입력으로 사용함. 그림 9는 제시한 1-계 미분값을 이용했을 때의 분류 정확\r\n도임.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 19,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "14\r\n[그림 13] 입력신호의 1계 미분값을 이용한 분류 정확도\r\n<특허 출원 및 등록 : KR05017, 2018.12, 피앤티 특허 “딥러닝을 이용한 정상동율동 심전도 상태\r\n에서의 발작성 심방세동 예측방법 ”> Patent No. 10-2156087 특허 등록 : 2020 9. 9\r\nü 본 연구진은 본대학교 심장내과 전문의와 공과대학 교수진들이 공동연구하여 심전도\r\nraw data를 텍스트 파일로 추출 변환 후 인공지능 딥러닝 RNN(Recurrent Neural\r\nNetwork) 기법을 이용하여 예측 프로그램을 설계 및 검증 시연하여 특허 출원하였음.\r\n총 2500 여 케이스의 심전도를 심장내과 전문의의 검증하에 분석하여 인공지능을 이용\r\n하여 분석하였으며 이는 예측도 80% 정도의 우수한 결과를 보임 (그림 5). 본 연구를\r\n위하여 신경과 교수진의 제공으로 ESUS 환자에서 심전도 raw data 를 추출하여 AI 분\r\n석 프로그램에 따른 부정맥 예측도를 pilot 분석 한 결과 N수가 적어 아직 p value 에\r\n는 도달하지는 못하였으나 KM curve 분석에서 보듯이 AI 예측도에 따른 예후 차이를\r\n보임. 따라서 randomization study 와 환자수 enroll 및 ILR등의 본 연구를 진행하는 것\r\n이 매우 큰 의미가 있을 것으로 어렵지 않게 예측됨 (그림 11).\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 20,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "15\r\n[그림 14] 본 연구진에 의해 개발된 인공지능 심방세동 예측도 프로그램 성능 (AI deep learning\r\nalgorithm Performance to predict PAF)\r\n[그림 15] Optimal section detection for AF prediction during NSR\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 21,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "16\r\n[그림 17] 흐름도 (Inha AI ECG algorithm system to detect PAF)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 22,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "17\r\n¡ ESUS 환자에서 인공지능 심전도 분석 프로그램(AI EKG analysis program)을\r\n이용하여 부정맥 detection 하는 것과 이후 삽입형 사건 기록기 (ILR) 시술을 하는\r\n것을 토대로 아래와 같은 study flow 대로 연구 추진을 진행함. Ÿ ESUS 환자에서 인공지능 심전도 분석 프로그램(AI EKG analysis program)을 이\r\n용하여 부정맥 detection 하는 것과 이후 삽입형 사건 기록기 (ILR) 시술을 하는 것\r\n을 토대로 아래와 같은 study flow 대로 연구 추진을 진행함.\r\n[그림 16] ESUS환자에서 심전도 AI 연구 흐름도(study flow chart)\r\nü ESUS 로 진단 받은 환자들에게서 환자동의를 구한뒤 1:1 randomization 하여 인공지능\r\n심전도 분석 프로그램을 이용하여 신경과 의사가 management 한 그룹과 홀터등을 이\r\n용한 고식적 방법으로 management 한 그룹으로 나누어 primary outcome 은 ILR\r\nimplantation 율과 심방세동 등의 발견율 및 재발, 뇌경색의 재발 및 환자의 삶의 질 등\r\n을 추적 관찰하여 분석함. 양군의 Kaplan curve 분석 및 cox logistic analysis 를 통해\r\n결과를 분석하여 인공지능 프로그램이 신경과 치료에 얼마나 영향을 미쳤는지 확인.\r\nILR의 삽입은 현재 급여기준에 따라 원칙적으로 진행함. ILR 의 삽입은 아래 그림과 같\r\n이 진행하며 3-6개월마다 ILR분석을 통해 확인 본 연구의 진행 전략은 아래와 같음.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 23,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "18\r\n[그림 17] AI 예측도에 따른 ESUS 환자의 Kaplan curve 분석\r\n(본 대학교 심장내과/신경과 공동 연구 진행 pilot study 결과)\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 24,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "19\r\n 2-2. 대표적 성과 (총 5개 이내)\r\n 특허 성과\r\n번\r\n호\r\n특허명 등록국가 등록번호 등록일\r\n(연월) 출원자명 발명자명 비고\r\n1\r\n딥러닝을 이용한 정상동율동 \r\n심전도 상태에서의 발작성 심\r\n방세동 예측방법 \r\nPCT 2019.12. 인하대\r\n산단 \r\n이상철, 최원익, 김대혁, 백용수\r\nPCT/K\r\nR2019/\r\n018561\r\n \r\n 논문 성과\r\n번\r\n호\r\n논문제목 저널명 ISSN 게재\r\n년월\r\n역할\r\n(제1,교신, 공동)\r\n비고\r\n1\r\nAtrial Substrate Underlies\r\nthe Recurrence after\r\nCatheter Ablation in Patients\r\nwith Atrial Fibrillation\r\nJournal of\r\nClinical\r\nMedicine\r\n2077-038\r\n3\r\n2020.9 제 1저자\r\n \r\n 기타성과\r\n번호 기타 실적내용\r\n1 2020 대한 부정맥 학회 구연 발표\r\n2 2020 대한 심장학회 구연 발표\r\n3 2020 유럽 심장학회 구연 발표\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 25,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "20\r\n3. 목표 달성도 및 관련 분야 기여도\r\n 3-1. 목표\r\n◦ 딥러닝 기법을 이용한 12리드 정상 심전도에서 발작성 심방세동(PAF, paroxysmal atrial\r\nfibrillation)의 예측 모델 개발 (특허 출원 2건)\r\n◦ 딥러닝 기법을 이용하여 12 리드 심전도에서의 지속성 심방세동(persistent AF)과 영구형\r\n심방세동(permanent AF)을 구분(classification)하고 치료 반응성을 예측 모델 프로그램 개발\r\n◦ 12-리드 심전도 상에 정상 동율동을 나타낸 원인불명 뇌졸중(cryptogenic stroke)환자에서\r\n딥러닝 알고리즘을 통해 뇌졸중 발생 및 관련 사망률 간의 관련성 확인 및 딥러닝 예측 모델\r\n설계\r\n◦ 12-리드 심전도 신호의 파형 분석을 통해 심방세동 환자에 대한 항부정맥 약제 및 전극도자\r\n절제술의 치료 반응성 예측 모델을 딥러닝 기법을 이용하여 설계\r\n◦ 심방세동 환자 기본 의학 정보와 딥러닝 분석을 통한 12-리드 심전도의 융합 데이터\r\n인프라를 이용하여 치료 반응 예측 딥러닝 알고리즘 개발\r\n◦ 디지털 분석된 12리드 심전도(ECG, electrocardiogram)에서 인공지능 딥러닝 기법(Deep\r\nNeural Network)을 이용하여 정상 동율동 (NSR, normal sinus rhtyhm)상태에서 심방세동\r\n(AF, atrial fibrillation) 및 치명적 합병증을 예측하고 실제 임상 진료에서 상업화·실용화\r\n할 수 있는 예측 모델 프로그램의 개발\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 26,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "21\r\n 3-2. 목표 달성여부\r\n (1) 연차, 단계 목표 달성도 \r\n구분 년도 세부\r\n연구목표\r\n세부\r\n연구개발\r\n내용 \r\n평가목표 \r\n및 착안점\r\n가중치\r\n(연구비)\r\n달성도\r\n(%)\r\n1\r\n차\r\n년\r\n도\r\n2019\r\n심전도 진단장비로부터 \r\n정상인의 심전도와\r\n발작성 심방세동 \r\n환자에서의 정상 동율동 \r\n심전도 raw data 확보 \r\n및 디지털 정보화 작업\r\n정상인의 동율동 \r\n심전도(Real normal ECG) \r\n와 발작성 심방세동 \r\n환자에서의 정상 동율동 \r\n심전도 (PAF normal ECG) \r\n데이터 전처리 개발 \r\nŸ 정상 심전도 및 발작성 \r\n심방세동환자의 심전도 \r\n확보 건수\r\nŸ 정상 심전도와 발작성 \r\n심방세동의 정상 심전도 \r\n분별 기법 개발 \r\n50%\r\n(25,000) 100%\r\nECG 파형 전처리 기법 \r\n개발\r\nŸ 심방세동환자의 합병증 \r\n심전도 확보 건수\r\n50%\r\n(25,000) 100%\r\nData augmentation 기법 \r\n개발\r\n2\r\n차\r\n년\r\n도\r\n2020\r\nReal Normal ECG 와 \r\nPAF normal \r\nECG 의 \r\nCNN & RNN 분석 \r\n프로그램 개발 및 검증 \r\nMFCC 또는 Mel \r\nspectrogram 기법을 \r\n사용한 frequency domain \r\n변환 개발 \r\nŸ 딥러닝 기법을 이용한 \r\n심전도 분석의 유효성 \r\n확인(validation) \r\n50%\r\n(50,000) 100%\r\n입력 구간 크기 최적화 \r\n방법 개발 및 kernel \r\n크기 최적화\r\nBi-directional LSRM을 \r\n이용한 진단 모델 개발 \r\nŸ Real normal 과 PAF \r\nnormal 의 확률 분포함수 \r\n계\r\n50%\r\n(50,000) 100%\r\n3\r\n차\r\n년\r\n도\r\n2021\r\nCNN 과 RNN을 이용한 \r\n뇌경색을 예측할 수 \r\n있는 PAF normal 의 \r\n구분 \r\n발작성 \r\n심방세동환자에서의 예측 \r\n알고리즘 성능 향상\r\nŸ 발작성 심방세동 \r\n환자에의 임상 적용 \r\n50%\r\n(30,000) 60%\r\nCNN 과 RNN을 이용한 \r\n심부전을 예측할 수 \r\n있는 PAF normal 의 \r\n구분 \r\n원인 미상 \r\n뇌경색 환자\r\n(cryptogenic \r\nstroke)에서의 PAF \r\nnormal 예측후 임상 \r\n결과와 확인\r\nŸ 원인미상 뇌경색 환자의 \r\n정상 심전도 디지털화 \r\n확보 건수 및 유효화 \r\n검증 작업 \r\n50%\r\n(30,000) 70%\r\n4\r\n차\r\n년\r\n도\r\n2022\r\nDeep learning algorithm \r\n을 이용한 심전도 \r\n기계의 사용 검증 및 \r\n예측 모델 설계\r\n개발 프로그램을 심전도 \r\n기계, 휴대용 심전도 기계 \r\n등에 적용\r\nŸ 의료기기 적용 및 실용화 50%\r\n(30,000) 30%\r\nŸ 건강 정보와 융합하여 \r\n정보 호수 (data lake) \r\n시스템 기반 확보\r\n50%\r\n(30,000) 60%\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 27,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "22\r\n (2) 최종 목표 달성도\r\n구분 년도 세부\r\n연구목표\r\n세부\r\n연구개발내용 \r\n평가목표 \r\n및 착안점\r\n가중치\r\n(연구비)\r\n달성도\r\n(%)\r\n최종평가 2022\r\n정상 동율동 상태에서의 \r\n발작성 심방세동 예측 \r\n딥러닝 알고리즘 앱 개발 관련 앱의 개발과 \r\n정확도 성능 향상 \r\n(90%)\r\n50%\r\n(30,000) 80%\r\n딥러닝 알고리즘의 임상 \r\n적용\r\n원인 미상 \r\n뇌경색 환자\r\n(cryptogenic \r\nstroke)에서의 PAF \r\nnormal 예측 모델 개발\r\n 뇌경색 예측 심전도 \r\n알고리즘 개발 뇌경색 환자의 \r\n삽입형 사건기록기 \r\n(ILR) 삽입 가이드 \r\n50%\r\n(30,000) 60%\r\n딥러닝 알고리즘의 임상 \r\n적용\r\n 3-3. 목표 미달성 시 원인(사유) 및 차후대책(후속연구의 필요성 등)\r\n정상 동율동 상태에서의 발작성 심방세동의 가능성 예측 딥러닝 프로그램의 성능향상이 상업\r\n화에 관건임. 전체 정확도를 90% 이상 높이는 것이 목표임. 이를 부정맥 환자와 심방세동이\r\n원인으로 예상되는 원인을 알 수 없는 뇌경색 환자에게 임상 적용하는 것이 목표임. 이러한 목\r\n표 미달성시 예상되는 원인은 퀄리티가 높은 input 데이터의 양과 여러 인공지능 기법을 이용\r\n한 성능향상이 문제임. 따라서 후속연구는 양과 질 모두를 담보하는 데이터 확보와\r\nperformance 향상을 위한 인공지능 알고리즘 개발의 필요성이 있을수 있음.\r\n4. 연구개발성과의 활용 계획 등\r\n◦ 실제 의료 현장에서 본 연구의 프로그램을 이용하여 심전도의 정밀한 심방세동 예측 및\r\n진단이 가능해져 치료 계획에 큰 도움을 줄 뿐아니라 휴대용 손목 심전도 및 헬스케어\r\n의료기구 등에 본 딥러닝 프로그램을 삽입하여 개인별 맞춤형 치료계획 가능\r\n◦ 많은 심전도의 빅데이터 분석이 빠른시간 가능하게 되어 보다 정밀한 심방세동의 진단이\r\n가능해져 의료 현장에 큰 파급력이 예상된다. 예를 들면 휴대용 손목 심전도 등에 딥러닝\r\n프로그램을 삽입하여 개인별 실시간 분석이 가능\r\n◦ 딥러닝 기반의 의료 헬스케어 시장 규모가 엄청난 성장세를 이뤄 또 다른 경제파급 효과를\r\n낼 수 있다. 현재 인공지능 헬스케어 세계시장 규모는 약 800만 달러로 추정되며 향후 크게\r\n성장할 것으로 예상되며 심전도 딥러닝 분석 프로그래밍이 또 하나의 시장을 이룰 것으로 예상\r\n◦ 국민 건강 검진에서 심전도가 포함이 된다면 본 연구에 의해 프로그래밍된 딥러닝 시스템은\r\n심방세동 예측인자로서의 강력한 non-invasive tool 이 될 것 이며 이는 개인 맞춤형 치료가\r\n가능하게 도와줘 심방세동으로 인한 사회 경제적 의료비용의 감축을 가져올 것으로 기대\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 28,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "23\r\n붙임. 참고문헌\r\n1) Lee H, Kim TH, Baek YS, Uhm JS, Pak HN, Lee MH and Joung B. The Trends of Atrial \r\nFibrillation-Related Hospital Visit and Cost, Treatment Pattern and Mortality in Korea: \r\n10-Year Nationwide Sample Cohort Data. Korean Circ J. 2017;47:56-64.\r\n2) Chugh SS, Havmoeller R, Narayanan K, Singh D, Rienstra M, Benjamin EJ, Gillum RF, Kim \r\nYH, McAnulty JH, Jr., Zheng ZJ, Forouzanfar MH, Naghavi M, Mensah GA, Ezzati M and \r\nMurray CJ. Worldwide epidemiology of atrial fibrillation: a Global Burden of Disease 2010 \r\nStudy. Circulation. 2014;129:837-47.\r\n3) Go AS, Hylek EM, Phillips KA, Chang Y, Henault LE, Selby JV and Singer DE. Prevalence \r\nof diagnosed atrial fibrillation in adults: national implications for rhythm management and \r\nstroke prevention: the AnTicoagulation and Risk Factors in Atrial Fibrillation (ATRIA) \r\nStudy. JAMA. 2001;285:2370-5.\r\n4) Kirchhof P, Benussi S, Kotecha D, Ahlsson A, Atar D, Casadei B, Castella M, Diener HC, \r\nHeidbuchel H, Hendriks J, Hindricks G, Manolis AS, Oldgren J, Popescu BA, Schotten U, Van \r\nPutte B, Vardas P and Group ESCSD. 2016 ESC Guidelines for the management of atrial \r\nfibrillation developed in collaboration with EACTS. Eur Heart J. 2016;37:2893-2962.\r\n5) Gillis AM and Rose MS. Temporal patterns of paroxysmal atrial fibrillation following DDDR \r\npacemaker implantation. Am J Cardiol. 2000;85:1445-50.\r\n6) Heijman J, Voigt N, Nattel S and Dobrev D. Cellular and molecular electrophysiology of \r\natrial fibrillation initiation, maintenance, and progression. Circ Res. 2014;114:1483-99.\r\n7) Kirchhof P, Bax J, Blomstrom-Lundquist C, Calkins H, Camm AJ, Cappato R, Cosio F, Crijns \r\nH, Diener HC, Goette A, Israel CW, Kuck KH, Lip GY, Nattel S, Page RL, Ravens U, \r\nSchotten U, Steinbeck G, Vardas P, Waldo A, Wegscheider K, Willems S and Breithardt G. \r\nEarly and comprehensive management of atrial fibrillation: executive summary of the \r\nproceedings from the 2nd AFNET-EHRA consensus conference 'research perspectives in \r\nAF'. Eur Heart J. 2009;30:2969-77c.\r\n8) January CT, Wann LS, Alpert JS, Calkins H, Cigarroa JE, Cleveland JC, Jr., Conti JB, Ellinor \r\nPT, Ezekowitz MD, Field ME, Murray KT, Sacco RL, Stevenson WG, Tchou PJ, Tracy CM, \r\nYancy CW and Members AATF. 2014 AHA/ACC/HRS guideline for the management of \r\npatients with atrial fibrillation: a report of the American College of Cardiology/American \r\nHeart Association Task Force on practice guidelines and the Heart Rhythm Society. \r\nCirculation. 2014;130:e199-267.\r\n9) Terasawa T, Balk EM, Chung M, Garlitski AC, Alsheikh-Ali AA, Lau J and Ip S. Systematic \r\nreview: comparative effectiveness of radiofrequency catheter ablation for atrial fibrillation. \r\nAnn Intern Med. 2009;151:191-202.\r\n10) Wijffels MC, Kirchhof CJ, Dorland R and Allessie MA. Atrial fibrillation begets atrial \r\nfibrillation. A study in awake chronically instrumented goats. Circulation. 1995;92:1954-68.\r\n11) Blau, Ira Howard, Hye Jin Hwang, Chung-Keun Lee, Kwang Woo Ahn, Alexis Visotcky, \r\nDavid Ritchie, Mona Lalehzari Krawchuk Linsey, Sungsoo Kim, Byungil Choi, Moonhyung \r\nLee, \"Analysis of Fibrillatory waves by Fourier Transform suggests Cut-off Values for \r\nDifferentiating Paroxysmal, Persistent, and Chronic Atrial Fibrillation.” Journal of the \r\nAmerican College of Cardiology 67, no. 13 (2016): 746.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  },
+  {
+    "pdf_page": 29,
+    "width": 595.0,
+    "height": 841.0,
+    "text": "24\r\n12) Lankveld T, de Vos CB, Limantoro I, Zeemering S, Dudink E, Crijns HJ and Schotten U. \r\nSystematic analysis of ECG predictors of sinus rhythm maintenance after electrical \r\ncardioversion for persistent atrial fibrillation. Heart Rhythm. 2016;13:1020-7.\r\n13) Lankveld T, Zeemering S, Scherr D, Kuklik P, Hoffmann BA, Willems S, Pieske B, \r\nHaissaguerre M, Jais P, Crijns HJ and Schotten U. Atrial Fibrillation Complexity Parameters \r\nDerived From Surface ECGs Predict Procedural Outcome and Long-Term Follow-Up of \r\nStepwise Catheter Ablation for Atrial Fibrillation. Circ Arrhythm Electrophysiol. 2016;9:e003354.\r\n14) Zarzoso V, Latcu DG, Hidalgo-Munoz AR, Meo M, Meste O, Popescu I and Saoudi N. \r\nNon-invasive prediction of catheter ablation outcome in persistent atrial fibrillation by \r\nfibrillatory wave amplitude computation in multiple electrocardiogram leads. Arch Cardiovasc \r\nDis. 2016;109:679-688.\r\n15) Zeemering S, Lankveld TAR, Bonizzi P, Limantoro I, Bekkers S, Crijns H and Schotten U. \r\nThe electrocardiogram as a predictor of successful pharmacological cardioversion and \r\nprogression of atrial fibrillation. Europace. 2017.\r\n1) Yoshua Bengio, Pascal Lamblin, Dan Popovici, Hugo Larochelle, ”Greedy Layer-Wise Training \r\nof Deep Networks”, bengioy,lamblinp,popovicd,larocheh@iro.umontreal.ca\r\n1) Rish, Irina. \"An empirical study of the naive Bayes classifier.\" IJCAI 2001 workshop on \r\nempirical methods in artificial intelligence. Vol. 3. No. 22. IBM New York, 2001\r\n2) R Popa, Teodoru& C Mocanu, Andrei. (2018). Medical Data Storage, Visualization and \r\nInterpretation: A Case Study Using a Proprietary ECG XML Format.\r\n3) J. Pan and W. J. Tompkins, \"A Real-Time QRS Detection Algorithm,\" in IEEE Transactions \r\non Biomedical Engineering, vol. BME-32, no. 3, pp. 230-236, March 1985.\r\n4) Sepp Hochreiter and Jürgen Schmidhuber. 1997. Long Short-Term Memory. Neural Comput. \r\n9, 8 (November 1997), 1735-1780.\r\n5) Chung, Junyoung&Gulcehre, Caglar& Cho, KyungHyun&Bengio, Y. (2014). Empirical \r\nEvaluation of Gated Recurrent Neural Networks on Sequence Modeling.\r\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다."
+  }
+]

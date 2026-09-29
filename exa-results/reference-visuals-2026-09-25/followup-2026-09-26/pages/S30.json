@@ -1,0 +1,5857 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 210,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 13,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 87,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 1,
+      "5": 1,
+      "1": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 294,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 18,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 87,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 1,
+      "5": 1,
+      "1": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 1041,
+    "heading_candidates": [
+      "1. 사업 추진배경"
+    ],
+    "section_context_candidate": "1. 사업 추진배경",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 47,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1046,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 사업 추진배경",
+    "prior_heading_candidate": {
+      "text": "1. 사업 추진배경",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "지구온난화 강도",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 또한, 최근 국내에서는 단주기 강수 변동 강화로 인해 폭염과 극한호\n우가 10일 이내에 번갈아 발생하는 아열대성 기후로 전환됨",
+        "after": "[그림 1-1] 지구 온난화 변화 현황\n[단주기 강수변동 강호니\n* 출처 : 함유근 외 5명, “Anthropogenic fingerprints in daily precipitation\nrevealed by deep lea rning:, Nature, Aug., 2023",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "강수 변동성 변화",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 또한, 최근 국내에서는 단주기 강수 변동 강화로 인해 폭염과 극한호\n우가 10일 이내에 번갈아 발생하는 아열대성 기후로 전환됨",
+        "after": "[그림 1-1] 지구 온난화 변화 현황\n[단주기 강수변동 강호니\n* 출처 : 함유근 외 5명, “Anthropogenic fingerprints in daily precipitation\nrevealed by deep lea rning:, Nature, Aug., 2023",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "[그림 1-1] 지구 온난화 변화 현황",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 또한, 최근 국내에서는 단주기 강수 변동 강화로 인해 폭염과 극한호\n우가 10일 이내에 번갈아 발생하는 아열대성 기후로 전환됨\n[지구온난화 강도] [강수 변동성 변화]",
+        "after": "[단주기 강수변동 강호니\n* 출처 : 함유근 외 5명, “Anthropogenic fingerprints in daily precipitation\nrevealed by deep lea rning:, Nature, Aug., 2023\n- 국내 '22년 폭염 대책기간내 온열질환자는 1,564명, '23년은 전년대비",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[표 1-1] 최근 연도별 폭염 정보",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "revealed by deep lea rning:, Nature, Aug., 2023\n- 국내 '22년 폭염 대책기간내 온열질환자는 1,564명, '23년은 전년대비\n2배 가까운 증가가 예상되는 등 온열질환자는 매년 증가 추세\n※폭염에 의한 온 열질환은 주로 노년층 및 경제적 취약계층에서 집중적으로 발생",
+        "after": "구 분 2019년 2020년 2021년 2022년 2023년(5.20~9.7)\n폭염일수(일) 13.1 7.7 11.8 10.6 14.2\n온열질환자(명) 1,841 1,078 1,376 1,564 2,755\n사망자(명) 11 9 20 9 32",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 86,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.1,
+          630.74,
+          370.54,
+          703.22
+        ],
+        "page_area_fraction": 0.0445
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          402.25,
+          635.29,
+          507.61,
+          708.97
+        ],
+        "page_area_fraction": 0.0155
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1099,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 사업 추진배경",
+    "prior_heading_candidate": {
+      "text": "1. 사업 추진배경",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1-2] 국내 초고층 건축물 현황",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "서 a 인천 청기도 m\n36 24 20 9\n초고충 건축물 충별 규모 순위\n(生고총 건흑■: 50S 이상 生는 200m 0(상인 건츄醫 )",
+        "after": "* 출처 : 2018 한 국 초 고 층 도 시 건 축 학 회 컨퍼런스\n□ 미래도시는 공간 및 시설간 연계 및 종속성이 중가하여 재난이 복합화\n되고 대형화되므로 예측 • 예방 중심의 재난안전관리 기술 개발 필요\n〇 주거 •사무 •위락 등 클라우드 인프라가 단일면적에 집중 건설되고 해",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 1-3] 기 상 •사 회 환 경 변화에 따른 재난 복합화 현상",
+        "line_index": 51,
+        "toc_like": false,
+        "before": "재난 발생 가눔성 증대\n• 복합재난 발생 빈번\n• 재난의 연쇄적 반응으로\n공둥 대웅 정실",
+        "after": "- in -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 101,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.7,
+          608.15,
+          437.78,
+          769.67
+        ],
+        "page_area_fraction": 0.0903
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.7,
+          113.06,
+          471.62,
+          238.82
+        ],
+        "page_area_fraction": 0.0893
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 1082,
+    "heading_candidates": [
+      "2. 문제 해결 목표"
+    ],
+    "section_context_candidate": "2. 문제 해결 목표",
+    "prior_heading_candidate": {
+      "text": "1. 사업 추진배경",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 45,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 939,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 문제 해결 목표",
+    "prior_heading_candidate": {
+      "text": "2. 문제 해결 목표",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 56,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.25,
+          842.04
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          171.0,
+          588.61,
+          312.84,
+          760.69
+        ],
+        "page_area_fraction": 0.0487
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 1056,
+    "heading_candidates": [
+      "4. 사업 성과 및 부처별 목표",
+      "□ 사업 성과 목표"
+    ],
+    "section_context_candidate": "4. 사업 성과 및 부처별 목표",
+    "prior_heading_candidate": {
+      "text": "2. 문제 해결 목표",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 68,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 753,
+    "heading_candidates": [
+      "□ 핵심 기술 단계별 목표"
+    ],
+    "section_context_candidate": "□ 핵심 기술 단계별 목표",
+    "prior_heading_candidate": {
+      "text": "□ 사업 성과 목표",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 30,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          126.25,
+          488.14,
+          493.21,
+          713.02
+        ],
+        "page_area_fraction": 0.1647
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1546,
+    "heading_candidates": [
+      "□ 부처별 성과 목표"
+    ],
+    "section_context_candidate": "□ 부처별 성과 목표",
+    "prior_heading_candidate": {
+      "text": "□ 핵심 기술 단계별 목표",
+      "pdf_page": 11
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 154,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          109.9,
+          664.79,
+          485.74,
+          770.87
+        ],
+        "page_area_fraction": 0.0796
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 809,
+    "heading_candidates": [
+      "5. 사업내용",
+      "□ (기술동향》미래도시 복합재난관리 디지털플랫폼 기술 동향 조사"
+    ],
+    "section_context_candidate": "5. 사업내용",
+    "prior_heading_candidate": {
+      "text": "□ 부처별 성과 목표",
+      "pdf_page": 12
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 26,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 894,
+    "heading_candidates": [
+      "□ (추진체계》미래도시 복합재난관리 디지털플랫폼 전문가 그룹 조직 및 운영"
+    ],
+    "section_context_candidate": "□ (추진체계》미래도시 복합재난관리 디지털플랫폼 전문가 그룹 조직 및 운영",
+    "prior_heading_candidate": {
+      "text": "□ (기술동향》미래도시 복합재난관리 디지털플랫폼 기술 동향 조사",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 32,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1653,
+    "heading_candidates": [
+      "제1장 다부처공동R&D 추진 필요성 .................................................... 1",
+      "제 1절 사업 추진배경 및 필요성........................................................................1",
+      "제2절 국내외 관련 정책 •기술•산업 • 사업 동향................................................ 5",
+      "제3절 다부처공동R&D 추진 타당성 .................................................................25",
+      "제 2절 성과목표 및 지표(공통/개별).................................................................38",
+      "제3절 사업내용•……",
+      "제4장 성과 활용방안 및 기 대 효 과 ...............................................................88"
+    ],
+    "section_context_candidate": "제1장 다부처공동R&D 추진 필요성 .................................................... 1",
+    "prior_heading_candidate": {
+      "text": "□ (추진체계》미래도시 복합재난관리 디지털플랫폼 전문가 그룹 조직 및 운영",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 41,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1805,
+    "heading_candidates": [],
+    "section_context_candidate": "제4장 성과 활용방안 및 기 대 효 과 ...............................................................88",
+    "prior_heading_candidate": {
+      "text": "제4장 성과 활용방안 및 기 대 효 과 ...............................................................88",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1-1] 지구 온난화 변화 현황 .............................................................2",
+        "line_index": 1,
+        "toc_like": true,
+        "before": "그 림 목 차",
+        "after": "[그림 국내초고층 건축물 현황 ............................................................ 3\n[그림 기상•사회환경 변화에 따른 재난 복합화 현상 ...................... 3\n[그림 1나] 3기 신도시 스마트시티 추진 방향 .............................................10\n[그림 국내 공간정보의 산업규모 주요현황좌) 및 기술 글로벌 위치(우) •……15",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 1나] 3기 신도시 스마트시티 추진 방향 .............................................10",
+        "line_index": 4,
+        "toc_like": true,
+        "before": "그 림 목 차\n[그림 1-1] 지구 온난화 변화 현황 .............................................................2\n[그림 국내초고층 건축물 현황 ............................................................ 3\n[그림 기상•사회환경 변화에 따른 재난 복합화 현상 ...................... 3",
+        "after": "[그림 국내 공간정보의 산업규모 주요현황좌) 및 기술 글로벌 위치(우) •……15\n[그림 기존 사업과의 차별화 전략 및 연계 방안 …\n[그림 국내 도심지 복합재난 확산 연계도 ...........................................28\n[그림 주관•참여부처 업무 연계도 ......................................................31",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 2-3] 단계별 추진전략 목표 .................................................................40",
+        "line_index": 11,
+        "toc_like": true,
+        "before": "[그림 국내 도심지 복합재난 확산 연계도 ...........................................28\n[그림 주관•참여부처 업무 연계도 ......................................................31\n[그림 미래도시 복합재난 발생 및 피해 확산(예시) ......................... 33\n[그림 사업성과 목표 개요도 …",
+        "after": "[그림 핵심기술 단계별 목표 연계 ........................................................41\n[그림 연구개발 목표 및 내용 ............................................................... 48\n[그림 과기부 연구개발 목표 .................................................................49\n[그림 2-7] 국토부 연구개발 목표 ................................................................. 56",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 2-7] 국토부 연구개발 목표 ................................................................. 56",
+        "line_index": 15,
+        "toc_like": true,
+        "before": "[그림 2-3] 단계별 추진전략 목표 .................................................................40\n[그림 핵심기술 단계별 목표 연계 ........................................................41\n[그림 연구개발 목표 및 내용 ............................................................... 48\n[그림 과기부 연구개발 목표 .................................................................49",
+        "after": "[그림 산업부 연구개발 목표 ................................................................. 63\n[그림 재난센싱 및 확산 방지용 PnP 구조 및 자체 충전식 센서 …•…射\n[그림 센싱 데이터 외부 무선 전송 및 모니터링 기술 .....................68\n[그림 엣지 컴퓨팅 기술 적용 인공지능형 데이터 분석 및 처리 기술 ..........68",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 76,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 679,
+    "heading_candidates": [],
+    "section_context_candidate": "제4장 성과 활용방안 및 기 대 효 과 ...............................................................88",
+    "prior_heading_candidate": {
+      "text": "제4장 성과 활용방안 및 기 대 효 과 ...............................................................88",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 1-1] 최근 연도별 폭염 정 보 ........................................................................2",
+        "line_index": 1,
+        "toc_like": true,
+        "before": "표 목 차",
+        "after": "[표 기술 상대적 수준 및 격 차 ................................................................ 13\n[표 1-3] 재난안전 및 스마트시티 국내외 규 모 ............................................. 14\n[표 국내외 재난안전 및 스마트시티 분야 주요 기업 동 향 ...................18\n[표 1-5] 스마트시티 기술 설명 ........................................................................20",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[표 1-3] 재난안전 및 스마트시티 국내외 규 모 ............................................. 14",
+        "line_index": 3,
+        "toc_like": true,
+        "before": "표 목 차\n[표 1-1] 최근 연도별 폭염 정 보 ........................................................................2\n[표 기술 상대적 수준 및 격 차 ................................................................ 13",
+        "after": "[표 국내외 재난안전 및 스마트시티 분야 주요 기업 동 향 ...................18\n[표 1-5] 스마트시티 기술 설명 ........................................................................20\n[표 연구과제 수혜대상 기관 및 관련 시스템 ........................................ 38\n[표 부처별 사업내역 및 예 산 .................................................................. 87",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[표 1-5] 스마트시티 기술 설명 ........................................................................20",
+        "line_index": 5,
+        "toc_like": true,
+        "before": "[표 1-1] 최근 연도별 폭염 정 보 ........................................................................2\n[표 기술 상대적 수준 및 격 차 ................................................................ 13\n[표 1-3] 재난안전 및 스마트시티 국내외 규 모 ............................................. 14\n[표 국내외 재난안전 및 스마트시티 분야 주요 기업 동 향 ...................18",
+        "after": "[표 연구과제 수혜대상 기관 및 관련 시스템 ........................................ 38\n[표 부처별 사업내역 및 예 산 .................................................................. 87\n- XIII -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 20,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 87,
+    "heading_candidates": [],
+    "section_context_candidate": "제4장 성과 활용방안 및 기 대 효 과 ...............................................................88",
+    "prior_heading_candidate": {
+      "text": "제4장 성과 활용방안 및 기 대 효 과 ...............................................................88",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 1,
+      "5": 1,
+      "1": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1082,
+    "heading_candidates": [
+      "제1장 다 부 처 공 동 R & D 추진 필요성",
+      "제1절 사업 추진배경 및 필요성",
+      "1. 사업 추진배경"
+    ],
+    "section_context_candidate": "제1장 다 부 처 공 동 R & D 추진 필요성",
+    "prior_heading_candidate": {
+      "text": "제4장 성과 활용방안 및 기 대 효 과 ...............................................................88",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 52,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1043,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 사업 추진배경",
+    "prior_heading_candidate": {
+      "text": "1. 사업 추진배경",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "지구온난화 강도",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 또한, 최근 국내에서는 단주기 강수 변동 강화로 인해 폭염과 극한호\n우가 10일 이내에 번갈아 발생하는 아열대성 기후로 전환됨",
+        "after": "[그림 1-1] 지구 온난화 변화 현황\n* 출처 : 함유근 외 5명, “Anthropogenic fingerprints in daily precipitation\nrevealed by deep lea rning:, Nature, Aug., 2023\n- 국내 '22년 폭염 대책기간내 온열질환자는 1,564명, '23년은 전년대비",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "강수 변동성 변하",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 또한, 최근 국내에서는 단주기 강수 변동 강화로 인해 폭염과 극한호\n우가 10일 이내에 번갈아 발생하는 아열대성 기후로 전환됨",
+        "after": "[그림 1-1] 지구 온난화 변화 현황\n* 출처 : 함유근 외 5명, “Anthropogenic fingerprints in daily precipitation\nrevealed by deep lea rning:, Nature, Aug., 2023\n- 국내 '22년 폭염 대책기간내 온열질환자는 1,564명, '23년은 전년대비",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "[그림 1-1] 지구 온난화 변화 현황",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "- 또한, 최근 국내에서는 단주기 강수 변동 강화로 인해 폭염과 극한호\n우가 10일 이내에 번갈아 발생하는 아열대성 기후로 전환됨\n[지구온난화 강도] [강수 변동성 변하] [단주기 강수변동 강호니",
+        "after": "* 출처 : 함유근 외 5명, “Anthropogenic fingerprints in daily precipitation\nrevealed by deep lea rning:, Nature, Aug., 2023\n- 국내 '22년 폭염 대책기간내 온열질환자는 1,564명, '23년은 전년대비\n2배 가까운 증가가 예상되는 등 온열질환자는 매년 증가 추세",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[표 1-1] 최근 연도별 폭염 정보",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "revealed by deep lea rning:, Nature, Aug., 2023\n- 국내 '22년 폭염 대책기간내 온열질환자는 1,564명, '23년은 전년대비\n2배 가까운 증가가 예상되는 등 온열질환자는 매년 증가 추세\n※폭염에 의한 온 열질환은 주로 노년층 및 경제적 취약계층에서 집중적으로 발생",
+        "after": "구 분 2019년 2020년 2021년 2022년 2023년(5.20~9.7)\n폭염일수(일) 13.1 7.7 11.8 10.6 14.2\n온열질환자(명) 1,841 1,078 1,376 1,564 2,755\n사망자(명) 11 9 20 9 32",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 74,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.1,
+          630.73,
+          507.58,
+          708.97
+        ],
+        "page_area_fraction": 0.0694
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1098,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 사업 추진배경",
+    "prior_heading_candidate": {
+      "text": "1. 사업 추진배경",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1-2] 국내 초고층 건축물 현황",
+        "line_index": 20,
+        "toc_like": false,
+        "before": "서 a 인천 청기도 m\n36 24 20 9\n초고충 건축물 충별 규모 순위\n(生고총 건흑■: 50S 이상 生는 200m 0(상인 건츄醫 )",
+        "after": "* 출처 : 2018 한 국 초 고 층 도 시 건 축 학 회 컨퍼런스\n□ 미래도시는 공간 및 시설간 연계 및 종속성이 중가하여 재난이 복합화\n되고 대형화되므로 예측 • 예방 중심의 재난안전관리 기술 개발 필요\n〇 주거 • 사무 • 위락 등 클라우드 인프라가 단일면적에 집중 건설되고 해당",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 1-3] 기 상 •사 회 환 경 변화에 따른 재난 복합화 현상",
+        "line_index": 51,
+        "toc_like": false,
+        "before": "재난 발생 가눔성 증대\n• 복합재난 발생 빈번\n• 재난의 연쇄적 반응으로\n공둥 대웅 정실",
+        "after": "- 3 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 101,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          157.7,
+          608.15,
+          437.78,
+          769.67
+        ],
+        "page_area_fraction": 0.0903
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          115.7,
+          113.06,
+          471.62,
+          238.82
+        ],
+        "page_area_fraction": 0.0893
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 1059,
+    "heading_candidates": [
+      "2. 사업 추진 필요성"
+    ],
+    "section_context_candidate": "2. 사업 추진 필요성",
+    "prior_heading_candidate": {
+      "text": "1. 사업 추진배경",
+      "pdf_page": 19
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 37,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 967,
+    "heading_candidates": [
+      "□ 상기 문제점을 고려한 미래도시 복합재난을 예방하고 신속하고 효과적인",
+      "□ 미래도시 복합재난관리를 위한 지능형 디지털 플랫폼 개발을 위해서는",
+      "제2절 국내외 관련 정책 •기술•산업 •사업 동향",
+      "1. 국내 • 외 정책 동향"
+    ],
+    "section_context_candidate": "□ 상기 문제점을 고려한 미래도시 복합재난을 예방하고 신속하고 효과적인",
+    "prior_heading_candidate": {
+      "text": "2. 사업 추진 필요성",
+      "pdf_page": 22
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 58,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1138,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 국내 • 외 정책 동향",
+    "prior_heading_candidate": {
+      "text": "1. 국내 • 외 정책 동향",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 111,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 1156,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 국내 • 외 정책 동향",
+    "prior_heading_candidate": {
+      "text": "1. 국내 • 외 정책 동향",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 87,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 1089,
+    "heading_candidates": [
+      "□ (일본) 총무성 해외 전개 행동계획 2025」수립(2022.07.26.)"
+    ],
+    "section_context_candidate": "□ (일본) 총무성 해외 전개 행동계획 2025」수립(2022.07.26.)",
+    "prior_heading_candidate": {
+      "text": "1. 국내 • 외 정책 동향",
+      "pdf_page": 23
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 48,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1057,
+    "heading_candidates": [
+      "□ (국내) 디지털플랫폼 정부 실현계획(디지털플랫폼 정부위원회, 2023.04.14.)",
+      "□ (국내》제4차 국가안전관리 기본계획《에〜안외수립《19.08)",
+      "□ (국내》제4차 재난 및 안전관리 기술개발 종합계획《23~'27) 수립《22.09》",
+      "□ (국내》제4차 과학기술기본계획(18^22) 수립《18)",
+      "□ (국내) 3차 스마트도시 종합계획 (국토교통부 19)"
+    ],
+    "section_context_candidate": "□ (국내) 디지털플랫폼 정부 실현계획(디지털플랫폼 정부위원회, 2023.04.14.)",
+    "prior_heading_candidate": {
+      "text": "□ (일본) 총무성 해외 전개 행동계획 2025」수립(2022.07.26.)",
+      "pdf_page": 26
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 71,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 1327,
+    "heading_candidates": [
+      "2. 국내 • 외 기술개발 및 산업 동향"
+    ],
+    "section_context_candidate": "2. 국내 • 외 기술개발 및 산업 동향",
+    "prior_heading_candidate": {
+      "text": "□ (국내) 3차 스마트도시 종합계획 (국토교통부 19)",
+      "pdf_page": 27
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1-4] 3기 신도시 스마트시티 추진 방향",
+        "line_index": 44,
+        "toc_like": false,
+        "before": "계획 수립의 주도적\n역할 수행을 위한\n대내 •외 협의 창구\n일원화 필요성 증대",
+        "after": "2. 국내 • 외 기술개발 및 산업 동향\n□ 기후위기에 적극적으로 대응하고 지속가능한 발전을 위한 도시 역할 강조\n〇 ，:21년, CDP(탄소정보공개프로젝트)가 발간한 보고서에 따르면, 전 세계 수\n백 개의 도시들이 홍수, 폭염, 가뭄등 심각한 기후 위험에 노출되어 있지",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 82,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1089,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 국내 • 외 기술개발 및 산업 동향",
+    "prior_heading_candidate": {
+      "text": "2. 국내 • 외 기술개발 및 산업 동향",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 36,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 983,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 국내 • 외 기술개발 및 산업 동향",
+    "prior_heading_candidate": {
+      "text": "2. 국내 • 외 기술개발 및 산업 동향",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 42,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 1289,
+    "heading_candidates": [],
+    "section_context_candidate": "2. 국내 • 외 기술개발 및 산업 동향",
+    "prior_heading_candidate": {
+      "text": "2. 국내 • 외 기술개발 및 산업 동향",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 1-2] 기술 상대적 수준 및 격차",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- (재난안전) 미국대비 약 11.7% 상대수준 격차를 가지며, 약 0.9년 기술\n격차를 가짐\n- (스마트시티) 미국 대비 약 8.5% 상대수준 격차를 가지며, 0.7년 기술격\n차를 가짐",
+        "after": "구분\n상대수준(100%) 기술격차 (0 년)\n한국 미국 일본 중국 유럽\n한",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 170,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 1291,
+    "heading_candidates": [
+      "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가"
+    ],
+    "section_context_candidate": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+    "prior_heading_candidate": {
+      "text": "2. 국내 • 외 기술개발 및 산업 동향",
+      "pdf_page": 28
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 1-3] 재난안전 및 스마트시티 국내외 규모",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "(단위: 세계 백만달러, 국내 십억원)\n구분 2018 2019 2020 2021 2022 2023 2024 2025 CAGR\n재난 세계 318,200 363,800 415,900 475,600 543,700 621,600 710,700 812,600 14.30%\n안전 국내 8,395 8,922 9,483 10,079 10,712 11,385 12,100 12,861 6.28%",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 119,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 795,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+    "prior_heading_candidate": {
+      "text": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1-5] 국내 공간정보의 산업규모 주요현황(좌) 및 기술 글로벌 위치(우)",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "ᄋ (국내) '12년 이후 10년 연속 지속 성장하여 '21 년 기준 10조원 규모 산업으로 성장\n- '21 년 기준 매출액 10조 7,381억원, 종사자수 71,636명, 사업자 수 5,807개\nKVV HJJ9I\nt田!8",
+        "after": "* 출 처 :GKI Report 2022, Geospatial World\n□ 국내 • 외 기업을 중심으로 극한강우, 폭염, 혹한 등 기후변화에 따른\n재난에 선제적 대응을 위한 서비스 산업이 성장 중에 있음\nᄋ UM-Flint(미국)",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 47,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.35,
+          526.78,
+          292.31,
+          657.82
+        ],
+        "page_area_fraction": 0.0599
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.65,
+          515.05,
+          530.89,
+          669.61
+        ],
+        "page_area_fraction": 0.0704
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 894,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+    "prior_heading_candidate": {
+      "text": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 40,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 915,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+    "prior_heading_candidate": {
+      "text": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 38,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 993,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+    "prior_heading_candidate": {
+      "text": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 1-4] 국내외 재난안전 및 스마트시티 분야 주요 기업 동향",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "료를 생산하고 이를 적용한 딥러닝 기반의 홍수예측 모형 운용\n- (초고해상도 가상기상관측소 구현) '초 고 해 상 도 (~10m) 기상 및 기후\n데이터 복원 기술' 및 이에 필요한 모든 과정은 자동화되어 알파멧\n(AlphaMet) 시스템으로 구축",
+        "after": "구분 기관/기업명 주요 동향\n국내\nLG CNS, 삼성 SDS,\nSK C&C 등",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 95,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 1033,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+    "prior_heading_candidate": {
+      "text": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 51,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 1032,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+    "prior_heading_candidate": {
+      "text": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 1-5] 스마트시티 기술 설명",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "〇 스마트시티 기술은 정보수집기술, 정보가공기술, 정보활용기술로 구분",
+        "after": "구 분 설 명\n정보수집기술\n스마트시티 서비스 제공에 필요한 다양한 도시정보를 측정하고 전송하는 기술 (유선망,무\n선망，센서망 등 정보통신망을 포함)",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 51,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 1043,
+    "heading_candidates": [
+      "□ (사업2) 시나리오 기반의 대형복합재난 확산예측 기술개발"
+    ],
+    "section_context_candidate": "□ (사업2) 시나리오 기반의 대형복합재난 확산예측 기술개발",
+    "prior_heading_candidate": {
+      "text": "□ 국내 공간정보 기술 수준은 주요 선진국 대비 도전국으로 평가",
+      "pdf_page": 32
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 63,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 870,
+    "heading_candidates": [
+      "□ (사업3) 복합재난 리스크 평가기법 개발('i s .o4.-'2：^ 2.)",
+      "□ (사업4) 복합재난 관리를 위한 상황인지 기반 레질리언스 강화연구('15.01/15.12)"
+    ],
+    "section_context_candidate": "□ (사업3) 복합재난 리스크 평가기법 개발('i s .o4.-'2：^ 2.)",
+    "prior_heading_candidate": {
+      "text": "□ (사업2) 시나리오 기반의 대형복합재난 확산예측 기술개발",
+      "pdf_page": 39
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 37,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 1041,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (사업4) 복합재난 관리를 위한 상황인지 기반 레질리언스 강화연구('15.01/15.12)",
+    "prior_heading_candidate": {
+      "text": "□ (사업4) 복합재난 관리를 위한 상황인지 기반 레질리언스 강화연구('15.01/15.12)",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 39,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 2579,
+    "heading_candidates": [
+      "□ (기존 사업성과의 연계•활용방안)",
+      "■콘1 츠 기습개발"
+    ],
+    "section_context_candidate": "□ (기존 사업성과의 연계•활용방안)",
+    "prior_heading_candidate": {
+      "text": "□ (사업4) 복합재난 관리를 위한 상황인지 기반 레질리언스 강화연구('15.01/15.12)",
+      "pdf_page": 40
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "다부처공동기획사업",
+        "line_index": 102,
+        "toc_like": false,
+        "before": "기술개발\n遇정인전위\n미대도시 북합재난관리\n디지털 ■랫폼 개발",
+        "after": "미라3도시 목합재난판리 의사결정\n디지1 ■랫폼기술개발\n미대도시 복합재난관리\n공간디지털E 원들랫폼 개!",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "[그림 1-6] 기존 사업과의 차별화 전략 및 연계 방안",
+        "line_index": 117,
+        "toc_like": false,
+        "before": "石 程및복합a 죽屋\n말잡지역대규모 ■\n면 ！빙지및경김2 벌 밸\n比빙방자制",
+        "after": "- 24 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 229,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          279.85,
+          119.04,
+          363.85,
+          304.32
+        ],
+        "page_area_fraction": 0.0311
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          430.1,
+          144.94,
+          523.22,
+          303.82
+        ],
+        "page_area_fraction": 0.0295
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 1111,
+    "heading_candidates": [],
+    "section_context_candidate": "■콘1 츠 기습개발",
+    "prior_heading_candidate": {
+      "text": "■콘1 츠 기습개발",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 56,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 1213,
+    "heading_candidates": [],
+    "section_context_candidate": "■콘1 츠 기습개발",
+    "prior_heading_candidate": {
+      "text": "■콘1 츠 기습개발",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 57,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 1131,
+    "heading_candidates": [],
+    "section_context_candidate": "■콘1 츠 기습개발",
+    "prior_heading_candidate": {
+      "text": "■콘1 츠 기습개발",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 68,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 618,
+    "heading_candidates": [],
+    "section_context_candidate": "■콘1 츠 기습개발",
+    "prior_heading_candidate": {
+      "text": "■콘1 츠 기습개발",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1-7] 국내 도심지 복합재난 확산 연계도",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "^ KT 유무선 사용자들의 경우 인터넷 , 전 화 통 화 가 먹통되었으며 상 업 시 설 에 서 는\n배달 및 주문 결제 장애, 유동인구 유입 중단 등 대규모 온•오프라인 경제활\n동 마비로 인한 간접 피해 급증하여 일정기간 지역사회 붕괴됨\n(사례 3) 재난 복합화 현상",
+        "after": "□ 미래도시에서 발생하는 재 난 은 복합화되고 대형화되어 대규모 인적 •경\n제적 피해를 유발하므로 예측 •예 방 중심의 전주기 재난관리 체계 수립\n을 위한 기술개발 추진\n〇 미래도시 현장상황을 이해하고 인지하여 위험도 관리를 통한 지속가능",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          64.55,
+          538.3,
+          526.55,
+          670.06
+        ],
+        "page_area_fraction": 0.1215
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          122.9,
+          316.8,
+          472.1,
+          534.72
+        ],
+        "page_area_fraction": 0.1519
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 1035,
+    "heading_candidates": [
+      "2. 사 업 추 진 및 정 부 지 원 필요성",
+      "□ 안전하고 지속가능한 도시 건설을 위한 정부 정책에 부합하는 기술개발"
+    ],
+    "section_context_candidate": "2. 사 업 추 진 및 정 부 지 원 필요성",
+    "prior_heading_candidate": {
+      "text": "■콘1 츠 기습개발",
+      "pdf_page": 42
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 38,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 1058,
+    "heading_candidates": [
+      "3. 다부처 추진 타 당 성 (기 존 단일 부처 추 진 대비 시너지 효과)"
+    ],
+    "section_context_candidate": "3. 다부처 추진 타 당 성 (기 존 단일 부처 추 진 대비 시너지 효과)",
+    "prior_heading_candidate": {
+      "text": "□ 안전하고 지속가능한 도시 건설을 위한 정부 정책에 부합하는 기술개발",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 37,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 366,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 다부처 추진 타 당 성 (기 존 단일 부처 추 진 대비 시너지 효과)",
+    "prior_heading_candidate": {
+      "text": "3. 다부처 추진 타 당 성 (기 존 단일 부처 추 진 대비 시너지 효과)",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 1-8] 주 관 •참 여 부처 업무 연계도",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "하고 있어 정책 수립과 연구개발의 연계성이 약화될 우려가 있음\n〇 따라서 과기정통부, 행안부, 산업부에 대한 부처간 역할을 명확히 하고\n다부처 간 협력을 통해 중복투자를 최소화하고, 효율성을 강조한 현장\n에서 적용 가능한 플랫폼 개발을 위한 사업추진 필요",
+        "after": "- 31\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 12,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          67.9,
+          420.7,
+          527.26,
+          573.82
+        ],
+        "page_area_fraction": 0.1404
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 982,
+    "heading_candidates": [],
+    "section_context_candidate": "3. 다부처 추진 타 당 성 (기 존 단일 부처 추 진 대비 시너지 효과)",
+    "prior_heading_candidate": {
+      "text": "3. 다부처 추진 타 당 성 (기 존 단일 부처 추 진 대비 시너지 효과)",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 39,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 895,
+    "heading_candidates": [
+      "□ 핵심 기술 단계별 목표"
+    ],
+    "section_context_candidate": "□ 핵심 기술 단계별 목표",
+    "prior_heading_candidate": {
+      "text": "3. 다부처 추진 타 당 성 (기 존 단일 부처 추 진 대비 시너지 효과)",
+      "pdf_page": 48
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-1] 미래도시 복합재난 발생 및 피해 확산(예시)",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "교통시설 마비\n(대구 지하철 화재)\n라이프라인 화재재난\n: 전력, 통신 인프라 장애",
+        "after": "□ 핵심 기술 단계별 목표\n〇 (현장정보 수집 및 1차 분석 단계) 미래도시 복합재난관리를 위한 현장\n정보 수집 및 엣지컴퓨팅 기반 현장 중심 정보 분석\n〇 (재난확산 예측 • 예방 • 대응 단계) 미래도시 복합재난 예측 • 예방 • 대",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 40,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.25,
+          842.04
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          156.95,
+          467.1,
+          314.45,
+          650.34
+        ],
+        "page_area_fraction": 0.0576
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 996,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 핵심 기술 단계별 목표",
+    "prior_heading_candidate": {
+      "text": "□ 핵심 기술 단계별 목표",
+      "pdf_page": 51
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 958,
+    "heading_candidates": [
+      "□ (재난관리기관) 미래도시 중대재난관리 서비스 플랫폼으로 활용",
+      "□ (지자체 • 시설관리공단 미래도시 복합재난 예방 • 대응을 위한 플랫폼으로 활용"
+    ],
+    "section_context_candidate": "□ (재난관리기관) 미래도시 중대재난관리 서비스 플랫폼으로 활용",
+    "prior_heading_candidate": {
+      "text": "□ 핵심 기술 단계별 목표",
+      "pdf_page": 51
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 809,
+    "heading_candidates": [
+      "□ (소방청》미래도시 재난 대응 플랫폼으로 활용",
+      "□ (지하철관리공단) 지하 교통시설에서 발생히는 재난 . 사고 관리 플랫폼으로 활용",
+      "□ (유관기관) 유관기관에서 운영하는 개별 시설물 안전관리 플랫폼으로 활용"
+    ],
+    "section_context_candidate": "□ (소방청》미래도시 재난 대응 플랫폼으로 활용",
+    "prior_heading_candidate": {
+      "text": "□ (지자체 • 시설관리공단 미래도시 복합재난 예방 • 대응을 위한 플랫폼으로 활용",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 478,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (유관기관) 유관기관에서 운영하는 개별 시설물 안전관리 플랫폼으로 활용",
+    "prior_heading_candidate": {
+      "text": "□ (유관기관) 유관기관에서 운영하는 개별 시설물 안전관리 플랫폼으로 활용",
+      "pdf_page": 54
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 2-1] 연구과제 수혜대상 기관 및 관련 시스템",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "수요처 국명 기관분류 관련제품\n행 안부 대한민국 재난관리기관 중대재난사고 예방/대응 시스템\n지자체 및 시설관리기관 대한민국 재난관리기관 시설물 관리 및 재난 대응 시스템\n소방청 대한민국 유관기관 화재안전 모니터링 및 대응 시스템",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 47,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 960,
+    "heading_candidates": [
+      "□ 복합재난관리 대 상 •규 모 • 범위의 차별화된 목표 설정 및 결과물 산출",
+      "□ 사업 성과목표"
+    ],
+    "section_context_candidate": "□ 복합재난관리 대 상 •규 모 • 범위의 차별화된 목표 설정 및 결과물 산출",
+    "prior_heading_candidate": {
+      "text": "□ (유관기관) 유관기관에서 운영하는 개별 시설물 안전관리 플랫폼으로 활용",
+      "pdf_page": 54
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 54,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 597,
+    "heading_candidates": [
+      "□ 사업 성과 결과물",
+      "□ 단계별 연구수행 추진 목표"
+    ],
+    "section_context_candidate": "□ 사업 성과 결과물",
+    "prior_heading_candidate": {
+      "text": "□ 사업 성과목표",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-2] 사업성과 목표 개요도",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "미래도시 목합재난판리 디지털 플랫폼\n현실세계I 위험 및 재난정보\n현실세계 디지털 세계\n능동 대뭄 및 훈련",
+        "after": "□ 사업 성과 결과물\n〇 (총괄-공통) 미래도시 안전관리를 위한 법 • 제도 개선(안)\n〇 (총괄-공통) 국내외 미래도시 복합재난관리 기술 • 데이터 • 프로토콜 표준화\n〇 (총괄-공통) 미래도시 복합재난관리 디지털플랫폼 현장적용 실증서비스",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 4,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.15,
+          482.87,
+          543.35,
+          767.27
+        ],
+        "page_area_fraction": 0.2629
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 575,
+    "heading_candidates": [
+      "□ 핵심 기술 단계별 목표"
+    ],
+    "section_context_candidate": "□ 핵심 기술 단계별 목표",
+    "prior_heading_candidate": {
+      "text": "□ 단계별 연구수행 추진 목표",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-3] 단계별 추진전략 목표",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "〇 (2단계-실중단계)\n- 플랫폼 요소기술 단위 통합 및 실험실 통합 시험\n- 현장적용 실증환경 구죽 • 통합 시험 및 사용자 평가 • 기능고도화\n향 좌— 獻",
+        "after": "□ 핵심 기술 단계별 목표\n〇 (공간 동기화 단계) 실시간 실내외 정밀 3D 공간 구성 • 연계 • 관리 •\n표준화 기술 개발\n〇 (현장정보 수집 및 분석) 미래도시 복합재난관리를 위한 현장 정보 수",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 35,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.15,
+          841.99
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          111.0,
+          440.58,
+          484.63,
+          669.73
+        ],
+        "page_area_fraction": 0.1709
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 854,
+    "heading_candidates": [
+      "2025 ~ 2027 (개발단계) 2028 ~ 2029 (실증단계)",
+      "□ 부처별 성과목표"
+    ],
+    "section_context_candidate": "2025 ~ 2027 (개발단계) 2028 ~ 2029 (실증단계)",
+    "prior_heading_candidate": {
+      "text": "□ 핵심 기술 단계별 목표",
+      "pdf_page": 58
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-4] 핵심기술 단계별 목표 연계",
+        "line_index": 15,
+        "toc_like": false,
+        "before": "산업부\n획m 醫轉\n통합분석\n공간동기화",
+        "after": "■寶 택 醫 醫께\n2. 부 처 별 성 과 목 표 및 성 과 지 표\n□ 부처별 성과목표\n〇 (과기정통부) 미래도시 복합재난관리 의사결정지원 디지털 플랫폼 기술 개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 34,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.01,
+          595.15,
+          841.96
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          103.5,
+          533.82,
+          492.13,
+          563.05
+        ],
+        "page_area_fraction": 0.0227
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.75,
+          403.71,
+          360.35,
+          520.15
+        ],
+        "page_area_fraction": 0.0436
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 831,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 부처별 성과목표",
+    "prior_heading_candidate": {
+      "text": "□ 부처별 성과목표",
+      "pdf_page": 59
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 39,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 128,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 부처별 성과목표",
+    "prior_heading_candidate": {
+      "text": "□ 부처별 성과목표",
+      "pdf_page": 59
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 3,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 745,
+    "heading_candidates": [
+      "□ 부처별 성과지표"
+    ],
+    "section_context_candidate": "□ 부처별 성과지표",
+    "prior_heading_candidate": {
+      "text": "□ 부처별 성과목표",
+      "pdf_page": 59
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 105,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 444,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 부처별 성과지표",
+    "prior_heading_candidate": {
+      "text": "□ 부처별 성과지표",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 59,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 655,
+    "heading_candidates": [
+      "5) 데이터 처리를 수행하는 로컬 데이터 전송 및 부하 분산 시스템"
+    ],
+    "section_context_candidate": "5) 데이터 처리를 수행하는 로컬 데이터 전송 및 부하 분산 시스템",
+    "prior_heading_candidate": {
+      "text": "□ 부처별 성과지표",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 62,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 618,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 데이터 처리를 수행하는 로컬 데이터 전송 및 부하 분산 시스템",
+    "prior_heading_candidate": {
+      "text": "5) 데이터 처리를 수행하는 로컬 데이터 전송 및 부하 분산 시스템",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 87,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 1702,
+    "heading_candidates": [],
+    "section_context_candidate": "5) 데이터 처리를 수행하는 로컬 데이터 전송 및 부하 분산 시스템",
+    "prior_heading_candidate": {
+      "text": "5) 데이터 처리를 수행하는 로컬 데이터 전송 및 부하 분산 시스템",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "예측•예방•대응",
+        "line_index": 60,
+        "toc_like": false,
+        "before": "• 미래도시 복합재난관리 디지털 플랫폼\n현장적용실증서비스\n4 행안부 j\n• 미래도시 복합재난관리 운영관",
+        "after": "스템 기술\n• 미래도시 지속 가능성 확보를\n위한 재난 회복력 강화기술\n• 미래도시 복합재난관리를 위한",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "[그림 2-5] 연구개발 목표 및 내용",
+        "line_index": 71,
+        "toc_like": false,
+        "before": "리 기 술 ■ 데이터 ■ 체계 표준화\n• 미래도시 복합재난관리 디지털 플랫\n폼현장적용실증서비스\n국토부",
+        "after": "□ (과기정통부》'미래도시 복합재난관리 의사결정지원 디지털 플랫폼 개 발\n연구개발 목표\n- 48 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 94,
+      "3": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.2,
+          842.04
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          426.7,
+          354.35,
+          522.22,
+          422.99
+        ],
+        "page_area_fraction": 0.0131
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 588,
+    "heading_candidates": [
+      "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발"
+    ],
+    "section_context_candidate": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+    "prior_heading_candidate": {
+      "text": "5) 데이터 처리를 수행하는 로컬 데이터 전송 및 부하 분산 시스템",
+      "pdf_page": 64
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-6] 과기부 연구개발 목표",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "통합지능플랫폼 개발\nᄋ 지능형 ICT 기술을 활용한 비지도 학습 및 회귀 학습을 활용한 미래도\n시 복합재난관리를 위한 의사결정지원정보를 추론하기 위한 적응형 인\n공지능 기술 개발",
+        "after": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발\n‘ 연구 목표\nᄋ 미래도시 복합재난관리 디지털 플랫폼 기술\n- 미래도시 복합재난관리 디지털 플랫폼 구조 설계",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 24,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.25,
+          842.04
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          79.2,
+          312.84,
+          545.04,
+          597.24
+        ],
+        "page_area_fraction": 0.2643
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 556,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+    "prior_heading_candidate": {
+      "text": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 17,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 69,
+    "text_characters": 1378,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+    "prior_heading_candidate": {
+      "text": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 46,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 70,
+    "text_characters": 605,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+    "prior_heading_candidate": {
+      "text": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 18,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 71,
+    "text_characters": 871,
+    "heading_candidates": [
+      "□ (과기부) 세부추진 내용 1",
+      "□ (과기부) 세부추진 내용 2",
+      "□ (과기부) 세부추진 내용 3"
+    ],
+    "section_context_candidate": "□ (과기부) 세부추진 내용 1",
+    "prior_heading_candidate": {
+      "text": "□ (과기정통부) '미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+      "pdf_page": 67
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 29,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 72,
+    "text_characters": 980,
+    "heading_candidates": [
+      "□ (과기부) 세부추진 내용 4"
+    ],
+    "section_context_candidate": "□ (과기부) 세부추진 내용 4",
+    "prior_heading_candidate": {
+      "text": "□ (과기부) 세부추진 내용 3",
+      "pdf_page": 71
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 45,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 73,
+    "text_characters": 784,
+    "heading_candidates": [
+      "□ (과기부) (과기부) 세부추진 내용 5",
+      "□ (과기부) (과기부) 세부추진 내용 6"
+    ],
+    "section_context_candidate": "□ (과기부) (과기부) 세부추진 내용 5",
+    "prior_heading_candidate": {
+      "text": "□ (과기부) 세부추진 내용 4",
+      "pdf_page": 72
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 23,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 74,
+    "text_characters": 752,
+    "heading_candidates": [
+      "□ (국토부 '미래도시 복합재난관리 공간디지털트윈 구 축 •운 용 기 술 개발' 연",
+      "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '"
+    ],
+    "section_context_candidate": "□ (국토부 '미래도시 복합재난관리 공간디지털트윈 구 축 •운 용 기 술 개발' 연",
+    "prior_heading_candidate": {
+      "text": "□ (과기부) (과기부) 세부추진 내용 6",
+      "pdf_page": 73
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-7] 국토부 연구개발 목표",
+        "line_index": 3,
+        "toc_like": false,
+        "before": "□ (국토부 '미래도시 복합재난관리 공간디지털트윈 구 축 •운 용 기 술 개발' 연\n구개발 목표\n〇 재난의 예측，대응을 위한 실내 . 외 3차원 공간정보 구축 및 관리기술 개발",
+        "after": "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '\n연구 내용\n〇 미래도시 실내외 고정밀 3차원 공간 디지털 가상화 기술\n- 고정밀 미래도시 디지털트윈 공간정보 생성 및 데이터 구조화 기술",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 24,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.25,
+          442.8,
+          544.33,
+          681.12
+        ],
+        "page_area_fraction": 0.2217
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 75,
+    "text_characters": 315,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '",
+    "prior_heading_candidate": {
+      "text": "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 8,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 76,
+    "text_characters": 1753,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '",
+    "prior_heading_candidate": {
+      "text": "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 61,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 77,
+    "text_characters": 373,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '",
+    "prior_heading_candidate": {
+      "text": "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 16,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 78,
+    "text_characters": 965,
+    "heading_candidates": [
+      "□ (국토부) 세부추진 내용 1",
+      "□ (국토부) 세부추진 내용 2"
+    ],
+    "section_context_candidate": "□ (국토부) 세부추진 내용 1",
+    "prior_heading_candidate": {
+      "text": "□ (국토부》'미래도시 복합재난관리 공간디지털트윈 구축■운용기술 개발 '",
+      "pdf_page": 74
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 32,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 79,
+    "text_characters": 970,
+    "heading_candidates": [
+      "□ (국토부) 세부추진 내용 3",
+      "□ (국토부) 세부추진 내용 4"
+    ],
+    "section_context_candidate": "□ (국토부) 세부추진 내용 3",
+    "prior_heading_candidate": {
+      "text": "□ (국토부) 세부추진 내용 2",
+      "pdf_page": 78
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 37,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 80,
+    "text_characters": 590,
+    "heading_candidates": [
+      "□ (국토부) 세부추진 내용 5"
+    ],
+    "section_context_candidate": "□ (국토부) 세부추진 내용 5",
+    "prior_heading_candidate": {
+      "text": "□ (국토부) 세부추진 내용 4",
+      "pdf_page": 79
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 20,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 81,
+    "text_characters": 716,
+    "heading_candidates": [
+      "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'"
+    ],
+    "section_context_candidate": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'",
+    "prior_heading_candidate": {
+      "text": "□ (국토부) 세부추진 내용 5",
+      "pdf_page": 80
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-8] 국토부 연구개발 목표",
+        "line_index": 18,
+        "toc_like": false,
+        "before": "위치인식형 환경감지 복합션서\n(유/무선 중전형)\n일술유도대음알고E g 연7| M\n자 련 분 산 말 音 방 I f S 보저&",
+        "after": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개 발\n연구 내용\n〇 미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발\n- 데이터 전송 및 전장 분석 기술 개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 41,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.25,
+          382.8,
+          544.33,
+          681.12
+        ],
+        "page_area_fraction": 0.2775
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 82,
+    "text_characters": 374,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'",
+    "prior_heading_candidate": {
+      "text": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'",
+      "pdf_page": 81
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 13,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 83,
+    "text_characters": 1389,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'",
+    "prior_heading_candidate": {
+      "text": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'",
+      "pdf_page": 81
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 56,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 84,
+    "text_characters": 814,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'",
+    "prior_heading_candidate": {
+      "text": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'",
+      "pdf_page": 81
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 58,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 85,
+    "text_characters": 607,
+    "heading_candidates": [
+      "□ (산업부) 세부추진 내용 1",
+      "□ (산업부) 세부추진 내용 2"
+    ],
+    "section_context_candidate": "□ (산업부) 세부추진 내용 1",
+    "prior_heading_candidate": {
+      "text": "□ (산업부》'미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발'",
+      "pdf_page": 81
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-9] 재난센싱 및 확산 방지용 PnP 구조 및 자체 충전식 센서",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "- 미래복합도시 공간별 기능별 상황별 유/무선 연동형 멀티 센서 기술\n(온도，습도，불꽃，진동，연기 ⑴ ，⑴ 2, O2 등)\n- 재난 센싱 및 확산 방지용 Plug & Play 구조와 자체 충전식 센서 구동 기\n술 (독립형 충전식)",
+        "after": "- 센싱 DATA 외부 무선 전송 및 모니터링 기술\n(Flash over/Back draft 및 지진，가스누출 등 현장 대응)\n- 67 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 36,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          86.15,
+          269.26,
+          511.19,
+          402.22
+        ],
+        "page_area_fraction": 0.1128
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 86,
+    "text_characters": 521,
+    "heading_candidates": [
+      "□ (산업부》세부추진 내용 3"
+    ],
+    "section_context_candidate": "□ (산업부》세부추진 내용 3",
+    "prior_heading_candidate": {
+      "text": "□ (산업부) 세부추진 내용 2",
+      "pdf_page": 85
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-10] 센싱 데이터 외부 무선 전송 및 모니터링 기술",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "- 엣지 컴퓨팅 기술 적용 인공지능형 데이터 분석 및 처리 기술\n(재난 센싱 및 확산 방지용 Plug & Play 구조 신복합 센서 디바이스 개발 적용)\n- 재난 발생 위치 감지를 통한 지능형 탈출 유도 알고리즘 연계기술\n[그림 2-11] 엣지 컴퓨팅 기술 적용 인공지능형 데이터 분석 및 처리 기술",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 2-11] 엣지 컴퓨팅 기술 적용 인공지능형 데이터 분석 및 처리 기술",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "[그림 2-10] 센싱 데이터 외부 무선 전송 및 모니터링 기술\n- 엣지 컴퓨팅 기술 적용 인공지능형 데이터 분석 및 처리 기술\n(재난 센싱 및 확산 방지용 Plug & Play 구조 신복합 센서 디바이스 개발 적용)\n- 재난 발생 위치 감지를 통한 지능형 탈출 유도 알고리즘 연계기술",
+        "after": "□ (산업부》세부추진 내용 3\n: 미래도시 인적피해 저감을 위한 다차원 지능형 광 유도 대피 장치 개발\n〇 레이저 및 지능형 탈출유도 시그널 적용 탈출 유도 기술 개발(충전식)\n- 연무 투과 파장 적용 바닥 벽부형 레이저 탈출 유도 기술 (레이저 송 • 수",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      },
+      {
+        "text": "[그림 2-12] 레이저 및 지능형 탈출 유도 시그널 적용 탈출 유도 기술",
+        "line_index": 10,
+        "toc_like": false,
+        "before": ": 미래도시 인적피해 저감을 위한 다차원 지능형 광 유도 대피 장치 개발\n〇 레이저 및 지능형 탈출유도 시그널 적용 탈출 유도 기술 개발(충전식)\n- 연무 투과 파장 적용 바닥 벽부형 레이저 탈출 유도 기술 (레이저 송 • 수\n신 일체형 Apparatus 적용)",
+        "after": "- 68 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 19,
+      "3": 5,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.01,
+          595.1,
+          841.91
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.1,
+          645.01,
+          243.82,
+          768.4
+        ],
+        "page_area_fraction": 0.0411
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          252.75,
+          645.68,
+          527.37,
+          764.4
+        ],
+        "page_area_fraction": 0.0651
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.0,
+          420.3,
+          496.56,
+          519.91
+        ],
+        "page_area_fraction": 0.0796
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          74.35,
+          115.52,
+          518.24,
+          218.95
+        ],
+        "page_area_fraction": 0.0916
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 87,
+    "text_characters": 660,
+    "heading_candidates": [
+      "□ (산업부》세부추진 내용 4",
+      "□ (산업부) 세부추진 내용 5",
+      "□ (산업부) 세부추진 내용 6"
+    ],
+    "section_context_candidate": "□ (산업부》세부추진 내용 4",
+    "prior_heading_candidate": {
+      "text": "□ (산업부》세부추진 내용 3",
+      "pdf_page": 86
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 2-13] 요구조자 밀집도 연계 주변 장치 기능 협업형 공간 분산 유도 기술",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "(내구성，소형화，저가화 등의 해외 경쟁력 확보)\n- Pointcloud data 기반의 객체 인지，혼잡도 측정 기술\n- 연무 및 소화수 실내 환경 상황에서의 동작 객체 인지 기술\n- 탈출 대응 알고리즘 연계 지능형 분산 유도 방향정보 제공기술",
+        "after": "□ (산업부) 세부추진 내용 5\n: 미래도시 복합센서 및 조명 시스템 인증\n〇 지능형 실내 조명 등기구 고효율에너지 인증\n- 유/무선 복합센서 디바이스 인증",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 34,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.25,
+          842.09
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          92.35,
+          311.7,
+          521.21,
+          414.78
+        ],
+        "page_area_fraction": 0.0882
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 88,
+    "text_characters": 365,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (산업부) 세부추진 내용 6",
+    "prior_heading_candidate": {
+      "text": "□ (산업부) 세부추진 내용 6",
+      "pdf_page": 87
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 11,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 89,
+    "text_characters": 829,
+    "heading_candidates": [
+      "□ (행 안 부 )'미래도시 복합재난관리 회복력 강화 시스템 개 발 연구개발 목표",
+      "□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용"
+    ],
+    "section_context_candidate": "□ (행 안 부 )'미래도시 복합재난관리 회복력 강화 시스템 개 발 연구개발 목표",
+    "prior_heading_candidate": {
+      "text": "□ (산업부) 세부추진 내용 6",
+      "pdf_page": 87
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "그림 2-14] 행안부 연구개발 목표",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "회복하고 정상상태로 돌아갈 수 있는 능력으로 적응력，복원력，저항력 등의 특성을 가짐\n리스크 레지스터 구축\nm m m 著營제1 勞획 寶錄 체스1 제響\n재난관리종합시스템 유관기관연계 및 대응 종합방재실 정보시스템",
+        "after": "복합재난 원인분석\n□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용\n〇 미래도시 복합재난 운영관리(예측•예방•대응) 서비스 시스템 개발\n- 미래도시 복합재난관리 인공지능 (AI) 기반 의사결정지원 시스템 개발",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 35,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.25,
+          842.04
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          65.9,
+          407.53,
+          522.74,
+          632.89
+        ],
+        "page_area_fraction": 0.2054
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 90,
+    "text_characters": 413,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용",
+    "prior_heading_candidate": {
+      "text": "□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용",
+      "pdf_page": 89
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 13,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 91,
+    "text_characters": 1556,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용",
+    "prior_heading_candidate": {
+      "text": "□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용",
+      "pdf_page": 89
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 61,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 92,
+    "text_characters": 703,
+    "heading_candidates": [],
+    "section_context_candidate": "□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용",
+    "prior_heading_candidate": {
+      "text": "□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용",
+      "pdf_page": 89
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 26,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 93,
+    "text_characters": 843,
+    "heading_candidates": [
+      "□ (행안부) 세부추진 내용 1",
+      "□ (행안부) 세부추진 내용 2",
+      "□ (행안부) 세부추진 내용 3"
+    ],
+    "section_context_candidate": "□ (행안부) 세부추진 내용 1",
+    "prior_heading_candidate": {
+      "text": "□ (행안부) ᄉ미래도시 복합재난관리 회복력 강화 시스템 개발' 연구 내용",
+      "pdf_page": 89
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 36,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 94,
+    "text_characters": 1006,
+    "heading_candidates": [
+      "□ (행안부) 세부추진 내용 4"
+    ],
+    "section_context_candidate": "□ (행안부) 세부추진 내용 4",
+    "prior_heading_candidate": {
+      "text": "□ (행안부) 세부추진 내용 3",
+      "pdf_page": 93
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 53,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 95,
+    "text_characters": 781,
+    "heading_candidates": [
+      "□ (행안부) 세부추진 내용 5",
+      "□ (행안부) 세부추진 내용 6",
+      "□ (행안부) 세부추진 내용 7"
+    ],
+    "section_context_candidate": "□ (행안부) 세부추진 내용 5",
+    "prior_heading_candidate": {
+      "text": "□ (행안부) 세부추진 내용 4",
+      "pdf_page": 94
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 25,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 96,
+    "text_characters": 905,
+    "heading_candidates": [
+      "□ 선행연구 결과물과 연계 가능한 기술개발 기획 추진",
+      "□ 미래도시 재난 유형 분류 및 공간정보 연계 기술개발 연구기획 추진"
+    ],
+    "section_context_candidate": "□ 선행연구 결과물과 연계 가능한 기술개발 기획 추진",
+    "prior_heading_candidate": {
+      "text": "□ (행안부) 세부추진 내용 7",
+      "pdf_page": 95
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 38,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 97,
+    "text_characters": 1005,
+    "heading_candidates": [
+      "□ 산•학•연 협력체계 구축을 통한 사업추진에 대한 협력과 전문성 확보",
+      "□ 참여 부처 연구결과물을 현장적용 실증서비스를 통해 통합하는 혼합형으로",
+      "□ 단일 전담기관과 사업단 구성을 통한 사업 및 성과 관리 체계 수립"
+    ],
+    "section_context_candidate": "□ 산•학•연 협력체계 구축을 통한 사업추진에 대한 협력과 전문성 확보",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 재난 유형 분류 및 공간정보 연계 기술개발 연구기획 추진",
+      "pdf_page": 96
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 30,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 98,
+    "text_characters": 1092,
+    "heading_candidates": [
+      "□ 미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발"
+    ],
+    "section_context_candidate": "□ 미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+    "prior_heading_candidate": {
+      "text": "□ 단일 전담기관과 사업단 구성을 통한 사업 및 성과 관리 체계 수립",
+      "pdf_page": 97
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 73,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 99,
+    "text_characters": 1200,
+    "heading_candidates": [
+      "□ 미래도시 복합재난관리 공간 디지털트윈 구축•운영 플랫폼 개발"
+    ],
+    "section_context_candidate": "□ 미래도시 복합재난관리 공간 디지털트윈 구축•운영 플랫폼 개발",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난관리 의사결정 디지털 플랫폼 기술 개발",
+      "pdf_page": 98
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 61,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 100,
+    "text_characters": 948,
+    "heading_candidates": [
+      "□ 미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발",
+      "□ 미래도시 복합재난관리 회복력 강화 시스템 개발"
+    ],
+    "section_context_candidate": "□ 미래도시 복합재난 현장 정보 수집 및 유도 대피 시스템 개발",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난관리 공간 디지털트윈 구축•운영 플랫폼 개발",
+      "pdf_page": 99
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 57,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 101,
+    "text_characters": 799,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미래도시 복합재난관리 회복력 강화 시스템 개발",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난관리 회복력 강화 시스템 개발",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 32,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 102,
+    "text_characters": 793,
+    "heading_candidates": [
+      "□ 사업목표 달성을 위한 기존 협의된 전문가 외 산 •학 •연 전문가도 함께"
+    ],
+    "section_context_candidate": "□ 사업목표 달성을 위한 기존 협의된 전문가 외 산 •학 •연 전문가도 함께",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난관리 회복력 강화 시스템 개발",
+      "pdf_page": 100
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 3-1] 주 관 •참 여 부 처 연계 및 협력 체계",
+        "line_index": 12,
+        "toc_like": false,
+        "before": "시스템 현장 대응\n\\〇1 공\n간구想 워치정보\n광!: M 유정참치",
+        "after": "□ 부처 사업간 연계 • 협력 방안\n- (연구 결과물 통합) 세부 개발 일정 계획에 따라 주관•공급•수요 부처 결\n과물을 연계하고 통합할 수 있도록 구현하여 상용화 촉진 방안 마련\n- (통합시험 평가) 목표 시스템 구현 항목에 따른 단위시험, 연계시험 및",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 49,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          62.9,
+          479.78,
+          524.18,
+          741.62
+        ],
+        "page_area_fraction": 0.241
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 103,
+    "text_characters": 496,
+    "heading_candidates": [
+      "□ 사업단 구성 및 단일 전문기관 중심의 과제 추진을 위한 혼합형으로 사업 추진"
+    ],
+    "section_context_candidate": "□ 사업단 구성 및 단일 전문기관 중심의 과제 추진을 위한 혼합형으로 사업 추진",
+    "prior_heading_candidate": {
+      "text": "□ 사업목표 달성을 위한 기존 협의된 전문가 외 산 •학 •연 전문가도 함께",
+      "pdf_page": 102
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 3-2] 사업 추진 및 관리 •운 영 체계",
+        "line_index": 11,
+        "toc_like": false,
+        "before": "〇 부처간 역할에 부합하는 전문연구기관 중심으로 결과를 도출하고 총괄\n주관기관에 의해 통합되는 혼합형으로 추진\n〇 개별 부처 과제 연구결과물간 상호 연계하고 통합 결과물 산출을 위하여\n사업단을 중심으로 연구 수행 추진 체계 수립",
+        "after": "- 85 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 14,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          75.85,
+          144.48,
+          522.25,
+          460.32
+        ],
+        "page_area_fraction": 0.2814
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 104,
+    "text_characters": 1070,
+    "heading_candidates": [
+      "□ 주관 • 협력부처간 긴밀한 협력을 통해 하나의 플랫폼 개발 및 현장적용"
+    ],
+    "section_context_candidate": "□ 주관 • 협력부처간 긴밀한 협력을 통해 하나의 플랫폼 개발 및 현장적용",
+    "prior_heading_candidate": {
+      "text": "□ 사업단 구성 및 단일 전문기관 중심의 과제 추진을 위한 혼합형으로 사업 추진",
+      "pdf_page": 103
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 3-3] 주 관 •참 여 부 처 연구개발 업무 연계 및 추진 일정",
+        "line_index": 41,
+        "toc_like": false,
+        "before": "/\n행정안전부\n미 래 도 시 복 합 재 난 관 리\n회 복 력 강 화 시 스 템 개 발",
+        "after": "- 86 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 72,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 105,
+    "text_characters": 886,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 주관 • 협력부처간 긴밀한 협력을 통해 하나의 플랫폼 개발 및 현장적용",
+    "prior_heading_candidate": {
+      "text": "□ 주관 • 협력부처간 긴밀한 협력을 통해 하나의 플랫폼 개발 및 현장적용",
+      "pdf_page": 104
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[표 3-1] 부처별 사업내역 및 예산",
+        "line_index": 6,
+        "toc_like": false,
+        "before": "국가연구개발사업 투자예산 등으로 재원 확보\n〇 '25년-'29년간 총 5년 수행하며, 총 400억 원의 예산을 투입에 대해 4개\n부처(과기정통부(14〇 억), 행안부(95억), 국토부(95억), 산업부(7〇 억))와 사전\n참여의향 협의 완료",
+        "after": "사업명 부처\n참\n여\n내역사업명 총예산",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 114,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 106,
+    "text_characters": 921,
+    "heading_candidates": [
+      "1. 실 용 화 •사 업 화 계획",
+      "□ 재난안전관리 기술로 활용)",
+      "□ (기반기술 및 요소 기술로 활용》",
+      "제4장 성과 활용방안 및 기대효과"
+    ],
+    "section_context_candidate": "1. 실 용 화 •사 업 화 계획",
+    "prior_heading_candidate": {
+      "text": "□ 주관 • 협력부처간 긴밀한 협력을 통해 하나의 플랫폼 개발 및 현장적용",
+      "pdf_page": 104
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 107,
+    "text_characters": 920,
+    "heading_candidates": [
+      "□ 미래도시 복합재난 장치 신속 활용"
+    ],
+    "section_context_candidate": "□ 미래도시 복합재난 장치 신속 활용",
+    "prior_heading_candidate": {
+      "text": "제4장 성과 활용방안 및 기대효과",
+      "pdf_page": 106
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "[그림 4-1] 비즈니스 모델: 민간사업자 주도의 미래도시 복합재난관리 구성도(안)",
+        "line_index": 32,
+        "toc_like": false,
+        "before": "미 래 도 시 복 합 재 난 관 리\n기상청/민간 미래도시 복 합 재 난 관 리\n디지 털 플 랫 -\n지자체/민간",
+        "after": "- 89 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "text_candidate_may_be_caption_or_body_reference"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 41,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          130.8,
+          88.58,
+          464.4,
+          309.62
+        ],
+        "page_area_fraction": 0.1472
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 108,
+    "text_characters": 973,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미래도시 복합재난 장치 신속 활용",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난 장치 신속 활용",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 30,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 109,
+    "text_characters": 532,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미래도시 복합재난 장치 신속 활용",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난 장치 신속 활용",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 17,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 110,
+    "text_characters": 969,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미래도시 복합재난 장치 신속 활용",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난 장치 신속 활용",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 55,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 111,
+    "text_characters": 724,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미래도시 복합재난 장치 신속 활용",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난 장치 신속 활용",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 28,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 112,
+    "text_characters": 1667,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미래도시 복합재난 장치 신속 활용",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난 장치 신속 활용",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 135,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          841.9,
+          595.2
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 113,
+    "text_characters": 1506,
+    "heading_candidates": [],
+    "section_context_candidate": "□ 미래도시 복합재난 장치 신속 활용",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난 장치 신속 활용",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 112,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          841.9,
+          595.2
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 114,
+    "text_characters": 1500,
+    "heading_candidates": [
+      "1. 소방법에서 소방 시설 유"
+    ],
+    "section_context_candidate": "1. 소방법에서 소방 시설 유",
+    "prior_heading_candidate": {
+      "text": "□ 미래도시 복합재난 장치 신속 활용",
+      "pdf_page": 107
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 116,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          841.9,
+          595.2
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 115,
+    "text_characters": 464,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 소방법에서 소방 시설 유",
+    "prior_heading_candidate": {
+      "text": "1. 소방법에서 소방 시설 유",
+      "pdf_page": 114
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          841.9,
+          595.2
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 116,
+    "text_characters": 1278,
+    "heading_candidates": [],
+    "section_context_candidate": "1. 소방법에서 소방 시설 유",
+    "prior_heading_candidate": {
+      "text": "1. 소방법에서 소방 시설 유",
+      "pdf_page": 114
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "공동기획 선정/중간컨설팅 검토의견",
+        "line_index": 0,
+        "toc_like": false,
+        "before": "",
+        "after": "공동기획과제 서류평가 의견 반영 현황\no 과기부의 디지털트윈 핵심원 및 다양한 개\n발과제와의 차별성과 연계성을 어떻게 가져\n갈 것인가는 추후 발표때 확인이 필요",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 76,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 117,
+    "text_characters": 1373,
+    "heading_candidates": [
+      "0 과기부에서 추진하고 있는 '지하공동"
+    ],
+    "section_context_candidate": "0 과기부에서 추진하고 있는 '지하공동",
+    "prior_heading_candidate": {
+      "text": "1. 소방법에서 소방 시설 유",
+      "pdf_page": 114
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 84,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 118,
+    "text_characters": 1445,
+    "heading_candidates": [
+      "0 기개발된(스마트시티 예타사업ᅵ 스마트시티"
+    ],
+    "section_context_candidate": "0 기개발된(스마트시티 예타사업ᅵ 스마트시티",
+    "prior_heading_candidate": {
+      "text": "0 과기부에서 추진하고 있는 '지하공동",
+      "pdf_page": 117
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 68,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 119,
+    "text_characters": 1336,
+    "heading_candidates": [],
+    "section_context_candidate": "0 기개발된(스마트시티 예타사업ᅵ 스마트시티",
+    "prior_heading_candidate": {
+      "text": "0 기개발된(스마트시티 예타사업ᅵ 스마트시티",
+      "pdf_page": 118
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 88,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 120,
+    "text_characters": 1308,
+    "heading_candidates": [],
+    "section_context_candidate": "0 기개발된(스마트시티 예타사업ᅵ 스마트시티",
+    "prior_heading_candidate": {
+      "text": "0 기개발된(스마트시티 예타사업ᅵ 스마트시티",
+      "pdf_page": 118
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 61,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 121,
+    "text_characters": 1142,
+    "heading_candidates": [],
+    "section_context_candidate": "0 기개발된(스마트시티 예타사업ᅵ 스마트시티",
+    "prior_heading_candidate": {
+      "text": "0 기개발된(스마트시티 예타사업ᅵ 스마트시티",
+      "pdf_page": 118
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 57,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.9,
+          129.85,
+          516.94,
+          222.97
+        ],
+        "page_area_fraction": 0.0656
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 122,
+    "text_characters": 1198,
+    "heading_candidates": [
+      "■ 빌딩풍 : 부산시 지역현안사업에서 결과가 좋지 않았음 (빌딩풍의 경우"
+    ],
+    "section_context_candidate": "■ 빌딩풍 : 부산시 지역현안사업에서 결과가 좋지 않았음 (빌딩풍의 경우",
+    "prior_heading_candidate": {
+      "text": "0 기개발된(스마트시티 예타사업ᅵ 스마트시티",
+      "pdf_page": 118
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 55,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 123,
+    "text_characters": 1710,
+    "heading_candidates": [
+      "3. 실증 지역 관련 논의",
+      "4. 회의 참석 기관 활용 방안 토의 및 기획 과제 관련 요구사항"
+    ],
+    "section_context_candidate": "3. 실증 지역 관련 논의",
+    "prior_heading_candidate": {
+      "text": "■ 빌딩풍 : 부산시 지역현안사업에서 결과가 좋지 않았음 (빌딩풍의 경우",
+      "pdf_page": 122
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 71,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 124,
+    "text_characters": 1104,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 회의 참석 기관 활용 방안 토의 및 기획 과제 관련 요구사항",
+    "prior_heading_candidate": {
+      "text": "4. 회의 참석 기관 활용 방안 토의 및 기획 과제 관련 요구사항",
+      "pdf_page": 123
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 65,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.9,
+          103.69,
+          485.74,
+          222.97
+        ],
+        "page_area_fraction": 0.0766
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 125,
+    "text_characters": 193,
+    "heading_candidates": [],
+    "section_context_candidate": "4. 회의 참석 기관 활용 방안 토의 및 기획 과제 관련 요구사항",
+    "prior_heading_candidate": {
+      "text": "4. 회의 참석 기관 활용 방안 토의 및 기획 과제 관련 요구사항",
+      "pdf_page": 123
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 6,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 126,
+    "text_characters": 1466,
+    "heading_candidates": [
+      "■ 스팟 로봇을 활용한 공공시설 (교각 , 등) 안전 모니터링 , 홍보",
+      "■ 연계 실증 시 고려할 점 : 데이터 연계 이슈, 센서 활용 및 설치 이슈"
+    ],
+    "section_context_candidate": "■ 스팟 로봇을 활용한 공공시설 (교각 , 등) 안전 모니터링 , 홍보",
+    "prior_heading_candidate": {
+      "text": "4. 회의 참석 기관 활용 방안 토의 및 기획 과제 관련 요구사항",
+      "pdf_page": 123
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 67,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 127,
+    "text_characters": 696,
+    "heading_candidates": [
+      "■ 버스위치 정보와 교통카드 정보를 활용",
+      "■ 신호체계는 TO D (Tim e O f D ay) 를 6~8개 두어 신호 패턴을 시간대로 활용"
+    ],
+    "section_context_candidate": "■ 버스위치 정보와 교통카드 정보를 활용",
+    "prior_heading_candidate": {
+      "text": "■ 연계 실증 시 고려할 점 : 데이터 연계 이슈, 센서 활용 및 설치 이슈",
+      "pdf_page": 126
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 51,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.9,
+          334.06,
+          530.62,
+          431.02
+        ],
+        "page_area_fraction": 0.071
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 128,
+    "text_characters": 1227,
+    "heading_candidates": [
+      "1. 부산광역시 안전정책과장 실증지 협업 회의"
+    ],
+    "section_context_candidate": "1. 부산광역시 안전정책과장 실증지 협업 회의",
+    "prior_heading_candidate": {
+      "text": "■ 신호체계는 TO D (Tim e O f D ay) 를 6~8개 두어 신호 패턴을 시간대로 활용",
+      "pdf_page": 127
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 59,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 129,
+    "text_characters": 1241,
+    "heading_candidates": [
+      "■ 위험 평가",
+      "■ 도시계획과 연계한 재난안전",
+      "■ 부산 도시기본계획 공청회 자료 확인 필요."
+    ],
+    "section_context_candidate": "■ 위험 평가",
+    "prior_heading_candidate": {
+      "text": "1. 부산광역시 안전정책과장 실증지 협업 회의",
+      "pdf_page": 128
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 61,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 130,
+    "text_characters": 1482,
+    "heading_candidates": [
+      "■ C C T V, 시계열 데이터 활용",
+      "■ 대민 C C T V를 활용, 30일 이후 삭제",
+      "■ 10, 30, 1시간 시뮬레이션 프로그램으로 활용",
+      "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )"
+    ],
+    "section_context_candidate": "■ C C T V, 시계열 데이터 활용",
+    "prior_heading_candidate": {
+      "text": "■ 부산 도시기본계획 공청회 자료 확인 필요.",
+      "pdf_page": 129
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 101,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 131,
+    "text_characters": 1177,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+    "prior_heading_candidate": {
+      "text": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+      "pdf_page": 130
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 75,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 132,
+    "text_characters": 1035,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+    "prior_heading_candidate": {
+      "text": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+      "pdf_page": 130
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 47,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 133,
+    "text_characters": 96,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+    "prior_heading_candidate": {
+      "text": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+      "pdf_page": 130
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 2,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.0,
+          595.25,
+          841.95
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.35,
+          662.78,
+          536.14,
+          768.55
+        ],
+        "page_area_fraction": 0.1006
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 134,
+    "text_characters": 1187,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+    "prior_heading_candidate": {
+      "text": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+      "pdf_page": 130
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 65,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 135,
+    "text_characters": 972,
+    "heading_candidates": [
+      "■ 실증을 위한 규제 샌드박스"
+    ],
+    "section_context_candidate": "■ 실증을 위한 규제 샌드박스",
+    "prior_heading_candidate": {
+      "text": "■ 침수 상승 속도 및 골든타임 분석 (국립재난안전연구원 )",
+      "pdf_page": 130
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "개방형 표준 플랫폼",
+        "line_index": 30,
+        "toc_like": false,
+        "before": "기술연구원 )\n- KISA : 물리보안 시스템과 이동 센서 연동\n- 인파관리 시스템\n- 미세먼지, 객체인식 C C T V (밀집도관리 )",
+        "after": "- 117 -\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 49,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.9,
+          101.29,
+          530.86,
+          222.97
+        ],
+        "page_area_fraction": 0.0891
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 136,
+    "text_characters": 1253,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 실증을 위한 규제 샌드박스",
+    "prior_heading_candidate": {
+      "text": "■ 실증을 위한 규제 샌드박스",
+      "pdf_page": 135
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 69,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 137,
+    "text_characters": 227,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 실증을 위한 규제 샌드박스",
+    "prior_heading_candidate": {
+      "text": "■ 실증을 위한 규제 샌드박스",
+      "pdf_page": 135
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 7,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.9,
+          596.63,
+          527.74,
+          686.87
+        ],
+        "page_area_fraction": 0.0655
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 138,
+    "text_characters": 1520,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 실증을 위한 규제 샌드박스",
+    "prior_heading_candidate": {
+      "text": "■ 실증을 위한 규제 샌드박스",
+      "pdf_page": 135
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 75,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 139,
+    "text_characters": 1439,
+    "heading_candidates": [
+      "■ 빌딩풍등을 활용"
+    ],
+    "section_context_candidate": "■ 빌딩풍등을 활용",
+    "prior_heading_candidate": {
+      "text": "■ 실증을 위한 규제 샌드박스",
+      "pdf_page": 135
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 85,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 140,
+    "text_characters": 109,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 빌딩풍등을 활용",
+    "prior_heading_candidate": {
+      "text": "■ 빌딩풍등을 활용",
+      "pdf_page": 139
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 3,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.15,
+          841.99
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.15,
+          638.9,
+          526.26,
+          751.08
+        ],
+        "page_area_fraction": 0.0813
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 141,
+    "text_characters": 1221,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 빌딩풍등을 활용",
+    "prior_heading_candidate": {
+      "text": "■ 빌딩풍등을 활용",
+      "pdf_page": 139
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 49,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 142,
+    "text_characters": 775,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 빌딩풍등을 활용",
+    "prior_heading_candidate": {
+      "text": "■ 빌딩풍등을 활용",
+      "pdf_page": 139
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 33,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          163.9,
+          320.38,
+          523.9,
+          426.22
+        ],
+        "page_area_fraction": 0.076
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 143,
+    "text_characters": 1177,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 빌딩풍등을 활용",
+    "prior_heading_candidate": {
+      "text": "■ 빌딩풍등을 활용",
+      "pdf_page": 139
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 70,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 144,
+    "text_characters": 846,
+    "heading_candidates": [
+      "■ 중장기, 경제성 평가, 예산 IS P(2024~ ) 작업 진행 중, 자문회의 운영"
+    ],
+    "section_context_candidate": "■ 중장기, 경제성 평가, 예산 IS P(2024~ ) 작업 진행 중, 자문회의 운영",
+    "prior_heading_candidate": {
+      "text": "■ 빌딩풍등을 활용",
+      "pdf_page": 139
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 55,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.15,
+          841.99
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.1,
+          349.48,
+          526.01,
+          456.64
+        ],
+        "page_area_fraction": 0.0774
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 145,
+    "text_characters": 1284,
+    "heading_candidates": [
+      "1. 복합재난연구단 사례 소개",
+      "■ 시뮬레이터 및 평가 기술",
+      "■ 재연 시스템 H /W 개발",
+      "■ 비화재보를 위해 복합센서를 활용 (습도, 연기 상관관계, 4계절 민감도 확인,"
+    ],
+    "section_context_candidate": "1. 복합재난연구단 사례 소개",
+    "prior_heading_candidate": {
+      "text": "■ 중장기, 경제성 평가, 예산 IS P(2024~ ) 작업 진행 중, 자문회의 운영",
+      "pdf_page": 144
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 88,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 146,
+    "text_characters": 1382,
+    "heading_candidates": [
+      "■ 실증 설치 후, 이관 (4년 후)가능. 떼가도 되고, 주면 별도로 쓰기로 함",
+      "■ 기술 설명서 작성 내용 전달, 동영상",
+      "■ 가장 쓸만한 성과",
+      "■ S O P를 콘티 짜듯이 화면으로 설계해서 개발 -> 작동",
+      "■ 소화탄 활용",
+      "■ 초고층 화재 시 탈출을위한 A c tu a to r 개발 (레일 등 대피 방법론 필요)"
+    ],
+    "section_context_candidate": "■ 실증 설치 후, 이관 (4년 후)가능. 떼가도 되고, 주면 별도로 쓰기로 함",
+    "prior_heading_candidate": {
+      "text": "■ 비화재보를 위해 복합센서를 활용 (습도, 연기 상관관계, 4계절 민감도 확인,",
+      "pdf_page": 145
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 80,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 147,
+    "text_characters": 1181,
+    "heading_candidates": [
+      "■ 국토정보원 (12cm , 연구, 정부 ) , 일반공개 (25cm )"
+    ],
+    "section_context_candidate": "■ 국토정보원 (12cm , 연구, 정부 ) , 일반공개 (25cm )",
+    "prior_heading_candidate": {
+      "text": "■ 초고층 화재 시 탈출을위한 A c tu a to r 개발 (레일 등 대피 방법론 필요)",
+      "pdf_page": 146
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 80,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 148,
+    "text_characters": 1227,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 국토정보원 (12cm , 연구, 정부 ) , 일반공개 (25cm )",
+    "prior_heading_candidate": {
+      "text": "■ 국토정보원 (12cm , 연구, 정부 ) , 일반공개 (25cm )",
+      "pdf_page": 147
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 66,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 149,
+    "text_characters": 1373,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 국토정보원 (12cm , 연구, 정부 ) , 일반공개 (25cm )",
+    "prior_heading_candidate": {
+      "text": "■ 국토정보원 (12cm , 연구, 정부 ) , 일반공개 (25cm )",
+      "pdf_page": 147
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 81,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          0.02,
+          595.2,
+          841.92
+        ],
+        "page_area_fraction": 1.0
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 150,
+    "text_characters": 280,
+    "heading_candidates": [],
+    "section_context_candidate": "■ 국토정보원 (12cm , 연구, 정부 ) , 일반공개 (25cm )",
+    "prior_heading_candidate": {
+      "text": "■ 국토정보원 (12cm , 연구, 정부 ) , 일반공개 (25cm )",
+      "pdf_page": 147
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 25,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          0.0,
+          -0.01,
+          595.15,
+          841.99
+        ],
+        "page_area_fraction": 1.0
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          164.1,
+          557.82,
+          530.08,
+          654.94
+        ],
+        "page_area_fraction": 0.0709
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

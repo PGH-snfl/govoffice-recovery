@@ -1,0 +1,1999 @@
+[
+  {
+    "audit_version": 2,
+    "pdf_page": 1,
+    "text_characters": 407,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 77,
+      "2": 16,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 2,
+    "text_characters": 577,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "3": 3,
+      "1": 164,
+      "5": 4
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          -5.55,
+          -3.32,
+          600.55,
+          844.32
+        ],
+        "page_area_fraction": 1.0267
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          61.22,
+          86.36,
+          528.56,
+          683.31
+        ],
+        "page_area_fraction": 0.5575
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 3,
+    "text_characters": 2186,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 454,
+      "2": 171,
+      "5": 4
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 4,
+    "text_characters": 2113,
+    "heading_candidates": [],
+    "section_context_candidate": null,
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 560,
+      "2": 60,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 5,
+    "text_characters": 2013,
+    "heading_candidates": [
+      "15. 저작도구 기능성 검증 %",
+      "20. 카메라 ISP–잡음 제거 성능 검증 dB 2.0 이상 2.55 100",
+      "24. 비네팅 효과 추가/제거 구현 수준 건 3 이상 3 100",
+      "31. 리빙랩 검증용 가상 주행환경 에셋 구축 건 50 63 100",
+      "32. 리빙랩 검증용 에피소드 기반 가상 자율주행"
+    ],
+    "section_context_candidate": "15. 저작도구 기능성 검증 %",
+    "prior_heading_candidate": null,
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 531,
+      "2": 60,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 6,
+    "text_characters": 1478,
+    "heading_candidates": [],
+    "section_context_candidate": "32. 리빙랩 검증용 에피소드 기반 가상 자율주행",
+    "prior_heading_candidate": {
+      "text": "32. 리빙랩 검증용 에피소드 기반 가상 자율주행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 396,
+      "2": 7,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 7,
+    "text_characters": 1471,
+    "heading_candidates": [
+      "33 22 - - - 13 - - - - - - 연구시설ㆍ장비"
+    ],
+    "section_context_candidate": "33 22 - - - 13 - - - - - - 연구시설ㆍ장비",
+    "prior_heading_candidate": {
+      "text": "32. 리빙랩 검증용 에피소드 기반 가상 자율주행",
+      "pdf_page": 5
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 345,
+      "2": 88,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 8,
+    "text_characters": 875,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용 .............................................................. 13",
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도....................................................... 38",
+      "4. 목표 미달 또는 미흡한 사항에 대한 분석 ............................................................ 54",
+      "5. 연구개발성과의 관련 분야에 대한 기여 정도........................................................ 54",
+      "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획 ............................................. 57"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용 .............................................................. 13",
+    "prior_heading_candidate": {
+      "text": "33 22 - - - 13 - - - - - - 연구시설ㆍ장비",
+      "pdf_page": 7
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 9,
+    "text_characters": 1290,
+    "heading_candidates": [
+      "1. 연구개발과제의 개요",
+      "2) 세부 기술 내용"
+    ],
+    "section_context_candidate": "1. 연구개발과제의 개요",
+    "prior_heading_candidate": {
+      "text": "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획 ............................................. 57",
+      "pdf_page": 8
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 그림 2 본 과제 개발 시뮬레이터 동작 및 기능 개념도 ",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "자율주행 SW의 실도로 주행시 한계점을 발견하고, 위험상황 발생시 능동적인 대응 방안을 선\n행적으로 검증하여 시스템의 문제점을 개선하기 위해, 센서의 센싱특성과, 비정형 주행환경을\n모사하여 제공함으로써, 자율주행 SW의 인공지능 기반 인지판단, 경로제어 알고리즘의 안정성\n을 검증하는 시뮬레이션 SW(시뮬레이터) 개발",
+        "after": "2) 세부 기술 내용\n① 비정형 주행환경 대응 자율주행 시뮬레이터 개발\nŸ 비정형 주행환경 대응 시뮬레이션 엔진 기술 개발\nŸ 비정형 주행환경 대응 객체 모델링 등 자율주행 시뮬레이터 저작도구 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 330,
+      "3": 1,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.43,
+          557.27,
+          510.69,
+          691.16
+        ],
+        "page_area_fraction": 0.11
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 10,
+    "text_characters": 906,
+    "heading_candidates": [
+      "3) 기술 개발의 필요성"
+    ],
+    "section_context_candidate": "3) 기술 개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "2) 세부 기술 내용",
+      "pdf_page": 9
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 그림 3 본 과제 개발 시뮬레이터 구성 및 세부 기능블록 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 10 -",
+        "after": "3) 기술 개발의 필요성\n① 정부 지원의 필요성\nŸ 비정형 자율주행 검증에 대한 요구 증가\n: 최근 자율주행 관련 사고가 많이 발생하여 자율주행 자동차의 안전성에 대한 불안감이",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": " 그림 4 이면도로 비정형 주행환경의 예 ",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "증폭되고 있으며, 실도로에서 자율주행차를 검증하기에는 규제 및 비용 측면에서 많은\n어려움이 존재하므로, 정부 차원의 지원이 필요함\n: 특히 이면도로 등에서의 비정형 자율주행 검증은 일반 도로보다 더 많은 돌발상황 및\n열악한 환경에서 수행하므로 정부 차원의 지원이 꼭 필요함",
+        "after": "Ÿ 효과적인 완전자율주행 서비스 구현을 위한 유효성 검증\n: 완전자율주행 서비스 구현을 위해서는 다양한 운용 환경에 대한 광범위의 데이터 구\n축·공유를 기반으로 하는 유효성 검증이 필수로 요구되나 이를 실 환경 기반으로 구현\n이 어려우므로 이를 효과적으로 구축하고 공융하기 위한 정부차원의 지원이 필요함",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 219,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          85.87,
+          611.09,
+          509.37,
+          798.57
+        ],
+        "page_area_fraction": 0.1587
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.36,
+          312.26,
+          514.76,
+          407.91
+        ],
+        "page_area_fraction": 0.083
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 11,
+    "text_characters": 1723,
+    "heading_candidates": [],
+    "section_context_candidate": "3) 기술 개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "3) 기술 개발의 필요성",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 441,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 12,
+    "text_characters": 1165,
+    "heading_candidates": [],
+    "section_context_candidate": "3) 기술 개발의 필요성",
+    "prior_heading_candidate": {
+      "text": "3) 기술 개발의 필요성",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 270,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 13,
+    "text_characters": 1356,
+    "heading_candidates": [
+      "2. 연구개발과제의 수행 과정 및 수행 내용",
+      "2-1. 기술개발 추진 일정",
+      "2 기능별 동작 검증 및 기능블록간 연동",
+      "7 레이더 센서 에뮬레이션 로직 개발 및",
+      "8 학습, 테스트 및 검증용 데이터셋 1차",
+      "9 성능분석 및 벤치마킹 로직 개발 100%",
+      "10 데이터셋 기반 성능 공개 검증위한",
+      "2 기능별 동작 검증 및 기능블록간 연동"
+    ],
+    "section_context_candidate": "2. 연구개발과제의 수행 과정 및 수행 내용",
+    "prior_heading_candidate": {
+      "text": "3) 기술 개발의 필요성",
+      "pdf_page": 10
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 341,
+      "2": 828,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 14,
+    "text_characters": 1198,
+    "heading_candidates": [
+      "8 학습, 테스트 및 검증용 데이터셋",
+      "9 학습, 테스트 및 검증용 데이터셋",
+      "11 시뮬레이터 기반 유효성 검증 및 보완 100%",
+      "2 자율주행 알고리즘 검증 환경 개발 100%",
+      "4 자율주행 컴퓨팅 환경 실증 테스트 100%",
+      "4 자율주행 시뮬레이터 통합 검증 100%",
+      "2 시뮬레이션 엔진 프로토타입 개발 100%",
+      "3 자율주행 시뮬레이터 프로토타입 개발 100%",
+      "4 자율주행 저작도구 프로토타입 개발 100%",
+      "1 시뮬레이션 유효성 검증 및 평가 기술"
+    ],
+    "section_context_candidate": "8 학습, 테스트 및 검증용 데이터셋",
+    "prior_heading_candidate": {
+      "text": "2 기능별 동작 검증 및 기능블록간 연동",
+      "pdf_page": 13
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 304,
+      "2": 1085,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 15,
+    "text_characters": 1313,
+    "heading_candidates": [
+      "3 비네팅 효과 조절 (Midpoint, Amount,",
+      "3 Auto exposure 처리기능 개발 100%",
+      "1 라이다 시뮬레이션 선행연구 분석 및",
+      "2 신호, 기하, 복사 모델링 기법 연구"
+    ],
+    "section_context_candidate": "3 비네팅 효과 조절 (Midpoint, Amount,",
+    "prior_heading_candidate": {
+      "text": "1 시뮬레이션 유효성 검증 및 평가 기술",
+      "pdf_page": 14
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 350,
+      "2": 832,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 16,
+    "text_characters": 1368,
+    "heading_candidates": [
+      "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용"
+    ],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2 신호, 기하, 복사 모델링 기법 연구",
+      "pdf_page": 15
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "주관연구개발기관: 한국전자기술연구원",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "※ 개발내용의 경우 연구개발계획서 내용에 근거하여 작성할 것\n당초계획\n개발실적\n2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+        "after": "(1차년도)\no 프로젝트 운용 환경 구축\nŸ 참여기관간 정보 운용 체계 정의 및 PMS(Project Management System) 구축\n- 업무일정관리, 문서체계 및 결과물 공유를 위한 기본 PMS 체계 구축",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 345,
+      "2": 254,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 17,
+    "text_characters": 1764,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 502,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 18,
+    "text_characters": 1635,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 448,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 19,
+    "text_characters": 1767,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 484,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 20,
+    "text_characters": 1620,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 420,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 21,
+    "text_characters": 1699,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 471,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 22,
+    "text_characters": 1734,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 479,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 23,
+    "text_characters": 1218,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "공동연구개발기관: 이노시뮬레이션",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 23 -\n: 그라운드 룰 검증 및 통합 운용 검증 환경 정의\n: 실 자율주행차와 시뮬레이션 통합 운용 VIL 시스템 기반 그라운드 룰 검증 수행\nŸ 첨부1.3.6_그라운드룰 정의 및 시뮬레이터 기반 검증 참조",
+        "after": "(1차년도)\no 시뮬레이션 엔진 구조 개발\nŸ 시뮬레이션 엔진 기본 구조 설계 및 개발\n- 자율주행 시뮬레이터 구조 개발",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 346,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 24,
+    "text_characters": 1504,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 445,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 25,
+    "text_characters": 1320,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 405,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 26,
+    "text_characters": 1450,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 409,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 27,
+    "text_characters": 1337,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 375,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 28,
+    "text_characters": 1261,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "공동연구개발기관: 지능형자동차부품진흥원",
+        "line_index": 37,
+        "toc_like": false,
+        "before": "Ÿ 입력 데이터에 의한 자율주행 이동경로 지능적 자동 생성\n- 자율주행 경로 생성 시스템\n: 동적 객체 자동 생성 및 경로 생성 시스템 개발\n: 첨부2.3_3차년도-자율주행 저작도구의 3.1 참조",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 356,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 29,
+    "text_characters": 1874,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 531,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 30,
+    "text_characters": 1862,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 545,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 31,
+    "text_characters": 1483,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "공동연구개발기관: 고려대학교",
+        "line_index": 21,
+        "toc_like": false,
+        "before": ": 첨부3.3.2_기술문서-PG 기반 시뮬레이션 유효성 평가 및 검증 2.1 참조\nŸ 차량에 탑재된 시뮬레이터의 Real-time 안전성 검증\n- PG 기반 장애물 회피 알고리즘 성능 평가 기반 Real-time 안전성 분석\n: 첨부3.3.3_기술문서-PG 기반 VIL 시스템의 Real-time 안전성 분석 3.1 참조",
+        "after": "(1차년도)\no 카메라 모델링 기법 및 방법 연구 및 구현\nŸ 환경 조건별 카메라 센서 동작 조사 및 분석\n- 실제 자율주행 환경 모사를 위한 요소기술 조사",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "첨부자료 4.1",
+        "line_index": 26,
+        "toc_like": false,
+        "before": "(1차년도)\no 카메라 모델링 기법 및 방법 연구 및 구현\nŸ 환경 조건별 카메라 센서 동작 조사 및 분석\n- 실제 자율주행 환경 모사를 위한 요소기술 조사",
+        "after": "- White balance, Color correction, Gamma correction, Edge enhancement,\nContrast enhancement 등의 카메라 ISP 요소기술 조사\n- 중간값 필터 기반 영상 잡음 제거, 감마 보정 기반 자동 노출 기술, 영상 색감 조정\n모듈로 구성된 ISP 알고리즘 구현 및 이에 따른 처리 과정 구현",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "첨부자료 4.2",
+        "line_index": 35,
+        "toc_like": false,
+        "before": "o 시뮬레이터 인터페이스 규격 정의\n- 자율주행 시뮬레이터의 렌더링 성능 및 결과 영상분석\n- 렌더링 된 영상에서 요구되는 카메라 ISP 기술 필요 사항/사양 도출\n(2차년도)",
+        "after": "국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 398,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 32,
+    "text_characters": 533,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "시뮬레이터 영상 렌즈 왜곡 적용 결과 이미지",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 32 -\nŸ 일반렌즈/광각렌즈/어안렌즈에 따른 기하학적 왜곡 추가/왜곡 보정 알고리즘 구현 완료",
+        "after": "Ÿ 비네팅 효과 추가/제거 알고리즘 구현 완료\n<시뮬레이터 영상 비네팅 적용 결과 이미지>\no 조건 변화에 따른 영상 후처리 모듈 개발 [첨부자료 4.3]\nŸ LDR 단일 입력영상(8bit)으로부터 HDR Data(32bit)를 획득하는 알고리즘 구현 완료",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "시뮬레이터 영상 비네팅 적용 결과 이미지",
+        "line_index": 4,
+        "toc_like": false,
+        "before": "- 32 -\nŸ 일반렌즈/광각렌즈/어안렌즈에 따른 기하학적 왜곡 추가/왜곡 보정 알고리즘 구현 완료\n<시뮬레이터 영상 렌즈 왜곡 적용 결과 이미지>\nŸ 비네팅 효과 추가/제거 알고리즘 구현 완료",
+        "after": "o 조건 변화에 따른 영상 후처리 모듈 개발 [첨부자료 4.3]\nŸ LDR 단일 입력영상(8bit)으로부터 HDR Data(32bit)를 획득하는 알고리즘 구현 완료\n<단일 LDR영상으로부터 HDR data를 얻어내는 과정>\nŸ 획득한 HDR Data에 다양한 Tone-Mapping (CRF모델) 알고리즘을 적용하여, Dynamic Range가 개선된 영상",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "첨부자료 4.3",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "Ÿ 일반렌즈/광각렌즈/어안렌즈에 따른 기하학적 왜곡 추가/왜곡 보정 알고리즘 구현 완료\n<시뮬레이터 영상 렌즈 왜곡 적용 결과 이미지>\nŸ 비네팅 효과 추가/제거 알고리즘 구현 완료\n<시뮬레이터 영상 비네팅 적용 결과 이미지>",
+        "after": "Ÿ LDR 단일 입력영상(8bit)으로부터 HDR Data(32bit)를 획득하는 알고리즘 구현 완료\n<단일 LDR영상으로부터 HDR data를 얻어내는 과정>\nŸ 획득한 HDR Data에 다양한 Tone-Mapping (CRF모델) 알고리즘을 적용하여, Dynamic Range가 개선된 영상\n(8bit) 획득하는 알고리즘 구현 완료",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "단일 LDR영상으로부터 HDR data를 얻어내는 과정",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "Ÿ 비네팅 효과 추가/제거 알고리즘 구현 완료\n<시뮬레이터 영상 비네팅 적용 결과 이미지>\no 조건 변화에 따른 영상 후처리 모듈 개발 [첨부자료 4.3]\nŸ LDR 단일 입력영상(8bit)으로부터 HDR Data(32bit)를 획득하는 알고리즘 구현 완료",
+        "after": "Ÿ 획득한 HDR Data에 다양한 Tone-Mapping (CRF모델) 알고리즘을 적용하여, Dynamic Range가 개선된 영상\n(8bit) 획득하는 알고리즘 구현 완료\n<Tone Mapping 알고리즘 적용 후 LDR 영상 예시>\nŸ 감마 보정 알고리즘 기반의 Auto exposure 기능 구현 완료",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "Tone Mapping 알고리즘 적용 후 LDR 영상 예시",
+        "line_index": 10,
+        "toc_like": false,
+        "before": "Ÿ LDR 단일 입력영상(8bit)으로부터 HDR Data(32bit)를 획득하는 알고리즘 구현 완료\n<단일 LDR영상으로부터 HDR data를 얻어내는 과정>\nŸ 획득한 HDR Data에 다양한 Tone-Mapping (CRF모델) 알고리즘을 적용하여, Dynamic Range가 개선된 영상\n(8bit) 획득하는 알고리즘 구현 완료",
+        "after": "Ÿ 감마 보정 알고리즘 기반의 Auto exposure 기능 구현 완료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 122,
+      "3": 6,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          374.92,
+          681.81,
+          530.71,
+          780.95
+        ],
+        "page_area_fraction": 0.0309
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          63.33,
+          681.81,
+          219.12,
+          780.95
+        ],
+        "page_area_fraction": 0.0309
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          219.12,
+          681.81,
+          374.92,
+          780.95
+        ],
+        "page_area_fraction": 0.0309
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          48.21,
+          498.3,
+          523.4,
+          590.83
+        ],
+        "page_area_fraction": 0.0879
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          59.97,
+          304.83,
+          523.28,
+          411.75
+        ],
+        "page_area_fraction": 0.099
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.72,
+          123.46,
+          529.16,
+          223.67
+        ],
+        "page_area_fraction": 0.0904
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 33,
+    "text_characters": 437,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "감마보정 기반 자동 노출 알고리즘 적용 영상 예제",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 33 -",
+        "after": "o 1차 검증을 위한 시뮬레이션 환경 구축 및 연동 평가 수행 [첨부자료 4.4]\nŸ 시뮬레이터 플랫폼 (Unity, C#)기반 센서 에뮬레이션 공용 Interface 구현 완료\n: Unity 환경에서 카메라 영상 획득, 카메라 모사, 이미지 전송 작업등을 담당하는 공용 Interface 구현\n<센서 에뮬레이션 공용 인터페이스 도식도>",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "첨부자료 4.4",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 33 -\n<감마보정 기반 자동 노출 알고리즘 적용 영상 예제>",
+        "after": "Ÿ 시뮬레이터 플랫폼 (Unity, C#)기반 센서 에뮬레이션 공용 Interface 구현 완료\n: Unity 환경에서 카메라 영상 획득, 카메라 모사, 이미지 전송 작업등을 담당하는 공용 Interface 구현\n<센서 에뮬레이션 공용 인터페이스 도식도>\nŸ 카메라 모사 기능 관련 알고리즘 DLL 구현 및 적용, 연동평가 완료",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "센서 에뮬레이션 공용 인터페이스 도식도",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "<감마보정 기반 자동 노출 알고리즘 적용 영상 예제>\no 1차 검증을 위한 시뮬레이션 환경 구축 및 연동 평가 수행 [첨부자료 4.4]\nŸ 시뮬레이터 플랫폼 (Unity, C#)기반 센서 에뮬레이션 공용 Interface 구현 완료\n: Unity 환경에서 카메라 영상 획득, 카메라 모사, 이미지 전송 작업등을 담당하는 공용 Interface 구현",
+        "after": "Ÿ 카메라 모사 기능 관련 알고리즘 DLL 구현 및 적용, 연동평가 완료\n<시뮬레이터 적용 예시>\n(3차년도)\no 렌즈 보정 모듈 개발 [첨부자료 4.2]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "시뮬레이터 적용 예시",
+        "line_index": 7,
+        "toc_like": false,
+        "before": "Ÿ 시뮬레이터 플랫폼 (Unity, C#)기반 센서 에뮬레이션 공용 Interface 구현 완료\n: Unity 환경에서 카메라 영상 획득, 카메라 모사, 이미지 전송 작업등을 담당하는 공용 Interface 구현\n<센서 에뮬레이션 공용 인터페이스 도식도>\nŸ 카메라 모사 기능 관련 알고리즘 DLL 구현 및 적용, 연동평가 완료",
+        "after": "(3차년도)\no 렌즈 보정 모듈 개발 [첨부자료 4.2]\nŸ 비네팅 효과 조절 도구 알고리즘 구현 완료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "첨부자료 4.2",
+        "line_index": 9,
+        "toc_like": false,
+        "before": "<센서 에뮬레이션 공용 인터페이스 도식도>\nŸ 카메라 모사 기능 관련 알고리즘 DLL 구현 및 적용, 연동평가 완료\n<시뮬레이터 적용 예시>\n(3차년도)",
+        "after": "Ÿ 비네팅 효과 조절 도구 알고리즘 구현 완료\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 102,
+      "3": 3,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          72.92,
+          663.35,
+          533.83,
+          798.57
+        ],
+        "page_area_fraction": 0.1245
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          133.01,
+          368.48,
+          479.02,
+          565.66
+        ],
+        "page_area_fraction": 0.1363
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          151.12,
+          159.66,
+          455.76,
+          305.07
+        ],
+        "page_area_fraction": 0.0885
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 34,
+    "text_characters": 1064,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "시뮬레이터 영상 비네팅 조절 알고리즘 적용 결과",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 34 -",
+        "after": "(파란색 box: amount기능, 빨간색 box: mid-point기능)\no 카메라 ISP–잡음 제거 성능 개선\nŸ 2차년도 성능 대비 최종목표 달성 (2.55 dB 개선)\n[공동연구개발기관: 서울시립대학교]",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "공동연구개발기관: 서울시립대학교",
+        "line_index": 5,
+        "toc_like": false,
+        "before": "<시뮬레이터 영상 비네팅 조절 알고리즘 적용 결과>\n(파란색 box: amount기능, 빨간색 box: mid-point기능)\no 카메라 ISP–잡음 제거 성능 개선\nŸ 2차년도 성능 대비 최종목표 달성 (2.55 dB 개선)",
+        "after": "(1차년도)\no 라이다 시뮬레이션 선행연구 분석 및 라이다 센서 조사/선정\nŸ 라이다 시뮬레이터로 구현할 라이다 센서 조사/선정\n- 자율주행차량에 탑재되는 센서를 고려한 라이다 센서 선정",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 288,
+      "3": 2,
+      "5": 1
+    },
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          710.1,
+          529.64,
+          798.57
+        ],
+        "page_area_fraction": 0.0833
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          58.17,
+          621.16,
+          529.64,
+          710.1
+        ],
+        "page_area_fraction": 0.0838
+      }
+    ],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 35,
+    "text_characters": 1369,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 369,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 36,
+    "text_characters": 1622,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 429,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 37,
+    "text_characters": 426,
+    "heading_candidates": [],
+    "section_context_candidate": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 89,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 38,
+    "text_characters": 1782,
+    "heading_candidates": [
+      "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+      "1) 연구수행 결과"
+    ],
+    "section_context_candidate": "3. 연구개발과제의 수행 결과 및 목표 달성 정도",
+    "prior_heading_candidate": {
+      "text": "2-2. 해당연도 연구개발기간 추진 실적 및 추진내용",
+      "pdf_page": 16
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 466,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 39,
+    "text_characters": 1853,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 499,
+      "2": 12,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 40,
+    "text_characters": 2185,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 582,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 41,
+    "text_characters": 2285,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 579,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 42,
+    "text_characters": 1851,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 479,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 43,
+    "text_characters": 1662,
+    "heading_candidates": [],
+    "section_context_candidate": "1) 연구수행 결과",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 정량적 연구개발성과표 ",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 43 -",
+        "after": "(단위 : 건, 천원)\n연도\n성과지표명\n1차년도",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": "에스시아이 Expanded(SCIE), 비SCIE, 평균Impact Factor(IF)",
+        "line_index": 37,
+        "toc_like": false,
+        "before": "(건)\n목표 0 2 2 4 - 실적 0 2 2 4 - 계\n- - - - - -\n- - - - - -",
+        "after": "ㆍ장비, 기술요약정보, 저작권(소프트웨어, 서적 등), 생명자원(생명정보, 생물자원), 표준화(국내, 국제), 화합물, 신품종 등을\n말하며, 논문, 학술발표, 특허의 경우 목표 대비 실적은 기재하지 않아도 됩니다.\n* 2」연구개발과제 특성 반영 지표: 기술실시(이전), 기술료, 사업화(투자실적, 제품화, 매출액, 수출액, 고용창출, 고용효과, 투자유\n치), 비용 절감, 기술(제품)인증, 시제품 제작 및 인증, 신기술지정, 무역수지개선, 경제적 파급효과, 산업지원(기술지도), 교육지",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      },
+      {
+        "text": " 연구개발성과 성능지표 ",
+        "line_index": 55,
+        "toc_like": false,
+        "before": "- 기관명 : ㈜이노시뮬레이션\n- 성과 : 2명 (청년비례)\no 상용화(매출실적) - 기관명 : ㈜이노시뮬레이션\n- 성과 : 사업화/매출 1건 (매출액 : 25,200(천원), 기여도 15%)",
+        "after": "(주요성능1」) 단위\n전체\n항목에\n서",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 528,
+      "2": 78,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 44,
+    "text_characters": 1639,
+    "heading_candidates": [
+      "24. 비네팅 효과 추가/",
+      "31. 리빙랩 검증용 가",
+      "32. 리빙랩 검증용 에"
+    ],
+    "section_context_candidate": "24. 비네팅 효과 추가/",
+    "prior_heading_candidate": {
+      "text": "1) 연구수행 결과",
+      "pdf_page": 38
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 509,
+      "2": 47,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 45,
+    "text_characters": 1697,
+    "heading_candidates": [],
+    "section_context_candidate": "32. 리빙랩 검증용 에",
+    "prior_heading_candidate": {
+      "text": "32. 리빙랩 검증용 에",
+      "pdf_page": 44
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 301,
+      "2": 59,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 46,
+    "text_characters": 1684,
+    "heading_candidates": [
+      "1 가상현실을 이용한 대한민국 한국전자 2019.11 10-2019 - - - - 100 미활용"
+    ],
+    "section_context_candidate": "1 가상현실을 이용한 대한민국 한국전자 2019.11 10-2019 - - - - 100 미활용",
+    "prior_heading_candidate": {
+      "text": "32. 리빙랩 검증용 에",
+      "pdf_page": 44
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 339,
+      "2": 115,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 47,
+    "text_characters": 2277,
+    "heading_candidates": [
+      "649 100 미활용 3",
+      "922 100 미활용 4",
+      "6799 - - - - 100 미활용 6",
+      "970 미활용",
+      "0154816 - - - - 100 미활용",
+      "0154789 - - - - 100 미활용",
+      "15 자율주행 도로 환경평가",
+      "0154619 - - - - 100 미활용",
+      "0154554 - - - - 100 미활용",
+      "0177313 - - - - 100 미활용",
+      "0187253 - - - - 100 미활용"
+    ],
+    "section_context_candidate": "649 100 미활용 3",
+    "prior_heading_candidate": {
+      "text": "1 가상현실을 이용한 대한민국 한국전자 2019.11 10-2019 - - - - 100 미활용",
+      "pdf_page": 46
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 463,
+      "2": 119,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 48,
+    "text_characters": 1616,
+    "heading_candidates": [],
+    "section_context_candidate": "0187253 - - - - 100 미활용",
+    "prior_heading_candidate": {
+      "text": "0187253 - - - - 100 미활용",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 285,
+      "2": 139,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 49,
+    "text_characters": 2282,
+    "heading_candidates": [],
+    "section_context_candidate": "0187253 - - - - 100 미활용",
+    "prior_heading_candidate": {
+      "text": "0187253 - - - - 100 미활용",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 694,
+      "2": 193,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 50,
+    "text_characters": 1275,
+    "heading_candidates": [
+      "□ 사업화 계획 및 무역 수지 개선 효과"
+    ],
+    "section_context_candidate": "□ 사업화 계획 및 무역 수지 개선 효과",
+    "prior_heading_candidate": {
+      "text": "0187253 - - - - 100 미활용",
+      "pdf_page": 47
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 374,
+      "2": 170,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 51,
+    "text_characters": 917,
+    "heading_candidates": [
+      "□ 고용 효과",
+      "□ 경제적 파급 효과",
+      "□ 정책활용 내용"
+    ],
+    "section_context_candidate": "□ 고용 효과",
+    "prior_heading_candidate": {
+      "text": "□ 사업화 계획 및 무역 수지 개선 효과",
+      "pdf_page": 50
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 315,
+      "2": 199,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 52,
+    "text_characters": 1180,
+    "heading_candidates": [
+      "□ 전문 연구 인력 양성",
+      "□ 다른 국가연구개발사업에의 활용",
+      "□ 국제화 협력성과",
+      "□ 연구시설ㆍ장비"
+    ],
+    "section_context_candidate": "□ 전문 연구 인력 양성",
+    "prior_heading_candidate": {
+      "text": "□ 정책활용 내용",
+      "pdf_page": 51
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 307,
+      "2": 178,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 53,
+    "text_characters": 1627,
+    "heading_candidates": [
+      "2) 목표 달성 수준 추 진 목 표 달 성 내 용 달성도(%)"
+    ],
+    "section_context_candidate": "2) 목표 달성 수준 추 진 목 표 달 성 내 용 달성도(%)",
+    "prior_heading_candidate": {
+      "text": "□ 연구시설ㆍ장비",
+      "pdf_page": 52
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 440,
+      "2": 9,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 54,
+    "text_characters": 1076,
+    "heading_candidates": [
+      "4. 목표 미달 또는 미흡한 사항에 대한 분석",
+      "1) 목표 미달 또는 미흡한 연구결과에 대한 원인(사유) 자체분석 내용",
+      "2) 미달 또는 미흡한 결과물에 대한 보완 활동",
+      "3) 연구개발 과정의 성실성",
+      "5. 연구개발성과의 관련 분야에 대한 기여 정도"
+    ],
+    "section_context_candidate": "4. 목표 미달 또는 미흡한 사항에 대한 분석",
+    "prior_heading_candidate": {
+      "text": "2) 목표 달성 수준 추 진 목 표 달 성 내 용 달성도(%)",
+      "pdf_page": 53
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 269,
+      "2": 24,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 55,
+    "text_characters": 1245,
+    "heading_candidates": [
+      "6. 연구개발성과의 관리 및 활용 계획",
+      "1) 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획) o 자율주행 시뮬레이터에 대한 지속적인 성능 개선을 통한 자율주행 알고리즘SW의 성능 개선에"
+    ],
+    "section_context_candidate": "6. 연구개발성과의 관리 및 활용 계획",
+    "prior_heading_candidate": {
+      "text": "5. 연구개발성과의 관련 분야에 대한 기여 정도",
+      "pdf_page": 54
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": " 연구개발성과 활용계획표 ",
+        "line_index": 13,
+        "toc_like": false,
+        "before": "주행용 인지, 판단, 제어 SW 고도화 및 자율주행 서비스 확장성과 AI 기반 자율주행 평가\n데이터 연구에 활용 예정\no 다중 센서 기반의 이동플랫폼(차량, 드론 등)의 측위 기술 개발에 적극 활용\no 연구과정 중 구축한 장비를 활용하여 정밀지도 구축/갱신을 위한 알고리즘 개발에 활용",
+        "after": "구분(정량 및 정성적 성과 항목) 연구개발 종료 후 5년 이내\n국외논문\nSCIE 2\n비SCIE 0",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 331,
+      "2": 54,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 56,
+    "text_characters": 1583,
+    "heading_candidates": [
+      "2) 주요 성과활용 (기대)성과목표",
+      "3) 성과활용·관리 추진체계"
+    ],
+    "section_context_candidate": "2) 주요 성과활용 (기대)성과목표",
+    "prior_heading_candidate": {
+      "text": "1) 향후 5년간 성과활용․확산 활용방안 및 계획(활동계획) o 자율주행 시뮬레이터에 대한 지속적인 성능 개선을 통한 자율주행 알고리즘SW의 성능 개선에",
+      "pdf_page": 55
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "연도별 성과활용 (기대)성과목표(요약표)",
+        "line_index": 28,
+        "toc_like": false,
+        "before": "o 가상환경 구축을 위한 모바일 매핑 시스템 센서 데이터 처리 기술 개발\n- 중저가형 센서 데이터 또는 크라우드소싱 데이터를 활용한 처리 기술 개발로 효율적인 매핑\n서비스 구축\n(2) 정량적 목표",
+        "after": "구분 종료+1\n(2022년)\n종료+2\n(2023년)",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 441,
+      "2": 15,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 57,
+    "text_characters": 651,
+    "heading_candidates": [
+      "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획"
+    ],
+    "section_context_candidate": "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획",
+    "prior_heading_candidate": {
+      "text": "3) 성과활용·관리 추진체계",
+      "pdf_page": 56
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 173,
+      "2": 6,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 58,
+    "text_characters": 1687,
+    "heading_candidates": [
+      "8. 연구개발비 사용실적",
+      "1) 연구개발비 사용명세서",
+      "3) 연구시설ㆍ장비비",
+      "4) 연구재료비",
+      "5) 위탁연구개발비",
+      "6) 국제공동연구개발비 현금 0 0 0 0 0 0 0 0",
+      "7) 연구개발부담비 현금 0 0 0 0 0 0 0 0",
+      "8) 연구활동비",
+      "9) 연구수당 현금 0 81,576,000 -79,000 0 81,497,000 81,497,000 0 100.00"
+    ],
+    "section_context_candidate": "8. 연구개발비 사용실적",
+    "prior_heading_candidate": {
+      "text": "7. 연구개발성과에 대한 후속연구 및 추가 개발 계획",
+      "pdf_page": 57
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 409,
+      "2": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 59,
+    "text_characters": 1832,
+    "heading_candidates": [
+      "1) 연구개발비 사용명세서",
+      "3) 연구시설ㆍ장비비",
+      "4) 연구재료비",
+      "5) 위탁연구개발비1」 현금 - - - - - - - -",
+      "6) 국제공동연구개발비 현금 - - - - - - - -",
+      "7) 연구개발부담비 현금 - - - - - - - -",
+      "8) 연구활동비",
+      "9) 연구수당 현금 - 20,000,000 - - 20,000,000 20,000,000 0 100"
+    ],
+    "section_context_candidate": "1) 연구개발비 사용명세서",
+    "prior_heading_candidate": {
+      "text": "9) 연구수당 현금 0 81,576,000 -79,000 0 81,497,000 81,497,000 0 100.00",
+      "pdf_page": 58
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 414,
+      "2": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 60,
+    "text_characters": 1696,
+    "heading_candidates": [
+      "1) 연구개발비 사용명세서",
+      "3) 연구시설ㆍ장비비 현금 0 0 0 0 0 0 0 0 - 현물 0 0 0 0 0 0 0 0 -",
+      "4) 연구재료비 현금 0",
+      "5) 위탁연구개발비1」 현금 0 0 0 0 0 0 0 0 -",
+      "6) 국제공동연구개발비 현금 0 0 0 0 0 0 0 0 -",
+      "7) 연구개발부담비 현금 0 0 0 0 0 0 0 0 -",
+      "8) 연구활동비 현금 0",
+      "9) 연구수당 현금 0"
+    ],
+    "section_context_candidate": "1) 연구개발비 사용명세서",
+    "prior_heading_candidate": {
+      "text": "9) 연구수당 현금 - 20,000,000 - - 20,000,000 20,000,000 0 100",
+      "pdf_page": 59
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 433,
+      "2": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 61,
+    "text_characters": 1433,
+    "heading_candidates": [
+      "1) 연구개발비 사용명세서",
+      "3) 연구시설ㆍ장비비",
+      "4) 연구재료비",
+      "5) 위탁연구개발비1」 현금",
+      "6) 국제공동연구개발비 현금",
+      "7) 연구개발부담비 현금",
+      "8) 연구활동비",
+      "9) 연구수당 현금 11,700,000 11,700,000 11,700,000 0 100"
+    ],
+    "section_context_candidate": "1) 연구개발비 사용명세서",
+    "prior_heading_candidate": {
+      "text": "9) 연구수당 현금 0",
+      "pdf_page": 60
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 293,
+      "2": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 62,
+    "text_characters": 1645,
+    "heading_candidates": [
+      "1) 연구개발비 사용명세서",
+      "00 0 100 3) 연구시설ㆍ장비비",
+      "00 11,811 99 현물 0 0 0 0 0 0 0 - 9) 연구수당 현금 0 13,916,000 0 0 13,916,000 13,916,0",
+      "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다."
+    ],
+    "section_context_candidate": "1) 연구개발비 사용명세서",
+    "prior_heading_candidate": {
+      "text": "9) 연구수당 현금 11,700,000 11,700,000 11,700,000 0 100",
+      "pdf_page": 61
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 417,
+      "2": 85,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 63,
+    "text_characters": 1000,
+    "heading_candidates": [],
+    "section_context_candidate": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+    "prior_heading_candidate": {
+      "text": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "한국전자기술연구원",
+        "line_index": 2,
+        "toc_like": false,
+        "before": "- 63 -\n붙임 2. 자체 보안관리 진단표",
+        "after": "구분 체크항목 결과 체크\n(√표)\n비고\n(미실시",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 280,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 64,
+    "text_characters": 982,
+    "heading_candidates": [],
+    "section_context_candidate": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+    "prior_heading_candidate": {
+      "text": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "(주)이노시뮬레이션",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 64 -",
+        "after": "구분 체크항목 결과 체크\n(√표)\n비고\n(미실시",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 277,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 65,
+    "text_characters": 1019,
+    "heading_candidates": [],
+    "section_context_candidate": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+    "prior_heading_candidate": {
+      "text": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [
+      {
+        "text": "지능형자동차부품진흥원",
+        "line_index": 1,
+        "toc_like": false,
+        "before": "- 65 -",
+        "after": "구분 체크항목 결과 체크\n(√표)\n비고\n(미실시",
+        "verification": "unnumbered_bracket_candidate_may_be_heading_or_caption"
+      }
+    ],
+    "pdf_object_counts": {
+      "1": 293,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 66,
+    "text_characters": 1013,
+    "heading_candidates": [],
+    "section_context_candidate": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+    "prior_heading_candidate": {
+      "text": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 293,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 67,
+    "text_characters": 1015,
+    "heading_candidates": [],
+    "section_context_candidate": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+    "prior_heading_candidate": {
+      "text": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 293,
+      "2": 48,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  },
+  {
+    "audit_version": 2,
+    "pdf_page": 68,
+    "text_characters": 303,
+    "heading_candidates": [
+      "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신・방송연구개발사업의 ○○연구",
+      "2. 이 연구개발내용을 대외적으로 발표할 때에는 반드시 과학기술정보통신부(정보통신기획",
+      "3. 국가과학기술 기밀 유지에 필요한 내용은 대외적으로 발표 또는 공개하여서는 안 된다."
+    ],
+    "section_context_candidate": "1. 이 보고서는 과학기술정보통신부에서 시행한 정보통신・방송연구개발사업의 ○○연구",
+    "prior_heading_candidate": {
+      "text": "60 11,851 99 * 1」 위탁연구개발비 현황 및 사용금액은 주관연구개발기관만 기재합니다.",
+      "pdf_page": 62
+    },
+    "section_inference_verified": false,
+    "caption_candidates": [],
+    "pdf_object_counts": {
+      "1": 53,
+      "2": 8,
+      "5": 1
+    },
+    "image_regions": [],
+    "object_scan_error": null,
+    "needs_image_or_ocr_check": false,
+    "visual_content_confirmed_by_human": false
+  }
+]

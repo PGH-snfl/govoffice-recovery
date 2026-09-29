@@ -1,0 +1,2066 @@
+[
+  {
+    "visual_id": "I21-V0001",
+    "caption": "사업화 대상 기술과 개발 기술과의 연관성",
+    "pdf_page_candidate": 13,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 11 -\n그림 1 사업화 대상 기술과 개발 기술과의 연관성\n제 1장 제 1절 사업 개요\n1. 본 과제와 사업화대상기술의 연관성\n1) 주관기관의 사업화대상기술 이전 필요성\n사업화대상기술은 <무선 네트워크에서의 에너지 고효율을 위한 시간 동기화 방법\n및 이를 적용한 네트워크>로서, 저전력 IoT 디바이스의 설계와 운용에 필수적인 기술임과\n동시에 해당 기술의 특허를 선점하여 권리를 확보하는데 의의가 있다.\n2) 대상기술의 적용가능분야(아이템, 제품)와 주관기관 주력 제품의 연관성\n사업화 대상 기술은 개발하고자 하는 스마트 IoT 디바이스들 간의 BLE Mesh",
+    "section_context_candidate": "제 1장 제 1절 사업 개요",
+    "heading_candidates": [
+      "제 1장 제 1절 사업 개요",
+      "1) 주관기관의 사업화대상기술 이전 필요성",
+      "2. 사업화대상기술의 개요"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.88,
+          157.15,
+          552.54,
+          386.58
+        ],
+        "page_area_fraction": 0.2208
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0002",
+    "caption": "핵심기술요소(CTE)",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 13 -\n있는 것이 장점이다.\n당 사업에서 개발하고자 하는 제품은 스마트 통합제어 IoT장치 2종과 장치-서버 통신을",
+    "caption_and_following_text": "위한 게이트웨이와 이를 관리하기 위한 시스템으로 구성되며, 냉난방설비의 자동제어와\n대기전력 자동차단을 통해 기존 대비 15%이상 에너지 절감효과를 내는 것이 목표이다.\n6. 사업화대상기술의 현재 개발수준 및 상품화 요구수준\n1) 핵심기술요소(CTE) 선정\n체크리스트\n무선 네트워크에서의 에너지\n고효율을 위한 시간 동기화\n방법 및 이를 적용한 네트워크\n비고\n1. 이 기술이 사용요구조건, 비용, 일정 등에 직접적으로",
+    "section_context_candidate": "6. 사업화대상기술의 현재 개발수준 및 상품화 요구수준",
+    "heading_candidates": [
+      "6. 사업화대상기술의 현재 개발수준 및 상품화 요구수준",
+      "2. 해당기술을 개발하거나 시연하는데 중대한 (실패)위험",
+      "4. 기존에 성공적으로 적용된 이후에, 이번에 개발 시",
+      "5. 해당기술이 유사환경에서 실현되도록 재개발되",
+      "2) 기술성숙도(TRL) 단계별 목표"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0003",
+    "caption": "기술성숙도(TRL)",
+    "pdf_page_candidate": 15,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 29,
+    "prefix_match_only": false,
+    "text_before": "4. 기존에 성공적으로 적용된 이후에, 이번에 개발 시\n변경된 기술인가?\n5. 해당기술이 유사환경에서 실현되도록 재개발되\n는가? ○\n6. 이 기술이 임의의 환경에서 작동할 것으로 기대되거나\n당초의 설계 의도 혹은 규정된 성능을 뛰어넘는 성능을\n달성할 것으로 기대되는가?",
+    "caption_and_following_text": "○\n핵심기술요소(CTE) 선정여부 ○\n표 2 핵심기술요소(CTE)\n2) 기술성숙도(TRL) 단계별 목표\n연구과제명\n건물에너지 절감을 위한 BLE Mesh Network 기\n반 스마트 통합 제어 IoT 장치 및 관리 시스템\n개발\n유형 시스템\n프레임워크 선행단계 시제품 제작",
+    "section_context_candidate": "6. 사업화대상기술의 현재 개발수준 및 상품화 요구수준",
+    "heading_candidates": [
+      "6. 사업화대상기술의 현재 개발수준 및 상품화 요구수준",
+      "2. 해당기술을 개발하거나 시연하는데 중대한 (실패)위험",
+      "4. 기존에 성공적으로 적용된 이후에, 이번에 개발 시",
+      "5. 해당기술이 유사환경에서 실현되도록 재개발되",
+      "2) 기술성숙도(TRL) 단계별 목표"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0004",
+    "caption": "세계스마트빌딩규모",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "다. 한국은 에너지의 97%를 수입하고, 00‘~12’년 경제가 70% 성장하는 동안 에너지 38%,\n전력은 93% 소비가 증가하였다. 이 같은 소비 증가는 1인당 전력 소비 증가율에서도\nOECD 평균에 비해 5.3%로, 5배 이상 증가하고 있어, 에너지 절감을 위한 관리기술을 보\n급하는 것이 중요한 이슈이다.\n2. 산업의 성장성\n글로벌 스마트 빌딩 기술 시장은 2014년 589억 달러에서 연평균 4.9%씩 성장해 2019\n년 748억 달러 규모가 될 전망이다.(MarketsandMarkets, 2014. 7)",
+    "caption_and_following_text": "산업통상자원부와 정보통신산업진흥원은 ‘국내 EMS 도입현황 실태조사' 결과를 통해\n국내 스마트 빌딩 기술 시장은 2014년 754억원에서 2019년 3,195억원으로 연평균 31.6%의\n고성장세를 보일 것이라고 전망했다.\n그림 2 세계스마트빌딩규모(10억$) 그림 3 국내 에너지관리시스템 시장 전망\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 기술성숙도(TRL) 단계별 목표",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.27,
+          281.21,
+          238.91,
+          409.59
+        ],
+        "page_area_fraction": 0.0363
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.91,
+          279.05,
+          497.73,
+          408.99
+        ],
+        "page_area_fraction": 0.0672
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0005",
+    "caption": "국내 에너지관리시스템 시장 전망",
+    "pdf_page_candidate": 16,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "다. 한국은 에너지의 97%를 수입하고, 00‘~12’년 경제가 70% 성장하는 동안 에너지 38%,\n전력은 93% 소비가 증가하였다. 이 같은 소비 증가는 1인당 전력 소비 증가율에서도\nOECD 평균에 비해 5.3%로, 5배 이상 증가하고 있어, 에너지 절감을 위한 관리기술을 보\n급하는 것이 중요한 이슈이다.\n2. 산업의 성장성\n글로벌 스마트 빌딩 기술 시장은 2014년 589억 달러에서 연평균 4.9%씩 성장해 2019\n년 748억 달러 규모가 될 전망이다.(MarketsandMarkets, 2014. 7)",
+    "caption_and_following_text": "산업통상자원부와 정보통신산업진흥원은 ‘국내 EMS 도입현황 실태조사' 결과를 통해\n국내 스마트 빌딩 기술 시장은 2014년 754억원에서 2019년 3,195억원으로 연평균 31.6%의\n고성장세를 보일 것이라고 전망했다.\n그림 2 세계스마트빌딩규모(10억$) 그림 3 국내 에너지관리시스템 시장 전망\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 기술성숙도(TRL) 단계별 목표",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          97.27,
+          281.21,
+          238.91,
+          409.59
+        ],
+        "page_area_fraction": 0.0363
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          238.91,
+          279.05,
+          497.73,
+          408.99
+        ],
+        "page_area_fraction": 0.0672
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0006",
+    "caption": "국내 투자율 추이",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 15 -\n3. 경기변동의 특성\n장기적인 경제 침체로 인해 국내 고정투자율이 낮아지고 있고, 저유가 지속으로 인",
+    "caption_and_following_text": "해 에너지 관리에 대한 관심도가 낮을 수 있으나, 에너지의 96%를 수입하는 한국의 여건\n을 감안할 때, 유가 하락에 따른 생산비 절감 등으로 투자여력이 생긴 지금이야말로 에너\n지관리시스템에 대한 투자 적기라고 판단하는 관점이 지배적이다. (에너지관리공단)\n그림 4 국내 투자율 추이(한국은행) 그림 5 평균 유가 및 발전 원가 추이(한전)\n4. 경쟁요소\n에너지관리시스템과 그 장치의 경쟁 요소는 가격과 기술 경쟁력이다. 현재 EMS 시\n장은 에너지 다소비 대형 시설 위주로, 절감효율 대비 절감금액의 규모가 커서 고가의 장\n비와 시스템 도입이 가능하다. 그러나 에너지 비용이 높지 않은 대다수의 건물은 초기 도\n입 비용을 부담하기 어려우며, ESCO 방식을 도입해도 투자회수기간이 지나치게 길어 경\n제성이 떨어지기에 쉽게 도입하기 어려워 시장 확장에 장해가 되고 있다.",
+    "section_context_candidate": "2) 기술성숙도(TRL) 단계별 목표",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.19,
+          470.13,
+          297.56,
+          654.12
+        ],
+        "page_area_fraction": 0.0729
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.56,
+          470.13,
+          495.93,
+          654.12
+        ],
+        "page_area_fraction": 0.0729
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0007",
+    "caption": "평균 유가 및 발전 원가 추이",
+    "pdf_page_candidate": 17,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 15 -\n3. 경기변동의 특성\n장기적인 경제 침체로 인해 국내 고정투자율이 낮아지고 있고, 저유가 지속으로 인",
+    "caption_and_following_text": "해 에너지 관리에 대한 관심도가 낮을 수 있으나, 에너지의 96%를 수입하는 한국의 여건\n을 감안할 때, 유가 하락에 따른 생산비 절감 등으로 투자여력이 생긴 지금이야말로 에너\n지관리시스템에 대한 투자 적기라고 판단하는 관점이 지배적이다. (에너지관리공단)\n그림 4 국내 투자율 추이(한국은행) 그림 5 평균 유가 및 발전 원가 추이(한전)\n4. 경쟁요소\n에너지관리시스템과 그 장치의 경쟁 요소는 가격과 기술 경쟁력이다. 현재 EMS 시\n장은 에너지 다소비 대형 시설 위주로, 절감효율 대비 절감금액의 규모가 커서 고가의 장\n비와 시스템 도입이 가능하다. 그러나 에너지 비용이 높지 않은 대다수의 건물은 초기 도\n입 비용을 부담하기 어려우며, ESCO 방식을 도입해도 투자회수기간이 지나치게 길어 경\n제성이 떨어지기에 쉽게 도입하기 어려워 시장 확장에 장해가 되고 있다.",
+    "section_context_candidate": "2) 기술성숙도(TRL) 단계별 목표",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          99.19,
+          470.13,
+          297.56,
+          654.12
+        ],
+        "page_area_fraction": 0.0729
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.56,
+          470.13,
+          495.93,
+          654.12
+        ],
+        "page_area_fraction": 0.0729
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0008",
+    "caption": "에너지관련 법령 및 규제에 따른 에너지관리 수요변화",
+    "pdf_page_candidate": 18,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 1,
+    "prefix_match_only": false,
+    "text_before": "- 16 -",
+    "caption_and_following_text": "리를 위해 에너지 절약형 설비 사용 등 에너지 절약 설계에 대한 의무, 권장 사항을 기준\n으로하고 있다. 또한, KS를 제정하여 기술 표준화, 인증 기반을 마련하는 한편, 에너지관\n리시스템 인증 제도를 도입해 시스템 신뢰성을 확보하려는 노력 중이다.\n그림 6 에너지관련 법령 및 규제에 따른 에너지관리 수요변화\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 기술성숙도(TRL) 단계별 목표",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.32,
+          444.59,
+          513.8,
+          698.48
+        ],
+        "page_area_fraction": 0.2194
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0009",
+    "caption": "EMS기술 사업화 추진방향",
+    "pdf_page_candidate": 19,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 17 -\n제 1 장 제 3절 기술개발 시 예상되는 기술적 ․ 경제적 파급 효과\n1. 사업화 필요성, 사업화 성공 시 예상되는 파급효과 및 활용방안\n1) 사업화 필요성 : 높은 도입 비용으로 인해 EMS 기술 보급이 어려움",
+    "caption_and_following_text": "2) 산업적 파급효과 : 에너지 관리 시스템 도입이 용이하여 보급 확대\n3) 경제적 파급효과 : 에너지 관리 시스템 도입 비용 인하, 에너지 비용 절감\n4) 활용 방안 : 병원, 학교 등 중소규모 건물에 적용\n그림 7 EMS기술 사업화 추진방향\n2. 기대효과(경제적 효과)\n1) 매출증대 및 비용 절감 효과\n가정 1. 면적 대비 표준화된 전력 사용량 설정을 위해 아파트를 조건으로 설정\n가정 2. 40평형대, 월 평균 15만원 이내의 전력을 소모하는 2,000세대 규모의 아파\n트를 대상으로 상정(25층, 10개 동 규모)\n가정 3. 해당 건물에 도입되는 에너지 관리 시스템과 그 장비는 1개 동에 게이트",
+    "section_context_candidate": "제 1 장 제 3절 기술개발 시 예상되는 기술적 ․ 경제적 파급 효과",
+    "heading_candidates": [
+      "제 1 장 제 3절 기술개발 시 예상되는 기술적 ․ 경제적 파급 효과",
+      "1. 사업화 필요성, 사업화 성공 시 예상되는 파급효과 및 활용방안",
+      "1) 사업화 필요성 : 높은 도입 비용으로 인해 EMS 기술 보급이 어려움",
+      "2) 산업적 파급효과 : 에너지 관리 시스템 도입이 용이하여 보급 확대",
+      "3) 경제적 파급효과 : 에너지 관리 시스템 도입 비용 인하, 에너지 비용 절감",
+      "4) 활용 방안 : 병원, 학교 등 중소규모 건물에 적용",
+      "2. 기대효과(경제적 효과)",
+      "1) 매출증대 및 비용 절감 효과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.15,
+          399.04,
+          506.97,
+          600.54
+        ],
+        "page_area_fraction": 0.1686
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0010",
+    "caption": "주요 개발 기술 테크트리",
+    "pdf_page_candidate": 22,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 10,
+    "prefix_match_only": false,
+    "text_before": "1) 최종목표\n별도의 공조시설 없이 중소건물 내에 주로 설치되어 있는 개별 냉낭방 설비의 제\n어, 대기전력 차단 자동화를 통해 에너지 사용량 효율화와 CO2절감을 목표로 하는\n[D1-1] 장치와 [S1-1] 시스템 개발을 위해\n① [D3-1] 기술을 적용 네트워크 시간 동기화를 통한 저전력 기반 장치설계\n② [D4-1][D4-2] 기술을 적용, WiFi등과 같은 별도의 네트워크 인프라 구축 공사\n필요 없이 단순 설치만으로 자동으로 네트워크 구성, 네트워크 인프라 구축비용 100%절감",
+    "caption_and_following_text": "③ [D1-1]의 통합관리를 위한 [S1-1]을 개발 [S3-1], [S3-2], [S3-3] 기술(정확도 70% 이\n상)을 통해 [S4-1], [S4-2] 기능을 구현\n④ [S5-1]를 실행하여 에너지사용량 15% 이상 절감\n그림 8 주요 개발 기술 테크트리\n또한 시장진입이 가능한 제품을 생산하고 전략적 시장 점유를 위해\n① 국내외 전시회 참여, 시장 반응조사 및 수요조사를 통해 제품의 완성도 상승\n② 국내 대기업(SK, 현대 BS&C 등), 해외 에너지 전문 기업(PT. ISI, PT. APM 등)\n10개 사와 체결한 MOU를 활용한 판로 개척\n③ 미래부산하 중소기업포럼 120개 회원사를 대상으로 파트너쉽 체결이 가능하며,\n모기업인 (주)투이솔루션이 주관인 IoT기반 건물에너지 빅데이터 포럼을 통하여 공동",
+    "section_context_candidate": "제 2 장 제 1 절 최종 목표 및 평가 방법",
+    "heading_candidates": [
+      "제 2 장 제 1 절 최종 목표 및 평가 방법",
+      "1. 최종목표 및 평가방법",
+      "1) 최종목표"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          257.6,
+          543.19,
+          481.51
+        ],
+        "page_area_fraction": 0.2084
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0011",
+    "caption": "정량적 기술개발 목표",
+    "pdf_page_candidate": 23,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 46,
+    "prefix_match_only": false,
+    "text_before": "85% TTA V&V 70% 90%\n쾌적판단\n정확도 %\n20% Nest/미국 50% 80% TTA V&V 80 85\n명령전달 정확도 %\n20% 브로드링크/중국 70% 85% TTA V&V 80% 90%\n명령전달/응답",
+    "caption_and_following_text": "속도 sec 10% 브로드링크/중국\n3초 2초 TTA V&V 2초 1.5초\n합계 100%\n표 5 정량적 기술개발 목표\n◦ 측정결과의 증빙방법\n위 정량적 기술개발목표 평가를 위해 국가공인인증기관인 TTA의 V&V(Verification\n& Validation) 시험을 진행하며 평가방법은 아래와 같다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 사업화제품의 평가방법 및 평가항목",
+    "heading_candidates": [
+      "2. 사업화제품의 평가방법 및 평가항목",
+      "1) 기술개발목표(70%)"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0012",
+    "caption": "마케팅 정량적 평가목표",
+    "pdf_page_candidate": 26,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 24,
+    "prefix_match_only": false,
+    "text_before": "구매 확약 건 30%\n15%\n(슈나이더일렉\n트릭/프랑스)\n5 5 구매확약서\n시범사업 건 40%\n15%",
+    "caption_and_following_text": "(슈나이더일렉\n트릭/프랑스)\n1 시범사업 수행계획서\n표 7 마케팅 정량적 평가목표\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 마케팅/매출 목표(30%)",
+    "heading_candidates": [
+      "2) 마케팅/매출 목표(30%)",
+      "1 시범사업 수행계획서"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0013",
+    "caption": "연차별 주요 개발목표",
+    "pdf_page_candidate": 27,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 9,
+    "prefix_match_only": false,
+    "text_before": "H/W\nH/W 기능\n요구사항 도출\n◦[D3-1]기술을 이용한 저전력 장치 설계\n◦[D3-2]구현을 위한 Bluetooth 네트워크 모듈 적용\n◦[D5-1], [D5-2] 기능 구현을 위한 IR센서, 온도센서 기능 적용\n◦설치의 편의성을 위한 무전원(배터리) 장치 적용",
+    "caption_and_following_text": "◦[D3-2], [D4-1] 기능 적용\n제 2 장 제 2 절 연차별 개발 내용 및 개발 범위\n1. 연차별 사업화목표 및 내용\n그림 9 연차별 주요 개발목표\n1) 1차년도\n① 개발목표\n- [D3-1], [D4-1] 기술을 사용 WiFi등과 같은 별도의 무선 네트워크 Infra 구축\n필요 없이 IoT 장치만으로 무선통신 네트워크를 자동으로 구성하는 Mesh Network 구현\n- [S3-1], [S3-2], [S3-3]을 이용 [S4-1], [S4-2] 기술을 개발 [S5-1] 기능을 하는\n[S1-1] 시스템 개발",
+    "section_context_candidate": "제 2 장 제 2 절 연차별 개발 내용 및 개발 범위",
+    "heading_candidates": [
+      "제 2 장 제 2 절 연차별 개발 내용 및 개발 범위",
+      "1. 연차별 사업화목표 및 내용"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          459.1,
+          543.19,
+          701.59
+        ],
+        "page_area_fraction": 0.2257
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0014",
+    "caption": "2차년도 기술개발 범위",
+    "pdf_page_candidate": 29,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "◦[S2-2]를 통해 [S3-1], [S3-2] 정보 조회\n공인인증기관\n성능검증시험 TTA V&V(Verification & Validation)시험 진행\n공통\nTEST BED 구축\n◦시범운영 시나리오 및 전략 수립\n◦시범운영 및 보완",
+    "caption_and_following_text": "◦시범운영 모니터링 수행 및 피드백\n◦평가 및 모니터링 수행결과 분석\n제품 매뉴얼 ◦[D2-1]장치와 [S1-1]시스템의 운영을 위한 매뉴얼 제작\n표 10 2차년도 기술개발 범위\n2) 2차년도\n① 개발목표\n- [D3-2], [D5-1], [D5-2] 기능을 하는 [D2-1] 장치 시제품 개발\n- 1차년도 개발된 [S1-1]의 기능/기술 고도화\n② 개발내용 및 범위\n③ 마케팅/매출 목표 및 계획",
+    "section_context_candidate": "1. 연차별 사업화목표 및 내용",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0015",
+    "caption": "연차별 주요 개발목표",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 32 -\n제 3 장 제 1 절 기술사업화 최종 결과\n1. 기술사업화 추진일정\n그림 10 연차별 주요 개발목표\n1) 1차년도\n1차년도\n일련\n번호 사업화 추진내용\n추진일정(월) 소요\n기간",
+    "section_context_candidate": "제 3 장 제 1 절 기술사업화 최종 결과",
+    "heading_candidates": [
+      "제 3 장 제 1 절 기술사업화 최종 결과",
+      "1. 기술사업화 추진일정",
+      "5 관리 System 개발 4"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          459.1,
+          543.19,
+          701.59
+        ],
+        "page_area_fraction": 0.2257
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0016",
+    "caption": "1차년도 추진계획",
+    "pdf_page_candidate": 34,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "자료조사 2\n2\n[D1-1]제품 구조/회로설계\n시작품(Prototype) 제작 5\n3 [D2-1]펌웨어 설계 6\n4 관리 System 설계 7\n5 관리 System 개발 4",
+    "caption_and_following_text": "6 시스템 통합테스트\n(자체 성능시험) 6\n7 제품수요/반응조사 -\n표 12 1차년도 추진계획\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 3 장 제 1 절 기술사업화 최종 결과",
+    "heading_candidates": [
+      "제 3 장 제 1 절 기술사업화 최종 결과",
+      "1. 기술사업화 추진일정",
+      "5 관리 System 개발 4"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          459.1,
+          543.19,
+          701.59
+        ],
+        "page_area_fraction": 0.2257
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0017",
+    "caption": "2차년도 추진계획",
+    "pdf_page_candidate": 35,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 26,
+    "prefix_match_only": false,
+    "text_before": "6\n[S1-1] 관리 System 추가개발\n& 고도화 14\n7\n시범사업\n(인도네시아 추진중,\n2018년 7월 구축예정)",
+    "caption_and_following_text": "8\n8 공인인증기관 성능검증시험\n(TTA V&V) 4\n표 13 2차년도 추진계획\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "1 계획수립 및 자료조사 4",
+    "heading_candidates": [
+      "1 계획수립 및 자료조사 4",
+      "8 공인인증기관 성능검증시험"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0018",
+    "caption": "기술개발 목표대비 달성률",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 19,
+    "prefix_match_only": false,
+    "text_before": "리 시스템 설계 및 개발\nS/W기능 요구사항 도출 100 100\n서버 기능설계, 구현\n- DB 모델링 100 100\n- 자동제어/데이터수집을 위한 채널서버 100 100\n- 서비스 로직 수행을 위한 Biz API 서버 100 100\n클라이언트 설계, 구현",
+    "caption_and_following_text": "- 수집데이터 실시간 모니터링 100 100\n- 전기에너지 사용량/비교 분석 100 100\n- 에너절감 제어 알고리즘 100 100\n표 14 기술개발 목표대비 달성률\n2) 기술개발 목표대비 실적 성능지표(70%)\n기술적 성능지표 등\n(주요 성능, Spec) 단위\n전체\n항목에서\n차지하는비중",
+    "section_context_candidate": "2. 추진실적",
+    "heading_candidates": [
+      "2. 추진실적",
+      "1) 기술개발 목표 달성 정도",
+      "2) 기술개발 목표대비 실적 성능지표(70%)"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0019",
+    "caption": "기술개발 정량적 실적",
+    "pdf_page_candidate": 36,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 43,
+    "prefix_match_only": false,
+    "text_before": "물성\n전력사용량\n분석정확도 % 20% 80% 99.48% TTA V&V\n비용분석, 예측\n정확도 % 10% 70% 93.38% TTA V&V\n쾌적판단 정확도 % 20% 80% 100% TTA V&V\n명령전달 정확도 % 20% 80% 100% TTA V&V",
+    "caption_and_following_text": "명령전달/응답\n속도 sec 10% 2초 0.02초 TTA V&V\n합계 100%\n표 15 기술개발 정량적 실적\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2. 추진실적",
+    "heading_candidates": [
+      "2. 추진실적",
+      "1) 기술개발 목표 달성 정도",
+      "2) 기술개발 목표대비 실적 성능지표(70%)"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0020",
+    "caption": "TTA V&V 시험결과서",
+    "pdf_page_candidate": 37,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 35 -\n그림 11 TTA V&V 시험결과서\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 기술개발 목표대비 실적 성능지표(70%)",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.12,
+          451.67,
+          293.72,
+          753.26
+        ],
+        "page_area_fraction": 0.1287
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.67,
+          451.67,
+          523.28,
+          753.26
+        ],
+        "page_area_fraction": 0.1287
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.12,
+          135.33,
+          293.72,
+          436.92
+        ],
+        "page_area_fraction": 0.1287
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          309.67,
+          135.33,
+          523.28,
+          436.92
+        ],
+        "page_area_fraction": 0.1287
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0021",
+    "caption": "마케팅 정량적 실적",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 8,
+    "prefix_match_only": false,
+    "text_before": "2) 마케팅/매출 목표대비 실적 성능지표(30%)\n평가항목 단위\n전체항목\n에서 차지하는\n비중(%)\n목표 실적 평가방법\n(수량 근거)",
+    "caption_and_following_text": "시장반응 수요조사 건 30% 1 0 전시회참석 확인서\n구매 확약 건 30% 5 5 구매확약서\n시범사업 건 40% 1 1 시범사업 수행계획서\n표 16 마케팅 정량적 실적\n그림 12 구매확약서\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 마케팅/매출 목표대비 실적 성능지표(30%)",
+    "heading_candidates": [
+      "2) 마케팅/매출 목표대비 실적 성능지표(30%)"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.24,
+          388.97,
+          219.24,
+          585.2
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.44,
+          388.97,
+          368.44,
+          585.2
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          378.64,
+          388.97,
+          517.64,
+          585.2
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.24,
+          177.05,
+          219.24,
+          373.27
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.44,
+          177.05,
+          368.44,
+          373.27
+        ],
+        "page_area_fraction": 0.0545
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0022",
+    "caption": "구매확약서",
+    "pdf_page_candidate": 38,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 6,
+    "prefix_match_only": false,
+    "text_before": "- 36 -\n2) 마케팅/매출 목표대비 실적 성능지표(30%)\n평가항목 단위\n전체항목\n에서 차지하는\n비중(%)",
+    "caption_and_following_text": "목표 실적 평가방법\n(수량 근거)\n시장반응 수요조사 건 30% 1 0 전시회참석 확인서\n구매 확약 건 30% 5 5 구매확약서\n시범사업 건 40% 1 1 시범사업 수행계획서\n표 16 마케팅 정량적 실적\n그림 12 구매확약서\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 마케팅/매출 목표대비 실적 성능지표(30%)",
+    "heading_candidates": [
+      "2) 마케팅/매출 목표대비 실적 성능지표(30%)"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.24,
+          388.97,
+          219.24,
+          585.2
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.44,
+          388.97,
+          368.44,
+          585.2
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          378.64,
+          388.97,
+          517.64,
+          585.2
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          80.24,
+          177.05,
+          219.24,
+          373.27
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          229.44,
+          177.05,
+          368.44,
+          373.27
+        ],
+        "page_area_fraction": 0.0545
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0023",
+    "caption": "시범사업 제안 및 수행계획서",
+    "pdf_page_candidate": 39,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 37 -\n그림 13 시범사업 제안 및 수행계획서\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 마케팅/매출 목표대비 실적 성능지표(30%)",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.8,
+          602.46,
+          292.4,
+          750.38
+        ],
+        "page_area_fraction": 0.0631
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.6,
+          602.46,
+          516.2,
+          750.38
+        ],
+        "page_area_fraction": 0.0631
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          78.8,
+          436.2,
+          292.4,
+          584.12
+        ],
+        "page_area_fraction": 0.0631
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          302.6,
+          436.2,
+          516.2,
+          584.12
+        ],
+        "page_area_fraction": 0.0631
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0024",
+    "caption": "스마트 통합제어 IoT 장치 및 관리 시스템 구성",
+    "pdf_page_candidate": 40,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 38 -\n그림 14 스마트 통합제어 IoT 장치 및 관리 시스템 구성\n3. 기술사업화 결과의 유형 및 무형 성과\n•빌딩 스마트 통합 에너지 관리 시스템\n- 실시간 모니터링 및 시각화\n- 에너지 사용량/비용 분석\n- 환경 조건에 대한 최적 제어 Algorithm\n•스마트 IoT(게이트웨이, 원격 제어장치 2종) 장치\n- 전압, 전류, 전력 사용량 계측\n- BLE Mesh Network 구성",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [
+      "3. 기술사업화 결과의 유형 및 무형 성과"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          81.56,
+          385.74,
+          513.56,
+          611.81
+        ],
+        "page_area_fraction": 0.1952
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0025",
+    "caption": "관리시스템 개발 테크트리",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 39 -\n1) 관리시스템(S/W)\n그림 15 관리시스템 개발 테크트리\n본 과제에서는 별도의 공조시설 없는 중소건물 내에 개별 냉난방 설비를 자동으로 제어를\n통한 에너지 사용량 효율화와 CO2절감 검증을 위해 관리시스템 개발을 진행하였다.\n① 데이터 모델링\n실제 관리시스템 구축을 진행하다보면 업무변화가 발생하게 되고, 이에 대한 영\n향이 발생하게 된다. 따라서 상대적으로 업무 변화에 대한 영향을 적게 받으면서 유연한\n시스템을 만들기 위해 데이터 중심의 설계가 중요하다.\n즉, 데이터 모델이 관리시스템의 뼈대가 되기 때문에 데이터 모델링의 결과에 따라",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          621.28,
+          514.76,
+          730.96
+        ],
+        "page_area_fraction": 0.0959
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          219.84,
+          514.76,
+          320.17
+        ],
+        "page_area_fraction": 0.0877
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          119.63,
+          514.76,
+          219.84
+        ],
+        "page_area_fraction": 0.0876
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0026",
+    "caption": "Data 모델링 다이어그램",
+    "pdf_page_candidate": 41,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "실제 관리시스템 구축을 진행하다보면 업무변화가 발생하게 되고, 이에 대한 영\n향이 발생하게 된다. 따라서 상대적으로 업무 변화에 대한 영향을 적게 받으면서 유연한\n시스템을 만들기 위해 데이터 중심의 설계가 중요하다.\n즉, 데이터 모델이 관리시스템의 뼈대가 되기 때문에 데이터 모델링의 결과에 따라\n시스템의 안정성은 많은 영향을 받게 된다. 고품질의 데이터 모델은 시스템의 안정성과\n유연성, 성능 등에 미치는 영향이 크기 때문에 고품질의 데이터 모델을 확보하기 위한 데이터\n모델링은 시스템 개발에 있어서 가장 핵심적인 과정이다.",
+    "caption_and_following_text": "본 프로젝트 역시, 연차별로 나누어져 개발이 진행되기 때문에, 향후 도출 될 수\n있는 요구사항을 원활하게 받아들일 수 있게 하기 위한 부분에 초점을 두고 데이터모델링을\n진행하였다.\n그림 16 Data 모델링 다이어그램\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          621.28,
+          514.76,
+          730.96
+        ],
+        "page_area_fraction": 0.0959
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          219.84,
+          514.76,
+          320.17
+        ],
+        "page_area_fraction": 0.0877
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          119.63,
+          514.76,
+          219.84
+        ],
+        "page_area_fraction": 0.0876
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0027",
+    "caption": "채널서버 흐름도",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 40 -\n② 관리시스템 운영을 위한 채널 서버, Biz서버 흐름도\n본 관리시스템은 별도의 관리자가 수동으로 제어하지 않아도 정해진 센싱정보에",
+    "caption_and_following_text": "의해 무인운전이 가능하도록 설계되어 있다. 이에 따라 자동으로 계측 데이터를 수집하고\n원격제어 명령으로 전달하기 위한 채널서버와 서비스 로직을 수행하기 위한 Biz서버 API를\n아래와 같이 설계, 개발하였다.\n그림 17 채널서버 흐름도\n그림 18 비즈서버API 목록\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.58,
+          474.8,
+          478.78,
+          655.68
+        ],
+        "page_area_fraction": 0.132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          276.66,
+          290.96,
+          439.32
+        ],
+        "page_area_fraction": 0.0694
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          276.66,
+          514.76,
+          439.32
+        ],
+        "page_area_fraction": 0.0694
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          108.36,
+          290.96,
+          271.02
+        ],
+        "page_area_fraction": 0.0694
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          108.36,
+          514.76,
+          271.02
+        ],
+        "page_area_fraction": 0.0694
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0028",
+    "caption": "비즈서버API 목록",
+    "pdf_page_candidate": 42,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 40 -\n② 관리시스템 운영을 위한 채널 서버, Biz서버 흐름도\n본 관리시스템은 별도의 관리자가 수동으로 제어하지 않아도 정해진 센싱정보에\n의해 무인운전이 가능하도록 설계되어 있다. 이에 따라 자동으로 계측 데이터를 수집하고",
+    "caption_and_following_text": "원격제어 명령으로 전달하기 위한 채널서버와 서비스 로직을 수행하기 위한 Biz서버 API를\n아래와 같이 설계, 개발하였다.\n그림 17 채널서버 흐름도\n그림 18 비즈서버API 목록\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          113.58,
+          474.8,
+          478.78,
+          655.68
+        ],
+        "page_area_fraction": 0.132
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          276.66,
+          290.96,
+          439.32
+        ],
+        "page_area_fraction": 0.0694
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          276.66,
+          514.76,
+          439.32
+        ],
+        "page_area_fraction": 0.0694
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          108.36,
+          290.96,
+          271.02
+        ],
+        "page_area_fraction": 0.0694
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          108.36,
+          514.76,
+          271.02
+        ],
+        "page_area_fraction": 0.0694
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0029",
+    "caption": "개발 및 시스템 운영환경",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 41 -\n③ 개발 및 시스템 운영환경\n구분 환경\nLocal 개발환경\nEclipse 코드를 작성하고, 저장하고 컴파일 및 디버깅을 도와주\n는 통합 개발 환경\nNGINX Web Server\nTomcat, Rasin WAS(Web Application Server)\nMaven 프로젝트를 관리하기 위한 툴로, 라이브러리 관리 및\njava 빌드 자동화 지원",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          369.32,
+          280.05,
+          446.87
+        ],
+        "page_area_fraction": 0.0297
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          291.88,
+          280.05,
+          369.32
+        ],
+        "page_area_fraction": 0.0297
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          311.71,
+          292.6,
+          504.33,
+          446.27
+        ],
+        "page_area_fraction": 0.0592
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.35,
+          200.42,
+          278.97,
+          277.26
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.35,
+          123.71,
+          278.97,
+          200.42
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.67,
+          200.54,
+          503.49,
+          277.38
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.67,
+          123.82,
+          503.49,
+          200.54
+        ],
+        "page_area_fraction": 0.0293
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0030",
+    "caption": "관리시스템 UI",
+    "pdf_page_candidate": 43,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 17,
+    "prefix_match_only": false,
+    "text_before": "My-Sql 관계형 데이터베이스 관리 시스템(RDBMS)\nSVN 형상관리를 할 수 있는 협업지원도구\n서버 및 운영환경 Docker\n계층화된 파일시스템(AUFS, BTRFS 등)을 사용해 가상화된\n컨테이너의 변경사항을 모두 추적하고 관리하는 컨테이너\n기반 가상화 도구\n표 17 개발 및 시스템 운영환경",
+    "caption_and_following_text": "④ 관리시스템 화면 UI\n대시보드 설비제어\n에너지 사용분석1 에너지 사용분석2\n그림 19 관리시스템 UI\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          369.32,
+          280.05,
+          446.87
+        ],
+        "page_area_fraction": 0.0297
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.39,
+          291.88,
+          280.05,
+          369.32
+        ],
+        "page_area_fraction": 0.0297
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          311.71,
+          292.6,
+          504.33,
+          446.27
+        ],
+        "page_area_fraction": 0.0592
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.35,
+          200.42,
+          278.97,
+          277.26
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          89.35,
+          123.71,
+          278.97,
+          200.42
+        ],
+        "page_area_fraction": 0.0291
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.67,
+          200.54,
+          503.49,
+          277.38
+        ],
+        "page_area_fraction": 0.0293
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          312.67,
+          123.82,
+          503.49,
+          200.54
+        ],
+        "page_area_fraction": 0.0293
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0031",
+    "caption": "제어장치 및 관리시스템 구성도",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 42 -\n그림 20 제어장치 및 관리시스템 구성도\n2) IoT 디바이스 설계 및 시제품 제작\n표 18\n관리시스템(SW)은 스마트폰,타블렛,PC등 인터넷 환경에 접근가능한 모든 디바이스에서\n사용이 가능하도록 html5 기술을 사용하여 One Source AnyDevice 철학으로 개발하였고,\nIoT장치는 관리시스템과 인터페이스를 위한 게이트웨이와 제어장치(타입A,타입B)의 프로\n토타입을 설계 및 개발하였다.\n① 전체 시스템 구성\n게이트웨이",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.88,
+          317.53,
+          524.24,
+          502.25
+        ],
+        "page_area_fraction": 0.1674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          654.01,
+          514.76,
+          729.16
+        ],
+        "page_area_fraction": 0.0657
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.63,
+          201.98,
+          254.26,
+          271.14
+        ],
+        "page_area_fraction": 0.0131
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.23,
+          117.83,
+          231.0,
+          196.35
+        ],
+        "page_area_fraction": 0.0092
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0032",
+    "caption": "게이트웨이 및 제어장치 스펙",
+    "pdf_page_candidate": 44,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 18,
+    "prefix_match_only": false,
+    "text_before": "메모리 : 1Gb SDRAM 400Mhz\n저장장치 : SD\n전원공급 ; 5.2V/2.5A\nWIFI / LAN / HDMI / BLE\n제어장치\nMCU : ATmega2560 / 16Mhz\nOperation Volage : 5V",
+    "caption_and_following_text": "Inpu Volage(Limits) : 6~20V\nDC Out : 40mA ~50mA\nFlashMemory : 256Kb, SRAM : 8Kb / EPROM : 4Kb\n표 19 게이트웨이 및 제어장치 스펙\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.88,
+          317.53,
+          524.24,
+          502.25
+        ],
+        "page_area_fraction": 0.1674
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          654.01,
+          514.76,
+          729.16
+        ],
+        "page_area_fraction": 0.0657
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          159.63,
+          201.98,
+          254.26,
+          271.14
+        ],
+        "page_area_fraction": 0.0131
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          172.23,
+          117.83,
+          231.0,
+          196.35
+        ],
+        "page_area_fraction": 0.0092
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0033",
+    "caption": "IoT장치 회로구성",
+    "pdf_page_candidate": 45,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 43 -\n② IoT장치 시작품 회로 구성 및 설계\n게이트웨이는 라즈베리 파이를 이용해 개발하였으며, 제어장치는 온습도의 센싱정보를\n게이트웨이측에 전달하는 기능과 게이트웨이로부터 받은 정보를 통해 IR신호로 각종\n기기(에어콘/선풍기등)을 제어하는 기능이 가능하도록 설계하였다.",
+    "caption_and_following_text": "프로토타입 구성 & 제어/측정 Device 회로구성\nIoT장치 전자회로 설계\n회로검증을 위한 프로토타입 구성\n그림 21 IoT장치 회로구성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          297.68,
+          145.28,
+          511.04,
+          286.37
+        ],
+        "page_area_fraction": 0.0602
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.24,
+          145.04,
+          292.52,
+          286.37
+        ],
+        "page_area_fraction": 0.0608
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          546.6,
+          280.65,
+          651.61
+        ],
+        "page_area_fraction": 0.0427
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          294.32,
+          543.01,
+          505.29,
+          672.22
+        ],
+        "page_area_fraction": 0.0545
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          118.14,
+          307.82,
+          473.98,
+          524.19
+        ],
+        "page_area_fraction": 0.1539
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0034",
+    "caption": "온습도수집 및 제어 플로우",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 44 -\n그림 23 IoT장치 기능검 테스트 Log\n③ 시제품 온습도측정/제어 플로우",
+    "caption_and_following_text": "기본적으로 무인운전을 가능하도록 하기위해 제어장치에서 센서를 통해 온습도 정보를\n측정해서 장치에 저장하고 제어 알고리즘을 통해 제어신호(IR방식)를 각종 기기(에어콘,\n선풍기)에 전달하여 제어한다.\n그림 22 온습도수집 및 제어 플로우\n④ 시제품 및 테스트 진행\n게이트웨이는 DB 및 웹서버 기능이 용이한 라즈베리파이로 개발 하였고, 제어장치는\n단순기능 처리에 적합한 아두이노를 사용하여 개발하였다.\n게이트웨이 내부에는 임베디드된 웹서버 및 DB를 구성하고 있고 아래 [그림23 IoT장치\n기능검증 테스트 log]와 같이 테스트를 진행하였다.\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.05,
+          103.45,
+          497.97,
+          307.94
+        ],
+        "page_area_fraction": 0.1483
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.99,
+          468.45,
+          294.56,
+          638.9
+        ],
+        "page_area_fraction": 0.07
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.27,
+          467.61,
+          503.25,
+          643.82
+        ],
+        "page_area_fraction": 0.0919
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0035",
+    "caption": "IoT장치 기능검 테스트 Log",
+    "pdf_page_candidate": 46,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 44 -\n그림 23 IoT장치 기능검 테스트 Log\n③ 시제품 온습도측정/제어 플로우\n기본적으로 무인운전을 가능하도록 하기위해 제어장치에서 센서를 통해 온습도 정보를\n측정해서 장치에 저장하고 제어 알고리즘을 통해 제어신호(IR방식)를 각종 기기(에어콘,\n선풍기)에 전달하여 제어한다.\n그림 22 온습도수집 및 제어 플로우\n④ 시제품 및 테스트 진행\n게이트웨이는 DB 및 웹서버 기능이 용이한 라즈베리파이로 개발 하였고, 제어장치는\n단순기능 처리에 적합한 아두이노를 사용하여 개발하였다.",
+    "section_context_candidate": "3. 기술사업화 결과의 유형 및 무형 성과",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          135.05,
+          103.45,
+          497.97,
+          307.94
+        ],
+        "page_area_fraction": 0.1483
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          88.99,
+          468.45,
+          294.56,
+          638.9
+        ],
+        "page_area_fraction": 0.07
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          242.27,
+          467.61,
+          503.25,
+          643.82
+        ],
+        "page_area_fraction": 0.0919
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0036",
+    "caption": "최적/쾌적운전 알고리즘",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 2,
+    "prefix_match_only": false,
+    "text_before": "- 45 -\n4) 관리시스템을 이용한 냉난방 최적/쾌적 제어 알고리즘 검증",
+    "caption_and_following_text": "① 목적\n임의의 지정된 실내 공간 내에서 최적, 쾌적제어 시나리오를 통해 냉/난방기\n운전 시 실제 절감되는 에너지 사용량 대비 효율 분석(실내온도 변화)을 목적으로 함.\n그림 24 최적/쾌적운전 알고리즘\n② 알고리즘 검증을 위한 테스트 베드 구성\n시스템 구성 및 테스트 환경은 아래와 같으며 각 시나리오 테스트는 사무실\n내에 설치된 냉난방기를 대상으로 하며 1시간 단위로 에너지 사용량 및 제어명령에 따른\n온도변화를 수집 분석한다.\n그림 25 테스트베드 구성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "4) 관리시스템을 이용한 냉난방 최적/쾌적 제어 알고리즘 검증",
+    "heading_candidates": [
+      "4) 관리시스템을 이용한 냉난방 최적/쾌적 제어 알고리즘 검증"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.86,
+          451.55,
+          485.38,
+          678.82
+        ],
+        "page_area_fraction": 0.1719
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.17,
+          126.82,
+          460.07,
+          341.75
+        ],
+        "page_area_fraction": 0.1408
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0037",
+    "caption": "테스트베드 구성",
+    "pdf_page_candidate": 47,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 45 -\n4) 관리시스템을 이용한 냉난방 최적/쾌적 제어 알고리즘 검증\n① 목적",
+    "caption_and_following_text": "임의의 지정된 실내 공간 내에서 최적, 쾌적제어 시나리오를 통해 냉/난방기\n운전 시 실제 절감되는 에너지 사용량 대비 효율 분석(실내온도 변화)을 목적으로 함.\n그림 24 최적/쾌적운전 알고리즘\n② 알고리즘 검증을 위한 테스트 베드 구성\n시스템 구성 및 테스트 환경은 아래와 같으며 각 시나리오 테스트는 사무실\n내에 설치된 냉난방기를 대상으로 하며 1시간 단위로 에너지 사용량 및 제어명령에 따른\n온도변화를 수집 분석한다.\n그림 25 테스트베드 구성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "4) 관리시스템을 이용한 냉난방 최적/쾌적 제어 알고리즘 검증",
+    "heading_candidates": [
+      "4) 관리시스템을 이용한 냉난방 최적/쾌적 제어 알고리즘 검증"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          106.86,
+          451.55,
+          485.38,
+          678.82
+        ],
+        "page_area_fraction": 0.1719
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          132.17,
+          126.82,
+          460.07,
+          341.75
+        ],
+        "page_area_fraction": 0.1408
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0038",
+    "caption": "기구디자인A",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 48 -\n5) IoT장치 기구 디자인/설계\n본 과제를 통해 완성된 IoT제어장치의 시제품을 양산화 단계에서 적용할 기구 디자인",
+    "caption_and_following_text": "을 설계하였다.\n또한 일반적인 사무공간 외에도 가정집까지 도입을 고려해 벽면에 부착시 이질감이 없도\n록 인테리어적인 요소도 고려한 디자인을 하였다.\n그림 27 기구디자인A\n그림 28 기구디자인B\n그림 29 기구디자인C\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 쾌적운전 (목표온도 22 ~ 23.5\" )",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          506.45,
+          290.96,
+          657.24
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          506.45,
+          514.76,
+          657.24
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          307.58,
+          290.96,
+          458.38
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          307.58,
+          514.76,
+          458.38
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          108.6,
+          290.96,
+          259.4
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          108.48,
+          514.76,
+          259.52
+        ],
+        "page_area_fraction": 0.0645
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0039",
+    "caption": "기구디자인B",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 4,
+    "prefix_match_only": false,
+    "text_before": "- 48 -\n5) IoT장치 기구 디자인/설계\n본 과제를 통해 완성된 IoT제어장치의 시제품을 양산화 단계에서 적용할 기구 디자인\n을 설계하였다.",
+    "caption_and_following_text": "또한 일반적인 사무공간 외에도 가정집까지 도입을 고려해 벽면에 부착시 이질감이 없도\n록 인테리어적인 요소도 고려한 디자인을 하였다.\n그림 27 기구디자인A\n그림 28 기구디자인B\n그림 29 기구디자인C\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 쾌적운전 (목표온도 22 ~ 23.5\" )",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          506.45,
+          290.96,
+          657.24
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          506.45,
+          514.76,
+          657.24
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          307.58,
+          290.96,
+          458.38
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          307.58,
+          514.76,
+          458.38
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          108.6,
+          290.96,
+          259.4
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          108.48,
+          514.76,
+          259.52
+        ],
+        "page_area_fraction": 0.0645
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0040",
+    "caption": "기구디자인C",
+    "pdf_page_candidate": 50,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 48 -\n5) IoT장치 기구 디자인/설계\n본 과제를 통해 완성된 IoT제어장치의 시제품을 양산화 단계에서 적용할 기구 디자인\n을 설계하였다.\n또한 일반적인 사무공간 외에도 가정집까지 도입을 고려해 벽면에 부착시 이질감이 없도",
+    "caption_and_following_text": "록 인테리어적인 요소도 고려한 디자인을 하였다.\n그림 27 기구디자인A\n그림 28 기구디자인B\n그림 29 기구디자인C\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "나) 쾌적운전 (목표온도 22 ~ 23.5\" )",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          506.45,
+          290.96,
+          657.24
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          506.45,
+          514.76,
+          657.24
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          307.58,
+          290.96,
+          458.38
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          307.58,
+          514.76,
+          458.38
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          77.36,
+          108.6,
+          290.96,
+          259.4
+        ],
+        "page_area_fraction": 0.0644
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          301.16,
+          108.48,
+          514.76,
+          259.52
+        ],
+        "page_area_fraction": 0.0645
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0041",
+    "caption": "기술사업 추진전략",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 49 -\n제 3 장 제 2 절 기술사업화 추진 체계\n1. 추진전략\n그림 32 기술사업 추진전략\n1) 울산대의 특허기술을 이전받아 네트워크 시간 동기화를 통한 저전력 장치 설계\n2) 모기업인 ㈜투이솔루션의 에너지관리시스템 개발 노하우를 접목시킨 스마트 통\n합제어장치와 관리시스템을 개발\n3) 스마트 통합제어장치는 OEM을 통해 생산\n2. 사업화조직 편성도\n주관기관",
+    "section_context_candidate": "제 3 장 제 2 절 기술사업화 추진 체계",
+    "heading_candidates": [
+      "제 3 장 제 2 절 기술사업화 추진 체계",
+      "1. 추진전략",
+      "2) 모기업인 ㈜투이솔루션의 에너지관리시스템 개발 노하우를 접목시킨 스마트 통"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.12,
+          596.83,
+          447.0,
+          711.42
+        ],
+        "page_area_fraction": 0.0684
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0042",
+    "caption": "사업화조직 구성",
+    "pdf_page_candidate": 51,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 25,
+    "prefix_match_only": false,
+    "text_before": "◦스마트IoT장치 기획\n◦통합관리 시스템 기획\n◦영업/마케팅 총괄\n◦시범사업 추진\n◦임베디드 S/W 개발\n◦통합시스템 설계/구현\n◦최적화 알고리즘 개발",
+    "caption_and_following_text": "◦장치 구조설계/디자인\n◦장치 시제품 개발\n◦성능테스트\n표 20 사업화조직 구성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "제 3 장 제 2 절 기술사업화 추진 체계",
+    "heading_candidates": [
+      "제 3 장 제 2 절 기술사업화 추진 체계",
+      "1. 추진전략",
+      "2) 모기업인 ㈜투이솔루션의 에너지관리시스템 개발 노하우를 접목시킨 스마트 통"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          148.12,
+          596.83,
+          447.0,
+          711.42
+        ],
+        "page_area_fraction": 0.0684
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0043",
+    "caption": "전국 학교 및 병원현황 ※교육정보기록원, 대한병원협회",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n그림 33 전국 학교 및 병원현황 ※교육정보기록원, 대한병원협회\n3. 사업화 추진계획\n1) 사업화 추진전략 및 향후계획\n① 사업화 제품/기술의 목표고객 및 시장\n에어컨, 히터 등 개별 냉난방 설비를 사용하고 있는 중소규모 건물(병원, 학교 등)을\n목표고객으로 하고 있으며 해당 시장의 규모는 다음과 같다.\n② 사업화추진 전략\n그림 34 사업화 추진전략\n◦ (주)투이솔루션의 에너지 관리 시스템을 구축한 2개 병원이 소속된 요양병원",
+    "section_context_candidate": "3. 사업화 추진계획",
+    "heading_candidates": [
+      "3. 사업화 추진계획",
+      "1) 사업화 추진전략 및 향후계획"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.88,
+          463.89,
+          552.54,
+          648.13
+        ],
+        "page_area_fraction": 0.1773
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.18,
+          180.16,
+          412.94,
+          382.02
+        ],
+        "page_area_fraction": 0.0931
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0044",
+    "caption": "사업화 추진전략",
+    "pdf_page_candidate": 52,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 50 -\n그림 33 전국 학교 및 병원현황 ※교육정보기록원, 대한병원협회\n3. 사업화 추진계획\n1) 사업화 추진전략 및 향후계획\n① 사업화 제품/기술의 목표고객 및 시장\n에어컨, 히터 등 개별 냉난방 설비를 사용하고 있는 중소규모 건물(병원, 학교 등)을\n목표고객으로 하고 있으며 해당 시장의 규모는 다음과 같다.\n② 사업화추진 전략\n그림 34 사업화 추진전략\n◦ (주)투이솔루션의 에너지 관리 시스템을 구축한 2개 병원이 소속된 요양병원",
+    "section_context_candidate": "3. 사업화 추진계획",
+    "heading_candidates": [
+      "3. 사업화 추진계획",
+      "1) 사업화 추진전략 및 향후계획"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          70.88,
+          463.89,
+          552.54,
+          648.13
+        ],
+        "page_area_fraction": 0.1773
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          182.18,
+          180.16,
+          412.94,
+          382.02
+        ],
+        "page_area_fraction": 0.0931
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0045",
+    "caption": "매출실적계획",
+    "pdf_page_candidate": 54,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 25,
+    "prefix_match_only": false,
+    "text_before": "재료비 및\n설비투자비 840 3,498 8,015 12,246\n경상운영비 392 858 1,642 2,818\n계 1,792 5,581 12,002 19,089\n생 산 계 획 1,554 4,538 10,145 23,605\n판매계획\n(단위:백만)",
+    "caption_and_following_text": "내 수 5,113 14,932 33,383 77,674\n수 출 200 1,000 2,000 5,000\n계 5,313 15,932 35,383 82,674\n표 21 매출실적계획\n◦ 세부 근거자료\n그림 35 용도 별 건축물 분석 그림 36 면적 별 건축물 분석\n예상 매출액의 산정을 위해 아래의 가정을 수립\n가정 1. 국토 교통부 2014년(전국 건물유형/면적), 전국 건물 데이터 기반\n가정 2. 1차 타겟 시장으로는 전국 초, 중, 고등학교, 병원\n가정 3. 2차 타겟 시장으로는 서울/경기/부산/경남/울산",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [
+      "2) 매출실적 및 계획"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.4,
+          308.06,
+          281.61,
+          468.45
+        ],
+        "page_area_fraction": 0.0658
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.47,
+          309.14,
+          519.2,
+          462.93
+        ],
+        "page_area_fraction": 0.0629
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0046",
+    "caption": "용도 별 건축물 분석",
+    "pdf_page_candidate": 54,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "경상운영비 392 858 1,642 2,818\n계 1,792 5,581 12,002 19,089\n생 산 계 획 1,554 4,538 10,145 23,605\n판매계획\n(단위:백만)\n내 수 5,113 14,932 33,383 77,674\n수 출 200 1,000 2,000 5,000",
+    "caption_and_following_text": "계 5,313 15,932 35,383 82,674\n표 21 매출실적계획\n◦ 세부 근거자료\n그림 35 용도 별 건축물 분석 그림 36 면적 별 건축물 분석\n예상 매출액의 산정을 위해 아래의 가정을 수립\n가정 1. 국토 교통부 2014년(전국 건물유형/면적), 전국 건물 데이터 기반\n가정 2. 1차 타겟 시장으로는 전국 초, 중, 고등학교, 병원\n가정 3. 2차 타겟 시장으로는 서울/경기/부산/경남/울산\n가정 3. 거점 측면 Cloud 서비스 가정 시 거리가 멀수록 비용 발생\n가정 4. 솔루션 확대 적용을 위하여 단계 별 금액 변동 정책 적용",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [
+      "2) 매출실적 및 계획"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.4,
+          308.06,
+          281.61,
+          468.45
+        ],
+        "page_area_fraction": 0.0658
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.47,
+          309.14,
+          519.2,
+          462.93
+        ],
+        "page_area_fraction": 0.0629
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0047",
+    "caption": "면적 별 건축물 분석",
+    "pdf_page_candidate": 54,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 27,
+    "prefix_match_only": false,
+    "text_before": "경상운영비 392 858 1,642 2,818\n계 1,792 5,581 12,002 19,089\n생 산 계 획 1,554 4,538 10,145 23,605\n판매계획\n(단위:백만)\n내 수 5,113 14,932 33,383 77,674\n수 출 200 1,000 2,000 5,000",
+    "caption_and_following_text": "계 5,313 15,932 35,383 82,674\n표 21 매출실적계획\n◦ 세부 근거자료\n그림 35 용도 별 건축물 분석 그림 36 면적 별 건축물 분석\n예상 매출액의 산정을 위해 아래의 가정을 수립\n가정 1. 국토 교통부 2014년(전국 건물유형/면적), 전국 건물 데이터 기반\n가정 2. 1차 타겟 시장으로는 전국 초, 중, 고등학교, 병원\n가정 3. 2차 타겟 시장으로는 서울/경기/부산/경남/울산\n가정 3. 거점 측면 Cloud 서비스 가정 시 거리가 멀수록 비용 발생\n가정 4. 솔루션 확대 적용을 위하여 단계 별 금액 변동 정책 적용",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [
+      "2) 매출실적 및 계획"
+    ],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          76.4,
+          308.06,
+          281.61,
+          468.45
+        ],
+        "page_area_fraction": 0.0658
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          314.47,
+          309.14,
+          519.2,
+          462.93
+        ],
+        "page_area_fraction": 0.0629
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0048",
+    "caption": "투자계획",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 53 -\n① 투자계획\n사업 규모의 확대에 따라 연구 개발, 생산, 기타 관리 및 영업에 필요한 인원을\n지속적으로 확충하며, 이에 따라 경상 운영비를 인건비의 약 70% 규모로 지속적으로 증\n액할 것이다. 또한, 생산 확대에 따라 재료비 및 설비 등에 지속적으로 연구개발비를 투\n자하여 연관 기술 개발에 필요한 비용을 투자할 예정이다.\n(단위:백만원)\n구 분\n사 업 화 년 도\n(2019년)",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0049",
+    "caption": "생산계획",
+    "pdf_page_candidate": 55,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 24,
+    "prefix_match_only": false,
+    "text_before": "사 업 화 품 목 에너지관리시스템 및 BLE Mesh 장비\n투\n자\n계\n획\n인 건 비 560 1,225 2,345 4,025\n재료비 및",
+    "caption_and_following_text": "설비투자비 840 3,498 8,015 12,246\n경상운영비 392 858 1,642 2,818\n계 1,792 5,581 12,002 19,089\n생 산 계 획 1,554 4,538 10,145 23,605\n표 22 투자계획\n② 생산계획\n생산 계획은 매출 계획에 따라 그에 대한 생산 비용을 산정하였음.\n(단위:백만원)\n구 분\n사 업 화 년 도",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0050",
+    "caption": "판매계획",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 0,
+    "prefix_match_only": false,
+    "text_before": "",
+    "caption_and_following_text": "- 54 -\n③ 판매계획\n1차 타겟 시장으로는 학교, 병원을 가정하여, 전국 평균 점유율 20%를 목표로 하\n였을 때 국내 총 매출 목표액은 약 340억이다.\n목표\n시장점유\n율\n목표\n개소\n게이트웨이",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.15,
+          342.46,
+          511.76,
+          519.99
+        ],
+        "page_area_fraction": 0.1482
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0051",
+    "caption": "면적에 따른 BEMS 도입 가능성",
+    "pdf_page_candidate": 56,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 22,
+    "prefix_match_only": false,
+    "text_before": "총 매출\n목표액\n학교 20% 2233 1 200 12,120,000 27,061,536,000\n일반 15% 200 1 10 720,000 143,856,000\n병원 25% 374 1 300 18,120,000 6,781,410,000\n(평균 점유율 20%, 1690개소 설치 목표)\n(예상 판매가 : 게이트웨이 120,000원, 플러그 60,000원) 33,986,802,000",
+    "caption_and_following_text": "표 24 판매계획\n2차 타겟 시장으로는 수도권인 서울/경기와 BEMS 관련 투자가 활성화된 부산,\n경남, 울산의 중소형 건물을 가정하여 추산하였다.\n그림 37 면적에 따른 BEMS 도입 가능성\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          94.15,
+          342.46,
+          511.76,
+          519.99
+        ],
+        "page_area_fraction": 0.1482
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0052",
+    "caption": "국토 교통부 2014년 전국 지역/면적/용도별 통계, 표시된 부분이 2차 타깃 시장",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 39,
+    "prefix_match_only": false,
+    "text_before": "울산 131,097 48,407 33,476 10,529 17,604 10,560 5,770 3,290 1,461\n세종 32,041 16,483 7,467 1,840 2,774 1,682 861 711 223\n강원 384,431 226,069 78,756 21,965 27,624 14,948 9,462 4,510 1,097\n충북 366,568 191,354 86,354 23,045 31,242 17,785 10,432 5,082 1,274\n충남 498,650 283,133 104,477 26,192 36,468 25,843 14,270 6,474 1,793\n전북 431,189 249,215 86,564 22,985 32,029 20,649 12,995 5,080 1,672\n전남 616,487 411,287 110,010 24,745 32,866 18,619 12,982 4,661 1,317",
+    "caption_and_following_text": "경북 775,377 474,925 144,912 37,576 54,545 35,255 18,799 7,195 2,170\n경남 687,783 397,526 136,218 39,907 52,833 29,213 19,036 10,331 2,719\n제주 154,988 92,628 30,765 8,345 10,458 7,172 3,858 1,600 162\n표 25 국토 교통부 2014년 전국 지역/면적/용도별 통계, 표시된 부분이 2차 타깃 시장\n2차 타깃 시장은 3백㎡부터 1만㎡ 이상 이상의 연면적을 가진 건물로, 50㎡ 당 제\n어장치 3, 면적에 관계없이 게이트웨이는 1개를 도입하며, 전국 평균 시장점유율을 5.9%\n로 가정했을 때 최종 누적 매출 목표액은 약 2280억이다.\n(단위:백만원)\n3백㎡\n~5백㎡미만",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0053",
+    "caption": "지역 별 매출 예상치",
+    "pdf_page_candidate": 57,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 58,
+    "prefix_match_only": false,
+    "text_before": "1천㎡\n~3천㎡미만\n3천㎡\n~1만㎡미만 1만㎡이상 합계\n서울 3,081 7,183 8,286 16,644 20,232 55,428\n경기 3,754 7,276 8,968 22,372 21,644 64,016\n부산 2,461 5,398 8,273 16,079 21,961 54,175",
+    "caption_and_following_text": "경남 3,090 4,633 8,360 16,401 11,036 43,523\n울산 686 1,116 1,689 3,482 3,953 10,928\n합계 13,075 25,609 35,578 74,980 78,828 228,071\n표 26 지역 별 매출 예상치\n(지역별 정책 참고 : Cloud 서비스 가정 시 네트워크 등 거점 측면 가중치 사용, 건물 규모에 따라\n가격정책/솔루션 기능 감안한 가중치 반영)\n국가연구개발 보고서원문 성과물 전담기관인 한국과학기술정보연구원에서 가공·서비스 하는 연구보고서는 동의 없이 상업적 및 기타 영리목적으로 사용할 수 없습니다.",
+    "section_context_candidate": "2) 매출실적 및 계획",
+    "heading_candidates": [],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0054",
+    "caption": "국내/해외 시장규모",
+    "pdf_page_candidate": 59,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 13,
+    "prefix_match_only": false,
+    "text_before": "(단위 : 억원)\n구 분 현재 예상\n(2016년) (2017년) (2018년) (2019년) (2020년) (2021년)\n해외시장 규모 44,406 49,340 57,975 62,909 74,010 87,579\n성장율 20% 11% 18% 9% 18% 9%\n국내시장 규모 1,679 2,184 2,690 3,195 3,790 4,510\n성장율 38% 30% 23% 19% 19% 19%",
+    "caption_and_following_text": "합계\n규모 46,085 51,524 60,665 66,104 77,800 92,089\n성장율 21% 12% 18% 9% 18% 18%\n표 27 국내/해외 시장규모\n※ 산출근거 :\nPike Research 1Q, 산업통상자원부와 정보통신산업진흥원 “산업국내 EMS 도입현황 실태조사”\n2) 세계시장의 성격\n◦ 안정성 : 각국 정부는 스마트 빌딩 구축 시 각종 세금 혜택을 제공함으로써\n시장 성장에 큰 역할을 하고 있으며, 다양한 인증 및 평가 시스템을 제공\n◦ 성장성 : 2011년 건물 에너지 관리 시스템BEMS 분야의 세계 시장은 19억달러",
+    "section_context_candidate": "1. 경쟁제품 및 경쟁사 개요",
+    "heading_candidates": [],
+    "image_regions": [
+      {
+        "bbox_pdf_points_bottom_origin": [
+          96.07,
+          306.98,
+          310.15,
+          418.7
+        ],
+        "page_area_fraction": 0.0478
+      },
+      {
+        "bbox_pdf_points_bottom_origin": [
+          310.15,
+          306.98,
+          524.24,
+          418.7
+        ],
+        "page_area_fraction": 0.0478
+      }
+    ],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0055",
+    "caption": "사업기간중 신규 고용인력",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 3,
+    "prefix_match_only": false,
+    "text_before": "- 59 -\n제 3 장 제 4 절 고용 창출 효과\n1. 신규인력 고용(2명)",
+    "caption_and_following_text": "번호 소속 성명 입사일 사업참여 기간\n1 (주)투이랩 임 병 호 2016.04.01 2016.04.08. ~ 2018.04.07\n2 (주)투이랩 이 현 오 2016.04.01 2016.04.08. ~ 2017.04.31\n표 28 사업기간중 신규 고용인력\n※ 신규 고용인력 증비자료 부록 첨부\n2. 고용창출 계획\n구 분\n사 업 화 년 도\n(2019년)\n과제종료후 1년",
+    "section_context_candidate": "제 3 장 제 4 절 고용 창출 효과",
+    "heading_candidates": [
+      "제 3 장 제 4 절 고용 창출 효과",
+      "2. 고용창출 계획"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  },
+  {
+    "visual_id": "I21-V0056",
+    "caption": "고용창출계획",
+    "pdf_page_candidate": 61,
+    "location_evidence": "caption_text_match",
+    "caption_line_index": 5,
+    "prefix_match_only": false,
+    "text_before": "- 59 -\n제 3 장 제 4 절 고용 창출 효과\n1. 신규인력 고용(2명)\n번호 소속 성명 입사일 사업참여 기간\n1 (주)투이랩 임 병 호 2016.04.01 2016.04.08. ~ 2018.04.07",
+    "caption_and_following_text": "2 (주)투이랩 이 현 오 2016.04.01 2016.04.08. ~ 2017.04.31\n표 28 사업기간중 신규 고용인력\n※ 신규 고용인력 증비자료 부록 첨부\n2. 고용창출 계획\n구 분\n사 업 화 년 도\n(2019년)\n과제종료후 1년\n(2020년)\n과제종료후 2년",
+    "section_context_candidate": "제 3 장 제 4 절 고용 창출 효과",
+    "heading_candidates": [
+      "제 3 장 제 4 절 고용 창출 효과",
+      "2. 고용창출 계획"
+    ],
+    "image_regions": [],
+    "association_verified": false,
+    "evidence_scope": "whole_page_mechanical_scan_and_nearby_text_not_individual_visual_interpretation"
+  }
+]
